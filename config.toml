@@ -1,5 +1,7 @@
 # The URL the site will be built for
 base_url = "https://open-mSupply-docs.msupply.org.nz"
+default_language = "en"
+
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -16,3 +18,21 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
+
+# Set HTML file language
+language_code = "en-US"
+
+# More about site's title
+title_separator = "-"  # set as |, -, _, etc
+#itle_addition = "Open mSupply... Health Supply Chain Management for the World"
+
+# Set date format in blog publish metadata
+timeformat = "%B %e, %Y" # e.g. June 14, 2021
+timezone = "America/New_York"
+
+# Menu items
+[[extra.menu.main]]
+name = "Docs"
+section = "docs"
+url = "/docs/introduction/"
+weight = 10
