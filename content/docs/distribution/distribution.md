@@ -18,3 +18,7 @@ top = false
 
 Distribution in Open mSupply involves the following acitivities:
 * Receiving requisitions (orders) from facilities you supply (customers/clients)
+
+Something else
+
+![test2](/docs/distribution/test.png)
