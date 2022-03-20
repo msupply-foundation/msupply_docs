@@ -5,7 +5,7 @@
 title = "Open mSupply"
 
 [extra]
-lead = '<b>Open mSupply</b> consists of an ecosystem of software and services to help manage health supply chains'
+lead = '<b>Open mSupply</b> consists of an ecosystem of software and services to help manage health supply chains</br>You're on the English site: Change to  <a href="/fr">French</a> '
 url = "/docs/introduction/"
 url_button = "👉 Open mSupply Destkop Docs"
 repo_version = "GitHub v0.1.0"
