@@ -1,0 +1,32 @@
++++
+
+
+# The homepage contents
+title = "Open mSupply"
+
+[extra]
+lead = '<b>Open mSupply</b> consists of an ecosystem of software and services to help manage health supply chains'
+url = "/docs/introduction/"
+url_button = "👉 Open mSupply Destkop Docs"
+repo_version = "GitHub v0.1.0"
+repo_license = "Open-source MIT License."
+repo_url = "https://github.com/aaranxu/adidoks"
+
+
+[[extra.list]]
+title = "mSupply mobile"
+content = 'The <a href="https://docs.msupply.foundation/en:mobile">User Documentation wiki</a> for mSupply mobile!'
+
+[[extra.list]]
+title = "Legacy mSupply Desktop"
+content = 'The <a href="https://docs.msupply.org.nz/">User Documentation wiki</a> for desktop mSupply- now over 20 years old!'
+
+[[extra.list]]
+title = "mSupply Dashboard"
+content = 'The <a href="https://docs.msupply.org.nz/">User Documentation wiki</a> for the mSupply Dashboard!'
+
+[[extra.list]]
+title = "mSupply Coldchain"
+content = 'The <a href="https://docs.msupply.org.nz/">User Documentation wiki</a> for the mSupply Dashboard!'
+
++++
