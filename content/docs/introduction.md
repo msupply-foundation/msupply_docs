@@ -22,3 +22,8 @@ Welcome to Open mSupply....
 ## History
 
 Open mSupply builds on over 20 years of mSupply, over which time it has become the most used LMIS in low & middle income countries.
+
+
+## What does it do?
+
+Not much
