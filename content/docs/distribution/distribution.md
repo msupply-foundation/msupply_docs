@@ -18,7 +18,9 @@ top = false
 
 Distribution in Open mSupply involves the following acitivities:
 * Receiving requisitions (orders) from facilities you supply (customers/clients)
+* Processing each requistion to determine what items and quantities to supply to the customer.
+* Creating an outbound shipment from the requisition.
+* (Possibly) printing a warehouse picking list from the shipment information
+* Finalising the shipment
 
-Something else
 
-![test2](/docs/distribution/test.png)
