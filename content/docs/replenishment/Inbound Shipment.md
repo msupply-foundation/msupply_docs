@@ -1,5 +1,5 @@
 +++
-title = "Overview"
+title = "Replenishment"
 description = "Introductory tutorial for Open mSupply."
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
@@ -19,13 +19,6 @@ top = false
 
 Distribution in Open mSupply involves the following activities:
 * Receiving requisitions (orders) from facilities you supply (customers/clients)
-<<<<<<< Updated upstream
-* Processing each requistion to determine what items and quantities to supply to the customer.
-* Creating an outbound shipment from the requisition.
-* (Possibly) printing a warehouse picking list from the shipment information
-* Finalising the shipment
-
-=======
 * Issuing stock (Outbound Shipments) to facilitues you supply
 * 
 
@@ -36,5 +29,4 @@ Issuing goods to a customer
 ## Requisitions
 
 ## Customer
->>>>>>> Stashed changes
 

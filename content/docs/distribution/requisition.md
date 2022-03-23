@@ -1,10 +1,10 @@
 +++
-title = "Outbound Shipment"
-description = "Issuing stock to your customers."
+title = "Requisitions"
+description = "To manage your customers' orders"
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
 draft = false
-weight = 2
+weight = 3
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -26,7 +26,7 @@ To access the **Outbound Shipment** menu, press the **Distribution** menu in the
 
 In the headers, you can see the view or edit the following information: 
 * **Customer Name**: the name of the customer you are issuing stock to
-* **Customer Ref**: a customer reference number *(eg. PO#123456 or 'December Order')*
+* **Customer Ref**: a customer reference number *(eg. 'PO#123456' or 'December Order')*
 
 ### Select action dropdown
 
@@ -34,6 +34,7 @@ Using the bulk actions dropdown, you can perform the following activities:
 * **Delete selected lines**: this action will delete all selected line of the list of items
 
 ### Add Item Button
+
 
 This button will be used to add an item to your Outbound Shipment. 
 
@@ -56,7 +57,8 @@ This button will be used to add an item to your Outbound Shipment.
 
 
 
-## Creating a new Outbound Shipment
+## 1 Creating a new Outbound Shipment
+
 
 1. Go to **Distribution** > **Outbound Shipment** in the navigation panel. 
 2. Press the **New Shipment** button, in the top right corner. 
