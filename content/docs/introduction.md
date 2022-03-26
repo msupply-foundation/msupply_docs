@@ -28,9 +28,25 @@ Open mSupply builds on over 20 years of mSupply, over which time it has become t
 
 In short, Open mSupply manages your inventory, recording every receipt and issue of goods, and thereby providing a running balance of your stock on hand of each item.
 
-In truth, mSupply does much more than that. Features include:
+Open mSupply does much more than that. Features include:
 
-* 
+* Manage your inventory
+	* Easily see per-batch stock on hand.
+	* Manage shelf locations for your store/warehouse.
+	* Assign locations to incoming stock, or change locations as you rearrange stock in your warehouse.
+	* Perform stocktakes, and assign reasons for inventory adjustments.
+* Receive and fulfil orders from customers (facilities you supply)
+* Place orders with your supplying store
+	* Quantify amounts required based on simple or complex formulae.
+	* Track order status as your supplying store fulfils and ships the order!
+	* Receive goods into stock when the order arrives.
+* Be alerted to low stock levels from the dashboard.
+
+## What makes mSupply special?
+There are a lot of systems that manage inventory. mSupply has unique features that make it ideal for use for health supply chains in low resource settings:
+* **Offline first** mSupply is designed from the ground up to work without internet. We know from 20 years of experience that even the most reliable internet connections sometimes fail or get overloaded. mSupply allows you to work without having to worry about second-by-second internet quality. Of course, when you need to place orders or receive updates from other facilities, you need internet for a few minutes then.
+* **Scalable** We've designed Open mSupply to handle billions of transactions a year, but to also work on an Android tablet! You can implement mSupply in one facility, knowing that if you later decide to deploy thousands of sites, mSupply will still be the right tool
+
 
 To get some insight into the full breadth of mSupply's functionality, have a look at the legacy mSupply software documentations at [https://www.msupply.org.nz](https://www.msupply.org.nz) - it's almost 1000 pages if you print it all (so maybe don't  ☺️)
 

@@ -12,19 +12,23 @@ repo_url = "https://github.com/aaranxu/adidoks"
 
 
 [[extra.list]]
+icon = "mSupplymobile.png"
 title = "mSupply mobile"
 content = 'The <a href="https://docs.msupply.foundation/fr:mobile">User Documentation wiki</a> pourd mSupply mobile!'
 
 [[extra.list]]
+icon = "mSupplyTorso.svg"
 title = "Legacy mSupply Desktop"
 content = 'The <a href="https://docs.msupply.org.nz/">User Documentation wiki</a> for desktop mSupply- now over 20 years old!'
 
 [[extra.list]]
+icon = "mSupplyTorso.svg"
 title = "mSupply Dashboard"
 content = 'The <a href="https://docs.msupply.org.nz/">User Documentation wiki</a> for the mSupply Dashboard!'
 
 
 [[extra.list]]
+icon = "mSupplyTorso.svg"
 title = "mSupply Coldchain"
 content = 'The <a href="https://docs.msupply.org.nz/">User Documentation wiki</a> for the mSupply Dashboard!'
 
