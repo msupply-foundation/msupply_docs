@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://open-mSupply-docs.msupply.org.nz/sitemap.xml
