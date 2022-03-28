@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/tmf/docs/
+    - /bin/cp -R public $DEPLOYPATH

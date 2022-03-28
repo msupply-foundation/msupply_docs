@@ -1,6 +1,6 @@
 +++
 title = "Items"
-description = "Issuing stock to your customers."
+description = "Viewing items."
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
 draft = false
@@ -14,7 +14,10 @@ toc = true
 top = false
 +++
 
-Outbound Shipments can used to issue stock to a customer. 
+Click **Cataglogue > Items** to show the item list
+
+![item list](/docs/catalogue/item_menu.png)
+
 
 To access the **Outbound Shipment** menu, press the **Distribution** menu in the navigation panel. 
 

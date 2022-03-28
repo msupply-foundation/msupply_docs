@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://open-mSupply-docs.msupply.org.nz"
+base_url = "https://docs.msupply.foundation"
 default_language = "en"
 title="mSupply"
 
