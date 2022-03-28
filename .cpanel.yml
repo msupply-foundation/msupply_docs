@@ -1,4 +1,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/tmf/docs/
-    - /bin/cp -R public $DEPLOYPATH
+    - /bin/cp -a /home/tmf/respositories/msupply_docs/public/. $DEPLOYPATH
+
+    

@@ -8,9 +8,9 @@ title = "Open mSupply"
 lead = '<b>Open mSupply</b> consists of an ecosystem of software and services to help manage health supply chains</br>You`re on the English site: Change to  <a href="/fr">French</a> '
 url = "/docs/introduction/"
 url_button = "👉 Open mSupply Destkop Docs"
-repo_version = "GitHub v0.1.0"
-repo_license = "Open-source MIT License."
-repo_url = "https://github.com/aaranxu/adidoks"
+repo_version = "GitHub v1 beta"
+repo_license = "Open-source AGPL Licens."
+repo_url = "https://github.com/openmsupply/remote-server"
 
 
 [[extra.list]]
