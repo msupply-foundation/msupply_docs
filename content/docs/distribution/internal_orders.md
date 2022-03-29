@@ -14,7 +14,9 @@ toc = true
 top = false
 +++
 
+<div class="impt">
 Outbound Shipments can used to issue stock to a customer. 
+</div>
 
 To access the **Outbound Shipment** menu, press the **Distribution** menu in the navigation panel. 
 
