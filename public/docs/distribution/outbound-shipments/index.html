@@ -48,7 +48,7 @@
 
 	
 
-<title>Outbound Shipment - mSupply</title>
+<title>Outbound Shipments - mSupply</title>
 <meta name="description" content="Issuing stock to your customers.">
 <link rel="canonical" href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/">
 
@@ -235,7 +235,7 @@
 							<h3>Distribution</h3>
 							<ul class="list-unstyled">
 							                           
-									<li><a class="docs-link active" href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/">Outbound Shipment</a></li>
+									<li><a class="docs-link active" href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/">Outbound Shipments</a></li>
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/distribution/internal-orders/">Requisitions</a></li>
 							                           
@@ -275,6 +275,8 @@
 							<h3>Inventory</h3>
 							<ul class="list-unstyled">
 							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/inventory/locations/">Locations</a></li>
+							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/inventory/stock-view/">Viewing Inventory</a></li>
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/inventory/stock-takes/">Stock Takes</a></li>
@@ -294,13 +296,24 @@
   			<nav id="TableOfContents">
   					<ul>
   							
-  							<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#creating-a-new-outbound-shipment">Creating a new Outbound Shipment</a></li>
+  							<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#create-a-new-outbound-shipment">Create a new Outbound Shipment</a></li>
   							
   							
-  							<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#outbound-shipment-headers">Outbound Shipment Headers</a></li>
+  							<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#add-items">Add items</a></li>
   							
-  							
-  							<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#outbound-shipment-information-panel">Outbound Shipment Information Panel</a></li>
+  									<ul>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#add-item-button">Add Item Button</a></li>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#select-an-item">Select an item</a></li>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#issue-a-quantity-of-units">Issue a quantity of units</a></li>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#issue-a-quantity-of-packs">Issue a quantity of packs</a></li>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#manual-allocation">Manual Allocation</a></li>
+  											
+  									</ul>
   							
   							
   					</ul>
@@ -310,29 +323,108 @@
   
 
       <main class="docs-content col-lg-11 col-xl-9">
-        <h1>Outbound Shipment</h1>
+        <h1>Outbound Shipments</h1>
         <p class="lead">Issuing stock to your customers</p>
         <p>Outbound Shipments can used to issue stock to a customer. </p>
+<p>If you used mSupply in the past, you may be familiar with the term <strong>Customer Invoice</strong>. An Outbound Shipment can be used to:</p>
+<ul>
+<li>Transfer stock to another store using mSupply</li>
+<li>Issue stock to a customer</li>
+<li>Fulfill requisitions (customer orders)</li>
+</ul>
 <p>To access the <strong>Outbound Shipment</strong> menu, press the <strong>Distribution</strong> menu in the navigation panel. </p>
 <p><img src="/docs/gotoos2.png" alt="gotooos" /></p>
-<h2 id="creating-a-new-outbound-shipment">Creating a new Outbound Shipment</h2>
+<h2 id="create-a-new-outbound-shipment">Create a new Outbound Shipment</h2>
 <ol>
-<li>Go to <strong>Distribution</strong> &gt; <strong>Outbound Shipment</strong></li>
-<li>Press the <strong>New Shipment</strong> button, in the top right corner</li>
+<li>
+<p>Go to <strong>Distribution</strong> &gt; <strong>Outbound Shipment</strong></p>
+</li>
+<li>
+<p>Press the <strong>New Shipment</strong> button, in the top right corner</p>
+</li>
 </ol>
 <p><img src="/docs/clicknewshipment.png" alt="login!" /></p>
 <ol start="3">
-<li>In the new window, you will be presented with a list of available choice. You can select your customer from the list or you can type as much of a customer name and select it. </li>
+<li>In the new window, you will be presented with a list of available customers. You can select your customer from the list or you can type as much of a customer name and select it (or tap on it).
+&gt;<strong>Note:</strong> In below example, we are issuing stock to <strong>Kopu Health Center</strong>. </li>
 </ol>
-<p><em>In our example, we are issuing stock to the Kopu Health Center</em>. </p>
 <p><img src="/docs/os_select_customer.gif" alt="gif" /></p>
 <ol start="4">
-<li>If you have selected the wrong customer, you can always type the name of another customer or select one the dropdown list.</li>
+<li>Your new Outbound Shipment has been created and if everything went well, you should see the name of your customer in the top left corner and the status should be <code>Draft</code> </li>
+</ol>
+<p><img src="/docs/os_created.png" alt="" /></p>
+<ol start="5">
+<li>If you have selected the wrong customer, you can always type the name of another customer or select one the dropdown list: </li>
 </ol>
 <p><img src="/docs/os_change_customer.gif" alt="gif" /></p>
-<p><img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" alt="Alt Text" /></p>
-<h2 id="outbound-shipment-headers">Outbound Shipment Headers</h2>
-<h2 id="outbound-shipment-information-panel">Outbound Shipment Information Panel</h2>
+<h2 id="add-items">Add items</h2>
+<h3 id="add-item-button">Add Item Button</h3>
+<p>Tap on the <strong>Add Item</strong> button (top right corner). </p>
+<p>A new window <code>Add Item</code> opens. </p>
+<p><img src="/docs/distribution/additembutton.png" alt="Add Item button" /></p>
+<h3 id="select-an-item">Select an item</h3>
+<p>In the Add Item window, you can look up an item by:</p>
+<ul>
+<li>reading through the list of available items</li>
+<li>or by typing as much of an item name</li>
+<li>or by typing as much of an item code</li>
+</ul>
+<p>Once your item is highligthed, tap on the name or press <code>Enter</code>.</p>
+<blockquote>
+<p><strong>Note:</strong> In our example, we are issuing the item <em>030453 - Amoxicillin 250mg tabs</em>. When selecting an item, you can see on the right side of the list, how many units are available in your store. </p>
+</blockquote>
+<p><img src="/docs/os_additem.gif" alt="Alt Text" /></p>
+<p>Once an item is selected, you can see the following information: </p>
+<p><strong>Headers</strong>:</p>
+<p><img src="/docs/additem_headers.png" alt="" /></p>
+<ul>
+<li>Item code and name (eg. <em>030453 Amoxicillin 250 mg Tabs</em>)</li>
+<li>the available stock quantity for this item (eg. <em>3527 units</em>)</li>
+<li>the item's unit (eg. <em>Tab</em>)</li>
+</ul>
+<blockquote>
+<p><em><strong>Example:</strong></em> For the item <em>030453 - Amoxicillin 250mg tabs</em>, there are 3527 tabs available. </p>
+</blockquote>
+<p><strong>Issue <code>[Issue Quantity]</code> units in pack of <code>[Pack Size]</code></strong></p>
+<p><img src="/docs/os_issuequantityinunits.png" alt="" /></p>
+<p>In the <code>[Issue Quantity]</code> field, you can enter the quantity that you want to issue to your customer. </p>
+<p>You have the possibility to issue a quantity of units or a quantity of packs by changing the value in the <code>[Pack Size]</code> dropdown list. Default value is <code>Any</code>. </p>
+<p><strong>List of available batches</strong>:</p>
+<p><img src="/docs/os_additem_listofbatches.png" alt="login!" /></p>
+<p>This is a list of batch numbers that you in store for this item: </p>
+<ul>
+<li><strong>Packs</strong>: number of packs to be issued</li>
+<li><strong>Pack Size</strong>: quantity of units per pack</li>
+<li><strong>Unit Qty</strong>: total quantity of units to be issued</li>
+<li><strong>Available</strong>: number of packs available (not already allocated to other shipments)</li>
+<li><strong>In store</strong>: total number of packs in your store</li>
+<li><strong>Batch</strong>: batch number. It is a designation given to products made in the same manufacturing run. </li>
+<li><strong>Expiry</strong>: Expiry date of the batch</li>
+<li><strong>Location</strong>: if you inventory is managed with storage locations, the name of the location where the item is stored. </li>
+<li><strong>Sell</strong>: selling unit price of the item</li>
+<li><strong>On Hold</strong>: indicate whether a batch is on hold or not. You cannot issue a batch that is on hold. </li>
+<li><strong>Placeholder</strong>: the placeholder line is used when the quantity you are issuing is higher than your available stock. </li>
+</ul>
+<h3 id="issue-a-quantity-of-units">Issue a quantity of units</h3>
+<p>By default, you are invited to issue a quantity of <strong>units</strong>, regardless of the pack size (number of units in a pack). </p>
+<p>When entering a number in the <code>[Issue Quantity]</code> field, system automatically chooses the batch number(s) with the shortest expiry date (First to Expire, First Out or FEFO logic). </p>
+<p>In below example, we are issuing 100 units of the item. All 100 units will be taken from the same batch (second row). First batch was not selected because it is expired. </p>
+<p><img src="/docs/os_additem_issueunits.png" alt="additem!" /></p>
+<p>In this other example, we are issuing 1200 units. System selects two batches with different pack sizes. </p>
+<p><img src="/docs/os_additem_issueunitstwobatches.png" alt="additem!" /></p>
+<h3 id="issue-a-quantity-of-packs">Issue a quantity of packs</h3>
+<p>You can decide to issue a quantity of <strong>packs</strong>. To do this, you can change the value in the <code>[Pack Size]</code> dropdown. </p>
+<p>Let's imagine that your customer only wants pack size of 12 units. You can change the dropdown value from <code>Any</code> to <code>12</code>. </p>
+<p><img src="/docs/os_additem_switchtopack.gif" alt="Alt Text" /></p>
+<p>You are now offered to issue a number of packs of 12 units. Only batch number(s) with a pack size of 12 units can be automatically issued.</p>
+<p>In below example, we are issuing 10 packs of 12 units:</p>
+<p><img src="/docs/os_additem_issuepacks.png" alt="additem!" /></p>
+<blockquote>
+<p><strong>Note:</strong> if you had previously entered a quantity of units and you switch to a quantity a packs, the quantity of units will automatically be converted into the correct quantity of packs.<br />
+<img src="/docs/os_issuepacks.gif" alt="Alt Text" /></p>
+</blockquote>
+<h3 id="manual-allocation">Manual Allocation</h3>
+<p>You can manually change what has been allocated by the system. Changing the values at the batch level will automatically update the main <code>[Issue Quantity]</code> field. </p>
 
         
         
