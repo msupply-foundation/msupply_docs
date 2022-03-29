@@ -1,5 +1,5 @@
 +++
-title = "Outbound Shipments: Issuing stock to a customer"
+title = "Outbound Shipments"
 description = "Issuing stock to your customers."
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
@@ -112,12 +112,68 @@ In this section, you can also edit the tax rate (%) for the items sell price. Ta
 
 In this section, you can see or edit a transport reference number (eg. a booking number or a tracking reference). 
 
-### 1.5 Outbound Shipment Status Sequence
+### 1.5 Outbound Shipments Status Sequence
 
-The status sequence is located at the bottom left corner of the Outbound Shipment screen. There are 6 statuses: 
+The status sequence is located at the bottom left corner of the Outbound Shipment screen. 
 
-![OS Status Sequence](/docs/distribution/os_statussequence2.png)
+Passed statuses are hightlighted in blue, next statuses appear in grey. 
 
+<figure>
+<img src="/docs/distribution/os_statussequence2.png" alt="Trulli" style="width:100%">
+<figcaption align = "center"><i>Status Sequence. Current Status is "New".</i></figcaption>
+</figure>
+
+<figure>
+<img src="/docs/distribution/os_statussequence3.png" alt="Trulli" style="width:100%">
+<figcaption align = "center"><i>Status Sequence. Current Status is "Picked".</i></figcaption>
+</figure>
+
+There are 6 statuses: 
+
+| Status | Description |
+| :--- | ---------- |
+| **New** | This is the first status when you create a shipment |
+| **Allocated** | Allocation is confirmed. Goods are no longer available for other shipments but are still part of your inventory. |
+| **Picked** | Shipment is picked and is now ready to ship. Goods are still part of your inventory. |
+| **Shipped** | Shipment has been shipped and goods are no longer part of your inventory. |
+| **Delivered** | Your customer has received the shipment. |
+| **Verified** | Your customer has verified the quantity of the shipment. Goods are now part of their inventory. |
+
+if you hover over the status sequence, a shipment history window appears. You can see the date when a shipment was updated from one status to another. 
+
+![](/docs/distribution/os_statussequence_hover.png)
+
+### 1.6 Hold checkbox
+
+Located on the bottom left corner, on the left of the status sequence. 
+
+Check the `[Hold]` checkbox prevents the Outbound Shipment from being updated to the next status. 
+
+![](/docs/distribution/os_holdcheckbox.png)
+
+### 1.7 Cancel and Confirm button
+
+#### 1.7.1 Cancel button
+
+Click on the `[Cancel]` button to quit the Outbound Shipment view and return to the Outbound Shipments list. 
+
+#### 1.7.2 Confirm button
+
+The `[Confirm]` button is the button to update the status of a shipment. Depending on the current status, you won't confirm the same thing. 
+
+When managing an Outbound Shipment, you can only confirm the Allocation, the Picking and the Shipment. 
+
+| Confirm... | Current Status | Next Status |
+| :---------- | :---------- | :---------- |
+| **Confirm Allocated** | New | Allocated|
+| **Confirm Picked** | Allocated | Picked|
+| **Confirm Shipped** | Picked | Shipped |
+
+You don't have to update a shipment to next status in the sequence. You can choose to skip some of them to go directly to `Confirm Shipped` for example.
+
+To do this, tap on the `[Confirm]` button and select the status you want the shipment to be updated to. 
+
+![Skip Status](/docs/distribution/os_confirmbutton_skipstatuses.gif)
 
 
 ## 2. Adding items to an Outbound Shipment
@@ -177,7 +233,6 @@ This is a list of batch numbers that you in store for this item:
 * **Sell**: selling unit price of the item
 * **On Hold**: indicate whether a batch is on hold or not. You cannot issue a batch that is on hold. 
 * **Placeholder**: the placeholder line is used when the quantity you are issuing is higher than your available stock. 
-
 
 ### 2.2 Issue a quantity of units
 
