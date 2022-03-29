@@ -1,5 +1,5 @@
 +++
-title = "Outbound Shipments"
+title = "Outbound Shipments: Issuing stock to a customer"
 description = "Issuing stock to your customers."
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
@@ -9,7 +9,7 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "Issuing stock to your customers"
+lead = "Issuing stock to a customers"
 toc = true
 top = false
 +++
@@ -25,7 +25,7 @@ To access the **Outbound Shipment** menu, press the **Distribution** menu in the
 
 ![gotooos](/docs/distribution/gotoos2.png)
 
-## Create a new Outbound Shipment
+## 1. Creating a new Outbound Shipment
 
 1. Go to **Distribution** > **Outbound Shipment**
 
@@ -33,20 +33,94 @@ To access the **Outbound Shipment** menu, press the **Distribution** menu in the
 
 ![New Shipment](/docs/distribution/clicknewshipment.png)
 
-3. In the new window, you will be presented with a list of available customers. You can select your customer from the list or you can type as much of a customer name and select it (or tap on it).
+3. A new window opens, inviting you to select a customer. 
+
+### 1.1 Select a Customer
+
+1. In the new window, you will be presented with a list of available customers. You can select your customer from the list or you can type as much of a customer name 
 
 >**Note:** In below example, we are issuing stock to **Kopu Health Center**. 
 ![gif](/docs/distribution/os_select_customer.gif)
 
-4.  Your new Outbound Shipment has been created and if everything went well, you should see the name of your customer in the top left corner and the status should be `[New]` 
+2. Once you tap or press `Enter`, your Outbound Shipment is automatically created.  
+
+    If everything went well, you should see the name of your customer in the top left corner and the status should be `[New]` 
 
 ![](/docs/distribution/os_created.png)
 
-5. If you have selected the wrong customer, you can always type another name in the `[Customer Name]` field or select one the dropdown list: 
+### 1.3 Edit the Customer name
+
+If you have selected the wrong customer, you can always type another name in the `[Customer Name]` field or select one the dropdown list: 
 
 ![gif](/docs/distribution/os_change_customer.gif)
 
-## Add items to an Outbound Shipment
+### 1.2 Enter a Customer Reference
+
+Once your Outbound Shipment has been created, you can enter a customer reference in the `[Customer Ref]` field, if they have one (eg. *PO#1234567*)
+
+### 1.4 View or edit the Outbound Shipment Information Panel
+
+The Information Panel allows you see or to edit information about the Outbound Shipment. It is divided in multiple sections: 
+* Additional Info
+* Related Documents
+* Invoice Details
+* Transport Details
+
+We are planning to add more sections in the future as Open mSupply grows. 
+
+#### 1.4.1 How to open and close the Information Panel ?
+
+To open the Information Panel, you can tap on the `[More]` button, located in the top right corner of the Outbound Shipment view. 
+
+You can close by tap on the `[X Close]` button, on the top right corner of the information panel. 
+
+![Open and close the Information Panel](/docs/distribution/os_infopanel_openclose.gif)
+
+#### 1.4.2 Additional Info
+
+In the **Additional Info** section, you can:
+*  see who created the Outbound Shipment (name of the user)
+* view and edit the Outbound Shipment color. To edit the color, tap on the colored circle and select a color from the 
+* Write or edit a comment
+
+#### 1.4.3 Related Documents
+
+In the **Related Documents** section, you can see other related transaction document for the Outbound Shipment. 
+
+If your Outbound Shipment was created to fulfill a **Requisition**, the reference number of the requisition would appear in this section. 
+
+In the future, we would also include other documents such as temperature records, transportation documents or pickslips. 
+
+#### 1.4.4 Invoice Details
+
+In this section, you will see by default the total selling price of the items listed in the Outbound Shipments. 
+
+You can also add **Service charges** if you wish to add other charges such as Freight Costs. To add a Service charges to the Invoice Details: 
+
+1. Tap on the `[Edit Service Charges]`  buttton. A new window opens. 
+2. Tap on the `[Add charge]` button on the new window. A new line appears in the list of charges. You tap on `[Cancel]` if you do not wish to add anything. 
+3. **Name:** select a service charges in the dropdown list. You can customise the list of available charges. Contact your administrator. 
+4. **Comment:** you can add a comment to provide further details about the new charge. 
+5. **Amount:** enter the amount of the charge. 
+6. **Tax:** enter a % of tax for the charge. 
+7. **Total:** The total field is automatically calculated based on the Amount and the Tax percentage. 
+8. **Delete:** you can tap on the `[Delete Icon]` to delete the charge.  
+
+In this section, you can also edit the tax rate (%) for the items sell price. Tap on the pencil icon and enter 
+
+#### 1.4.5 Transport Details
+
+In this section, you can see or edit a transport reference number (eg. a booking number or a tracking reference). 
+
+### 1.5 Outbound Shipment Status Sequence
+
+The status sequence is located at the bottom left corner of the Outbound Shipment screen. There are 6 statuses: 
+
+![OS Status Sequence](/docs/distribution/os_statussequence2.png)
+
+
+
+## 2. Adding items to an Outbound Shipment
 
 Tap on the `[Add Item]` button (top right corner). 
 
@@ -54,7 +128,7 @@ A new window opens.
 
 ![Add Item button](/docs/distribution/additembutton.png)
 
-### Select an item
+### 2.1 Select an item
 
 In the `[Add Item]` window, you can look up an item by:
 * reading through the list of available items
@@ -69,7 +143,7 @@ Once your item is highligthed, tap on the name or press `Enter`.
 
 Once the item is selected, you can see the following information: 
 
-#### Headers:
+#### 2.1.1 Headers:
 
 ![add item headers](/docs/distribution/additem_headers.png)
 
@@ -79,7 +153,7 @@ Once the item is selected, you can see the following information:
 
 > ***Example:*** For the item *030453 - Amoxicillin 250mg tabs*, there are 3527 tabs available. 
 
-#### Issue `[Issue Quantity]` units in pack of `[Pack Size]`
+#### 2.1.2 Issue `[Issue Quantity]` units in pack of `[Pack Size]`
 
 ![](/docs/distribution/os_issuequantityinunits.png)
 
@@ -87,7 +161,7 @@ In the `[Issue Quantity]` field, you can enter the quantity that you want to iss
 
 By default, you are invited to issue a quantity of units. However, you have the possibility to issue a quantity of packs instead by changing the value in the dropdown`[Pack Size]`
 
-#### List of available batches:
+#### 2.1.3 List of available batches:
 
 ![List of available batch numbers](/docs/distribution/os_additem_listofbatches.png)
 
@@ -105,7 +179,7 @@ This is a list of batch numbers that you in store for this item:
 * **Placeholder**: the placeholder line is used when the quantity you are issuing is higher than your available stock. 
 
 
-### Issue a quantity of units
+### 2.2 Issue a quantity of units
 
 By default, you are invited to issue a quantity of **units**, regardless of the pack size (number of units in a pack). 
 
@@ -119,7 +193,7 @@ In this other example, we are issuing 1200 units. System selects two batches wit
 
 ![additem!](/docs/distribution/os_additem_issueunitstwobatches.png)
 
-### Issue a quantity of packs
+### 2.3 Issue a quantity of packs
 
 You can decide to issue a quantity of **packs**. To do this, you can change the value in the `[Pack Size]` dropdown. 
 
@@ -136,7 +210,7 @@ In below example, we are issuing 10 packs of 12 units:
 > **Note:** if you had previously entered a quantity of units and you switch to a quantity a packs, the quantity of units will automatically be converted into the correct quantity of packs.  
 ![Alt Text](/docs/distribution/os_issuepacks.gif)
 
-### Manual Allocation
+### 2.4 Manual Allocation
 
 Regardless if you chose to issue a quantity of units or packs, you can always manually change the quantity at the batch number level directly before clicking on OK. 
 
@@ -148,61 +222,18 @@ The main `[Issue Quantity]` field will be automatically updated with the new qua
 
 ![Manual Allocation](/docs/distribution/os_additem_manualallocation.gif)
 
-### Confirm Item and Quantity
+### 2.4 Confirm Item and Quantity
 
 When you are happy with the quantity, you can either click on:
 * the `[OK]` button. You are redirected to the Outbound Shipment view and your item has been added to the list. 
 * the `[OK & Next]` button to add another item right away
 * the `[Cancel]` if you do not want to add the item to the Outbound Shipment anymore
 
-## The Outbound Shipment Information Panel
+## Editing an Outbound Shipment Line
 
-The Information Panel allows you see or to edit information about the Outbound Shipment. It is divided in multiple sections: 
-* Additional Info
-* Related Documents
-* Invoice Details
-* Transport Details
+To edit an shipment line, tap or click on it. You will be presented with the `[Ediit Item]` window, which is identical to the `[Add Item]` window, except that the item is already chosen. 
 
-We are planning to add more sections in the future as Open mSupply grows. 
-
-### How to open the Information Panel ?
-
-To open the Information Panel, you can tap on the `[More]` button, located in the top right corner of the Outbound Shipment view. 
-
-You can close by tap on the `[X Close]` button, on the top right corner of the information panel. 
-
-![Open and close the Information Panel](/docs/distribution/os_infopanel_openclose.gif)
-
-### Additional Info
-
-In the **Additional Info** section, you can:
-*  see who created the Outbound Shipment (name of the user)
-* view and edit the Outbound Shipment color. To edit the color, tap on the colored circle and select a color from the 
-* Write or edit a comment
-
-### Related Documents
-
-In the **Related Documents** section, you can see other related transaction document for the Outbound Shipment. 
-
-If your Outbound Shipment was created to fulfill a **Requisition**, the reference number of the requisition would appear in this section. 
-
-In the future, we would also include other documents such as temperature records, transportation documents or pickslips. 
-
-### Invoice Details
-
-In this section, you will see by default the total selling price of the items listed in the Outbound Shipments. 
-
-You can also add **Service charges** if you wish to add other charges such as Freight Costs. To add a Service charges to the Invoice Details: 
-
-1. Tap on the `[Edit Service Charges]`  buttton. A new window opens. 
-2. Tap on the `[Add charge]` button on the new window. A new line appears in the list of charges. You tap on `[Cancel]` if you do not wish to add anything. 
-3. **Name:** select a service charges in the dropdown list. You can customise the list of available charges. Contact your administrator. 
-4. **Comment:** you can add a comment to provide further details about the new charge. 
-5. **Amount:** enter the amount of the charge. 
-6. **Tax:** enter a % of tax for the charge. 
-7. **Total:** The total field is automatically calculated based on the Amount and the Tax percentage. 
-8. **Delete:** you tap on the delete icon to delete the charge.  
-
-
-
+At this stage, you can: 
+* Edit the main `[Issue Quantity]` field 
+* or change the number of packs value at the batch number level
 
