@@ -299,11 +299,9 @@
   							<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#create-a-new-outbound-shipment">Create a new Outbound Shipment</a></li>
   							
   							
-  							<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#add-items">Add items</a></li>
+  							<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#add-items-to-an-outbound-shipment">Add items to an Outbound Shipment</a></li>
   							
   									<ul>
-  											
-  											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#add-item-button">Add Item Button</a></li>
   											
   											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#select-an-item">Select an item</a></li>
   											
@@ -312,6 +310,23 @@
   											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#issue-a-quantity-of-packs">Issue a quantity of packs</a></li>
   											
   											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#manual-allocation">Manual Allocation</a></li>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#confirm-item-and-quantity">Confirm Item and Quantity</a></li>
+  											
+  									</ul>
+  							
+  							
+  							<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#the-outbound-shipment-information-panel">The Outbound Shipment Information Panel</a></li>
+  							
+  									<ul>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#how-to-open-the-information-panel">How to open the Information Panel ?</a></li>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#additional-info">Additional Info</a></li>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#related-documents">Related Documents</a></li>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#invoice-details">Invoice Details</a></li>
   											
   									</ul>
   							
@@ -333,7 +348,7 @@
 <li>Fulfill requisitions (customer orders)</li>
 </ul>
 <p>To access the <strong>Outbound Shipment</strong> menu, press the <strong>Distribution</strong> menu in the navigation panel. </p>
-<p><img src="/docs/gotoos2.png" alt="gotooos" /></p>
+<p><img src="/docs/distribution/gotoos2.png" alt="gotooos" /></p>
 <h2 id="create-a-new-outbound-shipment">Create a new Outbound Shipment</h2>
 <ol>
 <li>
@@ -343,27 +358,28 @@
 <p>Press the <strong>New Shipment</strong> button, in the top right corner</p>
 </li>
 </ol>
-<p><img src="/docs/clicknewshipment.png" alt="login!" /></p>
+<p><img src="/docs/distribution/clicknewshipment.png" alt="New Shipment" /></p>
 <ol start="3">
-<li>In the new window, you will be presented with a list of available customers. You can select your customer from the list or you can type as much of a customer name and select it (or tap on it).
-&gt;<strong>Note:</strong> In below example, we are issuing stock to <strong>Kopu Health Center</strong>. </li>
+<li>In the new window, you will be presented with a list of available customers. You can select your customer from the list or you can type as much of a customer name and select it (or tap on it).</li>
 </ol>
-<p><img src="/docs/os_select_customer.gif" alt="gif" /></p>
+<blockquote>
+<p><strong>Note:</strong> In below example, we are issuing stock to <strong>Kopu Health Center</strong>. 
+<img src="/docs/distribution/os_select_customer.gif" alt="gif" /></p>
+</blockquote>
 <ol start="4">
-<li>Your new Outbound Shipment has been created and if everything went well, you should see the name of your customer in the top left corner and the status should be <code>Draft</code> </li>
+<li>Your new Outbound Shipment has been created and if everything went well, you should see the name of your customer in the top left corner and the status should be <code>[New]</code> </li>
 </ol>
-<p><img src="/docs/os_created.png" alt="" /></p>
+<p><img src="/docs/distribution/os_created.png" alt="" /></p>
 <ol start="5">
-<li>If you have selected the wrong customer, you can always type the name of another customer or select one the dropdown list: </li>
+<li>If you have selected the wrong customer, you can always type another name in the <code>[Customer Name]</code> field or select one the dropdown list: </li>
 </ol>
-<p><img src="/docs/os_change_customer.gif" alt="gif" /></p>
-<h2 id="add-items">Add items</h2>
-<h3 id="add-item-button">Add Item Button</h3>
-<p>Tap on the <strong>Add Item</strong> button (top right corner). </p>
-<p>A new window <code>Add Item</code> opens. </p>
+<p><img src="/docs/distribution/os_change_customer.gif" alt="gif" /></p>
+<h2 id="add-items-to-an-outbound-shipment">Add items to an Outbound Shipment</h2>
+<p>Tap on the <code>[Add Item]</code> button (top right corner). </p>
+<p>A new window opens. </p>
 <p><img src="/docs/distribution/additembutton.png" alt="Add Item button" /></p>
 <h3 id="select-an-item">Select an item</h3>
-<p>In the Add Item window, you can look up an item by:</p>
+<p>In the <code>[Add Item]</code> window, you can look up an item by:</p>
 <ul>
 <li>reading through the list of available items</li>
 <li>or by typing as much of an item name</li>
@@ -373,10 +389,10 @@
 <blockquote>
 <p><strong>Note:</strong> In our example, we are issuing the item <em>030453 - Amoxicillin 250mg tabs</em>. When selecting an item, you can see on the right side of the list, how many units are available in your store. </p>
 </blockquote>
-<p><img src="/docs/os_additem.gif" alt="Alt Text" /></p>
-<p>Once an item is selected, you can see the following information: </p>
-<p><strong>Headers</strong>:</p>
-<p><img src="/docs/additem_headers.png" alt="" /></p>
+<p><img src="/docs/distribution/os_additem.gif" alt="Alt Text" /></p>
+<p>Once the item is selected, you can see the following information: </p>
+<h4 id="headers">Headers:</h4>
+<p><img src="/docs/distribution/additem_headers.png" alt="add item headers" /></p>
 <ul>
 <li>Item code and name (eg. <em>030453 Amoxicillin 250 mg Tabs</em>)</li>
 <li>the available stock quantity for this item (eg. <em>3527 units</em>)</li>
@@ -385,12 +401,12 @@
 <blockquote>
 <p><em><strong>Example:</strong></em> For the item <em>030453 - Amoxicillin 250mg tabs</em>, there are 3527 tabs available. </p>
 </blockquote>
-<p><strong>Issue <code>[Issue Quantity]</code> units in pack of <code>[Pack Size]</code></strong></p>
-<p><img src="/docs/os_issuequantityinunits.png" alt="" /></p>
+<h4 id="issue-issue-quantity-units-in-pack-of-pack-size">Issue <code>[Issue Quantity]</code> units in pack of <code>[Pack Size]</code></h4>
+<p><img src="/docs/distribution/os_issuequantityinunits.png" alt="" /></p>
 <p>In the <code>[Issue Quantity]</code> field, you can enter the quantity that you want to issue to your customer. </p>
-<p>You have the possibility to issue a quantity of units or a quantity of packs by changing the value in the <code>[Pack Size]</code> dropdown list. Default value is <code>Any</code>. </p>
-<p><strong>List of available batches</strong>:</p>
-<p><img src="/docs/os_additem_listofbatches.png" alt="login!" /></p>
+<p>By default, you are invited to issue a quantity of units. However, you have the possibility to issue a quantity of packs instead by changing the value in the dropdown<code>[Pack Size]</code></p>
+<h4 id="list-of-available-batches">List of available batches:</h4>
+<p><img src="/docs/distribution/os_additem_listofbatches.png" alt="List of available batch numbers" /></p>
 <p>This is a list of batch numbers that you in store for this item: </p>
 <ul>
 <li><strong>Packs</strong>: number of packs to be issued</li>
@@ -409,22 +425,72 @@
 <p>By default, you are invited to issue a quantity of <strong>units</strong>, regardless of the pack size (number of units in a pack). </p>
 <p>When entering a number in the <code>[Issue Quantity]</code> field, system automatically chooses the batch number(s) with the shortest expiry date (First to Expire, First Out or FEFO logic). </p>
 <p>In below example, we are issuing 100 units of the item. All 100 units will be taken from the same batch (second row). First batch was not selected because it is expired. </p>
-<p><img src="/docs/os_additem_issueunits.png" alt="additem!" /></p>
+<p><img src="/docs/distribution/os_additem_issueunits.png" alt="additem!" /></p>
 <p>In this other example, we are issuing 1200 units. System selects two batches with different pack sizes. </p>
-<p><img src="/docs/os_additem_issueunitstwobatches.png" alt="additem!" /></p>
+<p><img src="/docs/distribution/os_additem_issueunitstwobatches.png" alt="additem!" /></p>
 <h3 id="issue-a-quantity-of-packs">Issue a quantity of packs</h3>
 <p>You can decide to issue a quantity of <strong>packs</strong>. To do this, you can change the value in the <code>[Pack Size]</code> dropdown. </p>
 <p>Let's imagine that your customer only wants pack size of 12 units. You can change the dropdown value from <code>Any</code> to <code>12</code>. </p>
-<p><img src="/docs/os_additem_switchtopack.gif" alt="Alt Text" /></p>
+<p><img src="/docs/distribution/os_additem_switchtopack.gif" alt="Alt Text" /></p>
 <p>You are now offered to issue a number of packs of 12 units. Only batch number(s) with a pack size of 12 units can be automatically issued.</p>
 <p>In below example, we are issuing 10 packs of 12 units:</p>
-<p><img src="/docs/os_additem_issuepacks.png" alt="additem!" /></p>
+<p><img src="/docs/distribution/os_additem_issuepacks.png" alt="additem!" /></p>
 <blockquote>
 <p><strong>Note:</strong> if you had previously entered a quantity of units and you switch to a quantity a packs, the quantity of units will automatically be converted into the correct quantity of packs.<br />
-<img src="/docs/os_issuepacks.gif" alt="Alt Text" /></p>
+<img src="/docs/distribution/os_issuepacks.gif" alt="Alt Text" /></p>
 </blockquote>
 <h3 id="manual-allocation">Manual Allocation</h3>
-<p>You can manually change what has been allocated by the system. Changing the values at the batch level will automatically update the main <code>[Issue Quantity]</code> field. </p>
+<p>Regardless if you chose to issue a quantity of units or packs, you can always manually change the quantity at the batch number level directly before clicking on OK. </p>
+<p>You simply have to enter or edit the quantity in the <code>[# Packs]</code> column. </p>
+<p>The main <code>[Issue Quantity]</code> field will be automatically updated with the new quantity.</p>
+<blockquote>
+<p><strong>Warning</strong>: when allocating quantities at the batch number level, the quantity you enter is always a quantity of packs. </p>
+</blockquote>
+<p><img src="/docs/distribution/os_additem_manualallocation.gif" alt="Manual Allocation" /></p>
+<h3 id="confirm-item-and-quantity">Confirm Item and Quantity</h3>
+<p>When you are happy with the quantity, you can either click on:</p>
+<ul>
+<li>the <code>[OK]</code> button. You are redirected to the Outbound Shipment view and your item has been added to the list. </li>
+<li>the <code>[OK &amp; Next]</code> button to add another item right away</li>
+<li>the <code>[Cancel]</code> if you do not want to add the item to the Outbound Shipment anymore</li>
+</ul>
+<h2 id="the-outbound-shipment-information-panel">The Outbound Shipment Information Panel</h2>
+<p>The Information Panel allows you see or to edit information about the Outbound Shipment. It is divided in multiple sections: </p>
+<ul>
+<li>Additional Info</li>
+<li>Related Documents</li>
+<li>Invoice Details</li>
+<li>Transport Details</li>
+</ul>
+<p>We are planning to add more sections in the future as Open mSupply grows. </p>
+<h3 id="how-to-open-the-information-panel">How to open the Information Panel ?</h3>
+<p>To open the Information Panel, you can tap on the <code>[More]</code> button, located in the top right corner of the Outbound Shipment view. </p>
+<p>You can close by tap on the <code>[X Close]</code> button, on the top right corner of the information panel. </p>
+<p><img src="/docs/distribution/os_infopanel_openclose.gif" alt="Open and close the Information Panel" /></p>
+<h3 id="additional-info">Additional Info</h3>
+<p>In the <strong>Additional Info</strong> section, you can:</p>
+<ul>
+<li>see who created the Outbound Shipment (name of the user)</li>
+<li>view and edit the Outbound Shipment color. To edit the color, tap on the colored circle and select a color from the </li>
+<li>Write or edit a comment</li>
+</ul>
+<h3 id="related-documents">Related Documents</h3>
+<p>In the <strong>Related Documents</strong> section, you can see other related transaction document for the Outbound Shipment. </p>
+<p>If your Outbound Shipment was created to fulfill a <strong>Requisition</strong>, the reference number of the requisition would appear in this section. </p>
+<p>In the future, we would also include other documents such as temperature records, transportation documents or pickslips. </p>
+<h3 id="invoice-details">Invoice Details</h3>
+<p>In this section, you will see by default the total selling price of the items listed in the Outbound Shipments. </p>
+<p>You can also add <strong>Service charges</strong> if you wish to add other charges such as Freight Costs. To add a Service charges to the Invoice Details: </p>
+<ol>
+<li>Tap on the <code>[Edit Service Charges]</code>  buttton. A new window opens. </li>
+<li>Tap on the <code>[Add charge]</code> button on the new window. A new line appears in the list of charges. You tap on <code>[Cancel]</code> if you do not wish to add anything. </li>
+<li><strong>Name:</strong> select a service charges in the dropdown list. You can customise the list of available charges. Contact your administrator. </li>
+<li><strong>Comment:</strong> you can add a comment to provide further details about the new charge. </li>
+<li><strong>Amount:</strong> enter the amount of the charge. </li>
+<li><strong>Tax:</strong> enter a % of tax for the charge. </li>
+<li><strong>Total:</strong> The total field is automatically calculated based on the Amount and the Tax percentage. </li>
+<li><strong>Delete:</strong> you tap on the delete icon to delete the charge.</li>
+</ol>
 
         
         
