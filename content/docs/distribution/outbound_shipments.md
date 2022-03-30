@@ -21,9 +21,9 @@ If you used mSupply in the past, you may be familiar with the term **Customer In
 * Issue stock to a customer
 * Fulfill requisitions (customer orders)
 
-## <span class="headers">Viewing Outbound Shipments</span>
+## Viewing Outbound Shipments
 
-### <span class="headers">Open the Outbound Shipments Menu</span>
+### Open the Outbound Shipments Menu
 
 To access the **Outbound Shipment** menu, press the **Distribution** menu in the navigation panel. 
 
@@ -37,7 +37,7 @@ From this screen you can:
 * Export one or multiple Outbound Shipments
 * Print one or multiple Outbound Shipments
 
-### <span class="headers">List of Outbound Shipments</span>
+### List of Outbound Shipments
 
 ![gotooos](/docs/distribution/os_list.png)
 
@@ -60,78 +60,94 @@ From this screen you can:
 
 ![Page](/docs/distribution/os_list_pagenumbers.png)
 
-### <span class="headers">Search by Customer Name</span>
+### Search by Customer Name
 
 You can filter the list of shipments by customer name. This can be useful if you're looking for one particular shipment!
 
-Type the name of a customer in the <mark class="hl">Search by name</mark> fild (on the left, just above the list headers). All the shipments for this customer appear in the list. 
+Type the name of a customer in the `Search by name` field (on the left, just above the list headers). All the shipments for this customer appear in the list. 
 
-### <span class="headers">Export Outbound Shipments</span>
+### Export Outbound Shipments
 
 [IN PROGRESS]
 
-## <span class="headers">Creating a new Outbound Shipment</span>
+### Delete an Outbound Shipment
 
-1. Go to <mark class="hl">Distribution</mark> > <mark class="hl">Outbound Shipment</mark>. 
+You can delete a shipment from the Outbound Shipment list. 
 
-2. Press the  <mark class="hl">New Shipment</mark> button, in the top right corner
+<div class="impt">
+<b>Note:</b> You can only delete Outbound Shipments with a status <code>NEW</code>.
+</div>
+
+1. Select the shipment that you want to delete by checking the box on the left end of the list. You can select more than one shipment to be deleted. You can even select them all using the  master checkbox in the list headers. 
+
+2. Open the `Select` dropdown (top right corner, above the list) and select `Delete selected lines`. 
+
+3. A notification confirms how many shipments were deleted (bottom left corner). 
+
+![](/docs/distribution/os_list_deleteshipment.gif)
+
+## Creating a new Outbound Shipment
+
+1. Go to `Distribution` > `Outbound Shipment`. 
+
+2. Press the  `New Shipment` button, in the top right corner
 
 ![New Shipment](/docs/distribution/clicknewshipment.png)
 
-3. A new window opens, inviting you to select a customer. 
+3. A new window `Customers` opens, inviting you to select a customer. 
 
-### <span class="headers">Select a Customer</span>
+### Select a Customer
 
 1. In the new window, you will be presented with a list of available customers. You can select your customer from the list or you can type as much of a customer name
 
 <div class="imagetitle">
-In below example, we are issuing stock to Kopu Health Center. 
+In below example, we are issuing stock to <b>Kopu Health Center</b>. 
 </div>
 
 ![gif](/docs/distribution/os_select_customer.gif)
 
-2. Once you tap or press <mark class="hl">Enter</mark>, your Outbound Shipment is automatically created.  
+2. Once you tap or press `Enter`, your Outbound Shipment is automatically created.  
 
-    If everything went well, you should see the name of your customer in the top left corner and the status should be <mark class="hl">New</mark> 
+    If everything went well, you should see the name of your customer in the top left corner and the status should be `NEW` 
 
 ![](/docs/distribution/os_created.png)
 
-### <span class="headers">Edit the Customer Name</span>
+### Edit the Customer Name
 
-If you have selected the wrong customer, you can always type another name in the <mark class="hl">Customer Name</mark> field or select one the dropdown list: 
+If you have selected the wrong customer, you can change the customer name in the `Customer Name` field or select one the dropdown list: 
 
 ![gif](/docs/distribution/os_change_customer.gif)
 
-### <span class="headers">Enter a Customer Reference</mark>
+### Enter a Customer Reference
 
-Once your Outbound Shipment has been created, you can enter a customer reference in the <mark class="hl">Customer Ref</mark> field, if they have one (eg. *PO#1234567*)
+Once your Outbound Shipment has been created, you can enter a customer reference in the `Customer Ref` field, if they have one (eg. *PO#1234567*)
 
-### <span class="headers">View or edit the Outbound Shipment Information Panel</mark>
+### View or edit the Outbound Shipment Information Panel
 
 The Information Panel allows you see or to edit information about the Outbound Shipment. It is divided in multiple sections: 
-* Additional Info
+* Additional 
 * Related Documents
 * Invoice Details
 * Transport Details
 
 We are planning to add more sections in the future as Open mSupply grows. 
 
-#### <span class="headers">How to open and close the Information Panel ?</span>
+#### How to open and close the Information Panel ?
 
-To open the Information Panel, you can tap on the <mark class="hl">More</mark> button, located in the top right corner of the Outbound Shipment view. 
+To open the Information Panel, you can tap on the `More` button, located in the top right corner of the Outbound Shipment view. 
 
-You can close by tap on the <mark class="hl">X Close</mark> button, on the top right corner of the information panel. 
+You can close by tap on the `X Close` button, on the top right corner of the information panel. 
 
 ![Open and close the Information Panel](/docs/distribution/os_infopanel_openclose.gif)
 
-#### <span class="headers">Additonal Info</span>
+#### Additonal Info
 
 In the **Additional Info** section, you can:
 * see who created the Outbound Shipment (name of the user)
 * view and edit the Outbound Shipment color. To edit the color, tap on the colored circle and select a color from the 
 * Write or edit a comment
 
-#### <span class="headers">Related Documents</span>
+#### Related Documents
 
 In the **Related Documents** section, you can see other related transaction document for the Outbound Shipment. 
 
@@ -139,28 +155,28 @@ If your Outbound Shipment was created to fulfill a **Requisition**, the referenc
 
 In the future, we would also include other documents such as temperature records, transportation documents or pickslips. 
 
-#### <span class="headers">Invoice Details</span>
+#### Invoice Details
 
 In this section, you will see by default the total selling price of the items listed in the Outbound Shipments. 
 
 You can also add a **Service charges** if you wish to add other charges such as Freight Costs. To add a Service charges to the Invoice Details: 
 
-1. Tap on the <mark class="hl">Edit Service Charges</mark> button. A new window opens. 
-2. Tap on the <mark class="hl">Add charge</mark> button on the new window. A new line appears in the list of charges. You tap on `<mark class="hl">Cancel</mark> if you do not wish to add anything. 
+1. Tap on the `Edit Service Charges` button. A new window opens. 
+2. Tap on the `Add charge` button on the new window. A new line appears in the list of charges. You tap on ``Cancel` if you do not wish to add anything. 
 3. **Name:** select a service charges in the dropdown list. You can customise the list of available charges. Contact your administrator. 
 4. **Comment:** you can add a comment to provide further details about the new charge. 
 5. **Amount:** enter the amount of the charge. 
 6. **Tax:** enter a % of tax for the charge. 
 7. **Total:** The total field is automatically calculated based on the Amount and the Tax percentage. 
-8. **Delete:** you can tap on the <mark class="hl">Delete</mark> icon to delete the charge.  
+8. **Delete:** you can tap on the `Delete` icon to delete the charge.  
 
 In this section, you can also edit the tax rate (%) for the items sell price. Tap on the pencil icon and enter 
 
-#### <span class="headers">Transport Details</span>
+#### Transport Details
 
 In this section, you can see or edit a transport reference number (eg. a booking or a tracking reference number). 
 
-### <span class="headers">Outbound Shipment Status Sequence</span>
+### Outbound Shipment Status Sequence
 
 The status sequence is located at the bottom left corner of the Outbound Shipment screen. 
 
@@ -191,23 +207,23 @@ if you hover over the status sequence, a shipment history window appears. You ca
 
 ![](/docs/distribution/os_statussequence_hover.png)
 
-### <span class="headers">Hold checkbox</span>
+### Hold checkbox
 
 Located on the bottom left corner, on the left of the status sequence. 
 
-Check the <mark class="hl">Hold</mark> checkbox prevents the Outbound Shipment from being updated to the next status. 
+Check the `Hold` checkbox prevents the Outbound Shipment from being updated to the next status. 
 
 ![](/docs/distribution/os_holdcheckbox.png)
 
-### <span class="headers">Cancel and Confirm button</span>
+### Cancel and Confirm button
 
-#### <span class="headers">Cancel Button</span>
+#### Cancel Button
 
-Click on the <mark class="hl">Cancel</mark> button to quit the Outbound Shipment view and return to the Outbound Shipments list. 
+Click on the `Cancel` button to quit the Outbound Shipment view and return to the Outbound Shipments list. 
 
-#### <span class="headers">Confirm Button</span>
+#### Confirm Button
 
-The <mark class="hl">Confirm</mark> button is the button to update the status of a shipment. Depending on the current status, you won't confirm the same thing. 
+The `Confirm` button is the button to update the status of a shipment. Depending on the current status, you won't confirm the same thing. 
 
 When managing an Outbound Shipment, you can only confirm the Allocation, the Picking and the Shipment. 
 
@@ -217,34 +233,34 @@ When managing an Outbound Shipment, you can only confirm the Allocation, the Pic
 | **Confirm Picked** | Allocated | Picked|
 | **Confirm Shipped** | Picked | Shipped |
 
-You don't have to update a shipment to next status in the sequence. You can choose to skip some of them to go directly to <mark class="hl">Confirm Shipped</mark> for example.
+You don't have to update a shipment to next status in the sequence. You can choose to skip some of them to go directly to `Confirm Shipped` for example.
 
-As demonstrated below, tap on the down arrow of the <mark class="hl">Confirm</mark> button and select the status you want the shipment to be updated to. 
+As demonstrated below, tap on the down arrow of the `Confirm` button and select the status you want the shipment to be updated to. 
 
 ![Skip Status](/docs/distribution/os_confirmbutton_skipstatuses.gif)
 
-## <span class="headers">Adding items to an Outbound Shipment</span>
+## Adding items to an Outbound Shipment
 
-Tap on the <mark class="hl">Add Item</mark> button (top right corner). 
+Tap on the `Add Item` button (top right corner). 
 
-A new window opens. 
+A new `Add Item` window opens. 
 
 ![Add Item button](/docs/distribution/additembutton.png)
 
-### <span class="headers">Select an Item</span>
+### Select an Item
 
-In the <mark class="hl">Add Item</mark> window, you can look up an item by:
+In the `Add Item` window, you can look up an item by:
 * reading through the list of available items
 * or by typing as much of an item name
 * or by typing as much of an item code
 
-Once your item is highligthed, tap on the name or press <mark class="hl">Enter</mark>.
+Once your item is highligthed, tap on the name or press `Enter`.
 
 ![Alt Text](/docs/distribution/os_additem.gif)
 
 Once the item is selected, you can see the following information: 
 
-#### <span class="headers">Headers</span>
+#### Headers
 
 * Item code and name (eg. *030453 Amoxicillin 250 mg Tabs*)
 * the available stock quantity for this item (eg. *3527 units*)
@@ -256,18 +272,18 @@ Once the item is selected, you can see the following information:
 
 ![add item headers](/docs/distribution/additem_headers.png)
 
-#### <span class="headers">[Issue Quantity] of units in packs of [Pack Size]</span>
+#### Issue [Quantity] of units in packs of [Pack Size]
 
-![](/docs/distribution/os_additemheaders.png)
+In the `Issue Quantity` field, you can enter the quantity that you want to issue to your customer. 
 
-In the <mark class="hl">Issue Quantity</mark> field, you can enter the quantity that you want to issue to your customer. 
+By default, you are invited to issue a quantity of **units**. However, you have the possibility to issue a quantity of packs instead by changing the value in the second dropdown (`Pack Size`). 
 
-By default, you are invited to issue a quantity of **units**. However, you have the possibility to issue a quantity of packs instead by changing the value in the dropdown<mark class="hl">Pack Size</mark>. Default value is <mark class="hl">Any</mark>. 
+Default value is `Any` when you are issuing units. 
 
 ![](/docs/distribution/os_issuequantityinunits.png)
 
 
-#### <span class="headers">List of available batches:</span>
+#### List of available batches:
 
 This is a list of batch numbers that you have in store for this item: 
 * **Packs**: number of packs to be issued
@@ -284,11 +300,11 @@ This is a list of batch numbers that you have in store for this item:
 
 ![List of available batch numbers](/docs/distribution/os_additem_listofbatches.png)
 
-### <span class="headers">Issue a quantity of units</span>
+### Issue a quantity of units
 
 By default, you are invited to issue a quantity of **units**, regardless of the pack size (number of units in a pack). 
 
-When entering a number in the <mark class="hl">Issue Quantity</mark> field, system automatically chooses the batch number(s) with the shortest expiry date (First to Expire, First Out or FEFO logic). 
+When entering a number in the `Issue Quantity` field, system automatically chooses the batch number(s) with the shortest expiry date (First to Expire, First Out or FEFO logic). 
 
 <div class="imagetitle">
 In below example, we are issuing 100 units of the item. All 100 units will be taken from the same batch (second row). First batch was not selected because it is expired. 
@@ -302,12 +318,12 @@ In this other example, we are issuing 1200 units. System selects two batches wit
 
 ![additem!](/docs/distribution/os_additem_issueunitstwobatches.png)
 
-### <span class="headers">Issue a quantity of packs</span>
+### Issue a quantity of packs
 
-You can decide to issue a quantity of **packs**. To do this, you can change the value in the <mark class="hl">Pack Size</mark> dropdown. 
+You can decide to issue a quantity of **packs**. To do this, you can change the value in the `Pack Size` dropdown. 
 
 <div class="imagetitle">
-Let's imagine that your customer only wants pack size of 12 units. You can change the dropdown value from <mark class="hl">Any</mark> to <mark class="hl">12</mark>. 
+Let's imagine that your customer only wants pack size of 12 units. You can change the dropdown value from `Any` to `12`. 
 </div>
 
 ![Alt Text](/docs/distribution/os_additem_switchtopack.gif)
@@ -322,16 +338,18 @@ In below example, we are issuing 10 packs of 12 units:
 
 <div class="impt">
 <b>Note:</b> if you had previously entered a quantity of units and you switch to a quantity a packs, the quantity of units will automatically be converted into the correct quantity of packs.  
-![Alt Text](/docs/distribution/os_issuepacks.gif)
 </div>
 
-### <span class="headers">Manual Allocation </span>
+![Alt Text](/docs/distribution/os_issuepacks.gif)
+
+
+### Manual Allocation 
 
 Regardless if you chose to issue a quantity of units or packs, you can always manually change the quantity at the batch number level directly before clicking on OK. 
 
-You simply have to enter or edit the quantity in the <mark class="hl"># Packs</mark> column. 
+You simply have to enter or edit the quantity in the `# Packs` column. 
 
-The main <mark class="hl">Issue Quantity</mark> field will be automatically updated with the new quantity.  
+The main `Issue Quantity` field will be automatically updated with the new quantity.  
 
 <div class="impt">
  <b>Note:</b> when allocating quantities at the batch number level, the quantity you enter is always a quantity of packs. 
@@ -342,39 +360,39 @@ The main <mark class="hl">Issue Quantity</mark> field will be automatically upda
 <figcaption align = "center"><i>Manual allocation at the batch number level.</i></figcaption>
 </figure>
 
-### <span class="headers">Confirm Item and Quantity</span>
+### Confirm Item and Quantity
 
 When you are happy with the quantity, you can either click on:
-* the <mark class="hl">OK</mark> button. You are redirected to the Outbound Shipment view and your item has been added to the list. 
-* the <mark class="hl">OK & Next</mark> button to add another item right away
-* the <mark class="hl">Cancel</mark> if you do not want to add the item to the Outbound Shipment anymore
+* the `OK` button. You are redirected to the Outbound Shipment view and your item has been added to the list. 
+* the `OK & Next` button to add another item right away
+* the `Cancel` if you do not want to add the item to the Outbound Shipment anymore
 
-## <span class="headers">Editing an Outbound Shipment Line</span>
+## Editing an Outbound Shipment Line
 
-To edit an shipment line, tap or click on it. You will be presented with the <mark class="hl">Edit Item</mark> window, which is identical to the <mark class="hl">Add Item</mark> window, except that the item is already chosen. 
+To edit an shipment line, tap or click on it. You will be presented with the `Edit Item` window, which is identical to the `Add Item` window, except that the item is already chosen. 
 
-### <span class="headers">Edit a Shipment Line</span>
+### Edit a Shipment Line
 
 <div class="impt">
- <b>Note:</b> you can edit a shipment line if the shipment has a status lower than <mark class="hl">Shipped</mark>
+ <b>Note:</b> you can edit a shipment line if the shipment has a status lower than `Shipped`
 </div>
 
 1. Open the Outbound Shipment you want to edit. 
-2. Tap on the line you want to edit. An identical window to <mark class="hl">Add Item</mark> appears. At this stage:
+2. Tap on the line you want to edit. An identical window to `Add Item` appears. At this stage:
 
-    *  Edit the main <mark class="hl">Issue Quantity</mark> field 
+    *  Edit the main `Issue Quantity` field 
     *  or change the number of packs value at the batch number level
 
 <div class="impt">
  <b>Note:</b> When editing a shipment line, you cannot change the item. You would need to delete the shipment line and to create a new one. 
 </div>
 
-### <span class="headers">Delete a shipment line</span>
+### Delete a shipment line
 
 1. Open the Outbound Shipment you want to edit.
 2. Select the line(s) you want to delete by checking the box(es) on the right of the list. 
-3. Go to the <mark class="hl">Actions</mark> dropdown menu (top right corner, above the list)
-4. Select the action <mark class="hl">Delete selected lines</mark>
+3. Go to the `Actions` dropdown menu (top right corner, above the list)
+4. Select the action `Delete selected lines`
 
 ![Alt Text](/docs/distribution/os_actions_deleteselectedlines.png)
 

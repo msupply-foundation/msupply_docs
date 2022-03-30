@@ -2,10 +2,10 @@ p {
   img, svg {
   vertical-align: middle;
   max-width: 100%;
-  display: flex;
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 5px;
+  margin-top: 1px;
   margin-bottom: 40px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-end-start-radius: 5px;
@@ -20,17 +20,23 @@ div.impt {
   border-radius: 4px;
   background: #f0efec;
   color: #c97500;
-  padding: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 58px;
   margin-bottom: 20px;
   margin-top: 20px;
-  border-end-start-radius: 0px;
+  border-end-start-radius: 5px;
   border-end-end-radius: 5px;
   border-start-end-radius: 20px;
   border-start-start-radius: 5px;
+  font-size: 12pt;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-image: url("/docs/msupplylogo.jpeg");
+  background-repeat:no-repeat;
+  background-position:8px;
+  background-size:42px;
+
 }
 
 div.imagetitle {
-  border-left: 8px solid #374453;
   border-radius: 4px;
   background: #edeaea;
   color: #374453;
@@ -40,14 +46,35 @@ div.imagetitle {
   border-end-start-radius: 0px;
   border-end-end-radius: 0px;
   border-start-end-radius: 10px;
-  border-start-start-radius: 5px;
+  border-start-start-radius: 10px;
+  font-size: 11pt;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  
 }
 
-mark.hl {
+h1 {
+  color: #f2913d;
+}
+
+h2  {
+  color: #374453;
+  margin-top: 60px;
+}
+
+h3  {
+  color: #374453;
+  margin-top: 50px;
+}
+
+h4 {
+  color: #374453;
+  margin-top: 40px;
+}
+
+code {
   background-color: #e4e2dc;
-  color: #E05535;   
+  color: #E05535;
+  font-size:14px;
 }
 
-span.headers {
-  color:#374453
-}
