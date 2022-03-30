@@ -21,13 +21,58 @@ If you used mSupply in the past, you may be familiar with the term **Customer In
 * Issue stock to a customer
 * Fulfill requisitions (customer orders)
 
+## <span class="headers">Viewing Outbound Shipments</span>
+
+### <span class="headers">Open the Outbound Shipments Menu</span>
+
 To access the **Outbound Shipment** menu, press the **Distribution** menu in the navigation panel. 
 
 ![gotooos](/docs/distribution/gotoos2.png)
 
+You will be presented with a list Outbound Shipments (or not if you're just starting!). 
+
+From this screen you can:
+* View a list of Outbound Shipment
+* Create a new Outbound Shipment
+* Export one or multiple Outbound Shipments
+* Print one or multiple Outbound Shipments
+
+### <span class="headers">List of Outbound Shipments</span>
+
+![gotooos](/docs/distribution/os_list.png)
+
+1. The list of Outbound Shipments is divided into 5 columns:
+
+| Column| Description |
+| :---------- | :---------- |
+| **Name** | Name of the Customer | 
+| **Status** | Current Status of the shipment | 
+| **Invnum** | Reference Number of the shipment | 
+| **Entered** | Creation date of the shipment | 
+| **Comment** | Comment for the shipment |
+| **Total** | Total value of the shipment |
+
+2. The list can display **20 shipments per page**. On the bottom left corner, you can how many shipments are currently displayed on your screen. 
+
+![Page](/docs/distribution/os_list_showing.png)
+
+3. If you have more than 20 shipments, you can navigate to the other pages by clicking on the page number or using the right of left arrows (bottom right corner). 
+
+![Page](/docs/distribution/os_list_pagenumbers.png)
+
+### <span class="headers">Search by Customer Name</span>
+
+You can filter the list of shipments by customer name. This can be useful if you're looking for one particular shipment!
+
+Type the name of a customer in the <mark class="hl">Search by name</mark> fild (on the left, just above the list headers). All the shipments for this customer appear in the list. 
+
+### <span class="headers">Export Outbound Shipments</span>
+
+[IN PROGRESS]
+
 ## <span class="headers">Creating a new Outbound Shipment</span>
 
-1. Go to <mark class="hl">Distribution</mark> > <mark class="hl">Outbound Shipment</mark>
+1. Go to <mark class="hl">Distribution</mark> > <mark class="hl">Outbound Shipment</mark>. 
 
 2. Press the  <mark class="hl">New Shipment</mark> button, in the top right corner
 
@@ -115,10 +160,6 @@ In this section, you can also edit the tax rate (%) for the items sell price. Ta
 
 In this section, you can see or edit a transport reference number (eg. a booking or a tracking reference number). 
 
-### <span class="headers">Group by Item toggle</span>
-
-You can easily change the view of an Outbound Shipment by tapping on the <mark class="hl">Group by Item</mark>
-
 ### <span class="headers">Outbound Shipment Status Sequence</span>
 
 The status sequence is located at the bottom left corner of the Outbound Shipment screen. 
@@ -205,27 +246,30 @@ Once the item is selected, you can see the following information:
 
 #### <span class="headers">Headers</span>
 
-![add item headers](/docs/distribution/additem_headers.png)
-
 * Item code and name (eg. *030453 Amoxicillin 250 mg Tabs*)
 * the available stock quantity for this item (eg. *3527 units*)
 * the item's unit (eg. *Tab*)
 
-> ***Example:*** For the item *030453 - Amoxicillin 250mg tabs*, there are 3527 tabs available. 
+<div class="imagetitle">
+<b>Example:</b> For the item *030453 - Amoxicillin 250mg tabs*, there are 3527 tabs available. 
+</div>
 
-#### <span class="headers">Issue <mark class="hl">Quantity</mark> of units in packs of <mark class="hl">Pack Size</mark></span>
+![add item headers](/docs/distribution/additem_headers.png)
 
-![](/docs/distribution/os_issuequantityinunits.png)
+#### <span class="headers">[Issue Quantity] of units in packs of [Pack Size]</span>
+
+![](/docs/distribution/os_additemheaders.png)
 
 In the <mark class="hl">Issue Quantity</mark> field, you can enter the quantity that you want to issue to your customer. 
 
 By default, you are invited to issue a quantity of **units**. However, you have the possibility to issue a quantity of packs instead by changing the value in the dropdown<mark class="hl">Pack Size</mark>. Default value is <mark class="hl">Any</mark>. 
 
+![](/docs/distribution/os_issuequantityinunits.png)
+
+
 #### <span class="headers">List of available batches:</span>
 
-![List of available batch numbers](/docs/distribution/os_additem_listofbatches.png)
-
-This is a list of batch numbers that you in store for this item: 
+This is a list of batch numbers that you have in store for this item: 
 * **Packs**: number of packs to be issued
 * **Pack Size**: quantity of units per pack
 * **Unit Qty**: total quantity of units to be issued
@@ -237,6 +281,8 @@ This is a list of batch numbers that you in store for this item:
 * **Sell**: selling unit price of the item
 * **On Hold**: indicate whether a batch is on hold or not. You cannot issue a batch that is on hold. 
 * **Placeholder**: the placeholder line is used when the quantity you are issuing is higher than your available stock. 
+
+![List of available batch numbers](/docs/distribution/os_additem_listofbatches.png)
 
 ### <span class="headers">Issue a quantity of units</span>
 

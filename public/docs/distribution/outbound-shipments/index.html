@@ -296,6 +296,21 @@
   			<nav id="TableOfContents">
   					<ul>
   							
+  							<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#viewing-outbound-shipments">Viewing Outbound Shipments</a></li>
+  							
+  									<ul>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#open-the-outbound-shipments-menu">Open the Outbound Shipments Menu</a></li>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#list-of-outbound-shipments">List of Outbound Shipments</a></li>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#search-by-customer-name">Search by Customer Name</a></li>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#export-outbound-shipments">Export Outbound Shipments</a></li>
+  											
+  									</ul>
+  							
+  							
   							<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#creating-a-new-outbound-shipment">Creating a new Outbound Shipment</a></li>
   							
   									<ul>
@@ -307,8 +322,6 @@
   											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#enter-a-customer-reference">Enter a Customer Reference</a></li>
   											
   											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#view-or-edit-the-outbound-shipment-information-panel">View or edit the Outbound Shipment Information Panel</a></li>
-  											
-  											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#group-by-item-toggle">Group by Item toggle</a></li>
   											
   											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#outbound-shipment-status-sequence">Outbound Shipment Status Sequence</a></li>
   											
@@ -363,12 +376,48 @@
 <li>Issue stock to a customer</li>
 <li>Fulfill requisitions (customer orders)</li>
 </ul>
+<h2 id="viewing-outbound-shipments"><span class="headers">Viewing Outbound Shipments</span></h2>
+<h3 id="open-the-outbound-shipments-menu"><span class="headers">Open the Outbound Shipments Menu</span></h3>
 <p>To access the <strong>Outbound Shipment</strong> menu, press the <strong>Distribution</strong> menu in the navigation panel. </p>
 <p><img src="/docs/distribution/gotoos2.png" alt="gotooos" /></p>
+<p>You will be presented with a list Outbound Shipments (or not if you're just starting!). </p>
+<p>From this screen you can:</p>
+<ul>
+<li>View a list of Outbound Shipment</li>
+<li>Create a new Outbound Shipment</li>
+<li>Export one or multiple Outbound Shipments</li>
+<li>Print one or multiple Outbound Shipments</li>
+</ul>
+<h3 id="list-of-outbound-shipments"><span class="headers">List of Outbound Shipments</span></h3>
+<p><img src="/docs/distribution/os_list.png" alt="gotooos" /></p>
+<ol>
+<li>The list of Outbound Shipments is divided into 5 columns:</li>
+</ol>
+<table><thead><tr><th align="left">Column</th><th align="left">Description</th></tr></thead><tbody>
+<tr><td align="left"><strong>Name</strong></td><td align="left">Name of the Customer</td></tr>
+<tr><td align="left"><strong>Status</strong></td><td align="left">Current Status of the shipment</td></tr>
+<tr><td align="left"><strong>Invnum</strong></td><td align="left">Reference Number of the shipment</td></tr>
+<tr><td align="left"><strong>Entered</strong></td><td align="left">Creation date of the shipment</td></tr>
+<tr><td align="left"><strong>Comment</strong></td><td align="left">Comment for the shipment</td></tr>
+<tr><td align="left"><strong>Total</strong></td><td align="left">Total value of the shipment</td></tr>
+</tbody></table>
+<ol start="2">
+<li>The list can display <strong>20 shipments per page</strong>. On the bottom left corner, you can how many shipments are currently displayed on your screen. </li>
+</ol>
+<p><img src="/docs/distribution/os_list_showing.png" alt="Page" /></p>
+<ol start="3">
+<li>If you have more than 20 shipments, you can navigate to the other pages by clicking on the page number or using the right of left arrows (bottom right corner). </li>
+</ol>
+<p><img src="/docs/distribution/os_list_pagenumbers.png" alt="Page" /></p>
+<h3 id="search-by-customer-name"><span class="headers">Search by Customer Name</span></h3>
+<p>You can filter the list of shipments by customer name. This can be useful if you're looking for one particular shipment!</p>
+<p>Type the name of a customer in the <mark class="hl">Search by name</mark> fild (on the left, just above the list headers). All the shipments for this customer appear in the list. </p>
+<h3 id="export-outbound-shipments"><span class="headers">Export Outbound Shipments</span></h3>
+<p>[IN PROGRESS]</p>
 <h2 id="creating-a-new-outbound-shipment"><span class="headers">Creating a new Outbound Shipment</span></h2>
 <ol>
 <li>
-<p>Go to <mark class="hl">Distribution</mark> &gt; <mark class="hl">Outbound Shipment</mark></p>
+<p>Go to <mark class="hl">Distribution</mark> &gt; <mark class="hl">Outbound Shipment</mark>. </p>
 </li>
 <li>
 <p>Press the  <mark class="hl">New Shipment</mark> button, in the top right corner</p>
@@ -438,8 +487,6 @@ In below example, we are issuing stock to Kopu Health Center.
 <p>In this section, you can also edit the tax rate (%) for the items sell price. Tap on the pencil icon and enter </p>
 <h4 id="transport-details"><span class="headers">Transport Details</span></h4>
 <p>In this section, you can see or edit a transport reference number (eg. a booking or a tracking reference number). </p>
-<h3 id="group-by-item-toggle"><span class="headers">Group by Item toggle</span></h3>
-<p>You can easily change the view of an Outbound Shipment by tapping on the <mark class="hl">Group by Item</mark></p>
 <h3 id="outbound-shipment-status-sequence"><span class="headers">Outbound Shipment Status Sequence</span></h3>
 <p>The status sequence is located at the bottom left corner of the Outbound Shipment screen. </p>
 <p>Passed statuses are hightlighted in blue, next statuses appear in grey. </p>
@@ -495,22 +542,22 @@ In below example, we are issuing stock to Kopu Health Center.
 <p><img src="/docs/distribution/os_additem.gif" alt="Alt Text" /></p>
 <p>Once the item is selected, you can see the following information: </p>
 <h4 id="headers"><span class="headers">Headers</span></h4>
-<p><img src="/docs/distribution/additem_headers.png" alt="add item headers" /></p>
 <ul>
 <li>Item code and name (eg. <em>030453 Amoxicillin 250 mg Tabs</em>)</li>
 <li>the available stock quantity for this item (eg. <em>3527 units</em>)</li>
 <li>the item's unit (eg. <em>Tab</em>)</li>
 </ul>
-<blockquote>
-<p><em><strong>Example:</strong></em> For the item <em>030453 - Amoxicillin 250mg tabs</em>, there are 3527 tabs available. </p>
-</blockquote>
-<h4 id="issue-quantity-of-units-in-packs-of-pack-size"><span class="headers">Issue <mark class="hl">Quantity</mark> of units in packs of <mark class="hl">Pack Size</mark></span></h4>
-<p><img src="/docs/distribution/os_issuequantityinunits.png" alt="" /></p>
+<div class="imagetitle">
+<b>Example:</b> For the item *030453 - Amoxicillin 250mg tabs*, there are 3527 tabs available. 
+</div>
+<p><img src="/docs/distribution/additem_headers.png" alt="add item headers" /></p>
+<h4 id="issue-quantity-of-units-in-packs-of-pack-size"><span class="headers">[Issue Quantity] of units in packs of [Pack Size]</span></h4>
+<p><img src="/docs/distribution/os_additemheaders.png" alt="" /></p>
 <p>In the <mark class="hl">Issue Quantity</mark> field, you can enter the quantity that you want to issue to your customer. </p>
 <p>By default, you are invited to issue a quantity of <strong>units</strong>. However, you have the possibility to issue a quantity of packs instead by changing the value in the dropdown<mark class="hl">Pack Size</mark>. Default value is <mark class="hl">Any</mark>. </p>
+<p><img src="/docs/distribution/os_issuequantityinunits.png" alt="" /></p>
 <h4 id="list-of-available-batches"><span class="headers">List of available batches:</span></h4>
-<p><img src="/docs/distribution/os_additem_listofbatches.png" alt="List of available batch numbers" /></p>
-<p>This is a list of batch numbers that you in store for this item: </p>
+<p>This is a list of batch numbers that you have in store for this item: </p>
 <ul>
 <li><strong>Packs</strong>: number of packs to be issued</li>
 <li><strong>Pack Size</strong>: quantity of units per pack</li>
@@ -524,6 +571,7 @@ In below example, we are issuing stock to Kopu Health Center.
 <li><strong>On Hold</strong>: indicate whether a batch is on hold or not. You cannot issue a batch that is on hold. </li>
 <li><strong>Placeholder</strong>: the placeholder line is used when the quantity you are issuing is higher than your available stock. </li>
 </ul>
+<p><img src="/docs/distribution/os_additem_listofbatches.png" alt="List of available batch numbers" /></p>
 <h3 id="issue-a-quantity-of-units"><span class="headers">Issue a quantity of units</span></h3>
 <p>By default, you are invited to issue a quantity of <strong>units</strong>, regardless of the pack size (number of units in a pack). </p>
 <p>When entering a number in the <mark class="hl">Issue Quantity</mark> field, system automatically chooses the batch number(s) with the shortest expiry date (First to Expire, First Out or FEFO logic). </p>
