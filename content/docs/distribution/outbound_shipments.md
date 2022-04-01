@@ -14,6 +14,7 @@ toc = true
 top = false
 +++
 
+
 Outbound Shipments can used to issue stock to a customer. 
 
 If you used mSupply in the past, you may be familiar with the term **Customer Invoice**. An Outbound Shipment can be used to:
@@ -25,9 +26,7 @@ If you used mSupply in the past, you may be familiar with the term **Customer In
 
 ### Open the Outbound Shipments Menu
 
-To access the **Outbound Shipment** menu, press the **Distribution** menu in the navigation panel. 
-
-![gotooos](/docs/distribution/gotoos2.png)
+To access the **Outbound Shipment** menu, press the **Distribution** menu in the navigation panel.
 
 You will be presented with a list Outbound Shipments (or not if you're just starting!). 
 
@@ -74,8 +73,8 @@ Type the name of a customer in the `Search by name` field (on the left, just abo
 
 You can delete a shipment from the Outbound Shipment list. 
 
-<div class="impt">
-<b>Note:</b> You can only delete Outbound Shipments with a status <code>NEW</code>.
+<div class="note">
+You can only delete Outbound Shipments with a status <code>NEW</code>.
 </div>
 
 1. Select the shipment that you want to delete by checking the box on the left end of the list. You can select more than one shipment to be deleted. You can even select them all using the  master checkbox in the list headers. 
@@ -108,7 +107,9 @@ In below example, we are issuing stock to <b>Kopu Health Center</b>.
 
 2. Once you tap or press `Enter`, your Outbound Shipment is automatically created.  
 
-    If everything went well, you should see the name of your customer in the top left corner and the status should be `NEW` 
+<div class=imagetitle>
+If everything went well, you should see the name of your customer in the top left corner and the status should be <code>NEW</code> 
+</div>
 
 ![](/docs/distribution/os_created.png)
 
@@ -184,15 +185,15 @@ Passed statuses are hightlighted in blue, next statuses appear in grey.
 
 <figure>
 <img src="/docs/distribution/os_statussequence2.png" alt="Trulli" style="width:100%">
-<figcaption align = "center"><i>Status Sequence. Current Status is "New".</i></figcaption>
+<figcaption align = "center">Status Sequence: current status is <code>NEW</code>.</figcaption>
 </figure>
 
 <figure>
 <img src="/docs/distribution/os_statussequence3.png" alt="Trulli" style="width:100%">
-<figcaption align = "center"><i>Status Sequence. Current Status is "Picked".</i></figcaption>
+<figcaption align = "center">Status Sequence: current status is </i><code>PICKED</code>.</figcaption>
 </figure>
 
-There are 6 statuses: 
+There are 6 status for the Outbound Shipment: 
 
 | Status | Description |
 | :--- | ---------- |
@@ -204,6 +205,10 @@ There are 6 statuses:
 | **Verified** | Your customer has verified the quantity of the shipment. Goods are now part of their inventory. |
 
 if you hover over the status sequence, a shipment history window appears. You can see the date when a shipment was updated from one status to another. 
+
+<div class="imagetitle">
+This shipment has been created, allocated and picked on 29/03/2022
+</div>
 
 ![](/docs/distribution/os_statussequence_hover.png)
 
@@ -336,8 +341,8 @@ In below example, we are issuing 10 packs of 12 units:
 
 ![additem!](/docs/distribution/os_additem_issuepacks.png)
 
-<div class="impt">
-<b>Note:</b> if you had previously entered a quantity of units and you switch to a quantity a packs, the quantity of units will automatically be converted into the correct quantity of packs.  
+<div class="note">
+<b></b> if you had previously entered a quantity of units and you switch to a quantity a packs, the quantity of units will automatically be converted into the correct quantity of packs.  
 </div>
 
 ![Alt Text](/docs/distribution/os_issuepacks.gif)
@@ -351,8 +356,8 @@ You simply have to enter or edit the quantity in the `# Packs` column.
 
 The main `Issue Quantity` field will be automatically updated with the new quantity.  
 
-<div class="impt">
- <b>Note:</b> when allocating quantities at the batch number level, the quantity you enter is always a quantity of packs. 
+<div class="note">
+ <b></b> when allocating quantities at the batch number level, the quantity you enter is always a quantity of packs. 
 </div>
 
 <figure>
@@ -373,8 +378,8 @@ To edit an shipment line, tap or click on it. You will be presented with the `Ed
 
 ### Edit a Shipment Line
 
-<div class="impt">
- <b>Note:</b> you can edit a shipment line if the shipment has a status lower than `Shipped`
+<div class="note">
+ <b></b> you can edit a shipment line if the shipment has a status lower than `Shipped`
 </div>
 
 1. Open the Outbound Shipment you want to edit. 
@@ -383,8 +388,8 @@ To edit an shipment line, tap or click on it. You will be presented with the `Ed
     *  Edit the main `Issue Quantity` field 
     *  or change the number of packs value at the batch number level
 
-<div class="impt">
- <b>Note:</b> When editing a shipment line, you cannot change the item. You would need to delete the shipment line and to create a new one. 
+<div class="note">
+ <b></b> When editing a shipment line, you cannot change the item. You would need to delete the shipment line and to create a new one. 
 </div>
 
 ### Delete a shipment line
@@ -402,6 +407,56 @@ In below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100mg ta
 
 ![Alt Text](/docs/distribution/os_deleteselectedlines.gif)
 
-<div class="impt">
- <b>Note:</b> You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
+<div class="note">
+ <b></b> You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
 </div>
+
+## Issuing stock with an Outbound Shipment
+
+### Confirm Outbound Shipment allocation
+
+The first step to process an Outbound Shipment is to **confirm the allocation**. Current status of the shipment has to be `NEW`. 
+
+To confirm the allocation, click on the `Confirm Allocated` button. 
+
+![Alt Text](/docs/distribution/os_confirmallocated.gif)
+
+Once the allocation is confirmed:
+
+* Shipment status is now `ALLOCATED`
+* You are now invited to confirm the picking via the `Confirm Picked` button
+* All the items and their quantities will be reserved, meaning that they are no longer available for allocation on other shipment. 
+* You can print a **pick slip**. 
+
+
+### Confirm Outbound Shipment picking
+
+Once a shipment has been allocated. The next step is to confirm that shipment has been picked. Current status has to be `NEW` or `ALLOCATED`. 
+
+To confirm that a shipment has been picked, click on the `Confirm Picked` button. 
+
+![Alt Text](/docs/distribution/os_confirmpicked.gif)
+
+Once picking is confirmed:
+
+* Shipment status is now `PICKED`
+* You are now invited to confirm the shipping via the `Confirm Shipped` button
+* You can print a **packing list**. 
+
+### Confirm Outbound Shipment shipping
+
+Once a shipment has been picked, it is ready to ship. To confirm the shipping, shipment's status has to be `NEW`, `ALLOCATED` or `PICKED`. 
+
+To confirm that an Outbound Shipment has been shipped, click on the `Confirm Shipped` button. 
+
+Once shipping has been confirmed: 
+* Shipment status is now `SHIPPED`
+* Goods are  no longer part of your inventory
+* You can no longer edit shipment lines
+* You can no longer delete the shipment
+* You can print a **delivery note** or an **invoice**. 
+
+If your customer is using mSupply as well, you will will be able to see when they'll receive your shipments:
+* status will become `DELIVERED` when goods are received. 
+* status will become `VERIFIED` when shipment has been verified (or checked) by your customer. Goods are now part of their inventory.
+

@@ -1,6 +1,6 @@
 +++
 title = "Customers"
-description = "Manage your customers"
+description = "View and manage your customers"
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
 draft = false
@@ -9,48 +9,39 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "Issuing stock to your customers"
+lead = "View and manage your customers"
 toc = true
 top = false
 +++
 
-Outbound Shipments can used to issue stock to a customer. 
+<div class="omsupdate">
+At the moment, you are only able to view your customers and their information. In the future, you will be able to create and edit your customers (provided you have the authorisations to do it!). 
+</div>
 
-To access the **Outbound Shipment** menu, press the **Distribution** menu in the navigation panel. 
+## Viewing Customers
 
-![gotooos](/docs/gotoos2.png)
+To view the customers of your store, go to the `Distribution` menu and click on `Customers`. 
 
-## Creating a new Outbound Shipment
+![Page](/docs/distribution/cust_gotocust2.png)
 
-1. Go to **Distribution** > **Outbound Shipment**
-2. Press the **New Shipment** button, in the top right corner
+You will be presented with a list of customers visible to your store. 
 
-![login!](/docs/clicknewshipment.png)
+<div class="note">
+You can only see customers that are visible for your store.  There may be more customers in our organisation. If you don't find a specific customer, please contact your administrator. 
+</div>
 
+### Customers list
 
-3. In the new window, you will be presented with a list of available choice. You can select your customer from the list or you can type as much of a customer name and select it. 
+The customers list is divided into 2 columns: 
 
-*In our example, we are issuing stock to the Kopu Health Center*. 
-
-![gif](/docs/os_select_customer.gif)
-
-
-4.  If you have selected the wrong customer, you can always type the name of another customer or select one the dropdown list.  
-
-
-![gif](/docs/os_change_customer.gif)
-
+| Column| Description |
+| :---------- | :---------- |
+| **Name** | Name of the Customer | 
+| **Code** | Code of the Customer | 
 
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+## Viewing Customer Details
 
-## Outbound Shipment Headers
-
-
-
-## Outbound Shipment Information Panel
-
-
-
-
-
+<div class="oms">
+Coming soon... 😇
+</div>

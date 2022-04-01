@@ -1,5 +1,5 @@
 +++
-title = "The Open mSupply Dashboard"
+title = "Dashboard"
 description = "Open mSupply Introduction."
 date = 2022-03-17T18:20:00+00:00
 updated = 2022-03-17T18:20:00+00:00
