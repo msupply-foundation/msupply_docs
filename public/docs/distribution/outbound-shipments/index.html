@@ -366,11 +366,15 @@
   							
   									<ul>
   											
-  											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#confirm-outbound-shipment-allocation">Confirm Outbound Shipment allocation</a></li>
+  											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#allocating-an-outbound-shipment">Allocating an Outbound Shipment</a></li>
   											
-  											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#confirm-outbound-shipment-picking">Confirm Outbound Shipment picking</a></li>
+  											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#confirming-an-outbound-shipment-s-allocation">Confirming an Outbound Shipment&#x27;s allocation</a></li>
   											
-  											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#confirm-outbound-shipment-shipping">Confirm Outbound Shipment shipping</a></li>
+  											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#confirming-outbound-shipment-picking">Confirming Outbound Shipment picking</a></li>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#confirming-the-outbound-shipment-shipping">Confirming the Outbound Shipment shipping</a></li>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#tracking-progress-of-outbound-shipments">Tracking Progress of Outbound Shipments</a></li>
   											
   									</ul>
   							
@@ -687,29 +691,59 @@ In below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100mg ta
  <b></b> You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
 </div>
 <h2 id="issuing-stock-with-an-outbound-shipment">Issuing stock with an Outbound Shipment</h2>
-<h3 id="confirm-outbound-shipment-allocation">Confirm Outbound Shipment allocation</h3>
-<p>The first step to process an Outbound Shipment is to <strong>confirm the allocation</strong>. Current status of the shipment has to be <code>NEW</code>. </p>
+<h3 id="allocating-an-outbound-shipment">Allocating an Outbound Shipment</h3>
+<p>Allocation is the process of assigning one or multiple batch numbers from the inventory to a shipment line. In other words, you are assigning stock to your shipment. Once allocated, the stock is reserved for the shipment and thus for your customer. </p>
+<p>There are 2 main ways to allocate a shipment line: </p>
+<ol>
+<li>
+<p>When adding items, system is automatically assigning stock to the new shipment line when you enter a quantity. If you don't have enough stock, system will add placeholder lines (unallocated lines). </p>
+</li>
+<li>
+<p>Bulk action <code>Allocate placeholder lines</code>: </p>
+<ul>
+<li>Select the lines that you want to allocate by checking boxes on the right on the list. </li>
+<li>In the Actons dropdown menu, select <code>Allocate placeholder lines</code>. System will check if there is available stock for each selected lines and allocate them using the First to Expire, First Out (FEFO) logic. A notification will let you know whether the operation is successful or not. </li>
+</ul>
+</li>
+</ol>
+<div class="note">
+You won't be able to process your Outbound Shipment if you have unallocated lines (shipment lines without batch number(s) assigned to it). You can wait for more stock to arrive or you can delete the placeholder lines. 
+</div>
+<h3 id="confirming-an-outbound-shipment-s-allocation">Confirming an Outbound Shipment's allocation</h3>
+<p>Once you all your shipments lines have been allocated, you can <strong>confirm the allocation</strong>:</p>
+<ul>
+<li>Current status of the shipment has to be <code>NEW</code></li>
+<li>lines must be assigned with one or several batch numbers. You won't be able to confirm the allocation if your shipment contains lines without batch numbers assigned to it (placeholder lines). </li>
+</ul>
 <p>To confirm the allocation, click on the <code>Confirm Allocated</code> button. </p>
 <p><img src="/docs/distribution/os_confirmallocated.gif" alt="Alt Text" /></p>
 <p>Once the allocation is confirmed:</p>
 <ul>
-<li>Shipment status is now <code>ALLOCATED</code></li>
+<li>Shipment status is <code>ALLOCATED</code></li>
 <li>You are now invited to confirm the picking via the <code>Confirm Picked</code> button</li>
-<li>All the items and their quantities will be reserved, meaning that they are no longer available for allocation on other shipment. </li>
-<li>You can print a <strong>pick slip</strong>. </li>
+<li>All the items and their quantities will be reserved, meaning that they are no longer available for allocation. </li>
+<li>You can print a <strong>pick slip</strong> to be sent to your warehouse so they can start preparing the shipment. </li>
 </ul>
-<h3 id="confirm-outbound-shipment-picking">Confirm Outbound Shipment picking</h3>
-<p>Once a shipment has been allocated. The next step is to confirm that shipment has been picked. Current status has to be <code>NEW</code> or <code>ALLOCATED</code>. </p>
+<h3 id="confirming-outbound-shipment-picking">Confirming Outbound Shipment picking</h3>
+<p>Picking refers to the process where individual items are picked from a fulfillment facility (usually a warehouse or a pharmacy store).</p>
+<p>Once a shipment has been allocated, next step is to go get the items to prepare the actual shipment. To help with that, you are able to generate a <strong>pick slip</strong> document. A pickslip indicates:</p>
+<ul>
+<li>what are the items to be picked</li>
+<li>the quantity and batch numbers for each item</li>
+<li>if you manage your inventory with storage locations, where the items are located. </li>
+</ul>
+<p>Once all items are picked and packed. You can then confirm the picking of the shipment to indicate to indicate that it is ready to be dispatched. </p>
 <p>To confirm that a shipment has been picked, click on the <code>Confirm Picked</code> button. </p>
 <p><img src="/docs/distribution/os_confirmpicked.gif" alt="Alt Text" /></p>
 <p>Once picking is confirmed:</p>
 <ul>
 <li>Shipment status is now <code>PICKED</code></li>
 <li>You are now invited to confirm the shipping via the <code>Confirm Shipped</code> button</li>
-<li>You can print a <strong>packing list</strong>. </li>
+<li>An <strong>Inbound Shipment</strong> has been generated and is now visible to your customer. </li>
 </ul>
-<h3 id="confirm-outbound-shipment-shipping">Confirm Outbound Shipment shipping</h3>
-<p>Once a shipment has been picked, it is ready to ship. To confirm the shipping, shipment's status has to be <code>NEW</code>, <code>ALLOCATED</code> or <code>PICKED</code>. </p>
+<p>At this stage, you are still able to edit shipment lines, to add items or to delete existing lines. However, if picking has been confirmed, you need to make sure to inform your fulfillment facility of any change so they can make sure that the shipment is still correct. </p>
+<h3 id="confirming-the-outbound-shipment-shipping">Confirming the Outbound Shipment shipping</h3>
+<p>The last step to issue stock with an Outbound Shipment is to confirm that stock has been shipped. This a critical step cause when goods are confirmed as shipped, they are no longer part of your inventory records. </p>
 <p>To confirm that an Outbound Shipment has been shipped, click on the <code>Confirm Shipped</code> button. </p>
 <p>Once shipping has been confirmed: </p>
 <ul>
@@ -719,7 +753,8 @@ In below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100mg ta
 <li>You can no longer delete the shipment</li>
 <li>You can print a <strong>delivery note</strong> or an <strong>invoice</strong>. </li>
 </ul>
-<p>If your customer is using mSupply as well, you will will be able to see when they'll receive your shipments:</p>
+<h3 id="tracking-progress-of-outbound-shipments">Tracking Progress of Outbound Shipments</h3>
+<p>If your customer is using mSupply as well, you wil be able to see when they'll receive your shipments:</p>
 <ul>
 <li>status will become <code>DELIVERED</code> when goods are received. </li>
 <li>status will become <code>VERIFIED</code> when shipment has been verified (or checked) by your customer. Goods are now part of their inventory.</li>
