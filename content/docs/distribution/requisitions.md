@@ -14,9 +14,8 @@ toc = true
 top = false
 +++
 
+You are a supplier and you want to know how to manage your customers' orders, then you are in the right place !
 
-
-
-
-
-
+<div class="omsupdate">
+Coming soon... 😊
+</div>

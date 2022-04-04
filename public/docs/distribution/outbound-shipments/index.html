@@ -224,7 +224,7 @@
 					                           
 							<li><a class="docs-link" href="https://docs.msupply.foundation/docs/tutorial/">Tutorial</a></li>
 					                           
-							<li><a class="docs-link" href="https://docs.msupply.foundation/docs/dashboard/">The Open mSupply Dashboard</a></li>
+							<li><a class="docs-link" href="https://docs.msupply.foundation/docs/dashboard/">Dashboard</a></li>
 					
 					</ul>
 			
@@ -362,6 +362,23 @@
   									</ul>
   							
   							
+  							<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#issuing-stock-with-an-outbound-shipment">Issuing stock with an Outbound Shipment</a></li>
+  							
+  									<ul>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#allocating-an-outbound-shipment">Allocating an Outbound Shipment</a></li>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#confirming-an-outbound-shipment-s-allocation">Confirming an Outbound Shipment&#x27;s allocation</a></li>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#confirming-outbound-shipment-picking">Confirming Outbound Shipment picking</a></li>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#confirming-the-outbound-shipment-shipping">Confirming the Outbound Shipment shipping</a></li>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#tracking-progress-of-outbound-shipments">Tracking Progress of Outbound Shipments</a></li>
+  											
+  									</ul>
+  							
+  							
   					</ul>
   			</nav>
   	</div>
@@ -380,8 +397,7 @@
 </ul>
 <h2 id="viewing-outbound-shipments">Viewing Outbound Shipments</h2>
 <h3 id="open-the-outbound-shipments-menu">Open the Outbound Shipments Menu</h3>
-<p>To access the <strong>Outbound Shipment</strong> menu, press the <strong>Distribution</strong> menu in the navigation panel. </p>
-<p><img src="/docs/distribution/gotoos2.png" alt="gotooos" /></p>
+<p>To access the <strong>Outbound Shipment</strong> menu, press the <strong>Distribution</strong> menu in the navigation panel.</p>
 <p>You will be presented with a list Outbound Shipments (or not if you're just starting!). </p>
 <p>From this screen you can:</p>
 <ul>
@@ -418,8 +434,8 @@
 <p>[IN PROGRESS]</p>
 <h3 id="delete-an-outbound-shipment">Delete an Outbound Shipment</h3>
 <p>You can delete a shipment from the Outbound Shipment list. </p>
-<div class="impt">
-<b>Note:</b> You can only delete Outbound Shipments with a status <code>NEW</code>.
+<div class="note">
+You can only delete Outbound Shipments with a status <code>NEW</code>.
 </div>
 <ol>
 <li>
@@ -455,11 +471,11 @@ In below example, we are issuing stock to <b>Kopu Health Center</b>.
 </div>
 <p><img src="/docs/distribution/os_select_customer.gif" alt="gif" /></p>
 <ol start="2">
-<li>
-<p>Once you tap or press <code>Enter</code>, your Outbound Shipment is automatically created.</p>
-<p>If everything went well, you should see the name of your customer in the top left corner and the status should be <code>NEW</code> </p>
-</li>
+<li>Once you tap or press <code>Enter</code>, your Outbound Shipment is automatically created.</li>
 </ol>
+<div class=imagetitle>
+If everything went well, you should see the name of your customer in the top left corner and the status should be <code>NEW</code> 
+</div>
 <p><img src="/docs/distribution/os_created.png" alt="" /></p>
 <h3 id="edit-the-customer-name">Edit the Customer Name</h3>
 <p>If you have selected the wrong customer, you can change the customer name in the <code>Customer Name</code> field or select one the dropdown list: </p>
@@ -511,13 +527,13 @@ In below example, we are issuing stock to <b>Kopu Health Center</b>.
 <p>Passed statuses are hightlighted in blue, next statuses appear in grey. </p>
 <figure>
 <img src="/docs/distribution/os_statussequence2.png" alt="Trulli" style="width:100%">
-<figcaption align = "center"><i>Status Sequence. Current Status is "New".</i></figcaption>
+<figcaption align = "center">Status Sequence: current status is <code>NEW</code>.</figcaption>
 </figure>
 <figure>
 <img src="/docs/distribution/os_statussequence3.png" alt="Trulli" style="width:100%">
-<figcaption align = "center"><i>Status Sequence. Current Status is "Picked".</i></figcaption>
+<figcaption align = "center">Status Sequence: current status is </i><code>PICKED</code>.</figcaption>
 </figure>
-<p>There are 6 statuses: </p>
+<p>There are 6 status for the Outbound Shipment: </p>
 <table><thead><tr><th align="left">Status</th><th>Description</th></tr></thead><tbody>
 <tr><td align="left"><strong>New</strong></td><td>This is the first status when you create a shipment</td></tr>
 <tr><td align="left"><strong>Allocated</strong></td><td>Allocation is confirmed. Goods are no longer available for other shipments but are still part of your inventory.</td></tr>
@@ -527,6 +543,9 @@ In below example, we are issuing stock to <b>Kopu Health Center</b>.
 <tr><td align="left"><strong>Verified</strong></td><td>Your customer has verified the quantity of the shipment. Goods are now part of their inventory.</td></tr>
 </tbody></table>
 <p>if you hover over the status sequence, a shipment history window appears. You can see the date when a shipment was updated from one status to another. </p>
+<div class="imagetitle">
+This shipment has been created, allocated and picked on 29/03/2022
+</div>
 <p><img src="/docs/distribution/os_statussequence_hover.png" alt="" /></p>
 <h3 id="hold-checkbox">Hold checkbox</h3>
 <p>Located on the bottom left corner, on the left of the status sequence. </p>
@@ -613,16 +632,16 @@ Let's imagine that your customer only wants pack size of 12 units. You can chang
 In below example, we are issuing 10 packs of 12 units:
 </div>
 <p><img src="/docs/distribution/os_additem_issuepacks.png" alt="additem!" /></p>
-<div class="impt">
-<b>Note:</b> if you had previously entered a quantity of units and you switch to a quantity a packs, the quantity of units will automatically be converted into the correct quantity of packs.  
+<div class="note">
+<b></b> if you had previously entered a quantity of units and you switch to a quantity a packs, the quantity of units will automatically be converted into the correct quantity of packs.  
 </div>
 <p><img src="/docs/distribution/os_issuepacks.gif" alt="Alt Text" /></p>
 <h3 id="manual-allocation">Manual Allocation</h3>
 <p>Regardless if you chose to issue a quantity of units or packs, you can always manually change the quantity at the batch number level directly before clicking on OK. </p>
 <p>You simply have to enter or edit the quantity in the <code># Packs</code> column. </p>
 <p>The main <code>Issue Quantity</code> field will be automatically updated with the new quantity.</p>
-<div class="impt">
- <b>Note:</b> when allocating quantities at the batch number level, the quantity you enter is always a quantity of packs. 
+<div class="note">
+ <b></b> when allocating quantities at the batch number level, the quantity you enter is always a quantity of packs. 
 </div>
 <figure>
 <img src="/docs/distribution/os_additem_manualallocation.gif" alt="Trulli" style="width:100%">
@@ -638,8 +657,8 @@ In below example, we are issuing 10 packs of 12 units:
 <h2 id="editing-an-outbound-shipment-line">Editing an Outbound Shipment Line</h2>
 <p>To edit an shipment line, tap or click on it. You will be presented with the <code>Edit Item</code> window, which is identical to the <code>Add Item</code> window, except that the item is already chosen. </p>
 <h3 id="edit-a-shipment-line">Edit a Shipment Line</h3>
-<div class="impt">
- <b>Note:</b> you can edit a shipment line if the shipment has a status lower than `Shipped`
+<div class="note">
+ <b></b> you can edit a shipment line if the shipment has a status lower than `Shipped`
 </div>
 <ol>
 <li>
@@ -653,8 +672,8 @@ In below example, we are issuing 10 packs of 12 units:
 </ul>
 </li>
 </ol>
-<div class="impt">
- <b>Note:</b> When editing a shipment line, you cannot change the item. You would need to delete the shipment line and to create a new one. 
+<div class="note">
+ <b></b> When editing a shipment line, you cannot change the item. You would need to delete the shipment line and to create a new one. 
 </div>
 <h3 id="delete-a-shipment-line">Delete a shipment line</h3>
 <ol>
@@ -668,9 +687,78 @@ In below example, we are issuing 10 packs of 12 units:
 In below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100mg tabs</i>
 </div>
 <p><img src="/docs/distribution/os_deleteselectedlines.gif" alt="Alt Text" /></p>
-<div class="impt">
- <b>Note:</b> You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
+<div class="note">
+ <b></b> You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
 </div>
+<h2 id="issuing-stock-with-an-outbound-shipment">Issuing stock with an Outbound Shipment</h2>
+<h3 id="allocating-an-outbound-shipment">Allocating an Outbound Shipment</h3>
+<p>Allocation is the process of assigning one or multiple batch numbers from the inventory to a shipment line. In other words, you are assigning stock to your shipment. Once allocated, the stock is reserved for the shipment and thus for your customer. </p>
+<p>There are 2 main ways to allocate a shipment line: </p>
+<ol>
+<li>
+<p>When adding items, system is automatically assigning stock to the new shipment line when you enter a quantity. If you don't have enough stock, system will add placeholder lines (unallocated lines). </p>
+</li>
+<li>
+<p>Bulk action <code>Allocate placeholder lines</code>: </p>
+<ul>
+<li>Select the lines that you want to allocate by checking boxes on the right on the list. </li>
+<li>In the Actons dropdown menu, select <code>Allocate placeholder lines</code>. System will check if there is available stock for each selected lines and allocate them using the First to Expire, First Out (FEFO) logic. A notification will let you know whether the operation is successful or not. </li>
+</ul>
+</li>
+</ol>
+<div class="note">
+You won't be able to process your Outbound Shipment if you have unallocated lines (shipment lines without batch number(s) assigned to it). You can wait for more stock to arrive or you can delete the placeholder lines. 
+</div>
+<h3 id="confirming-an-outbound-shipment-s-allocation">Confirming an Outbound Shipment's allocation</h3>
+<p>Once you all your shipments lines have been allocated, you can <strong>confirm the allocation</strong>:</p>
+<ul>
+<li>Current status of the shipment has to be <code>NEW</code></li>
+<li>lines must be assigned with one or several batch numbers. You won't be able to confirm the allocation if your shipment contains lines without batch numbers assigned to it (placeholder lines). </li>
+</ul>
+<p>To confirm the allocation, click on the <code>Confirm Allocated</code> button. </p>
+<p><img src="/docs/distribution/os_confirmallocated.gif" alt="Alt Text" /></p>
+<p>Once the allocation is confirmed:</p>
+<ul>
+<li>Shipment status is <code>ALLOCATED</code></li>
+<li>You are now invited to confirm the picking via the <code>Confirm Picked</code> button</li>
+<li>All the items and their quantities will be reserved, meaning that they are no longer available for allocation. </li>
+<li>You can print a <strong>pick slip</strong> to be sent to your warehouse so they can start preparing the shipment. </li>
+</ul>
+<h3 id="confirming-outbound-shipment-picking">Confirming Outbound Shipment picking</h3>
+<p>Picking refers to the process where individual items are picked from a fulfillment facility (usually a warehouse or a pharmacy store).</p>
+<p>Once a shipment has been allocated, next step is to go get the items to prepare the actual shipment. To help with that, you are able to generate a <strong>pick slip</strong> document. A pickslip indicates:</p>
+<ul>
+<li>what are the items to be picked</li>
+<li>the quantity and batch numbers for each item</li>
+<li>if you manage your inventory with storage locations, where the items are located. </li>
+</ul>
+<p>Once all items are picked and packed. You can then confirm the picking of the shipment to indicate to indicate that it is ready to be dispatched. </p>
+<p>To confirm that a shipment has been picked, click on the <code>Confirm Picked</code> button. </p>
+<p><img src="/docs/distribution/os_confirmpicked.gif" alt="Alt Text" /></p>
+<p>Once picking is confirmed:</p>
+<ul>
+<li>Shipment status is now <code>PICKED</code></li>
+<li>You are now invited to confirm the shipping via the <code>Confirm Shipped</code> button</li>
+<li>An <strong>Inbound Shipment</strong> has been generated and is now visible to your customer. </li>
+</ul>
+<p>At this stage, you are still able to edit shipment lines, to add items or to delete existing lines. However, if picking has been confirmed, you need to make sure to inform your fulfillment facility of any change so they can make sure that the shipment is still correct. </p>
+<h3 id="confirming-the-outbound-shipment-shipping">Confirming the Outbound Shipment shipping</h3>
+<p>The last step to issue stock with an Outbound Shipment is to confirm that stock has been shipped. This a critical step cause when goods are confirmed as shipped, they are no longer part of your inventory records. </p>
+<p>To confirm that an Outbound Shipment has been shipped, click on the <code>Confirm Shipped</code> button. </p>
+<p>Once shipping has been confirmed: </p>
+<ul>
+<li>Shipment status is now <code>SHIPPED</code></li>
+<li>Goods are  no longer part of your inventory</li>
+<li>You can no longer edit shipment lines</li>
+<li>You can no longer delete the shipment</li>
+<li>You can print a <strong>delivery note</strong> or an <strong>invoice</strong>. </li>
+</ul>
+<h3 id="tracking-progress-of-outbound-shipments">Tracking Progress of Outbound Shipments</h3>
+<p>If your customer is using mSupply as well, you wil be able to see when they'll receive your shipments:</p>
+<ul>
+<li>status will become <code>DELIVERED</code> when goods are received. </li>
+<li>status will become <code>VERIFIED</code> when shipment has been verified (or checked) by your customer. Goods are now part of their inventory.</li>
+</ul>
 
         
         
@@ -689,7 +777,7 @@ In below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100mg ta
         <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;dashboard&#x2F;">
           <div class="card my-1">
             <div class="card-body py-2">
-              &larr; The Open mSupply Dashboard
+              &larr; Dashboard
             </div>
           </div>
         </a>

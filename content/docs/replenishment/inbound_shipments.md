@@ -9,46 +9,28 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "Issuing stock to your customers"
+lead = "Receiving stock from your suppliers"
 toc = true
 top = false
 +++
 
-Outbound Shipments can used to issue stock to a customer. 
+Inbound Shipments can be used to receive stock from suppliers. 
 
-To access the **Outbound Shipment** menu, press the **Distribution** menu in the navigation panel. 
+An Inbound Shipment can be:
+* **Automatic**: when you are receiving from another store using mSupply
+* **Manual**: when you are creating an Inbound Shipment *ad hoc*
 
-![gotooos](/docs/gotoos2.png)
+To access the **Inbound Shipment** menu, go to the **Replenishment** menu in the navigation panel and click on **Inbound Shipment**. 
 
-## Creating a new Outbound Shipment
+## Viewing Inbound Shipments
 
-1. Go to **Distribution** > **Outbound Shipment**
-2. Press the **New Shipment** button, in the top right corner
+## Creating a new Inbound Shipment
 
-![login!](/docs/clicknewshipment.png)
+## Adding items to an Inbound Shipment
 
+## Editing an Inbound Shipment line
 
-3. In the new window, you will be presented with a list of available choice. You can select your customer from the list or you can type as much of a customer name and select it. 
-
-*In our example, we are issuing stock to the Kopu Health Center*. 
-
-![gif](/docs/os_select_customer.gif)
-
-
-4.  If you have selected the wrong customer, you can always type the name of another customer or select one the dropdown list.  
-
-
-![gif](/docs/os_change_customer.gif)
-
-
-
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
-
-## Outbound Shipment Headers
-
-
-
-## Outbound Shipment Information Panel
+## Receiving stock with an Inbound Shipment
 
 
 
