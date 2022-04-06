@@ -18,7 +18,7 @@ top = false
 Outbound Shipments can used to issue stock to a customer. 
 
 If you used mSupply in the past, you may be familiar with the term **Customer Invoice**. An Outbound Shipment can be used to:
-* Transfer stock to another store using mSupply
+* Transfer stock to another store which also uses mSupply
 * Issue stock to a customer
 * Fulfill requisitions (customer orders)
 
@@ -28,17 +28,17 @@ If you used mSupply in the past, you may be familiar with the term **Customer In
 
 To access the **Outbound Shipment** menu, press the **Distribution** menu in the navigation panel.
 
+![gotooos](/docs/distribution/gotoos2.png)
+
 You will be presented with a list Outbound Shipments (or not if you're just starting!). 
 
 From this screen you can:
-* View a list of Outbound Shipment
-* Create a new Outbound Shipment
+* View a list of Outbound Shipments
+* Create a new Outbound Shipments
 * Export one or multiple Outbound Shipments
 * Print one or multiple Outbound Shipments
 
 ### List of Outbound Shipments
-
-![gotooos](/docs/distribution/os_list.png)
 
 1. The list of Outbound Shipments is divided into 5 columns:
 
@@ -65,7 +65,7 @@ You can filter the list of shipments by customer name. This can be useful if you
 
 Type the name of a customer in the `Search by name` field (on the left, just above the list headers). All the shipments for this customer appear in the list. 
 
-### Export Outbound Shipments
+### Exporting Outbound Shipments
 
 [IN PROGRESS]
 
@@ -73,15 +73,15 @@ Type the name of a customer in the `Search by name` field (on the left, just abo
 
 You can delete a shipment from the Outbound Shipment list. 
 
-<div class="note">
-You can only delete Outbound Shipments with a status <code>NEW</code>.
-</div>
-
 1. Select the shipment that you want to delete by checking the box on the left end of the list. You can select more than one shipment to be deleted. You can even select them all using the  master checkbox in the list headers. 
 
 2. Open the `Select` dropdown (top right corner, above the list) and select `Delete selected lines`. 
 
 3. A notification confirms how many shipments were deleted (bottom left corner). 
+
+<div class="note">
+You can only delete Outbound Shipments with a status <code>NEW</code>.
+</div>
 
 ![](/docs/distribution/os_list_deleteshipment.gif)
 
@@ -137,7 +137,7 @@ We are planning to add more sections in the future as Open mSupply grows.
 
 To open the Information Panel, you can tap on the `More` button, located in the top right corner of the Outbound Shipment view. 
 
-You can close by tap on the `X Close` button, on the top right corner of the information panel. 
+You can close by tapping on the `X Close` button, on the top right corner of the information panel. 
 
 ![Open and close the Information Panel](/docs/distribution/os_infopanel_openclose.gif)
 
@@ -158,7 +158,7 @@ In the future, we would also include other documents such as temperature records
 
 #### Invoice Details
 
-In this section, you will see by default the total selling price of the items listed in the Outbound Shipments. 
+In this section, you will see by default the total selling price of the items listed in the Outbound Shipment. 
 
 You can also add a **Service charges** if you wish to add other charges such as Freight Costs. To add a Service charges to the Invoice Details: 
 
@@ -365,6 +365,22 @@ The main `Issue Quantity` field will be automatically updated with the new quant
 <figcaption align = "center"><i>Manual allocation at the batch number level.</i></figcaption>
 </figure>
 
+### Issuing when there is not enough stock (Placeholder Line)
+
+If the amount to be issued is greater than the total stock available from all of the available lines, then the quantity to be issued will automatically be placed in the `placeholder` field, at the bottom of the list of available batch numbers. 
+
+Placeholder lines can be allocated later when new stock arrives. However, all shipment lines must be allocated before confirming the allocation. 
+
+<div class="imagetitle">
+Since there is no stock available for <i>042744-Diazepam Injection 5mg/ml Amp/2ml</i>, system is issuing a 100 units in the placeholder field. 
+</div>
+
+![Alt Text](/docs/distribution/os_additem_placeholder.png)
+
+When you look at an Outbound Shipment, you can see if a shipment line has not been allocated or has been partially allocated when it is higlighted in blue. 
+
+![Alt Text](/docs/distribution/os_placeholderlines.png)
+
 ### Confirm Item and Quantity
 
 When you are happy with the quantity, you can either click on:
@@ -379,7 +395,7 @@ To edit an shipment line, tap or click on it. You will be presented with the `Ed
 ### Edit a Shipment Line
 
 <div class="note">
- <b></b> you can edit a shipment line if the shipment has a status lower than `Shipped`
+ <b></b> you can edit a shipment line if the shipment has a status lower than <code>Shipped</code>. 
 </div>
 
 1. Open the Outbound Shipment you want to edit. 
@@ -423,7 +439,7 @@ There are 2 main ways to allocate a shipment line:
 
 2. Bulk action `Allocate placeholder lines`: 
     * Select the lines that you want to allocate by checking boxes on the right on the list. 
-    * In the Actons dropdown menu, select `Allocate placeholder lines`. System will check if there is available stock for each selected lines and allocate them using the First to Expire, First Out (FEFO) logic. A notification will let you know whether the operation is successful or not. 
+    * In the `Actions` dropdown menu, select `Allocate placeholder lines`. System will check if there is available stock for each selected lines and allocate them using the First to Expire, First Out (FEFO) logic. A notification will let you know whether the operation is successful or not. 
 
 <div class="note">
 You won't be able to process your Outbound Shipment if you have unallocated lines (shipment lines without batch number(s) assigned to it). You can wait for more stock to arrive or you can delete the placeholder lines. 
@@ -484,7 +500,7 @@ Once shipping has been confirmed:
 
 ### Tracking Progress of Outbound Shipments
 
-If your customer is using mSupply as well, you wil be able to see when they'll receive your shipments:
+If your customer is also using mSupply, you wil be able to see when they'll receive your shipments:
 * status will become `DELIVERED` when goods are received. 
 * status will become `VERIFIED` when shipment has been verified (or checked) by your customer. Goods are now part of their inventory.
 

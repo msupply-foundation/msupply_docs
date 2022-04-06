@@ -306,7 +306,7 @@
   											
   											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#search-by-customer-name">Search by Customer Name</a></li>
   											
-  											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#export-outbound-shipments">Export Outbound Shipments</a></li>
+  											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#exporting-outbound-shipments">Exporting Outbound Shipments</a></li>
   											
   											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#delete-an-outbound-shipment">Delete an Outbound Shipment</a></li>
   											
@@ -345,6 +345,8 @@
   											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#issue-a-quantity-of-packs">Issue a quantity of packs</a></li>
   											
   											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#manual-allocation">Manual Allocation</a></li>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#issuing-when-there-is-not-enough-stock-placeholder-line">Issuing when there is not enough stock (Placeholder Line)</a></li>
   											
   											<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#confirm-item-and-quantity">Confirm Item and Quantity</a></li>
   											
@@ -391,23 +393,23 @@
         <p>Outbound Shipments can used to issue stock to a customer. </p>
 <p>If you used mSupply in the past, you may be familiar with the term <strong>Customer Invoice</strong>. An Outbound Shipment can be used to:</p>
 <ul>
-<li>Transfer stock to another store using mSupply</li>
+<li>Transfer stock to another store which also uses mSupply</li>
 <li>Issue stock to a customer</li>
 <li>Fulfill requisitions (customer orders)</li>
 </ul>
 <h2 id="viewing-outbound-shipments">Viewing Outbound Shipments</h2>
 <h3 id="open-the-outbound-shipments-menu">Open the Outbound Shipments Menu</h3>
 <p>To access the <strong>Outbound Shipment</strong> menu, press the <strong>Distribution</strong> menu in the navigation panel.</p>
+<p><img src="/docs/distribution/gotoos2.png" alt="gotooos" /></p>
 <p>You will be presented with a list Outbound Shipments (or not if you're just starting!). </p>
 <p>From this screen you can:</p>
 <ul>
-<li>View a list of Outbound Shipment</li>
-<li>Create a new Outbound Shipment</li>
+<li>View a list of Outbound Shipments</li>
+<li>Create a new Outbound Shipments</li>
 <li>Export one or multiple Outbound Shipments</li>
 <li>Print one or multiple Outbound Shipments</li>
 </ul>
 <h3 id="list-of-outbound-shipments">List of Outbound Shipments</h3>
-<p><img src="/docs/distribution/os_list.png" alt="gotooos" /></p>
 <ol>
 <li>The list of Outbound Shipments is divided into 5 columns:</li>
 </ol>
@@ -430,13 +432,10 @@
 <h3 id="search-by-customer-name">Search by Customer Name</h3>
 <p>You can filter the list of shipments by customer name. This can be useful if you're looking for one particular shipment!</p>
 <p>Type the name of a customer in the <code>Search by name</code> field (on the left, just above the list headers). All the shipments for this customer appear in the list. </p>
-<h3 id="export-outbound-shipments">Export Outbound Shipments</h3>
+<h3 id="exporting-outbound-shipments">Exporting Outbound Shipments</h3>
 <p>[IN PROGRESS]</p>
 <h3 id="delete-an-outbound-shipment">Delete an Outbound Shipment</h3>
 <p>You can delete a shipment from the Outbound Shipment list. </p>
-<div class="note">
-You can only delete Outbound Shipments with a status <code>NEW</code>.
-</div>
 <ol>
 <li>
 <p>Select the shipment that you want to delete by checking the box on the left end of the list. You can select more than one shipment to be deleted. You can even select them all using the  master checkbox in the list headers. </p>
@@ -448,6 +447,9 @@ You can only delete Outbound Shipments with a status <code>NEW</code>.
 <p>A notification confirms how many shipments were deleted (bottom left corner). </p>
 </li>
 </ol>
+<div class="note">
+You can only delete Outbound Shipments with a status <code>NEW</code>.
+</div>
 <p><img src="/docs/distribution/os_list_deleteshipment.gif" alt="" /></p>
 <h2 id="creating-a-new-outbound-shipment">Creating a new Outbound Shipment</h2>
 <ol>
@@ -493,7 +495,7 @@ If everything went well, you should see the name of your customer in the top lef
 <p>We are planning to add more sections in the future as Open mSupply grows. </p>
 <h4 id="how-to-open-and-close-the-information-panel">How to open and close the Information Panel ?</h4>
 <p>To open the Information Panel, you can tap on the <code>More</code> button, located in the top right corner of the Outbound Shipment view. </p>
-<p>You can close by tap on the <code>X Close</code> button, on the top right corner of the information panel. </p>
+<p>You can close by tapping on the <code>X Close</code> button, on the top right corner of the information panel. </p>
 <p><img src="/docs/distribution/os_infopanel_openclose.gif" alt="Open and close the Information Panel" /></p>
 <h4 id="additonal-info">Additonal Info</h4>
 <p>In the <strong>Additional Info</strong> section, you can:</p>
@@ -507,7 +509,7 @@ If everything went well, you should see the name of your customer in the top lef
 <p>If your Outbound Shipment was created to fulfill a <strong>Requisition</strong>, the reference number of the requisition would appear in this section. </p>
 <p>In the future, we would also include other documents such as temperature records, transportation documents or pickslips. </p>
 <h4 id="invoice-details">Invoice Details</h4>
-<p>In this section, you will see by default the total selling price of the items listed in the Outbound Shipments. </p>
+<p>In this section, you will see by default the total selling price of the items listed in the Outbound Shipment. </p>
 <p>You can also add a <strong>Service charges</strong> if you wish to add other charges such as Freight Costs. To add a Service charges to the Invoice Details: </p>
 <ol>
 <li>Tap on the <code>Edit Service Charges</code> button. A new window opens. </li>
@@ -647,6 +649,15 @@ In below example, we are issuing 10 packs of 12 units:
 <img src="/docs/distribution/os_additem_manualallocation.gif" alt="Trulli" style="width:100%">
 <figcaption align = "center"><i>Manual allocation at the batch number level.</i></figcaption>
 </figure>
+<h3 id="issuing-when-there-is-not-enough-stock-placeholder-line">Issuing when there is not enough stock (Placeholder Line)</h3>
+<p>If the amount to be issued is greater than the total stock available from all of the available lines, then the quantity to be issued will automatically be placed in the <code>placeholder</code> field, at the bottom of the list of available batch numbers. </p>
+<p>Placeholder lines can be allocated later when new stock arrives. However, all shipment lines must be allocated before confirming the allocation. </p>
+<div class="imagetitle">
+Since there is no stock available for <i>042744-Diazepam Injection 5mg/ml Amp/2ml</i>, system is issuing a 100 units in the placeholder field. 
+</div>
+<p><img src="/docs/distribution/os_additem_placeholder.png" alt="Alt Text" /></p>
+<p>When you look at an Outbound Shipment, you can see if a shipment line has not been allocated or has been partially allocated when it is higlighted in blue. </p>
+<p><img src="/docs/distribution/os_placeholderlines.png" alt="Alt Text" /></p>
 <h3 id="confirm-item-and-quantity">Confirm Item and Quantity</h3>
 <p>When you are happy with the quantity, you can either click on:</p>
 <ul>
@@ -658,7 +669,7 @@ In below example, we are issuing 10 packs of 12 units:
 <p>To edit an shipment line, tap or click on it. You will be presented with the <code>Edit Item</code> window, which is identical to the <code>Add Item</code> window, except that the item is already chosen. </p>
 <h3 id="edit-a-shipment-line">Edit a Shipment Line</h3>
 <div class="note">
- <b></b> you can edit a shipment line if the shipment has a status lower than `Shipped`
+ <b></b> you can edit a shipment line if the shipment has a status lower than <code>Shipped</code>. 
 </div>
 <ol>
 <li>
@@ -702,7 +713,7 @@ In below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100mg ta
 <p>Bulk action <code>Allocate placeholder lines</code>: </p>
 <ul>
 <li>Select the lines that you want to allocate by checking boxes on the right on the list. </li>
-<li>In the Actons dropdown menu, select <code>Allocate placeholder lines</code>. System will check if there is available stock for each selected lines and allocate them using the First to Expire, First Out (FEFO) logic. A notification will let you know whether the operation is successful or not. </li>
+<li>In the <code>Actions</code> dropdown menu, select <code>Allocate placeholder lines</code>. System will check if there is available stock for each selected lines and allocate them using the First to Expire, First Out (FEFO) logic. A notification will let you know whether the operation is successful or not. </li>
 </ul>
 </li>
 </ol>
@@ -754,7 +765,7 @@ You won't be able to process your Outbound Shipment if you have unallocated line
 <li>You can print a <strong>delivery note</strong> or an <strong>invoice</strong>. </li>
 </ul>
 <h3 id="tracking-progress-of-outbound-shipments">Tracking Progress of Outbound Shipments</h3>
-<p>If your customer is using mSupply as well, you wil be able to see when they'll receive your shipments:</p>
+<p>If your customer is also using mSupply, you wil be able to see when they'll receive your shipments:</p>
 <ul>
 <li>status will become <code>DELIVERED</code> when goods are received. </li>
 <li>status will become <code>VERIFIED</code> when shipment has been verified (or checked) by your customer. Goods are now part of their inventory.</li>
