@@ -18,9 +18,9 @@ Inbound Shipments can be used to receive stock from suppliers.
 
 If you used mSupply in the past, you may be familiar with the term **Supplier Invoice**. 
 
-An Inbound Shipment can be:
-* **Automatic**: when you are receiving from another store which is using mSupply
-* **Manual**: when you are creating an Inbound Shipment *ad hoc*
+All received goods should be recorded in mSupply either by: 
+* manually creating an Inbound Shipment (manual Inbound Shipment)
+* working with an Inbound Shipment that has been created automatically as a result of a stck transfer from another store in your mSupply
 
 ## Viewing Inbound Shipments
 
@@ -32,7 +32,9 @@ To access the **Inbound Shipment** menu:
 1. Go to the `Replenishment` menu in the navigation panel
 2. Click on `Inbound Shipment`.
 
-### List of Inbound Shipments
+### Inbound Shipments list
+
+First thing you see is a list of existing Inbound Shipments. 
 
 The Inbound Shipments list is divided into 6 columns: 
 
@@ -88,6 +90,11 @@ You can only delete Inbound Shipments with a status <code>NEW</code>.
 
 1. In the `Suppliers` window, you will be presented with a list of suppliers. You can select your supplier from the list or you can type as much of a supplier name. 
 
+<div class="tip">
+You can tell if a supplier is also using mSupply in their store. If they do, you will see icon like this (<img src="/docs/replenishment/is_msupplystoreicon.png" alt="Trulli" style="width:auto">) next to the supplier code. 
+
+</div>
+
 <div class="imagetitle">
 In below example, we are receiving stock from <b>Tamaki Central Medical Store</b>. 
 </div>
@@ -104,7 +111,7 @@ If everything went well, you should see the name of your supplier in the top lef
 
 
 <div class="note">
-When you create a new manual Inbound Shipment, system assumes that shipment has already been shipped by the supplier and is on its way. That's why first status of a manual Inbound Shipment is always <code>SHIPPED</code>.
+When you create a <b>new</b> manual Inbound Shipment, mSupply assumes that shipment has already been shipped by the supplier and is coming your way. <br /> That's why first status of a manual Inbound Shipment is always <code>SHIPPED</code>.
 </div>
 
 ### Edit the Supplier Name
@@ -119,17 +126,17 @@ In below example, we are replacing <b>Tamaki Central Medical Store</b> by <b>Wai
 
 ### Enter a Supplier Reference
 
-Once your Inbound Shipment has been created, you can capture a supplier reference in the `Supplier Ref` field, if they have one (eg. *PO#1234567*)
+Once your Inbound Shipment has been created, you can capture a supplier reference in the `Supplier Ref` field, if they have one (eg. * PO#1234567 *)
 
 ### View or edit the Inbound Shipment Information Panel
 
 The Information Panel allows you see or to edit information about the Inbound Shipment. It is divided in multiple sections: 
-* Additional 
+* Additional Info
 * Related Documents
 * Invoice Details
 * Transport Details
 
-<div class="oms">
+<div class="omsupdate">
 We are planning to add more sections in the future as Open mSupply grows. 
 </div>
 
@@ -241,18 +248,156 @@ You don't have to update a shipment to next status in the sequence. You can choo
 
 As demonstrated below, tap on the down arrow of the `Confirm` button and select the status you want the shipment to be updated to. 
 
-![Skip Status](/docs/distribution/os_confirmbutton_skipstatuses.gif)
+![Skip Status](/docs/replenishment/is_skipstatus.gif)
 
-## Adding items to an Inbound Shipment
+## Adding lines to an Inbound Shipment
 
-Oh la la 
+To add a line, tap on the `Add Item` button located in the top left corner of your screen. 
+
+A new `Add Item` window opens. 
+
+![](/docs/replenishment/is_additem_button.png)
+
+### Select an Item
+
+In the `Add Item` window, you can look up an item by:
+* reading through the list of available items
+* or by typing as much of an item name
+* or by typing as much of an item code
+
+Once your item is highligthed, tap on the name or press `Enter`.
+
+![](/docs/distribution/os_additem.gif)
+
+
+### Quantities tab
+
+In the `Quantities` tab, you can update the following fields: 
+1. **Batch**: type here the batch number. Leave blank if item is not managed with batch number.
+2. **Expiry**: the expiry date of the batch number. Leave blank is not applicable.
+3. **# Packs**: the quantity of packs you are receiving
+4. **Pack Size**: the quantity of units per pack (by default, pack size is 1)
+5. **Unit Qty** (read-only): automatically calculated based on # Packs and Pack Size (`[# Packs] x [Pack Size]`). 
+6. If you are receiving more than one batch number for the same item, you can tap on the `Add Batch` button. 
+
+<div class="imagetitle">
+In below example, we are receiving 2 batch numbers for item <i>030453 - Amoxicillin 250mg tabs</i> with a different pack size. 
+</div>
+
+![](/docs/replenishment/is_additem_quantities.png)
+
+### Pricing tab
+
+On the second tab, `Pricing`, you can update the following fields (all are optional): 
+* **Sell**: the selling unit price of the item  (default value is 0)
+* **Cost**: the purchasing unit price of the item (default value is 0)
+* **Unit Qty** (read-only): total number of units for the batch number
+* **Line Total** (read-only): total purchasing value for the batch number (`[Unit Qty] x [Cost]`). 
+
+<div class="warning">
+Sell & Cost prices are per units and not per pack. 
+</div>
+
+<div class="imagetitle">
+In below example, sell price 12$ per unit and cost price is 10$ per unit. 
+</div>
+
+![](/docs/replenishment/is_additem_pricing.png)
+
+### Location tab
+
+In the third tab, `Location`, you can select a storage location to assign the batch number to a location in your storage facility. 
+
+Simply select a storage location from the `Location` dropdown menu.
+
+![](/docs/replenishment/is_additem_location.png)
+
+<div class="note">
+Don't know the storage location yet ? You don't have to capture it right away. You can update the storage location at any time if you haven't confirmed the verification yet. 
+</div>
+
+### Confirm item and quantities
+
+When you're done, you can add the new line by tapping on:
+* `OK`if you don't want to add another line to your shipment
+* `OK & Next`if you have other lines to create
+
+Otherwise, you can tap on `Cancel` and your changes won't be saved. 
 
 
 ## Editing an Inbound Shipment line
 
+To edit an Inbound Shipment line, simply tap on it. You will be presented with the `Edit Item` window, which is identical to the `Add Item` window, except that the item is already chosen and cannot be modified. 
+
+### Edit a Shipment Line
+
+<div class="note">
+ <b></b> you can edit a shipment line if the shipment has a status higher lower than <code>VERIFIED</code>. 
+</div>
+
+1. Open the Outbound Shipment you want to edit. 
+2. Tap on the line you want to edit. An identical window to `Add Item` appears. At this stage:
+
+    *  Edit the main `Issue Quantity` field 
+    *  or change the number of packs value at the batch number level
+
+<div class="note">
+ <b></b> When editing a shipment line, you cannot change the item. You would need to delete the shipment line and to create a new one. 
+</div>
+
+### Delete a Shipment line
+
+1. Open the Inbound Shipment that you would like to edit
+2. Make sure that status is not yet `VERIFIED`. 
+2. Select the line(s) you want to delete by checking the box(es) on the right of the list. 
+3. Go to the `Actions` dropdown menu (top right corner, above the list)
+4. Select the action `Delete selected lines`
+
+![Alt Text](/docs/distribution/os_actions_deleteselectedlines.png)
+
+<div class="imagetitle">
+In below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100mg tabs</i>
+</div>
+
+![Alt Text](/docs/distribution/os_deleteselectedlines.gif)
+
+<div class="tip">
+You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
+</div>
+
+
 ## Receiving stock with an Inbound Shipment
 
+### Confirm the delivery of the shipment
 
+Whether your Inbound Shipment is **manual** or **automatic**, the first step to receive the goods is to confirm the delivery. 
+
+At this stage, you don't have to check if quantities or other information are correct, you just have to acknowledge that you have received the goods from your supplier. 
+
+To confirm that an Inbound Shipment has been delivered, click on the `Confirm Delivered` button. 
+
+<div class="note">
+In case your Inbound Shipment is <b>automatic</b>, you cannot confirm its delivery unless the supplier has confirmed its shipment. In other words, your shipment status has to be <code>SHIPPED</code> before you can confirm that you have received the goods. 
+</div>
+
+### Verify your Inbound Shipment
+
+Verification is the last step to receive goods in mSupply. At this stage, you can check what you have received and make sure that that information in mSupply are correct. 
+
+You have the possibility to verify the following information: 
+* batch numbers and their expiry dates
+* quantity of packs and pack size
+* pricing information: cost and sell prices
+
+You can also capture where received goods are to be stored in the `Location` tab. 
+
+Once all information have been captured or verified, you can confirm the Shipment as `VERIFIED` by tapping on the `Confirm Verified` button. 
+
+Once you have done this:
+* Shipment status is now `VERIFIED`
+* Goods are now part of your inventory
+* You can no longer edit shipment lines
+* You can no longer delete the shipment
 
 
 

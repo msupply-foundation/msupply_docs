@@ -15,7 +15,7 @@ top = false
 +++
 
 
-Outbound Shipments can used to issue stock to a customer. 
+Outbound Shipments can be used to issue stock to a customer. 
 
 If you used mSupply in the past, you may be familiar with the term **Customer Invoice**. An Outbound Shipment can be used to:
 * Transfer stock to another store which also uses mSupply
@@ -26,11 +26,11 @@ If you used mSupply in the past, you may be familiar with the term **Customer In
 
 ### Open the Outbound Shipments Menu
 
-To access the **Outbound Shipment** menu, press the **Distribution** menu in the navigation panel.
+Choose `Distribution` > `Outbound Shipment` in the navigation panel.
 
 ![gotooos](/docs/distribution/gotoos2.png)
 
-You will be presented with a list Outbound Shipments (or not if you're just starting!). 
+You will be presented with a list Outbound Shipments (if you don't see any, you are probably just starting!). 
 
 From this screen you can:
 * View a list of Outbound Shipments
@@ -38,9 +38,9 @@ From this screen you can:
 * Export one or multiple Outbound Shipments
 * Print one or multiple Outbound Shipments
 
-### List of Outbound Shipments
+### Outbound Shipment list
 
-1. The list of Outbound Shipments is divided into 5 columns:
+1. The list of Outbound Shipments is divided into 6 columns:
 
 | Column| Description |
 | :---------- | :---------- |
@@ -51,11 +51,11 @@ From this screen you can:
 | **Comment** | Comment for the shipment |
 | **Total** | Total value of the shipment |
 
-2. The list can display **20 shipments per page**. On the bottom left corner, you can how many shipments are currently displayed on your screen. 
+2. The list can display a fixed number of shipments per page. On the bottom left corner, you can see how many shipments are currently displayed on your screen. 
 
 ![Page](/docs/distribution/os_list_showing.png)
 
-3. If you have more than 20 shipments, you can navigate to the other pages by clicking on the page number or using the right of left arrows (bottom right corner). 
+3. If you have more than 20 shipments, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner). 
 
 ![Page](/docs/distribution/os_list_pagenumbers.png)
 
@@ -67,7 +67,9 @@ Type the name of a customer in the `Search by name` field (on the left, just abo
 
 ### Exporting Outbound Shipments
 
-[IN PROGRESS]
+<div class="omsupdate">
+In progress... 😇
+</div>
 
 ### Delete an Outbound Shipment
 
@@ -85,7 +87,8 @@ You can only delete Outbound Shipments with a status <code>NEW</code>.
 
 ![](/docs/distribution/os_list_deleteshipment.gif)
 
-## Creating a new Outbound Shipment
+## Creating an Outbound Shipment
+
 
 1. Go to `Distribution` > `Outbound Shipment`. 
 
@@ -95,7 +98,7 @@ You can only delete Outbound Shipments with a status <code>NEW</code>.
 
 3. A new window `Customers` opens, inviting you to select a customer. 
 
-### Select a Customer
+#### Select a Customer
 
 1. In the new window, you will be presented with a list of available customers. You can select your customer from the list or you can type as much of a customer name
 
@@ -126,7 +129,7 @@ Once your Outbound Shipment has been created, you can enter a customer reference
 ### View or edit the Outbound Shipment Information Panel
 
 The Information Panel allows you see or to edit information about the Outbound Shipment. It is divided in multiple sections: 
-* Additional 
+* Additional Info
 * Related Documents
 * Invoice Details
 * Transport Details
@@ -184,7 +187,7 @@ The status sequence is located at the bottom left corner of the Outbound Shipmen
 Passed statuses are hightlighted in blue, next statuses appear in grey. 
 
 <figure>
-<img src="/docs/distribution/os_statussequence2.png" alt="Trulli" style="width:100%">
+<img src="/docs/distribution/os_statussequence2.png" style="width:100%">
 <figcaption align = "center">Status Sequence: current status is <code>NEW</code>.</figcaption>
 </figure>
 
@@ -224,7 +227,7 @@ Check the `Hold` checkbox prevents the Outbound Shipment from being updated to t
 
 #### Cancel Button
 
-Click on the `Cancel` button to quit the Outbound Shipment view and return to the Outbound Shipments list. 
+Tap on the `Cancel` button to quit the Outbound Shipment view and return to the Outbound Shipments list. 
 
 #### Confirm Button
 
@@ -244,7 +247,7 @@ As demonstrated below, tap on the down arrow of the `Confirm` button and select 
 
 ![Skip Status](/docs/distribution/os_confirmbutton_skipstatuses.gif)
 
-## Adding items to an Outbound Shipment
+## Adding lines to an Outbound Shipment
 
 Tap on the `Add Item` button (top right corner). 
 
@@ -291,13 +294,13 @@ Default value is `Any` when you are issuing units.
 #### List of available batches:
 
 This is a list of batch numbers that you have in store for this item: 
-* **Packs**: number of packs to be issued
+* **# Packs**: number of packs to be issued
 * **Pack Size**: quantity of units per pack
 * **Unit Qty**: total quantity of units to be issued
 * **Available**: number of packs available (not already allocated to other shipments)
 * **In store**: total number of packs in your store
 * **Batch**: batch number. It is a designation given to products made in the same manufacturing run. 
-* **Expiry**: Expiry date of the batch
+* **Expiry**: Expiry date of the batch (format: MM/YYYY)
 * **Location**: if you inventory is managed with storage locations, the name of the location where the item is stored. 
 * **Sell**: selling unit price of the item
 * **On Hold**: indicate whether a batch is on hold or not. You cannot issue a batch that is on hold. 
@@ -350,7 +353,7 @@ In below example, we are issuing 10 packs of 12 units:
 
 ### Manual Allocation 
 
-Regardless if you chose to issue a quantity of units or packs, you can always manually change the quantity at the batch number level directly before clicking on OK. 
+Regardless if you chose to issue a quantity of units or packs, you can always manually change the quantity at the batch number level directly before pressing on OK. 
 
 You simply have to enter or edit the quantity in the `# Packs` column. 
 
@@ -383,14 +386,14 @@ When you look at an Outbound Shipment, you can see if a shipment line has not be
 
 ### Confirm Item and Quantity
 
-When you are happy with the quantity, you can either click on:
+When you are happy with the quantity, you can either press on:
 * the `OK` button. You are redirected to the Outbound Shipment view and your item has been added to the list. 
 * the `OK & Next` button to add another item right away
 * the `Cancel` if you do not want to add the item to the Outbound Shipment anymore
 
 ## Editing an Outbound Shipment Line
 
-To edit an shipment line, tap or click on it. You will be presented with the `Edit Item` window, which is identical to the `Add Item` window, except that the item is already chosen. 
+To edit an shipment line, tap on it. You will be presented with the `Edit Item` window, which is identical to the `Add Item` window, except that the item is already chosen. 
 
 ### Edit a Shipment Line
 
@@ -408,7 +411,7 @@ To edit an shipment line, tap or click on it. You will be presented with the `Ed
  <b></b> When editing a shipment line, you cannot change the item. You would need to delete the shipment line and to create a new one. 
 </div>
 
-### Delete a shipment line
+### Delete a Shipment line
 
 1. Open the Outbound Shipment you want to edit.
 2. Select the line(s) you want to delete by checking the box(es) on the right of the list. 
@@ -423,7 +426,7 @@ In below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100mg ta
 
 ![Alt Text](/docs/distribution/os_deleteselectedlines.gif)
 
-<div class="note">
+<div class="tip">
  <b></b> You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
 </div>
 
@@ -451,7 +454,7 @@ Once you all your shipments lines have been allocated, you can **confirm the all
 * Current status of the shipment has to be `NEW`
 * lines must be assigned with one or several batch numbers. You won't be able to confirm the allocation if your shipment contains lines without batch numbers assigned to it (placeholder lines). 
 
-To confirm the allocation, click on the `Confirm Allocated` button. 
+To confirm the allocation, press the `Confirm Allocated` button. 
 
 ![Alt Text](/docs/distribution/os_confirmallocated.gif)
 
@@ -473,7 +476,7 @@ Once a shipment has been allocated, next step is to go get the items to prepare 
 
 Once all items are picked and packed. You can then confirm the picking of the shipment to indicate to indicate that it is ready to be dispatched. 
 
-To confirm that a shipment has been picked, click on the `Confirm Picked` button. 
+To confirm that a shipment has been picked, tap on the `Confirm Picked` button. 
 
 ![Alt Text](/docs/distribution/os_confirmpicked.gif)
 
@@ -489,7 +492,7 @@ At this stage, you are still able to edit shipment lines, to add items or to del
 
 The last step to issue stock with an Outbound Shipment is to confirm that stock has been shipped. This a critical step cause when goods are confirmed as shipped, they are no longer part of your inventory records. 
 
-To confirm that an Outbound Shipment has been shipped, click on the `Confirm Shipped` button. 
+To confirm that an Outbound Shipment has been shipped, tap on the `Confirm Shipped` button. 
 
 Once shipping has been confirmed: 
 * Shipment status is now `SHIPPED`
@@ -501,6 +504,6 @@ Once shipping has been confirmed:
 ### Tracking Progress of Outbound Shipments
 
 If your customer is also using mSupply, you wil be able to see when they'll receive your shipments:
-* status will become `DELIVERED` when goods are received. 
-* status will become `VERIFIED` when shipment has been verified (or checked) by your customer. Goods are now part of their inventory.
+* status will become `DELIVERED` when goods are received: your customer confirmed that they received your goods
+* status will become `VERIFIED` when shipment has been verified by your customer. Goods are now part of their inventory.
 

@@ -1,6 +1,6 @@
 +++
 title = "Customers"
-description = "View and manage your customers"
+description = "View and manage your customers hello"
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
 draft = false
@@ -42,6 +42,6 @@ The customers list is divided into 2 columns:
 
 ## Viewing Customer Details
 
-<div class="oms">
-Coming soon... 😇
-</div>
+Bonjour!
+
+fdfdd
