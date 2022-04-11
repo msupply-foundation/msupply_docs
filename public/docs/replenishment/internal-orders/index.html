@@ -301,6 +301,16 @@
   							
   							<li><a href="https://docs.msupply.foundation/docs/replenishment/internal-orders/#entering-an-internal-order">Entering an Internal Order</a></li>
   							
+  									<ul>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/replenishment/internal-orders/#select-a-supplier">Select a supplier</a></li>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/replenishment/internal-orders/#define-the-maximum-month-of-stock-maximum-mos">Define the Maximum Month of Stock (Maximum MOS)</a></li>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/replenishment/internal-orders/#add-order-lines">Add order lines</a></li>
+  											
+  									</ul>
+  							
   							
   					</ul>
   			</nav>
@@ -318,9 +328,62 @@
 <li>Report &amp; Requistion</li>
 <li>R&amp;R</li>
 </ul>
-<p>In mSupply, you can an Internal Orders to request stock from a supplier.</p>
+<p>Internal Orders are a way to place orders to another store. </p>
 <h2 id="viewing-internal-orders">Viewing Internal Orders</h2>
+<p>Navigate to the 1. <code>Replenishment</code> menu and select 2. <code>Internal Orders</code>. </p>
+<p><img src="/docs/replenishment/intord_access.png" alt="" /></p>
+<p>You will see a list of all existing internal orders: </p>
+<p><img src="/docs/replenishment/intord_list.png" alt="" /></p>
+<p>You can use the <code>Search by comment</code> field to filter the list by the comments of the internal orders: </p>
+<p><img src="/docs/replenishment/intord_filterlistbycomment.gif" alt="" /></p>
+<p>You can sort the list using the column headers:</p>
+<ol>
+<li>Tap the column header of the column that you want to sort. The column is sorted in ascending order. </li>
+<li>Tap the column header again and column will be sorted in the opposite order. </li>
+</ol>
 <h2 id="entering-an-internal-order">Entering an Internal Order</h2>
+<h3 id="select-a-supplier">Select a supplier</h3>
+<ol>
+<li>Click on the <code>New Requisition</code> button (top right corner): </li>
+</ol>
+<p><img src="/docs/replenishment/intord_newreqbutton.png" alt="" /></p>
+<ol start="2">
+<li>A new window opens, inviting your to select a supplier: </li>
+</ol>
+<p><img src="/docs/replenishment/intord_selectsupplier2.png" alt="" /></p>
+<ol start="3">
+<li>Select a Supplier by pressing on its name. You will see a window like this: </li>
+</ol>
+<p><img src="/docs/replenishment/intord_newintord.png" alt="" /></p>
+<h3 id="define-the-maximum-month-of-stock-maximum-mos">Define the Maximum Month of Stock (Maximum MOS)</h3>
+<p>Before adding items to your order, it is important to define the <code>Maximum MOS</code> (Maximum Month of Stock). It is critical to the calculation of the <code>Suggested Quantity</code> and you can change it: </p>
+<ul>
+<li>There is an industry rule of thumb that the <em>Maximum MOS</em> should be set to 3 times the ordering cycle. </li>
+<li>the default <em>Maximum MOS</em> is <code>3.0</code>, which is based on a monthly ordering cycle. </li>
+<li>If for example, the ordering cycle was every two months, then <em>Maximum MOS</em> should be set to 3 x 2 = <code>6.0</code>. </li>
+</ul>
+<h3 id="add-order-lines">Add order lines</h3>
+<p>To add lines to your order, you have two options:</p>
+<ul>
+<li>Use the <code>Add Item</code> button to manually add a single item</li>
+<li>Use the <code>Add from master list</code> button to add all the items of a master list</li>
+</ul>
+<p>Both buttons are located on the top right corner of the Internal Order's screen. </p>
+<h4 id="add-item-button">Add Item button</h4>
+<p>Tap on <code>Add Item</code> to a single item to your order. A new window opens: </p>
+<p><img src="/docs/replenishment/intord_additem2.png" alt="" /></p>
+<ol>
+<li>
+<p><strong>Stock details</strong>: First select the item you want to add to your order. Open the <code>Stock details</code> dropdown menu and select your item from the list. You can also type as much of an item name (or code) to look for a specific item. </p>
+</li>
+<li>
+<p><strong>Order</strong>: enter the quantity you want to order in the <code>Order Quantity</code> field. The <code>Suggested Quantity</code> is telling how much you need to order based on your Average Monthly Consumption and the Maximum MOS that you have defined. </p>
+<p>The <em>Suggested Quantity</em> is worked out by multiplying the Average Monthly Consumption by the Maximum MOS and then substrating the Stock on Hand (SOH). If the resulting value is negative, a value of <code>0</code> will be displayed. </p>
+</li>
+<li>
+<p><strong>Comment</strong>: You can write a comment for that specific order line. It could be any comment you want the supplier to see for this item. </p>
+</li>
+</ol>
 
         
         

@@ -386,7 +386,7 @@ Verification is the last step to receive goods in mSupply. At this stage, you ca
 
 You have the possibility to verify the following information: 
 * batch numbers and their expiry dates
-* quantity of packs and pack size
+* quantity of packs and pack size 
 * pricing information: cost and sell prices
 
 You can also capture where received goods are to be stored in the `Location` tab. 
@@ -394,10 +394,8 @@ You can also capture where received goods are to be stored in the `Location` tab
 Once all information have been captured or verified, you can confirm the Shipment as `VERIFIED` by tapping on the `Confirm Verified` button. 
 
 Once you have done this:
-* Shipment status is now `VERIFIED`
 * Goods are now part of your inventory
+* Shipment status is now `VERIFIED`
 * You can no longer edit shipment lines
 * You can no longer delete the shipment
-
-
 
