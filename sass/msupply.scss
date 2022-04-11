@@ -12,7 +12,6 @@ p {
 }
 
 .note {
-  background-color:#f0efec;
   position: relative;
   margin-bottom:1000px;
 }
@@ -43,7 +42,6 @@ p {
 }
 
 .warning {
-  background-color:#f0efec;
   position: relative;
   margin-bottom:1000px;
 }
@@ -62,7 +60,7 @@ p {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .warning:before {
-  content:"WARNING!";
+  content:"🛑 WARNING!";
   color: #c84420;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: bold;
@@ -73,23 +71,19 @@ p {
   top: 0;
 }
 
-
-
 div.imagetitle {
-  color: #374453;
   margin-left: auto;
   margin-right: auto;
   padding: 5px 5px 5px 5px;
   margin-bottom: 5px;
   margin-top: 30px;
-  font-size: 12pt;
+  font-size: 11pt;
   font-weight:bold;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
 }
 
 .tip {
-  background-color: #f0efec;
   position: relative;
   margin-bottom:10px;
 }
@@ -108,7 +102,7 @@ div.imagetitle {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .tip:before {
-  content:"TIP";
+  content: "TIP";
   color: #0e7ac3;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: bold;
@@ -148,7 +142,6 @@ th{
 table {
   margin-top:0px;
 }
-
 
 .omsupdate {
   background-color:#FFFF;

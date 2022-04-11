@@ -20,11 +20,13 @@ Internal Orders go by several other names in certain countries or systems:
 * Report & Requistion
 * R&R
 
-Internal Orders are a way to place orders to another store. 
+Internal Orders are a way to support users in requesting new stock from another store. 
 
 ## Viewing Internal Orders
 
-Navigate to the 1. `Replenishment` menu and select 2. `Internal Orders`. 
+If you would like to order some stock from your supplier: 
+1. Navigate to the `Replenishment` menu
+2. Tap on `Internal Orders`
 
 ![](/docs/replenishment/intord_access.png)
 
@@ -40,7 +42,7 @@ You can sort the list using the column headers:
 1. Tap the column header of the column that you want to sort. The column is sorted in ascending order. 
 2. Tap the column header again and column will be sorted in the opposite order. 
 
-## Entering an Internal Order
+## Creating a new Internal Order
 
 ### Select a supplier
 
@@ -56,31 +58,103 @@ You can sort the list using the column headers:
 
 ![](/docs/replenishment/intord_newintord.png)
 
-### Define the Maximum Month of Stock (Maximum MOS)
+### Defining Maximum Month of Stock (Maximum MOS)
 
-Before adding items to your order, it is important to define the `Maximum MOS` (Maximum Month of Stock). It is critical to the calculation of the `Suggested Quantity` and you can change it: 
+Defining the Maximum MOS (Month of Stock) is critical to the calculation of the ** **Suggested Quantity** and you can change it: 
 * There is an industry rule of thumb that the *Maximum MOS* should be set to 3 times the ordering cycle. 
 * the default *Maximum MOS* is `3.0`, which is based on a monthly ordering cycle. 
 * If for example, the ordering cycle was every two months, then *Maximum MOS* should be set to 3 x 2 = `6.0`. 
 
-### Add order lines
+![](/docs/replenishment/intord_maxmos.png)
 
-To add lines to your order, you have two options:
-* Use the `Add Item` button to manually add a single item
-* Use the `Add from master list` button to add all the items of a master list
+This can be done before or after adding items to your order. 
 
-Both buttons are located on the top right corner of the Internal Order's screen. 
+### Adding single item
 
-#### Add Item button
-
-Tap on `Add Item` to a single item to your order. A new window opens: 
+Tap on `Add Item` to add a single item to your order. A new window opens: 
 
 ![](/docs/replenishment/intord_additem2.png)
 
-1. **Stock details**: First select the item you want to add to your order. Open the `Stock details` dropdown menu and select your item from the list. You can also type as much of an item name (or code) to look for a specific item. 
+First select the item you want to add to your order. Open the `Stock details` dropdown menu and select your item from the list. You can also type as much of an item name (or code) to look for a specific item. 
 
-2. **Order**: enter the quantity you want to order in the `Order Quantity` field. The `Suggested Quantity` is telling how much you need to order based on your Average Monthly Consumption and the Maximum MOS that you have defined. 
+Once item is selected, you should see the following information on the window:
+* **Item Code** and **Item Name**
+* **Unit**: the default unit used for this item (*eg. Tablet, Vial*)
+* **AMC**: Average Monthly Consumption. How much stock your store uses each month on average (based on a configurable number of months, default is set to 3 months)
+* **Suggested Quantity**: how much stock mSupply suggests that your order to reach your stock target quantity. 
+* **Order quantity**: the quantity of units that you request from your supplier
 
-    The *Suggested Quantity* is worked out by multiplying the Average Monthly Consumption by the Maximum MOS and then substrating the Stock on Hand (SOH). If the resulting value is negative, a value of `0` will be displayed. 
+You should also see the following charts: 
+* **Stock distribution**: In this chart, you will see information such:
+    * the *Target Quantity* for the item. This is calculated as: Maximum MOS x AMC
+    * your current *Stock on Hand* (in grey)
+    * the *suggested quantity* calculated by mSupply
 
-3. **Comment**: You can write a comment for that specific order line. It could be any comment you want the supplier to see for this item. 
+<div class="imagetitle">
+In below example, our target quantity is 600 units which is the equivalent of 3 months of stock (3 x 200 = 600 units). Our stock on hand (in grey) is 50 so in order to reach my target, mSupply suggests to order 550 units (600 - 50). 
+</div>
+
+![](/docs/replenishment/intord_charts_stockdistri.png)
+
+<div class="imagetitle">
+In below example, the target quantity is 62 units. Since we already have 250 units in stock (in grey), the suggested quantity is zero. 
+</div>
+
+![](/docs/replenishment/intord_charts_stockdistri2.png)
+
+* **Consumption History (monthly)**: this chart shows the monthly consumption up to 12 months in the past (in grey) and the current AMC (in orange). 
+
+![](/docs/replenishment/intord_charts_consumption.png)
+
+* **Stock Evolution**: this chart shows you your stock level for the last 30 days and your projected inventory for the next 30 days. The projected stock will be updated based on your inputs in the `Order quantity` field. 
+
+![](/docs/replenishment/intord_charts_stockevolution.png)
+
+### Adding items using a master list
+
+If your organisation is using Master Lists, you can add multiple items at once using your store's master lists. It is particularly useful when you have a lot of items in your order and you don't want to add them all one by one.  
+
+1. Tap on the `Add from master list` button
+2. Select a master list from the list
+3. A dialog window opens asking you whether you want to add all of the items from this master list. Tap `OK` if you wish to proceed. 
+
+All the items of the master list are now listed in your order. If you had previously added single item, it will add items that are not already there. 
+
+Tap on an order line to change the **Order Quantity** or tap on the button `Requested to Suggested` button 
+
+![](/docs/replenishment/intord_addfromml.gif)
+
+<div class="note"> 
+Master Lists are defined and assigned to stores at the central server level. You can only see the master lists that are visible to your store. 
+<br> <br>
+If you don't find the master list you are looking for and if you want to create a new one, please contact your administrator.
+</div>
+
+<div class="tip">
+You can create internal orders from multiple master lists by repeating above actions with another master list. 
+</div>
+
+### Using Suggested Quantities 
+
+If you tap on the `Use Suggested Quantities` on the requisition header, mSupply will automatically copy the values in the **Suggested Quantitys** column into the **Requested Quantity** column. 
+
+You can always manually edit the order quantity for each by tapping on an order line. 
+
+![](/docs/replenishment/intord_reqtosug.png)
+
+### Printing an Internal Order
+
+[In Progress...]
+
+### Sending an Internal Order (finalising)
+
+To send the order to your supplier:
+1. tap on the `Confirm Sent` button (bottom right corner). 
+2. A dialog window opens asking you whether you are sure to want to send the order. Tap on `OK` to proceed. 
+3. Status of your order is now `SENT` and the order is no longer editable. 
+
+<div class="warning">
+Ensure that your order is correct before sending it to your supplier. Once sent, no further changes can be made to finalised orders. 
+</div>
+
+

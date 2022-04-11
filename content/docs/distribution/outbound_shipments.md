@@ -430,7 +430,7 @@ In below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100mg ta
  <b></b> You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
 </div>
 
-## Issuing stock with an Outbound Shipment
+## Processing an Outbound Shipment
 
 ### Allocating an Outbound Shipment
 
