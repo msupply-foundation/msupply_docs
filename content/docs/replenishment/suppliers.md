@@ -9,19 +9,42 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "Introductory tutorial for Open mSupply."
+lead = "View and manage your suppliers"
 toc = true
 top = false
 +++
 
-# Internal Orders
+In mSupply, a supplier is an entity that is sending stock to your store. 
 
-Internal Orders go by several other names in certain countries or systems:
-* Requisitions
-* Orders
-* Request & Requistion
-* R&R
+<div class="omsupdate">
+At the moment, you are only able to view your supplier and their details. In the future, you will be able to create and edit your customers (provided you have the authorisations to do so!). 
+</div>
+
+## Viewing Suppliers
+
+To view the suppliers of your store, go to `Replenishment` > `Supplier` in the navigation panel: 
+
+![](/docs/replenishment/sup_gotosup.png)
+
+A list of your store's suppliers appears: 
+
+![](/docs/replenishment/sup_suplist.png)
 
 
+## Viewing Suppliers Details
 
+To see the details of one supplier, simply tap on its name: 
 
+![](/docs/replenishment/sup_supdetails.png)
+
+* **Address**: address of the supplier. 
+* **Code**: this is the code assigned to this supplier in mSupply. 
+* **Charge Code**: ***
+* **Country**: country of the supplier.
+* **Comment**: comment about this supplier. 
+* **Phone**: phone number of the supplier. 
+* **Website**: web site or email address of the supplier. 
+* **Date Created**: date when supplier was created in mSupply. 
+* **Manufacturer**: if this is checked, the supplier is also a manufacturer. 
+* **Donor**: if this is checked, supplier is also a donor. 
+* **On Hold**: if this is checked, you won't be able to issue this item. 

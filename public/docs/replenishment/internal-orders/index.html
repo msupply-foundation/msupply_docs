@@ -277,7 +277,7 @@
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/inventory/locations/">Locations</a></li>
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/inventory/stock-view/">Viewing Inventory</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/inventory/stock-view/">Stock</a></li>
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/inventory/stock-takes/">Stock Takes</a></li>
 							
@@ -307,15 +307,17 @@
   											
   											<li><a href="https://docs.msupply.foundation/docs/replenishment/internal-orders/#defining-maximum-month-of-stock-maximum-mos">Defining Maximum Month of Stock (Maximum MOS)</a></li>
   											
-  											<li><a href="https://docs.msupply.foundation/docs/replenishment/internal-orders/#adding-single-item">Adding single item</a></li>
+  											<li><a href="https://docs.msupply.foundation/docs/replenishment/internal-orders/#adding-a-single-item">Adding a single item</a></li>
   											
   											<li><a href="https://docs.msupply.foundation/docs/replenishment/internal-orders/#adding-items-using-a-master-list">Adding items using a master list</a></li>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/replenishment/internal-orders/#reading-the-internal-order-s-list">Reading the Internal Order&#x27;s list</a></li>
   											
   											<li><a href="https://docs.msupply.foundation/docs/replenishment/internal-orders/#using-suggested-quantities">Using Suggested Quantities</a></li>
   											
   											<li><a href="https://docs.msupply.foundation/docs/replenishment/internal-orders/#printing-an-internal-order">Printing an Internal Order</a></li>
   											
-  											<li><a href="https://docs.msupply.foundation/docs/replenishment/internal-orders/#sending-an-internal-order-finalising">Sending an Internal Order (finalising)</a></li>
+  											<li><a href="https://docs.msupply.foundation/docs/replenishment/internal-orders/#sending-an-internal-order">Sending an Internal Order</a></li>
   											
   									</ul>
   							
@@ -351,7 +353,7 @@
 <p>You can sort the list using the column headers:</p>
 <ol>
 <li>Tap the column header of the column that you want to sort. The column is sorted in ascending order. </li>
-<li>Tap the column header again and column will be sorted in the opposite order. </li>
+<li>Tap the column header again and column will be sorted in the opposite order.</li>
 </ol>
 <h2 id="creating-a-new-internal-order">Creating a new Internal Order</h2>
 <h3 id="select-a-supplier">Select a supplier</h3>
@@ -368,15 +370,18 @@
 </ol>
 <p><img src="/docs/replenishment/intord_newintord.png" alt="" /></p>
 <h3 id="defining-maximum-month-of-stock-maximum-mos">Defining Maximum Month of Stock (Maximum MOS)</h3>
-<p>Defining the Maximum MOS (Month of Stock) is critical to the calculation of the ** <strong>Suggested Quantity</strong> and you can change it: </p>
+<p>Defining the Maximum MOS (Month of Stock) is critical to the calculation of the <strong>Suggested Quantity</strong> and you can change it: </p>
 <ul>
 <li>There is an industry rule of thumb that the <em>Maximum MOS</em> should be set to 3 times the ordering cycle. </li>
 <li>the default <em>Maximum MOS</em> is <code>3.0</code>, which is based on a monthly ordering cycle. </li>
 <li>If for example, the ordering cycle was every two months, then <em>Maximum MOS</em> should be set to 3 x 2 = <code>6.0</code>. </li>
 </ul>
+<div class="imagetitle">
+In below example, we are setting our Maximum MOS to 3 Months.  
+</div>
 <p><img src="/docs/replenishment/intord_maxmos.png" alt="" /></p>
 <p>This can be done before or after adding items to your order. </p>
-<h3 id="adding-single-item">Adding single item</h3>
+<h3 id="adding-a-single-item">Adding a single item</h3>
 <p>Tap on <code>Add Item</code> to add a single item to your order. A new window opens: </p>
 <p><img src="/docs/replenishment/intord_additem2.png" alt="" /></p>
 <p>First select the item you want to add to your order. Open the <code>Stock details</code> dropdown menu and select your item from the list. You can also type as much of an item name (or code) to look for a specific item. </p>
@@ -432,13 +437,25 @@ If you don't find the master list you are looking for and if you want to create 
 <div class="tip">
 You can create internal orders from multiple master lists by repeating above actions with another master list. 
 </div>
+<h3 id="reading-the-internal-order-s-list">Reading the Internal Order's list</h3>
+<p>When you add items (using a master list or not), the item is added to the order's table. The following information is provided for each order line:</p>
+<table><thead><tr><th align="left">Status</th><th>Description</th></tr></thead><tbody>
+<tr><td align="left"><strong>Code</strong></td><td>Code of the item</td></tr>
+<tr><td align="left"><strong>Name</strong></td><td>Name of the item</td></tr>
+<tr><td align="left"><strong>AMC</strong></td><td>Average Monthly Consumption: how much stock your store uses each month on average (based on a configurable number of months, defaults to 3 months)</td></tr>
+<tr><td align="left"><strong>SoH (Est. remaining)</strong></td><td>how much stock currently available in your store for this store.</td></tr>
+<tr><td align="left"><strong>Suggested Quantity</strong></td><td>how much stock mSupply suggests that your order. This is calculated as: AMC x Maximum MOS - SoH</td></tr>
+<tr><td align="left"><strong>Target Stock</strong></td><td>This is the stock you are aiming for. Calculated as: AMC x Maximum MOS</td></tr>
+<tr><td align="left"><strong>Requested</strong></td><td>This is set to zero by default. This is the quantity of units you are ordering from your supplier</td></tr>
+<tr><td align="left"><strong>Comment</strong></td><td>A comment for the order line. Commments will be visible to your supplier.</td></tr>
+</tbody></table>
 <h3 id="using-suggested-quantities">Using Suggested Quantities</h3>
 <p>If you tap on the <code>Use Suggested Quantities</code> on the requisition header, mSupply will automatically copy the values in the <strong>Suggested Quantitys</strong> column into the <strong>Requested Quantity</strong> column. </p>
 <p>You can always manually edit the order quantity for each by tapping on an order line. </p>
 <p><img src="/docs/replenishment/intord_reqtosug.png" alt="" /></p>
 <h3 id="printing-an-internal-order">Printing an Internal Order</h3>
 <p>[In Progress...]</p>
-<h3 id="sending-an-internal-order-finalising">Sending an Internal Order (finalising)</h3>
+<h3 id="sending-an-internal-order">Sending an Internal Order</h3>
 <p>To send the order to your supplier:</p>
 <ol>
 <li>tap on the <code>Confirm Sent</code> button (bottom right corner). </li>

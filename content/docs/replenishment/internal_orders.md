@@ -40,7 +40,7 @@ You can use the `Search by comment` field to filter the list by the comments of 
 
 You can sort the list using the column headers:
 1. Tap the column header of the column that you want to sort. The column is sorted in ascending order. 
-2. Tap the column header again and column will be sorted in the opposite order. 
+2. Tap the column header again and column will be sorted in the opposite order.
 
 ## Creating a new Internal Order
 
@@ -60,16 +60,21 @@ You can sort the list using the column headers:
 
 ### Defining Maximum Month of Stock (Maximum MOS)
 
-Defining the Maximum MOS (Month of Stock) is critical to the calculation of the ** **Suggested Quantity** and you can change it: 
+Defining the Maximum MOS (Month of Stock) is critical to the calculation of the **Suggested Quantity** and you can change it: 
 * There is an industry rule of thumb that the *Maximum MOS* should be set to 3 times the ordering cycle. 
 * the default *Maximum MOS* is `3.0`, which is based on a monthly ordering cycle. 
 * If for example, the ordering cycle was every two months, then *Maximum MOS* should be set to 3 x 2 = `6.0`. 
+
+<div class="imagetitle">
+In below example, we are setting our Maximum MOS to 3 Months.  
+</div>
+
 
 ![](/docs/replenishment/intord_maxmos.png)
 
 This can be done before or after adding items to your order. 
 
-### Adding single item
+### Adding a single item
 
 Tap on `Add Item` to add a single item to your order. A new window opens: 
 
@@ -134,6 +139,21 @@ If you don't find the master list you are looking for and if you want to create 
 You can create internal orders from multiple master lists by repeating above actions with another master list. 
 </div>
 
+### Reading the Internal Order's list
+
+When you add items (using a master list or not), the item is added to the order's table. The following information is provided for each order line:
+
+| Status | Description |
+| :--- | ---------- |
+| **Code** | Code of the item |
+| **Name** | Name of the item |
+| **AMC** | Average Monthly Consumption: how much stock your store uses each month on average (based on a configurable number of months, defaults to 3 months)   |
+| **SoH (Est. remaining)** | how much stock currently available in your store for this store. |
+| **Suggested Quantity** | how much stock mSupply suggests that your order. This is calculated as: AMC x Maximum MOS - SoH |
+| **Target Stock** | This is the stock you are aiming for. Calculated as: AMC x Maximum MOS |
+| **Requested** | This is set to zero by default. This is the quantity of units you are ordering from your supplier |
+| **Comment** | A comment for the order line. Commments will be visible to your supplier. |
+
 ### Using Suggested Quantities 
 
 If you tap on the `Use Suggested Quantities` on the requisition header, mSupply will automatically copy the values in the **Suggested Quantitys** column into the **Requested Quantity** column. 
@@ -146,7 +166,7 @@ You can always manually edit the order quantity for each by tapping on an order 
 
 [In Progress...]
 
-### Sending an Internal Order (finalising)
+### Sending an Internal Order
 
 To send the order to your supplier:
 1. tap on the `Confirm Sent` button (bottom right corner). 

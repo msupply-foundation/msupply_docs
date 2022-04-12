@@ -9,48 +9,53 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "Issuing stock to your customers"
+lead = "View and manage your storage locations"
 toc = true
 top = false
 +++
 
-Outbound Shipments can used to issue stock to a customer. 
+Keeping track of where stock is in your store is an important part of good warehouse practice. You don't want to have to go hunting through your whole store for stock, wasting time and energy when mSupply can tell you exactly where it is!
 
-To access the **Outbound Shipment** menu, press the **Distribution** menu in the navigation panel. 
+Locations in mSupply are the places you store stock. 
 
-![gotooos](/docs/gotoos2.png)
+## Viewing your store's locations
 
-## Creating a new Outbound Shipment
+To view the storage locations of your store, go to `Inventory` > `Locations` in the navigation panel: 
 
-1. Go to **Distribution** > **Outbound Shipment**
-2. Press the **New Shipment** button, in the top right corner
+![](/docs/inventory/loc_gotoloc.png)
 
-![login!](/docs/clicknewshipment.png)
+You will see a list of your storage locations: 
 
+![](/docs/inventory/loc_loclist.png)
 
-3. In the new window, you will be presented with a list of available choice. You can select your customer from the list or you can type as much of a customer name and select it. 
+## Creating a new location
 
-*In our example, we are issuing stock to the Kopu Health Center*. 
+To create a new location, tap on the `New Location` button in the top right corner of the screen:
 
-![gif](/docs/os_select_customer.gif)
+![](/docs/inventory/loc_newlocbutton.png)
 
+A window like this opens: 
 
-4.  If you have selected the wrong customer, you can always type the name of another customer or select one the dropdown list.  
+![](/docs/inventory/loc_createloc.png)
 
+1. **Name**: Enter the name of the new location
+2. **Code**: Enter a code for the new location
+3. **On Hold** checkbox: if you check this box, then goods in this location cannot be selected for issue to customers. Goods can be moved in to, and out, of the location but they cannot be issued from that location. 
 
-![gif](/docs/os_change_customer.gif)
+<div class="tip">
+Putting a location on hold can be useful if: 
+<br><br>
+- The stock needs to be kept from being issued until some inspection / approval (e.g. quarantine or under bond).
+<br><br>
+- The stock is a bulk quantity with the same expiry date as another stock line in another location from which you want stock issued. You can use this feature to force mSupply to always suggest issuing stock of this item from the 'issue' location rather than this 'bulk' location. When you have finished issuing stock from the 'issue' location, and you want to issue the stock that is in the 'bulk' location, you will need to either take the 'bulk' location off hold, or, move all, or some of it (split), the stock from the 'bulk' location. 
+</div>
 
+## Editing a new location
 
+To edit a location, simply tap on one in the location list. 
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+## Deleting a location
 
-## Outbound Shipment Headers
-
-
-
-## Outbound Shipment Information Panel
-
-
-
-
-
+To delete a location:
+1. Check the box of the location that you want to delete in the location list
+2. Click on the `Select` dropdown menu and select `Delete selected line`

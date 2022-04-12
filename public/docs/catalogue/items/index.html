@@ -274,7 +274,7 @@
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/inventory/locations/">Locations</a></li>
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/inventory/stock-view/">Viewing Inventory</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/inventory/stock-view/">Stock</a></li>
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/inventory/stock-takes/">Stock Takes</a></li>
 							
@@ -293,6 +293,24 @@
   			<nav id="TableOfContents">
   					<ul>
   							
+  							<li><a href="https://docs.msupply.foundation/docs/catalogue/items/#viewing-items-list">Viewing items list</a></li>
+  							
+  							
+  							<li><a href="https://docs.msupply.foundation/docs/catalogue/items/#viewing-an-item-s-details">Viewing an item&#x27;s details</a></li>
+  							
+  									<ul>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/catalogue/items/#details">Details</a></li>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/catalogue/items/#categories">Categories</a></li>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/catalogue/items/#packaging">Packaging</a></li>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/catalogue/items/#pricing">Pricing</a></li>
+  											
+  									</ul>
+  							
+  							
   					</ul>
   			</nav>
   	</div>
@@ -301,9 +319,55 @@
 
       <main class="docs-content col-lg-11 col-xl-9">
         <h1>Items</h1>
-        <p class="lead">Issuing stock to your customers</p>
-        <p>Click <strong>Cataglogue &gt; Items</strong> to show the item list</p>
-<p><img src="/docs/catalogue/item_menu.png" alt="item list" /></p>
+        <p class="lead">Managing your catalogue</p>
+        <p>In the <strong>Items</strong> menu, you can all the items that are currently visible to your store. </p>
+<h2 id="viewing-items-list">Viewing items list</h2>
+<p>In the navigation panel, tap on <code>Catalogue</code> &gt; <code>Items</code> to show the items list: </p>
+<p><img src="/docs/catalogue/cat_gotoitems.png" alt="" /></p>
+<p>You can see all the items used by your store: </p>
+<p><img src="/docs/catalogue/cat_itemslist.png" alt="" /></p>
+<h2 id="viewing-an-item-s-details">Viewing an item's details</h2>
+<p>To view the details of an item, simply tap on one. A new window opens: </p>
+<p><img src="/docs/catalogue/cat_itemdetail.png" alt="" /></p>
+<p>On top of the screen, you can the following information:</p>
+<ul>
+<li><strong>Stock on Hand</strong>: how much stock currently available in your store for this store. </li>
+<li><strong>AMC</strong>: Average Monthly Consumption. This is how much stock your store uses each month on average (based on a configurable number of months, defaults to 3 months). </li>
+<li><strong>Months of Stock</strong>: number of months of consumption left with current stock. This is calculated as: <code>Stock on Hand / AMC</code></li>
+</ul>
+<div class="imagetitle">
+In below example, we have 1542 units of Amoxicillin available in our store. The average consumption is 53.3  units per month which means that there is the equivalent of 28.9 months of stock in the inventory. 
+</div>
+<p><img src="/docs/catalogue/cat_itemdetailsheaders.png" alt="" /></p>
+<p>In the bottom part, item details are divided into several sections:</p>
+<h3 id="details">Details</h3>
+<ul>
+<li><strong>Name</strong>: this is the name by which mSupply will refer to the item.</li>
+<li><strong>Code</strong>: this is the code assigned to this item in mSupply. </li>
+<li><strong>Unit</strong>: the unit you use for this item. It is useful to distinguish items you issue by pack (eg. eye drops) from items you issue by volume (eg. oral liquids)</li>
+<li><strong>Strength</strong>: for a medicine, the concentration of its active ingredients (eg. for Amoxillin 250mg, the strength is 250mg)</li>
+<li><strong>Defined Daily Dose</strong>: The assumed  average maintenance dose per day for a medicine used for its main indication in adults.</li>
+<li><strong>Doses</strong>: for vaccines, the number of dose per vial. </li>
+<li><strong>Vaccine</strong> (check box): if this is checked, this item is a vaccine and a number of dose can be assigned.</li>
+</ul>
+<h3 id="categories">Categories</h3>
+<ul>
+<li><strong>ATC Category</strong>: ATC stands for Anatomical, Therapeutic, Chemical and is a method of classifying entities, and identifying them by category. </li>
+<li><strong>Universal Name</strong>: </li>
+<li><strong>Universal Code</strong>:</li>
+</ul>
+<h3 id="packaging">Packaging</h3>
+<ul>
+<li><strong>Default pack size</strong>: This is the default pack size that will be assigned to incoming stock as it is received. </li>
+<li><strong>Outer pack size</strong>: The number of units in a carton (outer pack). Not the number of preferred pack size packs in a carton (outer pack).</li>
+<li><strong>Volume per pack</strong>: The default volume per preferred pack size pack. This is the volume that will be used by default when receiving goods. We recommend you divide a carton volume by the number of preferred pack size packs in a carton to get this figure. mSupply always stores volumes in m3 (cubic metres), but you can enter a volume as millilitres (ml) or litres (l) by entering the appropriate abbreviation after the number representing the volume. e.g. enter “0.5l” to enter a volume of 0.5 litres (= 0.0005m3).</li>
+<li><strong>Volume per outer pack</strong>: The default volume of an Outer pack size pack of this item.</li>
+<li><strong>Weight</strong>: The weight of a preferred pack size pack in kg.</li>
+</ul>
+<h3 id="pricing">Pricing</h3>
+<ul>
+<li><strong>Margin</strong>: This is the default margin that will be applied to this item on Inbound Shipments to calculate the selling price. </li>
+</ul>
 
         
         
