@@ -1,5 +1,5 @@
 +++
-title = "Stock Takes"
+title = "Stocktakes"
 description = "Counting and adjusting stock."
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
@@ -9,48 +9,71 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "Issuing stock to your customers"
+lead = "Counting and adjusting stock."
 toc = true
 top = false
 +++
 
-Outbound Shipments can used to issue stock to a customer. 
+mSupply will automatically keep track of your stock levels for you, as you receive stock and give it out. But sometimes data gets entered incorrectly or stock goes out without anyone making an entry in the system. 
 
-To access the **Outbound Shipment** menu, press the **Distribution** menu in the navigation panel. 
+Of course, we try not to let that happen but, if it does happen, we can make corrections. The easiest way to correct mistakes is to do a **Stock take**. 
 
-![gotooos](/docs/gotoos2.png)
+In mSupply, you can easily do a stock take for: 
+* a full inventory
+* a limited range of items
+* a single item
 
-## Creating a new Outbound Shipment
+## Viewing Stock takes
 
-1. Go to **Distribution** > **Outbound Shipment**
-2. Press the **New Shipment** button, in the top right corner
+To view your stock takes, go to `Inventory` and then `Stock Takes` in the navigation panel: 
 
-![login!](/docs/clicknewshipment.png)
+![](/docs/inventory/stocktake_gotost.png)
 
+This brings up a list of all your stocktakes: 
 
-3. In the new window, you will be presented with a list of available choice. You can select your customer from the list or you can type as much of a customer name and select it. 
+![](/docs/inventory/stocktake_stocktakelist.png)
 
-*In our example, we are issuing stock to the Kopu Health Center*. 
+For each stock stake you can see:
+* the stock take **number**
+* the stock take **status**. There are two stock take statuses: 
+    * *New*: a stocktake you are still working on
+    * *Finalised*: a stocktake that has alredy been performed. You can no longer edit it.  
+* a **description** of the stocktake (eg. March Stocktake). 
+* if any, a **comment** about the stoctake. 
+* the **date** of the stock take.
 
-![gif](/docs/os_select_customer.gif)
+<div class="warning">
+There is little point in keeping old stocktakes with status = <code>NEW</code>, especially if you are about to create a new stocktake containing the same items. Indeed, it can be quite dangerous to leave old stocktakes with status <code>NEW</code> in your system. If time has passed since the stocktake was created, then the snapshot and actual quantities are almost certainly incorrect. For good housekeeping reasons, it is good practice to delete old <code>NEW</code> stocktakes.
+</div>
 
+## Creating a new stock take
 
-4.  If you have selected the wrong customer, you can always type the name of another customer or select one the dropdown list.  
+Let's start a new stocktake. To do so, tap on the `New Stocktake` button in the right corner of the screen. 
 
+![](/docs/inventory/stocktake_newstocktake.png)
 
-![gif](/docs/os_change_customer.gif)
+A window appears, inviting you to select items to be counted:
 
+![](/docs/inventory/stocktake_additem2.png)
 
+### Selecting Items
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+Select items you wish to count using the check boxes. You can select more than one: 
 
-## Outbound Shipment Headers
+![](/docs/inventory/stoctake_additem_checkbox.png)
 
+If you want to to include every item (or most items), check the `Select All` box and click on `OK`:
 
+![](/docs/inventory/stoctake_additem_selectall.png)
 
-## Outbound Shipment Information Panel
+Use the search bar to look for a specific item by typing its name or its code: 
 
+![](/docs/inventory/stocktake_additem_search.gif)
 
+Click on OK when you have selected all the items you would like to count. 
 
+<div class="tip">
+Don't worry if your forget one item. You will have the possibility to add more items to your stocktake afterwards. 
+</div>
 
-
+### Printing Stocktake sheet

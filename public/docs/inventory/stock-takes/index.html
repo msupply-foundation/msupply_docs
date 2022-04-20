@@ -48,7 +48,7 @@
 
 	
 
-<title>Stock Takes - mSupply</title>
+<title>Stocktakes - mSupply</title>
 <meta name="description" content="Counting and adjusting stock.">
 <link rel="canonical" href="https://docs.msupply.foundation/docs/inventory/stock-takes/">
 
@@ -279,7 +279,7 @@
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/inventory/stock-view/">Stock</a></li>
 							                           
-									<li><a class="docs-link active" href="https://docs.msupply.foundation/docs/inventory/stock-takes/">Stock Takes</a></li>
+									<li><a class="docs-link active" href="https://docs.msupply.foundation/docs/inventory/stock-takes/">Stocktakes</a></li>
 							
 					</ul>
 					
@@ -296,13 +296,18 @@
   			<nav id="TableOfContents">
   					<ul>
   							
-  							<li><a href="https://docs.msupply.foundation/docs/inventory/stock-takes/#creating-a-new-outbound-shipment">Creating a new Outbound Shipment</a></li>
+  							<li><a href="https://docs.msupply.foundation/docs/inventory/stock-takes/#viewing-stock-takes">Viewing Stock takes</a></li>
   							
   							
-  							<li><a href="https://docs.msupply.foundation/docs/inventory/stock-takes/#outbound-shipment-headers">Outbound Shipment Headers</a></li>
+  							<li><a href="https://docs.msupply.foundation/docs/inventory/stock-takes/#creating-a-new-stock-take">Creating a new stock take</a></li>
   							
-  							
-  							<li><a href="https://docs.msupply.foundation/docs/inventory/stock-takes/#outbound-shipment-information-panel">Outbound Shipment Information Panel</a></li>
+  									<ul>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/inventory/stock-takes/#selecting-items">Selecting Items</a></li>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/inventory/stock-takes/#printing-stocktake-sheet">Printing Stocktake sheet</a></li>
+  											
+  									</ul>
   							
   							
   					</ul>
@@ -312,29 +317,54 @@
   
 
       <main class="docs-content col-lg-11 col-xl-9">
-        <h1>Stock Takes</h1>
-        <p class="lead">Issuing stock to your customers</p>
-        <p>Outbound Shipments can used to issue stock to a customer. </p>
-<p>To access the <strong>Outbound Shipment</strong> menu, press the <strong>Distribution</strong> menu in the navigation panel. </p>
-<p><img src="/docs/gotoos2.png" alt="gotooos" /></p>
-<h2 id="creating-a-new-outbound-shipment">Creating a new Outbound Shipment</h2>
-<ol>
-<li>Go to <strong>Distribution</strong> &gt; <strong>Outbound Shipment</strong></li>
-<li>Press the <strong>New Shipment</strong> button, in the top right corner</li>
-</ol>
-<p><img src="/docs/clicknewshipment.png" alt="login!" /></p>
-<ol start="3">
-<li>In the new window, you will be presented with a list of available choice. You can select your customer from the list or you can type as much of a customer name and select it. </li>
-</ol>
-<p><em>In our example, we are issuing stock to the Kopu Health Center</em>. </p>
-<p><img src="/docs/os_select_customer.gif" alt="gif" /></p>
-<ol start="4">
-<li>If you have selected the wrong customer, you can always type the name of another customer or select one the dropdown list.</li>
-</ol>
-<p><img src="/docs/os_change_customer.gif" alt="gif" /></p>
-<p><img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" alt="Alt Text" /></p>
-<h2 id="outbound-shipment-headers">Outbound Shipment Headers</h2>
-<h2 id="outbound-shipment-information-panel">Outbound Shipment Information Panel</h2>
+        <h1>Stocktakes</h1>
+        <p class="lead">Counting and adjusting stock.</p>
+        <p>mSupply will automatically keep track of your stock levels for you, as you receive stock and give it out. But sometimes data gets entered incorrectly or stock goes out without anyone making an entry in the system. </p>
+<p>Of course, we try not to let that happen but, if it does happen, we can make corrections. The easiest way to correct mistakes is to do a <strong>Stock take</strong>. </p>
+<p>In mSupply, you can easily do a stock take for: </p>
+<ul>
+<li>a full inventory</li>
+<li>a limited range of items</li>
+<li>a single item</li>
+</ul>
+<h2 id="viewing-stock-takes">Viewing Stock takes</h2>
+<p>To view your stock takes, go to <code>Inventory</code> and then <code>Stock Takes</code> in the navigation panel: </p>
+<p><img src="/docs/inventory/stocktake_gotost.png" alt="" /></p>
+<p>This brings up a list of all your stocktakes: </p>
+<p><img src="/docs/inventory/stocktake_stocktakelist.png" alt="" /></p>
+<p>For each stock stake you can see:</p>
+<ul>
+<li>the stock take <strong>number</strong></li>
+<li>the stock take <strong>status</strong>. There are two stock take statuses: 
+<ul>
+<li><em>New</em>: a stocktake you are still working on</li>
+<li><em>Finalised</em>: a stocktake that has alredy been performed. You can no longer edit it.</li>
+</ul>
+</li>
+<li>a <strong>description</strong> of the stocktake (eg. March Stocktake). </li>
+<li>if any, a <strong>comment</strong> about the stoctake. </li>
+<li>the <strong>date</strong> of the stock take.</li>
+</ul>
+<div class="warning">
+There is little point in keeping old stocktakes with status = <code>NEW</code>, especially if you are about to create a new stocktake containing the same items. Indeed, it can be quite dangerous to leave old stocktakes with status <code>NEW</code> in your system. If time has passed since the stocktake was created, then the snapshot and actual quantities are almost certainly incorrect. For good housekeeping reasons, it is good practice to delete old <code>NEW</code> stocktakes.
+</div>
+<h2 id="creating-a-new-stock-take">Creating a new stock take</h2>
+<p>Let's start a new stocktake. To do so, tap on the <code>New Stocktake</code> button in the right corner of the screen. </p>
+<p><img src="/docs/inventory/stocktake_newstocktake.png" alt="" /></p>
+<p>A window appears, inviting you to select items to be counted:</p>
+<p><img src="/docs/inventory/stocktake_additem2.png" alt="" /></p>
+<h3 id="selecting-items">Selecting Items</h3>
+<p>Select items you wish to count using the check boxes. You can select more than one: </p>
+<p><img src="/docs/inventory/stoctake_additem_checkbox.png" alt="" /></p>
+<p>If you want to to include every item (or most items), check the <code>Select All</code> box and click on <code>OK</code>:</p>
+<p><img src="/docs/inventory/stoctake_additem_selectall.png" alt="" /></p>
+<p>Use the search bar to look for a specific item by typing its name or its code: </p>
+<p><img src="/docs/inventory/stocktake_additem_search.gif" alt="" /></p>
+<p>Click on OK when you have selected all the items you would like to count. </p>
+<div class="tip">
+Don't worry if your forget one item. You will have the possibility to add more items to your stocktake afterwards. 
+</div>
+<h3 id="printing-stocktake-sheet">Printing Stocktake sheet</h3>
 
         
         
