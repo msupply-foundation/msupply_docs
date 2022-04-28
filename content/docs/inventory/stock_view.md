@@ -9,7 +9,7 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "Viewing your stock."
+lead = "Viewing your stock"
 toc = true
 top = false
 +++

@@ -9,12 +9,10 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = ""
+lead = "Welcome to Open mSupply!"
 toc = true
 top = false
 +++
-
-Welcome to Open mSupply!
 
 ## History
 

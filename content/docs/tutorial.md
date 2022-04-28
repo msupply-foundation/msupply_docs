@@ -9,7 +9,7 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "Introductory tutorial for Open mSupply."
+lead = "Introductory tutorial for Open mSupply"
 toc = true
 top = false
 +++
@@ -20,7 +20,7 @@ This tutorial is designed to guide you through the basics of using Open mSupply
 
 ## Logging in
 
-1. For a start, you'll need to open your web browser. We like Firefox, but Chrome and it's myriad children will also suffice.
+1. For a start, you'll need to open your web browser. We like Firefox, but Chrome and its myriad children will also suffice.
 2. Enter the web address (URL) of your mSupply server. In our case we're using https://demo-open.msupply.org/login - our test web site.
 3. After pressing <enter> on your keyboard you'll be shown the login page.
 

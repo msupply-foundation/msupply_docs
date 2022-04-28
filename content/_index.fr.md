@@ -3,7 +3,7 @@
 title = "Open mSupply"
 
 [extra]
-lead = '<b>Open mSupply</b> se compose d`un écosystème de logiciels et de services pour aider à gérer les chaînes d`approvisionnement de la santé</br>You`re on the French site: Change to  <a href="/">English</a> '
+lead = '<b>Open mSupply</b> se compose d`un écosystème de logiciels et de services pour aider à gérer les chaînes d`approvisionnement de la santé</br>You&#39;re on the French site: Change to  <a href="/">English</a> '
 url = "/docs/getting-started/introduction/"
 url_button = "Get started"
 repo_version = "GitHub v0.1.0"

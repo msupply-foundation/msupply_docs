@@ -14,7 +14,7 @@ toc = true
 top = false
 +++
 
-When a customer order stocks from you, they create an **Internal Orders** in their store. This will appear as a **Requisition** in your store. 
+When a customer order stock from you, they create an **Internal Order** in their store. This will appear as a **Requisition** in your store. 
 
 ## Viewing Customers' Requisition
 
