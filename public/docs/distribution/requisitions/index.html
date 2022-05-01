@@ -295,6 +295,16 @@
   							
   							<li><a href="https://docs.msupply.foundation/docs/distribution/requisitions/#viewing-customers-requisition">Viewing Customers&#x27; Requisition</a></li>
   							
+  									<ul>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/distribution/requisitions/#requisition-list">Requisition list</a></li>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/distribution/requisitions/#search-by-comment">Search by comment</a></li>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/distribution/requisitions/#exporting-requisitions">Exporting Requisitions</a></li>
+  											
+  									</ul>
+  							
   							
   					</ul>
   			</nav>
@@ -305,11 +315,43 @@
       <main class="docs-content col-lg-11 col-xl-9">
         <h1>Requisitions</h1>
         <p class="lead">Managing your customers' orders</p>
-        <p>When a customer order stock from you, they create an <strong>Internal Order</strong> in their store. This will appear as a <strong>Requisition</strong> in your store. </p>
+        <p>When a customer orders stock from you, they create an <strong>Internal Order</strong> in their store. This will appear as a <strong>Requisition</strong> in your store. </p>
 <h2 id="viewing-customers-requisition">Viewing Customers' Requisition</h2>
-<p>To know if you have received requisitions from your customers, go to <code>Distribution</code> &gt; <code>Requisition</code>: </p>
-<p><img src="/docs/distribution/req_gotoreq2.png" alt="" /></p>
-<p>You should see a list of all requisitions sent by your customers: </p>
+<p>To know if you have received requisitions from your customers, go to <code>Distribution</code> &gt; <code>Requisition</code></p>
+<p><img src="/docs/distribution/req_gotoreq2.png" alt="Requistion nav" /></p>
+<p>You should see a list of all requisitions sent by your customers. </p>
+<p>From this screen you can:</p>
+<ul>
+<li>View a list of Requisitions</li>
+<li>Export Requisitions to a <code>.csv</code> file</li>
+</ul>
+<p><img src="/docs/distribution/req_list.png" alt="Requisition list" /></p>
+<h3 id="requisition-list">Requisition list</h3>
+<ol>
+<li>The list of Requisitions is divided into 5 columns:</li>
+</ol>
+<table><thead><tr><th align="left">Column</th><th align="left">Description</th></tr></thead><tbody>
+<tr><td align="left"><strong>Name</strong></td><td align="left">Name of the Customer</td></tr>
+<tr><td align="left"><strong>Number</strong></td><td align="left">Reference Number of the requisition</td></tr>
+<tr><td align="left"><strong>Created</strong></td><td align="left">Creation date of the requisition</td></tr>
+<tr><td align="left"><strong>Status</strong></td><td align="left">Current Status of the requisition</td></tr>
+<tr><td align="left"><strong>Comment</strong></td><td align="left">Comment for the requisition</td></tr>
+</tbody></table>
+<ol>
+<li>The list can display a fixed number of requisitions per page. On the bottom left corner, you can see how many requisitions are currently displayed on your screen. </li>
+</ol>
+<p><img src="/docs/distribution/os_list_showing.png" alt="Page" /></p>
+<ol start="3">
+<li>If you have more than 20 requisitions, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner). </li>
+</ol>
+<p><img src="/docs/distribution/os_list_pagenumbers.png" alt="Page" /></p>
+<h3 id="search-by-comment">Search by comment</h3>
+<p>You can filter the list of requisitions by comment. This can be useful if you're looking for one particular requisition!</p>
+<p>Start typing in the <code>Search by comment</code> field (on the left, just above the list headers). All the requisitions which have a comment matching the entered text will appear in the list. </p>
+<h3 id="exporting-requisitions">Exporting Requisitions</h3>
+<p>The list of Requisitions can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page)</p>
+<p><img src="/docs/distribution/export.png" alt="Export button" /></p>
+<p>and the file will be downloaded. The export function will download all Requisitions, not just the current page, if you have more than 20 of them. Requisitions are exported using sort order selected in the table, though of course you could easily sort the list in Excel or whatever you open the .csv file with!</p>
 
         
         

@@ -381,6 +381,9 @@
   									</ul>
   							
   							
+  							<li><a href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/#viewing-an-outbound-shipment">Viewing an Outbound Shipment</a></li>
+  							
+  							
   					</ul>
   			</nav>
   	</div>
@@ -389,9 +392,10 @@
 
       <main class="docs-content col-lg-11 col-xl-9">
         <h1>Outbound Shipments</h1>
-        <p class="lead">Issuing stock to a customers</p>
+        
         <p>Outbound Shipments can be used to issue stock to a customer. </p>
-<p>If you used mSupply in the past, you may be familiar with the term <strong>Customer Invoice</strong>. An Outbound Shipment can be used to:</p>
+<p>If you have used mSupply in the past, you may be familiar with the term <strong>Customer Invoice</strong> instead of Outbound Shipment. 
+An Outbound Shipment can be used to:</p>
 <ul>
 <li>Transfer stock to another store which also uses mSupply</li>
 <li>Issue stock to a customer</li>
@@ -405,23 +409,24 @@
 <p>From this screen you can:</p>
 <ul>
 <li>View a list of Outbound Shipments</li>
-<li>Create a new Outbound Shipments</li>
-<li>Export one or multiple Outbound Shipments</li>
+<li>Create a new Outbound Shipment</li>
+<li>Export Outbound Shipments to a <code>.csv</code> file</li>
 <li>Print one or multiple Outbound Shipments</li>
 </ul>
 <h3 id="outbound-shipment-list">Outbound Shipment list</h3>
 <ol>
-<li>The list of Outbound Shipments is divided into 6 columns:</li>
+<li>The list of Outbound Shipments is divided into 7 columns:</li>
 </ol>
 <table><thead><tr><th align="left">Column</th><th align="left">Description</th></tr></thead><tbody>
 <tr><td align="left"><strong>Name</strong></td><td align="left">Name of the Customer</td></tr>
 <tr><td align="left"><strong>Status</strong></td><td align="left">Current Status of the shipment</td></tr>
-<tr><td align="left"><strong>Invnum</strong></td><td align="left">Reference Number of the shipment</td></tr>
-<tr><td align="left"><strong>Entered</strong></td><td align="left">Creation date of the shipment</td></tr>
+<tr><td align="left"><strong>Number</strong></td><td align="left">Reference Number of the shipment</td></tr>
+<tr><td align="left"><strong>Created</strong></td><td align="left">Creation date of the shipment</td></tr>
+<tr><td align="left"><strong>Reference</strong></td><td align="left">Customer reference</td></tr>
 <tr><td align="left"><strong>Comment</strong></td><td align="left">Comment for the shipment</td></tr>
 <tr><td align="left"><strong>Total</strong></td><td align="left">Total value of the shipment</td></tr>
 </tbody></table>
-<ol start="2">
+<ol>
 <li>The list can display a fixed number of shipments per page. On the bottom left corner, you can see how many shipments are currently displayed on your screen. </li>
 </ol>
 <p><img src="/docs/distribution/os_list_showing.png" alt="Page" /></p>
@@ -433,9 +438,9 @@
 <p>You can filter the list of shipments by customer name. This can be useful if you're looking for one particular shipment!</p>
 <p>Type the name of a customer in the <code>Search by name</code> field (on the left, just above the list headers). All the shipments for this customer appear in the list. </p>
 <h3 id="exporting-outbound-shipments">Exporting Outbound Shipments</h3>
-<div class="omsupdate">
-In progress... 😇
-</div>
+<p>The list of Outbound Shipments can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page)</p>
+<p><img src="/docs/distribution/export.png" alt="Export button" /></p>
+<p>and the file will be downloaded. The export function will download all Outbound Shipments, not just the current page, if you have more than 20 of them. Shipments are exported using sort order selected in the table, though of course you could easily sort the list in Excel or whatever you open the .csv file with!</p>
 <h3 id="delete-an-outbound-shipment">Delete an Outbound Shipment</h3>
 <p>You can delete a shipment from the Outbound Shipment list. </p>
 <ol>
@@ -496,6 +501,7 @@ If everything went well, you should see the name of your customer in the top lef
 </ul>
 <p>We are planning to add more sections in the future as Open mSupply grows. </p>
 <h4 id="how-to-open-and-close-the-information-panel">How to open and close the Information Panel ?</h4>
+<p>If you are using a large screen, the information panel will be automatically opened for you. However, on an average sized screen, the information panel will be closed by default.</p>
 <p>To open the Information Panel, you can tap on the <code>More</code> button, located in the top right corner of the Outbound Shipment view. </p>
 <p>You can close by tapping on the <code>X Close</code> button, on the top right corner of the information panel. </p>
 <p><img src="/docs/distribution/os_infopanel_openclose.gif" alt="Open and close the Information Panel" /></p>
@@ -515,7 +521,7 @@ If everything went well, you should see the name of your customer in the top lef
 <p>You can also add a <strong>Service charges</strong> if you wish to add other charges such as Freight Costs. To add a Service charges to the Invoice Details: </p>
 <ol>
 <li>Tap on the <code>Edit Service Charges</code> button. A new window opens. </li>
-<li>Tap on the <code>Add charge</code> button on the new window. A new line appears in the list of charges. You tap on ``Cancel` if you do not wish to add anything. </li>
+<li>Tap on the <code>Add charge</code> button on the new window. A new line appears in the list of charges. You tap on <code>Cancel</code> if you do not wish to add anything. </li>
 <li><strong>Name:</strong> select a service charges in the dropdown list. You can customise the list of available charges. Contact your administrator. </li>
 <li><strong>Comment:</strong> you can add a comment to provide further details about the new charge. </li>
 <li><strong>Amount:</strong> enter the amount of the charge. </li>
@@ -523,7 +529,7 @@ If everything went well, you should see the name of your customer in the top lef
 <li><strong>Total:</strong> The total field is automatically calculated based on the Amount and the Tax percentage. </li>
 <li><strong>Delete:</strong> you can tap on the <code>Delete</code> icon to delete the charge.</li>
 </ol>
-<p>In this section, you can also edit the tax rate (%) for the items sell price. Tap on the pencil icon and enter </p>
+<p>In this section, you can also edit the tax rate (%) for the items sell price. Tap on the pencil icon and enter a value.</p>
 <h4 id="transport-details">Transport Details</h4>
 <p>In this section, you can see or edit a transport reference number (eg. a booking or a tracking reference number). </p>
 <h3 id="outbound-shipment-status-sequence">Outbound Shipment Status Sequence</h3>
@@ -546,7 +552,7 @@ If everything went well, you should see the name of your customer in the top lef
 <tr><td align="left"><strong>Delivered</strong></td><td>Your customer has received the shipment.</td></tr>
 <tr><td align="left"><strong>Verified</strong></td><td>Your customer has verified the quantity of the shipment. Goods are now part of their inventory.</td></tr>
 </tbody></table>
-<p>if you hover over the status sequence, a shipment history window appears. You can see the date when a shipment was updated from one status to another. </p>
+<p>If you hover over the status sequence, a shipment history window appears. You can see the date when a shipment was updated from one status to another. </p>
 <div class="imagetitle">
 This shipment has been created, allocated and picked on 29/03/2022
 </div>
@@ -559,7 +565,7 @@ This shipment has been created, allocated and picked on 29/03/2022
 <h4 id="cancel-button">Cancel Button</h4>
 <p>Tap on the <code>Cancel</code> button to quit the Outbound Shipment view and return to the Outbound Shipments list. </p>
 <h4 id="confirm-button">Confirm Button</h4>
-<p>The <code>Confirm</code> button is the button to update the status of a shipment. Depending on the current status, you won't confirm the same thing. </p>
+<p>The <code>Confirm</code> button is the button to update the status of a shipment. The status which you can confirm depends on the current status of the shipment and follows the sequence shown below.</p>
 <p>When managing an Outbound Shipment, you can only confirm the Allocation, the Picking and the Shipment. </p>
 <table><thead><tr><th align="left">Confirm...</th><th align="left">Current Status</th><th align="left">Next Status</th></tr></thead><tbody>
 <tr><td align="left"><strong>Confirm Allocated</strong></td><td align="left">New</td><td align="left">Allocated</td></tr>
@@ -577,8 +583,8 @@ This shipment has been created, allocated and picked on 29/03/2022
 <p>In the <code>Add Item</code> window, you can look up an item by:</p>
 <ul>
 <li>reading through the list of available items</li>
-<li>or by typing as much of an item name</li>
-<li>or by typing as much of an item code</li>
+<li>or by typing some or all of item name</li>
+<li>or by typing some or all of an item code</li>
 </ul>
 <p>Once your item is highligthed, tap on the name or press <code>Enter</code>.</p>
 <p><img src="/docs/distribution/os_additem.gif" alt="Alt Text" /></p>
@@ -625,6 +631,7 @@ In below example, we are issuing 100 units of the item. All 100 units will be ta
 In this other example, we are issuing 1200 units. System selects two batches with different pack sizes. 
 </div>
 <p><img src="/docs/distribution/os_additem_issueunitstwobatches.png" alt="additem!" /></p>
+<p>Note that in this list, the batches which are available for selection are shown first and batches which are not (on hold or no stock available) are shown below and in a grey font.</p>
 <h3 id="issue-a-quantity-of-packs">Issue a quantity of packs</h3>
 <p>You can decide to issue a quantity of <strong>packs</strong>. To do this, you can change the value in the <code>Pack Size</code> dropdown. </p>
 <div class="imagetitle">
@@ -640,6 +647,7 @@ In below example, we are issuing 10 packs of 12 units:
 <b></b> if you had previously entered a quantity of units and you switch to a quantity a packs, the quantity of units will automatically be converted into the correct quantity of packs.  
 </div>
 <p><img src="/docs/distribution/os_issuepacks.gif" alt="Alt Text" /></p>
+<p>When a pack size is selected, and stock lines which have a different pack size are not available for selection. As such, those rows are listed lower down in the table and are shown in a grey font, in the same way as other unavailable rows.</p>
 <h3 id="manual-allocation">Manual Allocation</h3>
 <p>Regardless if you chose to issue a quantity of units or packs, you can always manually change the quantity at the batch number level directly before pressing on OK. </p>
 <p>You simply have to enter or edit the quantity in the <code># Packs</code> column. </p>
@@ -772,6 +780,11 @@ You won't be able to process your Outbound Shipment if you have unallocated line
 <li>status will become <code>DELIVERED</code> when goods are received: your customer confirmed that they received your goods</li>
 <li>status will become <code>VERIFIED</code> when shipment has been verified by your customer. Goods are now part of their inventory.</li>
 </ul>
+<h2 id="viewing-an-outbound-shipment">Viewing an Outbound Shipment</h2>
+<p>When viewing a specific shipment, you can view the batches on that shipment grouped by item or with each batch listed separately.
+To change the view mode, click the <code>Group by item</code> switch. </p>
+<p>When grouped by item, you can expand the item to see individual batches, or use the expand in the table header to expand all grouped rows. If you click on an item you will also see all selected batches, as shown in this example:</p>
+<p><img src="/docs/distribution/os_group_by_item.gif" alt="Group by Item" /></p>
 
         
         
