@@ -58,3 +58,11 @@ Some users have access to more than one store. To change the store which is curr
 ![Store switcher](/docs/store_switcher.gif)
 
 You will see the notification and the store name in the footer will be updated. From now, all actions will be in the newly selected store.
+
+## Help!
+
+If you get stuck at any time when using the site, click on the `Docs` menu item. 
+
+![Docs](/docs/docs_nav.png)
+
+This will take you to the documentation page which relates to the current page you are viewing.

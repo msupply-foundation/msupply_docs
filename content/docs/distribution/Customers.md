@@ -15,7 +15,7 @@ top = false
 +++
 
 <div class="omsupdate">
-At the moment, you are only able to view your customers and their information. In the future, you will be able to create and edit your customers (provided you have the authorisations to do so!). 
+At the moment, you are only able to view your customers and their information. In the future, you will be able to create and edit your customers (provided you have the authorisation to do so!). 
 </div>
 
 ## Viewing Customers

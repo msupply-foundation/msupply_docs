@@ -9,7 +9,6 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "Issuing stock to a customers"
 toc = true
 top = false
 +++
@@ -17,7 +16,8 @@ top = false
 
 Outbound Shipments can be used to issue stock to a customer. 
 
-If you used mSupply in the past, you may be familiar with the term **Customer Invoice**. An Outbound Shipment can be used to:
+If you have used mSupply in the past, you may be familiar with the term **Customer Invoice** instead of Outbound Shipment. 
+An Outbound Shipment can be used to:
 * Transfer stock to another store which also uses mSupply
 * Issue stock to a customer
 * Fulfill requisitions (customer orders)
@@ -34,24 +34,25 @@ You will be presented with a list Outbound Shipments (if you don't see any, you 
 
 From this screen you can:
 * View a list of Outbound Shipments
-* Create a new Outbound Shipments
-* Export one or multiple Outbound Shipments
+* Create a new Outbound Shipment
+* Export Outbound Shipments to a `.csv` file
 * Print one or multiple Outbound Shipments
 
 ### Outbound Shipment list
 
-1. The list of Outbound Shipments is divided into 6 columns:
+1. The list of Outbound Shipments is divided into 7 columns:
 
 | Column| Description |
 | :---------- | :---------- |
 | **Name** | Name of the Customer | 
 | **Status** | Current Status of the shipment | 
-| **Invnum** | Reference Number of the shipment | 
-| **Entered** | Creation date of the shipment | 
+| **Number** | Reference Number of the shipment | 
+| **Created** | Creation date of the shipment | 
+| **Reference** | Customer reference | 
 | **Comment** | Comment for the shipment |
 | **Total** | Total value of the shipment |
 
-2. The list can display a fixed number of shipments per page. On the bottom left corner, you can see how many shipments are currently displayed on your screen. 
+1. The list can display a fixed number of shipments per page. On the bottom left corner, you can see how many shipments are currently displayed on your screen. 
 
 ![Page](/docs/distribution/os_list_showing.png)
 
@@ -67,9 +68,11 @@ Type the name of a customer in the `Search by name` field (on the left, just abo
 
 ### Exporting Outbound Shipments
 
-<div class="omsupdate">
-In progress... 😇
-</div>
+The list of Outbound Shipments can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page)
+
+![Export button](/docs/distribution/export.png)
+
+and the file will be downloaded. The export function will download all Outbound Shipments, not just the current page, if you have more than 20 of them. Shipments are exported using sort order selected in the table, though of course you could easily sort the list in Excel or whatever you open the .csv file with!
 
 ### Delete an Outbound Shipment
 
@@ -138,6 +141,8 @@ We are planning to add more sections in the future as Open mSupply grows.
 
 #### How to open and close the Information Panel ?
 
+If you are using a large screen, the information panel will be automatically opened for you. However, on an average sized screen, the information panel will be closed by default.
+
 To open the Information Panel, you can tap on the `More` button, located in the top right corner of the Outbound Shipment view. 
 
 You can close by tapping on the `X Close` button, on the top right corner of the information panel. 
@@ -166,7 +171,7 @@ In this section, you will see by default the total selling price of the items li
 You can also add a **Service charges** if you wish to add other charges such as Freight Costs. To add a Service charges to the Invoice Details: 
 
 1. Tap on the `Edit Service Charges` button. A new window opens. 
-2. Tap on the `Add charge` button on the new window. A new line appears in the list of charges. You tap on ``Cancel` if you do not wish to add anything. 
+2. Tap on the `Add charge` button on the new window. A new line appears in the list of charges. You tap on `Cancel` if you do not wish to add anything. 
 3. **Name:** select a service charges in the dropdown list. You can customise the list of available charges. Contact your administrator. 
 4. **Comment:** you can add a comment to provide further details about the new charge. 
 5. **Amount:** enter the amount of the charge. 
@@ -174,7 +179,7 @@ You can also add a **Service charges** if you wish to add other charges such as 
 7. **Total:** The total field is automatically calculated based on the Amount and the Tax percentage. 
 8. **Delete:** you can tap on the `Delete` icon to delete the charge.  
 
-In this section, you can also edit the tax rate (%) for the items sell price. Tap on the pencil icon and enter 
+In this section, you can also edit the tax rate (%) for the items sell price. Tap on the pencil icon and enter a value.
 
 #### Transport Details
 
@@ -207,7 +212,7 @@ There are 6 status for the Outbound Shipment:
 | **Delivered** | Your customer has received the shipment. |
 | **Verified** | Your customer has verified the quantity of the shipment. Goods are now part of their inventory. |
 
-if you hover over the status sequence, a shipment history window appears. You can see the date when a shipment was updated from one status to another. 
+If you hover over the status sequence, a shipment history window appears. You can see the date when a shipment was updated from one status to another. 
 
 <div class="imagetitle">
 This shipment has been created, allocated and picked on 29/03/2022
@@ -231,7 +236,7 @@ Tap on the `Cancel` button to quit the Outbound Shipment view and return to the 
 
 #### Confirm Button
 
-The `Confirm` button is the button to update the status of a shipment. Depending on the current status, you won't confirm the same thing. 
+The `Confirm` button is the button to update the status of a shipment. The status which you can confirm depends on the current status of the shipment and follows the sequence shown below.
 
 When managing an Outbound Shipment, you can only confirm the Allocation, the Picking and the Shipment. 
 
@@ -259,8 +264,8 @@ A new `Add Item` window opens.
 
 In the `Add Item` window, you can look up an item by:
 * reading through the list of available items
-* or by typing as much of an item name
-* or by typing as much of an item code
+* or by typing some or all of item name
+* or by typing some or all of an item code
 
 Once your item is highligthed, tap on the name or press `Enter`.
 
@@ -326,6 +331,8 @@ In this other example, we are issuing 1200 units. System selects two batches wit
 
 ![additem!](/docs/distribution/os_additem_issueunitstwobatches.png)
 
+Note that in this list, the batches which are available for selection are shown first and batches which are not (on hold or no stock available) are shown below and in a grey font.
+
 ### Issue a quantity of packs
 
 You can decide to issue a quantity of **packs**. To do this, you can change the value in the `Pack Size` dropdown. 
@@ -350,6 +357,7 @@ In below example, we are issuing 10 packs of 12 units:
 
 ![Alt Text](/docs/distribution/os_issuepacks.gif)
 
+When a pack size is selected, and stock lines which have a different pack size are not available for selection. As such, those rows are listed lower down in the table and are shown in a grey font, in the same way as other unavailable rows.
 
 ### Manual Allocation 
 
@@ -507,3 +515,11 @@ If your customer is also using mSupply, you wil be able to see when they'll rece
 * status will become `DELIVERED` when goods are received: your customer confirmed that they received your goods
 * status will become `VERIFIED` when shipment has been verified by your customer. Goods are now part of their inventory.
 
+## Viewing an Outbound Shipment
+
+When viewing a specific shipment, you can view the batches on that shipment grouped by item or with each batch listed separately.
+To change the view mode, click the `Group by item` switch. 
+
+When grouped by item, you can expand the item to see individual batches, or use the expand in the table header to expand all grouped rows. If you click on an item you will also see all selected batches, as shown in this example:
+
+![Group by Item](/docs/distribution/os_group_by_item.gif)
