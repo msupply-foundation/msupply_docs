@@ -21,7 +21,7 @@ This tutorial is designed to guide you through the basics of using Open mSupply
 
 1. For a start, you'll need to open your web browser. We like Firefox, but Chrome and its myriad children will also suffice.
 2. Enter the web address (URL) of your mSupply server. In our case we're using https://demo-open.msupply.org - our test web site.
-3. After pressing <enter> on your keyboard you'll be shown the login page.
+3. After pressing <enter> on your keyboard you'll be shown the login page
 
 ![login!](/docs/log_in.png)
 
