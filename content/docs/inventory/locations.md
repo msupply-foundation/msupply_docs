@@ -22,30 +22,30 @@ Locations in mSupply are the places you store stock.
 
 To view the storage locations of your store, go to `Inventory` > `Locations` in the navigation panel: 
 
-![](/docs/inventory/loc_gotoloc.png)
+![Location: nav](/docs/inventory/loc_gotoloc.png)
 
 You will see a list of your storage locations: 
 
-![](/docs/inventory/loc_loclist.png)
+![Location: list](/docs/inventory/loc_loclist.png)
 
 ## Creating a new location
 
 To create a new location, tap on the `New Location` button in the top right corner of the screen:
 
-![](/docs/inventory/loc_newlocbutton.png)
+![Location: new location button](/docs/inventory/loc_newlocbutton.png)
 
 A window like this opens: 
 
-![](/docs/inventory/loc_createloc.png)
+![Location: create location](/docs/inventory/loc_createloc.png)
 
 1. **Name**: Enter the name of the new location
 2. **Code**: Enter a code for the new location
-3. **On Hold** checkbox: if you check this box, then goods in this location cannot be selected for issue to customers. Goods can be moved in to, and out, of the location but they cannot be issued from that location. 
+3. **On Hold** (checkbox): If you check this box, then goods in this location cannot be selected for issue to customers. Goods can be moved in to, and out, of the location but they cannot be issued from that location. 
 
 <div class="tip">
 Putting a location on hold can be useful if: 
 <br><br>
-- The stock needs to be kept from being issued until some inspection / approval (e.g. quarantine or under bond).
+- The stock needs to be kept from being issued until some inspection / approval (e.g. quarantine or under bond)
 <br><br>
 - The stock is a bulk quantity with the same expiry date as another stock line in another location from which you want stock issued. You can use this feature to force mSupply to always suggest issuing stock of this item from the 'issue' location rather than this 'bulk' location. When you have finished issuing stock from the 'issue' location, and you want to issue the stock that is in the 'bulk' location, you will need to either take the 'bulk' location off hold, or, move all, or some of it (split), the stock from the 'bulk' location. 
 </div>

@@ -9,7 +9,6 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "Viewing your stock"
 toc = true
 top = false
 +++
@@ -20,21 +19,21 @@ One of the most important - but easiest - tasks in mSupply is to check how much 
 
 In the navigation panel, Go to `Inventory` and tap on the  `Stock` submenu: 
 
-![](/docs/inventory/stock_gotostock.png)
+![Stock: nav](/docs/inventory/stock_gotostock.png)
 
 A detailed list of your inventory appears: 
 
-![](/docs/inventory/stock_viewstock.png)
+![Stock: list](/docs/inventory/stock_viewstock.png)
 
 The list is divided into 8 columns: 
-* **Code**: this is the code assigned to this item in mSupply. 
-* **Name**: this is the name by which mSupply will refer to the item.
-* **Batch**: batch number of the stock line. 
-* **Expiry**: expiry date of the batch number. 
-* **Location**: where the item is being stored in your facility
-* **Unit**: the unit you use for this item.
-* **Pack Size**: number of units per pack.
-* **Pack Qty**: number of packs available in your store.
+* **Code**: This is the code assigned to this item in mSupply
+* **Name**: This is the name by which mSupply will refer to the item
+* **Batch**: Batch number of the stock line
+* **Expiry**: Expiry date of the batch
+* **Location**: Where the item is being stored in your facility
+* **Unit**: The unit you use for this item
+* **Pack Size**: Number of units per pack
+* **Pack Qty**: Number of packs available in your store
 
 
 ## Looking for a specific item
@@ -43,4 +42,4 @@ You can filter the list by item name or code. This can be useful if you're looki
 
 Type as much of an item name or code in the `Enter item code or name` field: 
 
-![](/docs/inventory/stock_search.gif)
+![Stock: search](/docs/inventory/stock_search.gif)

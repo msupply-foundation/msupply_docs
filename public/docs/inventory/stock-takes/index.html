@@ -296,7 +296,7 @@
   			<nav id="TableOfContents">
   					<ul>
   							
-  							<li><a href="https://docs.msupply.foundation/docs/inventory/stock-takes/#viewing-stock-takes">Viewing Stock takes</a></li>
+  							<li><a href="https://docs.msupply.foundation/docs/inventory/stock-takes/#viewing-stocktakes">Viewing Stocktakes</a></li>
   							
   							
   							<li><a href="https://docs.msupply.foundation/docs/inventory/stock-takes/#creating-a-new-stock-take">Creating a new stock take</a></li>
@@ -319,52 +319,61 @@
       <main class="docs-content col-lg-11 col-xl-9">
         <h1>Stocktakes</h1>
         <p class="lead">Counting and adjusting stock</p>
-        <p>mSupply will automatically keep track of your stock levels for you, as you receive stock and give it out. But sometimes data gets entered incorrectly or stock goes out without anyone making an entry in the system. </p>
-<p>Of course, we try not to let that happen but, if it does happen, we can make corrections. The easiest way to correct mistakes is to do a <strong>Stock take</strong>. </p>
-<p>In mSupply, you can easily do a stock take for: </p>
+        <p>mSupply will automatically keep track of your stock levels for you, as you receive and distribute it. But sometimes data gets entered incorrectly or stock goes out without anyone making an entry in the system. </p>
+<p>Of course, we try not to let that happen but, if it does happen, we can make corrections. The easiest way to correct mistakes is to do a <strong>Stocktake</strong>. </p>
+<p>In mSupply, you can easily do a stocktake for: </p>
 <ul>
-<li>a full inventory</li>
-<li>a limited range of items</li>
-<li>a single item</li>
+<li>A full inventory</li>
+<li>A limited range of items</li>
+<li>A single item</li>
 </ul>
-<h2 id="viewing-stock-takes">Viewing Stock takes</h2>
-<p>To view your stock takes, go to <code>Inventory</code> and then <code>Stock Takes</code> in the navigation panel: </p>
-<p><img src="/docs/inventory/stocktake_gotost.png" alt="" /></p>
+<h2 id="viewing-stocktakes">Viewing Stocktakes</h2>
+<p>To view your stocktakes, go to <code>Inventory</code> and then <code>Stocktakes</code> in the navigation panel: </p>
+<p><img src="/docs/inventory/stocktake_gotost.png" alt="Stocktake: nav" /></p>
 <p>This brings up a list of all your stocktakes: </p>
-<p><img src="/docs/inventory/stocktake_stocktakelist.png" alt="" /></p>
+<p><img src="/docs/inventory/stocktake_stocktakelist.png" alt="Stocktake: list" /></p>
 <p>For each stock stake you can see:</p>
 <ul>
-<li>the stock take <strong>number</strong></li>
-<li>the stock take <strong>status</strong>. There are two stock take statuses: 
+<li>The stock take <strong>number</strong></li>
+<li>The stock take <strong>status</strong>. There are two stock take statuses: 
 <ul>
 <li><em>New</em>: a stocktake you are still working on</li>
 <li><em>Finalised</em>: a stocktake that has alredy been performed. You can no longer edit it.</li>
 </ul>
 </li>
-<li>a <strong>description</strong> of the stocktake (eg. March Stocktake). </li>
-<li>if any, a <strong>comment</strong> about the stoctake. </li>
-<li>the <strong>date</strong> of the stock take.</li>
+<li>A <strong>description</strong> of the stocktake (eg. March Stocktake)</li>
+<li>If any, a <strong>comment</strong> about the stoctake</li>
+<li>The <strong>date</strong> of the stock take</li>
 </ul>
 <div class="warning">
 There is little point in keeping old stocktakes with status = <code>NEW</code>, especially if you are about to create a new stocktake containing the same items. Indeed, it can be quite dangerous to leave old stocktakes with status <code>NEW</code> in your system. If time has passed since the stocktake was created, then the snapshot and actual quantities are almost certainly incorrect. For good housekeeping reasons, it is good practice to delete old <code>NEW</code> stocktakes.
 </div>
 <h2 id="creating-a-new-stock-take">Creating a new stock take</h2>
 <p>Let's start a new stocktake. To do so, tap on the <code>New Stocktake</code> button in the right corner of the screen. </p>
-<p><img src="/docs/inventory/stocktake_newstocktake.png" alt="" /></p>
+<p><img src="/docs/inventory/stocktake_newstocktake.png" alt="Stocktake: new" /></p>
 <p>A window appears, inviting you to select items to be counted:</p>
-<p><img src="/docs/inventory/stocktake_additem2.png" alt="" /></p>
+<p><img src="/docs/inventory/stocktake_additem2.png" alt="Stocktake: Add item" /></p>
 <h3 id="selecting-items">Selecting Items</h3>
 <p>Select items you wish to count using the check boxes. You can select more than one: </p>
-<p><img src="/docs/inventory/stoctake_additem_checkbox.png" alt="" /></p>
+<p><img src="/docs/inventory/stocktake_additem_checkbox.png" alt="Stocktake: add item count" /></p>
 <p>If you want to to include every item (or most items), check the <code>Select All</code> box and click on <code>OK</code>:</p>
-<p><img src="/docs/inventory/stoctake_additem_selectall.png" alt="" /></p>
+<p><img src="/docs/inventory/stocktake_additem_selectall.png" alt="Stocktake: select all" /></p>
 <p>Use the search bar to look for a specific item by typing its name or its code: </p>
-<p><img src="/docs/inventory/stocktake_additem_search.gif" alt="" /></p>
+<p><img src="/docs/inventory/stocktake_additem_search.gif" alt="Stocktake: add item search" /></p>
 <p>Click on OK when you have selected all the items you would like to count. </p>
 <div class="tip">
 Don't worry if your forget one item. You will have the possibility to add more items to your stocktake afterwards. 
 </div>
 <h3 id="printing-stocktake-sheet">Printing Stocktake sheet</h3>
+<p>When viewing a specific Stocktake, simply click the <code>Print</code> button which is on the top right of the page.
+When printing, a PDF file is generated for you, which will then open in a new browser tab. This can then be printed using your browser by clicking print or using <code>control</code>+<code>P</code> (if using windows) or <code>cmd</code>+<code>P</code> keys on your keyboard (if using a mac).</p>
+<p><img src="/docs/print_button.png" alt="Print button" /></p>
+<p>This will either</p>
+<ul>
+<li>Show a menu of possible reports for you to select from before creating a PDF. This will happen if there are more than one report defined for the <code>Stocktake</code> report type.</li>
+<li>Create a PDF immediately, if there is only one report to select from</li>
+</ul>
+<p><img src="/docs/distribution/os_print_menu.png" alt="Print menu" /></p>
 
         
         
