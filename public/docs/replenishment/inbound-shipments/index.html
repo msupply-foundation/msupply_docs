@@ -389,8 +389,8 @@
 <p>If you have used mSupply in the past, you may be familiar with the term <strong>Supplier Invoice</strong> instead of Inbound Shipment. </p>
 <p>All received goods should be recorded in mSupply either by: </p>
 <ul>
-<li>manually creating an Inbound Shipment (manual Inbound Shipment)</li>
-<li>working with an Inbound Shipment that has been created automatically as a result of a stock transfer from another store in your mSupply</li>
+<li>Manually creating an Inbound Shipment (manual Inbound Shipment)</li>
+<li>Working with an Inbound Shipment that has been created automatically as a result of a stock transfer from another store in your mSupply</li>
 </ul>
 <h2 id="viewing-inbound-shipments">Viewing Inbound Shipments</h2>
 <h3 id="go-to-the-inbound-shipments-menu">Go to the Inbound Shipments Menu</h3>
@@ -398,7 +398,7 @@
 <p>To access the <strong>Inbound Shipment</strong> menu:</p>
 <ol>
 <li>Go to the <code>Replenishment</code> menu in the navigation panel</li>
-<li>Click on <code>Inbound Shipment</code>.</li>
+<li>Click on <code>Inbound Shipment</code></li>
 </ol>
 <h3 id="inbound-shipments-list">Inbound Shipments list</h3>
 <p>First thing you see is a list of existing Inbound Shipments. </p>
@@ -444,8 +444,8 @@ You can only delete Inbound Shipments with a status <code>NEW</code>.
 <h2 id="creating-a-new-manual-inbound-shipment">Creating a new manual Inbound Shipment</h2>
 <ol>
 <li>Go to <code>Replenishment</code>&gt; <code>Inbound Shipment</code></li>
-<li>Press the <code>New Shipment</code> button, in the top right corner. </li>
-<li>A new window <code>Suppliers</code> opens, inviting you to select a supplier. </li>
+<li>Press the <code>New Shipment</code> button, in the top right corner</li>
+<li>A new window <code>Suppliers</code> opens, inviting you to select a supplier</li>
 </ol>
 <h3 id="select-a-supplier">Select a Supplier</h3>
 <ol>
@@ -494,8 +494,8 @@ We are planning to add more sections in the future as Open mSupply grows.
 <h4 id="additonal-info">Additonal Info</h4>
 <p>In the <strong>Additional Info</strong> section, you can:</p>
 <ul>
-<li>see who created the Inbound Shipment (name of the user)</li>
-<li>view and edit the Inbound Shipment color. To edit the color, tap on the colored circle and select a color from the </li>
+<li>See who created the Inbound Shipment (name of the user)</li>
+<li>View and edit the Inbound Shipment color. To edit the color, tap on the colored circle and select a color from the pop-up</li>
 <li>Write or edit a comment</li>
 </ul>
 <h4 id="related-documents">Related Documents</h4>
@@ -509,11 +509,11 @@ We are planning to add more sections in the future as Open mSupply grows.
 <li>Tap on the <code>Edit Service Charges</code> button. A new window opens. </li>
 <li>Tap on the <code>Add charge</code> button on the new window. A new line appears in the list of charges. You tap on <code>Cancel</code> if you do not wish to add anything. </li>
 <li><strong>Name:</strong> select a service charges in the dropdown list. You can customise the list of available charges. Contact your administrator. </li>
-<li><strong>Comment:</strong> you can add a comment to provide further details about the new charge. </li>
-<li><strong>Amount:</strong> enter the amount of the charge. </li>
-<li><strong>Tax:</strong> enter a % of tax for the charge. </li>
-<li><strong>Total:</strong> The total field is automatically calculated based on the Amount and the Tax percentage. </li>
-<li><strong>Delete:</strong> you can tap on the <code>Delete</code> icon to delete the charge.</li>
+<li><strong>Comment:</strong> You can add a comment to provide further details about the new charge</li>
+<li><strong>Amount:</strong> Enter the amount of the charge</li>
+<li><strong>Tax:</strong> Enter a % of tax for the charge</li>
+<li><strong>Total:</strong> The total field is automatically calculated based on the Amount and the Tax percentage</li>
+<li><strong>Delete:</strong> You can tap on the <code>Delete</code> icon to delete the charge</li>
 </ol>
 <p>In this section, you can also edit the tax rate (%) for the cost price. Tap on the pencil icon and enter </p>
 <h4 id="transport-details">Transport Details</h4>
@@ -522,31 +522,43 @@ We are planning to add more sections in the future as Open mSupply grows.
 <p>The status sequence is located at the bottom left corner of the Inbound Shipment screen. </p>
 <p>Passed statuses are hightlighted in blue, next statuses appear in grey. </p>
 <figure>
-<img src="/docs/distribution/os_statussequence2.png" alt="Trulli" style="width:100%">
-<figcaption align = "center">Status Sequence: current status is <code>NEW</code>.</figcaption>
+    <img src="/docs/replenishment/is_statussequence2.png" alt="Inbound Shipment Status Sequence (New)" style="width:100%">
+    <figcaption align="center">Status Sequence: current status is <code>New</code>.</figcaption>
 </figure>
 <figure>
-<img src="/docs/distribution/os_statussequence3.png" alt="Trulli" style="width:100%">
-<figcaption align = "center">Status Sequence: current status is </i><code>PICKED</code>.</figcaption>
+    <img src="/docs/replenishment/is_statussequence3.png" alt="Inbound Shipment Status Sequence (Shipped)" style="width:100%">
+    <figcaption align="center">Status Sequence: current status is </i><code>Shipped</code>.</figcaption>
 </figure>
-<p>There are 6 status for the Inbound Shipment: </p>
+<p>There are 5 status for the Inbound Shipment: </p>
 <table><thead><tr><th align="left">Status</th><th>Description</th></tr></thead><tbody>
 <tr><td align="left"><strong>New</strong></td><td>This is the first status when you create a new manual Inbound Shipment</td></tr>
-<tr><td align="left"><strong>Allocated</strong></td><td>Allocation was confirmed by the supplier</td></tr>
-<tr><td align="left"><strong>Picked</strong></td><td>Supplier has confirmed that shipment is picked and ready to ship</td></tr>
-<tr><td align="left"><strong>Shipped</strong></td><td>Shipment has been shipped and goods are now in transit</td></tr>
+<tr><td align="left"><strong>Picked</strong></td><td>Supplier has confirmed that shipment is picked and ready to ship  (applies only to automatically created shipments)</td></tr>
+<tr><td align="left"><strong>Shipped</strong></td><td>Shipment has been shipped and goods are now in transit (applies only to automatically created shipments)</td></tr>
 <tr><td align="left"><strong>Delivered</strong></td><td>When you confirm that the shipment has been delivered</td></tr>
 <tr><td align="left"><strong>Verified</strong></td><td>When you have verified the inbound shipment</td></tr>
 </tbody></table>
+<p>You probably noticed that two of the status values only apply to automatically created shipments. These are created by the system when another store in the system creates an Outbound Shipment to deliver stock to your store. If this is the case you'll see a message near the top of the page:</p>
+<p><img src="/docs/replenishment/is_message_automatic.png" alt="Automatic IS message" /></p>
+<p>If, however, you've created an Inbound Shipment manually, then the following message shows:</p>
+<p><img src="/docs/replenishment/is_message_manual.png" alt="Manual IS message" /></p>
+<p>and you'll see that the status bar has only the status values which apply to this type of shipment.</p>
+<figure align="center">
+    <img src="/docs/replenishment/is_statussequence4.png" alt="Inbound Shipment Status Sequence (New & manual)" style="width:60%">
+    <figcaption align="center">Status Sequence: current status is </i><code>New</code>.</figcaption>
+</figure>
 <p>If you hover over the status sequence, a shipment history window appears. You can see the date when a shipment was updated from one status to another. </p>
 <div class="imagetitle">
-This shipment has been created, allocated and picked on 29/03/2022
+This manual shipment has been created on 03/03/2022
 </div>
-<p><img src="/docs/distribution/os_statussequence_hover.png" alt="" /></p>
+<p><img src="/docs/replenishment/is_statussequence_hover2.png" alt="Inbound status: hover 2" /></p>
+<div class="imagetitle">
+This automatic shipment has been created on 03/03/2022, allocated on 04/03/2022 and picked on 07/03/2022
+</div>
+<p><img src="/docs/replenishment/is_statussequence_hover.png" alt="Inbound status: hover" /></p>
 <h3 id="hold-checkbox">Hold checkbox</h3>
 <p>Located on the bottom left corner, on the left of the status sequence. </p>
 <p>Check the <code>Hold</code> checkbox prevents the Inbound Shipment from being updated to the next status. </p>
-<p><img src="/docs/distribution/os_holdcheckbox.png" alt="" /></p>
+<p><img src="/docs/distribution/os_holdcheckbox.png" alt="Outbound hold checkbox" /></p>
 <h3 id="cancel-and-confirm-button">Cancel and Confirm button</h3>
 <h4 id="cancel-button">Cancel Button</h4>
 <p>Click on the <code>Cancel</code> button to quit the Inbound Shipment view and return to the Inbound Shipments list. </p>
@@ -563,11 +575,11 @@ This shipment has been created, allocated and picked on 29/03/2022
 <h2 id="adding-lines-to-an-inbound-shipment">Adding lines to an Inbound Shipment</h2>
 <p>To add a line, tap on the <code>Add Item</code> button located in the top left corner of your screen. </p>
 <p>A new <code>Add Item</code> window opens. </p>
-<p><img src="/docs/replenishment/is_additem_button.png" alt="" /></p>
+<p><img src="/docs/replenishment/is_additem_button.png" alt="Inbound: add item button" /></p>
 <h3 id="select-an-item">Select an Item</h3>
 <p>In the <code>Add Item</code> window, you can look up an item by:</p>
 <ul>
-<li>reading through the list of available items</li>
+<li>Reading through the list of available items</li>
 <li>or by typing some or all of an item name</li>
 <li>or by typing some or all of an item code</li>
 </ul>
@@ -576,11 +588,11 @@ This shipment has been created, allocated and picked on 29/03/2022
 <h3 id="quantities-tab">Quantities tab</h3>
 <p>In the <code>Quantities</code> tab, you can update the following fields: </p>
 <ol>
-<li><strong>Batch</strong>: type here the batch number. Leave blank if item is not managed with batch number</li>
-<li><strong>Expiry</strong>: the expiry date of the batch number. Leave blank is not applicable</li>
-<li><strong># Packs</strong>: the quantity of packs you are receiving</li>
-<li><strong>Pack Size</strong>: the quantity of units per pack (by default, pack size is 1)</li>
-<li><strong>Unit Qty</strong> (read-only): automatically calculated based on # Packs and Pack Size (<code>[# Packs] x [Pack Size]</code>). </li>
+<li><strong>Batch</strong>: Type here the batch number. Leave blank if item is not managed with batch number.</li>
+<li><strong>Expiry</strong>: The expiry date of the batch number. Leave blank is not applicable</li>
+<li><strong># Packs</strong>: The quantity of packs you are receiving</li>
+<li><strong>Pack Size</strong>: The quantity of units per pack (by default, pack size is 1)</li>
+<li><strong>Unit Qty</strong> (read-only): Automatically calculated based on # Packs and Pack Size (<code>[# Packs] x [Pack Size]</code>)</li>
 <li>If you are receiving more than one batch number for the same item, you can tap on the <code>Add Batch</code> button</li>
 </ol>
 <div class="imagetitle">
@@ -590,10 +602,10 @@ In below example, we are receiving 2 batch numbers for item <i>030453 - Amoxicil
 <h3 id="pricing-tab">Pricing tab</h3>
 <p>On the second tab, <code>Pricing</code>, you can update the following fields (all are optional): </p>
 <ul>
-<li><strong>Sell</strong>: the selling unit price of the item  (default value is 0)</li>
-<li><strong>Cost</strong>: the purchasing unit price of the item (default value is 0)</li>
-<li><strong>Unit Qty</strong> (read-only): total number of units for the batch number</li>
-<li><strong>Line Total</strong> (read-only): total purchasing value for the batch number (<code>[Unit Qty] x [Cost]</code>) </li>
+<li><strong>Sell</strong>: The selling unit price of the item  (default value is 0)</li>
+<li><strong>Cost</strong>: The purchasing unit price of the item (default value is 0)</li>
+<li><strong>Unit Qty</strong> (read-only): Total number of units for the batch number</li>
+<li><strong>Line Total</strong> (read-only): Total purchasing value for the batch number (<code>[Unit Qty] x [Cost]</code>) </li>
 </ul>
 <div class="warning">
 Sell & Cost prices are per units and not per pack. 
@@ -624,7 +636,7 @@ Don't know the storage location yet ? You don't have to capture it right away. Y
 </div>
 <ol>
 <li>
-<p>Open the Inbound Shipment you want to edit. </p>
+<p>Open the Inbound Shipment you want to edit</p>
 </li>
 <li>
 <p>Tap on the line you want to edit. An identical window to <code>Add Item</code> appears. At this stage:</p>
@@ -640,8 +652,8 @@ Don't know the storage location yet ? You don't have to capture it right away. Y
 <h3 id="delete-a-shipment-line">Delete a Shipment line</h3>
 <ol>
 <li>Open the Inbound Shipment that you would like to edit</li>
-<li>Make sure that status is not yet <code>VERIFIED</code>. </li>
-<li>Select the line(s) you want to delete by checking the box(es) on the right of the list. </li>
+<li>Make sure that status is not yet <code>VERIFIED</code></li>
+<li>Select the line(s) you want to delete by checking the box(es) on the right of the list</li>
 <li>Go to the <code>Actions</code> dropdown menu (top right corner, above the list)</li>
 <li>Select the action <code>Delete selected lines</code></li>
 </ol>
@@ -665,9 +677,9 @@ In case your Inbound Shipment is <b>automatic</b>, you cannot confirm its delive
 <p>Verification is the last step to receive goods in mSupply. At this stage, you can check what you have received and make sure that that information in mSupply are correct. </p>
 <p>You have the possibility to verify the following information: </p>
 <ul>
-<li>batch numbers and their expiry dates</li>
-<li>quantity of packs and pack size </li>
-<li>pricing information: cost and sell prices</li>
+<li>Batch numbers and their expiry dates</li>
+<li>Quantity of packs and pack size </li>
+<li>Pricing information: cost and sell prices</li>
 </ul>
 <p>You can also capture where received goods are to be stored in the <code>Location</code> tab. </p>
 <p>Once all information have been captured or verified, you can confirm the Shipment as <code>VERIFIED</code> by tapping on the <code>Confirm Verified</code> button. </p>

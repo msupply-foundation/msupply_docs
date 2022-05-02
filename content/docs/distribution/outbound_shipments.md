@@ -88,7 +88,7 @@ You can delete a shipment from the Outbound Shipment list.
 You can only delete Outbound Shipments with a status <code>NEW</code>.
 </div>
 
-![](/docs/distribution/os_list_deleteshipment.gif)
+![Outbound list: delete](/docs/distribution/os_list_deleteshipment.gif)
 
 ## Creating an Outbound Shipment
 
@@ -103,7 +103,7 @@ You can only delete Outbound Shipments with a status <code>NEW</code>.
 
 #### Select a Customer
 
-1. In the `Customers` window, you will be presented with a list of available customers. You can select your customer from the list or you can type as much of a customer name
+1. In the `Customers` window, you will be presented with a list of available customers. You can select your customer from the list or you can type as much of a customer name.
 
 <div class="imagetitle">
 In below example, we are issuing stock to <b>Kamo Regional Warehouse</b>. 
@@ -115,13 +115,13 @@ In below example, we are issuing stock to <b>Kamo Regional Warehouse</b>.
 You can tell if a customer is also using mSupply in their store. If they do, you will see icon like this (<img src="/docs/replenishment/is_msupplystoreicon.png" alt="Store" style="width:auto">) next to the supplier code. 
 </div>
 
-2. Once you tap or press `Enter`, your Outbound Shipment is automatically created.  
+2. Once you tap or press `Enter`, your Outbound Shipment is automatically created 
 
 <div class=imagetitle>
 If everything went well, you should see the name of your customer in the top left corner and the status should be <code>NEW</code> 
 </div>
 
-![](/docs/distribution/os_created.png)
+![Outbound shipment: created](/docs/distribution/os_created.png)
 
 ### Edit the Customer Name
 
@@ -153,11 +153,11 @@ You can close by tapping on the `X Close` button, on the top right corner of the
 
 ![Open and close the Information Panel](/docs/distribution/os_infopanel_openclose.gif)
 
-#### Additonal Info
+#### Additional Info
 
 In the **Additional Info** section, you can:
-* see who created the Outbound Shipment (name of the user)
-* view and edit the Outbound Shipment color. To edit the color, tap on the colored circle and select a color from the 
+* See who created the Outbound Shipment (name of the user)
+* View and edit the Outbound Shipment color. To edit the color, tap on the colored circle and select a color from the pop-up
 * Write or edit a comment
 
 #### Related Documents
@@ -176,12 +176,12 @@ You can also add a **Service charges** if you wish to add other charges such as 
 
 1. Tap on the `Edit Service Charges` button. A new window opens. 
 2. Tap on the `Add charge` button on the new window. A new line appears in the list of charges. You tap on `Cancel` if you do not wish to add anything. 
-3. **Name:** select a service charges in the dropdown list. You can customise the list of available charges. Contact your administrator. 
-4. **Comment:** you can add a comment to provide further details about the new charge. 
-5. **Amount:** enter the amount of the charge. 
-6. **Tax:** enter a % of tax for the charge. 
-7. **Total:** The total field is automatically calculated based on the Amount and the Tax percentage. 
-8. **Delete:** you can tap on the `Delete` icon to delete the charge.  
+3. **Name:** Select a service charges in the dropdown list. You can customise the list of available charges. Contact your administrator
+4. **Comment:** yYou can add a comment to provide further details about the new charge
+5. **Amount:** Enter the amount of the charge
+6. **Tax:** Enter a % of tax for the charge
+7. **Total:** The total field is automatically calculated based on the Amount and the Tax percentage
+8. **Delete:** You can tap on the `Delete` icon to delete the charge
 
 In this section, you can also edit the tax rate (%) for the items sell price. Tap on the pencil icon and enter a value.
 
@@ -212,9 +212,9 @@ There are 6 status for the Outbound Shipment:
 | **New** | This is the first status when you create a shipment |
 | **Allocated** | Allocation is confirmed. Goods are no longer available for other shipments but are still part of your inventory. |
 | **Picked** | Shipment is picked and is now ready to ship. Goods are still part of your inventory. |
-| **Shipped** | Shipment has been shipped and goods are no longer part of your inventory. |
-| **Delivered** | Your customer has received the shipment. |
-| **Verified** | Your customer has verified the quantity of the shipment. Goods are now part of their inventory. |
+| **Shipped** | Shipment has been shipped and goods are no longer part of your inventory |
+| **Delivered** | Your customer has received the shipment |
+| **Verified** | Your customer has verified the quantity of the shipment. Goods are now part of their inventory . |
 
 If you hover over the status sequence, a shipment history window appears. You can see the date when a shipment was updated from one status to another. 
 
@@ -222,7 +222,7 @@ If you hover over the status sequence, a shipment history window appears. You ca
 This shipment has been created, allocated and picked on 29/03/2022
 </div>
 
-![](/docs/distribution/os_statussequence_hover.png)
+![Outbound status: hover](/docs/distribution/os_statussequence_hover.png)
 
 ### Hold checkbox
 
@@ -230,7 +230,7 @@ Located on the bottom left corner, on the left of the status sequence.
 
 Check the `Hold` checkbox prevents the Outbound Shipment from being updated to the next status. 
 
-![](/docs/distribution/os_holdcheckbox.png)
+![Outbound checkbox](/docs/distribution/os_holdcheckbox.png)
 
 ### Cancel and Confirm button
 
@@ -267,7 +267,7 @@ A new `Add Item` window opens.
 ### Select an Item
 
 In the `Add Item` window, you can look up an item by:
-* reading through the list of available items
+* Reading through the list of available items
 * or by typing some or all of item name
 * or by typing some or all of an item code
 
@@ -297,23 +297,23 @@ By default, you are invited to issue a quantity of **units**. However, you have 
 
 Default value is `Any` when you are issuing units. 
 
-![](/docs/distribution/os_issuequantityinunits.png)
+![Outbound Issue quantity](/docs/distribution/os_issuequantityinunits.png)
 
 
 #### List of available batches:
 
 This is a list of batch numbers that you have in store for this item: 
-* **# Packs**: number of packs to be issued
-* **Pack Size**: quantity of units per pack
-* **Unit Qty**: total quantity of units to be issued
-* **Available**: number of packs available (not already allocated to other shipments)
-* **In store**: total number of packs in your store
-* **Batch**: batch number. It is a designation given to products made in the same manufacturing run. 
+* **# Packs**: Number of packs to be issued
+* **Pack Size**: Quantity of units per pack
+* **Unit Qty**: Total quantity of units to be issued
+* **Available**: Number of packs available (not already allocated to other shipments)
+* **In store**: Total number of packs in your store
+* **Batch**: Batch number. It is a designation given to products made in the same manufacturing run. 
 * **Expiry**: Expiry date of the batch (format: MM/YYYY)
-* **Location**: if you inventory is managed with storage locations, the name of the location where the item is stored. 
-* **Sell**: selling unit price of the item
-* **On Hold**: indicate whether a batch is on hold or not. You cannot issue a batch that is on hold. 
-* **Placeholder**: the placeholder line is used when the quantity you are issuing is higher than your available stock. 
+* **Location**: If you inventory is managed with storage locations, the name of the location where the item is stored
+* **Sell**: Selling unit price of the item
+* **On Hold**: Indicate whether a batch is on hold or not. You cannot issue a batch that is on hold. 
+* **Placeholder**: The placeholder line is used when the quantity you are issuing is higher than your available stock
 
 ![List of available batch numbers](/docs/distribution/os_additem_listofbatches.png)
 
@@ -453,7 +453,7 @@ There are 2 main ways to allocate a shipment line:
 1. When adding items, system is automatically assigning stock to the new shipment line when you enter a quantity. If you don't have enough stock, system will add placeholder lines (unallocated lines). 
 
 2. Bulk action `Allocate placeholder lines`: 
-    * Select the lines that you want to allocate by checking boxes on the right on the list. 
+    * Select the lines that you want to allocate by checking boxes on the right on the list
     * In the `Actions` dropdown menu, select `Allocate placeholder lines`. System will check if there is available stock for each selected lines and allocate them using the First to Expire, First Out (FEFO) logic. A notification will let you know whether the operation is successful or not. 
 
 <div class="note">
@@ -464,7 +464,7 @@ You won't be able to process your Outbound Shipment if you have unallocated line
 
 Once you all your shipments lines have been allocated, you can **confirm the allocation**:
 * Current status of the shipment has to be `NEW`
-* lines must be assigned with one or several batch numbers. You won't be able to confirm the allocation if your shipment contains lines without batch numbers assigned to it (placeholder lines). 
+* Lines must be assigned with one or several batch numbers. You won't be able to confirm the allocation if your shipment contains lines without batch numbers assigned to it (placeholder lines). 
 
 To confirm the allocation, press the `Confirm Allocated` button. 
 
@@ -474,17 +474,17 @@ Once the allocation is confirmed:
 
 * Shipment status is `ALLOCATED`
 * You are now invited to confirm the picking via the `Confirm Picked` button
-* All the items and their quantities will be reserved, meaning that they are no longer available for allocation. 
-* You can print a **pick slip** to be sent to your warehouse so they can start preparing the shipment. 
+* All the items and their quantities will be reserved, meaning that they are no longer available for allocation
+* You can print a **pick slip** to be sent to your warehouse so they can start preparing the shipment
 
 ### Confirming Outbound Shipment picking
 
 Picking refers to the process where individual items are picked from a fulfillment facility (usually a warehouse or a pharmacy store).
 
 Once a shipment has been allocated, next step is to go get the items to prepare the actual shipment. To help with that, you are able to generate a **pick slip** document. A pickslip indicates:
-* what are the items to be picked
-* the quantity and batch numbers for each item
-* if you manage your inventory with storage locations, where the items are located. 
+* What are the items to be picked
+* The quantity and batch numbers for each item
+* If you manage your inventory with storage locations, where the items are located
 
 Once all items are picked and packed. You can then confirm the picking of the shipment to indicate to indicate that it is ready to be dispatched. 
 
@@ -496,7 +496,7 @@ Once picking is confirmed:
 
 * Shipment status is now `PICKED`
 * You are now invited to confirm the shipping via the `Confirm Shipped` button
-* An **Inbound Shipment** has been generated and is now visible to your customer. 
+* An **Inbound Shipment** has been generated and is now visible to your customer
 
 At this stage, you are still able to edit shipment lines, to add items or to delete existing lines. However, if picking has been confirmed, you need to make sure to inform your fulfillment facility of any change so they can make sure that the shipment is still correct. 
 
@@ -511,13 +511,13 @@ Once shipping has been confirmed:
 * Goods are  no longer part of your inventory
 * You can no longer edit shipment lines
 * You can no longer delete the shipment
-* You can print a **delivery note** or an **invoice**. 
+* You can print a **delivery note** or an **invoice**
 
 ### Tracking Progress of Outbound Shipments
 
 If your customer is also using mSupply, you wil be able to see when they'll receive your shipments:
 * status will become `DELIVERED` when goods are received: your customer confirmed that they received your goods
-* status will become `VERIFIED` when shipment has been verified by your customer. Goods are now part of their inventory.
+* status will become `VERIFIED` when shipment has been verified by your customer. Goods are now part of their inventory
 
 ## Viewing an Outbound Shipment
 

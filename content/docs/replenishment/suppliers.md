@@ -37,14 +37,14 @@ To see the details of one supplier, simply tap on its name:
 
 ![Supplier Details](/docs/replenishment/sup_supdetails.png)
 
-* **Address**: address of the supplier
-* **Code**: this is the code assigned to this supplier in mSupply
+* **Address**: Address of the supplier
+* **Code**: This is the code assigned to this supplier in mSupply
 * **Charge Code**: Generally the same value as code, however it may be useful when working with your accounting system to have a different code for this supplier
 * **Country**: country of the supplier
-* **Comment**: comment about this supplier
-* **Phone**: phone number of the supplier 
-* **Website**: web site or email address of the supplier
-* **Date Created**: date when supplier was created in mSupply
-* **Manufacturer**: if this is checked, the supplier is also a manufacturer
-* **Donor**: if this is checked, supplier is also a donor
-* **On Hold**: if this is checked, you won't be able to create new transactions for this supplier
+* **Comment**: Comment about this supplier
+* **Phone**: Phone number of the supplier 
+* **Website**: Web site or email address of the supplier
+* **Date Created**: Date when supplier was created in mSupply
+* **Manufacturer**: If this is checked, the supplier is also a manufacturer
+* **Donor**: If this is checked, supplier is also a donor
+* **On Hold**: If this is checked, you won't be able to create new transactions for this supplier

@@ -18,8 +18,8 @@ Inbound Shipments can be used to receive stock from suppliers.
 If you have used mSupply in the past, you may be familiar with the term **Supplier Invoice** instead of Inbound Shipment. 
 
 All received goods should be recorded in mSupply either by: 
-* manually creating an Inbound Shipment (manual Inbound Shipment)
-* working with an Inbound Shipment that has been created automatically as a result of a stock transfer from another store in your mSupply
+* Manually creating an Inbound Shipment (manual Inbound Shipment)
+* Working with an Inbound Shipment that has been created automatically as a result of a stock transfer from another store in your mSupply
 
 ## Viewing Inbound Shipments
 
@@ -29,7 +29,7 @@ All received goods should be recorded in mSupply either by:
 
 To access the **Inbound Shipment** menu:
 1. Go to the `Replenishment` menu in the navigation panel
-2. Click on `Inbound Shipment`.
+2. Click on `Inbound Shipment`
 
 ### Inbound Shipments list
 
@@ -86,8 +86,8 @@ You can only delete Inbound Shipments with a status <code>NEW</code>.
 ## Creating a new manual Inbound Shipment
 
 1. Go to `Replenishment`> `Inbound Shipment`
-2. Press the `New Shipment` button, in the top right corner. 
-3. A new window `Suppliers` opens, inviting you to select a supplier. 
+2. Press the `New Shipment` button, in the top right corner
+3. A new window `Suppliers` opens, inviting you to select a supplier
 
 ### Select a Supplier
 
@@ -153,8 +153,8 @@ You can close by tapping on the `X Close` button, on the top right corner of the
 #### Additonal Info
 
 In the **Additional Info** section, you can:
-* see who created the Inbound Shipment (name of the user)
-* view and edit the Inbound Shipment color. To edit the color, tap on the colored circle and select a color from the 
+* See who created the Inbound Shipment (name of the user)
+* View and edit the Inbound Shipment color. To edit the color, tap on the colored circle and select a color from the pop-up
 * Write or edit a comment
 
 #### Related Documents
@@ -174,11 +174,11 @@ You can also add a **Service charges** if you wish to add other charges such as 
 1. Tap on the `Edit Service Charges` button. A new window opens. 
 2. Tap on the `Add charge` button on the new window. A new line appears in the list of charges. You tap on `Cancel` if you do not wish to add anything. 
 3. **Name:** select a service charges in the dropdown list. You can customise the list of available charges. Contact your administrator. 
-4. **Comment:** you can add a comment to provide further details about the new charge. 
-5. **Amount:** enter the amount of the charge. 
-6. **Tax:** enter a % of tax for the charge. 
-7. **Total:** The total field is automatically calculated based on the Amount and the Tax percentage. 
-8. **Delete:** you can tap on the `Delete` icon to delete the charge.  
+4. **Comment:** You can add a comment to provide further details about the new charge
+5. **Amount:** Enter the amount of the charge
+6. **Tax:** Enter a % of tax for the charge
+7. **Total:** The total field is automatically calculated based on the Amount and the Tax percentage
+8. **Delete:** You can tap on the `Delete` icon to delete the charge
 
 In this section, you can also edit the tax rate (%) for the cost price. Tap on the pencil icon and enter 
 
@@ -193,33 +193,54 @@ The status sequence is located at the bottom left corner of the Inbound Shipment
 Passed statuses are hightlighted in blue, next statuses appear in grey. 
 
 <figure>
-<img src="/docs/distribution/os_statussequence2.png" alt="Trulli" style="width:100%">
-<figcaption align = "center">Status Sequence: current status is <code>NEW</code>.</figcaption>
+    <img src="/docs/replenishment/is_statussequence2.png" alt="Inbound Shipment Status Sequence (New)" style="width:100%">
+    <figcaption align="center">Status Sequence: current status is <code>New</code>.</figcaption>
 </figure>
 
 <figure>
-<img src="/docs/distribution/os_statussequence3.png" alt="Trulli" style="width:100%">
-<figcaption align = "center">Status Sequence: current status is </i><code>PICKED</code>.</figcaption>
+    <img src="/docs/replenishment/is_statussequence3.png" alt="Inbound Shipment Status Sequence (Shipped)" style="width:100%">
+    <figcaption align="center">Status Sequence: current status is </i><code>Shipped</code>.</figcaption>
 </figure>
 
-There are 6 status for the Inbound Shipment: 
+There are 5 status for the Inbound Shipment: 
 
 | Status | Description |
 | :--- | ---------- |
 | **New** | This is the first status when you create a new manual Inbound Shipment |
-| **Allocated** | Allocation was confirmed by the supplier |
-| **Picked** | Supplier has confirmed that shipment is picked and ready to ship  |
-| **Shipped** | Shipment has been shipped and goods are now in transit |
+| **Picked** | Supplier has confirmed that shipment is picked and ready to ship  (applies only to automatically created shipments) |
+| **Shipped** | Shipment has been shipped and goods are now in transit (applies only to automatically created shipments) |
 | **Delivered** | When you confirm that the shipment has been delivered |
 | **Verified** | When you have verified the inbound shipment |
+
+You probably noticed that two of the status values only apply to automatically created shipments. These are created by the system when another store in the system creates an Outbound Shipment to deliver stock to your store. If this is the case you'll see a message near the top of the page:
+
+![Automatic IS message](/docs/replenishment/is_message_automatic.png)
+
+If, however, you've created an Inbound Shipment manually, then the following message shows:
+
+![Manual IS message](/docs/replenishment/is_message_manual.png)
+
+and you'll see that the status bar has only the status values which apply to this type of shipment.
+
+<figure align="center">
+    <img src="/docs/replenishment/is_statussequence4.png" alt="Inbound Shipment Status Sequence (New & manual)" style="width:60%">
+    <figcaption align="center">Status Sequence: current status is </i><code>New</code>.</figcaption>
+</figure>
 
 If you hover over the status sequence, a shipment history window appears. You can see the date when a shipment was updated from one status to another. 
 
 <div class="imagetitle">
-This shipment has been created, allocated and picked on 29/03/2022
+This manual shipment has been created on 03/03/2022
 </div>
 
-![](/docs/distribution/os_statussequence_hover.png)
+![Inbound status: hover 2](/docs/replenishment/is_statussequence_hover2.png)
+
+<div class="imagetitle">
+This automatic shipment has been created on 03/03/2022, allocated on 04/03/2022 and picked on 07/03/2022
+</div>
+
+![Inbound status: hover](/docs/replenishment/is_statussequence_hover.png)
+
 
 ### Hold checkbox
 
@@ -227,7 +248,7 @@ Located on the bottom left corner, on the left of the status sequence.
 
 Check the `Hold` checkbox prevents the Inbound Shipment from being updated to the next status. 
 
-![](/docs/distribution/os_holdcheckbox.png)
+![Outbound hold checkbox](/docs/distribution/os_holdcheckbox.png)
 
 ### Cancel and Confirm button
 
@@ -258,12 +279,12 @@ To add a line, tap on the `Add Item` button located in the top left corner of yo
 
 A new `Add Item` window opens. 
 
-![](/docs/replenishment/is_additem_button.png)
+![Inbound: add item button](/docs/replenishment/is_additem_button.png)
 
 ### Select an Item
 
 In the `Add Item` window, you can look up an item by:
-* reading through the list of available items
+* Reading through the list of available items
 * or by typing some or all of an item name
 * or by typing some or all of an item code
 
@@ -275,11 +296,11 @@ Once your item is highlighted, tap on the name or press `Enter`.
 ### Quantities tab
 
 In the `Quantities` tab, you can update the following fields: 
-1. **Batch**: type here the batch number. Leave blank if item is not managed with batch number
-2. **Expiry**: the expiry date of the batch number. Leave blank is not applicable
-3. **# Packs**: the quantity of packs you are receiving
-4. **Pack Size**: the quantity of units per pack (by default, pack size is 1)
-5. **Unit Qty** (read-only): automatically calculated based on # Packs and Pack Size (`[# Packs] x [Pack Size]`). 
+1. **Batch**: Type here the batch number. Leave blank if item is not managed with batch number.
+2. **Expiry**: The expiry date of the batch number. Leave blank is not applicable
+3. **# Packs**: The quantity of packs you are receiving
+4. **Pack Size**: The quantity of units per pack (by default, pack size is 1)
+5. **Unit Qty** (read-only): Automatically calculated based on # Packs and Pack Size (`[# Packs] x [Pack Size]`)
 6. If you are receiving more than one batch number for the same item, you can tap on the `Add Batch` button
 
 <div class="imagetitle">
@@ -291,10 +312,10 @@ In below example, we are receiving 2 batch numbers for item <i>030453 - Amoxicil
 ### Pricing tab
 
 On the second tab, `Pricing`, you can update the following fields (all are optional): 
-* **Sell**: the selling unit price of the item  (default value is 0)
-* **Cost**: the purchasing unit price of the item (default value is 0)
-* **Unit Qty** (read-only): total number of units for the batch number
-* **Line Total** (read-only): total purchasing value for the batch number (`[Unit Qty] x [Cost]`) 
+* **Sell**: The selling unit price of the item  (default value is 0)
+* **Cost**: The purchasing unit price of the item (default value is 0)
+* **Unit Qty** (read-only): Total number of units for the batch number
+* **Line Total** (read-only): Total purchasing value for the batch number (`[Unit Qty] x [Cost]`) 
 
 <div class="warning">
 Sell & Cost prices are per units and not per pack. 
@@ -337,7 +358,7 @@ To edit an Inbound Shipment line, simply tap on it. You will be presented with t
  <b></b> you can edit a shipment line if the shipment has a status higher lower than <code>VERIFIED</code>. 
 </div>
 
-1. Open the Inbound Shipment you want to edit. 
+1. Open the Inbound Shipment you want to edit
 2. Tap on the line you want to edit. An identical window to `Add Item` appears. At this stage:
 
     *  Edit the main `Issue Quantity` field 
@@ -350,8 +371,8 @@ To edit an Inbound Shipment line, simply tap on it. You will be presented with t
 ### Delete a Shipment line
 
 1. Open the Inbound Shipment that you would like to edit
-2. Make sure that status is not yet `VERIFIED`. 
-2. Select the line(s) you want to delete by checking the box(es) on the right of the list. 
+2. Make sure that status is not yet `VERIFIED`
+2. Select the line(s) you want to delete by checking the box(es) on the right of the list
 3. Go to the `Actions` dropdown menu (top right corner, above the list)
 4. Select the action `Delete selected lines`
 
@@ -387,9 +408,9 @@ In case your Inbound Shipment is <b>automatic</b>, you cannot confirm its delive
 Verification is the last step to receive goods in mSupply. At this stage, you can check what you have received and make sure that that information in mSupply are correct. 
 
 You have the possibility to verify the following information: 
-* batch numbers and their expiry dates
-* quantity of packs and pack size 
-* pricing information: cost and sell prices
+* Batch numbers and their expiry dates
+* Quantity of packs and pack size 
+* Pricing information: cost and sell prices
 
 You can also capture where received goods are to be stored in the `Location` tab. 
 
