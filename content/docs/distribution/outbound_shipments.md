@@ -103,13 +103,17 @@ You can only delete Outbound Shipments with a status <code>NEW</code>.
 
 #### Select a Customer
 
-1. In the new window, you will be presented with a list of available customers. You can select your customer from the list or you can type as much of a customer name
+1. In the `Customers` window, you will be presented with a list of available customers. You can select your customer from the list or you can type as much of a customer name
 
 <div class="imagetitle">
-In below example, we are issuing stock to <b>Kopu Health Center</b>. 
+In below example, we are issuing stock to <b>Kamo Regional Warehouse</b>. 
 </div>
 
 ![gif](/docs/distribution/os_select_customer.gif)
+
+<div class="tip">
+You can tell if a customer is also using mSupply in their store. If they do, you will see icon like this (<img src="/docs/replenishment/is_msupplystoreicon.png" alt="Store" style="width:auto">) next to the supplier code. 
+</div>
 
 2. Once you tap or press `Enter`, your Outbound Shipment is automatically created.  
 

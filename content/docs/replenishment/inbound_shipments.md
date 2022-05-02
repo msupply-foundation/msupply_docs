@@ -9,18 +9,17 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "Receiving stock from your suppliers"
 toc = true
 top = false
 +++
 
 Inbound Shipments can be used to receive stock from suppliers. 
 
-If you used mSupply in the past, you may be familiar with the term **Supplier Invoice**. 
+If you have used mSupply in the past, you may be familiar with the term **Supplier Invoice** instead of Inbound Shipment. 
 
 All received goods should be recorded in mSupply either by: 
 * manually creating an Inbound Shipment (manual Inbound Shipment)
-* working with an Inbound Shipment that has been created automatically as a result of a stck transfer from another store in your mSupply
+* working with an Inbound Shipment that has been created automatically as a result of a stock transfer from another store in your mSupply
 
 ## Viewing Inbound Shipments
 
@@ -36,7 +35,7 @@ To access the **Inbound Shipment** menu:
 
 First thing you see is a list of existing Inbound Shipments. 
 
-The Inbound Shipments list is divided into 6 columns: 
+The Inbound Shipments list is divided into 7 columns: 
 
 | Column| Description |
 | :---------- | :---------- |
@@ -44,7 +43,7 @@ The Inbound Shipments list is divided into 6 columns:
 | **Status** | Current Status of the shipment | 
 | **Number** | Reference Number of the shipment | 
 | **Created** | Creation date of the shipment | 
-| **Confirmed** | Confirm date of the shipment | 
+| **Confirmed** | Confirmation date of the shipment | 
 | **Comment** | Comment for the shipment |
 | **Total** | Total value of the shipment |
 
@@ -64,11 +63,15 @@ Type the name of a supplier in the `Search by name` field (on the left, just abo
 
 ### Exporting Inbound Shipments
 
-[IN PROGRESS]
+The list of Inbound Shipments can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page)
+
+![Export button](/docs/distribution/export.png)
+
+and the file will be downloaded. The export function will download all Inbound Shipments, not just the current page, if you have more than 20 of them. Shipments are exported using sort order selected in the table, though of course you could easily sort the list in Excel or whatever you open the .csv file with!
 
 ### Delete an Inbound Shipment
 
-You can delete a shipment from the Outbound Shipment list.
+You can delete a shipment from the Inbound Shipment list.
 
 1. Select the shipment that you want to delete by checking the box on the left end of the list. You can select more than one shipments to be deleted. You can even select them all using the master checkbox in the list headers.
 
@@ -91,8 +94,7 @@ You can only delete Inbound Shipments with a status <code>NEW</code>.
 1. In the `Suppliers` window, you will be presented with a list of suppliers. You can select your supplier from the list or you can type as much of a supplier name. 
 
 <div class="tip">
-You can tell if a supplier is also using mSupply in their store. If they do, you will see icon like this (<img src="/docs/replenishment/is_msupplystoreicon.png" alt="Trulli" style="width:auto">) next to the supplier code. 
-
+You can tell if a supplier is also using mSupply in their store. If they do, you will see icon like this (<img src="/docs/replenishment/is_msupplystoreicon.png" alt="Store" style="width:auto">) next to the supplier code. 
 </div>
 
 <div class="imagetitle">
@@ -146,7 +148,7 @@ To open the Information Panel, you can tap on the `More` button, located in the 
 
 You can close by tapping on the `X Close` button, on the top right corner of the information panel. 
 
-![Open and close the Information Panel](/docs/distribution/os_infopanel_openclose.gif)
+![Open and close the Information Panel](/docs/replenishment/is_infopanel_openclose.gif)
 
 #### Additonal Info
 
@@ -170,7 +172,7 @@ In this section, you will see by default the total cost price of the items liste
 You can also add a **Service charges** if you wish to add other charges such as Freight Costs. To add a Service charges to the Invoice Details: 
 
 1. Tap on the `Edit Service Charges` button. A new window opens. 
-2. Tap on the `Add charge` button on the new window. A new line appears in the list of charges. You tap on ``Cancel` if you do not wish to add anything. 
+2. Tap on the `Add charge` button on the new window. A new line appears in the list of charges. You tap on `Cancel` if you do not wish to add anything. 
 3. **Name:** select a service charges in the dropdown list. You can customise the list of available charges. Contact your administrator. 
 4. **Comment:** you can add a comment to provide further details about the new charge. 
 5. **Amount:** enter the amount of the charge. 
@@ -204,14 +206,14 @@ There are 6 status for the Inbound Shipment:
 
 | Status | Description |
 | :--- | ---------- |
-| **New** | This is the first status when you create a new manual Inbound Shipment. |
+| **New** | This is the first status when you create a new manual Inbound Shipment |
 | **Allocated** | Allocation was confirmed by the supplier |
-| **Picked** | Supplier has confirmed that shipment is picked and ready to ship.  |
-| **Shipped** | Shipment has been shipped and goods are now in transit. |
+| **Picked** | Supplier has confirmed that shipment is picked and ready to ship  |
+| **Shipped** | Shipment has been shipped and goods are now in transit |
 | **Delivered** | When you confirm that the shipment has been delivered |
-| **Verified** | When you have verified the inbound shipment. |
+| **Verified** | When you have verified the inbound shipment |
 
-if you hover over the status sequence, a shipment history window appears. You can see the date when a shipment was updated from one status to another. 
+If you hover over the status sequence, a shipment history window appears. You can see the date when a shipment was updated from one status to another. 
 
 <div class="imagetitle">
 This shipment has been created, allocated and picked on 29/03/2022
@@ -235,7 +237,7 @@ Click on the `Cancel` button to quit the Inbound Shipment view and return to the
 
 #### Confirm Button
 
-The `Confirm` button is the button to update the status of a shipment. Depending on the current status, you won't confirm the same thing. 
+The `Confirm` button is the button to update the status of a shipment. The status which you can confirm depends on the current status of the shipment and follows the sequence shown below.
 
 When managing an Inbound Shipment, you can only confirm it as Delivered or Verified. 
 
@@ -262,29 +264,29 @@ A new `Add Item` window opens.
 
 In the `Add Item` window, you can look up an item by:
 * reading through the list of available items
-* or by typing as much of an item name
-* or by typing as much of an item code
+* or by typing some or all of an item name
+* or by typing some or all of an item code
 
-Once your item is highligthed, tap on the name or press `Enter`.
+Once your item is highlighted, tap on the name or press `Enter`.
 
-![](/docs/distribution/os_additem.gif)
+![Add Item](/docs/distribution/os_additem.gif)
 
 
 ### Quantities tab
 
 In the `Quantities` tab, you can update the following fields: 
-1. **Batch**: type here the batch number. Leave blank if item is not managed with batch number.
-2. **Expiry**: the expiry date of the batch number. Leave blank is not applicable.
+1. **Batch**: type here the batch number. Leave blank if item is not managed with batch number
+2. **Expiry**: the expiry date of the batch number. Leave blank is not applicable
 3. **# Packs**: the quantity of packs you are receiving
 4. **Pack Size**: the quantity of units per pack (by default, pack size is 1)
 5. **Unit Qty** (read-only): automatically calculated based on # Packs and Pack Size (`[# Packs] x [Pack Size]`). 
-6. If you are receiving more than one batch number for the same item, you can tap on the `Add Batch` button. 
+6. If you are receiving more than one batch number for the same item, you can tap on the `Add Batch` button
 
 <div class="imagetitle">
 In below example, we are receiving 2 batch numbers for item <i>030453 - Amoxicillin 250mg tabs</i> with a different pack size. 
 </div>
 
-![](/docs/replenishment/is_additem_quantities.png)
+![Add Item quantities](/docs/replenishment/is_additem_quantities.png)
 
 ### Pricing tab
 
@@ -292,17 +294,17 @@ On the second tab, `Pricing`, you can update the following fields (all are optio
 * **Sell**: the selling unit price of the item  (default value is 0)
 * **Cost**: the purchasing unit price of the item (default value is 0)
 * **Unit Qty** (read-only): total number of units for the batch number
-* **Line Total** (read-only): total purchasing value for the batch number (`[Unit Qty] x [Cost]`). 
+* **Line Total** (read-only): total purchasing value for the batch number (`[Unit Qty] x [Cost]`) 
 
 <div class="warning">
 Sell & Cost prices are per units and not per pack. 
 </div>
 
 <div class="imagetitle">
-In below example, sell price 12$ per unit and cost price is 10$ per unit. 
+In below example, sell price $12 per unit and cost price is $10 per unit. 
 </div>
 
-![](/docs/replenishment/is_additem_pricing.png)
+![Add Item pricing](/docs/replenishment/is_additem_pricing.png)
 
 ### Location tab
 
@@ -310,7 +312,7 @@ In the third tab, `Location`, you can select a storage location to assign the ba
 
 Simply select a storage location from the `Location` dropdown menu.
 
-![](/docs/replenishment/is_additem_location.png)
+![Add Item location](/docs/replenishment/is_additem_location.png)
 
 <div class="note">
 Don't know the storage location yet ? You don't have to capture it right away. You can update the storage location at any time if you haven't confirmed the verification yet. 
@@ -335,7 +337,7 @@ To edit an Inbound Shipment line, simply tap on it. You will be presented with t
  <b></b> you can edit a shipment line if the shipment has a status higher lower than <code>VERIFIED</code>. 
 </div>
 
-1. Open the Outbound Shipment you want to edit. 
+1. Open the Inbound Shipment you want to edit. 
 2. Tap on the line you want to edit. An identical window to `Add Item` appears. At this stage:
 
     *  Edit the main `Issue Quantity` field 
@@ -399,3 +401,11 @@ Once you have done this:
 * You can no longer edit shipment lines
 * You can no longer delete the shipment
 
+## Viewing an Inbound Shipment
+
+When viewing a specific shipment, you can view the batches on that shipment grouped by item or with each batch listed separately.
+To change the view mode, click the `Group by item` switch. 
+
+When grouped by item, you can expand the item to see individual batches, or use the expand in the table header to expand all grouped rows. If you click on an item you will also see all selected batches, as shown in this example:
+
+![Group by Item](/docs/replenishment/is_group_by_item.gif)

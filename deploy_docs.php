@@ -83,16 +83,23 @@ try {
         die("Ignoring push to '$branchRef'");
     }
 
-    shell_exec('git pull');
-//    - export DEPLOYPATH=/home/tmf/docs/
-//    - /bin/cp -a /home/tmf/repositories/msupply_docs/public/. $DEPLOYPATH
-
-    $mailBody = "GitHub payload:\r\n"
-        . print_r($data, true)
-        . "\r\n";
-
-    $mailSuccess = sendEmail(true, $mailBody);
-
+    $output=null;
+    $retval=null;
+    if(exec('/bin/cd /home/tmf/repositories/msupply_docs/public/ & /bin/git pull', $output, $retval)) {
+        // export DEPLOYPATH=/home/tmf/docs/
+        // /bin/cp -a /home/tmf/repositories/msupply_docs/public/. $DEPLOYPATH
+    
+        $mailBody = "Git pull status: ".$retval." Output of 'git pull':\r\n"
+            . print_r($output)
+            . "\r\n\r\n"
+            . "GitHub payload:\r\n"
+            . print_r($data, true)
+            . "\r\n";
+    
+        $mailSuccess = sendEmail(true, $mailBody);
+    } else {
+        $mailSuccess = sendEmail(false, "Unable to pull changes from git (".$retval.")\r\n".print_r($output));
+    }
 } catch (Exception $e) {
     $mailSuccess = sendEmail(false, strval($e));
 }
