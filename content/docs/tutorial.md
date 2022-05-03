@@ -47,6 +47,26 @@ If the menu is closed, simply hovering over the menu items will open it, in whic
 
 On some screens you'll see that the header shows a heading, such as **Outbound Shipment** in the example above. Clicking on a specific shipment then changes that heading to **Outbound Shipment/ #[the shipment number]**. You are able to click on the **Outbound Shipment** part to return to the list - or use the main navigation on the left.
 
+### Keyboard shortcuts
+
+There are keyboard shortcuts used throughout open mSupply. Rather than remember them all, to get started you simply have to remember the combination `control (ctrl)`+`k` (windows and linux) or `cmd (⌘)`+`k` (mac)
+
+This will bring up the following window, no matter which page you are on:
+
+![CommandK](/docs/cmd_k.png)
+
+This shows you the list of globally available shortcuts, for example pressing `d` on your keyboard will take you to the dashboard (unless you are entering text into an input field!).
+
+However, you can also click on an item in the list, or search available commands:
+
+![CommandK](/docs/cmd_k.gif)
+
+In addition - there are various places where specific keyboard shortcuts are available. An example is the tab control used in both Stocktakes and Inbound Shipments. Here you can use `control`+`1` to navigate to the first tab (Quantities) or `control`+`2` for the second tab (Pricing) etc. If you press `+` on your keyboard, you can add a new batch. 
+
+![Inbound tabs](/docs/replenishment/is_edit_keyboard_shortcuts.png)
+
+
+
 ## Footer
 
 The bottom of the screen contains some useful information and is shown on every screen
