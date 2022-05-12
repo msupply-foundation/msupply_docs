@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
+	<title>mSupply</title>
+	<link href="https://docs.msupply.foundation/fr/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://docs.msupply.foundation"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2022-03-19T18:20:00+00:00</updated>
+	<id>https://docs.msupply.foundation/fr/atom.xml</id>
+	<entry xml:lang="fr">
+		<title>To be translated: Items</title>
+		<published>2022-03-19T18:20:00+00:00</published>
+		<updated>2022-03-19T18:20:00+00:00</updated>
+		<link href="https://docs.msupply.foundation/fr/docs/catalogue/items/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/catalogue/items/</id>
+		<content type="html">&lt;p&gt;An item in open mSupply is usually a product that you purchase from a supplier, hold in stock and supply to a customer.
+In the &lt;strong&gt;Items&lt;&#x2F;strong&gt; menu, you can all the items that are currently visible in your store. &lt;&#x2F;p&gt;
+&lt;h2 id=&quot;viewing-items-list&quot;&gt;Viewing items list&lt;&#x2F;h2&gt;
+&lt;p&gt;In the navigation panel, tap on &lt;code&gt;Catalogue&lt;&#x2F;code&gt; &amp;gt; &lt;code&gt;Items&lt;&#x2F;code&gt; to show the items list: &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;catalogue&#x2F;cat_gotoitems.png&quot; alt=&quot;Items nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;You can see all the items which are available for use by your store: &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;catalogue&#x2F;cat_itemslist.png&quot; alt=&quot;Items list&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;viewing-an-item-s-details&quot;&gt;Viewing an item&#x27;s details&lt;&#x2F;h2&gt;
+&lt;p&gt;To view the details of an item, simply tap on one. A new window opens: &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;catalogue&#x2F;cat_itemdetail.png&quot; alt=&quot;Item detail&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;On top of the screen, you can the following information:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Stock on Hand&lt;&#x2F;strong&gt;: How much stock currently available in your store for this store&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;AMC&lt;&#x2F;strong&gt;: Average Monthly Consumption. This is how much stock your store uses each month on average (based on a configurable number of months, defaults to 3 months).&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Months of Stock&lt;&#x2F;strong&gt;: Number of months of consumption left with current stock. This is calculated as: &lt;code&gt;Stock on Hand &#x2F; AMC&lt;&#x2F;code&gt;.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;div class=&quot;imagetitle&quot;&gt;
+In below example, we have 1542 units of Amoxicillin available in our store. The average consumption is 53.3  units per month which means that there is the equivalent of 28.9 months of stock in the inventory. 
+&lt;&#x2F;div&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;catalogue&#x2F;cat_itemdetailsheaders.png&quot; alt=&quot;Item detail headers&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;In the bottom part, item details are divided into several sections:&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;details&quot;&gt;Details&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Name&lt;&#x2F;strong&gt;: This is the name by which mSupply will refer to the item&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Code&lt;&#x2F;strong&gt;: This should be unique for each item and is a helpful shorthand for referring to items&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Unit&lt;&#x2F;strong&gt;: The unit you use for this item. It is useful to distinguish items you issue by pack (eg. eye drops) from items you issue by volume (eg. oral liquids)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Strength&lt;&#x2F;strong&gt;: For a medicine, the concentration of its active ingredients (eg. for Amoxillin 250mg, the strength is 250mg)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Defined Daily Dose&lt;&#x2F;strong&gt;: The assumed  average maintenance dose per day for a medicine used for its main indication in adults&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Doses&lt;&#x2F;strong&gt;: For vaccines, the number of dose per vial&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Vaccine&lt;&#x2F;strong&gt; (check box): If this is checked, this item is a vaccine and a number of dose can be assigned&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;categories&quot;&gt;Categories&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ATC Category&lt;&#x2F;strong&gt;: ATC stands for Anatomical, Therapeutic, Chemical and is a method of classifying entities, and identifying them by category&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Universal Name&lt;&#x2F;strong&gt;: if the item is linked to the &lt;a href=&quot;https:&#x2F;&#x2F;codes.msupply.foundation&#x2F;&quot;&gt;universal drug code database&lt;&#x2F;a&gt;, this shows the universal, or generic name for the given item&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Universal Code&lt;&#x2F;strong&gt;: similarly, the code allocated to the universal drug code item&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;packaging&quot;&gt;Packaging&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Default pack size&lt;&#x2F;strong&gt;: This is the default pack size that will be assigned to incoming stock as it is received&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Outer pack size&lt;&#x2F;strong&gt;: The number of units in a carton (outer pack). Not the number of preferred pack size packs in a carton (outer pack).&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Volume per pack&lt;&#x2F;strong&gt;: The default volume per preferred pack size pack. This is the volume that will be used by default when receiving goods. We recommend you divide a carton volume by the number of preferred pack size packs in a carton to get this figure. Open mSupply always stores volumes in m3 (cubic metres), but you can enter a volume as millilitres (ml) or litres (l) by entering the appropriate abbreviation after the number representing the volume. e.g. enter “0.5l” to enter a volume of 0.5 litres (= 0.0005m3).&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Volume per outer pack&lt;&#x2F;strong&gt;: The default volume of an Outer pack size pack of this item&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Weight&lt;&#x2F;strong&gt;: The weight of a preferred pack size pack in kg&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;pricing&quot;&gt;Pricing&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Margin&lt;&#x2F;strong&gt;: This is the default margin that will be applied to this item on Inbound Shipments to calculate the selling price&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>To be translated: Master Lists</title>
+		<published>2022-03-19T18:20:00+00:00</published>
+		<updated>2022-03-19T18:20:00+00:00</updated>
+		<link href="https://docs.msupply.foundation/fr/docs/catalogue/master-list/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/catalogue/master-list/</id>
+		<content type="html">&lt;p&gt;Master lists are standard lists of items that can only be defined at the central server level. &lt;&#x2F;p&gt;
+&lt;h2 id=&quot;viewing-master-lists&quot;&gt;Viewing Master Lists&lt;&#x2F;h2&gt;
+&lt;p&gt;Go to &lt;code&gt;Catalogue&lt;&#x2F;code&gt; &amp;gt; &lt;code&gt;Master Lists&lt;&#x2F;code&gt; in the navigation panel: &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;catalogue&#x2F;cat_gotoml.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;You will see a window like this: &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;catalogue&#x2F;cat_mllist.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;To view all the items of a master list, simply tap on one: &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;catalogue&#x2F;cat_mldetail.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>To be translated: Locations</title>
+		<published>2022-03-19T18:20:00+00:00</published>
+		<updated>2022-03-19T18:20:00+00:00</updated>
+		<link href="https://docs.msupply.foundation/fr/docs/inventory/locations/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/inventory/locations/</id>
+		<content type="html">&lt;p&gt;Keeping track of where stock is in your store is an important part of good warehouse practice. You don&#x27;t want to have to go hunting through your whole store for stock, wasting time and energy when mSupply can tell you exactly where it is!&lt;&#x2F;p&gt;
+&lt;p&gt;Locations in mSupply are the places you store stock. &lt;&#x2F;p&gt;
+&lt;h2 id=&quot;viewing-your-store-s-locations&quot;&gt;Viewing your store&#x27;s locations&lt;&#x2F;h2&gt;
+&lt;p&gt;To view the storage locations of your store, go to &lt;code&gt;Inventory&lt;&#x2F;code&gt; &amp;gt; &lt;code&gt;Locations&lt;&#x2F;code&gt; in the navigation panel: &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;loc_gotoloc.png&quot; alt=&quot;Location: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;You will see a list of your storage locations: &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;loc_loclist.png&quot; alt=&quot;Location: list&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;creating-a-new-location&quot;&gt;Creating a new location&lt;&#x2F;h2&gt;
+&lt;p&gt;To create a new location, tap on the &lt;code&gt;New Location&lt;&#x2F;code&gt; button in the top right corner of the screen:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;loc_newlocbutton.png&quot; alt=&quot;Location: new location button&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;A window like this opens: &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;loc_createloc.png&quot; alt=&quot;Location: create location&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Name&lt;&#x2F;strong&gt;: Enter the name of the new location&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Code&lt;&#x2F;strong&gt;: Enter a code for the new location&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;On Hold&lt;&#x2F;strong&gt; (checkbox): If you check this box, then goods in this location cannot be selected for issue to customers. Goods can be moved in to, and out, of the location but they cannot be issued from that location. &lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;div class=&quot;tip&quot;&gt;
+Putting a location on hold can be useful if: 
+&lt;br&gt;&lt;br&gt;
+- The stock needs to be kept from being issued until some inspection &#x2F; approval (e.g. quarantine or under bond)
+&lt;br&gt;&lt;br&gt;
+- The stock is a bulk quantity with the same expiry date as another stock line in another location from which you want stock issued. You can use this feature to force mSupply to always suggest issuing stock of this item from the &#x27;issue&#x27; location rather than this &#x27;bulk&#x27; location. When you have finished issuing stock from the &#x27;issue&#x27; location, and you want to issue the stock that is in the &#x27;bulk&#x27; location, you will need to either take the &#x27;bulk&#x27; location off hold, or, move all, or some of it (split), the stock from the &#x27;bulk&#x27; location. 
+&lt;&#x2F;div&gt;
+&lt;h2 id=&quot;editing-a-new-location&quot;&gt;Editing a new location&lt;&#x2F;h2&gt;
+&lt;p&gt;To edit a location, simply tap on one in the location list. &lt;&#x2F;p&gt;
+&lt;h2 id=&quot;deleting-a-location&quot;&gt;Deleting a location&lt;&#x2F;h2&gt;
+&lt;p&gt;To delete a location:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Check the box of the location that you want to delete in the location list&lt;&#x2F;li&gt;
+&lt;li&gt;Click on the &lt;code&gt;Select&lt;&#x2F;code&gt; dropdown menu and select &lt;code&gt;Delete selected line&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>To be translated: Stocktakes</title>
+		<published>2022-03-19T18:20:00+00:00</published>
+		<updated>2022-03-19T18:20:00+00:00</updated>
+		<link href="https://docs.msupply.foundation/fr/docs/inventory/stock-takes/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/inventory/stock-takes/</id>
+		<content type="html">&lt;p&gt;mSupply will automatically keep track of your stock levels for you, as you receive and distribute it. But sometimes data gets entered incorrectly or stock goes out without anyone making an entry in the system. &lt;&#x2F;p&gt;
+&lt;p&gt;Of course, we try not to let that happen but, if it does happen, we can make corrections. The easiest way to correct mistakes is to do a &lt;strong&gt;Stocktake&lt;&#x2F;strong&gt;. &lt;&#x2F;p&gt;
+&lt;p&gt;In mSupply, you can easily do a stocktake for: &lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;A full inventory&lt;&#x2F;li&gt;
+&lt;li&gt;A limited range of items&lt;&#x2F;li&gt;
+&lt;li&gt;A single item&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;affichage-des-inventaires&quot;&gt;Affichage des inventaires&lt;&#x2F;h2&gt;
+&lt;p&gt;To view your stocktakes, go to &lt;code&gt;Inventory&lt;&#x2F;code&gt; and then &lt;code&gt;Stocktakes&lt;&#x2F;code&gt; in the navigation panel: &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;stocktake_gotost.png&quot; alt=&quot;Stocktake: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;This brings up a list of all your stocktakes: &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;stocktake_stocktakelist.png&quot; alt=&quot;Stocktake: list&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;For each stock stake you can see:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;The stock take &lt;strong&gt;number&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;The stock take &lt;strong&gt;status&lt;&#x2F;strong&gt;. There are two stock take statuses: 
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;New&lt;&#x2F;em&gt;: a stocktake you are still working on&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Finalised&lt;&#x2F;em&gt;: a stocktake that has alredy been performed. You can no longer edit it.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;A &lt;strong&gt;description&lt;&#x2F;strong&gt; of the stocktake (eg. March Stocktake)&lt;&#x2F;li&gt;
+&lt;li&gt;If any, a &lt;strong&gt;comment&lt;&#x2F;strong&gt; about the stoctake&lt;&#x2F;li&gt;
+&lt;li&gt;The &lt;strong&gt;date&lt;&#x2F;strong&gt; of the stock take&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;div class=&quot;warning&quot;&gt;
+There is little point in keeping old stocktakes with status = &lt;code&gt;NEW&lt;&#x2F;code&gt;, especially if you are about to create a new stocktake containing the same items. Indeed, it can be quite dangerous to leave old stocktakes with status &lt;code&gt;NEW&lt;&#x2F;code&gt; in your system. If time has passed since the stocktake was created, then the snapshot and actual quantities are almost certainly incorrect. For good housekeeping reasons, it is good practice to delete old &lt;code&gt;NEW&lt;&#x2F;code&gt; stocktakes.
+&lt;&#x2F;div&gt;
+&lt;h2 id=&quot;creating-a-new-stock-take&quot;&gt;Creating a new stock take&lt;&#x2F;h2&gt;
+&lt;p&gt;Let&#x27;s start a new stocktake. To do so, tap on the &lt;code&gt;New Stocktake&lt;&#x2F;code&gt; button in the right corner of the screen. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;stocktake_newstocktake.png&quot; alt=&quot;Stocktake: new&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;A window appears, inviting you to select items to be counted:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;stocktake_additem2.png&quot; alt=&quot;Stocktake: Add item&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;selecting-items&quot;&gt;Selecting Items&lt;&#x2F;h3&gt;
+&lt;p&gt;Select items you wish to count using the check boxes. You can select more than one: &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;stocktake_additem_checkbox.png&quot; alt=&quot;Stocktake: add item count&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;If you want to to include every item (or most items), check the &lt;code&gt;Select All&lt;&#x2F;code&gt; box and click on &lt;code&gt;OK&lt;&#x2F;code&gt;:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;stocktake_additem_selectall.png&quot; alt=&quot;Stocktake: select all&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Use the search bar to look for a specific item by typing its name or its code: &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;stocktake_additem_search.gif&quot; alt=&quot;Stocktake: add item search&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Click on OK when you have selected all the items you would like to count. &lt;&#x2F;p&gt;
+&lt;div class=&quot;tip&quot;&gt;
+Don&#x27;t worry if your forget one item. You will have the possibility to add more items to your stocktake afterwards. 
+&lt;&#x2F;div&gt;
+&lt;h3 id=&quot;printing-stocktake-sheet&quot;&gt;Printing Stocktake sheet&lt;&#x2F;h3&gt;
+&lt;p&gt;When viewing a specific Stocktake, simply click the &lt;code&gt;Print&lt;&#x2F;code&gt; button which is on the top right of the page.
+When printing, a PDF file is generated for you, which will then open in a new browser tab. This can then be printed using your browser by clicking print or using &lt;code&gt;control&lt;&#x2F;code&gt;+&lt;code&gt;P&lt;&#x2F;code&gt; (if using windows) or &lt;code&gt;cmd&lt;&#x2F;code&gt;+&lt;code&gt;P&lt;&#x2F;code&gt; keys on your keyboard (if using a mac).&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;print_button.png&quot; alt=&quot;Print button&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;This will either&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Show a menu of possible reports for you to select from before creating a PDF. This will happen if there are more than one report defined for the &lt;code&gt;Stocktake&lt;&#x2F;code&gt; report type.&lt;&#x2F;li&gt;
+&lt;li&gt;Create a PDF immediately, if there is only one report to select from&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;os_print_menu.png&quot; alt=&quot;Print menu&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>To be translated: Stock</title>
+		<published>2022-03-19T18:20:00+00:00</published>
+		<updated>2022-03-19T18:20:00+00:00</updated>
+		<link href="https://docs.msupply.foundation/fr/docs/inventory/stock-view/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/inventory/stock-view/</id>
+		<content type="html">&lt;p&gt;One of the most important - but easiest - tasks in mSupply is to check how much stock you have on hand. When you create an Outbound Shipment and add an item, mSupply  will tell you if you have enough stock. But at many other times, you might want to quickly check, and it is very simple to do so.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;viewing-stock&quot;&gt;Viewing stock&lt;&#x2F;h2&gt;
+&lt;p&gt;In the navigation panel, Go to &lt;code&gt;Inventory&lt;&#x2F;code&gt; and tap on the  &lt;code&gt;Stock&lt;&#x2F;code&gt; submenu: &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;stock_gotostock.png&quot; alt=&quot;Stock: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;A detailed list of your inventory appears: &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;stock_viewstock.png&quot; alt=&quot;Stock: list&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;The list is divided into 8 columns: &lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Code&lt;&#x2F;strong&gt;: This is the code assigned to this item in mSupply&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Name&lt;&#x2F;strong&gt;: This is the name by which mSupply will refer to the item&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Batch&lt;&#x2F;strong&gt;: Batch number of the stock line&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Expiry&lt;&#x2F;strong&gt;: Expiry date of the batch&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Location&lt;&#x2F;strong&gt;: Where the item is being stored in your facility&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Unit&lt;&#x2F;strong&gt;: The unit you use for this item&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Pack Size&lt;&#x2F;strong&gt;: Number of units per pack&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Pack Qty&lt;&#x2F;strong&gt;: Number of packs available in your store&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;looking-for-a-specific-item&quot;&gt;Looking for a specific item&lt;&#x2F;h2&gt;
+&lt;p&gt;You can filter the list by item name or code. This can be useful if you&#x27;re looking for one particular item. &lt;&#x2F;p&gt;
+&lt;p&gt;Type as much of an item name or code in the &lt;code&gt;Enter item code or name&lt;&#x2F;code&gt; field: &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;stock_search.gif&quot; alt=&quot;Stock: search&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>Tutorial</title>
+		<published>2022-03-19T18:20:00+00:00</published>
+		<updated>2022-03-19T18:20:00+00:00</updated>
+		<link href="https://docs.msupply.foundation/fr/docs/tutorial/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/tutorial/</id>
+		<content type="html">&lt;h2 id=&quot;open-msupply-tutorial&quot;&gt;Open mSupply Tutorial&lt;&#x2F;h2&gt;
+&lt;p&gt;This tutorial is designed to guide you through the basics of using Open mSupply&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;logging-in&quot;&gt;Logging in&lt;&#x2F;h2&gt;
+&lt;ol&gt;
+&lt;li&gt;For a start, you&#x27;ll need to open your web browser. We like Firefox, but Chrome and its myriad children will also suffice.&lt;&#x2F;li&gt;
+&lt;li&gt;Enter the web address (URL) of your mSupply server. In our case we&#x27;re using https:&#x2F;&#x2F;demo-open.msupply.org - our test web site.&lt;&#x2F;li&gt;
+&lt;li&gt;After pressing &lt;enter&gt; on your keyboard you&#x27;ll be shown the login page&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;log_in.png&quot; alt=&quot;login!&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;Enter your user name and password and press &lt;enter&gt; on your keyboard, or click the [Log in] button&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;All going well, you&#x27;ll be redirected to the dashboard page.
+If there was a problem, you&#x27;ll see an error message, like this:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;log_in_error.png&quot; alt=&quot;login!&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Try re-typing the username and password (note that both are case-sensitive).
+When you log in, the default store for your user is selected as the current store. If you have access to other stores, you&#x27;ll be able to change stores after logging in (see below).
+If you have logged in previously, and changed stores, then the most recent store will be selected for you when you log in.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;navigating-around&quot;&gt;Navigating around&lt;&#x2F;h2&gt;
+&lt;p&gt;The main menu is on the left side of the screen. If you have a small screen size, then it will be collapsed by default - for larger screens it will instead be open by default.
+To open and close you can click on the logo at the top, as shown below. The menu remains either open or closed once you have selected an option.&lt;&#x2F;p&gt;
+&lt;p&gt;If the menu is closed, simply hovering over the menu items will open it, in which case clicking on an item will let the menu close again. If you are on a tablet, clicking on a menu item will have the same effect.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;main_nav.gif&quot; alt=&quot;Main navigation&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;On some screens you&#x27;ll see that the header shows a heading, such as &lt;strong&gt;Outbound Shipment&lt;&#x2F;strong&gt; in the example above. Clicking on a specific shipment then changes that heading to &lt;strong&gt;Outbound Shipment&#x2F; #[the shipment number]&lt;&#x2F;strong&gt;. You are able to click on the &lt;strong&gt;Outbound Shipment&lt;&#x2F;strong&gt; part to return to the list - or use the main navigation on the left.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;keyboard-shortcuts&quot;&gt;Keyboard shortcuts&lt;&#x2F;h3&gt;
+&lt;p&gt;There are keyboard shortcuts used throughout open mSupply. Rather than remember them all, to get started you simply have to remember the combination &lt;code&gt;control (ctrl)&lt;&#x2F;code&gt;+&lt;code&gt;k&lt;&#x2F;code&gt; (windows and linux) or &lt;code&gt;cmd (⌘)&lt;&#x2F;code&gt;+&lt;code&gt;k&lt;&#x2F;code&gt; (mac)&lt;&#x2F;p&gt;
+&lt;p&gt;This will bring up the following window, no matter which page you are on:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;cmd_k.png&quot; alt=&quot;CommandK&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;This shows you the list of globally available shortcuts, for example pressing &lt;code&gt;d&lt;&#x2F;code&gt; on your keyboard will take you to the dashboard (unless you are entering text into an input field!).&lt;&#x2F;p&gt;
+&lt;p&gt;However, you can also click on an item in the list, or search available commands:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;cmd_k.gif&quot; alt=&quot;CommandK&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;In addition - there are various places where specific keyboard shortcuts are available. An example is the tab control used in both Stocktakes and Inbound Shipments. Here you can use &lt;code&gt;control&lt;&#x2F;code&gt;+&lt;code&gt;1&lt;&#x2F;code&gt; to navigate to the first tab (Quantities) or &lt;code&gt;control&lt;&#x2F;code&gt;+&lt;code&gt;2&lt;&#x2F;code&gt; for the second tab (Pricing) etc. If you press &lt;code&gt;+&lt;&#x2F;code&gt; on your keyboard, you can add a new batch. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;is_edit_keyboard_shortcuts.png&quot; alt=&quot;Inbound tabs&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;footer&quot;&gt;Footer&lt;&#x2F;h2&gt;
+&lt;p&gt;The bottom of the screen contains some useful information and is shown on every screen&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;footer.png&quot; alt=&quot;Footer&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Some users have access to more than one store. To change the store which is currently selected, simply click on the store name in the footer:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;store_switcher.gif&quot; alt=&quot;Store switcher&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;You will see the notification and the store name in the footer will be updated. From now, all actions will be in the newly selected store.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;help&quot;&gt;Help!&lt;&#x2F;h2&gt;
+&lt;p&gt;If you get stuck at any time when using the site, click on the &lt;code&gt;Docs&lt;&#x2F;code&gt; menu item. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;docs_nav.png&quot; alt=&quot;Docs&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;This will take you to the documentation page which relates to the current page you are viewing.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>To be translated: Introduction</title>
+		<published>2022-03-17T18:20:00+00:00</published>
+		<updated>2022-03-17T18:20:00+00:00</updated>
+		<link href="https://docs.msupply.foundation/fr/docs/introduction/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/introduction/</id>
+		<content type="html">&lt;h2 id=&quot;history&quot;&gt;History&lt;&#x2F;h2&gt;
+&lt;p&gt;Open mSupply builds on over 20 years of mSupply, over which time it has become the most used Logistics Management Information System (LMIS) in low &amp;amp; middle income countries.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;what-does-it-do&quot;&gt;What does it do?&lt;&#x2F;h2&gt;
+&lt;p&gt;In short, Open mSupply manages your inventory, recording every receipt and issue of goods, and thereby providing a running balance of your stock on hand of each item.&lt;&#x2F;p&gt;
+&lt;p&gt;Open mSupply does much more than that. Features include:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Inventory management
+&lt;ul&gt;
+&lt;li&gt;Easily see per-batch stock on hand&lt;&#x2F;li&gt;
+&lt;li&gt;Manage shelf locations for your store&#x2F;warehouse&lt;&#x2F;li&gt;
+&lt;li&gt;Assign locations to incoming stock, or change locations as you rearrange stock in your warehouse&lt;&#x2F;li&gt;
+&lt;li&gt;Perform stocktakes, and assign reasons for inventory adjustments&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Receive and fulfil orders from customers (facilities you supply)&lt;&#x2F;li&gt;
+&lt;li&gt;Place orders with your supplying store
+&lt;ul&gt;
+&lt;li&gt;Quantify amounts required based on simple or complex formulae&lt;&#x2F;li&gt;
+&lt;li&gt;Track order status as your supplying store fulfils and ships the order!&lt;&#x2F;li&gt;
+&lt;li&gt;Receive goods into stock when the order arrives&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Be alerted to low stock levels from the dashboard&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;what-makes-msupply-special&quot;&gt;What makes mSupply special?&lt;&#x2F;h2&gt;
+&lt;p&gt;There are a lot of systems that manage inventory. mSupply has unique features that make it ideal for use for health supply chains in low resource settings:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Offline first&lt;&#x2F;strong&gt; mSupply is designed from the ground up to work without internet. We know from 20 years of experience that even the most reliable internet connections sometimes fail or get overloaded. mSupply allows you to work without having to worry about second-by-second internet quality. Of course, when you need to place orders or receive updates from other facilities, you need internet for a few minutes then.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Scalable&lt;&#x2F;strong&gt; We&#x27;ve designed Open mSupply to handle billions of transactions a year, but to also work on an Android tablet! You can implement mSupply in one facility, knowing that if you later decide to deploy thousands of sites, mSupply will still be the right tool.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;To get some insight into the full breadth of mSupply&#x27;s functionality, have a look at the legacy mSupply software documentations at &lt;a href=&quot;https:&#x2F;&#x2F;www.msupply.org.nz&quot;&gt;https:&#x2F;&#x2F;www.msupply.org.nz&lt;&#x2F;a&gt; - it&#x27;s almost 1000 pages if you print it all (so maybe don&#x27;t ☺️)&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;terminology&quot;&gt;Terminology&lt;&#x2F;h3&gt;
+&lt;p&gt;The following table outlines some of the common terms used in mSupply, and also guides users of legacy mSupply regarding terminology improvements we have made.&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;Open mSupply Term&lt;&#x2F;th&gt;&lt;th align=&quot;center&quot;&gt;Legacy mSupply term&lt;&#x2F;th&gt;&lt;th align=&quot;left&quot;&gt;Definition&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Outbound Shipment&lt;&#x2F;td&gt;&lt;td align=&quot;center&quot;&gt;Customer Invoice&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;The creation of a supply of goods to a particular customer (facility)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Inbound Shipment&lt;&#x2F;td&gt;&lt;td align=&quot;center&quot;&gt;Supplier Invoice&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;The receiving of a supply of goods from a particular supplier&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Requisition&lt;&#x2F;td&gt;&lt;td align=&quot;center&quot;&gt;Customer Requisitions&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;An order for supply of goods made by a particular customer (facility)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Internal Orders&lt;&#x2F;td&gt;&lt;td align=&quot;center&quot;&gt;Supplier Requisitions&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;A request for stock made for a particular supplier (facility)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+</content>
+	</entry>
+</feed>

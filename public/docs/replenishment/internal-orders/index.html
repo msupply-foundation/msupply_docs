@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="preload" as="font" href="https://docs.msupply.foundation/fonts/vendor/jost/jost-v4-latin-regular.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="https://docs.msupply.foundation/fonts/vendor/jost/jost-v4-latin-700.woff2"  type="font/woff2" crossorigin>
+
+
+<link rel="stylesheet" href="https://docs.msupply.foundation/main.css">
+<link rel="stylesheet" href="https://docs.msupply.foundation/msupply.css">
+
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+  
+  
+  
+    
+  
+  
+  
+  
+    
+  
+  
+  
+
+
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+
+	
+
+
+	
+
+<title>Internal Orders - mSupply</title>
+<meta name="description" content="Requesting stock from your suppliers.">
+<link rel="canonical" href="https://docs.msupply.foundation/docs/replenishment/internal-orders/">
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    
+      
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          {
+            "@type": "ListItem",
+            "position":  1 ,
+            "name": "Home",
+            "item": "https://docs.msupply.foundation/"
+          },
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  2 ,
+            "name": "Docs",
+            "item": "https://docs.msupply.foundation/docs/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  3 ,
+            "name": "Replenishment",
+            "item": "https://docs.msupply.foundation/docs/replenishment/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  4 ,
+            "name": "Internal Orders",
+            "item": "https://docs.msupply.foundation/docs/replenishment/internal-orders/"
+          },
+        
+      
+    
+  }
+</script>
+
+
+
+
+
+
+  <meta name="theme-color" content="#fff">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://docs.msupply.foundation/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://docs.msupply.foundation/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://docs.msupply.foundation/favicon-16x16.png">
+  
+    <link rel="manifest" href="https://docs.msupply.foundation/site.webmanifest" crossorigin>
+  
+
+
+  
+
+</head>
+
+  
+
+<body class="docs single">
+  
+  
+  
+  
+<div class="header-bar fixed-top"></div>
+<header class="navbar fixed-top navbar-expand-md navbar-light">
+	<div class="container">
+		<input class="menu-btn order-0" type="checkbox" id="menu-btn">
+		<label class="menu-icon d-md-none" for="menu-btn"><span class="navicon"></span></label>
+		<a class="navbar-brand order-1 order-md-0 me-auto" href="https://docs.msupply.foundation">mSupply</a>
+		<button id="mode" class="btn btn-link order-2 order-md-4" type="button" aria-label="Toggle mode">
+			<span class="toggle-dark"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></span>
+			<span class="toggle-light"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></span>
+		</button>
+		<ul class="navbar-nav fork-me order-3 order-md-5">
+			
+				
+					<li class="nav-item">
+						<a class="nav-link" href="https://twitter.com/mSupply"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg><span class="ms-2 visually-hidden">Twitter</span></a>
+					</li>
+				
+			
+		</ul>
+		<div class="collapse navbar-collapse order-4 order-md-1">
+			<ul class="navbar-nav main-nav me-auto order-5 order-md-2">
+				
+					
+				
+				
+				
+					
+						<li class="nav-item docs active">
+							<a class="nav-link" href="https://docs.msupply.foundation/docs/introduction/">Docs</a>
+						</li>
+					
+				
+			</ul>
+			<div class="break order-6 d-md-none"></div>
+			
+				<form class="navbar-form flex-grow-1 order-7 order-md-3">
+					<input id="userinput" class="form-control is-search" type="search" placeholder="Search docs..."
+						aria-label="Search docs..." autocomplete="off">
+					<div id="suggestions" class="shadow bg-white rounded"></div>
+				</form>
+			
+		</div>
+	</div>
+</header>
+
+
+
+  
+<div class="wrap container" role="document">
+  <div class="content">
+    <div class="row flex-xl-nowrap">
+	  
+<div class="col-lg-5 col-xl-4 docs-sidebar">
+	<nav class="docs-links" aria-label="Main navigation">
+			
+			
+			
+					<h3>Documentation</h3>
+					<ul class="list-unstyled">
+					                           
+							<li><a class="docs-link" href="https://docs.msupply.foundation/docs/introduction/">Introduction</a></li>
+					                           
+							<li><a class="docs-link" href="https://docs.msupply.foundation/docs/tutorial/">To be translated: Tutorial</a></li>
+					                           
+							<li><a class="docs-link" href="https://docs.msupply.foundation/docs/dashboard/">Dashboard</a></li>
+					
+					</ul>
+			
+			
+					
+					
+					
+							<h3>Distribution</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/">Outbound Shipments</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/distribution/requisitions/">Requisitions</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/distribution/customers/">Customers</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Replenishment</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/replenishment/inbound-shipments/">Inbound Shipments</a></li>
+							                           
+									<li><a class="docs-link active" href="https://docs.msupply.foundation/docs/replenishment/internal-orders/">Internal Orders</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/replenishment/suppliers/">Suppliers</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Catalogue</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/catalogue/items/">Items</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/catalogue/master-list/">Master Lists</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Inventory</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/inventory/locations/">Locations</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/inventory/stock-view/">Stock</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/inventory/stock-takes/">Stocktakes</a></li>
+							
+					</ul>
+					
+					
+			
+	</nav>
+</div>
+
+	  
+  
+  <nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
+  	<div class="page-links">
+  			<h3>On this page</h3>
+  			<nav id="TableOfContents">
+  					<ul>
+  							
+  							<li><a href="https://docs.msupply.foundation/docs/replenishment/internal-orders/#viewing-internal-orders">Viewing Internal Orders</a></li>
+  							
+  							
+  							<li><a href="https://docs.msupply.foundation/docs/replenishment/internal-orders/#creating-a-new-internal-order">Creating a new Internal Order</a></li>
+  							
+  									<ul>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/replenishment/internal-orders/#select-a-supplier">Select a supplier</a></li>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/replenishment/internal-orders/#defining-maximum-month-of-stock-maximum-mos">Defining Maximum Month of Stock (Maximum MOS)</a></li>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/replenishment/internal-orders/#adding-a-single-item">Adding a single item</a></li>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/replenishment/internal-orders/#adding-items-using-a-master-list">Adding items using a master list</a></li>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/replenishment/internal-orders/#reading-the-internal-order-s-list">Reading the Internal Order&#x27;s list</a></li>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/replenishment/internal-orders/#using-suggested-quantities">Using Suggested Quantities</a></li>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/replenishment/internal-orders/#printing-an-internal-order">Printing an Internal Order</a></li>
+  											
+  											<li><a href="https://docs.msupply.foundation/docs/replenishment/internal-orders/#sending-an-internal-order">Sending an Internal Order</a></li>
+  											
+  									</ul>
+  							
+  							
+  					</ul>
+  			</nav>
+  	</div>
+  </nav>
+  
+
+      <main class="docs-content col-lg-11 col-xl-9">
+        <h1>Internal Orders</h1>
+        
+        <p>Internal Orders go by several other names in certain countries or systems:</p>
+<ul>
+<li>Requisitions</li>
+<li>Orders</li>
+<li>Report &amp; Requisition</li>
+<li>R&amp;R</li>
+</ul>
+<p>Internal Orders are a way to support users in requesting new stock from another store. </p>
+<h2 id="viewing-internal-orders">Viewing Internal Orders</h2>
+<p>If you would like to order some stock from your supplier: </p>
+<ol>
+<li>Navigate to the <code>Replenishment</code> menu</li>
+<li>Tap on <code>Internal Orders</code></li>
+</ol>
+<p><img src="/docs/replenishment/intord_access.png" alt="Internal Order: nav" /></p>
+<p>You will see a list of all existing internal orders: </p>
+<p><img src="/docs/replenishment/intord_list.png" alt="Internal Order: list" /></p>
+<p>You can use the <code>Search by comment</code> field to filter the list by the comments of the internal orders: </p>
+<p><img src="/docs/replenishment/intord_filterlistbycomment.gif" alt="Internal Order: filter by comment" /></p>
+<p>You can sort the list using the column headers:</p>
+<ol>
+<li>Tap the column header of the column that you want to sort. The column is sorted in ascending order. </li>
+<li>Tap the column header again and column will be sorted in the opposite order.</li>
+</ol>
+<h2 id="creating-a-new-internal-order">Creating a new Internal Order</h2>
+<h3 id="select-a-supplier">Select a supplier</h3>
+<ol>
+<li>Click on the <code>New Order</code> button (top right corner): </li>
+</ol>
+<p><img src="/docs/replenishment/intord_newreqbutton.png" alt="Internal Order: new order" /></p>
+<ol start="2">
+<li>A new window opens, inviting your to select a supplier: </li>
+</ol>
+<p><img src="/docs/replenishment/intord_selectsupplier2.png" alt="Internal Order: select supplier" /></p>
+<ol start="3">
+<li>Select a Supplier by pressing on its name. You will see a window like this: </li>
+</ol>
+<p><img src="/docs/replenishment/intord_newintord.png" alt="Internal Order: newly created order" /></p>
+<h3 id="defining-maximum-month-of-stock-maximum-mos">Defining Maximum Month of Stock (Maximum MOS)</h3>
+<p>Defining the Maximum MOS (Month of Stock) is critical to the calculation of the <strong>Suggested Quantity</strong> and you can change it: </p>
+<ul>
+<li>There is an industry rule of thumb that the <em>Maximum MOS</em> should be set to 3 times the ordering cycle</li>
+<li>The default <em>Maximum MOS</em> is <code>3.0</code>, which is based on a monthly ordering cycle</li>
+<li>If for example, the ordering cycle was every two months, then <em>Maximum MOS</em> should be set to 3 x 2 = <code>6.0</code> </li>
+</ul>
+<div class="imagetitle">
+In below example, we are setting our Maximum MOS to 3 Months.  
+</div>
+<p><img src="/docs/replenishment/intord_maxmos.png" alt="MaxMOS" /></p>
+<p>This can be done before or after adding items to your order. </p>
+<h3 id="adding-a-single-item">Adding a single item</h3>
+<p>Tap on <code>Add Item</code> to add a single item to your order. A new window opens: </p>
+<p><img src="/docs/replenishment/intord_additem2.png" alt="Internal Order: add item" /></p>
+<p>First select the item you want to add to your order. Open the <code>Stock details</code> dropdown menu and select your item from the list. You can also type some or all of an item name (or code) to look for a specific item. </p>
+<p>Once item is selected, you should see the following information on the window:</p>
+<ul>
+<li><strong>Item Code</strong> and <strong>Item Name</strong></li>
+<li><strong>Unit</strong>: the default unit used for this item (<em>eg. Tablet, Vial</em>)</li>
+<li><strong>AMC</strong>: Average Monthly Consumption. How much stock your store uses each month on average (based on a configurable number of months, default is set to 3 months)</li>
+<li><strong>Suggested Quantity</strong>: how much stock mSupply suggests that your order to reach your stock target quantity</li>
+<li><strong>Order quantity</strong>: the quantity of units that you request from your supplier</li>
+</ul>
+<p>You should also see the following charts: </p>
+<ul>
+<li><strong>Stock distribution</strong>: In this chart, you will see the following information:
+<ul>
+<li>The <em>Target Quantity</em> for the item. This is calculated as: Maximum MOS x AMC.</li>
+<li>Your current <em>Stock on Hand</em> (in grey)</li>
+<li>The <em>suggested quantity</em> calculated by mSupply</li>
+</ul>
+</li>
+</ul>
+<div class="imagetitle">
+In below example, our target quantity is 600 units which is the equivalent of 3 months of stock (3 x 200 = 600 units). Our stock on hand (in grey) is 50 so in order to reach my target, mSupply suggests to order 550 units (600 - 50). 
+</div>
+<p><img src="/docs/replenishment/intord_charts_stockdistri.png" alt="Stock Distribution" /></p>
+<div class="imagetitle">
+In below example, the target quantity is 62 units. Since we already have 250 units in stock (in grey), the suggested quantity is zero. 
+</div>
+<p><img src="/docs/replenishment/intord_charts_stockdistri2.png" alt="Stock Distribution 2" /></p>
+<ul>
+<li><strong>Consumption History (monthly)</strong>: this chart shows the monthly consumption up to 12 months in the past (in grey) and the current AMC (in orange):</li>
+</ul>
+<p><img src="/docs/replenishment/intord_charts_consumption.png" alt="Consumption" /></p>
+<ul>
+<li><strong>Stock Evolution</strong>: this chart shows you your stock level for the last 30 days and your projected inventory for the next 30 days. The projected stock will be updated based on your inputs in the <code>Order quantity</code> field:</li>
+</ul>
+<p><img src="/docs/replenishment/intord_charts_stockevolution.png" alt="Stock Evolution" /></p>
+<h3 id="adding-items-using-a-master-list">Adding items using a master list</h3>
+<p>If your organisation is using Master Lists, you can add multiple items at once using your store's master lists. It is particularly useful when you have a lot of items in your order and you don't want to add them all one by one.</p>
+<ol>
+<li>Tap on the <code>Add from master list</code> button</li>
+<li>Select a master list</li>
+<li>A dialog window opens asking you whether you want to add all of the items from this master list. Tap <code>OK</code> if you wish to proceed. </li>
+</ol>
+<p>All the items of the master list are now listed in your order. If you had previously added single item, it will add items that are not already there. </p>
+<p>Tap on an order line to change the <strong>Order Quantity</strong> or tap on the button <code>Requested to Suggested</code> button </p>
+<p><img src="/docs/replenishment/intord_addfromml.gif" alt="Internal Order: add from master list" /></p>
+<div class="note"> 
+Master Lists are defined and assigned to stores at the central server level. You can only see the master lists that are visible to your store. 
+<br> <br>
+If you don't find the master list you are looking for and if you want to create a new one, please contact your administrator.
+</div>
+<div class="tip">
+You can create internal orders from multiple master lists by repeating above actions with another master list. 
+</div>
+<h3 id="reading-the-internal-order-s-list">Reading the Internal Order's list</h3>
+<p>When you add items (using a master list or not), the item is added to the order's table. The following information is provided for each order line:</p>
+<table><thead><tr><th align="left">Status</th><th>Description</th></tr></thead><tbody>
+<tr><td align="left"><strong>Code</strong></td><td>Code of the item</td></tr>
+<tr><td align="left"><strong>Name</strong></td><td>Name of the item</td></tr>
+<tr><td align="left"><strong>SoH (Est. remaining)</strong></td><td>How much stock currently available in your store for this store</td></tr>
+<tr><td align="left"><strong>AMC</strong></td><td>Average Monthly Consumption: how much stock your store uses each month on average (based on a configurable number of months, defaults to 3 months)</td></tr>
+<tr><td align="left"><strong>Target Stock</strong></td><td>This is the stock you are aiming for. Calculated as: AMC x Maximum MOS</td></tr>
+<tr><td align="left"><strong>Suggested Quantity</strong></td><td>How much stock mSupply suggests that your order. This is calculated as: AMC x Maximum MOS - SoH</td></tr>
+<tr><td align="left"><strong>Requested</strong></td><td>This is set to zero by default. This is the quantity of units you are ordering from your supplier.</td></tr>
+<tr><td align="left"><strong>Comment</strong></td><td>A comment for the order line. Comments will be visible to your supplier.</td></tr>
+</tbody></table>
+<h3 id="using-suggested-quantities">Using Suggested Quantities</h3>
+<p>If you tap on the <code>Use Suggested Quantities</code> on the requisition header, mSupply will automatically copy the values in the <strong>Suggested Quantity</strong> column into the <strong>Requested Quantity</strong> column. </p>
+<p>You can always manually edit the order quantity for each by tapping on an order line. </p>
+<p><img src="/docs/replenishment/intord_reqtosug.png" alt="Use Suggested Quantities" /></p>
+<h3 id="printing-an-internal-order">Printing an Internal Order</h3>
+<p>When viewing a specific Internal Order, simply click the <code>Print</code> button which is on the top right of the page.
+When printing, a PDF file is generated for you, which will then open in a new browser tab. This can then be printed using your browser by clicking print or using <code>control</code>+<code>P</code> (if using windows) or <code>cmd</code>+<code>P</code> keys on your keyboard (if using a mac).</p>
+<p><img src="/docs/print_button.png" alt="Print button" /></p>
+<p>This will either</p>
+<ul>
+<li>Show a menu of possible reports for you to select from before creating a PDF. This will happen if there are more than one report defined for the <code>Requisition</code> report type.</li>
+<li>Create a PDF immediately, if there is only one report to select from</li>
+</ul>
+<p><img src="/docs/distribution/os_print_menu.png" alt="Print menu" /></p>
+<h3 id="sending-an-internal-order">Sending an Internal Order</h3>
+<p>To send the order to your supplier:</p>
+<ol>
+<li>Tap on the <code>Confirm Sent</code> button (bottom right corner)</li>
+<li>A dialog window opens asking you whether you are sure to want to send the order. Tap on <code>OK</code> to proceed</li>
+<li>Status of your order is now <code>SENT</code> and the order is no longer editable</li>
+</ol>
+<div class="warning">
+Ensure that your order is correct before sending it to your supplier. Once sent, no further changes can be made to finalised orders. 
+</div>
+
+        
+        
+<div class="docs-navigation d-flex justify-content-between">
+  
+  
+  
+  
+  
+  <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;replenishment&#x2F;inbound-shipments&#x2F;">
+    <div class="card my-1">
+      <div class="card-body py-2">
+        &larr; Inbound Shipments
+      </div>
+    </div>
+  </a>
+  
+
+  
+  
+  
+  
+  
+    <a class="ms-auto" href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;replenishment&#x2F;suppliers&#x2F;">
+      <div class="card my-1">
+        <div class="card-body py-2">
+          Suppliers &rarr;
+        </div>
+      </div>
+    </a>
+  
+</div>
+
+      </main>
+    </div>
+  </div>
+</div>
+
+
+  
+    
+<footer class="footer text-muted">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 order-last order-lg-first">
+				<ul class="list-inline">
+					
+						<li class="list-inline-item">Powered by <a href="https://www.netlify.com/">Netlify</a>, <a href="https://www.getzola.org/">Zola</a>, and <a href="https://github.com/aaranxu/adidoks">AdiDoks</a></li>
+					
+				</ul>
+			</div>
+			<div class="col-lg-8 order-first order-lg-last text-lg-end">
+				<ul class="list-inline">
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+  
+
+  
+<script type="text/javascript" src="https://docs.msupply.foundation/js/main.js" defer></script>
+
+  <script type="text/javascript" src="https://docs.msupply.foundation/plugins/elasticlunr.min.js" defer></script>
+  <script type="text/javascript" src="https://docs.msupply.foundation/search_index.en.js" defer></script>
+  <script type="text/javascript" src="https://docs.msupply.foundation/js/search.js" defer></script>
+
+  
+</body>
+</html>
