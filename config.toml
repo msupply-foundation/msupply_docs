@@ -11,6 +11,11 @@ theme = "Adidoks"
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
+
+[languages.en]
+title="mSupply"
+
+
 [languages.en.translations]
 flag="🇬🇧"
 TOCtitle="On this page"
@@ -18,7 +23,7 @@ TOCtitle="On this page"
 [languages.fr]
 generate_feed = true # there will be a feed for French content
 build_search_index = true
-title="🇫🇷"
+title="mSupply.fr"
 
 [languages.fr.translations]
 summary = "Mon blog"
