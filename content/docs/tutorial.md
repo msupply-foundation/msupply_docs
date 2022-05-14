@@ -1,5 +1,5 @@
 +++
-title = "To be translated: Tutorial"
+title = "Tutorial"
 description = "Introductory tutorial for Open mSupply."
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00

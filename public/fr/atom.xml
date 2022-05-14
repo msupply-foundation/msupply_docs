@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
-	<title>mSupply</title>
+	<title>🇫🇷</title>
 	<link href="https://docs.msupply.foundation/fr/atom.xml" rel="self" type="application/atom+xml"/>
   <link href="https://docs.msupply.foundation"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
@@ -212,12 +212,12 @@ When printing, a PDF file is generated for you, which will then open in a new br
 </content>
 	</entry>
 	<entry xml:lang="fr">
-		<title>Tutorial</title>
+		<title>Didacticiel</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
 		<link href="https://docs.msupply.foundation/fr/docs/tutorial/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/tutorial/</id>
-		<content type="html">&lt;h2 id=&quot;open-msupply-tutorial&quot;&gt;Open mSupply Tutorial&lt;&#x2F;h2&gt;
+		<content type="html">&lt;h2 id=&quot;didacticiel-open-msupply&quot;&gt;Didacticiel: Open mSupply&lt;&#x2F;h2&gt;
 &lt;p&gt;This tutorial is designed to guide you through the basics of using Open mSupply&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;logging-in&quot;&gt;Logging in&lt;&#x2F;h2&gt;
 &lt;ol&gt;

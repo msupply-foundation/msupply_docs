@@ -1,5 +1,5 @@
 +++
-title = "Tutorial"
+title = "Didacticiel"
 description = "Introductory tutorial for Open mSupply."
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
@@ -13,7 +13,7 @@ toc = true
 top = false
 +++
 
-## Open mSupply Tutorial
+## Didacticiel: Open mSupply
 
 This tutorial is designed to guide you through the basics of using Open mSupply
 
