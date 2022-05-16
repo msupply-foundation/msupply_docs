@@ -23,7 +23,8 @@ TOCtitle="On this page"
 [languages.fr]
 generate_feed = true # there will be a feed for French content
 build_search_index = true
-title="mSupply.fr"
+title="mSupply 🇫🇷"
+
 
 [languages.fr.translations]
 summary = "Mon blog"
