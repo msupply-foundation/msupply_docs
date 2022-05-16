@@ -1,6 +1,6 @@
 +++
-title = "To be translated: Stock"
-description = "View Stock"
+title = "Stock"
+description = "Consulter Le Stock"
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
 draft = false
@@ -13,33 +13,33 @@ toc = true
 top = false
 +++
 
-One of the most important - but easiest - tasks in mSupply is to check how much stock you have on hand. When you create an Outbound Shipment and add an item, mSupply  will tell you if you have enough stock. But at many other times, you might want to quickly check, and it is very simple to do so.
+L'une des plus importantes, mais la plus simple des tâches dans mSupply est de vérifier combien de stock vous avez actuellement. Lorsque vous créez un expédition sortante et que vous sélectionnez un produit à sortir, mSupply vous dira si vous avez suffisamment de stock. Vous pourrez à bien d'autres moments, utiliser cette fonctionnalité pour avoir un apperçu rapide du niveau de vos stocks, et c'est très simple à faire.
 
-## Viewing stock
+## Consulter le stock
 
-In the navigation panel, Go to `Inventory` and tap on the  `Stock` submenu: 
+Dans le menu de navigation, allez dans `Inventaire` et cliquez sur le sous-menu  `Stock`: 
 
 ![Stock: nav](/docs/inventory/stock_gotostock.png)
 
-A detailed list of your inventory appears: 
+Une liste détaillée contenant la liste de vos produits apparaît: 
 
 ![Stock: list](/docs/inventory/stock_viewstock.png)
 
-The list is divided into 8 columns: 
-* **Code**: This is the code assigned to this item in mSupply
-* **Name**: This is the name by which mSupply will refer to the item
-* **Batch**: Batch number of the stock line
-* **Expiry**: Expiry date of the batch
-* **Location**: Where the item is being stored in your facility
-* **Unit**: The unit you use for this item
-* **Pack Size**: Number of units per pack
-* **Pack Qty**: Number of packs available in your store
+La liste est divisée en 8 colonnes: 
+* **Code**: Il s'agit du code attribué à ce produit dans mSupply
+* **Noms**: C'est le nom par lequel mSupply fera référence au produit
+* **Lot**: Numéro de lot de la ligne de stock
+* **Expiration**: Date d'expiration du lot
+* **Emplacement**: L'espace aménagé pour le rangement du produit dans le dépôt/entrepôt
+* **Unité**: L'unité que vous utilisez pour ce produit
+* **Pack Size**: Nombre d'unités par paquet
+* **Quantité**: Nombre de paquets disponibles dans votre dépôt/entrepôt
 
 
-## Looking for a specific item
+## Recherche d'un produit spécifique
 
-You can filter the list by item name or code. This can be useful if you're looking for one particular item. 
+Vous pouvez filtrer la liste par le nom ou le code du produit. Cela peut être utile si vous recherchez un produit en particulier.
 
-Type as much of an item name or code in the `Enter item code or name` field: 
+Tapez le nom du produit ou le code dans le champs `Entrez le code ou le nom du produit`: 
 
 ![Stock: search](/docs/inventory/stock_search.gif)
