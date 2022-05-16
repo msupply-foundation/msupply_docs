@@ -1,5 +1,5 @@
 +++
-title = "To be translated: Introduction"
+title = "Introduction à Open mSupply"
 description = "Open mSupply Introduction."
 date = 2022-03-17T18:20:00+00:00
 updated = 2022-03-17T18:20:00+00:00
@@ -9,50 +9,50 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "Welcome to Open mSupply!"
+lead = "Bienvenue sur Open mSupply!"
 toc = true
 top = false
 +++
 
-## History
+## Historique
 
-Open mSupply builds on over 20 years of mSupply, over which time it has become the most used Logistics Management Information System (LMIS) in low & middle income countries.
+Open mSupply s'appuie sur plus de 20 années d'expériences enrichissantes de mSupply, au cours desquelles il est devenu le système d'information de gestion logistique (SIGL) le plus utilisé dans les pays à revenu faible et intermédiaire.
 
-## What does it do?
+## Qu'est ce que Open mSupply permet de réaliser?
 
-In short, Open mSupply manages your inventory, recording every receipt and issue of goods, and thereby providing a running balance of your stock on hand of each item.
+En bref, Open mSupply gère votre inventaire, génère votre commande, enregistre chaque réception et sortie de produits, et fournit ainsi un solde courant actualisé de votre stock disponible pour chaque produit.
 
-Open mSupply does much more than that. Features include:
+Open mSupply fait bien plus que cela. Les fonctionnalités incluent:
 
-- Inventory management
-  - Easily see per-batch stock on hand
-  - Manage shelf locations for your store/warehouse
-  - Assign locations to incoming stock, or change locations as you rearrange stock in your warehouse
-  - Perform stocktakes, and assign reasons for inventory adjustments
-- Receive and fulfil orders from customers (facilities you supply)
-- Place orders with your supplying store
-  - Quantify amounts required based on simple or complex formulae
-  - Track order status as your supplying store fulfils and ships the order!
-  - Receive goods into stock when the order arrives
-- Be alerted to low stock levels from the dashboard
+- Gestion de l'inventaire
+  - Voir facilement le stock disponible par lot
+  - Gère les emplacements des rayons pour votre depot/entrepôt
+  - Attribuer des emplacements au stock entrant, ou changez d'emplacement lorsque vous réorganisez le stock dans votre dépôt/entrepôt
+  - Effectuer des inventaires, et indiquer les raisons des ajustements d'inventaire
+- Recevoir et exécuter les commandes des clients (entités que vous fournissez)
+- Commander auprès de votre dépôt/entrepôt fournisseur
+  - Quantifier automatiquement les besoins futurs à partir de formules simples ou complexes
+  - Suivre l'état de la commande au fur et à mesure que votre fournisseur traite et expédie les produits commandés
+  - Faire entrer les produits en stock après vérifications
+- Être alerté des niveaux de stock critiques depuis le tableau de bord
 
-## What makes mSupply special?
+## Qu'est-ce qui rend Open mSupply si spécial?
 
-There are a lot of systems that manage inventory. mSupply has unique features that make it ideal for use for health supply chains in low resource settings:
+Il existe de nombreux systèmes de gestion de stocks. mSupply possède des fonctionnalités uniques qui le rendent idéal pour une utilisation dans les chaînes d'approvisionnement de santé dans les pays à faibles ressources :
 
-- **Offline first** mSupply is designed from the ground up to work without internet. We know from 20 years of experience that even the most reliable internet connections sometimes fail or get overloaded. mSupply allows you to work without having to worry about second-by-second internet quality. Of course, when you need to place orders or receive updates from other facilities, you need internet for a few minutes then.
-- **Scalable** We've designed Open mSupply to handle billions of transactions a year, but to also work on an Android tablet! You can implement mSupply in one facility, knowing that if you later decide to deploy thousands of sites, mSupply will still be the right tool.
+- **Hors ligne d'abord** mSupply est conçu dès le départ pour fonctionner sans Internet. Nous savons, grâce à 20 ans d'expérience, que même les connexions Internet les plus fiables peuvent se montrer instables voir s'interrompre. mSupply vous permet de travailler sans avoir à vous soucier de la qualité ou de la continuité d'Internet. Bien sûr, lorsque vous devez passer des commandes ou recevoir des mises à jour, vous avez besoin d'Internet pendant quelques minutes.
+- **Evolutif** Nous avons conçu Open mSupply non seulement pour gérer des milliards de transactions par an, mais aussi pour avoir la possibilité de travailler sur une tablette Android! Vous pouvez implémenter mSupply dans un dépôt/entrepôt, sachant que si vous décidez par la suite de déployer des milliers de sites, mSupply sera toujours l'outil adéquat pour continuer.
 
-To get some insight into the full breadth of mSupply's functionality, have a look at the legacy mSupply software documentations at [https://www.msupply.org.nz](https://www.msupply.org.nz) - it's almost 1000 pages if you print it all (so maybe don't ☺️)
+Pour avoir un aperçu de l'étendue des fonctionnalités de mSupply, jetez un oeil par ici sur cet héritage [https://www.msupply.org.nz](https://www.msupply.org.nz) - C'est presque 1000 pages si vous imprimez tout (Alors n'essayez surtout pas ☺️)
 
-### Terminology
+### Terminologie
 
-The following table outlines some of the common terms used in mSupply, and also guides users of legacy mSupply regarding terminology improvements we have made.
+Le tableau suivant décrit certains des termes courants utilisés dans mSupply, et guide également les utilisateurs de l'ancienne version de mSupply sur les améliorations terminologiques que nous avons apportées.
 
-| Open mSupply Term |  Legacy mSupply term  | Definition                                                             |
-| :---------------: | :-------------------: | :--------------------------------------------------------------------- |
-| Outbound Shipment |   Customer Invoice    | The creation of a supply of goods to a particular customer (facility) |
-| Inbound Shipment  |   Supplier Invoice    | The receiving of a supply of goods from a particular supplier         |
-|    Requisition    | Customer Requisitions | An order for supply of goods made by a particular customer (facility) |
-|  Internal Orders  | Supplier Requisitions | A request for stock made for a particular supplier (facility)          |
+| Terme Open mSupply | Terme ancienne version   | Définition                                                               |
+| :---------------:  | :-------------------:    | :---------------------------------------------------------------------   |
+| Expédition sortante| Facture Client           | La création d'une livraison de produit à un client particulier           |
+| Envoi entrant      | Facture Fournisseur      | La réception d'une livraison de produits d'un fournisseur particulier    |
+| Réquisition        | Réquisitions Client      | Une commande de produits effectuée par un client particulier             |
+| Commandes Internes | Réquisitions Fournisseur | Une demande de stock faite pour un fournisseur particulier               |
 
