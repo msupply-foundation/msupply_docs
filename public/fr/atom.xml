@@ -120,64 +120,62 @@ Putting a location on hold can be useful if:
 </content>
 	</entry>
 	<entry xml:lang="fr">
-		<title>To be translated: Stocktakes</title>
+		<title>Inventaires</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
 		<link href="https://docs.msupply.foundation/fr/docs/inventory/stock-takes/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/inventory/stock-takes/</id>
-		<content type="html">&lt;p&gt;mSupply will automatically keep track of your stock levels for you, as you receive and distribute it. But sometimes data gets entered incorrectly or stock goes out without anyone making an entry in the system. &lt;&#x2F;p&gt;
-&lt;p&gt;Of course, we try not to let that happen but, if it does happen, we can make corrections. The easiest way to correct mistakes is to do a &lt;strong&gt;Stocktake&lt;&#x2F;strong&gt;. &lt;&#x2F;p&gt;
-&lt;p&gt;In mSupply, you can easily do a stocktake for: &lt;&#x2F;p&gt;
+		<content type="html">&lt;p&gt;mSupply gardera automatiquement une trace de vos niveaux de stock pour vous, au fur et à mesure que vous les recevez et les distribuez. Mais parfois, les données sont saisies de manière incorrecte ou le stock s&#x27;épuise sans que personne ne fasse d&#x27;entrée dans le système.&lt;&#x2F;p&gt;
+&lt;p&gt;Bien sûr, nous essayons de ne pas laisser cela se produire, mais si cela se produit, nous pouvons apporter des corrections. Le moyen le plus simple de corriger les erreurs est de &lt;strong&gt;faire un inventaire&lt;&#x2F;strong&gt; .&lt;&#x2F;p&gt;
+&lt;p&gt;Dans mSupply, vous pouvez facilement faire un inventaire pour :&lt;&#x2F;p&gt;
 &lt;ul&gt;
-&lt;li&gt;A full inventory&lt;&#x2F;li&gt;
-&lt;li&gt;A limited range of items&lt;&#x2F;li&gt;
-&lt;li&gt;A single item&lt;&#x2F;li&gt;
+&lt;li&gt;Un inventaire complet&lt;&#x2F;li&gt;
+&lt;li&gt;Une gamme limitée d&#x27;articles&lt;&#x2F;li&gt;
+&lt;li&gt;Un seul article&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;h2 id=&quot;affichage-des-inventaires&quot;&gt;Affichage des inventaires&lt;&#x2F;h2&gt;
-&lt;p&gt;To view your stocktakes, go to &lt;code&gt;Inventory&lt;&#x2F;code&gt; and then &lt;code&gt;Stocktakes&lt;&#x2F;code&gt; in the navigation panel: &lt;&#x2F;p&gt;
+&lt;p&gt;Pour visualiser vos inventaires, allez sur &lt;code&gt;Inventory&lt;&#x2F;code&gt;puis &lt;code&gt;Stocktakesdans&lt;&#x2F;code&gt; le panneau de navigation :&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;stocktake_gotost.png&quot; alt=&quot;Stocktake: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;This brings up a list of all your stocktakes: &lt;&#x2F;p&gt;
+&lt;p&gt;Cela fait apparaître une liste de tous vos inventaires :&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;stocktake_stocktakelist.png&quot; alt=&quot;Stocktake: list&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;For each stock stake you can see:&lt;&#x2F;p&gt;
+&lt;p&gt;Pour chaque participation en actions, vous pouvez voir :&lt;&#x2F;p&gt;
 &lt;ul&gt;
-&lt;li&gt;The stock take &lt;strong&gt;number&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;The stock take &lt;strong&gt;status&lt;&#x2F;strong&gt;. There are two stock take statuses: 
+&lt;li&gt;Le numéro d&#x27;inventaire&lt;&#x2F;li&gt;
+&lt;li&gt;Le statut d&#x27;inventaire . Il existe deux statuts d&#x27;inventaire :
 &lt;ul&gt;
-&lt;li&gt;&lt;em&gt;New&lt;&#x2F;em&gt;: a stocktake you are still working on&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;em&gt;Finalised&lt;&#x2F;em&gt;: a stocktake that has alredy been performed. You can no longer edit it.&lt;&#x2F;li&gt;
+&lt;li&gt;Nouveau : un état des lieux sur lequel vous travaillez encore&lt;&#x2F;li&gt;
+&lt;li&gt;Finalisé : un état des lieux qui a déjà été réalisé. Vous ne pouvez plus le modifier.&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;&#x2F;li&gt;
-&lt;li&gt;A &lt;strong&gt;description&lt;&#x2F;strong&gt; of the stocktake (eg. March Stocktake)&lt;&#x2F;li&gt;
-&lt;li&gt;If any, a &lt;strong&gt;comment&lt;&#x2F;strong&gt; about the stoctake&lt;&#x2F;li&gt;
-&lt;li&gt;The &lt;strong&gt;date&lt;&#x2F;strong&gt; of the stock take&lt;&#x2F;li&gt;
+&lt;li&gt;Une description de l&#x27;inventaire (par exemple, inventaire de mars)&lt;&#x2F;li&gt;
+&lt;li&gt;Le cas échéant, un commentaire sur le stock&lt;&#x2F;li&gt;
+&lt;li&gt;La date de l&#x27;inventaire&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;div class=&quot;warning&quot;&gt;
-There is little point in keeping old stocktakes with status = &lt;code&gt;NEW&lt;&#x2F;code&gt;, especially if you are about to create a new stocktake containing the same items. Indeed, it can be quite dangerous to leave old stocktakes with status &lt;code&gt;NEW&lt;&#x2F;code&gt; in your system. If time has passed since the stocktake was created, then the snapshot and actual quantities are almost certainly incorrect. For good housekeeping reasons, it is good practice to delete old &lt;code&gt;NEW&lt;&#x2F;code&gt; stocktakes.
-&lt;&#x2F;div&gt;
-&lt;h2 id=&quot;creating-a-new-stock-take&quot;&gt;Creating a new stock take&lt;&#x2F;h2&gt;
-&lt;p&gt;Let&#x27;s start a new stocktake. To do so, tap on the &lt;code&gt;New Stocktake&lt;&#x2F;code&gt; button in the right corner of the screen. &lt;&#x2F;p&gt;
+Il ne sert à rien de conserver les anciens inventaires avec status = NEW, surtout si vous êtes sur le point de créer un nouvel inventaire contenant les mêmes éléments. En effet, il peut être assez dangereux de laisser d&#x27;anciens inventaires avec statut NEW dans votre système. Si du temps s&#x27;est écoulé depuis la création de l&#x27;inventaire, l&#x27;instantané et les quantités réelles sont presque certainement incorrects. Pour des raisons de bonne gestion, il est recommandé de supprimer les anciens NEW inventaires. &lt;&#x2F;div&gt;
+&lt;h2 id=&quot;creation-d-un-nouvel-inventaire&quot;&gt;Création d&#x27;un nouvel inventaire&lt;&#x2F;h2&gt;
+&lt;p&gt;Commençons un nouvel inventaire. Pour ce faire, appuyez sur le New Stocktakebouton dans le coin droit de l&#x27;écran&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;stocktake_newstocktake.png&quot; alt=&quot;Stocktake: new&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;A window appears, inviting you to select items to be counted:&lt;&#x2F;p&gt;
+&lt;p&gt;Une fenêtre apparaît, vous invitant à sélectionner les éléments à comptabiliser :&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;stocktake_additem2.png&quot; alt=&quot;Stocktake: Add item&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;selecting-items&quot;&gt;Selecting Items&lt;&#x2F;h3&gt;
-&lt;p&gt;Select items you wish to count using the check boxes. You can select more than one: &lt;&#x2F;p&gt;
+&lt;h3 id=&quot;selection-d-elements&quot;&gt;Sélection d&#x27;éléments&lt;&#x2F;h3&gt;
+&lt;p&gt;Sélectionnez les éléments que vous souhaitez compter à l&#x27;aide des cases à cocher. Vous pouvez en sélectionner plusieurs :&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;stocktake_additem_checkbox.png&quot; alt=&quot;Stocktake: add item count&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;If you want to to include every item (or most items), check the &lt;code&gt;Select All&lt;&#x2F;code&gt; box and click on &lt;code&gt;OK&lt;&#x2F;code&gt;:&lt;&#x2F;p&gt;
+&lt;p&gt;Si vous souhaitez inclure tous les éléments (ou la plupart des éléments), cochez la &lt;code&gt;Select All&lt;&#x2F;code&gt; case et cliquez sur &lt;code&gt;OK&lt;&#x2F;code&gt;:&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;stocktake_additem_selectall.png&quot; alt=&quot;Stocktake: select all&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;Use the search bar to look for a specific item by typing its name or its code: &lt;&#x2F;p&gt;
+&lt;p&gt;Utilisez la barre de recherche pour rechercher un article précis en tapant son nom ou son code :&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;stocktake_additem_search.gif&quot; alt=&quot;Stocktake: add item search&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;Click on OK when you have selected all the items you would like to count. &lt;&#x2F;p&gt;
+&lt;p&gt;Cliquez sur OK lorsque vous avez sélectionné tous les éléments que vous souhaitez compter.&lt;&#x2F;p&gt;
 &lt;div class=&quot;tip&quot;&gt;
-Don&#x27;t worry if your forget one item. You will have the possibility to add more items to your stocktake afterwards. 
+Ne vous inquiétez pas si vous oubliez un élément. Vous aurez la possibilité d&#x27;ajouter d&#x27;autres articles à votre inventaire par la suite. 
 &lt;&#x2F;div&gt;
-&lt;h3 id=&quot;printing-stocktake-sheet&quot;&gt;Printing Stocktake sheet&lt;&#x2F;h3&gt;
-&lt;p&gt;When viewing a specific Stocktake, simply click the &lt;code&gt;Print&lt;&#x2F;code&gt; button which is on the top right of the page.
-When printing, a PDF file is generated for you, which will then open in a new browser tab. This can then be printed using your browser by clicking print or using &lt;code&gt;control&lt;&#x2F;code&gt;+&lt;code&gt;P&lt;&#x2F;code&gt; (if using windows) or &lt;code&gt;cmd&lt;&#x2F;code&gt;+&lt;code&gt;P&lt;&#x2F;code&gt; keys on your keyboard (if using a mac).&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;impression-de-la-feuille-d-inventaire&quot;&gt;Impression de la feuille d&#x27;inventaire&lt;&#x2F;h3&gt;
+&lt;p&gt;Lorsque vous consultez un inventaire spécifique, cliquez simplement sur le Printbouton qui se trouve en haut à droite de la page. Lors de l&#x27;impression, un fichier PDF est généré pour vous, qui s&#x27;ouvrira ensuite dans un nouvel onglet du navigateur. Celui-ci peut ensuite être imprimé à l&#x27;aide de votre navigateur en cliquant sur imprimer ou en utilisant les touches &lt;code&gt;control+ P&lt;&#x2F;code&gt; (si vous utilisez Windows) ou &lt;code&gt;cmd+ P&lt;&#x2F;code&gt; de votre clavier (si vous utilisez un mac).&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;print_button.png&quot; alt=&quot;Print button&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;This will either&lt;&#x2F;p&gt;
+&lt;p&gt;Cela va soit:&lt;&#x2F;p&gt;
 &lt;ul&gt;
-&lt;li&gt;Show a menu of possible reports for you to select from before creating a PDF. This will happen if there are more than one report defined for the &lt;code&gt;Stocktake&lt;&#x2F;code&gt; report type.&lt;&#x2F;li&gt;
-&lt;li&gt;Create a PDF immediately, if there is only one report to select from&lt;&#x2F;li&gt;
+&lt;li&gt;Affiche un menu de rapports possibles parmi lesquels choisir avant de créer un PDF. Cela se produira si plusieurs rapports sont définis pour le Stocktaketype de rapport.&lt;&#x2F;li&gt;
+&lt;li&gt;Créez un PDF immédiatement, s&#x27;il n&#x27;y a qu&#x27;un seul rapport à sélectionner&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;os_print_menu.png&quot; alt=&quot;Print menu&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 </content>

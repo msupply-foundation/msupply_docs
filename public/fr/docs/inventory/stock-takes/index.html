@@ -48,7 +48,7 @@
 
 	
 
-<title>To be translated: Stocktakes - mSupply 🇫🇷</title>
+<title>Inventaires - mSupply 🇫🇷</title>
 <meta name="description" content="Counting and adjusting stock.">
 <link rel="canonical" href="https://docs.msupply.foundation/fr/docs/inventory/stock-takes/">
 
@@ -272,7 +272,7 @@
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/inventory/stock-view/">To be translated: Stock</a></li>
 							                           
-									<li><a class="docs-link active" href="https://docs.msupply.foundation/fr/docs/inventory/stock-takes/">To be translated: Stocktakes</a></li>
+									<li><a class="docs-link active" href="https://docs.msupply.foundation/fr/docs/inventory/stock-takes/">Inventaires</a></li>
 							
 					</ul>
 					
@@ -298,13 +298,13 @@
   							<li><a href="https://docs.msupply.foundation/fr/docs/inventory/stock-takes/#affichage-des-inventaires">Affichage des inventaires</a></li>
   							
   							
-  							<li><a href="https://docs.msupply.foundation/fr/docs/inventory/stock-takes/#creating-a-new-stock-take">Creating a new stock take</a></li>
+  							<li><a href="https://docs.msupply.foundation/fr/docs/inventory/stock-takes/#creation-d-un-nouvel-inventaire">Création d&#x27;un nouvel inventaire</a></li>
   							
   									<ul>
   											
-  											<li><a href="https://docs.msupply.foundation/fr/docs/inventory/stock-takes/#selecting-items">Selecting Items</a></li>
+  											<li><a href="https://docs.msupply.foundation/fr/docs/inventory/stock-takes/#selection-d-elements">Sélection d&#x27;éléments</a></li>
   											
-  											<li><a href="https://docs.msupply.foundation/fr/docs/inventory/stock-takes/#printing-stocktake-sheet">Printing Stocktake sheet</a></li>
+  											<li><a href="https://docs.msupply.foundation/fr/docs/inventory/stock-takes/#impression-de-la-feuille-d-inventaire">Impression de la feuille d&#x27;inventaire</a></li>
   											
   									</ul>
   							
@@ -316,61 +316,59 @@
   
 
       <main class="docs-content col-lg-11 col-xl-9">
-        <h1>To be translated: Stocktakes</h1>
-        <p class="lead">Counting and adjusting stock</p>
-        <p>mSupply will automatically keep track of your stock levels for you, as you receive and distribute it. But sometimes data gets entered incorrectly or stock goes out without anyone making an entry in the system. </p>
-<p>Of course, we try not to let that happen but, if it does happen, we can make corrections. The easiest way to correct mistakes is to do a <strong>Stocktake</strong>. </p>
-<p>In mSupply, you can easily do a stocktake for: </p>
+        <h1>Inventaires</h1>
+        <p class="lead">Comptage et ajustement des stocks</p>
+        <p>mSupply gardera automatiquement une trace de vos niveaux de stock pour vous, au fur et à mesure que vous les recevez et les distribuez. Mais parfois, les données sont saisies de manière incorrecte ou le stock s'épuise sans que personne ne fasse d'entrée dans le système.</p>
+<p>Bien sûr, nous essayons de ne pas laisser cela se produire, mais si cela se produit, nous pouvons apporter des corrections. Le moyen le plus simple de corriger les erreurs est de <strong>faire un inventaire</strong> .</p>
+<p>Dans mSupply, vous pouvez facilement faire un inventaire pour :</p>
 <ul>
-<li>A full inventory</li>
-<li>A limited range of items</li>
-<li>A single item</li>
+<li>Un inventaire complet</li>
+<li>Une gamme limitée d'articles</li>
+<li>Un seul article</li>
 </ul>
 <h2 id="affichage-des-inventaires">Affichage des inventaires</h2>
-<p>To view your stocktakes, go to <code>Inventory</code> and then <code>Stocktakes</code> in the navigation panel: </p>
+<p>Pour visualiser vos inventaires, allez sur <code>Inventory</code>puis <code>Stocktakesdans</code> le panneau de navigation :</p>
 <p><img src="/docs/inventory/stocktake_gotost.png" alt="Stocktake: nav" /></p>
-<p>This brings up a list of all your stocktakes: </p>
+<p>Cela fait apparaître une liste de tous vos inventaires :</p>
 <p><img src="/docs/inventory/stocktake_stocktakelist.png" alt="Stocktake: list" /></p>
-<p>For each stock stake you can see:</p>
+<p>Pour chaque participation en actions, vous pouvez voir :</p>
 <ul>
-<li>The stock take <strong>number</strong></li>
-<li>The stock take <strong>status</strong>. There are two stock take statuses: 
+<li>Le numéro d'inventaire</li>
+<li>Le statut d'inventaire . Il existe deux statuts d'inventaire :
 <ul>
-<li><em>New</em>: a stocktake you are still working on</li>
-<li><em>Finalised</em>: a stocktake that has alredy been performed. You can no longer edit it.</li>
+<li>Nouveau : un état des lieux sur lequel vous travaillez encore</li>
+<li>Finalisé : un état des lieux qui a déjà été réalisé. Vous ne pouvez plus le modifier.</li>
 </ul>
 </li>
-<li>A <strong>description</strong> of the stocktake (eg. March Stocktake)</li>
-<li>If any, a <strong>comment</strong> about the stoctake</li>
-<li>The <strong>date</strong> of the stock take</li>
+<li>Une description de l'inventaire (par exemple, inventaire de mars)</li>
+<li>Le cas échéant, un commentaire sur le stock</li>
+<li>La date de l'inventaire</li>
 </ul>
 <div class="warning">
-There is little point in keeping old stocktakes with status = <code>NEW</code>, especially if you are about to create a new stocktake containing the same items. Indeed, it can be quite dangerous to leave old stocktakes with status <code>NEW</code> in your system. If time has passed since the stocktake was created, then the snapshot and actual quantities are almost certainly incorrect. For good housekeeping reasons, it is good practice to delete old <code>NEW</code> stocktakes.
-</div>
-<h2 id="creating-a-new-stock-take">Creating a new stock take</h2>
-<p>Let's start a new stocktake. To do so, tap on the <code>New Stocktake</code> button in the right corner of the screen. </p>
+Il ne sert à rien de conserver les anciens inventaires avec status = NEW, surtout si vous êtes sur le point de créer un nouvel inventaire contenant les mêmes éléments. En effet, il peut être assez dangereux de laisser d'anciens inventaires avec statut NEW dans votre système. Si du temps s'est écoulé depuis la création de l'inventaire, l'instantané et les quantités réelles sont presque certainement incorrects. Pour des raisons de bonne gestion, il est recommandé de supprimer les anciens NEW inventaires. </div>
+<h2 id="creation-d-un-nouvel-inventaire">Création d'un nouvel inventaire</h2>
+<p>Commençons un nouvel inventaire. Pour ce faire, appuyez sur le New Stocktakebouton dans le coin droit de l'écran</p>
 <p><img src="/docs/inventory/stocktake_newstocktake.png" alt="Stocktake: new" /></p>
-<p>A window appears, inviting you to select items to be counted:</p>
+<p>Une fenêtre apparaît, vous invitant à sélectionner les éléments à comptabiliser :</p>
 <p><img src="/docs/inventory/stocktake_additem2.png" alt="Stocktake: Add item" /></p>
-<h3 id="selecting-items">Selecting Items</h3>
-<p>Select items you wish to count using the check boxes. You can select more than one: </p>
+<h3 id="selection-d-elements">Sélection d'éléments</h3>
+<p>Sélectionnez les éléments que vous souhaitez compter à l'aide des cases à cocher. Vous pouvez en sélectionner plusieurs :</p>
 <p><img src="/docs/inventory/stocktake_additem_checkbox.png" alt="Stocktake: add item count" /></p>
-<p>If you want to to include every item (or most items), check the <code>Select All</code> box and click on <code>OK</code>:</p>
+<p>Si vous souhaitez inclure tous les éléments (ou la plupart des éléments), cochez la <code>Select All</code> case et cliquez sur <code>OK</code>:</p>
 <p><img src="/docs/inventory/stocktake_additem_selectall.png" alt="Stocktake: select all" /></p>
-<p>Use the search bar to look for a specific item by typing its name or its code: </p>
+<p>Utilisez la barre de recherche pour rechercher un article précis en tapant son nom ou son code :</p>
 <p><img src="/docs/inventory/stocktake_additem_search.gif" alt="Stocktake: add item search" /></p>
-<p>Click on OK when you have selected all the items you would like to count. </p>
+<p>Cliquez sur OK lorsque vous avez sélectionné tous les éléments que vous souhaitez compter.</p>
 <div class="tip">
-Don't worry if your forget one item. You will have the possibility to add more items to your stocktake afterwards. 
+Ne vous inquiétez pas si vous oubliez un élément. Vous aurez la possibilité d'ajouter d'autres articles à votre inventaire par la suite. 
 </div>
-<h3 id="printing-stocktake-sheet">Printing Stocktake sheet</h3>
-<p>When viewing a specific Stocktake, simply click the <code>Print</code> button which is on the top right of the page.
-When printing, a PDF file is generated for you, which will then open in a new browser tab. This can then be printed using your browser by clicking print or using <code>control</code>+<code>P</code> (if using windows) or <code>cmd</code>+<code>P</code> keys on your keyboard (if using a mac).</p>
+<h3 id="impression-de-la-feuille-d-inventaire">Impression de la feuille d'inventaire</h3>
+<p>Lorsque vous consultez un inventaire spécifique, cliquez simplement sur le Printbouton qui se trouve en haut à droite de la page. Lors de l'impression, un fichier PDF est généré pour vous, qui s'ouvrira ensuite dans un nouvel onglet du navigateur. Celui-ci peut ensuite être imprimé à l'aide de votre navigateur en cliquant sur imprimer ou en utilisant les touches <code>control+ P</code> (si vous utilisez Windows) ou <code>cmd+ P</code> de votre clavier (si vous utilisez un mac).</p>
 <p><img src="/docs/print_button.png" alt="Print button" /></p>
-<p>This will either</p>
+<p>Cela va soit:</p>
 <ul>
-<li>Show a menu of possible reports for you to select from before creating a PDF. This will happen if there are more than one report defined for the <code>Stocktake</code> report type.</li>
-<li>Create a PDF immediately, if there is only one report to select from</li>
+<li>Affiche un menu de rapports possibles parmi lesquels choisir avant de créer un PDF. Cela se produira si plusieurs rapports sont définis pour le Stocktaketype de rapport.</li>
+<li>Créez un PDF immédiatement, s'il n'y a qu'un seul rapport à sélectionner</li>
 </ul>
 <p><img src="/docs/distribution/os_print_menu.png" alt="Print menu" /></p>
 

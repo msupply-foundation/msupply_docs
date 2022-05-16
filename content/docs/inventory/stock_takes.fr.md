@@ -1,5 +1,5 @@
 +++
-title = "To be translated: Stocktakes"
+title = "Inventaires"
 description = "Counting and adjusting stock."
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
@@ -9,82 +9,84 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "Counting and adjusting stock"
+lead = "Comptage et ajustement des stocks"
 toc = true
 top = false
 +++
 
-mSupply will automatically keep track of your stock levels for you, as you receive and distribute it. But sometimes data gets entered incorrectly or stock goes out without anyone making an entry in the system. 
+mSupply gardera automatiquement une trace de vos niveaux de stock pour vous, au fur et à mesure que vous les recevez et les distribuez. Mais parfois, les données sont saisies de manière incorrecte ou le stock s'épuise sans que personne ne fasse d'entrée dans le système.
 
-Of course, we try not to let that happen but, if it does happen, we can make corrections. The easiest way to correct mistakes is to do a **Stocktake**. 
+Bien sûr, nous essayons de ne pas laisser cela se produire, mais si cela se produit, nous pouvons apporter des corrections. Le moyen le plus simple de corriger les erreurs est de **faire un inventaire** .
 
-In mSupply, you can easily do a stocktake for: 
-* A full inventory
-* A limited range of items
-* A single item
+Dans mSupply, vous pouvez facilement faire un inventaire pour :
+
+* Un inventaire complet
+* Une gamme limitée d'articles
+* Un seul article
+
 
 ## Affichage des inventaires
 
-To view your stocktakes, go to `Inventory` and then `Stocktakes` in the navigation panel: 
+Pour visualiser vos inventaires, allez sur `Inventory`puis `Stocktakesdans` le panneau de navigation :
 
 ![Stocktake: nav](/docs/inventory/stocktake_gotost.png)
 
-This brings up a list of all your stocktakes: 
+Cela fait apparaître une liste de tous vos inventaires :
 
 ![Stocktake: list](/docs/inventory/stocktake_stocktakelist.png)
 
-For each stock stake you can see:
-* The stock take **number**
-* The stock take **status**. There are two stock take statuses: 
-    * *New*: a stocktake you are still working on
-    * *Finalised*: a stocktake that has alredy been performed. You can no longer edit it.  
-* A **description** of the stocktake (eg. March Stocktake)
-* If any, a **comment** about the stoctake
-* The **date** of the stock take
+Pour chaque participation en actions, vous pouvez voir :
+
+* Le numéro d'inventaire
+* Le statut d'inventaire . Il existe deux statuts d'inventaire :
+  *   Nouveau : un état des lieux sur lequel vous travaillez encore
+  *   Finalisé : un état des lieux qui a déjà été réalisé. Vous ne pouvez plus le modifier.
+* Une description de l'inventaire (par exemple, inventaire de mars)
+* Le cas échéant, un commentaire sur le stock
+* La date de l'inventaire
+
 
 <div class="warning">
-There is little point in keeping old stocktakes with status = <code>NEW</code>, especially if you are about to create a new stocktake containing the same items. Indeed, it can be quite dangerous to leave old stocktakes with status <code>NEW</code> in your system. If time has passed since the stocktake was created, then the snapshot and actual quantities are almost certainly incorrect. For good housekeeping reasons, it is good practice to delete old <code>NEW</code> stocktakes.
-</div>
+Il ne sert à rien de conserver les anciens inventaires avec status = NEW, surtout si vous êtes sur le point de créer un nouvel inventaire contenant les mêmes éléments. En effet, il peut être assez dangereux de laisser d'anciens inventaires avec statut NEW dans votre système. Si du temps s'est écoulé depuis la création de l'inventaire, l'instantané et les quantités réelles sont presque certainement incorrects. Pour des raisons de bonne gestion, il est recommandé de supprimer les anciens NEW inventaires. </div>
 
-## Creating a new stock take
+## Création d'un nouvel inventaire
 
-Let's start a new stocktake. To do so, tap on the `New Stocktake` button in the right corner of the screen. 
+Commençons un nouvel inventaire. Pour ce faire, appuyez sur le New Stocktakebouton dans le coin droit de l'écran
 
 ![Stocktake: new](/docs/inventory/stocktake_newstocktake.png)
 
-A window appears, inviting you to select items to be counted:
+Une fenêtre apparaît, vous invitant à sélectionner les éléments à comptabiliser :
 
 ![Stocktake: Add item](/docs/inventory/stocktake_additem2.png)
 
-### Selecting Items
+### Sélection d'éléments
 
-Select items you wish to count using the check boxes. You can select more than one: 
+Sélectionnez les éléments que vous souhaitez compter à l'aide des cases à cocher. Vous pouvez en sélectionner plusieurs :
 
 ![Stocktake: add item count](/docs/inventory/stocktake_additem_checkbox.png)
 
-If you want to to include every item (or most items), check the `Select All` box and click on `OK`:
+Si vous souhaitez inclure tous les éléments (ou la plupart des éléments), cochez la `Select All` case et cliquez sur `OK`:
 
 ![Stocktake: select all](/docs/inventory/stocktake_additem_selectall.png)
 
-Use the search bar to look for a specific item by typing its name or its code: 
+Utilisez la barre de recherche pour rechercher un article précis en tapant son nom ou son code :
 
 ![Stocktake: add item search](/docs/inventory/stocktake_additem_search.gif)
 
-Click on OK when you have selected all the items you would like to count. 
+Cliquez sur OK lorsque vous avez sélectionné tous les éléments que vous souhaitez compter.
 
 <div class="tip">
-Don't worry if your forget one item. You will have the possibility to add more items to your stocktake afterwards. 
+Ne vous inquiétez pas si vous oubliez un élément. Vous aurez la possibilité d'ajouter d'autres articles à votre inventaire par la suite. 
 </div>
 
-### Printing Stocktake sheet
+### Impression de la feuille d'inventaire
 
-When viewing a specific Stocktake, simply click the `Print` button which is on the top right of the page.
-When printing, a PDF file is generated for you, which will then open in a new browser tab. This can then be printed using your browser by clicking print or using `control`+`P` (if using windows) or `cmd`+`P` keys on your keyboard (if using a mac).
+Lorsque vous consultez un inventaire spécifique, cliquez simplement sur le Printbouton qui se trouve en haut à droite de la page. Lors de l'impression, un fichier PDF est généré pour vous, qui s'ouvrira ensuite dans un nouvel onglet du navigateur. Celui-ci peut ensuite être imprimé à l'aide de votre navigateur en cliquant sur imprimer ou en utilisant les touches `control+ P` (si vous utilisez Windows) ou `cmd+ P` de votre clavier (si vous utilisez un mac).
 
 ![Print button](/docs/print_button.png)
 
-This will either
-* Show a menu of possible reports for you to select from before creating a PDF. This will happen if there are more than one report defined for the `Stocktake` report type.
-* Create a PDF immediately, if there is only one report to select from
+Cela va soit:
+* Affiche un menu de rapports possibles parmi lesquels choisir avant de créer un PDF. Cela se produira si plusieurs rapports sont définis pour le Stocktaketype de rapport.
+* Créez un PDF immédiatement, s'il n'y a qu'un seul rapport à sélectionner
 
 ![Print menu](/docs/distribution/os_print_menu.png)
