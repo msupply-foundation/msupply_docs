@@ -19,6 +19,7 @@ title="mSupply"
 [languages.en.translations]
 flag="🇬🇧"
 TOCtitle="On this page"
+search_placeholder = "Search docs..."
 
 [languages.fr]
 generate_feed = true # there will be a feed for French content
@@ -31,6 +32,7 @@ summary = "Mon blog"
 title = "mSupply.fr"
 flag="🇫🇷"
 TOCtitle="Sur cette page"
+search_placeholder = "Rechercher des documents..."
 
 [markdown]
 # Whether to do syntax highlighting
