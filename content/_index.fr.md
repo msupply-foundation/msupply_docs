@@ -1,5 +1,5 @@
 +++
-# The homepage contents
+# Page d'Accueil
 title = "Open mSupply"
 
 [extra]

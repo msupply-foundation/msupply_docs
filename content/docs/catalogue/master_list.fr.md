@@ -1,6 +1,6 @@
 +++
-title = "To be translated: Master Lists"
-description = "master lists"
+title = "Listes Maîtres"
+description = "Listes Maîtres"
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
 draft = false

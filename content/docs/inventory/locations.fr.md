@@ -1,6 +1,6 @@
 +++
-title = "To be translated: Locations"
-description = "Manage your storage location"
+title = "Emplacements"
+description = "Gérer vos emplacements"
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
 draft = false

@@ -1,6 +1,6 @@
 +++
-title = "To be translated: Items"
-description = "Viewing items."
+title = "Produits"
+description = "Consulter les produits."
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
 draft = false
@@ -9,7 +9,7 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "Managing your catalogue"
+lead = "Gérer votre catalogue"
 toc = true
 top = false
 +++
