@@ -56,3 +56,10 @@ The following table outlines some of the common terms used in mSupply, and also 
 |    Requisition    | Customer Requisitions | An order for supply of goods made by a particular customer (facility) |
 |  Internal Orders  | Supplier Requisitions | A request for stock made for a particular supplier (facility)          |
 
+## Getting Started
+
+If you are running the server for the very first time, you may see this screen:
+
+![Initialisation](/docs/initialisation.png)
+
+Don't panic! This simply means that the server needs to know how to connect to the central mSupply server. If you don't know what to enter, contact support and they can help.

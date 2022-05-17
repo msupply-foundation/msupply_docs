@@ -7,6 +7,17 @@
         <loc>https://docs.msupply.foundation/docs/</loc>
     </url>
     <url>
+        <loc>https://docs.msupply.foundation/docs/administration/</loc>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/docs/administration/display/</loc>
+        <lastmod>2022-05-17T16:20:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/docs/administration/synchronisation/</loc>
+        <lastmod>2022-05-17T16:20:00+00:00</lastmod>
+    </url>
+    <url>
         <loc>https://docs.msupply.foundation/docs/catalogue/</loc>
     </url>
     <url>
@@ -79,6 +90,9 @@
     </url>
     <url>
         <loc>https://docs.msupply.foundation/fr/docs/</loc>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/fr/docs/administration/</loc>
     </url>
     <url>
         <loc>https://docs.msupply.foundation/fr/docs/catalogue/</loc>
