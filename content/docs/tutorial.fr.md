@@ -1,6 +1,6 @@
 +++
 title = "Didacticiel"
-description = "Introductory tutorial for Open mSupply."
+description = "Tutoriel d'intriduction à Open mSupply."
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
 draft = false
@@ -15,33 +15,32 @@ top = false
 
 ## Didacticiel: Open mSupply
 
-This tutorial is designed to guide you through the basics of using Open mSupply
+Ce didacticiel est conçu pour vous guider à travers les bases de l'utilisation d'Open mSupply.
 
-## Logging in
+## Se connecter
 
-1. For a start, you'll need to open your web browser. We like Firefox, but Chrome and its myriad children will also suffice.
-2. Enter the web address (URL) of your mSupply server. In our case we're using https://demo-open.msupply.org - our test web site.
-3. After pressing <enter> on your keyboard you'll be shown the login page
+1. Pour commencer, vous devrez ouvrir votre navigateur Web. Nous aimons Firefox, mais Chrome et sa myriade d'enfants suffiront également.
+2. Entrez l'adresse Web (URL) de votre serveur mSupply. Dans notre cas, nous utilisons https://demo-open.msupply.org - notre site Web de test.
+3. Après avoir appuyé <entrer> sur votre clavier, la page de connexion s'affichera.
 
 ![login!](/docs/log_in.png)
 
-4. Enter your user name and password and press <enter> on your keyboard, or click the [Log in] button
+4. Entrez votre nom d'utilisateur et votre mot de passe et appuyez sur <entrer> sur ton clavier, ou cliquez sur le boutton [Connexion].
 
-All going well, you'll be redirected to the dashboard page.
-If there was a problem, you'll see an error message, like this:
+Si tout se passe bien, vous serez redirigé vers la page du tableau de bord.
+S'il y a eu un problème, vous verrez un message d'erreur, comme celui-ci :
 
 ![login!](/docs/log_in_error.png)
 
-Try re-typing the username and password (note that both are case-sensitive).
-When you log in, the default store for your user is selected as the current store. If you have access to other stores, you'll be able to change stores after logging in (see below).
-If you have logged in previously, and changed stores, then the most recent store will be selected for you when you log in.
+Essayez de retaper le nom d'utilisateur et le mot de passe (notez que les deux sont sensibles à la casse).
+Lorsque vous vous connectez, le dépôt par défaut de votre utilisateur est sélectionné comme dépôt courant. Si vous avez accès à d'autres dépôts, vous pourrez changer de dépôt après vous être connecté (voir ci-dessous).
+Si vous vous êtes déjà connecté, et changé de dépôt, alors le dépôt le plus récent sera sélectionné pour vous lorsque vous vous connecterez.
 
-## Navigating around
+## Naviguer dans Open mSupply
 
-The main menu is on the left side of the screen. If you have a small screen size, then it will be collapsed by default - for larger screens it will instead be open by default.
-To open and close you can click on the logo at the top, as shown below. The menu remains either open or closed once you have selected an option.
+Le menu principal se trouve sur le côté gauche de l'écran. Si vous avez un petit écran, alors il sera réduit par défaut - pour les écrans plus grands, il sera plutôt ouvert par défaut.Pour ouvrir et fermer vous pouvez cliquer sur le logo en haut, comme indiqué ci-dessous. Le menu reste ouvert ou fermé une fois que vous avez sélectionné une option.
 
-If the menu is closed, simply hovering over the menu items will open it, in which case clicking on an item will let the menu close again. If you are on a tablet, clicking on a menu item will have the same effect.
+Si le menu est fermé, il suffit de survoler les éléments du menu pour l'ouvrir, dans ce cas, cliquer sur un élément laissera le menu se refermer. Si vous êtes sur tablette, cliquer sur un élément du menu aura le même effet.
 
 ![Main navigation](/docs/main_nav.gif)
 
