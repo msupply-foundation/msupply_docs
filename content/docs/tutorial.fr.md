@@ -38,50 +38,50 @@ Si vous vous êtes déjà connecté, et changé de dépôt, alors le dépôt le 
 
 ## Naviguer dans Open mSupply
 
-Le menu principal se trouve sur le côté gauche de l'écran. Si vous avez un petit écran, alors il sera réduit par défaut - pour les écrans plus grands, il sera plutôt ouvert par défaut.Pour ouvrir et fermer vous pouvez cliquer sur le logo en haut, comme indiqué ci-dessous. Le menu reste ouvert ou fermé une fois que vous avez sélectionné une option.
+Le menu principal se trouve sur le côté gauche de l'écran. Si vous avez un petit écran, alors il sera réduit par défaut - pour les écrans plus grands, il sera plutôt ouvert par défaut. Pour ouvrir et fermer, vous pouvez cliquer sur le logo en haut, comme indiqué ci-dessous. Le menu reste ouvert ou fermé une fois que vous avez sélectionné une option.
 
 Si le menu est fermé, il suffit de survoler les éléments du menu pour l'ouvrir, dans ce cas, cliquer sur un élément laissera le menu se refermer. Si vous êtes sur tablette, cliquer sur un élément du menu aura le même effet.
 
 ![Main navigation](/docs/main_nav.gif)
 
-On some screens you'll see that the header shows a heading, such as **Outbound Shipment** in the example above. Clicking on a specific shipment then changes that heading to **Outbound Shipment/ #[the shipment number]**. You are able to click on the **Outbound Shipment** part to return to the list - or use the main navigation on the left.
+Sur certains écrans, vous verrez afficher un libellé en en-tête, tel que **Expédition** dans l'exemple ci-avant. En cliquant sur une expédition spécifique de la liste, vous changez cet en-tête en **Expédition/ #[le numéro d'expédition]**. Vous pouvez cliquer sur  **Expédition** pour retourner à la liste - ou utiliser le menu de navigation à gauche.
 
-### Keyboard shortcuts
+### Raccourcis clavier
 
-There are keyboard shortcuts used throughout open mSupply. Rather than remember them all, to get started you simply have to remember the combination `control (ctrl)`+`k` (windows and linux) or `cmd (⌘)`+`k` (mac)
+Des raccourcis clavier sont utilisés tout au long de open mSupply. Plutôt que de tous les mémoriser, pour commencer, il vous suffit de vous souvenir de la combinaison `control (ctrl)`+`k` (windows et linux) ou `cmd (⌘)`+`k` (mac)
 
-This will bring up the following window, no matter which page you are on:
+Cela fera apparaître la fenêtre suivante, quelle que soit la page sur laquelle vous vous trouvez :
 
 ![CommandK](/docs/cmd_k.png)
 
-This shows you the list of globally available shortcuts, for example pressing `d` on your keyboard will take you to the dashboard (unless you are entering text into an input field!).
+Vous verrez afficher la liste des raccourcis globalement disponibles. Par exemple en tapant la lettre `d` de votre clavier, cela vous amènera au tableau de bord (sauf si vous saisissez du texte!).
 
-However, you can also click on an item in the list, or search available commands:
+Cependant, vous pouvez également cliquer sur un élément de la liste ou rechercher les commandes disponibles :
 
 ![CommandK](/docs/cmd_k.gif)
 
-In addition - there are various places where specific keyboard shortcuts are available. An example is the tab control used in both Stocktakes and Inbound Shipments. Here you can use `control`+`1` to navigate to the first tab (Quantities) or `control`+`2` for the second tab (Pricing) etc. If you press `+` on your keyboard, you can add a new batch. 
+De plus, il existe divers endroits où des raccourcis clavier spécifiques sont disponibles. Un exemple est l'onglet de contrôle utilisé aussi bien pour Les Inventaires que pour Les Livraisons. Ici, vous pouvez utiliser `control`+`1` pour accéder au premier onglet (Quantités) ou `control`+`2` pour le second onglet (Prix) etc. Vous pouvez ajouter un nouveau lot en tapant la touche `+` de votre clavier. 
 
 ![Inbound tabs](/docs/replenishment/is_edit_keyboard_shortcuts.png)
 
 
 
-## Footer
+## Pied de Page
 
-The bottom of the screen contains some useful information and is shown on every screen
+Le bas de l'écran contient des informations utiles et s'affiche sur chaque écran.
 
 ![Footer](/docs/footer.png)
 
-Some users have access to more than one store. To change the store which is currently selected, simply click on the store name in the footer:
+Certains utilisateurs ont accès à plus d'un dépôt. Pour changer le dépôt actuellement sélectionné, cliquez simplement sur le nom du dépôt au pied de la page:
 
 ![Store switcher](/docs/store_switcher.gif)
 
-You will see the notification and the store name in the footer will be updated. From now, all actions will be in the newly selected store.
+Vous verrez la notification et le nom du dépôt dans le pied de page sera mis à jour. À partir de maintenant, toutes les actions seront dans le dépôt nouvellement sélectionné.
 
-## Help!
+## Aide!
 
-If you get stuck at any time when using the site, click on the `Docs` menu item. 
+Si vous avez besoin d'aide à tout moment lors de l'utilisation du site, cliquez sur `Aide` qui se trouve en bas dans le menu à gauche. 
 
 ![Docs](/docs/docs_nav.png)
 
-This will take you to the documentation page which relates to the current page you are viewing.
+Cela vous amènera à la page de documentation qui se rapporte à la page actuelle que vous consultez.
