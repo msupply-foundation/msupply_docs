@@ -51,8 +51,8 @@ Le tableau suivant décrit certains des termes courants utilisés dans mSupply, 
 
 | Terme Open mSupply | Terme ancienne version   | Définition                                                               |
 | :---------------:  | :-------------------:    | :---------------------------------------------------------------------   |
-| Expédition sortant| Facture Client           | La création d'une livraison de produit à un client particulier           |
-| Expédition entrant      | Facture Fournisseur      | La réception d'une livraison de produits d'un fournisseur particulier    |
+| Expédition | Facture Client           | La création d'une livraison de produit à un client particulier           |
+| Livraison      | Facture Fournisseur      | La réception d'une livraison de produits d'un fournisseur particulier    |
 | Réquisition        | Réquisitions Client      | Une commande de produits effectuée par un client particulier             |
 | Commandes Internes | Réquisitions Fournisseur | Une demande de stock faite pour un fournisseur particulier               |
 
