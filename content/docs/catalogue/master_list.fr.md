@@ -9,20 +9,21 @@ sort_by = "weight"
 template = "docs/page.html"
 +++
 
-Master lists are standard lists of items that can only be defined at the central server level. 
+Les listes Maîtres sont des listes standard, des regroupements d'articles qui ne peuvent être définies qu'au niveau du serveur central. 
 
-## Viewing Master Lists
+## Consulter les Listes Maîtres
 
-Go to `Catalogue` > `Master Lists` in the navigation panel: 
+Allez à `Catalogue` > `Listes Maîtres` dans le panneau de navigation à gauche: 
 
 ![](/docs/catalogue/cat_gotoml.png)
 
-You will see a window like this: 
+Vous verrez une fenêtre comme celle-ci : 
 
 ![](/docs/catalogue/cat_mllist.png)
+Pour afficher tous les éléments d'une liste, cliquez simplement sur une liste.
 
 
-To view all the items of a master list, simply tap on one: 
+Le contenu de la liste s'affichera comme ci-après:
 
 ![](/docs/catalogue/cat_mldetail.png)
 
