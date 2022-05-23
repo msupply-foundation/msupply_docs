@@ -1,6 +1,6 @@
 +++
-title = "Produits"
-description = "Consulter les produits."
+title = "Articles"
+description = "Consulter les articles."
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
 draft = false
@@ -14,62 +14,62 @@ toc = true
 top = false
 +++
 
-An item in open mSupply is usually a product that you purchase from a supplier, hold in stock and supply to a customer.
-In the **Items** menu, you can all the items that are currently visible in your store. 
+Un article dans open mSupply est généralement un produit que vous achetez auprès d'un fournisseur, vous le rangez en stock et le fournissez à un client.
+Dans le menu **Articles**, vous pouvez consulter tous les articles qui sont actuellement visibles dans votre dépôt. 
 
-## Viewing items list
+## Consulter la liste des articles
 
-In the navigation panel, tap on `Catalogue` > `Items` to show the items list: 
+Dans le panneau de navigation à gauche, sélectionnez `Catalogue` > `Articles` pour voir afficher la liste des produits: 
 
 ![Items nav](/docs/catalogue/cat_gotoitems.png)
 
-You can see all the items which are available for use by your store: 
+Vous pouvez voir tous les articles disponibles et visibles pour votre dépôt :
 
 ![Items list](/docs/catalogue/cat_itemslist.png)
 
-## Viewing an item's details 
+## Consulter les détails d'un article 
 
-To view the details of an item, simply tap on one. A new window opens: 
+Pour consulter les détails d'un article, un seul clique sur la ligne de l'article suffit. Une nouvelle fenêtre apparaît: 
 
 ![Item detail](/docs/catalogue/cat_itemdetail.png)
 
-On top of the screen, you can the following information:
-* **Stock on Hand**: How much stock currently available in your store for this store
-* **AMC**: Average Monthly Consumption. This is how much stock your store uses each month on average (based on a configurable number of months, defaults to 3 months).
-* **Months of Stock**: Number of months of consumption left with current stock. This is calculated as: `Stock on Hand / AMC`.
+En haut de l'écran, vous pouvez lire les informations suivantes:
+* **Stock disponible**: Quelle quantité est actuellement disponible dans votre dépôt pour cet article
+* **CMM**: Consommation Mensuelle Moyenne. Il s'agit de la quantité utilisée en moyenne chaque mois (sur la base d'un nombre de mois configurable, par défaut configuré sur 3 mois).
+* **Mois de Stock**: Nombre de mois de consommation restant avec le stock actuel. Ce nombre est déterminé par calcul en suivant la formule: `Stock disponible / CMM`.
 
 <div class="imagetitle">
-In below example, we have 1542 units of Amoxicillin available in our store. The average consumption is 53.3  units per month which means that there is the equivalent of 28.9 months of stock in the inventory. 
+Dans l'exemple ci-dessous, nous avons 1542 unités d'amoxicilline disponibles. La consommation moyenne est de 53,3 unités par mois ce qui signifie qu'il y a l'équivalent de 28,9 mois de stock dans le dépôt. 
 </div>
 
 ![Item detail headers](/docs/catalogue/cat_itemdetailsheaders.png)
 
-In the bottom part, item details are divided into several sections:
+Dans la partie inférieure, les détails de l'article sont divisés en plusieurs sections :
 
-### Details
+### Détails
 
-* **Name**: This is the name by which mSupply will refer to the item
-* **Code**: This should be unique for each item and is a helpful shorthand for referring to items
-* **Unit**: The unit you use for this item. It is useful to distinguish items you issue by pack (eg. eye drops) from items you issue by volume (eg. oral liquids)
-* **Strength**: For a medicine, the concentration of its active ingredients (eg. for Amoxillin 250mg, the strength is 250mg)
-* **Defined Daily Dose**: The assumed  average maintenance dose per day for a medicine used for its main indication in adults
-* **Doses**: For vaccines, the number of dose per vial
-* **Vaccine** (check box): If this is checked, this item is a vaccine and a number of dose can be assigned
+* **Nom**: C'est le nom par lequel mSupply fera référence à l'article
+* **Code**: Cela devrait être unique pour chaque article et c'est un raccourci utile pour faire référence aux articles
+* **Unité**: L'unité que vous utilisez pour cet article. Il est utile de distinguer les articles que vous distribuez par paquet ou boîte (ex. les gouttes pour les yeux) des articles que vous distribuez par volume (ex. les liquides)
+* **Concentration**: Pour un médicament, il s'agit de la concentration de ses principes actifs (ex. pour l'Amoxilline 250mg, le dosage est de 250mg)
+* **Dose journalière**: La dose moyenne supposée par jour, pour un médicament utilisé pour son indication principale chez l'adulte
+* **Doses**: Pour les vaccins, le nombre de dose par flacon
+* **Vaccin** (case à cocher): Si cette case est cochée, cet élément est un vaccin et un numéro de dose peut lui être attribué
 
-### Categories
+### Catégories
 
-* **ATC Category**: ATC stands for Anatomical, Therapeutic, Chemical and is a method of classifying entities, and identifying them by category
-* **Universal Name**: if the item is linked to the [universal drug code database](https://codes.msupply.foundation/), this shows the universal, or generic name for the given item
-* **Universal Code**: similarly, the code allocated to the universal drug code item
+* **Catégorie ATC**: ATC signifie Anatomique, Thérapeutique et Chimique. C'est un système de classification des entités et de leur identification par catégorie
+* **Nom Universel**: si l'article est lié au [universal drug code database](https://codes.msupply.foundation/), cela montre le nom universel ou générique de l'élément donné
+* **Code Universel**: de même, le code attribué à la rubrique du code universel des médicaments
 
-### Packaging
+### Emballage
 
-* **Default pack size**: This is the default pack size that will be assigned to incoming stock as it is received
-* **Outer pack size**: The number of units in a carton (outer pack). Not the number of preferred pack size packs in a carton (outer pack).
-* **Volume per pack**: The default volume per preferred pack size pack. This is the volume that will be used by default when receiving goods. We recommend you divide a carton volume by the number of preferred pack size packs in a carton to get this figure. Open mSupply always stores volumes in m3 (cubic metres), but you can enter a volume as millilitres (ml) or litres (l) by entering the appropriate abbreviation after the number representing the volume. e.g. enter “0.5l” to enter a volume of 0.5 litres (= 0.0005m3).
-* **Volume per outer pack**: The default volume of an Outer pack size pack of this item
-* **Weight**: The weight of a preferred pack size pack in kg
+* **Taille par défaut**: Il s'agit de la taille du paquet par défaut qui sera attribuée au stock entrant au fur et à mesure de sa réception
+* **Taille du carton**: Il s'agit de la taille du carton (emballage extérieur), le nombre d'unité dans le carton. Il ne s'agit pas du nombre de paquets habituels d'un carton (emballage extérieur).
+* **Volume du paquet**: Le volume par défaut d'un paquet habituel. C'est le volume qui sera utilisé par défaut lors de la réception des produits. Nous vous recommandons de diviser le volume d'un carton par le nombre de paquet habituel dans un carton pour obtenir ce chiffre. Open mSupply stocke toujours les volumes en m3 (mètres cubes), mais vous pouvez entrer un volume en millilitres (ml) ou en litres (l) en saisissant l'abréviation appropriée après le nombre représentant le volume. Ex. saisir « 0,5 l » pour saisir un volume de 0,5 litre (= 0,0005 m3).
+* **Volume du carton**: Le volume par défaut d'un carton de cet article
+* **Poids**: Le poids d'un paquet habituel en kg
 
-### Pricing
+### Tarification
 
-* **Margin**: This is the default margin that will be applied to this item on Inbound Shipments to calculate the selling price
+* **Marge**: Il s'agit de la marge par défaut qui sera appliquée à cet article lors de la réception pour calculer le prix de vente

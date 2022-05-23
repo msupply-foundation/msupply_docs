@@ -60,7 +60,7 @@ Cependant, vous pouvez également cliquer sur un élément de la liste ou recher
 
 ![CommandK](/docs/cmd_k.gif)
 
-De plus, il existe divers endroits où des raccourcis clavier spécifiques sont disponibles. Un exemple est l'onglet de contrôle utilisé aussi bien pour Les Inventaires que pour Les Livraisons. Ici, vous pouvez utiliser `control`+`1` pour accéder au premier onglet (Quantités) ou `control`+`2` pour le second onglet (Prix) etc. Vous pouvez ajouter un nouveau lot en tapant la touche `+` de votre clavier. 
+De plus, il existe divers endroits où des raccourcis clavier spécifiques sont disponibles. Un exemple est l'onglet de contrôle utilisé aussi bien pour Les Inventaires que pour Les Livraisons. Ici, vous pouvez utiliser `control`+`1` pour accéder au premier onglet (Quantités) ou `control`+`2` pour le second onglet (Tarification) etc. Vous pouvez ajouter un nouveau lot en tapant la touche `+` de votre clavier. 
 
 ![Inbound tabs](/docs/replenishment/is_edit_keyboard_shortcuts.png)
 
