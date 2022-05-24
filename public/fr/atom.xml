@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
+	<title>mSupply 🇫🇷</title>
+	<link href="https://docs.msupply.foundation/fr/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://docs.msupply.foundation"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2022-03-19T18:20:00+00:00</updated>
+	<id>https://docs.msupply.foundation/fr/atom.xml</id>
+	<entry xml:lang="fr">
+		<title>Articles</title>
+		<published>2022-03-19T18:20:00+00:00</published>
+		<updated>2022-03-19T18:20:00+00:00</updated>
+		<link href="https://docs.msupply.foundation/fr/docs/catalogue/items/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/catalogue/items/</id>
+		<content type="html">&lt;p&gt;Un article dans open mSupply est généralement un produit que vous achetez auprès d&#x27;un fournisseur, vous le rangez en stock et le fournissez à un client.
+Dans le menu &lt;strong&gt;Articles&lt;&#x2F;strong&gt;, vous pouvez consulter tous les articles qui sont actuellement visibles dans votre dépôt. &lt;&#x2F;p&gt;
+&lt;h2 id=&quot;consulter-la-liste-des-articles&quot;&gt;Consulter la liste des articles&lt;&#x2F;h2&gt;
+&lt;p&gt;Dans le panneau de navigation à gauche, sélectionnez &lt;code&gt;Catalogue&lt;&#x2F;code&gt; &amp;gt; &lt;code&gt;Articles&lt;&#x2F;code&gt; pour voir afficher la liste des produits: &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;catalogue&#x2F;cat_gotoitems.png&quot; alt=&quot;Items nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Vous pouvez voir tous les articles disponibles et visibles pour votre dépôt :&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;catalogue&#x2F;cat_itemslist.png&quot; alt=&quot;Items list&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;consulter-les-details-d-un-article&quot;&gt;Consulter les détails d&#x27;un article&lt;&#x2F;h2&gt;
+&lt;p&gt;Pour consulter les détails d&#x27;un article, un seul clique sur la ligne de l&#x27;article suffit. Une nouvelle fenêtre apparaît: &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;catalogue&#x2F;cat_itemdetail.png&quot; alt=&quot;Item detail&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;En haut de l&#x27;écran, vous pouvez lire les informations suivantes:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Stock disponible&lt;&#x2F;strong&gt;: Quelle quantité est actuellement disponible dans votre dépôt pour cet article&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;CMM&lt;&#x2F;strong&gt;: Consommation Mensuelle Moyenne. Il s&#x27;agit de la quantité utilisée en moyenne chaque mois (sur la base d&#x27;un nombre de mois configurable, par défaut configuré sur 3 mois).&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Mois de Stock&lt;&#x2F;strong&gt;: Nombre de mois de consommation restant avec le stock actuel. Ce nombre est déterminé par calcul en suivant la formule: &lt;code&gt;Stock disponible &#x2F; CMM&lt;&#x2F;code&gt;.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;div class=&quot;imagetitle&quot;&gt;
+Dans l&#x27;exemple ci-dessous, nous avons 1542 unités d&#x27;amoxicilline disponibles. La consommation moyenne est de 53,3 unités par mois ce qui signifie qu&#x27;il y a l&#x27;équivalent de 28,9 mois de stock dans le dépôt. 
+&lt;&#x2F;div&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;catalogue&#x2F;cat_itemdetailsheaders.png&quot; alt=&quot;Item detail headers&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Dans la partie inférieure, les détails de l&#x27;article sont divisés en plusieurs sections :&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;details&quot;&gt;Détails&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Nom&lt;&#x2F;strong&gt;: C&#x27;est le nom par lequel mSupply fera référence à l&#x27;article&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Code&lt;&#x2F;strong&gt;: Cela devrait être unique pour chaque article et c&#x27;est un raccourci utile pour faire référence aux articles&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Unité&lt;&#x2F;strong&gt;: L&#x27;unité que vous utilisez pour cet article. Il est utile de distinguer les articles que vous distribuez par paquet ou boîte (ex. les gouttes pour les yeux) des articles que vous distribuez par volume (ex. les liquides)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Concentration&lt;&#x2F;strong&gt;: Pour un médicament, il s&#x27;agit de la concentration de ses principes actifs (ex. pour l&#x27;Amoxilline 250mg, le dosage est de 250mg)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Dose journalière&lt;&#x2F;strong&gt;: La dose moyenne supposée par jour, pour un médicament utilisé pour son indication principale chez l&#x27;adulte&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Doses&lt;&#x2F;strong&gt;: Pour les vaccins, le nombre de dose par flacon&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Vaccin&lt;&#x2F;strong&gt; (case à cocher): Si cette case est cochée, cet élément est un vaccin et un numéro de dose peut lui être attribué&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;categories&quot;&gt;Catégories&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Catégorie ATC&lt;&#x2F;strong&gt;: ATC signifie Anatomique, Thérapeutique et Chimique. C&#x27;est un système de classification des entités et de leur identification par catégorie&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Nom Universel&lt;&#x2F;strong&gt;: si l&#x27;article est lié au &lt;a href=&quot;https:&#x2F;&#x2F;codes.msupply.foundation&#x2F;&quot;&gt;universal drug code database&lt;&#x2F;a&gt;, cela montre le nom universel ou générique de l&#x27;élément donné&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Code Universel&lt;&#x2F;strong&gt;: de même, le code attribué à la rubrique du code universel des médicaments&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;emballage&quot;&gt;Emballage&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Taille par défaut&lt;&#x2F;strong&gt;: Il s&#x27;agit de la taille du paquet par défaut qui sera attribuée au stock entrant au fur et à mesure de sa réception&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Taille du carton&lt;&#x2F;strong&gt;: Il s&#x27;agit de la taille du carton (emballage extérieur), le nombre d&#x27;unité dans le carton. Il ne s&#x27;agit pas du nombre de paquets habituels d&#x27;un carton (emballage extérieur).&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Volume du paquet&lt;&#x2F;strong&gt;: Le volume par défaut d&#x27;un paquet habituel. C&#x27;est le volume qui sera utilisé par défaut lors de la réception des produits. Nous vous recommandons de diviser le volume d&#x27;un carton par le nombre de paquet habituel dans un carton pour obtenir ce chiffre. Open mSupply stocke toujours les volumes en m3 (mètres cubes), mais vous pouvez entrer un volume en millilitres (ml) ou en litres (l) en saisissant l&#x27;abréviation appropriée après le nombre représentant le volume. Ex. saisir « 0,5 l » pour saisir un volume de 0,5 litre (= 0,0005 m3).&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Volume du carton&lt;&#x2F;strong&gt;: Le volume par défaut d&#x27;un carton de cet article&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Poids&lt;&#x2F;strong&gt;: Le poids d&#x27;un paquet habituel en kg&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;tarification&quot;&gt;Tarification&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Marge&lt;&#x2F;strong&gt;: Il s&#x27;agit de la marge par défaut qui sera appliquée à cet article lors de la réception pour calculer le prix de vente&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>Listes Maîtres</title>
+		<published>2022-03-19T18:20:00+00:00</published>
+		<updated>2022-03-19T18:20:00+00:00</updated>
+		<link href="https://docs.msupply.foundation/fr/docs/catalogue/master-list/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/catalogue/master-list/</id>
+		<content type="html">&lt;p&gt;Les listes Maîtres sont des listes standard, des regroupements d&#x27;articles qui ne peuvent être définies qu&#x27;au niveau du serveur central. &lt;&#x2F;p&gt;
+&lt;h2 id=&quot;consulter-les-listes-maitres&quot;&gt;Consulter les Listes Maîtres&lt;&#x2F;h2&gt;
+&lt;p&gt;Allez à &lt;code&gt;Catalogue&lt;&#x2F;code&gt; &amp;gt; &lt;code&gt;Listes Maîtres&lt;&#x2F;code&gt; dans le panneau de navigation à gauche: &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;catalogue&#x2F;cat_gotoml.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Vous verrez une fenêtre comme celle-ci : &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;catalogue&#x2F;cat_mllist.png&quot; alt=&quot;&quot; &#x2F;&gt;
+Pour afficher tous les éléments d&#x27;une liste, cliquez simplement sur une liste.&lt;&#x2F;p&gt;
+&lt;p&gt;Le contenu de la liste s&#x27;affichera comme ci-après:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;catalogue&#x2F;cat_mldetail.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>Emplacements</title>
+		<published>2022-03-19T18:20:00+00:00</published>
+		<updated>2022-03-19T18:20:00+00:00</updated>
+		<link href="https://docs.msupply.foundation/fr/docs/inventory/locations/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/inventory/locations/</id>
+		<content type="html">&lt;p&gt;Identifier et nommer l&#x27;endroit où se trouve le stock dans votre dépôt est une partie importante des bonnes pratiques d&#x27;entrepôsage. Vous ne voulez pas avoir à parcourir tout votre dépôt pour trouver du stock, perdre du temps et de l&#x27;énergie alors que mSupply peut vous dire exactement où il se trouve !&lt;&#x2F;p&gt;
+&lt;p&gt;Les emplacements dans mSupply sont les espaces aménagés où vous rangez le stock. &lt;&#x2F;p&gt;
+&lt;h2 id=&quot;consulter-les-emplacements-de-votre-depot&quot;&gt;Consulter les emplacements de votre dépôt&lt;&#x2F;h2&gt;
+&lt;p&gt;Pour consulter les emplacements de votre dépôt, allez à &lt;code&gt;Gestion des stocks&lt;&#x2F;code&gt; &amp;gt; &lt;code&gt;Emplacements&lt;&#x2F;code&gt; dans le panneau de navigation à gauche: &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;loc_gotoloc.png&quot; alt=&quot;Location: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Vous verrez afficher la liste des emplacements de votre dépôt: &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;loc_loclist.png&quot; alt=&quot;Location: list&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;ajouter-un-nouvel-emplacement&quot;&gt;Ajouter un nouvel emplacement&lt;&#x2F;h2&gt;
+&lt;p&gt;Pour ajouter un nouvel emplacement, cliquez sur le boutton &lt;code&gt;Nouvel Emplacement&lt;&#x2F;code&gt; dans le coin supérieur droit de votre écran:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;loc_newlocbutton.png&quot; alt=&quot;Location: new location button&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Une fenêtre comme celle ci-dessous s&#x27;ouvre: &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;loc_createloc.png&quot; alt=&quot;Location: create location&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Nom&lt;&#x2F;strong&gt;: Entrez le nom de l&#x27;emplacement&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Code&lt;&#x2F;strong&gt;: Entrez un code pour le nouvel emplacement&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;En Attente&lt;&#x2F;strong&gt; (case à cocher): Si vous cochez cette case, les stocks dans cet emplacement ne peuvent être servis aux clients. Le stock peut entrer et sortir de cet emplacement mais ne peut être directement destiné à un client. &lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;div class=&quot;tip&quot;&gt;
+Mettre un emplacement En Attente peut être utile si: 
+&lt;br&gt;&lt;br&gt;
+- Le stock doit être empêché d&#x27;être servi jusqu&#x27;à une inspection &#x2F; approbation (par exemple, quarantaine ou sous caution)
+&lt;br&gt;&lt;br&gt;
+- Le stock est une quantité en vrac avec la même date d&#x27;expiration qu&#x27;une autre ligne de stock dans un autre emplacement à partir duquel vous souhaitez que le stock soit servi. Vous pouvez utiliser cette fonctionnalité pour forcer mSupply à toujours suggérer de sortir le stock de cet article à partir de l&#x27;emplacement &quot;d&#x27;émission&quot; plutôt que de cet emplacement &quot;en vrac&quot;. Lorsque vous avez fini de sortir du stock à partir de l&#x27;emplacement « d&#x27;émission », et vous souhaitez émettre le stock qui se trouve dans l&#x27;emplacement &quot;en vrac&quot;, vous devrez soit retirer l&#x27;emplacement &quot;en vrac&quot; de l&#x27;attente, soit déplacer tout ou partie (diviser) le stock de l&#x27;emplacement &quot;en vrac&quot; vers un emplacement « d&#x27;émission ».
+&lt;&#x2F;div&gt;
+&lt;h2 id=&quot;modifier-un-nouvel-emplacement&quot;&gt;Modifier un nouvel emplacement&lt;&#x2F;h2&gt;
+&lt;p&gt;Pour modifier un emplacement, cliquez simplement sur une ligne de la liste des emplacements. &lt;&#x2F;p&gt;
+&lt;h2 id=&quot;supprimer-un-emplacement&quot;&gt;Supprimer un emplacement&lt;&#x2F;h2&gt;
+&lt;p&gt;Pour supprimer un emplacement:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Cochez la case de l&#x27;emplacement que vous souhaitez supprimer dans la liste des emplacements&lt;&#x2F;li&gt;
+&lt;li&gt;Cliquez sur le menu déroulant &lt;code&gt;Sélectionner&lt;&#x2F;code&gt; et sélectionnez &lt;code&gt;Supprimer la ligne sélectionnée&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>Inventaires</title>
+		<published>2022-03-19T18:20:00+00:00</published>
+		<updated>2022-03-19T18:20:00+00:00</updated>
+		<link href="https://docs.msupply.foundation/fr/docs/inventory/stock-takes/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/inventory/stock-takes/</id>
+		<content type="html">&lt;p&gt;mSupply gardera automatiquement une trace de vos niveaux de stock pour vous, au fur et à mesure que vous les recevez et les distribuez. Mais parfois, les données sont saisies de manière incorrecte ou le stock s&#x27;épuise sans que personne ne fasse d&#x27;entrée dans le système.&lt;&#x2F;p&gt;
+&lt;p&gt;Bien sûr, nous essayons de ne pas laisser cela se produire, mais si cela se produit, nous pouvons apporter des corrections. Le moyen le plus simple de corriger les erreurs est de &lt;strong&gt;faire un inventaire&lt;&#x2F;strong&gt; .&lt;&#x2F;p&gt;
+&lt;p&gt;Dans mSupply, vous pouvez facilement faire un inventaire pour :&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Un inventaire complet&lt;&#x2F;li&gt;
+&lt;li&gt;Une gamme limitée d&#x27;articles&lt;&#x2F;li&gt;
+&lt;li&gt;Un seul article&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;affichage-des-inventaires&quot;&gt;Affichage des inventaires&lt;&#x2F;h2&gt;
+&lt;p&gt;Pour visualiser vos inventaires, allez sur &lt;code&gt;Inventory&lt;&#x2F;code&gt;puis &lt;code&gt;Stocktakesdans&lt;&#x2F;code&gt; le panneau de navigation :&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;stocktake_gotost.png&quot; alt=&quot;Stocktake: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Cela fait apparaître une liste de tous vos inventaires :&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;stocktake_stocktakelist.png&quot; alt=&quot;Stocktake: list&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Pour chaque participation en actions, vous pouvez voir :&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Le numéro d&#x27;inventaire&lt;&#x2F;li&gt;
+&lt;li&gt;Le statut d&#x27;inventaire . Il existe deux statuts d&#x27;inventaire :
+&lt;ul&gt;
+&lt;li&gt;Nouveau : un état des lieux sur lequel vous travaillez encore&lt;&#x2F;li&gt;
+&lt;li&gt;Finalisé : un état des lieux qui a déjà été réalisé. Vous ne pouvez plus le modifier.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Une description de l&#x27;inventaire (par exemple, inventaire de mars)&lt;&#x2F;li&gt;
+&lt;li&gt;Le cas échéant, un commentaire sur le stock&lt;&#x2F;li&gt;
+&lt;li&gt;La date de l&#x27;inventaire&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;div class=&quot;warning&quot;&gt;
+Il ne sert à rien de conserver les anciens inventaires avec status = NEW, surtout si vous êtes sur le point de créer un nouvel inventaire contenant les mêmes éléments. En effet, il peut être assez dangereux de laisser d&#x27;anciens inventaires avec statut NEW dans votre système. Si du temps s&#x27;est écoulé depuis la création de l&#x27;inventaire, l&#x27;instantané et les quantités réelles sont presque certainement incorrects. Pour des raisons de bonne gestion, il est recommandé de supprimer les anciens NEW inventaires. &lt;&#x2F;div&gt;
+&lt;h2 id=&quot;creation-d-un-nouvel-inventaire&quot;&gt;Création d&#x27;un nouvel inventaire&lt;&#x2F;h2&gt;
+&lt;p&gt;Commençons un nouvel inventaire. Pour ce faire, appuyez sur le New Stocktakebouton dans le coin droit de l&#x27;écran&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;stocktake_newstocktake.png&quot; alt=&quot;Stocktake: new&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Une fenêtre apparaît, vous invitant à sélectionner les éléments à comptabiliser :&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;stocktake_additem2.png&quot; alt=&quot;Stocktake: Add item&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;selection-d-elements&quot;&gt;Sélection d&#x27;éléments&lt;&#x2F;h3&gt;
+&lt;p&gt;Sélectionnez les éléments que vous souhaitez compter à l&#x27;aide des cases à cocher. Vous pouvez en sélectionner plusieurs :&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;stocktake_additem_checkbox.png&quot; alt=&quot;Stocktake: add item count&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Si vous souhaitez inclure tous les éléments (ou la plupart des éléments), cochez la &lt;code&gt;Select All&lt;&#x2F;code&gt; case et cliquez sur &lt;code&gt;OK&lt;&#x2F;code&gt;:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;stocktake_additem_selectall.png&quot; alt=&quot;Stocktake: select all&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Utilisez la barre de recherche pour rechercher un article précis en tapant son nom ou son code :&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;stocktake_additem_search.gif&quot; alt=&quot;Stocktake: add item search&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Cliquez sur OK lorsque vous avez sélectionné tous les éléments que vous souhaitez compter.&lt;&#x2F;p&gt;
+&lt;div class=&quot;tip&quot;&gt;
+Ne vous inquiétez pas si vous oubliez un élément. Vous aurez la possibilité d&#x27;ajouter d&#x27;autres articles à votre inventaire par la suite. 
+&lt;&#x2F;div&gt;
+&lt;h3 id=&quot;impression-de-la-feuille-d-inventaire&quot;&gt;Impression de la feuille d&#x27;inventaire&lt;&#x2F;h3&gt;
+&lt;p&gt;Lorsque vous consultez un inventaire spécifique, cliquez simplement sur le Printbouton qui se trouve en haut à droite de la page. Lors de l&#x27;impression, un fichier PDF est généré pour vous, qui s&#x27;ouvrira ensuite dans un nouvel onglet du navigateur. Celui-ci peut ensuite être imprimé à l&#x27;aide de votre navigateur en cliquant sur imprimer ou en utilisant les touches &lt;code&gt;control+ P&lt;&#x2F;code&gt; (si vous utilisez Windows) ou &lt;code&gt;cmd+ P&lt;&#x2F;code&gt; de votre clavier (si vous utilisez un mac).&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;print_button.png&quot; alt=&quot;Print button&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Cela va soit:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Affiche un menu de rapports possibles parmi lesquels choisir avant de créer un PDF. Cela se produira si plusieurs rapports sont définis pour le Stocktaketype de rapport.&lt;&#x2F;li&gt;
+&lt;li&gt;Créez un PDF immédiatement, s&#x27;il n&#x27;y a qu&#x27;un seul rapport à sélectionner&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;os_print_menu.png&quot; alt=&quot;Print menu&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>Stock</title>
+		<published>2022-03-19T18:20:00+00:00</published>
+		<updated>2022-03-19T18:20:00+00:00</updated>
+		<link href="https://docs.msupply.foundation/fr/docs/inventory/stock-view/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/inventory/stock-view/</id>
+		<content type="html">&lt;p&gt;L&#x27;une des plus importantes, mais la plus simple des tâches dans mSupply est de vérifier combien de stock vous avez actuellement. Lorsque vous créez un expédition sortante et que vous sélectionnez un produit à sortir, mSupply vous dira si vous avez suffisamment de stock. Vous pourrez à bien d&#x27;autres moments, utiliser cette fonctionnalité pour avoir un apperçu rapide du niveau de vos stocks, et c&#x27;est très simple à faire.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;consulter-le-stock&quot;&gt;Consulter le stock&lt;&#x2F;h2&gt;
+&lt;p&gt;Dans le menu de navigation, allez dans &lt;code&gt;Inventaire&lt;&#x2F;code&gt; et cliquez sur le sous-menu  &lt;code&gt;Stock&lt;&#x2F;code&gt;: &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;stock_gotostock.png&quot; alt=&quot;Stock: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Une liste détaillée contenant la liste de vos produits apparaît: &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;stock_viewstock.png&quot; alt=&quot;Stock: list&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;La liste est divisée en 8 colonnes: &lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Code&lt;&#x2F;strong&gt;: Il s&#x27;agit du code attribué à ce produit dans mSupply&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Noms&lt;&#x2F;strong&gt;: C&#x27;est le nom par lequel mSupply fera référence au produit&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Lot&lt;&#x2F;strong&gt;: Numéro de lot de la ligne de stock&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Expiration&lt;&#x2F;strong&gt;: Date d&#x27;expiration du lot&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Emplacement&lt;&#x2F;strong&gt;: L&#x27;espace aménagé pour le rangement du produit dans le dépôt&#x2F;entrepôt&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Unité&lt;&#x2F;strong&gt;: L&#x27;unité que vous utilisez pour ce produit&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Pack Size&lt;&#x2F;strong&gt;: Nombre d&#x27;unités par paquet&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Quantité&lt;&#x2F;strong&gt;: Nombre de paquets disponibles dans votre dépôt&#x2F;entrepôt&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;recherche-d-un-produit-specifique&quot;&gt;Recherche d&#x27;un produit spécifique&lt;&#x2F;h2&gt;
+&lt;p&gt;Vous pouvez filtrer la liste par le nom ou le code du produit. Cela peut être utile si vous recherchez un produit en particulier.&lt;&#x2F;p&gt;
+&lt;p&gt;Tapez le nom du produit ou le code dans le champs &lt;code&gt;Entrez le code ou le nom du produit&lt;&#x2F;code&gt;: &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;stock_search.gif&quot; alt=&quot;Stock: search&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>Didacticiel</title>
+		<published>2022-03-19T18:20:00+00:00</published>
+		<updated>2022-03-19T18:20:00+00:00</updated>
+		<link href="https://docs.msupply.foundation/fr/docs/tutorial/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/tutorial/</id>
+		<content type="html">&lt;h2 id=&quot;didacticiel-open-msupply&quot;&gt;Didacticiel: Open mSupply&lt;&#x2F;h2&gt;
+&lt;p&gt;Ce didacticiel est conçu pour vous guider à travers les bases de l&#x27;utilisation d&#x27;Open mSupply.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;se-connecter&quot;&gt;Se connecter&lt;&#x2F;h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Pour commencer, vous devrez ouvrir votre navigateur Web. Nous aimons Firefox, mais Chrome et sa myriade d&#x27;enfants suffiront également.&lt;&#x2F;li&gt;
+&lt;li&gt;Entrez l&#x27;adresse Web (URL) de votre serveur mSupply. Dans notre cas, nous utilisons https:&#x2F;&#x2F;demo-open.msupply.org - notre site Web de test.&lt;&#x2F;li&gt;
+&lt;li&gt;Après avoir appuyé &lt;entrer&gt; sur votre clavier, la page de connexion s&#x27;affichera.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;log_in.png&quot; alt=&quot;login!&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;Entrez votre nom d&#x27;utilisateur et votre mot de passe et appuyez sur &lt;entrer&gt; sur ton clavier, ou cliquez sur le boutton [Connexion].&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Si tout se passe bien, vous serez redirigé vers la page du tableau de bord.
+S&#x27;il y a eu un problème, vous verrez un message d&#x27;erreur, comme celui-ci :&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;log_in_error.png&quot; alt=&quot;login!&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Essayez de retaper le nom d&#x27;utilisateur et le mot de passe (notez que les deux sont sensibles à la casse).
+Lorsque vous vous connectez, le dépôt par défaut de votre utilisateur est sélectionné comme dépôt courant. Si vous avez accès à d&#x27;autres dépôts, vous pourrez changer de dépôt après vous être connecté (voir ci-dessous).
+Si vous vous êtes déjà connecté, et changé de dépôt, alors le dépôt le plus récent sera sélectionné pour vous lorsque vous vous connecterez.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;naviguer-dans-open-msupply&quot;&gt;Naviguer dans Open mSupply&lt;&#x2F;h2&gt;
+&lt;p&gt;Le menu principal se trouve sur le côté gauche de l&#x27;écran. Si vous avez un petit écran, alors il sera réduit par défaut - pour les écrans plus grands, il sera plutôt ouvert par défaut. Pour ouvrir et fermer, vous pouvez cliquer sur le logo en haut, comme indiqué ci-dessous. Le menu reste ouvert ou fermé une fois que vous avez sélectionné une option.&lt;&#x2F;p&gt;
+&lt;p&gt;Si le menu est fermé, il suffit de survoler les éléments du menu pour l&#x27;ouvrir, dans ce cas, cliquer sur un élément laissera le menu se refermer. Si vous êtes sur tablette, cliquer sur un élément du menu aura le même effet.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;main_nav.gif&quot; alt=&quot;Main navigation&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Sur certains écrans, vous verrez afficher un libellé en en-tête, tel que &lt;strong&gt;Expédition&lt;&#x2F;strong&gt; dans l&#x27;exemple ci-avant. En cliquant sur une expédition spécifique de la liste, vous changez cet en-tête en &lt;strong&gt;Expédition&#x2F; #[le numéro d&#x27;expédition]&lt;&#x2F;strong&gt;. Vous pouvez cliquer sur  &lt;strong&gt;Expédition&lt;&#x2F;strong&gt; pour retourner à la liste - ou utiliser le menu de navigation à gauche.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;raccourcis-clavier&quot;&gt;Raccourcis clavier&lt;&#x2F;h3&gt;
+&lt;p&gt;Des raccourcis clavier sont utilisés tout au long de open mSupply. Plutôt que de tous les mémoriser, pour commencer, il vous suffit de vous souvenir de la combinaison &lt;code&gt;control (ctrl)&lt;&#x2F;code&gt;+&lt;code&gt;k&lt;&#x2F;code&gt; (windows et linux) ou &lt;code&gt;cmd (⌘)&lt;&#x2F;code&gt;+&lt;code&gt;k&lt;&#x2F;code&gt; (mac)&lt;&#x2F;p&gt;
+&lt;p&gt;Cela fera apparaître la fenêtre suivante, quelle que soit la page sur laquelle vous vous trouvez :&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;cmd_k.png&quot; alt=&quot;CommandK&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Vous verrez afficher la liste des raccourcis globalement disponibles. Par exemple en tapant la lettre &lt;code&gt;d&lt;&#x2F;code&gt; de votre clavier, cela vous amènera au tableau de bord (sauf si vous saisissez du texte!).&lt;&#x2F;p&gt;
+&lt;p&gt;Cependant, vous pouvez également cliquer sur un élément de la liste ou rechercher les commandes disponibles :&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;cmd_k.gif&quot; alt=&quot;CommandK&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;De plus, il existe divers endroits où des raccourcis clavier spécifiques sont disponibles. Un exemple est l&#x27;onglet de contrôle utilisé aussi bien pour Les Inventaires que pour Les Livraisons. Ici, vous pouvez utiliser &lt;code&gt;control&lt;&#x2F;code&gt;+&lt;code&gt;1&lt;&#x2F;code&gt; pour accéder au premier onglet (Quantités) ou &lt;code&gt;control&lt;&#x2F;code&gt;+&lt;code&gt;2&lt;&#x2F;code&gt; pour le second onglet (Tarification) etc. Vous pouvez ajouter un nouveau lot en tapant la touche &lt;code&gt;+&lt;&#x2F;code&gt; de votre clavier. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;is_edit_keyboard_shortcuts.png&quot; alt=&quot;Inbound tabs&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;pied-de-page&quot;&gt;Pied de Page&lt;&#x2F;h2&gt;
+&lt;p&gt;Le bas de l&#x27;écran contient des informations utiles et s&#x27;affiche sur chaque écran.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;footer.png&quot; alt=&quot;Footer&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Certains utilisateurs ont accès à plus d&#x27;un dépôt. Pour changer le dépôt actuellement sélectionné, cliquez simplement sur le nom du dépôt au pied de la page:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;store_switcher.gif&quot; alt=&quot;Store switcher&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Vous verrez la notification et le nom du dépôt dans le pied de page sera mis à jour. À partir de maintenant, toutes les actions seront dans le dépôt nouvellement sélectionné.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;aide&quot;&gt;Aide!&lt;&#x2F;h2&gt;
+&lt;p&gt;Si vous avez besoin d&#x27;aide à tout moment lors de l&#x27;utilisation du site, cliquez sur &lt;code&gt;Aide&lt;&#x2F;code&gt; qui se trouve en bas dans le menu à gauche. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;docs_nav.png&quot; alt=&quot;Docs&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Cela vous amènera à la page de documentation qui se rapporte à la page actuelle que vous consultez.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>Introduction à Open mSupply</title>
+		<published>2022-03-17T18:20:00+00:00</published>
+		<updated>2022-03-17T18:20:00+00:00</updated>
+		<link href="https://docs.msupply.foundation/fr/docs/introduction/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/introduction/</id>
+		<content type="html">&lt;h2 id=&quot;historique&quot;&gt;Historique&lt;&#x2F;h2&gt;
+&lt;p&gt;Open mSupply s&#x27;appuie sur plus de 20 années d&#x27;expériences enrichissantes de mSupply, au cours desquelles il est devenu le système d&#x27;information de gestion logistique (SIGL) le plus utilisé dans les pays à revenu faible et intermédiaire.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;qu-est-ce-que-open-msupply-permet-de-realiser&quot;&gt;Qu&#x27;est ce que Open mSupply permet de réaliser?&lt;&#x2F;h2&gt;
+&lt;p&gt;En bref, Open mSupply gère votre inventaire, génère votre commande, enregistre chaque réception et sortie de produits, et fournit ainsi un solde courant actualisé de votre stock disponible pour chaque produit.&lt;&#x2F;p&gt;
+&lt;p&gt;Open mSupply fait bien plus que cela. Les fonctionnalités incluent:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gestion de l&#x27;inventaire
+&lt;ul&gt;
+&lt;li&gt;Voir facilement le stock disponible par lot&lt;&#x2F;li&gt;
+&lt;li&gt;Gère les emplacements des rayons pour votre depot&#x2F;entrepôt&lt;&#x2F;li&gt;
+&lt;li&gt;Attribuer des emplacements au stock entrant, ou changez d&#x27;emplacement lorsque vous réorganisez le stock dans votre dépôt&#x2F;entrepôt&lt;&#x2F;li&gt;
+&lt;li&gt;Effectuer des inventaires, et indiquer les raisons des ajustements d&#x27;inventaire&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Recevoir et exécuter les commandes des clients (entités que vous fournissez)&lt;&#x2F;li&gt;
+&lt;li&gt;Commander auprès de votre dépôt&#x2F;entrepôt fournisseur
+&lt;ul&gt;
+&lt;li&gt;Quantifier automatiquement les besoins futurs à partir de formules simples ou complexes&lt;&#x2F;li&gt;
+&lt;li&gt;Suivre l&#x27;état de la commande au fur et à mesure que votre fournisseur traite et expédie les produits commandés&lt;&#x2F;li&gt;
+&lt;li&gt;Faire entrer les produits en stock après vérifications&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Être alerté des niveaux de stock critiques depuis le tableau de bord&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;qu-est-ce-qui-rend-open-msupply-si-special&quot;&gt;Qu&#x27;est-ce qui rend Open mSupply si spécial?&lt;&#x2F;h2&gt;
+&lt;p&gt;Il existe de nombreux systèmes de gestion de stocks. mSupply possède des fonctionnalités uniques qui le rendent idéal pour une utilisation dans les chaînes d&#x27;approvisionnement de santé dans les pays à faibles ressources :&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Hors ligne d&#x27;abord&lt;&#x2F;strong&gt; mSupply est conçu dès le départ pour fonctionner sans Internet. Nous savons, grâce à 20 ans d&#x27;expérience, que même les connexions Internet les plus fiables peuvent se montrer instables voir s&#x27;interrompre. mSupply vous permet de travailler sans avoir à vous soucier de la qualité ou de la continuité d&#x27;Internet. Bien sûr, lorsque vous devez passer des commandes ou recevoir des mises à jour, vous avez besoin d&#x27;Internet pendant quelques minutes.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Evolutif&lt;&#x2F;strong&gt; Nous avons conçu Open mSupply non seulement pour gérer des milliards de transactions par an, mais aussi pour avoir la possibilité de travailler sur une tablette Android! Vous pouvez implémenter mSupply dans un dépôt&#x2F;entrepôt, sachant que si vous décidez par la suite de déployer des milliers de sites, mSupply sera toujours l&#x27;outil adéquat pour continuer.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Pour avoir un aperçu de l&#x27;étendue des fonctionnalités de mSupply, jetez un oeil par ici sur cet héritage &lt;a href=&quot;https:&#x2F;&#x2F;www.msupply.org.nz&quot;&gt;https:&#x2F;&#x2F;www.msupply.org.nz&lt;&#x2F;a&gt; - C&#x27;est presque 1000 pages si vous imprimez tout (Alors n&#x27;essayez surtout pas ☺️)&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;terminologie&quot;&gt;Terminologie&lt;&#x2F;h3&gt;
+&lt;p&gt;Le tableau suivant décrit certains des termes courants utilisés dans mSupply, et guide également les utilisateurs de l&#x27;ancienne version de mSupply sur les améliorations terminologiques que nous avons apportées.&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;Terme Open mSupply&lt;&#x2F;th&gt;&lt;th align=&quot;center&quot;&gt;Terme ancienne version&lt;&#x2F;th&gt;&lt;th align=&quot;left&quot;&gt;Définition&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Expédition&lt;&#x2F;td&gt;&lt;td align=&quot;center&quot;&gt;Facture Client&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;La création d&#x27;une livraison de produit à un client particulier&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Livraison&lt;&#x2F;td&gt;&lt;td align=&quot;center&quot;&gt;Facture Fournisseur&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;La réception d&#x27;une livraison de produits d&#x27;un fournisseur particulier&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Réquisition&lt;&#x2F;td&gt;&lt;td align=&quot;center&quot;&gt;Réquisitions Client&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Une commande de produits effectuée par un client particulier&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Commandes Internes&lt;&#x2F;td&gt;&lt;td align=&quot;center&quot;&gt;Réquisitions Fournisseur&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Une demande de stock faite pour un fournisseur particulier&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+</content>
+	</entry>
+</feed>
