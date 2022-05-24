@@ -9,53 +9,53 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "View and manage your storage locations"
+lead = "Consulter et gérer vos emplacements de stockage"
 toc = true
 top = false
 +++
 
-Keeping track of where stock is in your store is an important part of good warehouse practice. You don't want to have to go hunting through your whole store for stock, wasting time and energy when mSupply can tell you exactly where it is!
+Identifier et nommer l'endroit où se trouve le stock dans votre dépôt est une partie importante des bonnes pratiques d'entrepôsage. Vous ne voulez pas avoir à parcourir tout votre dépôt pour trouver du stock, perdre du temps et de l'énergie alors que mSupply peut vous dire exactement où il se trouve !
 
-Locations in mSupply are the places you store stock. 
+Les emplacements dans mSupply sont les espaces aménagés où vous rangez le stock. 
 
-## Viewing your store's locations
+## Consulter les emplacements de votre dépôt
 
-To view the storage locations of your store, go to `Inventory` > `Locations` in the navigation panel: 
+Pour consulter les emplacements de votre dépôt, allez à `Gestion des stocks` > `Emplacements` dans le panneau de navigation à gauche: 
 
 ![Location: nav](/docs/inventory/loc_gotoloc.png)
 
-You will see a list of your storage locations: 
+Vous verrez afficher la liste des emplacements de votre dépôt: 
 
 ![Location: list](/docs/inventory/loc_loclist.png)
 
-## Creating a new location
+## Ajouter un nouvel emplacement
 
-To create a new location, tap on the `New Location` button in the top right corner of the screen:
+Pour ajouter un nouvel emplacement, cliquez sur le boutton `Nouvel Emplacement` dans le coin supérieur droit de votre écran:
 
 ![Location: new location button](/docs/inventory/loc_newlocbutton.png)
 
-A window like this opens: 
+Une fenêtre comme celle ci-dessous s'ouvre: 
 
 ![Location: create location](/docs/inventory/loc_createloc.png)
 
-1. **Name**: Enter the name of the new location
-2. **Code**: Enter a code for the new location
-3. **On Hold** (checkbox): If you check this box, then goods in this location cannot be selected for issue to customers. Goods can be moved in to, and out, of the location but they cannot be issued from that location. 
+1. **Nom**: Entrez le nom de l'emplacement
+2. **Code**: Entrez un code pour le nouvel emplacement
+3. **En Attente** (case à cocher): Si vous cochez cette case, les stocks dans cet emplacement ne peuvent être servis aux clients. Le stock peut entrer et sortir de cet emplacement mais ne peut être directement destiné à un client. 
 
 <div class="tip">
-Putting a location on hold can be useful if: 
+Mettre un emplacement En Attente peut être utile si: 
 <br><br>
-- The stock needs to be kept from being issued until some inspection / approval (e.g. quarantine or under bond)
+- Le stock doit être empêché d'être servi jusqu'à une inspection / approbation (par exemple, quarantaine ou sous caution)
 <br><br>
-- The stock is a bulk quantity with the same expiry date as another stock line in another location from which you want stock issued. You can use this feature to force mSupply to always suggest issuing stock of this item from the 'issue' location rather than this 'bulk' location. When you have finished issuing stock from the 'issue' location, and you want to issue the stock that is in the 'bulk' location, you will need to either take the 'bulk' location off hold, or, move all, or some of it (split), the stock from the 'bulk' location. 
+- Le stock est une quantité en vrac avec la même date d'expiration qu'une autre ligne de stock dans un autre emplacement à partir duquel vous souhaitez que le stock soit servi. Vous pouvez utiliser cette fonctionnalité pour forcer mSupply à toujours suggérer de sortir le stock de cet article à partir de l'emplacement "d'émission" plutôt que de cet emplacement "en vrac". Lorsque vous avez fini de sortir du stock à partir de l'emplacement « d'émission », et vous souhaitez émettre le stock qui se trouve dans l'emplacement "en vrac", vous devrez soit retirer l'emplacement "en vrac" de l'attente, soit déplacer tout ou partie (diviser) le stock de l'emplacement "en vrac" vers un emplacement « d'émission ».
 </div>
 
-## Editing a new location
+## Modifier un nouvel emplacement
 
-To edit a location, simply tap on one in the location list. 
+Pour modifier un emplacement, cliquez simplement sur une ligne de la liste des emplacements. 
 
-## Deleting a location
+## Supprimer un emplacement
 
-To delete a location:
-1. Check the box of the location that you want to delete in the location list
-2. Click on the `Select` dropdown menu and select `Delete selected line`
+Pour supprimer un emplacement:
+1. Cochez la case de l'emplacement que vous souhaitez supprimer dans la liste des emplacements
+2. Cliquez sur le menu déroulant `Sélectionner` et sélectionnez `Supprimer la ligne sélectionnée`
