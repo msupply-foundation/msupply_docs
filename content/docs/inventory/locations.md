@@ -22,21 +22,21 @@ Locations in mSupply are the places you store stock.
 
 To view the storage locations of your store, go to `Inventory` > `Locations` in the navigation panel: 
 
-![Location: nav](/docs/inventory/loc_gotoloc.png)
+![Location: nav](/docs/inventory/images/loc_gotoloc.png)
 
 You will see a list of your storage locations: 
 
-![Location: list](/docs/inventory/loc_loclist.png)
+![Location: list](/docs/inventory/images/loc_loclist.png)
 
 ## Creating a new location
 
 To create a new location, tap on the `New Location` button in the top right corner of the screen:
 
-![Location: new location button](/docs/inventory/loc_newlocbutton.png)
+![Location: new location button](/docs/inventory/images/loc_newlocbutton.png)
 
 A window like this opens: 
 
-![Location: create location](/docs/inventory/loc_createloc.png)
+![Location: create location](/docs/inventory/images/loc_createloc.png)
 
 1. **Name**: Enter the name of the new location
 2. **Code**: Enter a code for the new location

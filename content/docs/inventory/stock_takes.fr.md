@@ -29,11 +29,11 @@ Dans mSupply, vous pouvez facilement faire un inventaire pour :
 
 Pour visualiser vos inventaires, allez sur `Inventory`puis `Stocktakesdans` le panneau de navigation :
 
-![Stocktake: nav](/docs/inventory/stocktake_gotost.png)
+![Stocktake: nav](/docs/inventory/images/stocktake_gotost.png)
 
 Cela fait apparaître une liste de tous vos inventaires :
 
-![Stocktake: list](/docs/inventory/stocktake_stocktakelist.png)
+![Stocktake: list](/docs/inventory/images/stocktake_stocktakelist.png)
 
 Pour chaque participation en actions, vous pouvez voir :
 
@@ -53,25 +53,25 @@ Il ne sert à rien de conserver les anciens inventaires avec status = NEW, surto
 
 Commençons un nouvel inventaire. Pour ce faire, appuyez sur le New Stocktakebouton dans le coin droit de l'écran
 
-![Stocktake: new](/docs/inventory/stocktake_newstocktake.png)
+![Stocktake: new](/docs/inventory/images/stocktake_newstocktake.png)
 
 Une fenêtre apparaît, vous invitant à sélectionner les éléments à comptabiliser :
 
-![Stocktake: Add item](/docs/inventory/stocktake_additem2.png)
+![Stocktake: Add item](/docs/inventory/images/stocktake_additem2.png)
 
 ### Sélection d'éléments
 
 Sélectionnez les éléments que vous souhaitez compter à l'aide des cases à cocher. Vous pouvez en sélectionner plusieurs :
 
-![Stocktake: add item count](/docs/inventory/stocktake_additem_checkbox.png)
+![Stocktake: add item count](/docs/inventory/images/stocktake_additem_checkbox.png)
 
 Si vous souhaitez inclure tous les éléments (ou la plupart des éléments), cochez la `Select All` case et cliquez sur `OK`:
 
-![Stocktake: select all](/docs/inventory/stocktake_additem_selectall.png)
+![Stocktake: select all](/docs/inventory/images/stocktake_additem_selectall.png)
 
 Utilisez la barre de recherche pour rechercher un article précis en tapant son nom ou son code :
 
-![Stocktake: add item search](/docs/inventory/stocktake_additem_search.gif)
+![Stocktake: add item search](/docs/inventory/images/stocktake_additem_search.gif)
 
 Cliquez sur OK lorsque vous avez sélectionné tous les éléments que vous souhaitez compter.
 
@@ -83,10 +83,10 @@ Ne vous inquiétez pas si vous oubliez un élément. Vous aurez la possibilité 
 
 Lorsque vous consultez un inventaire spécifique, cliquez simplement sur le Printbouton qui se trouve en haut à droite de la page. Lors de l'impression, un fichier PDF est généré pour vous, qui s'ouvrira ensuite dans un nouvel onglet du navigateur. Celui-ci peut ensuite être imprimé à l'aide de votre navigateur en cliquant sur imprimer ou en utilisant les touches `control+ P` (si vous utilisez Windows) ou `cmd+ P` de votre clavier (si vous utilisez un mac).
 
-![Print button](/docs/print_button.png)
+![Print button](/docs/images/print_button.png)
 
 Cela va soit:
 * Affiche un menu de rapports possibles parmi lesquels choisir avant de créer un PDF. Cela se produira si plusieurs rapports sont définis pour le Stocktaketype de rapport.
 * Créez un PDF immédiatement, s'il n'y a qu'un seul rapport à sélectionner
 
-![Print menu](/docs/distribution/os_print_menu.png)
+![Print menu](/docs/distribution/images/os_print_menu.png)

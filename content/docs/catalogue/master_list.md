@@ -15,15 +15,15 @@ Master lists are standard lists of items that can only be defined at the central
 
 Go to `Catalogue` > `Master Lists` in the navigation panel: 
 
-![](/docs/catalogue/cat_gotoml.png)
+![](/docs/catalogue/images/cat_gotoml.png)
 
 You will see a window like this: 
 
-![](/docs/catalogue/cat_mllist.png)
+![](/docs/catalogue/images/cat_mllist.png)
 
 
 To view all the items of a master list, simply tap on one: 
 
-![](/docs/catalogue/cat_mldetail.png)
+![](/docs/catalogue/images/cat_mldetail.png)
 
 

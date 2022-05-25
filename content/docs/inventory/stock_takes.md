@@ -27,11 +27,11 @@ In mSupply, you can easily do a stocktake for:
 
 To view your stocktakes, go to `Inventory` and then `Stocktakes` in the navigation panel: 
 
-![Stocktake: nav](/docs/inventory/stocktake_gotost.png)
+![Stocktake: nav](/docs/inventory/images/stocktake_gotost.png)
 
 This brings up a list of all your stocktakes: 
 
-![Stocktake: list](/docs/inventory/stocktake_stocktakelist.png)
+![Stocktake: list](/docs/inventory/images/stocktake_stocktakelist.png)
 
 For each stock stake you can see:
 * The stock take **number**
@@ -50,25 +50,25 @@ There is little point in keeping old stocktakes with status = <code>NEW</code>, 
 
 Let's start a new stocktake. To do so, tap on the `New Stocktake` button in the right corner of the screen. 
 
-![Stocktake: new](/docs/inventory/stocktake_newstocktake.png)
+![Stocktake: new](/docs/inventory/images/stocktake_newstocktake.png)
 
 A window appears, inviting you to select items to be counted:
 
-![Stocktake: Add item](/docs/inventory/stocktake_additem2.png)
+![Stocktake: Add item](/docs/inventory/images/stocktake_additem2.png)
 
 ### Selecting Items
 
 Select items you wish to count using the check boxes. You can select more than one: 
 
-![Stocktake: add item count](/docs/inventory/stocktake_additem_checkbox.png)
+![Stocktake: add item count](/docs/inventory/images/stocktake_additem_checkbox.png)
 
 If you want to to include every item (or most items), check the `Select All` box and click on `OK`:
 
-![Stocktake: select all](/docs/inventory/stocktake_additem_selectall.png)
+![Stocktake: select all](/docs/inventory/images/stocktake_additem_selectall.png)
 
 Use the search bar to look for a specific item by typing its name or its code: 
 
-![Stocktake: add item search](/docs/inventory/stocktake_additem_search.gif)
+![Stocktake: add item search](/docs/inventory/images/stocktake_additem_search.gif)
 
 Click on OK when you have selected all the items you would like to count. 
 
@@ -81,10 +81,10 @@ Don't worry if your forget one item. You will have the possibility to add more i
 When viewing a specific Stocktake, simply click the `Print` button which is on the top right of the page.
 When printing, a PDF file is generated for you, which will then open in a new browser tab. This can then be printed using your browser by clicking print or using `control`+`P` (if using windows) or `cmd`+`P` keys on your keyboard (if using a mac).
 
-![Print button](/docs/print_button.png)
+![Print button](/docs/images/print_button.png)
 
 This will either
 * Show a menu of possible reports for you to select from before creating a PDF. This will happen if there are more than one report defined for the `Stocktake` report type.
 * Create a PDF immediately, if there is only one report to select from
 
-![Print menu](/docs/distribution/os_print_menu.png)
+![Print menu](/docs/distribution/images/os_print_menu.png)

@@ -15,16 +15,16 @@ Les listes Maîtres sont des listes standard, des regroupements d'articles qui n
 
 Allez à `Catalogue` > `Listes Maîtres` dans le panneau de navigation à gauche: 
 
-![](/docs/catalogue/cat_gotoml.png)
+![](/docs/catalogue/images/cat_gotoml.png)
 
 Vous verrez une fenêtre comme celle-ci : 
 
-![](/docs/catalogue/cat_mllist.png)
+![](/docs/catalogue/images/cat_mllist.png)
 Pour afficher tous les éléments d'une liste, cliquez simplement sur une liste.
 
 
 Le contenu de la liste s'affichera comme ci-après:
 
-![](/docs/catalogue/cat_mldetail.png)
+![](/docs/catalogue/images/cat_mldetail.png)
 
 

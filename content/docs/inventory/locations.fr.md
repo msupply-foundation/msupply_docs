@@ -22,21 +22,21 @@ Les emplacements dans mSupply sont les espaces aménagés où vous rangez le sto
 
 Pour consulter les emplacements de votre dépôt, allez à `Gestion des stocks` > `Emplacements` dans le panneau de navigation à gauche: 
 
-![Location: nav](/docs/inventory/loc_gotoloc.png)
+![Location: nav](/docs/inventory/images/loc_gotoloc.png)
 
 Vous verrez afficher la liste des emplacements de votre dépôt: 
 
-![Location: list](/docs/inventory/loc_loclist.png)
+![Location: list](/docs/inventory/images/loc_loclist.png)
 
 ## Ajouter un nouvel emplacement
 
 Pour ajouter un nouvel emplacement, cliquez sur le boutton `Nouvel Emplacement` dans le coin supérieur droit de votre écran:
 
-![Location: new location button](/docs/inventory/loc_newlocbutton.png)
+![Location: new location button](/docs/inventory/images/loc_newlocbutton.png)
 
 Une fenêtre comme celle ci-dessous s'ouvre: 
 
-![Location: create location](/docs/inventory/loc_createloc.png)
+![Location: create location](/docs/inventory/images/loc_createloc.png)
 
 1. **Nom**: Entrez le nom de l'emplacement
 2. **Code**: Entrez un code pour le nouvel emplacement

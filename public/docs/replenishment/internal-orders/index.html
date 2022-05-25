@@ -239,6 +239,9 @@
 					
 					
 					
+					
+					
+					
 							<h3>Replenishment</h3>
 							<ul class="list-unstyled">
 							                           
@@ -336,6 +339,12 @@
           >
         </div>
         
+        <div style="float: right; padding: 5px">
+          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;fr&#x2F;docs&#x2F;replenishment&#x2F;internal-orders&#x2F;" title="Change language to fr"
+            >🇫🇷</a
+          >
+        </div>
+        
 
         <h1>Internal Orders</h1>
          <p>Internal Orders go by several other names in certain countries or systems:</p>
@@ -352,11 +361,11 @@
 <li>Navigate to the <code>Replenishment</code> menu</li>
 <li>Tap on <code>Internal Orders</code></li>
 </ol>
-<p><img src="/docs/replenishment/intord_access.png" alt="Internal Order: nav" /></p>
+<p><img src="/docs/replenishment/images/intord_access.png" alt="Internal Order: nav" /></p>
 <p>You will see a list of all existing internal orders: </p>
-<p><img src="/docs/replenishment/intord_list.png" alt="Internal Order: list" /></p>
+<p><img src="/docs/replenishment/images/intord_list.png" alt="Internal Order: list" /></p>
 <p>You can use the <code>Search by comment</code> field to filter the list by the comments of the internal orders: </p>
-<p><img src="/docs/replenishment/intord_filterlistbycomment.gif" alt="Internal Order: filter by comment" /></p>
+<p><img src="/docs/replenishment/images/intord_filterlistbycomment.gif" alt="Internal Order: filter by comment" /></p>
 <p>You can sort the list using the column headers:</p>
 <ol>
 <li>Tap the column header of the column that you want to sort. The column is sorted in ascending order. </li>
@@ -367,15 +376,15 @@
 <ol>
 <li>Click on the <code>New Order</code> button (top right corner): </li>
 </ol>
-<p><img src="/docs/replenishment/intord_newreqbutton.png" alt="Internal Order: new order" /></p>
+<p><img src="/docs/replenishment/images/intord_newreqbutton.png" alt="Internal Order: new order" /></p>
 <ol start="2">
 <li>A new window opens, inviting your to select a supplier: </li>
 </ol>
-<p><img src="/docs/replenishment/intord_selectsupplier2.png" alt="Internal Order: select supplier" /></p>
+<p><img src="/docs/replenishment/images/intord_selectsupplier2.png" alt="Internal Order: select supplier" /></p>
 <ol start="3">
 <li>Select a Supplier by pressing on its name. You will see a window like this: </li>
 </ol>
-<p><img src="/docs/replenishment/intord_newintord.png" alt="Internal Order: newly created order" /></p>
+<p><img src="/docs/replenishment/images/intord_newintord.png" alt="Internal Order: newly created order" /></p>
 <h3 id="defining-maximum-month-of-stock-maximum-mos">Defining Maximum Month of Stock (Maximum MOS)</h3>
 <p>Defining the Maximum MOS (Month of Stock) is critical to the calculation of the <strong>Suggested Quantity</strong> and you can change it: </p>
 <ul>
@@ -386,11 +395,11 @@
 <div class="imagetitle">
 In below example, we are setting our Maximum MOS to 3 Months.  
 </div>
-<p><img src="/docs/replenishment/intord_maxmos.png" alt="MaxMOS" /></p>
+<p><img src="/docs/replenishment/images/intord_maxmos.png" alt="MaxMOS" /></p>
 <p>This can be done before or after adding items to your order. </p>
 <h3 id="adding-a-single-item">Adding a single item</h3>
 <p>Tap on <code>Add Item</code> to add a single item to your order. A new window opens: </p>
-<p><img src="/docs/replenishment/intord_additem2.png" alt="Internal Order: add item" /></p>
+<p><img src="/docs/replenishment/images/intord_additem2.png" alt="Internal Order: add item" /></p>
 <p>First select the item you want to add to your order. Open the <code>Stock details</code> dropdown menu and select your item from the list. You can also type some or all of an item name (or code) to look for a specific item. </p>
 <p>Once item is selected, you should see the following information on the window:</p>
 <ul>
@@ -413,19 +422,19 @@ In below example, we are setting our Maximum MOS to 3 Months.
 <div class="imagetitle">
 In below example, our target quantity is 600 units which is the equivalent of 3 months of stock (3 x 200 = 600 units). Our stock on hand (in grey) is 50 so in order to reach my target, mSupply suggests to order 550 units (600 - 50). 
 </div>
-<p><img src="/docs/replenishment/intord_charts_stockdistri.png" alt="Stock Distribution" /></p>
+<p><img src="/docs/replenishment/images/intord_charts_stockdistri.png" alt="Stock Distribution" /></p>
 <div class="imagetitle">
 In below example, the target quantity is 62 units. Since we already have 250 units in stock (in grey), the suggested quantity is zero. 
 </div>
-<p><img src="/docs/replenishment/intord_charts_stockdistri2.png" alt="Stock Distribution 2" /></p>
+<p><img src="/docs/replenishment/images/intord_charts_stockdistri2.png" alt="Stock Distribution 2" /></p>
 <ul>
 <li><strong>Consumption History (monthly)</strong>: this chart shows the monthly consumption up to 12 months in the past (in grey) and the current AMC (in orange):</li>
 </ul>
-<p><img src="/docs/replenishment/intord_charts_consumption.png" alt="Consumption" /></p>
+<p><img src="/docs/replenishment/images/intord_charts_consumption.png" alt="Consumption" /></p>
 <ul>
 <li><strong>Stock Evolution</strong>: this chart shows you your stock level for the last 30 days and your projected inventory for the next 30 days. The projected stock will be updated based on your inputs in the <code>Order quantity</code> field:</li>
 </ul>
-<p><img src="/docs/replenishment/intord_charts_stockevolution.png" alt="Stock Evolution" /></p>
+<p><img src="/docs/replenishment/images/intord_charts_stockevolution.png" alt="Stock Evolution" /></p>
 <h3 id="adding-items-using-a-master-list">Adding items using a master list</h3>
 <p>If your organisation is using Master Lists, you can add multiple items at once using your store's master lists. It is particularly useful when you have a lot of items in your order and you don't want to add them all one by one.</p>
 <ol>
@@ -435,7 +444,7 @@ In below example, the target quantity is 62 units. Since we already have 250 uni
 </ol>
 <p>All the items of the master list are now listed in your order. If you had previously added single item, it will add items that are not already there. </p>
 <p>Tap on an order line to change the <strong>Order Quantity</strong> or tap on the button <code>Requested to Suggested</code> button </p>
-<p><img src="/docs/replenishment/intord_addfromml.gif" alt="Internal Order: add from master list" /></p>
+<p><img src="/docs/replenishment/images/intord_addfromml.gif" alt="Internal Order: add from master list" /></p>
 <div class="note"> 
 Master Lists are defined and assigned to stores at the central server level. You can only see the master lists that are visible to your store. 
 <br> <br>
@@ -459,17 +468,17 @@ You can create internal orders from multiple master lists by repeating above act
 <h3 id="using-suggested-quantities">Using Suggested Quantities</h3>
 <p>If you tap on the <code>Use Suggested Quantities</code> on the requisition header, mSupply will automatically copy the values in the <strong>Suggested Quantity</strong> column into the <strong>Requested Quantity</strong> column. </p>
 <p>You can always manually edit the order quantity for each by tapping on an order line. </p>
-<p><img src="/docs/replenishment/intord_reqtosug.png" alt="Use Suggested Quantities" /></p>
+<p><img src="/docs/replenishment/images/intord_reqtosug.png" alt="Use Suggested Quantities" /></p>
 <h3 id="printing-an-internal-order">Printing an Internal Order</h3>
 <p>When viewing a specific Internal Order, simply click the <code>Print</code> button which is on the top right of the page.
 When printing, a PDF file is generated for you, which will then open in a new browser tab. This can then be printed using your browser by clicking print or using <code>control</code>+<code>P</code> (if using windows) or <code>cmd</code>+<code>P</code> keys on your keyboard (if using a mac).</p>
-<p><img src="/docs/print_button.png" alt="Print button" /></p>
+<p><img src="/docs/images/print_button.png" alt="Print button" /></p>
 <p>This will either</p>
 <ul>
 <li>Show a menu of possible reports for you to select from before creating a PDF. This will happen if there are more than one report defined for the <code>Requisition</code> report type.</li>
 <li>Create a PDF immediately, if there is only one report to select from</li>
 </ul>
-<p><img src="/docs/distribution/os_print_menu.png" alt="Print menu" /></p>
+<p><img src="/docs/distribution/images/os_print_menu.png" alt="Print menu" /></p>
 <h3 id="sending-an-internal-order">Sending an Internal Order</h3>
 <p>To send the order to your supplier:</p>
 <ol>

@@ -28,7 +28,7 @@ An Outbound Shipment can be used to:
 
 Choose `Distribution` > `Outbound Shipment` in the navigation panel.
 
-![gotooos](/docs/distribution/gotoos2.png)
+![gotooos](/docs/distribution/images/gotoos2.png)
 
 You will be presented with a list Outbound Shipments (if you don't see any, you are probably just starting!). 
 
@@ -54,11 +54,11 @@ From this screen you can:
 
 1. The list can display a fixed number of shipments per page. On the bottom left corner, you can see how many shipments are currently displayed on your screen. 
 
-![Page](/docs/distribution/os_list_showing.png)
+![Page](/docs/distribution/images/os_list_showing.png)
 
 3. If you have more than 20 shipments, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner). 
 
-![Page](/docs/distribution/os_list_pagenumbers.png)
+![Page](/docs/distribution/images/os_list_pagenumbers.png)
 
 ### Search by Customer Name
 
@@ -70,7 +70,7 @@ Type the name of a customer in the `Search by name` field (on the left, just abo
 
 The list of Outbound Shipments can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page)
 
-![Export button](/docs/distribution/export.png)
+![Export button](/docs/distribution/images/export.png)
 
 and the file will be downloaded. The export function will download all Outbound Shipments, not just the current page, if you have more than 20 of them. Shipments are exported using sort order selected in the table, though of course you could easily sort the list in Excel or whatever you open the .csv file with!
 
@@ -88,7 +88,7 @@ You can delete a shipment from the Outbound Shipment list.
 You can only delete Outbound Shipments with a status <code>NEW</code>.
 </div>
 
-![Outbound list: delete](/docs/distribution/os_list_deleteshipment.gif)
+![Outbound list: delete](/docs/distribution/images/os_list_deleteshipment.gif)
 
 ## Creating an Outbound Shipment
 
@@ -97,7 +97,7 @@ You can only delete Outbound Shipments with a status <code>NEW</code>.
 
 2. Press the  `New Shipment` button, in the top right corner
 
-![New Shipment](/docs/distribution/clicknewshipment.png)
+![New Shipment](/docs/distribution/images/clicknewshipment.png)
 
 3. A new window `Customers` opens, inviting you to select a customer. 
 
@@ -109,7 +109,7 @@ You can only delete Outbound Shipments with a status <code>NEW</code>.
 In below example, we are issuing stock to <b>Kamo Regional Warehouse</b>. 
 </div>
 
-![gif](/docs/distribution/os_select_customer.gif)
+![gif](/docs/distribution/images/os_select_customer.gif)
 
 <div class="tip">
 You can tell if a customer is also using mSupply in their store. If they do, you will see icon like this (<img src="/docs/replenishment/is_msupplystoreicon.png" alt="Store" style="width:auto">) next to the supplier code. 
@@ -121,13 +121,13 @@ You can tell if a customer is also using mSupply in their store. If they do, you
 If everything went well, you should see the name of your customer in the top left corner and the status should be <code>NEW</code> 
 </div>
 
-![Outbound shipment: created](/docs/distribution/os_created.png)
+![Outbound shipment: created](/docs/distribution/images/os_created.png)
 
 ### Edit the Customer Name
 
 If you have selected the wrong customer, you can change the customer name in the `Customer Name` field or select one the dropdown list: 
 
-![gif](/docs/distribution/os_change_customer.gif)
+![gif](/docs/distribution/images/os_change_customer.gif)
 
 ### Enter a Customer Reference
 
@@ -151,7 +151,7 @@ To open the Information Panel, you can tap on the `More` button, located in the 
 
 You can close by tapping on the `X Close` button, on the top right corner of the information panel. 
 
-![Open and close the Information Panel](/docs/distribution/os_infopanel_openclose.gif)
+![Open and close the Information Panel](/docs/distribution/images/os_infopanel_openclose.gif)
 
 #### Additional Info
 
@@ -222,7 +222,7 @@ If you hover over the status sequence, a shipment history window appears. You ca
 This shipment has been created, allocated and picked on 29/03/2022
 </div>
 
-![Outbound status: hover](/docs/distribution/os_statussequence_hover.png)
+![Outbound status: hover](/docs/distribution/images/os_statussequence_hover.png)
 
 ### Hold checkbox
 
@@ -230,7 +230,7 @@ Located on the bottom left corner, on the left of the status sequence.
 
 Check the `Hold` checkbox prevents the Outbound Shipment from being updated to the next status. 
 
-![Outbound checkbox](/docs/distribution/os_holdcheckbox.png)
+![Outbound checkbox](/docs/distribution/images/os_holdcheckbox.png)
 
 ### Cancel and Confirm button
 
@@ -254,7 +254,7 @@ You don't have to update a shipment to next status in the sequence. You can choo
 
 As demonstrated below, tap on the down arrow of the `Confirm` button and select the status you want the shipment to be updated to. 
 
-![Skip Status](/docs/distribution/os_confirmbutton_skipstatuses.gif)
+![Skip Status](/docs/distribution/images/os_confirmbutton_skipstatuses.gif)
 
 ## Adding lines to an Outbound Shipment
 
@@ -262,7 +262,7 @@ Tap on the `Add Item` button (top right corner).
 
 A new `Add Item` window opens. 
 
-![Add Item button](/docs/distribution/additembutton.png)
+![Add Item button](/docs/distribution/images/additembutton.png)
 
 ### Select an Item
 
@@ -273,7 +273,7 @@ In the `Add Item` window, you can look up an item by:
 
 Once your item is highligthed, tap on the name or press `Enter`.
 
-![Alt Text](/docs/distribution/os_additem.gif)
+![Alt Text](/docs/distribution/images/os_additem.gif)
 
 Once the item is selected, you can see the following information: 
 
@@ -287,7 +287,7 @@ Once the item is selected, you can see the following information:
 <b>Example:</b> For the item *030453 - Amoxicillin 250mg tabs*, there are 3527 tabs available. 
 </div>
 
-![add item headers](/docs/distribution/additem_headers.png)
+![add item headers](/docs/distribution/images/additem_headers.png)
 
 #### Issue [Quantity] of units in packs of [Pack Size]
 
@@ -297,7 +297,7 @@ By default, you are invited to issue a quantity of **units**. However, you have 
 
 Default value is `Any` when you are issuing units. 
 
-![Outbound Issue quantity](/docs/distribution/os_issuequantityinunits.png)
+![Outbound Issue quantity](/docs/distribution/images/os_issuequantityinunits.png)
 
 
 #### List of available batches:
@@ -315,7 +315,7 @@ This is a list of batch numbers that you have in store for this item:
 * **On Hold**: Indicate whether a batch is on hold or not. You cannot issue a batch that is on hold. 
 * **Placeholder**: The placeholder line is used when the quantity you are issuing is higher than your available stock
 
-![List of available batch numbers](/docs/distribution/os_additem_listofbatches.png)
+![List of available batch numbers](/docs/distribution/images/os_additem_listofbatches.png)
 
 ### Issue a quantity of units
 
@@ -327,13 +327,13 @@ When entering a number in the `Issue Quantity` field, system automatically choos
 In below example, we are issuing 100 units of the item. All 100 units will be taken from the same batch (second row). First batch was not selected because it is expired. 
 </div>
 
-![additem!](/docs/distribution/os_additem_issueunits.png)
+![additem!](/docs/distribution/images/os_additem_issueunits.png)
 
 <div class="imagetitle">
 In this other example, we are issuing 1200 units. System selects two batches with different pack sizes. 
 </div>
 
-![additem!](/docs/distribution/os_additem_issueunitstwobatches.png)
+![additem!](/docs/distribution/images/os_additem_issueunitstwobatches.png)
 
 Note that in this list, the batches which are available for selection are shown first and batches which are not (on hold or no stock available) are shown below and in a grey font.
 
@@ -345,7 +345,7 @@ You can decide to issue a quantity of **packs**. To do this, you can change the 
 Let's imagine that your customer only wants pack size of 12 units. You can change the dropdown value from `Any` to `12`. 
 </div>
 
-![Alt Text](/docs/distribution/os_additem_switchtopack.gif)
+![Alt Text](/docs/distribution/images/os_additem_switchtopack.gif)
 
 You are now offered to issue a number of packs of 12 units. Only batch number(s) with a pack size of 12 units can be automatically issued.
 
@@ -353,13 +353,13 @@ You are now offered to issue a number of packs of 12 units. Only batch number(s)
 In below example, we are issuing 10 packs of 12 units:
 </div>
 
-![additem!](/docs/distribution/os_additem_issuepacks.png)
+![additem!](/docs/distribution/images/os_additem_issuepacks.png)
 
 <div class="note">
 <b></b> if you had previously entered a quantity of units and you switch to a quantity a packs, the quantity of units will automatically be converted into the correct quantity of packs.  
 </div>
 
-![Alt Text](/docs/distribution/os_issuepacks.gif)
+![Alt Text](/docs/distribution/images/os_issuepacks.gif)
 
 When a pack size is selected, and stock lines which have a different pack size are not available for selection. As such, those rows are listed lower down in the table and are shown in a grey font, in the same way as other unavailable rows.
 
@@ -390,11 +390,11 @@ Placeholder lines can be allocated later when new stock arrives. However, all sh
 Since there is no stock available for <i>042744-Diazepam Injection 5mg/ml Amp/2ml</i>, system is issuing a 100 units in the placeholder field. 
 </div>
 
-![Alt Text](/docs/distribution/os_additem_placeholder.png)
+![Alt Text](/docs/distribution/images/os_additem_placeholder.png)
 
 When you look at an Outbound Shipment, you can see if a shipment line has not been allocated or has been partially allocated when it is higlighted in blue. 
 
-![Alt Text](/docs/distribution/os_placeholderlines.png)
+![Alt Text](/docs/distribution/images/os_placeholderlines.png)
 
 ### Confirm Item and Quantity
 
@@ -430,13 +430,13 @@ To edit an shipment line, tap on it. You will be presented with the `Edit Item` 
 3. Go to the `Actions` dropdown menu (top right corner, above the list)
 4. Select the action `Delete selected lines`
 
-![Alt Text](/docs/distribution/os_actions_deleteselectedlines.png)
+![Alt Text](/docs/distribution/images/os_actions_deleteselectedlines.png)
 
 <div class="imagetitle">
 In below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100mg tabs</i>
 </div>
 
-![Alt Text](/docs/distribution/os_deleteselectedlines.gif)
+![Alt Text](/docs/distribution/images/os_deleteselectedlines.gif)
 
 <div class="tip">
  <b></b> You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
@@ -468,7 +468,7 @@ Once you all your shipments lines have been allocated, you can **confirm the all
 
 To confirm the allocation, press the `Confirm Allocated` button. 
 
-![Alt Text](/docs/distribution/os_confirmallocated.gif)
+![Alt Text](/docs/distribution/images/os_confirmallocated.gif)
 
 Once the allocation is confirmed:
 
@@ -490,7 +490,7 @@ Once all items are picked and packed. You can then confirm the picking of the sh
 
 To confirm that a shipment has been picked, tap on the `Confirm Picked` button. 
 
-![Alt Text](/docs/distribution/os_confirmpicked.gif)
+![Alt Text](/docs/distribution/images/os_confirmpicked.gif)
 
 Once picking is confirmed:
 
@@ -526,4 +526,4 @@ To change the view mode, click the `Group by item` switch.
 
 When grouped by item, you can expand the item to see individual batches, or use the expand in the table header to expand all grouped rows. If you click on an item you will also see all selected batches, as shown in this example:
 
-![Group by Item](/docs/distribution/os_group_by_item.gif)
+![Group by Item](/docs/distribution/images/os_group_by_item.gif)

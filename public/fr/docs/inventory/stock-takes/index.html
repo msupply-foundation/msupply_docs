@@ -240,10 +240,38 @@
 							<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/introduction/">Introduction à Open mSupply</a></li>
 					                           
 							<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/tutorial/">Didacticiel</a></li>
+					                           
+							<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/dashboard/">Dashboard</a></li>
 					
 					</ul>
 			
 			
+					
+					
+					
+							<h3>La Distribution</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/">Outbound Shipments</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/distribution/requisitions/">Requisitions</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/distribution/customers/">Customers</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Replenishment</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/replenishment/inbound-shipments/">Inbound Shipments</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/replenishment/internal-orders/">Internal Orders</a></li>
+							
+					</ul>
+					
 					
 					
 					
@@ -272,6 +300,15 @@
 					
 					
 					
+					
+							<h3>Administration</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/administration/display/">Display Settings</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/administration/synchronisation/">Synchronisation</a></li>
+							
+					</ul>
 					
 					
 			
@@ -329,9 +366,9 @@
 </ul>
 <h2 id="affichage-des-inventaires">Affichage des inventaires</h2>
 <p>Pour visualiser vos inventaires, allez sur <code>Inventory</code>puis <code>Stocktakesdans</code> le panneau de navigation :</p>
-<p><img src="/docs/inventory/stocktake_gotost.png" alt="Stocktake: nav" /></p>
+<p><img src="/docs/inventory/images/stocktake_gotost.png" alt="Stocktake: nav" /></p>
 <p>Cela fait apparaître une liste de tous vos inventaires :</p>
-<p><img src="/docs/inventory/stocktake_stocktakelist.png" alt="Stocktake: list" /></p>
+<p><img src="/docs/inventory/images/stocktake_stocktakelist.png" alt="Stocktake: list" /></p>
 <p>Pour chaque participation en actions, vous pouvez voir :</p>
 <ul>
 <li>Le numéro d'inventaire</li>
@@ -349,29 +386,29 @@
 Il ne sert à rien de conserver les anciens inventaires avec status = NEW, surtout si vous êtes sur le point de créer un nouvel inventaire contenant les mêmes éléments. En effet, il peut être assez dangereux de laisser d'anciens inventaires avec statut NEW dans votre système. Si du temps s'est écoulé depuis la création de l'inventaire, l'instantané et les quantités réelles sont presque certainement incorrects. Pour des raisons de bonne gestion, il est recommandé de supprimer les anciens NEW inventaires. </div>
 <h2 id="creation-d-un-nouvel-inventaire">Création d'un nouvel inventaire</h2>
 <p>Commençons un nouvel inventaire. Pour ce faire, appuyez sur le New Stocktakebouton dans le coin droit de l'écran</p>
-<p><img src="/docs/inventory/stocktake_newstocktake.png" alt="Stocktake: new" /></p>
+<p><img src="/docs/inventory/images/stocktake_newstocktake.png" alt="Stocktake: new" /></p>
 <p>Une fenêtre apparaît, vous invitant à sélectionner les éléments à comptabiliser :</p>
-<p><img src="/docs/inventory/stocktake_additem2.png" alt="Stocktake: Add item" /></p>
+<p><img src="/docs/inventory/images/stocktake_additem2.png" alt="Stocktake: Add item" /></p>
 <h3 id="selection-d-elements">Sélection d'éléments</h3>
 <p>Sélectionnez les éléments que vous souhaitez compter à l'aide des cases à cocher. Vous pouvez en sélectionner plusieurs :</p>
-<p><img src="/docs/inventory/stocktake_additem_checkbox.png" alt="Stocktake: add item count" /></p>
+<p><img src="/docs/inventory/images/stocktake_additem_checkbox.png" alt="Stocktake: add item count" /></p>
 <p>Si vous souhaitez inclure tous les éléments (ou la plupart des éléments), cochez la <code>Select All</code> case et cliquez sur <code>OK</code>:</p>
-<p><img src="/docs/inventory/stocktake_additem_selectall.png" alt="Stocktake: select all" /></p>
+<p><img src="/docs/inventory/images/stocktake_additem_selectall.png" alt="Stocktake: select all" /></p>
 <p>Utilisez la barre de recherche pour rechercher un article précis en tapant son nom ou son code :</p>
-<p><img src="/docs/inventory/stocktake_additem_search.gif" alt="Stocktake: add item search" /></p>
+<p><img src="/docs/inventory/images/stocktake_additem_search.gif" alt="Stocktake: add item search" /></p>
 <p>Cliquez sur OK lorsque vous avez sélectionné tous les éléments que vous souhaitez compter.</p>
 <div class="tip">
 Ne vous inquiétez pas si vous oubliez un élément. Vous aurez la possibilité d'ajouter d'autres articles à votre inventaire par la suite. 
 </div>
 <h3 id="impression-de-la-feuille-d-inventaire">Impression de la feuille d'inventaire</h3>
 <p>Lorsque vous consultez un inventaire spécifique, cliquez simplement sur le Printbouton qui se trouve en haut à droite de la page. Lors de l'impression, un fichier PDF est généré pour vous, qui s'ouvrira ensuite dans un nouvel onglet du navigateur. Celui-ci peut ensuite être imprimé à l'aide de votre navigateur en cliquant sur imprimer ou en utilisant les touches <code>control+ P</code> (si vous utilisez Windows) ou <code>cmd+ P</code> de votre clavier (si vous utilisez un mac).</p>
-<p><img src="/docs/print_button.png" alt="Print button" /></p>
+<p><img src="/docs/images/print_button.png" alt="Print button" /></p>
 <p>Cela va soit:</p>
 <ul>
 <li>Affiche un menu de rapports possibles parmi lesquels choisir avant de créer un PDF. Cela se produira si plusieurs rapports sont définis pour le Stocktaketype de rapport.</li>
 <li>Créez un PDF immédiatement, s'il n'y a qu'un seul rapport à sélectionner</li>
 </ul>
-<p><img src="/docs/distribution/os_print_menu.png" alt="Print menu" /></p>
+<p><img src="/docs/distribution/images/os_print_menu.png" alt="Print menu" /></p>
   
 <div class="docs-navigation d-flex justify-content-between">
   
@@ -409,6 +446,25 @@ Ne vous inquiétez pas si vous oubliez un élément. Vous aurez la possibilité 
       
       
         
+      
+    
+      
+      
+        
+      
+    
+      
+      
+        
+          
+          
+          <a class="ms-auto" href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;fr&#x2F;docs&#x2F;administration&#x2F;display&#x2F;">
+            <div class="card my-1">
+              <div class="card-body py-2">
+                Display Settings &rarr;
+              </div>
+            </div>
+          </a>
           
           
           

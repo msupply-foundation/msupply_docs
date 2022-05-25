@@ -4,8 +4,61 @@
 	<link href="https://docs.msupply.foundation/fr/atom.xml" rel="self" type="application/atom+xml"/>
   <link href="https://docs.msupply.foundation"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2022-03-19T18:20:00+00:00</updated>
+	<updated>2022-05-17T16:20:00+00:00</updated>
 	<id>https://docs.msupply.foundation/fr/atom.xml</id>
+	<entry xml:lang="fr">
+		<title>Display Settings</title>
+		<published>2022-05-17T16:20:00+00:00</published>
+		<updated>2022-05-17T16:20:00+00:00</updated>
+		<link href="https://docs.msupply.foundation/fr/docs/administration/display/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/administration/display/</id>
+		<content type="html">&lt;p&gt;The display settings section allows you to customise how the site looks for you. Changes made will only affect your experience - if other people would like to change the logo, for example, they will have to make the change themselves.&lt;&#x2F;p&gt;
+&lt;p&gt;Let&#x27;s explore what&#x27;s possible...&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;viewing-the-display-settings&quot;&gt;Viewing the display settings&lt;&#x2F;h2&gt;
+&lt;p&gt;To view the display settings, go to &lt;code&gt;Admin&lt;&#x2F;code&gt; in the lower section of the navigation panel: &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;administration&#x2F;images&#x2F;admin_nav.png&quot; alt=&quot;Location: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;You will see the display settings section at the top of the page: &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;administration&#x2F;images&#x2F;display_settings.png&quot; alt=&quot;Location: list&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;language&quot;&gt;Language&lt;&#x2F;h2&gt;
+&lt;p&gt;To change the language, you simply have to select from the drop down list&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;administration&#x2F;images&#x2F;change_language.png&quot; alt=&quot;Language&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;The selected language will be used for everything you do on the site. If you reload the page or open a new tab, this language will be used. However if you view the site in a different browser (for example Firefox after changing the language in Chrome) you will need to select the language again.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;custom-logo&quot;&gt;Custom logo&lt;&#x2F;h2&gt;
+&lt;p&gt;It is possible to use a custom logo for the site. This shows in the left navigation and on the login screen. For example:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;administration&#x2F;images&#x2F;custom_logo_login.png&quot; alt=&quot;Custom logo login&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;administration&#x2F;images&#x2F;custom_logo_nav.png&quot; alt=&quot;Custom logo login&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;The logo will need to be in the &lt;code&gt;svg&lt;&#x2F;code&gt; format. To update, simply &lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;enable the custom logo by clicking the toggle switch&lt;&#x2F;li&gt;
+&lt;li&gt;copy the text of the .svg file and paste it into the text area&lt;&#x2F;li&gt;
+&lt;li&gt;click save&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;administration&#x2F;images&#x2F;edit_logo.png&quot; alt=&quot;Edit custom logo&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;custom-theme&quot;&gt;Custom theme&lt;&#x2F;h2&gt;
+&lt;p&gt;You can also configure a custom look for your site by using a custom theme. To do this:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;enable the custom theme by clicking the toggle switch&lt;&#x2F;li&gt;
+&lt;li&gt;you&#x27;ll see a sample of the current theme in the text area - this shows you what can be updated&lt;&#x2F;li&gt;
+&lt;li&gt;edit the theme and click save to view the results&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;administration&#x2F;images&#x2F;edit_theme.png&quot; alt=&quot;Edit custom logo&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>Synchronisation</title>
+		<published>2022-05-17T16:20:00+00:00</published>
+		<updated>2022-05-17T16:20:00+00:00</updated>
+		<link href="https://docs.msupply.foundation/fr/docs/administration/synchronisation/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/administration/synchronisation/</id>
+		<content type="html">&lt;h2 id=&quot;viewing-the-synchronisation-settings&quot;&gt;Viewing the synchronisation settings&lt;&#x2F;h2&gt;
+&lt;p&gt;To view the synchronisation settings, go to &lt;code&gt;Admin&lt;&#x2F;code&gt; in the lower section of the navigation panel: &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;administration&#x2F;images&#x2F;admin_nav.png&quot; alt=&quot;Location: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;You will see the synchronisation section below the display settings:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;administration&#x2F;images&#x2F;administration.png&quot; alt=&quot;Location: list&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;updating-settings&quot;&gt;Updating settings&lt;&#x2F;h2&gt;
+&lt;p&gt;Be very careful updating these settings! They control how the server connects to the central server and do not usually need to be changed. If you make any changes without consulting the administrator of the central server, it is very likely that you will break the sync connection.&lt;&#x2F;p&gt;
+</content>
+	</entry>
 	<entry xml:lang="fr">
 		<title>Articles</title>
 		<published>2022-03-19T18:20:00+00:00</published>
@@ -16,12 +69,12 @@
 Dans le menu &lt;strong&gt;Articles&lt;&#x2F;strong&gt;, vous pouvez consulter tous les articles qui sont actuellement visibles dans votre dépôt. &lt;&#x2F;p&gt;
 &lt;h2 id=&quot;consulter-la-liste-des-articles&quot;&gt;Consulter la liste des articles&lt;&#x2F;h2&gt;
 &lt;p&gt;Dans le panneau de navigation à gauche, sélectionnez &lt;code&gt;Catalogue&lt;&#x2F;code&gt; &amp;gt; &lt;code&gt;Articles&lt;&#x2F;code&gt; pour voir afficher la liste des produits: &lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;catalogue&#x2F;cat_gotoitems.png&quot; alt=&quot;Items nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;catalogue&#x2F;images&#x2F;cat_gotoitems.png&quot; alt=&quot;Items nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Vous pouvez voir tous les articles disponibles et visibles pour votre dépôt :&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;catalogue&#x2F;cat_itemslist.png&quot; alt=&quot;Items list&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;catalogue&#x2F;images&#x2F;cat_itemslist.png&quot; alt=&quot;Items list&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;consulter-les-details-d-un-article&quot;&gt;Consulter les détails d&#x27;un article&lt;&#x2F;h2&gt;
 &lt;p&gt;Pour consulter les détails d&#x27;un article, un seul clique sur la ligne de l&#x27;article suffit. Une nouvelle fenêtre apparaît: &lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;catalogue&#x2F;cat_itemdetail.png&quot; alt=&quot;Item detail&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;catalogue&#x2F;images&#x2F;cat_itemdetail.png&quot; alt=&quot;Item detail&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;En haut de l&#x27;écran, vous pouvez lire les informations suivantes:&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Stock disponible&lt;&#x2F;strong&gt;: Quelle quantité est actuellement disponible dans votre dépôt pour cet article&lt;&#x2F;li&gt;
@@ -31,7 +84,7 @@ Dans le menu &lt;strong&gt;Articles&lt;&#x2F;strong&gt;, vous pouvez consulter t
 &lt;div class=&quot;imagetitle&quot;&gt;
 Dans l&#x27;exemple ci-dessous, nous avons 1542 unités d&#x27;amoxicilline disponibles. La consommation moyenne est de 53,3 unités par mois ce qui signifie qu&#x27;il y a l&#x27;équivalent de 28,9 mois de stock dans le dépôt. 
 &lt;&#x2F;div&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;catalogue&#x2F;cat_itemdetailsheaders.png&quot; alt=&quot;Item detail headers&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;catalogue&#x2F;images&#x2F;cat_itemdetailsheaders.png&quot; alt=&quot;Item detail headers&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Dans la partie inférieure, les détails de l&#x27;article sont divisés en plusieurs sections :&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;details&quot;&gt;Détails&lt;&#x2F;h3&gt;
 &lt;ul&gt;
@@ -72,12 +125,484 @@ Dans l&#x27;exemple ci-dessous, nous avons 1542 unités d&#x27;amoxicilline disp
 		<content type="html">&lt;p&gt;Les listes Maîtres sont des listes standard, des regroupements d&#x27;articles qui ne peuvent être définies qu&#x27;au niveau du serveur central. &lt;&#x2F;p&gt;
 &lt;h2 id=&quot;consulter-les-listes-maitres&quot;&gt;Consulter les Listes Maîtres&lt;&#x2F;h2&gt;
 &lt;p&gt;Allez à &lt;code&gt;Catalogue&lt;&#x2F;code&gt; &amp;gt; &lt;code&gt;Listes Maîtres&lt;&#x2F;code&gt; dans le panneau de navigation à gauche: &lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;catalogue&#x2F;cat_gotoml.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;catalogue&#x2F;images&#x2F;cat_gotoml.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Vous verrez une fenêtre comme celle-ci : &lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;catalogue&#x2F;cat_mllist.png&quot; alt=&quot;&quot; &#x2F;&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;catalogue&#x2F;images&#x2F;cat_mllist.png&quot; alt=&quot;&quot; &#x2F;&gt;
 Pour afficher tous les éléments d&#x27;une liste, cliquez simplement sur une liste.&lt;&#x2F;p&gt;
 &lt;p&gt;Le contenu de la liste s&#x27;affichera comme ci-après:&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;catalogue&#x2F;cat_mldetail.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;catalogue&#x2F;images&#x2F;cat_mldetail.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>Customers</title>
+		<published>2022-03-19T18:20:00+00:00</published>
+		<updated>2022-03-19T18:20:00+00:00</updated>
+		<link href="https://docs.msupply.foundation/fr/docs/distribution/customers/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/distribution/customers/</id>
+		<content type="html">&lt;div class=&quot;omsupdate&quot;&gt;
+At the moment, you are only able to view your customers and their information. In the future, you will be able to create and edit your customers (provided you have the authorisation to do so!). 
+&lt;&#x2F;div&gt;
+&lt;h2 id=&quot;viewing-customers&quot;&gt;Viewing Customers&lt;&#x2F;h2&gt;
+&lt;p&gt;To view the customers of your store, go to the &lt;code&gt;Distribution&lt;&#x2F;code&gt; menu and click on &lt;code&gt;Customers&lt;&#x2F;code&gt;. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;cust_gotocust2.png&quot; alt=&quot;Page&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;You will be presented with a list of customers visible to your store. &lt;&#x2F;p&gt;
+&lt;div class=&quot;note&quot;&gt;
+You can only see customers that are visible for your store.  There may be more customers in our organisation. 
+&lt;br&gt;
+&lt;br&gt;
+If you don&#x27;t find the customer you are looking for, contact your administrator. 
+&lt;&#x2F;div&gt;
+&lt;h2 id=&quot;viewing-customer-details&quot;&gt;Viewing Customer Details&lt;&#x2F;h2&gt;
+&lt;p&gt;Tap on one of your customers to see their details.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;cust_detailedview.png&quot; alt=&quot;Name Detailed View&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>Outbound Shipments</title>
+		<published>2022-03-19T18:20:00+00:00</published>
+		<updated>2022-03-19T18:20:00+00:00</updated>
+		<link href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/</id>
+		<content type="html">&lt;p&gt;Outbound Shipments can be used to issue stock to a customer. &lt;&#x2F;p&gt;
+&lt;p&gt;If you have used mSupply in the past, you may be familiar with the term &lt;strong&gt;Customer Invoice&lt;&#x2F;strong&gt; instead of Outbound Shipment. 
+An Outbound Shipment can be used to:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Transfer stock to another store which also uses mSupply&lt;&#x2F;li&gt;
+&lt;li&gt;Issue stock to a customer&lt;&#x2F;li&gt;
+&lt;li&gt;Fulfill requisitions (customer orders)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;viewing-outbound-shipments&quot;&gt;Viewing Outbound Shipments&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;open-the-outbound-shipments-menu&quot;&gt;Open the Outbound Shipments Menu&lt;&#x2F;h3&gt;
+&lt;p&gt;Choose &lt;code&gt;Distribution&lt;&#x2F;code&gt; &amp;gt; &lt;code&gt;Outbound Shipment&lt;&#x2F;code&gt; in the navigation panel.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;gotoos2.png&quot; alt=&quot;gotooos&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;You will be presented with a list Outbound Shipments (if you don&#x27;t see any, you are probably just starting!). &lt;&#x2F;p&gt;
+&lt;p&gt;From this screen you can:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;View a list of Outbound Shipments&lt;&#x2F;li&gt;
+&lt;li&gt;Create a new Outbound Shipment&lt;&#x2F;li&gt;
+&lt;li&gt;Export Outbound Shipments to a &lt;code&gt;.csv&lt;&#x2F;code&gt; file&lt;&#x2F;li&gt;
+&lt;li&gt;Print one or multiple Outbound Shipments&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;outbound-shipment-list&quot;&gt;Outbound Shipment list&lt;&#x2F;h3&gt;
+&lt;ol&gt;
+&lt;li&gt;The list of Outbound Shipments is divided into 7 columns:&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Column&lt;&#x2F;th&gt;&lt;th align=&quot;left&quot;&gt;Description&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Name&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Name of the Customer&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Status&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Current Status of the shipment&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Number&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Reference Number of the shipment&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Created&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Creation date of the shipment&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Reference&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Customer reference&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Comment&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Comment for the shipment&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Total&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Total value of the shipment&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;ol&gt;
+&lt;li&gt;The list can display a fixed number of shipments per page. On the bottom left corner, you can see how many shipments are currently displayed on your screen. &lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_list_showing.png&quot; alt=&quot;Page&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;If you have more than 20 shipments, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner). &lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_list_pagenumbers.png&quot; alt=&quot;Page&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;search-by-customer-name&quot;&gt;Search by Customer Name&lt;&#x2F;h3&gt;
+&lt;p&gt;You can filter the list of shipments by customer name. This can be useful if you&#x27;re looking for one particular shipment!&lt;&#x2F;p&gt;
+&lt;p&gt;Type the name of a customer in the &lt;code&gt;Search by name&lt;&#x2F;code&gt; field (on the left, just above the list headers). All the shipments for this customer appear in the list. &lt;&#x2F;p&gt;
+&lt;h3 id=&quot;exporting-outbound-shipments&quot;&gt;Exporting Outbound Shipments&lt;&#x2F;h3&gt;
+&lt;p&gt;The list of Outbound Shipments can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page)&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;export.png&quot; alt=&quot;Export button&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;and the file will be downloaded. The export function will download all Outbound Shipments, not just the current page, if you have more than 20 of them. Shipments are exported using sort order selected in the table, though of course you could easily sort the list in Excel or whatever you open the .csv file with!&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;delete-an-outbound-shipment&quot;&gt;Delete an Outbound Shipment&lt;&#x2F;h3&gt;
+&lt;p&gt;You can delete a shipment from the Outbound Shipment list. &lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Select the shipment that you want to delete by checking the box on the left end of the list. You can select more than one shipment to be deleted. You can even select them all using the  master checkbox in the list headers. &lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Open the &lt;code&gt;Select&lt;&#x2F;code&gt; dropdown (top right corner, above the list) and select &lt;code&gt;Delete selected lines&lt;&#x2F;code&gt;. &lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;A notification confirms how many shipments were deleted (bottom left corner). &lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;div class=&quot;note&quot;&gt;
+You can only delete Outbound Shipments with a status &lt;code&gt;NEW&lt;&#x2F;code&gt;.
+&lt;&#x2F;div&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_list_deleteshipment.gif&quot; alt=&quot;Outbound list: delete&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;creating-an-outbound-shipment&quot;&gt;Creating an Outbound Shipment&lt;&#x2F;h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Go to &lt;code&gt;Distribution&lt;&#x2F;code&gt; &amp;gt; &lt;code&gt;Outbound Shipment&lt;&#x2F;code&gt;. &lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Press the  &lt;code&gt;New Shipment&lt;&#x2F;code&gt; button, in the top right corner&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;clicknewshipment.png&quot; alt=&quot;New Shipment&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;A new window &lt;code&gt;Customers&lt;&#x2F;code&gt; opens, inviting you to select a customer. &lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h4 id=&quot;select-a-customer&quot;&gt;Select a Customer&lt;&#x2F;h4&gt;
+&lt;ol&gt;
+&lt;li&gt;In the &lt;code&gt;Customers&lt;&#x2F;code&gt; window, you will be presented with a list of available customers. You can select your customer from the list or you can type as much of a customer name.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;div class=&quot;imagetitle&quot;&gt;
+In below example, we are issuing stock to &lt;b&gt;Kamo Regional Warehouse&lt;&#x2F;b&gt;. 
+&lt;&#x2F;div&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_select_customer.gif&quot; alt=&quot;gif&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;div class=&quot;tip&quot;&gt;
+You can tell if a customer is also using mSupply in their store. If they do, you will see icon like this (&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;is_msupplystoreicon.png&quot; alt=&quot;Store&quot; style=&quot;width:auto&quot;&gt;) next to the supplier code. 
+&lt;&#x2F;div&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;Once you tap or press &lt;code&gt;Enter&lt;&#x2F;code&gt;, your Outbound Shipment is automatically created &lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;div class=imagetitle&gt;
+If everything went well, you should see the name of your customer in the top left corner and the status should be &lt;code&gt;NEW&lt;&#x2F;code&gt; 
+&lt;&#x2F;div&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_created.png&quot; alt=&quot;Outbound shipment: created&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;edit-the-customer-name&quot;&gt;Edit the Customer Name&lt;&#x2F;h3&gt;
+&lt;p&gt;If you have selected the wrong customer, you can change the customer name in the &lt;code&gt;Customer Name&lt;&#x2F;code&gt; field or select one the dropdown list: &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_change_customer.gif&quot; alt=&quot;gif&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;enter-a-customer-reference&quot;&gt;Enter a Customer Reference&lt;&#x2F;h3&gt;
+&lt;p&gt;Once your Outbound Shipment has been created, you can enter a customer reference in the &lt;code&gt;Customer Ref&lt;&#x2F;code&gt; field, if they have one (eg. &lt;em&gt;PO#1234567&lt;&#x2F;em&gt;)&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;view-or-edit-the-outbound-shipment-information-panel&quot;&gt;View or edit the Outbound Shipment Information Panel&lt;&#x2F;h3&gt;
+&lt;p&gt;The Information Panel allows you see or to edit information about the Outbound Shipment. It is divided in multiple sections: &lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Additional Info&lt;&#x2F;li&gt;
+&lt;li&gt;Related Documents&lt;&#x2F;li&gt;
+&lt;li&gt;Invoice Details&lt;&#x2F;li&gt;
+&lt;li&gt;Transport Details&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;We are planning to add more sections in the future as Open mSupply grows. &lt;&#x2F;p&gt;
+&lt;h4 id=&quot;how-to-open-and-close-the-information-panel&quot;&gt;How to open and close the Information Panel ?&lt;&#x2F;h4&gt;
+&lt;p&gt;If you are using a large screen, the information panel will be automatically opened for you. However, on an average sized screen, the information panel will be closed by default.&lt;&#x2F;p&gt;
+&lt;p&gt;To open the Information Panel, you can tap on the &lt;code&gt;More&lt;&#x2F;code&gt; button, located in the top right corner of the Outbound Shipment view. &lt;&#x2F;p&gt;
+&lt;p&gt;You can close by tapping on the &lt;code&gt;X Close&lt;&#x2F;code&gt; button, on the top right corner of the information panel. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_infopanel_openclose.gif&quot; alt=&quot;Open and close the Information Panel&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;additional-info&quot;&gt;Additional Info&lt;&#x2F;h4&gt;
+&lt;p&gt;In the &lt;strong&gt;Additional Info&lt;&#x2F;strong&gt; section, you can:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;See who created the Outbound Shipment (name of the user)&lt;&#x2F;li&gt;
+&lt;li&gt;View and edit the Outbound Shipment color. To edit the color, tap on the colored circle and select a color from the pop-up&lt;&#x2F;li&gt;
+&lt;li&gt;Write or edit a comment&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;related-documents&quot;&gt;Related Documents&lt;&#x2F;h4&gt;
+&lt;p&gt;In the &lt;strong&gt;Related Documents&lt;&#x2F;strong&gt; section, you can see other related transaction document for the Outbound Shipment. &lt;&#x2F;p&gt;
+&lt;p&gt;If your Outbound Shipment was created to fulfill a &lt;strong&gt;Requisition&lt;&#x2F;strong&gt;, the reference number of the requisition would appear in this section. &lt;&#x2F;p&gt;
+&lt;p&gt;In the future, we would also include other documents such as temperature records, transportation documents or pickslips. &lt;&#x2F;p&gt;
+&lt;h4 id=&quot;invoice-details&quot;&gt;Invoice Details&lt;&#x2F;h4&gt;
+&lt;p&gt;In this section, you will see by default the total selling price of the items listed in the Outbound Shipment. &lt;&#x2F;p&gt;
+&lt;p&gt;You can also add a &lt;strong&gt;Service charges&lt;&#x2F;strong&gt; if you wish to add other charges such as Freight Costs. To add a Service charges to the Invoice Details: &lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Tap on the &lt;code&gt;Edit Service Charges&lt;&#x2F;code&gt; button. A new window opens. &lt;&#x2F;li&gt;
+&lt;li&gt;Tap on the &lt;code&gt;Add charge&lt;&#x2F;code&gt; button on the new window. A new line appears in the list of charges. You tap on &lt;code&gt;Cancel&lt;&#x2F;code&gt; if you do not wish to add anything. &lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Name:&lt;&#x2F;strong&gt; Select a service charges in the dropdown list. You can customise the list of available charges. Contact your administrator&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Comment:&lt;&#x2F;strong&gt; yYou can add a comment to provide further details about the new charge&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Amount:&lt;&#x2F;strong&gt; Enter the amount of the charge&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Tax:&lt;&#x2F;strong&gt; Enter a % of tax for the charge&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Total:&lt;&#x2F;strong&gt; The total field is automatically calculated based on the Amount and the Tax percentage&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Delete:&lt;&#x2F;strong&gt; You can tap on the &lt;code&gt;Delete&lt;&#x2F;code&gt; icon to delete the charge&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;In this section, you can also edit the tax rate (%) for the items sell price. Tap on the pencil icon and enter a value.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;transport-details&quot;&gt;Transport Details&lt;&#x2F;h4&gt;
+&lt;p&gt;In this section, you can see or edit a transport reference number (eg. a booking or a tracking reference number). &lt;&#x2F;p&gt;
+&lt;h3 id=&quot;outbound-shipment-status-sequence&quot;&gt;Outbound Shipment Status Sequence&lt;&#x2F;h3&gt;
+&lt;p&gt;The status sequence is located at the bottom left corner of the Outbound Shipment screen. &lt;&#x2F;p&gt;
+&lt;p&gt;Passed statuses are hightlighted in blue, next statuses appear in grey. &lt;&#x2F;p&gt;
+&lt;figure&gt;
+&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;os_statussequence2.png&quot; style=&quot;width:100%&quot;&gt;
+&lt;figcaption align = &quot;center&quot;&gt;Status Sequence: current status is &lt;code&gt;NEW&lt;&#x2F;code&gt;.&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;figure&gt;
+&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;os_statussequence3.png&quot; alt=&quot;Trulli&quot; style=&quot;width:100%&quot;&gt;
+&lt;figcaption align = &quot;center&quot;&gt;Status Sequence: current status is &lt;&#x2F;i&gt;&lt;code&gt;PICKED&lt;&#x2F;code&gt;.&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;p&gt;There are 6 status for the Outbound Shipment: &lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Status&lt;&#x2F;th&gt;&lt;th&gt;Description&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;New&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;This is the first status when you create a shipment&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Allocated&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Allocation is confirmed. Goods are no longer available for other shipments but are still part of your inventory.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Picked&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Shipment is picked and is now ready to ship. Goods are still part of your inventory.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Shipped&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Shipment has been shipped and goods are no longer part of your inventory&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Delivered&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Your customer has received the shipment&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Verified&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Your customer has verified the quantity of the shipment. Goods are now part of their inventory .&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;If you hover over the status sequence, a shipment history window appears. You can see the date when a shipment was updated from one status to another. &lt;&#x2F;p&gt;
+&lt;div class=&quot;imagetitle&quot;&gt;
+This shipment has been created, allocated and picked on 29&#x2F;03&#x2F;2022
+&lt;&#x2F;div&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_statussequence_hover.png&quot; alt=&quot;Outbound status: hover&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;hold-checkbox&quot;&gt;Hold checkbox&lt;&#x2F;h3&gt;
+&lt;p&gt;Located on the bottom left corner, on the left of the status sequence. &lt;&#x2F;p&gt;
+&lt;p&gt;Check the &lt;code&gt;Hold&lt;&#x2F;code&gt; checkbox prevents the Outbound Shipment from being updated to the next status. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_holdcheckbox.png&quot; alt=&quot;Outbound checkbox&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cancel-and-confirm-button&quot;&gt;Cancel and Confirm button&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;cancel-button&quot;&gt;Cancel Button&lt;&#x2F;h4&gt;
+&lt;p&gt;Tap on the &lt;code&gt;Cancel&lt;&#x2F;code&gt; button to quit the Outbound Shipment view and return to the Outbound Shipments list. &lt;&#x2F;p&gt;
+&lt;h4 id=&quot;confirm-button&quot;&gt;Confirm Button&lt;&#x2F;h4&gt;
+&lt;p&gt;The &lt;code&gt;Confirm&lt;&#x2F;code&gt; button is the button to update the status of a shipment. The status which you can confirm depends on the current status of the shipment and follows the sequence shown below.&lt;&#x2F;p&gt;
+&lt;p&gt;When managing an Outbound Shipment, you can only confirm the Allocation, the Picking and the Shipment. &lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Confirm...&lt;&#x2F;th&gt;&lt;th align=&quot;left&quot;&gt;Current Status&lt;&#x2F;th&gt;&lt;th align=&quot;left&quot;&gt;Next Status&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Confirm Allocated&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;New&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Allocated&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Confirm Picked&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Allocated&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Picked&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Confirm Shipped&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Picked&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Shipped&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;You don&#x27;t have to update a shipment to next status in the sequence. You can choose to skip some of them to go directly to &lt;code&gt;Confirm Shipped&lt;&#x2F;code&gt; for example.&lt;&#x2F;p&gt;
+&lt;p&gt;As demonstrated below, tap on the down arrow of the &lt;code&gt;Confirm&lt;&#x2F;code&gt; button and select the status you want the shipment to be updated to. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_confirmbutton_skipstatuses.gif&quot; alt=&quot;Skip Status&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;adding-lines-to-an-outbound-shipment&quot;&gt;Adding lines to an Outbound Shipment&lt;&#x2F;h2&gt;
+&lt;p&gt;Tap on the &lt;code&gt;Add Item&lt;&#x2F;code&gt; button (top right corner). &lt;&#x2F;p&gt;
+&lt;p&gt;A new &lt;code&gt;Add Item&lt;&#x2F;code&gt; window opens. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;additembutton.png&quot; alt=&quot;Add Item button&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;select-an-item&quot;&gt;Select an Item&lt;&#x2F;h3&gt;
+&lt;p&gt;In the &lt;code&gt;Add Item&lt;&#x2F;code&gt; window, you can look up an item by:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Reading through the list of available items&lt;&#x2F;li&gt;
+&lt;li&gt;or by typing some or all of item name&lt;&#x2F;li&gt;
+&lt;li&gt;or by typing some or all of an item code&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Once your item is highligthed, tap on the name or press &lt;code&gt;Enter&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_additem.gif&quot; alt=&quot;Alt Text&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Once the item is selected, you can see the following information: &lt;&#x2F;p&gt;
+&lt;h4 id=&quot;headers&quot;&gt;Headers&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Item code and name (eg. &lt;em&gt;030453 Amoxicillin 250 mg Tabs&lt;&#x2F;em&gt;)&lt;&#x2F;li&gt;
+&lt;li&gt;the available stock quantity for this item (eg. &lt;em&gt;3527 units&lt;&#x2F;em&gt;)&lt;&#x2F;li&gt;
+&lt;li&gt;the item&#x27;s unit (eg. &lt;em&gt;Tab&lt;&#x2F;em&gt;)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;div class=&quot;imagetitle&quot;&gt;
+&lt;b&gt;Example:&lt;&#x2F;b&gt; For the item *030453 - Amoxicillin 250mg tabs*, there are 3527 tabs available. 
+&lt;&#x2F;div&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;additem_headers.png&quot; alt=&quot;add item headers&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;issue-quantity-of-units-in-packs-of-pack-size&quot;&gt;Issue [Quantity] of units in packs of [Pack Size]&lt;&#x2F;h4&gt;
+&lt;p&gt;In the &lt;code&gt;Issue Quantity&lt;&#x2F;code&gt; field, you can enter the quantity that you want to issue to your customer. &lt;&#x2F;p&gt;
+&lt;p&gt;By default, you are invited to issue a quantity of &lt;strong&gt;units&lt;&#x2F;strong&gt;. However, you have the possibility to issue a quantity of packs instead by changing the value in the second dropdown (&lt;code&gt;Pack Size&lt;&#x2F;code&gt;). &lt;&#x2F;p&gt;
+&lt;p&gt;Default value is &lt;code&gt;Any&lt;&#x2F;code&gt; when you are issuing units. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_issuequantityinunits.png&quot; alt=&quot;Outbound Issue quantity&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;list-of-available-batches&quot;&gt;List of available batches:&lt;&#x2F;h4&gt;
+&lt;p&gt;This is a list of batch numbers that you have in store for this item: &lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;# Packs&lt;&#x2F;strong&gt;: Number of packs to be issued&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Pack Size&lt;&#x2F;strong&gt;: Quantity of units per pack&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Unit Qty&lt;&#x2F;strong&gt;: Total quantity of units to be issued&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Available&lt;&#x2F;strong&gt;: Number of packs available (not already allocated to other shipments)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;In store&lt;&#x2F;strong&gt;: Total number of packs in your store&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Batch&lt;&#x2F;strong&gt;: Batch number. It is a designation given to products made in the same manufacturing run. &lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Expiry&lt;&#x2F;strong&gt;: Expiry date of the batch (format: MM&#x2F;YYYY)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Location&lt;&#x2F;strong&gt;: If you inventory is managed with storage locations, the name of the location where the item is stored&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Sell&lt;&#x2F;strong&gt;: Selling unit price of the item&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;On Hold&lt;&#x2F;strong&gt;: Indicate whether a batch is on hold or not. You cannot issue a batch that is on hold. &lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Placeholder&lt;&#x2F;strong&gt;: The placeholder line is used when the quantity you are issuing is higher than your available stock&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_additem_listofbatches.png&quot; alt=&quot;List of available batch numbers&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;issue-a-quantity-of-units&quot;&gt;Issue a quantity of units&lt;&#x2F;h3&gt;
+&lt;p&gt;By default, you are invited to issue a quantity of &lt;strong&gt;units&lt;&#x2F;strong&gt;, regardless of the pack size (number of units in a pack). &lt;&#x2F;p&gt;
+&lt;p&gt;When entering a number in the &lt;code&gt;Issue Quantity&lt;&#x2F;code&gt; field, system automatically chooses the batch number(s) with the shortest expiry date (First to Expire, First Out or FEFO logic). &lt;&#x2F;p&gt;
+&lt;div class=&quot;imagetitle&quot;&gt;
+In below example, we are issuing 100 units of the item. All 100 units will be taken from the same batch (second row). First batch was not selected because it is expired. 
+&lt;&#x2F;div&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_additem_issueunits.png&quot; alt=&quot;additem!&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;div class=&quot;imagetitle&quot;&gt;
+In this other example, we are issuing 1200 units. System selects two batches with different pack sizes. 
+&lt;&#x2F;div&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_additem_issueunitstwobatches.png&quot; alt=&quot;additem!&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Note that in this list, the batches which are available for selection are shown first and batches which are not (on hold or no stock available) are shown below and in a grey font.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;issue-a-quantity-of-packs&quot;&gt;Issue a quantity of packs&lt;&#x2F;h3&gt;
+&lt;p&gt;You can decide to issue a quantity of &lt;strong&gt;packs&lt;&#x2F;strong&gt;. To do this, you can change the value in the &lt;code&gt;Pack Size&lt;&#x2F;code&gt; dropdown. &lt;&#x2F;p&gt;
+&lt;div class=&quot;imagetitle&quot;&gt;
+Let&#x27;s imagine that your customer only wants pack size of 12 units. You can change the dropdown value from `Any` to `12`. 
+&lt;&#x2F;div&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_additem_switchtopack.gif&quot; alt=&quot;Alt Text&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;You are now offered to issue a number of packs of 12 units. Only batch number(s) with a pack size of 12 units can be automatically issued.&lt;&#x2F;p&gt;
+&lt;div class=&quot;imagetitle&quot;&gt;
+In below example, we are issuing 10 packs of 12 units:
+&lt;&#x2F;div&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_additem_issuepacks.png&quot; alt=&quot;additem!&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;div class=&quot;note&quot;&gt;
+&lt;b&gt;&lt;&#x2F;b&gt; if you had previously entered a quantity of units and you switch to a quantity a packs, the quantity of units will automatically be converted into the correct quantity of packs.  
+&lt;&#x2F;div&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_issuepacks.gif&quot; alt=&quot;Alt Text&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;When a pack size is selected, and stock lines which have a different pack size are not available for selection. As such, those rows are listed lower down in the table and are shown in a grey font, in the same way as other unavailable rows.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;manual-allocation&quot;&gt;Manual Allocation&lt;&#x2F;h3&gt;
+&lt;p&gt;Regardless if you chose to issue a quantity of units or packs, you can always manually change the quantity at the batch number level directly before pressing on OK. &lt;&#x2F;p&gt;
+&lt;p&gt;You simply have to enter or edit the quantity in the &lt;code&gt;# Packs&lt;&#x2F;code&gt; column. &lt;&#x2F;p&gt;
+&lt;p&gt;The main &lt;code&gt;Issue Quantity&lt;&#x2F;code&gt; field will be automatically updated with the new quantity.&lt;&#x2F;p&gt;
+&lt;div class=&quot;note&quot;&gt;
+ &lt;b&gt;&lt;&#x2F;b&gt; when allocating quantities at the batch number level, the quantity you enter is always a quantity of packs. 
+&lt;&#x2F;div&gt;
+&lt;figure&gt;
+&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;os_additem_manualallocation.gif&quot; alt=&quot;Trulli&quot; style=&quot;width:100%&quot;&gt;
+&lt;figcaption align = &quot;center&quot;&gt;&lt;i&gt;Manual allocation at the batch number level.&lt;&#x2F;i&gt;&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;h3 id=&quot;issuing-when-there-is-not-enough-stock-placeholder-line&quot;&gt;Issuing when there is not enough stock (Placeholder Line)&lt;&#x2F;h3&gt;
+&lt;p&gt;If the amount to be issued is greater than the total stock available from all of the available lines, then the quantity to be issued will automatically be placed in the &lt;code&gt;placeholder&lt;&#x2F;code&gt; field, at the bottom of the list of available batch numbers. &lt;&#x2F;p&gt;
+&lt;p&gt;Placeholder lines can be allocated later when new stock arrives. However, all shipment lines must be allocated before confirming the allocation. &lt;&#x2F;p&gt;
+&lt;div class=&quot;imagetitle&quot;&gt;
+Since there is no stock available for &lt;i&gt;042744-Diazepam Injection 5mg&#x2F;ml Amp&#x2F;2ml&lt;&#x2F;i&gt;, system is issuing a 100 units in the placeholder field. 
+&lt;&#x2F;div&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_additem_placeholder.png&quot; alt=&quot;Alt Text&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;When you look at an Outbound Shipment, you can see if a shipment line has not been allocated or has been partially allocated when it is higlighted in blue. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_placeholderlines.png&quot; alt=&quot;Alt Text&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;confirm-item-and-quantity&quot;&gt;Confirm Item and Quantity&lt;&#x2F;h3&gt;
+&lt;p&gt;When you are happy with the quantity, you can either press on:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;the &lt;code&gt;OK&lt;&#x2F;code&gt; button. You are redirected to the Outbound Shipment view and your item has been added to the list. &lt;&#x2F;li&gt;
+&lt;li&gt;the &lt;code&gt;OK &amp;amp; Next&lt;&#x2F;code&gt; button to add another item right away&lt;&#x2F;li&gt;
+&lt;li&gt;the &lt;code&gt;Cancel&lt;&#x2F;code&gt; if you do not want to add the item to the Outbound Shipment anymore&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;editing-an-outbound-shipment-line&quot;&gt;Editing an Outbound Shipment Line&lt;&#x2F;h2&gt;
+&lt;p&gt;To edit an shipment line, tap on it. You will be presented with the &lt;code&gt;Edit Item&lt;&#x2F;code&gt; window, which is identical to the &lt;code&gt;Add Item&lt;&#x2F;code&gt; window, except that the item is already chosen. &lt;&#x2F;p&gt;
+&lt;h3 id=&quot;edit-a-shipment-line&quot;&gt;Edit a Shipment Line&lt;&#x2F;h3&gt;
+&lt;div class=&quot;note&quot;&gt;
+ &lt;b&gt;&lt;&#x2F;b&gt; you can edit a shipment line if the shipment has a status lower than &lt;code&gt;Shipped&lt;&#x2F;code&gt;. 
+&lt;&#x2F;div&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Open the Outbound Shipment you want to edit. &lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Tap on the line you want to edit. An identical window to &lt;code&gt;Add Item&lt;&#x2F;code&gt; appears. At this stage:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Edit the main &lt;code&gt;Issue Quantity&lt;&#x2F;code&gt; field &lt;&#x2F;li&gt;
+&lt;li&gt;or change the number of packs value at the batch number level&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;div class=&quot;note&quot;&gt;
+ &lt;b&gt;&lt;&#x2F;b&gt; When editing a shipment line, you cannot change the item. You would need to delete the shipment line and to create a new one. 
+&lt;&#x2F;div&gt;
+&lt;h3 id=&quot;delete-a-shipment-line&quot;&gt;Delete a Shipment line&lt;&#x2F;h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Open the Outbound Shipment you want to edit.&lt;&#x2F;li&gt;
+&lt;li&gt;Select the line(s) you want to delete by checking the box(es) on the right of the list. &lt;&#x2F;li&gt;
+&lt;li&gt;Go to the &lt;code&gt;Actions&lt;&#x2F;code&gt; dropdown menu (top right corner, above the list)&lt;&#x2F;li&gt;
+&lt;li&gt;Select the action &lt;code&gt;Delete selected lines&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_actions_deleteselectedlines.png&quot; alt=&quot;Alt Text&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;div class=&quot;imagetitle&quot;&gt;
+In below example, we are deleting &lt;i&gt;item 030063 - Acetylsalicylic Acid 100mg tabs&lt;&#x2F;i&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_deleteselectedlines.gif&quot; alt=&quot;Alt Text&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;div class=&quot;tip&quot;&gt;
+ &lt;b&gt;&lt;&#x2F;b&gt; You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
+&lt;&#x2F;div&gt;
+&lt;h2 id=&quot;processing-an-outbound-shipment&quot;&gt;Processing an Outbound Shipment&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;allocating-an-outbound-shipment&quot;&gt;Allocating an Outbound Shipment&lt;&#x2F;h3&gt;
+&lt;p&gt;Allocation is the process of assigning one or multiple batch numbers from the inventory to a shipment line. In other words, you are assigning stock to your shipment. Once allocated, the stock is reserved for the shipment and thus for your customer. &lt;&#x2F;p&gt;
+&lt;p&gt;There are 2 main ways to allocate a shipment line: &lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;When adding items, system is automatically assigning stock to the new shipment line when you enter a quantity. If you don&#x27;t have enough stock, system will add placeholder lines (unallocated lines). &lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Bulk action &lt;code&gt;Allocate placeholder lines&lt;&#x2F;code&gt;: &lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Select the lines that you want to allocate by checking boxes on the right on the list&lt;&#x2F;li&gt;
+&lt;li&gt;In the &lt;code&gt;Actions&lt;&#x2F;code&gt; dropdown menu, select &lt;code&gt;Allocate placeholder lines&lt;&#x2F;code&gt;. System will check if there is available stock for each selected lines and allocate them using the First to Expire, First Out (FEFO) logic. A notification will let you know whether the operation is successful or not. &lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;div class=&quot;note&quot;&gt;
+You won&#x27;t be able to process your Outbound Shipment if you have unallocated lines (shipment lines without batch number(s) assigned to it). You can wait for more stock to arrive or you can delete the placeholder lines. 
+&lt;&#x2F;div&gt;
+&lt;h3 id=&quot;confirming-an-outbound-shipment-s-allocation&quot;&gt;Confirming an Outbound Shipment&#x27;s allocation&lt;&#x2F;h3&gt;
+&lt;p&gt;Once you all your shipments lines have been allocated, you can &lt;strong&gt;confirm the allocation&lt;&#x2F;strong&gt;:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Current status of the shipment has to be &lt;code&gt;NEW&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Lines must be assigned with one or several batch numbers. You won&#x27;t be able to confirm the allocation if your shipment contains lines without batch numbers assigned to it (placeholder lines). &lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;To confirm the allocation, press the &lt;code&gt;Confirm Allocated&lt;&#x2F;code&gt; button. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;os_confirmallocated.gif&quot; alt=&quot;Alt Text&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Once the allocation is confirmed:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Shipment status is &lt;code&gt;ALLOCATED&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;You are now invited to confirm the picking via the &lt;code&gt;Confirm Picked&lt;&#x2F;code&gt; button&lt;&#x2F;li&gt;
+&lt;li&gt;All the items and their quantities will be reserved, meaning that they are no longer available for allocation&lt;&#x2F;li&gt;
+&lt;li&gt;You can print a &lt;strong&gt;pick slip&lt;&#x2F;strong&gt; to be sent to your warehouse so they can start preparing the shipment&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;confirming-outbound-shipment-picking&quot;&gt;Confirming Outbound Shipment picking&lt;&#x2F;h3&gt;
+&lt;p&gt;Picking refers to the process where individual items are picked from a fulfillment facility (usually a warehouse or a pharmacy store).&lt;&#x2F;p&gt;
+&lt;p&gt;Once a shipment has been allocated, next step is to go get the items to prepare the actual shipment. To help with that, you are able to generate a &lt;strong&gt;pick slip&lt;&#x2F;strong&gt; document. A pickslip indicates:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;What are the items to be picked&lt;&#x2F;li&gt;
+&lt;li&gt;The quantity and batch numbers for each item&lt;&#x2F;li&gt;
+&lt;li&gt;If you manage your inventory with storage locations, where the items are located&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Once all items are picked and packed. You can then confirm the picking of the shipment to indicate to indicate that it is ready to be dispatched. &lt;&#x2F;p&gt;
+&lt;p&gt;To confirm that a shipment has been picked, tap on the &lt;code&gt;Confirm Picked&lt;&#x2F;code&gt; button. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_confirmpicked.gif&quot; alt=&quot;Alt Text&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Once picking is confirmed:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Shipment status is now &lt;code&gt;PICKED&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;You are now invited to confirm the shipping via the &lt;code&gt;Confirm Shipped&lt;&#x2F;code&gt; button&lt;&#x2F;li&gt;
+&lt;li&gt;An &lt;strong&gt;Inbound Shipment&lt;&#x2F;strong&gt; has been generated and is now visible to your customer&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;At this stage, you are still able to edit shipment lines, to add items or to delete existing lines. However, if picking has been confirmed, you need to make sure to inform your fulfillment facility of any change so they can make sure that the shipment is still correct. &lt;&#x2F;p&gt;
+&lt;h3 id=&quot;confirming-the-outbound-shipment-shipping&quot;&gt;Confirming the Outbound Shipment shipping&lt;&#x2F;h3&gt;
+&lt;p&gt;The last step to issue stock with an Outbound Shipment is to confirm that stock has been shipped. This a critical step cause when goods are confirmed as shipped, they are no longer part of your inventory records. &lt;&#x2F;p&gt;
+&lt;p&gt;To confirm that an Outbound Shipment has been shipped, tap on the &lt;code&gt;Confirm Shipped&lt;&#x2F;code&gt; button. &lt;&#x2F;p&gt;
+&lt;p&gt;Once shipping has been confirmed: &lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Shipment status is now &lt;code&gt;SHIPPED&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Goods are  no longer part of your inventory&lt;&#x2F;li&gt;
+&lt;li&gt;You can no longer edit shipment lines&lt;&#x2F;li&gt;
+&lt;li&gt;You can no longer delete the shipment&lt;&#x2F;li&gt;
+&lt;li&gt;You can print a &lt;strong&gt;delivery note&lt;&#x2F;strong&gt; or an &lt;strong&gt;invoice&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;tracking-progress-of-outbound-shipments&quot;&gt;Tracking Progress of Outbound Shipments&lt;&#x2F;h3&gt;
+&lt;p&gt;If your customer is also using mSupply, you wil be able to see when they&#x27;ll receive your shipments:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;status will become &lt;code&gt;DELIVERED&lt;&#x2F;code&gt; when goods are received: your customer confirmed that they received your goods&lt;&#x2F;li&gt;
+&lt;li&gt;status will become &lt;code&gt;VERIFIED&lt;&#x2F;code&gt; when shipment has been verified by your customer. Goods are now part of their inventory&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;viewing-an-outbound-shipment&quot;&gt;Viewing an Outbound Shipment&lt;&#x2F;h2&gt;
+&lt;p&gt;When viewing a specific shipment, you can view the batches on that shipment grouped by item or with each batch listed separately.
+To change the view mode, click the &lt;code&gt;Group by item&lt;&#x2F;code&gt; switch. &lt;&#x2F;p&gt;
+&lt;p&gt;When grouped by item, you can expand the item to see individual batches, or use the expand in the table header to expand all grouped rows. If you click on an item you will also see all selected batches, as shown in this example:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;os_group_by_item.gif&quot; alt=&quot;Group by Item&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>Requisitions</title>
+		<published>2022-03-19T18:20:00+00:00</published>
+		<updated>2022-03-19T18:20:00+00:00</updated>
+		<link href="https://docs.msupply.foundation/fr/docs/distribution/requisitions/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/distribution/requisitions/</id>
+		<content type="html">&lt;p&gt;When a customer orders stock from you, they create an &lt;strong&gt;Internal Order&lt;&#x2F;strong&gt; in their store. This will appear as a &lt;strong&gt;Requisition&lt;&#x2F;strong&gt; in your store. &lt;&#x2F;p&gt;
+&lt;h2 id=&quot;viewing-customers-requisition&quot;&gt;Viewing Customers&#x27; Requisition&lt;&#x2F;h2&gt;
+&lt;p&gt;To know if you have received requisitions from your customers, go to &lt;code&gt;Distribution&lt;&#x2F;code&gt; &amp;gt; &lt;code&gt;Requisition&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;req_gotoreq2.png&quot; alt=&quot;Requistion nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;You should see a list of all requisitions sent by your customers. &lt;&#x2F;p&gt;
+&lt;p&gt;From this screen you can:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;View a list of Requisitions&lt;&#x2F;li&gt;
+&lt;li&gt;Export Requisitions to a &lt;code&gt;.csv&lt;&#x2F;code&gt; file&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;req_list.png&quot; alt=&quot;Requisition list&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;requisition-list&quot;&gt;Requisition list&lt;&#x2F;h3&gt;
+&lt;ol&gt;
+&lt;li&gt;The list of Requisitions is divided into 5 columns:&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Column&lt;&#x2F;th&gt;&lt;th align=&quot;left&quot;&gt;Description&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Name&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Name of the Customer&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Number&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Reference Number of the requisition&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Created&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Creation date of the requisition&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Status&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Current Status of the requisition&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Comment&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Comment for the requisition&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;ol&gt;
+&lt;li&gt;The list can display a fixed number of requisitions per page. On the bottom left corner, you can see how many requisitions are currently displayed on your screen. &lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_list_showing.png&quot; alt=&quot;Page&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;If you have more than 20 requisitions, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner). &lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_list_pagenumbers.png&quot; alt=&quot;Page&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;search-by-comment&quot;&gt;Search by comment&lt;&#x2F;h3&gt;
+&lt;p&gt;You can filter the list of requisitions by comment. This can be useful if you&#x27;re looking for one particular requisition!&lt;&#x2F;p&gt;
+&lt;p&gt;Start typing in the &lt;code&gt;Search by comment&lt;&#x2F;code&gt; field (on the left, just above the list headers). All the requisitions which have a comment matching the entered text will appear in the list. &lt;&#x2F;p&gt;
+&lt;h3 id=&quot;exporting-requisitions&quot;&gt;Exporting Requisitions&lt;&#x2F;h3&gt;
+&lt;p&gt;The list of Requisitions can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page)&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;export.png&quot; alt=&quot;Export button&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;and the file will be downloaded. The export function will download all Requisitions, not just the current page, if you have more than 20 of them. Requisitions are exported using sort order selected in the table, though of course you could easily sort the list in Excel or whatever you open the .csv file with!&lt;&#x2F;p&gt;
 </content>
 	</entry>
 	<entry xml:lang="fr">
@@ -90,14 +615,14 @@ Pour afficher tous les éléments d&#x27;une liste, cliquez simplement sur une l
 &lt;p&gt;Les emplacements dans mSupply sont les espaces aménagés où vous rangez le stock. &lt;&#x2F;p&gt;
 &lt;h2 id=&quot;consulter-les-emplacements-de-votre-depot&quot;&gt;Consulter les emplacements de votre dépôt&lt;&#x2F;h2&gt;
 &lt;p&gt;Pour consulter les emplacements de votre dépôt, allez à &lt;code&gt;Gestion des stocks&lt;&#x2F;code&gt; &amp;gt; &lt;code&gt;Emplacements&lt;&#x2F;code&gt; dans le panneau de navigation à gauche: &lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;loc_gotoloc.png&quot; alt=&quot;Location: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;images&#x2F;loc_gotoloc.png&quot; alt=&quot;Location: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Vous verrez afficher la liste des emplacements de votre dépôt: &lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;loc_loclist.png&quot; alt=&quot;Location: list&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;images&#x2F;loc_loclist.png&quot; alt=&quot;Location: list&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;ajouter-un-nouvel-emplacement&quot;&gt;Ajouter un nouvel emplacement&lt;&#x2F;h2&gt;
 &lt;p&gt;Pour ajouter un nouvel emplacement, cliquez sur le boutton &lt;code&gt;Nouvel Emplacement&lt;&#x2F;code&gt; dans le coin supérieur droit de votre écran:&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;loc_newlocbutton.png&quot; alt=&quot;Location: new location button&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;images&#x2F;loc_newlocbutton.png&quot; alt=&quot;Location: new location button&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Une fenêtre comme celle ci-dessous s&#x27;ouvre: &lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;loc_createloc.png&quot; alt=&quot;Location: create location&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;images&#x2F;loc_createloc.png&quot; alt=&quot;Location: create location&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Nom&lt;&#x2F;strong&gt;: Entrez le nom de l&#x27;emplacement&lt;&#x2F;li&gt;
 &lt;li&gt;&lt;strong&gt;Code&lt;&#x2F;strong&gt;: Entrez un code pour le nouvel emplacement&lt;&#x2F;li&gt;
@@ -136,9 +661,9 @@ Mettre un emplacement En Attente peut être utile si:
 &lt;&#x2F;ul&gt;
 &lt;h2 id=&quot;affichage-des-inventaires&quot;&gt;Affichage des inventaires&lt;&#x2F;h2&gt;
 &lt;p&gt;Pour visualiser vos inventaires, allez sur &lt;code&gt;Inventory&lt;&#x2F;code&gt;puis &lt;code&gt;Stocktakesdans&lt;&#x2F;code&gt; le panneau de navigation :&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;stocktake_gotost.png&quot; alt=&quot;Stocktake: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;images&#x2F;stocktake_gotost.png&quot; alt=&quot;Stocktake: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Cela fait apparaître une liste de tous vos inventaires :&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;stocktake_stocktakelist.png&quot; alt=&quot;Stocktake: list&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;images&#x2F;stocktake_stocktakelist.png&quot; alt=&quot;Stocktake: list&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Pour chaque participation en actions, vous pouvez voir :&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;Le numéro d&#x27;inventaire&lt;&#x2F;li&gt;
@@ -156,29 +681,29 @@ Mettre un emplacement En Attente peut être utile si:
 Il ne sert à rien de conserver les anciens inventaires avec status = NEW, surtout si vous êtes sur le point de créer un nouvel inventaire contenant les mêmes éléments. En effet, il peut être assez dangereux de laisser d&#x27;anciens inventaires avec statut NEW dans votre système. Si du temps s&#x27;est écoulé depuis la création de l&#x27;inventaire, l&#x27;instantané et les quantités réelles sont presque certainement incorrects. Pour des raisons de bonne gestion, il est recommandé de supprimer les anciens NEW inventaires. &lt;&#x2F;div&gt;
 &lt;h2 id=&quot;creation-d-un-nouvel-inventaire&quot;&gt;Création d&#x27;un nouvel inventaire&lt;&#x2F;h2&gt;
 &lt;p&gt;Commençons un nouvel inventaire. Pour ce faire, appuyez sur le New Stocktakebouton dans le coin droit de l&#x27;écran&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;stocktake_newstocktake.png&quot; alt=&quot;Stocktake: new&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;images&#x2F;stocktake_newstocktake.png&quot; alt=&quot;Stocktake: new&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Une fenêtre apparaît, vous invitant à sélectionner les éléments à comptabiliser :&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;stocktake_additem2.png&quot; alt=&quot;Stocktake: Add item&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;images&#x2F;stocktake_additem2.png&quot; alt=&quot;Stocktake: Add item&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;selection-d-elements&quot;&gt;Sélection d&#x27;éléments&lt;&#x2F;h3&gt;
 &lt;p&gt;Sélectionnez les éléments que vous souhaitez compter à l&#x27;aide des cases à cocher. Vous pouvez en sélectionner plusieurs :&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;stocktake_additem_checkbox.png&quot; alt=&quot;Stocktake: add item count&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;images&#x2F;stocktake_additem_checkbox.png&quot; alt=&quot;Stocktake: add item count&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Si vous souhaitez inclure tous les éléments (ou la plupart des éléments), cochez la &lt;code&gt;Select All&lt;&#x2F;code&gt; case et cliquez sur &lt;code&gt;OK&lt;&#x2F;code&gt;:&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;stocktake_additem_selectall.png&quot; alt=&quot;Stocktake: select all&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;images&#x2F;stocktake_additem_selectall.png&quot; alt=&quot;Stocktake: select all&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Utilisez la barre de recherche pour rechercher un article précis en tapant son nom ou son code :&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;stocktake_additem_search.gif&quot; alt=&quot;Stocktake: add item search&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;images&#x2F;stocktake_additem_search.gif&quot; alt=&quot;Stocktake: add item search&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Cliquez sur OK lorsque vous avez sélectionné tous les éléments que vous souhaitez compter.&lt;&#x2F;p&gt;
 &lt;div class=&quot;tip&quot;&gt;
 Ne vous inquiétez pas si vous oubliez un élément. Vous aurez la possibilité d&#x27;ajouter d&#x27;autres articles à votre inventaire par la suite. 
 &lt;&#x2F;div&gt;
 &lt;h3 id=&quot;impression-de-la-feuille-d-inventaire&quot;&gt;Impression de la feuille d&#x27;inventaire&lt;&#x2F;h3&gt;
 &lt;p&gt;Lorsque vous consultez un inventaire spécifique, cliquez simplement sur le Printbouton qui se trouve en haut à droite de la page. Lors de l&#x27;impression, un fichier PDF est généré pour vous, qui s&#x27;ouvrira ensuite dans un nouvel onglet du navigateur. Celui-ci peut ensuite être imprimé à l&#x27;aide de votre navigateur en cliquant sur imprimer ou en utilisant les touches &lt;code&gt;control+ P&lt;&#x2F;code&gt; (si vous utilisez Windows) ou &lt;code&gt;cmd+ P&lt;&#x2F;code&gt; de votre clavier (si vous utilisez un mac).&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;print_button.png&quot; alt=&quot;Print button&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;images&#x2F;print_button.png&quot; alt=&quot;Print button&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Cela va soit:&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;Affiche un menu de rapports possibles parmi lesquels choisir avant de créer un PDF. Cela se produira si plusieurs rapports sont définis pour le Stocktaketype de rapport.&lt;&#x2F;li&gt;
 &lt;li&gt;Créez un PDF immédiatement, s&#x27;il n&#x27;y a qu&#x27;un seul rapport à sélectionner&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;os_print_menu.png&quot; alt=&quot;Print menu&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_print_menu.png&quot; alt=&quot;Print menu&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 </content>
 	</entry>
 	<entry xml:lang="fr">
@@ -211,6 +736,474 @@ Ne vous inquiétez pas si vous oubliez un élément. Vous aurez la possibilité 
 </content>
 	</entry>
 	<entry xml:lang="fr">
+		<title>Inbound Shipments</title>
+		<published>2022-03-19T18:20:00+00:00</published>
+		<updated>2022-03-19T18:20:00+00:00</updated>
+		<link href="https://docs.msupply.foundation/fr/docs/replenishment/inbound-shipments/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/replenishment/inbound-shipments/</id>
+		<content type="html">&lt;p&gt;Inbound Shipments can be used to receive stock from suppliers. &lt;&#x2F;p&gt;
+&lt;p&gt;If you have used mSupply in the past, you may be familiar with the term &lt;strong&gt;Supplier Invoice&lt;&#x2F;strong&gt; instead of Inbound Shipment. &lt;&#x2F;p&gt;
+&lt;p&gt;All received goods should be recorded in mSupply either by: &lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Manually creating an Inbound Shipment (manual Inbound Shipment)&lt;&#x2F;li&gt;
+&lt;li&gt;Working with an Inbound Shipment that has been created automatically as a result of a stock transfer from another store in your mSupply&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;viewing-inbound-shipments&quot;&gt;Viewing Inbound Shipments&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;go-to-the-inbound-shipments-menu&quot;&gt;Go to the Inbound Shipments Menu&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;is_gotois.png&quot; alt=&quot;Go to Inbound Shipments&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;To access the &lt;strong&gt;Inbound Shipment&lt;&#x2F;strong&gt; menu:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Go to the &lt;code&gt;Replenishment&lt;&#x2F;code&gt; menu in the navigation panel&lt;&#x2F;li&gt;
+&lt;li&gt;Click on &lt;code&gt;Inbound Shipment&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h3 id=&quot;inbound-shipments-list&quot;&gt;Inbound Shipments list&lt;&#x2F;h3&gt;
+&lt;p&gt;First thing you see is a list of existing Inbound Shipments. &lt;&#x2F;p&gt;
+&lt;p&gt;The Inbound Shipments list is divided into 7 columns: &lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Column&lt;&#x2F;th&gt;&lt;th align=&quot;left&quot;&gt;Description&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Name&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Name of the Customer&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Status&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Current Status of the shipment&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Number&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Reference Number of the shipment&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Created&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Creation date of the shipment&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Confirmed&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Confirmation date of the shipment&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Comment&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Comment for the shipment&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Total&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Total value of the shipment&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;The list can display &lt;strong&gt;20 shipments per page&lt;&#x2F;strong&gt;. On the bottom left corner, you can how many shipments are currently displayed on your screen. &lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;os_list_showing.png&quot; alt=&quot;Page&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;If you have more than 20 shipments, you can navigate to the other pages by clicking on the page number or using the right of left arrows (bottom right corner). &lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;os_list_pagenumbers.png&quot; alt=&quot;Page&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;search-by-supplier-name&quot;&gt;Search by Supplier Name&lt;&#x2F;h3&gt;
+&lt;p&gt;You can filter the list of shipments by supplier name. This can be useful if you&#x27;re looking for one particular shipment!&lt;&#x2F;p&gt;
+&lt;p&gt;Type the name of a supplier in the &lt;code&gt;Search by name&lt;&#x2F;code&gt; field (on the left, just above the list headers). All the shipments for this supplier will appear in the list. &lt;&#x2F;p&gt;
+&lt;h3 id=&quot;exporting-inbound-shipments&quot;&gt;Exporting Inbound Shipments&lt;&#x2F;h3&gt;
+&lt;p&gt;The list of Inbound Shipments can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page)&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;export.png&quot; alt=&quot;Export button&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;and the file will be downloaded. The export function will download all Inbound Shipments, not just the current page, if you have more than 20 of them. Shipments are exported using sort order selected in the table, though of course you could easily sort the list in Excel or whatever you open the .csv file with!&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;delete-an-inbound-shipment&quot;&gt;Delete an Inbound Shipment&lt;&#x2F;h3&gt;
+&lt;p&gt;You can delete a shipment from the Inbound Shipment list.&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Select the shipment that you want to delete by checking the box on the left end of the list. You can select more than one shipments to be deleted. You can even select them all using the master checkbox in the list headers.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Open the Select dropdown (top right corner, above the list) and select &lt;code&gt;Delete selected lines&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;A notification confirms how many shipments were deleted (bottom left corner).&lt;&#x2F;p&gt;
+&lt;div class=&quot;note&quot;&gt;
+You can only delete Inbound Shipments with a status &lt;code&gt;NEW&lt;&#x2F;code&gt;.
+&lt;&#x2F;div&gt;
+&lt;h2 id=&quot;creating-a-new-manual-inbound-shipment&quot;&gt;Creating a new manual Inbound Shipment&lt;&#x2F;h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Go to &lt;code&gt;Replenishment&lt;&#x2F;code&gt;&amp;gt; &lt;code&gt;Inbound Shipment&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Press the &lt;code&gt;New Shipment&lt;&#x2F;code&gt; button, in the top right corner&lt;&#x2F;li&gt;
+&lt;li&gt;A new window &lt;code&gt;Suppliers&lt;&#x2F;code&gt; opens, inviting you to select a supplier&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h3 id=&quot;select-a-supplier&quot;&gt;Select a Supplier&lt;&#x2F;h3&gt;
+&lt;ol&gt;
+&lt;li&gt;In the &lt;code&gt;Suppliers&lt;&#x2F;code&gt; window, you will be presented with a list of suppliers. You can select your supplier from the list or you can type as much of a supplier name. &lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;div class=&quot;tip&quot;&gt;
+You can tell if a supplier is also using mSupply in their store. If they do, you will see icon like this (&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;is_msupplystoreicon.png&quot; alt=&quot;Store&quot; style=&quot;width:auto&quot;&gt;) next to the supplier code. 
+&lt;&#x2F;div&gt;
+&lt;div class=&quot;imagetitle&quot;&gt;
+In below example, we are receiving stock from &lt;b&gt;Tamaki Central Medical Store&lt;&#x2F;b&gt;. 
+&lt;&#x2F;div&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;is_selectsupplier.gif&quot; alt=&quot;Select a Supplier&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;Once you have selected a supplier, you Inbound Shipment is created. &lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;div class=&quot;imagetitle&quot;&gt;
+If everything went well, you should see the name of your supplier in the top left corner and current status should be &lt;code&gt;SHIPPED&lt;&#x2F;code&gt;.
+&lt;&#x2F;div&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;is_newinboundshipment.png&quot; alt=&quot;New manual Inbound Shipment&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;div class=&quot;note&quot;&gt;
+When you create a &lt;b&gt;new&lt;&#x2F;b&gt; manual Inbound Shipment, mSupply assumes that shipment has already been shipped by the supplier and is coming your way. &lt;br &#x2F;&gt; That&#x27;s why first status of a manual Inbound Shipment is always &lt;code&gt;SHIPPED&lt;&#x2F;code&gt;.
+&lt;&#x2F;div&gt;
+&lt;h3 id=&quot;edit-the-supplier-name&quot;&gt;Edit the Supplier Name&lt;&#x2F;h3&gt;
+&lt;p&gt;If you have selected the wrong supplier, you can change the supplier name in the &lt;code&gt;Supplier Name&lt;&#x2F;code&gt; field or select one the dropdown list: &lt;&#x2F;p&gt;
+&lt;div class=&quot;imagetitle&quot;&gt;
+In below example, we are replacing &lt;b&gt;Tamaki Central Medical Store&lt;&#x2F;b&gt; by &lt;b&gt;Waikato District Store&lt;&#x2F;b&gt;. 
+&lt;&#x2F;div&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;is_editsuppliername.gif&quot; alt=&quot;gif&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;enter-a-supplier-reference&quot;&gt;Enter a Supplier Reference&lt;&#x2F;h3&gt;
+&lt;p&gt;Once your Inbound Shipment has been created, you can capture a supplier reference in the &lt;code&gt;Supplier Ref&lt;&#x2F;code&gt; field, if they have one (eg. * PO#1234567 *)&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;view-or-edit-the-inbound-shipment-information-panel&quot;&gt;View or edit the Inbound Shipment Information Panel&lt;&#x2F;h3&gt;
+&lt;p&gt;The Information Panel allows you see or to edit information about the Inbound Shipment. It is divided in multiple sections: &lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Additional Info&lt;&#x2F;li&gt;
+&lt;li&gt;Related Documents&lt;&#x2F;li&gt;
+&lt;li&gt;Invoice Details&lt;&#x2F;li&gt;
+&lt;li&gt;Transport Details&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;div class=&quot;omsupdate&quot;&gt;
+We are planning to add more sections in the future as Open mSupply grows. 
+&lt;&#x2F;div&gt;
+&lt;h4 id=&quot;how-to-open-and-close-the-information-panel&quot;&gt;How to open and close the Information Panel ?&lt;&#x2F;h4&gt;
+&lt;p&gt;To open the Information Panel, you can tap on the &lt;code&gt;More&lt;&#x2F;code&gt; button, located in the top right corner of the Inbound Shipment view. &lt;&#x2F;p&gt;
+&lt;p&gt;You can close by tapping on the &lt;code&gt;X Close&lt;&#x2F;code&gt; button, on the top right corner of the information panel. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;is_infopanel_openclose.gif&quot; alt=&quot;Open and close the Information Panel&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;additonal-info&quot;&gt;Additonal Info&lt;&#x2F;h4&gt;
+&lt;p&gt;In the &lt;strong&gt;Additional Info&lt;&#x2F;strong&gt; section, you can:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;See who created the Inbound Shipment (name of the user)&lt;&#x2F;li&gt;
+&lt;li&gt;View and edit the Inbound Shipment color. To edit the color, tap on the colored circle and select a color from the pop-up&lt;&#x2F;li&gt;
+&lt;li&gt;Write or edit a comment&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;related-documents&quot;&gt;Related Documents&lt;&#x2F;h4&gt;
+&lt;p&gt;In the &lt;strong&gt;Related Documents&lt;&#x2F;strong&gt; section, you can see other related transaction document for the Inbound Shipment. &lt;&#x2F;p&gt;
+&lt;p&gt;If your Inbound Shipment was created to fulfill a &lt;strong&gt;Internal Order&lt;&#x2F;strong&gt;, the reference number of your order would appear in this section. &lt;&#x2F;p&gt;
+&lt;p&gt;In the future, we would also include other documents such as temperature records, transportation documents or pickslips. &lt;&#x2F;p&gt;
+&lt;h4 id=&quot;invoice-details&quot;&gt;Invoice Details&lt;&#x2F;h4&gt;
+&lt;p&gt;In this section, you will see by default the total cost price of the items listed in the Inbound Shipment. &lt;&#x2F;p&gt;
+&lt;p&gt;You can also add a &lt;strong&gt;Service charges&lt;&#x2F;strong&gt; if you wish to add other charges such as Freight Costs. To add a Service charges to the Invoice Details: &lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Tap on the &lt;code&gt;Edit Service Charges&lt;&#x2F;code&gt; button. A new window opens. &lt;&#x2F;li&gt;
+&lt;li&gt;Tap on the &lt;code&gt;Add charge&lt;&#x2F;code&gt; button on the new window. A new line appears in the list of charges. You tap on &lt;code&gt;Cancel&lt;&#x2F;code&gt; if you do not wish to add anything. &lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Name:&lt;&#x2F;strong&gt; select a service charges in the dropdown list. You can customise the list of available charges. Contact your administrator. &lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Comment:&lt;&#x2F;strong&gt; You can add a comment to provide further details about the new charge&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Amount:&lt;&#x2F;strong&gt; Enter the amount of the charge&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Tax:&lt;&#x2F;strong&gt; Enter a % of tax for the charge&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Total:&lt;&#x2F;strong&gt; The total field is automatically calculated based on the Amount and the Tax percentage&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Delete:&lt;&#x2F;strong&gt; You can tap on the &lt;code&gt;Delete&lt;&#x2F;code&gt; icon to delete the charge&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;In this section, you can also edit the tax rate (%) for the cost price. Tap on the pencil icon and enter &lt;&#x2F;p&gt;
+&lt;h4 id=&quot;transport-details&quot;&gt;Transport Details&lt;&#x2F;h4&gt;
+&lt;p&gt;In this section, you can see or edit a transport reference number (eg. a booking or a tracking reference number). &lt;&#x2F;p&gt;
+&lt;h3 id=&quot;inbound-shipment-status-sequence&quot;&gt;Inbound Shipment Status Sequence&lt;&#x2F;h3&gt;
+&lt;p&gt;The status sequence is located at the bottom left corner of the Inbound Shipment screen. &lt;&#x2F;p&gt;
+&lt;p&gt;Passed statuses are hightlighted in blue, next statuses appear in grey. &lt;&#x2F;p&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;is_statussequence2.png&quot; alt=&quot;Inbound Shipment Status Sequence (New)&quot; style=&quot;width:100%&quot;&gt;
+    &lt;figcaption align=&quot;center&quot;&gt;Status Sequence: current status is &lt;code&gt;New&lt;&#x2F;code&gt;.&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;figure&gt;
+    &lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;is_statussequence3.png&quot; alt=&quot;Inbound Shipment Status Sequence (Shipped)&quot; style=&quot;width:100%&quot;&gt;
+    &lt;figcaption align=&quot;center&quot;&gt;Status Sequence: current status is &lt;&#x2F;i&gt;&lt;code&gt;Shipped&lt;&#x2F;code&gt;.&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;p&gt;There are 5 status for the Inbound Shipment: &lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Status&lt;&#x2F;th&gt;&lt;th&gt;Description&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;New&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;This is the first status when you create a new manual Inbound Shipment&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Picked&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Supplier has confirmed that shipment is picked and ready to ship  (applies only to automatically created shipments)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Shipped&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Shipment has been shipped and goods are now in transit (applies only to automatically created shipments)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Delivered&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;When you confirm that the shipment has been delivered&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Verified&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;When you have verified the inbound shipment&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;You probably noticed that two of the status values only apply to automatically created shipments. These are created by the system when another store in the system creates an Outbound Shipment to deliver stock to your store. If this is the case you&#x27;ll see a message near the top of the page:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;is_message_automatic.png&quot; alt=&quot;Automatic IS message&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;If, however, you&#x27;ve created an Inbound Shipment manually, then the following message shows:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;is_message_manual.png&quot; alt=&quot;Manual IS message&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;and you&#x27;ll see that the status bar has only the status values which apply to this type of shipment.&lt;&#x2F;p&gt;
+&lt;figure align=&quot;center&quot;&gt;
+    &lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;is_statussequence4.png&quot; alt=&quot;Inbound Shipment Status Sequence (New &amp; manual)&quot; style=&quot;width:60%&quot;&gt;
+    &lt;figcaption align=&quot;center&quot;&gt;Status Sequence: current status is &lt;&#x2F;i&gt;&lt;code&gt;New&lt;&#x2F;code&gt;.&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;p&gt;If you hover over the status sequence, a shipment history window appears. You can see the date when a shipment was updated from one status to another. &lt;&#x2F;p&gt;
+&lt;div class=&quot;imagetitle&quot;&gt;
+This manual shipment has been created on 03&#x2F;03&#x2F;2022
+&lt;&#x2F;div&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;is_statussequence_hover2.png&quot; alt=&quot;Inbound status: hover 2&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;div class=&quot;imagetitle&quot;&gt;
+This automatic shipment has been created on 03&#x2F;03&#x2F;2022, allocated on 04&#x2F;03&#x2F;2022 and picked on 07&#x2F;03&#x2F;2022
+&lt;&#x2F;div&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;is_statussequence_hover.png&quot; alt=&quot;Inbound status: hover&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;hold-checkbox&quot;&gt;Hold checkbox&lt;&#x2F;h3&gt;
+&lt;p&gt;Located on the bottom left corner, on the left of the status sequence. &lt;&#x2F;p&gt;
+&lt;p&gt;Check the &lt;code&gt;Hold&lt;&#x2F;code&gt; checkbox prevents the Inbound Shipment from being updated to the next status. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;os_holdcheckbox.png&quot; alt=&quot;Outbound hold checkbox&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;cancel-and-confirm-button&quot;&gt;Cancel and Confirm button&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;cancel-button&quot;&gt;Cancel Button&lt;&#x2F;h4&gt;
+&lt;p&gt;Click on the &lt;code&gt;Cancel&lt;&#x2F;code&gt; button to quit the Inbound Shipment view and return to the Inbound Shipments list. &lt;&#x2F;p&gt;
+&lt;h4 id=&quot;confirm-button&quot;&gt;Confirm Button&lt;&#x2F;h4&gt;
+&lt;p&gt;The &lt;code&gt;Confirm&lt;&#x2F;code&gt; button is the button to update the status of a shipment. The status which you can confirm depends on the current status of the shipment and follows the sequence shown below.&lt;&#x2F;p&gt;
+&lt;p&gt;When managing an Inbound Shipment, you can only confirm it as Delivered or Verified. &lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Confirm...&lt;&#x2F;th&gt;&lt;th align=&quot;left&quot;&gt;Current Status&lt;&#x2F;th&gt;&lt;th align=&quot;left&quot;&gt;Next Status&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Confirm Delivered&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Shipped&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Delivered&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Confirm Verified&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Delivered&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Verified&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;You don&#x27;t have to update a shipment to next status in the sequence. You can choose to skip some of them to go directly to &lt;code&gt;Confirm Verified&lt;&#x2F;code&gt; for example.&lt;&#x2F;p&gt;
+&lt;p&gt;As demonstrated below, tap on the down arrow of the &lt;code&gt;Confirm&lt;&#x2F;code&gt; button and select the status you want the shipment to be updated to. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;is_skipstatus.gif&quot; alt=&quot;Skip Status&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;adding-lines-to-an-inbound-shipment&quot;&gt;Adding lines to an Inbound Shipment&lt;&#x2F;h2&gt;
+&lt;p&gt;To add a line, tap on the &lt;code&gt;Add Item&lt;&#x2F;code&gt; button located in the top left corner of your screen. &lt;&#x2F;p&gt;
+&lt;p&gt;A new &lt;code&gt;Add Item&lt;&#x2F;code&gt; window opens. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;is_additem_button.png&quot; alt=&quot;Inbound: add item button&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;select-an-item&quot;&gt;Select an Item&lt;&#x2F;h3&gt;
+&lt;p&gt;In the &lt;code&gt;Add Item&lt;&#x2F;code&gt; window, you can look up an item by:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Reading through the list of available items&lt;&#x2F;li&gt;
+&lt;li&gt;or by typing some or all of an item name&lt;&#x2F;li&gt;
+&lt;li&gt;or by typing some or all of an item code&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Once your item is highlighted, tap on the name or press &lt;code&gt;Enter&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;os_additem.gif&quot; alt=&quot;Add Item&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;quantities-tab&quot;&gt;Quantities tab&lt;&#x2F;h3&gt;
+&lt;p&gt;In the &lt;code&gt;Quantities&lt;&#x2F;code&gt; tab, you can update the following fields: &lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Batch&lt;&#x2F;strong&gt;: Type here the batch number. Leave blank if item is not managed with batch number.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Expiry&lt;&#x2F;strong&gt;: The expiry date of the batch number. Leave blank is not applicable&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;# Packs&lt;&#x2F;strong&gt;: The quantity of packs you are receiving&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Pack Size&lt;&#x2F;strong&gt;: The quantity of units per pack (by default, pack size is 1)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Unit Qty&lt;&#x2F;strong&gt; (read-only): Automatically calculated based on # Packs and Pack Size (&lt;code&gt;[# Packs] x [Pack Size]&lt;&#x2F;code&gt;)&lt;&#x2F;li&gt;
+&lt;li&gt;If you are receiving more than one batch number for the same item, you can tap on the &lt;code&gt;Add Batch&lt;&#x2F;code&gt; button&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;div class=&quot;imagetitle&quot;&gt;
+In below example, we are receiving 2 batch numbers for item &lt;i&gt;030453 - Amoxicillin 250mg tabs&lt;&#x2F;i&gt; with a different pack size. 
+&lt;&#x2F;div&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;is_additem_quantities.png&quot; alt=&quot;Add Item quantities&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;pricing-tab&quot;&gt;Pricing tab&lt;&#x2F;h3&gt;
+&lt;p&gt;On the second tab, &lt;code&gt;Pricing&lt;&#x2F;code&gt;, you can update the following fields (all are optional): &lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Sell&lt;&#x2F;strong&gt;: The selling unit price of the item  (default value is 0)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Cost&lt;&#x2F;strong&gt;: The purchasing unit price of the item (default value is 0)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Unit Qty&lt;&#x2F;strong&gt; (read-only): Total number of units for the batch number&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Line Total&lt;&#x2F;strong&gt; (read-only): Total purchasing value for the batch number (&lt;code&gt;[Unit Qty] x [Cost]&lt;&#x2F;code&gt;) &lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;div class=&quot;warning&quot;&gt;
+Sell &amp; Cost prices are per units and not per pack. 
+&lt;&#x2F;div&gt;
+&lt;div class=&quot;imagetitle&quot;&gt;
+In below example, sell price $12 per unit and cost price is $10 per unit. 
+&lt;&#x2F;div&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;is_additem_pricing.png&quot; alt=&quot;Add Item pricing&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;location-tab&quot;&gt;Location tab&lt;&#x2F;h3&gt;
+&lt;p&gt;In the third tab, &lt;code&gt;Location&lt;&#x2F;code&gt;, you can select a storage location to assign the batch number to a location in your storage facility. &lt;&#x2F;p&gt;
+&lt;p&gt;Simply select a storage location from the &lt;code&gt;Location&lt;&#x2F;code&gt; dropdown menu.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;is_additem_location.png&quot; alt=&quot;Add Item location&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;div class=&quot;note&quot;&gt;
+Don&#x27;t know the storage location yet ? You don&#x27;t have to capture it right away. You can update the storage location at any time if you haven&#x27;t confirmed the verification yet. 
+&lt;&#x2F;div&gt;
+&lt;h3 id=&quot;confirm-item-and-quantities&quot;&gt;Confirm item and quantities&lt;&#x2F;h3&gt;
+&lt;p&gt;When you&#x27;re done, you can add the new line by tapping on:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;OK&lt;&#x2F;code&gt;if you don&#x27;t want to add another line to your shipment&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;OK &amp;amp; Next&lt;&#x2F;code&gt;if you have other lines to create&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Otherwise, you can tap on &lt;code&gt;Cancel&lt;&#x2F;code&gt; and your changes won&#x27;t be saved. &lt;&#x2F;p&gt;
+&lt;h2 id=&quot;editing-an-inbound-shipment-line&quot;&gt;Editing an Inbound Shipment line&lt;&#x2F;h2&gt;
+&lt;p&gt;To edit an Inbound Shipment line, simply tap on it. You will be presented with the &lt;code&gt;Edit Item&lt;&#x2F;code&gt; window, which is identical to the &lt;code&gt;Add Item&lt;&#x2F;code&gt; window, except that the item is already chosen and cannot be modified. &lt;&#x2F;p&gt;
+&lt;h3 id=&quot;edit-a-shipment-line&quot;&gt;Edit a Shipment Line&lt;&#x2F;h3&gt;
+&lt;div class=&quot;note&quot;&gt;
+ &lt;b&gt;&lt;&#x2F;b&gt; you can edit a shipment line if the shipment has a status higher lower than &lt;code&gt;VERIFIED&lt;&#x2F;code&gt;. 
+&lt;&#x2F;div&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Open the Inbound Shipment you want to edit&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Tap on the line you want to edit. An identical window to &lt;code&gt;Add Item&lt;&#x2F;code&gt; appears. At this stage:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Edit the main &lt;code&gt;Issue Quantity&lt;&#x2F;code&gt; field &lt;&#x2F;li&gt;
+&lt;li&gt;or change the number of packs value at the batch number level&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;div class=&quot;note&quot;&gt;
+ &lt;b&gt;&lt;&#x2F;b&gt; When editing a shipment line, you cannot change the item. You would need to delete the shipment line and to create a new one. 
+&lt;&#x2F;div&gt;
+&lt;h3 id=&quot;delete-a-shipment-line&quot;&gt;Delete a Shipment line&lt;&#x2F;h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Open the Inbound Shipment that you would like to edit&lt;&#x2F;li&gt;
+&lt;li&gt;Make sure that status is not yet &lt;code&gt;VERIFIED&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Select the line(s) you want to delete by checking the box(es) on the right of the list&lt;&#x2F;li&gt;
+&lt;li&gt;Go to the &lt;code&gt;Actions&lt;&#x2F;code&gt; dropdown menu (top right corner, above the list)&lt;&#x2F;li&gt;
+&lt;li&gt;Select the action &lt;code&gt;Delete selected lines&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;os_actions_deleteselectedlines.png&quot; alt=&quot;Alt Text&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;div class=&quot;imagetitle&quot;&gt;
+In below example, we are deleting &lt;i&gt;item 030063 - Acetylsalicylic Acid 100mg tabs&lt;&#x2F;i&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;os_deleteselectedlines.gif&quot; alt=&quot;Alt Text&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;div class=&quot;tip&quot;&gt;
+You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
+&lt;&#x2F;div&gt;
+&lt;h2 id=&quot;receiving-stock-with-an-inbound-shipment&quot;&gt;Receiving stock with an Inbound Shipment&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;confirm-the-delivery-of-the-shipment&quot;&gt;Confirm the delivery of the shipment&lt;&#x2F;h3&gt;
+&lt;p&gt;Whether your Inbound Shipment is &lt;strong&gt;manual&lt;&#x2F;strong&gt; or &lt;strong&gt;automatic&lt;&#x2F;strong&gt;, the first step to receive the goods is to confirm the delivery. &lt;&#x2F;p&gt;
+&lt;p&gt;At this stage, you don&#x27;t have to check if quantities or other information are correct, you just have to acknowledge that you have received the goods from your supplier. &lt;&#x2F;p&gt;
+&lt;p&gt;To confirm that an Inbound Shipment has been delivered, click on the &lt;code&gt;Confirm Delivered&lt;&#x2F;code&gt; button. &lt;&#x2F;p&gt;
+&lt;div class=&quot;note&quot;&gt;
+In case your Inbound Shipment is &lt;b&gt;automatic&lt;&#x2F;b&gt;, you cannot confirm its delivery unless the supplier has confirmed its shipment. In other words, your shipment status has to be &lt;code&gt;SHIPPED&lt;&#x2F;code&gt; before you can confirm that you have received the goods. 
+&lt;&#x2F;div&gt;
+&lt;h3 id=&quot;verify-your-inbound-shipment&quot;&gt;Verify your Inbound Shipment&lt;&#x2F;h3&gt;
+&lt;p&gt;Verification is the last step to receive goods in mSupply. At this stage, you can check what you have received and make sure that that information in mSupply are correct. &lt;&#x2F;p&gt;
+&lt;p&gt;You have the possibility to verify the following information: &lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Batch numbers and their expiry dates&lt;&#x2F;li&gt;
+&lt;li&gt;Quantity of packs and pack size &lt;&#x2F;li&gt;
+&lt;li&gt;Pricing information: cost and sell prices&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;You can also capture where received goods are to be stored in the &lt;code&gt;Location&lt;&#x2F;code&gt; tab. &lt;&#x2F;p&gt;
+&lt;p&gt;Once all information have been captured or verified, you can confirm the Shipment as &lt;code&gt;VERIFIED&lt;&#x2F;code&gt; by tapping on the &lt;code&gt;Confirm Verified&lt;&#x2F;code&gt; button. &lt;&#x2F;p&gt;
+&lt;p&gt;Once you have done this:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Goods are now part of your inventory&lt;&#x2F;li&gt;
+&lt;li&gt;Shipment status is now &lt;code&gt;VERIFIED&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;You can no longer edit shipment lines&lt;&#x2F;li&gt;
+&lt;li&gt;You can no longer delete the shipment&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;viewing-an-inbound-shipment&quot;&gt;Viewing an Inbound Shipment&lt;&#x2F;h2&gt;
+&lt;p&gt;When viewing a specific shipment, you can view the batches on that shipment grouped by item or with each batch listed separately.
+To change the view mode, click the &lt;code&gt;Group by item&lt;&#x2F;code&gt; switch. &lt;&#x2F;p&gt;
+&lt;p&gt;When grouped by item, you can expand the item to see individual batches, or use the expand in the table header to expand all grouped rows. If you click on an item you will also see all selected batches, as shown in this example:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;is_group_by_item.gif&quot; alt=&quot;Group by Item&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>Internal Orders</title>
+		<published>2022-03-19T18:20:00+00:00</published>
+		<updated>2022-03-19T18:20:00+00:00</updated>
+		<link href="https://docs.msupply.foundation/fr/docs/replenishment/internal-orders/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/replenishment/internal-orders/</id>
+		<content type="html">&lt;p&gt;Internal Orders go by several other names in certain countries or systems:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Requisitions&lt;&#x2F;li&gt;
+&lt;li&gt;Orders&lt;&#x2F;li&gt;
+&lt;li&gt;Report &amp;amp; Requisition&lt;&#x2F;li&gt;
+&lt;li&gt;R&amp;amp;R&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Internal Orders are a way to support users in requesting new stock from another store. &lt;&#x2F;p&gt;
+&lt;h2 id=&quot;viewing-internal-orders&quot;&gt;Viewing Internal Orders&lt;&#x2F;h2&gt;
+&lt;p&gt;If you would like to order some stock from your supplier: &lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Navigate to the &lt;code&gt;Replenishment&lt;&#x2F;code&gt; menu&lt;&#x2F;li&gt;
+&lt;li&gt;Tap on &lt;code&gt;Internal Orders&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;images&#x2F;intord_access.png&quot; alt=&quot;Internal Order: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;You will see a list of all existing internal orders: &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;images&#x2F;intord_list.png&quot; alt=&quot;Internal Order: list&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;You can use the &lt;code&gt;Search by comment&lt;&#x2F;code&gt; field to filter the list by the comments of the internal orders: &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;images&#x2F;intord_filterlistbycomment.gif&quot; alt=&quot;Internal Order: filter by comment&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;You can sort the list using the column headers:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Tap the column header of the column that you want to sort. The column is sorted in ascending order. &lt;&#x2F;li&gt;
+&lt;li&gt;Tap the column header again and column will be sorted in the opposite order.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h2 id=&quot;creating-a-new-internal-order&quot;&gt;Creating a new Internal Order&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;select-a-supplier&quot;&gt;Select a supplier&lt;&#x2F;h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Click on the &lt;code&gt;New Order&lt;&#x2F;code&gt; button (top right corner): &lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;images&#x2F;intord_newreqbutton.png&quot; alt=&quot;Internal Order: new order&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;A new window opens, inviting your to select a supplier: &lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;images&#x2F;intord_selectsupplier2.png&quot; alt=&quot;Internal Order: select supplier&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;Select a Supplier by pressing on its name. You will see a window like this: &lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;images&#x2F;intord_newintord.png&quot; alt=&quot;Internal Order: newly created order&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;defining-maximum-month-of-stock-maximum-mos&quot;&gt;Defining Maximum Month of Stock (Maximum MOS)&lt;&#x2F;h3&gt;
+&lt;p&gt;Defining the Maximum MOS (Month of Stock) is critical to the calculation of the &lt;strong&gt;Suggested Quantity&lt;&#x2F;strong&gt; and you can change it: &lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;There is an industry rule of thumb that the &lt;em&gt;Maximum MOS&lt;&#x2F;em&gt; should be set to 3 times the ordering cycle&lt;&#x2F;li&gt;
+&lt;li&gt;The default &lt;em&gt;Maximum MOS&lt;&#x2F;em&gt; is &lt;code&gt;3.0&lt;&#x2F;code&gt;, which is based on a monthly ordering cycle&lt;&#x2F;li&gt;
+&lt;li&gt;If for example, the ordering cycle was every two months, then &lt;em&gt;Maximum MOS&lt;&#x2F;em&gt; should be set to 3 x 2 = &lt;code&gt;6.0&lt;&#x2F;code&gt; &lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;div class=&quot;imagetitle&quot;&gt;
+In below example, we are setting our Maximum MOS to 3 Months.  
+&lt;&#x2F;div&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;images&#x2F;intord_maxmos.png&quot; alt=&quot;MaxMOS&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;This can be done before or after adding items to your order. &lt;&#x2F;p&gt;
+&lt;h3 id=&quot;adding-a-single-item&quot;&gt;Adding a single item&lt;&#x2F;h3&gt;
+&lt;p&gt;Tap on &lt;code&gt;Add Item&lt;&#x2F;code&gt; to add a single item to your order. A new window opens: &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;images&#x2F;intord_additem2.png&quot; alt=&quot;Internal Order: add item&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;First select the item you want to add to your order. Open the &lt;code&gt;Stock details&lt;&#x2F;code&gt; dropdown menu and select your item from the list. You can also type some or all of an item name (or code) to look for a specific item. &lt;&#x2F;p&gt;
+&lt;p&gt;Once item is selected, you should see the following information on the window:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Item Code&lt;&#x2F;strong&gt; and &lt;strong&gt;Item Name&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Unit&lt;&#x2F;strong&gt;: the default unit used for this item (&lt;em&gt;eg. Tablet, Vial&lt;&#x2F;em&gt;)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;AMC&lt;&#x2F;strong&gt;: Average Monthly Consumption. How much stock your store uses each month on average (based on a configurable number of months, default is set to 3 months)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Suggested Quantity&lt;&#x2F;strong&gt;: how much stock mSupply suggests that your order to reach your stock target quantity&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Order quantity&lt;&#x2F;strong&gt;: the quantity of units that you request from your supplier&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;You should also see the following charts: &lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Stock distribution&lt;&#x2F;strong&gt;: In this chart, you will see the following information:
+&lt;ul&gt;
+&lt;li&gt;The &lt;em&gt;Target Quantity&lt;&#x2F;em&gt; for the item. This is calculated as: Maximum MOS x AMC.&lt;&#x2F;li&gt;
+&lt;li&gt;Your current &lt;em&gt;Stock on Hand&lt;&#x2F;em&gt; (in grey)&lt;&#x2F;li&gt;
+&lt;li&gt;The &lt;em&gt;suggested quantity&lt;&#x2F;em&gt; calculated by mSupply&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;div class=&quot;imagetitle&quot;&gt;
+In below example, our target quantity is 600 units which is the equivalent of 3 months of stock (3 x 200 = 600 units). Our stock on hand (in grey) is 50 so in order to reach my target, mSupply suggests to order 550 units (600 - 50). 
+&lt;&#x2F;div&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;images&#x2F;intord_charts_stockdistri.png&quot; alt=&quot;Stock Distribution&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;div class=&quot;imagetitle&quot;&gt;
+In below example, the target quantity is 62 units. Since we already have 250 units in stock (in grey), the suggested quantity is zero. 
+&lt;&#x2F;div&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;images&#x2F;intord_charts_stockdistri2.png&quot; alt=&quot;Stock Distribution 2&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Consumption History (monthly)&lt;&#x2F;strong&gt;: this chart shows the monthly consumption up to 12 months in the past (in grey) and the current AMC (in orange):&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;images&#x2F;intord_charts_consumption.png&quot; alt=&quot;Consumption&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Stock Evolution&lt;&#x2F;strong&gt;: this chart shows you your stock level for the last 30 days and your projected inventory for the next 30 days. The projected stock will be updated based on your inputs in the &lt;code&gt;Order quantity&lt;&#x2F;code&gt; field:&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;images&#x2F;intord_charts_stockevolution.png&quot; alt=&quot;Stock Evolution&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;adding-items-using-a-master-list&quot;&gt;Adding items using a master list&lt;&#x2F;h3&gt;
+&lt;p&gt;If your organisation is using Master Lists, you can add multiple items at once using your store&#x27;s master lists. It is particularly useful when you have a lot of items in your order and you don&#x27;t want to add them all one by one.&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Tap on the &lt;code&gt;Add from master list&lt;&#x2F;code&gt; button&lt;&#x2F;li&gt;
+&lt;li&gt;Select a master list&lt;&#x2F;li&gt;
+&lt;li&gt;A dialog window opens asking you whether you want to add all of the items from this master list. Tap &lt;code&gt;OK&lt;&#x2F;code&gt; if you wish to proceed. &lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;All the items of the master list are now listed in your order. If you had previously added single item, it will add items that are not already there. &lt;&#x2F;p&gt;
+&lt;p&gt;Tap on an order line to change the &lt;strong&gt;Order Quantity&lt;&#x2F;strong&gt; or tap on the button &lt;code&gt;Requested to Suggested&lt;&#x2F;code&gt; button &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;images&#x2F;intord_addfromml.gif&quot; alt=&quot;Internal Order: add from master list&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;div class=&quot;note&quot;&gt; 
+Master Lists are defined and assigned to stores at the central server level. You can only see the master lists that are visible to your store. 
+&lt;br&gt; &lt;br&gt;
+If you don&#x27;t find the master list you are looking for and if you want to create a new one, please contact your administrator.
+&lt;&#x2F;div&gt;
+&lt;div class=&quot;tip&quot;&gt;
+You can create internal orders from multiple master lists by repeating above actions with another master list. 
+&lt;&#x2F;div&gt;
+&lt;h3 id=&quot;reading-the-internal-order-s-list&quot;&gt;Reading the Internal Order&#x27;s list&lt;&#x2F;h3&gt;
+&lt;p&gt;When you add items (using a master list or not), the item is added to the order&#x27;s table. The following information is provided for each order line:&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Status&lt;&#x2F;th&gt;&lt;th&gt;Description&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Code&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Code of the item&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Name&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Name of the item&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;SoH (Est. remaining)&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;How much stock currently available in your store for this store&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;AMC&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Average Monthly Consumption: how much stock your store uses each month on average (based on a configurable number of months, defaults to 3 months)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Target Stock&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;This is the stock you are aiming for. Calculated as: AMC x Maximum MOS&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Suggested Quantity&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;How much stock mSupply suggests that your order. This is calculated as: AMC x Maximum MOS - SoH&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Requested&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;This is set to zero by default. This is the quantity of units you are ordering from your supplier.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Comment&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;A comment for the order line. Comments will be visible to your supplier.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h3 id=&quot;using-suggested-quantities&quot;&gt;Using Suggested Quantities&lt;&#x2F;h3&gt;
+&lt;p&gt;If you tap on the &lt;code&gt;Use Suggested Quantities&lt;&#x2F;code&gt; on the requisition header, mSupply will automatically copy the values in the &lt;strong&gt;Suggested Quantity&lt;&#x2F;strong&gt; column into the &lt;strong&gt;Requested Quantity&lt;&#x2F;strong&gt; column. &lt;&#x2F;p&gt;
+&lt;p&gt;You can always manually edit the order quantity for each by tapping on an order line. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;images&#x2F;intord_reqtosug.png&quot; alt=&quot;Use Suggested Quantities&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;printing-an-internal-order&quot;&gt;Printing an Internal Order&lt;&#x2F;h3&gt;
+&lt;p&gt;When viewing a specific Internal Order, simply click the &lt;code&gt;Print&lt;&#x2F;code&gt; button which is on the top right of the page.
+When printing, a PDF file is generated for you, which will then open in a new browser tab. This can then be printed using your browser by clicking print or using &lt;code&gt;control&lt;&#x2F;code&gt;+&lt;code&gt;P&lt;&#x2F;code&gt; (if using windows) or &lt;code&gt;cmd&lt;&#x2F;code&gt;+&lt;code&gt;P&lt;&#x2F;code&gt; keys on your keyboard (if using a mac).&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;images&#x2F;print_button.png&quot; alt=&quot;Print button&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;This will either&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Show a menu of possible reports for you to select from before creating a PDF. This will happen if there are more than one report defined for the &lt;code&gt;Requisition&lt;&#x2F;code&gt; report type.&lt;&#x2F;li&gt;
+&lt;li&gt;Create a PDF immediately, if there is only one report to select from&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_print_menu.png&quot; alt=&quot;Print menu&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;sending-an-internal-order&quot;&gt;Sending an Internal Order&lt;&#x2F;h3&gt;
+&lt;p&gt;To send the order to your supplier:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Tap on the &lt;code&gt;Confirm Sent&lt;&#x2F;code&gt; button (bottom right corner)&lt;&#x2F;li&gt;
+&lt;li&gt;A dialog window opens asking you whether you are sure to want to send the order. Tap on &lt;code&gt;OK&lt;&#x2F;code&gt; to proceed&lt;&#x2F;li&gt;
+&lt;li&gt;Status of your order is now &lt;code&gt;SENT&lt;&#x2F;code&gt; and the order is no longer editable&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;div class=&quot;warning&quot;&gt;
+Ensure that your order is correct before sending it to your supplier. Once sent, no further changes can be made to finalised orders. 
+&lt;&#x2F;div&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
 		<title>Didacticiel</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
@@ -224,40 +1217,77 @@ Ne vous inquiétez pas si vous oubliez un élément. Vous aurez la possibilité 
 &lt;li&gt;Entrez l&#x27;adresse Web (URL) de votre serveur mSupply. Dans notre cas, nous utilisons https:&#x2F;&#x2F;demo-open.msupply.org - notre site Web de test.&lt;&#x2F;li&gt;
 &lt;li&gt;Après avoir appuyé &lt;entrer&gt; sur votre clavier, la page de connexion s&#x27;affichera.&lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;log_in.png&quot; alt=&quot;login!&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;images&#x2F;log_in_fr.png&quot; alt=&quot;login!&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;ol start=&quot;4&quot;&gt;
 &lt;li&gt;Entrez votre nom d&#x27;utilisateur et votre mot de passe et appuyez sur &lt;entrer&gt; sur ton clavier, ou cliquez sur le boutton [Connexion].&lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
 &lt;p&gt;Si tout se passe bien, vous serez redirigé vers la page du tableau de bord.
 S&#x27;il y a eu un problème, vous verrez un message d&#x27;erreur, comme celui-ci :&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;log_in_error.png&quot; alt=&quot;login!&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;images&#x2F;log_in_error.png&quot; alt=&quot;login!&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Essayez de retaper le nom d&#x27;utilisateur et le mot de passe (notez que les deux sont sensibles à la casse).
 Lorsque vous vous connectez, le dépôt par défaut de votre utilisateur est sélectionné comme dépôt courant. Si vous avez accès à d&#x27;autres dépôts, vous pourrez changer de dépôt après vous être connecté (voir ci-dessous).
 Si vous vous êtes déjà connecté, et changé de dépôt, alors le dépôt le plus récent sera sélectionné pour vous lorsque vous vous connecterez.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;naviguer-dans-open-msupply&quot;&gt;Naviguer dans Open mSupply&lt;&#x2F;h2&gt;
 &lt;p&gt;Le menu principal se trouve sur le côté gauche de l&#x27;écran. Si vous avez un petit écran, alors il sera réduit par défaut - pour les écrans plus grands, il sera plutôt ouvert par défaut. Pour ouvrir et fermer, vous pouvez cliquer sur le logo en haut, comme indiqué ci-dessous. Le menu reste ouvert ou fermé une fois que vous avez sélectionné une option.&lt;&#x2F;p&gt;
 &lt;p&gt;Si le menu est fermé, il suffit de survoler les éléments du menu pour l&#x27;ouvrir, dans ce cas, cliquer sur un élément laissera le menu se refermer. Si vous êtes sur tablette, cliquer sur un élément du menu aura le même effet.&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;main_nav.gif&quot; alt=&quot;Main navigation&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;images&#x2F;main_nav.gif&quot; alt=&quot;Main navigation&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Sur certains écrans, vous verrez afficher un libellé en en-tête, tel que &lt;strong&gt;Expédition&lt;&#x2F;strong&gt; dans l&#x27;exemple ci-avant. En cliquant sur une expédition spécifique de la liste, vous changez cet en-tête en &lt;strong&gt;Expédition&#x2F; #[le numéro d&#x27;expédition]&lt;&#x2F;strong&gt;. Vous pouvez cliquer sur  &lt;strong&gt;Expédition&lt;&#x2F;strong&gt; pour retourner à la liste - ou utiliser le menu de navigation à gauche.&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;raccourcis-clavier&quot;&gt;Raccourcis clavier&lt;&#x2F;h3&gt;
 &lt;p&gt;Des raccourcis clavier sont utilisés tout au long de open mSupply. Plutôt que de tous les mémoriser, pour commencer, il vous suffit de vous souvenir de la combinaison &lt;code&gt;control (ctrl)&lt;&#x2F;code&gt;+&lt;code&gt;k&lt;&#x2F;code&gt; (windows et linux) ou &lt;code&gt;cmd (⌘)&lt;&#x2F;code&gt;+&lt;code&gt;k&lt;&#x2F;code&gt; (mac)&lt;&#x2F;p&gt;
 &lt;p&gt;Cela fera apparaître la fenêtre suivante, quelle que soit la page sur laquelle vous vous trouvez :&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;cmd_k.png&quot; alt=&quot;CommandK&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;images&#x2F;cmd_k.png&quot; alt=&quot;CommandK&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Vous verrez afficher la liste des raccourcis globalement disponibles. Par exemple en tapant la lettre &lt;code&gt;d&lt;&#x2F;code&gt; de votre clavier, cela vous amènera au tableau de bord (sauf si vous saisissez du texte!).&lt;&#x2F;p&gt;
 &lt;p&gt;Cependant, vous pouvez également cliquer sur un élément de la liste ou rechercher les commandes disponibles :&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;cmd_k.gif&quot; alt=&quot;CommandK&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;images&#x2F;cmd_k.gif&quot; alt=&quot;CommandK&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;De plus, il existe divers endroits où des raccourcis clavier spécifiques sont disponibles. Un exemple est l&#x27;onglet de contrôle utilisé aussi bien pour Les Inventaires que pour Les Livraisons. Ici, vous pouvez utiliser &lt;code&gt;control&lt;&#x2F;code&gt;+&lt;code&gt;1&lt;&#x2F;code&gt; pour accéder au premier onglet (Quantités) ou &lt;code&gt;control&lt;&#x2F;code&gt;+&lt;code&gt;2&lt;&#x2F;code&gt; pour le second onglet (Tarification) etc. Vous pouvez ajouter un nouveau lot en tapant la touche &lt;code&gt;+&lt;&#x2F;code&gt; de votre clavier. &lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;is_edit_keyboard_shortcuts.png&quot; alt=&quot;Inbound tabs&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;pied-de-page&quot;&gt;Pied de Page&lt;&#x2F;h2&gt;
 &lt;p&gt;Le bas de l&#x27;écran contient des informations utiles et s&#x27;affiche sur chaque écran.&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;footer.png&quot; alt=&quot;Footer&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;images&#x2F;footer.png&quot; alt=&quot;Footer&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Certains utilisateurs ont accès à plus d&#x27;un dépôt. Pour changer le dépôt actuellement sélectionné, cliquez simplement sur le nom du dépôt au pied de la page:&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;store_switcher.gif&quot; alt=&quot;Store switcher&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;images&#x2F;store_switcher.gif&quot; alt=&quot;Store switcher&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Vous verrez la notification et le nom du dépôt dans le pied de page sera mis à jour. À partir de maintenant, toutes les actions seront dans le dépôt nouvellement sélectionné.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;aide&quot;&gt;Aide!&lt;&#x2F;h2&gt;
 &lt;p&gt;Si vous avez besoin d&#x27;aide à tout moment lors de l&#x27;utilisation du site, cliquez sur &lt;code&gt;Aide&lt;&#x2F;code&gt; qui se trouve en bas dans le menu à gauche. &lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;docs_nav.png&quot; alt=&quot;Docs&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;images&#x2F;docs_nav.png&quot; alt=&quot;Docs&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Cela vous amènera à la page de documentation qui se rapporte à la page actuelle que vous consultez.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="fr">
+		<title>Dashboard</title>
+		<published>2022-03-17T18:20:00+00:00</published>
+		<updated>2022-03-17T18:20:00+00:00</updated>
+		<link href="https://docs.msupply.foundation/fr/docs/dashboard/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/dashboard/</id>
+		<content type="html">&lt;h2 id=&quot;too-many-dashboards&quot;&gt;Too many Dashboards!&lt;&#x2F;h2&gt;
+&lt;p&gt;Yes, we use the term &lt;em&gt;Dashboard&lt;&#x2F;em&gt; for more than one thing.
+Open mSupply has a landing page which gives an overview of some statistics, and has some useful links, which we&#x27;re talking about here, and also a system dashboard that uses Grafana, and gives an overview of all sites in your country (or organisation).&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;what-s-on-display&quot;&gt;What&#x27;s on display?&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;images&#x2F;dashboard.png&quot; alt=&quot;The dashboard!&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;You can see some statistics for shipments and stock:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Inbound Shipments
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Today&lt;&#x2F;strong&gt; Shows the number of inbound shipments created today&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;This week&lt;&#x2F;strong&gt; The number created during the current week&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Outbound Shipments
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Today&lt;&#x2F;strong&gt; The number of shipments to be picked today, that is, the number with the status of &lt;code&gt;Allocated&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Stock
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Expired&lt;&#x2F;strong&gt; The number of stock lines in the current store which have expired&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Expiring soon&lt;&#x2F;strong&gt; The number of stock lines in the current store which will expire within the next three months&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Total items&lt;&#x2F;strong&gt; A count of the number of items in this store&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Items with no stock&lt;&#x2F;strong&gt; The item is visible in this store, but there is no stock recorded&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Less than 3 months of stock&lt;&#x2F;strong&gt; Which is based on the average monthly consumption (AMC) for this item in the current store&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;As well, there are buttons toward the bottom of the page which allow you to create shipments and requisitions.&lt;&#x2F;p&gt;
 </content>
 	</entry>
 	<entry xml:lang="fr">
@@ -305,6 +1335,10 @@ Si vous vous êtes déjà connecté, et changé de dépôt, alors le dépôt le 
 &lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Réquisition&lt;&#x2F;td&gt;&lt;td align=&quot;center&quot;&gt;Réquisitions Client&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Une commande de produits effectuée par un client particulier&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Commandes Internes&lt;&#x2F;td&gt;&lt;td align=&quot;center&quot;&gt;Réquisitions Fournisseur&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Une demande de stock faite pour un fournisseur particulier&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h2 id=&quot;getting-started&quot;&gt;Getting Started&lt;&#x2F;h2&gt;
+&lt;p&gt;If you are running the server for the very first time, you may see this screen:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;images&#x2F;initialisation.png&quot; alt=&quot;Initialisation&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Don&#x27;t panic! This simply means that the server needs to know how to connect to the central mSupply server. If you don&#x27;t know what to enter, contact support and they can help.&lt;&#x2F;p&gt;
 </content>
 	</entry>
 </feed>

@@ -19,11 +19,11 @@ One of the most important - but easiest - tasks in mSupply is to check how much 
 
 In the navigation panel, Go to `Inventory` and tap on the  `Stock` submenu: 
 
-![Stock: nav](/docs/inventory/stock_gotostock.png)
+![Stock: nav](/docs/inventory/images/stock_gotostock.png)
 
 A detailed list of your inventory appears: 
 
-![Stock: list](/docs/inventory/stock_viewstock.png)
+![Stock: list](/docs/inventory/images/stock_viewstock.png)
 
 The list is divided into 8 columns: 
 * **Code**: This is the code assigned to this item in mSupply
@@ -42,4 +42,4 @@ You can filter the list by item name or code. This can be useful if you're looki
 
 Type as much of an item name or code in the `Enter item code or name` field: 
 
-![Stock: search](/docs/inventory/stock_search.gif)
+![Stock: search](/docs/inventory/images/stock_search.gif)

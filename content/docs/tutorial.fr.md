@@ -23,14 +23,14 @@ Ce didacticiel est conçu pour vous guider à travers les bases de l'utilisation
 2. Entrez l'adresse Web (URL) de votre serveur mSupply. Dans notre cas, nous utilisons https://demo-open.msupply.org - notre site Web de test.
 3. Après avoir appuyé <entrer> sur votre clavier, la page de connexion s'affichera.
 
-![login!](/docs/log_in.png)
+![login!](/docs/images/log_in_fr.png)
 
 4. Entrez votre nom d'utilisateur et votre mot de passe et appuyez sur <entrer> sur ton clavier, ou cliquez sur le boutton [Connexion].
 
 Si tout se passe bien, vous serez redirigé vers la page du tableau de bord.
 S'il y a eu un problème, vous verrez un message d'erreur, comme celui-ci :
 
-![login!](/docs/log_in_error.png)
+![login!](/docs/images/log_in_error.png)
 
 Essayez de retaper le nom d'utilisateur et le mot de passe (notez que les deux sont sensibles à la casse).
 Lorsque vous vous connectez, le dépôt par défaut de votre utilisateur est sélectionné comme dépôt courant. Si vous avez accès à d'autres dépôts, vous pourrez changer de dépôt après vous être connecté (voir ci-dessous).
@@ -42,7 +42,7 @@ Le menu principal se trouve sur le côté gauche de l'écran. Si vous avez un pe
 
 Si le menu est fermé, il suffit de survoler les éléments du menu pour l'ouvrir, dans ce cas, cliquer sur un élément laissera le menu se refermer. Si vous êtes sur tablette, cliquer sur un élément du menu aura le même effet.
 
-![Main navigation](/docs/main_nav.gif)
+![Main navigation](/docs/images/main_nav.gif)
 
 Sur certains écrans, vous verrez afficher un libellé en en-tête, tel que **Expédition** dans l'exemple ci-avant. En cliquant sur une expédition spécifique de la liste, vous changez cet en-tête en **Expédition/ #[le numéro d'expédition]**. Vous pouvez cliquer sur  **Expédition** pour retourner à la liste - ou utiliser le menu de navigation à gauche.
 
@@ -52,13 +52,13 @@ Des raccourcis clavier sont utilisés tout au long de open mSupply. Plutôt que 
 
 Cela fera apparaître la fenêtre suivante, quelle que soit la page sur laquelle vous vous trouvez :
 
-![CommandK](/docs/cmd_k.png)
+![CommandK](/docs/images/cmd_k.png)
 
 Vous verrez afficher la liste des raccourcis globalement disponibles. Par exemple en tapant la lettre `d` de votre clavier, cela vous amènera au tableau de bord (sauf si vous saisissez du texte!).
 
 Cependant, vous pouvez également cliquer sur un élément de la liste ou rechercher les commandes disponibles :
 
-![CommandK](/docs/cmd_k.gif)
+![CommandK](/docs/images/cmd_k.gif)
 
 De plus, il existe divers endroits où des raccourcis clavier spécifiques sont disponibles. Un exemple est l'onglet de contrôle utilisé aussi bien pour Les Inventaires que pour Les Livraisons. Ici, vous pouvez utiliser `control`+`1` pour accéder au premier onglet (Quantités) ou `control`+`2` pour le second onglet (Tarification) etc. Vous pouvez ajouter un nouveau lot en tapant la touche `+` de votre clavier. 
 
@@ -70,11 +70,11 @@ De plus, il existe divers endroits où des raccourcis clavier spécifiques sont 
 
 Le bas de l'écran contient des informations utiles et s'affiche sur chaque écran.
 
-![Footer](/docs/footer.png)
+![Footer](/docs/images/footer.png)
 
 Certains utilisateurs ont accès à plus d'un dépôt. Pour changer le dépôt actuellement sélectionné, cliquez simplement sur le nom du dépôt au pied de la page:
 
-![Store switcher](/docs/store_switcher.gif)
+![Store switcher](/docs/images/store_switcher.gif)
 
 Vous verrez la notification et le nom du dépôt dans le pied de page sera mis à jour. À partir de maintenant, toutes les actions seront dans le dépôt nouvellement sélectionné.
 
@@ -82,6 +82,6 @@ Vous verrez la notification et le nom du dépôt dans le pied de page sera mis �
 
 Si vous avez besoin d'aide à tout moment lors de l'utilisation du site, cliquez sur `Aide` qui se trouve en bas dans le menu à gauche. 
 
-![Docs](/docs/docs_nav.png)
+![Docs](/docs/images/docs_nav.png)
 
 Cela vous amènera à la page de documentation qui se rapporte à la page actuelle que vous consultez.

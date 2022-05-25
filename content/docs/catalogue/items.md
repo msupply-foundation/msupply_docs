@@ -21,17 +21,17 @@ In the **Items** menu, you can all the items that are currently visible in your 
 
 In the navigation panel, tap on `Catalogue` > `Items` to show the items list: 
 
-![Items nav](/docs/catalogue/cat_gotoitems.png)
+![Items nav](/docs/catalogue/images/cat_gotoitems.png)
 
 You can see all the items which are available for use by your store: 
 
-![Items list](/docs/catalogue/cat_itemslist.png)
+![Items list](/docs/catalogue/images/cat_itemslist.png)
 
 ## Viewing an item's details 
 
 To view the details of an item, simply tap on one. A new window opens: 
 
-![Item detail](/docs/catalogue/cat_itemdetail.png)
+![Item detail](/docs/catalogue/images/cat_itemdetail.png)
 
 On top of the screen, you can the following information:
 * **Stock on Hand**: How much stock currently available in your store for this store
@@ -42,7 +42,7 @@ On top of the screen, you can the following information:
 In below example, we have 1542 units of Amoxicillin available in our store. The average consumption is 53.3  units per month which means that there is the equivalent of 28.9 months of stock in the inventory. 
 </div>
 
-![Item detail headers](/docs/catalogue/cat_itemdetailsheaders.png)
+![Item detail headers](/docs/catalogue/images/cat_itemdetailsheaders.png)
 
 In the bottom part, item details are divided into several sections:
 
