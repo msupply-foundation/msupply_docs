@@ -1,0 +1,16 @@
+https://docs.msupply.foundation/docs/introduction/
+https://docs.msupply.foundation/docs/tutorial/
+https://docs.msupply.foundation/docs/dashboard/
+https://docs.msupply.foundation/docs/distribution/outbound-shipments/
+https://docs.msupply.foundation/docs/distribution/requisitions/
+https://docs.msupply.foundation/docs/distribution/customers/
+https://docs.msupply.foundation/docs/replenishment/inbound-shipments/
+https://docs.msupply.foundation/docs/replenishment/internal-orders/
+https://docs.msupply.foundation/docs/replenishment/suppliers/
+https://docs.msupply.foundation/docs/catalogue/items/
+https://docs.msupply.foundation/docs/catalogue/master-list/
+https://docs.msupply.foundation/docs/inventory/locations/
+https://docs.msupply.foundation/docs/inventory/stock-view/
+https://docs.msupply.foundation/docs/inventory/stock-takes/
+https://docs.msupply.foundation/docs/administration/display/
+https://docs.msupply.foundation/docs/administration/synchronisation/

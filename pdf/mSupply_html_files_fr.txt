@@ -1,0 +1,6 @@
+https://docs.msupply.foundation/fr/docs/introduction/
+https://docs.msupply.foundation/fr/docs/tutorial/
+https://docs.msupply.foundation/fr/docs/catalogue/items/
+https://docs.msupply.foundation/fr/docs/catalogue/master-list/
+https://docs.msupply.foundation/fr/docs/inventory/locations/
+https://docs.msupply.foundation/fr/docs/catalogue/master-list/
