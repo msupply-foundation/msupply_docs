@@ -20,8 +20,8 @@ Allez à `Catalogue` > `Listes Maîtres` dans le panneau de navigation à gauche
 Vous verrez une fenêtre comme celle-ci : 
 
 ![](/docs/catalogue/images/cat_mllist.png)
-Pour afficher tous les éléments d'une liste, cliquez simplement sur une liste.
 
+Pour afficher tous les éléments d'une liste, cliquez simplement sur l'une des listes qui s'affichent à l'écran. 
 
 Le contenu de la liste s'affichera comme ci-après:
 
