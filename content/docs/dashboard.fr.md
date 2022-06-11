@@ -22,7 +22,7 @@ La deuxième utilisation du terme _Tableau de bord_ est pour le système de visu
 
 ## Apperçu de la page d'accueil
 
-![The dashboard!](/docs/images/dashboard.fr.png)
+![The dashboard!](/docs/images/dashboard_fr.png)
 
 Vous pouvez voir quelques statistiques sur les mouvements et l'état du stock:
 
