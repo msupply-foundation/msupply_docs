@@ -1,6 +1,6 @@
 +++
-title = "Dashboard"
-description = "Open mSupply Introduction."
+title = "Tableau de bord"
+description = "Introduction à Open mSupply."
 date = 2022-03-17T18:20:00+00:00
 updated = 2022-03-17T18:20:00+00:00
 draft = false
@@ -9,32 +9,34 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "The landing page"
+lead = "La page d'accueil"
 toc = true
 top = false
 +++
 
-## Too many Dashboards!
+## Plus d'un Tableau de Bord!
 
-Yes, we use the term _Dashboard_ for more than one thing.
-Open mSupply has a landing page which gives an overview of some statistics, and has some useful links, which we're talking about here, and also a system dashboard that uses Grafana, and gives an overview of all sites in your country (or organisation).
+En effet nous utilisons le terme _Tableau de bord_ pour plus d'une chose dans Open mSupply.
+La première utilisation du terme _Tableau de bord_ est pour la page d'accueil. Elle offre non seulement un apperçu sur quelques statistiques, mais aussi quelques liens utiles. Nous verons les détails de ce _Tableau de bord_. 
+La deuxième utilisation du terme _Tableau de bord_ est pour le système de visualisation des données avec Grafana. Il s'agit d'un ensemble de tableaux de bord qui permet d'avoir une vue centralisée pour l'ensemble des sites d'un pays (ou une organisation).
 
-## What's on display?
+## Apperçu de la page d'accueil
 
-![The dashboard!](/docs/images/dashboard.png)
+![The dashboard!](/docs/images/dashboard.fr.png)
 
-You can see some statistics for shipments and stock:
+Vous pouvez voir quelques statistiques sur les mouvements et l'état du stock:
 
-- Inbound Shipments
-  - **Today** Shows the number of inbound shipments created today
-  - **This week** The number created during the current week
-- Outbound Shipments
-  - **Today** The number of shipments to be picked today, that is, the number with the status of `Allocated`
+- Livraisons
+  - **Aujourd'hui** Affiche le nombre de livraisons créées aujourd'hui
+  - **Cette semaine** Le nombre de livraisons créées au cours de cette semaine
+- Expéditions
+  - **Aujourd'hui** Le nombre d'expéditions à préparer aujourd'hui. Il s'agit du nombre avec le statut `Allocated`
 - Stock
-  - **Expired** The number of stock lines in the current store which have expired
-  - **Expiring soon** The number of stock lines in the current store which will expire within the next three months
-  - **Total items** A count of the number of items in this store
-  - **Items with no stock** The item is visible in this store, but there is no stock recorded
-  - **Less than 3 months of stock** Which is based on the average monthly consumption (AMC) for this item in the current store
+  - **Expiré(s)** Il s'agit du nombre de lignes de stock périmé pour ce dépôt.
+  - **Stock expirant** Le nombre de ligne de stock à date de péremption proche (dans les 3 prochains mois)
+  - **Total articles** Nombre total d'articles pour ce dépôt
+  - **Articles sans aucune quantité** Nombre total d'articles visibles n'ayant aucune quantité pour ce dépôt
+  - **Moins de 3 mois de stock** Basé sur la CMM pour cet article et pour ce dépôt
 
-As well, there are buttons toward the bottom of the page which allow you to create shipments and requisitions.
+
+Il y a des boutons vers le bas de la page qui vous permettent de créer des livraisons et des expéditions.
