@@ -56,10 +56,10 @@ Le tableau suivant décrit certains des termes courants utilisés dans mSupply, 
 | Réquisition        | Réquisitions Client      | Une commande de produits effectuée par un client particulier             |
 | Commandes Internes | Réquisitions Fournisseur | Une demande de stock faite pour un fournisseur particulier               |
 
-## Getting Started
+## Commencer
 
-If you are running the server for the very first time, you may see this screen:
+Si vous démarrez le serveur pour la toute première fois, vous pouvez voir cet écran:
 
 ![Initialisation](/docs/images/initialisation.png)
 
-Don't panic! This simply means that the server needs to know how to connect to the central mSupply server. If you don't know what to enter, contact support and they can help.
+Ne paniquez surtout pas! Cela signifie simplement que le serveur doit savoir comment se connecter au serveur central mSupply. Veuillez contacter l'équipe support pour bénéficier d'une assistance, si vous ne savez pas comment renseigner.
