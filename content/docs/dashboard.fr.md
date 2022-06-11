@@ -17,10 +17,10 @@ top = false
 ## Plus d'un Tableau de Bord!
 
 En effet nous utilisons le terme _Tableau de bord_ pour plus d'une chose dans Open mSupply.
-La première utilisation du terme _Tableau de bord_ est pour la page d'accueil. Elle offre non seulement un apperçu sur quelques statistiques, mais aussi quelques liens utiles. Nous verons les détails de ce _Tableau de bord_. 
+La première utilisation du terme _Tableau de bord_ est pour la page d'accueil. Elle offre non seulement un aperçu sur quelques statistiques, mais aussi quelques liens utiles. Nous verons les détails de ce _Tableau de bord_. 
 La deuxième utilisation du terme _Tableau de bord_ est pour le système de visualisation des données avec Grafana. Il s'agit d'un ensemble de tableaux de bord qui permet d'avoir une vue centralisée pour l'ensemble des sites d'un pays (ou une organisation).
 
-## Apperçu de la page d'accueil
+## Aperçu de la page d'accueil
 
 ![The dashboard!](/docs/images/dashboard_fr.png)
 
