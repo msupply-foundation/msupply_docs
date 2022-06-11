@@ -30,7 +30,7 @@ Ce didacticiel est conçu pour vous guider à travers les bases de l'utilisation
 Si tout se passe bien, vous serez redirigé vers la page du tableau de bord.
 S'il y a eu un problème, vous verrez un message d'erreur, comme celui-ci :
 
-![login!](/docs/images/log_in_error.png)
+![login!](/docs/images/log_in_error_fr.png)
 
 Essayez de retaper le nom d'utilisateur et le mot de passe (notez que les deux sont sensibles à la casse).
 Lorsque vous vous connectez, le dépôt par défaut de votre utilisateur est sélectionné comme dépôt courant. Si vous avez accès à d'autres dépôts, vous pourrez changer de dépôt après vous être connecté (voir ci-dessous).
@@ -52,7 +52,7 @@ Des raccourcis clavier sont utilisés tout au long de open mSupply. Plutôt que 
 
 Cela fera apparaître la fenêtre suivante, quelle que soit la page sur laquelle vous vous trouvez :
 
-![CommandK](/docs/images/cmd_k.png)
+![CommandK](/docs/images/cmd_k_fr.png)
 
 Vous verrez afficher la liste des raccourcis globalement disponibles. Par exemple en tapant la lettre `d` de votre clavier, cela vous amènera au tableau de bord (sauf si vous saisissez du texte!).
 
@@ -82,6 +82,6 @@ Vous verrez la notification et le nom du dépôt dans le pied de page sera mis �
 
 Si vous avez besoin d'aide à tout moment lors de l'utilisation du site, cliquez sur `Aide` qui se trouve en bas dans le menu à gauche. 
 
-![Docs](/docs/images/docs_nav.png)
+![Docs](/docs/images/docs_nav_fr.png)
 
 Cela vous amènera à la page de documentation qui se rapporte à la page actuelle que vous consultez.
