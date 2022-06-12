@@ -1,6 +1,6 @@
 +++
-title = "Outbound Shipments"
-description = "Issuing stock to your customers."
+title = "Expéditions"
+description = "Livrer du stock aux clients."
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
 draft = false
@@ -14,33 +14,33 @@ top = false
 +++
 
 
-Outbound Shipments can be used to issue stock to a customer. 
+La fonction _Expédition_ peut être utilisée pour livrer du stock à un client. 
 
-If you have used mSupply in the past, you may be familiar with the term **Customer Invoice** instead of Outbound Shipment. 
-An Outbound Shipment can be used to:
-* Transfer stock to another store which also uses mSupply
-* Issue stock to a customer
-* Fulfill requisitions (customer orders)
+Si vous utilisiez mSupply par le passé, vous devriez être familier au terme **Facture Client** au lieu de **Expédition**. 
+La fonction Expédition est utilisée pour:
+* Un envoi de stock vers un autre dépôt qui utilise mSupply
+* Une sortie de stock au bénéfice d'un client
+* Le traitement d'une réquisition (commande client)
 
-## Viewing Outbound Shipments
+## Voir les Expéditionns
 
-### Open the Outbound Shipments Menu
+### Ouvrir le Menu Expéditions
 
-Choose `Distribution` > `Outbound Shipment` in the navigation panel.
+Choisir `Distribution` > `Expédition` dans le panneau de navigation.
 
-![gotooos](/docs/distribution/images/gotoos2.png)
+![gotooos](/docs/distribution/images/gotoos2_fr.png)
 
-You will be presented with a list Outbound Shipments (if you don't see any, you are probably just starting!). 
+La liste des Expéditions s'affichera (Si vous ne voyez aucune ligne, rassurez-vous. Vous venez probablement de commencer!). 
 
-From this screen you can:
-* View a list of Outbound Shipments
-* Create a new Outbound Shipment
-* Export Outbound Shipments to a `.csv` file
-* Print one or multiple Outbound Shipments
+De cet écran, vous pouvez:
+* Voir la liste des Expéditions
+* Créer une nouvelle Expédition
+* Exporter les Expéditions dans un fichier `.csv`
+* Imprimer une ou plusieurs Expéditions
 
-### Outbound Shipment list
+### Liste des expéditions
 
-1. The list of Outbound Shipments is divided into 7 columns:
+1. The list of Outbound Shipments is divided into 7 colonnes:
 
 | Column| Description |
 | :---------- | :---------- |
