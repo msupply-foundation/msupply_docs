@@ -40,23 +40,23 @@ De cet écran, vous pouvez:
 
 ### Liste des expéditions
 
-1. The list of Outbound Shipments is divided into 7 colonnes:
+1. La liste des expéditions comprend 7 colonnes:
 
-| Column| Description |
+| Colonne| Description |
 | :---------- | :---------- |
-| **Name** | Name of the Customer | 
-| **Status** | Current Status of the shipment | 
-| **Number** | Reference Number of the shipment | 
-| **Created** | Creation date of the shipment | 
-| **Reference** | Customer reference | 
-| **Comment** | Comment for the shipment |
-| **Total** | Total value of the shipment |
+| **Nom** | Nom du Client | 
+| **Statut** | Le statut actuel de l'expédition | 
+| **Numéro** | Le numéro de référence de l'expédition | 
+| **Créée le** | La date de création | 
+| **Reference** | La référence du Client | 
+| **Commentaire** | Commentaire sur l'expédition |
+| **Total** | Valeur totale |
 
-1. The list can display a fixed number of shipments per page. On the bottom left corner, you can see how many shipments are currently displayed on your screen. 
+2. La liste peut afficher un nombre fixe d'expéditions par page. Au bas de liste, à gauche, on peut voir le nombre d'expéditons actuellement affiché à l'écran. 
 
 ![Page](/docs/distribution/images/os_list_showing.png)
 
-3. If you have more than 20 shipments, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner). 
+3. S'il y a plus de 20 expéditions, vous pouvez vous déplacer vers une autre page en cliquant sur le numéro de la page ou en utilisant les flèches droite ou gauche (coin inférieur droit). 
 
 ![Page](/docs/distribution/images/os_list_pagenumbers.png)
 
