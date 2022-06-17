@@ -60,32 +60,32 @@ De cet écran, vous pouvez:
 
 ![Page](/docs/distribution/images/os_list_pagenumbers.png)
 
-### Search by Customer Name
+### Recherche par nom de client
 
-You can filter the list of shipments by customer name. This can be useful if you're looking for one particular shipment!
+Vous pouvez filter la liste des expéditions par nom de client. Cela peut être utile si vous êtes à la recherche d'une expédition en particulier!
 
-Type the name of a customer in the `Search by name` field (on the left, just above the list headers). All the shipments for this customer appear in the list. 
+Entrez le nom du client dans le champs `Search by name` (à gauche, juste au-dessus des en-têtes de liste). Toutes les expéditions pour ce client apparaissent dans la liste. 
 
-### Exporting Outbound Shipments
+### Exporter des expéditions
 
-The list of Outbound Shipments can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page)
+La liste des expéditions peut être exportée dans un fichier (csv). Cliquez simplement sur le bouton _**Exporter**_ (à droite, en haut de la page)
 
-![Export button](/docs/distribution/images/export.png)
+![Export button](/docs/distribution/images/export_fr.png)
 
-and the file will be downloaded. The export function will download all Outbound Shipments, not just the current page, if you have more than 20 of them. Shipments are exported using sort order selected in the table, though of course you could easily sort the list in Excel or whatever you open the .csv file with!
+et le fichier sera téléchargé. La fonction d'exportation téléchargera toutes les expéditions, pas seulement la page actuelle, si vous en avez plus de 20. Les expéditions sont exportées en utilisant l'ordre de tri sélectionné dans la liste, bien que vous puissiez facilement trier la liste dans Excel ou tout autre outil avec lequel vous ouvrez le fichier .csv !
 
-### Delete an Outbound Shipment
+### Supprimer une expédition
 
-You can delete a shipment from the Outbound Shipment list. 
+Vous pouvez, à partir de la liste, supprimer une expédition. 
 
-1. Select the shipment that you want to delete by checking the box on the left end of the list. You can select more than one shipment to be deleted. You can even select them all using the  master checkbox in the list headers. 
+1. Sélectionnez l'expédition que vous souhaitez supprimer en cochant la case à l'extrémité gauche de la liste. Vous pouvez sélectionner plus d'une expédition à supprimer. Vous pouvez même tous les sélectionner à l'aide de la case à cocher principale dans les en-têtes de liste. 
 
-2. Open the `Select` dropdown (top right corner, above the list) and select `Delete selected lines`. 
+2. Ouvrez la liste déroulante `Sélectionner` (coin supérieur droit, au-dessus de la liste) et sélectionnez `Supprimer lignes sélectionnées`. 
 
-3. A notification confirms how many shipments were deleted (bottom left corner). 
+3. Une notification confirme le nombre d'expéditions supprimées (coin inférieur gauche). 
 
 <div class="note">
-You can only delete Outbound Shipments with a status <code>NEW</code>.
+Vous ne pouvez supprimer que les expéditions avec un statut <code>NOUVEAU</code>.
 </div>
 
 ![Outbound list: delete](/docs/distribution/images/os_list_deleteshipment.gif)
