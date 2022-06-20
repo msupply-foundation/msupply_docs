@@ -21,18 +21,18 @@ Explorons ce qui est possible...
 
 Pour accéder aux paramètres d'affichage, allez à `Administration` dans la partie inférieure du panneau de navigation : 
 
-![Location: nav](/docs/administration/images/admin_nav.png)
+![Location: nav](/docs/administration/images/admin_nav_fr.png)
 
 Vous verrez la section des paramètres d'affichage en haut de la page : 
 
-![Location: list](/docs/administration/images/display_settings.png)
+![Location: list](/docs/administration/images/display_settings_fr.png)
 
 
 ## La Langue
 
 Pour changer de langue, il vous suffit de sélectionner dans la liste déroulante
 
-![Language](/docs/administration/images/change_language.png)
+![Language](/docs/administration/images/change_language_fr.png)
 
 La langue sélectionnée sera utilisée pour tout ce que vous faites sur l'application. Si vous rechargez la page ou ouvrez un nouvel onglet, cette langue sera utilisée. Cependant si vous visualisez l'application dans un autre navigateur (par exemple Firefox après avoir changé la langue dans Chrome) vous devrez sélectionner à nouveau la langue.
 
