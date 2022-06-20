@@ -22,7 +22,7 @@ Pour le moment, vous ne pouvez voir que vos clients et leurs informations. À l'
 
 Pour voir les clients de votre dépôt, allez dans le menu  `Distribution` ensuite `Clients`. 
 
-![Page](/docs/distribution/images/cust_gotocust2.png)
+![Page](/docs/distribution/images/cust_gotocust2_fr.png)
 
 Une liste de clients visibles dans votre dépôt vous sera présentée. 
 
@@ -38,4 +38,4 @@ Si vous ne trouvez pas le client que vous recherchez, contactez votre administra
 
 Cliquez sur l'un de vos clients pour voir ses détails.
 
-![Name Detailed View](/docs/distribution/images/cust_detailedview.png)
+![Name Detailed View](/docs/distribution/images/cust_detailedview_fr.png)
