@@ -1,6 +1,6 @@
 +++
-title = "Display Settings"
-description = "Customise how the site looks for you"
+title = "Paramètres d'affichage"
+description = "Personnalisez l'apparence de l'application"
 date = 2022-05-17T16:20:00+00:00
 updated = 2022-05-17T16:20:00+00:00
 draft = false
@@ -13,52 +13,52 @@ toc = true
 top = false
 +++
 
-The display settings section allows you to customise how the site looks for you. Changes made will only affect your experience - if other people would like to change the logo, for example, they will have to make the change themselves.
+La section des paramètres d'affichage vous permet de personnaliser l'apparence de l'application. Les modifications apportées n'affecteront que votre expérience d'utilisation. Si d'autres personnes souhaitent modifier le logo, par exemple, elles devront le faire elles-mêmes.
 
-Let's explore what's possible...
+Explorons ce qui est possible...
 
-## Viewing the display settings
+## Voir les paramètres d'affichage
 
-To view the display settings, go to `Admin` in the lower section of the navigation panel: 
+Pour accéder aux paramètres d'affichage, allez à `Administration` dans la partie inférieure du panneau de navigation : 
 
 ![Location: nav](/docs/administration/images/admin_nav.png)
 
-You will see the display settings section at the top of the page: 
+Vous verrez la section des paramètres d'affichage en haut de la page : 
 
 ![Location: list](/docs/administration/images/display_settings.png)
 
 
-## Language
+## La Langue
 
-To change the language, you simply have to select from the drop down list
+Pour changer de langue, il vous suffit de sélectionner dans la liste déroulante
 
 ![Language](/docs/administration/images/change_language.png)
 
-The selected language will be used for everything you do on the site. If you reload the page or open a new tab, this language will be used. However if you view the site in a different browser (for example Firefox after changing the language in Chrome) you will need to select the language again.
+La langue sélectionnée sera utilisée pour tout ce que vous faites sur l'application. Si vous rechargez la page ou ouvrez un nouvel onglet, cette langue sera utilisée. Cependant si vous visualisez l'application dans un autre navigateur (par exemple Firefox après avoir changé la langue dans Chrome) vous devrez sélectionner à nouveau la langue.
 
-## Custom logo
+## Logo personnalisé
 
-It is possible to use a custom logo for the site. This shows in the left navigation and on the login screen. For example:
+Il est possible d'utiliser un logo personnalisé pour l'application. Cela s'affiche dans la navigation de gauche et sur l'écran de connexion. Par exemple:
 
 ![Custom logo login](/docs/administration/images/custom_logo_login.png)
 
 ![Custom logo login](/docs/administration/images/custom_logo_nav.png)
 
-The logo will need to be in the `svg` format. To update, simply 
+Le logo devra être dans le format `svg`. Pour mettre à jour, il suffit de
 
-* enable the custom logo by clicking the toggle switch
-* copy the text of the .svg file and paste it into the text area
-* click save
+* activer le logo personnalisé en cliquant sur le bouton à bascule
+* copier le texte du fichier .svg et collez-le dans la zone de texte
+* cliquer sur le bouton _Enregistrer_
 
 ![Edit custom logo](/docs/administration/images/edit_logo.png)
 
-## Custom theme
+## Thème personnalisé
 
-You can also configure a custom look for your site by using a custom theme. To do this:
+Vous pouvez également configurer un look personnalisé en utilisant un thème personnalisé. Il suffit de:
 
-* enable the custom theme by clicking the toggle switch
-* you'll see a sample of the current theme in the text area - this shows you what can be updated
-* edit the theme and click save to view the results
+* activer le thème personnalisé en cliquant sur le bouton à bascule
+* vous verrez un échantillon du thème actuel dans la zone de texte - cela vous montre ce qui peut être mis à jour
+* modifier le thème et cliquer sur  _Enregistrer_ pour afficher les résultats
 
 ![Edit custom logo](/docs/administration/images/edit_theme.png)
 
