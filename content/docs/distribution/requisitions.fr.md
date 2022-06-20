@@ -1,6 +1,6 @@
 +++
-title = "Requisitions"
-description = "Managing your customers orders."
+title = "Réquisitions"
+description = "Gérer les commandes de vos clients."
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
 draft = false
@@ -9,58 +9,58 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "Managing your customers' orders"
+lead = "Gérer les commandes de vos clients"
 toc = true
 top = false
 +++
 
-When a customer orders stock from you, they create an **Internal Order** in their store. This will appear as a **Requisition** in your store. 
+Lorsqu'un client souhaite vous transmettre une commande, il crée une dans son dépôt ce qu'on appelle une **Commande interne**. Cela apparaîtra comme une **Réquisition** dans votre dépôt.
 
-## Viewing Customers' Requisition
+## Afficher la commande d'un client
 
-To know if you have received requisitions from your customers, go to `Distribution` > `Requisition`
+Pour savoir si vous avez reçu des commandes de vos clients, allez à `Distribution` > `Réquisition`
 
 ![Requistion nav](/docs/distribution/images/req_gotoreq2.png)
 
-You should see a list of all requisitions sent by your customers. 
+Vous devriez voir une liste de toutes les commandes envoyées par vos clients. 
 
-From this screen you can:
-* View a list of Requisitions
-* Export Requisitions to a `.csv` file
+Depuis cet écran, vous pouvez :
+* Voir une liste de réquisitions
+* Exporter les commandes dans un fichier `.csv`
 
 ![Requisition list](/docs/distribution/images/req_list.png)
 
 
-### Requisition list
+### Liste des réquisitions
 
-1. The list of Requisitions is divided into 5 columns:
+1. La liste des réquisitions comprend 5 colonnes:
 
-| Column| Description |
+| Colonne| Description |
 | :---------- | :---------- |
-| **Name** | Name of the Customer | 
-| **Number** | Reference Number of the requisition | 
-| **Created** | Creation date of the requisition | 
-| **Status** | Current Status of the requisition | 
-| **Comment** | Comment for the requisition |
+| **Nom** | Nom du Client | 
+| **Numéro** | Numéro de référence de la commande | 
+| **Créée le** | Date de création de la commande | 
+| **Statut** | État actuel de la commande | 
+| **Commentaires** | Commentaire pour la commande |
 
-1. The list can display a fixed number of requisitions per page. On the bottom left corner, you can see how many requisitions are currently displayed on your screen. 
+2. La liste peut afficher un nombre fixe de commandes par page. Dans le coin inférieur gauche, vous pouvez voir combien de commandes sont actuellement affichées sur votre écran.
 
 ![Page](/docs/distribution/images/os_list_showing.png)
 
-3. If you have more than 20 requisitions, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner). 
+3. Si vous avez plus de 20 lignes de commandes, vous pouvez naviguer vers les autres pages en appuyant sur le numéro de page ou en utilisant les flèches droite ou gauche (Le coin inférieur droit).. 
 
 ![Page](/docs/distribution/images/os_list_pagenumbers.png)
 
-### Search by comment
+### Rechercher par commentaire
 
-You can filter the list of requisitions by comment. This can be useful if you're looking for one particular requisition!
+Vous pouvez filtrer la liste des commandes par commentaire. Cela peut être utile si vous recherchez une commande avec un commentaire en particulier !
 
-Start typing in the `Search by comment` field (on the left, just above the list headers). All the requisitions which have a comment matching the entered text will appear in the list. 
+Commencez à saisir dans le champ  `Search by comment` (à gauche, juste au-dessus des en-têtes de liste). Toutes les commandes qui ont un commentaire correspondant au texte saisi apparaîtront dans la liste. 
 
-### Exporting Requisitions
+### Exporter des commandes
 
-The list of Requisitions can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page)
+La liste des demandes peut être exportée dans un fichier séparé par des virgules (csv). Cliquez simplement sur le bouton d'exportation (à droite, en haut de la page).
 
 ![Export button](/docs/distribution/images/export.png)
 
-and the file will be downloaded. The export function will download all Requisitions, not just the current page, if you have more than 20 of them. Requisitions are exported using sort order selected in the table, though of course you could easily sort the list in Excel or whatever you open the .csv file with!
+et le fichier sera téléchargé. La fonction d'exportation téléchargera toutes les commandes, même si vous en avez plus de 20 lignes. Les commandes sont exportées en utilisant l'ordre de tri sélectionné dans le tableau, bien sûr vous pouvez facilement trier la liste dans Excel ou tout outils de lecture de fichier .csv !
