@@ -1,6 +1,6 @@
 +++
 title = "Réquisitions"
-description = "Gérer les commandes de vos clients."
+description = "Gérer les commandes des clients."
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
 draft = false
@@ -9,18 +9,18 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "Gérer les commandes de vos clients"
+lead = "Gérer les commandes des clients"
 toc = true
 top = false
 +++
 
-Lorsqu'un client souhaite vous transmettre une commande, il crée une dans son dépôt ce qu'on appelle une **Commande interne**. Cela apparaîtra comme une **Réquisition** dans votre dépôt.
+Lorsqu'un client qui utilise Open mSupply souhaite vous transmettre une commande, il crée dans son dépôt ce qu'on appelle une **Commande interne**. Cela apparaîtra comme une **Réquisition** dans votre dépôt.
 
 ## Afficher la commande d'un client
 
-Pour savoir si vous avez reçu des commandes de vos clients, allez à `Distribution` > `Réquisition`
+Pour savoir si vous avez reçu des commandes de vos clients, allez à `Distribution` > `Réquisitions clients`
 
-![Requistion nav](/docs/distribution/images/req_gotoreq2.png)
+![Requistion nav](/docs/distribution/images/req_gotoreq2_fr.png)
 
 Vous devriez voir une liste de toutes les commandes envoyées par vos clients. 
 
@@ -61,6 +61,6 @@ Commencez à saisir dans le champ  `Search by comment` (à gauche, juste au-dess
 
 La liste des demandes peut être exportée dans un fichier séparé par des virgules (csv). Cliquez simplement sur le bouton d'exportation (à droite, en haut de la page).
 
-![Export button](/docs/distribution/images/export.png)
+![Export button](/docs/distribution/images/export_fr.png)
 
 et le fichier sera téléchargé. La fonction d'exportation téléchargera toutes les commandes, même si vous en avez plus de 20 lignes. Les commandes sont exportées en utilisant l'ordre de tri sélectionné dans le tableau, bien sûr vous pouvez facilement trier la liste dans Excel ou tout outils de lecture de fichier .csv !
