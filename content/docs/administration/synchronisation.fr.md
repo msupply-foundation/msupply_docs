@@ -1,6 +1,6 @@
 +++
 title = "Synchronisation"
-description = "Configure the server sync settings"
+description = "Configurer les paramètres de synchronisation du serveur"
 date = 2022-05-17T16:20:00+00:00
 updated = 2022-05-17T16:20:00+00:00
 draft = false
@@ -9,21 +9,21 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "View and manage your storage locations"
+lead = "Afficher et gérer vos emplacements de stockage"
 toc = true
 top = false
 +++
 
-## Viewing the synchronisation settings
+## Voir les paramètres de synchronisation
 
-To view the synchronisation settings, go to `Admin` in the lower section of the navigation panel: 
+Pour accéder aux paramètres de synchronisation, allez à `Administration` dans la partie inférieure du panneau de navigation : 
 
-![Location: nav](/docs/administration/images/admin_nav.png)
+![Location: nav](/docs/administration/images/admin_nav_fr.png)
 
-You will see the synchronisation section below the display settings:
+Vous verrez la section de synchronisation sous les paramètres d'affichage :
 
-![Location: list](/docs/administration/images/administration.png)
+![Location: list](/docs/administration/images/administration_fr.png)
 
-## Updating settings
+## Modifier les paramètres
 
-Be very careful updating these settings! They control how the server connects to the central server and do not usually need to be changed. If you make any changes without consulting the administrator of the central server, it is very likely that you will break the sync connection.
+Soyez très prudent lors de la mise à jour de ces paramètres ! Ils contrôlent la façon dont le serveur d'application se connecte au serveur central et n'ont généralement pas besoin d'être modifiés. Si vous apportez des modifications sans consulter l'administrateur du serveur central, il est très probable que vous interrompiez la synchronisation avec le serveur central.
