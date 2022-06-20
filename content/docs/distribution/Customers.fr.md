@@ -1,6 +1,6 @@
 +++
-title = "Customers"
-description = "View and manage your customers"
+title = "Clients"
+description = "Voir et Gérer les Clients"
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
 draft = false
@@ -9,33 +9,33 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "View and manage your customers"
+lead = "Voir et Gérer les Clients"
 toc = true
 top = false
 +++
 
 <div class="omsupdate">
-At the moment, you are only able to view your customers and their information. In the future, you will be able to create and edit your customers (provided you have the authorisation to do so!). 
+Pour le moment, vous ne pouvez voir que vos clients et leurs informations. À l'avenir, vous pourrez créer et modifier vos clients (à condition d'en avoir l'autorisation !). 
 </div>
 
-## Viewing Customers
+## Voir les Clients
 
-To view the customers of your store, go to the `Distribution` menu and click on `Customers`. 
+Pour voir les clients de votre dépôt, allez dans le menu  `Distribution` ensuite `Clients`. 
 
 ![Page](/docs/distribution/images/cust_gotocust2.png)
 
-You will be presented with a list of customers visible to your store. 
+Une liste de clients visibles dans votre dépôt vous sera présentée. 
 
 <div class="note">
-You can only see customers that are visible for your store.  There may be more customers in our organisation. 
+Vous ne pouvez voir que les clients qui sont visibles pour votre dépôt. Il peut y avoir plus de clients dans l'organisation que vous n'en voyez dans votre dépôt.  
 <br>
 <br>
-If you don't find the customer you are looking for, contact your administrator. 
+Si vous ne trouvez pas le client que vous recherchez, contactez votre administrateur. 
 </div>
 
 
-## Viewing Customer Details
+## Voir les détails d'un client
 
-Tap on one of your customers to see their details.
+Cliquez sur l'un de vos clients pour voir ses détails.
 
 ![Name Detailed View](/docs/distribution/images/cust_detailedview.png)
