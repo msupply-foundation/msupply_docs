@@ -90,38 +90,38 @@ Vous ne pouvez supprimer que les expéditions avec un statut <code>NOUVEAU</code
 
 ![Outbound list: delete](/docs/distribution/images/os_list_deleteshipment.gif)
 
-## Creating an Outbound Shipment
+## Créer une expédition
 
 
-1. Go to `Distribution` > `Outbound Shipment`. 
+1. Allez à `Distribution` > `Expédition`. 
 
-2. Press the  `New Shipment` button, in the top right corner
+2. Cliquez sur le bouton  `Nouveau` en haut à dorite de l'écran
 
-![New Shipment](/docs/distribution/images/clicknewshipment.png)
+![New Shipment](/docs/distribution/images/clicknewshipment_fr.png)
 
-3. A new window `Customers` opens, inviting you to select a customer. 
+3. Une nouvelle fenêtre `Clients` s'affiche pour vous inviter à sélctionner un client.
 
-#### Select a Customer
+#### Sélectionner un client
 
-1. In the `Customers` window, you will be presented with a list of available customers. You can select your customer from the list or you can type as much of a customer name.
+1. Dans la fenêtre `Clients`, une liste de Clients disponibles vous sera présentée. Vous pouvez sélectionner votre client dans la liste ou vous pouvez entrer manuellement le nom d'un Client. La liste sera filtrée au fil des caractères saisis.
 
 <div class="imagetitle">
-In below example, we are issuing stock to <b>Kamo Regional Warehouse</b>. 
+Dans l'exemple ci-dessous, du stock sera livré au client <b>Kamo Regional Warehouse</b>. 
 </div>
 
 ![gif](/docs/distribution/images/os_select_customer.gif)
 
 <div class="tip">
-You can tell if a customer is also using mSupply in their store. If they do, you will see icon like this (<img src="/docs/replenishment/is_msupplystoreicon.png" alt="Store" style="width:auto">) next to the supplier code. 
+Vous pouvez savoir si un client utilise également mSupply dans son dépôt. Si c'est le cas, vous verrez cette icône (<img src="/docs/replenishment/is_msupplystoreicon.png" alt="Store" style="width:auto">) près du code du fournisseur. 
 </div>
 
-2. Once you tap or press `Enter`, your Outbound Shipment is automatically created 
+2. Une fois que vous pressez la touche `Entrer`, votre Expédition est automatiquement créée. 
 
 <div class=imagetitle>
-If everything went well, you should see the name of your customer in the top left corner and the status should be <code>NEW</code> 
+Si tout s'est bien passé, vous devriez voir le nom de votre client dans le coin supérieur gauche et le statut devrait être <code>NOUVEAU</code> 
 </div>
 
-![Outbound shipment: created](/docs/distribution/images/os_created.png)
+![Outbound shipment: created](/docs/distribution/images/os_created_fr.png)
 
 ### Edit the Customer Name
 
