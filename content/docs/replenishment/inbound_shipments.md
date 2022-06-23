@@ -1,6 +1,6 @@
 +++
 title = "Inbound Shipments"
-description = "Issuing stock to your customers."
+description = "Receiving stock from suppliers."
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
 draft = false

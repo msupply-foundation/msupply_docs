@@ -1,6 +1,6 @@
 +++
-title = "Internal Orders"
-description = "Requesting stock from your suppliers."
+title = "Commandes Internes"
+description = "Commander chez des fournisseurs utilisant mSupply."
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
 draft = false

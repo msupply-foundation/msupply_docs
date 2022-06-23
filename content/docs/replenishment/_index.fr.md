@@ -1,6 +1,6 @@
 +++
-title = "Replenishment"
-description = "receiving Stuff from suppliers."
+title = "Approvisionnement"
+description = "Receptionner des articles."
 date = 2025-05-01T18:00:00+00:00
 updated = 2021-05-01T18:00:00+00:00
 template = "docs/section.fr.html"
