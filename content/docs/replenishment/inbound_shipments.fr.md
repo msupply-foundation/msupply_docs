@@ -55,32 +55,33 @@ La liste des livraisons comprend 7 colonnes:
 
 ![Page](/docs/distribution/images/os_list_pagenumbers.png)
 
-### Search by Supplier Name
+### Recherche par nom de Fournisseur
 
-You can filter the list of shipments by supplier name. This can be useful if you're looking for one particular shipment!
+Vous pouvez filtrer la liste des livraisons par nom de fournisseur. Cela peut être utile si vous recherchez une livraison en particulier !
 
-Type the name of a supplier in the `Search by name` field (on the left, just above the list headers). All the shipments for this supplier will appear in the list. 
+Saisissez le nom du fournisseur dans le champs `Search by name` (à gauche, juste au-dessus des en-têtes de liste). Toutes les livraisons de ce fournisseur apparaîtront dans la liste. 
 
-### Exporting Inbound Shipments
+### Exporter la liste des livraisons
 
-The list of Inbound Shipments can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page)
+La liste des livraisons peut être exportée dans un fichier CSV. Cliquez simplement sur le bouton _Exporter_ (à droite, en haut de la page).
 
 ![Export button](/docs/distribution/images/export_fr.png)
 
-and the file will be downloaded. The export function will download all Inbound Shipments, not just the current page, if you have more than 20 of them. Shipments are exported using sort order selected in the table, though of course you could easily sort the list in Excel or whatever you open the .csv file with!
+et le fichier sera téléchargé. La fonction d'exportation téléchargera toutes les livraisons, pas seulement la page actuelle, si vous en avez plus de 20. Les livraisons sont exportées en utilisant l'ordre de tri sélectionné dans la liste, bien que vous puissiez facilement trier la liste dans Excel ou tout autre outil avec lequel vous ouvrez le fichier .csv !
 
-### Delete an Inbound Shipment
 
-You can delete a shipment from the Inbound Shipment list.
+### Supprimer une livraison
 
-1. Select the shipment that you want to delete by checking the box on the left end of the list. You can select more than one shipments to be deleted. You can even select them all using the master checkbox in the list headers.
+Vous pouvez supprimer une livraison de la liste.
 
-1. Open the Select dropdown (top right corner, above the list) and select `Delete selected lines`.
+1. Sélectionnez la livraison que vous souhaitez supprimer en cochant la case à l'extrémité gauche de la liste. Vous pouvez sélectionner plus d'une livraison à supprimer. Vous pouvez même toutes les sélectionner à l'aide de la case à cocher principale dans les en-têtes de liste.
 
-A notification confirms how many shipments were deleted (bottom left corner).
+2. Ouvrez la liste déroulante `Sélectionner` (coin supérieur droit, au-dessus de la liste) et sélectionnez `Supprimer lignes sélectionnées`.
+
+3. Une notification confirme le nombre de livraisons supprimées (coin inférieur gauche)
 
 <div class="note">
-You can only delete Inbound Shipments with a status <code>NEW</code>.
+Vous ne pouvez supprimer que les expéditions avec un statut <code>NOUVEAU</code>.
 </div>
 
 ## Creating a new manual Inbound Shipment
