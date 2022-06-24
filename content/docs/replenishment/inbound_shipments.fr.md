@@ -1,6 +1,6 @@
 +++
 title = "Livraisons"
-description = "Recevoir du stock des fournisseurs."
+description = "Récevoir du stock des fournisseurs."
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
 draft = false
@@ -13,47 +13,47 @@ toc = true
 top = false
 +++
 
-Inbound Shipments can be used to receive stock from suppliers. 
+La fonctionnalité _Livraison_ peut être utilisée pour récevoir du stock venant d'un ou plusieurs fournisseurs.
 
-If you have used mSupply in the past, you may be familiar with the term **Supplier Invoice** instead of Inbound Shipment. 
+Si vous aviez utilisé mSupply par le passé, vous devriez être familier du terme **Facture Fournisseur** au lieu de **_Livraison_**. 
 
-All received goods should be recorded in mSupply either by: 
-* Manually creating an Inbound Shipment (manual Inbound Shipment)
-* Working with an Inbound Shipment that has been created automatically as a result of a stock transfer from another store in your mSupply
+Toutes les articles reçus doivent être enregistrés dans mSupply soit par :
+* Création manuelle d'une livraison (livraison manuelle)
+* Traitement d'une livraison qui a été créée automatiquement dans votre dépôt suite à un envoi de stock venant d'un autre dépôt fournisseur.
 
-## Viewing Inbound Shipments
+## Voir les Livraisons
 
-### Go to the Inbound Shipments Menu
+### Ouvrir le Menu Livraison
 
-![Go to Inbound Shipments](/docs/replenishment/is_gotois.png)
+![Go to Inbound Shipments](/docs/replenishment/images/is_gotois_fr.png)
 
-To access the **Inbound Shipment** menu:
-1. Go to the `Replenishment` menu in the navigation panel
-2. Click on `Inbound Shipment`
+Pour accéder au menu **Livraison** :
+1. Allez dans `Approvisionnement` dans le panneau de navigation à gauche
+2. Cliquez sur `Livraison`
 
-### Inbound Shipments list
+### Liste des Livraisons
 
-First thing you see is a list of existing Inbound Shipments. 
+La première chose que vous voyez est une liste des Livraisons. 
 
-The Inbound Shipments list is divided into 7 columns: 
+La liste des livraisons comprend 7 colonnes: 
 
-| Column| Description |
+| Colonne| Description |
 | :---------- | :---------- |
-| **Name** | Name of the Customer | 
-| **Status** | Current Status of the shipment | 
-| **Number** | Reference Number of the shipment | 
-| **Created** | Creation date of the shipment | 
-| **Confirmed** | Confirmation date of the shipment | 
-| **Comment** | Comment for the shipment |
-| **Total** | Total value of the shipment |
+| **Nom** | Nom du fournisseur | 
+| **Statut** | Statut de la livraison | 
+| **Numéro** | Numéro de référence de la livraison| 
+| **Créée le** | Date de création de la livraison | 
+| **Confirmée** | Date de confirmation de la livraison | 
+| **Commentaire** | Commentaire sur la livraison |
+| **Total** | Valeur totale |
 
-2. The list can display **20 shipments per page**. On the bottom left corner, you can how many shipments are currently displayed on your screen. 
+1. La liste peut afficher **20 livraisons par page**. Dans le coin inférieur gauche, vous pouvez voir combien de livraisons sont actuellement affichées sur votre écran. 
 
-![Page](/docs/distribution/os_list_showing.png)
+![Page](/docs/distribution/images/os_list_showing.png)
 
-3. If you have more than 20 shipments, you can navigate to the other pages by clicking on the page number or using the right of left arrows (bottom right corner). 
+2. S'il y a plus de 20 livraisons, vous pouvez vous déplacer vers une autre page en cliquant sur le numéro de la page ou en utilisant les flèches droite ou gauche (coin inférieur droit). 
 
-![Page](/docs/distribution/os_list_pagenumbers.png)
+![Page](/docs/distribution/images/os_list_pagenumbers.png)
 
 ### Search by Supplier Name
 
@@ -65,7 +65,7 @@ Type the name of a supplier in the `Search by name` field (on the left, just abo
 
 The list of Inbound Shipments can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page)
 
-![Export button](/docs/distribution/export.png)
+![Export button](/docs/distribution/images/export_fr.png)
 
 and the file will be downloaded. The export function will download all Inbound Shipments, not just the current page, if you have more than 20 of them. Shipments are exported using sort order selected in the table, though of course you could easily sort the list in Excel or whatever you open the .csv file with!
 

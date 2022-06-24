@@ -39,7 +39,7 @@ The Inbound Shipments list is divided into 7 columns:
 
 | Column| Description |
 | :---------- | :---------- |
-| **Name** | Name of the Customer | 
+| **Name** | Name of the Supplier | 
 | **Status** | Current Status of the shipment | 
 | **Number** | Reference Number of the shipment | 
 | **Created** | Creation date of the shipment | 
