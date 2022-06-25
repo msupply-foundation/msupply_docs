@@ -84,63 +84,63 @@ Vous pouvez supprimer une livraison de la liste.
 Vous ne pouvez supprimer que les expéditions avec un statut <code>NOUVEAU</code>.
 </div>
 
-## Creating a new manual Inbound Shipment
+## Créer une nouvelle livraison manuelle
 
-1. Go to `Replenishment`> `Inbound Shipment`
-2. Press the `New Shipment` button, in the top right corner
-3. A new window `Suppliers` opens, inviting you to select a supplier
+1. Allez dans `Approvisionnement`> `Livraison`
+2. Cliquez sur le bouton `Nouvelle Livraison`, dans le coin supérieur droit
+3. Une nouvelle fenêtre `Fournisseurs` vous invitant à sélectionner un _Fournisseur_ s'affiche.
 
-### Select a Supplier
+### Sélectionner un Fournisseur
 
-1. In the `Suppliers` window, you will be presented with a list of suppliers. You can select your supplier from the list or you can type as much of a supplier name. 
+1. Dans la fenêtre `Fournisseurs`, vous verrez afficher une liste de fournisseurs. Vous pouvez sélectionner directement ou saisir le nom d'un fournisseur. 
 
 <div class="tip">
-You can tell if a supplier is also using mSupply in their store. If they do, you will see icon like this (<img src="/docs/replenishment/is_msupplystoreicon.png" alt="Store" style="width:auto">) next to the supplier code. 
+Vous pouvez savoir si un fournisseur utilise également mSupply dans son dépôt. Si c'est le cas, vous verrez une icône comme celle-ci (<img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto">) à côté du code fournisseur. 
 </div>
 
 <div class="imagetitle">
-In below example, we are receiving stock from <b>Tamaki Central Medical Store</b>. 
+Dans l'exemple ci-dessous, nous recevons du stock de <b>Tamaki Central Medical Store</b>. 
 </div>
 
-![Select a Supplier](/docs/replenishment/is_selectsupplier.gif)
+![Select a Supplier](/docs/replenishment/images/is_selectsupplier.gif)
 
-2. Once you have selected a supplier, you Inbound Shipment is created. 
+2. Une fois que vous avez sélection un Fournisseur, la livraison est créée. 
 
 <div class="imagetitle">
-If everything went well, you should see the name of your supplier in the top left corner and current status should be <code>SHIPPED</code>.
+Si tout s'est bien passé, vous devriez voir le nom de votre fournisseur dans le coin supérieur gauche et le statut actuel devrait être <code>LIVRE</code>.
 </div>
 
-![New manual Inbound Shipment](/docs/replenishment/is_newinboundshipment.png)
+![New manual Inbound Shipment](/docs/replenishment/images/is_newinboundshipment_fr.png)
 
 
 <div class="note">
-When you create a <b>new</b> manual Inbound Shipment, mSupply assumes that shipment has already been shipped by the supplier and is coming your way. <br /> That's why first status of a manual Inbound Shipment is always <code>SHIPPED</code>.
+Lorsque vous créez une <b>nouvelle</b> livraison manuelle, mSupply admet que la livraison a été exécutée par le fournisseur et que vous êtes sur le point de réceptionner les articles. <br /> Raison pour laquelle le statut d'une livraison manuelle a toujours la valeur <code>LIVRE</code>.
 </div>
 
-### Edit the Supplier Name
+### Modifier le nom du Fournisseur
 
-If you have selected the wrong supplier, you can change the supplier name in the `Supplier Name` field or select one the dropdown list: 
+Si vous n'avez pas sélectionné le bon fournisseur, vous pouvez toujours modifié le nom du fournisseur dans le champs `Supplier Name` ou sélectionner un autre: 
 
 <div class="imagetitle">
-In below example, we are replacing <b>Tamaki Central Medical Store</b> by <b>Waikato District Store</b>. 
+Dans l'exemple ci-dessous, nous remplaçons <b>Tamaki Central Medical Store</b> par <b>Waikato District Store</b>. 
 </div>
 
-![gif](/docs/replenishment/is_editsuppliername.gif)
+![gif](/docs/replenishment/images/is_editsuppliername.gif)
 
-### Enter a Supplier Reference
+### Saisir une référence fournisseur
 
-Once your Inbound Shipment has been created, you can capture a supplier reference in the `Supplier Ref` field, if they have one (eg. * PO#1234567 *)
+Une fois que la livraison a été créée, vous pouvez renseigner la référence du fournisseur dans le champs `Supplier Ref` s'il en a un:  (Exple. * PO#1234567 *)
 
-### View or edit the Inbound Shipment Information Panel
+### Afficher ou modifier le panneau d'informations sur les livraisons
 
-The Information Panel allows you see or to edit information about the Inbound Shipment. It is divided in multiple sections: 
-* Additional Info
-* Related Documents
-* Invoice Details
-* Transport Details
+Le panneau d'information vous permet de voir ou de modifier les informations sur la livraison. Il est divisé en plusieurs sections : 
+* Information additionnelle
+* Documents connexes
+* Détails de la facture
+* Détails des transports
 
 <div class="omsupdate">
-We are planning to add more sections in the future as Open mSupply grows. 
+Nous prévoyons d'ajouter d'autres sections à l'avenir au fur et à mesure de la croissance d'Open mSupply. 
 </div>
 
 #### How to open and close the Information Panel ?
@@ -149,7 +149,7 @@ To open the Information Panel, you can tap on the `More` button, located in the 
 
 You can close by tapping on the `X Close` button, on the top right corner of the information panel. 
 
-![Open and close the Information Panel](/docs/replenishment/is_infopanel_openclose.gif)
+![Open and close the Information Panel](/docs/replenishment/images/is_infopanel_openclose.gif)
 
 #### Additonal Info
 
@@ -194,12 +194,12 @@ The status sequence is located at the bottom left corner of the Inbound Shipment
 Passed statuses are hightlighted in blue, next statuses appear in grey. 
 
 <figure>
-    <img src="/docs/replenishment/is_statussequence2.png" alt="Inbound Shipment Status Sequence (New)" style="width:100%">
+    <img src="/docs/replenishment/images/is_statussequence2.png" alt="Inbound Shipment Status Sequence (New)" style="width:100%">
     <figcaption align="center">Status Sequence: current status is <code>New</code>.</figcaption>
 </figure>
 
 <figure>
-    <img src="/docs/replenishment/is_statussequence3.png" alt="Inbound Shipment Status Sequence (Shipped)" style="width:100%">
+    <img src="/docs/replenishment/images/is_statussequence3.png" alt="Inbound Shipment Status Sequence (Shipped)" style="width:100%">
     <figcaption align="center">Status Sequence: current status is </i><code>Shipped</code>.</figcaption>
 </figure>
 
@@ -215,11 +215,11 @@ There are 5 status for the Inbound Shipment:
 
 You probably noticed that two of the status values only apply to automatically created shipments. These are created by the system when another store in the system creates an Outbound Shipment to deliver stock to your store. If this is the case you'll see a message near the top of the page:
 
-![Automatic IS message](/docs/replenishment/is_message_automatic.png)
+![Automatic IS message](/docs/replenishment/images/is_message_automatic.png)
 
 If, however, you've created an Inbound Shipment manually, then the following message shows:
 
-![Manual IS message](/docs/replenishment/is_message_manual.png)
+![Manual IS message](/docs/replenishment/images/is_message_manual.png)
 
 and you'll see that the status bar has only the status values which apply to this type of shipment.
 
@@ -234,13 +234,13 @@ If you hover over the status sequence, a shipment history window appears. You ca
 This manual shipment has been created on 03/03/2022
 </div>
 
-![Inbound status: hover 2](/docs/replenishment/is_statussequence_hover2.png)
+![Inbound status: hover 2](/docs/replenishment/images/is_statussequence_hover2.png)
 
 <div class="imagetitle">
 This automatic shipment has been created on 03/03/2022, allocated on 04/03/2022 and picked on 07/03/2022
 </div>
 
-![Inbound status: hover](/docs/replenishment/is_statussequence_hover.png)
+![Inbound status: hover](/docs/replenishment/images/is_statussequence_hover.png)
 
 
 ### Hold checkbox
@@ -249,7 +249,7 @@ Located on the bottom left corner, on the left of the status sequence.
 
 Check the `Hold` checkbox prevents the Inbound Shipment from being updated to the next status. 
 
-![Outbound hold checkbox](/docs/distribution/os_holdcheckbox.png)
+![Outbound hold checkbox](/docs/distribution/images/os_holdcheckbox.png)
 
 ### Cancel and Confirm button
 
@@ -272,7 +272,7 @@ You don't have to update a shipment to next status in the sequence. You can choo
 
 As demonstrated below, tap on the down arrow of the `Confirm` button and select the status you want the shipment to be updated to. 
 
-![Skip Status](/docs/replenishment/is_skipstatus.gif)
+![Skip Status](/docs/replenishment/images/is_skipstatus.gif)
 
 ## Adding lines to an Inbound Shipment
 
