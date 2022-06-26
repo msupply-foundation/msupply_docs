@@ -14,37 +14,37 @@ toc = true
 top = false
 +++
 
-In mSupply, a supplier is an entity that is sending stock to your store. 
+Dans mSupply, un fournisseur est une entité qui envoie du stock à votre dépôt. 
 
 <div class="omsupdate">
-At the moment, you are only able to view your supplier and their details. In the future, you will be able to create and edit your customers (provided you have the authorisation to do so!). 
+Pour le moment, vous ne pouvez que voir votre fournisseur et ses coordonnées. À l'avenir, vous pourrez créer et modifier vos fournisseurs (à condition d'en avoir l'autorisation !). 
 </div>
 
-## Viewing Suppliers
+## Voir les Fournisseurs
 
-To view the suppliers of your store, go to `Replenishment` > `Supplier` in the navigation panel: 
+Pour voir les Fournisseurs de votre dépôt, allez dans le menu `Approvisionnement` > `Fournisseurs`: 
 
-![Suppliers Nav](/docs/replenishment/images/sup_gotosup.png)
+![Suppliers Nav](/docs/replenishment/images/sup_gotosup_fr.png)
 
 A list of your store's suppliers appears: 
 
-![Suppliers List](/docs/replenishment/images/sup_suplist.png)
+![Suppliers List](/docs/replenishment/images/sup_suplist_fr.png)
 
 
-## Viewing Suppliers Details
+## Voir détails fournisseurs
 
-To see the details of one supplier, simply tap on its name: 
+Pour voir les détails d'un fournisseur, cliquez simplement sur son nom : 
 
-![Supplier Details](/docs/replenishment/images/sup_supdetails.png)
+![Supplier Details](/docs/replenishment/images/sup_supdetails_fr.png)
 
-* **Address**: Address of the supplier
-* **Code**: This is the code assigned to this supplier in mSupply
-* **Charge Code**: Generally the same value as code, however it may be useful when working with your accounting system to have a different code for this supplier
-* **Country**: country of the supplier
-* **Comment**: Comment about this supplier
-* **Phone**: Phone number of the supplier 
-* **Website**: Web site or email address of the supplier
-* **Date Created**: Date when supplier was created in mSupply
-* **Manufacturer**: If this is checked, the supplier is also a manufacturer
-* **Donor**: If this is checked, supplier is also a donor
-* **On Hold**: If this is checked, you won't be able to create new transactions for this supplier
+* **Adresse**: Adresse du fournisseur
+* **Code**: Ceci est le code attribué à ce fournisseur dans mSupply
+* **Code de facturation**: Généralement la même valeur que le code, mais il peut être utile lorsque vous travaillez avec votre système comptable d'avoir un code différent pour ce fournisseur
+* **Pays**: Pays du fournisseur
+* **Commentaire**: Commentaire à propos du fournisseur
+* **Téléphone**: Numéro de téléphone du fournisseur 
+* **Site Interet**: Site web ou adresse électronique du fournisseur
+* **Date de Création**: Date de création du fournisseur dans mSupply
+* **Fabricant**: Si la case est cochée, alors ce fournisseur est aussi fabricant
+* **Donateur**: Si la case est cochée, alors ce fournisseur est aussi Donateur
+* **En attente**: Si la case est cochée, vous ne pourrez pas créer de nouvelles transactions pour ce fournisseur
