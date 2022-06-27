@@ -48,8 +48,8 @@
 
 	
 
-<title>Requisitions - mSupply 🇫🇷</title>
-<meta name="description" content="Managing your customers orders.">
+<title>Réquisitions - mSupply 🇫🇷</title>
+<meta name="description" content="Gérer les commandes des clients.">
 <link rel="canonical" href="https://docs.msupply.foundation/fr/docs/distribution/requisitions/">
 
 
@@ -251,9 +251,9 @@
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/">Expéditions</a></li>
 							                           
-									<li><a class="docs-link active" href="https://docs.msupply.foundation/fr/docs/distribution/requisitions/">Requisitions</a></li>
+									<li><a class="docs-link active" href="https://docs.msupply.foundation/fr/docs/distribution/requisitions/">Réquisitions</a></li>
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/distribution/customers/">Customers</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/distribution/customers/">Clients</a></li>
 							
 					</ul>
 					
@@ -301,7 +301,7 @@
 							<h3>Administration</h3>
 							<ul class="list-unstyled">
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/administration/display/">Display Settings</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/administration/display/">Paramètres d&#x27;affichage</a></li>
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/administration/synchronisation/">Synchronisation</a></li>
 							
@@ -318,15 +318,15 @@
     <nav id="TableOfContents">
       <ul>
         
-        <li><a href="https://docs.msupply.foundation/fr/docs/distribution/requisitions/#viewing-customers-requisition">Viewing Customers&#x27; Requisition</a></li>
+        <li><a href="https://docs.msupply.foundation/fr/docs/distribution/requisitions/#afficher-la-commande-d-un-client">Afficher la commande d&#x27;un client</a></li>
         
         <ul>
           
-          <li><a href="https://docs.msupply.foundation/fr/docs/distribution/requisitions/#requisition-list">Requisition list</a></li>
+          <li><a href="https://docs.msupply.foundation/fr/docs/distribution/requisitions/#liste-des-requisitions">Liste des réquisitions</a></li>
           
-          <li><a href="https://docs.msupply.foundation/fr/docs/distribution/requisitions/#search-by-comment">Search by comment</a></li>
+          <li><a href="https://docs.msupply.foundation/fr/docs/distribution/requisitions/#rechercher-par-commentaire">Rechercher par commentaire</a></li>
           
-          <li><a href="https://docs.msupply.foundation/fr/docs/distribution/requisitions/#exporting-requisitions">Exporting Requisitions</a></li>
+          <li><a href="https://docs.msupply.foundation/fr/docs/distribution/requisitions/#exporter-des-commandes">Exporter des commandes</a></li>
           
         </ul>
          
@@ -338,58 +338,58 @@
       <main class="docs-content col-lg-11 col-xl-9">
         
         <div class="flagster" style="float: right; padding: 5px">
-          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;distribution&#x2F;requisitions&#x2F;" title="Change language to en"
-            >🇬🇧</a
-          >
-        </div>
-        
-        <div class="flagster" style="float: right; padding: 5px">
           <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;fr&#x2F;docs&#x2F;distribution&#x2F;requisitions&#x2F;" title="Change language to fr"
             >🇫🇷</a
           >
         </div>
         
-
-        <h1>Requisitions</h1>
+        <div class="flagster" style="float: right; padding: 5px">
+          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;distribution&#x2F;requisitions&#x2F;" title="Change language to en"
+            >🇬🇧</a
+          >
+        </div>
         
-        <p class="lead">Managing your customers' orders</p>
-         <p>When a customer orders stock from you, they create an <strong>Internal Order</strong> in their store. This will appear as a <strong>Requisition</strong> in your store. </p>
-<h2 id="viewing-customers-requisition">Viewing Customers' Requisition</h2>
-<p>To know if you have received requisitions from your customers, go to <code>Distribution</code> &gt; <code>Requisition</code></p>
-<p><img src="/docs/distribution/images/req_gotoreq2.png" alt="Requistion nav" /></p>
-<p>You should see a list of all requisitions sent by your customers. </p>
-<p>From this screen you can:</p>
+
+        <h1>Réquisitions</h1>
+        
+        <p class="lead">Gérer les commandes des clients</p>
+         <p>Lorsqu'un client qui utilise Open mSupply souhaite vous transmettre une commande, il crée dans son dépôt ce qu'on appelle une <strong>Commande interne</strong>. Cela apparaîtra comme une <strong>Réquisition</strong> dans votre dépôt.</p>
+<h2 id="afficher-la-commande-d-un-client">Afficher la commande d'un client</h2>
+<p>Pour savoir si vous avez reçu des commandes de vos clients, allez à <code>Distribution</code> &gt; <code>Réquisitions clients</code></p>
+<p><img src="/docs/distribution/images/req_gotoreq2_fr.png" alt="Requistion nav" /></p>
+<p>Vous devriez voir une liste de toutes les commandes envoyées par vos clients. </p>
+<p>Depuis cet écran, vous pouvez :</p>
 <ul>
-<li>View a list of Requisitions</li>
-<li>Export Requisitions to a <code>.csv</code> file</li>
+<li>Voir une liste de réquisitions</li>
+<li>Exporter les commandes dans un fichier <code>.csv</code></li>
 </ul>
 <p><img src="/docs/distribution/images/req_list.png" alt="Requisition list" /></p>
-<h3 id="requisition-list">Requisition list</h3>
+<h3 id="liste-des-requisitions">Liste des réquisitions</h3>
 <ol>
-<li>The list of Requisitions is divided into 5 columns:</li>
+<li>La liste des réquisitions comprend 5 colonnes:</li>
 </ol>
-<table><thead><tr><th align="left">Column</th><th align="left">Description</th></tr></thead><tbody>
-<tr><td align="left"><strong>Name</strong></td><td align="left">Name of the Customer</td></tr>
-<tr><td align="left"><strong>Number</strong></td><td align="left">Reference Number of the requisition</td></tr>
-<tr><td align="left"><strong>Created</strong></td><td align="left">Creation date of the requisition</td></tr>
-<tr><td align="left"><strong>Status</strong></td><td align="left">Current Status of the requisition</td></tr>
-<tr><td align="left"><strong>Comment</strong></td><td align="left">Comment for the requisition</td></tr>
+<table><thead><tr><th align="left">Colonne</th><th align="left">Description</th></tr></thead><tbody>
+<tr><td align="left"><strong>Nom</strong></td><td align="left">Nom du Client</td></tr>
+<tr><td align="left"><strong>Numéro</strong></td><td align="left">Numéro de référence de la commande</td></tr>
+<tr><td align="left"><strong>Créée le</strong></td><td align="left">Date de création de la commande</td></tr>
+<tr><td align="left"><strong>Statut</strong></td><td align="left">État actuel de la commande</td></tr>
+<tr><td align="left"><strong>Commentaires</strong></td><td align="left">Commentaire pour la commande</td></tr>
 </tbody></table>
-<ol>
-<li>The list can display a fixed number of requisitions per page. On the bottom left corner, you can see how many requisitions are currently displayed on your screen. </li>
+<ol start="2">
+<li>La liste peut afficher un nombre fixe de commandes par page. Dans le coin inférieur gauche, vous pouvez voir combien de commandes sont actuellement affichées sur votre écran.</li>
 </ol>
 <p><img src="/docs/distribution/images/os_list_showing.png" alt="Page" /></p>
 <ol start="3">
-<li>If you have more than 20 requisitions, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner). </li>
+<li>Si vous avez plus de 20 lignes de commandes, vous pouvez naviguer vers les autres pages en appuyant sur le numéro de page ou en utilisant les flèches droite ou gauche (Le coin inférieur droit).. </li>
 </ol>
 <p><img src="/docs/distribution/images/os_list_pagenumbers.png" alt="Page" /></p>
-<h3 id="search-by-comment">Search by comment</h3>
-<p>You can filter the list of requisitions by comment. This can be useful if you're looking for one particular requisition!</p>
-<p>Start typing in the <code>Search by comment</code> field (on the left, just above the list headers). All the requisitions which have a comment matching the entered text will appear in the list. </p>
-<h3 id="exporting-requisitions">Exporting Requisitions</h3>
-<p>The list of Requisitions can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page)</p>
-<p><img src="/docs/distribution/images/export.png" alt="Export button" /></p>
-<p>and the file will be downloaded. The export function will download all Requisitions, not just the current page, if you have more than 20 of them. Requisitions are exported using sort order selected in the table, though of course you could easily sort the list in Excel or whatever you open the .csv file with!</p>
+<h3 id="rechercher-par-commentaire">Rechercher par commentaire</h3>
+<p>Vous pouvez filtrer la liste des commandes par commentaire. Cela peut être utile si vous recherchez une commande avec un commentaire en particulier !</p>
+<p>Commencez à saisir dans le champ  <code>Search by comment</code> (à gauche, juste au-dessus des en-têtes de liste). Toutes les commandes qui ont un commentaire correspondant au texte saisi apparaîtront dans la liste. </p>
+<h3 id="exporter-des-commandes">Exporter des commandes</h3>
+<p>La liste des demandes peut être exportée dans un fichier séparé par des virgules (csv). Cliquez simplement sur le bouton d'exportation (à droite, en haut de la page).</p>
+<p><img src="/docs/distribution/images/export_fr.png" alt="Export button" /></p>
+<p>et le fichier sera téléchargé. La fonction d'exportation téléchargera toutes les commandes, même si vous en avez plus de 20 lignes. Les commandes sont exportées en utilisant l'ordre de tri sélectionné dans le tableau, bien sûr vous pouvez facilement trier la liste dans Excel ou tout outils de lecture de fichier .csv !</p>
   
 <div class="docs-navigation d-flex justify-content-between">
   
@@ -414,7 +414,7 @@
     <a class="ms-auto" href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;fr&#x2F;docs&#x2F;distribution&#x2F;customers&#x2F;">
       <div class="card my-1">
         <div class="card-body py-2">
-          Customers &rarr;
+          Clients &rarr;
         </div>
       </div>
     </a>

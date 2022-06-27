@@ -7,39 +7,39 @@
 	<updated>2022-05-17T16:20:00+00:00</updated>
 	<id>https://docs.msupply.foundation/fr/atom.xml</id>
 	<entry xml:lang="fr">
-		<title>Display Settings</title>
+		<title>Paramètres d&#x27;affichage</title>
 		<published>2022-05-17T16:20:00+00:00</published>
 		<updated>2022-05-17T16:20:00+00:00</updated>
 		<link href="https://docs.msupply.foundation/fr/docs/administration/display/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/administration/display/</id>
-		<content type="html">&lt;p&gt;The display settings section allows you to customise how the site looks for you. Changes made will only affect your experience - if other people would like to change the logo, for example, they will have to make the change themselves.&lt;&#x2F;p&gt;
-&lt;p&gt;Let&#x27;s explore what&#x27;s possible...&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;viewing-the-display-settings&quot;&gt;Viewing the display settings&lt;&#x2F;h2&gt;
-&lt;p&gt;To view the display settings, go to &lt;code&gt;Admin&lt;&#x2F;code&gt; in the lower section of the navigation panel: &lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;administration&#x2F;images&#x2F;admin_nav.png&quot; alt=&quot;Location: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;You will see the display settings section at the top of the page: &lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;administration&#x2F;images&#x2F;display_settings.png&quot; alt=&quot;Location: list&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;language&quot;&gt;Language&lt;&#x2F;h2&gt;
-&lt;p&gt;To change the language, you simply have to select from the drop down list&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;administration&#x2F;images&#x2F;change_language.png&quot; alt=&quot;Language&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;The selected language will be used for everything you do on the site. If you reload the page or open a new tab, this language will be used. However if you view the site in a different browser (for example Firefox after changing the language in Chrome) you will need to select the language again.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;custom-logo&quot;&gt;Custom logo&lt;&#x2F;h2&gt;
-&lt;p&gt;It is possible to use a custom logo for the site. This shows in the left navigation and on the login screen. For example:&lt;&#x2F;p&gt;
+		<content type="html">&lt;p&gt;La section des paramètres d&#x27;affichage vous permet de personnaliser l&#x27;apparence de l&#x27;application. Les modifications apportées n&#x27;affecteront que votre expérience d&#x27;utilisation. Si d&#x27;autres personnes souhaitent modifier le logo, par exemple, elles devront le faire elles-mêmes.&lt;&#x2F;p&gt;
+&lt;p&gt;Explorons ce qui est possible...&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;voir-les-parametres-d-affichage&quot;&gt;Voir les paramètres d&#x27;affichage&lt;&#x2F;h2&gt;
+&lt;p&gt;Pour accéder aux paramètres d&#x27;affichage, allez à &lt;code&gt;Administration&lt;&#x2F;code&gt; dans la partie inférieure du panneau de navigation : &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;administration&#x2F;images&#x2F;admin_nav_fr.png&quot; alt=&quot;Location: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Vous verrez la section des paramètres d&#x27;affichage en haut de la page : &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;administration&#x2F;images&#x2F;display_settings_fr.png&quot; alt=&quot;Location: list&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;la-langue&quot;&gt;La Langue&lt;&#x2F;h2&gt;
+&lt;p&gt;Pour changer de langue, il vous suffit de sélectionner dans la liste déroulante&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;administration&#x2F;images&#x2F;change_language_fr.png&quot; alt=&quot;Language&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;La langue sélectionnée sera utilisée pour tout ce que vous faites sur l&#x27;application. Si vous rechargez la page ou ouvrez un nouvel onglet, cette langue sera utilisée. Cependant si vous visualisez l&#x27;application dans un autre navigateur (par exemple Firefox après avoir changé la langue dans Chrome) vous devrez sélectionner à nouveau la langue.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;logo-personnalise&quot;&gt;Logo personnalisé&lt;&#x2F;h2&gt;
+&lt;p&gt;Il est possible d&#x27;utiliser un logo personnalisé pour l&#x27;application. Cela s&#x27;affiche dans la navigation de gauche et sur l&#x27;écran de connexion. Par exemple:&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;administration&#x2F;images&#x2F;custom_logo_login.png&quot; alt=&quot;Custom logo login&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;administration&#x2F;images&#x2F;custom_logo_nav.png&quot; alt=&quot;Custom logo login&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;The logo will need to be in the &lt;code&gt;svg&lt;&#x2F;code&gt; format. To update, simply &lt;&#x2F;p&gt;
+&lt;p&gt;Le logo devra être dans le format &lt;code&gt;svg&lt;&#x2F;code&gt;. Pour mettre à jour, il suffit de&lt;&#x2F;p&gt;
 &lt;ul&gt;
-&lt;li&gt;enable the custom logo by clicking the toggle switch&lt;&#x2F;li&gt;
-&lt;li&gt;copy the text of the .svg file and paste it into the text area&lt;&#x2F;li&gt;
-&lt;li&gt;click save&lt;&#x2F;li&gt;
+&lt;li&gt;activer le logo personnalisé en cliquant sur le bouton à bascule&lt;&#x2F;li&gt;
+&lt;li&gt;copier le texte du fichier .svg et collez-le dans la zone de texte&lt;&#x2F;li&gt;
+&lt;li&gt;cliquer sur le bouton &lt;em&gt;Enregistrer&lt;&#x2F;em&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;administration&#x2F;images&#x2F;edit_logo.png&quot; alt=&quot;Edit custom logo&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;custom-theme&quot;&gt;Custom theme&lt;&#x2F;h2&gt;
-&lt;p&gt;You can also configure a custom look for your site by using a custom theme. To do this:&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;theme-personnalise&quot;&gt;Thème personnalisé&lt;&#x2F;h2&gt;
+&lt;p&gt;Vous pouvez également configurer un look personnalisé en utilisant un thème personnalisé. Il suffit de:&lt;&#x2F;p&gt;
 &lt;ul&gt;
-&lt;li&gt;enable the custom theme by clicking the toggle switch&lt;&#x2F;li&gt;
-&lt;li&gt;you&#x27;ll see a sample of the current theme in the text area - this shows you what can be updated&lt;&#x2F;li&gt;
-&lt;li&gt;edit the theme and click save to view the results&lt;&#x2F;li&gt;
+&lt;li&gt;activer le thème personnalisé en cliquant sur le bouton à bascule&lt;&#x2F;li&gt;
+&lt;li&gt;vous verrez un échantillon du thème actuel dans la zone de texte - cela vous montre ce qui peut être mis à jour&lt;&#x2F;li&gt;
+&lt;li&gt;modifier le thème et cliquer sur  &lt;em&gt;Enregistrer&lt;&#x2F;em&gt; pour afficher les résultats&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;administration&#x2F;images&#x2F;edit_theme.png&quot; alt=&quot;Edit custom logo&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 </content>
@@ -50,13 +50,13 @@
 		<updated>2022-05-17T16:20:00+00:00</updated>
 		<link href="https://docs.msupply.foundation/fr/docs/administration/synchronisation/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/administration/synchronisation/</id>
-		<content type="html">&lt;h2 id=&quot;viewing-the-synchronisation-settings&quot;&gt;Viewing the synchronisation settings&lt;&#x2F;h2&gt;
-&lt;p&gt;To view the synchronisation settings, go to &lt;code&gt;Admin&lt;&#x2F;code&gt; in the lower section of the navigation panel: &lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;administration&#x2F;images&#x2F;admin_nav.png&quot; alt=&quot;Location: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;You will see the synchronisation section below the display settings:&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;administration&#x2F;images&#x2F;administration.png&quot; alt=&quot;Location: list&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;updating-settings&quot;&gt;Updating settings&lt;&#x2F;h2&gt;
-&lt;p&gt;Be very careful updating these settings! They control how the server connects to the central server and do not usually need to be changed. If you make any changes without consulting the administrator of the central server, it is very likely that you will break the sync connection.&lt;&#x2F;p&gt;
+		<content type="html">&lt;h2 id=&quot;voir-les-parametres-de-synchronisation&quot;&gt;Voir les paramètres de synchronisation&lt;&#x2F;h2&gt;
+&lt;p&gt;Pour accéder aux paramètres de synchronisation, allez à &lt;code&gt;Administration&lt;&#x2F;code&gt; dans la partie inférieure du panneau de navigation : &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;administration&#x2F;images&#x2F;admin_nav_fr.png&quot; alt=&quot;Location: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Vous verrez la section de synchronisation sous les paramètres d&#x27;affichage :&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;administration&#x2F;images&#x2F;administration_fr.png&quot; alt=&quot;Location: list&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;modifier-les-parametres&quot;&gt;Modifier les paramètres&lt;&#x2F;h2&gt;
+&lt;p&gt;Soyez très prudent lors de la mise à jour de ces paramètres ! Ils contrôlent la façon dont le serveur d&#x27;application se connecte au serveur central et n&#x27;ont généralement pas besoin d&#x27;être modifiés. Si vous apportez des modifications sans consulter l&#x27;administrateur du serveur central, il est très probable que vous interrompiez la synchronisation avec le serveur central.&lt;&#x2F;p&gt;
 </content>
 	</entry>
 	<entry xml:lang="fr">
@@ -134,27 +134,27 @@ Dans l&#x27;exemple ci-dessous, nous avons 1542 unités d&#x27;amoxicilline disp
 </content>
 	</entry>
 	<entry xml:lang="fr">
-		<title>Customers</title>
+		<title>Clients</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
 		<link href="https://docs.msupply.foundation/fr/docs/distribution/customers/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/distribution/customers/</id>
 		<content type="html">&lt;div class=&quot;omsupdate&quot;&gt;
-At the moment, you are only able to view your customers and their information. In the future, you will be able to create and edit your customers (provided you have the authorisation to do so!). 
+Pour le moment, vous ne pouvez voir que vos clients et leurs informations. À l&#x27;avenir, vous pourrez créer et modifier vos clients (à condition d&#x27;en avoir l&#x27;autorisation !). 
 &lt;&#x2F;div&gt;
-&lt;h2 id=&quot;viewing-customers&quot;&gt;Viewing Customers&lt;&#x2F;h2&gt;
-&lt;p&gt;To view the customers of your store, go to the &lt;code&gt;Distribution&lt;&#x2F;code&gt; menu and click on &lt;code&gt;Customers&lt;&#x2F;code&gt;. &lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;cust_gotocust2.png&quot; alt=&quot;Page&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;You will be presented with a list of customers visible to your store. &lt;&#x2F;p&gt;
+&lt;h2 id=&quot;voir-les-clients&quot;&gt;Voir les Clients&lt;&#x2F;h2&gt;
+&lt;p&gt;Pour voir les clients de votre dépôt, allez dans le menu  &lt;code&gt;Distribution&lt;&#x2F;code&gt; ensuite &lt;code&gt;Clients&lt;&#x2F;code&gt;. &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;cust_gotocust2_fr.png&quot; alt=&quot;Page&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Une liste de clients visibles dans votre dépôt vous sera présentée. &lt;&#x2F;p&gt;
 &lt;div class=&quot;note&quot;&gt;
-You can only see customers that are visible for your store.  There may be more customers in our organisation. 
+Vous ne pouvez voir que les clients qui sont visibles pour votre dépôt. Il peut y avoir plus de clients dans l&#x27;organisation que vous n&#x27;en voyez dans votre dépôt.  
 &lt;br&gt;
 &lt;br&gt;
-If you don&#x27;t find the customer you are looking for, contact your administrator. 
+Si vous ne trouvez pas le client que vous recherchez, contactez votre administrateur. 
 &lt;&#x2F;div&gt;
-&lt;h2 id=&quot;viewing-customer-details&quot;&gt;Viewing Customer Details&lt;&#x2F;h2&gt;
-&lt;p&gt;Tap on one of your customers to see their details.&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;cust_detailedview.png&quot; alt=&quot;Name Detailed View&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;voir-les-details-d-un-client&quot;&gt;Voir les détails d&#x27;un client&lt;&#x2F;h2&gt;
+&lt;p&gt;Cliquez sur l&#x27;un de vos clients pour voir ses détails.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;cust_detailedview_fr.png&quot; alt=&quot;Name Detailed View&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 </content>
 	</entry>
 	<entry xml:lang="fr">
@@ -228,37 +228,37 @@ La fonction Expédition est utilisée pour:&lt;&#x2F;p&gt;
 Vous ne pouvez supprimer que les expéditions avec un statut &lt;code&gt;NOUVEAU&lt;&#x2F;code&gt;.
 &lt;&#x2F;div&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_list_deleteshipment.gif&quot; alt=&quot;Outbound list: delete&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;creating-an-outbound-shipment&quot;&gt;Creating an Outbound Shipment&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;creer-une-expedition&quot;&gt;Créer une expédition&lt;&#x2F;h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;Go to &lt;code&gt;Distribution&lt;&#x2F;code&gt; &amp;gt; &lt;code&gt;Outbound Shipment&lt;&#x2F;code&gt;. &lt;&#x2F;p&gt;
+&lt;p&gt;Allez à &lt;code&gt;Distribution&lt;&#x2F;code&gt; &amp;gt; &lt;code&gt;Expédition&lt;&#x2F;code&gt;. &lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;li&gt;
-&lt;p&gt;Press the  &lt;code&gt;New Shipment&lt;&#x2F;code&gt; button, in the top right corner&lt;&#x2F;p&gt;
+&lt;p&gt;Cliquez sur le bouton  &lt;code&gt;Nouveau&lt;&#x2F;code&gt; en haut à dorite de l&#x27;écran&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;clicknewshipment.png&quot; alt=&quot;New Shipment&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;clicknewshipment_fr.png&quot; alt=&quot;New Shipment&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;ol start=&quot;3&quot;&gt;
-&lt;li&gt;A new window &lt;code&gt;Customers&lt;&#x2F;code&gt; opens, inviting you to select a customer. &lt;&#x2F;li&gt;
+&lt;li&gt;Une nouvelle fenêtre &lt;code&gt;Clients&lt;&#x2F;code&gt; s&#x27;affiche pour vous inviter à sélctionner un client.&lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
-&lt;h4 id=&quot;select-a-customer&quot;&gt;Select a Customer&lt;&#x2F;h4&gt;
+&lt;h4 id=&quot;selectionner-un-client&quot;&gt;Sélectionner un client&lt;&#x2F;h4&gt;
 &lt;ol&gt;
-&lt;li&gt;In the &lt;code&gt;Customers&lt;&#x2F;code&gt; window, you will be presented with a list of available customers. You can select your customer from the list or you can type as much of a customer name.&lt;&#x2F;li&gt;
+&lt;li&gt;Dans la fenêtre &lt;code&gt;Clients&lt;&#x2F;code&gt;, une liste de Clients disponibles vous sera présentée. Vous pouvez sélectionner votre client dans la liste ou vous pouvez entrer manuellement le nom d&#x27;un Client. La liste sera filtrée au fil des caractères saisis.&lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
 &lt;div class=&quot;imagetitle&quot;&gt;
-In below example, we are issuing stock to &lt;b&gt;Kamo Regional Warehouse&lt;&#x2F;b&gt;. 
+Dans l&#x27;exemple ci-dessous, du stock sera livré au client &lt;b&gt;Kamo Regional Warehouse&lt;&#x2F;b&gt;. 
 &lt;&#x2F;div&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_select_customer.gif&quot; alt=&quot;gif&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;div class=&quot;tip&quot;&gt;
-You can tell if a customer is also using mSupply in their store. If they do, you will see icon like this (&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;is_msupplystoreicon.png&quot; alt=&quot;Store&quot; style=&quot;width:auto&quot;&gt;) next to the supplier code. 
+Vous pouvez savoir si un client utilise également mSupply dans son dépôt. Si c&#x27;est le cas, vous verrez cette icône (&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;is_msupplystoreicon.png&quot; alt=&quot;Store&quot; style=&quot;width:auto&quot;&gt;) près du code du fournisseur. 
 &lt;&#x2F;div&gt;
 &lt;ol start=&quot;2&quot;&gt;
-&lt;li&gt;Once you tap or press &lt;code&gt;Enter&lt;&#x2F;code&gt;, your Outbound Shipment is automatically created &lt;&#x2F;li&gt;
+&lt;li&gt;Une fois que vous pressez la touche &lt;code&gt;Entrer&lt;&#x2F;code&gt;, votre Expédition est automatiquement créée. &lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
 &lt;div class=imagetitle&gt;
-If everything went well, you should see the name of your customer in the top left corner and the status should be &lt;code&gt;NEW&lt;&#x2F;code&gt; 
+Si tout s&#x27;est bien passé, vous devriez voir le nom de votre client dans le coin supérieur gauche et le statut devrait être &lt;code&gt;NOUVEAU&lt;&#x2F;code&gt; 
 &lt;&#x2F;div&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_created.png&quot; alt=&quot;Outbound shipment: created&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_created_fr.png&quot; alt=&quot;Outbound shipment: created&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;edit-the-customer-name&quot;&gt;Edit the Customer Name&lt;&#x2F;h3&gt;
 &lt;p&gt;If you have selected the wrong customer, you can change the customer name in the &lt;code&gt;Customer Name&lt;&#x2F;code&gt; field or select one the dropdown list: &lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_change_customer.gif&quot; alt=&quot;gif&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
@@ -561,48 +561,48 @@ To change the view mode, click the &lt;code&gt;Group by item&lt;&#x2F;code&gt; s
 </content>
 	</entry>
 	<entry xml:lang="fr">
-		<title>Requisitions</title>
+		<title>Réquisitions</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
 		<link href="https://docs.msupply.foundation/fr/docs/distribution/requisitions/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/distribution/requisitions/</id>
-		<content type="html">&lt;p&gt;When a customer orders stock from you, they create an &lt;strong&gt;Internal Order&lt;&#x2F;strong&gt; in their store. This will appear as a &lt;strong&gt;Requisition&lt;&#x2F;strong&gt; in your store. &lt;&#x2F;p&gt;
-&lt;h2 id=&quot;viewing-customers-requisition&quot;&gt;Viewing Customers&#x27; Requisition&lt;&#x2F;h2&gt;
-&lt;p&gt;To know if you have received requisitions from your customers, go to &lt;code&gt;Distribution&lt;&#x2F;code&gt; &amp;gt; &lt;code&gt;Requisition&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;req_gotoreq2.png&quot; alt=&quot;Requistion nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;You should see a list of all requisitions sent by your customers. &lt;&#x2F;p&gt;
-&lt;p&gt;From this screen you can:&lt;&#x2F;p&gt;
+		<content type="html">&lt;p&gt;Lorsqu&#x27;un client qui utilise Open mSupply souhaite vous transmettre une commande, il crée dans son dépôt ce qu&#x27;on appelle une &lt;strong&gt;Commande interne&lt;&#x2F;strong&gt;. Cela apparaîtra comme une &lt;strong&gt;Réquisition&lt;&#x2F;strong&gt; dans votre dépôt.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;afficher-la-commande-d-un-client&quot;&gt;Afficher la commande d&#x27;un client&lt;&#x2F;h2&gt;
+&lt;p&gt;Pour savoir si vous avez reçu des commandes de vos clients, allez à &lt;code&gt;Distribution&lt;&#x2F;code&gt; &amp;gt; &lt;code&gt;Réquisitions clients&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;req_gotoreq2_fr.png&quot; alt=&quot;Requistion nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Vous devriez voir une liste de toutes les commandes envoyées par vos clients. &lt;&#x2F;p&gt;
+&lt;p&gt;Depuis cet écran, vous pouvez :&lt;&#x2F;p&gt;
 &lt;ul&gt;
-&lt;li&gt;View a list of Requisitions&lt;&#x2F;li&gt;
-&lt;li&gt;Export Requisitions to a &lt;code&gt;.csv&lt;&#x2F;code&gt; file&lt;&#x2F;li&gt;
+&lt;li&gt;Voir une liste de réquisitions&lt;&#x2F;li&gt;
+&lt;li&gt;Exporter les commandes dans un fichier &lt;code&gt;.csv&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;req_list.png&quot; alt=&quot;Requisition list&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;requisition-list&quot;&gt;Requisition list&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;liste-des-requisitions&quot;&gt;Liste des réquisitions&lt;&#x2F;h3&gt;
 &lt;ol&gt;
-&lt;li&gt;The list of Requisitions is divided into 5 columns:&lt;&#x2F;li&gt;
+&lt;li&gt;La liste des réquisitions comprend 5 colonnes:&lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Column&lt;&#x2F;th&gt;&lt;th align=&quot;left&quot;&gt;Description&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Name&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Name of the Customer&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Number&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Reference Number of the requisition&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Created&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Creation date of the requisition&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Status&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Current Status of the requisition&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Comment&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Comment for the requisition&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Colonne&lt;&#x2F;th&gt;&lt;th align=&quot;left&quot;&gt;Description&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Nom&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Nom du Client&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Numéro&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Numéro de référence de la commande&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Créée le&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Date de création de la commande&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Statut&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;État actuel de la commande&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Commentaires&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Commentaire pour la commande&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
-&lt;ol&gt;
-&lt;li&gt;The list can display a fixed number of requisitions per page. On the bottom left corner, you can see how many requisitions are currently displayed on your screen. &lt;&#x2F;li&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;La liste peut afficher un nombre fixe de commandes par page. Dans le coin inférieur gauche, vous pouvez voir combien de commandes sont actuellement affichées sur votre écran.&lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_list_showing.png&quot; alt=&quot;Page&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;ol start=&quot;3&quot;&gt;
-&lt;li&gt;If you have more than 20 requisitions, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner). &lt;&#x2F;li&gt;
+&lt;li&gt;Si vous avez plus de 20 lignes de commandes, vous pouvez naviguer vers les autres pages en appuyant sur le numéro de page ou en utilisant les flèches droite ou gauche (Le coin inférieur droit).. &lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_list_pagenumbers.png&quot; alt=&quot;Page&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;search-by-comment&quot;&gt;Search by comment&lt;&#x2F;h3&gt;
-&lt;p&gt;You can filter the list of requisitions by comment. This can be useful if you&#x27;re looking for one particular requisition!&lt;&#x2F;p&gt;
-&lt;p&gt;Start typing in the &lt;code&gt;Search by comment&lt;&#x2F;code&gt; field (on the left, just above the list headers). All the requisitions which have a comment matching the entered text will appear in the list. &lt;&#x2F;p&gt;
-&lt;h3 id=&quot;exporting-requisitions&quot;&gt;Exporting Requisitions&lt;&#x2F;h3&gt;
-&lt;p&gt;The list of Requisitions can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page)&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;export.png&quot; alt=&quot;Export button&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;and the file will be downloaded. The export function will download all Requisitions, not just the current page, if you have more than 20 of them. Requisitions are exported using sort order selected in the table, though of course you could easily sort the list in Excel or whatever you open the .csv file with!&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;rechercher-par-commentaire&quot;&gt;Rechercher par commentaire&lt;&#x2F;h3&gt;
+&lt;p&gt;Vous pouvez filtrer la liste des commandes par commentaire. Cela peut être utile si vous recherchez une commande avec un commentaire en particulier !&lt;&#x2F;p&gt;
+&lt;p&gt;Commencez à saisir dans le champ  &lt;code&gt;Search by comment&lt;&#x2F;code&gt; (à gauche, juste au-dessus des en-têtes de liste). Toutes les commandes qui ont un commentaire correspondant au texte saisi apparaîtront dans la liste. &lt;&#x2F;p&gt;
+&lt;h3 id=&quot;exporter-des-commandes&quot;&gt;Exporter des commandes&lt;&#x2F;h3&gt;
+&lt;p&gt;La liste des demandes peut être exportée dans un fichier séparé par des virgules (csv). Cliquez simplement sur le bouton d&#x27;exportation (à droite, en haut de la page).&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;export_fr.png&quot; alt=&quot;Export button&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;et le fichier sera téléchargé. La fonction d&#x27;exportation téléchargera toutes les commandes, même si vous en avez plus de 20 lignes. Les commandes sont exportées en utilisant l&#x27;ordre de tri sélectionné dans le tableau, bien sûr vous pouvez facilement trier la liste dans Excel ou tout outils de lecture de fichier .csv !&lt;&#x2F;p&gt;
 </content>
 	</entry>
 	<entry xml:lang="fr">
