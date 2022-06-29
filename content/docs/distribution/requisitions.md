@@ -79,13 +79,13 @@ Clicking on an individual item in this view, will then show you details of the p
 The requested quantity is also shown, along with the stock item details.
 
 
-Another way to adjust the supply quantity, is to click the button **Supply requested** at the top of the page. This will automatically set the supply quantity to be that of the quantity requested for that item. Click the button and you are asked for confirmation before the adjustment happens:
+Another way to adjust the supply quantity, is to click the button `Supply requested` at the top of the page. This will automatically set the supply quantity to be that of the quantity requested for that item. Click the button and you are asked for confirmation before the adjustment happens:
 
 ![Supply Requested Prompt](/docs/distribution/images/requisition-supply-to-requested.png)
 
 
-To create an outbound shipment which will supply the items requested, click on the **Create Shipment** button. This will create a shipment, add all of the items which are not fully supplied, and then, open that shipment in a new tab. Before doing so, you are prompted to confirm:
+To create an outbound shipment which will supply the items requested, click on the `Create Shipment` button. This will create a shipment, add all of the items which are not fully supplied, and then, open that shipment in a new tab. Before doing so, you are prompted to confirm:
 
 ![Create Shipment Prompt](/docs/distribution/images/requisition-create-shipment.png)
 
-After creating such a shipment, you will see the shipment number, along with a link to view it, in the **Related documents** section of the additional details panel on the right of the screen.
+After creating such a shipment, you will see the shipment number, along with a link to view it, in the `Related documents` section of the additional details panel on the right of the screen.

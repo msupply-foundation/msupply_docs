@@ -403,6 +403,27 @@ When you are happy with the quantity, you can either press on:
 * the `OK & Next` button to add another item right away
 * the `Cancel` if you do not want to add the item to the Outbound Shipment anymore
 
+
+## Adding lines to an Outbound Shipment using a Master List
+
+Tap on the `Add from master list` button (top right corner). 
+
+![Add Item button](/docs/distribution/images/os-add-from-master-list-button.png)
+
+A new `Master Lists` window opens. This allows you to select the required master list. Simply click on one of the lists (if you have some available).
+Note that the lists show are those which are visible to the customer of the shipment.
+
+![Add Item button](/docs/distribution/images/os-add-item-master-lists.png)
+
+Click `OK` on the prompt:
+![Add Item button](/docs/distribution/images/os-add-item-master-list-prompt.png)
+
+You will then have unallocated (placeholder) lines added to your shipment, which will then look like this:
+
+![Add Item button](/docs/distribution/images/os-after-master-list.png)
+
+As you can see - all of the quantities are zero. You can follow the steps for editing these lines, as detailed above.
+
 ## Editing an Outbound Shipment Line
 
 To edit an shipment line, tap on it. You will be presented with the `Edit Item` window, which is identical to the `Add Item` window, except that the item is already chosen. 
