@@ -34,7 +34,7 @@ The server requires a little more memory and processing capability, depending on
 - Buy hardware for which good after sales support is available
 - Buy brands with a reputation for quality (even if it means buying a slower/older machine)
 
-### Windows and Mac hardware requirements
+### Windows, Mac, and, Linux hardware requirements
 
 Hardware requirements vary widely depending on what you want to use Open mSupply for. Here's a rough guide:
 
@@ -44,9 +44,36 @@ Recording stock transactions is a core Open mSupply activity. Most stock transac
 
 | Machine | Technical Minimum | Recommended |
 | :---------- | :---------- | :---------- |
-| Windows Client machine for use with server | 64 bit processor<br/>Windows 10<br/><b>4 Gb</b> RAM, 300Mb of disk space	| 64 bit processor<br/>Windows 10<br/><b>8 Gb</b> RAM, 500Mb of disk space |
-| Mac Client machine for use with server | 64 bit processor<br/>macOS Mojave (10.14) – macOS Big Sur (11)(Latest release of major version is required, such as 10.14.6)<br/><b>4 Gb</b> RAM, 300Mb of disk space	| 64 bit processor<br/><b>Mac OS 10.14.6 or later</b><br/><b>8 Gb</b> RAM, 500Mb of disk space |
+| Windows client machine for use with server | 64 bit processor<br/>Windows 10<br/><b>4 Gb</b> RAM, 300Mb of disk space	| 64 bit processor<br/>Windows 10<br/><b>8 Gb</b> RAM, 500Mb of disk space |
+| Linux client machine for use with server | 64 bit processor<br/>Linux distro and minimum version TBD<br/><b>4 Gb</b> RAM, 300Mb of disk space	| 64 bit processor<br/>Distro TBD<br/><b>8 Gb</b> RAM, 500Mb of disk space || Mac Client machine for use with server | 64 bit processor<br/>macOS Mojave (10.14) – macOS Big Sur (11)(Latest release of major version is required, such as 10.14.6)<br/><b>4 Gb</b> RAM, 300Mb of disk space	| 64 bit processor<br/><b>Mac OS 10.14.6 or later</b><br/><b>8 Gb</b> RAM, 500Mb of disk space |
 | Windows server | 64 bit processor<br/>Windows 10 Pro or Win server 2019<br/><b>8 Gb</b> RAM<br/>50 GB HDD/SDD volume with daily backups to an external volume<br/>Attached to a Smart UPS (see below)	64 bit processor | 64 bit processor<br/><b>Windows Server 2019+</b><br/><b>32+ Gb</b> RAM<br/>4 x HDD/SDD volumes, 3 configured as RAID1 or RAID5 with hot spare<br/>Daily backups to the fourth volume plus daily off-site backups<br/>Attached to a Smart UPS (see below) |
+| Linux server | 64 bit processor<br/>Linux distro and minimum version TBD<br/><b>8 Gb</b> RAM<br/>50 GB HDD/SDD volume with daily backups to an external volume<br/>Attached to a Smart UPS (see below)	64 bit processor | 64 bit processor<br/><b>Distro TBD</b><br/><b>32+ Gb</b> RAM<br/>4 x HDD/SDD volumes, 3 configured as RAID1 or RAID5 with hot spare<br/>Daily backups to the fourth volume plus daily off-site backups<br/>Attached to a Smart UPS (see below) |
+
+### Mobile / tablet requirements
+
+You are able to use a browser on a tablet to connect to an open mSupply server, and the only requirement here is a suitably fast tablet with a browser such as chrome or firefox. 
+
+For a stand-alone, offline, solution a mobile application is also available for android devices.
+
+Recommended Specifications:
+In short, open mSupply mobile runs on Android tablets (not on phones as there is too much data to use well on small phone screens).
+The application requires at least Android 5.0 (Lollipop)
+
+|           | Minimum | Recommended | 
+| :-------- | :------ | :---------- |
+| Display size | 9.8 inches | 10.1 inches |
+| Resolution   | 768 x 1024 pixels | 800 x 1200 pixels |
+| Android version | 5.0 | 8.1 |
+| Processor | | Quad-core 1.3GHz |
+| Memory | | 1.5 Gb RAM |
+
+In order to provide support, the device must also be compatible with MDM (Mobile Device Management) software and support google services. Please contact [mSupply Foundation](https://msupply.foundation/#contact) for details.
+
+
+Please contact us for testing and / or advice before making a large hardware purchase.
+
+
+
 
 #### Smart UPS
 A 'smart' UPS ([Uninterruptible Power Supply](https://en.wikipedia.org/wiki/Uninterruptible_power_supply)) detects when the battery power is about to run out and sends a notification to software on the server which triggers a graceful shut down of the computer. To enable this, there needs to be a cable connection (normally USB) between the UPS and the computer combined with software running on the computer.
