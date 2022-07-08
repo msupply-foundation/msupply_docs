@@ -433,13 +433,17 @@
 <tr><td align="left"><strong>Total</strong></td><td align="left">Total value of the shipment</td></tr>
 </tbody></table>
 <ol start="2">
-<li>The list can display <strong>20 shipments per page</strong>. On the bottom left corner, you can how many shipments are currently displayed on your screen. </li>
+<li>The list can display a fixed number of shipments per page. On the bottom left corner, you can see how many shipments are currently displayed on your screen. </li>
 </ol>
 <p><img src="/docs/distribution/images/os_list_showing.png" alt="Page" /></p>
 <ol start="3">
-<li>If you have more than 20 shipments, you can navigate to the other pages by clicking on the page number or using the right of left arrows (bottom right corner). </li>
+<li>If you have more shipments than the current limit, you can navigate to the other pages by clicking on the page number or using the right of left arrows (bottom right corner). </li>
 </ol>
 <p><img src="/docs/distribution/images/os_list_pagenumbers.png" alt="Page" /></p>
+<ol start="4">
+<li>You can also select a different number of rows to show per page using the option at the bottom right of the page.</li>
+</ol>
+<p><img src="/docs/images/rows-per-page-select.png" alt="Rows per page" /></p>
 <h3 id="search-by-supplier-name">Search by Supplier Name</h3>
 <p>You can filter the list of shipments by supplier name. This can be useful if you're looking for one particular shipment!</p>
 <p>Type the name of a supplier in the <code>Search by name</code> field (on the left, just above the list headers). All the shipments for this supplier will appear in the list. </p>
@@ -542,11 +546,11 @@ We are planning to add more sections in the future as Open mSupply grows.
 <p>The status sequence is located at the bottom left corner of the Inbound Shipment screen. </p>
 <p>Passed statuses are hightlighted in blue, next statuses appear in grey. </p>
 <figure>
-    <img src="/docs/replenishment/is_statussequence2.png" alt="Inbound Shipment Status Sequence (New)" style="width:100%">
+    <img src="/docs/replenishment/images/is_statussequence2.png" alt="Inbound Shipment Status Sequence (New)" style="width:100%">
     <figcaption align="center">Status Sequence: current status is <code>New</code>.</figcaption>
 </figure>
 <figure>
-    <img src="/docs/replenishment/is_statussequence3.png" alt="Inbound Shipment Status Sequence (Shipped)" style="width:100%">
+    <img src="/docs/replenishment/images/is_statussequence3.png" alt="Inbound Shipment Status Sequence (Shipped)" style="width:100%">
     <figcaption align="center">Status Sequence: current status is </i><code>Shipped</code>.</figcaption>
 </figure>
 <p>There are 5 status for the Inbound Shipment: </p>
@@ -563,7 +567,7 @@ We are planning to add more sections in the future as Open mSupply grows.
 <p><img src="/docs/replenishment/images/is_message_manual.png" alt="Manual IS message" /></p>
 <p>and you'll see that the status bar has only the status values which apply to this type of shipment.</p>
 <figure align="center">
-    <img src="/docs/replenishment/is_statussequence4.png" alt="Inbound Shipment Status Sequence (New & manual)" style="width:60%">
+    <img src="/docs/replenishment/images/is_statussequence4.png" alt="Inbound Shipment Status Sequence (New & manual)" style="width:60%">
     <figcaption align="center">Status Sequence: current status is </i><code>New</code>.</figcaption>
 </figure>
 <p>If you hover over the status sequence, a shipment history window appears. You can see the date when a shipment was updated from one status to another. </p>
@@ -715,6 +719,9 @@ In case your Inbound Shipment is <b>automatic</b>, you cannot confirm its delive
 To change the view mode, click the <code>Group by item</code> switch. </p>
 <p>When grouped by item, you can expand the item to see individual batches, or use the expand in the table header to expand all grouped rows. If you click on an item you will also see all selected batches, as shown in this example:</p>
 <p><img src="/docs/replenishment/images/is_group_by_item.gif" alt="Group by Item" /></p>
+<p>If you do not have enough room on your screen, or simply aren't interested in some of the columns shown, you have the option of hiding which columns are shown in this view.</p>
+<p>Click on the <code>Show / hide columns</code> button which is at the top right of the table. This gives a list of the columns available - you can check the columns you want to see. The options chosen are stored for the current browser, so next time you view an inbound shipment, you will see the selected columns only. If you have chosen which columns to show, then the button is shown in blue to remind you that there are more columns available.</p>
+<p><img src="/docs/replenishment/images/is_show_hide_columns.gif" alt="Hide columns" /></p>
   
 <div class="docs-navigation d-flex justify-content-between">
   

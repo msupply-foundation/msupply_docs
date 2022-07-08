@@ -72,6 +72,10 @@ Use the search bar to look for a specific item by typing its name or its code:
 
 Click on OK when you have selected all the items you would like to count. 
 
+The stocktake will then be created, and existing stock lines will be used to populate the values for batch, expiry, pack size and snapshot number of packs. The lines show as light blue, and will change to black when a value is entered for the counted quantity.
+
+![Stocktake with placeholders](/docs/inventory/images/stocktake-placeholders.png)
+
 <div class="tip">
 Don't worry if your forget one item. You will have the possibility to add more items to your stocktake afterwards. 
 </div>

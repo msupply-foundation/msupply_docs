@@ -453,9 +453,13 @@ An Outbound Shipment can be used to:</p>
 </ol>
 <p><img src="/docs/distribution/images/os_list_showing.png" alt="Page" /></p>
 <ol start="3">
-<li>If you have more than 20 shipments, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner). </li>
+<li>If you have more than shipments than the current limit, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner). </li>
 </ol>
 <p><img src="/docs/distribution/images/os_list_pagenumbers.png" alt="Page" /></p>
+<ol start="4">
+<li>You can also select a different number of rows to show per page using the option at the bottom right of the page.</li>
+</ol>
+<p><img src="/docs/images/rows-per-page-select.png" alt="Rows per page" /></p>
 <h3 id="search-by-customer-name">Search by Customer Name</h3>
 <p>You can filter the list of shipments by customer name. This can be useful if you're looking for one particular shipment!</p>
 <p>Type the name of a customer in the <code>Search by name</code> field (on the left, just above the list headers). All the shipments for this customer appear in the list. </p>
@@ -561,11 +565,11 @@ If everything went well, you should see the name of your customer in the top lef
 <p>The status sequence is located at the bottom left corner of the Outbound Shipment screen. </p>
 <p>Passed statuses are hightlighted in blue, next statuses appear in grey. </p>
 <figure>
-<img src="/docs/distribution/os_statussequence2.png" style="width:100%">
+<img src="/docs/distribution/images/os_statussequence2.png" style="width:100%">
 <figcaption align = "center">Status Sequence: current status is <code>NEW</code>.</figcaption>
 </figure>
 <figure>
-<img src="/docs/distribution/os_statussequence3.png" alt="Trulli" style="width:100%">
+<img src="/docs/distribution/images/os_statussequence3.png" alt="Trulli" style="width:100%">
 <figcaption align = "center">Status Sequence: current status is </i><code>PICKED</code>.</figcaption>
 </figure>
 <p>There are 6 status for the Outbound Shipment: </p>
@@ -764,7 +768,7 @@ In below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100mg ta
 </li>
 </ol>
 <div class="note">
-You won't be able to process your Outbound Shipment if you have unallocated lines (shipment lines without batch number(s) assigned to it). You can wait for more stock to arrive or you can delete the placeholder lines. 
+You won't be able to process your Outbound Shipment if you have unallocated lines (shipment lines without batch number(s) assigned to it) with a quantity greater than 0. You can wait for more stock to arrive or you can delete the placeholder lines. Any unallocated lines with a 0 quantity will automatically be removed for you when you allocate.
 </div>
 <h3 id="confirming-an-outbound-shipment-s-allocation">Confirming an Outbound Shipment's allocation</h3>
 <p>Once you all your shipments lines have been allocated, you can <strong>confirm the allocation</strong>:</p>
@@ -821,6 +825,9 @@ You won't be able to process your Outbound Shipment if you have unallocated line
 To change the view mode, click the <code>Group by item</code> switch. </p>
 <p>When grouped by item, you can expand the item to see individual batches, or use the expand in the table header to expand all grouped rows. If you click on an item you will also see all selected batches, as shown in this example:</p>
 <p><img src="/docs/distribution/images/os_group_by_item.gif" alt="Group by Item" /></p>
+<p>If you do not have enough room on your screen, or simply aren't interested in some of the columns shown, you have the option of hiding which columns are shown in this view.</p>
+<p>Click on the <code>Show / hide columns</code> button which is at the top right of the table. This gives a list of the columns available - you can check the columns you want to see. The options chosen are stored for the current browser, so next time you view an outbound shipment, you will see the selected columns only. If you have chosen which columns to show, then the button is shown in blue to remind you that there are more columns available.</p>
+<p><img src="/docs/distribution/images/os_show_hide_columns.gif" alt="Hide columns" /></p>
   
 <div class="docs-navigation d-flex justify-content-between">
   
