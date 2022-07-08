@@ -98,7 +98,7 @@ You can only delete Inbound Shipments with a status <code>NEW</code>.
 1. In the `Suppliers` window, you will be presented with a list of suppliers. You can select your supplier from the list or you can type as much of a supplier name. 
 
 <div class="tip">
-You can tell if a supplier is also using mSupply in their store. If they do, you will see icon like this (<img src="/docs/replenishment/is_msupplystoreicon.png" alt="Store" style="width:auto">) next to the supplier code. 
+You can tell if a supplier is also using mSupply in their store. If they do, you will see icon like this (<img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto">) next to the supplier code. 
 </div>
 
 <div class="imagetitle">
@@ -107,18 +107,14 @@ In below example, we are receiving stock from <b>Tamaki Central Medical Store</b
 
 ![Select a Supplier](/docs/replenishment/images/is_selectsupplier.gif)
 
-2. Once you have selected a supplier, you Inbound Shipment is created. 
+2. Once you have selected a supplier, your Inbound Shipment is created. 
 
 <div class="imagetitle">
-If everything went well, you should see the name of your supplier in the top left corner and current status should be <code>SHIPPED</code>.
+If everything went well, you should see the name of your supplier in the top left corner and current status should be <code>New</code>.
 </div>
 
 ![New manual Inbound Shipment](/docs/replenishment/images/is_newinboundshipment.png)
 
-
-<div class="note">
-When you create a <b>new</b> manual Inbound Shipment, mSupply assumes that shipment has already been shipped by the supplier and is coming your way. <br /> That's why first status of a manual Inbound Shipment is always <code>SHIPPED</code>.
-</div>
 
 ### Edit the Supplier Name
 
