@@ -62,7 +62,7 @@
 			<div class="break order-6 d-md-none"></div>
 			{% if config.build_search_index or lang == config.default_language %}
 				<form class="navbar-form flex-grow-1 order-7 order-md-3">
-					<input id="userinput" class="form-control is-search" type="search" placeholder={{trans(key="search_placeholder", lang=lang)}}
+					<input id="userinput" class="form-control is-search" type="search" placeholder="{{trans(key="search_placeholder", lang=lang)}}"
 						aria-label="Search docs..." autocomplete="off">
 					<div id="suggestions" class="shadow bg-white rounded"></div>
 				</form>
