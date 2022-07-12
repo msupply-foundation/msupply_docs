@@ -8,12 +8,9 @@ compile_sass = true
 
 theme = "Adidoks"
 
-# Whether to build a search index to be used later on by a JavaScript library
-build_search_index = true
-
-
 [languages.en]
 title="mSupply"
+build_search_index = true
 
 
 [languages.en.translations]
