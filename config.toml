@@ -5,6 +5,7 @@ title="mSupply"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
+build_search_index = true
 
 theme = "Adidoks"
 
