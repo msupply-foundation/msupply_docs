@@ -31,6 +31,6 @@ content = 'The <a href="https://wiki.msupply.foundation/en:dashboard/">User Guid
 [[extra.list]]
 icon = "coldchain.png"
 title = "mSupply Coldchain"
-content = 'The <a href="https://wiki.msupply.foundation/en:cold_chain:start/">User Documentation wiki</a> for the mSupply Dashboard!'
+content = 'The <a href="/coldchain/introduction">User Documentation</a> for the mSupply Coldchain Android application'
 
 +++
