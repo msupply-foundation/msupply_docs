@@ -63,9 +63,15 @@ timezone = "America/New_York"
 
 # Menu items
 [[extra.menu.main]]
-name = "Docs"
+name = "Desktop"
 section = "docs"
 url = "/docs/introduction/"
+weight = 10
+
+[[extra.menu.main]]
+name = "Coldchain"
+section = "coldchain"
+url = "/coldchain/introduction"
 weight = 10
 
 [[extra.menu.social]]
