@@ -4,7 +4,7 @@ description = "Issuing stock to your customers."
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
 draft = false
-weight = 3
+weight = 1
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -56,13 +56,9 @@ From this screen you can:
 
 ![Page](/docs/distribution/images/os_list_showing.png)
 
-3. If you have more than shipments than the current limit, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner). 
+3. If you have more than 20 shipments, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner). 
 
 ![Page](/docs/distribution/images/os_list_pagenumbers.png)
-
-4. You can also select a different number of rows to show per page using the option at the bottom right of the page.
-
-![Rows per page](/docs/images/rows-per-page-select.png)
 
 ### Search by Customer Name
 
@@ -200,12 +196,12 @@ The status sequence is located at the bottom left corner of the Outbound Shipmen
 Passed statuses are hightlighted in blue, next statuses appear in grey. 
 
 <figure>
-<img src="/docs/distribution/images/os_statussequence2.png" style="width:100%">
+<img src="/docs/distribution/os_statussequence2.png" style="width:100%">
 <figcaption align = "center">Status Sequence: current status is <code>NEW</code>.</figcaption>
 </figure>
 
 <figure>
-<img src="/docs/distribution/images/os_statussequence3.png" alt="Trulli" style="width:100%">
+<img src="/docs/distribution/os_statussequence3.png" alt="Trulli" style="width:100%">
 <figcaption align = "center">Status Sequence: current status is </i><code>PICKED</code>.</figcaption>
 </figure>
 
@@ -221,7 +217,6 @@ There are 6 status for the Outbound Shipment:
 | **Verified** | Your customer has verified the quantity of the shipment. Goods are now part of their inventory . |
 
 If you hover over the status sequence, a shipment history window appears. You can see the date when a shipment was updated from one status to another. 
-
 
 <div class="imagetitle">
 This shipment has been created, allocated and picked on 29/03/2022
@@ -408,27 +403,6 @@ When you are happy with the quantity, you can either press on:
 * the `OK & Next` button to add another item right away
 * the `Cancel` if you do not want to add the item to the Outbound Shipment anymore
 
-
-## Adding lines to an Outbound Shipment using a Master List
-
-Tap on the `Add from master list` button (top right corner). 
-
-![Add Item button](/docs/distribution/images/os-add-from-master-list-button.png)
-
-A new `Master Lists` window opens. This allows you to select the required master list. Simply click on one of the lists (if you have some available).
-Note that the lists show are those which are visible to the customer of the shipment.
-
-![Add Item button](/docs/distribution/images/os-add-item-master-lists.png)
-
-Click `OK` on the prompt:
-![Add Item button](/docs/distribution/images/os-add-item-master-list-prompt.png)
-
-You will then have unallocated (placeholder) lines added to your shipment, which will then look like this:
-
-![Add Item button](/docs/distribution/images/os-after-master-list.png)
-
-As you can see - all of the quantities are zero. You can follow the steps for editing these lines, as detailed above.
-
 ## Editing an Outbound Shipment Line
 
 To edit an shipment line, tap on it. You will be presented with the `Edit Item` window, which is identical to the `Add Item` window, except that the item is already chosen. 
@@ -483,7 +457,7 @@ There are 2 main ways to allocate a shipment line:
     * In the `Actions` dropdown menu, select `Allocate placeholder lines`. System will check if there is available stock for each selected lines and allocate them using the First to Expire, First Out (FEFO) logic. A notification will let you know whether the operation is successful or not. 
 
 <div class="note">
-You won't be able to process your Outbound Shipment if you have unallocated lines (shipment lines without batch number(s) assigned to it) with a quantity greater than 0. You can wait for more stock to arrive or you can delete the placeholder lines. Any unallocated lines with a 0 quantity will automatically be removed for you when you allocate.
+You won't be able to process your Outbound Shipment if you have unallocated lines (shipment lines without batch number(s) assigned to it). You can wait for more stock to arrive or you can delete the placeholder lines. 
 </div>
 
 ### Confirming an Outbound Shipment's allocation
@@ -553,9 +527,3 @@ To change the view mode, click the `Group by item` switch.
 When grouped by item, you can expand the item to see individual batches, or use the expand in the table header to expand all grouped rows. If you click on an item you will also see all selected batches, as shown in this example:
 
 ![Group by Item](/docs/distribution/images/os_group_by_item.gif)
-
-If you do not have enough room on your screen, or simply aren't interested in some of the columns shown, you have the option of hiding which columns are shown in this view.
-
-Click on the `Show / hide columns` button which is at the top right of the table. This gives a list of the columns available - you can check the columns you want to see. The options chosen are stored for the current browser, so next time you view an outbound shipment, you will see the selected columns only. If you have chosen which columns to show, then the button is shown in blue to remind you that there are more columns available.
-
-![Hide columns](/docs/distribution/images/os_show_hide_columns.gif)

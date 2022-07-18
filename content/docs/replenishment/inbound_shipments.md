@@ -1,10 +1,10 @@
 +++
 title = "Inbound Shipments"
-description = "Receiving stock from suppliers."
+description = "Issuing stock to your customers."
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
 draft = false
-weight = 3
+weight = 2
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -39,7 +39,7 @@ The Inbound Shipments list is divided into 7 columns:
 
 | Column| Description |
 | :---------- | :---------- |
-| **Name** | Name of the Supplier | 
+| **Name** | Name of the Customer | 
 | **Status** | Current Status of the shipment | 
 | **Number** | Reference Number of the shipment | 
 | **Created** | Creation date of the shipment | 
@@ -47,17 +47,13 @@ The Inbound Shipments list is divided into 7 columns:
 | **Comment** | Comment for the shipment |
 | **Total** | Total value of the shipment |
 
-2. The list can display a fixed number of shipments per page. On the bottom left corner, you can see how many shipments are currently displayed on your screen. 
+2. The list can display **20 shipments per page**. On the bottom left corner, you can how many shipments are currently displayed on your screen. 
 
 ![Page](/docs/distribution/images/os_list_showing.png)
 
-3. If you have more shipments than the current limit, you can navigate to the other pages by clicking on the page number or using the right of left arrows (bottom right corner). 
+3. If you have more than 20 shipments, you can navigate to the other pages by clicking on the page number or using the right of left arrows (bottom right corner). 
 
 ![Page](/docs/distribution/images/os_list_pagenumbers.png)
-
-4. You can also select a different number of rows to show per page using the option at the bottom right of the page.
-
-![Rows per page](/docs/images/rows-per-page-select.png)
 
 ### Search by Supplier Name
 
@@ -98,7 +94,7 @@ You can only delete Inbound Shipments with a status <code>NEW</code>.
 1. In the `Suppliers` window, you will be presented with a list of suppliers. You can select your supplier from the list or you can type as much of a supplier name. 
 
 <div class="tip">
-You can tell if a supplier is also using mSupply in their store. If they do, you will see icon like this (<img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto">) next to the supplier code. 
+You can tell if a supplier is also using mSupply in their store. If they do, you will see icon like this (<img src="/docs/replenishment/is_msupplystoreicon.png" alt="Store" style="width:auto">) next to the supplier code. 
 </div>
 
 <div class="imagetitle">
@@ -107,14 +103,18 @@ In below example, we are receiving stock from <b>Tamaki Central Medical Store</b
 
 ![Select a Supplier](/docs/replenishment/images/is_selectsupplier.gif)
 
-2. Once you have selected a supplier, your Inbound Shipment is created. 
+2. Once you have selected a supplier, you Inbound Shipment is created. 
 
 <div class="imagetitle">
-If everything went well, you should see the name of your supplier in the top left corner and current status should be <code>New</code>.
+If everything went well, you should see the name of your supplier in the top left corner and current status should be <code>SHIPPED</code>.
 </div>
 
 ![New manual Inbound Shipment](/docs/replenishment/images/is_newinboundshipment.png)
 
+
+<div class="note">
+When you create a <b>new</b> manual Inbound Shipment, mSupply assumes that shipment has already been shipped by the supplier and is coming your way. <br /> That's why first status of a manual Inbound Shipment is always <code>SHIPPED</code>.
+</div>
 
 ### Edit the Supplier Name
 
@@ -193,12 +193,12 @@ The status sequence is located at the bottom left corner of the Inbound Shipment
 Passed statuses are hightlighted in blue, next statuses appear in grey. 
 
 <figure>
-    <img src="/docs/replenishment/images/is_statussequence2.png" alt="Inbound Shipment Status Sequence (New)" style="width:100%">
+    <img src="/docs/replenishment/is_statussequence2.png" alt="Inbound Shipment Status Sequence (New)" style="width:100%">
     <figcaption align="center">Status Sequence: current status is <code>New</code>.</figcaption>
 </figure>
 
 <figure>
-    <img src="/docs/replenishment/images/is_statussequence3.png" alt="Inbound Shipment Status Sequence (Shipped)" style="width:100%">
+    <img src="/docs/replenishment/is_statussequence3.png" alt="Inbound Shipment Status Sequence (Shipped)" style="width:100%">
     <figcaption align="center">Status Sequence: current status is </i><code>Shipped</code>.</figcaption>
 </figure>
 
@@ -223,7 +223,7 @@ If, however, you've created an Inbound Shipment manually, then the following mes
 and you'll see that the status bar has only the status values which apply to this type of shipment.
 
 <figure align="center">
-    <img src="/docs/replenishment/images/is_statussequence4.png" alt="Inbound Shipment Status Sequence (New & manual)" style="width:60%">
+    <img src="/docs/replenishment/is_statussequence4.png" alt="Inbound Shipment Status Sequence (New & manual)" style="width:60%">
     <figcaption align="center">Status Sequence: current status is </i><code>New</code>.</figcaption>
 </figure>
 
@@ -430,9 +430,3 @@ To change the view mode, click the `Group by item` switch.
 When grouped by item, you can expand the item to see individual batches, or use the expand in the table header to expand all grouped rows. If you click on an item you will also see all selected batches, as shown in this example:
 
 ![Group by Item](/docs/replenishment/images/is_group_by_item.gif)
-
-If you do not have enough room on your screen, or simply aren't interested in some of the columns shown, you have the option of hiding which columns are shown in this view.
-
-Click on the `Show / hide columns` button which is at the top right of the table. This gives a list of the columns available - you can check the columns you want to see. The options chosen are stored for the current browser, so next time you view an inbound shipment, you will see the selected columns only. If you have chosen which columns to show, then the button is shown in blue to remind you that there are more columns available.
-
-![Hide columns](/docs/replenishment/images/is_show_hide_columns.gif)
