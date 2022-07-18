@@ -34,12 +34,9 @@ The server requires a little more memory and processing capability, depending on
 - Buy hardware for which good after sales support is available
 - Buy brands with a reputation for quality (even if it means buying a slower/older machine)
 
-
-### Windows, Mac and, Linux hardware requirements
-
+### Windows, Mac, and, Linux hardware requirements
 
 Hardware requirements vary widely depending on what you want to use Open mSupply for. Here's a rough guide:
-
 
 | Machine | Technical Minimum | Recommended |
 | :---------- | :---------- | :---------- |
@@ -52,6 +49,29 @@ Hardware requirements vary widely depending on what you want to use Open mSupply
 <div class="note">
 Recording stock transactions is a core Open mSupply activity. Most stock transaction data is numeric. A numeric keypad is often helpful for machines that have a lot of data entry done on them.
 </div>
+
+### Mobile / tablet requirements
+
+You are able to use a browser on a tablet to connect to an open mSupply server, and the only requirement here is a suitably fast tablet with a browser such as chrome or firefox. 
+
+For a stand-alone, offline, solution a mobile application is also available for android devices.
+
+Recommended Specifications:
+In short, open mSupply mobile runs on Android tablets (not on phones as there is too much data to use well on small phone screens).
+The application requires at least Android 5.0 (Lollipop)
+
+|           | Minimum | Recommended | 
+| :-------- | :------ | :---------- |
+| Display size | 9.8 inches | 10.1 inches |
+| Resolution   | 768 x 1024 pixels | 800 x 1200 pixels |
+| Android version | 5.0 | 8.1 |
+| Processor | | Quad-core 1.3GHz |
+| Memory | | 1.5 Gb RAM |
+
+In order to provide support, the device must also be compatible with MDM (Mobile Device Management) software and support google services. Please contact [mSupply Foundation](https://msupply.foundation/#contact) for details.
+
+
+Please contact us for testing and / or advice before making a large hardware purchase.
 
 
 #### Smart UPS
