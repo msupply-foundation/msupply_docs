@@ -34,7 +34,9 @@ The server requires a little more memory and processing capability, depending on
 - Buy hardware for which good after sales support is available
 - Buy brands with a reputation for quality (even if it means buying a slower/older machine)
 
-### Windows and Mac hardware requirements
+
+### Windows, Mac and, Linux hardware requirements
+
 
 Hardware requirements vary widely depending on what you want to use Open mSupply for. Here's a rough guide:
 
@@ -45,7 +47,7 @@ Hardware requirements vary widely depending on what you want to use Open mSupply
 | Mac Client machine for use with server | 64 bit processor<br/>macOS Mojave (10.14) – macOS Big Sur (11)(Latest release of major version is required, such as 10.14.6)<br/>4 Gb RAM, 300Mb of disk space	| 64 bit processor<br/>Mac OS 10.14.6 or later<br/>8 Gb RAM, 500Mb of disk space |
 | Windows server | 64 bit processor<br/>Windows 10 Pro or Win server 2019<br/>8 Gb RAM<br/>50 GB HDD/SDD volume with daily backups to an external volume| 64 bit processor<br/>Windows Server 2019+<br/>8 Gb RAM<br/>4 x HDD/SDD volumes, 3 configured as RAID1 or RAID5 with hot spare<br/>Daily backups to the fourth volume plus daily off-site backups<br/>Attached to a Smart UPS (see below) |
 | Linux client or server | 64 bit processor<br/>Ubuntu 20+ or similar<br/>4 Gb RAM<br/>256 Gb storage | 64 bit processor<br/>Ubuntu 20+ or similar<br/>8 Gb RAM<br/>256 Gb storage |
-| Android client or server | 64 bit processor<br/>Android 10 or later<br/>4 Gb RAM<br/>64Gb storage | 64 bit processor<br/>Android 10 or later<br/>4 Gb RAM<br/>64 Gb storage |
+| Android client or server | 64 bit processor<br/>Android 10 or later<br/>4 Gb RAM<br/>64 Gb storage | 64 bit processor<br/>Android 10 or later<br/>4 Gb RAM<br/>64 Gb storage |
 
 <div class="note">
 Recording stock transactions is a core Open mSupply activity. Most stock transaction data is numeric. A numeric keypad is often helpful for machines that have a lot of data entry done on them.
