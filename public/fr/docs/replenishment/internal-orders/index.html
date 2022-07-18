@@ -48,8 +48,8 @@
 
 	
 
-<title>Internal Orders - mSupply 🇫🇷</title>
-<meta name="description" content="Requesting stock from your suppliers.">
+<title>Commandes Internes - mSupply 🇫🇷</title>
+<meta name="description" content="Commander chez des fournisseurs utilisant mSupply.">
 <link rel="canonical" href="https://docs.msupply.foundation/fr/docs/replenishment/internal-orders/">
 
 
@@ -257,23 +257,25 @@
 							<h3>Distribution</h3>
 							<ul class="list-unstyled">
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/">Expéditions</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/distribution/customers/">Clients</a></li>
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/distribution/requisitions/">Réquisitions</a></li>
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/distribution/customers/">Clients</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/">Expéditions</a></li>
 							
 					</ul>
 					
 					
 					
 					
-							<h3>Replenishment</h3>
+							<h3>Approvisionnement</h3>
 							<ul class="list-unstyled">
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/replenishment/inbound-shipments/">Inbound Shipments</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/replenishment/suppliers/">Fournisseurs</a></li>
 							                           
-									<li><a class="docs-link active" href="https://docs.msupply.foundation/fr/docs/replenishment/internal-orders/">Internal Orders</a></li>
+									<li><a class="docs-link active" href="https://docs.msupply.foundation/fr/docs/replenishment/internal-orders/">Commandes Internes</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/replenishment/inbound-shipments/">Livraisons</a></li>
 							
 					</ul>
 					
@@ -326,13 +328,13 @@
     <nav id="TableOfContents">
       <ul>
         
-        <li><a href="https://docs.msupply.foundation/fr/docs/replenishment/internal-orders/#viewing-internal-orders">Viewing Internal Orders</a></li>
+        <li><a href="https://docs.msupply.foundation/fr/docs/replenishment/internal-orders/#voir-les-commandes-internes">Voir les Commandes Internes</a></li>
          
-        <li><a href="https://docs.msupply.foundation/fr/docs/replenishment/internal-orders/#creating-a-new-internal-order">Creating a new Internal Order</a></li>
+        <li><a href="https://docs.msupply.foundation/fr/docs/replenishment/internal-orders/#creer-une-nouvelle-commande-interne">Créer une nouvelle commande interne</a></li>
         
         <ul>
           
-          <li><a href="https://docs.msupply.foundation/fr/docs/replenishment/internal-orders/#select-a-supplier">Select a supplier</a></li>
+          <li><a href="https://docs.msupply.foundation/fr/docs/replenishment/internal-orders/#selectionner-un-fournisseur">Sélectionner un fournisseur</a></li>
           
           <li><a href="https://docs.msupply.foundation/fr/docs/replenishment/internal-orders/#defining-maximum-month-of-stock-maximum-mos">Defining Maximum Month of Stock (Maximum MOS)</a></li>
           
@@ -358,57 +360,56 @@
       <main class="docs-content col-lg-11 col-xl-9">
         
         <div class="flagster" style="float: right; padding: 5px">
-          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;replenishment&#x2F;internal-orders&#x2F;" title="Change language to en"
-            >🇬🇧</a
-          >
-        </div>
-        
-        <div class="flagster" style="float: right; padding: 5px">
           <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;fr&#x2F;docs&#x2F;replenishment&#x2F;internal-orders&#x2F;" title="Change language to fr"
             >🇫🇷</a
           >
         </div>
         
+        <div class="flagster" style="float: right; padding: 5px">
+          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;replenishment&#x2F;internal-orders&#x2F;" title="Change language to en"
+            >🇬🇧</a
+          >
+        </div>
+        
 
-        <h1>Internal Orders</h1>
-         <p>Internal Orders go by several other names in certain countries or systems:</p>
+        <h1>Commandes Internes</h1>
+         <p>Les commandes internes portent plusieurs autres noms dans certains pays ou systèmes :</p>
 <ul>
-<li>Requisitions</li>
-<li>Orders</li>
-<li>Report &amp; Requisition</li>
-<li>R&amp;R</li>
+<li>Réquisitions</li>
+<li>Commandes</li>
+<li>Rapports Commande</li>
 </ul>
-<p>Internal Orders are a way to support users in requesting new stock from another store. </p>
-<h2 id="viewing-internal-orders">Viewing Internal Orders</h2>
-<p>If you would like to order some stock from your supplier: </p>
+<p>Les commandes internes sont un moyen qui permet aux utilisateurs d'adresser une commande à l'endroit d'un autre dépôt. </p>
+<h2 id="voir-les-commandes-internes">Voir les Commandes Internes</h2>
+<p>Pour adresser une commande à un fournisseur: </p>
 <ol>
-<li>Navigate to the <code>Replenishment</code> menu</li>
-<li>Tap on <code>Internal Orders</code></li>
+<li>Allez dans le menu <code>Approvisionnement</code></li>
+<li>Cliquez sur <code>Commandes internes</code></li>
 </ol>
-<p><img src="/docs/replenishment/images/intord_access.png" alt="Internal Order: nav" /></p>
-<p>You will see a list of all existing internal orders: </p>
-<p><img src="/docs/replenishment/images/intord_list.png" alt="Internal Order: list" /></p>
-<p>You can use the <code>Search by comment</code> field to filter the list by the comments of the internal orders: </p>
+<p><img src="/docs/replenishment/images/intord_access_fr.png" alt="Internal Order: nav" /></p>
+<p>Une liste de commandes internes s'affiche à l'écran: </p>
+<p><img src="/docs/replenishment/images/intord_list_fr.png" alt="Internal Order: list" /></p>
+<p>Vous pouvez utiliser le champs <code>Search by comment</code> pour filter la liste par commentaire: </p>
 <p><img src="/docs/replenishment/images/intord_filterlistbycomment.gif" alt="Internal Order: filter by comment" /></p>
-<p>You can sort the list using the column headers:</p>
+<p>Vous pouvez trier la liste à l'aide des en-têtes de colonne :</p>
 <ol>
-<li>Tap the column header of the column that you want to sort. The column is sorted in ascending order. </li>
-<li>Tap the column header again and column will be sorted in the opposite order.</li>
+<li>Appuyez sur l'en-tête de la colonne que vous souhaitez trier. La colonne est triée par ordre croissant. </li>
+<li>Appuyez à nouveau sur l'en-tête, la colonne sera triée dans l'ordre inverse.</li>
 </ol>
-<h2 id="creating-a-new-internal-order">Creating a new Internal Order</h2>
-<h3 id="select-a-supplier">Select a supplier</h3>
+<h2 id="creer-une-nouvelle-commande-interne">Créer une nouvelle commande interne</h2>
+<h3 id="selectionner-un-fournisseur">Sélectionner un fournisseur</h3>
 <ol>
-<li>Click on the <code>New Order</code> button (top right corner): </li>
+<li>Cliquez sur le bouton <code>Nouvelle Commande</code> (dans le coin supérieur droit): </li>
 </ol>
-<p><img src="/docs/replenishment/images/intord_newreqbutton.png" alt="Internal Order: new order" /></p>
+<p><img src="/docs/replenishment/images/intord_newreqbutton_fr.png" alt="Internal Order: new order" /></p>
 <ol start="2">
-<li>A new window opens, inviting your to select a supplier: </li>
+<li>Une nouvelle fenêtre vous invitant à choisir un fournisseur s'ouvre: </li>
 </ol>
-<p><img src="/docs/replenishment/images/intord_selectsupplier2.png" alt="Internal Order: select supplier" /></p>
+<p><img src="/docs/replenishment/images/intord_selectsupplier2_fr.png" alt="Internal Order: select supplier" /></p>
 <ol start="3">
-<li>Select a Supplier by pressing on its name. You will see a window like this: </li>
+<li>Sélectionnez un fournisseur en cliquant sur son nom. Vous verrez une fenêtre comme celle-ci : </li>
 </ol>
-<p><img src="/docs/replenishment/images/intord_newintord.png" alt="Internal Order: newly created order" /></p>
+<p><img src="/docs/replenishment/images/intord_newintord_fr.png" alt="Internal Order: newly created order" /></p>
 <h3 id="defining-maximum-month-of-stock-maximum-mos">Defining Maximum Month of Stock (Maximum MOS)</h3>
 <p>Defining the Maximum MOS (Month of Stock) is critical to the calculation of the <strong>Suggested Quantity</strong> and you can change it: </p>
 <ul>
@@ -520,10 +521,10 @@ Ensure that your order is correct before sending it to your supplier. Once sent,
   
   
   
-  <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;fr&#x2F;docs&#x2F;replenishment&#x2F;inbound-shipments&#x2F;">
+  <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;fr&#x2F;docs&#x2F;replenishment&#x2F;suppliers&#x2F;">
     <div class="card my-1">
       <div class="card-body py-2">
-        &larr; Inbound Shipments
+        &larr; Fournisseurs
       </div>
     </div>
   </a>
@@ -534,47 +535,13 @@ Ensure that your order is correct before sending it to your supplier. Once sent,
   
   
   
-    
-    
-    
-      
-      
-        
-      
-    
-      
-      
-        
-      
-    
-      
-      
-        
-          
-          
-          <a class="ms-auto" href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;fr&#x2F;docs&#x2F;catalogue&#x2F;items&#x2F;">
-            <div class="card my-1">
-              <div class="card-body py-2">
-                Articles &rarr;
-              </div>
-            </div>
-          </a>
-          
-          
-          
-        
-      
-    
-      
-      
-        
-      
-    
-      
-      
-        
-      
-    
+    <a class="ms-auto" href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;fr&#x2F;docs&#x2F;replenishment&#x2F;inbound-shipments&#x2F;">
+      <div class="card my-1">
+        <div class="card-body py-2">
+          Livraisons &rarr;
+        </div>
+      </div>
+    </a>
   
 </div>
 

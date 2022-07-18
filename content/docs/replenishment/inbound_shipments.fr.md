@@ -1,10 +1,10 @@
 +++
-title = "Inbound Shipments"
-description = "Issuing stock to your customers."
+title = "Livraisons"
+description = "Récevoir du stock des fournisseurs."
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
 draft = false
-weight = 2
+weight = 3
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -13,133 +13,134 @@ toc = true
 top = false
 +++
 
-Inbound Shipments can be used to receive stock from suppliers. 
+La fonctionnalité _Livraison_ peut être utilisée pour récevoir du stock venant d'un ou plusieurs fournisseurs.
 
-If you have used mSupply in the past, you may be familiar with the term **Supplier Invoice** instead of Inbound Shipment. 
+Si vous aviez utilisé mSupply par le passé, vous devriez être familier du terme **Facture Fournisseur** au lieu de **_Livraison_**. 
 
-All received goods should be recorded in mSupply either by: 
-* Manually creating an Inbound Shipment (manual Inbound Shipment)
-* Working with an Inbound Shipment that has been created automatically as a result of a stock transfer from another store in your mSupply
+Toutes les articles reçus doivent être enregistrés dans mSupply soit par :
+* Création manuelle d'une livraison (livraison manuelle)
+* Traitement d'une livraison qui a été créée automatiquement dans votre dépôt suite à un envoi de stock venant d'un autre dépôt fournisseur.
 
-## Viewing Inbound Shipments
+## Voir les Livraisons
 
-### Go to the Inbound Shipments Menu
+### Ouvrir le Menu Livraison
 
-![Go to Inbound Shipments](/docs/replenishment/is_gotois.png)
+![Go to Inbound Shipments](/docs/replenishment/images/is_gotois_fr.png)
 
-To access the **Inbound Shipment** menu:
-1. Go to the `Replenishment` menu in the navigation panel
-2. Click on `Inbound Shipment`
+Pour accéder au menu **Livraison** :
+1. Allez dans `Approvisionnement` dans le panneau de navigation à gauche
+2. Cliquez sur `Livraison`
 
-### Inbound Shipments list
+### Liste des Livraisons
 
-First thing you see is a list of existing Inbound Shipments. 
+La première chose que vous voyez est une liste des Livraisons. 
 
-The Inbound Shipments list is divided into 7 columns: 
+La liste des livraisons comprend 7 colonnes: 
 
-| Column| Description |
+| Colonne| Description |
 | :---------- | :---------- |
-| **Name** | Name of the Customer | 
-| **Status** | Current Status of the shipment | 
-| **Number** | Reference Number of the shipment | 
-| **Created** | Creation date of the shipment | 
-| **Confirmed** | Confirmation date of the shipment | 
-| **Comment** | Comment for the shipment |
-| **Total** | Total value of the shipment |
+| **Nom** | Nom du fournisseur | 
+| **Statut** | Statut de la livraison | 
+| **Numéro** | Numéro de référence de la livraison| 
+| **Créée le** | Date de création de la livraison | 
+| **Confirmée** | Date de confirmation de la livraison | 
+| **Commentaire** | Commentaire sur la livraison |
+| **Total** | Valeur totale |
 
-2. The list can display **20 shipments per page**. On the bottom left corner, you can how many shipments are currently displayed on your screen. 
+1. La liste peut afficher **20 livraisons par page**. Dans le coin inférieur gauche, vous pouvez voir combien de livraisons sont actuellement affichées sur votre écran. 
 
-![Page](/docs/distribution/os_list_showing.png)
+![Page](/docs/distribution/images/os_list_showing.png)
 
-3. If you have more than 20 shipments, you can navigate to the other pages by clicking on the page number or using the right of left arrows (bottom right corner). 
+2. S'il y a plus de 20 livraisons, vous pouvez vous déplacer vers une autre page en cliquant sur le numéro de la page ou en utilisant les flèches droite ou gauche (coin inférieur droit). 
 
-![Page](/docs/distribution/os_list_pagenumbers.png)
+![Page](/docs/distribution/images/os_list_pagenumbers.png)
 
-### Search by Supplier Name
+### Recherche par nom de Fournisseur
 
-You can filter the list of shipments by supplier name. This can be useful if you're looking for one particular shipment!
+Vous pouvez filtrer la liste des livraisons par nom de fournisseur. Cela peut être utile si vous recherchez une livraison en particulier !
 
-Type the name of a supplier in the `Search by name` field (on the left, just above the list headers). All the shipments for this supplier will appear in the list. 
+Saisissez le nom du fournisseur dans le champs `Search by name` (à gauche, juste au-dessus des en-têtes de liste). Toutes les livraisons de ce fournisseur apparaîtront dans la liste. 
 
-### Exporting Inbound Shipments
+### Exporter la liste des livraisons
 
-The list of Inbound Shipments can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page)
+La liste des livraisons peut être exportée dans un fichier CSV. Cliquez simplement sur le bouton _Exporter_ (à droite, en haut de la page).
 
-![Export button](/docs/distribution/export.png)
+![Export button](/docs/distribution/images/export_fr.png)
 
-and the file will be downloaded. The export function will download all Inbound Shipments, not just the current page, if you have more than 20 of them. Shipments are exported using sort order selected in the table, though of course you could easily sort the list in Excel or whatever you open the .csv file with!
+et le fichier sera téléchargé. La fonction d'exportation téléchargera toutes les livraisons, pas seulement la page actuelle, si vous en avez plus de 20. Les livraisons sont exportées en utilisant l'ordre de tri sélectionné dans la liste, bien que vous puissiez facilement trier la liste dans Excel ou tout autre outil avec lequel vous ouvrez le fichier .csv !
 
-### Delete an Inbound Shipment
 
-You can delete a shipment from the Inbound Shipment list.
+### Supprimer une livraison
 
-1. Select the shipment that you want to delete by checking the box on the left end of the list. You can select more than one shipments to be deleted. You can even select them all using the master checkbox in the list headers.
+Vous pouvez supprimer une livraison de la liste.
 
-1. Open the Select dropdown (top right corner, above the list) and select `Delete selected lines`.
+1. Sélectionnez la livraison que vous souhaitez supprimer en cochant la case à l'extrémité gauche de la liste. Vous pouvez sélectionner plus d'une livraison à supprimer. Vous pouvez même toutes les sélectionner à l'aide de la case à cocher principale dans les en-têtes de liste.
 
-A notification confirms how many shipments were deleted (bottom left corner).
+2. Ouvrez la liste déroulante `Sélectionner` (coin supérieur droit, au-dessus de la liste) et sélectionnez `Supprimer lignes sélectionnées`.
+
+3. Une notification confirme le nombre de livraisons supprimées (coin inférieur gauche)
 
 <div class="note">
-You can only delete Inbound Shipments with a status <code>NEW</code>.
+Vous ne pouvez supprimer que les expéditions avec un statut <code>NOUVEAU</code>.
 </div>
 
-## Creating a new manual Inbound Shipment
+## Créer une nouvelle livraison manuelle
 
-1. Go to `Replenishment`> `Inbound Shipment`
-2. Press the `New Shipment` button, in the top right corner
-3. A new window `Suppliers` opens, inviting you to select a supplier
+1. Allez dans `Approvisionnement`> `Livraison`
+2. Cliquez sur le bouton `Nouvelle Livraison`, dans le coin supérieur droit
+3. Une nouvelle fenêtre `Fournisseurs` vous invitant à sélectionner un _Fournisseur_ s'affiche.
 
-### Select a Supplier
+### Sélectionner un Fournisseur
 
-1. In the `Suppliers` window, you will be presented with a list of suppliers. You can select your supplier from the list or you can type as much of a supplier name. 
+1. Dans la fenêtre `Fournisseurs`, vous verrez afficher une liste de fournisseurs. Vous pouvez sélectionner directement ou saisir le nom d'un fournisseur. 
 
 <div class="tip">
-You can tell if a supplier is also using mSupply in their store. If they do, you will see icon like this (<img src="/docs/replenishment/is_msupplystoreicon.png" alt="Store" style="width:auto">) next to the supplier code. 
+Vous pouvez savoir si un fournisseur utilise également mSupply dans son dépôt. Si c'est le cas, vous verrez une icône comme celle-ci (<img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto">) à côté du code fournisseur. 
 </div>
 
 <div class="imagetitle">
-In below example, we are receiving stock from <b>Tamaki Central Medical Store</b>. 
+Dans l'exemple ci-dessous, nous recevons du stock de <b>Tamaki Central Medical Store</b>. 
 </div>
 
-![Select a Supplier](/docs/replenishment/is_selectsupplier.gif)
+![Select a Supplier](/docs/replenishment/images/is_selectsupplier.gif)
 
-2. Once you have selected a supplier, you Inbound Shipment is created. 
+2. Une fois que vous avez sélection un Fournisseur, la livraison est créée. 
 
 <div class="imagetitle">
-If everything went well, you should see the name of your supplier in the top left corner and current status should be <code>SHIPPED</code>.
+Si tout s'est bien passé, vous devriez voir le nom de votre fournisseur dans le coin supérieur gauche et le statut actuel devrait être <code>LIVRE</code>.
 </div>
 
-![New manual Inbound Shipment](/docs/replenishment/is_newinboundshipment.png)
+![New manual Inbound Shipment](/docs/replenishment/images/is_newinboundshipment_fr.png)
 
 
 <div class="note">
-When you create a <b>new</b> manual Inbound Shipment, mSupply assumes that shipment has already been shipped by the supplier and is coming your way. <br /> That's why first status of a manual Inbound Shipment is always <code>SHIPPED</code>.
+Lorsque vous créez une <b>nouvelle</b> livraison manuelle, mSupply admet que la livraison a été exécutée par le fournisseur et que vous êtes sur le point de réceptionner les articles. <br /> Raison pour laquelle le statut d'une livraison manuelle a toujours la valeur <code>LIVRE</code>.
 </div>
 
-### Edit the Supplier Name
+### Modifier le nom du Fournisseur
 
-If you have selected the wrong supplier, you can change the supplier name in the `Supplier Name` field or select one the dropdown list: 
+Si vous n'avez pas sélectionné le bon fournisseur, vous pouvez toujours modifié le nom du fournisseur dans le champs `Supplier Name` ou sélectionner un autre: 
 
 <div class="imagetitle">
-In below example, we are replacing <b>Tamaki Central Medical Store</b> by <b>Waikato District Store</b>. 
+Dans l'exemple ci-dessous, nous remplaçons <b>Tamaki Central Medical Store</b> par <b>Waikato District Store</b>. 
 </div>
 
-![gif](/docs/replenishment/is_editsuppliername.gif)
+![gif](/docs/replenishment/images/is_editsuppliername.gif)
 
-### Enter a Supplier Reference
+### Saisir une référence fournisseur
 
-Once your Inbound Shipment has been created, you can capture a supplier reference in the `Supplier Ref` field, if they have one (eg. * PO#1234567 *)
+Une fois que la livraison a été créée, vous pouvez renseigner la référence du fournisseur dans le champs `Supplier Ref` s'il en a un:  (Exple. * PO#1234567 *)
 
-### View or edit the Inbound Shipment Information Panel
+### Afficher ou modifier le panneau d'informations sur les livraisons
 
-The Information Panel allows you see or to edit information about the Inbound Shipment. It is divided in multiple sections: 
-* Additional Info
-* Related Documents
-* Invoice Details
-* Transport Details
+Le panneau d'information vous permet de voir ou de modifier les informations sur la livraison. Il est divisé en plusieurs sections : 
+* Information additionnelle
+* Documents connexes
+* Détails de la facture
+* Détails des transports
 
 <div class="omsupdate">
-We are planning to add more sections in the future as Open mSupply grows. 
+Nous prévoyons d'ajouter d'autres sections à l'avenir au fur et à mesure de la croissance d'Open mSupply. 
 </div>
 
 #### How to open and close the Information Panel ?
@@ -148,7 +149,7 @@ To open the Information Panel, you can tap on the `More` button, located in the 
 
 You can close by tapping on the `X Close` button, on the top right corner of the information panel. 
 
-![Open and close the Information Panel](/docs/replenishment/is_infopanel_openclose.gif)
+![Open and close the Information Panel](/docs/replenishment/images/is_infopanel_openclose.gif)
 
 #### Additonal Info
 
@@ -193,12 +194,12 @@ The status sequence is located at the bottom left corner of the Inbound Shipment
 Passed statuses are hightlighted in blue, next statuses appear in grey. 
 
 <figure>
-    <img src="/docs/replenishment/is_statussequence2.png" alt="Inbound Shipment Status Sequence (New)" style="width:100%">
+    <img src="/docs/replenishment/images/is_statussequence2.png" alt="Inbound Shipment Status Sequence (New)" style="width:100%">
     <figcaption align="center">Status Sequence: current status is <code>New</code>.</figcaption>
 </figure>
 
 <figure>
-    <img src="/docs/replenishment/is_statussequence3.png" alt="Inbound Shipment Status Sequence (Shipped)" style="width:100%">
+    <img src="/docs/replenishment/images/is_statussequence3.png" alt="Inbound Shipment Status Sequence (Shipped)" style="width:100%">
     <figcaption align="center">Status Sequence: current status is </i><code>Shipped</code>.</figcaption>
 </figure>
 
@@ -214,11 +215,11 @@ There are 5 status for the Inbound Shipment:
 
 You probably noticed that two of the status values only apply to automatically created shipments. These are created by the system when another store in the system creates an Outbound Shipment to deliver stock to your store. If this is the case you'll see a message near the top of the page:
 
-![Automatic IS message](/docs/replenishment/is_message_automatic.png)
+![Automatic IS message](/docs/replenishment/images/is_message_automatic.png)
 
 If, however, you've created an Inbound Shipment manually, then the following message shows:
 
-![Manual IS message](/docs/replenishment/is_message_manual.png)
+![Manual IS message](/docs/replenishment/images/is_message_manual.png)
 
 and you'll see that the status bar has only the status values which apply to this type of shipment.
 
@@ -233,13 +234,13 @@ If you hover over the status sequence, a shipment history window appears. You ca
 This manual shipment has been created on 03/03/2022
 </div>
 
-![Inbound status: hover 2](/docs/replenishment/is_statussequence_hover2.png)
+![Inbound status: hover 2](/docs/replenishment/images/is_statussequence_hover2.png)
 
 <div class="imagetitle">
 This automatic shipment has been created on 03/03/2022, allocated on 04/03/2022 and picked on 07/03/2022
 </div>
 
-![Inbound status: hover](/docs/replenishment/is_statussequence_hover.png)
+![Inbound status: hover](/docs/replenishment/images/is_statussequence_hover.png)
 
 
 ### Hold checkbox
@@ -248,7 +249,7 @@ Located on the bottom left corner, on the left of the status sequence.
 
 Check the `Hold` checkbox prevents the Inbound Shipment from being updated to the next status. 
 
-![Outbound hold checkbox](/docs/distribution/os_holdcheckbox.png)
+![Outbound hold checkbox](/docs/distribution/images/os_holdcheckbox.png)
 
 ### Cancel and Confirm button
 
@@ -271,7 +272,7 @@ You don't have to update a shipment to next status in the sequence. You can choo
 
 As demonstrated below, tap on the down arrow of the `Confirm` button and select the status you want the shipment to be updated to. 
 
-![Skip Status](/docs/replenishment/is_skipstatus.gif)
+![Skip Status](/docs/replenishment/images/is_skipstatus.gif)
 
 ## Adding lines to an Inbound Shipment
 
