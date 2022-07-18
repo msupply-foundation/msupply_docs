@@ -38,16 +38,17 @@ The server requires a little more memory and processing capability, depending on
 
 Hardware requirements vary widely depending on what you want to use Open mSupply for. Here's a rough guide:
 
-<div class="note">
-Recording stock transactions is a core Open mSupply activity. Most stock transaction data is numeric. It is essential that Open mSupply Windows or Mac hardware include a numeric keypad, either as part of a wide keyboard, or as a dedicated external numeric keypad.
-</div>
-
 | Machine | Technical Minimum | Recommended |
 | :---------- | :---------- | :---------- |
-| Windows client machine for use with server | 64 bit processor<br/>Windows 10<br/><b>4 Gb</b> RAM, 300Mb of disk space	| 64 bit processor<br/>Windows 10<br/><b>8 Gb</b> RAM, 500Mb of disk space |
-| Linux client machine for use with server | 64 bit processor<br/>Linux distro and minimum version TBD<br/><b>4 Gb</b> RAM, 300Mb of disk space	| 64 bit processor<br/>Distro TBD<br/><b>8 Gb</b> RAM, 500Mb of disk space || Mac Client machine for use with server | 64 bit processor<br/>macOS Mojave (10.14) – macOS Big Sur (11)(Latest release of major version is required, such as 10.14.6)<br/><b>4 Gb</b> RAM, 300Mb of disk space	| 64 bit processor<br/><b>Mac OS 10.14.6 or later</b><br/><b>8 Gb</b> RAM, 500Mb of disk space |
-| Windows server | 64 bit processor<br/>Windows 10 Pro or Win server 2019<br/><b>8 Gb</b> RAM<br/>50 GB HDD/SDD volume with daily backups to an external volume<br/>Attached to a Smart UPS (see below)	64 bit processor | 64 bit processor<br/><b>Windows Server 2019+</b><br/><b>32+ Gb</b> RAM<br/>4 x HDD/SDD volumes, 3 configured as RAID1 or RAID5 with hot spare<br/>Daily backups to the fourth volume plus daily off-site backups<br/>Attached to a Smart UPS (see below) |
-| Linux server | 64 bit processor<br/>Linux distro and minimum version TBD<br/><b>8 Gb</b> RAM<br/>50 GB HDD/SDD volume with daily backups to an external volume<br/>Attached to a Smart UPS (see below)	64 bit processor | 64 bit processor<br/><b>Distro TBD</b><br/><b>32+ Gb</b> RAM<br/>4 x HDD/SDD volumes, 3 configured as RAID1 or RAID5 with hot spare<br/>Daily backups to the fourth volume plus daily off-site backups<br/>Attached to a Smart UPS (see below) |
+| Windows Client machine for use with server | 64 bit processor<br/>Windows 10<br/>4 Gb RAM, 300Mb of disk space	| 64 bit processor<br/>Windows 10<br/>8 Gb RAM, 500Mb of disk space |
+| Mac Client machine for use with server | 64 bit processor<br/>macOS Mojave (10.14) – macOS Big Sur (11)(Latest release of major version is required, such as 10.14.6)<br/>4 Gb RAM, 300Mb of disk space	| 64 bit processor<br/>Mac OS 10.14.6 or later<br/>8 Gb RAM, 500Mb of disk space |
+| Windows server | 64 bit processor<br/>Windows 10 Pro or Win server 2019<br/>8 Gb RAM<br/>50 GB HDD/SDD volume with daily backups to an external volume| 64 bit processor<br/>Windows Server 2019+<br/>8 Gb RAM<br/>4 x HDD/SDD volumes, 3 configured as RAID1 or RAID5 with hot spare<br/>Daily backups to the fourth volume plus daily off-site backups<br/>Attached to a Smart UPS (see below) |
+| Linux client or server | 64 bit processor<br/>Ubuntu 20+ or similar<br/>4 Gb RAM<br/>256 Gb storage | 64 bit processor<br/>Ubuntu 20+ or similar<br/>8 Gb RAM<br/>256 Gb storage |
+| Android client or server | 64 bit processor<br/>Android 10 or later<br/>4 Gb RAM<br/>64Gb storage | 64 bit processor<br/>Android 10 or later<br/>4 Gb RAM<br/>64 Gb storage |
+
+<div class="note">
+Recording stock transactions is a core Open mSupply activity. Most stock transaction data is numeric. A numeric keypad is often helpful for machines that have a lot of data entry done on them.
+</div>
 
 ### Mobile / tablet requirements
 
@@ -78,8 +79,6 @@ Please contact us for testing and / or advice before making a large hardware pur
 #### Smart UPS
 A 'smart' UPS ([Uninterruptible Power Supply](https://en.wikipedia.org/wiki/Uninterruptible_power_supply)) detects when the battery power is about to run out and sends a notification to software on the server which triggers a graceful shut down of the computer. To enable this, there needs to be a cable connection (normally USB) between the UPS and the computer combined with software running on the computer.
 
-
-<div class="tip">
 In our experience, the primary cause of computer hardware failure is data corruption due to ungraceful shutdowns. This happens when power to the computer is cut instantly, without any notification to the computer to shut down gracefully. If the machine is 'protected' by a normal UPS, then this can still happen when the battery power runs out. Even if the machine is notionally protected by a 'smart' UPS, there are a number of circumstances where this UPS protection fails:
 
 - Cable connection and software can fail.
@@ -108,8 +107,8 @@ Because Open mSupply is dealing with lots of numbers (quantities of stock), <str
 
 Useful productivity accessories for laptop computers include
 
-- External mouse (not wireless - batteries replacement is expensive and environmentally irresponsible)
-- External keyboard (not wireless - batteries replacement is expensive and environmentally irresponsible)
+- External mouse (not wireless - batteries replacement is expensive and environmentally problematic)
+- External keyboard (not wireless - batteries replacement is expensive and environmentally problematic)
 - External screen
 </div>
 
