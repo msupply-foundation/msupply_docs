@@ -1,6 +1,6 @@
 +++
-title = "Commandes Internes"
-description = "Commander chez des fournisseurs utilisant mSupply."
+title = "Internal Orders"
+description = "Requesting stock from your suppliers."
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
 draft = false
@@ -13,48 +13,49 @@ toc = true
 top = false
 +++
 
-Les commandes internes portent plusieurs autres noms dans certains pays ou systèmes :
-* Réquisitions
-* Commandes
-* Rapports Commande
+Internal Orders go by several other names in certain countries or systems:
+* Requisitions
+* Orders
+* Report & Requisition
+* R&R
 
-Les commandes internes sont un moyen qui permet aux utilisateurs d'adresser une commande à l'endroit d'un autre dépôt. 
+Internal Orders are a way to support users in requesting new stock from another store. 
 
-## Voir les Commandes Internes
+## Viewing Internal Orders
 
-Pour adresser une commande à un fournisseur: 
-1. Allez dans le menu `Approvisionnement`
-2. Cliquez sur `Commandes internes`
+If you would like to order some stock from your supplier: 
+1. Navigate to the `Replenishment` menu
+2. Tap on `Internal Orders`
 
-![Internal Order: nav](/docs/replenishment/images/intord_access_fr.png)
+![Internal Order: nav](/docs/replenishment/images/intord_access.png)
 
-Une liste de commandes internes s'affiche à l'écran: 
+You will see a list of all existing internal orders: 
 
-![Internal Order: list](/docs/replenishment/images/intord_list_fr.png)
+![Internal Order: list](/docs/replenishment/images/intord_list.png)
 
-Vous pouvez utiliser le champs `Search by comment` pour filter la liste par commentaire: 
+You can use the `Search by comment` field to filter the list by the comments of the internal orders: 
 
 ![Internal Order: filter by comment](/docs/replenishment/images/intord_filterlistbycomment.gif)
 
-Vous pouvez trier la liste à l'aide des en-têtes de colonne :
-1. Appuyez sur l'en-tête de la colonne que vous souhaitez trier. La colonne est triée par ordre croissant. 
-2. Appuyez à nouveau sur l'en-tête, la colonne sera triée dans l'ordre inverse.
+You can sort the list using the column headers:
+1. Tap the column header of the column that you want to sort. The column is sorted in ascending order. 
+2. Tap the column header again and column will be sorted in the opposite order.
 
-## Créer une nouvelle commande interne
+## Creating a new Internal Order
 
-### Sélectionner un fournisseur
+### Select a supplier
 
-1. Cliquez sur le bouton `Nouvelle Commande` (dans le coin supérieur droit): 
+1. Click on the `New Order` button (top right corner): 
 
-![Internal Order: new order](/docs/replenishment/images/intord_newreqbutton_fr.png)
+![Internal Order: new order](/docs/replenishment/images/intord_newreqbutton.png)
 
-2. Une nouvelle fenêtre vous invitant à choisir un fournisseur s'ouvre: 
+2. A new window opens, inviting your to select a supplier: 
 
-![Internal Order: select supplier](/docs/replenishment/images/intord_selectsupplier2_fr.png)
+![Internal Order: select supplier](/docs/replenishment/images/intord_selectsupplier2.png)
 
-3. Sélectionnez un fournisseur en cliquant sur son nom. Vous verrez une fenêtre comme celle-ci : 
+3. Select a Supplier by pressing on its name. You will see a window like this: 
 
-![Internal Order: newly created order](/docs/replenishment/images/intord_newintord_fr.png)
+![Internal Order: newly created order](/docs/replenishment/images/intord_newintord.png)
 
 ### Defining Maximum Month of Stock (Maximum MOS)
 

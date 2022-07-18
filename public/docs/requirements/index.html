@@ -220,11 +220,11 @@
 							<h3>Distribution</h3>
 							<ul class="list-unstyled">
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/distribution/customers/">Customers</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/">Outbound Shipments</a></li>
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/distribution/requisitions/">Requisitions</a></li>
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/">Outbound Shipments</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/distribution/customers/">Customers</a></li>
 							
 					</ul>
 					
@@ -237,11 +237,11 @@
 							<h3>Replenishment</h3>
 							<ul class="list-unstyled">
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/replenishment/suppliers/">Suppliers</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/replenishment/inbound-shipments/">Inbound Shipments</a></li>
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/replenishment/internal-orders/">Internal Orders</a></li>
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/replenishment/inbound-shipments/">Inbound Shipments</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/replenishment/suppliers/">Suppliers</a></li>
 							
 					</ul>
 					
@@ -366,21 +366,6 @@ The server requires a little more memory and processing capability, depending on
 <div class="note">
 Recording stock transactions is a core Open mSupply activity. Most stock transaction data is numeric. A numeric keypad is often helpful for machines that have a lot of data entry done on them.
 </div>
-<h3 id="mobile-tablet-requirements">Mobile / tablet requirements</h3>
-<p>You are able to use a browser on a tablet to connect to an open mSupply server, and the only requirement here is a suitably fast tablet with a browser such as chrome or firefox. </p>
-<p>For a stand-alone, offline, solution a mobile application is also available for android devices.</p>
-<p>Recommended Specifications:
-In short, open mSupply mobile runs on Android tablets (not on phones as there is too much data to use well on small phone screens).
-The application requires at least Android 5.0 (Lollipop)</p>
-<table><thead><tr><th align="left"></th><th align="left">Minimum</th><th align="left">Recommended</th></tr></thead><tbody>
-<tr><td align="left">Display size</td><td align="left">9.8 inches</td><td align="left">10.1 inches</td></tr>
-<tr><td align="left">Resolution</td><td align="left">768 x 1024 pixels</td><td align="left">800 x 1200 pixels</td></tr>
-<tr><td align="left">Android version</td><td align="left">5.0</td><td align="left">8.1</td></tr>
-<tr><td align="left">Processor</td><td align="left"></td><td align="left">Quad-core 1.3GHz</td></tr>
-<tr><td align="left">Memory</td><td align="left"></td><td align="left">1.5 Gb RAM</td></tr>
-</tbody></table>
-<p>In order to provide support, the device must also be compatible with MDM (Mobile Device Management) software and support google services. Please contact <a href="https://msupply.foundation/#contact">mSupply Foundation</a> for details.</p>
-<p>Please contact us for testing and / or advice before making a large hardware purchase.</p>
 <h4 id="smart-ups">Smart UPS</h4>
 <p>A 'smart' UPS (<a href="https://en.wikipedia.org/wiki/Uninterruptible_power_supply">Uninterruptible Power Supply</a>) detects when the battery power is about to run out and sends a notification to software on the server which triggers a graceful shut down of the computer. To enable this, there needs to be a cable connection (normally USB) between the UPS and the computer combined with software running on the computer.</p>
 <p>In our experience, the primary cause of computer hardware failure is data corruption due to ungraceful shutdowns. This happens when power to the computer is cut instantly, without any notification to the computer to shut down gracefully. If the machine is 'protected' by a normal UPS, then this can still happen when the battery power runs out. Even if the machine is notionally protected by a 'smart' UPS, there are a number of circumstances where this UPS protection fails:</p>
