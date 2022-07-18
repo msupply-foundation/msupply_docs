@@ -34,7 +34,7 @@ The server requires a little more memory and processing capability, depending on
 - Buy hardware for which good after sales support is available
 - Buy brands with a reputation for quality (even if it means buying a slower/older machine)
 
-### Windows and Mac hardware requirements
+### Windows, Mac, and, Linux hardware requirements
 
 Hardware requirements vary widely depending on what you want to use Open mSupply for. Here's a rough guide:
 
@@ -74,6 +74,8 @@ In order to provide support, the device must also be compatible with MDM (Mobile
 Please contact us for testing and / or advice before making a large hardware purchase.
 
 
+
+
 #### Smart UPS
 A 'smart' UPS ([Uninterruptible Power Supply](https://en.wikipedia.org/wiki/Uninterruptible_power_supply)) detects when the battery power is about to run out and sends a notification to software on the server which triggers a graceful shut down of the computer. To enable this, there needs to be a cable connection (normally USB) between the UPS and the computer combined with software running on the computer.
 
@@ -108,6 +110,7 @@ Useful productivity accessories for laptop computers include
 - External mouse (not wireless - batteries replacement is expensive and environmentally problematic)
 - External keyboard (not wireless - batteries replacement is expensive and environmentally problematic)
 - External screen
+</div>
 
 ### Backup system
 

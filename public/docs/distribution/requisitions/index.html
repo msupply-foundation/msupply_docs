@@ -238,11 +238,11 @@
 							<h3>Distribution</h3>
 							<ul class="list-unstyled">
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/">Outbound Shipments</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/distribution/customers/">Customers</a></li>
 							                           
 									<li><a class="docs-link active" href="https://docs.msupply.foundation/docs/distribution/requisitions/">Requisitions</a></li>
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/distribution/customers/">Customers</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/distribution/outbound-shipments/">Outbound Shipments</a></li>
 							
 					</ul>
 					
@@ -255,11 +255,11 @@
 							<h3>Replenishment</h3>
 							<ul class="list-unstyled">
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/replenishment/inbound-shipments/">Inbound Shipments</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/replenishment/suppliers/">Suppliers</a></li>
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/replenishment/internal-orders/">Internal Orders</a></li>
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/replenishment/suppliers/">Suppliers</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/replenishment/inbound-shipments/">Inbound Shipments</a></li>
 							
 					</ul>
 					
@@ -322,6 +322,8 @@
           
           <li><a href="https://docs.msupply.foundation/docs/distribution/requisitions/#exporting-requisitions">Exporting Requisitions</a></li>
           
+          <li><a href="https://docs.msupply.foundation/docs/distribution/requisitions/#viewing-a-requisition">Viewing a requisition</a></li>
+          
         </ul>
          
       </ul>
@@ -374,9 +376,13 @@
 </ol>
 <p><img src="/docs/distribution/images/os_list_showing.png" alt="Page" /></p>
 <ol start="3">
-<li>If you have more than 20 requisitions, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner). </li>
+<li>If you have more requisitions than the current limit, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner). </li>
 </ol>
 <p><img src="/docs/distribution/images/os_list_pagenumbers.png" alt="Page" /></p>
+<ol start="4">
+<li>You can also select a different number of rows to show per page using the option at the bottom right of the page.</li>
+</ol>
+<p><img src="/docs/images/rows-per-page-select.png" alt="Rows per page" /></p>
 <h3 id="search-by-comment">Search by comment</h3>
 <p>You can filter the list of requisitions by comment. This can be useful if you're looking for one particular requisition!</p>
 <p>Start typing in the <code>Search by comment</code> field (on the left, just above the list headers). All the requisitions which have a comment matching the entered text will appear in the list. </p>
@@ -384,6 +390,18 @@
 <p>The list of Requisitions can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page)</p>
 <p><img src="/docs/distribution/images/export.png" alt="Export button" /></p>
 <p>and the file will be downloaded. The export function will download all Requisitions, not just the current page, if you have more than 20 of them. Requisitions are exported using sort order selected in the table, though of course you could easily sort the list in Excel or whatever you open the .csv file with!</p>
+<h3 id="viewing-a-requisition">Viewing a requisition</h3>
+<p>To view the detail of a particular requisition, simply click on it in the list view.
+You will then see the detail view of the requisition:</p>
+<p><img src="/docs/distribution/images/requisition-detail.png" alt="Requisition Detail" /></p>
+<p>Clicking on an individual item in this view, will then show you details of the particular item. Here you can adjust the quantity to supply:</p>
+<p><img src="/docs/distribution/images/requisition-item-detail.png" alt="Requisition Detail" /></p>
+<p>The requested quantity is also shown, along with the stock item details.</p>
+<p>Another way to adjust the supply quantity, is to click the button <code>Supply requested</code> at the top of the page. This will automatically set the supply quantity to be that of the quantity requested for that item. Click the button and you are asked for confirmation before the adjustment happens:</p>
+<p><img src="/docs/distribution/images/requisition-supply-to-requested.png" alt="Supply Requested Prompt" /></p>
+<p>To create an outbound shipment which will supply the items requested, click on the <code>Create Shipment</code> button. This will create a shipment, add all of the items which are not fully supplied, and then, open that shipment in a new tab. Before doing so, you are prompted to confirm:</p>
+<p><img src="/docs/distribution/images/requisition-create-shipment.png" alt="Create Shipment Prompt" /></p>
+<p>After creating such a shipment, you will see the shipment number, along with a link to view it, in the <code>Related documents</code> section of the additional details panel on the right of the screen.</p>
   
 <div class="docs-navigation d-flex justify-content-between">
   
@@ -391,10 +409,10 @@
   
   
   
-  <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;distribution&#x2F;outbound-shipments&#x2F;">
+  <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;distribution&#x2F;customers&#x2F;">
     <div class="card my-1">
       <div class="card-body py-2">
-        &larr; Outbound Shipments
+        &larr; Customers
       </div>
     </div>
   </a>
@@ -405,10 +423,10 @@
   
   
   
-    <a class="ms-auto" href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;distribution&#x2F;customers&#x2F;">
+    <a class="ms-auto" href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;distribution&#x2F;outbound-shipments&#x2F;">
       <div class="card my-1">
         <div class="card-body py-2">
-          Customers &rarr;
+          Outbound Shipments &rarr;
         </div>
       </div>
     </a>
