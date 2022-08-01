@@ -367,6 +367,8 @@
           
         </ul>
          
+        <li><a href="https://docs.msupply.foundation/docs/replenishment/inbound-shipments/#adding-lines-to-an-inbound-shipment-using-a-master-list">Adding lines to an Inbound Shipment using a Master List</a></li>
+         
         <li><a href="https://docs.msupply.foundation/docs/replenishment/inbound-shipments/#editing-an-inbound-shipment-line">Editing an Inbound Shipment line</a></li>
         
         <ul>
@@ -654,11 +656,24 @@ Don't know the storage location yet ? You don't have to capture it right away. Y
 <li><code>OK &amp; Next</code>if you have other lines to create</li>
 </ul>
 <p>Otherwise, you can tap on <code>Cancel</code> and your changes won't be saved. </p>
+<h2 id="adding-lines-to-an-inbound-shipment-using-a-master-list">Adding lines to an Inbound Shipment using a Master List</h2>
+<p>Tap on the <code>Add from master list</code> button (top right corner). </p>
+<div class="note">
+The button will be disabled if the status of the Inbound Shipment is anything other than <code>New</code>
+</div>
+<p><img src="/docs/distribution/images/os-add-from-master-list-button.png" alt="Add Item button" /></p>
+<p>A new <code>Master Lists</code> window opens. This allows you to select the required master list. Simply click on one of the lists (if you have some available).</p>
+<p><img src="/docs/distribution/images/os-add-item-master-lists.png" alt="Add Item button" /></p>
+<p>Click <code>OK</code> on the prompt:
+<img src="/docs/distribution/images/os-add-item-master-list-prompt.png" alt="Add Item button" /></p>
+<p>You will then have placeholder lines added to your shipment, which will then look like this:</p>
+<p><img src="/docs/replenishment/images/is-after-master-list.png" alt="Add Item button" /></p>
+<p>The imported rows will have zero for the number of packs value, and are therefore shown in a blue font with the batch, expiry, location etc not shown. You can follow the steps for editing these lines, as detailed above.</p>
 <h2 id="editing-an-inbound-shipment-line">Editing an Inbound Shipment line</h2>
 <p>To edit an Inbound Shipment line, simply tap on it. You will be presented with the <code>Edit Item</code> window, which is identical to the <code>Add Item</code> window, except that the item is already chosen and cannot be modified. </p>
 <h3 id="edit-a-shipment-line">Edit a Shipment Line</h3>
 <div class="note">
- <b></b> you can edit a shipment line if the shipment has a status higher lower than <code>VERIFIED</code>. 
+ <b></b> you can edit a shipment line if the shipment has a status higher lower than <code>Verified</code>. 
 </div>
 <ol>
 <li>
@@ -683,11 +698,11 @@ Don't know the storage location yet ? You don't have to capture it right away. Y
 <li>Go to the <code>Actions</code> dropdown menu (top right corner, above the list)</li>
 <li>Select the action <code>Delete selected lines</code></li>
 </ol>
-<p><img src="/docs/distribution/images/os_actions_deleteselectedlines.png" alt="Alt Text" /></p>
+<p><img src="/docs/replenishment/images/is_actions_deleteselectedlines.png" alt="Alt Text" /></p>
 <div class="imagetitle">
-In below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100mg tabs</i>
+In below example, we are deleting <i>item 030453 - Amoxicillin 250mg tabs</i>
 </div>
-<p><img src="/docs/distribution/images/os_deleteselectedlines.gif" alt="Alt Text" /></p>
+<p><img src="/docs/replenishment/images/is_deleteselectedlines.gif" alt="Alt Text" /></p>
 <div class="tip">
 You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
 </div>
@@ -698,6 +713,9 @@ You can delete multiple lines at once. Be sure to review what is selected before
 <p>To confirm that an Inbound Shipment has been delivered, click on the <code>Confirm Delivered</code> button. </p>
 <div class="note">
 In case your Inbound Shipment is <b>automatic</b>, you cannot confirm its delivery unless the supplier has confirmed its shipment. In other words, your shipment status has to be <code>SHIPPED</code> before you can confirm that you have received the goods. 
+</div>
+<div class="note">
+Any unallocated lines with a 0 number of packs value will automatically be removed for you when you confirm.
 </div>
 <h3 id="verify-your-inbound-shipment">Verify your Inbound Shipment</h3>
 <p>Verification is the last step to receive goods in mSupply. At this stage, you can check what you have received and make sure that that information in mSupply are correct. </p>

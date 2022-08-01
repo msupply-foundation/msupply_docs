@@ -248,7 +248,7 @@ Located on the bottom left corner, on the left of the status sequence.
 
 Check the `Hold` checkbox prevents the Inbound Shipment from being updated to the next status. 
 
-![Outbound hold checkbox](/docs/distribution/images/os_holdcheckbox.png)
+![Inbound hold checkbox](/docs/distribution/images/os_holdcheckbox.png)
 
 ### Cancel and Confirm button
 
@@ -347,6 +347,28 @@ When you're done, you can add the new line by tapping on:
 
 Otherwise, you can tap on `Cancel` and your changes won't be saved. 
 
+## Adding lines to an Inbound Shipment using a Master List
+
+Tap on the `Add from master list` button (top right corner). 
+<div class="note">
+The button will be disabled if the status of the Inbound Shipment is anything other than <code>New</code>
+</div>
+
+
+![Add Item button](/docs/distribution/images/os-add-from-master-list-button.png)
+
+A new `Master Lists` window opens. This allows you to select the required master list. Simply click on one of the lists (if you have some available).
+
+![Add Item button](/docs/distribution/images/os-add-item-master-lists.png)
+
+Click `OK` on the prompt:
+![Add Item button](/docs/distribution/images/os-add-item-master-list-prompt.png)
+
+You will then have placeholder lines added to your shipment, which will then look like this:
+
+![Add Item button](/docs/replenishment/images/is-after-master-list.png)
+
+The imported rows will have zero for the number of packs value, and are therefore shown in a blue font with the batch, expiry, location etc not shown. You can follow the steps for editing these lines, as detailed above.
 
 ## Editing an Inbound Shipment line
 
@@ -355,7 +377,7 @@ To edit an Inbound Shipment line, simply tap on it. You will be presented with t
 ### Edit a Shipment Line
 
 <div class="note">
- <b></b> you can edit a shipment line if the shipment has a status higher lower than <code>VERIFIED</code>. 
+ <b></b> you can edit a shipment line if the shipment has a status higher lower than <code>Verified</code>. 
 </div>
 
 1. Open the Inbound Shipment you want to edit
@@ -376,13 +398,13 @@ To edit an Inbound Shipment line, simply tap on it. You will be presented with t
 3. Go to the `Actions` dropdown menu (top right corner, above the list)
 4. Select the action `Delete selected lines`
 
-![Alt Text](/docs/distribution/images/os_actions_deleteselectedlines.png)
+![Alt Text](/docs/replenishment/images/is_actions_deleteselectedlines.png)
 
 <div class="imagetitle">
-In below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100mg tabs</i>
+In below example, we are deleting <i>item 030453 - Amoxicillin 250mg tabs</i>
 </div>
 
-![Alt Text](/docs/distribution/images/os_deleteselectedlines.gif)
+![Alt Text](/docs/replenishment/images/is_deleteselectedlines.gif)
 
 <div class="tip">
 You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
@@ -402,6 +424,11 @@ To confirm that an Inbound Shipment has been delivered, click on the `Confirm De
 <div class="note">
 In case your Inbound Shipment is <b>automatic</b>, you cannot confirm its delivery unless the supplier has confirmed its shipment. In other words, your shipment status has to be <code>SHIPPED</code> before you can confirm that you have received the goods. 
 </div>
+
+<div class="note">
+Any unallocated lines with a 0 number of packs value will automatically be removed for you when you confirm.
+</div>
+
 
 ### Verify your Inbound Shipment
 
