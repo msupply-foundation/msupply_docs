@@ -24,13 +24,13 @@ content = '<a href="https://docs.msupply.org.nz/">Wiki de la documentation utili
 [[extra.list]]
 icon = "mSupplyTorso.svg"
 title = "Tableau de bord mSupply"
-content = '<a href="https://docs.msupply.org.nz/">Wiki de la documentation utilisateur</a> pour le tableau de bord mSupply!'
+content = '<a href="https://wiki.msupply.foundation/fr:dashboard">Wiki de la documentation utilisateur</a> pour le tableau de bord mSupply!'
 
 
 [[extra.list]]
 icon = "mSupplyTorso.svg"
 title = "mSupply Chaîne de froid"
-content = '<a href="https://docs.msupply.org.nz/">Wiki de la documentation utilisateur</a> pour mSupply Chaîne de froid!'
+content = '<a href="https://docs.msupply.org.nz/fr/coldchain">Wiki de la documentation utilisateur</a> pour mSupply Chaîne de froid!'
 
 
 +++
