@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="preload" as="font" href="https://docs.msupply.foundation/fonts/vendor/jost/jost-v4-latin-regular.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="https://docs.msupply.foundation/fonts/vendor/jost/jost-v4-latin-700.woff2"  type="font/woff2" crossorigin>
+
+
+<link rel="stylesheet" href="https://docs.msupply.foundation/main.css">
+<link rel="stylesheet" href="https://docs.msupply.foundation/msupply.css">
+
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+  
+  
+  
+    
+  
+  
+  
+  
+    
+  
+  
+  
+
+
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+
+	
+
+
+	
+
+<title>Expéditions - mSupply 🇫🇷</title>
+<meta name="description" content="Livrer du stock aux clients.">
+<link rel="canonical" href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/">
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    
+      
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          {
+            "@type": "ListItem",
+            "position":  1 ,
+            "name": "Home",
+            "item": "https://docs.msupply.foundation/"
+          },
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  2 ,
+            "name": "Fr",
+            "item": "https://docs.msupply.foundation/fr/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  3 ,
+            "name": "Docs",
+            "item": "https://docs.msupply.foundation/fr/docs/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  4 ,
+            "name": "Distribution",
+            "item": "https://docs.msupply.foundation/fr/docs/distribution/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  5 ,
+            "name": "Outbound Shipments",
+            "item": "https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/"
+          },
+        
+      
+    
+  }
+</script>
+
+
+
+
+
+
+  <meta name="theme-color" content="#fff">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://docs.msupply.foundation/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://docs.msupply.foundation/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://docs.msupply.foundation/favicon-16x16.png">
+  
+    <link rel="manifest" href="https://docs.msupply.foundation/site.webmanifest" crossorigin>
+  
+
+
+  
+
+</head>
+  
+<body class="docs single">
+    
+ 
+
+    
+
+<div class="header-bar fixed-top"></div>
+<header class="navbar fixed-top navbar-expand-md navbar-light">
+	<div class="container">
+		<input class="menu-btn order-0" type="checkbox" id="menu-btn">
+		<label class="menu-icon d-md-none" for="menu-btn"><span class="navicon"></span></label>
+		<a class="navbar-brand order-1 order-md-0 me-auto" href="https://docs.msupply.foundation/fr">mSupply 🇫🇷</a>
+		<button id="mode" class="btn btn-link order-2 order-md-4" type="button" aria-label="Toggle mode">
+			<span class="toggle-dark"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></span>
+			<span class="toggle-light"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></span>
+		</button>
+		<ul class="navbar-nav fork-me order-3 order-md-5">
+			
+				
+					<li class="nav-item">
+						<a class="nav-link" href="https://twitter.com/mSupply"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg><span class="ms-2 visually-hidden">Twitter</span></a>
+					</li>
+				
+			
+		</ul>
+		<div class="collapse navbar-collapse order-4 order-md-1">
+			<ul class="navbar-nav main-nav me-auto order-5 order-md-2">
+				
+					
+				
+				
+				
+					
+						<li class="nav-item docs active">
+							<a class="nav-link" href="https://docs.msupply.foundation/docs/introduction/">Desktop</a>
+						</li>
+					
+						<li class="nav-item">
+							<a class="nav-link" href="https://docs.msupply.foundation/coldchain/introduction/">Coldchain</a>
+						</li>
+					
+						<li class="nav-item">
+							<a class="nav-link" href="https://docs.msupply.foundation/dashboard/introduction/">Dashboard</a>
+						</li>
+					
+						<li class="nav-item">
+							<a class="nav-link" href="https://docs.msupply.foundation/mobile/introduction/">Mobile</a>
+						</li>
+					
+				
+			</ul>
+			<div class="break order-6 d-md-none"></div>
+			
+				<form class="navbar-form flex-grow-1 order-7 order-md-3">
+					<input id="userinput" class="form-control is-search" type="search" placeholder="Rechercher des documents..."
+						aria-label="Search docs..." autocomplete="off">
+					<div id="suggestions" class="shadow bg-white rounded"></div>
+				</form>
+			
+		</div>
+	</div>
+</header>
+ 
+
+  
+<div class="wrap container" role="document">
+  <div class="content">
+    <div class="row flex-xl-nowrap">
+      
+<div class="col-lg-5 col-xl-4 docs-sidebar">
+	<nav class="docs-links" aria-label="Main navigation">
+		
+			
+		
+			
+			
+					<h3>Documentation</h3>
+					<ul class="list-unstyled">
+					                           
+							<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/introduction/">Introduction à Open mSupply</a></li>
+					                           
+							<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/dashboard/">Tableau de bord</a></li>
+					                           
+							<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/tutorial/">Didacticiel</a></li>
+					
+					</ul>
+			
+			
+					
+					
+					
+							<h3>Distribution</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/distribution/customers/">Clients</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/distribution/requisitions/">Réquisitions</a></li>
+							                           
+									<li><a class="docs-link active" href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/">Expéditions</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Approvisionnement</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/replenishment/suppliers/">Fournisseurs</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/replenishment/internal-orders/">Commandes Internes</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/replenishment/inbound-shipments/">Livraisons</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Catalogue</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/catalogue/items/">Articles</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/catalogue/master-list/">Listes Maîtres</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Inventaire</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/inventory/locations/">Emplacements</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/inventory/stock-view/">Stock</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/inventory/stock-takes/">Inventaires</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Administration</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/administration/display/">Paramètres d&#x27;affichage</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/administration/synchronisation/">Synchronisation</a></li>
+							
+					</ul>
+					
+					
+			
+	</nav>
+</div>
+  
+<nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
+  <div class="page-links">
+    <h3>Sur cette page</h3>
+    <nav id="TableOfContents">
+      <ul>
+        
+        <li><a href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/#voir-les-expeditionns">Voir les Expéditionns</a></li>
+        
+        <ul>
+          
+          <li><a href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/#ouvrir-le-menu-expeditions">Ouvrir le Menu Expéditions</a></li>
+          
+          <li><a href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/#liste-des-expeditions">Liste des expéditions</a></li>
+          
+          <li><a href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/#recherche-par-nom-de-client">Recherche par nom de client</a></li>
+          
+          <li><a href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/#exporter-des-expeditions">Exporter des expéditions</a></li>
+          
+          <li><a href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/#supprimer-une-expedition">Supprimer une expédition</a></li>
+          
+        </ul>
+         
+        <li><a href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/#creer-une-expedition">Créer une expédition</a></li>
+        
+        <ul>
+          
+          <li><a href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/#selectionner-un-client">Sélectionner un client</a></li>
+          
+          <li><a href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/#edit-the-customer-name">Edit the Customer Name</a></li>
+          
+          <li><a href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/#enter-a-customer-reference">Enter a Customer Reference</a></li>
+          
+          <li><a href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/#view-or-edit-the-outbound-shipment-information-panel">View or edit the Outbound Shipment Information Panel</a></li>
+          
+          <li><a href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/#outbound-shipment-status-sequence">Outbound Shipment Status Sequence</a></li>
+          
+          <li><a href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/#hold-checkbox">Hold checkbox</a></li>
+          
+          <li><a href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/#cancel-and-confirm-button">Cancel and Confirm button</a></li>
+          
+        </ul>
+         
+        <li><a href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/#adding-lines-to-an-outbound-shipment">Adding lines to an Outbound Shipment</a></li>
+        
+        <ul>
+          
+          <li><a href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/#select-an-item">Select an Item</a></li>
+          
+          <li><a href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/#issue-a-quantity-of-units">Issue a quantity of units</a></li>
+          
+          <li><a href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/#issue-a-quantity-of-packs">Issue a quantity of packs</a></li>
+          
+          <li><a href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/#manual-allocation">Manual Allocation</a></li>
+          
+          <li><a href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/#issuing-when-there-is-not-enough-stock-placeholder-line">Issuing when there is not enough stock (Placeholder Line)</a></li>
+          
+          <li><a href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/#confirm-item-and-quantity">Confirm Item and Quantity</a></li>
+          
+        </ul>
+         
+        <li><a href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/#editing-an-outbound-shipment-line">Editing an Outbound Shipment Line</a></li>
+        
+        <ul>
+          
+          <li><a href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/#edit-a-shipment-line">Edit a Shipment Line</a></li>
+          
+          <li><a href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/#delete-a-shipment-line">Delete a Shipment line</a></li>
+          
+        </ul>
+         
+        <li><a href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/#processing-an-outbound-shipment">Processing an Outbound Shipment</a></li>
+        
+        <ul>
+          
+          <li><a href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/#allocating-an-outbound-shipment">Allocating an Outbound Shipment</a></li>
+          
+          <li><a href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/#confirming-an-outbound-shipment-s-allocation">Confirming an Outbound Shipment&#x27;s allocation</a></li>
+          
+          <li><a href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/#confirming-outbound-shipment-picking">Confirming Outbound Shipment picking</a></li>
+          
+          <li><a href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/#confirming-the-outbound-shipment-shipping">Confirming the Outbound Shipment shipping</a></li>
+          
+          <li><a href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/#tracking-progress-of-outbound-shipments">Tracking Progress of Outbound Shipments</a></li>
+          
+        </ul>
+         
+        <li><a href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/#viewing-an-outbound-shipment">Viewing an Outbound Shipment</a></li>
+         
+      </ul>
+    </nav>
+  </div>
+</nav>
+ 
+      <main class="docs-content col-lg-11 col-xl-9">
+        
+        <div class="flagster" style="float: right; padding: 5px">
+          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;distribution&#x2F;outbound-shipments&#x2F;" title="Change language to en"
+            >🇬🇧</a
+          >
+        </div>
+        
+        <div class="flagster" style="float: right; padding: 5px">
+          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;fr&#x2F;docs&#x2F;distribution&#x2F;outbound-shipments&#x2F;" title="Change language to fr"
+            >🇫🇷</a
+          >
+        </div>
+        
+
+        <h1>Expéditions</h1>
+         <p>La fonction <em>Expédition</em> peut être utilisée pour livrer du stock à un client. </p>
+<p>Si vous utilisiez mSupply par le passé, vous devriez être familier au terme <strong>Facture Client</strong> au lieu de <strong>Expédition</strong>. 
+La fonction Expédition est utilisée pour:</p>
+<ul>
+<li>Un envoi de stock vers un autre dépôt qui utilise mSupply</li>
+<li>Une sortie de stock au bénéfice d'un client</li>
+<li>Le traitement d'une réquisition (commande client)</li>
+</ul>
+<h2 id="voir-les-expeditionns">Voir les Expéditionns</h2>
+<h3 id="ouvrir-le-menu-expeditions">Ouvrir le Menu Expéditions</h3>
+<p>Choisir <code>Distribution</code> &gt; <code>Expédition</code> dans le panneau de navigation.</p>
+<p><img src="/docs/distribution/images/gotoos2_fr.png" alt="gotooos" /></p>
+<p>La liste des Expéditions s'affichera (Si vous ne voyez aucune ligne, rassurez-vous. Vous venez probablement de commencer!). </p>
+<p>De cet écran, vous pouvez:</p>
+<ul>
+<li>Voir la liste des Expéditions</li>
+<li>Créer une nouvelle Expédition</li>
+<li>Exporter les Expéditions dans un fichier <code>.csv</code></li>
+<li>Imprimer une ou plusieurs Expéditions</li>
+</ul>
+<h3 id="liste-des-expeditions">Liste des expéditions</h3>
+<ol>
+<li>La liste des expéditions comprend 7 colonnes:</li>
+</ol>
+<table><thead><tr><th align="left">Colonne</th><th align="left">Description</th></tr></thead><tbody>
+<tr><td align="left"><strong>Nom</strong></td><td align="left">Nom du Client</td></tr>
+<tr><td align="left"><strong>Statut</strong></td><td align="left">Le statut actuel de l'expédition</td></tr>
+<tr><td align="left"><strong>Numéro</strong></td><td align="left">Le numéro de référence de l'expédition</td></tr>
+<tr><td align="left"><strong>Créée le</strong></td><td align="left">La date de création</td></tr>
+<tr><td align="left"><strong>Reference</strong></td><td align="left">La référence du Client</td></tr>
+<tr><td align="left"><strong>Commentaire</strong></td><td align="left">Commentaire sur l'expédition</td></tr>
+<tr><td align="left"><strong>Total</strong></td><td align="left">Valeur totale</td></tr>
+</tbody></table>
+<ol start="2">
+<li>La liste peut afficher un nombre fixe d'expéditions par page. Au bas de liste, à gauche, on peut voir le nombre d'expéditons actuellement affiché à l'écran. </li>
+</ol>
+<p><img src="/docs/distribution/images/os_list_showing.png" alt="Page" /></p>
+<ol start="3">
+<li>S'il y a plus de 20 expéditions, vous pouvez vous déplacer vers une autre page en cliquant sur le numéro de la page ou en utilisant les flèches droite ou gauche (coin inférieur droit). </li>
+</ol>
+<p><img src="/docs/distribution/images/os_list_pagenumbers.png" alt="Page" /></p>
+<h3 id="recherche-par-nom-de-client">Recherche par nom de client</h3>
+<p>Vous pouvez filter la liste des expéditions par nom de client. Cela peut être utile si vous êtes à la recherche d'une expédition en particulier!</p>
+<p>Entrez le nom du client dans le champs <code>Search by name</code> (à gauche, juste au-dessus des en-têtes de liste). Toutes les expéditions pour ce client apparaissent dans la liste. </p>
+<h3 id="exporter-des-expeditions">Exporter des expéditions</h3>
+<p>La liste des expéditions peut être exportée dans un fichier (csv). Cliquez simplement sur le bouton <em><strong>Exporter</strong></em> (à droite, en haut de la page)</p>
+<p><img src="/docs/distribution/images/export_fr.png" alt="Export button" /></p>
+<p>et le fichier sera téléchargé. La fonction d'exportation téléchargera toutes les expéditions, pas seulement la page actuelle, si vous en avez plus de 20. Les expéditions sont exportées en utilisant l'ordre de tri sélectionné dans la liste, bien que vous puissiez facilement trier la liste dans Excel ou tout autre outil avec lequel vous ouvrez le fichier .csv !</p>
+<h3 id="supprimer-une-expedition">Supprimer une expédition</h3>
+<p>Vous pouvez, à partir de la liste, supprimer une expédition. </p>
+<ol>
+<li>
+<p>Sélectionnez l'expédition que vous souhaitez supprimer en cochant la case à l'extrémité gauche de la liste. Vous pouvez sélectionner plus d'une expédition à supprimer. Vous pouvez même tous les sélectionner à l'aide de la case à cocher principale dans les en-têtes de liste. </p>
+</li>
+<li>
+<p>Ouvrez la liste déroulante <code>Sélectionner</code> (coin supérieur droit, au-dessus de la liste) et sélectionnez <code>Supprimer lignes sélectionnées</code>. </p>
+</li>
+<li>
+<p>Une notification confirme le nombre d'expéditions supprimées (coin inférieur gauche). </p>
+</li>
+</ol>
+<div class="note">
+Vous ne pouvez supprimer que les expéditions avec un statut <code>NOUVEAU</code>.
+</div>
+<p><img src="/docs/distribution/images/os_list_deleteshipment.gif" alt="Outbound list: delete" /></p>
+<h2 id="creer-une-expedition">Créer une expédition</h2>
+<ol>
+<li>
+<p>Allez à <code>Distribution</code> &gt; <code>Expédition</code>. </p>
+</li>
+<li>
+<p>Cliquez sur le bouton  <code>Nouveau</code> en haut à dorite de l'écran</p>
+</li>
+</ol>
+<p><img src="/docs/distribution/images/clicknewshipment_fr.png" alt="New Shipment" /></p>
+<ol start="3">
+<li>Une nouvelle fenêtre <code>Clients</code> s'affiche pour vous inviter à sélctionner un client.</li>
+</ol>
+<h4 id="selectionner-un-client">Sélectionner un client</h4>
+<ol>
+<li>Dans la fenêtre <code>Clients</code>, une liste de Clients disponibles vous sera présentée. Vous pouvez sélectionner votre client dans la liste ou vous pouvez entrer manuellement le nom d'un Client. La liste sera filtrée au fil des caractères saisis.</li>
+</ol>
+<div class="imagetitle">
+Dans l'exemple ci-dessous, du stock sera livré au client <b>Kamo Regional Warehouse</b>. 
+</div>
+<p><img src="/docs/distribution/images/os_select_customer.gif" alt="gif" /></p>
+<div class="tip">
+Vous pouvez savoir si un client utilise également mSupply dans son dépôt. Si c'est le cas, vous verrez cette icône (<img src="/docs/replenishment/is_msupplystoreicon.png" alt="Store" style="width:auto">) près du code du fournisseur. 
+</div>
+<ol start="2">
+<li>Une fois que vous pressez la touche <code>Entrer</code>, votre Expédition est automatiquement créée. </li>
+</ol>
+<div class=imagetitle>
+Si tout s'est bien passé, vous devriez voir le nom de votre client dans le coin supérieur gauche et le statut devrait être <code>NOUVEAU</code> 
+</div>
+<p><img src="/docs/distribution/images/os_created_fr.png" alt="Outbound shipment: created" /></p>
+<h3 id="edit-the-customer-name">Edit the Customer Name</h3>
+<p>If you have selected the wrong customer, you can change the customer name in the <code>Customer Name</code> field or select one the dropdown list: </p>
+<p><img src="/docs/distribution/images/os_change_customer.gif" alt="gif" /></p>
+<h3 id="enter-a-customer-reference">Enter a Customer Reference</h3>
+<p>Once your Outbound Shipment has been created, you can enter a customer reference in the <code>Customer Ref</code> field, if they have one (eg. <em>PO#1234567</em>)</p>
+<h3 id="view-or-edit-the-outbound-shipment-information-panel">View or edit the Outbound Shipment Information Panel</h3>
+<p>The Information Panel allows you see or to edit information about the Outbound Shipment. It is divided in multiple sections: </p>
+<ul>
+<li>Additional Info</li>
+<li>Related Documents</li>
+<li>Invoice Details</li>
+<li>Transport Details</li>
+</ul>
+<p>We are planning to add more sections in the future as Open mSupply grows. </p>
+<h4 id="how-to-open-and-close-the-information-panel">How to open and close the Information Panel ?</h4>
+<p>If you are using a large screen, the information panel will be automatically opened for you. However, on an average sized screen, the information panel will be closed by default.</p>
+<p>To open the Information Panel, you can tap on the <code>More</code> button, located in the top right corner of the Outbound Shipment view. </p>
+<p>You can close by tapping on the <code>X Close</code> button, on the top right corner of the information panel. </p>
+<p><img src="/docs/distribution/images/os_infopanel_openclose.gif" alt="Open and close the Information Panel" /></p>
+<h4 id="additional-info">Additional Info</h4>
+<p>In the <strong>Additional Info</strong> section, you can:</p>
+<ul>
+<li>See who created the Outbound Shipment (name of the user)</li>
+<li>View and edit the Outbound Shipment color. To edit the color, tap on the colored circle and select a color from the pop-up</li>
+<li>Write or edit a comment</li>
+</ul>
+<h4 id="related-documents">Related Documents</h4>
+<p>In the <strong>Related Documents</strong> section, you can see other related transaction document for the Outbound Shipment. </p>
+<p>If your Outbound Shipment was created to fulfill a <strong>Requisition</strong>, the reference number of the requisition would appear in this section. </p>
+<p>In the future, we would also include other documents such as temperature records, transportation documents or pickslips. </p>
+<h4 id="invoice-details">Invoice Details</h4>
+<p>In this section, you will see by default the total selling price of the items listed in the Outbound Shipment. </p>
+<p>You can also add a <strong>Service charges</strong> if you wish to add other charges such as Freight Costs. To add a Service charges to the Invoice Details: </p>
+<ol>
+<li>Tap on the <code>Edit Service Charges</code> button. A new window opens. </li>
+<li>Tap on the <code>Add charge</code> button on the new window. A new line appears in the list of charges. You tap on <code>Cancel</code> if you do not wish to add anything. </li>
+<li><strong>Name:</strong> Select a service charges in the dropdown list. You can customise the list of available charges. Contact your administrator</li>
+<li><strong>Comment:</strong> yYou can add a comment to provide further details about the new charge</li>
+<li><strong>Amount:</strong> Enter the amount of the charge</li>
+<li><strong>Tax:</strong> Enter a % of tax for the charge</li>
+<li><strong>Total:</strong> The total field is automatically calculated based on the Amount and the Tax percentage</li>
+<li><strong>Delete:</strong> You can tap on the <code>Delete</code> icon to delete the charge</li>
+</ol>
+<p>In this section, you can also edit the tax rate (%) for the items sell price. Tap on the pencil icon and enter a value.</p>
+<h4 id="transport-details">Transport Details</h4>
+<p>In this section, you can see or edit a transport reference number (eg. a booking or a tracking reference number). </p>
+<h3 id="outbound-shipment-status-sequence">Outbound Shipment Status Sequence</h3>
+<p>The status sequence is located at the bottom left corner of the Outbound Shipment screen. </p>
+<p>Passed statuses are hightlighted in blue, next statuses appear in grey. </p>
+<figure>
+<img src="/docs/distribution/os_statussequence2.png" style="width:100%">
+<figcaption align = "center">Status Sequence: current status is <code>NEW</code>.</figcaption>
+</figure>
+<figure>
+<img src="/docs/distribution/os_statussequence3.png" alt="Trulli" style="width:100%">
+<figcaption align = "center">Status Sequence: current status is </i><code>PICKED</code>.</figcaption>
+</figure>
+<p>There are 6 status for the Outbound Shipment: </p>
+<table><thead><tr><th align="left">Status</th><th>Description</th></tr></thead><tbody>
+<tr><td align="left"><strong>New</strong></td><td>This is the first status when you create a shipment</td></tr>
+<tr><td align="left"><strong>Allocated</strong></td><td>Allocation is confirmed. Goods are no longer available for other shipments but are still part of your inventory.</td></tr>
+<tr><td align="left"><strong>Picked</strong></td><td>Shipment is picked and is now ready to ship. Goods are still part of your inventory.</td></tr>
+<tr><td align="left"><strong>Shipped</strong></td><td>Shipment has been shipped and goods are no longer part of your inventory</td></tr>
+<tr><td align="left"><strong>Delivered</strong></td><td>Your customer has received the shipment</td></tr>
+<tr><td align="left"><strong>Verified</strong></td><td>Your customer has verified the quantity of the shipment. Goods are now part of their inventory .</td></tr>
+</tbody></table>
+<p>If you hover over the status sequence, a shipment history window appears. You can see the date when a shipment was updated from one status to another. </p>
+<div class="imagetitle">
+This shipment has been created, allocated and picked on 29/03/2022
+</div>
+<p><img src="/docs/distribution/images/os_statussequence_hover.png" alt="Outbound status: hover" /></p>
+<h3 id="hold-checkbox">Hold checkbox</h3>
+<p>Located on the bottom left corner, on the left of the status sequence. </p>
+<p>Check the <code>Hold</code> checkbox prevents the Outbound Shipment from being updated to the next status. </p>
+<p><img src="/docs/distribution/images/os_holdcheckbox.png" alt="Outbound checkbox" /></p>
+<h3 id="cancel-and-confirm-button">Cancel and Confirm button</h3>
+<h4 id="cancel-button">Cancel Button</h4>
+<p>Tap on the <code>Cancel</code> button to quit the Outbound Shipment view and return to the Outbound Shipments list. </p>
+<h4 id="confirm-button">Confirm Button</h4>
+<p>The <code>Confirm</code> button is the button to update the status of a shipment. The status which you can confirm depends on the current status of the shipment and follows the sequence shown below.</p>
+<p>When managing an Outbound Shipment, you can only confirm the Allocation, the Picking and the Shipment. </p>
+<table><thead><tr><th align="left">Confirm...</th><th align="left">Current Status</th><th align="left">Next Status</th></tr></thead><tbody>
+<tr><td align="left"><strong>Confirm Allocated</strong></td><td align="left">New</td><td align="left">Allocated</td></tr>
+<tr><td align="left"><strong>Confirm Picked</strong></td><td align="left">Allocated</td><td align="left">Picked</td></tr>
+<tr><td align="left"><strong>Confirm Shipped</strong></td><td align="left">Picked</td><td align="left">Shipped</td></tr>
+</tbody></table>
+<p>You don't have to update a shipment to next status in the sequence. You can choose to skip some of them to go directly to <code>Confirm Shipped</code> for example.</p>
+<p>As demonstrated below, tap on the down arrow of the <code>Confirm</code> button and select the status you want the shipment to be updated to. </p>
+<p><img src="/docs/distribution/images/os_confirmbutton_skipstatuses.gif" alt="Skip Status" /></p>
+<h2 id="adding-lines-to-an-outbound-shipment">Adding lines to an Outbound Shipment</h2>
+<p>Tap on the <code>Add Item</code> button (top right corner). </p>
+<p>A new <code>Add Item</code> window opens. </p>
+<p><img src="/docs/distribution/images/additembutton.png" alt="Add Item button" /></p>
+<h3 id="select-an-item">Select an Item</h3>
+<p>In the <code>Add Item</code> window, you can look up an item by:</p>
+<ul>
+<li>Reading through the list of available items</li>
+<li>or by typing some or all of item name</li>
+<li>or by typing some or all of an item code</li>
+</ul>
+<p>Once your item is highligthed, tap on the name or press <code>Enter</code>.</p>
+<p><img src="/docs/distribution/images/os_additem.gif" alt="Alt Text" /></p>
+<p>Once the item is selected, you can see the following information: </p>
+<h4 id="headers">Headers</h4>
+<ul>
+<li>Item code and name (eg. <em>030453 Amoxicillin 250 mg Tabs</em>)</li>
+<li>the available stock quantity for this item (eg. <em>3527 units</em>)</li>
+<li>the item's unit (eg. <em>Tab</em>)</li>
+</ul>
+<div class="imagetitle">
+<b>Example:</b> For the item *030453 - Amoxicillin 250mg tabs*, there are 3527 tabs available. 
+</div>
+<p><img src="/docs/distribution/images/additem_headers.png" alt="add item headers" /></p>
+<h4 id="issue-quantity-of-units-in-packs-of-pack-size">Issue [Quantity] of units in packs of [Pack Size]</h4>
+<p>In the <code>Issue Quantity</code> field, you can enter the quantity that you want to issue to your customer. </p>
+<p>By default, you are invited to issue a quantity of <strong>units</strong>. However, you have the possibility to issue a quantity of packs instead by changing the value in the second dropdown (<code>Pack Size</code>). </p>
+<p>Default value is <code>Any</code> when you are issuing units. </p>
+<p><img src="/docs/distribution/images/os_issuequantityinunits.png" alt="Outbound Issue quantity" /></p>
+<h4 id="list-of-available-batches">List of available batches:</h4>
+<p>This is a list of batch numbers that you have in store for this item: </p>
+<ul>
+<li><strong># Packs</strong>: Number of packs to be issued</li>
+<li><strong>Pack Size</strong>: Quantity of units per pack</li>
+<li><strong>Unit Qty</strong>: Total quantity of units to be issued</li>
+<li><strong>Available</strong>: Number of packs available (not already allocated to other shipments)</li>
+<li><strong>In store</strong>: Total number of packs in your store</li>
+<li><strong>Batch</strong>: Batch number. It is a designation given to products made in the same manufacturing run. </li>
+<li><strong>Expiry</strong>: Expiry date of the batch (format: MM/YYYY)</li>
+<li><strong>Location</strong>: If you inventory is managed with storage locations, the name of the location where the item is stored</li>
+<li><strong>Sell</strong>: Selling unit price of the item</li>
+<li><strong>On Hold</strong>: Indicate whether a batch is on hold or not. You cannot issue a batch that is on hold. </li>
+<li><strong>Placeholder</strong>: The placeholder line is used when the quantity you are issuing is higher than your available stock</li>
+</ul>
+<p><img src="/docs/distribution/images/os_additem_listofbatches.png" alt="List of available batch numbers" /></p>
+<h3 id="issue-a-quantity-of-units">Issue a quantity of units</h3>
+<p>By default, you are invited to issue a quantity of <strong>units</strong>, regardless of the pack size (number of units in a pack). </p>
+<p>When entering a number in the <code>Issue Quantity</code> field, system automatically chooses the batch number(s) with the shortest expiry date (First to Expire, First Out or FEFO logic). </p>
+<div class="imagetitle">
+In below example, we are issuing 100 units of the item. All 100 units will be taken from the same batch (second row). First batch was not selected because it is expired. 
+</div>
+<p><img src="/docs/distribution/images/os_additem_issueunits.png" alt="additem!" /></p>
+<div class="imagetitle">
+In this other example, we are issuing 1200 units. System selects two batches with different pack sizes. 
+</div>
+<p><img src="/docs/distribution/images/os_additem_issueunitstwobatches.png" alt="additem!" /></p>
+<p>Note that in this list, the batches which are available for selection are shown first and batches which are not (on hold or no stock available) are shown below and in a grey font.</p>
+<h3 id="issue-a-quantity-of-packs">Issue a quantity of packs</h3>
+<p>You can decide to issue a quantity of <strong>packs</strong>. To do this, you can change the value in the <code>Pack Size</code> dropdown. </p>
+<div class="imagetitle">
+Let's imagine that your customer only wants pack size of 12 units. You can change the dropdown value from `Any` to `12`. 
+</div>
+<p><img src="/docs/distribution/images/os_additem_switchtopack.gif" alt="Alt Text" /></p>
+<p>You are now offered to issue a number of packs of 12 units. Only batch number(s) with a pack size of 12 units can be automatically issued.</p>
+<div class="imagetitle">
+In below example, we are issuing 10 packs of 12 units:
+</div>
+<p><img src="/docs/distribution/images/os_additem_issuepacks.png" alt="additem!" /></p>
+<div class="note">
+<b></b> if you had previously entered a quantity of units and you switch to a quantity a packs, the quantity of units will automatically be converted into the correct quantity of packs.  
+</div>
+<p><img src="/docs/distribution/images/os_issuepacks.gif" alt="Alt Text" /></p>
+<p>When a pack size is selected, and stock lines which have a different pack size are not available for selection. As such, those rows are listed lower down in the table and are shown in a grey font, in the same way as other unavailable rows.</p>
+<h3 id="manual-allocation">Manual Allocation</h3>
+<p>Regardless if you chose to issue a quantity of units or packs, you can always manually change the quantity at the batch number level directly before pressing on OK. </p>
+<p>You simply have to enter or edit the quantity in the <code># Packs</code> column. </p>
+<p>The main <code>Issue Quantity</code> field will be automatically updated with the new quantity.</p>
+<div class="note">
+ <b></b> when allocating quantities at the batch number level, the quantity you enter is always a quantity of packs. 
+</div>
+<figure>
+<img src="/docs/distribution/os_additem_manualallocation.gif" alt="Trulli" style="width:100%">
+<figcaption align = "center"><i>Manual allocation at the batch number level.</i></figcaption>
+</figure>
+<h3 id="issuing-when-there-is-not-enough-stock-placeholder-line">Issuing when there is not enough stock (Placeholder Line)</h3>
+<p>If the amount to be issued is greater than the total stock available from all of the available lines, then the quantity to be issued will automatically be placed in the <code>placeholder</code> field, at the bottom of the list of available batch numbers. </p>
+<p>Placeholder lines can be allocated later when new stock arrives. However, all shipment lines must be allocated before confirming the allocation. </p>
+<div class="imagetitle">
+Since there is no stock available for <i>042744-Diazepam Injection 5mg/ml Amp/2ml</i>, system is issuing a 100 units in the placeholder field. 
+</div>
+<p><img src="/docs/distribution/images/os_additem_placeholder.png" alt="Alt Text" /></p>
+<p>When you look at an Outbound Shipment, you can see if a shipment line has not been allocated or has been partially allocated when it is higlighted in blue. </p>
+<p><img src="/docs/distribution/images/os_placeholderlines.png" alt="Alt Text" /></p>
+<h3 id="confirm-item-and-quantity">Confirm Item and Quantity</h3>
+<p>When you are happy with the quantity, you can either press on:</p>
+<ul>
+<li>the <code>OK</code> button. You are redirected to the Outbound Shipment view and your item has been added to the list. </li>
+<li>the <code>OK &amp; Next</code> button to add another item right away</li>
+<li>the <code>Cancel</code> if you do not want to add the item to the Outbound Shipment anymore</li>
+</ul>
+<h2 id="editing-an-outbound-shipment-line">Editing an Outbound Shipment Line</h2>
+<p>To edit an shipment line, tap on it. You will be presented with the <code>Edit Item</code> window, which is identical to the <code>Add Item</code> window, except that the item is already chosen. </p>
+<h3 id="edit-a-shipment-line">Edit a Shipment Line</h3>
+<div class="note">
+ <b></b> you can edit a shipment line if the shipment has a status lower than <code>Shipped</code>. 
+</div>
+<ol>
+<li>
+<p>Open the Outbound Shipment you want to edit. </p>
+</li>
+<li>
+<p>Tap on the line you want to edit. An identical window to <code>Add Item</code> appears. At this stage:</p>
+<ul>
+<li>Edit the main <code>Issue Quantity</code> field </li>
+<li>or change the number of packs value at the batch number level</li>
+</ul>
+</li>
+</ol>
+<div class="note">
+ <b></b> When editing a shipment line, you cannot change the item. You would need to delete the shipment line and to create a new one. 
+</div>
+<h3 id="delete-a-shipment-line">Delete a Shipment line</h3>
+<ol>
+<li>Open the Outbound Shipment you want to edit.</li>
+<li>Select the line(s) you want to delete by checking the box(es) on the right of the list. </li>
+<li>Go to the <code>Actions</code> dropdown menu (top right corner, above the list)</li>
+<li>Select the action <code>Delete selected lines</code></li>
+</ol>
+<p><img src="/docs/distribution/images/os_actions_deleteselectedlines.png" alt="Alt Text" /></p>
+<div class="imagetitle">
+In below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100mg tabs</i>
+</div>
+<p><img src="/docs/distribution/images/os_deleteselectedlines.gif" alt="Alt Text" /></p>
+<div class="tip">
+ <b></b> You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
+</div>
+<h2 id="processing-an-outbound-shipment">Processing an Outbound Shipment</h2>
+<h3 id="allocating-an-outbound-shipment">Allocating an Outbound Shipment</h3>
+<p>Allocation is the process of assigning one or multiple batch numbers from the inventory to a shipment line. In other words, you are assigning stock to your shipment. Once allocated, the stock is reserved for the shipment and thus for your customer. </p>
+<p>There are 2 main ways to allocate a shipment line: </p>
+<ol>
+<li>
+<p>When adding items, system is automatically assigning stock to the new shipment line when you enter a quantity. If you don't have enough stock, system will add placeholder lines (unallocated lines). </p>
+</li>
+<li>
+<p>Bulk action <code>Allocate placeholder lines</code>: </p>
+<ul>
+<li>Select the lines that you want to allocate by checking boxes on the right on the list</li>
+<li>In the <code>Actions</code> dropdown menu, select <code>Allocate placeholder lines</code>. System will check if there is available stock for each selected lines and allocate them using the First to Expire, First Out (FEFO) logic. A notification will let you know whether the operation is successful or not. </li>
+</ul>
+</li>
+</ol>
+<div class="note">
+You won't be able to process your Outbound Shipment if you have unallocated lines (shipment lines without batch number(s) assigned to it). You can wait for more stock to arrive or you can delete the placeholder lines. 
+</div>
+<h3 id="confirming-an-outbound-shipment-s-allocation">Confirming an Outbound Shipment's allocation</h3>
+<p>Once you all your shipments lines have been allocated, you can <strong>confirm the allocation</strong>:</p>
+<ul>
+<li>Current status of the shipment has to be <code>NEW</code></li>
+<li>Lines must be assigned with one or several batch numbers. You won't be able to confirm the allocation if your shipment contains lines without batch numbers assigned to it (placeholder lines). </li>
+</ul>
+<p>To confirm the allocation, press the <code>Confirm Allocated</code> button. </p>
+<p><img src="/docs/distribution/os_confirmallocated.gif" alt="Alt Text" /></p>
+<p>Once the allocation is confirmed:</p>
+<ul>
+<li>Shipment status is <code>ALLOCATED</code></li>
+<li>You are now invited to confirm the picking via the <code>Confirm Picked</code> button</li>
+<li>All the items and their quantities will be reserved, meaning that they are no longer available for allocation</li>
+<li>You can print a <strong>pick slip</strong> to be sent to your warehouse so they can start preparing the shipment</li>
+</ul>
+<h3 id="confirming-outbound-shipment-picking">Confirming Outbound Shipment picking</h3>
+<p>Picking refers to the process where individual items are picked from a fulfillment facility (usually a warehouse or a pharmacy store).</p>
+<p>Once a shipment has been allocated, next step is to go get the items to prepare the actual shipment. To help with that, you are able to generate a <strong>pick slip</strong> document. A pickslip indicates:</p>
+<ul>
+<li>What are the items to be picked</li>
+<li>The quantity and batch numbers for each item</li>
+<li>If you manage your inventory with storage locations, where the items are located</li>
+</ul>
+<p>Once all items are picked and packed. You can then confirm the picking of the shipment to indicate to indicate that it is ready to be dispatched. </p>
+<p>To confirm that a shipment has been picked, tap on the <code>Confirm Picked</code> button. </p>
+<p><img src="/docs/distribution/images/os_confirmpicked.gif" alt="Alt Text" /></p>
+<p>Once picking is confirmed:</p>
+<ul>
+<li>Shipment status is now <code>PICKED</code></li>
+<li>You are now invited to confirm the shipping via the <code>Confirm Shipped</code> button</li>
+<li>An <strong>Inbound Shipment</strong> has been generated and is now visible to your customer</li>
+</ul>
+<p>At this stage, you are still able to edit shipment lines, to add items or to delete existing lines. However, if picking has been confirmed, you need to make sure to inform your fulfillment facility of any change so they can make sure that the shipment is still correct. </p>
+<h3 id="confirming-the-outbound-shipment-shipping">Confirming the Outbound Shipment shipping</h3>
+<p>The last step to issue stock with an Outbound Shipment is to confirm that stock has been shipped. This a critical step cause when goods are confirmed as shipped, they are no longer part of your inventory records. </p>
+<p>To confirm that an Outbound Shipment has been shipped, tap on the <code>Confirm Shipped</code> button. </p>
+<p>Once shipping has been confirmed: </p>
+<ul>
+<li>Shipment status is now <code>SHIPPED</code></li>
+<li>Goods are  no longer part of your inventory</li>
+<li>You can no longer edit shipment lines</li>
+<li>You can no longer delete the shipment</li>
+<li>You can print a <strong>delivery note</strong> or an <strong>invoice</strong></li>
+</ul>
+<h3 id="tracking-progress-of-outbound-shipments">Tracking Progress of Outbound Shipments</h3>
+<p>If your customer is also using mSupply, you wil be able to see when they'll receive your shipments:</p>
+<ul>
+<li>status will become <code>DELIVERED</code> when goods are received: your customer confirmed that they received your goods</li>
+<li>status will become <code>VERIFIED</code> when shipment has been verified by your customer. Goods are now part of their inventory</li>
+</ul>
+<h2 id="viewing-an-outbound-shipment">Viewing an Outbound Shipment</h2>
+<p>When viewing a specific shipment, you can view the batches on that shipment grouped by item or with each batch listed separately.
+To change the view mode, click the <code>Group by item</code> switch. </p>
+<p>When grouped by item, you can expand the item to see individual batches, or use the expand in the table header to expand all grouped rows. If you click on an item you will also see all selected batches, as shown in this example:</p>
+<p><img src="/docs/distribution/os_group_by_item.gif" alt="Group by Item" /></p>
+  
+<div class="docs-navigation d-flex justify-content-between">
+  
+  
+  
+  
+  
+  <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;fr&#x2F;docs&#x2F;distribution&#x2F;requisitions&#x2F;">
+    <div class="card my-1">
+      <div class="card-body py-2">
+        &larr; Réquisitions
+      </div>
+    </div>
+  </a>
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+      
+      
+        
+          
+          
+          <a class="ms-auto" href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;fr&#x2F;docs&#x2F;replenishment&#x2F;suppliers&#x2F;">
+            <div class="card my-1">
+              <div class="card-body py-2">
+                Fournisseurs &rarr;
+              </div>
+            </div>
+          </a>
+          
+          
+          
+        
+      
+    
+      
+      
+        
+      
+    
+      
+      
+        
+      
+    
+      
+      
+        
+      
+    
+  
+</div>
+
+      </main>
+    </div>
+  </div>
+</div>
+
+
+  
+    
+<footer class="footer text-muted">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 order-last order-lg-first">
+				<ul class="list-inline">
+					
+						<li class="list-inline-item">Powered by <a href="https://www.netlify.com/">Netlify</a>, <a href="https://www.getzola.org/">Zola</a>, and <a href="https://github.com/aaranxu/adidoks">AdiDoks</a></li>
+					
+				</ul>
+			</div>
+			<div class="col-lg-8 order-first order-lg-last text-lg-end">
+				<ul class="list-inline">
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+  
+
+  
+<script type="text/javascript" src="https://docs.msupply.foundation/js/main.js" defer></script>
+
+  <script type="text/javascript" src="https://docs.msupply.foundation/plugins/elasticlunr.min.js" defer></script>
+  <script type="text/javascript" src="https://docs.msupply.foundation/plugins/lunr.stemmer.support.js" defer></script>
+  <script type="text/javascript" src="https://docs.msupply.foundation/plugins/lunr.fr.js" defer></script>
+  <script type="text/javascript" src="https://docs.msupply.foundation/search_index.fr.js" defer></script>
+  <script type="text/javascript" src="https://docs.msupply.foundation/js/search.js" defer></script>
+
+  
+</body>
+</html>
