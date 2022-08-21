@@ -8,7 +8,7 @@ weight = 1
 template = "dashboard/page.html"
 
 [extra]
-lead = "Welcome to mSupply Coldchain!"
+lead = "Welcome to the mSupply Dashboard"
 toc = true
 top = false
 +++
@@ -25,7 +25,8 @@ Each Dashboard is composed of editable Panels arranged on a grid. The panels are
 #### Store login permissions to determine data visibility
 
 The dashboards can be configured such that data visibility is controlled according to the store login permissions of the user. This can be an efficient way of managing dashboards. Instead of having a large range of very similar dashboards where the only difference between them is the user / store who's data is visible, you can have just one dashboard, where different users will see data according to the stores which they have permission to log in to.
-Flexibility
+
+#### Flexibility
 
 You can view and share data from your dashboard, change the appearance and type of data the panels in your dashboard show, and create new dashboards customised to suit your needs.
 

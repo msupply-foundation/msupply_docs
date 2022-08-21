@@ -26,7 +26,7 @@ content = 'The <a href="https://docs.msupply.org.nz/">User Documentation wiki</a
 [[extra.list]]
 icon = "dashboard.png"
 title = "mSupply Dashboard"
-content = 'The <a href="https://wiki.msupply.foundation/en:dashboard/">User Guide</a> for the mSupply Dashboard!'
+content = 'The <a href="/dashboard/introduction">User Guide</a> for the mSupply Dashboard!'
 
 [[extra.list]]
 icon = "coldchain.png"
