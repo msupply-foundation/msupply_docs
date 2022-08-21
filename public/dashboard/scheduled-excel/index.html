@@ -48,9 +48,9 @@
 
 	
 
-<title>Dashboard Panels - mSupply</title>
+<title>Scheduled Email Reports - mSupply</title>
 <meta name="description" content="mSupply Dashboard Panels.">
-<link rel="canonical" href="https://docs.msupply.foundation/dashboard/panels/">
+<link rel="canonical" href="https://docs.msupply.foundation/dashboard/scheduled-excel/">
 
 
 
@@ -100,13 +100,16 @@
         
         
         
+        
+        
+        
           
           
           {
             "@type": "ListItem",
             "position":  3 ,
-            "name": "Panels",
-            "item": "https://docs.msupply.foundation/dashboard/panels/"
+            "name": "Scheduled Excel",
+            "item": "https://docs.msupply.foundation/dashboard/scheduled-excel/"
           },
         
       
@@ -218,9 +221,9 @@
 					                           
 							<li><a class="docs-link" href="https://docs.msupply.foundation/dashboard/introduction/">mSupply Dashboard</a></li>
 					                           
-							<li><a class="docs-link active" href="https://docs.msupply.foundation/dashboard/panels/">Dashboard Panels</a></li>
+							<li><a class="docs-link" href="https://docs.msupply.foundation/dashboard/panels/">Dashboard Panels</a></li>
 					                           
-							<li><a class="docs-link" href="https://docs.msupply.foundation/dashboard/scheduled-excel/">Scheduled Email Reports</a></li>
+							<li><a class="docs-link active" href="https://docs.msupply.foundation/dashboard/scheduled-excel/">Scheduled Email Reports</a></li>
 					
 					</ul>
 			
@@ -239,20 +242,6 @@
     <nav id="TableOfContents">
       <ul>
         
-        <li><a href="https://docs.msupply.foundation/dashboard/panels/#panels">Panels</a></li>
-         
-        <li><a href="https://docs.msupply.foundation/dashboard/panels/#time-range-controls">Time range controls</a></li>
-         
-        <li><a href="https://docs.msupply.foundation/dashboard/panels/#sharing">Sharing</a></li>
-        
-        <ul>
-          
-          <li><a href="https://docs.msupply.foundation/dashboard/panels/#sharing-dashboards">Sharing Dashboards</a></li>
-          
-          <li><a href="https://docs.msupply.foundation/dashboard/panels/#sharing-panels">Sharing Panels</a></li>
-          
-        </ul>
-         
       </ul>
     </nav>
   </div>
@@ -261,47 +250,98 @@
       <main class="docs-content col-lg-11 col-xl-9">
         
         <div class="flagster" style="float: right; padding: 5px">
-          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;dashboard&#x2F;panels&#x2F;" title="Change language to en"
+          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;dashboard&#x2F;scheduled-excel&#x2F;" title="Change language to en"
             >🇬🇧</a
           >
         </div>
         
 
-        <h1>Dashboard Panels</h1>
+        <h1>Scheduled Email Reports</h1>
         
-        <p class="lead">mSupply Dashboard Panels</p>
-         <h3 id="panels">Panels</h3>
-<p>There are several different Panel types or visualizations you can have on your dashboard. </p>
-<p>For instructions on how to configure each type of Panel click here: </p>
-<ul>
-<li><a href="http://docs.grafana.org/features/panels/graph/#graph-panel">Grafana Graphs</a> </li>
-<li><a href="http://docs.grafana.org/features/panels/singlestat/#singlestat-panel">Grafa Singlestats</a></li>
-<li><a href="http://docs.grafana.org/features/panels/table_panel/#table-panel">Grafana Tables</a></li>
-<li><a href="http://docs.grafana.org/features/panels/dashlist/#dashboard-list-panel">Grafana Lists</a></li>
-<li><a href="http://docs.grafana.org/features/panels/text/#text-panel">Grafana Text</a></li>
-<li><a href="panels:msupply-region-map">mSupply Region Map</a></li>
-<li><a href="panels:msupply-table">mSupply Table</a></li>
-<li><a href="panels:msupply-world-map">mSupply World Map</a></li>
-</ul>
-<p>Clicking the title for a panel exposes a menu.
-The <strong>Edit</strong> option opens additional configuration options for the panel.</p>
-<p><img src="/dashboard/images/panel_menu.png" alt="Panel Menu!" /></p>
-<h3 id="time-range-controls">Time range controls</h3>
-<p>The Time Range controls the data you can see at the Dashboard-level and at the Panel-level.</p>
-<p>To view or change the Time Range, in the top right click on the Dashboard time picker (looks like a clock face). This shows the current dashboard time and refresh interval. It also acts as the menu button to toggle the time range controls.</p>
-<p><img src="/dashboard/images/timerange.png" alt="Time range selection!" /></p>
-<p>Click <a href="http://docs.grafana.org/reference/timerange/#time-range-controls">here</a>  for more details on Grafana time range controls </p>
-<h3 id="sharing">Sharing</h3>
-<p>You can share both dashboards and panels with other users, as well as producing snapshots for external partners to view.</p>
-<h4 id="sharing-dashboards">Sharing Dashboards</h4>
-<p>Click on the Share dashboard button in the top right navigation panel &gt; Select one of three options: Link, Snapshot or Export.
-<img src="/dashboard/images/share_dashboard_button.png" alt="share dashboard button!" /></p>
-<p>For detailed instructions on each option click on <a href="http://docs.grafana.org/reference/sharing/#share-dashboard">Grafana Sharing Dashboards</a></p>
-<p><img src="/dashboard/images/sharedashboard.png" alt="share dashboard!" /></p>
-<h4 id="sharing-panels">Sharing Panels</h4>
-<p>Click on the Title of the panel &gt; from the menu select Share &gt; Select one of the three options: Link, Embed or Snapshot.
-For detailed instructions on each option click on Grafana Sharing Panels </p>
-<p><img src="/dashboard/images/sharepanel.png" alt="share dashboard button!" /></p>
+        <p class="lead">Regular Excel Reports via Email</p>
+         <p>Excel report e-mail scheduler</p>
+<p>Generate Excel reports from mSupply dashboard. Send the reports to custom created user-groups on pre-defined schedule. Supported Grafana version is later v8.0.0</p>
+<p>This is a custom plugin which will need to be installed on your server. Contact mSupply support if this plugin is not available to you.</p>
+<p>NOTE: you need to have Grafana administrative rights to set up and use this plugin. The plugin icon does not show in the sidebar for non-administrative accounts.
+Initial Plugin Setup</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>Click on Settings on the sidebar menu (on the left-hand side of the mSupply Dashboard).
+</span><span>Select the Plugins tab.
+</span><span>Search for “mSupply”.
+</span><span>Click on Excel report e-mail scheduler.
+</span></code></pre>
+<p>The App Configuration window will open and you will need to complete this form before you start to use the reporting functionality.</p>
+<p>Click Enable for the plugin.</p>
+<p>Once enabled, the mSupply icon will be displayed on the sidebar menu above the settings button.</p>
+<p>Please enter your administrator Grafana Details:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>Username and password
+</span><span>URL for your mSupply Web Dashboard
+</span></code></pre>
+<p>Please enter the Email Details for the account from which emails will be sent:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>Email address and password
+</span><span>Email host and port (from your email provider: this will be the same details that you would enter when creating a new email account)
+</span></code></pre>
+<p>Your email provider's security settings may require additional steps to allow email setup.</p>
+<p>For Datasource, please select the source location for your mSupply data. In most cases this will be PostgreSQL. If you are not sure, please check with your mSupply consultant.</p>
+<p>Once completed, please select Save settings.</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>If the form is incomplete or the information provided is incorrect, you will receive an error message on submission. Please follow the instructions given in the error message.
+</span><span>On successful submission, you will receive the following message:
+</span></code></pre>
+<p>Selecting Disable will deactivate the mSupply plugin and you will need to repeat the above in order to enable it again.</p>
+<p>You are now ready to get started creating Reporting Groups!
+Setting Up a Report Group</p>
+<p>To access report groups, select the mSupply icon from the sidebar menu and select Report Groups from the drop-down menu.</p>
+<p>In the following window select Add report group. This will create a New report group as seen below – click on this row to edit the report group details.</p>
+<p>Edit report group details page:</p>
+<p>In the Edit details section there are free-text boxes for:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>Name
+</span><span>Group description
+</span></code></pre>
+<p>Selected Users</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>List of selected users shown here
+</span></code></pre>
+<p>Select the users that you want to be in your report group.</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>A list is provided of all mSupply users
+</span><span>You can show only mSupply users with an email address when Hide users without email toggle is on.
+</span></code></pre>
+<p>New users (or changes to a user’s details) will not be updated from mSupply into the Dashboard immediately. It is depending on the timing of the dashboard export scheduler in mSupply. If you require an immediate update for Reports, please complete a manual export of user table from mSupply to the Dashboard.</p>
+<p>Click on Create Report Group or Update Report Group (When you edit) to save.</p>
+<p>When you hover your mouse over the group, Edit and DELETE buttons appear.</p>
+<p>Delete will remove the report group. You will receive a prompt to confirm deletion.</p>
+<p>Setting Up a Report Schedule</p>
+<p>To access Report schedules, select the mSupply icon from the sidebar menu and select Schedules from the drop-down menu.</p>
+<p>In the following window select Create new schedule. This will create a New report schedule as below – click on this row to edit the schedule details.</p>
+<p>Edit report schedule details page:</p>
+<p>In the Edit details section:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>Name: free-text box that will also be the email subject.
+</span><span>Description: free-text box
+</span><span>Report group: select the name of the group that should receive the report
+</span><span>Report interval: select the required reporting period from the drop-down box
+</span></code></pre>
+<p>The emails will be sent according to the selected interval from the time the report schedule is created. For example, if a daily schedule is set up at 9am on 1 January 2021, the email will be sent every day at 9am from 2 January 2021.</p>
+<p>Then select from the Available Panels to be displayed in the report:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>Any number of panels can be selected. Each panel will be on a separate worksheet in an attached Excel workbook - refer Report template.
+</span><span>Only “table” panels are supported.
+</span></code></pre>
+<p>For each panel selected, you will also need to specify the Variables to be displayed in the emailed report. This is done via the drop-down boxes that will be displayed once a panel is selected as shown in the below example for Expiry Items.</p>
+<p>Using the drop-down boxes, you can choose the variables (in this case Store and Item) that you want displayed in the emailed report. Only the variables displayed within the Report Schedule screen are available for each panel.</p>
+<p>The Grafana format of variables must be in the form: ${variable} or ${variable:sqlstring}. Other formats are not supported for dashboard reports. 1)</p>
+<p>Grafana macros are not supported with the following exception:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>The $ timeFrom and $ timeTo and $ timeFilter macros are supported using a Lookback variable. The $ timeTo date is set to date of report creation. The $ timeFrom will then be calculated as ($ timeTo – Lookback).
+</span><span>For example, if you set a lookback period of 7 days and create a daily report starting on 1 January 2021. The first report’s $ timeFrom will be 24 December 2020 and the $ timeTo will be 1 January 2021. The second report’s $ timeFrom will be 25 December 2020 and the $ timeTo will be 2 January 2021. 2)
+</span></code></pre>
+<p>Press Create schedule button on the bottom of the page.</p>
+<p>Once you saved the scheduler, you can press Send Test button (top right corner) from the edit schedules. Please note:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>Send Test will not affect the timing of the schedule (the timing of the schedule is dependent on the time you save and close the report schedule)
+</span><span>Send Test will send the email to all users in the report group!
+</span></code></pre>
+<p>DELETE will remove the report schedule. You will receive a prompt to confirm deletion.</p>
+<p>Report Template</p>
+<p>The panels selected in a report schedule will be sent via email in an Excel workbook:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>Each panel will be on a separate worksheet.
+</span><span>Each worksheet will display in the title:
+</span><span>    Date of Creation
+</span><span>    Name of the Panel
+</span></code></pre>
   
 <div class="docs-navigation d-flex justify-content-between">
   
