@@ -715,9 +715,9 @@ Ne vous inquiétez pas si vous oubliez un élément. Vous aurez la possibilité 
 		<content type="html">&lt;p&gt;L&#x27;une des plus importantes, mais la plus simple des tâches dans mSupply est de vérifier combien de stock vous avez actuellement. Lorsque vous créez un expédition sortante et que vous sélectionnez un produit à sortir, mSupply vous dira si vous avez suffisamment de stock. Vous pourrez à bien d&#x27;autres moments, utiliser cette fonctionnalité pour avoir un apperçu rapide du niveau de vos stocks, et c&#x27;est très simple à faire.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;consulter-le-stock&quot;&gt;Consulter le stock&lt;&#x2F;h2&gt;
 &lt;p&gt;Dans le menu de navigation, allez dans &lt;code&gt;Inventaire&lt;&#x2F;code&gt; et cliquez sur le sous-menu  &lt;code&gt;Stock&lt;&#x2F;code&gt;: &lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;stock_gotostock.png&quot; alt=&quot;Stock: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;images&#x2F;stock_gotostock.png&quot; alt=&quot;Stock: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Une liste détaillée contenant la liste de vos produits apparaît: &lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;stock_viewstock.png&quot; alt=&quot;Stock: list&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;images&#x2F;stock_viewstock.png&quot; alt=&quot;Stock: list&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;La liste est divisée en 8 colonnes: &lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Code&lt;&#x2F;strong&gt;: Il s&#x27;agit du code attribué à ce produit dans mSupply&lt;&#x2F;li&gt;
@@ -732,7 +732,7 @@ Ne vous inquiétez pas si vous oubliez un élément. Vous aurez la possibilité 
 &lt;h2 id=&quot;recherche-d-un-produit-specifique&quot;&gt;Recherche d&#x27;un produit spécifique&lt;&#x2F;h2&gt;
 &lt;p&gt;Vous pouvez filtrer la liste par le nom ou le code du produit. Cela peut être utile si vous recherchez un produit en particulier.&lt;&#x2F;p&gt;
 &lt;p&gt;Tapez le nom du produit ou le code dans le champs &lt;code&gt;Entrez le code ou le nom du produit&lt;&#x2F;code&gt;: &lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;stock_search.gif&quot; alt=&quot;Stock: search&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;images&#x2F;stock_search.gif&quot; alt=&quot;Stock: search&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 </content>
 	</entry>
 	<entry xml:lang="fr">
