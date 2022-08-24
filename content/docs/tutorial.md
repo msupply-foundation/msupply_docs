@@ -61,11 +61,9 @@ However, you can also click on an item in the list, or search available commands
 
 ![CommandK](/docs/images/cmd_k.gif)
 
-In addition - there are various places where specific keyboard shortcuts are available. An example is the tab control used in both Stocktakes and Inbound Shipments. Here you can use `control`+`1` to navigate to the first tab (Quantities) or `control`+`2` for the second tab (Pricing) etc. If you press `+` on your keyboard, you can add a new batch. 
+In addition - there are various places where specific keyboard shortcuts are available. An example is the tab control used in both Stocktakes and Inbound Shipments. Here you can use `control`+`1` to navigate to the first tab (Quantities) or `control`+`2` for the second tab (Pricing) etc. If you press `+` on your keyboard, you can add a new batch.
 
 ![Inbound tabs](/docs/replenishment/is_edit_keyboard_shortcuts.png)
-
-
 
 ## Footer
 
@@ -81,7 +79,7 @@ You will see the notification and the store name in the footer will be updated. 
 
 ## Help!
 
-If you get stuck at any time when using the site, click on the `Docs` menu item. 
+If you get stuck at any time when using the site, click on the `Docs` menu item.
 
 ![Docs](/docs/images/docs_nav.png)
 
