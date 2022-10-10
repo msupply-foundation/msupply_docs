@@ -257,18 +257,6 @@
 					
 					
 					
-							<h3>Catalogue</h3>
-							<ul class="list-unstyled">
-							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/catalogue/items/">Items</a></li>
-							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/catalogue/master-list/">Master Lists</a></li>
-							
-					</ul>
-					
-					
-					
-					
 					
 					
 					
@@ -286,12 +274,12 @@
 					
 					
 					
-							<h3>Administration</h3>
+							<h3>Catalogue</h3>
 							<ul class="list-unstyled">
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/administration/display/">Display Settings</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/catalogue/items/">Items</a></li>
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/administration/synchronisation/">Synchronisation</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/catalogue/master-list/">Master Lists</a></li>
 							
 					</ul>
 					
@@ -306,6 +294,18 @@
 									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/inventory/stock-view/">Stock</a></li>
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/inventory/stock-takes/">Stocktakes</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Administration</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/administration/display/">Display Settings</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/administration/synchronisation/">Synchronisation</a></li>
 							
 					</ul>
 					
@@ -372,12 +372,12 @@
 <ol>
 <li>The list of Requisitions is divided into 5 columns:</li>
 </ol>
-<table><thead><tr><th style="text-align: left">Column</th><th style="text-align: left">Description</th></tr></thead><tbody>
-<tr><td style="text-align: left"><strong>Name</strong></td><td style="text-align: left">Name of the Customer</td></tr>
-<tr><td style="text-align: left"><strong>Number</strong></td><td style="text-align: left">Reference Number of the requisition</td></tr>
-<tr><td style="text-align: left"><strong>Created</strong></td><td style="text-align: left">Creation date of the requisition</td></tr>
-<tr><td style="text-align: left"><strong>Status</strong></td><td style="text-align: left">Current Status of the requisition</td></tr>
-<tr><td style="text-align: left"><strong>Comment</strong></td><td style="text-align: left">Comment for the requisition</td></tr>
+<table><thead><tr><th align="left">Column</th><th align="left">Description</th></tr></thead><tbody>
+<tr><td align="left"><strong>Name</strong></td><td align="left">Name of the Customer</td></tr>
+<tr><td align="left"><strong>Number</strong></td><td align="left">Reference Number of the requisition</td></tr>
+<tr><td align="left"><strong>Created</strong></td><td align="left">Creation date of the requisition</td></tr>
+<tr><td align="left"><strong>Status</strong></td><td align="left">Current Status of the requisition</td></tr>
+<tr><td align="left"><strong>Comment</strong></td><td align="left">Comment for the requisition</td></tr>
 </tbody></table>
 <ol>
 <li>The list can display a fixed number of requisitions per page. On the bottom left corner, you can see how many requisitions are currently displayed on your screen. </li>
@@ -417,21 +417,13 @@ You will then see the detail view of the requisition:</p>
   
   
   
-    
-    
-    
-    
-      
-        
-        <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;dashboard&#x2F;">
-          <div class="card my-1">
-            <div class="card-body py-2">
-              &larr; Dashboard
-            </div>
-          </div>
-        </a>
-      
-    
+  <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;distribution&#x2F;customers&#x2F;">
+    <div class="card my-1">
+      <div class="card-body py-2">
+        &larr; Customers
+      </div>
+    </div>
+  </a>
   
 
   
@@ -439,52 +431,13 @@ You will then see the detail view of the requisition:</p>
   
   
   
-    
-    
-    
-      
-      
-        
-      
-    
-      
-      
-        
-          
-          
-          <a class="ms-auto" href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;catalogue&#x2F;items&#x2F;">
-            <div class="card my-1">
-              <div class="card-body py-2">
-                Items &rarr;
-              </div>
-            </div>
-          </a>
-          
-          
-          
-        
-      
-    
-      
-      
-        
-      
-    
-      
-      
-        
-      
-    
-      
-      
-        
-      
-    
-      
-      
-        
-      
-    
+    <a class="ms-auto" href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;distribution&#x2F;outbound-shipments&#x2F;">
+      <div class="card my-1">
+        <div class="card-body py-2">
+          Outbound Shipments &rarr;
+        </div>
+      </div>
+    </a>
   
 </div>
 
@@ -519,6 +472,8 @@ You will then see the detail view of the requisition:</p>
 
   
 <script type="text/javascript" src="https://docs.msupply.foundation/js/main.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
 
   <script type="text/javascript" src="https://docs.msupply.foundation/plugins/elasticlunr.min.js" defer></script>
   <script type="text/javascript" src="https://docs.msupply.foundation/plugins/lunr.stemmer.support.js" defer></script>

@@ -250,11 +250,11 @@ Check the `Hold` checkbox prevents the Inbound Shipment from being updated to th
 
 ![Inbound hold checkbox](/docs/distribution/images/os_holdcheckbox.png)
 
-### Cancel and Confirm button
+### Close and Confirm button
 
-#### Cancel Button
+#### Close Button
 
-Click on the `Cancel` button to quit the Inbound Shipment view and return to the Inbound Shipments list. 
+Click on the `Close` button to quit the Inbound Shipment view and return to the Inbound Shipments list. 
 
 #### Confirm Button
 

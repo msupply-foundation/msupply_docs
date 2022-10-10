@@ -27,7 +27,7 @@ To view the customers of your store, go to the `Distribution` menu and click on 
 You will be presented with a list of customers visible to your store. 
 
 <div class="note">
-You can only see customers that are visible for your store.  There may be more customers in our organisation. 
+You can only see customers that are visible for your store.  There may be more customers in your organisation. 
 <br>
 <br>
 If you don't find the customer you are looking for, contact your administrator. 

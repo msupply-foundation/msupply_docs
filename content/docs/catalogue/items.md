@@ -15,7 +15,7 @@ top = false
 +++
 
 An item in open mSupply is usually a product that you purchase from a supplier, hold in stock and supply to a customer.
-In the **Items** menu, you can all the items that are currently visible in your store. 
+From the **Items** menu, you can view all of the items that are currently visible in your store. 
 
 ## Viewing items list
 
@@ -34,7 +34,7 @@ To view the details of an item, simply tap on one. A new window opens:
 ![Item detail](/docs/catalogue/images/cat_itemdetail.png)
 
 On top of the screen, you can the following information:
-* **Stock on Hand**: How much stock currently available in your store for this store
+* **Stock on Hand**: How much stock is currently available in your store
 * **AMC**: Average Monthly Consumption. This is how much stock your store uses each month on average (based on a configurable number of months, defaults to 3 months).
 * **Months of Stock**: Number of months of consumption left with current stock. This is calculated as: `Stock on Hand / AMC`.
 

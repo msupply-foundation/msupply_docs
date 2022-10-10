@@ -53,7 +53,7 @@ You can sort the list using the column headers:
 
 ![Internal Order: select supplier](/docs/replenishment/images/intord_selectsupplier2.png)
 
-3. Select a Supplier by pressing on its name. You will see a window like this: 
+3. Select a Supplier by pressing on their name. You will see a window like this: 
 
 ![Internal Order: newly created order](/docs/replenishment/images/intord_newintord.png)
 
