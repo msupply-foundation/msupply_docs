@@ -263,6 +263,18 @@
 					
 					
 					
+							<h3>Catalogue</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/catalogue/items/">Items</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/catalogue/master-list/">Master Lists</a></li>
+							
+					</ul>
+					
+					
+					
+					
 							<h3>Replenishment</h3>
 							<ul class="list-unstyled">
 							                           
@@ -271,18 +283,6 @@
 									<li><a class="docs-link active" href="https://docs.msupply.foundation/docs/replenishment/internal-orders/">Internal Orders</a></li>
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/replenishment/inbound-shipments/">Inbound Shipments</a></li>
-							
-					</ul>
-					
-					
-					
-					
-							<h3>Catalogue</h3>
-							<ul class="list-unstyled">
-							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/catalogue/items/">Items</a></li>
-							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/catalogue/master-list/">Master Lists</a></li>
 							
 					</ul>
 					
@@ -476,15 +476,15 @@ You can create internal orders from multiple master lists by repeating above act
 </div>
 <h3 id="reading-the-internal-order-s-list">Reading the Internal Order's list</h3>
 <p>When you add items (using a master list or not), the item is added to the order's table. The following information is provided for each order line:</p>
-<table><thead><tr><th align="left">Status</th><th>Description</th></tr></thead><tbody>
-<tr><td align="left"><strong>Code</strong></td><td>Code of the item</td></tr>
-<tr><td align="left"><strong>Name</strong></td><td>Name of the item</td></tr>
-<tr><td align="left"><strong>SoH (Est. remaining)</strong></td><td>How much stock currently available in your store for this store</td></tr>
-<tr><td align="left"><strong>AMC</strong></td><td>Average Monthly Consumption: how much stock your store uses each month on average (based on a configurable number of months, defaults to 3 months)</td></tr>
-<tr><td align="left"><strong>Target Stock</strong></td><td>This is the stock you are aiming for. Calculated as: AMC x Maximum MOS</td></tr>
-<tr><td align="left"><strong>Suggested Quantity</strong></td><td>How much stock mSupply suggests that your order. This is calculated as: AMC x Maximum MOS - SoH</td></tr>
-<tr><td align="left"><strong>Requested</strong></td><td>This is set to zero by default. This is the quantity of units you are ordering from your supplier.</td></tr>
-<tr><td align="left"><strong>Comment</strong></td><td>A comment for the order line. Comments will be visible to your supplier.</td></tr>
+<table><thead><tr><th style="text-align: left">Status</th><th>Description</th></tr></thead><tbody>
+<tr><td style="text-align: left"><strong>Code</strong></td><td>Code of the item</td></tr>
+<tr><td style="text-align: left"><strong>Name</strong></td><td>Name of the item</td></tr>
+<tr><td style="text-align: left"><strong>SoH (Est. remaining)</strong></td><td>How much stock currently available in your store for this store</td></tr>
+<tr><td style="text-align: left"><strong>AMC</strong></td><td>Average Monthly Consumption: how much stock your store uses each month on average (based on a configurable number of months, defaults to 3 months)</td></tr>
+<tr><td style="text-align: left"><strong>Target Stock</strong></td><td>This is the stock you are aiming for. Calculated as: AMC x Maximum MOS</td></tr>
+<tr><td style="text-align: left"><strong>Suggested Quantity</strong></td><td>How much stock mSupply suggests that your order. This is calculated as: AMC x Maximum MOS - SoH</td></tr>
+<tr><td style="text-align: left"><strong>Requested</strong></td><td>This is set to zero by default. This is the quantity of units you are ordering from your supplier.</td></tr>
+<tr><td style="text-align: left"><strong>Comment</strong></td><td>A comment for the order line. Comments will be visible to your supplier.</td></tr>
 </tbody></table>
 <h3 id="using-suggested-quantities">Using Suggested Quantities</h3>
 <p>If you tap on the <code>Use Suggested Quantities</code> on the requisition header, mSupply will automatically copy the values in the <strong>Suggested Quantity</strong> column into the <strong>Requested Quantity</strong> column. </p>
@@ -511,19 +511,63 @@ When printing, a PDF file is generated for you, which will then open in a new br
 Ensure that your order is correct before sending it to your supplier. Once sent, no further changes can be made to finalised orders. 
 </div>
   
+<p class="edit-page"><a href="https:&#x2F;&#x2F;github.com&#x2F;openmsupply&#x2F;mSupply_docs/blob/main/content&#x2F;docs&#x2F;replenishment&#x2F;internal-orders.md"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit-2"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path></svg>Edit this page on GitHub</a></p>
+  
 <div class="docs-navigation d-flex justify-content-between">
   
   
   
   
   
-  <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;replenishment&#x2F;suppliers&#x2F;">
-    <div class="card my-1">
-      <div class="card-body py-2">
-        &larr; Suppliers
-      </div>
-    </div>
-  </a>
+    
+    
+    
+    
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
+            
+              
+              <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;catalogue&#x2F;master-list&#x2F;">
+                <div class="card my-1">
+                  <div class="card-body py-2">
+                    &larr; Master Lists
+                  </div>
+                </div>
+              </a>
+            
+            
+            
+          
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+    
   
 
   
@@ -531,13 +575,52 @@ Ensure that your order is correct before sending it to your supplier. Once sent,
   
   
   
-    <a class="ms-auto" href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;replenishment&#x2F;inbound-shipments&#x2F;">
-      <div class="card my-1">
-        <div class="card-body py-2">
-          Inbound Shipments &rarr;
-        </div>
-      </div>
-    </a>
+    
+    
+    
+      
+      
+        
+      
+    
+      
+      
+        
+      
+    
+      
+      
+        
+      
+    
+      
+      
+        
+      
+    
+      
+      
+        
+          
+          
+          <a class="ms-auto" href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;inventory&#x2F;locations&#x2F;">
+            <div class="card my-1">
+              <div class="card-body py-2">
+                Locations &rarr;
+              </div>
+            </div>
+          </a>
+          
+          
+          
+        
+      
+    
+      
+      
+        
+      
+    
   
 </div>
 
