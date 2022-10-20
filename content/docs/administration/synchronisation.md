@@ -9,7 +9,7 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "View and manage your storage locations"
+lead = "Synchronisation is the term we use to denote the process of transferring data between your server and the central server. This page covers viewing and managing the settings, viewing the current status and how to manually initiate synchronisation."
 toc = true
 top = false
 +++
@@ -18,11 +18,11 @@ top = false
 
 To view the synchronisation settings, go to `Admin` in the lower section of the navigation panel: 
 
-![Location: nav](/docs/administration/images/admin_nav.png)
+![admin: nav](/docs/administration/images/admin_nav.png)
 
 You will see the synchronisation section below the display settings:
 
-![Location: list](/docs/administration/images/administration.png)
+![admin: page](/docs/administration/images/administration.png)
 
 ## Updating settings
 
