@@ -63,7 +63,7 @@ timeformat = "%B %e, %Y" # e.g. June 14, 2021
 timezone = "America/New_York"
 
 # Github repo for the edit button on pages...
-edit_page = true
+edit_page = false
 docs_repo = "https://github.com/openmsupply/mSupply_docs"
 repo_branch = "main"
 
