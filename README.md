@@ -29,6 +29,8 @@ ensure that you are running the most recent version of zola. There is a problem 
 
 Update and commit directly to main until a review process is defined :wink:
 
+If you wish to serve images from a subdirectory rather than co-locating the content or storing in the static folder, you have to include an index file (`_index.md`) for the subdirectory to be included in the build.
+
 ## Deployment
 
 Currently a manual process is required to build and publish.
