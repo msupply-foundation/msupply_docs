@@ -337,7 +337,7 @@
 It only covers our immediate committed work stream. Our planned feature list is much larger.</p>
 <h3 id="road-map">Road map</h3>
 <div class="mermaid" align="center">
-    %%{init: {'securityLevel': 'loose', 'theme':'default', 'themeVariables': { 'primaryColor': '#f2913d'}}}%%
+    %%{init: {'securityLevel': 'loose', 'theme':'base', 'themeVariables': {'primaryColor': '#f2913d', "taskTextColor": '#fff', 'sectionBkgColor': '#f2913d', 'sectionBkgColor2': '#3e7bfa', 'altSectionBkgColor': 'white' }}}%%
     gantt
  title Open mSupply Road Map
  dateFormat YY-MM-DD
@@ -347,6 +347,12 @@ It only covers our immediate committed work stream. Our planned feature list is 
   Installer :22-08-10 , 14d
   Android app :t1-0-2, after t1-0-1 , 28d
   Desktop app :after t1-0-1 , 21d
+ section Version 1.04
+  Server discovery replacement (android+desktop) :22-11-07,21d
+  Stock line editing :t1-0-3, 22-11-07, 21d
+ section Version 1.05
+  Fridgetag integration :22-11-21, 35d
+  Splitting packs :after t1-0-3, 35d
  section Version 1.1
   Cold chain integration :t1-1-1, 22-11-28, 56d
   Edit patients  :t1-1-2, 22-10-01 , 28d

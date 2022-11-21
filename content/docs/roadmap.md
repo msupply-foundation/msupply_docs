@@ -27,6 +27,12 @@ gantt
   Installer :22-08-10 , 14d
   Android app :t1-0-2, after t1-0-1 , 28d
   Desktop app :after t1-0-1 , 21d
+ section Version 1.04
+  Server discovery replacement (android+desktop) :22-11-07,21d
+  Stock line editing :t1-0-3, 22-11-07, 21d
+ section Version 1.05
+  Fridgetag integration :22-11-21, 35d
+  Splitting packs :after t1-0-3, 35d
  section Version 1.1
   Cold chain integration :t1-1-1, 22-11-28, 56d
   Edit patients  :t1-1-2, 22-10-01 , 28d
