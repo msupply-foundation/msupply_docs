@@ -336,8 +336,15 @@
          <p>This road map will be updated about once every six weeks.
 It only covers our immediate committed work stream. Our planned feature list is much larger.</p>
 <h3 id="road-map">Road map</h3>
+<style>
+    body.dark text.taskTextOutside0, 
+    body.dark text.taskTextOutside1, 
+    body.dark text.taskTextOutside2, 
+    body.dark text.taskTextOutside3 { fill: #eee!important; }
+    body.dark .sectionTitle { fill: #f2913d!important; }
+</style>
 <div class="mermaid" align="center">
-    %%{init: {'securityLevel': 'loose', 'theme':'base', 'themeVariables': {'primaryColor': '#f2913d', "taskTextColor": '#fff', 'sectionBkgColor': '#f2913d', 'sectionBkgColor2': '#3e7bfa', 'altSectionBkgColor': 'white' }}}%%
+    %%{init: {"securityLevel": "loose", "theme":"base", "themeVariables": {"darkMode": false, "primaryColor": "#f2913d", "taskTextColor": "#fff", "sectionBkgColor": "#f2913d", "sectionBkgColor2": "#3e7bfa", "altSectionBkgColor": "white" }}}%%
     gantt
  title Open mSupply Road Map
  dateFormat YY-MM-DD
@@ -375,7 +382,8 @@ section Version 3.0
   Item properties: t3-0-1, after t2-1-1, 14d
   Serialisation: t3-0-2, after t3-0-1, 21d
   Front-end plugin framework: after t2-1-1, 32d
-</div> <h3 id="planned-features">Planned features</h3>
+</div>
+ <h3 id="planned-features">Planned features</h3>
 <table><thead><tr><th>Area</th><th>Transaction</th><th>Feature / Capability</th></tr></thead><tbody>
 <tr><td>QUANTIFICATION</td><td>Demand Planning</td><td>Rules-based calculation of estimated product volume requirement X by distribution tier and user-defined time periods</td></tr>
 <tr><td>QUANTIFICATION</td><td>Supply Planning</td><td></td></tr>
