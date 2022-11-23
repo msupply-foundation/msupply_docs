@@ -4,13 +4,249 @@
 	<link href="https://docs.msupply.foundation/fr/atom.xml" rel="self" type="application/atom+xml"/>
   <link href="https://docs.msupply.foundation"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2022-05-17T16:20:00+00:00</updated>
+	<updated>2022-11-10T18:20:00+00:00</updated>
 	<id>https://docs.msupply.foundation/fr/atom.xml</id>
+	<entry xml:lang="fr">
+		<title>Carte routière</title>
+		<published>2022-11-10T18:20:00+00:00</published>
+		<updated>2022-11-10T18:20:00+00:00</updated>
+		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/roadmap/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/roadmap/</id>
+		<content type="html">&lt;p&gt;This road map will be updated about once every six weeks.
+It only covers our immediate committed work stream. Our planned feature list is much larger.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;carte-routiere&quot;&gt;Carte routière&lt;&#x2F;h3&gt;
+&lt;style&gt;
+    body.dark text.taskTextOutside0, 
+    body.dark text.taskTextOutside1, 
+    body.dark text.taskTextOutside2, 
+    body.dark text.taskTextOutside3 { fill: #eee!important; }
+    body.dark .sectionTitle { fill: #f2913d!important; }
+    body.dark .tick &gt; text { fill: #fff!important; }
+&lt;&#x2F;style&gt;
+&lt;div class=&quot;mermaid&quot; align=&quot;center&quot;&gt;
+    %%{init: {&quot;securityLevel&quot;: &quot;loose&quot;, &quot;theme&quot;:&quot;base&quot;, &quot;themeVariables&quot;: {&quot;darkMode&quot;: false, &quot;primaryColor&quot;: &quot;#f2913d&quot;, &quot;taskTextColor&quot;: &quot;#fff&quot;, &quot;sectionBkgColor&quot;: &quot;#f2913d&quot;, &quot;sectionBkgColor2&quot;: &quot;#3e7bfa&quot;, &quot;altSectionBkgColor&quot;: &quot;white&quot; }}}%%
+    gantt
+ title Open mSupply Road Map
+ dateFormat YY-MM-DD
+ axisFormat %B
+ section Version 1.0
+  Piste d&amp;#x27;audit :t1-0-1, 22-08-01 , 28d
+  Installer :22-08-10 , 14d
+  Application Android :t1-0-2, after t1-0-1 , 28d
+  Application de bureau :after t1-0-1 , 21d
+ section Version 1.0.4
+  Remplacement de découverte de serveur (android+desktop) :22-11-07,21d
+  Modification de la ligne de stock :t1-0-3, 22-11-07, 21d
+ section Version 1.0.5
+  Intégration Fridgetag :22-11-21, 35d
+  Fractionnement des packs :after t1-0-3, 35d
+ section Version 1.1
+  Intégration chaîne du froid :t1-1-1, 22-11-28, 56d
+  Modifier les patients  :t1-1-2, 22-10-01 , 28d
+  Formulaires personnalisables  :after t1-0-2 , 56d
+  Programmes :t1-1-3, after t1-1-2, 21d
+  Rencontres: after t1-1-2, 21d
+  Périodes: t1-1-4, after t1-1-3, 28d
+  Caractéristique des programmes : milestone, m1, after t1-1-4, 
+ section Version 2.0
+  Distribution: t2-0-1, after t1-1-1, 70d
+  Préférences: t2-0-2, after t1-1-1, 28d
+  Fonctionnalité R&amp;amp;R améliorée: after t2-0-2, 56d
+  Intégration DHIS2: t2-0-3, after t2-0-2, 28d
+  Intégration HL7: t2-0-4, after t2-0-3, 28d
+  Délivrance : milestone, m2, after t2-0-1, 
+section Version 2.1
+  Retours client: t2-1-1, after t2-0-4, 32d
+  Retours fournisseur: t2-1-2, after t2-0-4, 32d
+section Version 3.0
+  Propriétés de l&amp;#x27;objet: t3-0-1, after t2-1-1, 14d
+  Sérialisation: t3-0-2, after t3-0-1, 21d
+  Framework de plug-in frontal: after t2-1-1, 32d
+&lt;&#x2F;div&gt;
+ &lt;h3 id=&quot;fonctionnalites-prevues&quot;&gt;Fonctionnalités prévues&lt;&#x2F;h3&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Zone&lt;&#x2F;th&gt;&lt;th&gt;Transaction&lt;&#x2F;th&gt;&lt;th&gt;Fonctionnalité&#x2F;Capacité&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;QUANTIFICATION&lt;&#x2F;td&gt;&lt;td&gt;Planification de la demande&lt;&#x2F;td&gt;&lt;td&gt;Calcul basé sur des règles du besoin en volume de produit estimé X par niveau de distribution et périodes définies par l&#x27;utilisateur&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;QUANTIFICATION&lt;&#x2F;td&gt;&lt;td&gt;Planification de l&#x27;approvisionnement&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;QUANTIFICATION&lt;&#x2F;td&gt;&lt;td&gt;Planification de la demande&lt;&#x2F;td&gt;&lt;td&gt;Modifier manuellement les prévisions&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;APPROVISIONNEMENT&lt;&#x2F;td&gt;&lt;td&gt;Offre&#x2F;Demande de devis&lt;&#x2F;td&gt;&lt;td&gt;Acheteur : créez un nouvel appel d&#x27;offres&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;APPROVISIONNEMENT&lt;&#x2F;td&gt;&lt;td&gt;Offre&#x2F;Demande de devis&lt;&#x2F;td&gt;&lt;td&gt;Acheteur : publier un appel d&#x27;offres auprès d&#x27;une liste de fournisseurs&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;APPROVISIONNEMENT&lt;&#x2F;td&gt;&lt;td&gt;Offre&#x2F;Demande de devis&lt;&#x2F;td&gt;&lt;td&gt;Acheteur : créer une demande de devis électronique (EDI 840)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;APPROVISIONNEMENT&lt;&#x2F;td&gt;&lt;td&gt;Offre&#x2F;Demande de devis&lt;&#x2F;td&gt;&lt;td&gt;Acheteur : créer des prix de référence&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;APPROVISIONNEMENT&lt;&#x2F;td&gt;&lt;td&gt;Offre&#x2F;Demande de devis&lt;&#x2F;td&gt;&lt;td&gt;Fournisseurs : peuvent télécharger leur réponse dans Open mSupply (portail web)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;APPROVISIONNEMENT&lt;&#x2F;td&gt;&lt;td&gt;Offre&#x2F;Demande de devis&lt;&#x2F;td&gt;&lt;td&gt;Acheteur : recevoir manuellement les réponses&#x2F;cotations des fournisseurs&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;APPROVISIONNEMENT&lt;&#x2F;td&gt;&lt;td&gt;Offre&#x2F;Demande de devis&lt;&#x2F;td&gt;&lt;td&gt;Acheteur : recevez automatiquement les réponses&#x2F;cotations des fournisseurs (portail web)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;APPROVISIONNEMENT&lt;&#x2F;td&gt;&lt;td&gt;Offre&#x2F;Demande de devis&lt;&#x2F;td&gt;&lt;td&gt;Acheteur : recevoir une réponse électronique à une demande de devis (EDI 843 &#x2F; PEPPOL)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;APPROVISIONNEMENT&lt;&#x2F;td&gt;&lt;td&gt;Offre&#x2F;Demande de devis&lt;&#x2F;td&gt;&lt;td&gt;Acheteurs : évaluation des devis reçus&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;APPROVISIONNEMENT&lt;&#x2F;td&gt;&lt;td&gt;Offre&#x2F;Demande de devis&lt;&#x2F;td&gt;&lt;td&gt;Acheteurs : sélectionner les fournisseurs privilégiés (adjudication)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;APPROVISIONNEMENT&lt;&#x2F;td&gt;&lt;td&gt;Offre&#x2F;Demande de devis&lt;&#x2F;td&gt;&lt;td&gt;Gestion des contrats et subventions&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;APPROVISIONNEMENT&lt;&#x2F;td&gt;&lt;td&gt;Bons de commande&lt;&#x2F;td&gt;&lt;td&gt;Créer un bon de commande à partir d&#x27;un appel d&#x27;offres&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;APPROVISIONNEMENT&lt;&#x2F;td&gt;&lt;td&gt;Bons de commande&lt;&#x2F;td&gt;&lt;td&gt;Créer un bon de commande calculé&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;APPROVISIONNEMENT&lt;&#x2F;td&gt;&lt;td&gt;Bons de commande&lt;&#x2F;td&gt;&lt;td&gt;Créer un bon de commande vierge&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;APPROVISIONNEMENT&lt;&#x2F;td&gt;&lt;td&gt;Bons de commande&lt;&#x2F;td&gt;&lt;td&gt;Créer un bon de commande électronique (EDI 850)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;APPROVISIONNEMENT&lt;&#x2F;td&gt;&lt;td&gt;Bons de commande&lt;&#x2F;td&gt;&lt;td&gt;Ajouter des éléments de la liste principale&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;APPROVISIONNEMENT&lt;&#x2F;td&gt;&lt;td&gt;Bons de commande&lt;&#x2F;td&gt;&lt;td&gt;Catégories de bons de commande&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;APPROVISIONNEMENT&lt;&#x2F;td&gt;&lt;td&gt;Bons de commande&lt;&#x2F;td&gt;&lt;td&gt;Attributs de la ligne de commande&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;APPROVISIONNEMENT&lt;&#x2F;td&gt;&lt;td&gt;Gestion des fournisseurs&lt;&#x2F;td&gt;&lt;td&gt;Créer&#x2F;Afficher&#x2F;Modifier des fournisseurs&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;APPROVISIONNEMENT&lt;&#x2F;td&gt;&lt;td&gt;Avis d&#x27;expédition préalable&lt;&#x2F;td&gt;&lt;td&gt;Créer un ASN manuel à partir d&#x27;un bon de commande&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;APPROVISIONNEMENT&lt;&#x2F;td&gt;&lt;td&gt;Avis d&#x27;expédition préalable&lt;&#x2F;td&gt;&lt;td&gt;Recevoir un ASN électronique (EDI 856)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;APPROVISIONNEMENT&lt;&#x2F;td&gt;&lt;td&gt;Bonnes recettes&lt;&#x2F;td&gt;&lt;td&gt;Imprimer un bon de réception (pdf, csv) d&#x27;un envoi entrant (lorsque le statut VÉRIFIÉ est confirmé)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;APPROVISIONNEMENT&lt;&#x2F;td&gt;&lt;td&gt;Paiements&lt;&#x2F;td&gt;&lt;td&gt;Imprimer un formulaire de facture fournisseur (pdf, csv) à partir d&#x27;un envoi entrant (lorsque le statut VÉRIFIÉ est confirmé)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;APPROVISIONNEMENT&lt;&#x2F;td&gt;&lt;td&gt;Paiements&lt;&#x2F;td&gt;&lt;td&gt;Enregistrer les paiements effectués aux fournisseurs (à partir d&#x27;une facture fournisseur)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;RÉCEPTION&lt;&#x2F;td&gt;&lt;td&gt;Expéditions entrantes (ex Factures fournisseur)&lt;&#x2F;td&gt;&lt;td&gt;Accepter la notification d&#x27;arrivée de l&#x27;expédition&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;RÉCEPTION&lt;&#x2F;td&gt;&lt;td&gt;Expéditions entrantes (ex Factures fournisseur)&lt;&#x2F;td&gt;&lt;td&gt;Recevez automatiquement les données d&#x27;expédition entrantes avant l&#x27;arrivée&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;RÉCEPTION&lt;&#x2F;td&gt;&lt;td&gt;Expéditions entrantes (ex Factures fournisseur)&lt;&#x2F;td&gt;&lt;td&gt;Enregistrer manuellement les données d&#x27;expédition entrantes avant l&#x27;arrivée&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;RÉCEPTION&lt;&#x2F;td&gt;&lt;td&gt;Expéditions entrantes (ex Factures fournisseur)&lt;&#x2F;td&gt;&lt;td&gt;Afficher toute différence entre les quantités commandées (req ou PO) et les quantités notifiées&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;RÉCEPTION&lt;&#x2F;td&gt;&lt;td&gt;Expéditions entrantes (ex Factures fournisseur)&lt;&#x2F;td&gt;&lt;td&gt;Informer les parties concernées des divergences&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;RÉCEPTION&lt;&#x2F;td&gt;&lt;td&gt;Expéditions entrantes (ex Factures fournisseur)&lt;&#x2F;td&gt;&lt;td&gt;Rejeter la commande si nécessaire&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;RÉCEPTION&lt;&#x2F;td&gt;&lt;td&gt;Expéditions entrantes (ex Factures fournisseur)&lt;&#x2F;td&gt;&lt;td&gt;Afficher les besoins de stockage en fonction du volume brut de la quantité expédiée&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;RÉCEPTION&lt;&#x2F;td&gt;&lt;td&gt;Expéditions entrantes (ex Factures fournisseur)&lt;&#x2F;td&gt;&lt;td&gt;Afficher la quantité d&#x27;espace de stockage disponible par type&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;RÉCEPTION&lt;&#x2F;td&gt;&lt;td&gt;Expéditions entrantes (ex Factures fournisseur)&lt;&#x2F;td&gt;&lt;td&gt;Signaler si espace de stockage insuffisant par type&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;RÉCEPTION&lt;&#x2F;td&gt;&lt;td&gt;Expéditions entrantes (ex Factures fournisseur)&lt;&#x2F;td&gt;&lt;td&gt;Confirmer l&#x27;arrivée de l&#x27;envoi entrant&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;RÉCEPTION&lt;&#x2F;td&gt;&lt;td&gt;Expéditions entrantes (ex Factures fournisseur)&lt;&#x2F;td&gt;&lt;td&gt;Enregistrer manuellement les données d&#x27;expédition entrantes à l&#x27;arrivée&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;RÉCEPTION&lt;&#x2F;td&gt;&lt;td&gt;Expéditions entrantes (ex Factures fournisseur)&lt;&#x2F;td&gt;&lt;td&gt;Lecture de codes-barres pour la réception de marchandises&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;RÉCEPTION&lt;&#x2F;td&gt;&lt;td&gt;Expéditions entrantes (ex Factures fournisseur)&lt;&#x2F;td&gt;&lt;td&gt;Signaler les écarts par rapport à l&#x27;envoi reçu&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;RÉCEPTION&lt;&#x2F;td&gt;&lt;td&gt;Expéditions entrantes (ex Factures fournisseur)&lt;&#x2F;td&gt;&lt;td&gt;Enregistrer les informations sur les dommages, les écarts, les incompatibilités de lots, les indicateurs et les variations pour les éléments de ligne individuels&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;RÉCEPTION&lt;&#x2F;td&gt;&lt;td&gt;Expéditions entrantes (ex Factures fournisseur)&lt;&#x2F;td&gt;&lt;td&gt;Enregistrer les notes concernant les écarts et les variations des marchandises reçues&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;RÉCEPTION&lt;&#x2F;td&gt;&lt;td&gt;Expéditions entrantes (ex Factures fournisseur)&lt;&#x2F;td&gt;&lt;td&gt;Signaler les dommages et les anomalies aux personnes appropriées&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;RÉCEPTION&lt;&#x2F;td&gt;&lt;td&gt;Expéditions entrantes (ex Factures fournisseur)&lt;&#x2F;td&gt;&lt;td&gt;Confirmation des marchandises en stock (mise à jour des registres d&#x27;inventaire)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;RÉCEPTION&lt;&#x2F;td&gt;&lt;td&gt;Expéditions entrantes (ex Facture fournisseur)&lt;&#x2F;td&gt;&lt;td&gt;Imprimer les rapports de réception, le formulaire de sortie de stock, l&#x27;autorisation de réception, etc...&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;RÉCEPTION&lt;&#x2F;td&gt;&lt;td&gt;Expéditions entrantes (ex Factures fournisseur)&lt;&#x2F;td&gt;&lt;td&gt;Affecter un opérateur à un envoi entrant pour ranger le stock reçu&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;RÉCEPTION&lt;&#x2F;td&gt;&lt;td&gt;Expéditions entrantes (ex Factures fournisseur)&lt;&#x2F;td&gt;&lt;td&gt;Application Rangement : chargez la liste des articles de l&#x27;expédition entrante et les instructions pour le rangement.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;RÉCEPTION&lt;&#x2F;td&gt;&lt;td&gt;Expéditions entrantes (ex Factures fournisseur)&lt;&#x2F;td&gt;&lt;td&gt;Afficher les conditions de stockage des articles (par exemple, température contrôlée)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;RÉCEPTION&lt;&#x2F;td&gt;&lt;td&gt;Expéditions entrantes (ex Factures fournisseur)&lt;&#x2F;td&gt;&lt;td&gt;Afficher l&#x27;emplacement de stockage par défaut pour chaque élément&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;RÉCEPTION&lt;&#x2F;td&gt;&lt;td&gt;Expéditions entrantes (ex Factures fournisseur)&lt;&#x2F;td&gt;&lt;td&gt;Proposer un espace&#x2F;des positions pour chaque article en stock en fonction de règles définies (par exemple, la disponibilité actuelle de l&#x27;espace, en fonction de la catégorie ABC)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;RÉCEPTION&lt;&#x2F;td&gt;&lt;td&gt;Expéditions entrantes (ex Factures fournisseur)&lt;&#x2F;td&gt;&lt;td&gt;Imprimer l&#x27;étiquette de la palette&#x2F;étagère spécifiant le statut des marchandises, le cas échéant&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;GESTION DES INVENTAIRES&lt;&#x2F;td&gt;&lt;td&gt;Emplacements&lt;&#x2F;td&gt;&lt;td&gt;Créer&#x2F;modifier des emplacements de stockage d&#x27;inventaire (Allée, Bac, Fente, etc.)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;GESTION DES INVENTAIRES&lt;&#x2F;td&gt;&lt;td&gt;Emplacements&lt;&#x2F;td&gt;&lt;td&gt;Définir la hiérarchie des emplacements de stockage&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;GESTION DES INVENTAIRES&lt;&#x2F;td&gt;&lt;td&gt;Emplacements&lt;&#x2F;td&gt;&lt;td&gt;Définir les conditions de stockage (chaîne du froid, volume, restrictions d&#x27;articles, restrictions d&#x27;utilisation, etc...)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;GESTION DES INVENTAIRES&lt;&#x2F;td&gt;&lt;td&gt;Emplacements&lt;&#x2F;td&gt;&lt;td&gt;Enregistrer les températures des lieux de stockage (voir catégorie CHAÎNE DU FROID)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;GESTION DES INVENTAIRES&lt;&#x2F;td&gt;&lt;td&gt;Articles - Mouvement de stock et expiration&lt;&#x2F;td&gt;&lt;td&gt;Enregistrer l&#x27;état VVM&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;GESTION DES INVENTAIRES&lt;&#x2F;td&gt;&lt;td&gt;Emplacements&lt;&#x2F;td&gt;&lt;td&gt;Enregistrer l&#x27;état des conditions gelées&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;GESTION DES INVENTAIRES&lt;&#x2F;td&gt;&lt;td&gt;Articles - Données de base&lt;&#x2F;td&gt;&lt;td&gt;Définir les conditions de seuil de température par produit, le cas échéant&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;GESTION DES INVENTAIRES&lt;&#x2F;td&gt;&lt;td&gt;Articles - Mouvement de stock et expiration&lt;&#x2F;td&gt;&lt;td&gt;Conditions d&#x27;alerte hors seuil&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;GESTION DES INVENTAIRES&lt;&#x2F;td&gt;&lt;td&gt;Articles - Mouvement de stock et expiration&lt;&#x2F;td&gt;&lt;td&gt;Suivre les lots et les dates d&#x27;expiration&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;GESTION DES INVENTAIRES&lt;&#x2F;td&gt;&lt;td&gt;Articles - Mouvement de stock et expiration&lt;&#x2F;td&gt;&lt;td&gt;Transférer le stock d&#x27;un endroit à un autre&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;GESTION DES INVENTAIRES&lt;&#x2F;td&gt;&lt;td&gt;Articles - Mouvement de stock et expiration&lt;&#x2F;td&gt;&lt;td&gt;Afficher et transmettre des alertes et des notifications pour les expirations en attente&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;GESTION DES INVENTAIRES&lt;&#x2F;td&gt;&lt;td&gt;Articles - Mouvement de stock et expiration&lt;&#x2F;td&gt;&lt;td&gt;Afficher et transmettre des alertes et des notifications de rupture de stock, de surstock, de sous-stock&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;GESTION DES INVENTAIRES&lt;&#x2F;td&gt;&lt;td&gt;Articles - Données de base&lt;&#x2F;td&gt;&lt;td&gt;Signaler les articles comme dangereux, le cas échéant&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;GESTION DES INVENTAIRES&lt;&#x2F;td&gt;&lt;td&gt;Inventaire&lt;&#x2F;td&gt;&lt;td&gt;Créer&#x2F;modifier un inventaire pour une liste d&#x27;articles&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;GESTION DES INVENTAIRES&lt;&#x2F;td&gt;&lt;td&gt;Inventaire&lt;&#x2F;td&gt;&lt;td&gt;Filtrer le stock à intégrer : par attributs article (catégorie, rayon, date de péremption, etc...)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;GESTION DES INVENTAIRES&lt;&#x2F;td&gt;&lt;td&gt;Inventaire&lt;&#x2F;td&gt;&lt;td&gt;Filtrer le stock à inclure : par emplacement&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;GESTION DES INVENTAIRES&lt;&#x2F;td&gt;&lt;td&gt;Inventaire&lt;&#x2F;td&gt;&lt;td&gt;Filtrez le stock à inclure : par liste principale&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;GESTION DES INVENTAIRES&lt;&#x2F;td&gt;&lt;td&gt;Inventaire&lt;&#x2F;td&gt;&lt;td&gt;Imprimer les fiches d&#x27;inventaire (format PDF)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;GESTION DES INVENTAIRES&lt;&#x2F;td&gt;&lt;td&gt;Inventaire&lt;&#x2F;td&gt;&lt;td&gt;Imprimer les fiches d&#x27;inventaire (format CSV)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;GESTION DES INVENTAIRES&lt;&#x2F;td&gt;&lt;td&gt;Inventaire&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;GESTION DES INVENTAIRES&lt;&#x2F;td&gt;&lt;td&gt;Inventaire&lt;&#x2F;td&gt;&lt;td&gt;Appli d&#x27;inventaire : chargez la feuille d&#x27;inventaire sur un appareil mobile&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;GESTION DES INVENTAIRES&lt;&#x2F;td&gt;&lt;td&gt;Inventaire&lt;&#x2F;td&gt;&lt;td&gt;Application d&#x27;inventaire : utilisez un lecteur de codes-barres&#x2F;appareil photo d&#x27;un appareil mobile pour sélectionner l&#x27;article que l&#x27;opérateur compte&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;GESTION DES INVENTAIRES&lt;&#x2F;td&gt;&lt;td&gt;Inventaire&lt;&#x2F;td&gt;&lt;td&gt;Lecture de codes-barres pour l&#x27;inventaire&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;GESTION DES INVENTAIRES&lt;&#x2F;td&gt;&lt;td&gt;Inventaire&lt;&#x2F;td&gt;&lt;td&gt;Créer des ajustements d&#x27;inventaire (finaliser l&#x27;inventaire)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;GESTION DES INVENTAIRES&lt;&#x2F;td&gt;&lt;td&gt;Inventaire&lt;&#x2F;td&gt;&lt;td&gt;Ajouter des motifs d&#x27;ajustement d&#x27;inventaire&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;GESTION DES INVENTAIRES&lt;&#x2F;td&gt;&lt;td&gt;Inventaire&lt;&#x2F;td&gt;&lt;td&gt;Comptage de cycles&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;GESTION DES INVENTAIRES&lt;&#x2F;td&gt;&lt;td&gt;Kits&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;GESTION DES INVENTAIRES&lt;&#x2F;td&gt;&lt;td&gt;Ajustements d&#x27;inventaire&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;GESTION DES INVENTAIRES&lt;&#x2F;td&gt;&lt;td&gt;Reconditionne&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;GESTION DES INVENTAIRES&lt;&#x2F;td&gt;&lt;td&gt;Articles - Mouvement de stock et expiration&lt;&#x2F;td&gt;&lt;td&gt;Ligne de stock fractionnée&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;GESTION DES INVENTAIRES&lt;&#x2F;td&gt;&lt;td&gt;Articles - Mouvement de stock et expiration&lt;&#x2F;td&gt;&lt;td&gt;Fusionner la ligne de stock&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;GESTION DES INVENTAIRES&lt;&#x2F;td&gt;&lt;td&gt;Réapprovisionnements Pickface&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;GESTION DES INVENTAIRES&lt;&#x2F;td&gt;&lt;td&gt;Gestion du travail&lt;&#x2F;td&gt;&lt;td&gt;Créer&#x2F;modifier des opérateurs d&#x27;entrepôt&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;ENVOI&lt;&#x2F;td&gt;&lt;td&gt;Expédition sortante&lt;&#x2F;td&gt;&lt;td&gt;Créer un bordereau de prélèvement à partir d&#x27;un envoi sortant alloué&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;ENVOI&lt;&#x2F;td&gt;&lt;td&gt;Expédition sortante&lt;&#x2F;td&gt;&lt;td&gt;Bordereau de prélèvement : Afficher le(s) emplacement(s) actuel(s) pour les articles réquisitionnés&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;ENVOI&lt;&#x2F;td&gt;&lt;td&gt;Expédition sortante&lt;&#x2F;td&gt;&lt;td&gt;Bordereau de prélèvement : créer un bordereau de prélèvement trié par emplacements de stockage&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;ENVOI&lt;&#x2F;td&gt;&lt;td&gt;Expédition sortante&lt;&#x2F;td&gt;&lt;td&gt;Bordereau de prélèvement : Afficher la date de péremption du stock&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;ENVOI&lt;&#x2F;td&gt;&lt;td&gt;Expédition sortante&lt;&#x2F;td&gt;&lt;td&gt;Application de bordereau de prélèvement : chargez un bordereau de prélèvement sur un appareil mobile.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;ENVOI&lt;&#x2F;td&gt;&lt;td&gt;Expédition sortante&lt;&#x2F;td&gt;&lt;td&gt;Lecture de codes-barres et préparation de commandes&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;ENVOI&lt;&#x2F;td&gt;&lt;td&gt;Expédition sortante&lt;&#x2F;td&gt;&lt;td&gt;Confirmer l&#x27;expédition sortante comme prélevée&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;ENVOI&lt;&#x2F;td&gt;&lt;td&gt;Expédition sortante&lt;&#x2F;td&gt;&lt;td&gt;Commande de pack&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;ENVOI&lt;&#x2F;td&gt;&lt;td&gt;Expédition sortante&lt;&#x2F;td&gt;&lt;td&gt;Pack Commande : Carton &#x2F; cartonisation&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;ENVOI&lt;&#x2F;td&gt;&lt;td&gt;Expédition sortante&lt;&#x2F;td&gt;&lt;td&gt;Imprimer les documents de livraison : liste de colisage, facture client, bon de réception&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;ENVOI&lt;&#x2F;td&gt;&lt;td&gt;Expédition sortante&lt;&#x2F;td&gt;&lt;td&gt;Confirmer l&#x27;expédition sortante comme expédiée (Mise à jour de Translation types fiches d&#x27;inventaire)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;TRANSPORTS&lt;&#x2F;td&gt;&lt;td&gt;Ordre&#x2F;demande de transport&lt;&#x2F;td&gt;&lt;td&gt;Projet d&#x27;ordre de transport&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;TRANSPORTS&lt;&#x2F;td&gt;&lt;td&gt;Ordre&#x2F;demande de transport&lt;&#x2F;td&gt;&lt;td&gt;Attribuez une ou plusieurs expéditions sortantes &amp;quot;cueillies&amp;quot; à l&#x27;ordre de transport (même trajet ou lieu)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;TRANSPORTS&lt;&#x2F;td&gt;&lt;td&gt;Ordre&#x2F;demande de transport&lt;&#x2F;td&gt;&lt;td&gt;Déterminer la charge utile, le volume et les dimensions&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;TRANSPORTS&lt;&#x2F;td&gt;&lt;td&gt;Ordre&#x2F;demande de transport&lt;&#x2F;td&gt;&lt;td&gt;Sélectionnez le mode et le type de transport&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;TRANSPORTS&lt;&#x2F;td&gt;&lt;td&gt;Ordre&#x2F;demande de transport&lt;&#x2F;td&gt;&lt;td&gt;Déterminer les exigences de contrôle de la température&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;TRANSPORTS&lt;&#x2F;td&gt;&lt;td&gt;Ordre&#x2F;demande de transport&lt;&#x2F;td&gt;&lt;td&gt;Confirmer l&#x27;ordre de transport&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;TRANSPORTS&lt;&#x2F;td&gt;&lt;td&gt;Ordre&#x2F;demande de transport&lt;&#x2F;td&gt;&lt;td&gt;Planifier les ressources de transport&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;TRANSPORTS&lt;&#x2F;td&gt;&lt;td&gt;Ordre&#x2F;demande de transport&lt;&#x2F;td&gt;&lt;td&gt;Enregistrer&#x2F;Afficher les instructions de livraison&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;TRANSPORTS&lt;&#x2F;td&gt;&lt;td&gt;Ordre&#x2F;demande de transport&lt;&#x2F;td&gt;&lt;td&gt;Enregistrer&#x2F;afficher le numéro de suivi, le véhicule, le conducteur&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;TRANSPORTS&lt;&#x2F;td&gt;&lt;td&gt;Ordre&#x2F;demande de transport&lt;&#x2F;td&gt;&lt;td&gt;Confirmer que les envois sortants ont été chargés&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;TRANSPORTS&lt;&#x2F;td&gt;&lt;td&gt;Ordre&#x2F;demande de transport&lt;&#x2F;td&gt;&lt;td&gt;Suivre l&#x27;emplacement et mettre à jour l&#x27;ETA&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;TRANSPORTS&lt;&#x2F;td&gt;&lt;td&gt;Ordre&#x2F;demande de transport&lt;&#x2F;td&gt;&lt;td&gt;Enregistrer l&#x27;historique du transport (lieu, température)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;TRANSPORTS&lt;&#x2F;td&gt;&lt;td&gt;Ordre&#x2F;demande de transport&lt;&#x2F;td&gt;&lt;td&gt;Confirmer la livraison &#x2F; imprimer&#x2F;envoyer une preuve de livraison&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;TRANSPORTS&lt;&#x2F;td&gt;&lt;td&gt;Transporteur&lt;&#x2F;td&gt;&lt;td&gt;Créer&#x2F;modifier des transporteurs&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;TRANSPORTS&lt;&#x2F;td&gt;&lt;td&gt;Itinéraire&lt;&#x2F;td&gt;&lt;td&gt;Créer&#x2F;modifier des itinéraires&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;TRANSPORTS&lt;&#x2F;td&gt;&lt;td&gt;Gestion de flotte&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;DEMANDES&lt;&#x2F;td&gt;&lt;td&gt;Requête générale Réquisition (Commande int.)&lt;&#x2F;td&gt;&lt;td&gt;Suggérez des quantités de commande en fonction des données de consommation passées (par exemple, AMC)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;DEMANDES&lt;&#x2F;td&gt;&lt;td&gt;Requête générale Réquisition (Commande int.)&lt;&#x2F;td&gt;&lt;td&gt;Suggérer des quantités de commande en fonction du seuil de quantité minimum&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;DEMANDES&lt;&#x2F;td&gt;&lt;td&gt;Requête générale Réquisition (Commande int.)&lt;&#x2F;td&gt;&lt;td&gt;Suggérez des quantités de commande en fonction des dossiers des patients &#x2F; des données du registre&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;DEMANDES&lt;&#x2F;td&gt;&lt;td&gt;Requête générale Réquisition (Commande int.)&lt;&#x2F;td&gt;&lt;td&gt;estimer les besoins de stock en agrégeant les demandes par niveaux intermédiaires&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;DEMANDES&lt;&#x2F;td&gt;&lt;td&gt;Requête générale Réquisition (Commande int.)&lt;&#x2F;td&gt;&lt;td&gt;estimer les besoins en stocks en fonction des populations cibles&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;DEMANDES&lt;&#x2F;td&gt;&lt;td&gt;Requête générale Réquisition (Commande int.)&lt;&#x2F;td&gt;&lt;td&gt;estimer les quantités de besoins de stock sur la base de prévisions statistiques&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;DEMANDES&lt;&#x2F;td&gt;&lt;td&gt;Requête générale Réquisition (Commande int.)&lt;&#x2F;td&gt;&lt;td&gt;estimer le point des besoins en stock en fonction de critères définis par l&#x27;utilisateur&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;DEMANDES&lt;&#x2F;td&gt;&lt;td&gt;Requête générale Réquisition (Commande int.)&lt;&#x2F;td&gt;&lt;td&gt;Afficher les données de consommation passées&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;DEMANDES&lt;&#x2F;td&gt;&lt;td&gt;Requête générale Réquisition (Commande int.)&lt;&#x2F;td&gt;&lt;td&gt;Afficher la quantité actuelle disponible et utilisable de chaque article en stock&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;DEMANDES&lt;&#x2F;td&gt;&lt;td&gt;Requête générale Réquisition (Commande int.)&lt;&#x2F;td&gt;&lt;td&gt;Afficher la commande ouverte et les envois entrants&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;DEMANDES&lt;&#x2F;td&gt;&lt;td&gt;Requête générale Réquisition (Commande int.)&lt;&#x2F;td&gt;&lt;td&gt;Afficher les commandes sortantes ouvertes et l&#x27;utilisation projetée&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;DEMANDES&lt;&#x2F;td&gt;&lt;td&gt;Requête générale Réquisition (Commande int.)&lt;&#x2F;td&gt;&lt;td&gt;Afficher les niveaux de stock actuels (SOH) à tous les niveaux pertinents&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;DEMANDES&lt;&#x2F;td&gt;&lt;td&gt;Requête générale Réquisition (Commande int.)&lt;&#x2F;td&gt;&lt;td&gt;Afficher les dates de péremption du stock disponible&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;DEMANDES&lt;&#x2F;td&gt;&lt;td&gt;Requête générale Réquisition (Commande int.)&lt;&#x2F;td&gt;&lt;td&gt;Générer des quantités de commande suggérées (demandées - SOH) = Qté suggérée&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;DEMANDES&lt;&#x2F;td&gt;&lt;td&gt;Requête générale Réquisition (Commande int.)&lt;&#x2F;td&gt;&lt;td&gt;Afficher le délai d&#x27;exécution de la commande&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;DEMANDES&lt;&#x2F;td&gt;&lt;td&gt;Requête générale Réquisition (Commande int.)&lt;&#x2F;td&gt;&lt;td&gt;Afficher le coût de l&#x27;article au moment où la demande est générée&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;DEMANDES&lt;&#x2F;td&gt;&lt;td&gt;Requête générale Réquisition (Commande int.)&lt;&#x2F;td&gt;&lt;td&gt;Calculer le coût de la commande au moment où la demande est générée&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;DEMANDES&lt;&#x2F;td&gt;&lt;td&gt;Requête générale Réquisition (Commande int.)&lt;&#x2F;td&gt;&lt;td&gt;Soumettre la demande (électroniquement ou manuellement)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;DEMANDES&lt;&#x2F;td&gt;&lt;td&gt;Requête générale Réquisition (Commande int.)&lt;&#x2F;td&gt;&lt;td&gt;Fournir un mécanisme d&#x27;approbation&#x2F;de rejet aux niveaux appropriés&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;DEMANDES&lt;&#x2F;td&gt;&lt;td&gt;Requête générale Réquisition (Commande int.)&lt;&#x2F;td&gt;&lt;td&gt;L&#x27;approbateur peut modifier la demande, si nécessaire&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;DEMANDES&lt;&#x2F;td&gt;&lt;td&gt;Requête générale Réquisition (Commande int.)&lt;&#x2F;td&gt;&lt;td&gt;Enregistrer la date d&#x27;approbation de la demande&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;DISTRIBUTION PAR PATIENT&lt;&#x2F;td&gt;&lt;td&gt;Distribution&lt;&#x2F;td&gt;&lt;td&gt;Enregistrer les médicaments délivrés à un patient individuel&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;DISTRIBUTION PAR PATIENT&lt;&#x2F;td&gt;&lt;td&gt;Ordonnance&lt;&#x2F;td&gt;&lt;td&gt;Créer&#x2F;modifier une ordonnance&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;DISTRIBUTION PAR PATIENT&lt;&#x2F;td&gt;&lt;td&gt;Ordonnance&lt;&#x2F;td&gt;&lt;td&gt;Abréviations&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;DISTRIBUTION PAR PATIENT&lt;&#x2F;td&gt;&lt;td&gt;Ordonnance&lt;&#x2F;td&gt;&lt;td&gt;Groupe Interactions médicamenteuses&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;DISTRIBUTION PAR PATIENT&lt;&#x2F;td&gt;&lt;td&gt;Ordonnance&lt;&#x2F;td&gt;&lt;td&gt;Paiements et reçus &#x2F; caisse enregistreuse&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;DISTRIBUTION PAR PATIENT&lt;&#x2F;td&gt;&lt;td&gt;Ordonnance&lt;&#x2F;td&gt;&lt;td&gt;Créer&#x2F;modifier des patients&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;DISTRIBUTION PAR PATIENT&lt;&#x2F;td&gt;&lt;td&gt;Ordonnance&lt;&#x2F;td&gt;&lt;td&gt;Créer&#x2F;modifier des prescripteurs&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;DISTRIBUTION PAR PATIENT&lt;&#x2F;td&gt;&lt;td&gt;Ordonnance&lt;&#x2F;td&gt;&lt;td&gt;Répétitions&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;APPROVISIONNEMENT&lt;&#x2F;td&gt;&lt;td&gt;Bonne réception pour vérifier le stock sur les bons de commande&lt;&#x2F;td&gt;&lt;td&gt;Créer une entrée de marchandises &#x2F; un envoi entrant&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;APPROVISIONNEMENT&lt;&#x2F;td&gt;&lt;td&gt;Bonne réception pour vérifier le stock sur les bons de commande&lt;&#x2F;td&gt;&lt;td&gt;Ajouter des lignes d&#x27;un bon de commande à un envoi entrant&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;CHAÎNE DU FROID&lt;&#x2F;td&gt;&lt;td&gt;Surveillance de la température&lt;&#x2F;td&gt;&lt;td&gt;Afficher et transmettre des alertes en cas de dépassement de température (tableau de bord de l&#x27;écran d&#x27;accueil), affecter un ou plusieurs capteurs de température à un emplacement de stockage, définir un seuil par article&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;CHAÎNE DU FROID&lt;&#x2F;td&gt;&lt;td&gt;Surveillance de la température&lt;&#x2F;td&gt;&lt;td&gt;Synchronisation des relevés de température vers le serveur pour alimenter le tableau de bord mSupply (via l&#x27;application Cold Chain)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;CHAÎNE DU FROID&lt;&#x2F;td&gt;&lt;td&gt;Surveillance de la température&lt;&#x2F;td&gt;&lt;td&gt;Intégration avec les enregistreurs de température Berlinger et l&#x27;onglet réfrigérateur&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;SYNC&lt;&#x2F;td&gt;&lt;td&gt;Transfert de synchronisation&lt;&#x2F;td&gt;&lt;td&gt;https:&#x2F;&#x2F;github.com&#x2F;openmsupply&#x2F;open-msupply&#x2F;issues&#x2F;608&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;SYSTÈME GLOBAL&lt;&#x2F;td&gt;&lt;td&gt;Autorisation utilisateur&lt;&#x2F;td&gt;&lt;td&gt;Accès utilisateur variable intégré&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;SYSTÈME GLOBAL&lt;&#x2F;td&gt;&lt;td&gt;Devise&lt;&#x2F;td&gt;&lt;td&gt;Capacité à supporter plusieurs devises et leur taux de change&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;SYSTÈME GLOBAL&lt;&#x2F;td&gt;&lt;td&gt;N&#x27;importe lequel&lt;&#x2F;td&gt;&lt;td&gt;Télécharger des documents numérisés&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;APPROVISIONNEMENT&lt;&#x2F;td&gt;&lt;td&gt;Gérer les modèles&lt;&#x2F;td&gt;&lt;td&gt;Capacité à maintenir des modèles&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;TABLEAUX DE BORD&lt;&#x2F;td&gt;&lt;td&gt;Afficher les données sur les tableaux de bord&lt;&#x2F;td&gt;&lt;td&gt;Rapports sur la consommation des stocks&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;APPROVISIONNEMENT&lt;&#x2F;td&gt;&lt;td&gt;Bons de commande&lt;&#x2F;td&gt;&lt;td&gt;Tous les approbateurs peuvent accéder au système pour approuver les formulaires d&#x27;approvisionnement&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;DEMANDES&lt;&#x2F;td&gt;&lt;td&gt;Requête générale Réquisition (Commande int.)&lt;&#x2F;td&gt;&lt;td&gt;Modèle de demande intuitif avec menus déroulants&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;DEMANDES&lt;&#x2F;td&gt;&lt;td&gt;Requête générale Réquisition (Commande int.)&lt;&#x2F;td&gt;&lt;td&gt;Les articles demandés peuvent être acheminés pour être libérés ou achetés&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;APPROVISIONNEMENT&lt;&#x2F;td&gt;&lt;td&gt;Ajouter des notes et traiter les renonciations&lt;&#x2F;td&gt;&lt;td&gt;Capacité de documenter les notes au dossier et les renonciations au processus d&#x27;approvisionnement&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;SYSTÈME GLOBAL&lt;&#x2F;td&gt;&lt;td&gt;N&#x27;importe lequel&lt;&#x2F;td&gt;&lt;td&gt;Possibilité de stocker des contrats et des notes de réception de marchandises (GRN) dans le système&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;APPROVISIONNEMENT&lt;&#x2F;td&gt;&lt;td&gt;Référencement&lt;&#x2F;td&gt;&lt;td&gt;Faciliter la correspondance à 3 voies pour les paiements des fournisseurs (PO, GRN, facture)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;APPROVISIONNEMENT&lt;&#x2F;td&gt;&lt;td&gt;Bons de commande&lt;&#x2F;td&gt;&lt;td&gt;Notifier le changement de statut du bon de commande à différents utilisateurs ou lorsque le bon de commande complet n&#x27;est pas rempli&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;APPROVISIONNEMENT&lt;&#x2F;td&gt;&lt;td&gt;Informations correspondantes&lt;&#x2F;td&gt;&lt;td&gt;Les modules d&#x27;approvisionnement et d&#x27;inventaire communiquent entre eux les données sur les marchandises reçues, les bons de commande et les listes principales&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;ENVOI&lt;&#x2F;td&gt;&lt;td&gt;Expédition sortante&lt;&#x2F;td&gt;&lt;td&gt;Envoyer une notification d&#x27;expédition sortante approuvée&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;ENVOI&lt;&#x2F;td&gt;&lt;td&gt;Expédition sortante&lt;&#x2F;td&gt;&lt;td&gt;Système d&#x27;approbation des expéditions sortantes&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;APPROVISIONNEMENT&lt;&#x2F;td&gt;&lt;td&gt;Générer un bon de livraison&lt;&#x2F;td&gt;&lt;td&gt;Générer un bon de livraison et une lettre de voiture&#x2F;liste de colisage&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;TRANSPORTS&lt;&#x2F;td&gt;&lt;td&gt;Fiche technique du véhicule&lt;&#x2F;td&gt;&lt;td&gt;Enregistrement pour chaque véhicule avec les paramètres clés (VIN, modèle, plaque, type de carburant, année modèle, données et numéro d&#x27;enregistrement, date et numéro de police d&#x27;assurance, prix, etc.)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;TRANSPORTS&lt;&#x2F;td&gt;&lt;td&gt;Rapports&lt;&#x2F;td&gt;&lt;td&gt;Suivre les données mensuelles clés du véhicule (nombre de jours d&#x27;utilisation et de réparation du véhicule, km parcourus, relevé du compteur kilométrique, coût du carburant, litres de carburant consommés)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;TRANSPORTS&lt;&#x2F;td&gt;&lt;td&gt;Rapports&lt;&#x2F;td&gt;&lt;td&gt;&amp;quot;Suivez les données mensuelles clés du générateur (heures de fonctionnement, coûts de maintenance, carburant consommé)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Ajouter des notifications lorsque les niveaux attendus ne sont pas atteints&amp;quot;&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;TRANSPORTS&lt;&#x2F;td&gt;&lt;td&gt;Rapports&lt;&#x2F;td&gt;&lt;td&gt;&amp;quot;Suivre les réparations par véhicule et groupe électrogène (type, date, coût, pièces détachées &amp;amp; consommables utilisés)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Ajouter des notifications lorsque les niveaux attendus ne sont pas atteints&amp;quot;&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;TRANSPORTS&lt;&#x2F;td&gt;&lt;td&gt;Interopérabilité&lt;&#x2F;td&gt;&lt;td&gt;Peut être intégré au matériel de suivi des véhicules pour capturer les kilomètres parcourus&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;TRANSPORTS&lt;&#x2F;td&gt;&lt;td&gt;Général&lt;&#x2F;td&gt;&lt;td&gt;Envoyer des notifications lorsque des documents clés arrivent bientôt à expiration (assurance, enregistrement, etc.)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;SYSTÈME GLOBAL&lt;&#x2F;td&gt;&lt;td&gt;Commentaires&lt;&#x2F;td&gt;&lt;td&gt;Les utilisateurs peuvent communiquer sur la plateforme (c&#x27;est-à-dire laisser des commentaires pendant le processus d&#x27;approbation)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;APPEL D&#x27;OFFRE&lt;&#x2F;td&gt;&lt;td&gt;Général&lt;&#x2F;td&gt;&lt;td&gt;Gérer le processus d&#x27;appel d&#x27;offres&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;APPEL D&#x27;OFFRE&lt;&#x2F;td&gt;&lt;td&gt;Général&lt;&#x2F;td&gt;&lt;td&gt;maintenir une liste de prix fixes pour les fournisseurs privilégiés&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;APPEL D&#x27;OFFRE&lt;&#x2F;td&gt;&lt;td&gt;Général&lt;&#x2F;td&gt;&lt;td&gt;maintenir une liste standard de produits avec des prix estimés&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+</content>
+	</entry>
 	<entry xml:lang="fr">
 		<title>Paramètres d&#x27;affichage</title>
 		<published>2022-05-17T16:20:00+00:00</published>
 		<updated>2022-05-17T16:20:00+00:00</updated>
-		<link href="https://docs.msupply.foundation/fr/docs/administration/display/" type="text/html"/>
+		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/administration/display/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/administration/display/</id>
 		<content type="html">&lt;p&gt;La section des paramètres d&#x27;affichage vous permet de personnaliser l&#x27;apparence de l&#x27;application. Les modifications apportées n&#x27;affecteront que votre expérience d&#x27;utilisation. Si d&#x27;autres personnes souhaitent modifier le logo, par exemple, elles devront le faire elles-mêmes.&lt;&#x2F;p&gt;
 &lt;p&gt;Explorons ce qui est possible...&lt;&#x2F;p&gt;
@@ -48,7 +284,7 @@
 		<title>Synchronisation</title>
 		<published>2022-05-17T16:20:00+00:00</published>
 		<updated>2022-05-17T16:20:00+00:00</updated>
-		<link href="https://docs.msupply.foundation/fr/docs/administration/synchronisation/" type="text/html"/>
+		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/administration/synchronisation/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/administration/synchronisation/</id>
 		<content type="html">&lt;h2 id=&quot;voir-les-parametres-de-synchronisation&quot;&gt;Voir les paramètres de synchronisation&lt;&#x2F;h2&gt;
 &lt;p&gt;Pour accéder aux paramètres de synchronisation, allez à &lt;code&gt;Administration&lt;&#x2F;code&gt; dans la partie inférieure du panneau de navigation : &lt;&#x2F;p&gt;
@@ -63,7 +299,7 @@
 		<title>Articles</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
-		<link href="https://docs.msupply.foundation/fr/docs/catalogue/items/" type="text/html"/>
+		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/catalogue/items/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/catalogue/items/</id>
 		<content type="html">&lt;p&gt;Un article dans open mSupply est généralement un produit que vous achetez auprès d&#x27;un fournisseur, vous le rangez en stock et le fournissez à un client.
 Dans le menu &lt;strong&gt;Articles&lt;&#x2F;strong&gt;, vous pouvez consulter tous les articles qui sont actuellement visibles dans votre dépôt. &lt;&#x2F;p&gt;
@@ -120,7 +356,7 @@ Dans l&#x27;exemple ci-dessous, nous avons 1542 unités d&#x27;amoxicilline disp
 		<title>Listes Maîtres</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
-		<link href="https://docs.msupply.foundation/fr/docs/catalogue/master-list/" type="text/html"/>
+		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/catalogue/master-list/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/catalogue/master-list/</id>
 		<content type="html">&lt;p&gt;Les listes Maîtres sont des listes standard, des regroupements d&#x27;articles qui ne peuvent être définies qu&#x27;au niveau du serveur central. &lt;&#x2F;p&gt;
 &lt;h2 id=&quot;consulter-les-listes-maitres&quot;&gt;Consulter les Listes Maîtres&lt;&#x2F;h2&gt;
@@ -137,7 +373,7 @@ Dans l&#x27;exemple ci-dessous, nous avons 1542 unités d&#x27;amoxicilline disp
 		<title>Clients</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
-		<link href="https://docs.msupply.foundation/fr/docs/distribution/customers/" type="text/html"/>
+		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/distribution/customers/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/distribution/customers/</id>
 		<content type="html">&lt;div class=&quot;omsupdate&quot;&gt;
 Pour le moment, vous ne pouvez voir que vos clients et leurs informations. À l&#x27;avenir, vous pourrez créer et modifier vos clients (à condition d&#x27;en avoir l&#x27;autorisation !). 
@@ -161,7 +397,7 @@ Si vous ne trouvez pas le client que vous recherchez, contactez votre administra
 		<title>Expéditions</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
-		<link href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/" type="text/html"/>
+		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/</id>
 		<content type="html">&lt;p&gt;La fonction &lt;em&gt;Expédition&lt;&#x2F;em&gt; peut être utilisée pour livrer du stock à un client. &lt;&#x2F;p&gt;
 &lt;p&gt;Si vous utilisiez mSupply par le passé, vous devriez être familier au terme &lt;strong&gt;Facture Client&lt;&#x2F;strong&gt; au lieu de &lt;strong&gt;Expédition&lt;&#x2F;strong&gt;. 
@@ -187,14 +423,14 @@ La fonction Expédition est utilisée pour:&lt;&#x2F;p&gt;
 &lt;ol&gt;
 &lt;li&gt;La liste des expéditions comprend 7 colonnes:&lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Colonne&lt;&#x2F;th&gt;&lt;th align=&quot;left&quot;&gt;Description&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Nom&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Nom du Client&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Statut&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Le statut actuel de l&#x27;expédition&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Numéro&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Le numéro de référence de l&#x27;expédition&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Créée le&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;La date de création&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Reference&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;La référence du Client&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Commentaire&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Commentaire sur l&#x27;expédition&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Total&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Valeur totale&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: left&quot;&gt;Colonne&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;Description&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Nom&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Nom du Client&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Statut&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Le statut actuel de l&#x27;expédition&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Numéro&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Le numéro de référence de l&#x27;expédition&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Créée le&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;La date de création&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Reference&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;La référence du Client&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Commentaire&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Commentaire sur l&#x27;expédition&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Total&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Valeur totale&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;ol start=&quot;2&quot;&gt;
 &lt;li&gt;La liste peut afficher un nombre fixe d&#x27;expéditions par page. Au bas de liste, à gauche, on peut voir le nombre d&#x27;expéditons actuellement affiché à l&#x27;écran. &lt;&#x2F;li&gt;
@@ -317,13 +553,13 @@ Si tout s&#x27;est bien passé, vous devriez voir le nom de votre client dans le
 &lt;figcaption align = &quot;center&quot;&gt;Status Sequence: current status is &lt;&#x2F;i&gt;&lt;code&gt;PICKED&lt;&#x2F;code&gt;.&lt;&#x2F;figcaption&gt;
 &lt;&#x2F;figure&gt;
 &lt;p&gt;There are 6 status for the Outbound Shipment: &lt;&#x2F;p&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Status&lt;&#x2F;th&gt;&lt;th&gt;Description&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;New&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;This is the first status when you create a shipment&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Allocated&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Allocation is confirmed. Goods are no longer available for other shipments but are still part of your inventory.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Picked&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Shipment is picked and is now ready to ship. Goods are still part of your inventory.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Shipped&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Shipment has been shipped and goods are no longer part of your inventory&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Delivered&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Your customer has received the shipment&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Verified&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Your customer has verified the quantity of the shipment. Goods are now part of their inventory .&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: left&quot;&gt;Status&lt;&#x2F;th&gt;&lt;th&gt;Description&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;New&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;This is the first status when you create a shipment&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Allocated&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Allocation is confirmed. Goods are no longer available for other shipments but are still part of your inventory.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Picked&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Shipment is picked and is now ready to ship. Goods are still part of your inventory.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Shipped&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Shipment has been shipped and goods are no longer part of your inventory&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Delivered&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Your customer has received the shipment&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Verified&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Your customer has verified the quantity of the shipment. Goods are now part of their inventory .&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;p&gt;If you hover over the status sequence, a shipment history window appears. You can see the date when a shipment was updated from one status to another. &lt;&#x2F;p&gt;
 &lt;div class=&quot;imagetitle&quot;&gt;
@@ -340,10 +576,10 @@ This shipment has been created, allocated and picked on 29&#x2F;03&#x2F;2022
 &lt;h4 id=&quot;confirm-button&quot;&gt;Confirm Button&lt;&#x2F;h4&gt;
 &lt;p&gt;The &lt;code&gt;Confirm&lt;&#x2F;code&gt; button is the button to update the status of a shipment. The status which you can confirm depends on the current status of the shipment and follows the sequence shown below.&lt;&#x2F;p&gt;
 &lt;p&gt;When managing an Outbound Shipment, you can only confirm the Allocation, the Picking and the Shipment. &lt;&#x2F;p&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Confirm...&lt;&#x2F;th&gt;&lt;th align=&quot;left&quot;&gt;Current Status&lt;&#x2F;th&gt;&lt;th align=&quot;left&quot;&gt;Next Status&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Confirm Allocated&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;New&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Allocated&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Confirm Picked&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Allocated&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Picked&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Confirm Shipped&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Picked&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Shipped&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: left&quot;&gt;Confirm...&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;Current Status&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;Next Status&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Confirm Allocated&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;New&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Allocated&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Confirm Picked&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Allocated&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Picked&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Confirm Shipped&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Picked&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Shipped&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;p&gt;You don&#x27;t have to update a shipment to next status in the sequence. You can choose to skip some of them to go directly to &lt;code&gt;Confirm Shipped&lt;&#x2F;code&gt; for example.&lt;&#x2F;p&gt;
 &lt;p&gt;As demonstrated below, tap on the down arrow of the &lt;code&gt;Confirm&lt;&#x2F;code&gt; button and select the status you want the shipment to be updated to. &lt;&#x2F;p&gt;
@@ -564,7 +800,7 @@ To change the view mode, click the &lt;code&gt;Group by item&lt;&#x2F;code&gt; s
 		<title>Réquisitions</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
-		<link href="https://docs.msupply.foundation/fr/docs/distribution/requisitions/" type="text/html"/>
+		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/distribution/requisitions/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/distribution/requisitions/</id>
 		<content type="html">&lt;p&gt;Lorsqu&#x27;un client qui utilise Open mSupply souhaite vous transmettre une commande, il crée dans son dépôt ce qu&#x27;on appelle une &lt;strong&gt;Commande interne&lt;&#x2F;strong&gt;. Cela apparaîtra comme une &lt;strong&gt;Réquisition&lt;&#x2F;strong&gt; dans votre dépôt.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;afficher-la-commande-d-un-client&quot;&gt;Afficher la commande d&#x27;un client&lt;&#x2F;h2&gt;
@@ -581,12 +817,12 @@ To change the view mode, click the &lt;code&gt;Group by item&lt;&#x2F;code&gt; s
 &lt;ol&gt;
 &lt;li&gt;La liste des réquisitions comprend 5 colonnes:&lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Colonne&lt;&#x2F;th&gt;&lt;th align=&quot;left&quot;&gt;Description&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Nom&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Nom du Client&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Numéro&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Numéro de référence de la commande&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Créée le&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Date de création de la commande&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Statut&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;État actuel de la commande&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Commentaires&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Commentaire pour la commande&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: left&quot;&gt;Colonne&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;Description&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Nom&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Nom du Client&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Numéro&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Numéro de référence de la commande&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Créée le&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Date de création de la commande&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Statut&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;État actuel de la commande&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Commentaires&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Commentaire pour la commande&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;ol start=&quot;2&quot;&gt;
 &lt;li&gt;La liste peut afficher un nombre fixe de commandes par page. Dans le coin inférieur gauche, vous pouvez voir combien de commandes sont actuellement affichées sur votre écran.&lt;&#x2F;li&gt;
@@ -609,7 +845,7 @@ To change the view mode, click the &lt;code&gt;Group by item&lt;&#x2F;code&gt; s
 		<title>Emplacements</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
-		<link href="https://docs.msupply.foundation/fr/docs/inventory/locations/" type="text/html"/>
+		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/inventory/locations/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/inventory/locations/</id>
 		<content type="html">&lt;p&gt;Identifier et nommer l&#x27;endroit où se trouve le stock dans votre dépôt est une partie importante des bonnes pratiques d&#x27;entrepôsage. Vous ne voulez pas avoir à parcourir tout votre dépôt pour trouver du stock, perdre du temps et de l&#x27;énergie alors que mSupply peut vous dire exactement où il se trouve !&lt;&#x2F;p&gt;
 &lt;p&gt;Les emplacements dans mSupply sont les espaces aménagés où vous rangez le stock. &lt;&#x2F;p&gt;
@@ -649,7 +885,7 @@ Mettre un emplacement En Attente peut être utile si:
 		<title>Inventaires</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
-		<link href="https://docs.msupply.foundation/fr/docs/inventory/stock-takes/" type="text/html"/>
+		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/inventory/stock-takes/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/inventory/stock-takes/</id>
 		<content type="html">&lt;p&gt;mSupply gardera automatiquement une trace de vos niveaux de stock pour vous, au fur et à mesure que vous les recevez et les distribuez. Mais parfois, les données sont saisies de manière incorrecte ou le stock s&#x27;épuise sans que personne ne fasse d&#x27;entrée dans le système.&lt;&#x2F;p&gt;
 &lt;p&gt;Bien sûr, nous essayons de ne pas laisser cela se produire, mais si cela se produit, nous pouvons apporter des corrections. Le moyen le plus simple de corriger les erreurs est de &lt;strong&gt;faire un inventaire&lt;&#x2F;strong&gt; .&lt;&#x2F;p&gt;
@@ -710,7 +946,7 @@ Ne vous inquiétez pas si vous oubliez un élément. Vous aurez la possibilité 
 		<title>Stock</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
-		<link href="https://docs.msupply.foundation/fr/docs/inventory/stock-view/" type="text/html"/>
+		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/inventory/stock-view/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/inventory/stock-view/</id>
 		<content type="html">&lt;p&gt;L&#x27;une des plus importantes, mais la plus simple des tâches dans mSupply est de vérifier combien de stock vous avez actuellement. Lorsque vous créez un expédition sortante et que vous sélectionnez un produit à sortir, mSupply vous dira si vous avez suffisamment de stock. Vous pourrez à bien d&#x27;autres moments, utiliser cette fonctionnalité pour avoir un apperçu rapide du niveau de vos stocks, et c&#x27;est très simple à faire.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;consulter-le-stock&quot;&gt;Consulter le stock&lt;&#x2F;h2&gt;
@@ -739,7 +975,7 @@ Ne vous inquiétez pas si vous oubliez un élément. Vous aurez la possibilité 
 		<title>Livraisons</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
-		<link href="https://docs.msupply.foundation/fr/docs/replenishment/inbound-shipments/" type="text/html"/>
+		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/replenishment/inbound-shipments/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/replenishment/inbound-shipments/</id>
 		<content type="html">&lt;p&gt;La fonctionnalité &lt;em&gt;Livraison&lt;&#x2F;em&gt; peut être utilisée pour récevoir du stock venant d&#x27;un ou plusieurs fournisseurs.&lt;&#x2F;p&gt;
 &lt;p&gt;Si vous aviez utilisé mSupply par le passé, vous devriez être familier du terme &lt;strong&gt;Facture Fournisseur&lt;&#x2F;strong&gt; au lieu de &lt;strong&gt;&lt;em&gt;Livraison&lt;&#x2F;em&gt;&lt;&#x2F;strong&gt;. &lt;&#x2F;p&gt;
@@ -759,14 +995,14 @@ Ne vous inquiétez pas si vous oubliez un élément. Vous aurez la possibilité 
 &lt;h3 id=&quot;liste-des-livraisons&quot;&gt;Liste des Livraisons&lt;&#x2F;h3&gt;
 &lt;p&gt;La première chose que vous voyez est une liste des Livraisons. &lt;&#x2F;p&gt;
 &lt;p&gt;La liste des livraisons comprend 7 colonnes: &lt;&#x2F;p&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Colonne&lt;&#x2F;th&gt;&lt;th align=&quot;left&quot;&gt;Description&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Nom&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Nom du fournisseur&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Statut&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Statut de la livraison&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Numéro&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Numéro de référence de la livraison&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Créée le&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Date de création de la livraison&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Confirmée&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Date de confirmation de la livraison&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Commentaire&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Commentaire sur la livraison&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Total&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Valeur totale&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: left&quot;&gt;Colonne&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;Description&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Nom&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Nom du fournisseur&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Statut&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Statut de la livraison&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Numéro&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Numéro de référence de la livraison&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Créée le&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Date de création de la livraison&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Confirmée&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Date de confirmation de la livraison&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Commentaire&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Commentaire sur la livraison&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Total&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Valeur totale&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;ol&gt;
 &lt;li&gt;La liste peut afficher &lt;strong&gt;20 livraisons par page&lt;&#x2F;strong&gt;. Dans le coin inférieur gauche, vous pouvez voir combien de livraisons sont actuellement affichées sur votre écran. &lt;&#x2F;li&gt;
@@ -888,12 +1124,12 @@ Nous prévoyons d&#x27;ajouter d&#x27;autres sections à l&#x27;avenir au fur et
     &lt;figcaption align=&quot;center&quot;&gt;Status Sequence: current status is &lt;&#x2F;i&gt;&lt;code&gt;Shipped&lt;&#x2F;code&gt;.&lt;&#x2F;figcaption&gt;
 &lt;&#x2F;figure&gt;
 &lt;p&gt;There are 5 status for the Inbound Shipment: &lt;&#x2F;p&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Status&lt;&#x2F;th&gt;&lt;th&gt;Description&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;New&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;This is the first status when you create a new manual Inbound Shipment&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Picked&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Supplier has confirmed that shipment is picked and ready to ship  (applies only to automatically created shipments)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Shipped&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Shipment has been shipped and goods are now in transit (applies only to automatically created shipments)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Delivered&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;When you confirm that the shipment has been delivered&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Verified&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;When you have verified the inbound shipment&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: left&quot;&gt;Status&lt;&#x2F;th&gt;&lt;th&gt;Description&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;New&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;This is the first status when you create a new manual Inbound Shipment&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Picked&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Supplier has confirmed that shipment is picked and ready to ship  (applies only to automatically created shipments)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Shipped&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Shipment has been shipped and goods are now in transit (applies only to automatically created shipments)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Delivered&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;When you confirm that the shipment has been delivered&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Verified&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;When you have verified the inbound shipment&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;p&gt;You probably noticed that two of the status values only apply to automatically created shipments. These are created by the system when another store in the system creates an Outbound Shipment to deliver stock to your store. If this is the case you&#x27;ll see a message near the top of the page:&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;images&#x2F;is_message_automatic.png&quot; alt=&quot;Automatic IS message&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
@@ -923,9 +1159,9 @@ This automatic shipment has been created on 03&#x2F;03&#x2F;2022, allocated on 0
 &lt;h4 id=&quot;confirm-button&quot;&gt;Confirm Button&lt;&#x2F;h4&gt;
 &lt;p&gt;The &lt;code&gt;Confirm&lt;&#x2F;code&gt; button is the button to update the status of a shipment. The status which you can confirm depends on the current status of the shipment and follows the sequence shown below.&lt;&#x2F;p&gt;
 &lt;p&gt;When managing an Inbound Shipment, you can only confirm it as Delivered or Verified. &lt;&#x2F;p&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Confirm...&lt;&#x2F;th&gt;&lt;th align=&quot;left&quot;&gt;Current Status&lt;&#x2F;th&gt;&lt;th align=&quot;left&quot;&gt;Next Status&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Confirm Delivered&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Shipped&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Delivered&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Confirm Verified&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Delivered&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Verified&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: left&quot;&gt;Confirm...&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;Current Status&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;Next Status&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Confirm Delivered&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Shipped&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Delivered&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Confirm Verified&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Delivered&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Verified&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;p&gt;You don&#x27;t have to update a shipment to next status in the sequence. You can choose to skip some of them to go directly to &lt;code&gt;Confirm Verified&lt;&#x2F;code&gt; for example.&lt;&#x2F;p&gt;
 &lt;p&gt;As demonstrated below, tap on the down arrow of the &lt;code&gt;Confirm&lt;&#x2F;code&gt; button and select the status you want the shipment to be updated to. &lt;&#x2F;p&gt;
@@ -1059,7 +1295,7 @@ To change the view mode, click the &lt;code&gt;Group by item&lt;&#x2F;code&gt; s
 		<title>Commandes Internes</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
-		<link href="https://docs.msupply.foundation/fr/docs/replenishment/internal-orders/" type="text/html"/>
+		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/replenishment/internal-orders/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/replenishment/internal-orders/</id>
 		<content type="html">&lt;p&gt;Les commandes internes portent plusieurs autres noms dans certains pays ou systèmes :&lt;&#x2F;p&gt;
 &lt;ul&gt;
@@ -1168,15 +1404,15 @@ You can create internal orders from multiple master lists by repeating above act
 &lt;&#x2F;div&gt;
 &lt;h3 id=&quot;reading-the-internal-order-s-list&quot;&gt;Reading the Internal Order&#x27;s list&lt;&#x2F;h3&gt;
 &lt;p&gt;When you add items (using a master list or not), the item is added to the order&#x27;s table. The following information is provided for each order line:&lt;&#x2F;p&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Status&lt;&#x2F;th&gt;&lt;th&gt;Description&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Code&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Code of the item&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Name&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Name of the item&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;SoH (Est. remaining)&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;How much stock currently available in your store for this store&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;AMC&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Average Monthly Consumption: how much stock your store uses each month on average (based on a configurable number of months, defaults to 3 months)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Target Stock&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;This is the stock you are aiming for. Calculated as: AMC x Maximum MOS&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Suggested Quantity&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;How much stock mSupply suggests that your order. This is calculated as: AMC x Maximum MOS - SoH&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Requested&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;This is set to zero by default. This is the quantity of units you are ordering from your supplier.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Comment&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;A comment for the order line. Comments will be visible to your supplier.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: left&quot;&gt;Status&lt;&#x2F;th&gt;&lt;th&gt;Description&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Code&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Code of the item&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Name&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Name of the item&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;SoH (Est. remaining)&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;How much stock currently available in your store for this store&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;AMC&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Average Monthly Consumption: how much stock your store uses each month on average (based on a configurable number of months, defaults to 3 months)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Target Stock&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;This is the stock you are aiming for. Calculated as: AMC x Maximum MOS&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Suggested Quantity&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;How much stock mSupply suggests that your order. This is calculated as: AMC x Maximum MOS - SoH&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Requested&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;This is set to zero by default. This is the quantity of units you are ordering from your supplier.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Comment&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;A comment for the order line. Comments will be visible to your supplier.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;using-suggested-quantities&quot;&gt;Using Suggested Quantities&lt;&#x2F;h3&gt;
 &lt;p&gt;If you tap on the &lt;code&gt;Use Suggested Quantities&lt;&#x2F;code&gt; on the requisition header, mSupply will automatically copy the values in the &lt;strong&gt;Suggested Quantity&lt;&#x2F;strong&gt; column into the &lt;strong&gt;Requested Quantity&lt;&#x2F;strong&gt; column. &lt;&#x2F;p&gt;
@@ -1208,7 +1444,7 @@ Ensure that your order is correct before sending it to your supplier. Once sent,
 		<title>Fournisseurs</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
-		<link href="https://docs.msupply.foundation/fr/docs/replenishment/suppliers/" type="text/html"/>
+		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/replenishment/suppliers/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/replenishment/suppliers/</id>
 		<content type="html">&lt;p&gt;Dans mSupply, un fournisseur est une entité qui envoie du stock à votre dépôt. &lt;&#x2F;p&gt;
 &lt;div class=&quot;omsupdate&quot;&gt;
@@ -1241,7 +1477,7 @@ Pour le moment, vous ne pouvez que voir votre fournisseur et ses coordonnées. �
 		<title>Didacticiel</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
-		<link href="https://docs.msupply.foundation/fr/docs/tutorial/" type="text/html"/>
+		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/tutorial/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/tutorial/</id>
 		<content type="html">&lt;h2 id=&quot;didacticiel-open-msupply&quot;&gt;Didacticiel: Open mSupply&lt;&#x2F;h2&gt;
 &lt;p&gt;Ce didacticiel est conçu pour vous guider à travers les bases de l&#x27;utilisation d&#x27;Open mSupply.&lt;&#x2F;p&gt;
@@ -1291,7 +1527,7 @@ Si vous vous êtes déjà connecté, et changé de dépôt, alors le dépôt le 
 		<title>Tableau de bord</title>
 		<published>2022-03-17T18:20:00+00:00</published>
 		<updated>2022-03-17T18:20:00+00:00</updated>
-		<link href="https://docs.msupply.foundation/fr/docs/dashboard/" type="text/html"/>
+		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/dashboard/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/dashboard/</id>
 		<content type="html">&lt;h2 id=&quot;plus-d-un-tableau-de-bord&quot;&gt;Plus d&#x27;un Tableau de Bord!&lt;&#x2F;h2&gt;
 &lt;p&gt;En effet nous utilisons le terme &lt;em&gt;Tableau de bord&lt;&#x2F;em&gt; pour plus d&#x27;une chose dans Open mSupply.
@@ -1329,7 +1565,7 @@ La deuxième utilisation du terme &lt;em&gt;Tableau de bord&lt;&#x2F;em&gt; est 
 		<title>Introduction à Open mSupply</title>
 		<published>2022-03-17T18:20:00+00:00</published>
 		<updated>2022-03-17T18:20:00+00:00</updated>
-		<link href="https://docs.msupply.foundation/fr/docs/introduction/" type="text/html"/>
+		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/introduction/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/introduction/</id>
 		<content type="html">&lt;h2 id=&quot;historique&quot;&gt;Historique&lt;&#x2F;h2&gt;
 &lt;p&gt;Open mSupply s&#x27;appuie sur plus de 20 années d&#x27;expériences enrichissantes de mSupply, au cours desquelles il est devenu le système d&#x27;information de gestion logistique (SIGL) le plus utilisé dans les pays à revenu faible et intermédiaire.&lt;&#x2F;p&gt;
@@ -1364,11 +1600,11 @@ La deuxième utilisation du terme &lt;em&gt;Tableau de bord&lt;&#x2F;em&gt; est 
 &lt;p&gt;Pour avoir un aperçu de l&#x27;étendue des fonctionnalités de mSupply, jetez un oeil par ici sur cet héritage &lt;a href=&quot;https:&#x2F;&#x2F;www.msupply.org.nz&quot;&gt;https:&#x2F;&#x2F;www.msupply.org.nz&lt;&#x2F;a&gt; - C&#x27;est presque 1000 pages si vous imprimez tout (Alors n&#x27;essayez surtout pas ☺️)&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;terminologie&quot;&gt;Terminologie&lt;&#x2F;h3&gt;
 &lt;p&gt;Le tableau suivant décrit certains des termes courants utilisés dans mSupply, et guide également les utilisateurs de l&#x27;ancienne version de mSupply sur les améliorations terminologiques que nous avons apportées.&lt;&#x2F;p&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;Terme Open mSupply&lt;&#x2F;th&gt;&lt;th align=&quot;center&quot;&gt;Terme ancienne version&lt;&#x2F;th&gt;&lt;th align=&quot;left&quot;&gt;Définition&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Expédition&lt;&#x2F;td&gt;&lt;td align=&quot;center&quot;&gt;Facture Client&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;La création d&#x27;une livraison de produit à un client particulier&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Livraison&lt;&#x2F;td&gt;&lt;td align=&quot;center&quot;&gt;Facture Fournisseur&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;La réception d&#x27;une livraison de produits d&#x27;un fournisseur particulier&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Réquisition&lt;&#x2F;td&gt;&lt;td align=&quot;center&quot;&gt;Réquisitions Client&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Une commande de produits effectuée par un client particulier&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Commandes Internes&lt;&#x2F;td&gt;&lt;td align=&quot;center&quot;&gt;Réquisitions Fournisseur&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Une demande de stock faite pour un fournisseur particulier&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: center&quot;&gt;Terme Open mSupply&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Terme ancienne version&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;Définition&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;Expédition&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Facture Client&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;La création d&#x27;une livraison de produit à un client particulier&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;Livraison&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Facture Fournisseur&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;La réception d&#x27;une livraison de produits d&#x27;un fournisseur particulier&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;Réquisition&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Réquisitions Client&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Une commande de produits effectuée par un client particulier&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;Commandes Internes&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Réquisitions Fournisseur&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Une demande de stock faite pour un fournisseur particulier&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h2 id=&quot;commencer&quot;&gt;Commencer&lt;&#x2F;h2&gt;
 &lt;p&gt;Si vous démarrez le serveur pour la toute première fois, vous pouvez voir cet écran:&lt;&#x2F;p&gt;
