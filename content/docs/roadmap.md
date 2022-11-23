@@ -27,10 +27,10 @@ gantt
   Installer :22-08-10 , 14d
   Android app :t1-0-2, after t1-0-1 , 28d
   Desktop app :after t1-0-1 , 21d
- section Version 1.04
+ section Version 1.0.4
   Server discovery replacement (android+desktop) :22-11-07,21d
   Stock line editing :t1-0-3, 22-11-07, 21d
- section Version 1.05
+ section Version 1.0.5
   Fridgetag integration :22-11-21, 35d
   Splitting packs :after t1-0-3, 35d
  section Version 1.1
@@ -44,7 +44,7 @@ gantt
  section Version 2.0
   Dispensing: t2-0-1, after t1-1-1, 70d
   Preferences: t2-0-2, after t1-1-1, 28d
-  R&R functionality: after t2-0-2, 56d
+  Enhanced R&R functionality: after t2-0-2, 56d
   DHIS2 Integration: t2-0-3, after t2-0-2, 28d
   HL7 Integration: t2-0-4, after t2-0-3, 28d
   Dispensing : milestone, m2, after t2-0-1, 
