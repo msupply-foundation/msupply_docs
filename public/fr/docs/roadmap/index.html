@@ -48,8 +48,8 @@
 
 	
 
-<title>Carte routière - mSupply 🇫🇷</title>
-<meta name="description" content="Open mSupply Carte routière.">
+<title>Feuille de route - mSupply 🇫🇷</title>
+<meta name="description" content="Feuille de route pour Open mSupply.">
 <link rel="canonical" href="https://docs.msupply.foundation/fr/docs/roadmap/">
 
 
@@ -231,7 +231,7 @@
 					                           
 							<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/introduction/">Introduction à Open mSupply</a></li>
 					                           
-							<li><a class="docs-link active" href="https://docs.msupply.foundation/fr/docs/roadmap/">Carte routière</a></li>
+							<li><a class="docs-link active" href="https://docs.msupply.foundation/fr/docs/roadmap/">Feuille de route</a></li>
 					                           
 							<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/dashboard/">Tableau de bord</a></li>
 					                           
@@ -283,18 +283,6 @@
 					
 					
 					
-							<h3>Administration</h3>
-							<ul class="list-unstyled">
-							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/administration/display/">Paramètres d&#x27;affichage</a></li>
-							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/administration/synchronisation/">Synchronisation</a></li>
-							
-					</ul>
-					
-					
-					
-					
 							<h3>Inventaire</h3>
 							<ul class="list-unstyled">
 							                           
@@ -303,6 +291,18 @@
 									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/inventory/stock-view/">Stock</a></li>
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/inventory/stock-takes/">Inventaires</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Administration</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/administration/display/">Paramètres d&#x27;affichage</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/fr/docs/administration/synchronisation/">Synchronisation</a></li>
 							
 					</ul>
 					
@@ -317,7 +317,7 @@
     <nav id="TableOfContents">
       <ul>
         
-        <li><a href="https://docs.msupply.foundation/fr/docs/roadmap/#carte-routiere">Carte routière</a></li>
+        <li><a href="https://docs.msupply.foundation/fr/docs/roadmap/#feuille-de-route">Feuille de route</a></li>
          
         <li><a href="https://docs.msupply.foundation/fr/docs/roadmap/#fonctionnalites-prevues">Fonctionnalités prévues</a></li>
          
@@ -341,10 +341,10 @@
         </div>
         
 
-        <h1>Carte routière</h1>
-         <p>This road map will be updated about once every six weeks.
-It only covers our immediate committed work stream. Our planned feature list is much larger.</p>
-<h3 id="carte-routiere">Carte routière</h3>
+        <h1>Feuille de route</h1>
+         <p>Une mise à jour de cette feuille de route est prévue toutes les six semaines.
+Elle couvre uniquement les chantiers validés en cours. La liste complète de fonctionnalités prévues est bien plus importante.</p>
+<h3 id="feuille-de-route">Feuille de route</h3>
 <style>
     body.dark text.taskTextOutside0, 
     body.dark text.taskTextOutside1, 
@@ -356,219 +356,220 @@ It only covers our immediate committed work stream. Our planned feature list is 
 <div class="mermaid" align="center">
     %%{init: {"securityLevel": "loose", "theme":"base", "themeVariables": {"darkMode": false, "primaryColor": "#f2913d", "taskTextColor": "#fff", "sectionBkgColor": "#f2913d", "sectionBkgColor2": "#3e7bfa", "altSectionBkgColor": "white" }}}%%
     gantt
- title Open mSupply Road Map
+ title Feuille de route Open mSupply
  dateFormat YY-MM-DD
  axisFormat %B
  section Version 1.0
   Piste d&#x27;audit :t1-0-1, 22-08-01 , 28d
-  Installer :22-08-10 , 14d
+  Programme d&#x27;installation :22-08-10 , 14d
   Application Android :t1-0-2, after t1-0-1 , 28d
   Application de bureau :after t1-0-1 , 21d
  section Version 1.0.4
-  Remplacement de découverte de serveur (android+desktop) :22-11-07,21d
-  Modification de la ligne de stock :t1-0-3, 22-11-07, 21d
- section Version 1.0.5
-  Intégration Fridgetag :22-11-21, 35d
-  Fractionnement des packs :after t1-0-3, 35d
- section Version 1.1
-  Intégration chaîne du froid :t1-1-1, 22-11-28, 56d
-  Modifier les patients  :t1-1-2, 22-10-01 , 28d
+  Edition de ligne de stock :t1-0-3, 22-11-07, 21d
+ section Version 1.1.0
+  Remplacement du serveur Discovery (android + PC) :22-11-07,28d
+  Migrations de bases de données :22-11-24,14d
+ section Version 1.1.1
+  Intégration des capteurs de température :22-11-21, 35d
+  Reconditionnements :after t1-0-3, 35d
+ section Version 1.1.2
+  Intégration de la fonction ColdChain :t1-1-1, 22-12-05, 56d
+  Edition de fiches patients  :t1-1-2, 22-10-01 , 35d
   Formulaires personnalisables  :after t1-0-2 , 56d
-  Programmes :t1-1-3, after t1-1-2, 21d
-  Rencontres: after t1-1-2, 21d
+  Programmes :t1-1-3, after t1-1-2, 42d
+  Consultations : after t1-1-2, 35d
   Périodes: t1-1-4, after t1-1-3, 28d
-  Caractéristique des programmes : milestone, m1, after t1-1-4, 
- section Version 2.0
+  Fonctionnalités des programmes : milestone, m1, after t1-1-4, 
+ section Version 2.0.0
   Distribution: t2-0-1, after t1-1-1, 70d
-  Préférences: t2-0-2, after t1-1-1, 28d
-  Fonctionnalité R&amp;R améliorée: after t2-0-2, 56d
+  Réglages: t2-0-2, after t1-1-1, 28d
+  Fonction R&amp;R améliorée: after t2-0-2, 56d
   Intégration DHIS2: t2-0-3, after t2-0-2, 28d
   Intégration HL7: t2-0-4, after t2-0-3, 28d
-  Délivrance : milestone, m2, after t2-0-1, 
-section Version 2.1
+  Dispensation : milestone, m2, after t2-0-1, 
+section Version 2.1.0
   Retours client: t2-1-1, after t2-0-4, 32d
   Retours fournisseur: t2-1-2, after t2-0-4, 32d
-section Version 3.0
-  Propriétés de l&#x27;objet: t3-0-1, after t2-1-1, 14d
+section Version 3.0.0
+  Propriétés article: t3-0-1, after t2-1-1, 14d
   Sérialisation: t3-0-2, after t3-0-1, 21d
   Framework de plug-in frontal: after t2-1-1, 32d
 </div>
  <h3 id="fonctionnalites-prevues">Fonctionnalités prévues</h3>
-<table><thead><tr><th>Zone</th><th>Transaction</th><th>Fonctionnalité/Capacité</th></tr></thead><tbody>
-<tr><td>QUANTIFICATION</td><td>Planification de la demande</td><td>Calcul basé sur des règles du besoin en volume de produit estimé X par niveau de distribution et périodes définies par l'utilisateur</td></tr>
+<table><thead><tr><th>Thème</th><th>Transaction</th><th>Fonctionnalité/Capacité</th></tr></thead><tbody>
+<tr><td>QUANTIFICATION</td><td>Planification de la demande</td><td>Calcul des besoins en volume basé sur des règles définis multiplié par le nombre de niveau de distribution et le nombre de périodes définies</td></tr>
 <tr><td>QUANTIFICATION</td><td>Planification de l'approvisionnement</td><td></td></tr>
-<tr><td>QUANTIFICATION</td><td>Planification de la demande</td><td>Modifier manuellement les prévisions</td></tr>
-<tr><td>APPROVISIONNEMENT</td><td>Offre/Demande de devis</td><td>Acheteur : créez un nouvel appel d'offres</td></tr>
-<tr><td>APPROVISIONNEMENT</td><td>Offre/Demande de devis</td><td>Acheteur : publier un appel d'offres auprès d'une liste de fournisseurs</td></tr>
-<tr><td>APPROVISIONNEMENT</td><td>Offre/Demande de devis</td><td>Acheteur : créer une demande de devis électronique (EDI 840)</td></tr>
-<tr><td>APPROVISIONNEMENT</td><td>Offre/Demande de devis</td><td>Acheteur : créer des prix de référence</td></tr>
-<tr><td>APPROVISIONNEMENT</td><td>Offre/Demande de devis</td><td>Fournisseurs : peuvent télécharger leur réponse dans Open mSupply (portail web)</td></tr>
-<tr><td>APPROVISIONNEMENT</td><td>Offre/Demande de devis</td><td>Acheteur : recevoir manuellement les réponses/cotations des fournisseurs</td></tr>
-<tr><td>APPROVISIONNEMENT</td><td>Offre/Demande de devis</td><td>Acheteur : recevez automatiquement les réponses/cotations des fournisseurs (portail web)</td></tr>
-<tr><td>APPROVISIONNEMENT</td><td>Offre/Demande de devis</td><td>Acheteur : recevoir une réponse électronique à une demande de devis (EDI 843 / PEPPOL)</td></tr>
-<tr><td>APPROVISIONNEMENT</td><td>Offre/Demande de devis</td><td>Acheteurs : évaluation des devis reçus</td></tr>
-<tr><td>APPROVISIONNEMENT</td><td>Offre/Demande de devis</td><td>Acheteurs : sélectionner les fournisseurs privilégiés (adjudication)</td></tr>
-<tr><td>APPROVISIONNEMENT</td><td>Offre/Demande de devis</td><td>Gestion des contrats et subventions</td></tr>
-<tr><td>APPROVISIONNEMENT</td><td>Bons de commande</td><td>Créer un bon de commande à partir d'un appel d'offres</td></tr>
-<tr><td>APPROVISIONNEMENT</td><td>Bons de commande</td><td>Créer un bon de commande calculé</td></tr>
-<tr><td>APPROVISIONNEMENT</td><td>Bons de commande</td><td>Créer un bon de commande vierge</td></tr>
-<tr><td>APPROVISIONNEMENT</td><td>Bons de commande</td><td>Créer un bon de commande électronique (EDI 850)</td></tr>
-<tr><td>APPROVISIONNEMENT</td><td>Bons de commande</td><td>Ajouter des éléments de la liste principale</td></tr>
+<tr><td>QUANTIFICATION</td><td>Planification de la demande</td><td>Modification manuelle des prévisions</td></tr>
+<tr><td>APPROVISIONNEMENT</td><td>Appels d'offre/Demande de devis</td><td>Acheteur : créer un nouvel appel d'offres</td></tr>
+<tr><td>APPROVISIONNEMENT</td><td>Appels d'offre/Demande de devis</td><td>Acheteur : publication d'appel d'offres auprès d'une liste de fournisseurs</td></tr>
+<tr><td>APPROVISIONNEMENT</td><td>Appels d'offre/Demande de devis</td><td>Acheteur : Création de demande de devis électronique (EDI 840)</td></tr>
+<tr><td>APPROVISIONNEMENT</td><td>Appels d'offre/Demande de devis</td><td>Acheteur : Création de prix de référence</td></tr>
+<tr><td>APPROVISIONNEMENT</td><td>Appels d'offre/Demande de devis</td><td>Fournisseurs : peuvent importer leur réponse dans Open mSupply (portail web)</td></tr>
+<tr><td>APPROVISIONNEMENT</td><td>Appels d'offre/Demande de devis</td><td>Acheteur : Réception manuelle de devis des fournisseurs</td></tr>
+<tr><td>APPROVISIONNEMENT</td><td>Appels d'offre/Demande de devis</td><td>Acheteur : Réception automatique de devis des fournisseurs (portail web)</td></tr>
+<tr><td>APPROVISIONNEMENT</td><td>Appels d'offre/Demande de devis</td><td>Acheteur : Réception d'une réponse électronique à une demande de devis (EDI 843 / PEPPOL)</td></tr>
+<tr><td>APPROVISIONNEMENT</td><td>Appels d'offre/Demande de devis</td><td>Acheteurs : évaluation des devis reçus</td></tr>
+<tr><td>APPROVISIONNEMENT</td><td>Appels d'offre/Demande de devis</td><td>Acheteurs : sélection des fournisseurs choisis (Attribution du travail)</td></tr>
+<tr><td>APPROVISIONNEMENT</td><td>Appels d'offre/Demande de devis</td><td>Gestion des contrats et subventions</td></tr>
+<tr><td>APPROVISIONNEMENT</td><td>Bons de commande</td><td>Création de bon de commande à partir d'un appel d'offres</td></tr>
+<tr><td>APPROVISIONNEMENT</td><td>Bons de commande</td><td>Création de bon de commande pré-rempli</td></tr>
+<tr><td>APPROVISIONNEMENT</td><td>Bons de commande</td><td>Création de bon de commande vierge</td></tr>
+<tr><td>APPROVISIONNEMENT</td><td>Bons de commande</td><td>Création de bon de commande électronique (EDI 850)</td></tr>
+<tr><td>APPROVISIONNEMENT</td><td>Bons de commande</td><td>Ajout d'articles issus de listes maitresses</td></tr>
 <tr><td>APPROVISIONNEMENT</td><td>Bons de commande</td><td>Catégories de bons de commande</td></tr>
-<tr><td>APPROVISIONNEMENT</td><td>Bons de commande</td><td>Attributs de la ligne de commande</td></tr>
+<tr><td>APPROVISIONNEMENT</td><td>Bons de commande</td><td>Attributs des lignes de commande</td></tr>
 <tr><td>APPROVISIONNEMENT</td><td>Gestion des fournisseurs</td><td>Créer/Afficher/Modifier des fournisseurs</td></tr>
-<tr><td>APPROVISIONNEMENT</td><td>Avis d'expédition préalable</td><td>Créer un ASN manuel à partir d'un bon de commande</td></tr>
-<tr><td>APPROVISIONNEMENT</td><td>Avis d'expédition préalable</td><td>Recevoir un ASN électronique (EDI 856)</td></tr>
-<tr><td>APPROVISIONNEMENT</td><td>Bonnes recettes</td><td>Imprimer un bon de réception (pdf, csv) d'un envoi entrant (lorsque le statut VÉRIFIÉ est confirmé)</td></tr>
-<tr><td>APPROVISIONNEMENT</td><td>Paiements</td><td>Imprimer un formulaire de facture fournisseur (pdf, csv) à partir d'un envoi entrant (lorsque le statut VÉRIFIÉ est confirmé)</td></tr>
-<tr><td>APPROVISIONNEMENT</td><td>Paiements</td><td>Enregistrer les paiements effectués aux fournisseurs (à partir d'une facture fournisseur)</td></tr>
-<tr><td>RÉCEPTION</td><td>Expéditions entrantes (ex Factures fournisseur)</td><td>Accepter la notification d'arrivée de l'expédition</td></tr>
-<tr><td>RÉCEPTION</td><td>Expéditions entrantes (ex Factures fournisseur)</td><td>Recevez automatiquement les données d'expédition entrantes avant l'arrivée</td></tr>
-<tr><td>RÉCEPTION</td><td>Expéditions entrantes (ex Factures fournisseur)</td><td>Enregistrer manuellement les données d'expédition entrantes avant l'arrivée</td></tr>
-<tr><td>RÉCEPTION</td><td>Expéditions entrantes (ex Factures fournisseur)</td><td>Afficher toute différence entre les quantités commandées (req ou PO) et les quantités notifiées</td></tr>
-<tr><td>RÉCEPTION</td><td>Expéditions entrantes (ex Factures fournisseur)</td><td>Informer les parties concernées des divergences</td></tr>
-<tr><td>RÉCEPTION</td><td>Expéditions entrantes (ex Factures fournisseur)</td><td>Rejeter la commande si nécessaire</td></tr>
-<tr><td>RÉCEPTION</td><td>Expéditions entrantes (ex Factures fournisseur)</td><td>Afficher les besoins de stockage en fonction du volume brut de la quantité expédiée</td></tr>
-<tr><td>RÉCEPTION</td><td>Expéditions entrantes (ex Factures fournisseur)</td><td>Afficher la quantité d'espace de stockage disponible par type</td></tr>
-<tr><td>RÉCEPTION</td><td>Expéditions entrantes (ex Factures fournisseur)</td><td>Signaler si espace de stockage insuffisant par type</td></tr>
-<tr><td>RÉCEPTION</td><td>Expéditions entrantes (ex Factures fournisseur)</td><td>Confirmer l'arrivée de l'envoi entrant</td></tr>
-<tr><td>RÉCEPTION</td><td>Expéditions entrantes (ex Factures fournisseur)</td><td>Enregistrer manuellement les données d'expédition entrantes à l'arrivée</td></tr>
-<tr><td>RÉCEPTION</td><td>Expéditions entrantes (ex Factures fournisseur)</td><td>Lecture de codes-barres pour la réception de marchandises</td></tr>
-<tr><td>RÉCEPTION</td><td>Expéditions entrantes (ex Factures fournisseur)</td><td>Signaler les écarts par rapport à l'envoi reçu</td></tr>
-<tr><td>RÉCEPTION</td><td>Expéditions entrantes (ex Factures fournisseur)</td><td>Enregistrer les informations sur les dommages, les écarts, les incompatibilités de lots, les indicateurs et les variations pour les éléments de ligne individuels</td></tr>
-<tr><td>RÉCEPTION</td><td>Expéditions entrantes (ex Factures fournisseur)</td><td>Enregistrer les notes concernant les écarts et les variations des marchandises reçues</td></tr>
-<tr><td>RÉCEPTION</td><td>Expéditions entrantes (ex Factures fournisseur)</td><td>Signaler les dommages et les anomalies aux personnes appropriées</td></tr>
-<tr><td>RÉCEPTION</td><td>Expéditions entrantes (ex Factures fournisseur)</td><td>Confirmation des marchandises en stock (mise à jour des registres d'inventaire)</td></tr>
-<tr><td>RÉCEPTION</td><td>Expéditions entrantes (ex Facture fournisseur)</td><td>Imprimer les rapports de réception, le formulaire de sortie de stock, l'autorisation de réception, etc...</td></tr>
-<tr><td>RÉCEPTION</td><td>Expéditions entrantes (ex Factures fournisseur)</td><td>Affecter un opérateur à un envoi entrant pour ranger le stock reçu</td></tr>
-<tr><td>RÉCEPTION</td><td>Expéditions entrantes (ex Factures fournisseur)</td><td>Application Rangement : chargez la liste des articles de l'expédition entrante et les instructions pour le rangement.</td></tr>
-<tr><td>RÉCEPTION</td><td>Expéditions entrantes (ex Factures fournisseur)</td><td>Afficher les conditions de stockage des articles (par exemple, température contrôlée)</td></tr>
-<tr><td>RÉCEPTION</td><td>Expéditions entrantes (ex Factures fournisseur)</td><td>Afficher l'emplacement de stockage par défaut pour chaque élément</td></tr>
-<tr><td>RÉCEPTION</td><td>Expéditions entrantes (ex Factures fournisseur)</td><td>Proposer un espace/des positions pour chaque article en stock en fonction de règles définies (par exemple, la disponibilité actuelle de l'espace, en fonction de la catégorie ABC)</td></tr>
-<tr><td>RÉCEPTION</td><td>Expéditions entrantes (ex Factures fournisseur)</td><td>Imprimer l'étiquette de la palette/étagère spécifiant le statut des marchandises, le cas échéant</td></tr>
-<tr><td>GESTION DES INVENTAIRES</td><td>Emplacements</td><td>Créer/modifier des emplacements de stockage d'inventaire (Allée, Bac, Fente, etc.)</td></tr>
-<tr><td>GESTION DES INVENTAIRES</td><td>Emplacements</td><td>Définir la hiérarchie des emplacements de stockage</td></tr>
-<tr><td>GESTION DES INVENTAIRES</td><td>Emplacements</td><td>Définir les conditions de stockage (chaîne du froid, volume, restrictions d'articles, restrictions d'utilisation, etc...)</td></tr>
-<tr><td>GESTION DES INVENTAIRES</td><td>Emplacements</td><td>Enregistrer les températures des lieux de stockage (voir catégorie CHAÎNE DU FROID)</td></tr>
-<tr><td>GESTION DES INVENTAIRES</td><td>Articles - Mouvement de stock et expiration</td><td>Enregistrer l'état VVM</td></tr>
-<tr><td>GESTION DES INVENTAIRES</td><td>Emplacements</td><td>Enregistrer l'état des conditions gelées</td></tr>
-<tr><td>GESTION DES INVENTAIRES</td><td>Articles - Données de base</td><td>Définir les conditions de seuil de température par produit, le cas échéant</td></tr>
-<tr><td>GESTION DES INVENTAIRES</td><td>Articles - Mouvement de stock et expiration</td><td>Conditions d'alerte hors seuil</td></tr>
-<tr><td>GESTION DES INVENTAIRES</td><td>Articles - Mouvement de stock et expiration</td><td>Suivre les lots et les dates d'expiration</td></tr>
-<tr><td>GESTION DES INVENTAIRES</td><td>Articles - Mouvement de stock et expiration</td><td>Transférer le stock d'un endroit à un autre</td></tr>
-<tr><td>GESTION DES INVENTAIRES</td><td>Articles - Mouvement de stock et expiration</td><td>Afficher et transmettre des alertes et des notifications pour les expirations en attente</td></tr>
-<tr><td>GESTION DES INVENTAIRES</td><td>Articles - Mouvement de stock et expiration</td><td>Afficher et transmettre des alertes et des notifications de rupture de stock, de surstock, de sous-stock</td></tr>
-<tr><td>GESTION DES INVENTAIRES</td><td>Articles - Données de base</td><td>Signaler les articles comme dangereux, le cas échéant</td></tr>
-<tr><td>GESTION DES INVENTAIRES</td><td>Inventaire</td><td>Créer/modifier un inventaire pour une liste d'articles</td></tr>
-<tr><td>GESTION DES INVENTAIRES</td><td>Inventaire</td><td>Filtrer le stock à intégrer : par attributs article (catégorie, rayon, date de péremption, etc...)</td></tr>
-<tr><td>GESTION DES INVENTAIRES</td><td>Inventaire</td><td>Filtrer le stock à inclure : par emplacement</td></tr>
-<tr><td>GESTION DES INVENTAIRES</td><td>Inventaire</td><td>Filtrez le stock à inclure : par liste principale</td></tr>
-<tr><td>GESTION DES INVENTAIRES</td><td>Inventaire</td><td>Imprimer les fiches d'inventaire (format PDF)</td></tr>
-<tr><td>GESTION DES INVENTAIRES</td><td>Inventaire</td><td>Imprimer les fiches d'inventaire (format CSV)</td></tr>
-<tr><td>GESTION DES INVENTAIRES</td><td>Inventaire</td><td></td></tr>
-<tr><td>GESTION DES INVENTAIRES</td><td>Inventaire</td><td>Appli d'inventaire : chargez la feuille d'inventaire sur un appareil mobile</td></tr>
-<tr><td>GESTION DES INVENTAIRES</td><td>Inventaire</td><td>Application d'inventaire : utilisez un lecteur de codes-barres/appareil photo d'un appareil mobile pour sélectionner l'article que l'opérateur compte</td></tr>
-<tr><td>GESTION DES INVENTAIRES</td><td>Inventaire</td><td>Lecture de codes-barres pour l'inventaire</td></tr>
-<tr><td>GESTION DES INVENTAIRES</td><td>Inventaire</td><td>Créer des ajustements d'inventaire (finaliser l'inventaire)</td></tr>
-<tr><td>GESTION DES INVENTAIRES</td><td>Inventaire</td><td>Ajouter des motifs d'ajustement d'inventaire</td></tr>
-<tr><td>GESTION DES INVENTAIRES</td><td>Inventaire</td><td>Comptage de cycles</td></tr>
-<tr><td>GESTION DES INVENTAIRES</td><td>Kits</td><td></td></tr>
-<tr><td>GESTION DES INVENTAIRES</td><td>Ajustements d'inventaire</td><td></td></tr>
-<tr><td>GESTION DES INVENTAIRES</td><td>Reconditionne</td><td></td></tr>
-<tr><td>GESTION DES INVENTAIRES</td><td>Articles - Mouvement de stock et expiration</td><td>Ligne de stock fractionnée</td></tr>
-<tr><td>GESTION DES INVENTAIRES</td><td>Articles - Mouvement de stock et expiration</td><td>Fusionner la ligne de stock</td></tr>
-<tr><td>GESTION DES INVENTAIRES</td><td>Réapprovisionnements Pickface</td><td></td></tr>
-<tr><td>GESTION DES INVENTAIRES</td><td>Gestion du travail</td><td>Créer/modifier des opérateurs d'entrepôt</td></tr>
-<tr><td>ENVOI</td><td>Expédition sortante</td><td>Créer un bordereau de prélèvement à partir d'un envoi sortant alloué</td></tr>
-<tr><td>ENVOI</td><td>Expédition sortante</td><td>Bordereau de prélèvement : Afficher le(s) emplacement(s) actuel(s) pour les articles réquisitionnés</td></tr>
-<tr><td>ENVOI</td><td>Expédition sortante</td><td>Bordereau de prélèvement : créer un bordereau de prélèvement trié par emplacements de stockage</td></tr>
-<tr><td>ENVOI</td><td>Expédition sortante</td><td>Bordereau de prélèvement : Afficher la date de péremption du stock</td></tr>
-<tr><td>ENVOI</td><td>Expédition sortante</td><td>Application de bordereau de prélèvement : chargez un bordereau de prélèvement sur un appareil mobile.</td></tr>
-<tr><td>ENVOI</td><td>Expédition sortante</td><td>Lecture de codes-barres et préparation de commandes</td></tr>
-<tr><td>ENVOI</td><td>Expédition sortante</td><td>Confirmer l'expédition sortante comme prélevée</td></tr>
-<tr><td>ENVOI</td><td>Expédition sortante</td><td>Commande de pack</td></tr>
-<tr><td>ENVOI</td><td>Expédition sortante</td><td>Pack Commande : Carton / cartonisation</td></tr>
-<tr><td>ENVOI</td><td>Expédition sortante</td><td>Imprimer les documents de livraison : liste de colisage, facture client, bon de réception</td></tr>
-<tr><td>ENVOI</td><td>Expédition sortante</td><td>Confirmer l'expédition sortante comme expédiée (Mise à jour de Translation types fiches d'inventaire)</td></tr>
-<tr><td>TRANSPORTS</td><td>Ordre/demande de transport</td><td>Projet d'ordre de transport</td></tr>
-<tr><td>TRANSPORTS</td><td>Ordre/demande de transport</td><td>Attribuez une ou plusieurs expéditions sortantes &quot;cueillies&quot; à l'ordre de transport (même trajet ou lieu)</td></tr>
-<tr><td>TRANSPORTS</td><td>Ordre/demande de transport</td><td>Déterminer la charge utile, le volume et les dimensions</td></tr>
-<tr><td>TRANSPORTS</td><td>Ordre/demande de transport</td><td>Sélectionnez le mode et le type de transport</td></tr>
-<tr><td>TRANSPORTS</td><td>Ordre/demande de transport</td><td>Déterminer les exigences de contrôle de la température</td></tr>
-<tr><td>TRANSPORTS</td><td>Ordre/demande de transport</td><td>Confirmer l'ordre de transport</td></tr>
-<tr><td>TRANSPORTS</td><td>Ordre/demande de transport</td><td>Planifier les ressources de transport</td></tr>
-<tr><td>TRANSPORTS</td><td>Ordre/demande de transport</td><td>Enregistrer/Afficher les instructions de livraison</td></tr>
-<tr><td>TRANSPORTS</td><td>Ordre/demande de transport</td><td>Enregistrer/afficher le numéro de suivi, le véhicule, le conducteur</td></tr>
-<tr><td>TRANSPORTS</td><td>Ordre/demande de transport</td><td>Confirmer que les envois sortants ont été chargés</td></tr>
-<tr><td>TRANSPORTS</td><td>Ordre/demande de transport</td><td>Suivre l'emplacement et mettre à jour l'ETA</td></tr>
-<tr><td>TRANSPORTS</td><td>Ordre/demande de transport</td><td>Enregistrer l'historique du transport (lieu, température)</td></tr>
-<tr><td>TRANSPORTS</td><td>Ordre/demande de transport</td><td>Confirmer la livraison / imprimer/envoyer une preuve de livraison</td></tr>
+<tr><td>APPROVISIONNEMENT</td><td>Avis préalable d'expédition</td><td>Créer un APE manuel à partir d'un bon de commande</td></tr>
+<tr><td>APPROVISIONNEMENT</td><td>Avis préalable d'expédition</td><td>Recevoir un APE électronique (EDI 856)</td></tr>
+<tr><td>APPROVISIONNEMENT</td><td>Bons de livraison</td><td>Impression de bons de livraison (pdf, csv) à partir d'une livraison (lorsque le statut VÉRIFIÉ est confirmé)</td></tr>
+<tr><td>APPROVISIONNEMENT</td><td>Paiements</td><td>Impression de facture fournisseur (pdf, csv) à partir d'une livraison (lorsque le statut VÉRIFIÉ est confirmé)</td></tr>
+<tr><td>APPROVISIONNEMENT</td><td>Paiements</td><td>Enregistrement des paiements faits aux fournisseurs (à partir d'une facture fournisseur)</td></tr>
+<tr><td>LIVRAISON</td><td>Livraisons (ex Factures fournisseur)</td><td>Accepter la notification d'arrivée de l'expédition</td></tr>
+<tr><td>LIVRAISON</td><td>Livraisons (ex Factures fournisseur)</td><td>Réception automatique des données de livraisons avant l'arrivée</td></tr>
+<tr><td>LIVRAISON</td><td>Livraisons (ex Factures fournisseur)</td><td>Enregistrement manuel des données de livraisons avant l'arrivée</td></tr>
+<tr><td>LIVRAISON</td><td>Livraisons (ex Factures fournisseur)</td><td>Affichage des différence entre les quantités commandées (requisition ou PO) et les quantités notifiées</td></tr>
+<tr><td>LIVRAISON</td><td>Livraisons (ex Factures fournisseur)</td><td>Notifier les structures concernées des différences</td></tr>
+<tr><td>LIVRAISON</td><td>Livraisons (ex Factures fournisseur)</td><td>Rejet de la commande si nécessaire</td></tr>
+<tr><td>LIVRAISON</td><td>Livraisons (ex Factures fournisseur)</td><td>Affichage des besoins de stockage en fonction des quantités expédiées</td></tr>
+<tr><td>LIVRAISON</td><td>Livraisons (ex Factures fournisseur)</td><td>Affichage de l'espace de stockage disponible par type de stockage</td></tr>
+<tr><td>LIVRAISON</td><td>Livraisons (ex Factures fournisseur)</td><td>Signalement en case d'espace de stockage insuffisant (par type de stockage)</td></tr>
+<tr><td>LIVRAISON</td><td>Livraisons (ex Factures fournisseur)</td><td>Confirmation de l'arrivée de la livraison</td></tr>
+<tr><td>LIVRAISON</td><td>Livraisons (ex Factures fournisseur)</td><td>Enregistrement manuel des données de livraison à l'arrivée</td></tr>
+<tr><td>LIVRAISON</td><td>Livraisons (ex Factures fournisseur)</td><td>Scan de codes barres pour la réception de marchandises</td></tr>
+<tr><td>LIVRAISON</td><td>Livraisons (ex Factures fournisseur)</td><td>Signalement des différences par rapport aux marchandises reçues</td></tr>
+<tr><td>LIVRAISON</td><td>Livraisons (ex Factures fournisseur)</td><td>Enregistrement des indicateurs et données en cas de dégradations, anomalies, non concordance des lots par ligne d'articles</td></tr>
+<tr><td>LIVRAISON</td><td>Livraisons (ex Factures fournisseur)</td><td>Rédaction de notes en cas d'anomalies et variations des marchandises reçues</td></tr>
+<tr><td>LIVRAISON</td><td>Livraisons (ex Factures fournisseur)</td><td>Signalement des dégradations et anomalies aux intervenants appropriés</td></tr>
+<tr><td>LIVRAISON</td><td>Livraisons (ex Factures fournisseur)</td><td>Confirmation du transfert des marchandises dans le stock (mise à jour des registres d'inventaire)</td></tr>
+<tr><td>LIVRAISON</td><td>Livraisons (ex Facture fournisseur)</td><td>Impression de bons de réception, de formulaire de sortie de stock, autorisations de réception, etc...</td></tr>
+<tr><td>LIVRAISON</td><td>Livraisons (ex Factures fournisseur)</td><td>Affectation d'un opérateur à une livraison pour la mise en rayon</td></tr>
+<tr><td>LIVRAISON</td><td>Livraisons (ex Factures fournisseur)</td><td>Application de Mise en rayon : affichage de la liste des articles livrés et des instructions pour le rayonnage.</td></tr>
+<tr><td>LIVRAISON</td><td>Livraisons (ex Factures fournisseur)</td><td>Affichage des règles de stockage des articles (par ex, contrôle des températures)</td></tr>
+<tr><td>LIVRAISON</td><td>Livraisons (ex Factures fournisseur)</td><td>Affichage de l'emplacement de stockage par défaut pour chaque article</td></tr>
+<tr><td>LIVRAISON</td><td>Livraisons (ex Factures fournisseur)</td><td>Proposition d'un espace de stockage pour chaque article en fonction de règles définies (par ex, disponibilité actuelle de l'espace, catégories ABC)</td></tr>
+<tr><td>LIVRAISON</td><td>Livraisons (ex Factures fournisseur)</td><td>Impression d'étiquettes pour palettes/étagères spécifiant le statut des marchandises, le cas échéant</td></tr>
+<tr><td>GESTION DES STOCKS</td><td>Emplacements</td><td>Créer/modifier les emplacements de stockage (Allée, Bac, rayons , etc.)</td></tr>
+<tr><td>GESTION DES STOCKS</td><td>Emplacements</td><td>Définition de la hiérarchie des emplacements de stockage</td></tr>
+<tr><td>GESTION DES STOCKS</td><td>Emplacements</td><td>Définition des conditions de stockage (chaîne du froid, volume, restrictions selon les articles, restrictions selon utilisation, etc...)</td></tr>
+<tr><td>GESTION DES STOCKS</td><td>Emplacements</td><td>Enregistrement des températures par lieux de stockage (voir catégorie CHAÎNE DU FROID)</td></tr>
+<tr><td>GESTION DES STOCKS</td><td>Articles - Mouvement de stock et expiration</td><td>Enregistrement du statut PCV (Pastille de contrôle du vaccins)</td></tr>
+<tr><td>GESTION DES STOCKS</td><td>Emplacements</td><td>Enregistrement du statut des conditions de congelation</td></tr>
+<tr><td>GESTION DES STOCKS</td><td>Articles - Listes maitresses</td><td>Définition des niveaux de seuil de température par produit, le cas échéant</td></tr>
+<tr><td>GESTION DES STOCKS</td><td>Articles - Mouvement de stock et expiration</td><td>Alertes en cas de dépassement des seuils</td></tr>
+<tr><td>GESTION DES STOCKS</td><td>Articles - Mouvement de stock et expiration</td><td>Suivi des lots et dates d'expiration</td></tr>
+<tr><td>GESTION DES STOCKS</td><td>Articles - Mouvement de stock et expiration</td><td>Transfer de stock d'un emplacement à un autre</td></tr>
+<tr><td>GESTION DES STOCKS</td><td>Articles - Mouvement de stock et expiration</td><td>Affichage et envoi d'alertes/notifications pour les expirations en cours</td></tr>
+<tr><td>GESTION DES STOCKS</td><td>Articles - Mouvement de stock et expiration</td><td>Affichage et envoi d'alertes et notifications en case de rupture de stock, surstock, sous-stock</td></tr>
+<tr><td>GESTION DES STOCKS</td><td>Articles - Listes maitresses</td><td>Signalement d'articles dangereux, le cas échéant</td></tr>
+<tr><td>GESTION DES STOCKS</td><td>Inventaire</td><td>Créer/modifier un inventaire pour une liste d'articles</td></tr>
+<tr><td>GESTION DES STOCKS</td><td>Inventaire</td><td>Filtres pour le stock à inclure : par attributs d'article (catégorie, rayon, date de péremption, etc...)</td></tr>
+<tr><td>GESTION DES STOCKS</td><td>Inventaire</td><td>Filtres pour le stock à inclure : par emplacement</td></tr>
+<tr><td>GESTION DES STOCKS</td><td>Inventaire</td><td>Filtres le stock à inclure : par liste maitresse</td></tr>
+<tr><td>GESTION DES STOCKS</td><td>Inventaire</td><td>Impression des fiches d'inventaire (format PDF)</td></tr>
+<tr><td>GESTION DES STOCKS</td><td>Inventaire</td><td>Impression des fiches d'inventaire (format CSV)</td></tr>
+<tr><td>GESTION DES STOCKS</td><td>Inventaire</td><td></td></tr>
+<tr><td>GESTION DES STOCKS</td><td>Inventaire</td><td>Application d'inventaire : charger la feuille d'inventaire sur un appareil mobile</td></tr>
+<tr><td>GESTION DES STOCKS</td><td>Inventaire</td><td>Application d'inventaire : Enregistrement d'un article dans l'inventaire avec un lecteur de codes barres / appareil photo d'un téléphone mobile</td></tr>
+<tr><td>GESTION DES STOCKS</td><td>Inventaire</td><td>Lecture de codes barres pour l'inventaire</td></tr>
+<tr><td>GESTION DES STOCKS</td><td>Inventaire</td><td>Créer des ajustements d'inventaire (pour finaliser l'inventaire)</td></tr>
+<tr><td>GESTION DES STOCKS</td><td>Inventaire</td><td>Ajout de notes en cas d'ajustement d'inventaire</td></tr>
+<tr><td>GESTION DES STOCKS</td><td>Inventaire</td><td>Décomptes de cycles</td></tr>
+<tr><td>GESTION DES STOCKS</td><td>Kits</td><td></td></tr>
+<tr><td>GESTION DES STOCKS</td><td>Ajustements d'inventaire</td><td></td></tr>
+<tr><td>GESTION DES STOCKS</td><td>Reconditionnements</td><td></td></tr>
+<tr><td>GESTION DES STOCKS</td><td>Articles - Mouvement de stock et expiration</td><td>Fractionner des lignes de stock</td></tr>
+<tr><td>GESTION DES STOCKS</td><td>Articles - Mouvement de stock et expiration</td><td>Fusionner des lignes de stock</td></tr>
+<tr><td>GESTION DES STOCKS</td><td>Réapprovisionnement des emplacements (Pickface)</td><td></td></tr>
+<tr><td>GESTION DES STOCKS</td><td>Gestion des opérateurs</td><td>Créer/modifier des opérateurs d'entrepôt</td></tr>
+<tr><td>DISPATCH</td><td>Expédition</td><td>Création de bordereau de prélèvement à partir d'une expédition alloué</td></tr>
+<tr><td>DISPATCH</td><td>Expédition</td><td>Bordereau de prélèvement : Afficher le(s) emplacement(s) actuel(s) pour les articles réquisitionnés</td></tr>
+<tr><td>DISPATCH</td><td>Expédition</td><td>Bordereau de prélèvement : créer un bordereau de prélèvement organisé par emplacements de stockage</td></tr>
+<tr><td>DISPATCH</td><td>Expédition</td><td>Bordereau de prélèvement : Afficher les dates de péremption du stock</td></tr>
+<tr><td>DISPATCH</td><td>Expédition</td><td>Application de bordereau de prélèvement : charger un bordereau de prélèvement sur un appareil mobile.</td></tr>
+<tr><td>DISPATCH</td><td>Expédition</td><td>Lecture de codes barres et préparation de commandes</td></tr>
+<tr><td>DISPATCH</td><td>Expédition</td><td>Confirmation de l'expédition comme préparée</td></tr>
+<tr><td>DISPATCH</td><td>Expédition</td><td>Commande en pack</td></tr>
+<tr><td>DISPATCH</td><td>Expédition</td><td>Commande en pack : boites / mise en carton</td></tr>
+<tr><td>DISPATCH</td><td>Expédition</td><td>Impression de documents pour l'expédition : liste de colisage, facture client, bon de livraison</td></tr>
+<tr><td>DISPATCH</td><td>Expédition</td><td>Confirmation de l'envoi de l'expédition (Mise à jour des registres d'inventaire)</td></tr>
+<tr><td>TRANSPORTS</td><td>Commande/demande de transport</td><td>Rédaction des commandes de transport</td></tr>
+<tr><td>TRANSPORTS</td><td>Commande/demande de transport</td><td>Attribution d'une ou plusieurs expéditions &quot;préparées&quot; à la commande de transport (même trajet ou destination)</td></tr>
+<tr><td>TRANSPORTS</td><td>Commande/demande de transport</td><td>Définition de la charge utile, du volume et des dimensions</td></tr>
+<tr><td>TRANSPORTS</td><td>Commande/demande de transport</td><td>Sélectionner le mode et le type de transport</td></tr>
+<tr><td>TRANSPORTS</td><td>Commande/demande de transport</td><td>Définition des critères de contrôle de la température</td></tr>
+<tr><td>TRANSPORTS</td><td>Commande/demande de transport</td><td>Confirmation de la commande de transport</td></tr>
+<tr><td>TRANSPORTS</td><td>Commande/demande de transport</td><td>Planification des ressources de transport</td></tr>
+<tr><td>TRANSPORTS</td><td>Commande/demande de transport</td><td>Enregistrer/Afficher les instructions de livraison</td></tr>
+<tr><td>TRANSPORTS</td><td>Commande/demande de transport</td><td>Enregistrer/afficher le numéro de suivi, le véhicule, le conducteur</td></tr>
+<tr><td>TRANSPORTS</td><td>Commande/demande de transport</td><td>Confirmation du chargement de l'expédition</td></tr>
+<tr><td>TRANSPORTS</td><td>Commande/demande de transport</td><td>Suivi de la localisation et mise à jour de l'ETA (Heure d'arrivée prévue)</td></tr>
+<tr><td>TRANSPORTS</td><td>Commande/demande de transport</td><td>Enregistrement de l'historique de transport (localisation, température)</td></tr>
+<tr><td>TRANSPORTS</td><td>Commande/demande de transport</td><td>Confirmation de la livraison / imprimer/envoyer une preuve de livraison</td></tr>
 <tr><td>TRANSPORTS</td><td>Transporteur</td><td>Créer/modifier des transporteurs</td></tr>
 <tr><td>TRANSPORTS</td><td>Itinéraire</td><td>Créer/modifier des itinéraires</td></tr>
 <tr><td>TRANSPORTS</td><td>Gestion de flotte</td><td></td></tr>
-<tr><td>DEMANDES</td><td>Requête générale Réquisition (Commande int.)</td><td>Suggérez des quantités de commande en fonction des données de consommation passées (par exemple, AMC)</td></tr>
-<tr><td>DEMANDES</td><td>Requête générale Réquisition (Commande int.)</td><td>Suggérer des quantités de commande en fonction du seuil de quantité minimum</td></tr>
-<tr><td>DEMANDES</td><td>Requête générale Réquisition (Commande int.)</td><td>Suggérez des quantités de commande en fonction des dossiers des patients / des données du registre</td></tr>
-<tr><td>DEMANDES</td><td>Requête générale Réquisition (Commande int.)</td><td>estimer les besoins de stock en agrégeant les demandes par niveaux intermédiaires</td></tr>
-<tr><td>DEMANDES</td><td>Requête générale Réquisition (Commande int.)</td><td>estimer les besoins en stocks en fonction des populations cibles</td></tr>
-<tr><td>DEMANDES</td><td>Requête générale Réquisition (Commande int.)</td><td>estimer les quantités de besoins de stock sur la base de prévisions statistiques</td></tr>
-<tr><td>DEMANDES</td><td>Requête générale Réquisition (Commande int.)</td><td>estimer le point des besoins en stock en fonction de critères définis par l'utilisateur</td></tr>
-<tr><td>DEMANDES</td><td>Requête générale Réquisition (Commande int.)</td><td>Afficher les données de consommation passées</td></tr>
-<tr><td>DEMANDES</td><td>Requête générale Réquisition (Commande int.)</td><td>Afficher la quantité actuelle disponible et utilisable de chaque article en stock</td></tr>
-<tr><td>DEMANDES</td><td>Requête générale Réquisition (Commande int.)</td><td>Afficher la commande ouverte et les envois entrants</td></tr>
-<tr><td>DEMANDES</td><td>Requête générale Réquisition (Commande int.)</td><td>Afficher les commandes sortantes ouvertes et l'utilisation projetée</td></tr>
-<tr><td>DEMANDES</td><td>Requête générale Réquisition (Commande int.)</td><td>Afficher les niveaux de stock actuels (SOH) à tous les niveaux pertinents</td></tr>
-<tr><td>DEMANDES</td><td>Requête générale Réquisition (Commande int.)</td><td>Afficher les dates de péremption du stock disponible</td></tr>
-<tr><td>DEMANDES</td><td>Requête générale Réquisition (Commande int.)</td><td>Générer des quantités de commande suggérées (demandées - SOH) = Qté suggérée</td></tr>
-<tr><td>DEMANDES</td><td>Requête générale Réquisition (Commande int.)</td><td>Afficher le délai d'exécution de la commande</td></tr>
-<tr><td>DEMANDES</td><td>Requête générale Réquisition (Commande int.)</td><td>Afficher le coût de l'article au moment où la demande est générée</td></tr>
-<tr><td>DEMANDES</td><td>Requête générale Réquisition (Commande int.)</td><td>Calculer le coût de la commande au moment où la demande est générée</td></tr>
-<tr><td>DEMANDES</td><td>Requête générale Réquisition (Commande int.)</td><td>Soumettre la demande (électroniquement ou manuellement)</td></tr>
-<tr><td>DEMANDES</td><td>Requête générale Réquisition (Commande int.)</td><td>Fournir un mécanisme d'approbation/de rejet aux niveaux appropriés</td></tr>
-<tr><td>DEMANDES</td><td>Requête générale Réquisition (Commande int.)</td><td>L'approbateur peut modifier la demande, si nécessaire</td></tr>
-<tr><td>DEMANDES</td><td>Requête générale Réquisition (Commande int.)</td><td>Enregistrer la date d'approbation de la demande</td></tr>
-<tr><td>DISTRIBUTION PAR PATIENT</td><td>Distribution</td><td>Enregistrer les médicaments délivrés à un patient individuel</td></tr>
-<tr><td>DISTRIBUTION PAR PATIENT</td><td>Ordonnance</td><td>Créer/modifier une ordonnance</td></tr>
-<tr><td>DISTRIBUTION PAR PATIENT</td><td>Ordonnance</td><td>Abréviations</td></tr>
-<tr><td>DISTRIBUTION PAR PATIENT</td><td>Ordonnance</td><td>Groupe Interactions médicamenteuses</td></tr>
-<tr><td>DISTRIBUTION PAR PATIENT</td><td>Ordonnance</td><td>Paiements et reçus / caisse enregistreuse</td></tr>
-<tr><td>DISTRIBUTION PAR PATIENT</td><td>Ordonnance</td><td>Créer/modifier des patients</td></tr>
-<tr><td>DISTRIBUTION PAR PATIENT</td><td>Ordonnance</td><td>Créer/modifier des prescripteurs</td></tr>
-<tr><td>DISTRIBUTION PAR PATIENT</td><td>Ordonnance</td><td>Répétitions</td></tr>
-<tr><td>APPROVISIONNEMENT</td><td>Bonne réception pour vérifier le stock sur les bons de commande</td><td>Créer une entrée de marchandises / un envoi entrant</td></tr>
-<tr><td>APPROVISIONNEMENT</td><td>Bonne réception pour vérifier le stock sur les bons de commande</td><td>Ajouter des lignes d'un bon de commande à un envoi entrant</td></tr>
-<tr><td>CHAÎNE DU FROID</td><td>Surveillance de la température</td><td>Afficher et transmettre des alertes en cas de dépassement de température (tableau de bord de l'écran d'accueil), affecter un ou plusieurs capteurs de température à un emplacement de stockage, définir un seuil par article</td></tr>
-<tr><td>CHAÎNE DU FROID</td><td>Surveillance de la température</td><td>Synchronisation des relevés de température vers le serveur pour alimenter le tableau de bord mSupply (via l'application Cold Chain)</td></tr>
-<tr><td>CHAÎNE DU FROID</td><td>Surveillance de la température</td><td>Intégration avec les enregistreurs de température Berlinger et l'onglet réfrigérateur</td></tr>
+<tr><td>RÉQUISITIONS</td><td>Réquisition Générale (Commande interne)</td><td>Suggestion des quantités à commander en fonction de l'historique des données de consommation (par exemple, CMM)</td></tr>
+<tr><td>RÉQUISITIONS</td><td>Réquisition Générale (Commande interne)</td><td>Suggestion des quantités à commander en fonction du seuil minimum de quantité</td></tr>
+<tr><td>RÉQUISITIONS</td><td>Réquisition Générale (Commande interne)</td><td>Suggestion des quantités à commander en fonction des données de dossiers/registres patients</td></tr>
+<tr><td>RÉQUISITIONS</td><td>Réquisition Générale (Commande interne)</td><td>Estimation des besoins de stock en agrégeant les réquisitions des niveaux intermédiaires</td></tr>
+<tr><td>RÉQUISITIONS</td><td>Réquisition Générale (Commande interne)</td><td>Estimation des besoins de stocks en fonction des populations cibles</td></tr>
+<tr><td>RÉQUISITIONS</td><td>Réquisition Générale (Commande interne)</td><td>Estimation des quantités de stock à commander sur la base de prévisions statistiques</td></tr>
+<tr><td>RÉQUISITIONS</td><td>Réquisition Générale (Commande interne)</td><td>estimation des points de besoins en stock sur la base de critères définis par l'utilisateur</td></tr>
+<tr><td>RÉQUISITIONS</td><td>Réquisition Générale (Commande interne)</td><td>Afficher l'historique des données de consommation</td></tr>
+<tr><td>RÉQUISITIONS</td><td>Réquisition Générale (Commande interne)</td><td>Afficher la quantité actuelle disponible et utilisable de chaque article en stock</td></tr>
+<tr><td>RÉQUISITIONS</td><td>Réquisition Générale (Commande interne)</td><td>Affichage des commandes en cours et des livraisons</td></tr>
+<tr><td>RÉQUISITIONS</td><td>Réquisition Générale (Commande interne)</td><td>Affichage des expéditions  en cours et de l'utilisation prévue</td></tr>
+<tr><td>RÉQUISITIONS</td><td>Réquisition Générale (Commande interne)</td><td>Afficher les niveaux de stock actuels (SOH) à tous les niveaux nécessaires</td></tr>
+<tr><td>RÉQUISITIONS</td><td>Réquisition Générale (Commande interne)</td><td>Afficher les dates de péremption du stock disponible</td></tr>
+<tr><td>RÉQUISITIONS</td><td>Réquisition Générale (Commande interne)</td><td>Générer des quantités à commander suggérées (demandées - SOH) = Qté suggérée</td></tr>
+<tr><td>RÉQUISITIONS</td><td>Réquisition Générale (Commande interne)</td><td>Afficher le délai d'exécution de la commande</td></tr>
+<tr><td>RÉQUISITIONS</td><td>Réquisition Générale (Commande interne)</td><td>Afficher le coût de l'article au moment où la réquisition est générée</td></tr>
+<tr><td>RÉQUISITIONS</td><td>Réquisition Générale (Commande interne)</td><td>Calculer le coût de la commande au moment où la réquisition est générée</td></tr>
+<tr><td>RÉQUISITIONS</td><td>Réquisition Générale (Commande interne)</td><td>Soumettre la réquisition (de façon électronique ou manuelle)</td></tr>
+<tr><td>RÉQUISITIONS</td><td>Réquisition Générale (Commande interne)</td><td>Mise à disposition d'un mécanisme de validation/refus de la réquisition aux niveaux appropriés</td></tr>
+<tr><td>RÉQUISITIONS</td><td>Réquisition Générale (Commande interne)</td><td>L'approbateur peut modifier la réquisition, si nécessaire</td></tr>
+<tr><td>RÉQUISITIONS</td><td>Réquisition Générale (Commande interne)</td><td>Enregistrer la date de validation de la réquisition</td></tr>
+<tr><td>DISTRIBUTION PATIENT</td><td>Dispensation</td><td>Enregistrer les médicaments délivrés à un patient individuel</td></tr>
+<tr><td>DISTRIBUTION PATIENT</td><td>Ordonnance</td><td>Créer/modifier une ordonnance</td></tr>
+<tr><td>DISTRIBUTION PATIENT</td><td>Ordonnance</td><td>Abréviations</td></tr>
+<tr><td>DISTRIBUTION PATIENT</td><td>Ordonnance</td><td>Interactions médicamenteuses groupées</td></tr>
+<tr><td>DISTRIBUTION PATIENT</td><td>Ordonnance</td><td>Paiements et reçus / caisse enregistreuse</td></tr>
+<tr><td>DISTRIBUTION PATIENT</td><td>Ordonnance</td><td>Créer/modifier des patients</td></tr>
+<tr><td>DISTRIBUTION PATIENT</td><td>Ordonnance</td><td>Créer/modifier des prescripteurs</td></tr>
+<tr><td>DISTRIBUTION PATIENT</td><td>Ordonnance</td><td>Renouvellement</td></tr>
+<tr><td>APPROVISIONNEMENT</td><td>Bon de réception pour vérifier le stock sur les bons de commande</td><td>Créer un bon de réception / une livraison</td></tr>
+<tr><td>APPROVISIONNEMENT</td><td>Bon de réception pour vérifier le stock sur les bons de commande</td><td>Ajouter des lignes d'un bon de commande à une livraison</td></tr>
+<tr><td>CHAÎNE DU FROID</td><td>Contrôle des températures</td><td>Affichage et envoi d'alertes en cas d'excursions de température (sur le tableau de bord de l'écran d'accueil), affectation d'un ou plusieurs capteurs de température à un emplacement de stockage, définition du seuil de température par article</td></tr>
+<tr><td>CHAÎNE DU FROID</td><td>Contrôle des températures</td><td>Synchronisation des relevés de température vers le serveur pour alimenter le tableau de bord mSupply (via l'application Cold Chain)</td></tr>
+<tr><td>CHAÎNE DU FROID</td><td>Contrôle des températures</td><td>Intégration avec les capteurs de froid et registres de température Berlinger</td></tr>
 <tr><td>SYNC</td><td>Transfert de synchronisation</td><td>https://github.com/openmsupply/open-msupply/issues/608</td></tr>
-<tr><td>SYSTÈME GLOBAL</td><td>Autorisation utilisateur</td><td>Accès utilisateur variable intégré</td></tr>
-<tr><td>SYSTÈME GLOBAL</td><td>Devise</td><td>Capacité à supporter plusieurs devises et leur taux de change</td></tr>
-<tr><td>SYSTÈME GLOBAL</td><td>N'importe lequel</td><td>Télécharger des documents numérisés</td></tr>
-<tr><td>APPROVISIONNEMENT</td><td>Gérer les modèles</td><td>Capacité à maintenir des modèles</td></tr>
-<tr><td>TABLEAUX DE BORD</td><td>Afficher les données sur les tableaux de bord</td><td>Rapports sur la consommation des stocks</td></tr>
+<tr><td>SYSTÈME GÉNÉRAL</td><td>Autorisation utilisateur</td><td>Différents accès utilisateur intégrés</td></tr>
+<tr><td>SYSTÈME GÉNÉRAL</td><td>Devise</td><td>Capacité à supporter plusieurs devises et leur taux de change</td></tr>
+<tr><td>SYSTÈME GÉNÉRAL</td><td>Tous</td><td>Importation de documents numérisés</td></tr>
+<tr><td>APPROVISIONNEMENT</td><td>Gestion des templates</td><td>Capacité à maintenir des templates</td></tr>
+<tr><td>TABLEAUX DE BORD</td><td>Affichage des données</td><td>Rapports sur la consommation</td></tr>
 <tr><td>APPROVISIONNEMENT</td><td>Bons de commande</td><td>Tous les approbateurs peuvent accéder au système pour approuver les formulaires d'approvisionnement</td></tr>
-<tr><td>DEMANDES</td><td>Requête générale Réquisition (Commande int.)</td><td>Modèle de demande intuitif avec menus déroulants</td></tr>
-<tr><td>DEMANDES</td><td>Requête générale Réquisition (Commande int.)</td><td>Les articles demandés peuvent être acheminés pour être libérés ou achetés</td></tr>
-<tr><td>APPROVISIONNEMENT</td><td>Ajouter des notes et traiter les renonciations</td><td>Capacité de documenter les notes au dossier et les renonciations au processus d'approvisionnement</td></tr>
-<tr><td>SYSTÈME GLOBAL</td><td>N'importe lequel</td><td>Possibilité de stocker des contrats et des notes de réception de marchandises (GRN) dans le système</td></tr>
-<tr><td>APPROVISIONNEMENT</td><td>Référencement</td><td>Faciliter la correspondance à 3 voies pour les paiements des fournisseurs (PO, GRN, facture)</td></tr>
-<tr><td>APPROVISIONNEMENT</td><td>Bons de commande</td><td>Notifier le changement de statut du bon de commande à différents utilisateurs ou lorsque le bon de commande complet n'est pas rempli</td></tr>
-<tr><td>APPROVISIONNEMENT</td><td>Informations correspondantes</td><td>Les modules d'approvisionnement et d'inventaire communiquent entre eux les données sur les marchandises reçues, les bons de commande et les listes principales</td></tr>
-<tr><td>ENVOI</td><td>Expédition sortante</td><td>Envoyer une notification d'expédition sortante approuvée</td></tr>
-<tr><td>ENVOI</td><td>Expédition sortante</td><td>Système d'approbation des expéditions sortantes</td></tr>
-<tr><td>APPROVISIONNEMENT</td><td>Générer un bon de livraison</td><td>Générer un bon de livraison et une lettre de voiture/liste de colisage</td></tr>
-<tr><td>TRANSPORTS</td><td>Fiche technique du véhicule</td><td>Enregistrement pour chaque véhicule avec les paramètres clés (VIN, modèle, plaque, type de carburant, année modèle, données et numéro d'enregistrement, date et numéro de police d'assurance, prix, etc.)</td></tr>
-<tr><td>TRANSPORTS</td><td>Rapports</td><td>Suivre les données mensuelles clés du véhicule (nombre de jours d'utilisation et de réparation du véhicule, km parcourus, relevé du compteur kilométrique, coût du carburant, litres de carburant consommés)</td></tr>
-<tr><td>TRANSPORTS</td><td>Rapports</td><td>&quot;Suivez les données mensuelles clés du générateur (heures de fonctionnement, coûts de maintenance, carburant consommé)</td></tr>
-<tr><td>Ajouter des notifications lorsque les niveaux attendus ne sont pas atteints&quot;</td><td></td><td></td></tr>
-<tr><td>TRANSPORTS</td><td>Rapports</td><td>&quot;Suivre les réparations par véhicule et groupe électrogène (type, date, coût, pièces détachées &amp; consommables utilisés)</td></tr>
-<tr><td>Ajouter des notifications lorsque les niveaux attendus ne sont pas atteints&quot;</td><td></td><td></td></tr>
-<tr><td>TRANSPORTS</td><td>Interopérabilité</td><td>Peut être intégré au matériel de suivi des véhicules pour capturer les kilomètres parcourus</td></tr>
-<tr><td>TRANSPORTS</td><td>Général</td><td>Envoyer des notifications lorsque des documents clés arrivent bientôt à expiration (assurance, enregistrement, etc.)</td></tr>
-<tr><td>SYSTÈME GLOBAL</td><td>Commentaires</td><td>Les utilisateurs peuvent communiquer sur la plateforme (c'est-à-dire laisser des commentaires pendant le processus d'approbation)</td></tr>
-<tr><td>APPEL D'OFFRE</td><td>Général</td><td>Gérer le processus d'appel d'offres</td></tr>
-<tr><td>APPEL D'OFFRE</td><td>Général</td><td>maintenir une liste de prix fixes pour les fournisseurs privilégiés</td></tr>
-<tr><td>APPEL D'OFFRE</td><td>Général</td><td>maintenir une liste standard de produits avec des prix estimés</td></tr>
+<tr><td>RÉQUISITIONS</td><td>Réquisition Générale (Commande interne)</td><td>Template de réquisition intuitif avec menus déroulants</td></tr>
+<tr><td>RÉQUISITIONS</td><td>Réquisition Générale (Commande interne)</td><td>Les articles de la réquisition peuvent être acheminés pour transfert ou distribution</td></tr>
+<tr><td>APPROVISIONNEMENT</td><td>Ajout de notes et dérogations aux procédures</td><td>Capacité d'ajouter des notes aux dossiers et dérogations au processus d'approvisionnement</td></tr>
+<tr><td>SYSTÈME GÉNÉRAL</td><td>Tous</td><td>Possibilité d'enregistrer des contrats et des accusé de réception dans le système</td></tr>
+<tr><td>APPROVISIONNEMENT</td><td>Référencement</td><td>Faciliter la validation avec 3 références pour les paiements des fournisseurs (Bons de commande, Accusé de réception, facture)</td></tr>
+<tr><td>APPROVISIONNEMENT</td><td>Bons de commande</td><td>Notifier le changement de statut du bon de commande à différents utilisateurs ou lorsque le bon de commande n'est pas complet</td></tr>
+<tr><td>APPROVISIONNEMENT</td><td>Correspondance des informations</td><td>Les modules d'approvisionnement et d'inventaire se transmettent les données sur les marchandises reçues, les bons de commande et les listes maitresses</td></tr>
+<tr><td>DISPATCH</td><td>Expédition</td><td>Envoi d'une notification pour la validation d'une expédition</td></tr>
+<tr><td>DISPATCH</td><td>Expédition</td><td>Système de validation des expéditions</td></tr>
+<tr><td>APPROVISIONNEMENT</td><td>Générer un bon de livraison</td><td>Générer un bon de livraison et une feuille de route/liste de colisage</td></tr>
+<tr><td>TRANSPORTS</td><td>Fiche technique du véhicule</td><td>Enregistrement pour chaque véhicule des  paramètres clés (VIN, modèle, plaque, type de carburant, année de production, données et numéro d'enregistrement, date et numéro de police d'assurance, prix, etc.)</td></tr>
+<tr><td>TRANSPORTS</td><td>Rapports</td><td>Suivi mensuel des données clés du véhicule (nombre de jours d'utilisation du véhicule et jours de réparation, km parcourus, relevé du compteur kilométrique, coût du carburant, litres de carburant consommés)</td></tr>
+<tr><td>TRANSPORTS</td><td>Rapports</td><td>Suivi mensuel des données clés du moteur (heures de fonctionnement, coûts de maintenance, carburant consommé)</td></tr>
+<tr><td>TRANSPORTS</td><td>Rapports</td><td>Ajout de notifications lorsque les niveaux attendus ne sont pas atteints</td></tr>
+<tr><td>TRANSPORTS</td><td>Rapports</td><td>Suivi des réparations par véhicule et moteurs (type, date, coût, pièces détachées &amp; consommables utilisés)</td></tr>
+<tr><td>TRANSPORTS</td><td>Interopérabilité</td><td>Intégration possible au système de tracking des véhicules pour capturer les kilomètres parcourus</td></tr>
+<tr><td>TRANSPORTS</td><td>Général</td><td>Envoi de notifications lorsque des contrats clés arrivent bientôt à expiration (assurance, enregistrement, etc.)</td></tr>
+<tr><td>SYSTÈME GÉNÉRAL</td><td>Commentaires</td><td>Les utilisateurs peuvent communiquer sur la plateforme (c'est-à-dire laisser des commentaires pendant le processus de validation)</td></tr>
+<tr><td>APPEL D'OFFRE</td><td>Général</td><td>Gestion du processus d'appel d'offres</td></tr>
+<tr><td>APPEL D'OFFRE</td><td>Général</td><td>maintien d'une liste de prix fixes pour des fournisseurs sélectionnés</td></tr>
+<tr><td>APPEL D'OFFRE</td><td>Général</td><td>maintien d'une liste standard de produits avec estimation des prix</td></tr>
 </tbody></table>
   
 <div class="docs-navigation d-flex justify-content-between">
@@ -577,12 +578,13 @@ section Version 3.0
   
   
   
-    
-    
-    
-    
-      
-    
+  <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;fr&#x2F;docs&#x2F;introduction&#x2F;">
+    <div class="card my-1">
+      <div class="card-body py-2">
+        &larr; Introduction à Open mSupply
+      </div>
+    </div>
+  </a>
   
 
   
@@ -590,14 +592,13 @@ section Version 3.0
   
   
   
-    
-    
-    
-      
-      
-        
-      
-    
+    <a class="ms-auto" href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;fr&#x2F;docs&#x2F;dashboard&#x2F;">
+      <div class="card my-1">
+        <div class="card-body py-2">
+          Tableau de bord &rarr;
+        </div>
+      </div>
+    </a>
   
 </div>
 
