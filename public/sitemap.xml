@@ -262,10 +262,26 @@
         <loc>https://docs.msupply.foundation/mobile/</loc>
     </url>
     <url>
+        <loc>https://docs.msupply.foundation/mobile/customer-inv/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/mobile/customer-requisitions/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/mobile/getting-started/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
+    </url>
+    <url>
         <loc>https://docs.msupply.foundation/mobile/images/</loc>
     </url>
     <url>
         <loc>https://docs.msupply.foundation/mobile/introduction/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/mobile/msupply-mobile-demo/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
