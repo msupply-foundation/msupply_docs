@@ -42,29 +42,28 @@ Click **New Invoice**
 
 Add the customer you are wanting to send stock to 
 
-[<img src="/_media/en:mobile:user_guide:pasted:20210909-002141.png?w=800&amp;tok=9de498" class="mediacenter" loading="lazy" alt="" width="800" />](/_detail/en:mobile:user_guide:pasted:20210909-002141.png?id=en%3Amobile%3Auser_guide%3Acustomer_inv)
+![Add the customer](/mobile/images/add_customer_to_invoice.png)
 ----
 ### Add items to the customer invoice
 
 You can add items to the customer invoice one by one - to do this, tap on **New Item**.
 
-[<img src="/_media/en:mobile:user_guide:customer_invoice_new_item.png?w=800&amp;tok=e78f8c" class="mediacenter" loading="lazy" alt="" width="800" />](/_detail/en:mobile:user_guide:customer_invoice_new_item.png?id=en%3Amobile%3Auser_guide%3Acustomer_inv)
+![Custom invoices button on Navigator](/mobile/images/customer_invoice_new_item.png)
 
 Start typing to search for the item.
-[<img src="/_media/en:mobile:user_guide:search_item.png?w=800&amp;tok=d1403b" class="mediacenter" loading="lazy" alt="" width="800" />](/_detail/en:mobile:user_guide:search_item.png?id=en%3Amobile%3Auser_guide%3Acustomer_inv)
-
+![Custom invoices button on Navigator](/mobile/images/search_item.png)
 If you have a lot of items to add to the invoice, it can be slow to add them one by one.
 
 To add a lot of items at once, click **Add Master List Items**.
-[<img src="/_media/en:mobile:user_guide:customer_invoice_add_master_list_items.png?w=800&amp;tok=166c2a" class="mediacenter" loading="lazy" alt="" width="800" />](/_detail/en:mobile:user_guide:customer_invoice_add_master_list_items.png?id=en%3Amobile%3Auser_guide%3Acustomer_inv)
+![Custom invoices button on Navigator](/mobile/images/customer_invoice_add_master_list_items.png)
 
 Select one or more master lists from the list. Only master lists visible to the customer are shown.
 
-[<img src="/_media/en:mobile:user_guide:select_master_list.png?w=800&amp;tok=2d69d9" class="mediacenter" loading="lazy" alt="" width="800" />](/_detail/en:mobile:user_guide:select_master_list.png?id=en%3Amobile%3Auser_guide%3Acustomer_inv)
+![Custom invoices button on Navigator](/mobile/images/select_master_list.png)
 
 The items on the selected master list(s) will then automatically appear in the customer invoice.
 
-[<img src="/_media/en:mobile:user_guide:customer_invoice_master_list.png?w=800&amp;tok=fd04e1" class="mediacenter" loading="lazy" alt="" width="800" />](/_detail/en:mobile:user_guide:customer_invoice_master_list.png?id=en%3Amobile%3Auser_guide%3Acustomer_inv)
+![Custom invoices button on Navigator](/mobile/images/customer_invoice_master_list.png)
 ----
 ### When you have finished
 

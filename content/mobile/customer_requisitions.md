@@ -22,17 +22,17 @@ On the home screen, an orange badge on the Customer Requisitions button indicate
 
 Tap on the **Customer Requisitions** button to review the Customer Requisitions. 
 
-[<img src="/_media/en:mobile:user_guide:pasted:20210224-032745.png?w=600&amp;tok=bd48eb" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:pasted:20210224-032745.png?id=en%3Amobile%3Auser_guide%3Acustomer_requisitions)
+![Custom invoices button on Navigator](/mobile/images/customer_requisitions1.png)
 
 **Current** Customer Requisitions are displayed by default. You can review finalised requisitions by tapping on **Past**.
 
 Tap on the Customer Requisition you want to review (in this example, we are going to tap on the Requisition ID 7). 
 
-[<img src="/_media/en:mobile:user_guide:pasted:20210224-035407.png?w=600&amp;tok=9a9b6a" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:pasted:20210224-035407.png?id=en%3Amobile%3Auser_guide%3Acustomer_requisitions)
+![Custom invoices button on Navigator](/mobile/images/current_customer_requisitions.png)
 
 You can now review the Customer Requisition before finalising it.
 
-[<img src="/_media/en:mobile:user_guide:pasted:20210224-042632.png?w=600&amp;tok=5fa9a9" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:pasted:20210224-042632.png?id=en%3Amobile%3Auser_guide%3Acustomer_requisitions)
+![Custom invoices button on Navigator](/mobile/images/customer_requisitions_finalise.png)final_customer
 
   * **Max MOS:** The number of months worth of stock to supply
   * **Current Stock:** this will be auto-filled with your current quantity of stock for this item. 
@@ -52,9 +52,9 @@ When you are completely sure that everything is correct, tap the **Finalise** bu
 
 Finalising the requisition will also generate a finalised [customer invoice](/en:mobile:user_guide:customer_inv).
 
-[<img src="/_media/en:mobile:user_guide:pasted:20210224-045053.png?w=600&amp;tok=8e6512" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:pasted:20210224-045053.png?id=en%3Amobile%3Auser_guide%3Acustomer_requisitions)
+![Custom invoices button on Navigator](/mobile/images/customer_invoice_final.png)
 
-[<img src="/_media/en:mobile:user_guide:pasted:20210224-045210.png?w=600&amp;tok=2de2cc" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:pasted:20210224-045210.png?id=en%3Amobile%3Auser_guide%3Acustomer_requisitions)
+![Custom invoices button on Navigator](/mobile/images/customer_invoice_final2.png)
 
 
 

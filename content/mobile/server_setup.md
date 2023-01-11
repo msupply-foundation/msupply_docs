@@ -43,7 +43,7 @@ EACH individual mobile store needs to have the following steps done on the serve
 3. Configure the mobile store section 4 of this guide
 4. Create user(s) to access the store section 5 of this guide
 
-Items 1 and 2 can now be carried out using the Sync site wizard. See [here](https://docs.msupply.org.nz/synchronisation:site_wizard)
+Items 1 and 2 can now be carried out using the Sync site wizard. See [here](https://docs.msupply.org.nz/synchronisation:sync_sites)
 
 
 ### Custom settings

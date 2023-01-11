@@ -13,13 +13,13 @@ toc = true
 top = false
 +++
 
-[<img src="/_media/banner_mobile_userguide.png?w=600&amp;tok=9b9def" class="media" loading="lazy" title="mSupply Mobile User Guide menu" alt="mSupply Mobile User Guide menu" width="600" />](/en:mobile:user_guide)
+![Custom invoices button on Navigator](/mobile/images/customer_new_requisitions.png)
 
 Usually, when a customer order stocks from you, they create a Supplier Requisition in their system. This will appear as a Customer Requisition in your system. You can also enter a manual customer requisition to record paper or phone orders from program customers.  
 
 Tap `Customer Requisitions`>`New Requisition`
 
-[<img src="/_media/en:mobile:user_guide:pasted:20201125-223424.png?w=800&amp;tok=f49181" class="mediacenter" loading="lazy" alt="" width="800" />](/_detail/en:mobile:user_guide:pasted:20201125-223424.png?id=en%3Amobile%3Auser_guide%3Acustomer_requisitions_program_orders)
+![Custom invoices button on Navigator](/mobile/images/customer_requisitions_seslect.png)
 
 ### Select the Customer, Program, Order Type and Period
 
@@ -61,7 +61,8 @@ For emergency orders:
 Tap `OK` and review the customer requisition
 
 The requisition is created and is populated with all program items.  
-[<img src="/_media/en:mobile:user_guide:pasted:20201125-224232.png?w=800&amp;tok=36fca3" class="mediacenter" loading="lazy" alt="" width="800" />](/_detail/en:mobile:user_guide:pasted:20201125-224232.png?id=en%3Amobile%3Auser_guide%3Acustomer_requisitions_program_orders)
+
+![Custom invoices button on Navigator](/mobile/images/customer_requisitions_items.png)c
 
 The items are displayed alphabetically.  You can reorder the items by clicking on the column header for the category that you wish to order the items.  Click on the same column again if you wish to reverse the order. 
 
@@ -78,7 +79,8 @@ There are two sets of columns for data entry.  The first is **Customer Data** wh
 ### Entering customer data
 
 Tap on the cell that you wish to update:
-[<img src="/_media/en:mobile:user_guide:pasted:20201125-224302.png?w=800&amp;tok=c65903" class="mediacenter" loading="lazy" alt="" width="800" />](/_detail/en:mobile:user_guide:pasted:20201125-224302.png?id=en%3Amobile%3Auser_guide%3Acustomer_requisitions_program_orders)
+
+![Custom invoices button on Navigator](/mobile/images/customer_requisitions_enter_data.png)
 
 **Open:** opening balance - this will be auto-filled with the closing balance from the previous period. However, this cell can also be edited if the opening balance is different. 
 
@@ -102,7 +104,7 @@ Tap on the cell that you wish to update:
 
 Tap on the cell that you wish to update:
 
-[<img src="/_media/en:mobile:user_guide:pasted:20201125-224325.png?w=800&amp;tok=1ad306" class="mediacenter" loading="lazy" alt="" width="800" />](/_detail/en:mobile:user_guide:pasted:20201125-224325.png?id=en%3Amobile%3Auser_guide%3Acustomer_requisitions_program_orders)
+![Custom invoices button on Navigator](/mobile/images/customer_requisition_enter_supply_data.png)
 
 ** Current Stock:** this will be auto-filled with your current quantity of stock for this item. 
 

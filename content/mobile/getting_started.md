@@ -173,6 +173,7 @@ The **Customer Invoices** button shows a list of orders sent TO your customers a
 
 The **Customer Requisitions** button shows a list of orders placed BY customers requesting stock from your store. 
 
+
 #### Suppliers
 
 The **Suppliers** area shows orders that you have placed and received for **your own stock**. Usually, you will only have ONE supplier (a medical store or other healthcare facility) and this will be pre-programmed for you. 

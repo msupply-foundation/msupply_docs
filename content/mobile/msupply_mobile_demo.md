@@ -21,13 +21,13 @@ The mSupply Mobile demo site is now hosted on: [https://demo.msupply.org](https:
 
 # Request a Demo Store
 
-[<img src="/_media/misc:under_development:pasted:20210716-052943.png" class="mediacenter" loading="lazy" alt="" />](/_detail/misc:under_development:pasted:20210716-052943.png?id=en%3Amobile%3Auser_guide%3Amsupply_mobile_demo)
+![Custom invoices button on Navigator](/mobile/images/request_a_demo.png)
 
 After starting mSupply mobile on the Android tablet, you will see a screen like the above for the first time. Click on the "Request a Demo Store" button to request credentials for the new store.
 
 # Enter your details
 
-[<img src="/_media/misc:under_development:pasted:20210716-053042.png" class="mediacenter" loading="lazy" alt="" />](/_detail/misc:under_development:pasted:20210716-053042.png?id=en%3Amobile%3Auser_guide%3Amsupply_mobile_demo)
+![Custom invoices button on Navigator](/mobile/images/enter_details.png)
 
 On the above screen a unique user name, a valid e-mail address and password are required. Please note down the password as this will be needed later. 
 Our mSupply mobile username and password guidelines are available [here](https://docs.msupply.foundation/en:mobile:setup:server_side:users#setting_up_store_access_for_users)
@@ -66,33 +66,42 @@ You may log in as a user once the store setup has been completed. You will be sh
 # Using the module
 
 Once setup is complete, you'll end up with a mobile navigation screen that looks like this:
-[<img src="/_media/en:mobile:user_guide:mobile_navigation_screen-1.jpg?w=600&amp;tok=94c065" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:mobile_navigation_screen-1.jpg?id=en%3Amobile%3Auser_guide%3Amsupply_mobile_demo)
+![Custom invoices button on Navigator](/mobile/images/use_module.png)
 
 ## Vaccination module
 
 The vaccination module only works after when you have stock.  So, to see how the Vaccination module works, you must carry out a stock take to add some stock. 
 
-  * Click on **Stocktake**[<img src="/_media/en:mobile:user_guide:stocktake_click_copy-1.jpeg?w=600&amp;tok=e315fd" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:stocktake_click_copy-1.jpeg?id=en%3Amobile%3Auser_guide%3Amsupply_mobile_demo)
-  * Create a New Stocktake by clicking on **New Stocktake**[<img src="/_media/en:mobile:user_guide:new_stocktake_button-1.jpg?w=600&amp;tok=d0d936" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:new_stocktake_button-1.jpg?id=en%3Amobile%3Auser_guide%3Amsupply_mobile_demo)
+  * Click on **Stocktake**
+
+  ![Custom invoices button on Navigator](/mobile/images/vaccination_module.png)
+
+  * Create a New Stocktake by clicking on **New Stocktake**
+
+  ![Custom invoices button on Navigator](/mobile/images/new_stocktake.png)
 
   1. Search for the item **Astrazeneca covid vaccine** from the list
   1. Select it
   1. Give your stocktake a name at the bottom left
   1. Click on **Create**
 
-[<img src="/_media/en:mobile:user_guide:manage_stocktake-1.jpg?w=600&amp;tok=09a011" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:manage_stocktake-1.jpg?id=en%3Amobile%3Auser_guide%3Amsupply_mobile_demo)
+![Custom invoices button on Navigator](/mobile/images/manage_stocktake.png)
 
   1. Enter any value (greater than 0) in the **Actual Quantity** column
-  1. Tap the **FINALISE** icon.[<img src="/_media/en:mobile:user_guide:stocktake_finalise-1.jpg?w=600&amp;tok=32723f" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:stocktake_finalise-1.jpg?id=en%3Amobile%3Auser_guide%3Amsupply_mobile_demo)
+  1. Tap the **FINALISE** icon.
+
+![Custom invoices button on Navigator](/mobile/images/stocktake_finalise.png)
 
   * Click **Confirm**
 
-[<img src="/_media/en:mobile:user_guide:confirm_stocktake-1.jpg?w=600&amp;tok=e89c04" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:confirm_stocktake-1.jpg?id=en%3Amobile%3Auser_guide%3Amsupply_mobile_demo)
+![Custom invoices button on Navigator](/mobile/images/confirm_stocktake.png)
 
   * Go back to navigation screen and click on the **Vaccinations** module.
 
 * Now you should be able to see the Search Patient lookup window as the first step.
-[<img src="/_media/en:mobile:user_guide:patient_search-1.jpg?w=600&amp;tok=2058b0" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:patient_search-1.jpg?id=en%3Amobile%3Auser_guide%3Amsupply_mobile_demo)
+
+![Custom invoices button on Navigator](/mobile/images/patient_search.png)
+
 You may now search a patient and carry out a vaccinations.
 
 Good luck! :-)
