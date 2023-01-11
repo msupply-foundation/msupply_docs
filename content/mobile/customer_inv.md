@@ -32,12 +32,13 @@ They have ordered:
 
 The **Customer Invoice** button will bring up a list of invoices. If you haven't finished working on an invoice and you have not confirmed it, you can click on it now to bring it up and keep working on it.
 
-[<img src="/_media/mobile:011customerinvoices.jpg?w=600&amp;tok=ba8ca7" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/mobile:011customerinvoices.jpg?id=en%3Amobile%3Auser_guide%3Acustomer_inv)
+![Custom invoices button on Navigator](/mobile/images/customerinvoices.jpg)
+
 ----
 ### Start a new customer invoice
 
 Click **New Invoice**
-[<img src="/_media/en:mobile:user_guide:pasted:20210909-001509.png?w=800&amp;tok=072055" class="mediacenter" loading="lazy" alt="" width="800" />](/_detail/en:mobile:user_guide:pasted:20210909-001509.png?id=en%3Amobile%3Auser_guide%3Acustomer_inv)
+![Custom invoices button on Navigator](/mobile/images/new_customer_invoice.png)
 
 Add the customer you are wanting to send stock to 
 

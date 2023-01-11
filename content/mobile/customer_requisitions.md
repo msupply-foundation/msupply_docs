@@ -35,9 +35,9 @@ You can now review the Customer Requisition before finalising it.
 [<img src="/_media/en:mobile:user_guide:pasted:20210224-042632.png?w=600&amp;tok=5fa9a9" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:pasted:20210224-042632.png?id=en%3Amobile%3Auser_guide%3Acustomer_requisitions)
 
   * **Max MOS:** The number of months worth of stock to supply
-  * ** Current Stock:** this will be auto-filled with your current quantity of stock for this item. 
+  * **Current Stock:** this will be auto-filled with your current quantity of stock for this item. 
   * **Their Stock:** this will be auto-filled your customer current quantity of stock for this item. 
-  * **Monthly Use:** calculated as *average monthly consumption=(outgoing stock*average number of days a month)/(days in period-days out of stock)*.
+  * **Monthly Use:** calculated as *average monthly consumption=(outgoing stock*average number of days a month)/(days in period-days out of stock).
   * **Suggested Quantity:** calculated as *suggested quantity=(monthly consumption*months to supply)-stock on hand*.
   * **Requested Quantity:** this will be auto-filled by the quantity requested by the customer.
   * **Supply this Invoice:** editable cell for the current time period.  You can also use the auto-fill buttons in the header:
