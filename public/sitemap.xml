@@ -262,6 +262,10 @@
         <loc>https://docs.msupply.foundation/mobile/</loc>
     </url>
     <url>
+        <loc>https://docs.msupply.foundation/mobile/cash-register/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
+    </url>
+    <url>
         <loc>https://docs.msupply.foundation/mobile/customer-inv/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
@@ -274,6 +278,40 @@
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
+        <loc>https://docs.msupply.foundation/mobile/dispensing_vaccines/</loc>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/mobile/dispensing_vaccines/adverse-drug-reactions/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/mobile/dispensing_vaccines/dispensing/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/mobile/dispensing_vaccines/images/</loc>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/mobile/dispensing_vaccines/setup/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/mobile/dispensing_vaccines/vaccination-dashboards/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/mobile/dispensing_vaccines/vaccine-dispensing/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/mobile/dispensing_vaccines/vaccine/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/mobile/dispensing_vaccines/web-apps/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
+    </url>
+    <url>
         <loc>https://docs.msupply.foundation/mobile/getting-started/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
@@ -281,11 +319,67 @@
         <loc>https://docs.msupply.foundation/mobile/images/</loc>
     </url>
     <url>
+        <loc>https://docs.msupply.foundation/mobile/indicators/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
+    </url>
+    <url>
         <loc>https://docs.msupply.foundation/mobile/introduction/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
+        <loc>https://docs.msupply.foundation/mobile/items_stock/</loc>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/mobile/items_stock/current-stock/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/mobile/items_stock/images/</loc>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/mobile/items_stock/stocktakes-program/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/mobile/items_stock/stocktakes/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/mobile/mobile-dashboard/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/mobile/mobile-settings/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
+    </url>
+    <url>
         <loc>https://docs.msupply.foundation/mobile/msupply-mobile-demo/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/mobile/order_and_receive/</loc>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/mobile/order_and_receive/images/</loc>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/mobile/order_and_receive/ordering-and-receiving/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/mobile/order_and_receive/supplier-invoices-returns/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/mobile/order_and_receive/supplier-invoices/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/mobile/order_and_receive/supplier-requisitions-program/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/mobile/order_and_receive/supplier-requisitions/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
