@@ -1,5 +1,5 @@
 +++
-title = "Introduction"
+title = "Dispensing"
 description = "mSupply mobile- Open source Android application."
 date = 2025-05-01T08:00:00+00:00
 updated = 2021-05-01T08:00:00+00:00
@@ -8,14 +8,14 @@ weight = 1
 template = "mobile/page.html"
 
 [extra]
-lead = "Welcome to mSupply Mobile!"
+lead = "Dispensing prescriptions to patients"
 toc = true
 top = false
 +++
 
-# Dispensing
 
-Dispensing mode only shows if the store is configured correctly on the server. Read how [here](/en:mobile:setup:server_side:config)
+Dispensary mode only shows if the store is configured correctly on the server. 
+Read how [here](/en:mobile:setup:server_side:config)
 
 ## Patients
 

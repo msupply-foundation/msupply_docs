@@ -1,5 +1,5 @@
 +++
-title = "Introduction"
+title = "Stocktakes"
 description = "mSupply mobile- Open source Android application."
 date = 2025-05-01T08:00:00+00:00
 updated = 2021-05-01T08:00:00+00:00
@@ -8,13 +8,11 @@ weight = 1
 template = "mobile/page.html"
 
 [extra]
-lead = "Welcome to mSupply Mobile!"
 toc = true
 top = false
 +++
 
 [<img src="/_media/banner_mobile_userguide.png?w=600&amp;tok=9b9def" class="media" loading="lazy" title="mSupply Mobile User Guide menu" alt="mSupply Mobile User Guide menu" width="600" />](/en:mobile:user_guide)
-----## Stocktakes (General)
 
 mSupply Mobile will automatically keep track of your stock levels for you, as you receive stock and give it out. 
 
