@@ -1,5 +1,5 @@
 +++
-title = "Introduction"
+title = "Ordering and Receiving"
 description = "mSupply mobile- Open source Android application."
 date = 2025-05-01T08:00:00+00:00
 updated = 2021-05-01T08:00:00+00:00
@@ -8,13 +8,10 @@ weight = 1
 template = "mobile/page.html"
 
 [extra]
-lead = "Welcome to mSupply Mobile!"
+lead = "Ordering and Receiving stock from suppliers"
 toc = true
 top = false
 +++
-
-[<img src="/_media/banner_mobile_userguide.png?w=600&amp;tok=9b9def" class="media" loading="lazy" title="mSupply Mobile User Guide menu" alt="mSupply Mobile User Guide menu" width="600" />](/en:mobile:user_guide)
-----## Ordering and Receiving stock from suppliers
 
 In mSupply Mobile, incoming stock is handled differently depending on whether it is coming from an:
 

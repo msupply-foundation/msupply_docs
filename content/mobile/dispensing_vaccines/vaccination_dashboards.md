@@ -1,19 +1,18 @@
 +++
-title = "Introduction"
+title = "Vaccination Dashboards"
 description = "mSupply mobile- Open source Android application."
 date = 2025-05-01T08:00:00+00:00
 updated = 2021-05-01T08:00:00+00:00
 sort_by = "weight"
-weight = 1
+weight = 6
 template = "mobile/page.html"
 
 [extra]
-lead = "Welcome to mSupply Mobile!"
+lead = "Vaccination Monitoring Dashboards"
 toc = true
 top = false
 +++
 
-# Vaccination Monitoring Dashboards
 
 If you are using mSupply mobile for registering participants, dispensing vaccines, and recording adverse events, then you need a mechanism to report on all this information, and to manage your program.
 The mSupply dashboard is your friend. We have created a series of dashboards specifically for these tasks.

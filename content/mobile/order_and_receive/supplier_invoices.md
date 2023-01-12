@@ -1,5 +1,5 @@
 +++
-title = "Introduction"
+title = "Supplier Invoices"
 description = "mSupply mobile- Open source Android application."
 date = 2025-05-01T08:00:00+00:00
 updated = 2021-05-01T08:00:00+00:00
@@ -8,13 +8,11 @@ weight = 1
 template = "mobile/page.html"
 
 [extra]
-lead = "Welcome to mSupply Mobile!"
+lead = "Receiving Stock from suppliers"
 toc = true
 top = false
 +++
 
-[<img src="/_media/banner_mobile_userguide.png?w=600&amp;tok=9b9def" class="media" loading="lazy" title="mSupply Mobile User Guide menu" alt="mSupply Mobile User Guide menu" width="600" />](/en:mobile:user_guide)
-----## Supplier Invoices
 
 Supplier Invoices will appear in your system automatically once they have been created by your Internal Supplier, either when the  [Supplying store processes your Supplier Requisition](/en:mobile:user_guide:ordering_and_receiving#supplying_store_processes_requisition), or if they **'push'** stock to your store and manually create a Customer Invoice (CI) in their store.
 
