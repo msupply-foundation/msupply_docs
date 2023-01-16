@@ -15,35 +15,43 @@ top = false
 
 If you would like to order some stock from your supplier, tap on **Supplier Requisitions**. 
 
-[<img src="/_media/en:mobile:user_guide:pasted:20210201-214456.png?w=600&amp;tok=05d412" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:pasted:20210201-214456.png?id=en%3Amobile%3Auser_guide%3Asupplier_requisitions)
+![Custom invoices button on Navigator](/mobile/images/supplier_requisitions_GO.png)
 
 ### Current Supplier Requisitions
 
 The Supplier Requisition window will start by displaying **Current** requisitions.  
 
-[<img src="/_media/en:mobile:user_guide:pasted:20210201-214525.png?w=600&amp;tok=388b51" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:pasted:20210201-214525.png?id=en%3Amobile%3Auser_guide%3Asupplier_requisitions)
+![Custom invoices button on Navigator](/mobile/images/current_supplier_requisitions_GO.png)
 
 These are the requisitions that are **In Progress** (see the **Status** column).  These are supplier requisitions that you have not yet sent off to your supplying store.  You can tap on any **In Progress** requisitions to open and continue work.
 
+<div class="tip">
+
 **In Progress** Supplier Requisitions in mSupply Mobile are the same as mSupply Desktop Internal Orders with status = `sg`.
+</div>
+<div class="note">
 
  The orange badge above **Supplier Requisitions** on the home page tells you if there are any unfinalised supplier requisitions - in the screenshots above, you can see that there is one unfinalised supplier requisition.
+</div>
 
 ### Past Supplier Requisitions
 
 To view past Supplier Requisitions, tap the **Past** tab.  
 
-[<img src="/_media/en:mobile:user_guide:pasted:20210201-214600.png?w=600&amp;tok=57bd58" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:pasted:20210201-214600.png?id=en%3Amobile%3Auser_guide%3Asupplier_requisitions)
+![Custom invoices button on Navigator](/mobile/images/past_supplier_requisitions.png)
 
 The list of past requisitions will all have a **Status** of **Finalised**. You can tap on any row to view a finalised requisition.  However, no further changes can be made to finalised requisitions.
 
+<div class="tip">
+
 **Finalised** Supplier Requisitions in mSupply Mobile are the same as mSupply Desktop Internal Orders with status = `fn`.
+</div>
 
 ### New Supplier Requisition
 
 If you wish to create a new requisition, tap on **New Requisition**.
 
-[<img src="/_media/en:mobile:user_guide:pasted:20210201-215333.png?w=600&amp;tok=bcffff" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:pasted:20210201-215333.png?id=en%3Amobile%3Auser_guide%3Asupplier_requisitions)
+![Custom invoices button on Navigator](/mobile/images/new_supplier_requisitions.png)
 
 ### Adding items to a Supplier Requisition
 
@@ -51,14 +59,15 @@ If you wish to create a new requisition, tap on **New Requisition**.
 
 If you only have a few items, tap **New Item**. This is the best option for small orders.
 
-[<img src="/_media/en:mobile:user_guide:pasted:20210201-220006.png?w=600&amp;tok=0f1102" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:pasted:20210201-220006.png?id=en%3Amobile%3Auser_guide%3Asupplier_requisitions)
+![Custom invoices button on Navigator](/mobile/images/addding_items_requisition.png)
 
 Start typing to search for the item.
 
-[<img src="/_media/en:mobile:user_guide:pasted:20210201-215756.png?w=600&amp;tok=e6cc0c" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:pasted:20210201-215756.png?id=en%3Amobile%3Auser_guide%3Asupplier_requisitions)
+ ![Custom invoices button on Navigator](/mobile/images/adding_items_search.png)
 
 In this case, we need to purchase **Ibuprofen 200mg tablets** so we select this item. 
-[<img src="/_media/en:mobile:user_guide:pasted:20210202-013508.png?w=600&amp;tok=c27261" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:pasted:20210202-013508.png?id=en%3Amobile%3Auser_guide%3Asupplier_requisitions)
+
+ ![Custom invoices button on Navigator](/mobile/images/adding_items_search2.png)
 
 When you select an item, it will be added to the requisition. The following information is provided about the item:
 
@@ -68,6 +77,8 @@ When you select an item, it will be added to the requisition. The following info
   * **Suggested Quantity**: how much stock mSupply Mobile suggests that you order.  This is calculated as:
     * **Monthly Use** x **Max MOS** - **Current Stock**
     * So, for the above example for Ibuprofen 200mg tablets,  **Suggested Quantity** = (**453** x **2**) - **80** = **827**
+
+<div class="tip">
 
 What should **Max MOS** be set to?
 
@@ -87,31 +98,35 @@ Then:
 
   * Max MOS = **1** + **1** + **2** = 4
 
-  *** Requested Quantity**: this is set to zero by default. You can do either of the following:
-    * Accept the **Suggested Quantities** by tapping on the **Use Suggested Quantities** button.  This populates all cells.
-    * Change the values manually by tapping in the cell and changing the number.  You can also do this after accepting the **Suggested Quantities** by tapping on the **Use Suggested Quantities** button.
+  </div>
+
+* **Requested Quantity**: This is set to zero by default. You can do either of the following:
+  * Accept the **Suggested Quantities** by tapping on the **Use Suggested Quantities** button.  This populates all cells.
+  * Change the values manually by tapping in the cell and changing the number.  You can also do this after accepting the **Suggested Quantities** by tapping on the **Use Suggested Quantities** button.
 
 #### Larger Orders
 
 If you have a lot of items to order (for example, when you are placing your main order), it can be slow to add them one by one.
 
-To add a lot of items at once, tap `Add Master List Items`. 
-[<img src="/_media/en:mobile:user_guide:pasted:20210201-223040.png?w=600&amp;tok=d4ad8c" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:pasted:20210201-223040.png?id=en%3Amobile%3Auser_guide%3Asupplier_requisitions)
+To add a lot of items at once, tap **Add Master List Items**. 
 
-Select one or more master lists by tapping on the check box next to the master list (the row will turn orange once selected). Only master lists visible to your store are shown. In this example, there is only one master list available. Once you have made your selection, tap `Done`.
+ ![Custom invoices button on Navigator](/mobile/images/requisitions_add_larger_order.png)
 
-[<img src="/_media/en:mobile:user_guide:pasted:20210201-223157.png?w=600&amp;tok=a7e39a" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:pasted:20210201-223157.png?id=en%3Amobile%3Auser_guide%3Asupplier_requisitions)
+Select one or more master lists by tapping on the check box next to the master list (the row will turn orange once selected). Only master lists visible to your store are shown. In this example, there is only one master list available. Once you have made your selection, tap **Done**.
+
+![Custom invoices button on Navigator](/mobile/images/requisitions_add_larger_order2.png)
 
 The items on the selected master list(s) will then automatically appear in the supplier requisition.
 
-[<img src="/_media/en:mobile:user_guide:pasted:20210201-223319.png?w=600&amp;tok=da506a" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:pasted:20210201-223319.png?id=en%3Amobile%3Auser_guide%3Asupplier_requisitions)
+![Custom invoices button on Navigator](/mobile/images/requisitions_add_larger_order3.png)
 
 The columns are the same as above for adding **New Item**.  
 
 ### Use Suggested Quantities
 
 If you tap **Use Suggested Quantities** on the requisition header, mSupply Mobile will automatically copy the values in the **Suggested Quantity** column into the **Requested Quantity** column.
-[<img src="/_media/en:mobile:user_guide:pasted:20210202-010348.png?w=600&amp;tok=ffc6dd" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:pasted:20210202-010348.png?id=en%3Amobile%3Auser_guide%3Asupplier_requisitions)
+
+![Custom invoices button on Navigator](/mobile/images/requisition_suggested_quantities.png)
 
 Please note, when you tap **Use Suggested Quantities**, this will overwrite any value that had previously been entered in the **Requested Quantity** column.  However, you can still manually overwrite the amount of stock requested for each item afterward.
 
@@ -119,16 +134,19 @@ Please note, when you tap **Use Suggested Quantities**, this will overwrite any 
 
 If you tap **Create Automatic Order** on the requisition header, mSupply Mobile will automatically create a supplier requisition with all items stocked at your facility (from all Master Lists) that require stock.  That is, any item at your facility that has a suggested quantity greater than zero will be listed. The **Requested Quantity** column will also be filled with the suggested quantity value.  
 
-[<img src="/_media/en:mobile:user_guide:pasted:20210202-011547.png?w=600&amp;tok=b80d18" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:pasted:20210202-011547.png?id=en%3Amobile%3Auser_guide%3Asupplier_requisitions)
+![Custom invoices button on Navigator](/mobile/images/requisitions_automatic_order.png)
 
 Once again, you can still check the amount of stock requested for each item and change if required.
 
 ### Finalising a Supplier Requisition
 
-Tap the **Finalise** button, then **Confirm** and your order will go to the supply store. 
-<img src="/_media/mobile:finalise.png" class="mediacenter" loading="lazy" alt="" />
+Tap the **Finalise** button, then **Confirm** and your order will go to the supply store.
+
+![Custom invoices button on Navigator](/mobile/images/requisitions_final.png)
 
 Even if you don't have a current internet connection, it's ok! The order will send automatically once your device is able to connect to the internet.          
+
+<div class="tip">
 
 Remember:
 
@@ -137,6 +155,10 @@ A **Supplier Requisition** is an order that you have placed with your supplier.
 A **Supplier Invoice** is a record of what your supplier has actually sent you.
 
 These are not always the same, as your supplier might not have enough stock to fill your requisition, or they might have sent you some extra stock. When stock arrives at your facility, you should check it off against the **Supplier Invoice**. 
+</div>
+
+
+
 
 [This chapter](/en:mobile:user_guide:supplier_invoices) tells you how to receive stock.
 ----

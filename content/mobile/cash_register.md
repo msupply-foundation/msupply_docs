@@ -21,37 +21,38 @@ This feature is **off by default.** Most users will not be handling cash and can
   * Clicking the "Cash register" register button shows all receipts and payments 
   * Your stores current cash balance is shown in the top left.
 
-[<img src="/_media/en:mobile:user_guide:pasted:20200206-032544.png?w=800&amp;tok=ab9054" class="mediacenter" loading="lazy" title=" " alt=" " width="800" />](/_detail/en:mobile:user_guide:pasted:20200206-032544.png?id=en%3Amobile%3Auser_guide%3Acash_register)
+![Custom invoices button on Navigator](/mobile/images/Cash_Transaction_List.png)
 
   * Tapping the **New Transaction** button brings up a dialog to create either a CASH IN (receipt)  or CASH OUT (payment) transaction
 
 ## Cash-In Transactions
 
-[<img src="/_media/en:mobile:user_guide:pasted:20200206-032813.png?w=800&amp;tok=229f71" class="mediacenter" loading="lazy" title=" " alt=" " width="800" />](/_detail/en:mobile:user_guide:pasted:20200206-032813.png?id=en%3Amobile%3Auser_guide%3Acash_register)
+![Custom invoices button on Navigator](/mobile/images/cash_in_transactions.png)
 
   * You must complete each step to proceed
   * First select the Choose a Name button and select a name from the list
 
-[<img src="/_media/en:mobile:user_guide:pasted:20200206-033040.png?w=800&amp;tok=7c9607" class="mediacenter" loading="lazy" title=" " alt=" " width="800" />](/_detail/en:mobile:user_guide:pasted:20200206-033040.png?id=en%3Amobile%3Auser_guide%3Acash_register)
+![Custom invoices button on Navigator](/mobile/images/cash_transaction2.png)
 
   * Then press the **Enter The Amount** button and enter the amount
 
-[<img src="/_media/en:mobile:user_guide:pasted:20200206-033839.png?w=800&amp;tok=a4ce9f" class="mediacenter" loading="lazy" title=" " alt=" " width="800" />](/_detail/en:mobile:user_guide:pasted:20200206-033839.png?id=en%3Amobile%3Auser_guide%3Acash_register)
+![Custom invoices button on Navigator](/mobile/images/cash_transaction3.png)
 
   * Once confirmed, you can then create the cash receipt transaction. 
   * Optionally, you can enter a description for this receipt.
 
-[<img src="/_media/en:mobile:user_guide:pasted:20200206-033953.png?w=800&amp;tok=3dbccb" class="mediacenter" loading="lazy" title=" " alt=" " width="800" />](/_detail/en:mobile:user_guide:pasted:20200206-033953.png?id=en%3Amobile%3Auser_guide%3Acash_register)
+
+![Custom invoices button on Navigator](/mobile/images/cash_transaction4.png)
 
 ## Cash Out Transactions
 
 Creating a **CASH OUT** transaction is the same process, except that you must provide a reason for the transaction. Select the Choose a reason button, and select a reason from the list 
 
-[<img src="/_media/en:mobile:user_guide:pasted:20200206-034147.png?w=800&amp;tok=b86f62" class="mediacenter" loading="lazy" title=" " alt=" " width="800" />](/_detail/en:mobile:user_guide:pasted:20200206-034147.png?id=en%3Amobile%3Auser_guide%3Acash_register)
+![Custom invoices button on Navigator](/mobile/images/cash_out_transactions.png)
 
   * Once you have selected a reason, you are able to create and save this transaction
 
-[<img src="/_media/en:mobile:user_guide:pasted:20200206-034241.png?w=800&amp;tok=d25a97" class="mediacenter" loading="lazy" title=" " alt=" " width="800" />](/_detail/en:mobile:user_guide:pasted:20200206-034241.png?id=en%3Amobile%3Auser_guide%3Acash_register)
+![Custom invoices button on Navigator](/mobile/images/cash_out_transactions2.png)
 
 |  *Previous:  **[Dispensing](/en:mobile:user_guide:dispensing)** | | Next:  **[Mobile Settings](/en:mobile:user_guide:mobile_settings)***  
 

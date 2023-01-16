@@ -26,7 +26,7 @@ If your store program has indicators associated with it you can add indicator da
 
 In the requisition window click the "Indicators" button in the top right corner.  When data is added it will be sent to the supplier once the requisition is finalised.
 
-[<img src="/_media/en:mobile:user_guide:pasted:20200128-034617.png?w=700&amp;tok=4988ce" class="mediacenter" loading="lazy" alt="" width="700" />](/_detail/en:mobile:user_guide:pasted:20200128-034617.png?id=en%3Amobile%3Auser_guide%3Aindicators)
+![Custom invoices button on Navigator](/mobile/images/indicators.png)
 
 The indicators are configured on the server for each program, so what is seen will depend on what is has been centrally configured and what program you chose when creating the requisition.
 

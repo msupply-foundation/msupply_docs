@@ -51,7 +51,7 @@ You can add items to the customer invoice one by one - to do this, tap on **New 
 ![Custom invoices button on Navigator](/mobile/images/customer_invoice_new_item.png)
 
 Start typing to search for the item.
-![Custom invoices button on Navigator](/mobile/images/search_item.png)
+[Custom invoices button on Navigator](/mobile/images/!search_item.png)
 If you have a lot of items to add to the invoice, it can be slow to add them one by one.
 
 To add a lot of items at once, click **Add Master List Items**.

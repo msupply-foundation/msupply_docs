@@ -18,13 +18,13 @@ If you need to order stock from your supplier for a [program](https://docs.msupp
 
 ### Click on Supplier Requisitions
 
-[<img src="/_media/mobile:015supplierrequisitions.jpg?w=600&amp;tok=33682e" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/mobile:015supplierrequisitions.jpg?id=en%3Amobile%3Auser_guide%3Asupplier_requisitions_program)
+![Custom invoices button on Navigator](/mobile/images/supplier_requisitions.png)
 
 When your store has access to at least one program, creating a Supplier Requisition will prompt you to choose from either a **Program Order** or a **General Order**.
 
 ### Click on Program Order
 
-[<img src="/_media/en:mobile:user_guide:requisition_program_tab.png?w=600&amp;tok=2ab156" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:requisition_program_tab.png?id=en%3Amobile%3Auser_guide%3Asupplier_requisitions_program)
+![Custom invoices button on Navigator](/mobile/images/supplier_program_order.png)
 
 ### Select the Program, Supplier, Order Type and Period
 
@@ -37,14 +37,14 @@ When selecting the **Order Type**, further details can be seen on the right:
   * **Maximum orders per period:** maximum number of orders that can be placed in a given period
   * **Max items:** maximum number of items allowed to be ordered for an emergency order (an alert will appear if the maximum number of items is exceeded)
 
-[<img src="/_media/en:mobile:user_guide:requisition_program_order_type.png?w=600&amp;tok=43b2fa" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:requisition_program_order_type.png?id=en%3Amobile%3Auser_guide%3Asupplier_requisitions_program)
+![Custom invoices button on Navigator](/mobile/images/supplier_requisition_select_type.png)
 
 When selecting the **Period**, further details can be seen on the right:
 
   * **Period dates** i.e. the interval of the period
   * **Number of requisitions already created** for the same period, supplier and order type
 
-[<img src="/_media/en:mobile:user_guide:requisition_program_period.png?w=600&amp;tok=96e3d5" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:requisition_program_period.png?id=en%3Amobile%3Auser_guide%3Asupplier_requisitions_program)
+![Custom invoices button on Navigator](/mobile/images/supplier_requisitions_type2.png)
 
 ### Click OK and review the requisition
 
@@ -52,7 +52,7 @@ The requisition is created and is populated with all program items.
 
 **Note that you cannot add additional items to a Program Requisition.**
 
-[<img src="/_media/en:mobile:user_guide:requisition_program_hide_overstocked.png?w=600&amp;tok=a89cf2" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:requisition_program_hide_overstocked.png?id=en%3Amobile%3Auser_guide%3Asupplier_requisitions_program)
+![Custom invoices button on Navigator](/mobile/images/supplier_review_requisitions.png)
 
 Why are there are no items visible in this example?
 
@@ -60,7 +60,7 @@ Why are there are no items visible in this example?
   * All the stock on hand in this example is over the threshold MOS, so no items are visible.
   * When you click the **Show Over Stocked** button, all items that are over the threshold MOS appear.
 
-[<img src="/_media/en:mobile:user_guide:requisition_program_show_overstocked.png?w=600&amp;tok=252ca7" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:requisition_program_show_overstocked.png?id=en%3Amobile%3Auser_guide%3Asupplier_requisitions_program)
+![Custom invoices button on Navigator](/mobile/images/supplier_review_requisitions2.png)
 
 Note that the **Price** displayed in a Program Requisition is the price the supplier sells the item for.
 
@@ -68,21 +68,21 @@ Note that the **Price** displayed in a Program Requisition is the price the supp
 
 By default, the suggested quantity for a program requisition will be set to the suggested quantity. If you have edited suggested quantities, the **Use Suggested Quantities** button will reset the requested quantities to their original values.
 
-[<img src="/_media/en:mobile:user_guide:requisition_program_suggested_requested.png?w=600&amp;tok=71ceec" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:requisition_program_suggested_requested.png?id=en%3Amobile%3Auser_guide%3Asupplier_requisitions_program)
+![Custom invoices button on Navigator](/mobile/images/supplier_requisitions_entering_quantity.png)
 
 If you want to manually change a requested quantity you can do so.
 
-However, if you have [reasons configured on the mSupply server](https://docs.msupply.org.nz/preferences:options) you will also see a reasons column, 
+However, if you have [reasons configured on the mSupply server](https://docs.msupply.org.nz/preferences:options) you will also see a reasons column: 
 
-[<img src="/_media/en:mobile:user_guide:pasted:20200312-040317.png?w=800&amp;tok=86b368" class="mediacenter" loading="lazy" alt="" width="800" />](/_detail/en:mobile:user_guide:pasted:20200312-040317.png?id=en%3Amobile%3Auser_guide%3Asupplier_requisitions_program)
+![Custom invoices button on Navigator](/mobile/images/supplier_requisitions_entering_quantity2.png)
 
 You will have have to choose a reason whenever the requested quantity differs from the suggested quantity:
 
-[<img src="/_media/en:mobile:user_guide:pasted:20200312-040433.png?w=800&amp;tok=7c28dd" class="mediacenter" loading="lazy" alt="" width="800" />](/_detail/en:mobile:user_guide:pasted:20200312-040433.png?id=en%3Amobile%3Auser_guide%3Asupplier_requisitions_program)
+![Custom invoices button on Navigator](/mobile/images/supplier_requisitions_entering_quantity3.png)
 
 The reason is shown after you've chosen one:
 
-[<img src="/_media/en:mobile:user_guide:pasted:20200312-040518.png?w=800&amp;tok=150540" class="mediacenter" loading="lazy" alt="" width="800" />](/_detail/en:mobile:user_guide:pasted:20200312-040518.png?id=en%3Amobile%3Auser_guide%3Asupplier_requisitions_program)
+![Custom invoices button on Navigator](/mobile/images/supplier_requisitions_entering_quantity4.png)
 
 If you tap on a reason, you'll be able to edit it in the same way you choose a new reason (above).
 
@@ -93,16 +93,17 @@ For instance, you might want to record the number of new TB cases each month, po
 
 Tap the **Regimen data** button at the top-right of the requisition window:
 
-[<img src="/_media/en:mobile:user_guide:requisition_program_regimen_data.png?w=800&amp;tok=7f24d1" class="mediacenter" loading="lazy" alt="" width="800" />](/_detail/en:mobile:user_guide:requisition_program_regimen_data.png?id=en%3Amobile%3Auser_guide%3Asupplier_requisitions_program)
+![Custom invoices button on Navigator](/mobile/images/supplier_requisition_regimen_data.png)
 
 If [regimen data](https://docs.msupply.org.nz/items:programs) is necessary for the requisition, enter values and comments then close the screen.
 
-[<img src="/_media/en:mobile:user_guide:requisition_program_regimen_data_details.png?w=800&amp;tok=887c09" class="mediacenter" loading="lazy" alt="" width="800" />](/_detail/en:mobile:user_guide:requisition_program_regimen_data_details.png?id=en%3Amobile%3Auser_guide%3Asupplier_requisitions_program)
+![Custom invoices button on Navigator](/mobile/images/supplier_requisition_regimen_data2.png)
 
 ### When you are completely sure that everything is correct...
 
 Click the **Finalise** button, then **Confirm** and your order will go to the supply store. 
-<img src="/_media/mobile:finalise.png" class="mediacenter" loading="lazy" alt="" />
+
+![Custom invoices button on Navigator](/mobile/images/supplier_requisition_finalise.png)
 
 Even if you don't have internet at the time, it's ok! The order will send automatically when you do have internet later.          
 

@@ -13,7 +13,6 @@ toc = true
 top = false
 +++
 
-# Vaccine Dispensing (for COVID-19 & other vaccines)
 
 This functionality is available from mSupply mobile v8.0.0 onwards
 

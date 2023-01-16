@@ -22,7 +22,7 @@ One of the most important - but easiest - tasks in mSupply Mobile is to check ho
 
 This will show a list of the **Stock on Hand** (quantity) of each item you currently have in stock. 
 
-[<img src="/_media/mobile:020currentstock.jpg?w=700&amp;tok=2b387d" class="mediacenter" loading="lazy" alt="" width="700" />](/_detail/mobile:020currentstock.jpg?id=en%3Amobile%3Auser_guide%3Acurrent_stock)
+![Custom invoices button on Navigator](/mobile/images/current_stock.png)
 
 ### Click on an item to see more details
 
@@ -30,19 +30,19 @@ You can see more detailed information for a specific item such as the **Category
 
 You can **scroll** through the list or **search** for a specific item by typing the first few letters into the search bar.
 
-[<img src="/_media/en:mobile:user_guide:pasted:20200312-021719.png" class="media" loading="lazy" alt="" />](/_detail/en:mobile:user_guide:pasted:20200312-021719.png?id=en%3Amobile%3Auser_guide%3Acurrent_stock)
+![Custom invoices button on Navigator](/mobile/images/current_stock_detail.png)
 
 ### Returning goods to a supplier
 
 Clicking the arrow next to an item will list all of the batches for the item in a new window.
 
-[<img src="/_media/en:mobile:user_guide:pasted:20200312-025042.png" class="media" loading="lazy" alt="" />](/_detail/en:mobile:user_guide:pasted:20200312-025042.png?id=en%3Amobile%3Auser_guide%3Acurrent_stock)
+![Custom invoices button on Navigator](/mobile/images/current_stock_returning_goods.png)
 
   * You can then enter a return amount which will return that amount to the supplier.
   * Clicking **OK** will create a supplier credit - one for each supplier for all batches which came from that supplier.
   * You may choose a category for each of the supplier credits, if you have supplier credit categories set up in mSupply desktop (which is described [here](https://docs.msupply.org.nz/other_stuff:transaction_categories))
 
-Note that you can also return goods from a supplier invoice as described [here](/en:mobile:user_guide:supplier_invoices_returns)
+Note that you can also return goods from a supplier invoice as described [here](/en:mobile:user_guide:supplier_invoices_returns).
 
-|  *  Previous:  **[Supplier Invoices - Returning Stock](/en:mobile:user_guide:supplier_invoices_returns)** | | Next: **[Stocktakes (General)](/en:mobile:user_guide:stocktakes)** *  
+|  *  Previous:  **[Supplier Invoices - Returning Stock](/en:mobile:user_guide:supplier_invoices_returns)** | | Next: **[Stocktakes (General)](/en:mobile:user_guide:stocktakes)**  
 

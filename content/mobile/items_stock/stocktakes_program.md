@@ -13,7 +13,7 @@ top = false
 +++
 
 [<img src="/_media/banner_mobile_userguide.png?w=600&amp;tok=9b9def" class="media" loading="lazy" title="mSupply Mobile User Guide menu" alt="mSupply Mobile User Guide menu" width="600" />](/en:mobile:user_guide)
-----## Stocktakes (Program)
+## Stocktakes (Program)
 
 You would like to perform a stocktake for all the items in a [program](https://docs.msupply.org.nz/items:programs).
 
@@ -21,7 +21,7 @@ You need to create a **Program Stocktake**, which will automatically populate yo
 
 ### Click on Stocktakes
 
-[<img src="/_media/mobile:021stocktake.jpg?w=600&amp;tok=541d70" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/mobile:021stocktake.jpg?id=en%3Amobile%3Auser_guide%3Astocktakes_program)
+![Custom invoices button on Navigator](/mobile/images/stocktake_programs.png)
 
 When your store has access to at least one program, creating a Stocktake will prompt you to choose from either a **Program Stocktake** or a **General Stocktake.**
 
@@ -37,13 +37,16 @@ Select the **Program** from the dropdown list and give the stocktake a logical n
 
 Click **OK**.
 
-[<img src="/_media/en:mobile:user_guide:stocktake_program_name.png?w=600&amp;tok=13af79" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:stocktake_program_name.png?id=en%3Amobile%3Auser_guide%3Astocktakes_program)
+![Custom invoices button on Navigator](/mobile/images/stocktake_program_name.png)
 
 ### This will bring up the Stocktake Editor
 
 The stocktake is pre-populated with items from the program. 
 
+<div class="note">
+
 You **cannot** add additional items to a Program Stocktake.  
+</div>
 
 The Stocktake Editor lists each item, its **Snapshot Quantity** and its **Actual Quantity** (from the physical count).
 
@@ -51,7 +54,7 @@ The **Snapshot Quantity** is what the system THINKS you have. If it is correct (
 
 The **Actual Quantity** is what you have actually counted. You can change this by clicking in that column and typing in the correct quantity.
 
-[<img src="/_media/en:mobile:user_guide:stocktake_program_quantities.png?w=600&amp;tok=e1497f" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:stocktake_program_quantities.png?id=en%3Amobile%3Auser_guide%3Astocktakes_program)
+![Custom invoices button on Navigator](/mobile/images/stocktake_editor.png)
 
 ### For each item, compare your physical count with the Snapshot Quantity
 
@@ -65,13 +68,16 @@ This can take some time but remember - if the **Snapshot Quantity** is correct, 
 
 If your stocktake screen shows a **Reason** column, you must enter a reason for any positive or negative inventory adjustments.
 
+<div class="note">
+
 **[Options](https://docs.msupply.org.nz/preferences:options)** must be enabled for **Stocktake Line Adjustments** on the mSupply desktop server and synced to mSupply Mobile to enable this feature. 
+</div>
 
 If the **Actual Quantity** entered is different from the **Snapshot Quantity**, you will be prompted to select a **Reason** for the **Difference** from a standard list. You will not be able to continue until a reason is selected.
 
-[<img src="/_media/en:mobile:user_guide:stocktake_options_list.png?w=600&amp;tok=5a6e08" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:stocktake_options_list.png?id=en%3Amobile%3Auser_guide%3Astocktakes_program)
+![Custom invoices button on Navigator](/mobile/images/stocktake_adjustments_adjustment.png)
 
-[<img src="/_media/en:mobile:user_guide:stocktake_difference_reason.png?w=600&amp;tok=4c1013" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:stocktake_difference_reason.png?id=en%3Amobile%3Auser_guide%3Astocktakes_program)
+![Custom invoices button on Navigator](/mobile/images/stocktake_adjustment2.png)
 
 To change the reason, click on the cell again.
 
@@ -79,23 +85,23 @@ To change the reason, click on the cell again.
 
 You can adjust batch-specific information or add new batches by clicking the item's **Batches** icon. 
 
-[<img src="/_media/en:mobile:user_guide:stocktake_batches.png?w=600&amp;tok=e9d59c" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:stocktake_batches.png?id=en%3Amobile%3Auser_guide%3Astocktakes_program)
+![Custom invoices button on Navigator](/mobile/images/stocktake_edit_batch.png)
 
 In this example there is only one batch of paracetamol. 
 
-[<img src="/_media/en:mobile:user_guide:stocktake_batches_paracetamol.png?w=600&amp;tok=b7200a" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:stocktake_batches_paracetamol.png?id=en%3Amobile%3Auser_guide%3Astocktakes_program)
+![Custom invoices button on Navigator](/mobile/images/stocktake_edit_batches2.png)
 
 If there are multiple batches:
 
   * **Inventory adjustments will be automatically made to the batch that arrived first (i.e. first in - first out).**
     * In this example there are three batches of ibuprofen. The **Snapshot Quantity** was 300 and the **Actual Quantity** was 220. The **Difference** of 80 was automatically taken away from the batch that arrived first. However, this can be manually changed in this screen.
 
-[<img src="/_media/en:mobile:user_guide:stocktakes_batches_ibuprofen.png?w=600&amp;tok=20293e" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:stocktakes_batches_ibuprofen.png?id=en%3Amobile%3Auser_guide%3Astocktakes_program)
+![Custom invoices button on Navigator](/mobile/images/stocktakes_edit_batches_multiple.png)
 
   * **The inventory adjustment reason selected will automatically apply to all batches.** 
     * However, separate reasons for different batches can be manually changed in this screen. In this example we have updated the inventory adjustment of 80 among the batches of ibuprofen, with separate reasons for each batch. 
 
-[<img src="/_media/en:mobile:user_guide:stocktakes_batch_reason_manual.png?w=600&amp;tok=a126d3" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:stocktakes_batch_reason_manual.png?id=en%3Amobile%3Auser_guide%3Astocktakes_program)
+![Custom invoices button on Navigator](/mobile/images/stocktakes_edit_batches_multiple2.png)
 
 When you are finished making changes in the **Batches** screen, click **OK**. 
 
@@ -105,7 +111,7 @@ Note: The main stocktake screen will only show the most common reason among the 
 
 Click **Finalise**.
 
-<img src="/_media/mobile:finalise.png" class="medialeft" loading="lazy" alt="" />
+![Custom invoices button on Navigator](/mobile/images/stocktake_finalize.png)
 
 This will update all your stock levels to match the quantities you have entered in the **Actual Quantity** column.
 

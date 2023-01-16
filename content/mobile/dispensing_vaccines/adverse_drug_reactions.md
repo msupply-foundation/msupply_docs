@@ -30,7 +30,8 @@ If the patient isn't in the list:
 
 Once the patient is found, tap the **plus** icon in the ADR column to add an adverse event report for that patient.
 
-[<img src="/_media/en:mobile:user_guide:pasted:20210321-002225.png?w=800&amp;tok=c03a3f" class="mediacenter" loading="lazy" alt="" width="800" />](/_detail/en:mobile:user_guide:pasted:20210321-002225.png?id=en%3Amobile%3Auser_guide%3Aadverse_drug_reactions)
+![Custom invoices button on Navigator](/mobile/images/ADR_entering.png)
+
 What is shown on the form is configurable on the server. If more than 1 adverse reaction form has been defined, you will be shown a list of forms, and you need to choose the appropriate one before proceeding. If only 1 form has been configured, you will be taken directly to the form to enter the adverse event details.
 
 The fields you enter, their order and the allowed values are all configured on the server, so will vary for each installation.
