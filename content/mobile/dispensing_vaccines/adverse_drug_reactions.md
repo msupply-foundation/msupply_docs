@@ -37,7 +37,7 @@ What is shown on the form is configurable on the server. If more than 1 adverse 
 The fields you enter, their order and the allowed values are all configured on the server, so will vary for each installation.
 Here's an example that implements a typical ADR form:
 
-[<img src="/_media/en:mobile:user_guide:pasted:20210326-025554.png?w=600&amp;tok=0fc984" class="media" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:pasted:20210326-025554.png?id=en%3Amobile%3Auser_guide%3Aadverse_drug_reactions)  [<img src="/_media/en:mobile:user_guide:pasted:20210326-051330.png?w=600&amp;tok=405973" class="media" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:pasted:20210326-051330.png?id=en%3Amobile%3Auser_guide%3Aadverse_drug_reactions)  [<img src="/_media/en:mobile:user_guide:pasted:20210326-051404.png?w=600&amp;tok=72982a" class="media" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:pasted:20210326-051404.png?id=en%3Amobile%3Auser_guide%3Aadverse_drug_reactions)
+![Custom invoices button on Navigator](/mobile/images/ADR_form1.png) ![Custom invoices button on Navigator](/mobile/images/ADR_form2.png) ![Custom invoices button on Navigator](/mobile/images/ADR_form3.png)
 
 Once you have entered all the data you are able to, tap **Save**
 

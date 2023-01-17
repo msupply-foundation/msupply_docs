@@ -63,6 +63,3 @@ If you are receiving stock from a supplier that is not an mSupply store, then yo
   1. Add the supplier you are wanting to receive stock from
   1. Add items to the Supplier Invoice and edit the quantities, batch and expiry details
   1. Once you are happy with the details, **Finalise** the Supplier Invoice
-
-|  *  Previous:  **[Supplier Requisitions (Program Orders)](/en:mobile:user_guide:supplier_requisitions_program)** | | Next: **[Supplier Invoices - Returning Stock](/en:mobile:user_guide:supplier_invoices_returns)** *  
-

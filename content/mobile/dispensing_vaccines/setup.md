@@ -16,28 +16,33 @@ top = false
 ## Store settings on your central mSupply server
 
 Your store must be set as a dispensary (go to *Special > Show stores* and double-click on your store):
-[<img src="/_media/en:mobile:user_guide:vaccine_dispensing:pasted:20210319-020859.png?w=700&amp;tok=6d7b96" class="mediacenter" loading="lazy" alt="" width="700" />](/_detail/en:mobile:user_guide:vaccine_dispensing:pasted:20210319-020859.png?id=en%3Amobile%3Auser_guide%3Avaccine_dispensing%3Asetup)
+
+![Custom invoices button on Navigator](/mobile/images/VDS_store_settings.png)
 
 Ensure that your store has visibility of at least one item that is a vaccine:
-[<img src="/_media/en:mobile:user_guide:vaccine_dispensing:pasted:20210319-020917.png?w=500&amp;tok=cdd61b" class="mediacenter" loading="lazy" alt="" width="500" />](/_detail/en:mobile:user_guide:vaccine_dispensing:pasted:20210319-020917.png?id=en%3Amobile%3Auser_guide%3Avaccine_dispensing%3Asetup)
+
+![Custom invoices button on Navigator](/mobile/images/VDS_store_visibility.png)
 
 If you want to record when a patient has refused a vaccine, you need to create a patient event with the code 'RV'. Otherwise, no record will be created:
 
-[<img src="/_media/en:mobile:user_guide:vaccine_dispensing:pasted:20220505-060002.png?w=500&amp;tok=c5bd71" class="mediacenter" loading="lazy" alt="" width="500" />](/_detail/en:mobile:user_guide:vaccine_dispensing:pasted:20220505-060002.png?id=en%3Amobile%3Auser_guide%3Avaccine_dispensing%3Asetup)
+![Custom invoices button on Navigator](/mobile/images/VDS_refuse_vaccine.png)
 
-[<img src="/_media/en:mobile:user_guide:vaccine_dispensing:pasted:20210319-020943.png?w=450&amp;tok=43f855" class="mediacenter" loading="lazy" alt="" width="450" />](/_detail/en:mobile:user_guide:vaccine_dispensing:pasted:20210319-020943.png?id=en%3Amobile%3Auser_guide%3Avaccine_dispensing%3Asetup)
+![Custom invoices button on Navigator](/mobile/images/VDS_refuse_vaccine2.png)
 
 If you want to record extra patient information during vaccinations, get in contact with The mSupply Foundation as we have no interface for you to create the forms, yet.
 
 To setup **vaccinators** then choose *Special > Show vaccinators* from the menus:
-[<img src="/_media/en:mobile:user_guide:vaccine_dispensing:screenshot_2021-08-16_at_13.00.25.png?w=400&amp;tok=8b264a" class="mediacenter" loading="lazy" alt="" width="400" />](/_detail/en:mobile:user_guide:vaccine_dispensing:screenshot_2021-08-16_at_13.00.25.png?id=en%3Amobile%3Auser_guide%3Avaccine_dispensing%3Asetup)
-[<img src="/_media/en:mobile:user_guide:vaccine_dispensing:screenshot_2021-08-16_at_13.00.43.png?w=400&amp;tok=f7705e" class="mediacenter" loading="lazy" alt="" width="400" />](/_detail/en:mobile:user_guide:vaccine_dispensing:screenshot_2021-08-16_at_13.00.43.png?id=en%3Amobile%3Auser_guide%3Avaccine_dispensing%3Asetup)
+
+![Custom invoices button on Navigator](/mobile/images/VDS_vaccinators.png)
+![Custom invoices button on Navigator](/mobile/images/VDS_vaccinators2.png)
 
 The standard mSupply mobile interface looks like this:
-[<img src="/_media/en:mobile:user_guide:vaccine_dispensing:pasted:20210319-021046.png?w=700&amp;tok=b2dae4" class="mediacenter" loading="lazy" alt="" width="700" />](/_detail/en:mobile:user_guide:vaccine_dispensing:pasted:20210319-021046.png?id=en%3Amobile%3Auser_guide%3Avaccine_dispensing%3Asetup)
+
+![Custom invoices button on Navigator](/mobile/images/VDS_standard_interface.png)
 
 After completing the setup described above, log in to mSupply mobile and synchronise once, and then your interface will look like this, now showing vaccine dispensing as an option:
-[<img src="/_media/en:mobile:user_guide:vaccine_dispensing:pasted:20210319-021206.png?w=700&amp;tok=e3a0b0" class="mediacenter" loading="lazy" alt="" width="700" />](/_detail/en:mobile:user_guide:vaccine_dispensing:pasted:20210319-021206.png?id=en%3Amobile%3Auser_guide%3Avaccine_dispensing%3Asetup)
+
+![Custom invoices button on Navigator](/mobile/images/VDS_setup_finalize.png)
 
 ## Patient Extra Information Setup
 

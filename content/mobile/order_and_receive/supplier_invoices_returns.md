@@ -51,6 +51,3 @@ Click **Confirm** when you are finished.
 You can then see a new **Supplier Credit** in the supplier invoice list
 
 ![Custom invoices button on Navigator](/mobile/images/supplier_credit.png)
-
-|  *  Previous:  **[Supplier Invoices](/en:mobile:user_guide:supplier_invoices)** | | Next: **[Current Stock](/en:mobile:user_guide:current_stock)** *  
-
