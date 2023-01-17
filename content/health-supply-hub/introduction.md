@@ -8,7 +8,7 @@ weight = 1
 template = "health-supply-hub/page.html"
 
 [extra]
-lead = "Integrated Software Procurement"
+lead = "Integrated Medical Procurement"
 toc = true
 top = false
 +++
