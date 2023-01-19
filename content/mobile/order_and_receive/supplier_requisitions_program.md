@@ -109,7 +109,4 @@ Even if you don't have internet at the time, it's ok! The order will send automa
 
 Once your supplying store sends you the stock, they will create an invoice, and you will see it appear in mSupply mobile as a **Supplier Invoice**
 
-[This chapter](/en:mobile:user_guide:supplier_invoices) tells you how to receive stock.
-
-|  *  Previous:  **[Supplier Requisitions (General Orders)](/en:mobile:user_guide:supplier_requisitions)** | | Next: **[Supplier Invoices](/en:mobile:user_guide:supplier_invoices)** *  
-
+[This chapter](/mobile/order_and_receive/supplier-invoices) tells you how to receive stock.

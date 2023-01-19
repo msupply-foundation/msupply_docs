@@ -4,7 +4,7 @@ description = "mSupply Coldchain setup."
 date = 2022-03-17T18:20:00+00:00
 updated = 2022-03-17T18:20:00+00:00
 draft = false
-weight = 3
+weight = 103
 sort_by = "weight"
 template = "coldchain/page.html"
 
