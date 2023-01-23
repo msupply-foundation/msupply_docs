@@ -20,8 +20,8 @@ content = 'The <a href="/mobile/introduction">User Guide</a> for mSupply mobile!
 
 [[extra.list]]
 icon = "mSupplyTorso.svg"
-title = "Legacy mSupply Desktop"
-content = 'The <a href="https://docs.msupply.org.nz/">User Documentation wiki</a> for desktop mSupply- now over 20 years old!'
+title = "The Original mSupply Desktop"
+content = 'The <a href="https://docs.msupply.org.nz/">User Documentation wiki</a> for desktop mSupply- now over 20 years old'
 
 [[extra.list]]
 icon = "dashboard.png"
