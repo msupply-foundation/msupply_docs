@@ -12,33 +12,38 @@ toc = true
 top = false
 +++
 
+<div class="warning">
 The Mobile app dashboard is completely different to the [mSupply Grafana web dashboard](/en:dashboard) and is configured in a different manner.
+</div>
 
+<div class="tip">
 Dashboard reports will be visible in the mSupply Mobile dashboard provided that on the mSupply central server:
 
   * The **mobile: Uses dashboard module** [store preference](https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab) is turned on for the store 
   * The report has been [configured for display on mSupply Mobile stores](https://docs.msupply.foundation/en:mobile:setup:server_side:dashboard#mobile_specific_dashboard_configuration)
+  </div>
 
 Once it has been enabled you will be able to see the Dashboard icon on the mSupply Mobile Menu page.
 
-[<img src="/_media/en:mobile:user_guide:20200124-050333.png" class="mediacenter" loading="lazy" alt="" />](/_detail/en:mobile:user_guide:20200124-050333.png?id=en%3Amobile%3Auser_guide%3Amobile_dashboard)
+![Custom invoices button on Navigator](/mobile/images/mobile_dashboard_icon.png)
 
 The Mobile Dashboard feature allows you to view visualisation 'reports' (tables, charts, graphs, etc.).
 
-**line chart**
- [<img src="/_media/en:mobile:user_guide:pasted:20200128-023834.png?w=700&amp;tok=4203be" class="mediacenter" loading="lazy" alt="" width="700" />](/_detail/en:mobile:user_guide:pasted:20200128-023834.png?id=en%3Amobile%3Auser_guide%3Amobile_dashboard)
+**line chart**]
+
+![Custom invoices button on Navigator](/mobile/images/mobile_dashboard_line_chart.png)
 
 **bar chart** 
 
- [<img src="/_media/en:mobile:user_guide:bar-chart.png?w=700&amp;tok=e0486c" class="mediacenter" loading="lazy" alt="" width="700" />](/_detail/en:mobile:user_guide:bar-chart.png?id=en%3Amobile%3Auser_guide%3Amobile_dashboard)
+![Custom invoices button on Navigator](/mobile/images/mobile_dashboard_bar_chart.png)
 
 **pie chart** 
 
- [<img src="/_media/en:mobile:user_guide:pie-chart.png?w=700&amp;tok=741e7c" class="mediacenter" loading="lazy" alt="" width="700" />](/_detail/en:mobile:user_guide:pie-chart.png?id=en%3Amobile%3Auser_guide%3Amobile_dashboard)
+![Custom invoices button on Navigator](/mobile/images/mobile_dashboard_pie_chart.png)
 
 **table** 
 
- [<img src="/_media/en:mobile:user_guide:table.png?w=700&amp;tok=924772" class="mediacenter" loading="lazy" alt="" width="700" />](/_detail/en:mobile:user_guide:table.png?id=en%3Amobile%3Auser_guide%3Amobile_dashboard)
+![Custom invoices button on Navigator](/mobile/images/mobile_dashboard_table.png)
 
 Refer to the list [available dashboard reports](https://docs.msupply.org.nz/web_interface:dashboard_setup#available_dashboard_reports).
 
