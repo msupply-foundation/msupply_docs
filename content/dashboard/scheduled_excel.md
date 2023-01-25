@@ -10,7 +10,7 @@ template = "dashboard/page.html"
 [extra]
 lead = "Regular Excel Reports via Email"
 toc = true
-top = false
+top = true
 +++
 
 Excel report e-mail scheduler

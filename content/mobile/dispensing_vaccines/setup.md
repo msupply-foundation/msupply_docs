@@ -9,7 +9,7 @@ template = "mobile/page.html"
 
 [extra]
 toc = true
-top = false
+top = true
 +++
 
 

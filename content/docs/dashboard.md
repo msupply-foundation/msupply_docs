@@ -11,7 +11,7 @@ template = "docs/page.html"
 [extra]
 lead = "The landing page"
 toc = true
-top = false
+top = true
 +++
 
 ## Too many Dashboards!

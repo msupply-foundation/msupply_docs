@@ -10,7 +10,7 @@ template = "mobile/page.html"
 [extra]
 lead = "Adverse Drug Reaction Reporting"
 toc = true
-top = false
+top = true
 +++
 
 

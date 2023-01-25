@@ -10,7 +10,7 @@ template = "coldchain/page.html"
 [extra]
 lead = "Welcome to mSupply Coldchain!"
 toc = true
-top = false
+top = true
 +++
 
 mSupply Coldchain is an Android application that uses low cost Bluetooth temeperature sensors to monitor fridges and freezers in warehouses, hospitals and health centres.

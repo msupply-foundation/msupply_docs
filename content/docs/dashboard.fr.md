@@ -11,7 +11,7 @@ template = "docs/page.html"
 [extra]
 lead = "La page d'accueil"
 toc = true
-top = false
+top = true
 +++
 
 ## Plus d'un Tableau de Bord!

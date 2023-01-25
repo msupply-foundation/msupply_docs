@@ -10,7 +10,7 @@ template = "dashboard/page.html"
 [extra]
 lead = "Welcome to the mSupply Dashboard"
 toc = true
-top = false
+top = true
 +++
 
 ### Getting Started

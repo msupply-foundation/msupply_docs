@@ -10,7 +10,7 @@ template = "mobile/page.html"
 [extra]
 lead = "Web Entry for Patient Registration and Adverse events"
 toc = true
-top = false
+top = true
 +++
 
 

@@ -10,7 +10,7 @@ template = "docs/page.html"
 
 [extra]
 toc = true
-top = false
+top = true
 +++
 
 ## Open mSupply Requirements

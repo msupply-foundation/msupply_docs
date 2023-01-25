@@ -11,7 +11,7 @@ template = "docs/page.html"
 [extra]
 lead = "Welcome to Open mSupply!"
 toc = true
-top = false
+top = true
 +++
 
 ## History

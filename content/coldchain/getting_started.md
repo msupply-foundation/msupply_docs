@@ -11,7 +11,7 @@ template = "coldchain/page.html"
 [extra]
 lead = "Welcome to mSupply Coldchain!"
 toc = true
-top = false
+top = true
 +++
 
 

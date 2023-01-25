@@ -10,7 +10,7 @@ template = "mobile/page.html"
 [extra]
 lead = "Dispensing prescriptions to patients"
 toc = true
-top = false
+top = true
 +++
 
 

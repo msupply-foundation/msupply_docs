@@ -9,7 +9,7 @@ template = "mobile/page.html"
 
 [extra]
 toc = true
-top = false
+top = true
 +++
 
 This functionality is available from mSupply mobile v7.0.0 onwards

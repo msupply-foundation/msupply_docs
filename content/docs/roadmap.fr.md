@@ -10,7 +10,7 @@ template = "docs/page.html"
 
 [extra]
 toc = true
-top = false
+top = true
 +++
 
 Une mise à jour de cette feuille de route est prévue toutes les six semaines.

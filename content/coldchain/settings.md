@@ -11,7 +11,7 @@ template = "coldchain/page.html"
 [extra]
 lead = "The landing page"
 toc = true
-top = false
+top = true
 +++
 
 
