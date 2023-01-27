@@ -118,16 +118,22 @@
         <loc>https://docs.msupply.foundation/docs/inventory/images/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/inventory/locations/</loc>
-        <lastmod>2022-03-19T18:20:00+00:00</lastmod>
-    </url>
-    <url>
         <loc>https://docs.msupply.foundation/docs/inventory/stock-takes/</loc>
         <lastmod>2022-03-19T18:20:00+00:00</lastmod>
     </url>
     <url>
         <loc>https://docs.msupply.foundation/docs/inventory/stock-view/</loc>
         <lastmod>2022-03-19T18:20:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/docs/module-hiv/</loc>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/docs/module-hiv/images/</loc>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/docs/module-hiv/introduction/</loc>
+        <lastmod>2023-01-27T00:00:00+00:00</lastmod>
     </url>
     <url>
         <loc>https://docs.msupply.foundation/docs/replenishment/</loc>
@@ -234,6 +240,9 @@
     <url>
         <loc>https://docs.msupply.foundation/fr/docs/inventory/stock-view/</loc>
         <lastmod>2022-03-19T18:20:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/fr/docs/module-hiv/</loc>
     </url>
     <url>
         <loc>https://docs.msupply.foundation/fr/docs/replenishment/</loc>
