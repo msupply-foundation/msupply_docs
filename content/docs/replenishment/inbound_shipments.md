@@ -57,7 +57,7 @@ The Inbound Shipments list is divided into 7 columns:
 
 4. You can also select a different number of rows to show per page using the option at the bottom right of the page.
 
-![Rows per page](/docs/images/rows-per-page-select.png)
+![Rows per page](/docs/introduction/images/rows-per-page-select.png)
 
 ### Search by Supplier Name
 

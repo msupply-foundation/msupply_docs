@@ -4,14 +4,13 @@ description = "Open mSupply Introduction."
 date = 2022-03-17T18:20:00+00:00
 updated = 2022-03-17T18:20:00+00:00
 draft = false
-weight = 3
+weight = 5
 sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
 lead = "The landing page"
 toc = true
-top = true
 +++
 
 ## Too many Dashboards!
@@ -21,7 +20,7 @@ Open mSupply has a landing page which gives an overview of some statistics, and 
 
 ## What's on display?
 
-![The dashboard!](/docs/images/dashboard.png)
+![The dashboard!](/docs/introduction/images/dashboard.png)
 
 You can see some statistics for shipments and stock:
 
@@ -38,3 +37,4 @@ You can see some statistics for shipments and stock:
   - **Less than 3 months of stock** Which is based on the average monthly consumption (AMC) for this item in the current store
 
 As well, there are buttons toward the bottom of the page which allow you to create shipments and requisitions.
+

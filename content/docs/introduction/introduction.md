@@ -4,7 +4,7 @@ description = "Open mSupply Introduction."
 date = 2022-03-17T18:20:00+00:00
 updated = 2022-03-17T18:20:00+00:00
 draft = false
-weight = 2
+weight = 1
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -60,6 +60,6 @@ The following table outlines some of the common terms used in mSupply, and also 
 
 If you are running the server for the very first time, you may see this screen:
 
-![Initialisation](/docs/images/initialisation.png)
+![Initialisation](/docs/introduction/images/initialisation.png)
 
 Don't panic! This simply means that the server needs to know how to connect to the central mSupply server. If you don't know what to enter, contact support and they can help.

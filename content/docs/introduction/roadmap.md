@@ -10,7 +10,6 @@ template = "docs/page.html"
 
 [extra]
 toc = true
-top = true
 +++
 
 This road map will be updated about once every six weeks.

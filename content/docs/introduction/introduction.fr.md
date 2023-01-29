@@ -60,6 +60,6 @@ Le tableau suivant décrit certains des termes courants utilisés dans mSupply, 
 
 Si vous démarrez le serveur pour la toute première fois, vous pouvez voir cet écran:
 
-![Initialisation](/docs/images/initialisation.png)
+![Initialisation](/docs/introduction/images/initialisation.png)
 
 Ne paniquez surtout pas! Cela signifie simplement que le serveur doit savoir comment se connecter au serveur central mSupply. Veuillez contacter l'équipe support pour bénéficier d'une assistance, si vous ne savez pas comment renseigner.

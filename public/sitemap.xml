@@ -83,10 +83,6 @@
         <lastmod>2022-03-19T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/dashboard/</loc>
-        <lastmod>2022-03-17T18:20:00+00:00</lastmod>
-    </url>
-    <url>
         <loc>https://docs.msupply.foundation/docs/distribution/</loc>
     </url>
     <url>
@@ -105,11 +101,30 @@
         <lastmod>2022-03-19T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/images/</loc>
+        <loc>https://docs.msupply.foundation/docs/introduction/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/introduction/</loc>
+        <loc>https://docs.msupply.foundation/docs/introduction/dashboard/</loc>
         <lastmod>2022-03-17T18:20:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/docs/introduction/images/</loc>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/docs/introduction/introduction/</loc>
+        <lastmod>2022-03-17T18:20:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/docs/introduction/requirements/</loc>
+        <lastmod>2022-06-10T11:38:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/docs/introduction/roadmap/</loc>
+        <lastmod>2022-11-10T18:20:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/docs/introduction/tutorial/</loc>
+        <lastmod>2022-03-19T18:20:00+00:00</lastmod>
     </url>
     <url>
         <loc>https://docs.msupply.foundation/docs/inventory/</loc>
@@ -154,14 +169,6 @@
         <lastmod>2022-03-19T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/requirements/</loc>
-        <lastmod>2022-06-10T11:38:00+00:00</lastmod>
-    </url>
-    <url>
-        <loc>https://docs.msupply.foundation/docs/roadmap/</loc>
-        <lastmod>2022-11-10T18:20:00+00:00</lastmod>
-    </url>
-    <url>
         <loc>https://docs.msupply.foundation/docs/sync/</loc>
     </url>
     <url>
@@ -170,10 +177,6 @@
     <url>
         <loc>https://docs.msupply.foundation/docs/sync/synchronisation/</loc>
         <lastmod>2022-05-17T16:20:00+00:00</lastmod>
-    </url>
-    <url>
-        <loc>https://docs.msupply.foundation/docs/tutorial/</loc>
-        <lastmod>2022-03-19T18:20:00+00:00</lastmod>
     </url>
     <url>
         <loc>https://docs.msupply.foundation/fr/</loc>
@@ -204,10 +207,6 @@
         <lastmod>2022-03-19T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/fr/docs/dashboard/</loc>
-        <lastmod>2022-03-17T18:20:00+00:00</lastmod>
-    </url>
-    <url>
         <loc>https://docs.msupply.foundation/fr/docs/distribution/</loc>
     </url>
     <url>
@@ -224,7 +223,22 @@
     </url>
     <url>
         <loc>https://docs.msupply.foundation/fr/docs/introduction/</loc>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/fr/docs/introduction/dashboard/</loc>
         <lastmod>2022-03-17T18:20:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/fr/docs/introduction/introduction/</loc>
+        <lastmod>2022-03-17T18:20:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/fr/docs/introduction/roadmap/</loc>
+        <lastmod>2022-11-10T18:20:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/fr/docs/introduction/tutorial/</loc>
+        <lastmod>2022-03-19T18:20:00+00:00</lastmod>
     </url>
     <url>
         <loc>https://docs.msupply.foundation/fr/docs/inventory/</loc>
@@ -257,14 +271,6 @@
     </url>
     <url>
         <loc>https://docs.msupply.foundation/fr/docs/replenishment/suppliers/</loc>
-        <lastmod>2022-03-19T18:20:00+00:00</lastmod>
-    </url>
-    <url>
-        <loc>https://docs.msupply.foundation/fr/docs/roadmap/</loc>
-        <lastmod>2022-11-10T18:20:00+00:00</lastmod>
-    </url>
-    <url>
-        <loc>https://docs.msupply.foundation/fr/docs/tutorial/</loc>
         <lastmod>2022-03-19T18:20:00+00:00</lastmod>
     </url>
     <url>

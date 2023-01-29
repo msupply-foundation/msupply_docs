@@ -53,7 +53,7 @@ From this screen you can:
 
 4. You can also select a different number of rows to show per page using the option at the bottom right of the page.
 
-![Rows per page](/docs/images/rows-per-page-select.png)
+![Rows per page](/docs/introduction/images/rows-per-page-select.png)
 ### Search by comment
 
 You can filter the list of requisitions by comment. This can be useful if you're looking for one particular requisition!
