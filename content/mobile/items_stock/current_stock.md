@@ -22,7 +22,7 @@ One of the most important - but easiest - tasks in mSupply Mobile is to check ho
 
 This will show a list of the **Stock on Hand** (quantity) of each item you currently have in stock. 
 
-![Custom invoices button on Navigator](/mobile/images/current_stock.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/current_stock.png)
 
 ### Click on an item to see more details
 
@@ -30,13 +30,13 @@ You can see more detailed information for a specific item such as the **Category
 
 You can **scroll** through the list or **search** for a specific item by typing the first few letters into the search bar.
 
-![Custom invoices button on Navigator](/mobile/images/current_stock_detail.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/current_stock_detail.png)
 
 ### Returning goods to a supplier
 
 Clicking the arrow next to an item will list all of the batches for the item in a new window.
 
-![Custom invoices button on Navigator](/mobile/images/current_stock_returning_goods.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/current_stock_returning_goods.png)
 
   * You can then enter a return amount which will return that amount to the supplier.
   * Clicking **OK** will create a supplier credit - one for each supplier for all batches which came from that supplier.

@@ -17,32 +17,32 @@ top = true
 
 Your store must be set as a dispensary (go to *Special > Show stores* and double-click on your store):
 
-![Custom invoices button on Navigator](/mobile/images/VDS_store_settings.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VDS_store_settings.png)
 
 Ensure that your store has visibility of at least one item that is a vaccine:
 
-![Custom invoices button on Navigator](/mobile/images/VDS_store_visibility.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VDS_store_visibility.png)
 
 If you want to record when a patient has refused a vaccine, you need to create a patient event with the code 'RV'. Otherwise, no record will be created:
 
-![Custom invoices button on Navigator](/mobile/images/VDS_refuse_vaccine.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VDS_refuse_vaccine.png)
 
-![Custom invoices button on Navigator](/mobile/images/VDS_refuse_vaccine2.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VDS_refuse_vaccine2.png)
 
 If you want to record extra patient information during vaccinations, get in contact with The mSupply Foundation as we have no interface for you to create the forms, yet.
 
 To setup **vaccinators** then choose *Special > Show vaccinators* from the menus:
 
-![Custom invoices button on Navigator](/mobile/images/VDS_vaccinators.png)
-![Custom invoices button on Navigator](/mobile/images/VDS_vaccinators2.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VDS_vaccinators.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VDS_vaccinators2.png)
 
 The standard mSupply mobile interface looks like this:
 
-![Custom invoices button on Navigator](/mobile/images/VDS_standard_interface.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VDS_standard_interface.png)
 
 After completing the setup described above, log in to mSupply mobile and synchronise once, and then your interface will look like this, now showing vaccine dispensing as an option:
 
-![Custom invoices button on Navigator](/mobile/images/VDS_setup_finalize.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VDS_setup_finalize.png)
 
 ## Patient Extra Information Setup
 

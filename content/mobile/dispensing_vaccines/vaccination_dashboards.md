@@ -19,9 +19,9 @@ The mSupply dashboard is your friend. We have created a series of dashboards spe
 
 Here's an example:
 
-![Custom invoices button on Navigator](/mobile/images/vaccination_monitoring_dashboard.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/vaccination_monitoring_dashboard.png)
 
 Here the dashboard shows a list of people needing to be contacted for their 2nd dose (This can be exported to excel and uploaded to an SMS sending service to send a reminder)
 
-![Custom invoices button on Navigator](/mobile/images/vaccination_monitoring_dashboard2.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/vaccination_monitoring_dashboard2.png)
 

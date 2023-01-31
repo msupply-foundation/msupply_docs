@@ -30,14 +30,14 @@ If the patient isn't in the list:
 
 Once the patient is found, tap the **plus** icon in the ADR column to add an adverse event report for that patient.
 
-![Custom invoices button on Navigator](/mobile/images/ADR_entering.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/ADR_entering.png)
 
 What is shown on the form is configurable on the server. If more than 1 adverse reaction form has been defined, you will be shown a list of forms, and you need to choose the appropriate one before proceeding. If only 1 form has been configured, you will be taken directly to the form to enter the adverse event details.
 
 The fields you enter, their order and the allowed values are all configured on the server, so will vary for each installation.
 Here's an example that implements a typical ADR form:
 
-![Custom invoices button on Navigator](/mobile/images/ADR_form1.png) ![Custom invoices button on Navigator](/mobile/images/ADR_form2.png) ![Custom invoices button on Navigator](/mobile/images/ADR_form3.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/ADR_form1.png) ![Custom invoices button on Navigator](/mobile/introduction/images/ADR_form2.png) ![Custom invoices button on Navigator](/mobile/introduction/images/ADR_form3.png)
 
 Once you have entered all the data you are able to, tap **Save**
 

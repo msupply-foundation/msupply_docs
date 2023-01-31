@@ -20,5 +20,5 @@ Patient registrations entered on the web site is immediately available to all si
 
 The front page looks like this:
 
-![Custom invoices button on Navigator](/mobile/images/web_entry.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/web_entry.png)
 
