@@ -14,30 +14,26 @@ toc = true
 top = true
 +++
 
-*Adam Dewey, [1/02/2023 at 16:26:07]:*
-#### Can you have multi-users on one tablet with Open mSupply?
+#### Can you have multi-users on one Android tablet with Open mSupply?
+Yes!
+
+You can have multiple users log into the one tablet.
+
 #### Can you have multi-stores on one tablet with Open mSupply?
 
-*Mark Prins, [1/02/2023 at 16:33:31]:*
-yes to both of those, surprisingly
+Yes!
 
-*Adam Dewey, [1/02/2023 at 16:33:44]:*
-Cool!
-Thanks Mark!
+The stores visible on each tablet at each site are configured centrally.
 
-#### and bonus question: multiple users on multiple Open mSupply tablets can access the same store concurrently - is that right?
+#### Can you have multiple users on multiple Open mSupply tablets accessing the same store concurrently
 
-*Andrei Evguenov, [1/02/2023 at 16:38:27]:*
-#### yes but there are limitation (wouldn't automatcially see updates to invoice if both users have it open)
+Yes!
 
-*Adam Dewey, [1/02/2023 at 16:38:41]:*
-oh yeah, that's great!
+You can also access an Open mSupply server running on an Android tablet from a machine running Open mSupply desktop or from a web browser on any device.
 
-*Richard Moizeau, [1/02/2023 at 16:38:52 (1/02/2023 at 16:39:00)]:*
-#### and I think the user won’t know that somebody else is updating the invoice right ?
+#### Can multiple people view/edit the same shipment/stocktake/requisiton at the same time
+Yes! Although the last edit will override previous edits if you both edit the same line at the same time. Stock integrity will be maintained though.
 
-*Adam Dewey, [1/02/2023 at 16:38:53]:*
-#### and not dependent on any 4D concurrent licenses?
+#### Are there any concurrent license restrictions?
 
-*Richard Moizeau, [1/02/2023 at 16:39:11]:*
-No 😉
+There aren't any restrictions on the number of users connected to a server.
