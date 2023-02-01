@@ -55,6 +55,12 @@ In the same 'Patient' menu, search bars are above the patient list that can be u
 
 ![Stock: nav](/docs/module-hiv/images/Narrow_Search_Patient.png)
 
+Finding Patient Details 
+
+Clicking on a patient file (in the 'Patient' tab) will automatically link to the personal details of the patient. The 'Program' and 'Encounter' history can be found in the same section. 
+
+![Stock: nav](/docs/module-hiv/images/Patient_Program_Details.png)
+
 Export Patient List
 
 mSupply allows the option of exporting patient data to be sent to a non-mSupply user. This will begin the download of an excel file with the basic details of patients:
@@ -66,4 +72,39 @@ mSupply allows the option of exporting patient data to be sent to a non-mSupply 
 This can be done by clicking on the 'Export' option in the corner of the main 'Patient' menu. 
 
 ![Stock: nav](/docs/module-hiv/images/Export_Patients.png)
+
+Add Program
+
+mSupply allows patients to be enrolled in a program relevent to the intervention and the patient's illness. This can be done through the 'Patient' tab or while creating a new patient. 
+
+![Stock: nav](/docs/module-hiv/images/Add_Program.png)
+
+Programs are customizable and specific to each context and country - the following examples are from the HIV intervention in Papua New Guinea. This means that each program and the details required will be different for each mSupply user. 
+
+If there is more than one program avaible, all the options will appear with the specific programs the patient is enrolled in ticked and grey. 
+
+If you would like to enroll the highlighted patient in another program, you can do so from this menu.  
+
+![Stock: nav](/docs/module-hiv/images/Program_Details.png)
+
+Encounters
+
+An 'Encounter' is the recorded visit of a patient, and their treatment, under a specific program.  
+
+NOTE: You cannot record and encounter without a patient enrolled in a program - however this may change in future implementation of mSupply
+
+Under the 'Dispensary' category there is the 'Encounters' tab. 
+
+![Stock: nav](/docs/module-hiv/images/Encounters_Tab.png)
+
+Clicking on this will bring up a list of patients and every encounter that has been documented on mSupply. This includes the date, status and program.
+
+NOTE: A patient must have to be enrolled in a program to input an encounter 
+
+![Stock: nav](/docs/module-hiv/images/Encounters_List.png)
+
+After clicking on a patient in the 'Encounter' tab, it will bring up a panel of  
+
+ 
+
 
