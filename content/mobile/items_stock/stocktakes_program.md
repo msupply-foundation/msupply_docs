@@ -21,7 +21,7 @@ You need to create a **Program Stocktake**, which will automatically populate yo
 
 ### Click on Stocktakes
 
-![Custom invoices button on Navigator](/mobile/images/stocktake_programs.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/stocktake_programs.png)
 
 When your store has access to at least one program, creating a Stocktake will prompt you to choose from either a **Program Stocktake** or a **General Stocktake.**
 
@@ -37,7 +37,7 @@ Select the **Program** from the dropdown list and give the stocktake a logical n
 
 Click **OK**.
 
-![Custom invoices button on Navigator](/mobile/images/stocktake_program_name.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/stocktake_program_name.png)
 
 ### This will bring up the Stocktake Editor
 
@@ -54,7 +54,7 @@ The **Snapshot Quantity** is what the system THINKS you have. If it is correct (
 
 The **Actual Quantity** is what you have actually counted. You can change this by clicking in that column and typing in the correct quantity.
 
-![Custom invoices button on Navigator](/mobile/images/stocktake_editor.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/stocktake_editor.png)
 
 ### For each item, compare your physical count with the Snapshot Quantity
 
@@ -75,9 +75,9 @@ If your stocktake screen shows a **Reason** column, you must enter a reason for 
 
 If the **Actual Quantity** entered is different from the **Snapshot Quantity**, you will be prompted to select a **Reason** for the **Difference** from a standard list. You will not be able to continue until a reason is selected.
 
-![Custom invoices button on Navigator](/mobile/images/stocktake_adjustments_adjustment.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/stocktake_adjustments_adjustment.png)
 
-![Custom invoices button on Navigator](/mobile/images/stocktake_adjustment2.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/stocktake_adjustment2.png)
 
 To change the reason, click on the cell again.
 
@@ -85,23 +85,23 @@ To change the reason, click on the cell again.
 
 You can adjust batch-specific information or add new batches by clicking the item's **Batches** icon. 
 
-![Custom invoices button on Navigator](/mobile/images/stocktake_edit_batch.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/stocktake_edit_batch.png)
 
 In this example there is only one batch of paracetamol. 
 
-![Custom invoices button on Navigator](/mobile/images/stocktake_edit_batches2.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/stocktake_edit_batches2.png)
 
 If there are multiple batches:
 
   * **Inventory adjustments will be automatically made to the batch that arrived first (i.e. first in - first out).**
     * In this example there are three batches of ibuprofen. The **Snapshot Quantity** was 300 and the **Actual Quantity** was 220. The **Difference** of 80 was automatically taken away from the batch that arrived first. However, this can be manually changed in this screen.
 
-![Custom invoices button on Navigator](/mobile/images/stocktakes_edit_batches_multiple.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/stocktakes_edit_batches_multiple.png)
 
   * **The inventory adjustment reason selected will automatically apply to all batches.** 
     * However, separate reasons for different batches can be manually changed in this screen. In this example we have updated the inventory adjustment of 80 among the batches of ibuprofen, with separate reasons for each batch. 
 
-![Custom invoices button on Navigator](/mobile/images/stocktakes_edit_batches_multiple2.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/stocktakes_edit_batches_multiple2.png)
 
 When you are finished making changes in the **Batches** screen, click **OK**. 
 
@@ -111,7 +111,7 @@ Note: The main stocktake screen will only show the most common reason among the 
 
 Click **Finalise**.
 
-![Custom invoices button on Navigator](/mobile/images/stocktake_finalize.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/stocktake_finalize.png)
 
 This will update all your stock levels to match the quantities you have entered in the **Actual Quantity** column.
 

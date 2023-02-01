@@ -277,26 +277,14 @@
         <loc>https://docs.msupply.foundation/mobile/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/cash-register/</loc>
-        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
-    </url>
-    <url>
-        <loc>https://docs.msupply.foundation/mobile/customer-inv/</loc>
-        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
-    </url>
-    <url>
-        <loc>https://docs.msupply.foundation/mobile/customer-requisitions-program-orders/</loc>
-        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
-    </url>
-    <url>
-        <loc>https://docs.msupply.foundation/mobile/customer-requisitions/</loc>
-        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
-    </url>
-    <url>
         <loc>https://docs.msupply.foundation/mobile/dispensing_vaccines/</loc>
     </url>
     <url>
         <loc>https://docs.msupply.foundation/mobile/dispensing_vaccines/adverse-drug-reactions/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/mobile/dispensing_vaccines/cash-register/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
@@ -327,18 +315,25 @@
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/getting-started/</loc>
-        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
-    </url>
-    <url>
-        <loc>https://docs.msupply.foundation/mobile/images/</loc>
-    </url>
-    <url>
-        <loc>https://docs.msupply.foundation/mobile/indicators/</loc>
-        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
-    </url>
-    <url>
         <loc>https://docs.msupply.foundation/mobile/introduction/</loc>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/mobile/introduction/getting-started/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/mobile/introduction/images/</loc>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/mobile/introduction/introduction/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/mobile/introduction/mobile-dashboard/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/mobile/introduction/msupply-mobile-demo/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
@@ -360,22 +355,26 @@
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/mobile-dashboard/</loc>
-        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
-    </url>
-    <url>
-        <loc>https://docs.msupply.foundation/mobile/mobile-settings/</loc>
-        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
-    </url>
-    <url>
-        <loc>https://docs.msupply.foundation/mobile/msupply-mobile-demo/</loc>
-        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
-    </url>
-    <url>
         <loc>https://docs.msupply.foundation/mobile/order_and_receive/</loc>
     </url>
     <url>
+        <loc>https://docs.msupply.foundation/mobile/order_and_receive/customer-inv/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/mobile/order_and_receive/customer-requisitions-program-orders/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/mobile/order_and_receive/customer-requisitions/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
+    </url>
+    <url>
         <loc>https://docs.msupply.foundation/mobile/order_and_receive/images/</loc>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/mobile/order_and_receive/indicators/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
         <loc>https://docs.msupply.foundation/mobile/order_and_receive/ordering-and-receiving/</loc>
@@ -398,7 +397,17 @@
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/server-setup/</loc>
+        <loc>https://docs.msupply.foundation/mobile/setup/</loc>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/mobile/setup/images/</loc>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/mobile/setup/mobile-settings/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/mobile/setup/server-setup/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
 </urlset>

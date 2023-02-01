@@ -26,27 +26,27 @@ The vaccine module requires additional permissions and services to be enabled on
 
 When all permissions and services required for Mobile ColdChain are enabled, the 'cog icon' will be in the mSupply Mobile title line (top right of your mobile screen):
 
-![Custom invoices button on Navigator](/mobile/images/VM_CC_permission.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VM_CC_permission.png)
 
 However, if some required permissions and services are disabled, the 'hazard icon' will be in the mSupply Mobile title line:
 
-![Custom invoices button on Navigator](/mobile/images/VM_CC_permission2.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VM_CC_permission2.png)
 
 If your title line shows that some permissions and services are disabled, press on the 'hazard icon' to open the **Permissions and Services** window.  
 
 Any permission or service that is disabled will be indicated with a 'cross icon' as below:
 
-![Custom invoices button on Navigator](/mobile/images/VM_CC_permissions_services.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VM_CC_permissions_services.png)
 
 To enable, simply press on the cross icon next to the permission or service.  Your device will prompt you to enable the permission or service.
 
-![Custom invoices button on Navigator](/mobile/images/VM_CC_permissions2.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VM_CC_permissions2.png)
 
 Press `Allow`.
 
 Once all of the permissions and services have been enabled, your window will look like this:
 
-![Custom invoices button on Navigator](/mobile/images/VM_CC_permissions3.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VM_CC_permissions3.png)
 
 ### Approved mSupply Temperature Sensors
 
@@ -60,7 +60,7 @@ Approved sensors can be purchased directly from the manufacturer or reseller onl
 
 The first time you use the Vaccine module, there will be no sensors connected to your device.
 
-![Custom invoices button on Navigator](/mobile/images/VM_CC_add_sensors.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VM_CC_add_sensors.png)
 
 Tap `Add Sensor` to start the three-step process to add a sensor.
 
@@ -73,7 +73,7 @@ If you are using a brand new sensor, press the top of the sensor until it flashe
 
 When you tap **Add Sensor**, your device will scan and list any sensors that can be connected by Bluetooth.
 
-![Custom invoices button on Navigator](/mobile/images/VM_CC_add_sensors1.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VM_CC_add_sensors1.png)
 
 If you tap the **BLINK** button, the LED light for that sensor will flash.  You can use this to make sure that you are connecting the correct sensor. 
 
@@ -104,7 +104,7 @@ Now we can set the temperature breach conditions for the sensor.  There are four
 
     * A breach will be displayed when the sensor logs a temperature below this value for longer than the total specified time specified (total time is calculated as the sum of all breach times). Using the `+/-` buttons, select the minimum temperature and minimum total duration required to identify the breach.
 
-![Custom invoices button on Navigator](/mobile/images/VM_CC_add_sensors2.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VM_CC_add_sensors2.png)
 
 <div class="tip">
 
@@ -132,7 +132,7 @@ For reporting purposes, we recommend that you do not use special characters such
 
 When setting the schedule for the first temperature log, allow sufficient time for the sensor to be placed in its desired location and adjust to the location’s temperature. 20 minutes should be sufficient in most situations.
 
-![Custom invoices button on Navigator](/mobile/images/VM_CC_add_sensors3.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VM_CC_add_sensors3.png)
 
 Tap **Connect** to complete sensor setup and add the sensor to mSupply mobile.  This will return you to the mSupply mobile vaccine home screen and you will see the sensor has been added.  
 
@@ -140,7 +140,7 @@ Tap **Back** if you wish to return to Step 2 and edit the sensor thresholds (tem
 
 Tap **Cancel** if you no longer want to add the sensor.
 
-![Custom invoices button on Navigator](/mobile/images/VM_CC_add_sensors_final.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VM_CC_add_sensors_final.png)
 
 <div class="note">
 
@@ -154,7 +154,7 @@ Screenshot
 
 All __sensor threshold__ and __sensor connection__ details are editable except for the start Logging date and time.  Simply tap on the field that you wish to end and make changes.  
 
-![Custom invoices button on Navigator](/mobile/images/VM_CC_edit_sensors.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VM_CC_edit_sensors.png)
 
 No changes will be made until you tap `Save`.
 
@@ -167,13 +167,13 @@ Depending on your proximity to the sensor and the Bluetooth capabilities of your
 
 The edit screen also allows you to `Pause` temperature logging by the sensor.  When a sensor has been paused, it will appear in the title line both on the mSupply mobile vaccine home screen as well as the Sensor Detail screen.
 
-![Custom invoices button on Navigator](/mobile/images/VM_CC_pausing_sensor.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VM_CC_pausing_sensor.png)
 
 #### Replacing a Sensor
 
 Tapping `Replace` will open up the scanner and allow you to choose from list of alternative sensors.  The list will only show sensors that are not currently connected to your device.
 
-![Custom invoices button on Navigator](/mobile/images/VD_CC_sensor_replace.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VD_CC_sensor_replace.png)
 
 From the list, select the replacement sensor.  You can press `Blink` to check that you have the correct sensor (the LED light will flash for this sensor).  
 
@@ -181,51 +181,51 @@ From the list, select the replacement sensor.  You can press `Blink` to check th
 
 Tap `Remove` to remove any sensor no longer being used. You will receive a prompt to confirm the deletion.  
 
-![Custom invoices button on Navigator](/mobile/images/VM_CC_sensor_remove.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VM_CC_sensor_remove.png)
 
 ## Using the Vaccine module
 
 Enabling the Vaccine module will change the look of your menu page, adding an extra Vaccines button. 
 
-![Custom invoices button on Navigator](/mobile/images/VM_CC_enable_button.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VM_CC_enable_button.png)
 
 #### Supplier Invoices
 
 With vaccine module enabled you automatically get a few extra columns on a supplier invoice for vaccines - the Location and Vaccine Vial Monitor (VVM) status columns.
 
-![Custom invoices button on Navigator](/mobile/images/VM_CC_supplier_invoice.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VM_CC_supplier_invoice.png)
 
 You can select a location by tapping on the arrow icon in the Location cell. This will allow you to choose a location from a list. 
 
-![Custom invoices button on Navigator](/mobile/images/VM_CC_supplier_invoice2.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VM_CC_supplier_invoice2.png)
 
 You can also change the Vaccine vial monitor status for items that have been defined as vaccines on the cloud server - this defaults to the lowest level, but can be edited by clicking on the arrow icon in the VVM Status column.
 
-![Custom invoices button on Navigator](/mobile/images/VM_CC_supplier_invoice3.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VM_CC_supplier_invoice3.png)
 
 #### Customer Invoices
 
 Vaccine module automatically adds two extra columns on a customer invoice - the Doses and Breach columns. 
 
-![Custom invoices button on Navigator](/mobile/images/VM_CC_customer_invoice.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VM_CC_customer_invoice.png)
 
   * The **Doses** column is for the number of doses actually used (so we can account for open-vial wastage). It will automatically get populated by the *item quantity * number of doses in a vial*, for convenience, but you can also edit it! There is a maximum limit of *the number of doses in a vial for that vaccine * the quantity*, though.
   * The **Breach** column shows when a vaccine item has been in a temperature breach. Note that without entering a quantity into the customer invoice for the item, we don’t know exactly what batches are being issued, so the breach icon may not show up yet.
   * If the breach icon (an orange triangle with an exclamation) does show for a row, this signals that the stock line has had a temperature breach. Tapping the icon will bring up a graph of the temperature breach. In the example below, the fridge seems to be broken, probably not a good idea to use this batch!
 
-![Custom invoices button on Navigator](/mobile/images/VM_CC_customer_invoice2.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VM_CC_customer_invoice2.png)
 
 #### Supplier Requisitions
 
 Tapping on a row in your supplier requisition will show you the date of the last requisition for your vaccine, as well as other details such as the open and closed vial wastage since the last requisition. 
 
-![Custom invoices button on Navigator](/mobile/images/VM_CC_supplier_requisitions.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VM_CC_supplier_requisitions.png)
 
 #### Stocktakes
 
 Tapping on a stocktake row for a vaccine item will also show the additional columns for **Doses** and **Breach**. 
 
-![Custom invoices button on Navigator](/mobile/images/VM_CC_stocktakes.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VM_CC_stocktakes.png)
 
 Here, you can adjust the quantities of your vaccine if needed, change the location, or if the vaccine vial monitor status has changed, you can update that here. You can also view the breaches the batch has been in to help you make decisions!
 
@@ -233,7 +233,7 @@ Here, you can adjust the quantities of your vaccine if needed, change the locati
 
 Tapping on the Vaccines button in the menu page will bring you to a list of all the temperature sensors connected to your device and an overview of current status and actions for each sensor.
 
-![Custom invoices button on Navigator](/mobile/images/VM_CC_home_page.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VM_CC_home_page.png)
 
 The sensor header displays the following information:
 
@@ -255,7 +255,7 @@ Tap anywhere on a sensor box to view further details.
 
 #### Sensor Detail
 
-![Custom invoices button on Navigator](/mobile/images/VM_CC_sensor_detail.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VM_CC_sensor_detail.png)
 
 Tap on the date range on the top left of the screen to change the time (and data) displayed.
 
@@ -283,7 +283,7 @@ Underneath the graph are five temperature cards:
 
 It is possible to download the temperature (breach) logs and sensor settings by clicking the ‘Download’ button in the header (on either the Vaccine home page or the Sensor Details page).
 
-![Custom invoices button on Navigator](/mobile/images/VM_CC_export_data.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VM_CC_export_data.png)
 
 The **Download** screen requires:
 

@@ -57,11 +57,11 @@ Setup is technical and needs to be done carefully. We know you're careful ;-)
 
 Once Setup is complete, you'll end up with an mobile navigation screen that looks like this:
 
-![Custom invoices button on Navigator](/mobile/images/VD_module.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VD_module.png)
 
 # Step one: Patient details
 
-![Custom invoices button on Navigator](/mobile/images/VD_patient_details.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VD_patient_details.png)
 
 Note that each step has a **Cancel** button which will cancel the process
 You can also press on any one of the three steps along the top of the window  after they’ve been completed to revisit that step and edit details if needed.
@@ -75,7 +75,7 @@ You can also press on any one of the three steps along the top of the window  af
     * If you still can’t find the patient, click “New Patient”
     * If you do find your patient, click on the row to go to step 2
 
-![Custom invoices button on Navigator](/mobile/images/VD_patient_details2.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VD_patient_details2.png)
 
   * Alternatively (as of v8.1.0), it is possible to lookup patients by QR Code (provided these details have been loaded into mSupply). 
     * Upon tapping the **Scan QR Code** button a window will appear with a camera view. 
@@ -83,17 +83,17 @@ You can also press on any one of the three steps along the top of the window  af
     * If the patient was not found locally and there is internet available, a search will then be sent to your cloud server to see if the patient exists anywhere in your system. 
     * If the patient was still not found after a search on the cloud server (or internet is not available), you will get a message indicating that no patient was found, and will arrive back at the manual entry page, where you can either enter details manually (as per above) or try another QR Code.
 
-![Custom invoices button on Navigator](/mobile/images/VD_patient_details_QR.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VD_patient_details_QR.png)
 
 # Step two: Add or edit patient information
 
-![Custom invoices button on Navigator](/mobile/images/VD_VD_patient_edit.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VD_VD_patient_edit.png)
 
 After choosing a patient, you're shown the standard mSupply information for the patient in the left-hand panel, and any extra information that you have configured in the right-hand panel.
 
 # Step three: Additional vaccination details
 
-![Custom invoices button on Navigator](/mobile/images/VD_additional_vaccines.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VD_additional_vaccines.png)
 
 Note that this third step is only available from mobile v8.1.0 onwards, and requires a form to be configured on the mSupply server for it to display. The form configuration drives the content shown in step three.
 
@@ -108,13 +108,13 @@ If using v8.0.X, or a form is not configured on the server, there will only be t
   * Tapping **Confirm** will send you back to the menu page.
   * Tapping **OK & Next** will allow you to vaccinate another patient.
 
-![Custom invoices button on Navigator](/mobile/images/VD_dispense_vaccine.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VD_dispense_vaccine.png)
 
 # Refused vaccinations
 
 If the patient refuses to be vaccinated, then check the **Refused vaccine** checkbox at the top-right. 
 
-![Custom invoices button on Navigator](/mobile/images/VD_refused_vaccinations.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/VD_refused_vaccinations.png)
 
 A text field will then become available to record a reason for the refusal.
 
