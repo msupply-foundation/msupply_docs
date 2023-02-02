@@ -14,8 +14,8 @@ top = false
 
 The Mobile Settings is where a user with appropriate permissions can carry out certain administration tasks including:
 
-  * Edit the **Sync URL** and **Sync Password** for your mobile store
-  * Configure the **Sync interval** and **Idle logout** interval
+  * Edit the **Sync URL** and **Sync Password** for your mobile store.
+  * Configure the **Sync interval** and **Idle logout** interval.
   * View the **Realm Explorer**
   * **Export Data** (i.e. export your database file).
   * **Import Data** (i.e. import a database file from another device).
@@ -24,7 +24,7 @@ The Mobile Settings is where a user with appropriate permissions can carry out c
 
 ### Permission to Edit Mobile Settings
 
-To edit mobile settings, the user must have the **View/Edit Preferences** permission set for the mobile store on the Central server - please see the  [5. Setting up the Users to access the store](/en:mobile:setup:server_side:users#setting_up_admin_access_to_the_device_settings) page for details.
+To edit mobile settings, the user must have the **View/Edit Preferences** permission set for the mobile store on the Central server - please see the  [5. Setting up the Users to access the store](https://wiki.msupply.foundation/en:mobile:setup:server_side:users#setting_up_admin_access_to_the_device_settings) page for details.
 
 ### Access Mobile Settings
 

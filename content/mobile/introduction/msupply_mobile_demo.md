@@ -52,7 +52,7 @@ You should now be able to setup your store.
 
 [<img src="/_media/mobile:logintoyoursite.png?w=600&amp;tok=c3061f" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/mobile:logintoyoursite.png?id=en%3Amobile%3Auser_guide%3Amsupply_mobile_demo)
 
-If the credential of your mobile store has been entered properly then your table will start to retrieve data from Demo server. Please wait until the procedure is finished. We expect this to take no more than 5 minutes.   
+If the credential of your mobile store has been entered properly then your table will start to retrieve data from the Demo server. Please wait until the procedure is finished. We expect this to take no more than 5 minutes.   
 
 # Login as a User
 
@@ -66,11 +66,12 @@ You may log in as a user once the store setup has been completed. You will be sh
 # Using the module
 
 Once setup is complete, you'll end up with a mobile navigation screen that looks like this:
+
 ![Custom invoices button on Navigator](/mobile/introduction/images/use_module.png)
 
 ## Vaccination module
 
-The vaccination module only works after when you have stock.  So, to see how the Vaccination module works, you must carry out a stock take to add some stock. 
+The vaccination module only works after you have stock.  So, to see how the Vaccination module works, you must carry out a stocktake to add some stock. 
 
   * Click on **Stocktake**
 
@@ -102,7 +103,7 @@ The vaccination module only works after when you have stock.  So, to see how the
 
 ![Custom invoices button on Navigator](/mobile/introduction/images/patient_search.png)
 
-You may now search a patient and carry out a vaccinations.
+You may now search a patient and carry out vaccinations.
 
 Good luck! :-)
 
