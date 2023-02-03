@@ -37,7 +37,7 @@ Please consult with the mSupply Foundation support team ( support@msupply.org.nz
 Please note
 
   
-* A device is typically allocated to a facility, NOT an individual user. As such ALL operating system (i.e. Android) user accounts set up on the device must be for the site, not a person. This way, if a person leaves and another person takes over operation of the device, and nothing should need to be changed.
+* A device is typically allocated to a facility, NOT an individual user. As such ALL operating system (i.e. Android) user accounts set up on the device must be for the site, not a person. This way, if a person leaves and another person takes over operation of the device, nothing should need to be changed.
 * Each device running mSupply Mobile will correspond to one mSupply Store.
 
 #### Initialising the store
@@ -51,7 +51,7 @@ When you open mSupply Mobile, the first screen looks as follows:
 ![Setup screen!](/mobile/introduction/images/first_screen.jpg)
 
 
-* **PRIMARY SERVER URL**: Please enter the correct URL for your mSupply Server, this uses HTTPS protocol for security. Forexample: https://your organisation.msupply.org
+* **PRIMARY SERVER URL**: Please enter the correct URL for your mSupply Server, this uses HTTPS protocol for security. For example: https://your organisation.msupply.org
 * **SYNC SITE NAME**: The site name as configured on the primary server.
 * **SYNC SITE PASSWORD**: The password for the sync site as configured on the primary server.
 

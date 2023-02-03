@@ -108,13 +108,13 @@ After the device has synced to the central server you will see the login screen:
 
 #### Selecting the language
 
-  * The first thing to do is to choose your preferred language by clicking **Language** at the bottom left of the screen. For example, if your first language is [Tetum](https://en.wikipedia.org/wiki/Tetum_language), then you're in luck! - see [below](/en:mobile:user_guide:getting_started#tetum).
+  * The first thing to do is to choose your preferred language by clicking **Language** at the bottom left of the screen. For example, if your first language is [Tetum](https://en.wikipedia.org/wiki/Tetum_language), then you're in luck! - see [below](/mobile/introduction/getting-started/#tetum). 
 
 ![Choose language next](/mobile/introduction/images/chooselanguage3.png)
 
 #### Logging in the user
 
-  * Users need to be configured on the mSupply central server - refer to [Setting up the Users to access the store](https://docs.msupply.foundation/en:mobile:setup:server_side:users).
+  * Users need to be configured on the mSupply central server - refer to [Setting up the Users to access the store](/mobile/introduction/msupply-mobile-demo/#request-a-demo-store).
 
 Once you have selected the language of your choice, enter the credentials (user name and password) for the store user and tap 
 
@@ -157,7 +157,7 @@ You can close this page by clicking the cross on the top right.
 
 #### Settings
 
-Users with the appropriate permissions can access the mobile **[Settings](https://docs.msupply.foundation/en:mobile:user_guide:mobile_settings)** on the bottom right of the screen.
+Users with the appropriate permissions can access the mobile **[Settings](/mobile/setup/mobile-settings/#access-mobile-settings)** on the bottom right of the screen.
 
 ![Choose language](/mobile/introduction/images/mobile_settings.png)
 
@@ -194,7 +194,7 @@ The **Stocktakes** button allows you to do a stocktake on all items or a small s
 
 ### Tetum
 
-And here is the main screen in Tetum language !
+And here is the main screen in Tetum language!
 ![Choose language](/mobile/introduction/images/tetum.jpg)
 
 

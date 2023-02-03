@@ -38,7 +38,6 @@ Our mSupply mobile username and password guidelines are available [here](https:/
 
 The mSupply Demo server will e-mail you and expect you to click the link to activate your Mobile store. 
 
-[<img src="/_media/mobile:email_message.png?w=600&amp;tok=15f75f" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/mobile:email_message.png?id=en%3Amobile%3Auser_guide%3Amsupply_mobile_demo)
 
 Please check your junk e-mail if you do not see the e-mail.
 
