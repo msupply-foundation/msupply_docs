@@ -16,7 +16,7 @@ repo_url = "https://github.com/openmsupply/remote-server"
 [[extra.list]]
 icon = "mSupplymobile.png"
 title = "mSupply mobile"
-content = 'The <a href="/mobile/introduction">User Guide</a> for mSupply mobile!'
+content = 'The <a href="/mobile/introduction/introduction">User Guide</a> for mSupply mobile!'
 
 [[extra.list]]
 icon = "mSupplyTorso.svg"
