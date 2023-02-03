@@ -4,7 +4,7 @@ description = "Requesting stock from your suppliers."
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
 draft = false
-weight = 2
+weight = 42
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -166,7 +166,7 @@ You can always manually edit the order quantity for each by tapping on an order 
 When viewing a specific Internal Order, simply click the `Print` button which is on the top right of the page.
 When printing, a PDF file is generated for you, which will then open in a new browser tab. This can then be printed using your browser by clicking print or using `control`+`P` (if using windows) or `cmd`+`P` keys on your keyboard (if using a mac).
 
-![Print button](/docs/images/print_button.png)
+![Print button](//docs/introduction/images//print_button.png)
 
 This will either
 * Show a menu of possible reports for you to select from before creating a PDF. This will happen if there are more than one report defined for the `Requisition` report type.

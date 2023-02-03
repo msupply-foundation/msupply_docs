@@ -4,7 +4,7 @@ description = "Issuing stock to your customers."
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
 draft = false
-weight = 3
+weight = 23
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -62,7 +62,7 @@ From this screen you can:
 
 4. You can also select a different number of rows to show per page using the option at the bottom right of the page.
 
-![Rows per page](/docs/images/rows-per-page-select.png)
+![Rows per page](/docs/introduction/images/rows-per-page-select.png)
 
 ### Search by Customer Name
 

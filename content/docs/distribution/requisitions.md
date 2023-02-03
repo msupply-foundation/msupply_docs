@@ -4,7 +4,7 @@ description = "Managing your customers orders."
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
 draft = false
-weight = 2
+weight = 22
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -53,7 +53,7 @@ From this screen you can:
 
 4. You can also select a different number of rows to show per page using the option at the bottom right of the page.
 
-![Rows per page](/docs/images/rows-per-page-select.png)
+![Rows per page](/docs/introduction/images/rows-per-page-select.png)
 ### Search by comment
 
 You can filter the list of requisitions by comment. This can be useful if you're looking for one particular requisition!

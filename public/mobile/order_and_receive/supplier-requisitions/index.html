@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="preload" as="font" href="https://docs.msupply.foundation/fonts/vendor/jost/jost-v4-latin-regular.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="https://docs.msupply.foundation/fonts/vendor/jost/jost-v4-latin-700.woff2"  type="font/woff2" crossorigin>
+
+
+<link rel="stylesheet" href="https://docs.msupply.foundation/main.css">
+<link rel="stylesheet" href="https://docs.msupply.foundation/msupply.css">
+
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+  
+  
+  
+    
+  
+  
+  
+  
+    
+  
+  
+  
+
+
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+
+	
+
+
+	
+
+<title>Supplier Requisitions - mSupply</title>
+<meta name="description" content="mSupply mobile- Open source Android application.">
+<link rel="canonical" href="https://docs.msupply.foundation/mobile/order_and_receive/supplier-requisitions/">
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    
+      
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          {
+            "@type": "ListItem",
+            "position":  1 ,
+            "name": "Home",
+            "item": "https://docs.msupply.foundation/"
+          },
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  2 ,
+            "name": "Mobile",
+            "item": "https://docs.msupply.foundation/mobile/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  3 ,
+            "name": "Order_and_receive",
+            "item": "https://docs.msupply.foundation/mobile/order_and_receive/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  4 ,
+            "name": "Supplier Requisitions",
+            "item": "https://docs.msupply.foundation/mobile/order_and_receive/supplier-requisitions/"
+          },
+        
+      
+    
+  }
+</script>
+
+
+
+
+
+
+  <meta name="theme-color" content="#fff">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://docs.msupply.foundation/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://docs.msupply.foundation/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://docs.msupply.foundation/favicon-16x16.png">
+  
+    <link rel="manifest" href="https://docs.msupply.foundation/site.webmanifest" crossorigin>
+  
+
+
+  
+
+</head>
+ 
+   
+
+<body class="docs single">
+   
+   
+   
+  
+
+    
+
+<div class="header-bar fixed-top"></div>
+<header class="navbar fixed-top navbar-expand-md navbar-light">
+	<div class="container">
+		<input class="menu-btn order-0" type="checkbox" id="menu-btn">
+		<label class="menu-icon d-md-none" for="menu-btn"><span class="navicon"></span></label>
+		<a class="navbar-brand order-1 order-md-0 me-auto" href="https://docs.msupply.foundation">mSupply</a>
+		<button id="mode" class="btn btn-link order-2 order-md-4" type="button" aria-label="Toggle mode">
+			<span class="toggle-dark"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></span>
+			<span class="toggle-light"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></span>
+		</button>
+		<ul class="navbar-nav fork-me order-3 order-md-5">
+			
+				
+					<li class="nav-item">
+						<a class="nav-link" href="https://twitter.com/mSupply"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg><span class="ms-2 visually-hidden">Twitter</span></a>
+					</li>
+				
+			
+		</ul>
+		<div class="collapse navbar-collapse order-4 order-md-1">
+			<ul class="navbar-nav main-nav me-auto order-5 order-md-2">
+				
+					
+				
+				
+				
+					
+						<li class="nav-item">
+							<a class="nav-link" href="https://docs.msupply.foundation/docs/introduction/">Desktop</a>
+						</li>
+					
+						<li class="nav-item">
+							<a class="nav-link" href="https://docs.msupply.foundation/coldchain/introduction/">Coldchain</a>
+						</li>
+					
+						<li class="nav-item">
+							<a class="nav-link" href="https://docs.msupply.foundation/dashboard/introduction/">Dashboard</a>
+						</li>
+					
+						<li class="nav-item mobile active">
+							<a class="nav-link" href="https://docs.msupply.foundation/mobile/introduction/">Mobile</a>
+						</li>
+					
+				
+			</ul>
+			<div class="break order-6 d-md-none"></div>
+			
+				<form class="navbar-form flex-grow-1 order-7 order-md-3">
+					<input id="userinput" class="form-control is-search" type="search" placeholder="Search docs..."
+						aria-label="Search docs..." autocomplete="off">
+					<div id="suggestions" class="shadow bg-white rounded"></div>
+				</form>
+			
+		</div>
+	</div>
+</header>
+ 
+
+
+  
+<div class="wrap container" role="document">
+  <div class="content">
+    <div class="row flex-xl-nowrap">
+      
+<div class="col-lg-5 col-xl-4 docs-sidebar">
+	<nav class="docs-links" aria-label="Main navigation">
+		
+			
+		
+			
+			
+			
+					
+					
+					
+							<h3>mSupply mobile</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/introduction/introduction/">Introduction</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/introduction/getting-started/">Getting Started</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/introduction/mobile-dashboard/">Mobile Dashboard</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/introduction/msupply-mobile-demo/">mSupply Mobile Demo</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Settings and Set-up</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/mobile-settings/">Mobile Settings</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/server-setup/">mSupply server setup</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Ordering &amp; Receiving</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/order_and_receive/ordering-and-receiving/">Ordering and Receiving</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/order_and_receive/supplier-invoices-returns/">Supplier Returns</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/order_and_receive/supplier-invoices/">Supplier Invoices</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/order_and_receive/supplier-requisitions-program/">Supplier Requisitions (Program Orders)</a></li>
+							                           
+									<li><a class="docs-link active" href="https://docs.msupply.foundation/mobile/order_and_receive/supplier-requisitions/">Supplier Requisitions</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/order_and_receive/customer-inv/"> Customer Invoices</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/order_and_receive/customer-requisitions/">Customer Requisitions</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/order_and_receive/customer-requisitions-program-orders/">Customer Requisitions (Program Orders)</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/order_and_receive/indicators/">Indicators</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Items &amp; Stock</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/items_stock/stocktakes-program/">Stocktakes (by program)</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/items_stock/current-stock/">Current Stock</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/items_stock/stocktakes/">Stocktakes</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Dispensing &amp; Vaccines</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/dispensing_vaccines/cash-register/">Cash Register</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/dispensing_vaccines/adverse-drug-reactions/">ADR Reporting</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/dispensing_vaccines/dispensing/">Dispensing</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/dispensing_vaccines/setup/">Vaccine Dispensing Setup</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/dispensing_vaccines/vaccination-dashboards/">Vaccination Dashboards</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/dispensing_vaccines/vaccine/">Vaccines</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/dispensing_vaccines/vaccine-dispensing/">Vaccine dispensing</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/dispensing_vaccines/web-apps/">Vaccines&#x2F;ADR Web Portal </a></li>
+							
+					</ul>
+					
+					
+			
+	</nav>
+</div>
+  
+<nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
+  <div class="page-links">
+    <h3>On this page</h3>
+    <nav id="TableOfContents">
+      <ul>
+        
+        <li><a href="https://docs.msupply.foundation/mobile/order_and_receive/supplier-requisitions/#current-supplier-requisitions">Current Supplier Requisitions</a></li>
+         
+        <li><a href="https://docs.msupply.foundation/mobile/order_and_receive/supplier-requisitions/#past-supplier-requisitions">Past Supplier Requisitions</a></li>
+         
+        <li><a href="https://docs.msupply.foundation/mobile/order_and_receive/supplier-requisitions/#new-supplier-requisition">New Supplier Requisition</a></li>
+         
+        <li><a href="https://docs.msupply.foundation/mobile/order_and_receive/supplier-requisitions/#adding-items-to-a-supplier-requisition">Adding items to a Supplier Requisition</a></li>
+        
+        <ul>
+          
+          <li><a href="https://docs.msupply.foundation/mobile/order_and_receive/supplier-requisitions/#small-orders">Small Orders</a></li>
+          
+          <li><a href="https://docs.msupply.foundation/mobile/order_and_receive/supplier-requisitions/#larger-orders">Larger Orders</a></li>
+          
+        </ul>
+         
+        <li><a href="https://docs.msupply.foundation/mobile/order_and_receive/supplier-requisitions/#use-suggested-quantities">Use Suggested Quantities</a></li>
+         
+        <li><a href="https://docs.msupply.foundation/mobile/order_and_receive/supplier-requisitions/#create-automatic-order">Create Automatic Order</a></li>
+         
+        <li><a href="https://docs.msupply.foundation/mobile/order_and_receive/supplier-requisitions/#finalising-a-supplier-requisition">Finalising a Supplier Requisition</a></li>
+         
+        <li><a href="https://docs.msupply.foundation/mobile/order_and_receive/supplier-requisitions/#this-chapter-tells-you-how-to-receive-stock">This chapter tells you how to receive stock.</a></li>
+         
+      </ul>
+    </nav>
+  </div>
+</nav>
+ 
+      <main class="docs-content col-lg-11 col-xl-9">
+        
+        <div class="flagster" style="float: right; padding: 5px">
+          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;mobile&#x2F;order_and_receive&#x2F;supplier-requisitions&#x2F;" title="Change language to en"
+            >🇬🇧</a
+          >
+        </div>
+        
+
+        <h1>Supplier Requisitions</h1>
+        
+        <p class="lead">Supplier Requisitions (General Orders)</p>
+         <p>If you would like to order some stock from your supplier, tap on <strong>Supplier Requisitions</strong>. </p>
+<p><img src="/mobile/introduction/images/supplier_requisitions_GO.png" alt="Custom invoices button on Navigator" /></p>
+<h3 id="current-supplier-requisitions">Current Supplier Requisitions</h3>
+<p>The Supplier Requisition window will start by displaying <strong>Current</strong> requisitions.</p>
+<p><img src="/mobile/introduction/images/current_supplier_requisitions_GO.png" alt="Custom invoices button on Navigator" /></p>
+<p>These are the requisitions that are <strong>In Progress</strong> (see the <strong>Status</strong> column).  These are supplier requisitions that you have not yet sent off to your supplying store.  You can tap on any <strong>In Progress</strong> requisitions to open and continue work.</p>
+<div class="tip">
+<p><strong>In Progress</strong> Supplier Requisitions in mSupply Mobile are the same as mSupply Desktop Internal Orders with status = <code>sg</code>.</p>
+</div>
+<div class="note">
+<p>The orange badge above <strong>Supplier Requisitions</strong> on the home page tells you if there are any unfinalised supplier requisitions - in the screenshots above, you can see that there is one unfinalised supplier requisition.</p>
+</div>
+<h3 id="past-supplier-requisitions">Past Supplier Requisitions</h3>
+<p>To view past Supplier Requisitions, tap the <strong>Past</strong> tab.</p>
+<p><img src="/mobile/introduction/images/past_supplier_requisitions.png" alt="Custom invoices button on Navigator" /></p>
+<p>The list of past requisitions will all have a <strong>Status</strong> of <strong>Finalised</strong>. You can tap on any row to view a finalised requisition.  However, no further changes can be made to finalised requisitions.</p>
+<div class="tip">
+<p><strong>Finalised</strong> Supplier Requisitions in mSupply Mobile are the same as mSupply Desktop Internal Orders with status = <code>fn</code>.</p>
+</div>
+<h3 id="new-supplier-requisition">New Supplier Requisition</h3>
+<p>If you wish to create a new requisition, tap on <strong>New Requisition</strong>.</p>
+<p><img src="/mobile/introduction/images/new_supplier_requisitions.png" alt="Custom invoices button on Navigator" /></p>
+<h3 id="adding-items-to-a-supplier-requisition">Adding items to a Supplier Requisition</h3>
+<h4 id="small-orders">Small Orders</h4>
+<p>If you only have a few items, tap <strong>New Item</strong>. This is the best option for small orders.</p>
+<p><img src="/mobile/introduction/images/addding_items_requisition.png" alt="Custom invoices button on Navigator" /></p>
+<p>Start typing to search for the item.</p>
+<p><img src="/mobile/introduction/images/adding_items_search.png" alt="Custom invoices button on Navigator" /></p>
+<p>In this case, we need to purchase <strong>Ibuprofen 200mg tablets</strong> so we select this item. </p>
+<p><img src="/mobile/introduction/images/adding_items_search2.png" alt="Custom invoices button on Navigator" /></p>
+<p>When you select an item, it will be added to the requisition. The following information is provided about the item:</p>
+<ul>
+<li><strong>Item Code</strong> and <strong>Item Name</strong>: as per your mSupply item list details</li>
+<li><strong>Current Stock</strong>: how much stock currently available in your facility</li>
+<li><strong>Monthly Use</strong>: how much stock your facility uses each month on average (based on a configurable number of months (refer <a href="https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab">Store Preferences tab</a>), but defaults to <strong>3</strong>).</li>
+<li><strong>Suggested Quantity</strong>: how much stock mSupply Mobile suggests that you order.  This is calculated as:
+<ul>
+<li><strong>Monthly Use</strong> x <strong>Max MOS</strong> - <strong>Current Stock</strong></li>
+<li>So, for the above example for Ibuprofen 200mg tablets,  <strong>Suggested Quantity</strong> = (<strong>453</strong> x <strong>2</strong>) - <strong>80</strong> = <strong>827</strong></li>
+</ul>
+</li>
+</ul>
+<div class="tip">
+<p>What should <strong>Max MOS</strong> be set to?</p>
+<p>Max MOS = Lead time + Order cycle + Buffer stock</p>
+<ul>
+<li>Lead time:  The time between creating the requisition and receiving the stock.  For most facilities using mSupply Mobile, we can hope that this will be no more than <strong>1</strong> month</li>
+<li>Order cycle:  This is the frequency of ordering.  If it is every month, this will be <strong>1</strong>, if it is once per quarter, then this will be <strong>3</strong>.</li>
+<li>Buffer stock:  This is the safety margin of stock that the facility <em>plans</em> for.  The safety margin accounts for things such as an order being missed, or delivery delayed.  A common approach is to set this to <em>twice</em> the Order cycle.</li>
+</ul>
+<p>So, if we have:</p>
+<ul>
+<li>Lead time = <strong>1</strong></li>
+<li>Order cycle = <strong>1</strong></li>
+<li>Buffer stock = <strong>2</strong> x <strong>1</strong> = <strong>2</strong></li>
+</ul>
+<p>Then:</p>
+<ul>
+<li>Max MOS = <strong>1</strong> + <strong>1</strong> + <strong>2</strong> = 4</li>
+</ul>
+</div>
+<ul>
+<li><strong>Requested Quantity</strong>: This is set to zero by default. You can do either of the following:
+<ul>
+<li>Accept the <strong>Suggested Quantities</strong> by tapping on the <strong>Use Suggested Quantities</strong> button.  This populates all cells.</li>
+<li>Change the values manually by tapping in the cell and changing the number.  You can also do this after accepting the <strong>Suggested Quantities</strong> by tapping on the <strong>Use Suggested Quantities</strong> button.</li>
+</ul>
+</li>
+</ul>
+<h4 id="larger-orders">Larger Orders</h4>
+<p>If you have a lot of items to order (for example, when you are placing your main order), it can be slow to add them one by one.</p>
+<p>To add a lot of items at once, tap <strong>Add Master List Items</strong>. </p>
+<p><img src="/mobile/introduction/images/requisitions_add_larger_order.png" alt="Custom invoices button on Navigator" /></p>
+<p>Select one or more master lists by tapping on the check box next to the master list (the row will turn orange once selected). Only master lists visible to your store are shown. In this example, there is only one master list available. Once you have made your selection, tap <strong>Done</strong>.</p>
+<p><img src="/mobile/introduction/images/requisitions_add_larger_order2.png" alt="Custom invoices button on Navigator" /></p>
+<p>The items on the selected master list(s) will then automatically appear in the supplier requisition.</p>
+<p><img src="/mobile/introduction/images/requisitions_add_larger_order3.png" alt="Custom invoices button on Navigator" /></p>
+<p>The columns are the same as above for adding <strong>New Item</strong>.</p>
+<h3 id="use-suggested-quantities">Use Suggested Quantities</h3>
+<p>If you tap <strong>Use Suggested Quantities</strong> on the requisition header, mSupply Mobile will automatically copy the values in the <strong>Suggested Quantity</strong> column into the <strong>Requested Quantity</strong> column.</p>
+<p><img src="/mobile/introduction/images/requisition_suggested_quantities.png" alt="Custom invoices button on Navigator" /></p>
+<p>Please note, when you tap <strong>Use Suggested Quantities</strong>, this will overwrite any value that had previously been entered in the <strong>Requested Quantity</strong> column.  However, you can still manually overwrite the amount of stock requested for each item afterward.</p>
+<h3 id="create-automatic-order">Create Automatic Order</h3>
+<p>If you tap <strong>Create Automatic Order</strong> on the requisition header, mSupply Mobile will automatically create a supplier requisition with all items stocked at your facility (from all Master Lists) that require stock.  That is, any item at your facility that has a suggested quantity greater than zero will be listed. The <strong>Requested Quantity</strong> column will also be filled with the suggested quantity value.</p>
+<p><img src="/mobile/introduction/images/requisitions_automatic_order.png" alt="Custom invoices button on Navigator" /></p>
+<p>Once again, you can still check the amount of stock requested for each item and change if required.</p>
+<h3 id="finalising-a-supplier-requisition">Finalising a Supplier Requisition</h3>
+<p>Tap the <strong>Finalise</strong> button, then <strong>Confirm</strong> and your order will go to the supply store.</p>
+<p><img src="/mobile/introduction/images/requisitions_final.png" alt="Custom invoices button on Navigator" /></p>
+<p>Even if you don't have a current internet connection, it's ok! The order will send automatically once your device is able to connect to the internet.</p>
+<div class="tip">
+<p>Remember:</p>
+<p>A <strong>Supplier Requisition</strong> is an order that you have placed with your supplier. </p>
+<p>A <strong>Supplier Invoice</strong> is a record of what your supplier has actually sent you.</p>
+<p>These are not always the same, as your supplier might not have enough stock to fill your requisition, or they might have sent you some extra stock. When stock arrives at your facility, you should check it off against the <strong>Supplier Invoice</strong>. </p>
+</div>
+<h2 id="this-chapter-tells-you-how-to-receive-stock"><a href="/en:mobile:user_guide:supplier_invoices">This chapter</a> tells you how to receive stock.</h2>
+<p>|  *  Previous:  <strong><a href="/en:mobile:user_guide:ordering_and_receiving">Ordering and Receiving stock from suppliers</a></strong> | | Next: <strong><a href="/en:mobile:user_guide:supplier_requisitions_program">Supplier Requisitions (Program Orders)</a></strong> *</p>
+  
+<div class="docs-navigation d-flex justify-content-between">
+  
+  
+  
+  
+  
+  <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;mobile&#x2F;order_and_receive&#x2F;supplier-requisitions-program&#x2F;">
+    <div class="card my-1">
+      <div class="card-body py-2">
+        &larr; Supplier Requisitions (Program Orders)
+      </div>
+    </div>
+  </a>
+  
+
+  
+  
+  
+  
+  
+    <a class="ms-auto" href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;mobile&#x2F;order_and_receive&#x2F;customer-inv&#x2F;">
+      <div class="card my-1">
+        <div class="card-body py-2">
+           Customer Invoices &rarr;
+        </div>
+      </div>
+    </a>
+  
+</div>
+
+      </main>
+    </div>
+  </div>
+</div>
+
+
+  
+    
+<footer class="footer text-muted">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 order-last order-lg-first">
+				<ul class="list-inline">
+					
+						<li class="list-inline-item">Powered by <a href="https://www.getzola.org/">Zola</a>, and <a href="https://github.com/aaranxu/adidoks">AdiDoks</a></li>
+					
+				</ul>
+			</div>
+			<div class="col-lg-8 order-first order-lg-last text-lg-end">
+				<ul class="list-inline">
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+  
+
+  
+<script type="text/javascript" src="https://docs.msupply.foundation/js/main.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
+
+  <script type="text/javascript" src="https://docs.msupply.foundation/plugins/elasticlunr.min.js" defer></script>
+  <script type="text/javascript" src="https://docs.msupply.foundation/plugins/lunr.stemmer.support.js" defer></script>
+  <script type="text/javascript" src="https://docs.msupply.foundation/plugins/lunr.fr.js" defer></script>
+  <script type="text/javascript" src="https://docs.msupply.foundation/search_index.en.js" defer></script>
+  <script type="text/javascript" src="https://docs.msupply.foundation/js/search.js" defer></script>
+
+  
+</body>
+</html>

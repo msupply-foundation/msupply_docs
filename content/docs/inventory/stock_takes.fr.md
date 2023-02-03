@@ -83,7 +83,7 @@ Ne vous inquiétez pas si vous oubliez un élément. Vous aurez la possibilité 
 
 Lorsque vous consultez un inventaire spécifique, cliquez simplement sur le Printbouton qui se trouve en haut à droite de la page. Lors de l'impression, un fichier PDF est généré pour vous, qui s'ouvrira ensuite dans un nouvel onglet du navigateur. Celui-ci peut ensuite être imprimé à l'aide de votre navigateur en cliquant sur imprimer ou en utilisant les touches `control+ P` (si vous utilisez Windows) ou `cmd+ P` de votre clavier (si vous utilisez un mac).
 
-![Print button](/docs/images/print_button.png)
+![Print button](//docs/introduction/images//print_button.png)
 
 Cela va soit:
 * Affiche un menu de rapports possibles parmi lesquels choisir avant de créer un PDF. Cela se produira si plusieurs rapports sont définis pour le Stocktaketype de rapport.
