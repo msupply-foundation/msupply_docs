@@ -30,7 +30,7 @@ After starting mSupply mobile on the Android tablet, you will see a screen like 
 ![Custom invoices button on Navigator](/mobile/introduction/images/enter_details.png)
 
 On the above screen a unique user name, a valid e-mail address and password are required. Please note down the password as this will be needed later. 
-Our mSupply mobile username and password guidelines are available [here](https://docs.msupply.foundation/en:mobile:setup:server_side:users#setting_up_store_access_for_users)
+Our mSupply mobile username and password guidelines are available [here](/mobile/setup/users/#5-01-setting-up-store-access-for-users)
 
  [<img src="/_media/mobile:mobilestorecreated.png?w=600&amp;tok=20c2b2" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/mobile:mobilestorecreated.png?id=en%3Amobile%3Auser_guide%3Amsupply_mobile_demo)
 
@@ -48,8 +48,6 @@ You should now be able to setup your store.
   * Your store name will be in the format: UserName_store. Note that the demo server adds the "_store" to signify store setup.
   * The password for the store credential will be in the format: "UserName_store_Site". Note the capital letter in the text "Site".
   * The URL must be: [https://demo.msupply.org](https://demo.msupply.org)
-
-[<img src="/_media/mobile:logintoyoursite.png?w=600&amp;tok=c3061f" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/mobile:logintoyoursite.png?id=en%3Amobile%3Auser_guide%3Amsupply_mobile_demo)
 
 If the credential of your mobile store has been entered properly then your table will start to retrieve data from the Demo server. Please wait until the procedure is finished. We expect this to take no more than 5 minutes.   
 

@@ -24,7 +24,7 @@ The Mobile Settings is where a user with appropriate permissions can carry out c
 
 ### Permission to Edit Mobile Settings
 
-To edit mobile settings, the user must have the **View/Edit Preferences** permission set for the mobile store on the Central server - please see the  [5. Setting up the Users to access the store](https://wiki.msupply.foundation/en:mobile:setup:server_side:users#setting_up_admin_access_to_the_device_settings) page for details.
+To edit mobile settings, the user must have the **View/Edit Preferences** permission set for the mobile store on the Central server - please see the  [Setting up the Users to access the store](/mobile/setup/users/#5-03-setting-up-admin-access-to-the-device-settings) page for details.
 
 ### Access Mobile Settings
 
@@ -41,7 +41,6 @@ Tapping on this button opens the *Settings* window:
 <div class="warning">
 
 Be careful when editing this, as synchronisation will not work if the **Sync URL** or **Sync Password** do not match what is set on the primary server.
-
 </div>
 
 When edited, the following warning will appear:
@@ -61,7 +60,7 @@ When prompted, re-enter your password to confirm the changes:
   * mSupply Mobile will attempt to sync to the Primary server at regular intervals.
   * The default sync interval is 10 minutes.
   * From v8.1.0, it is possible to edit the sync interval to be from 1 minute to 10 minutes.
-  * To edit, drag the **Sync interval (minutes):** slider left to decrease the value or right to increase the value. 
+  * To edit, drag the **Sync interval (minutes)** slider left to decrease the value or right to increase the value. 
   * It is also possible to enter a specific value into the text field to the right of the slider.
 
 ![Custom invoices button on Navigator](/mobile/introduction/images/Mobile_Settings_Sync.png)
@@ -97,7 +96,7 @@ To avoid having to manually clear app data (which is sometimes not possible on r
 ![Custom invoices button on Navigator](/mobile/introduction/images/Mobile_Settings_Factory_Rest.png)
 
 
-After entering the correct details and tapping **Done**, you will be taken back to the mSupply mobile initialisation page, where you can re-initialise the tablet. See [here](https://docs.msupply.foundation/en:mobile:user_guide:getting_started#connecting_to_the_central_server) for details on configuring mSupply mobile to connect to the central server.
+After entering the correct details and tapping **Done**, you will be taken back to the mSupply mobile initialisation page, where you can re-initialise the tablet. See [here](/mobile/introduction/getting-started/#connecting-to-the-central-server) for details on configuring mSupply mobile to connect to the central server.
 
 #### Check Connection
 

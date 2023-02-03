@@ -13,7 +13,7 @@ toc = true
 top = false
 +++
 
-In mSupply Mobile, incoming stock is handled differently depending on whether it is coming from an:
+In mSupply Mobile, incoming stock is handled differently depending on whether it is coming from a:
 
   * **Internal Supplier**:  Another store in your mSupply system
   * **External Supplier**:  A supplier that is *not* a store in your mSupply system.
@@ -35,22 +35,22 @@ After you've finalised your **Supplier Requisition**, that information will be s
 
 <div class="tip">
 
-  * An **Internal Supplier** can also **'Push'** stock to your store without any requisition from you.  In this case, you did not create a **Supplier Requisition**.  A [Supplier Invoice](/en:mobile:user_guide:supplier_invoices) will just appear in your store and the stock will hopefully follow soon after.
+  * An **Internal Supplier** can also **'Push'** stock to your store without any requisition from you.  In this case, you did not create a **Supplier Requisition**.  A [Supplier Invoice](https://docs.msupply.foundation/mobile/order_and_receive/supplier-invoices/#open-supplier-invoices) will just appear in your store and the stock will hopefully follow soon after.
   * The **Supplier Invoice** is processed in the same way, regardless of whether you created a **Supplier Requisition** or not.
   </div>
 
 #### Processing the Supplier Invoice
 
-Once the stock arrives, process the [Supplier Invoice](/en:mobile:user_guide:supplier_invoices).
+Once the stock arrives, process the [Supplier Invoice](https://docs.msupply.foundation/mobile/order_and_receive/supplier-invoices/#open-supplier-invoices).
 
 ### Stock coming from an External Supplier
 
-Stock coming from an **External Supplier** will come without any warning in mSupply.  You will not have created a **Supplier Requisition**, and there will be no **Supplier Invoice** waiting for you to process.  The first opportunity for you to tell mSupply about the stock will normally be when it arrives at your store.  When this happens, you will will need to [Create a new Supplier Invoice for an External Supplier](/en:mobile:user_guide:supplier_invoices#create_a_new_supplier_invoice_for_a_non-msupply_supplier).
+Stock coming from an **External Supplier** will come without any warning in mSupply.  You will not have created a **Supplier Requisition**, and there will be no **Supplier Invoice** waiting for you to process.  The first opportunity for you to tell mSupply about the stock will normally be when it arrives at your store.  When this happens, you will will need to [Create a new Supplier Invoice for an External Supplier](/mobile/order_and_receive/supplier-invoices/#create-a-new-supplier-invoice-for-an-external-supplier).
 
 <div class="warning">
 
 You can **ONLY** create Supplier Invoices for **External Suppliers**.  You can **NOT** create Supplier Invoices for **Internal Suppliers**.
   </div>
 
-|  *  Previous:  **[Customer Requisitions](/en:mobile:user_guide:customer_requisitions)** | | Next: **[Supplier Requisitions (General Orders)](/en:mobile:user_guide:supplier_requisitions)** *  
+
 

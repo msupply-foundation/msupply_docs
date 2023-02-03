@@ -114,7 +114,7 @@ After the device has synced to the central server you will see the login screen:
 
 #### Logging in the user
 
-  * Users need to be configured on the mSupply central server - refer to [Setting up the Users to access the store](/mobile/introduction/msupply-mobile-demo/#request-a-demo-store).
+  * Users need to be configured on the mSupply central server - refer to [Setting up the Users to access the store](/mobile/setup/create-store/#manually-create-store)
 
 Once you have selected the language of your choice, enter the credentials (user name and password) for the store user and tap 
 

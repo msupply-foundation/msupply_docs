@@ -63,7 +63,7 @@ Items 1 and 2 can now be carried out using the Sync site wizard. See [here](http
 
 ### Other preferences
 
-You can set other preferences for mobile in the Store preferences by going to Special > Show Stores, Double-click on store > Preferences tab) in mSupply desktop:
+You can set other preferences for mobile in the Store preferences by going to Special > Show Stores, Double-click on store > Preferences tab
 
 Here are the preferences and what they do:
 

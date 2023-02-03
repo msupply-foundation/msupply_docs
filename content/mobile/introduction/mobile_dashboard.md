@@ -19,8 +19,8 @@ The Mobile app dashboard is completely different to the [mSupply Grafana web das
 <div class="tip">
 Dashboard reports will be visible in the mSupply Mobile dashboard provided that on the mSupply central server:
 
-  * The **mobile: Uses dashboard module** [store preference](https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab) is turned on for the store 
-  * The report has been [configured for display on mSupply Mobile stores](https://docs.msupply.foundation/en:mobile:setup:server_side:dashboard#mobile_specific_dashboard_configuration)
+  * The [store preference](/mobile/setup/server-setup/#other-preferences) is turned on for the store 
+  * The report has been [configured for display on mSupply Mobile stores](/mobile/setup/dashboard/#mobile-specific-dashboard-configuration)
   </div>
 
 Once it has been enabled you will be able to see the Dashboard icon on the mSupply Mobile Menu page.
@@ -29,23 +29,23 @@ Once it has been enabled you will be able to see the Dashboard icon on the mSupp
 
 The Mobile Dashboard feature allows you to view visualisation 'reports' (tables, charts, graphs, etc.).
 
-**line chart**]
+**Line Chart**
 
 ![Custom invoices button on Navigator](/mobile/introduction/images/mobile_dashboard_line_chart.png)
 
-**bar chart** 
+**Bar Chart** 
 
 ![Custom invoices button on Navigator](/mobile/introduction/images/mobile_dashboard_bar_chart.png)
 
-**pie chart** 
+**Pie Chart** 
 
 ![Custom invoices button on Navigator](/mobile/introduction/images/mobile_dashboard_pie_chart.png)
 
-**table** 
+**Table** 
 
 ![Custom invoices button on Navigator](/mobile/introduction/images/mobile_dashboard_table.png)
 
-Refer to the list [available dashboard reports](https://docs.msupply.org.nz/web_interface:dashboard_setup#available_dashboard_reports).
+Refer to the list [available dashboard reports](/mobile/setup/dashboard/#mobile-specific-dashboard-configuration).
 
-|  *Previous:  **[Stocktakes (Program)](/en:mobile:user_guide:stocktakes_program)** | | Next:  **[Indicators](/en:mobile:user_guide:indicators)***  
+ 
 
