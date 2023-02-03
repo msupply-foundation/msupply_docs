@@ -375,7 +375,7 @@
 <li>If you configure a report to be a mobile dashboard report then it looses its ability to be generated to the <a href="https://docs.msupply.org.nz/web_interface:dashboard_using#legacy_web_dashboard">legacy (non-grafana) mSupply web dashboard</a> and vice versa.</li>
 <li>If you want the report to continue to be generated to the <a href="https://docs.msupply.org.nz/web_interface:dashboard_using#legacy_web_dashboard">legacy (non-grafana) mSupply web dashboard</a>, then duplicate the report first, and then configure the copy as described here.</li>
 </ul>
-<h2 id="mobile-specific-dashboard-configuration">Mobile specific dashboard configuration</h2>
+<h2 id="mobile-specific-dashboard-configuration">Mobile specific dashboard configuration<a class="zola-anchor" href="#mobile-specific-dashboard-configuration" aria-label="Anchor link for: mobile-specific-dashboard-configuration">🔗</a></h2>
 <p>Dashboard reports are configured on the mSupply central server, refer <a href="https://docs.msupply.org.nz/web_interface:dashboard_setup#dashboard_set_up_v40_and_later">Dashboard set up</a>.</p>
 <p>This section describes the <em>additional</em> configuration of reports on the mSupply central server to make dashboard reports show on mSupply Mobile. The mSupply central server generates reports on a schedule, and those reports that have been correctly configured for Mobile dashboards will be generated for mobile sites.  These reports will be synced to mobile store tablets when they connect to the central server.</p>
 <ul>
@@ -394,7 +394,7 @@
 | <em>reportType</em> | <code>Table</code>, <code>BarChart</code>, <code>LineChart</code> or <code>PieChart</code> | The report display type.  This parameter is mobile specific, but needs to be consistent with the report method's 'type'.  If the <em>reportType</em> parameter is not set, it defaults to <code>Table</code>.
 | <em>#[report property]</em> | <code>[field on store table]</code> | This allows you to pick a value from the <a href="https://docs.msupply.org.nz/tables_fields:other_tables:store">store table</a>, which is therefore store specific, and assign the value to the <code>report property</code>. In this way you can create a report which is customised to each store. The <code>report property</code> must exist in your report for this to work.  See <a href="https://docs.msupply.org.nz/web_interface:dashboard_setup#available_dashboard_reports">report options</a> for available reports and properties.  See example below </p>
 <p><a href="/_detail/en:mobile:setup:server_side:mobile_dashboard_configuration.png?id=en%3Amobile%3Asetup%3Aserver_side%3Adashboard"><img src="/_media/en:mobile:setup:server_side:mobile_dashboard_configuration.png?w=400&amp;tok=a7c5cf" class="mediacenter" loading="lazy" alt="" width="400" /></a></p>
-<h2 id="internal-code-logic-description">Internal code logic description</h2>
+<h2 id="internal-code-logic-description">Internal code logic description<a class="zola-anchor" href="#internal-code-logic-description" aria-label="Anchor link for: internal-code-logic-description">🔗</a></h2>
 <ul>
 <li>
 <p>Introduces new table <strong>dashboard_store_report</strong></p>

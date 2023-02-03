@@ -388,18 +388,18 @@
         <h1>Store &amp; Dispensing Setup</h1>
         
         <p class="lead">Server Setup: Configuring the Store & Dispensing Setting</p>
-         <h1 id="4">4.</h1>
-<h3 id="making-items-visible-in-the-new-store-using-master-list-s">Making items visible in the new store using Master List(s)</h3>
+         <h1 id="4">4.<a class="zola-anchor" href="#4" aria-label="Anchor link for: 4">🔗</a></h1>
+<h3 id="making-items-visible-in-the-new-store-using-master-list-s">Making items visible in the new store using Master List(s)<a class="zola-anchor" href="#making-items-visible-in-the-new-store-using-master-list-s" aria-label="Anchor link for: making-items-visible-in-the-new-store-using-master-list-s">🔗</a></h3>
 <ol>
 <li>Click on the <strong>Master Lists</strong> tab and select at least one Master List. This will define which items are visible in the store. <a href="/_detail/mobile:mob2_003.jpg?id=en%3Amobile%3Asetup%3Aserver_side%3Aconfig"><img src="/_media/mobile:mob2_003.jpg" class="mediacenter" loading="lazy" alt="" /></a></li>
 <li>Click <strong>OK</strong></li>
 <li>Click <strong>OK</strong> again</li>
 </ol>
-<h3 id="make-the-store-visible-to-other-stores">Make the Store visible to other Stores</h3>
+<h3 id="make-the-store-visible-to-other-stores">Make the Store visible to other Stores<a class="zola-anchor" href="#make-the-store-visible-to-other-stores" aria-label="Anchor link for: make-the-store-visible-to-other-stores">🔗</a></h3>
 <ul>
 <li>Edit the 'name' associated with the Store and configure <a href="https://docs.msupply.org.nz/names:adding_and_editing#store_visibility_tab">store visibility</a> to other Stores appropriately</li>
 </ul>
-<h3 id="setting-up-the-correct-synchronisation-settings">Setting up the correct synchronisation settings</h3>
+<h3 id="setting-up-the-correct-synchronisation-settings">Setting up the correct synchronisation settings<a class="zola-anchor" href="#setting-up-the-correct-synchronisation-settings" aria-label="Anchor link for: setting-up-the-correct-synchronisation-settings">🔗</a></h3>
 <p>Since <a href="https://msupply.org.nz/history/msupply-v412-2020-07-29">v4.12</a>, sync settings are controlled by <a href="https://docs.msupply.org.nz/names:adding_and_editing#store_visibility_tab">store visibility</a>.  You should not need to do anything described in this step.</p>
 <p>If you have used <a href="https://sussol.net/wiki/doku.php/msupply:specifications:admin:sync#store_create_from_name">store_create_from_name</a> for creation of the store, and you have specified the sync site that the store will be <strong>Active</strong> on, then all you need to do here is:</p>
 <ul>
@@ -412,7 +412,7 @@
 <li>Set <strong>Synchronisation type</strong> at the top to <code>Collector</code></li>
 <li>Click <strong>OK</strong></li>
 </ol>
-<h3 id="custom-settings">Custom settings</h3>
+<h3 id="custom-settings">Custom settings<a class="zola-anchor" href="#custom-settings" aria-label="Anchor link for: custom-settings">🔗</a></h3>
 <p>These are set on the <strong>Custom fields</strong> tab of the store preferences in mSupply desktop (<strong>Special &gt; Show Stores</strong>, Double-click on store <strong>&gt; Custom fields tab</strong>).</p>
 <p>| Setting name  |  Allowed Value(s) ((Default value is in italics - this is used if preference is not configured))  |  Description  |
 ---|---|---| usesDashboardModule  |  true or <em>false</em>  | Needs to be set to true if using the dashboard<br />
@@ -426,7 +426,7 @@
 | monthsLeadTime  |  number  <em>(0)</em> |The months of lead time - will be multiplied by 30 to use in mobile as months of lead time<br />
 | monthlyConsumptionLookBackPeriod   |   number <em>(12)</em> | The number of months to look back when calculating average monthly consumption (AMC) 
 | monthlyConsumptionEnforceLookBackPeriod  | true or <em>false</em>  | if True, then the full lookbackup period will be used, even if there is no consumption in those periods. We don't recommend this, but it's here to comply with the rules in some countries</p>
-<h3 id="other-preferences">Other preferences</h3>
+<h3 id="other-preferences">Other preferences<a class="zola-anchor" href="#other-preferences" aria-label="Anchor link for: other-preferences">🔗</a></h3>
 <p>You can set other preferences for mobile in the Store preferences by going to <strong>Special &gt; Show Stores</strong>, Double-click on store <strong>&gt; Preferences tab</strong>) in mSupply desktop:</p>
 <p><a href="/_detail/en:mobile:setup:server_side:preferences_desktop.png?id=en%3Amobile%3Asetup%3Aserver_side%3Aconfig"><img src="/_media/en:mobile:setup:server_side:preferences_desktop.png?w=600&amp;tok=d8421b" class="mediacenter" loading="lazy" alt="" width="600" /></a></p>
 <p>Here are the preferences and what they do:</p>
@@ -439,14 +439,14 @@
 | mobile: Uses Payment module | Information coming soon!<br />
 | mobile: Uses patient types | Information coming soon!<br />
 | mobile: Uses Hide Snapshot column | Information coming soon!</p>
-<h3 id="other-configurations-that-then-affect-how-mobile-behaves">Other configurations that then affect how mobile behaves</h3>
+<h3 id="other-configurations-that-then-affect-how-mobile-behaves">Other configurations that then affect how mobile behaves<a class="zola-anchor" href="#other-configurations-that-then-affect-how-mobile-behaves" aria-label="Anchor link for: other-configurations-that-then-affect-how-mobile-behaves">🔗</a></h3>
 <p>| Item  |  Description  |
 ---|---| Programs  | If you have a master list configured as a program, in mobile you will then be able to perform stock takes or supplier requisitions by program.<br />
 | Reasons  | If you have BOTH positive and negative inventory adjustments, have to apply a reason to stocktake lines with a difference = <code>0</code><br />
 | Prescription Categories  | If you have transaction categories with type of &quot;prescription&quot; mobile will display a drop down list of prescription categories to select from<br />
 | Insurance Providers  | If you configured an insurance provider, then mobile will give you the ability to choose a policy, and to edit and create them at the end of a prescription<br />
 | Payment Types  | If you have configured any payment types, they’ll show up in a list at the end of a prescription </p>
-<h3 id="dispensary-mode">Dispensary mode</h3>
+<h3 id="dispensary-mode">Dispensary mode<a class="zola-anchor" href="#dispensary-mode" aria-label="Anchor link for: dispensary-mode">🔗</a></h3>
 <ol>
 <li>Ensure that your store is a Dispensary by choosing <strong>Dispensary</strong> from the drop-down list on the <strong>General</strong> tab of the store preferences. <a href="/_detail/en:mobile:setup:server_side:pasted:20200206-081509.png?id=en%3Amobile%3Asetup%3Aserver_side%3Aconfig"><img src="/_media/en:mobile:setup:server_side:pasted:20200206-081509.png?w=800&amp;tok=84d8c2" class="mediacenter" loading="lazy" title=" " alt=" " width="800" /></a></li>
 <li>The mobile  store needs to have the following field in Custom Fields for the dispensary to be visible in mobile</li>
@@ -454,9 +454,9 @@
 <p>Of course you will need to synchronise mSupply mobile with the server before the mobile device receives these configuration settings.
 After sync, your Navigator window will look like this:</p>
 <p><a href="/_detail/en:mobile:setup:server_side:pasted:20200206-081654.png?id=en%3Amobile%3Asetup%3Aserver_side%3Aconfig"><img src="/_media/en:mobile:setup:server_side:pasted:20200206-081654.png?w=800&amp;tok=4f59fa" class="mediacenter" loading="lazy" title=" " alt=" " width="800" /></a></p>
-<h3 id="vaccine-dispensing">Vaccine dispensing</h3>
+<h3 id="vaccine-dispensing">Vaccine dispensing<a class="zola-anchor" href="#vaccine-dispensing" aria-label="Anchor link for: vaccine-dispensing">🔗</a></h3>
 <p>If you want to use mobile for dispensing vaccines then see the setup instructions on the <a href="/en:mobile:user_guide:vaccine_dispensing:setup">Vaccine Dispensing Setup</a> page.</p>
-<h3 id="when-the-payments-module-is-on">When the Payments module is on</h3>
+<h3 id="when-the-payments-module-is-on">When the Payments module is on<a class="zola-anchor" href="#when-the-payments-module-is-on" aria-label="Anchor link for: when-the-payments-module-is-on">🔗</a></h3>
 <p>The cost and sell price are visible on supplier invoices:</p>
 <p><a href="/_detail/en:mobile:setup:server_side:pasted:20200208-014350.png?id=en%3Amobile%3Asetup%3Aserver_side%3Aconfig"><img src="/_media/en:mobile:setup:server_side:pasted:20200208-014350.png?w=800&amp;tok=a7b411" class="mediacenter" loading="lazy" title=" " alt=" " width="800" /></a></p>
 <p>The cost and sell price are visible when doing stocktakes:</p>

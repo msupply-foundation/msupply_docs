@@ -388,7 +388,7 @@
 <li><strong><a href="/en:mobile:setup:server_side:create_store#create_store_for_existing_customer">Create a store for an existing customer</a></strong></li>
 <li><strong><a href="/en:mobile:setup:server_side:create_store#create_stores_by_cloning_another_sync_store_using_sync_clone_sync_site">Create stores by cloning another sync store</a></strong> - if you're creating a larger number of stores, then it is more appropriate for the mSupply Support Team to use footrunner code</li>
 </ul>
-<h3 id="manually-create-store">Manually create store</h3>
+<h3 id="manually-create-store">Manually create store<a class="zola-anchor" href="#manually-create-store" aria-label="Anchor link for: manually-create-store">🔗</a></h3>
 <ol>
 <li>On mSupply desktop go to <strong>Special &gt; Stores &gt; New Store</strong><a href="/_detail/mobile:mob2_001.jpg?id=en%3Amobile%3Asetup%3Aserver_side%3Acreate_store"><img src="/_media/mobile:mob2_001.jpg?w=600&amp;tok=f4f059" class="mediacenter" loading="lazy" alt="" width="600" /></a><a href="/_detail/mobile:newstore.jpg?id=en%3Amobile%3Asetup%3Aserver_side%3Acreate_store"><img src="/_media/mobile:newstore.jpg" class="mediacenter" loading="lazy" alt="" /></a></li>
 <li>Enter the Store Code and the Store Name<a href="/_detail/mobile:mob2_002.jpg?id=en%3Amobile%3Asetup%3Aserver_side%3Acreate_store"><img src="/_media/mobile:mob2_002.jpg" class="mediacenter" loading="lazy" alt="" /></a></li>
@@ -403,10 +403,10 @@
 <li><a href="/en:mobile:setup:server_side:config#setting_up_the_correct_synchronisation_settings">Configure synchronisation settings</a></li>
 <li><a href="/en:mobile:setup:server_side:config#make_the_store_visible_to_other_stores">Configure store visibility to other stores</a></li>
 </ol>
-<h3 id="create-a-store-for-an-existing-customer">Create a store for an existing customer</h3>
+<h3 id="create-a-store-for-an-existing-customer">Create a store for an existing customer<a class="zola-anchor" href="#create-a-store-for-an-existing-customer" aria-label="Anchor link for: create-a-store-for-an-existing-customer">🔗</a></h3>
 <p>This method is only useful if you already have a customer that you want to convert to a store.</p>
 <p>We must first <strong>clone</strong> the existing customer then <strong>merge</strong> the new store with the existing customer.</p>
-<h4 id="cloning-the-existing-customer-to-a-store">Cloning the existing customer to a store</h4>
+<h4 id="cloning-the-existing-customer-to-a-store">Cloning the existing customer to a store<a class="zola-anchor" href="#cloning-the-existing-customer-to-a-store" aria-label="Anchor link for: cloning-the-existing-customer-to-a-store">🔗</a></h4>
 <ol>
 <li>The mSupply Support Team will use the footrunner code  <a href="https://sussol.net/wiki/doku.php/msupply:specifications:admin:sync#store_create_from_name">''store_create_from_name''</a> to <strong>clone</strong> the original store.  We will need to provide:
 1. <code>Name **ID**</code> (not name <strong>Code</strong> :-() to create the store for (must not be blank or already a store)
@@ -416,12 +416,12 @@
 <li><a href="/en:mobile:setup:server_side:config#setting_up_the_correct_synchronisation_settings">Configure synchronisation settings</a></li>
 <li><a href="/en:mobile:setup:server_side:config#make_the_store_visible_to_other_stores">Configure store visibility to other stores</a></li>
 </ol>
-<h4 id="merging-the-new-store-with-the-existing-customer">Merging the new store with the existing customer</h4>
+<h4 id="merging-the-new-store-with-the-existing-customer">Merging the new store with the existing customer<a class="zola-anchor" href="#merging-the-new-store-with-the-existing-customer" aria-label="Anchor link for: merging-the-new-store-with-the-existing-customer">🔗</a></h4>
 <p>Using the mSupply Desktop User Guide <a href="https://docs.msupply.org.nz/names:merging_names">merge the new store name with the existing customer name</a>.  There is some footrunner code that can facilitate this for multiple sites.</p>
 <p><strong>Before merging</strong> all unfinalised Customer Invoices from supplying stores to the existing customer must be finalised.  On a system with supplying stores on multiple sync sites, this can take a long time.  Start early, and if possible, ask the supplying stores to refrain from creating any new Customer Invoices until the merging is done…</p>
 <p>If you try to do the merge before finalising all customer invoices, you will get an error message, and the merge will not proceed
 <a href="/_detail/en:mobile:pasted:20200116-222550.png?id=en%3Amobile%3Asetup%3Aserver_side%3Acreate_store"><img src="/_media/en:mobile:pasted:20200116-222550.png?w=500&amp;tok=a7ad8f" class="mediacenter" loading="lazy" alt="" width="500" /></a></p>
-<h3 id="create-store-by-cloning-another-sync-store-using-sync-clone-sync-site">Create store by cloning another sync store using sync_clone_sync_site</h3>
+<h3 id="create-store-by-cloning-another-sync-store-using-sync-clone-sync-site">Create store by cloning another sync store using sync_clone_sync_site<a class="zola-anchor" href="#create-store-by-cloning-another-sync-store-using-sync-clone-sync-site" aria-label="Anchor link for: create-store-by-cloning-another-sync-store-using-sync-clone-sync-site">🔗</a></h3>
 <p>First <a href="/en:mobile:setup:server_side:create_store#manually_create_store">manually create and appropriately configure a single store</a>.</p>
 <p>Make <em><strong>sure</strong></em> the relevant <a href="/en:mobile:setup:server_side:create_sync_site">sync sites have been created</a> and then, for <strong>EACH</strong> store:</p>
 <ol>
