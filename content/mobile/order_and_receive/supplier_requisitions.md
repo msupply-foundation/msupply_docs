@@ -73,7 +73,7 @@ When you select an item, it will be added to the requisition. The following info
 
   * **Item Code** and **Item Name**: as per your mSupply item list details
   * **Current Stock**: how much stock currently available in your facility
-  * **Monthly Use**: how much stock your facility uses each month on average (based on a configurable number of months (refer [Store Preferences tab](https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab)), but defaults to **3**).
+  * **Monthly Use**: how much stock your facility uses each month on average (based on a configurable number of months (refer [Store Preferences tab](/mobile/setup/config/#other-preferences), but defaults to **3**).
   * **Suggested Quantity**: how much stock mSupply Mobile suggests that you order.  This is calculated as:
     * **Monthly Use** x **Max MOS** - **Current Stock**
     * So, for the above example for Ibuprofen 200mg tablets,  **Suggested Quantity** = (**453** x **2**) - **80** = **827**
@@ -128,7 +128,9 @@ If you tap **Use Suggested Quantities** on the requisition header, mSupply Mobil
 
 ![Custom invoices button on Navigator](/mobile/introduction/images/requisition_suggested_quantities.png)
 
+<div class="tip">
 Please note, when you tap **Use Suggested Quantities**, this will overwrite any value that had previously been entered in the **Requested Quantity** column.  However, you can still manually overwrite the amount of stock requested for each item afterward.
+</div>
 
 ### Create Automatic Order
 
@@ -158,10 +160,5 @@ These are not always the same, as your supplier might not have enough stock to f
 </div>
 
 
-
-
-[This chapter](/en:mobile:user_guide:supplier_invoices) tells you how to receive stock.
-----
-
-|  *  Previous:  **[Ordering and Receiving stock from suppliers](/en:mobile:user_guide:ordering_and_receiving)** | | Next: **[Supplier Requisitions (Program Orders)](/en:mobile:user_guide:supplier_requisitions_program)** *  
+ 
 

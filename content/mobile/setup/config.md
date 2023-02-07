@@ -13,11 +13,10 @@ toc = true
 top = false
 +++
 
-# 4. 
-
 ### Making items visible in the new store using Master List(s)
 
   1. Click on the **Master Lists** tab and select at least one Master List. This will define which items are visible in the store. [<img src="/_media/mobile:mob2_003.jpg" class="mediacenter" loading="lazy" alt="" />](/_detail/mobile:mob2_003.jpg?id=en%3Amobile%3Asetup%3Aserver_side%3Aconfig)
+
   1. Click **OK**
   1. Click **OK** again
 
@@ -35,8 +34,11 @@ If you have used [store_create_from_name](https://sussol.net/wiki/doku.php/msupp
   * Configure this new store's Sync type to be **Transfer** or **Active/Collector** for any *other* sync sites that need to deal with this store.
 
   1. Edit store synchronisation settings (**Special > Show Stores >** Double-click on store **> Synchronisation > Click to Unlock**, enter code to edit):
-  1. In the table below, in row of the Sync site that was created for this store, tick the tickbox in the **Local** column.  This will automatically change the Sync type for that site to `Active/Collector`.[<img src="/_media/mobile:mob2_011.jpg?w=600&amp;tok=5753e0" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/mobile:mob2_011.jpg?id=en%3Amobile%3Asetup%3Aserver_side%3Aconfig)
-  1. Set **Synchronisation type** at the top to `Collector`
+  1. In the table below, in row of the Sync site that was created for this store, tick the tickbox in the **Local** column.  This will automatically change the Sync type for that site to **Active/Collector**.
+  
+![Custom invoices button on Navigator](/mobile/introduction/images/configure_store_correct_sync.png)
+
+  1. Set **Synchronisation type** at the top to **Collector**
   1. Click **OK**
 
 ### Custom settings
@@ -47,13 +49,12 @@ These are set on the **Custom fields** tab of the store preferences in mSupply d
 ---|---|---| usesDashboardModule  |  true or *false*  | Needs to be set to true if using the dashboard  
 | usesVaccineModule  |  true or *false*  | Needs to be set to true if using the vaccines module  
 | usesCashRegisterModule  |  true or *false*  | Needs to be set to true if using the cash register  
-| usesPaymentModule  |  true or *false*  | Needs to be set to true if handling cash payments. There are some (good!) side effects if this setting is true:
+| usesPaymentModule  |  true or *false*  | Needs to be set to true if handling cash payments. There are some (good!) side effects if this setting is true.
 
-The sell and cost price columns are shown on Supplier Invoices
+The sell and cost price columns are shown on Supplier Invoices and are also shown when editing batches in a stocktake where the sell price is editable.
 
-and are also shown when editing batches in a stocktake where the sell price is editable.
+See below for examples:
 
-See below for examples.  
 | usesPatientTypes  |  true or *false*  | If set to true then you can choose between "Inpatient and Outpatient" when dispensing. The data is stored in the transact.user1 field. Of course, __usesDispensaryModule__ must be set to true for this to have any effect  (see above)  
 | monthsLeadTime  |  number  *(0)* |The months of lead time - will be multiplied by 30 to use in mobile as months of lead time  
 | monthlyConsumptionLookBackPeriod   |   number *(12)* | The number of months to look back when calculating average monthly consumption (AMC) 
@@ -63,7 +64,7 @@ See below for examples.
 
 You can set other preferences for mobile in the Store preferences by going to **Special > Show Stores**, Double-click on store **> Preferences tab**) in mSupply desktop:
 
-[<img src="/_media/en:mobile:setup:server_side:preferences_desktop.png?w=600&amp;tok=d8421b" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:setup:server_side:preferences_desktop.png?id=en%3Amobile%3Asetup%3Aserver_side%3Aconfig)
+![Custom invoices button on Navigator](/mobile/introduction/images/store_dispense_other_preferences.png)
 
 Here are the preferences and what they do:
 
@@ -88,27 +89,28 @@ Here are the preferences and what they do:
 
 ### Dispensary mode
 
-  1. Ensure that your store is a Dispensary by choosing **Dispensary** from the drop-down list on the **General** tab of the store preferences. [<img src="/_media/en:mobile:setup:server_side:pasted:20200206-081509.png?w=800&amp;tok=84d8c2" class="mediacenter" loading="lazy" title=" " alt=" " width="800" />](/_detail/en:mobile:setup:server_side:pasted:20200206-081509.png?id=en%3Amobile%3Asetup%3Aserver_side%3Aconfig)
+  1. Ensure that your store is a Dispensary by choosing **Dispensary** from the drop-down list on the **General** tab of the store preferences. 
+  
+![Custom invoices button on Navigator](/mobile/introduction/images/store_dispense_mode.png)
+
   1. The mobile  store needs to have the following field in Custom Fields for the dispensary to be visible in mobile
 
 Of course you will need to synchronise mSupply mobile with the server before the mobile device receives these configuration settings.
 After sync, your Navigator window will look like this:
 
-[<img src="/_media/en:mobile:setup:server_side:pasted:20200206-081654.png?w=800&amp;tok=4f59fa" class="mediacenter" loading="lazy" title=" " alt=" " width="800" />](/_detail/en:mobile:setup:server_side:pasted:20200206-081654.png?id=en%3Amobile%3Asetup%3Aserver_side%3Aconfig)
+![Custom invoices button on Navigator](/mobile/introduction/images/dispense_store_after_sync.png)
 
 ### Vaccine dispensing
 
-If you want to use mobile for dispensing vaccines then see the setup instructions on the [Vaccine Dispensing Setup](/en:mobile:user_guide:vaccine_dispensing:setup) page.
+If you want to use mobile for dispensing vaccines then see the setup instructions on the [Vaccine Dispensing Setup](/mobile/dispensing_vaccines/setup/#store-settings-on-your-central-msupply-server) page.
 
 ### When the Payments module is on
 
 The cost and sell price are visible on supplier invoices:
 
-[<img src="/_media/en:mobile:setup:server_side:pasted:20200208-014350.png?w=800&amp;tok=a7b411" class="mediacenter" loading="lazy" title=" " alt=" " width="800" />](/_detail/en:mobile:setup:server_side:pasted:20200208-014350.png?id=en%3Amobile%3Asetup%3Aserver_side%3Aconfig)
+![Custom invoices button on Navigator](/mobile/introduction/images/Store_dispense_payment_module.png)
 
 The cost and sell price are visible when doing stocktakes:
 
-[<img src="/_media/en:mobile:user_guide:pasted:20200208-014430.png?w=800&amp;tok=0ab08e" class="mediacenter" loading="lazy" title=" " alt=" " width="800" />](/_detail/en:mobile:user_guide:pasted:20200208-014430.png?id=en%3Amobile%3Asetup%3Aserver_side%3Aconfig)
-
-|  *  Previous:  **[3. Create the Store](/en:mobile:setup:server_side:create_store)** | | Next: **[5. Setting up the Users to access the store](/en:mobile:setup:server_side:users)** *  
+![Custom invoices button on Navigator](/mobile/introduction/images/store_dispense_payment_module2.png)
 

@@ -13,17 +13,16 @@ toc = true
 top = false
 +++
 
-![Custom invoices button on Navigator](/mobile/introduction/images/customer_new_requisitions.png)
 
 Usually, when a customer order stocks from you, they create a Supplier Requisition in their system. This will appear as a Customer Requisition in your system. You can also enter a manual customer requisition to record paper or phone orders from program customers.  
 
-Tap `Customer Requisitions`>`New Requisition`
+Tap **Customer Requisitions** > **New Requisition**
 
-![Custom invoices button on Navigator](/mobile/introduction/images/customer_requisitions_seslect.png)
-
+![Custom invoices button on Navigator](/mobile/introduction/images/customer_new_requisitions.png)
+ 
 ### Select the Customer, Program, Order Type and Period
 
-[<img src="/_media/en:mobile:user_guide:pasted:20201125-223637.png?w=600&amp;tok=5b23cc" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:pasted:20201125-223637.png?id=en%3Amobile%3Auser_guide%3Acustomer_requisitions_program_orders)
+![Custom invoices button on Navigator](/mobile/introduction/images/customer_requisitions_seslect.png)
 
 All of the fields in the **Requisition Details** window are compulsory.
 
@@ -58,7 +57,7 @@ For emergency orders:
 
  For non-emergency order types, if the maximum number of orders have been completed for a period, the period will not be displayed for selection. 
 
-Tap `OK` and review the customer requisition
+Tap *OK* and review the customer requisition
 
 The requisition is created and is populated with all program items.  
 
@@ -106,7 +105,7 @@ Tap on the cell that you wish to update:
 
 ![Custom invoices button on Navigator](/mobile/introduction/images/customer_requisition_enter_supply_data.png)
 
-** Current Stock:** this will be auto-filled with your current quantity of stock for this item. 
+**Current Stock:** this will be auto-filled with your current quantity of stock for this item. 
 
 **Their Stock:** this will be auto-filled with the customer’s closing balance (from the customer data column).
 
@@ -127,7 +126,7 @@ Selecting either of the auto-fill buttons will overwrite all values in the suppl
 
 ### Finalising a Customer Requisition
 
-When you are completely sure that everything is correct, tap the `Finalise` button, then `Confirm`. Finalising the requisition will also generate a finalised [customer invoice](/en:mobile:user_guide:customer_inv).
+When you are completely sure that everything is correct, tap the **Finalise** button, then **Confirm**. Finalising the requisition will also generate a finalised [customer invoice](/mobile/order_and_receive/customer-inv/#click-on-customer-invoices).
 
 
 

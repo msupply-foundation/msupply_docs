@@ -16,9 +16,11 @@ top = false
 
 If you have a problem with the stock supplied and need to return something, you can do this against the **Supplier Invoice**. 
 
-Note: to use this feature, the preference for the **supplier credit module** needs to be enabled for your store.
+<div class="tip">
+To use this feature, the preference for the **supplier credit module** needs to be enabled for your store.
+</div>
 
-Let's go through each step…
+Let's go through each step:
 
 ### Click on Supplier Invoices
 

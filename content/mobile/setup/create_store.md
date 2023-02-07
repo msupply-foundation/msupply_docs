@@ -87,5 +87,4 @@ Make ***sure*** the relevant [sync sites have been created](/en:mobile:setup:ser
 
   1. The new store will have the correct 'basic' store visibility settings, including, if you have selected it, 'group' store visibility.  Review, and if necessary, [configure store visibility to other stores](/en:mobile:setup:server_side:config#make_the_store_visible_to_other_stores)
 
-|  *  Previous:  **[2. Create Sync Site](/en:mobile:setup:server_side:create_sync_site)** | | Next: **[4. Configuring the Store and Dispensing](/en:mobile:setup:server_side:config)** *  
 
