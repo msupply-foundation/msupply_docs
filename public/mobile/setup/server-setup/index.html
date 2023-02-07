@@ -259,7 +259,19 @@
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/mobile-settings/">Mobile Settings</a></li>
 							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/config/">Store &amp; Dispensing Setup</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/create-store/">Create the Store</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/create-sync-site/">Create Sync Site</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/dashboard/">Set up Dashboards for Mobile</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/review-setup/">Reviewing the setup</a></li>
+							                           
 									<li><a class="docs-link active" href="https://docs.msupply.foundation/mobile/setup/server-setup/">mSupply server setup</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/users/">Setting up the Users</a></li>
 							
 					</ul>
 					
@@ -367,11 +379,11 @@
         <h1>mSupply server setup</h1>
         
         <p class="lead">Setting up mSupply Server for mobile</p>
-         <h2 id="setting-up-the-server">Setting up the server</h2>
+         <h2 id="setting-up-the-server">Setting up the server<a class="zola-anchor" href="#setting-up-the-server" aria-label="Anchor link for: setting-up-the-server">🔗</a></h2>
 <p>The following details the steps of setting up mSupply from your organisation's mSupply Server</p>
 <p>Note - the mSupply Support Team will complete these steps for you.
 The following instructions are for your information only.</p>
-<h3 id="where-to-start">Where to start</h3>
+<h3 id="where-to-start">Where to start<a class="zola-anchor" href="#where-to-start" aria-label="Anchor link for: where-to-start">🔗</a></h3>
 <p><strong>Requirements</strong></p>
 <ul>
 <li>a server running msupply with a web server license registered</li>
@@ -393,7 +405,7 @@ The following instructions are for your information only.</p>
 <li>Create user(s) to access the store section 5 of this guide</li>
 </ol>
 <p>Items 1 and 2 can now be carried out using the Sync site wizard. See <a href="https://docs.msupply.org.nz/synchronisation:sync_sites">here</a></p>
-<h3 id="custom-settings">Custom settings</h3>
+<h3 id="custom-settings">Custom settings<a class="zola-anchor" href="#custom-settings" aria-label="Anchor link for: custom-settings">🔗</a></h3>
 <p>These are set on the Custom fields tab of the store preferences in mSupply desktop (<strong>Special &gt; Show Stores</strong>, Double-click on store &gt; Custom fields tab). </p>
 <table><thead><tr><th>Setting name</th><th>Allowed Value(s)</th><th>Description</th></tr></thead><tbody>
 <tr><td></td><td><em>default value in italics</em></td><td></td></tr>
@@ -406,8 +418,8 @@ The following instructions are for your information only.</p>
 <tr><td>monthlyConsumptionLookBackPeriod</td><td>number <em>(12)</em></td><td>The number of months to look back when calculating average monthly consumption (AMC)</td></tr>
 <tr><td>monthlyConsumptionEnforceLookBackPeriod</td><td>true or false</td><td>if True, then the full lookbackup period will be used, even if there is no consumption in those periods. We don't recommend this, but it's here to comply with the rules in some countries</td></tr>
 </tbody></table>
-<h3 id="other-preferences">Other preferences</h3>
-<p>You can set other preferences for mobile in the Store preferences by going to Special &gt; Show Stores, Double-click on store &gt; Preferences tab) in mSupply desktop:</p>
+<h3 id="other-preferences">Other preferences<a class="zola-anchor" href="#other-preferences" aria-label="Anchor link for: other-preferences">🔗</a></h3>
+<p>You can set other preferences for mobile in the Store preferences by going to Special &gt; Show Stores, Double-click on store &gt; Preferences tab</p>
 <p>Here are the preferences and what they do:</p>
 <table><thead><tr><th>Item</th><th>Description</th></tr></thead><tbody>
 <tr><td>Programs</td><td>If you have a master list configured as a program, in mobile you will then be able to perform stock takes or supplier requisitions by program.</td></tr>
@@ -416,14 +428,14 @@ The following instructions are for your information only.</p>
 <tr><td>Insurance Providers</td><td>If you configured an insurance provider, then mobile will give you the ability to choose a policy, and to edit and create them at the end of a prescription</td></tr>
 <tr><td>Payment Types</td><td>If you have configured any payment types, they’ll show up in a list at the end of a prescription</td></tr>
 </tbody></table>
-<h4 id="dispensary-mode">Dispensary mode</h4>
+<h4 id="dispensary-mode">Dispensary mode<a class="zola-anchor" href="#dispensary-mode" aria-label="Anchor link for: dispensary-mode">🔗</a></h4>
 <p>Ensure that your store is a Dispensary by choosing Dispensary from the drop-down list on the General tab of the store preferences.</p>
 <p><img src="/mobile/setup/images/dispensary_mode_desktop.png" alt="Mobile dispensing pref on desktop!" /></p>
 <p>You will need to synchronise mSupply mobile with the server before the mobile device receives these configuration settings. After sync, your Navigator window will look like this:</p>
 <p><img src="/mobile/setup/images/mobile_nav_w_dispensing.png" alt="mobile navigator with dispensing enabled!" /></p>
-<h4 id="vaccine-dispensing">Vaccine dispensing</h4>
+<h4 id="vaccine-dispensing">Vaccine dispensing<a class="zola-anchor" href="#vaccine-dispensing" aria-label="Anchor link for: vaccine-dispensing">🔗</a></h4>
 <p>If you want to use mobile for dispensing vaccines then see the setup instructions on the Vaccine Dispensing Setup page.</p>
-<h4 id="when-the-payments-module-is-on">When the Payments module is on</h4>
+<h4 id="when-the-payments-module-is-on">When the Payments module is on<a class="zola-anchor" href="#when-the-payments-module-is-on" aria-label="Anchor link for: when-the-payments-module-is-on">🔗</a></h4>
 <ul>
 <li>The cost and sell price are visible on supplier invoices.</li>
 <li>The cost and sell price are visible when doing stocktakes.</li>
@@ -435,13 +447,50 @@ The following instructions are for your information only.</p>
   
   
   
-  <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;mobile&#x2F;setup&#x2F;mobile-settings&#x2F;">
-    <div class="card my-1">
-      <div class="card-body py-2">
-        &larr; Mobile Settings
-      </div>
-    </div>
-  </a>
+    
+    
+    
+    
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
+            
+              
+              <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;mobile&#x2F;introduction&#x2F;msupply-mobile-demo&#x2F;">
+                <div class="card my-1">
+                  <div class="card-body py-2">
+                    &larr; mSupply Mobile Demo
+                  </div>
+                </div>
+              </a>
+            
+            
+            
+          
+        
+      
+    
   
 
   
