@@ -1,5 +1,5 @@
 +++
-title = "mSupply server setup"
+title = "mSupply Server Setup"
 description = "mSupply mobile- Open source Android application."
 date = 2025-05-01T08:00:00+00:00
 updated = 2021-05-01T08:00:00+00:00

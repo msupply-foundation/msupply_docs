@@ -26,5 +26,5 @@ The first step is to create the sync site that the store will be 'Active' on.
   * Keep track of the password!  If it is lost you'll have to resynchronise from scratch!
   * Sussol will typically have them securely stored if Sussol has done the sync setup.
 
-|  *  Previous:  **[1. Where to start](/en:mobile:setup:server_side:where_to_start)** | | Next: **[3. Create the Store](/en:mobile:setup:server_side:create_store)** *  
+
 
