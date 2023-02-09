@@ -24,7 +24,7 @@ For mSupply Mobile, User configuration should be set as:
 
   * Active
   * Permitted to login to the store
-  * No permissions needed in the store, unless the user needs to edit [mobile settings](/en:mobile:user_guide:mobile_settings).
+  * No permissions needed in the store, unless the user needs to edit [mobile settings](/mobile/setup/mobile-settings/#access-mobile-settings).
 
   * More than one user can be configured to log in to the facility.
 
@@ -36,28 +36,34 @@ When creating new users who will be using mSupply Mobile, there are few restrict
 
 ### Setting up Store access for Admin Users
 
-At least one Admin User needs to be set up to have have access to the new store on the Primary server.  This user will normally be the `Sussol` user that was used to set up the new store, but there could well be other local mSupply administrators that need access.
+At least one Admin User needs to be set up to have have access to the new store on the Primary server.  This user will normally be the **Sussol** user that was used to set up the new store, but there could well be other local mSupply administrators that need access.
 
-  1. Go to **Admin > Edit Users**[<img src="/_media/mobile:mob2_004.jpg?w=600&amp;tok=c320cf" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/mobile:mob2_004.jpg?id=en%3Amobile%3Asetup%3Aserver_side%3Ausers)
-  1. Select the user and go to **Login Rights**[<img src="/_media/mobile:mob2_005.jpg?w=600&amp;tok=0c482f" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/mobile:mob2_005.jpg?id=en%3Amobile%3Asetup%3Aserver_side%3Ausers)
-  1. Select the new Store
-  1. Click **OK**
+  1. Go to **Admin > Edit Users**
+  
+![Custom invoices button on Navigator](/mobile/introduction/images/store_setup_edit_users.png)
+
+  2. Select the user and go to **Login Rights** 
+  
+  ![Custom invoices button on Navigator](/mobile/introduction/images/store_setup_login_rights.png)
+
+  3. Select the new Store
+  4. Click **OK**
 
 ### Setting up Admin access to the device Settings
 
   * To carry out various admin functions on the device, the logged in user needs the appropriate permission to access the mobile **Settings** page.
   * You will likely *not* want the local users to have this permission.  If that is the case, then an Admin user needs to be configured to have this permission.
-  * The Sustainable Solutions `Sussol` is hard-wired *not* to have this permission.  A special Sustainable Solutions user called `SussolMobile` can be set up to have this permission.
+  * The Sustainable Solutions **Sussol** is hard-wired *not* to have this permission.  A special Sustainable Solutions user called **SussolMobile** can be set up to have this permission.
 
 In the mSupply Central server:
 
   1. Log into the mobile store
   1. Go to File > Edit users
-  1. Select the mobile user (whom you want to give permission to access Settings - remember, not the `Sussol` user :-)), double click it.  An edit user window will open.
-  1. Go to **Permission (3)** tab and check the **View/edit preferences** permission on
+  1. Select the mobile user (whom you want to give permission to access Settings - remember, not the **Sussol** user), double click it.  An edit user window will open.
+  1. Go to **Permission (3)** tab and check the **View/edit preferences** permission is on.
 
-[<img src="/_media/en:mobile:user_guide:settings_permission.png?w=800&amp;tok=52dca4" class="mediacenter" loading="lazy" alt="" width="800" />](/_detail/en:mobile:user_guide:settings_permission.png?id=en%3Amobile%3Asetup%3Aserver_side%3Ausers)
+  ![Custom invoices button on Navigator](/mobile/introduction/images/store_setup_admin_access.png)
 
-Click **OK** to save it and again click **OK** to close **User list…** window.
+Click **OK** to save it and again click **OK** to close the **User list** window.
 
 Once these permissions are set, the **Settings** button will be visible the next time the user logs in to mSupply Mobile.

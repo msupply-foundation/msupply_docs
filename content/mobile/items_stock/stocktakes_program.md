@@ -117,5 +117,3 @@ This will update all your stock levels to match the quantities you have entered 
 
 Like always with mSupply Mobile, you don't need to be connected to the internet to do this - the information will sync in the background when internet becomes available.
 
-|  *  Previous:  **[Stocktakes (General)](/en:mobile:user_guide:stocktakes)** * | *  Next:  **[The Mobile Dashboard](/en:mobile:user_guide:mobile_dashboard)** * 
-

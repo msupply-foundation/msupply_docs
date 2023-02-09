@@ -13,8 +13,7 @@ toc = true
 top = false
 +++
 
-[<img src="/_media/banner_mobile_userguide.png?w=600&amp;tok=9b9def" class="media" loading="lazy" title="mSupply Mobile User Guide menu" alt="mSupply Mobile User Guide menu" width="600" />](/en:mobile:user_guide)
-----## Current Stock
+## Current Stock
 
 One of the most important - but easiest - tasks in mSupply Mobile is to check how much stock you have on hand. When you create a Customer Invoice and add an item, mSupply Mobile will tell you if you have enough stock. But at many other times, you might want to quickly check, and it is very simple to do so.
 
@@ -42,7 +41,7 @@ Clicking the arrow next to an item will list all of the batches for the item in 
   * Clicking **OK** will create a supplier credit - one for each supplier for all batches which came from that supplier.
   * You may choose a category for each of the supplier credits, if you have supplier credit categories set up in mSupply desktop (which is described [here](https://docs.msupply.org.nz/other_stuff:transaction_categories))
 
-Note that you can also return goods from a supplier invoice as described [here](/en:mobile:user_guide:supplier_invoices_returns).
+Note that you can also return goods from a supplier invoice as described [here](/mobile/order_and_receive/supplier-invoices-returns/).
 
-|  *  Previous:  **[Supplier Invoices - Returning Stock](/en:mobile:user_guide:supplier_invoices_returns)** | | Next: **[Stocktakes (General)](/en:mobile:user_guide:stocktakes)**  
+
 

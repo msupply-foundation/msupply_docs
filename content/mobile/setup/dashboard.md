@@ -14,9 +14,9 @@ top = false
 +++
 
 
-mSupply Mobile has the capability to display store specific information as a [Mobile dashboard](/mobile/introduction/mobile-dashboard/Mobile Dashboard).  There is also a function to view data for other stores anonymised. 
+mSupply Mobile has the capability to display store specific information as a [Mobile dashboard](/mobile/introduction/mobile-dashboard/).  There is also a function to view data for other stores anonymised. 
 
-The [Mobile dashboard](/en:mobile:user_guide:mobile_dashboard) is completely different to the [mSupply Grafana web dashboard](/en:dashboard) and is configured in a different manner.
+The [Mobile dashboard](/mobile/introduction/mobile-dashboard/) is completely different to the [mSupply Grafana web dashboard](/en:dashboard) and is configured in a different manner.
 
 Mobile dashboards are built on the idea of reusing the same report sets as the [legacy (non-grafana) mSupply web dashboard](https://docs.msupply.org.nz/web_interface:dashboard_using#legacy_web_dashboard).  A lot of the legacy web dashboards can be used as mobile dashboards.
 
@@ -44,8 +44,8 @@ Dashboard reports need the following properties added to them in order for them 
 
 This is the important one!  This enables or disables sending this report to mobile sites.
 
- When *isMobile* is **True**, [Mobile dashboard](/en:mobile:user_guide:mobile_dashboard) reports are generated, and no [legacy (non-grafana) mSupply web dashboard](https://docs.msupply.org.nz/web_interface:dashboard_using#legacy_web_dashboard) report is generated.
- When *isMobile* is **False**, a [legacy (non-grafana) mSupply web dashboard](https://docs.msupply.org.nz/web_interface:dashboard_using#legacy_web_dashboard) report is generated and no [Mobile dashboard](/en:mobile:user_guide:mobile_dashboard) reports are generated.
+ When *isMobile* is **True**, [Mobile dashboard](/mobile/introduction/mobile-dashboard/) reports are generated, and no [legacy (non-grafana) mSupply web dashboard](https://docs.msupply.org.nz/web_interface:dashboard_using#legacy_web_dashboard) report is generated.
+ When *isMobile* is **False**, a [legacy (non-grafana) mSupply web dashboard](https://docs.msupply.org.nz/web_interface:dashboard_using#legacy_web_dashboard) report is generated and no [Mobile dashboard](/mobile/introduction/mobile-dashboard/) reports are generated.
 | *reportType* | **Table**, **Bar Chart**, **Line Chart** or **Pie hart** | The report display type.  This parameter is mobile specific, but needs to be consistent with the report method's 'type'.  If the *reportType* parameter is not set, it defaults to **Table**.
 | *#[report property]* | **[field on store table]** | This allows you to pick a value from the [store table](https://docs.msupply.org.nz/tables_fields:other_tables:store), which is therefore store specific, and assign the value to the **report property**. In this way you can create a report which is customised to each store. The **report property** must exist in your report for this to work.  See [report options](https://docs.msupply.org.nz/web_interface:dashboard_setup#available_dashboard_reports) for available reports and properties.  See example below 
 

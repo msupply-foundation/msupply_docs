@@ -12,8 +12,6 @@ toc = true
 top = false
 +++
 
-[<img src="/_media/banner_mobile_userguide.png?w=600&amp;tok=9b9def" class="media" loading="lazy" title="mSupply Mobile User Guide menu" alt="mSupply Mobile User Guide menu" width="600" />](/en:mobile:user_guide)
-
 mSupply Mobile will automatically keep track of your stock levels for you, as you receive stock and give it out. 
 
 But sometimes data gets entered incorrectly or stock goes out without anyone making an entry in the system. 
@@ -52,8 +50,9 @@ There are two stocktake statuses: **In Progress** (current) and **Finalised** (p
 
 <div class="tip">
 
-An **In Progress** stocktake is one you are still working on. If you want to keep working on an In Progress stocktake, double click on it.
 #### In Progress stocktakes
+
+An **In Progress** stocktake is one you are still working on. If you want to keep working on an In Progress stocktake, double click on it.
 
 **In Progress** stocktakes are the stocktakes you are still working on and haven't finalised. 
 
@@ -64,7 +63,7 @@ We **strongly** recommend only having one In Progress stocktake at any time. Thi
 </div>
 
 ----
-Let's start a new stocktake now…
+Let's start a new stocktake now. 
 
 ### Click on New Stocktake
 
