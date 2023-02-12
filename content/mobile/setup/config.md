@@ -15,10 +15,12 @@ top = false
 
 ### Making items visible in the new store using Master List(s)
 
-  1. Click on the **Master Lists** tab and select at least one Master List. This will define which items are visible in the store. [<img src="/_media/mobile:mob2_003.jpg" class="mediacenter" loading="lazy" alt="" />](/_detail/mobile:mob2_003.jpg?id=en%3Amobile%3Asetup%3Aserver_side%3Aconfig)
+  1. Click on the **Master Lists** tab and select at least one Master List. This will define which items are visible in the store. 
 
-  1. Click **OK**
-  1. Click **OK** again
+  ![Custom invoices button on Navigator](/mobile/introduction/images/configure_store_master_list.png)
+
+  2. Click **OK**
+  3. Click **OK** again
 
 ### Make the Store visible to other Stores
 

@@ -21,7 +21,7 @@ Here's an example:
 
 ![Custom invoices button on Navigator](/mobile/introduction/images/vaccination_monitoring_dashboard.png)
 
-Here the dashboard shows a list of people needing to be contacted for their 2nd dose (This can be exported to excel and uploaded to an SMS sending service to send a reminder)
+Here the dashboard shows a list of people needing to be contacted for their 2nd dose (This can be exported to excel and uploaded to an SMS sending service to send a reminder).
 
 ![Custom invoices button on Navigator](/mobile/introduction/images/vaccination_monitoring_dashboard2.png)
 

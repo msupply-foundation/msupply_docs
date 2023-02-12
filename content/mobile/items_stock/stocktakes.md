@@ -36,7 +36,7 @@ Ideally, you should be doing a physical stocktake of each item **EVERY** time yo
 </div>
 
 
-Let's learn how to do a stocktake… Using mSupply Mobile makes doing stocktake a lot easier than before!
+Let's learn how to do a stocktake. Using mSupply Mobile makes doing stocktake a lot easier than before!
 
 ### Click on Stocktakes
 
@@ -54,8 +54,6 @@ There are two stocktake statuses: **In Progress** (current) and **Finalised** (p
 
 An **In Progress** stocktake is one you are still working on. If you want to keep working on an In Progress stocktake, double click on it.
 
-**In Progress** stocktakes are the stocktakes you are still working on and haven't finalised. 
-
 We **strongly** recommend only having one In Progress stocktake at any time. This will prevent mistakes when moving between them.
 
 **Finalise or delete old stocktakes before starting new ones!**
@@ -63,13 +61,14 @@ We **strongly** recommend only having one In Progress stocktake at any time. Thi
 </div>
 
 ----
-Let's start a new stocktake now. 
+## Start a New Stocktake 
 
-### Click on New Stocktake
+
+Click on New Stocktake.
 
 ![Custom invoices button on Navigator](/mobile/introduction/images/stocktake_new.png)
 
-### Select the items you wish to count
+Select the items you wish to count.
 
 ![Custom invoices button on Navigator](/mobile/introduction/images/stocktake_general_select_items.png)
 
@@ -153,9 +152,11 @@ If there are multiple batches:
 
 When you are finished making changes in the **Batches** screen, click **OK**. 
 
-Note: The main stocktake screen will only show the most common reason among the batches for an item's inventory adjustment.
+<div class="tip">
+The main stocktake screen will only show the most common reason among the batches for an item's inventory adjustment.
+</div>
 
-### When you are finished...
+### When you are finished
 
 Click **Finalise**.
 
@@ -165,5 +166,5 @@ This will update all your stock levels to match the quantities you have entered 
 
 Like always with mSupply Mobile, you don't need to be connected to the internet to do this - the information will sync in the background when internet becomes available.
 
-|  *  Previous:  **[Current Stock](/en:mobile:user_guide:current_stock)** | | Next: **[Stocktakes (Program)](/en:mobile:user_guide:stocktakes_program)** *  
+
 
