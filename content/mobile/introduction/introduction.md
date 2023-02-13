@@ -13,18 +13,15 @@ toc = true
 top = false
 +++
 
-The original mSupply mobile docs are [here](https://wiki.msupply.foundation/en:mobile)
+The original mSupply mobile docs are [here](https://wiki.msupply.foundation/en:mobile).
+
 We are slowly transferring documentation (and updating it) over to this web site.
 
 ### Setting up mSupply Mobile on the device
 
-<div class="info">
-mSupply Mobile can be set up on your Android device by the mSupply Support Team or by your internal IT team with our support
-</div>
+mSupply Mobile can be set up on your Android device by the mSupply Support Team or by your internal IT team with our support.
 
 #### Choosing a device
-
-Preparing the device
 
 Preparing the device for mSupply is very dependant on factors including:
 
@@ -32,13 +29,14 @@ Preparing the device for mSupply is very dependant on factors including:
 * The version of Android running on it
 * The details of how the organisation plans to manage devices and communicate with users
 
-Please consult with the mSupply Foundation support team ( support@msupply.org.nz ) on this. 
+Please consult with the mSupply Foundation support team (support@msupply.org.nz) on this. 
 
-Please note
+<div class="note">
 
-  
 * A device is typically allocated to a facility, NOT an individual user. As such ALL operating system (i.e. Android) user accounts set up on the device must be for the site, not a person. This way, if a person leaves and another person takes over operation of the device, nothing should need to be changed.
+
 * Each device running mSupply Mobile will correspond to one mSupply Store.
+</div>
 
 #### Initialising the store
 

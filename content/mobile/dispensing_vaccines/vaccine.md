@@ -20,7 +20,7 @@ This functionality is available from mSupply mobile v7.0.0 onwards.
 
 Vaccine mode only shows **if the store is configured correctly on the server**, with the preference 'mobile: Uses vaccine module' enabled. Read how [here](/mobile/setup/config/).
 
-### Permissions and Services
+## Permissions and Services
 
 The vaccine module requires additional permissions and services to be enabled on your mobile device. 
 
@@ -59,7 +59,7 @@ Approved sensors can be purchased directly from the manufacturer or reseller onl
 These sensors have been approved by the World Health Organisation as a temperature monitoring device suitable for use in immunization programmes.  
 
 
-### Adding Sensors
+## Adding Sensors
 
 The first time you use the Vaccine module, there will be no sensors connected to your device.
 
@@ -150,10 +150,10 @@ We recommend that each device should be linked to a maximum of six sensors. Each
 
 ### Edit Sensor
 
+To edit sensor details, you can tap on the ‘’cog’’ icon on the mSupply Vaccine home page (screenshot below) or on the Sensor Detail screen.
+
 ![Custom invoices button on Navigator](/mobile/introduction/images/VM_CC_add_sensors_final.png)
 
-To edit sensor details, you can tap on the ‘’cog’’ icon on the mSupply Vaccine home page (above screenshot) or on the Sensor Detail screen.
-Screenshot
 
 All __sensor threshold__ and __sensor connection__ details are editable except for the start Logging date and time.  Simply tap on the field that you wish to end and make changes.  
 
