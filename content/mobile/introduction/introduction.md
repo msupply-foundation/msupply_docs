@@ -8,14 +8,15 @@ weight = 301
 template = "mobile/page.html"
 
 [extra]
-lead = "Welcome to mSupply Mobile!"
+lead = "mSupply Mobile (Old Version)"
 toc = true
 top = false
 +++
 
-The original mSupply mobile docs are [here](https://wiki.msupply.foundation/en:mobile).
+<div class="note">
+	This is the documentation for our original mSupply Mobile. For new installations, we recommend <a href="/docs/introduction/introduction"><strong>Open mSupply</strong></a>
+</div>
 
-We are slowly transferring documentation (and updating it) over to this web site.
 
 ### Setting up mSupply Mobile on the device
 
@@ -49,17 +50,17 @@ When you open mSupply Mobile, the first screen looks as follows:
 ![Setup screen!](/mobile/introduction/images/first_screen.jpg)
 
 
-* **PRIMARY SERVER URL**: Please enter the correct URL for your mSupply Server, this uses HTTPS protocol for security. For example: https://your organisation.msupply.org
+* **PRIMARY SERVER URL**: Please enter the correct URL for your mSupply Server, this uses HTTPS protocol for security. For example: https://your-organisation.msupply.org
 * **SYNC SITE NAME**: The site name as configured on the primary server.
 * **SYNC SITE PASSWORD**: The password for the sync site as configured on the primary server.
 
 Once you have entered the information, click **Connect** to start sync.
 
-![Initialising screen!](/mobile/introduction/images/initialising.jpg)
+![Initialising screen](/mobile/introduction/images/initialising.jpg)
 
 Initialisation can take between 1 and 15 minutes depending on the number of records on the server related to the site being synced.
 
-![Initialising screen!](/mobile/introduction/images/pulling.jpg)
+![Initialising screen](/mobile/introduction/images/pulling.jpg)
 
 Once the server has found all the records to sync, mSupply Mobile will start pulling them between 20 and 500 records at a time depending on the connection speed. If the connection is lost or you close the app, you can resume sync where it stopped by entering the exact same details. Please note that if you enter different details, it will restart the sync completely!
 
