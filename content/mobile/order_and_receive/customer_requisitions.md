@@ -8,11 +8,11 @@ weight = 306
 template = "mobile/page.html"
 
 [extra]
-lead = "Ordering from a Supplying Store"
 toc = true
 top = false
 +++
 
+## Ordering from a Supplying Store
 
 When a customer order stocks from you, they create a Supplier Requisition in their system. This will appear as a Customer Requisition in your system. 
 
@@ -29,6 +29,8 @@ Tap on the **Customer Requisitions** button to review the Customer Requisitions.
 Tap on the Customer Requisition you want to review (in this example, we are going to tap on the Requisition ID 7). 
 
 ![Custom invoices button on Navigator](/mobile/introduction/images/current_customer_requisitions.png)
+
+## Customer Requisiton Review 
 
 You can now review the Customer Requisition before finalising it.
 
