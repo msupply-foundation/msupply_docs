@@ -107,7 +107,7 @@ Note that this third step is only available from mobile v8.1.0 onwards, and requ
 
 ![Custom invoices button on Navigator](/mobile/introduction/images/VD_additional_vaccines.png)
 
-If using v8.0.X, or a form is not configured on the server, there will only be three steps total shown in the vaccine dispensing flow (step three will instead be [dispense a vaccine](/mobile/dispensing_vaccines/vaccine-dispensing/)). 
+If using v8.0.X, or a form is not configured on the server, there will only be three steps total shown in the vaccine dispensing flow (step three will instead be [dispense a vaccine](/mobile/dispensing_vaccines/vaccine-dispensing/#step-four-dispense-a-vaccine). 
 
 ## Step four: Dispense a vaccine
 

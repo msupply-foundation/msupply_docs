@@ -12,7 +12,7 @@ toc = true
 top = false
 +++
 
-This feature is **off by default.** Most users will not be handling cash and can skip this section. To enable the functionality, see the documentation [here](/en:mobile:setup:server_side).
+This feature is **off by default.** Most users will not be handling cash and can skip this section. To enable the functionality, see the documentation [here](/mobile/setup/server-setup/#setting-up-the-server).
 
 ## The Cash Transaction List
 
@@ -52,5 +52,4 @@ Creating a **CASH OUT** transaction is the same process, except that you must pr
 
 ![Custom invoices button on Navigator](/mobile/introduction/images/cash_out_transactions2.png)
 
-|  *Previous:  **[Dispensing](/en:mobile:user_guide:dispensing)** | | Next:  **[Mobile Settings](/en:mobile:user_guide:mobile_settings)***  
 

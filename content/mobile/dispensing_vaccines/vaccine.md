@@ -18,7 +18,7 @@ This functionality is available from mSupply mobile v7.0.0 onwards.
 
 ## Setting up to use the Vaccine module
 
-Vaccine mode only shows **if the store is configured correctly on the server**, with the preference 'mobile: Uses vaccine module' enabled. Read how [here](/mobile/setup/config/).
+Vaccine mode only shows **if the store is configured correctly on the server**, with the preference 'mobile: Uses vaccine module' enabled. Read how [here](/mobile/dispensing_vaccines/setup/#store-settings-on-your-central-msupply-server).
 
 ## Permissions and Services
 

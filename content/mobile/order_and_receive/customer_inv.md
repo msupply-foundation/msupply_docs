@@ -44,6 +44,7 @@ Click **New Invoice**
 Add the customer you are wanting to send stock to:
 
 ![Add the customer](/mobile/introduction/images/add_customer_to_invoice.png)
+
 ----
 ### Add items to the customer invoice
 

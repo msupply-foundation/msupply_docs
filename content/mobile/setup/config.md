@@ -47,7 +47,7 @@ If you have have used mSupply support to convert a customer into a store for you
 
 These are set on the **Custom fields** tab of the store preferences in mSupply desktop (**Special > Show Stores**, Double-click on store **> Custom fields tab**).
 
-| Setting name  |  Allowed Value(s) ((Default value is in italics - this is used if preference is not configured))  |  Description  |
+| Setting name  |  Allowed Value(s) (Default value is in italics - this is used if preference is not configured)  |  Description  |
 |---|---|---| 
 |usesDashboardModule  |  true or *false*  | Needs to be set to true if using the dashboard  |
 | usesVaccineModule  |  true or *false*  | Needs to be set to true if using the vaccines module  |

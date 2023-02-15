@@ -13,10 +13,8 @@ toc = true
 top = true
 +++
 
-
 Dispensary mode only shows if the store is configured correctly on the server. 
 Read how [here](/mobile/setup/config/#dispensary-mode).
-
 ## Patients
 
 When you tap the **Dispensary** icon you will get a list of your patients. You can search for a particular patient using the field in the search bar.
@@ -126,11 +124,13 @@ Note though, that you cannot edit this prescriber. This is indicated by the book
 
 Dispensing is a three step process. Each step must be completed before you can move to the next step.
 
-  1. Step 1: you must select a prescriber by clicking on the **select** icon
+  1. You must select a prescriber by clicking on the **select** icon
+
       * NOTE: You can press the **history** and **edit** icons next to the patients name to edit the patients details or view their history at any time
       * You can filter the list using the search bar
       * Once you have selected a prescriber, you can edit the prescriber at any time using the **edit** icon next to the prescribers name
-  1. Step 2: You must select an item to dispense by selecting the row on the left hand side. You can filter the items using the search bar.
+      
+  2. You must select an item to dispense by selecting the row on the left hand side. You can filter the items using the search bar.
 
 ![Custom invoices button on Navigator](/mobile/introduction/images/dispense_patient_filter.png)
 

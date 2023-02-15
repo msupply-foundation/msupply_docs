@@ -8,7 +8,7 @@ weight = 331
 template = "mobile/page.html"
 
 [extra]
-lead = "Welcome to mSupply Mobile!"
+lead = "Below is the guideline to check existing stock"
 toc = true
 top = false
 +++

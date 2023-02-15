@@ -15,13 +15,17 @@ top = false
 
 ## Setting up the server
 
-
 The following details the steps of setting up mSupply from your organisation's mSupply Server
 
-Note - the mSupply Support Team will complete these steps for you.
+<div class="note">
+
+The mSupply Support Team will complete these steps for you.
 The following instructions are for your information only.
 
+</div>
+
 ### Where to start
+
 **Requirements**
 
 * a server running msupply with a web server license registered
@@ -29,6 +33,7 @@ The following instructions are for your information only.
 * a mobile tablet fitting the recommended specifications here
 
 **Information needed** 
+
 * Store name
 * The item master list to be attached to the store    
 * If you are converting an existing mSupply site (customer) to mSupply Mobile, then you also need to provided the existing customer name tha the store is being created for
@@ -42,7 +47,7 @@ EACH individual mobile store needs to have the following steps done on the serve
 3. Configure the mobile store section 4 of this guide
 4. Create user(s) to access the store section 5 of this guide
 
-Items 1 and 2 can now be carried out using the Sync site wizard. See [here](https://docs.msupply.org.nz/synchronisation:sync_sites)
+Items 1 and 2 can now be carried out using the Sync site wizard. See [here](https://docs.msupply.org.nz/synchronisation:sync_sites).
 
 
 ### Custom settings
@@ -74,23 +79,3 @@ Here are the preferences and what they do:
 | Prescription Categories | If you have transaction categories with type of “prescription” mobile will display a drop down list of prescription categories to select from               | 
 | Insurance Providers     | If you configured an insurance provider, then mobile will give you the ability to choose a policy, and to edit and create them at the end of a prescription | 
 | Payment Types           | If you have configured any payment types, they’ll show up in a list at the end of a prescription                                                            | 
-
-#### Dispensary mode 
-
-Ensure that your store is a Dispensary by choosing Dispensary from the drop-down list on the General tab of the store preferences.
-
-![Mobile dispensing pref on desktop!](/mobile/setup/images/dispensary_mode_desktop.png)
-
-You will need to synchronise mSupply mobile with the server before the mobile device receives these configuration settings. After sync, your Navigator window will look like this:
-
-![mobile navigator with dispensing enabled!](/mobile/setup/images/mobile_nav_w_dispensing.png)
-
-#### Vaccine dispensing
-
-If you want to use mobile for dispensing vaccines then see the setup instructions on the Vaccine Dispensing Setup page.
-
-
-#### When the Payments module is on
-* The cost and sell price are visible on supplier invoices.
-* The cost and sell price are visible when doing stocktakes.
-

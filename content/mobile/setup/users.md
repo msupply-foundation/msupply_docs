@@ -44,7 +44,7 @@ At least one Admin User needs to be set up to have have access to the new store 
 
   2. Select the user and go to **Login Rights** 
   
-  ![Custom invoices button on Navigator](/mobile/introduction/images/store_setup_login_rights.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/store_setup_login_rights.png)
 
   3. Select the new Store
   4. Click **OK**
@@ -62,7 +62,7 @@ In the mSupply Central server:
   1. Select the mobile user (whom you want to give permission to access Settings - remember, not the **Sussol** user), double click it.  An edit user window will open.
   1. Go to **Permission (3)** tab and check the **View/edit preferences** permission is on.
 
-  ![Custom invoices button on Navigator](/mobile/introduction/images/store_setup_admin_access.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/store_setup_admin_access.png)
 
 Click **OK** to save it and again click **OK** to close the **User list** window.
 

@@ -12,7 +12,6 @@ toc = true
 top = false
 +++
 
-[<img src="/_media/banner_mobile_userguide.png?w=600&amp;tok=9b9def" class="media" loading="lazy" title="mSupply Mobile User Guide menu" alt="mSupply Mobile User Guide menu" width="600" />](/en:mobile:user_guide)
 ## Stocktakes (Program)
 
 You would like to perform a stocktake for all the items in a [program](https://docs.msupply.org.nz/items:programs).

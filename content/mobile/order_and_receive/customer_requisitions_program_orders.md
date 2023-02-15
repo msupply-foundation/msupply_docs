@@ -61,16 +61,14 @@ Tap *OK* and review the customer requisition
 
 The requisition is created and is populated with all program items.  
 
-![Custom invoices button on Navigator](/mobile/introduction/images/customer_requisitions_items.png)c
+![Custom invoices button on Navigator](/mobile/introduction/images/customer_requisitions_items.png)
 
 The items are displayed alphabetically.  You can reorder the items by clicking on the column header for the category that you wish to order the items.  Click on the same column again if you wish to reverse the order. 
 
 Editable cells are indicated by a line across the bottom of the cell. If you tap on any editable cell within the table, the data entry window will open in the bottom half of the screen and you can enter data using the number pad. 
 
 Data is saved automatically as it is filled in the table.
-
  
-
 You cannot add additional items to a program customer requisition.  
 
 There are two sets of columns for data entry.  The first is **Customer Data** which provides columns for entry of the customer requisition information.  The second is **Supply Data** which provides columns for entry of the customer invoice information.  You can switch between the two sets of columns using the buttons on the bottom right of the headers.  Row order is identical across both sets of columns.

@@ -8,13 +8,10 @@ weight = 311
 template = "mobile/page.html"
 
 [extra]
-lead = "Welcome to mSupply Mobile!"
 toc = true
 top = false
 +++
 
-[<img src="/_media/banner_mobile_userguide.png?w=600&amp;tok=9b9def" class="media" loading="lazy" title="mSupply Mobile User Guide menu" alt="mSupply Mobile User Guide menu" width="600" />](/en:mobile:user_guide)
-----
 ### Indicators
 
 Indicators are used for reporting on the performance of drug regimens (programs). Each indicator value provides data on a metric for a particular store and regimen over a given period. 
