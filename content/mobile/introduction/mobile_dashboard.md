@@ -13,7 +13,9 @@ top = false
 +++
 
 <div class="warning">
-The Mobile app dashboard is completely different to the [mSupply Grafana web dashboard](/en:dashboard) and is configured in a different manner.
+
+The Mobile app dashboard is completely different to the [mSupply Grafana web dashboard](/dashboard/introduction) and is configured in a different manner.
+
 </div>
 
 <div class="tip">
@@ -28,6 +30,9 @@ Once it has been enabled you will be able to see the Dashboard icon on the mSupp
 ![Custom invoices button on Navigator](/mobile/introduction/images/mobile_dashboard_icon.png)
 
 The Mobile Dashboard feature allows you to view visualisation 'reports' (tables, charts, graphs, etc.).
+
+## Types of charts
+
 
 **Line Chart**
 

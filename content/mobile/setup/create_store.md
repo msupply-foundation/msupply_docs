@@ -9,7 +9,7 @@ template = "mobile/page.html"
 
 [extra]
 lead = "Server Set up: Create the Store"
-toc = true
+toc = false
 top = false
 +++
 

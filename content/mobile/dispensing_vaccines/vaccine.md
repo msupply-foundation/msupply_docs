@@ -148,7 +148,7 @@ Tap **Cancel** if you no longer want to add the sensor.
 We recommend that each device should be linked to a maximum of six sensors. Each sensor should only be linked to one device. 
 </div>
 
-### Edit Sensor
+## Edit Sensor
 
 To edit sensor details, you can tap on the ‘’cog’’ icon on the mSupply Vaccine home page (screenshot below) or on the Sensor Detail screen.
 
@@ -186,7 +186,7 @@ Tap **Remove** to remove any sensor no longer being used. You will receive a pro
 
 ![Custom invoices button on Navigator](/mobile/introduction/images/VM_CC_sensor_remove.png)
 
-## Using the Vaccine module
+# Using the Vaccine module
 
 Enabling the Vaccine module will change the look of your menu page, adding an extra Vaccines button. 
 
@@ -238,7 +238,7 @@ Tapping on a stocktake row for a vaccine item will also show the additional colu
 
 Here, you can adjust the quantities of your vaccine if needed, change the location, or if the vaccine vial monitor status has changed, you can update that here. You can also view the breaches the batch has been in to help you make decisions!
 
-#### Vaccine home page
+## Vaccine home page
 
 Tapping on the Vaccines button in the menu page will bring you to a list of all the temperature sensors connected to your device and an overview of current status and actions for each sensor.
 

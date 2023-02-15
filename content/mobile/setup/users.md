@@ -5,7 +5,9 @@ date = 2025-05-01T08:00:00+00:00
 updated = 2021-05-01T08:00:00+00:00
 sort_by = "weight"
 weight = 315
-template = "mobile/page.html"
+template = "mobile/page.html" 
+
+[extra]
 toc = true
 top = false
 +++
@@ -14,7 +16,7 @@ top = false
 
 At least one user needs to be added to the new store on the Primary server.  The users will access the store from the device, but their credentials need to be set up on the Primary server.
 
-If you have used method [3.03 to create the store by cloning another sync store](/en:mobile:setup:server_side:create_store#create_store_by_cloning_another_sync_store_using_sync_clone_sync_site), the following steps are only required if you have further users to add.
+If you have used method [3.03 to create the store by cloning another sync store](https://wiki.msupply.foundation/en:mobile:setup:server_side:create_store#cloning_the_existing_customer_to_a_store), the following steps are only required if you have further users to add.
 
 ### Setting up Store access for Users
 
