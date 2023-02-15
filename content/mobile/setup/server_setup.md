@@ -79,3 +79,23 @@ Here are the preferences and what they do:
 | Prescription Categories | If you have transaction categories with type of “prescription” mobile will display a drop down list of prescription categories to select from               | 
 | Insurance Providers     | If you configured an insurance provider, then mobile will give you the ability to choose a policy, and to edit and create them at the end of a prescription | 
 | Payment Types           | If you have configured any payment types, they’ll show up in a list at the end of a prescription                                                            | 
+
+#### Dispensary mode 
+
+Ensure that your store is a Dispensary by choosing Dispensary from the drop-down list on the General tab of the store preferences.
+
+![Mobile dispensing pref on desktop!](/mobile/setup/images/dispensary_mode_desktop.png)
+
+You will need to synchronise mSupply mobile with the server before the mobile device receives these configuration settings. After sync, your Navigator window will look like this:
+
+![mobile navigator with dispensing enabled!](/mobile/setup/images/mobile_nav_w_dispensing.png)
+
+#### Vaccine dispensing
+
+If you want to use mobile for dispensing vaccines then see the setup instructions on the Vaccine Dispensing Setup page.
+
+
+#### When the Payments module is on
+* The cost and sell price are visible on supplier invoices.
+* The cost and sell price are visible when doing stocktakes.
+

@@ -16,7 +16,7 @@ top = false
 
 mSupply Mobile has the capability to display store specific information as a [Mobile dashboard](/mobile/introduction/mobile-dashboard/).  There is also a function to view data for other stores anonymised. 
 
-The [Mobile dashboard](/mobile/introduction/mobile-dashboard/) is completely different to the [mSupply Grafana web dashboard](/en:dashboard) and is configured in a different manner.
+The [Mobile dashboard](/mobile/introduction/mobile-dashboard/) is completely different to the [mSupply Grafana web dashboard](/dashboard/introduction) and is configured in a different manner.
 
 Mobile dashboards are built on the idea of reusing the same report sets as the [legacy (non-grafana) mSupply web dashboard](https://docs.msupply.org.nz/web_interface:dashboard_using#legacy_web_dashboard).  A lot of the legacy web dashboards can be used as mobile dashboards.
 
