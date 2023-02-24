@@ -1,5 +1,5 @@
 +++
-title = "mSupply server setup"
+title = "mSupply Server Setup"
 description = "mSupply mobile- Open source Android application."
 date = 2025-05-01T08:00:00+00:00
 updated = 2021-05-01T08:00:00+00:00
@@ -15,13 +15,17 @@ top = false
 
 ## Setting up the server
 
-
 The following details the steps of setting up mSupply from your organisation's mSupply Server
 
-Note - the mSupply Support Team will complete these steps for you.
+<div class="note">
+
+The mSupply Support Team will complete these steps for you.
 The following instructions are for your information only.
 
+</div>
+
 ### Where to start
+
 **Requirements**
 
 * a server running msupply with a web server license registered
@@ -29,6 +33,7 @@ The following instructions are for your information only.
 * a mobile tablet fitting the recommended specifications here
 
 **Information needed** 
+
 * Store name
 * The item master list to be attached to the store    
 * If you are converting an existing mSupply site (customer) to mSupply Mobile, then you also need to provided the existing customer name tha the store is being created for
@@ -42,7 +47,7 @@ EACH individual mobile store needs to have the following steps done on the serve
 3. Configure the mobile store section 4 of this guide
 4. Create user(s) to access the store section 5 of this guide
 
-Items 1 and 2 can now be carried out using the Sync site wizard. See [here](https://docs.msupply.org.nz/synchronisation:sync_sites)
+Items 1 and 2 can now be carried out using the Sync site wizard. See [here](https://docs.msupply.org.nz/synchronisation:sync_sites).
 
 
 ### Custom settings

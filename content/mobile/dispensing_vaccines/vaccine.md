@@ -12,15 +12,15 @@ toc = true
 top = true
 +++
 
-This functionality is available from mSupply mobile v7.0.0 onwards
+This functionality is available from mSupply mobile v7.0.0 onwards.
 
 # Cold Chain (for Vaccines and other Cold chain items)
 
 ## Setting up to use the Vaccine module
 
-Vaccine mode only shows **if the store is configured correctly on the server**, with the preference 'mobile: Uses vaccine module' enabled. Read how [here](/en:mobile:setup:server_side:config)
+Vaccine mode only shows **if the store is configured correctly on the server**, with the preference 'mobile: Uses vaccine module' enabled. Read how [here](/mobile/dispensing_vaccines/setup/#store-settings-on-your-central-msupply-server).
 
-### Permissions and Services
+## Permissions and Services
 
 The vaccine module requires additional permissions and services to be enabled on your mobile device. 
 
@@ -42,7 +42,7 @@ To enable, simply press on the cross icon next to the permission or service.  Yo
 
 ![Custom invoices button on Navigator](/mobile/introduction/images/VM_CC_permissions2.png)
 
-Press `Allow`.
+Press **Allow**.
 
 Once all of the permissions and services have been enabled, your window will look like this:
 
@@ -50,19 +50,22 @@ Once all of the permissions and services have been enabled, your window will loo
 
 ### Approved mSupply Temperature Sensors
 
-The following is a list of approved temperature sensors that will work together with mSupply ColdChain and mSupply Mobile: Vaccines.  These sensors have been approved by the World Health Organisation as a temperature monitoring device suitable for use in immunization programmes.  
+The following is a list of approved temperature sensors that will work together with mSupply ColdChain and mSupply Mobile: 
 
-  *Blue Maestro Tempo Disc™ Waterproof IP67 Bluetooth Temperature Sensor Beacon and Logger [Download PDF](https://apps.who.int/immunization_standards/vaccine_quality/pqs_catalogue/LinkPDF.aspx?UniqueID=36773b7f-77f4-4b10-b9dc-98be5966fc1d&amp;TipoDoc=DataSheet&amp;ID=0).  
+ *Blue Maestro Tempo Disc™ Waterproof IP67 Bluetooth Temperature Sensor Beacon and Logger [Download PDF](https://apps.who.int/immunization_standards/vaccine_quality/pqs_catalogue/LinkPDF.aspx?UniqueID=36773b7f-77f4-4b10-b9dc-98be5966fc1d&amp;TipoDoc=DataSheet&amp;ID=0).  
 
 Approved sensors can be purchased directly from the manufacturer or reseller online.  Please contact [&#99;&#111;&#108;&#100;&#99;&#104;&#97;&#105;&#110;&#64;&#109;&#115;&#117;&#112;&#112;&#108;&#121;&#46;&#102;&#111;&#117;&#110;&#100;&#97;&#116;&#105;&#111;&#110;](mailto:&#99;&#111;&#108;&#100;&#99;&#104;&#97;&#105;&#110;&#64;&#109;&#115;&#117;&#112;&#112;&#108;&#121;&#46;&#102;&#111;&#117;&#110;&#100;&#97;&#116;&#105;&#111;&#110;) for further information.  
 
-### Adding Sensors
+These sensors have been approved by the World Health Organisation as a temperature monitoring device suitable for use in immunization programmes.  
+
+
+## Adding Sensors
 
 The first time you use the Vaccine module, there will be no sensors connected to your device.
 
 ![Custom invoices button on Navigator](/mobile/introduction/images/VM_CC_add_sensors.png)
 
-Tap `Add Sensor` to start the three-step process to add a sensor.
+Tap **Add Sensor** to start the three-step process to add a sensor.
 
 Please make sure that you have an approved mSupply temperature sensor.  Only approved sensors can be connected to mSupply Mobile. 
 
@@ -90,19 +93,19 @@ Now we can set the temperature breach conditions for the sensor.  There are four
 
   * Hot Consecutive
 
-    * A breach will be displayed when the sensor logs a temperature above this value for longer than the specified time. Using the `+/-` buttons, select the maximum temperature and minimum duration required to identify the breach.
+    * A breach will be displayed when the sensor logs a temperature above this value for longer than the specified time. Using the **+/-** buttons, select the maximum temperature and minimum duration required to identify the breach.
 
   * Cold Consecutive
 
-    * A breach will be displayed when the sensor logs a temperature below this value for longer than the specified time. Using the `+/-` buttons, select the minimum temperature and minimum duration required to identify the breach.
+    * A breach will be displayed when the sensor logs a temperature below this value for longer than the specified time. Using the **+/-** buttons, select the minimum temperature and minimum duration required to identify the breach.
 
   * Hot Cumulative
 
-    * A breach will be displayed when the sensor logs a temperature above this value for longer than the total specified time specified (total time is calculated as the sum of all breach times). Using the `+/-` buttons, select the maximum temperature and minimum total duration required to identify the breach.
+    * A breach will be displayed when the sensor logs a temperature above this value for longer than the total specified time (total time is calculated as the sum of all breach times). Using the **+/-** buttons, select the maximum temperature and minimum total duration required to identify the breach.
 
   * Cold Cumulative
 
-    * A breach will be displayed when the sensor logs a temperature below this value for longer than the total specified time specified (total time is calculated as the sum of all breach times). Using the `+/-` buttons, select the minimum temperature and minimum total duration required to identify the breach.
+    * A breach will be displayed when the sensor logs a temperature below this value for longer than the total specified time specified (total time is calculated as the sum of all breach times). Using the **+/-** buttons, select the minimum temperature and minimum total duration required to identify the breach.
 
 ![Custom invoices button on Navigator](/mobile/introduction/images/VM_CC_add_sensors2.png)
 
@@ -111,24 +114,24 @@ Now we can set the temperature breach conditions for the sensor.  There are four
 It is possible to **long press** the +/- buttons to change the values faster.
 </div>
 
-Tap `Back` if you wish to return to Step 1 and check that you have the correct sensor.
-Tap `Next` to move to Step 3.  
-Tap `Cancel` if you no longer want to add the sensor.
+Tap **Back** if you wish to return to Step 1 and check that you have the correct sensor.
+Tap **Next** to move to Step 3.  
+Tap **Cancel** if you no longer want to add the sensor.
 
 ##### Step 3: Sensor connection
 
 In this final step you need to enter:
 
-  ***Sensor Name**: enter a new name for the sensor. This is the name which will appear within mSupply mobile. You should choose a name to make it easy to identify the sensor.
-  ***Sensor Code**: enter a short name code for the sensor. You should choose a code that is unique for each sensor.
+  **Sensor Name**: Enter a new name for the sensor. This is the name which will appear within mSupply mobile. You should choose a name to make it easy to identify the sensor.
+  **Sensor Code**: Enter a short name code for the sensor. You should choose a code that is unique for each sensor.
 
 <div class="tip">
-
 For reporting purposes, we recommend that you do not use special characters such as “-, +, *” etc in either the Sensor Name or Sensor Code fields. 
 </div>
 
-  ***Logging Interval**: using the `+/-` buttons, select the length of time between temperature logs.  You can set the logging interval to any length between 1 and 30 minutes. The default logging interval is 5 minutes.
-  ***Start Logging**: Use the `+/-` buttons to select the delay in minutes from now of the first temperature log. The sensor can be configured to start a maximum of 30 days from the current date.
+  **Logging Interval**: using the **+/-** buttons, select the length of time between temperature logs.  You can set the logging interval to any length between 1 and 30 minutes. The default logging interval is 5 minutes.
+  
+  **Start Logging**: Use the **+/-** buttons to select the delay in minutes from now of the first temperature log. The sensor can be configured to start a maximum of 30 days from the current date.
 
 When setting the schedule for the first temperature log, allow sufficient time for the sensor to be placed in its desired location and adjust to the location’s temperature. 20 minutes should be sufficient in most situations.
 
@@ -140,23 +143,23 @@ Tap **Back** if you wish to return to Step 2 and edit the sensor thresholds (tem
 
 Tap **Cancel** if you no longer want to add the sensor.
 
-![Custom invoices button on Navigator](/mobile/introduction/images/VM_CC_add_sensors_final.png)
-
 <div class="note">
 
 We recommend that each device should be linked to a maximum of six sensors. Each sensor should only be linked to one device. 
 </div>
 
-### Edit Sensor
+## Edit Sensor
 
-To edit sensor details, you can tap on the ‘’cog’’ icon on the mSupply Vaccine home page (above screenshot) or on the Sensor Detail screen.
-Screenshot
+To edit sensor details, you can tap on the ‘’cog’’ icon on the mSupply Vaccine home page (screenshot below) or on the Sensor Detail screen.
+
+![Custom invoices button on Navigator](/mobile/introduction/images/VM_CC_add_sensors_final.png)
+
 
 All __sensor threshold__ and __sensor connection__ details are editable except for the start Logging date and time.  Simply tap on the field that you wish to end and make changes.  
 
 ![Custom invoices button on Navigator](/mobile/introduction/images/VM_CC_edit_sensors.png)
 
-No changes will be made until you tap `Save`.
+No changes will be made until you tap **Save**.
 
 <div class="tip">
 
@@ -165,25 +168,25 @@ Depending on your proximity to the sensor and the Bluetooth capabilities of your
 
 #### Pausing Sensor Downloads
 
-The edit screen also allows you to `Pause` temperature logging by the sensor.  When a sensor has been paused, it will appear in the title line both on the mSupply mobile vaccine home screen as well as the Sensor Detail screen.
+The edit screen also allows you to **Pause** temperature logging by the sensor.  When a sensor has been paused, it will appear in the title line both on the mSupply mobile vaccine home screen as well as the Sensor Detail screen.
 
 ![Custom invoices button on Navigator](/mobile/introduction/images/VM_CC_pausing_sensor.png)
 
 #### Replacing a Sensor
 
-Tapping `Replace` will open up the scanner and allow you to choose from list of alternative sensors.  The list will only show sensors that are not currently connected to your device.
+Tapping **Replace** will open up the scanner and allow you to choose from list of alternative sensors.  The list will only show sensors that are not currently connected to your device.
 
 ![Custom invoices button on Navigator](/mobile/introduction/images/VD_CC_sensor_replace.png)
 
-From the list, select the replacement sensor.  You can press `Blink` to check that you have the correct sensor (the LED light will flash for this sensor).  
+From the list, select the replacement sensor.  You can press **Blink** to check that you have the correct sensor (the LED light will flash for this sensor).  
 
 #### Deleting a Sensor
 
-Tap `Remove` to remove any sensor no longer being used. You will receive a prompt to confirm the deletion.  
+Tap **Remove** to remove any sensor no longer being used. You will receive a prompt to confirm the deletion.  
 
 ![Custom invoices button on Navigator](/mobile/introduction/images/VM_CC_sensor_remove.png)
 
-## Using the Vaccine module
+# Using the Vaccine module
 
 Enabling the Vaccine module will change the look of your menu page, adding an extra Vaccines button. 
 
@@ -209,8 +212,14 @@ Vaccine module automatically adds two extra columns on a customer invoice - the 
 
 ![Custom invoices button on Navigator](/mobile/introduction/images/VM_CC_customer_invoice.png)
 
-  * The **Doses** column is for the number of doses actually used (so we can account for open-vial wastage). It will automatically get populated by the *item quantity * number of doses in a vial*, for convenience, but you can also edit it! There is a maximum limit of *the number of doses in a vial for that vaccine * the quantity*, though.
-  * The **Breach** column shows when a vaccine item has been in a temperature breach. Note that without entering a quantity into the customer invoice for the item, we don’t know exactly what batches are being issued, so the breach icon may not show up yet.
+  * The **Doses** column is for the number of doses actually used (so we can account for open-vial wastage). It will automatically get populated by the *item quantity* and the *number of doses in a vial*. This is for convenience, but you can also edit it! There is a maximum limit of *the number of doses in a vial* for that vaccine and for the *item quantity*, though.
+
+  * The **Breach** column shows when a vaccine item has been in a temperature breach. 
+  
+  <div class="warning">
+  Without entering a quantity into the customer invoice for the item, we don’t know exactly what batches are being issued, so the breach icon may not show up yet.
+  </div>
+
   * If the breach icon (an orange triangle with an exclamation) does show for a row, this signals that the stock line has had a temperature breach. Tapping the icon will bring up a graph of the temperature breach. In the example below, the fridge seems to be broken, probably not a good idea to use this batch!
 
 ![Custom invoices button on Navigator](/mobile/introduction/images/VM_CC_customer_invoice2.png)
@@ -229,7 +238,7 @@ Tapping on a stocktake row for a vaccine item will also show the additional colu
 
 Here, you can adjust the quantities of your vaccine if needed, change the location, or if the vaccine vial monitor status has changed, you can update that here. You can also view the breaches the batch has been in to help you make decisions!
 
-#### Vaccine home page
+## Vaccine home page
 
 Tapping on the Vaccines button in the menu page will bring you to a list of all the temperature sensors connected to your device and an overview of current status and actions for each sensor.
 
@@ -237,27 +246,35 @@ Tapping on the Vaccines button in the menu page will bring you to a list of all 
 
 The sensor header displays the following information:
 
-  ***Circle**: a green circle indicates that the sensor is currently within the specified temperature range and the sensor battery is equal or above 25%. A red circle indicates that the sensor is currently outsides the specified temperature range or the sensor battery is below 25%.
-  ***Sensor Name**:  as configured during sensor connection.
-  ***WiFi Icon and last log time**: the time of the last temperature download occurred.  The time will flash when download is currently in process.
-  ***Battery Icon**: a percentage figure and icon showing remaining battery charge for the sensor.
-  ***Down Arrow Icon**: Tap to export sensor data (temperature logs and breaches) to csv format and send via email data.
-  ***Light Bulb Icon**: Tap to make the sensor LED light flash/blink.
-  ***Cog Button**: Tap if you wish to edit the sensor configuration.
+  **Circle**: a green circle indicates that the sensor is currently within the specified temperature range and the sensor battery is equal or above 25%. A red circle indicates that the sensor is currently outsides the specified temperature range or the sensor battery is below 25%.
+
+  **Sensor Name**:  as configured during sensor connection.
+
+  **WiFi Icon and last log time**: the time of the last temperature download occurred.  The time will flash when download is currently in process.
+
+  **Battery Icon**: a percentage figure and icon showing remaining battery charge for the sensor.
+
+  **Down Arrow Icon**: Tap to export sensor data (temperature logs and breaches) to csv format and send via email data.
+
+  **Light Bulb Icon**: Tap to make the sensor LED light flash/blink.
+
+  **Cog Button**: Tap if you wish to edit the sensor configuration.
 
 The row under the sensor header displays the following information:
 
-  ***Sensor’s MAC address**
-  ***Thermometer icon and last recorded temperature**
-  ***Clock Icon and the time of the last temperature breach** (if applicable)
+  1) **Sensor’s MAC address**
+  
+  2) **Thermometer icon and last recorded temperature**
+
+  3) **Clock Icon and the time of the last temperature breach** (if applicable)
 
 Tap anywhere on a sensor box to view further details.
 
 #### Sensor Detail
 
-![Custom invoices button on Navigator](/mobile/introduction/images/VM_CC_sensor_detail.png)
-
 Tap on the date range on the top left of the screen to change the time (and data) displayed.
+
+![Custom invoices button on Navigator](/mobile/introduction/images/VM_CC_sensor_detail.png)
 
 The header information is as above.  
 
@@ -266,8 +283,9 @@ The header information is as above.
 The red line represents the hot consecutive threshold.  The blue line represents the cold consecutive threshold. (You can set these here).  Any temperature logs outside of the lines (breaches) will be indicated with the exclamation icon.  
 The last temperature logged will display to the right of the graph.  The **sensor status rectangle** (surrounding the last temperature log) will be:
 
-  *red for a hot breach.
-  *blue for a cold breach.
+  1) **Red** for a hot breach.
+
+  2) **Blue** for a cold breach.
 
 ##### Temperature Cards
 
@@ -287,15 +305,13 @@ It is possible to download the temperature (breach) logs and sensor settings by 
 
 The **Download** screen requires:
 
-  *Email address
-  *Comment
+  1) Email address
+  2) Comment
 
-Tapping `Download` will open a new email in your device’s email application.  The receiver address and comment will be prepopulated, and the sensor data (in CSV format) attached, ready to send.
+Tapping **Download** will open a new email in your device’s email application.  The receiver address and comment will be prepopulated, and the sensor data (in CSV format) attached, ready to send.
 
 [<img src="/_media/en:mobile:user_guide:pasted:20210316-033915.png?w=600&amp;tok=1d398c" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:pasted:20210316-033915.png?id=en%3Amobile%3Auser_guide%3Avaccine)
 
 <div class="tip">
-
 If you change your mind about emailing the data, tap anywhere in the grayed-out area.
-|  *Previous:  **[The Cash Register](/en:mobile:user_guide:cash_register)** | | Next:  **[Mobile Settings](/en:mobile:user_guide:mobile_settings)***  
-</div>
+</div> 

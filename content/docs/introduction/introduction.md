@@ -9,7 +9,7 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "Welcome to Open mSupply!"
+lead = "Welcome to Open mSupply for Desktop, Web & Android!"
 toc = true
 top = true
 +++
@@ -17,6 +17,10 @@ top = true
 ## History
 
 Open mSupply builds on over 20 years of mSupply, over which time it has become the most used Logistics Management Information System (LMIS) in low & middle income countries.
+
+## What platforms are supported?
+
+Open mSupply runs on Desktop (Windows, Linux & Mac), as a web application in your browser, or also as an Android application (for tablets, not for phones at this stage).
 
 ## What does it do?
 

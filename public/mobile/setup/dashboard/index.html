@@ -188,7 +188,7 @@
 				
 					
 						<li class="nav-item">
-							<a class="nav-link" href="https://docs.msupply.foundation/docs/introduction/">Desktop</a>
+							<a class="nav-link" href="https://docs.msupply.foundation/docs/introduction/introduction/">Open mSupply (Desktop+Mobile)</a>
 						</li>
 					
 						<li class="nav-item">
@@ -200,7 +200,7 @@
 						</li>
 					
 						<li class="nav-item mobile active">
-							<a class="nav-link" href="https://docs.msupply.foundation/mobile/introduction/">Mobile</a>
+							<a class="nav-link" href="https://docs.msupply.foundation/mobile/introduction/introduction/">Mobile- Old Version</a>
 						</li>
 					
 				
@@ -258,15 +258,13 @@
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/config/">Store &amp; Dispensing Setup</a></li>
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/create-store/">Create the Store</a></li>
-							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/create-sync-site/">Create Sync Site</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/create-store/">Create the Store &amp; Sync Site</a></li>
 							                           
 									<li><a class="docs-link active" href="https://docs.msupply.foundation/mobile/setup/dashboard/">Set up Dashboards for Mobile</a></li>
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/review-setup/">Reviewing the setup</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/review-setup/">Reviewing the Setup</a></li>
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/server-setup/">mSupply server setup</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/server-setup/">mSupply Server Setup</a></li>
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/users/">Setting up the Users</a></li>
 							
@@ -368,32 +366,31 @@
         <h1>Set up Dashboards for Mobile</h1>
         
         <p class="lead">Setting up the mSupply Mobile app dashboard</p>
-         <p>mSupply Mobile has the capability to display store specific information as a <a href="/en:mobile:user_guide:mobile_dashboard">Mobile dashboard</a>.  There is also a function to view data for other stores anonymised. </p>
-<p>The <a href="/en:mobile:user_guide:mobile_dashboard">Mobile dashboard</a> is completely different to the <a href="/en:dashboard">mSupply Grafana web dashboard</a> and is configured in a different manner.</p>
+         <p>mSupply Mobile has the capability to display store specific information as a <a href="/mobile/introduction/mobile-dashboard/">Mobile dashboard</a>.  There is also a function to view data for other stores anonymised. </p>
+<p>The <a href="/mobile/introduction/mobile-dashboard/">Mobile dashboard</a> is completely different to the <a href="/dashboard/introduction">mSupply Grafana web dashboard</a> and is configured in a different manner.</p>
 <p>Mobile dashboards are built on the idea of reusing the same report sets as the <a href="https://docs.msupply.org.nz/web_interface:dashboard_using#legacy_web_dashboard">legacy (non-grafana) mSupply web dashboard</a>.  A lot of the legacy web dashboards can be used as mobile dashboards.</p>
 <ul>
-<li>If you configure a report to be a mobile dashboard report then it looses its ability to be generated to the <a href="https://docs.msupply.org.nz/web_interface:dashboard_using#legacy_web_dashboard">legacy (non-grafana) mSupply web dashboard</a> and vice versa.</li>
+<li>If you configure a report to be a mobile dashboard report then it loses the ability to be generated to the <a href="https://docs.msupply.org.nz/web_interface:dashboard_using#legacy_web_dashboard">legacy (non-grafana) mSupply web dashboard</a> and vice versa.</li>
 <li>If you want the report to continue to be generated to the <a href="https://docs.msupply.org.nz/web_interface:dashboard_using#legacy_web_dashboard">legacy (non-grafana) mSupply web dashboard</a>, then duplicate the report first, and then configure the copy as described here.</li>
 </ul>
 <h2 id="mobile-specific-dashboard-configuration">Mobile specific dashboard configuration<a class="zola-anchor" href="#mobile-specific-dashboard-configuration" aria-label="Anchor link for: mobile-specific-dashboard-configuration">🔗</a></h2>
-<p>Dashboard reports are configured on the mSupply central server, refer <a href="https://docs.msupply.org.nz/web_interface:dashboard_setup#dashboard_set_up_v40_and_later">Dashboard set up</a>.</p>
+<p>Dashboard reports are configured on the mSupply central server, refer to <a href="https://docs.msupply.org.nz/web_interface:dashboard_setup#dashboard_set_up_v40_and_later">Dashboard set up</a>.</p>
 <p>This section describes the <em>additional</em> configuration of reports on the mSupply central server to make dashboard reports show on mSupply Mobile. The mSupply central server generates reports on a schedule, and those reports that have been correctly configured for Mobile dashboards will be generated for mobile sites.  These reports will be synced to mobile store tablets when they connect to the central server.</p>
 <ul>
-<li>
-<p>Once a report is configured to be sent to mSupply Mobile sites, it will be sent to <em>every</em> mSupply Mobile site that has the Dashboard store preference turned on. </p>
-</li>
-<li>
-<p>Remember reports configured to be sent to mSupply Mobile sites will NOT be sent to the <a href="https://docs.msupply.org.nz/web_interface:dashboard_using#legacy_web_dashboard">legacy (non-grafana) mSupply web dashboard</a>.</p>
-</li>
+<li>Once a report is configured to be sent to mSupply Mobile sites, it will be sent to <em>every</em> mSupply Mobile site that has the Dashboard store preference turned on. </li>
 </ul>
+<div class="warning">
+<ul>
+<li>Remember reports configured to be sent to mSupply Mobile sites will NOT be sent to the <a href="https://docs.msupply.org.nz/web_interface:dashboard_using#legacy_web_dashboard">legacy (non-grafana) mSupply web dashboard</a>.</li>
+</ul>
+</div>
 <p>Dashboard reports need the following properties added to them in order for them to show in the mSupply mobile stores.</p>
-<p>| Property | Values | Description |
----|---|---| <em>isMobile</em> | <code>True</code> or <code>False</code> | This is the important one!  This enables or disables sending this report to mobile sites.</p>
-<p>When <em>isMobile</em> is <code>True</code>, <a href="/en:mobile:user_guide:mobile_dashboard">Mobile dashboard</a> reports are generated, and no <a href="https://docs.msupply.org.nz/web_interface:dashboard_using#legacy_web_dashboard">legacy (non-grafana) mSupply web dashboard</a> report is generated.</p>
-<p>When <em>isMobile</em> is <code>False</code>, a <a href="https://docs.msupply.org.nz/web_interface:dashboard_using#legacy_web_dashboard">legacy (non-grafana) mSupply web dashboard</a> report is generated and no <a href="/en:mobile:user_guide:mobile_dashboard">Mobile dashboard</a> reports are generated.
-| <em>reportType</em> | <code>Table</code>, <code>BarChart</code>, <code>LineChart</code> or <code>PieChart</code> | The report display type.  This parameter is mobile specific, but needs to be consistent with the report method's 'type'.  If the <em>reportType</em> parameter is not set, it defaults to <code>Table</code>.
-| <em>#[report property]</em> | <code>[field on store table]</code> | This allows you to pick a value from the <a href="https://docs.msupply.org.nz/tables_fields:other_tables:store">store table</a>, which is therefore store specific, and assign the value to the <code>report property</code>. In this way you can create a report which is customised to each store. The <code>report property</code> must exist in your report for this to work.  See <a href="https://docs.msupply.org.nz/web_interface:dashboard_setup#available_dashboard_reports">report options</a> for available reports and properties.  See example below </p>
-<p><a href="/_detail/en:mobile:setup:server_side:mobile_dashboard_configuration.png?id=en%3Amobile%3Asetup%3Aserver_side%3Adashboard"><img src="/_media/en:mobile:setup:server_side:mobile_dashboard_configuration.png?w=400&amp;tok=a7c5cf" class="mediacenter" loading="lazy" alt="" width="400" /></a></p>
+<table><thead><tr><th>Property</th><th>Values</th><th>Description</th></tr></thead><tbody>
+<tr><td><em>isMobile</em></td><td><strong>True</strong> or <strong>False</strong></td><td>This is the important one!  This enables or disables sending this report to mobile sites. When <em>isMobile</em> is <strong>True</strong>, <a href="/mobile/introduction/mobile-dashboard/">Mobile dashboard</a> reports are generated, and no <a href="https://docs.msupply.org.nz/web_interface:dashboard_using#legacy_web_dashboard">legacy (non-grafana) mSupply web dashboard</a> report is generated. When <em>isMobile</em> is <strong>False</strong>, a <a href="https://docs.msupply.org.nz/web_interface:dashboard_using#legacy_web_dashboard">legacy (non-grafana) mSupply web dashboard</a> report is generated and no <a href="/mobile/introduction/mobile-dashboard/">Mobile dashboard</a> reports are generated.</td></tr>
+<tr><td><em>reportType</em></td><td><strong>Table</strong>, <strong>Bar Chart</strong>, <strong>Line Chart</strong> or <strong>Pie Chart</strong></td><td>The report display type.  This parameter is mobile specific, but needs to be consistent with the report method's 'type'.  If the <em>reportType</em> parameter is not set, it defaults to <strong>Table</strong>.</td></tr>
+<tr><td><em>#[report property]</em></td><td><strong>[field on store table]</strong></td><td>This allows you to pick a value from the <a href="https://docs.msupply.org.nz/tables_fields:other_tables:store">store table</a>, which is therefore store specific, and assign the value to the <strong>report property</strong>. In this way you can create a report which is customised to each store. The <strong>report property</strong> must exist in your report for this to work.  See <a href="https://docs.msupply.org.nz/web_interface:dashboard_setup#available_dashboard_reports">report options</a> for available reports and properties.  See example below</td></tr>
+</tbody></table>
+<p><img src="/mobile/introduction/images/mobile_dashboard_configuration.png" alt="Custom invoices button on Navigator" /></p>
 <h2 id="internal-code-logic-description">Internal code logic description<a class="zola-anchor" href="#internal-code-logic-description" aria-label="Anchor link for: internal-code-logic-description">🔗</a></h2>
 <ul>
 <li>
@@ -419,19 +416,19 @@
 </ul>
 </li>
 <li>
-<p>A unique report is generated for the store specific dashboard</p>
+<p>A unique report is generated for the store specific dashboard.</p>
 </li>
 <li>
-<p>We store this report data in <strong>dashboard_report</strong> table in the database, since that's how the legacy web dashboard does it</p>
+<p>We store this report data in <strong>dashboard_report</strong> table in the database, since that's how the legacy web dashboard does it.</p>
 </li>
 <li>
-<p>When the report has been stored in the database, we take that value and create the store specific record with the data in <strong>dashboard_store_report</strong>. Then we go off to the next store's report generation</p>
+<p>When the report has been stored in the database, we take that value and create the store specific record with the data in <strong>dashboard_store_report</strong>. Then we go off to the next store's report generation.</p>
 </li>
 <li>
-<p>If there are 17 mobile stores, there will be 17 records for each mobile dashboard report with each record representing each store's dashboard data</p>
+<p>If there are 17 mobile stores, there will be 17 records for each mobile dashboard report with each record representing each store's dashboard data.</p>
 </li>
 <li>
-<p>Only the store specific record from <strong>dashboard_store_report</strong> will be synced to the particular store. So each store will get only the reports made for it</p>
+<p>Only the store specific record from <strong>dashboard_store_report</strong> will be synced to the particular store. So each store will get only the reports made for it.</p>
 </li>
 <li>
 <p>Format of data is exactly same as Web dashboard data. With either the other stores' data anonymised or data being filtered for the mobile store. This depends on the dashboard method.</p>

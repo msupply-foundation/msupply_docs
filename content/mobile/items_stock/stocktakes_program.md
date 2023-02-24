@@ -12,7 +12,6 @@ toc = true
 top = false
 +++
 
-[<img src="/_media/banner_mobile_userguide.png?w=600&amp;tok=9b9def" class="media" loading="lazy" title="mSupply Mobile User Guide menu" alt="mSupply Mobile User Guide menu" width="600" />](/en:mobile:user_guide)
 ## Stocktakes (Program)
 
 You would like to perform a stocktake for all the items in a [program](https://docs.msupply.org.nz/items:programs).
@@ -116,6 +115,4 @@ Click **Finalise**.
 This will update all your stock levels to match the quantities you have entered in the **Actual Quantity** column.
 
 Like always with mSupply Mobile, you don't need to be connected to the internet to do this - the information will sync in the background when internet becomes available.
-
-|  *  Previous:  **[Stocktakes (General)](/en:mobile:user_guide:stocktakes)** * | *  Next:  **[The Mobile Dashboard](/en:mobile:user_guide:mobile_dashboard)** * 
 

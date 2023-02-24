@@ -188,7 +188,7 @@
 				
 					
 						<li class="nav-item">
-							<a class="nav-link" href="https://docs.msupply.foundation/docs/introduction/">Desktop</a>
+							<a class="nav-link" href="https://docs.msupply.foundation/docs/introduction/introduction/">Open mSupply (Desktop+Mobile)</a>
 						</li>
 					
 						<li class="nav-item">
@@ -200,7 +200,7 @@
 						</li>
 					
 						<li class="nav-item mobile active">
-							<a class="nav-link" href="https://docs.msupply.foundation/mobile/introduction/">Mobile</a>
+							<a class="nav-link" href="https://docs.msupply.foundation/mobile/introduction/introduction/">Mobile- Old Version</a>
 						</li>
 					
 				
@@ -258,15 +258,13 @@
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/config/">Store &amp; Dispensing Setup</a></li>
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/create-store/">Create the Store</a></li>
-							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/create-sync-site/">Create Sync Site</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/create-store/">Create the Store &amp; Sync Site</a></li>
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/dashboard/">Set up Dashboards for Mobile</a></li>
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/review-setup/">Reviewing the setup</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/review-setup/">Reviewing the Setup</a></li>
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/server-setup/">mSupply server setup</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/server-setup/">mSupply Server Setup</a></li>
 							                           
 									<li><a class="docs-link active" href="https://docs.msupply.foundation/mobile/setup/users/">Setting up the Users</a></li>
 							
@@ -347,17 +345,13 @@
     <nav id="TableOfContents">
       <ul>
         
-        <li><a href="https://docs.msupply.foundation/mobile/setup/users/#5-setting-up-the-users-to-access-the-store">5. Setting up the Users to access the store</a></li>
-        
-        <ul>
-          
-          <li><a href="https://docs.msupply.foundation/mobile/setup/users/#5-01-setting-up-store-access-for-users">5.01. Setting up Store access for Users</a></li>
-          
-          <li><a href="https://docs.msupply.foundation/mobile/setup/users/#5-02-setting-up-store-access-for-admin-users">5.02. Setting up Store access for Admin Users</a></li>
-          
-          <li><a href="https://docs.msupply.foundation/mobile/setup/users/#5-03-setting-up-admin-access-to-the-device-settings">5.03. Setting up Admin access to the device Settings</a></li>
-          
-        </ul>
+        <li><a href="https://docs.msupply.foundation/mobile/setup/users/#setting-up-the-users-to-access-the-store">Setting up the Users to access the store</a></li>
+         
+        <li><a href="https://docs.msupply.foundation/mobile/setup/users/#setting-up-store-access-for-users">Setting up Store access for Users</a></li>
+         
+        <li><a href="https://docs.msupply.foundation/mobile/setup/users/#setting-up-store-access-for-admin-users">Setting up Store access for Admin Users</a></li>
+         
+        <li><a href="https://docs.msupply.foundation/mobile/setup/users/#setting-up-admin-access-to-the-device-settings">Setting up Admin access to the device Settings</a></li>
          
       </ul>
     </nav>
@@ -374,12 +368,10 @@
         
 
         <h1>Setting up the Users</h1>
-        
-        <p class="lead">Server Setup: Setting up the Users to access the store</p>
-         <h1 id="5-setting-up-the-users-to-access-the-store">5. Setting up the Users to access the store<a class="zola-anchor" href="#5-setting-up-the-users-to-access-the-store" aria-label="Anchor link for: 5-setting-up-the-users-to-access-the-store">🔗</a></h1>
+         <h3 id="setting-up-the-users-to-access-the-store">Setting up the Users to access the store<a class="zola-anchor" href="#setting-up-the-users-to-access-the-store" aria-label="Anchor link for: setting-up-the-users-to-access-the-store">🔗</a></h3>
 <p>At least one user needs to be added to the new store on the Primary server.  The users will access the store from the device, but their credentials need to be set up on the Primary server.</p>
-<p>If you have used method <a href="/en:mobile:setup:server_side:create_store#create_store_by_cloning_another_sync_store_using_sync_clone_sync_site">3.03 to create the store by cloning another sync store</a>, the following steps are only required if you have further users to add.</p>
-<h3 id="5-01-setting-up-store-access-for-users">5.01. Setting up Store access for Users<a class="zola-anchor" href="#5-01-setting-up-store-access-for-users" aria-label="Anchor link for: 5-01-setting-up-store-access-for-users">🔗</a></h3>
+<p>If you have used method <a href="https://wiki.msupply.foundation/en:mobile:setup:server_side:create_store#cloning_the_existing_customer_to_a_store">3.03 to create the store by cloning another sync store</a>, the following steps are only required if you have further users to add.</p>
+<h3 id="setting-up-store-access-for-users">Setting up Store access for Users<a class="zola-anchor" href="#setting-up-store-access-for-users" aria-label="Anchor link for: setting-up-store-access-for-users">🔗</a></h3>
 <ul>
 <li>To set up users on the Primary Server please refer to the mSupply User Guide <a href="http://docs.msupply.org.nz/admin:managing_users">managing users</a>.</li>
 </ul>
@@ -392,7 +384,7 @@
 <p>Permitted to login to the store</p>
 </li>
 <li>
-<p>No permissions needed in the store, unless the user needs to edit <a href="/en:mobile:user_guide:mobile_settings">mobile settings</a>.</p>
+<p>No permissions needed in the store, unless the user needs to edit <a href="/mobile/setup/mobile-settings/#access-mobile-settings">mobile settings</a>.</p>
 </li>
 <li>
 <p>More than one user can be configured to log in to the facility.</p>
@@ -404,31 +396,36 @@
 <li>Consider using short, single word usernames and passwords</li>
 <li>Strongly recommend that you take care not to have trailing spaces at the end of the username or password</li>
 </ul>
-<h3 id="5-02-setting-up-store-access-for-admin-users">5.02. Setting up Store access for Admin Users<a class="zola-anchor" href="#5-02-setting-up-store-access-for-admin-users" aria-label="Anchor link for: 5-02-setting-up-store-access-for-admin-users">🔗</a></h3>
-<p>At least one Admin User needs to be set up to have have access to the new store on the Primary server.  This user will normally be the <code>Sussol</code> user that was used to set up the new store, but there could well be other local mSupply administrators that need access.</p>
+<h3 id="setting-up-store-access-for-admin-users">Setting up Store access for Admin Users<a class="zola-anchor" href="#setting-up-store-access-for-admin-users" aria-label="Anchor link for: setting-up-store-access-for-admin-users">🔗</a></h3>
+<p>At least one Admin User needs to be set up to have have access to the new store on the Primary server.  This user will normally be the <strong>Sussol</strong> user that was used to set up the new store, but there could well be other local mSupply administrators that need access.</p>
 <ol>
-<li>Go to <strong>Admin &gt; Edit Users</strong><a href="/_detail/mobile:mob2_004.jpg?id=en%3Amobile%3Asetup%3Aserver_side%3Ausers"><img src="/_media/mobile:mob2_004.jpg?w=600&amp;tok=c320cf" class="mediacenter" loading="lazy" alt="" width="600" /></a></li>
-<li>Select the user and go to <strong>Login Rights</strong><a href="/_detail/mobile:mob2_005.jpg?id=en%3Amobile%3Asetup%3Aserver_side%3Ausers"><img src="/_media/mobile:mob2_005.jpg?w=600&amp;tok=0c482f" class="mediacenter" loading="lazy" alt="" width="600" /></a></li>
+<li>Go to <strong>Admin &gt; Edit Users</strong></li>
+</ol>
+<p><img src="/mobile/introduction/images/store_setup_edit_users.png" alt="Custom invoices button on Navigator" /></p>
+<ol start="2">
+<li>Select the user and go to <strong>Login Rights</strong> </li>
+</ol>
+<p><img src="/mobile/introduction/images/store_setup_login_rights.png" alt="Custom invoices button on Navigator" /></p>
+<ol start="3">
 <li>Select the new Store</li>
 <li>Click <strong>OK</strong></li>
 </ol>
-<h3 id="5-03-setting-up-admin-access-to-the-device-settings">5.03. Setting up Admin access to the device Settings<a class="zola-anchor" href="#5-03-setting-up-admin-access-to-the-device-settings" aria-label="Anchor link for: 5-03-setting-up-admin-access-to-the-device-settings">🔗</a></h3>
+<h3 id="setting-up-admin-access-to-the-device-settings">Setting up Admin access to the device Settings<a class="zola-anchor" href="#setting-up-admin-access-to-the-device-settings" aria-label="Anchor link for: setting-up-admin-access-to-the-device-settings">🔗</a></h3>
 <ul>
 <li>To carry out various admin functions on the device, the logged in user needs the appropriate permission to access the mobile <strong>Settings</strong> page.</li>
 <li>You will likely <em>not</em> want the local users to have this permission.  If that is the case, then an Admin user needs to be configured to have this permission.</li>
-<li>The Sustainable Solutions <code>Sussol</code> is hard-wired <em>not</em> to have this permission.  A special Sustainable Solutions user called <code>SussolMobile</code> can be set up to have this permission.</li>
+<li>The Sustainable Solutions <strong>Sussol</strong> is hard-wired <em>not</em> to have this permission.  A special Sustainable Solutions user called <strong>SussolMobile</strong> can be set up to have this permission.</li>
 </ul>
 <p>In the mSupply Central server:</p>
 <ol>
 <li>Log into the mobile store</li>
 <li>Go to File &gt; Edit users</li>
-<li>Select the mobile user (whom you want to give permission to access Settings - remember, not the <code>Sussol</code> user :-)), double click it.  An edit user window will open.</li>
-<li>Go to <strong>Permission (3)</strong> tab and check the <strong>View/edit preferences</strong> permission on</li>
+<li>Select the mobile user (whom you want to give permission to access Settings - remember, not the <strong>Sussol</strong> user), double click it.  An edit user window will open.</li>
+<li>Go to <strong>Permission (3)</strong> tab and check the <strong>View/edit preferences</strong> permission is on.</li>
 </ol>
-<p><a href="/_detail/en:mobile:user_guide:settings_permission.png?id=en%3Amobile%3Asetup%3Aserver_side%3Ausers"><img src="/_media/en:mobile:user_guide:settings_permission.png?w=800&amp;tok=52dca4" class="mediacenter" loading="lazy" alt="" width="800" /></a></p>
-<p>Click <strong>OK</strong> to save it and again click <strong>OK</strong> to close <strong>User list…</strong> window.</p>
+<p><img src="/mobile/introduction/images/store_setup_admin_access.png" alt="Custom invoices button on Navigator" /></p>
+<p>Click <strong>OK</strong> to save it and again click <strong>OK</strong> to close the <strong>User list</strong> window.</p>
 <p>Once these permissions are set, the <strong>Settings</strong> button will be visible the next time the user logs in to mSupply Mobile.</p>
-<p>|  *  Previous:  <strong><a href="/en:mobile:setup:server_side:config">4. Configuring the Store and Dispensing</a></strong> | | Next: <strong><a href="/en:mobile:setup:server_side:review_setup">6. Reviewing the setup</a></strong> *</p>
   
 <div class="docs-navigation d-flex justify-content-between">
   

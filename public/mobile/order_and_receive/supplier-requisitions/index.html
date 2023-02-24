@@ -191,7 +191,7 @@
 				
 					
 						<li class="nav-item">
-							<a class="nav-link" href="https://docs.msupply.foundation/docs/introduction/">Desktop</a>
+							<a class="nav-link" href="https://docs.msupply.foundation/docs/introduction/introduction/">Open mSupply (Desktop+Mobile)</a>
 						</li>
 					
 						<li class="nav-item">
@@ -203,7 +203,7 @@
 						</li>
 					
 						<li class="nav-item mobile active">
-							<a class="nav-link" href="https://docs.msupply.foundation/mobile/introduction/">Mobile</a>
+							<a class="nav-link" href="https://docs.msupply.foundation/mobile/introduction/introduction/">Mobile- Old Version</a>
 						</li>
 					
 				
@@ -261,15 +261,13 @@
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/config/">Store &amp; Dispensing Setup</a></li>
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/create-store/">Create the Store</a></li>
-							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/create-sync-site/">Create Sync Site</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/create-store/">Create the Store &amp; Sync Site</a></li>
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/dashboard/">Set up Dashboards for Mobile</a></li>
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/review-setup/">Reviewing the setup</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/review-setup/">Reviewing the Setup</a></li>
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/server-setup/">mSupply server setup</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/server-setup/">mSupply Server Setup</a></li>
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/users/">Setting up the Users</a></li>
 							
@@ -372,8 +370,6 @@
          
         <li><a href="https://docs.msupply.foundation/mobile/order_and_receive/supplier-requisitions/#finalising-a-supplier-requisition">Finalising a Supplier Requisition</a></li>
          
-        <li><a href="https://docs.msupply.foundation/mobile/order_and_receive/supplier-requisitions/#this-chapter-tells-you-how-to-receive-stock">This chapter tells you how to receive stock.</a></li>
-         
       </ul>
     </nav>
   </div>
@@ -425,7 +421,7 @@
 <ul>
 <li><strong>Item Code</strong> and <strong>Item Name</strong>: as per your mSupply item list details</li>
 <li><strong>Current Stock</strong>: how much stock currently available in your facility</li>
-<li><strong>Monthly Use</strong>: how much stock your facility uses each month on average (based on a configurable number of months (refer <a href="https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab">Store Preferences tab</a>), but defaults to <strong>3</strong>).</li>
+<li><strong>Monthly Use</strong>: how much stock your facility uses each month on average (based on a configurable number of months (refer <a href="/mobile/setup/config/#other-preferences">Store Preferences tab</a>, but defaults to <strong>3</strong>).</li>
 <li><strong>Suggested Quantity</strong>: how much stock mSupply Mobile suggests that you order.  This is calculated as:
 <ul>
 <li><strong>Monthly Use</strong> x <strong>Max MOS</strong> - <strong>Current Stock</strong></li>
@@ -472,7 +468,9 @@
 <h3 id="use-suggested-quantities">Use Suggested Quantities<a class="zola-anchor" href="#use-suggested-quantities" aria-label="Anchor link for: use-suggested-quantities">🔗</a></h3>
 <p>If you tap <strong>Use Suggested Quantities</strong> on the requisition header, mSupply Mobile will automatically copy the values in the <strong>Suggested Quantity</strong> column into the <strong>Requested Quantity</strong> column.</p>
 <p><img src="/mobile/introduction/images/requisition_suggested_quantities.png" alt="Custom invoices button on Navigator" /></p>
-<p>Please note, when you tap <strong>Use Suggested Quantities</strong>, this will overwrite any value that had previously been entered in the <strong>Requested Quantity</strong> column.  However, you can still manually overwrite the amount of stock requested for each item afterward.</p>
+<div class="tip">
+Please note, when you tap **Use Suggested Quantities**, this will overwrite any value that had previously been entered in the **Requested Quantity** column.  However, you can still manually overwrite the amount of stock requested for each item afterward.
+</div>
 <h3 id="create-automatic-order">Create Automatic Order<a class="zola-anchor" href="#create-automatic-order" aria-label="Anchor link for: create-automatic-order">🔗</a></h3>
 <p>If you tap <strong>Create Automatic Order</strong> on the requisition header, mSupply Mobile will automatically create a supplier requisition with all items stocked at your facility (from all Master Lists) that require stock.  That is, any item at your facility that has a suggested quantity greater than zero will be listed. The <strong>Requested Quantity</strong> column will also be filled with the suggested quantity value.</p>
 <p><img src="/mobile/introduction/images/requisitions_automatic_order.png" alt="Custom invoices button on Navigator" /></p>
@@ -487,8 +485,6 @@
 <p>A <strong>Supplier Invoice</strong> is a record of what your supplier has actually sent you.</p>
 <p>These are not always the same, as your supplier might not have enough stock to fill your requisition, or they might have sent you some extra stock. When stock arrives at your facility, you should check it off against the <strong>Supplier Invoice</strong>. </p>
 </div>
-<h2 id="this-chapter-tells-you-how-to-receive-stock"><a href="/en:mobile:user_guide:supplier_invoices">This chapter</a> tells you how to receive stock.<a class="zola-anchor" href="#this-chapter-tells-you-how-to-receive-stock" aria-label="Anchor link for: this-chapter-tells-you-how-to-receive-stock">🔗</a></h2>
-<p>|  *  Previous:  <strong><a href="/en:mobile:user_guide:ordering_and_receiving">Ordering and Receiving stock from suppliers</a></strong> | | Next: <strong><a href="/en:mobile:user_guide:supplier_requisitions_program">Supplier Requisitions (Program Orders)</a></strong> *</p>
   
 <div class="docs-navigation d-flex justify-content-between">
   

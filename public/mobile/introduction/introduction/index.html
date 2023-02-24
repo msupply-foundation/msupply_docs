@@ -188,7 +188,7 @@
 				
 					
 						<li class="nav-item">
-							<a class="nav-link" href="https://docs.msupply.foundation/docs/introduction/">Desktop</a>
+							<a class="nav-link" href="https://docs.msupply.foundation/docs/introduction/introduction/">Open mSupply (Desktop+Mobile)</a>
 						</li>
 					
 						<li class="nav-item">
@@ -200,7 +200,7 @@
 						</li>
 					
 						<li class="nav-item mobile active">
-							<a class="nav-link" href="https://docs.msupply.foundation/mobile/introduction/">Mobile</a>
+							<a class="nav-link" href="https://docs.msupply.foundation/mobile/introduction/introduction/">Mobile- Old Version</a>
 						</li>
 					
 				
@@ -258,15 +258,13 @@
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/config/">Store &amp; Dispensing Setup</a></li>
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/create-store/">Create the Store</a></li>
-							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/create-sync-site/">Create Sync Site</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/create-store/">Create the Store &amp; Sync Site</a></li>
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/dashboard/">Set up Dashboards for Mobile</a></li>
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/review-setup/">Reviewing the setup</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/review-setup/">Reviewing the Setup</a></li>
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/server-setup/">mSupply server setup</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/server-setup/">mSupply Server Setup</a></li>
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/users/">Setting up the Users</a></li>
 							
@@ -377,41 +375,44 @@
 
         <h1>Introduction</h1>
         
-        <p class="lead">Welcome to mSupply Mobile!</p>
-         <p>The original mSupply mobile docs are <a href="https://wiki.msupply.foundation/en:mobile">here</a>
-We are slowly transferring documentation (and updating it) over to this web site.</p>
-<h3 id="setting-up-msupply-mobile-on-the-device">Setting up mSupply Mobile on the device<a class="zola-anchor" href="#setting-up-msupply-mobile-on-the-device" aria-label="Anchor link for: setting-up-msupply-mobile-on-the-device">🔗</a></h3>
-<div class="info">
-mSupply Mobile can be set up on your Android device by the mSupply Support Team or by your internal IT team with our support
+        <p class="lead">mSupply Mobile (Old Version)</p>
+         <div class="note">
+	This is the documentation for our original mSupply Mobile. For new installations, we recommend <a href="/docs/introduction/introduction"><strong>Open mSupply</strong></a>
 </div>
+<h3 id="setting-up-msupply-mobile-on-the-device">Setting up mSupply Mobile on the device<a class="zola-anchor" href="#setting-up-msupply-mobile-on-the-device" aria-label="Anchor link for: setting-up-msupply-mobile-on-the-device">🔗</a></h3>
+<p>mSupply Mobile can be set up on your Android device by the mSupply Support Team or by your internal IT team with our support.</p>
 <h4 id="choosing-a-device">Choosing a device<a class="zola-anchor" href="#choosing-a-device" aria-label="Anchor link for: choosing-a-device">🔗</a></h4>
-<p>Preparing the device</p>
 <p>Preparing the device for mSupply is very dependant on factors including:</p>
 <ul>
 <li>The make of the device</li>
 <li>The version of Android running on it</li>
 <li>The details of how the organisation plans to manage devices and communicate with users</li>
 </ul>
-<p>Please consult with the mSupply Foundation support team ( support@msupply.org.nz ) on this. </p>
-<p>Please note</p>
+<p>Please consult with the mSupply Foundation support team (support@msupply.org.nz) on this. </p>
+<div class="note">
 <ul>
-<li>A device is typically allocated to a facility, NOT an individual user. As such ALL operating system (i.e. Android) user accounts set up on the device must be for the site, not a person. This way, if a person leaves and another person takes over operation of the device, nothing should need to be changed.</li>
-<li>Each device running mSupply Mobile will correspond to one mSupply Store.</li>
+<li>
+<p>A device is typically allocated to a facility, NOT an individual user. As such ALL operating system (i.e. Android) user accounts set up on the device must be for the site, not a person. This way, if a person leaves and another person takes over operation of the device, nothing should need to be changed.</p>
+</li>
+<li>
+<p>Each device running mSupply Mobile will correspond to one mSupply Store.</p>
+</li>
 </ul>
+</div>
 <h4 id="initialising-the-store">Initialising the store<a class="zola-anchor" href="#initialising-the-store" aria-label="Anchor link for: initialising-the-store">🔗</a></h4>
 <p>After installing the mSupply Mobile app, you must initialise the data for the mSupply Store that the device is going to be used in. Most of the work is actually done by mSupply but you will need to set the store credentials on the device.</p>
 <p>When first syncing the new device the amount of records to sync may be large (say around 50,000). This could take hours to sync, especially over a poor internet connection. For this reason it is possible for you to limit how many months of transactions and stocktakes you want to include. Limiting the sync date range below explains how to limit the sync date range if this is required.</p>
 <p>When you open mSupply Mobile, the first screen looks as follows:</p>
 <p><img src="/mobile/introduction/images/first_screen.jpg" alt="Setup screen!" /></p>
 <ul>
-<li><strong>PRIMARY SERVER URL</strong>: Please enter the correct URL for your mSupply Server, this uses HTTPS protocol for security. For example: https://your organisation.msupply.org</li>
+<li><strong>PRIMARY SERVER URL</strong>: Please enter the correct URL for your mSupply Server, this uses HTTPS protocol for security. For example: https://your-organisation.msupply.org</li>
 <li><strong>SYNC SITE NAME</strong>: The site name as configured on the primary server.</li>
 <li><strong>SYNC SITE PASSWORD</strong>: The password for the sync site as configured on the primary server.</li>
 </ul>
 <p>Once you have entered the information, click <strong>Connect</strong> to start sync.</p>
-<p><img src="/mobile/introduction/images/initialising.jpg" alt="Initialising screen!" /></p>
+<p><img src="/mobile/introduction/images/initialising.jpg" alt="Initialising screen" /></p>
 <p>Initialisation can take between 1 and 15 minutes depending on the number of records on the server related to the site being synced.</p>
-<p><img src="/mobile/introduction/images/pulling.jpg" alt="Initialising screen!" /></p>
+<p><img src="/mobile/introduction/images/pulling.jpg" alt="Initialising screen" /></p>
 <p>Once the server has found all the records to sync, mSupply Mobile will start pulling them between 20 and 500 records at a time depending on the connection speed. If the connection is lost or you close the app, you can resume sync where it stopped by entering the exact same details. Please note that if you enter different details, it will restart the sync completely!</p>
 <h4 id="logging-in-to-the-store">Logging in to the store<a class="zola-anchor" href="#logging-in-to-the-store" aria-label="Anchor link for: logging-in-to-the-store">🔗</a></h4>
 <p>Once complete, you will be taken to the login screen. For guidance beyond here see the mSupply Mobile user guide.</p>

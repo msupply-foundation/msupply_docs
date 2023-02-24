@@ -30,9 +30,7 @@ After starting mSupply mobile on the Android tablet, you will see a screen like 
 ![Custom invoices button on Navigator](/mobile/introduction/images/enter_details.png)
 
 On the above screen a unique user name, a valid e-mail address and password are required. Please note down the password as this will be needed later. 
-Our mSupply mobile username and password guidelines are available [here](/mobile/setup/users/#5-01-setting-up-store-access-for-users)
-
- [<img src="/_media/mobile:mobilestorecreated.png?w=600&amp;tok=20c2b2" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/mobile:mobilestorecreated.png?id=en%3Amobile%3Auser_guide%3Amsupply_mobile_demo)
+Our mSupply mobile username and password guidelines are available [here](/mobile/setup/users/#5-01-setting-up-store-access-for-users).
 
 # Check your e-mail
 
@@ -57,8 +55,6 @@ You may log in as a user once the store setup has been completed. You will be sh
 
   * This time the user name is what you initially typed. So just UserName.
   * Password is what you originally typed when requesting a Demo site. 
-
-[<img src="/_media/mobile:mobeiluserlogin.png?w=600&amp;tok=2709f7" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/mobile:mobeiluserlogin.png?id=en%3Amobile%3Auser_guide%3Amsupply_mobile_demo)
 
 # Using the module
 

@@ -18,7 +18,7 @@ top = false
 #### Google Mobile Services (GMS)
 
   * There is a good chance that if your proposed device is not on [this list](https://storage.googleapis.com/play_public/supported_devices.html) of supported models, then it will not support [Google Mobile Services (GMS)](https://www.android.com/intl/en_au/gms/), mSupply Mobile and/or the [mobile device management software](https://en.wikipedia.org/wiki/Mobile_device_management) used to remotely manage the device.
-  * Even if it is on this list, please make sure the model has been validated by Sustainable Solutions before procuring any significant quantities of the device.  Please contact Sustainable Solutions on [&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#109;&#115;&#117;&#112;&#112;&#108;&#121;&#46;&#111;&#114;&#103;&#46;&#110;&#122;](mailto:&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#109;&#115;&#117;&#112;&#112;&#108;&#121;&#46;&#111;&#114;&#103;&#46;&#110;&#122;) to see which models have been validated so far.
+  * Even if it is on this list, please make sure the model has been validated by Sustainable Solutions before procuring any significant quantities of the device.  Please contact mSupply Support on [support@msupply.org.nz](mailto:support@msupply.org.nz) to see which models have been validated so far.
 
 #### Android version
 
@@ -33,7 +33,7 @@ top = false
   * Minimum display resolution: **768 × 1024 pixels**
   * Android Version: **6.0**
 
-But, if the operator's eyesight may be poor, or you will ever be wanting to monitor a fridge at the facility for very little extra cost, consider the…
+But, if the operator's eyesight may be poor, or you will ever be wanting to monitor a fridge at the facility for very little extra cost, consider:
 
 ##### Recommended specification
 
@@ -91,7 +91,7 @@ If you are upgrading an existing mSupply Mobile device to version 2.0.0, there a
 
 ### Installation
 
-You can download the latest version of mSupply Mobile from GitHub [here](https://github.com/openmsupply/mobile/releases)
+You can download the latest version of mSupply Mobile from GitHub [here](https://github.com/openmsupply/mobile/releases).
 
 ### Connecting to the central server
 

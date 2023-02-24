@@ -69,9 +69,9 @@ repo_branch = "main"
 
 # Menu items
 [[extra.menu.main]]
-name = "Desktop"
+name = "Open mSupply (Desktop+Mobile)"
 section = "docs"
-url = "/docs/introduction/"
+url = "/docs/introduction/introduction"
 weight = 10
 
 [[extra.menu.main]]
@@ -87,9 +87,9 @@ url = "/dashboard/introduction"
 weight = 30
 
 [[extra.menu.main]]
-name = "Mobile"
+name = "Mobile- Old Version"
 section = "mobile"
-url = "/mobile/introduction"
+url = "/mobile/introduction/introduction"
 weight = 40
 
 [[extra.menu.social]]

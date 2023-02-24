@@ -8,11 +8,11 @@ weight = 306
 template = "mobile/page.html"
 
 [extra]
-lead = "Ordering from a Supplying Store"
 toc = true
 top = false
 +++
 
+## Ordering from a Supplying Store
 
 When a customer order stocks from you, they create a Supplier Requisition in their system. This will appear as a Customer Requisition in your system. 
 
@@ -30,9 +30,11 @@ Tap on the Customer Requisition you want to review (in this example, we are goin
 
 ![Custom invoices button on Navigator](/mobile/introduction/images/current_customer_requisitions.png)
 
+## Customer Requisiton Review 
+
 You can now review the Customer Requisition before finalising it.
 
-![Custom invoices button on Navigator](/mobile/introduction/images/customer_requisitions_finalise.png)final_customer
+![Custom invoices button on Navigator](/mobile/introduction/images/customer_requisitions_finalise.png)
 
   * **Max MOS:** The number of months worth of stock to supply
   * **Current Stock:** this will be auto-filled with your current quantity of stock for this item. 
@@ -44,17 +46,18 @@ You can now review the Customer Requisition before finalising it.
   * **Use Requested Quantities:** auto-fills the supply this invoice column for all items with the value from the requested quantity column.
   * **Use Suggested Quantities:** auto-fills the supply this invoice column for all items with the value from the suggested quantity column.
 
-You can use either of the above options or you can manually enter a quantity in the column **Supply this invoice**.
+You can use any of the above options or you can manually enter a quantity in the column **Supply this invoice**.
 
  Selecting either of the auto-fill buttons will overwrite all values in the supply this invoice column.  
 
 When you are completely sure that everything is correct, tap the **Finalise** button, then **Confirm**. 
 
-Finalising the requisition will also generate a finalised [customer invoice](/en:mobile:user_guide:customer_inv).
-
 ![Custom invoices button on Navigator](/mobile/introduction/images/customer_invoice_final.png)
 
 ![Custom invoices button on Navigator](/mobile/introduction/images/customer_invoice_final2.png)
+
+Finalising the requisition will also generate a finalised [customer invoice](/mobile/order_and_receive/customer-inv/#click-on-customer-invoices).
+
 
 
 

@@ -48,7 +48,7 @@
 
 	
 
-<title>Create the Store - mSupply</title>
+<title>Create the Store & Sync Site - mSupply</title>
 <meta name="description" content="mSupply mobile- Open source Android application.">
 <link rel="canonical" href="https://docs.msupply.foundation/mobile/setup/create-store/">
 
@@ -191,7 +191,7 @@
 				
 					
 						<li class="nav-item">
-							<a class="nav-link" href="https://docs.msupply.foundation/docs/introduction/">Desktop</a>
+							<a class="nav-link" href="https://docs.msupply.foundation/docs/introduction/introduction/">Open mSupply (Desktop+Mobile)</a>
 						</li>
 					
 						<li class="nav-item">
@@ -203,7 +203,7 @@
 						</li>
 					
 						<li class="nav-item mobile active">
-							<a class="nav-link" href="https://docs.msupply.foundation/mobile/introduction/">Mobile</a>
+							<a class="nav-link" href="https://docs.msupply.foundation/mobile/introduction/introduction/">Mobile- Old Version</a>
 						</li>
 					
 				
@@ -261,15 +261,13 @@
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/config/">Store &amp; Dispensing Setup</a></li>
 							                           
-									<li><a class="docs-link active" href="https://docs.msupply.foundation/mobile/setup/create-store/">Create the Store</a></li>
-							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/create-sync-site/">Create Sync Site</a></li>
+									<li><a class="docs-link active" href="https://docs.msupply.foundation/mobile/setup/create-store/">Create the Store &amp; Sync Site</a></li>
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/dashboard/">Set up Dashboards for Mobile</a></li>
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/review-setup/">Reviewing the setup</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/review-setup/">Reviewing the Setup</a></li>
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/server-setup/">mSupply server setup</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/server-setup/">mSupply Server Setup</a></li>
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/users/">Setting up the Users</a></li>
 							
@@ -343,32 +341,7 @@
 			
 	</nav>
 </div>
-  
-<nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
-  <div class="page-links">
-    <h3>On this page</h3>
-    <nav id="TableOfContents">
-      <ul>
-        
-        <li><a href="https://docs.msupply.foundation/mobile/setup/create-store/#manually-create-store">Manually create store</a></li>
-         
-        <li><a href="https://docs.msupply.foundation/mobile/setup/create-store/#create-a-store-for-an-existing-customer">Create a store for an existing customer</a></li>
-        
-        <ul>
-          
-          <li><a href="https://docs.msupply.foundation/mobile/setup/create-store/#cloning-the-existing-customer-to-a-store">Cloning the existing customer to a store</a></li>
-          
-          <li><a href="https://docs.msupply.foundation/mobile/setup/create-store/#merging-the-new-store-with-the-existing-customer">Merging the new store with the existing customer</a></li>
-          
-        </ul>
-         
-        <li><a href="https://docs.msupply.foundation/mobile/setup/create-store/#create-store-by-cloning-another-sync-store-using-sync-clone-sync-site">Create store by cloning another sync store using sync_clone_sync_site</a></li>
-         
-      </ul>
-    </nav>
-  </div>
-</nav>
- 
+   
       <main class="docs-content col-lg-11 col-xl-9">
         
         <div class="flagster" style="float: right; padding: 5px">
@@ -378,83 +351,10 @@
         </div>
         
 
-        <h1>Create the Store</h1>
+        <h1>Create the Store &amp; Sync Site</h1>
         
         <p class="lead">Server Set up: Create the Store</p>
-         <p>This step is best carried out using the <a href="https://docs.msupply.org.nz/synchronisation:site_wizard">Sync site wizard</a>.  These instructions are retained here for reference only.</p>
-<p>After the sync sites have been set up, there are three approaches to creating and configuring the store that will be operated on that site.</p>
-<ul>
-<li><strong><a href="/en:mobile:setup:server_side:create_store#manually_create_store">Manually create a store</a></strong> - this method is suitable if you are creating only a handful of stores</li>
-<li><strong><a href="/en:mobile:setup:server_side:create_store#create_store_for_existing_customer">Create a store for an existing customer</a></strong></li>
-<li><strong><a href="/en:mobile:setup:server_side:create_store#create_stores_by_cloning_another_sync_store_using_sync_clone_sync_site">Create stores by cloning another sync store</a></strong> - if you're creating a larger number of stores, then it is more appropriate for the mSupply Support Team to use footrunner code</li>
-</ul>
-<h3 id="manually-create-store">Manually create store<a class="zola-anchor" href="#manually-create-store" aria-label="Anchor link for: manually-create-store">🔗</a></h3>
-<ol>
-<li>On mSupply desktop go to <strong>Special &gt; Stores &gt; New Store</strong><a href="/_detail/mobile:mob2_001.jpg?id=en%3Amobile%3Asetup%3Aserver_side%3Acreate_store"><img src="/_media/mobile:mob2_001.jpg?w=600&amp;tok=f4f059" class="mediacenter" loading="lazy" alt="" width="600" /></a><a href="/_detail/mobile:newstore.jpg?id=en%3Amobile%3Asetup%3Aserver_side%3Acreate_store"><img src="/_media/mobile:newstore.jpg" class="mediacenter" loading="lazy" alt="" /></a></li>
-<li>Enter the Store Code and the Store Name<a href="/_detail/mobile:mob2_002.jpg?id=en%3Amobile%3Asetup%3Aserver_side%3Acreate_store"><img src="/_media/mobile:mob2_002.jpg" class="mediacenter" loading="lazy" alt="" /></a></li>
-</ol>
-<ul>
-<li>The Store Code can not include spaces</li>
-<li>The Store Name needs to be something that users will recognise.</li>
-</ul>
-<p><code>Mobile Store 1</code> is not likely to be a good name to use. ;-)</p>
-<ol>
-<li><a href="/en:mobile:setup:server_side:config#making_items_visible_in_the_new_store_using_master_list_s">Configure items visibility</a></li>
-<li><a href="/en:mobile:setup:server_side:config#setting_up_the_correct_synchronisation_settings">Configure synchronisation settings</a></li>
-<li><a href="/en:mobile:setup:server_side:config#make_the_store_visible_to_other_stores">Configure store visibility to other stores</a></li>
-</ol>
-<h3 id="create-a-store-for-an-existing-customer">Create a store for an existing customer<a class="zola-anchor" href="#create-a-store-for-an-existing-customer" aria-label="Anchor link for: create-a-store-for-an-existing-customer">🔗</a></h3>
-<p>This method is only useful if you already have a customer that you want to convert to a store.</p>
-<p>We must first <strong>clone</strong> the existing customer then <strong>merge</strong> the new store with the existing customer.</p>
-<h4 id="cloning-the-existing-customer-to-a-store">Cloning the existing customer to a store<a class="zola-anchor" href="#cloning-the-existing-customer-to-a-store" aria-label="Anchor link for: cloning-the-existing-customer-to-a-store">🔗</a></h4>
-<ol>
-<li>The mSupply Support Team will use the footrunner code  <a href="https://sussol.net/wiki/doku.php/msupply:specifications:admin:sync#store_create_from_name">''store_create_from_name''</a> to <strong>clone</strong> the original store.  We will need to provide:
-1. <code>Name **ID**</code> (not name <strong>Code</strong> :-() to create the store for (must not be blank or already a store)
-1. Store mode for new store (one of <code>store</code>, <code>dispensary</code> or <code>report</code>).  Almost always, this should be <code>store</code>
-1. <code>Sync ID</code> for site on which the new store will be Active (optional; if left blank, will default to the current site ID)</li>
-<li><a href="/en:mobile:setup:server_side:config#making_items_visible_in_the_new_store_using_master_list_s">Configure items visibility</a></li>
-<li><a href="/en:mobile:setup:server_side:config#setting_up_the_correct_synchronisation_settings">Configure synchronisation settings</a></li>
-<li><a href="/en:mobile:setup:server_side:config#make_the_store_visible_to_other_stores">Configure store visibility to other stores</a></li>
-</ol>
-<h4 id="merging-the-new-store-with-the-existing-customer">Merging the new store with the existing customer<a class="zola-anchor" href="#merging-the-new-store-with-the-existing-customer" aria-label="Anchor link for: merging-the-new-store-with-the-existing-customer">🔗</a></h4>
-<p>Using the mSupply Desktop User Guide <a href="https://docs.msupply.org.nz/names:merging_names">merge the new store name with the existing customer name</a>.  There is some footrunner code that can facilitate this for multiple sites.</p>
-<p><strong>Before merging</strong> all unfinalised Customer Invoices from supplying stores to the existing customer must be finalised.  On a system with supplying stores on multiple sync sites, this can take a long time.  Start early, and if possible, ask the supplying stores to refrain from creating any new Customer Invoices until the merging is done…</p>
-<p>If you try to do the merge before finalising all customer invoices, you will get an error message, and the merge will not proceed
-<a href="/_detail/en:mobile:pasted:20200116-222550.png?id=en%3Amobile%3Asetup%3Aserver_side%3Acreate_store"><img src="/_media/en:mobile:pasted:20200116-222550.png?w=500&amp;tok=a7ad8f" class="mediacenter" loading="lazy" alt="" width="500" /></a></p>
-<h3 id="create-store-by-cloning-another-sync-store-using-sync-clone-sync-site">Create store by cloning another sync store using sync_clone_sync_site<a class="zola-anchor" href="#create-store-by-cloning-another-sync-store-using-sync-clone-sync-site" aria-label="Anchor link for: create-store-by-cloning-another-sync-store-using-sync-clone-sync-site">🔗</a></h3>
-<p>First <a href="/en:mobile:setup:server_side:create_store#manually_create_store">manually create and appropriately configure a single store</a>.</p>
-<p>Make <em><strong>sure</strong></em> the relevant <a href="/en:mobile:setup:server_side:create_sync_site">sync sites have been created</a> and then, for <strong>EACH</strong> store:</p>
-<ol>
-<li>The mSupply Support Team will use the footrunner code <code>[sync_clone_sync_site](https://sussol.net/wiki/doku.php/msupply:specifications:admin:sync#sync_clone_sync_site)</code> to clone the original store.  We will need:
-1. <code>Sync ID</code> for source sync site</li>
-</ol>
-<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>1. `Sync ID` for clone sync site
-</span><span>
-</span><span>1. `Sync version` (v1 for desktop, v3 for mobile)
-</span><span>
-</span><span>1. Decision on whether the cloned store will have &#39;group&#39; store visibility (visible to all other stores with the same supplying store) or not
-</span><span>
-</span><span>1. Decision on whether to also clone locations, transactions, stock, requisitions.  (almost always **NO**!)
-</span><span>
-</span><span>1. new **store** code *and* name for each cloned store
-</span><span>
-</span><span>1. new **user** name *and* password for the each cloned store&#39;s default user
-</span></code></pre>
-<ol>
-<li>
-<p>If there are actually existing customers for each of these stores, you will then need to <a href="https://docs.msupply.org.nz/names:merging_names">merge the existing customer name with the new store</a></p>
-</li>
-<li>
-<p>The new store will have the same item visibility configuration as the original store.  Review, and if necessary, <a href="/en:mobile:setup:server_side:config#making_items_visible_in_the_new_store_using_master_list_s">configure items visibility</a></p>
-</li>
-<li>
-<p>The new store will have the correct 'basic' sync settings.  Review, and if necessary, <a href="/en:mobile:setup:server_side:config#setting_up_the_correct_synchronisation_settings">configure synchronisation settings</a></p>
-</li>
-<li>
-<p>The new store will have the correct 'basic' store visibility settings, including, if you have selected it, 'group' store visibility.  Review, and if necessary, <a href="/en:mobile:setup:server_side:config#make_the_store_visible_to_other_stores">configure store visibility to other stores</a></p>
-</li>
-</ol>
-<p>|  *  Previous:  <strong><a href="/en:mobile:setup:server_side:create_sync_site">2. Create Sync Site</a></strong> | | Next: <strong><a href="/en:mobile:setup:server_side:config">4. Configuring the Store and Dispensing</a></strong> *</p>
+         <p>This step is best carried out using the <a href="https://docs.msupply.org.nz/synchronisation:site_wizard">Sync site wizard</a>.  </p>
   
 <div class="docs-navigation d-flex justify-content-between">
   

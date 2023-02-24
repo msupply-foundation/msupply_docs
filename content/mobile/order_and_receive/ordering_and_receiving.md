@@ -22,7 +22,7 @@ In mSupply Mobile, incoming stock is handled differently depending on whether it
 
 #### Placing a Supplier Requisition
 
-If your medical supply system is a **'Pull'** system, then the process of ordering stock from an **Internal Supplier** starts with creating a **Supplier Requisition** (internal order), either as a [General Order](/en:mobile:user_guide:supplier_requisitions) or a [Program Order](/en:mobile:user_guide:supplier_requisitions_program).
+If your medical supply system is a **'Pull'** system, then the process of ordering stock from an **Internal Supplier** starts with creating a **Supplier Requisition** (internal order), either as a [General Order](/mobile/order_and_receive/supplier-requisitions/#current-supplier-requisitions) or a [Program Order](/mobile/order_and_receive/supplier-requisitions-program/#click-on-supplier-requisitions).
 
 <div class="warning">
 

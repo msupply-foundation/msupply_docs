@@ -14,12 +14,12 @@ top = true
 +++
 
 
-From version 7.1 mSupply mobile includes the ability to report on Adverse Drug Reactions
+From version 7.1 mSupply mobile includes the ability to report on Adverse Drug Reactions.
 It is able to be used with AEFI (Adverse Events From Immunisation) reporting.
 
 # Set up
 
-# Entering an adverse reaction report
+## Entering an adverse reaction report
 
 To report, a patient must be entered. If you are at the facility where the drug was administered, the patient should already be in the system.
 
@@ -39,7 +39,7 @@ Here's an example that implements a typical ADR form:
 
 ![Custom invoices button on Navigator](/mobile/introduction/images/ADR_form1.png) ![Custom invoices button on Navigator](/mobile/introduction/images/ADR_form2.png) ![Custom invoices button on Navigator](/mobile/introduction/images/ADR_form3.png)
 
-Once you have entered all the data you are able to, tap **Save**
+Once you have entered all the data you are able to, tap **Save**.
 
 The data will be synchronised to the central server, where it can be displayed on the dashboard (anonymised of course!), or sent to other aggregating systems.
 

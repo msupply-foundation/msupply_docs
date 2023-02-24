@@ -191,7 +191,7 @@
 				
 					
 						<li class="nav-item">
-							<a class="nav-link" href="https://docs.msupply.foundation/docs/introduction/">Desktop</a>
+							<a class="nav-link" href="https://docs.msupply.foundation/docs/introduction/introduction/">Open mSupply (Desktop+Mobile)</a>
 						</li>
 					
 						<li class="nav-item">
@@ -203,7 +203,7 @@
 						</li>
 					
 						<li class="nav-item mobile active">
-							<a class="nav-link" href="https://docs.msupply.foundation/mobile/introduction/">Mobile</a>
+							<a class="nav-link" href="https://docs.msupply.foundation/mobile/introduction/introduction/">Mobile- Old Version</a>
 						</li>
 					
 				
@@ -261,15 +261,13 @@
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/config/">Store &amp; Dispensing Setup</a></li>
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/create-store/">Create the Store</a></li>
-							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/create-sync-site/">Create Sync Site</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/create-store/">Create the Store &amp; Sync Site</a></li>
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/dashboard/">Set up Dashboards for Mobile</a></li>
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/review-setup/">Reviewing the setup</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/review-setup/">Reviewing the Setup</a></li>
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/server-setup/">mSupply server setup</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/server-setup/">mSupply Server Setup</a></li>
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/mobile/setup/users/">Setting up the Users</a></li>
 							
@@ -350,6 +348,10 @@
     <nav id="TableOfContents">
       <ul>
         
+        <li><a href="https://docs.msupply.foundation/mobile/order_and_receive/customer-requisitions/#ordering-from-a-supplying-store">Ordering from a Supplying Store</a></li>
+         
+        <li><a href="https://docs.msupply.foundation/mobile/order_and_receive/customer-requisitions/#customer-requisiton-review">Customer Requisiton Review</a></li>
+         
       </ul>
     </nav>
   </div>
@@ -365,9 +367,8 @@
         
 
         <h1>Customer Requisitions</h1>
-        
-        <p class="lead">Ordering from a Supplying Store</p>
-         <p>When a customer order stocks from you, they create a Supplier Requisition in their system. This will appear as a Customer Requisition in your system. </p>
+         <h2 id="ordering-from-a-supplying-store">Ordering from a Supplying Store<a class="zola-anchor" href="#ordering-from-a-supplying-store" aria-label="Anchor link for: ordering-from-a-supplying-store">🔗</a></h2>
+<p>When a customer order stocks from you, they create a Supplier Requisition in their system. This will appear as a Customer Requisition in your system. </p>
 <p>Customer Requisitions can ONLY be created by an mSupply store customer.  They can not be manually created in the Supplying store.</p>
 <p>On the home screen, an orange badge on the Customer Requisitions button indicates how many pending Customer Requisitions you have, if any (in this example, there is one pending Customer Requisition). </p>
 <p>Tap on the <strong>Customer Requisitions</strong> button to review the Customer Requisitions. </p>
@@ -375,8 +376,9 @@
 <p><strong>Current</strong> Customer Requisitions are displayed by default. You can review finalised requisitions by tapping on <strong>Past</strong>.</p>
 <p>Tap on the Customer Requisition you want to review (in this example, we are going to tap on the Requisition ID 7). </p>
 <p><img src="/mobile/introduction/images/current_customer_requisitions.png" alt="Custom invoices button on Navigator" /></p>
+<h2 id="customer-requisiton-review">Customer Requisiton Review<a class="zola-anchor" href="#customer-requisiton-review" aria-label="Anchor link for: customer-requisiton-review">🔗</a></h2>
 <p>You can now review the Customer Requisition before finalising it.</p>
-<p><img src="/mobile/introduction/images/customer_requisitions_finalise.png" alt="Custom invoices button on Navigator" />final_customer</p>
+<p><img src="/mobile/introduction/images/customer_requisitions_finalise.png" alt="Custom invoices button on Navigator" /></p>
 <ul>
 <li><strong>Max MOS:</strong> The number of months worth of stock to supply</li>
 <li><strong>Current Stock:</strong> this will be auto-filled with your current quantity of stock for this item. </li>
@@ -388,12 +390,12 @@
 <li><strong>Use Requested Quantities:</strong> auto-fills the supply this invoice column for all items with the value from the requested quantity column.</li>
 <li><strong>Use Suggested Quantities:</strong> auto-fills the supply this invoice column for all items with the value from the suggested quantity column.</li>
 </ul>
-<p>You can use either of the above options or you can manually enter a quantity in the column <strong>Supply this invoice</strong>.</p>
+<p>You can use any of the above options or you can manually enter a quantity in the column <strong>Supply this invoice</strong>.</p>
 <p>Selecting either of the auto-fill buttons will overwrite all values in the supply this invoice column.</p>
 <p>When you are completely sure that everything is correct, tap the <strong>Finalise</strong> button, then <strong>Confirm</strong>. </p>
-<p>Finalising the requisition will also generate a finalised <a href="/en:mobile:user_guide:customer_inv">customer invoice</a>.</p>
 <p><img src="/mobile/introduction/images/customer_invoice_final.png" alt="Custom invoices button on Navigator" /></p>
 <p><img src="/mobile/introduction/images/customer_invoice_final2.png" alt="Custom invoices button on Navigator" /></p>
+<p>Finalising the requisition will also generate a finalised <a href="/mobile/order_and_receive/customer-inv/#click-on-customer-invoices">customer invoice</a>.</p>
   
 <div class="docs-navigation d-flex justify-content-between">
   
