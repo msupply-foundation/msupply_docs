@@ -879,7 +879,7 @@ Si vous vous êtes déjà connecté, et changé de dépôt, alors le dépôt le 
 &lt;p&gt;Cependant, vous pouvez également cliquer sur un élément de la liste ou rechercher les commandes disponibles :&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;introduction&#x2F;images&#x2F;cmd_k.gif&quot; alt=&quot;CommandK&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;De plus, il existe divers endroits où des raccourcis clavier spécifiques sont disponibles. Un exemple est l&#x27;onglet de contrôle utilisé aussi bien pour Les Inventaires que pour Les Livraisons. Ici, vous pouvez utiliser &lt;code&gt;control&lt;&#x2F;code&gt;+&lt;code&gt;1&lt;&#x2F;code&gt; pour accéder au premier onglet (Quantités) ou &lt;code&gt;control&lt;&#x2F;code&gt;+&lt;code&gt;2&lt;&#x2F;code&gt; pour le second onglet (Tarification) etc. Vous pouvez ajouter un nouveau lot en tapant la touche &lt;code&gt;+&lt;&#x2F;code&gt; de votre clavier. &lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;is_edit_keyboard_shortcuts.png&quot; alt=&quot;Inbound tabs&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;images&#x2F;is_edit_keyboard_shortcuts.png&quot; alt=&quot;Inbound tabs&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;pied-de-page&quot;&gt;Pied de Page&lt;a class=&quot;zola-anchor&quot; href=&quot;#pied-de-page&quot; aria-label=&quot;Anchor link for: pied-de-page&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Le bas de l&#x27;écran contient des informations utiles et s&#x27;affiche sur chaque écran.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;introduction&#x2F;images&#x2F;footer.png&quot; alt=&quot;Footer&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
@@ -971,16 +971,9 @@ Il ne sert à rien de conserver les anciens inventaires avec status = NEW, surto
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;images&#x2F;stocktake_newstocktake.png&quot; alt=&quot;Stocktake: new&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Une fenêtre apparaît, vous invitant à sélectionner les éléments à comptabiliser :&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;images&#x2F;stocktake_additem2.png&quot; alt=&quot;Stocktake: Add item&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;selection-d-elements&quot;&gt;Sélection d&#x27;éléments&lt;a class=&quot;zola-anchor&quot; href=&quot;#selection-d-elements&quot; aria-label=&quot;Anchor link for: selection-d-elements&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;Sélectionnez les éléments que vous souhaitez compter à l&#x27;aide des cases à cocher. Vous pouvez en sélectionner plusieurs :&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;images&#x2F;stocktake_additem_checkbox.png&quot; alt=&quot;Stocktake: add item count&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;Si vous souhaitez inclure tous les éléments (ou la plupart des éléments), cochez la &lt;code&gt;Select All&lt;&#x2F;code&gt; case et cliquez sur &lt;code&gt;OK&lt;&#x2F;code&gt;:&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;images&#x2F;stocktake_additem_selectall.png&quot; alt=&quot;Stocktake: select all&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;Utilisez la barre de recherche pour rechercher un article précis en tapant son nom ou son code :&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;images&#x2F;stocktake_additem_search.gif&quot; alt=&quot;Stocktake: add item search&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;Cliquez sur OK lorsque vous avez sélectionné tous les éléments que vous souhaitez compter.&lt;&#x2F;p&gt;
+&lt;p&gt;Cliquez sur OK lorsque vous avez sélectionné l&#x27;option souhaitée.&lt;&#x2F;p&gt;
 &lt;div class=&quot;tip&quot;&gt;
-Ne vous inquiétez pas si vous oubliez un élément. Vous aurez la possibilité d&#x27;ajouter d&#x27;autres articles à votre inventaire par la suite. 
+Ne vous inquiétez pas s&#x27;il manque un élément dans votre inventaire nouvellement créé. Vous aurez la possibilité d&#x27;ajouter d&#x27;autres articles à votre inventaire par la suite. 
 &lt;&#x2F;div&gt;
 &lt;h3 id=&quot;impression-de-la-feuille-d-inventaire&quot;&gt;Impression de la feuille d&#x27;inventaire&lt;a class=&quot;zola-anchor&quot; href=&quot;#impression-de-la-feuille-d-inventaire&quot; aria-label=&quot;Anchor link for: impression-de-la-feuille-d-inventaire&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;Lorsque vous consultez un inventaire spécifique, cliquez simplement sur le Printbouton qui se trouve en haut à droite de la page. Lors de l&#x27;impression, un fichier PDF est généré pour vous, qui s&#x27;ouvrira ensuite dans un nouvel onglet du navigateur. Celui-ci peut ensuite être imprimé à l&#x27;aide de votre navigateur en cliquant sur imprimer ou en utilisant les touches &lt;code&gt;control+ P&lt;&#x2F;code&gt; (si vous utilisez Windows) ou &lt;code&gt;cmd+ P&lt;&#x2F;code&gt; de votre clavier (si vous utilisez un mac).&lt;&#x2F;p&gt;
@@ -1004,7 +997,7 @@ Ne vous inquiétez pas si vous oubliez un élément. Vous aurez la possibilité 
 &lt;p&gt;Dans le menu de navigation, allez dans &lt;code&gt;Inventaire&lt;&#x2F;code&gt; et cliquez sur le sous-menu  &lt;code&gt;Stock&lt;&#x2F;code&gt;: &lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;images&#x2F;stock_gotostock.png&quot; alt=&quot;Stock: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Une liste détaillée contenant la liste de vos produits apparaît: &lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;images&#x2F;stock_viewstock.png&quot; alt=&quot;Stock: list&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;images&#x2F;stock_viewstock_fr.png&quot; alt=&quot;Stock: list&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;La liste est divisée en 8 colonnes: &lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Code&lt;&#x2F;strong&gt;: Il s&#x27;agit du code attribué à ce produit dans mSupply&lt;&#x2F;li&gt;

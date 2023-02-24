@@ -247,6 +247,8 @@
 									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/introduction/tutorial/">Tutorial</a></li>
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/introduction/dashboard/">Dashboard</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/introduction/mobile/">Mobile</a></li>
 							
 					</ul>
 					
@@ -437,14 +439,14 @@
       <main class="docs-content col-lg-11 col-xl-9">
         
         <div class="flagster" style="float: right; padding: 5px">
-          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;fr&#x2F;docs&#x2F;distribution&#x2F;outbound-shipments&#x2F;" title="Change language to fr"
-            >🇫🇷</a
+          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;distribution&#x2F;outbound-shipments&#x2F;" title="Change language to en"
+            >🇬🇧</a
           >
         </div>
         
         <div class="flagster" style="float: right; padding: 5px">
-          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;distribution&#x2F;outbound-shipments&#x2F;" title="Change language to en"
-            >🇬🇧</a
+          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;fr&#x2F;docs&#x2F;distribution&#x2F;outbound-shipments&#x2F;" title="Change language to fr"
+            >🇫🇷</a
           >
         </div>
         
@@ -671,40 +673,41 @@ This shipment has been created, allocated and picked on 29/03/2022
 <h4 id="list-of-available-batches">List of available batches:<a class="zola-anchor" href="#list-of-available-batches" aria-label="Anchor link for: list-of-available-batches">🔗</a></h4>
 <p>This is a list of batch numbers that you have in store for this item: </p>
 <ul>
-<li><strong># Packs</strong>: Number of packs to be issued</li>
-<li><strong>Pack Size</strong>: Quantity of units per pack</li>
-<li><strong>Unit Qty</strong>: Total quantity of units to be issued</li>
-<li><strong>Available</strong>: Number of packs available (not already allocated to other shipments)</li>
-<li><strong>In store</strong>: Total number of packs in your store</li>
 <li><strong>Batch</strong>: Batch number. It is a designation given to products made in the same manufacturing run. </li>
 <li><strong>Expiry</strong>: Expiry date of the batch (format: MM/YYYY)</li>
 <li><strong>Location</strong>: If you inventory is managed with storage locations, the name of the location where the item is stored</li>
-<li><strong>Sell</strong>: Selling unit price of the item</li>
+<li><strong>Pack Size</strong>: Quantity of units per pack</li>
+<li><strong>Pack Sell Price</strong>: Selling unit price of the item</li>
 <li><strong>On Hold</strong>: Indicate whether a batch is on hold or not. You cannot issue a batch that is on hold. </li>
-<li><strong>Placeholder</strong>: The placeholder line is used when the quantity you are issuing is higher than your available stock</li>
+<li><strong>In Store (packs)</strong>: Total number of packs in your store</li>
+<li><strong>Available (packs)</strong>: Number of packs available (not already allocated to other shipments)</li>
+<li><strong>[Unit] Qty Issued</strong>: Total quantity of units to be issued</li>
+<li><strong>Pack Qty Issued</strong>: Number of packs to be issued</li>
 </ul>
+<p>There is also a final row in the table which is a placeholder line, if the status of the Outbound Shipment is <code>NEW</code>.
+The placeholder line is used when the quantity you are issuing is higher than your available stock</p>
 <p><img src="/docs/distribution/images/os_additem_listofbatches.png" alt="List of available batch numbers" /></p>
 <h3 id="issue-a-quantity-of-units">Issue a quantity of units<a class="zola-anchor" href="#issue-a-quantity-of-units" aria-label="Anchor link for: issue-a-quantity-of-units">🔗</a></h3>
 <p>By default, you are invited to issue a quantity of <strong>units</strong>, regardless of the pack size (number of units in a pack). </p>
-<p>When entering a number in the <code>Issue Quantity</code> field, system automatically chooses the batch number(s) with the shortest expiry date (First to Expire, First Out or FEFO logic). </p>
+<p>When entering a number in the <code>Issue</code> field, after clicking the <code>Allocate</code> button, the system automatically chooses the batch number(s) with the shortest expiry date (First to Expire, First Out or FEFO logic). </p>
 <div class="imagetitle">
-In below example, we are issuing 100 units of the item. All 100 units will be taken from the same batch (second row). First batch was not selected because it is expired. 
+In below example, we are issuing 10 units of the item. All 10 units will be taken from the same batch (third row). The first two batches were not selected because they are expired. 
 </div>
 <p><img src="/docs/distribution/images/os_additem_issueunits.png" alt="additem!" /></p>
 <div class="imagetitle">
-In this other example, we are issuing 1200 units. System selects two batches with different pack sizes. 
+In this other example, we are issuing 100 units. System selects three batches with different pack sizes. 
 </div>
-<p><img src="/docs/distribution/images/os_additem_issueunitstwobatches.png" alt="additem!" /></p>
+<p><img src="/docs/distribution/images/os_additem_issueunitsthreebatches.png" alt="additem!" /></p>
 <p>Note that in this list, the batches which are available for selection are shown first and batches which are not (on hold or no stock available) are shown below and in a grey font.</p>
 <h3 id="issue-a-quantity-of-packs">Issue a quantity of packs<a class="zola-anchor" href="#issue-a-quantity-of-packs" aria-label="Anchor link for: issue-a-quantity-of-packs">🔗</a></h3>
 <p>You can decide to issue a quantity of <strong>packs</strong>. To do this, you can change the value in the <code>Pack Size</code> dropdown. </p>
 <div class="imagetitle">
-Let's imagine that your customer only wants pack size of 12 units. You can change the dropdown value from `Any` to `12`. 
+Let's imagine that your customer only wants pack size of 25 units. You can change the dropdown value from `Any` to `25`. 
 </div>
 <p><img src="/docs/distribution/images/os_additem_switchtopack.gif" alt="Alt Text" /></p>
-<p>You are now offered to issue a number of packs of 12 units. Only batch number(s) with a pack size of 12 units can be automatically issued.</p>
+<p>You are now offered to issue a number of packs of 25 units. Only batch number(s) with a pack size of 25 units can be automatically issued.</p>
 <div class="imagetitle">
-In below example, we are issuing 10 packs of 12 units:
+In below example, we are issuing 5 packs of 25 units:
 </div>
 <p><img src="/docs/distribution/images/os_additem_issuepacks.png" alt="additem!" /></p>
 <div class="note">
@@ -714,13 +717,13 @@ In below example, we are issuing 10 packs of 12 units:
 <p>When a pack size is selected, and stock lines which have a different pack size are not available for selection. As such, those rows are listed lower down in the table and are shown in a grey font, in the same way as other unavailable rows.</p>
 <h3 id="manual-allocation">Manual Allocation<a class="zola-anchor" href="#manual-allocation" aria-label="Anchor link for: manual-allocation">🔗</a></h3>
 <p>Regardless if you chose to issue a quantity of units or packs, you can always manually change the quantity at the batch number level directly before pressing on OK. </p>
-<p>You simply have to enter or edit the quantity in the <code># Packs</code> column. </p>
-<p>The main <code>Issue Quantity</code> field will be automatically updated with the new quantity.</p>
+<p>You simply have to enter or edit the quantity in the <code>Packs Qty Issued</code> column. </p>
+<p>The values in the <strong>Total</strong> row will be automatically updated with the new quantity.</p>
 <div class="note">
  <b></b> when allocating quantities at the batch number level, the quantity you enter is always a quantity of packs. 
 </div>
 <figure>
-<img src="/docs/distribution/os_additem_manualallocation.gif" alt="Trulli" style="width:100%">
+<img src="/docs/distribution/images/os_additem_manualallocation.gif" style="width:100%">
 <figcaption align = "center"><i>Manual allocation at the batch number level.</i></figcaption>
 </figure>
 <h3 id="issuing-when-there-is-not-enough-stock-placeholder-line">Issuing when there is not enough stock (Placeholder Line)<a class="zola-anchor" href="#issuing-when-there-is-not-enough-stock-placeholder-line" aria-label="Anchor link for: issuing-when-there-is-not-enough-stock-placeholder-line">🔗</a></h3>
@@ -915,10 +918,10 @@ To change the view mode, click the <code>Group by item</code> switch. </p>
           
             
               
-              <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;introduction&#x2F;dashboard&#x2F;">
+              <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;introduction&#x2F;mobile&#x2F;">
                 <div class="card my-1">
                   <div class="card-body py-2">
-                    &larr; Dashboard
+                    &larr; Mobile
                   </div>
                 </div>
               </a>

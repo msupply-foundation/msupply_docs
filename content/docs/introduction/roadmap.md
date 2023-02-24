@@ -21,38 +21,25 @@ gantt
  title Open mSupply Road Map
  dateFormat YY-MM-DD
  axisFormat %B
- section Version 1.0
-  Audit trail :t1-0-1, 22-08-01 , 28d
-  Installer :22-08-10 , 14d
-  Android app :t1-0-2, after t1-0-1 , 28d
-  Desktop app :after t1-0-1 , 21d
- section Version 1.0.4
-  Stock line editing :t1-0-3, 22-11-07, 21d
- section Version 1.1.0
-  Server discovery replacement (android+desktop) :22-11-07,28d
-  Database migrations :22-11-24,14d
- section Version 1.1.1
-  Fridgetag integration :22-11-21, 35d
-  Splitting packs :after t1-0-3, 35d
- section Version 1.1.2
-  Cold chain integration :t1-1-1, 22-12-05, 56d
-  Edit patients  :t1-1-2, 22-10-01 , 35d
-  Customisable forms  :after t1-0-2 , 56d
-  Programs :t1-1-3, after t1-1-2, 42d
-  Encounters: after t1-1-2, 35d
-  Periods: t1-1-4, after t1-1-3, 28d
-  Programs feature : milestone, m1, after t1-1-4, 
- section Version 2.0.0
-  Dispensing: t2-0-1, after t1-1-1, 70d
-  Preferences: t2-0-2, after t1-1-1, 28d
-  Enhanced R&R functionality: after t2-0-2, 56d
-  DHIS2 Integration: t2-0-3, after t2-0-2, 28d
+ section Version 1.1
+  Fridgetag integration :t1-1-1,23-02-21, 35d
+  Splitting packs :t1-1-2,23-03-06, 35d
+  Programs feature RC1 :t1-1-3,23-02-01, 30d
+  Android stabilisation :t1-1-4,23-02-01, 25d
+ section Version 1.2
+  Preferences: t1-2-3, after t1-1-2, 28d
+  Cold chain integration :t1-2-1, after t1-1-1, 56d
+  Programs feature rc2: t1-2-2, after t1-1-3, 90d
+ section Version 2.0
+  Dispensing: t2-0-1, after t1-2-2, 70d
+  Enhanced R&R functionality: after t1-2-3, 56d
+  DHIS2 Integration: t2-0-3, after t1-2-2, 28d
   HL7 Integration: t2-0-4, after t2-0-3, 28d
   Dispensing : milestone, m2, after t2-0-1, 
-section Version 2.1.0
+section Version 2.1
   Customer returns: t2-1-1, after t2-0-4, 32d
   Supplier returns: t2-1-2, after t2-0-4, 32d
-section Version 3.0.0
+section Version 2.2
   Item properties: t3-0-1, after t2-1-1, 14d
   Serialisation: t3-0-2, after t3-0-1, 21d
   Front-end plugin framework: after t2-1-1, 32d

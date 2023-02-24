@@ -52,25 +52,12 @@ Let's start a new stocktake. To do so, tap on the `New Stocktake` button in the 
 
 ![Stocktake: new](/docs/inventory/images/stocktake_newstocktake.png)
 
-A window appears, inviting you to select items to be counted:
+A window appears, where you can opt to create a stocktake based on items in a master list, stock in a particular location, or an empty stocktake:
 
 ![Stocktake: Add item](/docs/inventory/images/stocktake_additem2.png)
 
-### Selecting Items
 
-Select items you wish to count using the check boxes. You can select more than one: 
-
-![Stocktake: add item count](/docs/inventory/images/stocktake_additem_checkbox.png)
-
-If you want to to include every item (or most items), check the `Select All` box and click on `OK`:
-
-![Stocktake: select all](/docs/inventory/images/stocktake_additem_selectall.png)
-
-Use the search bar to look for a specific item by typing its name or its code: 
-
-![Stocktake: add item search](/docs/inventory/images/stocktake_additem_search.gif)
-
-Click on OK when you have selected all the items you would like to count. 
+Click on OK when you have selected the option you would like. 
 
 The stocktake will then be created, and existing stock lines will be used to populate the values for batch, expiry, pack size and snapshot number of packs. The lines show as light blue, and will change to black when a value is entered for the counted quantity.
 
@@ -79,15 +66,27 @@ The stocktake will then be created, and existing stock lines will be used to pop
 ![Stocktake with placeholders](/docs/inventory/images/stocktake-placeholders.png)
 
 <div class="tip">
-Don't worry if your forget one item. You will have the possibility to add more items to your stocktake afterwards. 
+Don't worry if an item is missing from your newly created stocktake. You will have the possibility to add more items to your stocktake afterwards. 
 </div>
+
+### Entering reasons
+
+If you have inventory adjustment options configured in your central server, then you are required to enter a reason when the `counted number of packs` specified does not match the snapshot number of packs. 
+
+For example, entering `100` for the counted quantity of Salbutamol, will add a red * to the right of the `Reason` input and show the negative inventory adjustment reasons:
+
+![Stocktake reasons](/docs/inventory/images/stocktake_reasons.png)
+
+If you try to save the stocktake row without entering a reason you will see an error:
+
+![Stocktake reasons](/docs/inventory/images/stocktake_reasons_error.png)
 
 ### Printing Stocktake sheet
 
 When viewing a specific Stocktake, simply click the `Print` button which is on the top right of the page.
 When printing, a PDF file is generated for you, which will then open in a new browser tab. This can then be printed using your browser by clicking print or using `control`+`P` (if using windows) or `cmd`+`P` keys on your keyboard (if using a mac).
 
-![Print button](//docs/introduction/images//print_button.png)
+![Print button](/docs/introduction/images/print_button.png)
 
 This will either
 * Show a menu of possible reports for you to select from before creating a PDF. This will happen if there are more than one report defined for the `Stocktake` report type.

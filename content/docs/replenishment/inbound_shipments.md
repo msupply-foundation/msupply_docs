@@ -43,7 +43,6 @@ The Inbound Shipments list is divided into 7 columns:
 | **Status** | Current Status of the shipment | 
 | **Number** | Reference Number of the shipment | 
 | **Created** | Creation date of the shipment | 
-| **Confirmed** | Confirmation date of the shipment | 
 | **Comment** | Comment for the shipment |
 | **Total** | Total value of the shipment |
 

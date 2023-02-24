@@ -23,7 +23,7 @@ Dans le menu de navigation, allez dans `Inventaire` et cliquez sur le sous-menu 
 
 Une liste détaillée contenant la liste de vos produits apparaît: 
 
-![Stock: list](/docs/inventory/images/stock_viewstock.png)
+![Stock: list](/docs/inventory/images/stock_viewstock_fr.png)
 
 La liste est divisée en 8 colonnes: 
 * **Code**: Il s'agit du code attribué à ce produit dans mSupply

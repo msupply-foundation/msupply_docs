@@ -62,7 +62,7 @@ However, you can also click on an item in the list, or search available commands
 
 In addition - there are various places where specific keyboard shortcuts are available. An example is the tab control used in both Stocktakes and Inbound Shipments. Here you can use `control`+`1` to navigate to the first tab (Quantities) or `control`+`2` for the second tab (Pricing) etc. If you press `+` on your keyboard, you can add a new batch.
 
-![Inbound tabs](/docs/replenishment/is_edit_keyboard_shortcuts.png)
+![Inbound tabs](/docs/replenishment/images/is_edit_keyboard_shortcuts.png)
 
 ## Footer
 
@@ -75,6 +75,11 @@ Some users have access to more than one store. To change the store which is curr
 ![Store switcher](/docs/introduction/images/store_switcher.gif)
 
 You will see the notification and the store name in the footer will be updated. From now, all actions will be in the newly selected store.
+
+In a similar way, you can select another language by clicking on the current language in the footer:
+
+![Footer](/docs/introduction/images/footer_select_language.png)
+
 
 ## Help!
 
