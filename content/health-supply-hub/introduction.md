@@ -12,6 +12,7 @@ toc = true
 top = false
 +++
 
-Welcome to Health Supply Hub (HSH). HSH is a web-based platform to facilitate procurement of medical supplies.
-HSH is designed to integrate closely with the mSupply software allowing mSupply users to easily create tenders based on the products they use and need.
-Developed in partnership with Indo-Pacific Health & Supply Chain Data & Technical Assistance Centre (DTAC), the Health Supply Hub aims to streamline processes such as tender pre-qualification and product evaluation, and to provide a centralised mechanism for suppliers to view and respond to tenders and RFQs.
+Health Supply Hub (HSH) is a web-based platform to facilitate procurement of medical supplies.
+
+HSH is designed to integrate closely with the mSupply software allowing mSupply users to easily create tenders &amp; RFQs based on the products they use and need.
+Developed in partnership with [Indo-Pacific Health & Supply Chain Data & Technical Assistance Centre (DTAC)](https://msupply.foundation/projects/DTAC), the Health Supply Hub aims to streamline processes such as tender pre-qualification and product evaluation, and to provide a centralised mechanism for suppliers to view and respond to tenders and RFQs.
