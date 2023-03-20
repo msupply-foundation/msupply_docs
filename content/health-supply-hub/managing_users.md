@@ -12,25 +12,23 @@ toc = true
 top = false
 +++
 
-# Managing Your Organisation In HSH
-
 ## User Roles
 
 Within your organisation account in HSH there are two different User roles:
 
-### Organisation Admin (Administrator):
-
-- can view quotes;
-- can draft quotes;
-- can submit quotes; and
-- is responsible for the system administrative tasks, including managing users.
-
 ### Organisation Access (General user):
 
 - can view quotes;
-- can draft quotes; and
-- can submit quotes.
-  Please note: All users can submit quotes in HSH.
+- can upload quotes;
+- can upload additional documentation;
+- can submit quotes; and
+
+### Organisation Admin (Administrator):
+
+- same accesss as above;
+- additionally is able to do to system administrative tasks, including managing users for your organisation, and updating the organisation's details.
+
+> Please note: All users can submit quotes in HSH.
 
 ##### Administrator Responsibilities
 

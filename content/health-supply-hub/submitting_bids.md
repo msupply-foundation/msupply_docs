@@ -36,7 +36,7 @@ Information that you may be required to provide to a Purchaser includes:
 
 ## Expressing Interest To Bid On A Purchaser Request
 
-It is your responsibility to review Requests from Purchasers on HSH. If you are interested in a particular request for supply, you should Click the ‘Register to Quote’ button to ensure any further correspondence related to that opportunity will be sent to you.
+It is your responsibility to review Requests from Purchasers on HSH. If you are interested in a particular request for supply, you should Click the ‘Register to Quote’ button to ensure any further correspondence related to that opportunity will be sent to you and to enable the upload quote functionality.
 
 It is your sole responsibility to engage with the relevant Purchaser to indicate your interest in supplying for them.
 
@@ -121,6 +121,8 @@ It is your sole responsibility to engage with the relevant Purchaser to indicate
 6. In addition to submitting your product bids you must also ensure that you have provided the Purchaser with all the additional requested documentation. You can upload these documents to HSH by clicking the Attachment button and dragging and dropping the files in the greyed out section or click the greyed out section to search for them.
 
 ![Supplier upload attachments](/health-supply-hub/images/supplier_attach_files.png)
+
+> IMPORTANT: If your quote has been uploaded, but not submitted, the Purchaser will not be able to see your quote. Ensure you're quote status is displayed as "Quote Submitted" before the closing date.
 
 ## Tips
 
