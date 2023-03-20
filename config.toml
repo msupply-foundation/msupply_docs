@@ -87,7 +87,7 @@ url = "/dashboard/introduction"
 weight = 30
 
 [[extra.menu.main]]
-name = "Mobile- Old Version"
+name = "Mobile (Legacy)"
 section = "mobile"
 url = "/mobile/introduction/introduction"
 weight = 40
