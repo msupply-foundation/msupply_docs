@@ -174,3 +174,19 @@ table {
   position:absolute;
   top: 0;
 }
+
+.markdown-body h1:hover .zola-anchor, 
+.markdown-body h2:hover .zola-anchor, 
+.markdown-body h3:hover .zola-anchor, 
+.markdown-body h4:hover .zola-anchor, 
+.markdown-body h5:hover .zola-anchor, 
+.markdown-body h6:hover .zola-anchor {
+  visibility: visible;
+}
+
+.zola-anchor {
+  font-size: 1rem;
+  margin-left: 8px;
+  vertical-align: middle;
+  visibility: hidden;
+}

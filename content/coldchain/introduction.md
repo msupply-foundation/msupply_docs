@@ -4,13 +4,13 @@ description = "mSupply Coldchain user documentation."
 date = 2025-05-01T08:00:00+00:00
 updated = 2021-05-01T08:00:00+00:00
 sort_by = "weight"
-weight = 1
+weight = 101
 template = "coldchain/page.html"
 
 [extra]
 lead = "Welcome to mSupply Coldchain!"
 toc = true
-top = false
+top = true
 +++
 
 mSupply Coldchain is an Android application that uses low cost Bluetooth temeperature sensors to monitor fridges and freezers in warehouses, hospitals and health centres.

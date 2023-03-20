@@ -4,7 +4,7 @@ description = "Configurer les paramètres de synchronisation du serveur"
 date = 2022-05-17T16:20:00+00:00
 updated = 2022-05-17T16:20:00+00:00
 draft = false
-weight = 1
+weight = 72
 sort_by = "weight"
 template = "docs/page.html"
 

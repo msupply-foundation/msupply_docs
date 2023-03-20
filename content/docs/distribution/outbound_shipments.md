@@ -4,7 +4,7 @@ description = "Issuing stock to your customers."
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
 draft = false
-weight = 3
+weight = 23
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -62,7 +62,7 @@ From this screen you can:
 
 4. You can also select a different number of rows to show per page using the option at the bottom right of the page.
 
-![Rows per page](/docs/images/rows-per-page-select.png)
+![Rows per page](/docs/introduction/images/rows-per-page-select.png)
 
 ### Search by Customer Name
 
@@ -308,17 +308,20 @@ Default value is `Any` when you are issuing units.
 #### List of available batches:
 
 This is a list of batch numbers that you have in store for this item: 
-* **# Packs**: Number of packs to be issued
-* **Pack Size**: Quantity of units per pack
-* **Unit Qty**: Total quantity of units to be issued
-* **Available**: Number of packs available (not already allocated to other shipments)
-* **In store**: Total number of packs in your store
+
 * **Batch**: Batch number. It is a designation given to products made in the same manufacturing run. 
 * **Expiry**: Expiry date of the batch (format: MM/YYYY)
 * **Location**: If you inventory is managed with storage locations, the name of the location where the item is stored
-* **Sell**: Selling unit price of the item
+* **Pack Size**: Quantity of units per pack
+* **Pack Sell Price**: Selling unit price of the item
 * **On Hold**: Indicate whether a batch is on hold or not. You cannot issue a batch that is on hold. 
-* **Placeholder**: The placeholder line is used when the quantity you are issuing is higher than your available stock
+* **In Store (packs)**: Total number of packs in your store
+* **Available (packs)**: Number of packs available (not already allocated to other shipments)
+* **[Unit] Qty Issued**: Total quantity of units to be issued
+* **Pack Qty Issued**: Number of packs to be issued
+
+There is also a final row in the table which is a placeholder line, if the status of the Outbound Shipment is `NEW`.
+The placeholder line is used when the quantity you are issuing is higher than your available stock
 
 ![List of available batch numbers](/docs/distribution/images/os_additem_listofbatches.png)
 
@@ -326,19 +329,19 @@ This is a list of batch numbers that you have in store for this item:
 
 By default, you are invited to issue a quantity of **units**, regardless of the pack size (number of units in a pack). 
 
-When entering a number in the `Issue Quantity` field, system automatically chooses the batch number(s) with the shortest expiry date (First to Expire, First Out or FEFO logic). 
+When entering a number in the `Issue` field, after clicking the `Allocate` button, the system automatically chooses the batch number(s) with the shortest expiry date (First to Expire, First Out or FEFO logic). 
 
 <div class="imagetitle">
-In below example, we are issuing 100 units of the item. All 100 units will be taken from the same batch (second row). First batch was not selected because it is expired. 
+In below example, we are issuing 10 units of the item. All 10 units will be taken from the same batch (third row). The first two batches were not selected because they are expired. 
 </div>
 
 ![additem!](/docs/distribution/images/os_additem_issueunits.png)
 
 <div class="imagetitle">
-In this other example, we are issuing 1200 units. System selects two batches with different pack sizes. 
+In this other example, we are issuing 100 units. System selects three batches with different pack sizes. 
 </div>
 
-![additem!](/docs/distribution/images/os_additem_issueunitstwobatches.png)
+![additem!](/docs/distribution/images/os_additem_issueunitsthreebatches.png)
 
 Note that in this list, the batches which are available for selection are shown first and batches which are not (on hold or no stock available) are shown below and in a grey font.
 
@@ -347,15 +350,15 @@ Note that in this list, the batches which are available for selection are shown 
 You can decide to issue a quantity of **packs**. To do this, you can change the value in the `Pack Size` dropdown. 
 
 <div class="imagetitle">
-Let's imagine that your customer only wants pack size of 12 units. You can change the dropdown value from `Any` to `12`. 
+Let's imagine that your customer only wants pack size of 25 units. You can change the dropdown value from `Any` to `25`. 
 </div>
 
 ![Alt Text](/docs/distribution/images/os_additem_switchtopack.gif)
 
-You are now offered to issue a number of packs of 12 units. Only batch number(s) with a pack size of 12 units can be automatically issued.
+You are now offered to issue a number of packs of 25 units. Only batch number(s) with a pack size of 25 units can be automatically issued.
 
 <div class="imagetitle">
-In below example, we are issuing 10 packs of 12 units:
+In below example, we are issuing 5 packs of 25 units:
 </div>
 
 ![additem!](/docs/distribution/images/os_additem_issuepacks.png)
@@ -372,16 +375,16 @@ When a pack size is selected, and stock lines which have a different pack size a
 
 Regardless if you chose to issue a quantity of units or packs, you can always manually change the quantity at the batch number level directly before pressing on OK. 
 
-You simply have to enter or edit the quantity in the `# Packs` column. 
+You simply have to enter or edit the quantity in the `Packs Qty Issued` column. 
 
-The main `Issue Quantity` field will be automatically updated with the new quantity.  
+The values in the **Total** row will be automatically updated with the new quantity.  
 
 <div class="note">
  <b></b> when allocating quantities at the batch number level, the quantity you enter is always a quantity of packs. 
 </div>
 
 <figure>
-<img src="/docs/distribution/os_additem_manualallocation.gif" alt="Trulli" style="width:100%">
+<img src="/docs/distribution/images/os_additem_manualallocation.gif" style="width:100%">
 <figcaption align = "center"><i>Manual allocation at the batch number level.</i></figcaption>
 </figure>
 

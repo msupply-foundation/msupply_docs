@@ -4,7 +4,7 @@ description = "Receiving stock from suppliers."
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
 draft = false
-weight = 3
+weight = 43
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -43,7 +43,6 @@ The Inbound Shipments list is divided into 7 columns:
 | **Status** | Current Status of the shipment | 
 | **Number** | Reference Number of the shipment | 
 | **Created** | Creation date of the shipment | 
-| **Confirmed** | Confirmation date of the shipment | 
 | **Comment** | Comment for the shipment |
 | **Total** | Total value of the shipment |
 
@@ -57,7 +56,7 @@ The Inbound Shipments list is divided into 7 columns:
 
 4. You can also select a different number of rows to show per page using the option at the bottom right of the page.
 
-![Rows per page](/docs/images/rows-per-page-select.png)
+![Rows per page](/docs/introduction/images/rows-per-page-select.png)
 
 ### Search by Supplier Name
 

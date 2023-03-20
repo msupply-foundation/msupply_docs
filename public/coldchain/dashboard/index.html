@@ -170,7 +170,7 @@
 				
 					
 						<li class="nav-item">
-							<a class="nav-link" href="https://docs.msupply.foundation/docs/introduction/">Desktop</a>
+							<a class="nav-link" href="https://docs.msupply.foundation/docs/introduction/introduction/">Open mSupply (Desktop+Mobile)</a>
 						</li>
 					
 						<li class="nav-item coldchain active">
@@ -182,7 +182,7 @@
 						</li>
 					
 						<li class="nav-item">
-							<a class="nav-link" href="https://docs.msupply.foundation/mobile/introduction/">Mobile</a>
+							<a class="nav-link" href="https://docs.msupply.foundation/mobile/introduction/introduction/">Mobile- Old Version</a>
 						</li>
 					
 				
@@ -273,11 +273,11 @@
         
 
         <h1>Integration with mSupply Dashboard</h1>
-         <h3 id="introduction">Introduction</h3>
+         <h3 id="introduction">Introduction<a class="zola-anchor" href="#introduction" aria-label="Anchor link for: introduction">🔗</a></h3>
 <p>One of the things that makes mSupply Coldchain unique is that, when integrated with mSupply Desktop, it can not only tell you when there has been a breach, but also which batches have been affected.</p>
 <p>The following examples use the mSupply Grafana dashboard to visualise information. Usually a consultant from the mSupply Foundation will set these up for you, but they're recorded below for users who have the skill, or who may want to tweak a query to suit their particular situation.</p>
 <p>These queries generally need to be set up by an administrator but have been included here as a reference to demonstrate some of the mSupply cold chain data that can be made available on the mSupply Dashboard.</p>
-<h3 id="sensor-graph">Sensor Graph</h3>
+<h3 id="sensor-graph">Sensor Graph<a class="zola-anchor" href="#sensor-graph" aria-label="Anchor link for: sensor-graph">🔗</a></h3>
 <p><img src="/coldchain/images/dashboard_sensor_graph.png" alt="Dashboard Sensor Graph!" /></p>
 <p><strong>Query:</strong></p>
 <pre data-lang="sql" style="background-color:#2b303b;color:#c0c5ce;" class="language-sql "><code class="language-sql" data-lang="sql"><span style="color:#b48ead;">WITH</span><span> temp AS (
@@ -297,7 +297,7 @@
 </span><span style="color:#b48ead;">FROM</span><span> temp
 </span><span style="color:#b48ead;">ORDER BY</span><span> log_datetime
 </span></code></pre>
-<h3 id="unacknowledged-breaches">Unacknowledged Breaches</h3>
+<h3 id="unacknowledged-breaches">Unacknowledged Breaches<a class="zola-anchor" href="#unacknowledged-breaches" aria-label="Anchor link for: unacknowledged-breaches">🔗</a></h3>
 <p><img src="/coldchain/images/unacknowledged_breaches_dashboard.png" alt="Unacknowledged Breaches!" /></p>
 <p><strong>Query:</strong></p>
 <pre data-lang="sql" style="background-color:#2b303b;color:#c0c5ce;" class="language-sql "><code class="language-sql" data-lang="sql"><span style="color:#b48ead;">WITH</span><span> breaches AS (
@@ -316,7 +316,7 @@
 </span><span style="color:#b48ead;">SELECT </span><span style="color:#96b5b4;">COUNT</span><span>(</span><span style="color:#bf616a;">*</span><span>) </span><span style="color:#b48ead;">FROM</span><span> breaches
 </span><span>
 </span></code></pre>
-<h3 id="batches-affected">Batches affected</h3>
+<h3 id="batches-affected">Batches affected<a class="zola-anchor" href="#batches-affected" aria-label="Anchor link for: batches-affected">🔗</a></h3>
 <p><img src="/coldchain/images/batches_affected_dashboard.png" alt="Batches affected!" /></p>
 <p><strong>Query:</strong></p>
 <pre data-lang="sql" style="background-color:#2b303b;color:#c0c5ce;" class="language-sql "><code class="language-sql" data-lang="sql"><span style="color:#b48ead;">WITH</span><span> batch_count AS (
@@ -337,7 +337,7 @@
 </span><span>)
 </span><span style="color:#b48ead;">SELECT </span><span style="color:#96b5b4;">COUNT</span><span>(</span><span style="color:#bf616a;">*</span><span>) </span><span style="color:#b48ead;">FROM</span><span> batch_count
 </span></code></pre>
-<h3 id="sensor-battery-life">Sensor battery life</h3>
+<h3 id="sensor-battery-life">Sensor battery life<a class="zola-anchor" href="#sensor-battery-life" aria-label="Anchor link for: sensor-battery-life">🔗</a></h3>
 <p><img src="/coldchain/images/sensor_batter_life_dashboard.png" alt="Sensor battery life!" /></p>
 <p><strong>Query:</strong></p>
 <pre data-lang="sql" style="background-color:#2b303b;color:#c0c5ce;" class="language-sql "><code class="language-sql" data-lang="sql"><span style="color:#b48ead;">select 
@@ -348,7 +348,7 @@
 </span><span style="color:#b48ead;">where </span><span style="color:#d08770;">s</span><span>.</span><span style="color:#d08770;">is_active </span><span>= </span><span style="color:#d08770;">true 
 </span><span>
 </span></code></pre>
-<h3 id="telegram-notifications-for-cold-chain">Telegram notifications for Cold Chain</h3>
+<h3 id="telegram-notifications-for-cold-chain">Telegram notifications for Cold Chain<a class="zola-anchor" href="#telegram-notifications-for-cold-chain" aria-label="Anchor link for: telegram-notifications-for-cold-chain">🔗</a></h3>
 <p>General instructions are here: https://gist.github.com/ilap/cb6d512694c3e4f2427f85e4caec8ad7</p>
 <p>But note that you need to invite your bot, not the bot father to the channel</p>
 <p>Temperature logs rely on the using mSupply Desktop to transfer mSupply Coldchain records from the tablet to the server. If the mSupply Desktop (alternate) web server is not running then no logs will be synced (and hence nothing will show on the Dashboard).</p>
@@ -363,46 +363,6 @@
   
   
   
-    
-    
-    
-    
-      
-        
-        
-          
-        
-      
-        
-        
-          
-        
-      
-        
-        
-          
-            
-              
-              <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;dashboard&#x2F;">
-                <div class="card my-1">
-                  <div class="card-body py-2">
-                    &larr; Dashboard
-                  </div>
-                </div>
-              </a>
-            
-            
-            
-          
-        
-      
-        
-        
-          
-        
-      
-    
-  
 
   
   
@@ -412,38 +372,6 @@
     
     
     
-      
-      
-        
-      
-    
-      
-      
-        
-      
-    
-      
-      
-        
-      
-    
-      
-      
-        
-          
-          
-          <a class="ms-auto" href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;mobile&#x2F;introduction&#x2F;">
-            <div class="card my-1">
-              <div class="card-body py-2">
-                Introduction &rarr;
-              </div>
-            </div>
-          </a>
-          
-          
-          
-        
-      
     
   
 </div>

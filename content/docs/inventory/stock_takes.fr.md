@@ -59,31 +59,17 @@ Une fenêtre apparaît, vous invitant à sélectionner les éléments à comptab
 
 ![Stocktake: Add item](/docs/inventory/images/stocktake_additem2.png)
 
-### Sélection d'éléments
-
-Sélectionnez les éléments que vous souhaitez compter à l'aide des cases à cocher. Vous pouvez en sélectionner plusieurs :
-
-![Stocktake: add item count](/docs/inventory/images/stocktake_additem_checkbox.png)
-
-Si vous souhaitez inclure tous les éléments (ou la plupart des éléments), cochez la `Select All` case et cliquez sur `OK`:
-
-![Stocktake: select all](/docs/inventory/images/stocktake_additem_selectall.png)
-
-Utilisez la barre de recherche pour rechercher un article précis en tapant son nom ou son code :
-
-![Stocktake: add item search](/docs/inventory/images/stocktake_additem_search.gif)
-
-Cliquez sur OK lorsque vous avez sélectionné tous les éléments que vous souhaitez compter.
+Cliquez sur OK lorsque vous avez sélectionné l'option souhaitée.
 
 <div class="tip">
-Ne vous inquiétez pas si vous oubliez un élément. Vous aurez la possibilité d'ajouter d'autres articles à votre inventaire par la suite. 
+Ne vous inquiétez pas s'il manque un élément dans votre inventaire nouvellement créé. Vous aurez la possibilité d'ajouter d'autres articles à votre inventaire par la suite. 
 </div>
 
 ### Impression de la feuille d'inventaire
 
 Lorsque vous consultez un inventaire spécifique, cliquez simplement sur le Printbouton qui se trouve en haut à droite de la page. Lors de l'impression, un fichier PDF est généré pour vous, qui s'ouvrira ensuite dans un nouvel onglet du navigateur. Celui-ci peut ensuite être imprimé à l'aide de votre navigateur en cliquant sur imprimer ou en utilisant les touches `control+ P` (si vous utilisez Windows) ou `cmd+ P` de votre clavier (si vous utilisez un mac).
 
-![Print button](/docs/images/print_button.png)
+![Print button](//docs/introduction/images//print_button.png)
 
 Cela va soit:
 * Affiche un menu de rapports possibles parmi lesquels choisir avant de créer un PDF. Cela se produira si plusieurs rapports sont définis pour le Stocktaketype de rapport.

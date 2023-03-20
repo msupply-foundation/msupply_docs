@@ -4,13 +4,13 @@ description = "mSupply Dashboard Panels."
 date = 2025-05-01T08:00:00+00:00
 updated = 2021-05-01T08:00:00+00:00
 sort_by = "weight"
-weight = 4
+weight = 204
 template = "dashboard/page.html"
 
 [extra]
 lead = "Regular Excel Reports via Email"
 toc = true
-top = false
+top = true
 +++
 
 Excel report e-mail scheduler

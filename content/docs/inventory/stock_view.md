@@ -4,7 +4,7 @@ description = "View Stock"
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
 draft = false
-weight = 1
+weight = 63
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -34,6 +34,8 @@ The list is divided into 8 columns:
 * **Unit**: The unit you use for this item
 * **Pack Size**: Number of units per pack
 * **Pack Qty**: Number of packs available in your store
+* **SOH**: The total quantity of stock on hand, in number of packs
+* **Supplier** Shows the source of this stock item
 
 
 ## Looking for a specific item

@@ -4,15 +4,13 @@ description = "mSupply mobile- Open source Android application."
 date = 2025-05-01T08:00:00+00:00
 updated = 2021-05-01T08:00:00+00:00
 sort_by = "weight"
-weight = 1
+weight = 331
 template = "mobile/page.html"
 
 [extra]
 toc = true
 top = false
 +++
-
-[<img src="/_media/banner_mobile_userguide.png?w=600&amp;tok=9b9def" class="media" loading="lazy" title="mSupply Mobile User Guide menu" alt="mSupply Mobile User Guide menu" width="600" />](/en:mobile:user_guide)
 
 mSupply Mobile will automatically keep track of your stock levels for you, as you receive stock and give it out. 
 
@@ -38,11 +36,11 @@ Ideally, you should be doing a physical stocktake of each item **EVERY** time yo
 </div>
 
 
-Let's learn how to do a stocktake… Using mSupply Mobile makes doing stocktake a lot easier than before!
+Let's learn how to do a stocktake. Using mSupply Mobile makes doing stocktake a lot easier than before!
 
 ### Click on Stocktakes
 
-![Custom invoices button on Navigator](/mobile/images/stocktake_general.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/stocktake_general.png)
 
 This brings up a list of all your previous stocktakes.
 
@@ -52,10 +50,9 @@ There are two stocktake statuses: **In Progress** (current) and **Finalised** (p
 
 <div class="tip">
 
-An **In Progress** stocktake is one you are still working on. If you want to keep working on an In Progress stocktake, double click on it.
 #### In Progress stocktakes
 
-**In Progress** stocktakes are the stocktakes you are still working on and haven't finalised. 
+An **In Progress** stocktake is one you are still working on. If you want to keep working on an In Progress stocktake, double click on it.
 
 We **strongly** recommend only having one In Progress stocktake at any time. This will prevent mistakes when moving between them.
 
@@ -64,23 +61,24 @@ We **strongly** recommend only having one In Progress stocktake at any time. Thi
 </div>
 
 ----
-Let's start a new stocktake now…
+## Start a New Stocktake 
 
-### Click on New Stocktake
 
-![Custom invoices button on Navigator](/mobile/images/stocktake_new.png)
+Click on New Stocktake.
 
-### Select the items you wish to count
+![Custom invoices button on Navigator](/mobile/introduction/images/stocktake_new.png)
 
-![Custom invoices button on Navigator](/mobile/images/stocktake_general_select_items.png)
+Select the items you wish to count.
+
+![Custom invoices button on Navigator](/mobile/introduction/images/stocktake_general_select_items.png)
 
 If you want to include every item or most items, select **All Items Selected**.
 
-![Custom invoices button on Navigator](/mobile/images/stocktake_general_select_items2.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/stocktake_general_select_items2.png)
 
 To hide items with 0 stock, select the **Hide Stockouts** toggle.
 
-![Custom invoices button on Navigator](/mobile/images/stocktake_general_select_items3.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/stocktake_general_select_items3.png)
 
 ### Give your stocktake a logical name
 
@@ -88,7 +86,7 @@ For example, 'April Full Stocktake'.
 
 Then click **Create**. 
 
-![Custom invoices button on Navigator](/mobile/images/stocktake_general_name.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/stocktake_general_name.png)
 
 ### This will bring up the Stocktake Editor
 
@@ -108,7 +106,7 @@ If you change the amount of stock you have in the Actual Quantity column, this v
 
 This can take some time but remember - if the **Snapshot Quantity** is correct, you don't need to do anything! 
 
-![Custom invoices button on Navigator](/mobile/images/stocktake_snapshot.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/stocktake_snapshot.png)
 
 ### If prompted, enter a reason for inventory adjustments
 
@@ -124,9 +122,9 @@ As of v5.0.0 of mSupply mobile, the reason column is only displayed for stocktak
 
 If the **Actual Quantity** entered is different from the **Snapshot Quantity**, you will be prompted to select a **Reason** for the **Difference** from a standard list. You will not be able to continue until a reason is selected.
 
-![Custom invoices button on Navigator](/mobile/images/stocktake_adjustment_reason.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/stocktake_adjustment_reason.png)
 
-![Custom invoices button on Navigator](/mobile/images/stocktake_difference_reason.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/stocktake_difference_reason.png)
 
 To change the reason, click on the cell again.
 
@@ -134,37 +132,39 @@ To change the reason, click on the cell again.
 
 You can adjust batch-specific information or add new batches by clicking the item's **Batches** icon. 
 
-![Custom invoices button on Navigator](/mobile/images/stocktake_batches_info.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/stocktake_batches_info.png)
 
 In this example there is only one batch of paracetamol. 
 
-![Custom invoices button on Navigator](/mobile/images/stocktake_batches_info2.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/stocktake_batches_info2.png)
 
 If there are multiple batches:
 
   * **Inventory adjustments will be automatically made to the batch that arrived first (i.e. first in - first out).**
     * In this example there are three batches of ibuprofen. The **Snapshot Quantity** was 300 and the **Actual Quantity** was 220. The **Difference** of 80 was automatically taken away from the batch that arrived first. However, this can be manually changed in this screen.
 
-![Custom invoices button on Navigator](/mobile/images/stocktake_batches_multiple.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/stocktake_batches_multiple.png)
 
   * **The inventory adjustment reason selected will automatically apply to all batches.** 
     * However, separate reasons for different batches can be manually changed in this screen. In this example we have updated the inventory adjustment of 80 among the batches of ibuprofen, with separate reasons for each batch. 
 
-![Custom invoices button on Navigator](/mobile/images/stocktake_batches_multiple2.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/stocktake_batches_multiple2.png)
 
 When you are finished making changes in the **Batches** screen, click **OK**. 
 
-Note: The main stocktake screen will only show the most common reason among the batches for an item's inventory adjustment.
+<div class="tip">
+The main stocktake screen will only show the most common reason among the batches for an item's inventory adjustment.
+</div>
 
-### When you are finished...
+### When you are finished
 
 Click **Finalise**.
 
-![Custom invoices button on Navigator](/mobile/images/stocktake_finalize2.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/stocktake_finalize2.png)
 
 This will update all your stock levels to match the quantities you have entered in the **Actual Quantity** column.
 
 Like always with mSupply Mobile, you don't need to be connected to the internet to do this - the information will sync in the background when internet becomes available.
 
-|  *  Previous:  **[Current Stock](/en:mobile:user_guide:current_stock)** | | Next: **[Stocktakes (Program)](/en:mobile:user_guide:stocktakes_program)** *  
+
 
