@@ -18,7 +18,7 @@ By requesting to register your organisation on HSH you acknowledge that you have
 
 ### Registration Process
 
-1. To register your organisation please use the supplier registration form here TODO: ADD LINK
+1. To register your organisation please use the supplier registration form [here](https://forms.gle/oDDwAKKB3B6gMWPW7)
 2. You will need to provide basic information about your organisation and your organisation's approved HSH Administrator.
 
 3. The HSH Team will then register your organisation. Once processed, all designated users will receive a verification email. Click the provided link to navigate to the user account activation page.
