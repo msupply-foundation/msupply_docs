@@ -36,7 +36,7 @@ Information that you may be required to provide to a Purchaser includes:
 
 ## Expressing Interest To Bid On A Purchaser Request
 
-It is your responsibility to review Requests from Purchasers on HSH. If you are interested in a particular request for supply, you should Click the ‘Register to Quote’ button to ensure any further correspondence related to that opportunity will be sent to you and to enable the upload quote functionality.
+It is your responsibility to review Requests from Purchasers on HSH. If you are interested in a particular request for supply, you should click the ‘Register to Quote’ button to ensure any further correspondence related to that opportunity will be sent to you and to enable the upload quote functionality.
 
 It is your sole responsibility to engage with the relevant Purchaser to indicate your interest in supplying for them.
 
@@ -52,25 +52,25 @@ It is your sole responsibility to engage with the relevant Purchaser to indicate
 
 ![Tender Screenshot with Annotations](/health-supply-hub/images/annotated_tender.png)
 
-> a. The Purchaser who is advertising the request  
-> b. The name of the Request  
-> c. The date the Request was advertised  
-> d. The Purchaser’s preferred commercial supply terms as per the specified Incoterm  
-> e. Status of Request  
-> f. Comment section that you can fill out at your discretion for the Purchaser’s benefit  
-> g. The ‘Tender Documents’ Tab is where you’ll find the Purchasers documents relevant to that supply request e.g.Terms and Conditions, Check List documents, A supplier due diligence form  
-> h. Purchaser documents that can be viewed on the Tender Documents tab  
-> i. The ‘Attachments‘ tab is where you can upload documents that have been requested by the Purchaser eg GMP certificates for your manufacturers. Clicking on this tab will enable you to view documents your organisation has uploaded in response to the supply request  
-> j. Where you can download the mandatory Quote template  
-> k. Where you upload your filled in Quote template  
-> l. Button you press to submit your quote once your quote template is successfully loaded, and you are willing to commit to supply  
-> m. The date the request is due to close
+**a.** The Purchaser who is advertising the request  
+**b.** The name of the Request  
+**c.** The date the Request was advertised  
+**d.** The Purchaser’s preferred commercial supply terms as per the specified Incoterm  
+**e.** Status of Request  
+**f.** Comment section that you can fill out at your discretion for the Purchaser’s benefit  
+**g.** The ‘Tender Documents’ Tab is where you’ll find the Purchasers documents relevant to that supply request e.g.Terms and Conditions, Check List documents, A supplier due diligence form  
+**h.** Purchaser documents that can be viewed on the Tender Documents tab  
+**i.** The ‘Attachments‘ tab is where you can upload documents that have been requested by the Purchaser eg GMP certificates for your manufacturer**s.** Clicking on this tab will enable you to view documents your organisation has uploaded in response to the supply request  
+**j.** Where you can download the mandatory Quote template  
+**k.** Where you upload your filled in Quote template  
+**l.** Button you press to submit your quote once your quote template is successfully loaded, and you are willing to commit to supply  
+**m.** The date the request is due to close
 
 ## The Quote Template
 
 1. Health Supply Hub has a Microsoft® Excel ® quote template that must be strictly followed. This is to ensure that your quote is compatible with the Purchaser’s mSupply System.
 2. Failure to fill out the quote template correctly means you will be unable to upload your quote into HSH.
-3. If you are unable to submit a quote through HSH this may put you at a commercial disadvantage – Purchasers may choose to exclude suppliers quotes from further consideration if they do not submit their quotes via HSH.
+3. If you are unable to submit a quote through HSH this may put you at a commercial disadvantage – Purchasers may choose to exclude suppliers' quotes from further consideration if they do not submit their quotes via HSH.
 4. This screen shot shows the Purchaser generated data.
 
 ![Quote Template Purchaser Section](/health-supply-hub/images/quote_purchaser_fields.png)
@@ -80,10 +80,10 @@ It is your sole responsibility to engage with the relevant Purchaser to indicate
 **Column C** Item Code # – This is the code the Purchaser uses for this item  
 **Column D** Item Name Column  
 **Column E** Number of Packs required in the Purchaser’s requested pack size  
-**Column F** Purchasers requested Pack Size  
+**Column F** Purchaser's requested Pack Size  
 **Column G** Total Quantity of single units being requested by the Purchaser  
 **Column H** Any conditions the Purchaser may have for a particular Quote Item  
-**Column I** The Purchasers Unit of Measure
+**Column I** Purchasers Unit of Measure
 
 5. This screen shot shows the fields you must fill in to submit a quote
 
@@ -92,12 +92,12 @@ It is your sole responsibility to engage with the relevant Purchaser to indicate
 **Column J** Enter in how many packs you are offering to supply the Purchaser  
 **Column K** Enter in the Pack Size of the product your offering to supply  
 **Column L** Enter in the Price you are offering to supply a single pack of your product at, in the currency you allocated in the next column  
-**Column M** The currency your Quoted price per pack is in (Please use [ISO currency codes](https://en.wikipedia.org/wiki/ISO_4217#List_of_ISO_4217_currency_codes))
+**Column M** The currency your Quoted price per pack is in (Please use [ISO currency codes](https://en.wikipedia.org/wiki/ISO_4217#List_of_ISO_4217_currency_codes))  
 **Column N** When your product is expected to expire, or the shelf life if the product has not yet been manufactured  
-**Column O** Delivery time, explain how long it would take to get your product to the Purchasers identified delivery location  
+**Column O** Delivery time, explain how long it would take to get your product to the Purchaser's identified delivery location  
 **Column P** The finished product manufacturer of your product. NB Please check this is not just the regulatory sponsor / distributor of the product  
 **Column Q** How you would deliver the product eg Air freight or Sea Freight  
-**Column R** You can choose to put your internal reference code in here  
+**Column R** You can choose to put your internal reference code or product identifier here  
 **Column S** A field to put any further comments in to explain what you are offering the Purchaser more clearly, or include any other information you think the Purchaser may need to know
 
 ## Submitting Your Quote
@@ -122,7 +122,7 @@ It is your sole responsibility to engage with the relevant Purchaser to indicate
 
 ![Supplier upload attachments](/health-supply-hub/images/supplier_attach_files.png)
 
-> IMPORTANT: If your quote has been uploaded, but not submitted, the Purchaser will not be able to see your quote. Ensure you're quote status is displayed as "Quote Submitted" before the closing date.
+> IMPORTANT: If your quote has been uploaded, but not submitted, the Purchaser will not be able to see your quote. Ensure youre quote status is displayed as "Quote Submitted" before the closing date.
 
 ## Tips
 

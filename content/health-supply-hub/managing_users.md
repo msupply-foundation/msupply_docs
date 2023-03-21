@@ -20,19 +20,19 @@ Within your organisation account in HSH there are two different User roles:
 
 - can view quotes;
 - can upload quotes;
-- can upload additional documentation;
-- can submit quotes; and
+- can upload additional documentation; and
+- can submit quotes;
 
 ### Organisation Admin (Administrator):
 
 - same accesss as above;
-- additionally is able to do to system administrative tasks, including managing users for your organisation, and updating the organisation's details.
+- additionally is able to do system administrative tasks, including managing users for your organisation, and updating the organisation's details.
 
 > Please note: All users can submit quotes in HSH.
 
 ##### Administrator Responsibilities
 
-The Administrator is responsible for managing the following for the their registered organisation:
+The Administrator is responsible for managing the following for their registered organisation:
 
 - adding or removing users;
 - changing/resetting passwords; and
@@ -62,18 +62,19 @@ The Administrator is responsible for managing the following for the their regist
 
 They can then activate their account by clicking on the ‘Activate Account’ button
 
-7. Managing Users – Reset Password
-8. Click the ‘Send Password Reset’ in the Actions column on the right of the User-Accounts Table for the User for whom you wish to reset their password.
+## Managing Users – Reset Password
+
+1. Click the ‘Send Password Reset’ in the Actions column on the right of the User-Accounts Table for the User for whom you wish to reset their password.
    ![Reset Password Button](/health-supply-hub/images/reset_password_button.png)
 
-9. The User should then receive an email with a personal link that will enable them to reset their password. Make sure they check their Junk Inbox as sometimes the auto-generated emails can be accidentally identified as spam.
+1. The User should then receive an email with a personal link that will enable them to reset their password. Make sure they check their Junk Inbox as sometimes the auto-generated emails can be accidentally identified as spam.
    ![Reset Password Email](/health-supply-hub/images/reset_password_email.png)
 
-10. The user will be redirected to a set new password page – where they should enter their new password.
-    ![Reset Password Entry](/health-supply-hub/images/reset_password_entry.png)
+1. The user will be redirected to a set new password page – where they should enter their new password.
+   ![Reset Password Entry](/health-supply-hub/images/reset_password_entry.png)
 
-11. If this is done successfully the following screen should appear – redirecting them to the log on page.
-    ![Reset Password Success](/health-supply-hub/images/reset_password_success.png)
+1. If this is done successfully the following screen should appear – redirecting them to the log on page.
+   ![Reset Password Success](/health-supply-hub/images/reset_password_success.png)
 
 ## Managing Users – Edit User
 
@@ -98,4 +99,4 @@ They can then activate their account by clicking on the ‘Activate Account’ b
 
 - Additional Users can be set up by Administrator Users, and new Users will be prompted to change password upon accessing the e-portal for the first time
 
-- The emailed link sent to rest a User’s password will expire so ensure that the User is ready to be registered when you add them
+- The emailed link sent to reset a User’s password will expire so ensure that the User is ready to be registered when you add them
