@@ -52,19 +52,22 @@ It is your sole responsibility to engage with the relevant Purchaser to indicate
 
 ![Tender Screenshot with Annotations](/health-supply-hub/images/annotated_tender.png)
 
-**a.** The Purchaser who is advertising the request  
-**b.** The name of the Request  
-**c.** The date the Request was advertised  
-**d.** The Purchaser’s preferred commercial supply terms as per the specified Incoterm  
-**e.** Status of Request  
-**f.** Comment section that you can fill out at your discretion for the Purchaser’s benefit  
-**g.** The ‘Tender Documents’ Tab is where you’ll find the Purchasers documents relevant to that supply request e.g.Terms and Conditions, Check List documents, A supplier due diligence form  
-**h.** Purchaser documents that can be viewed on the Tender Documents tab  
-**i.** The ‘Attachments‘ tab is where you can upload documents that have been requested by the Purchaser eg GMP certificates for your manufacturer**s.** Clicking on this tab will enable you to view documents your organisation has uploaded in response to the supply request  
-**j.** Where you can download the mandatory Quote template  
-**k.** Where you upload your filled in Quote template  
-**l.** Button you press to submit your quote once your quote template is successfully loaded, and you are willing to commit to supply  
-**m.** The date the request is due to close
+| Label | Description |
+|---|---|
+| a | The Purchaser who is advertising the request  
+| b | The name of the Request  
+| c | The date the Request was advertised  
+| d | The Purchaser’s preferred commercial supply terms as per the specified Incoterm  
+| e | Status of Request  
+| f | Comment section that you can fill out at your discretion for the Purchaser’s benefit  
+| g | The ‘Tender Documents’ Tab is where you’ll find the Purchasers documents relevant to that supply request e.g.Terms and Conditions, Check List documents, A supplier due diligence form  
+| h | Purchaser documents that can be viewed on the Tender Documents tab  
+| i | The ‘Attachments‘ tab is where you can upload documents that have been requested by the Purchaser eg GMP certificates for your manufacturer**s.** Clicking on this tab will enable you to view documents your organisation has uploaded in response to the supply request  
+| j | Where you can download the mandatory Quote template  
+| k | Where you upload your filled in Quote template  
+| l | Button you press to submit your quote once your quote template is successfully loaded, and you are willing to commit to supply  
+| m | The date the request is due to close |
+
 
 ## The Quote Template
 
@@ -75,30 +78,34 @@ It is your sole responsibility to engage with the relevant Purchaser to indicate
 
 ![Quote Template Purchaser Section](/health-supply-hub/images/quote_purchaser_fields.png)
 
-**Column A** Line # - This is a quick reference both you and the Purchaser can use when referring to a Quote Item.  
-**Column B** Internal Line ID – This is the unique ID number to link your quote/s back to the correct Quote Item when the Purchaser downloads quotes into their mSupply system.  
-**Column C** Item Code # – This is the code the Purchaser uses for this item  
-**Column D** Item Name Column  
-**Column E** Number of Packs required in the Purchaser’s requested pack size  
-**Column F** Purchaser's requested Pack Size  
-**Column G** Total Quantity of single units being requested by the Purchaser  
-**Column H** Any conditions the Purchaser may have for a particular Quote Item  
-**Column I** Purchasers Unit of Measure
+| Column | Description |
+|---|---|
+| A | Line # - This is a quick reference both you and the Purchaser can use when referring to a Quote |Item.   
+| B | Internal Line ID – This is the unique ID number to link your quote/s back to the correct Quote Item |when the Purchaser downloads quotes into their mSupply system.   
+| C | Item Code # – This is the code the Purchaser uses for this item  |
+| D | Item Name Column  | 
+| E | Number of Packs req uired in the Purchaser’s requested pack size  |
+| F | Purchaser's requested Pack Size  | 
+| G | Total Quantity of single units bei ng requested by the Purchaser  |
+| H | Any conditions the Purchaser may have for a particular Quote Item   |
+| I  | Purchasers Unit of Measure |
 
 5. This screen shot shows the fields you must fill in to submit a quote
 
 ![Quote Template Supplier Section](/health-supply-hub/images/quote_supplier_fields.png)
 
-**Column J** Enter in how many packs you are offering to supply the Purchaser  
-**Column K** Enter in the Pack Size of the product your offering to supply  
-**Column L** Enter in the Price you are offering to supply a single pack of your product at, in the currency you allocated in the next column  
-**Column M** The currency your Quoted price per pack is in (Please use [ISO currency codes](https://en.wikipedia.org/wiki/ISO_4217#List_of_ISO_4217_currency_codes))  
-**Column N** When your product is expected to expire, or the shelf life if the product has not yet been manufactured  
-**Column O** Delivery time, explain how long it would take to get your product to the Purchaser's identified delivery location  
-**Column P** The finished product manufacturer of your product. NB Please check this is not just the regulatory sponsor / distributor of the product  
-**Column Q** How you would deliver the product eg Air freight or Sea Freight  
-**Column R** You can choose to put your internal reference code or product identifier here  
-**Column S** A field to put any further comments in to explain what you are offering the Purchaser more clearly, or include any other information you think the Purchaser may need to know
+| Column | Description |
+|---|---|
+| J | Enter in how many packs you are offering to supply the Purchaser  |
+| K | Enter in the Pack Size of the product your offering to supply  |
+| L | Enter in the Price you are offering to supply a single pack of your product at, in the currency you |allocated in the next column  
+| M | The currency your Quoted price per pack is in (Please use [ISO currency codes](https://en.wikipedia.org/wiki/|ISO_4217#List_of_ISO_4217_currency_codes))  
+| N | When your product is expected to expire, or the shelf life if the product has not yet been manufactured  |
+| O | Delivery time, explain how long it would take to get your product to the Purchaser's identified delivery |location  
+| P | The finished product manufacturer of your product. NB Please check this is not just the regulatory sponsor / |distributor of the product  
+| Q | How you would deliver the product eg Air freight or Sea Freight  |
+| R | You can choose to put your internal reference code or product identifier here  |
+| S | A field to put any further comments in to explain what you are offering the Purchaser more clearly, or |include any other information you think the Purchaser may need to know |
 
 ## Submitting Your Quote
 
