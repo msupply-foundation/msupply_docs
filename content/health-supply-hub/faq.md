@@ -77,7 +77,7 @@ We understand the data uploaded in HSH is sensitive and we take data security se
 - Data is stored on a secure server
 - The [mSupply Foundation](https://msupply.foundation) is an impartial not-for-profit trust who has an organisational commitment to ensuring data privacy for our systems and provided services. If you have any questions or concerns please contact privacy.rights@msupply.foundation
 
-## Will the Health Supply Hbu notify me of any tender opportunities for any country using the portal when it is released?
+## Will I be notified about tender opportunities then they are released?
 
 The portal will generate an email notification to all registered users when your organisation is invited to bid on a tender.
 It is up to the respective Purchaser to determine whether their Request for Supply is open or restricted.
