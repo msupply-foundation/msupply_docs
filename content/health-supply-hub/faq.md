@@ -87,7 +87,6 @@ Health Supply Hub is intended to be used for both open/public procurement as wel
 ## Our company is registered on the HSH portal, does this provide our Company opportunities to bid for all the tenders from all the countries that are supported by the portal?
 
 Your company only needs to register once with Health Supply Hub to access tenders from countries using the Health Supply Hub system.
-However, it is up to the respective Purchaser to determine whether their Request for Supply is open or restricted.
 It is the sole discretion of the Purchaser to determine whether its process is open or restricted, and if restricted which suppliers they invite.
 
 ## How do I submit bids/quotes via Health Supply Hub?
