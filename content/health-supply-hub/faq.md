@@ -76,3 +76,26 @@ We understand the data uploaded in HSH is sensitive and we take data security se
 - Automatic timed logouts after periods of inactivity
 - Data is stored on a secure server
 - The [mSupply Foundation](https://msupply.foundation) is an impartial not-for-profit trust who has an organisational commitment to ensuring data privacy for our systems and provided services. If you have any questions or concerns please contact privacy.rights@msupply.foundation
+
+## Will the Health Supply Hbu notify me of any tender opportunities for any country using the portal when it is released?
+
+The portal will generate an email notification to all registered users when your organisation is invited to bid on a tender.
+It is up to the respective Purchaser to determine whether their Request for Supply is open or restricted.
+If the purchaser decides to issue a restricted supply request it is up to the Purchaser to determine the supplier selection and the selection criteria used.
+Health Supply Hub is intended to be used for both open/public procurement as well as closed/restricted procurement processes.
+
+## Our company is registered on the HSH portal, does this provide our Company opportunities to bid for all the tenders from all the countries that are supported by the portal?
+
+Your company only needs to register once with Health Supply Hub to access tenders from countries using the Health Supply Hub system.
+However, it is up to the respective Purchaser to determine whether their Request for Supply is open or restricted.
+It is the sole discretion of the Purchaser to determine whether its process is open or restricted, and if restricted which suppliers they invite.
+
+## How do I submit bids/quotes via Health Supply Hub?
+
+See the [Submitting Bids](/health-supply-hub/submitting-bids/) page for more information on how to submit a bid via Health Supply Hub.
+
+It is important to note that Purchasers may also expect suppliers provide supplementary information for their Evaluation processes, this may be at the product level (eg User Manuals, GMP certificates) and company level (eg information about your company’s structure, performance and experience). Purchasers may indicate the additional information they require within the quote template and through their own supplementary documentation in the ‘Tender documents’ section.
+
+## Do we need to be prequalified by the respective government department that we would be tendering for?
+
+This depends on the specific Purchaser/Agency. You should get in contact with their key contact person to determine what their respective process is.
