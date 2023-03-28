@@ -98,3 +98,9 @@ It is important to note that Purchasers may also expect suppliers provide supple
 ## Do we need to be prequalified by the respective government department that we would be tendering for?
 
 This depends on the specific Purchaser/Agency. You should get in contact with their key contact person to determine what their respective process is.
+
+## Does Health Supply Hub have a general draft contract to cover all tenders or a number of them depending on the type of products concerned?
+
+Terms and Conditions for supply are at the discretion of the Purchaser, they may have a standard base contract, or product specific contracts. We are advising they attach their Standard Terms and Conditions along with other relevant documentation in each respective supply requests ‘Tender Documents’ section.
+
+![Tender Documents](/health-supply-hub/images/faq_tender_documents.png)
