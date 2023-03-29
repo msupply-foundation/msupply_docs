@@ -1,471 +1,471 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://docs.msupply.foundation/</loc>
+        <loc>https://gh-docs.msupply.foundation/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/coldchain/</loc>
+        <loc>https://gh-docs.msupply.foundation/coldchain/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/coldchain/dashboard/</loc>
+        <loc>https://gh-docs.msupply.foundation/coldchain/dashboard/</loc>
         <lastmod>2022-03-17T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/coldchain/desktop-integration/</loc>
+        <loc>https://gh-docs.msupply.foundation/coldchain/desktop-integration/</loc>
         <lastmod>2022-03-17T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/coldchain/getting-started/</loc>
+        <loc>https://gh-docs.msupply.foundation/coldchain/getting-started/</loc>
         <lastmod>2022-03-17T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/coldchain/images/</loc>
+        <loc>https://gh-docs.msupply.foundation/coldchain/images/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/coldchain/introduction/</loc>
+        <loc>https://gh-docs.msupply.foundation/coldchain/introduction/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/coldchain/settings/</loc>
+        <loc>https://gh-docs.msupply.foundation/coldchain/settings/</loc>
         <lastmod>2022-03-17T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/coldchain/using-coldchain/</loc>
+        <loc>https://gh-docs.msupply.foundation/coldchain/using-coldchain/</loc>
         <lastmod>2022-03-17T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/dashboard/</loc>
+        <loc>https://gh-docs.msupply.foundation/dashboard/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/dashboard/images/</loc>
+        <loc>https://gh-docs.msupply.foundation/dashboard/images/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/dashboard/introduction/</loc>
+        <loc>https://gh-docs.msupply.foundation/dashboard/introduction/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/dashboard/panels/</loc>
+        <loc>https://gh-docs.msupply.foundation/dashboard/panels/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/dashboard/scheduled-excel/</loc>
+        <loc>https://gh-docs.msupply.foundation/dashboard/scheduled-excel/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/</loc>
+        <loc>https://gh-docs.msupply.foundation/docs/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/administration/</loc>
+        <loc>https://gh-docs.msupply.foundation/docs/administration/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/administration/display/</loc>
+        <loc>https://gh-docs.msupply.foundation/docs/administration/display/</loc>
         <lastmod>2022-05-17T16:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/administration/images/</loc>
+        <loc>https://gh-docs.msupply.foundation/docs/administration/images/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/administration/synchronisation/</loc>
+        <loc>https://gh-docs.msupply.foundation/docs/administration/synchronisation/</loc>
         <lastmod>2022-05-17T16:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/catalogue/</loc>
+        <loc>https://gh-docs.msupply.foundation/docs/catalogue/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/catalogue/images/</loc>
+        <loc>https://gh-docs.msupply.foundation/docs/catalogue/images/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/catalogue/items/</loc>
+        <loc>https://gh-docs.msupply.foundation/docs/catalogue/items/</loc>
         <lastmod>2022-03-19T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/catalogue/master-list/</loc>
+        <loc>https://gh-docs.msupply.foundation/docs/catalogue/master-list/</loc>
         <lastmod>2022-03-19T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/distribution/</loc>
+        <loc>https://gh-docs.msupply.foundation/docs/distribution/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/distribution/customers/</loc>
+        <loc>https://gh-docs.msupply.foundation/docs/distribution/customers/</loc>
         <lastmod>2022-03-19T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/distribution/images/</loc>
+        <loc>https://gh-docs.msupply.foundation/docs/distribution/images/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/distribution/outbound-shipments/</loc>
+        <loc>https://gh-docs.msupply.foundation/docs/distribution/outbound-shipments/</loc>
         <lastmod>2022-03-19T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/distribution/requisitions/</loc>
+        <loc>https://gh-docs.msupply.foundation/docs/distribution/requisitions/</loc>
         <lastmod>2022-03-19T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/introduction/</loc>
+        <loc>https://gh-docs.msupply.foundation/docs/introduction/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/introduction/dashboard/</loc>
+        <loc>https://gh-docs.msupply.foundation/docs/introduction/dashboard/</loc>
         <lastmod>2022-03-17T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/introduction/faq/</loc>
+        <loc>https://gh-docs.msupply.foundation/docs/introduction/faq/</loc>
         <lastmod>2023-02-01</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/introduction/images/</loc>
+        <loc>https://gh-docs.msupply.foundation/docs/introduction/images/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/introduction/introduction/</loc>
+        <loc>https://gh-docs.msupply.foundation/docs/introduction/introduction/</loc>
         <lastmod>2022-03-17T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/introduction/mobile/</loc>
+        <loc>https://gh-docs.msupply.foundation/docs/introduction/mobile/</loc>
         <lastmod>2023-02-24T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/introduction/requirements/</loc>
+        <loc>https://gh-docs.msupply.foundation/docs/introduction/requirements/</loc>
         <lastmod>2022-06-10T11:38:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/introduction/roadmap/</loc>
+        <loc>https://gh-docs.msupply.foundation/docs/introduction/roadmap/</loc>
         <lastmod>2022-11-10T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/introduction/tutorial/</loc>
+        <loc>https://gh-docs.msupply.foundation/docs/introduction/tutorial/</loc>
         <lastmod>2022-03-19T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/inventory/</loc>
+        <loc>https://gh-docs.msupply.foundation/docs/inventory/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/inventory/images/</loc>
+        <loc>https://gh-docs.msupply.foundation/docs/inventory/images/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/inventory/stock-takes/</loc>
+        <loc>https://gh-docs.msupply.foundation/docs/inventory/stock-takes/</loc>
         <lastmod>2022-03-19T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/inventory/stock-view/</loc>
+        <loc>https://gh-docs.msupply.foundation/docs/inventory/stock-view/</loc>
         <lastmod>2022-03-19T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/module-hiv/</loc>
+        <loc>https://gh-docs.msupply.foundation/docs/module-hiv/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/module-hiv/images/</loc>
+        <loc>https://gh-docs.msupply.foundation/docs/module-hiv/images/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/module-hiv/introduction/</loc>
+        <loc>https://gh-docs.msupply.foundation/docs/module-hiv/introduction/</loc>
         <lastmod>2023-01-27T00:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/replenishment/</loc>
+        <loc>https://gh-docs.msupply.foundation/docs/replenishment/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/replenishment/images/</loc>
+        <loc>https://gh-docs.msupply.foundation/docs/replenishment/images/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/replenishment/inbound-shipments/</loc>
+        <loc>https://gh-docs.msupply.foundation/docs/replenishment/inbound-shipments/</loc>
         <lastmod>2022-03-19T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/replenishment/internal-orders/</loc>
+        <loc>https://gh-docs.msupply.foundation/docs/replenishment/internal-orders/</loc>
         <lastmod>2022-03-19T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/replenishment/suppliers/</loc>
+        <loc>https://gh-docs.msupply.foundation/docs/replenishment/suppliers/</loc>
         <lastmod>2022-03-19T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/sync/</loc>
+        <loc>https://gh-docs.msupply.foundation/docs/sync/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/sync/images/</loc>
+        <loc>https://gh-docs.msupply.foundation/docs/sync/images/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/sync/synchronisation/</loc>
+        <loc>https://gh-docs.msupply.foundation/docs/sync/synchronisation/</loc>
         <lastmod>2022-05-17T16:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/fr/</loc>
+        <loc>https://gh-docs.msupply.foundation/fr/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/fr/docs/</loc>
+        <loc>https://gh-docs.msupply.foundation/fr/docs/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/fr/docs/administration/</loc>
+        <loc>https://gh-docs.msupply.foundation/fr/docs/administration/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/fr/docs/administration/display/</loc>
+        <loc>https://gh-docs.msupply.foundation/fr/docs/administration/display/</loc>
         <lastmod>2022-05-17T16:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/fr/docs/administration/synchronisation/</loc>
+        <loc>https://gh-docs.msupply.foundation/fr/docs/administration/synchronisation/</loc>
         <lastmod>2022-05-17T16:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/fr/docs/catalogue/</loc>
+        <loc>https://gh-docs.msupply.foundation/fr/docs/catalogue/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/fr/docs/catalogue/items/</loc>
+        <loc>https://gh-docs.msupply.foundation/fr/docs/catalogue/items/</loc>
         <lastmod>2022-03-19T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/fr/docs/catalogue/master-list/</loc>
+        <loc>https://gh-docs.msupply.foundation/fr/docs/catalogue/master-list/</loc>
         <lastmod>2022-03-19T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/fr/docs/distribution/</loc>
+        <loc>https://gh-docs.msupply.foundation/fr/docs/distribution/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/fr/docs/distribution/customers/</loc>
+        <loc>https://gh-docs.msupply.foundation/fr/docs/distribution/customers/</loc>
         <lastmod>2022-03-19T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/</loc>
+        <loc>https://gh-docs.msupply.foundation/fr/docs/distribution/outbound-shipments/</loc>
         <lastmod>2022-03-19T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/fr/docs/distribution/requisitions/</loc>
+        <loc>https://gh-docs.msupply.foundation/fr/docs/distribution/requisitions/</loc>
         <lastmod>2022-03-19T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/fr/docs/introduction/</loc>
+        <loc>https://gh-docs.msupply.foundation/fr/docs/introduction/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/fr/docs/introduction/dashboard/</loc>
+        <loc>https://gh-docs.msupply.foundation/fr/docs/introduction/dashboard/</loc>
         <lastmod>2022-03-17T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/fr/docs/introduction/introduction/</loc>
+        <loc>https://gh-docs.msupply.foundation/fr/docs/introduction/introduction/</loc>
         <lastmod>2022-03-17T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/fr/docs/introduction/roadmap/</loc>
+        <loc>https://gh-docs.msupply.foundation/fr/docs/introduction/roadmap/</loc>
         <lastmod>2022-11-10T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/fr/docs/introduction/tutorial/</loc>
+        <loc>https://gh-docs.msupply.foundation/fr/docs/introduction/tutorial/</loc>
         <lastmod>2022-03-19T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/fr/docs/inventory/</loc>
+        <loc>https://gh-docs.msupply.foundation/fr/docs/inventory/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/fr/docs/inventory/locations/</loc>
+        <loc>https://gh-docs.msupply.foundation/fr/docs/inventory/locations/</loc>
         <lastmod>2022-03-19T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/fr/docs/inventory/stock-takes/</loc>
+        <loc>https://gh-docs.msupply.foundation/fr/docs/inventory/stock-takes/</loc>
         <lastmod>2022-03-19T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/fr/docs/inventory/stock-view/</loc>
+        <loc>https://gh-docs.msupply.foundation/fr/docs/inventory/stock-view/</loc>
         <lastmod>2022-03-19T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/fr/docs/module-hiv/</loc>
+        <loc>https://gh-docs.msupply.foundation/fr/docs/module-hiv/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/fr/docs/replenishment/</loc>
+        <loc>https://gh-docs.msupply.foundation/fr/docs/replenishment/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/fr/docs/replenishment/inbound-shipments/</loc>
+        <loc>https://gh-docs.msupply.foundation/fr/docs/replenishment/inbound-shipments/</loc>
         <lastmod>2022-03-19T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/fr/docs/replenishment/internal-orders/</loc>
+        <loc>https://gh-docs.msupply.foundation/fr/docs/replenishment/internal-orders/</loc>
         <lastmod>2022-03-19T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/fr/docs/replenishment/suppliers/</loc>
+        <loc>https://gh-docs.msupply.foundation/fr/docs/replenishment/suppliers/</loc>
         <lastmod>2022-03-19T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/health-supply-hub/</loc>
+        <loc>https://gh-docs.msupply.foundation/health-supply-hub/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/health-supply-hub/faq/</loc>
+        <loc>https://gh-docs.msupply.foundation/health-supply-hub/faq/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/health-supply-hub/images/</loc>
+        <loc>https://gh-docs.msupply.foundation/health-supply-hub/images/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/health-supply-hub/introduction/</loc>
+        <loc>https://gh-docs.msupply.foundation/health-supply-hub/introduction/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/health-supply-hub/managing-manufacturers/</loc>
+        <loc>https://gh-docs.msupply.foundation/health-supply-hub/managing-manufacturers/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/health-supply-hub/managing-users/</loc>
+        <loc>https://gh-docs.msupply.foundation/health-supply-hub/managing-users/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/health-supply-hub/registration/</loc>
+        <loc>https://gh-docs.msupply.foundation/health-supply-hub/registration/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/health-supply-hub/submitting-bids/</loc>
+        <loc>https://gh-docs.msupply.foundation/health-supply-hub/submitting-bids/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/dispensing_vaccines/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/dispensing_vaccines/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/dispensing_vaccines/adverse-drug-reactions/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/dispensing_vaccines/adverse-drug-reactions/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/dispensing_vaccines/cash-register/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/dispensing_vaccines/cash-register/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/dispensing_vaccines/dispensing/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/dispensing_vaccines/dispensing/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/dispensing_vaccines/images/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/dispensing_vaccines/images/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/dispensing_vaccines/setup/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/dispensing_vaccines/setup/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/dispensing_vaccines/vaccination-dashboards/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/dispensing_vaccines/vaccination-dashboards/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/dispensing_vaccines/vaccine-dispensing/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/dispensing_vaccines/vaccine-dispensing/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/dispensing_vaccines/vaccine/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/dispensing_vaccines/vaccine/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/dispensing_vaccines/web-apps/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/dispensing_vaccines/web-apps/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/introduction/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/introduction/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/introduction/getting-started/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/introduction/getting-started/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/introduction/images/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/introduction/images/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/introduction/introduction/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/introduction/introduction/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/introduction/mobile-dashboard/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/introduction/mobile-dashboard/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/introduction/msupply-mobile-demo/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/introduction/msupply-mobile-demo/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/items_stock/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/items_stock/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/items_stock/current-stock/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/items_stock/current-stock/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/items_stock/images/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/items_stock/images/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/items_stock/stocktakes-program/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/items_stock/stocktakes-program/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/items_stock/stocktakes/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/items_stock/stocktakes/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/order_and_receive/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/order_and_receive/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/order_and_receive/customer-inv/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/order_and_receive/customer-inv/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/order_and_receive/customer-requisitions-program-orders/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/order_and_receive/customer-requisitions-program-orders/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/order_and_receive/customer-requisitions/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/order_and_receive/customer-requisitions/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/order_and_receive/images/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/order_and_receive/images/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/order_and_receive/indicators/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/order_and_receive/indicators/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/order_and_receive/ordering-and-receiving/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/order_and_receive/ordering-and-receiving/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/order_and_receive/supplier-invoices-returns/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/order_and_receive/supplier-invoices-returns/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/order_and_receive/supplier-invoices/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/order_and_receive/supplier-invoices/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/order_and_receive/supplier-requisitions-program/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/order_and_receive/supplier-requisitions-program/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/order_and_receive/supplier-requisitions/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/order_and_receive/supplier-requisitions/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/setup/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/setup/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/setup/config/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/setup/config/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/setup/create-store/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/setup/create-store/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/setup/dashboard/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/setup/dashboard/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/setup/images/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/setup/images/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/setup/mobile-settings/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/setup/mobile-settings/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/setup/review-setup/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/setup/review-setup/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/setup/server-setup/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/setup/server-setup/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/mobile/setup/users/</loc>
+        <loc>https://gh-docs.msupply.foundation/mobile/setup/users/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
 </urlset>

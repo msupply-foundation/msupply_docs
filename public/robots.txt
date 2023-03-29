@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://docs.msupply.foundation/sitemap.xml
+Sitemap: https://gh-docs.msupply.foundation//sitemap.xml
