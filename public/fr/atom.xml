@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
 	<title>mSupply 🇫🇷</title>
-	<link href="https://gh-docs.msupply.foundation/fr/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="https://gh-docs.msupply.foundation/"/>
+	<link href="https://docs.msupply.foundation/fr/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://docs.msupply.foundation/"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
 	<updated>2022-11-10T18:20:00+00:00</updated>
-	<id>https://gh-docs.msupply.foundation/fr/atom.xml</id>
+	<id>https://docs.msupply.foundation/fr/atom.xml</id>
 	<entry xml:lang="fr">
 		<title>Feuille de route</title>
 		<published>2022-11-10T18:20:00+00:00</published>
 		<updated>2022-11-10T18:20:00+00:00</updated>
-		<link rel="alternate" href="https://gh-docs.msupply.foundation/fr/docs/introduction/roadmap/" type="text/html"/>
-		<id>https://gh-docs.msupply.foundation/fr/docs/introduction/roadmap/</id>
+		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/introduction/roadmap/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/introduction/roadmap/</id>
 		<content type="html">&lt;p&gt;Une mise à jour de cette feuille de route est prévue toutes les six semaines.
 Elle couvre uniquement les chantiers validés en cours. La liste complète de fonctionnalités prévues est bien plus importante.&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;feuille-de-route&quot;&gt;Feuille de route&lt;a class=&quot;zola-anchor&quot; href=&quot;#feuille-de-route&quot; aria-label=&quot;Anchor link for: feuille-de-route&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
@@ -247,8 +247,8 @@ section Version 3.0.0
 		<title>Paramètres d&#x27;affichage</title>
 		<published>2022-05-17T16:20:00+00:00</published>
 		<updated>2022-05-17T16:20:00+00:00</updated>
-		<link rel="alternate" href="https://gh-docs.msupply.foundation/fr/docs/administration/display/" type="text/html"/>
-		<id>https://gh-docs.msupply.foundation/fr/docs/administration/display/</id>
+		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/administration/display/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/administration/display/</id>
 		<content type="html">&lt;p&gt;La section des paramètres d&#x27;affichage vous permet de personnaliser l&#x27;apparence de l&#x27;application. Les modifications apportées n&#x27;affecteront que votre expérience d&#x27;utilisation. Si d&#x27;autres personnes souhaitent modifier le logo, par exemple, elles devront le faire elles-mêmes.&lt;&#x2F;p&gt;
 &lt;p&gt;Explorons ce qui est possible...&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;voir-les-parametres-d-affichage&quot;&gt;Voir les paramètres d&#x27;affichage&lt;a class=&quot;zola-anchor&quot; href=&quot;#voir-les-parametres-d-affichage&quot; aria-label=&quot;Anchor link for: voir-les-parametres-d-affichage&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
@@ -285,8 +285,8 @@ section Version 3.0.0
 		<title>Synchronisation</title>
 		<published>2022-05-17T16:20:00+00:00</published>
 		<updated>2022-05-17T16:20:00+00:00</updated>
-		<link rel="alternate" href="https://gh-docs.msupply.foundation/fr/docs/administration/synchronisation/" type="text/html"/>
-		<id>https://gh-docs.msupply.foundation/fr/docs/administration/synchronisation/</id>
+		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/administration/synchronisation/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/administration/synchronisation/</id>
 		<content type="html">&lt;h2 id=&quot;voir-les-parametres-de-synchronisation&quot;&gt;Voir les paramètres de synchronisation&lt;a class=&quot;zola-anchor&quot; href=&quot;#voir-les-parametres-de-synchronisation&quot; aria-label=&quot;Anchor link for: voir-les-parametres-de-synchronisation&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Pour accéder aux paramètres de synchronisation, allez à &lt;code&gt;Administration&lt;&#x2F;code&gt; dans la partie inférieure du panneau de navigation : &lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;administration&#x2F;images&#x2F;admin_nav_fr.png&quot; alt=&quot;Location: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
@@ -300,8 +300,8 @@ section Version 3.0.0
 		<title>Articles</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
-		<link rel="alternate" href="https://gh-docs.msupply.foundation/fr/docs/catalogue/items/" type="text/html"/>
-		<id>https://gh-docs.msupply.foundation/fr/docs/catalogue/items/</id>
+		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/catalogue/items/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/catalogue/items/</id>
 		<content type="html">&lt;p&gt;Un article dans open mSupply est généralement un produit que vous achetez auprès d&#x27;un fournisseur, vous le rangez en stock et le fournissez à un client.
 Dans le menu &lt;strong&gt;Articles&lt;&#x2F;strong&gt;, vous pouvez consulter tous les articles qui sont actuellement visibles dans votre dépôt. &lt;&#x2F;p&gt;
 &lt;h2 id=&quot;consulter-la-liste-des-articles&quot;&gt;Consulter la liste des articles&lt;a class=&quot;zola-anchor&quot; href=&quot;#consulter-la-liste-des-articles&quot; aria-label=&quot;Anchor link for: consulter-la-liste-des-articles&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
@@ -357,8 +357,8 @@ Dans l&#x27;exemple ci-dessous, nous avons 1542 unités d&#x27;amoxicilline disp
 		<title>Listes Maîtres</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
-		<link rel="alternate" href="https://gh-docs.msupply.foundation/fr/docs/catalogue/master-list/" type="text/html"/>
-		<id>https://gh-docs.msupply.foundation/fr/docs/catalogue/master-list/</id>
+		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/catalogue/master-list/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/catalogue/master-list/</id>
 		<content type="html">&lt;p&gt;Les listes Maîtres sont des listes standard, des regroupements d&#x27;articles qui ne peuvent être définies qu&#x27;au niveau du serveur central. &lt;&#x2F;p&gt;
 &lt;h2 id=&quot;consulter-les-listes-maitres&quot;&gt;Consulter les Listes Maîtres&lt;a class=&quot;zola-anchor&quot; href=&quot;#consulter-les-listes-maitres&quot; aria-label=&quot;Anchor link for: consulter-les-listes-maitres&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Allez à &lt;code&gt;Catalogue&lt;&#x2F;code&gt; &amp;gt; &lt;code&gt;Listes Maîtres&lt;&#x2F;code&gt; dans le panneau de navigation à gauche: &lt;&#x2F;p&gt;
@@ -374,8 +374,8 @@ Dans l&#x27;exemple ci-dessous, nous avons 1542 unités d&#x27;amoxicilline disp
 		<title>Clients</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
-		<link rel="alternate" href="https://gh-docs.msupply.foundation/fr/docs/distribution/customers/" type="text/html"/>
-		<id>https://gh-docs.msupply.foundation/fr/docs/distribution/customers/</id>
+		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/distribution/customers/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/distribution/customers/</id>
 		<content type="html">&lt;div class=&quot;omsupdate&quot;&gt;
 Pour le moment, vous ne pouvez voir que vos clients et leurs informations. À l&#x27;avenir, vous pourrez créer et modifier vos clients (à condition d&#x27;en avoir l&#x27;autorisation !). 
 &lt;&#x2F;div&gt;
@@ -398,8 +398,8 @@ Si vous ne trouvez pas le client que vous recherchez, contactez votre administra
 		<title>Expéditions</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
-		<link rel="alternate" href="https://gh-docs.msupply.foundation/fr/docs/distribution/outbound-shipments/" type="text/html"/>
-		<id>https://gh-docs.msupply.foundation/fr/docs/distribution/outbound-shipments/</id>
+		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/</id>
 		<content type="html">&lt;p&gt;La fonction &lt;em&gt;Expédition&lt;&#x2F;em&gt; peut être utilisée pour livrer du stock à un client. &lt;&#x2F;p&gt;
 &lt;p&gt;Si vous utilisiez mSupply par le passé, vous devriez être familier au terme &lt;strong&gt;Facture Client&lt;&#x2F;strong&gt; au lieu de &lt;strong&gt;Expédition&lt;&#x2F;strong&gt;. 
 La fonction Expédition est utilisée pour:&lt;&#x2F;p&gt;
@@ -801,8 +801,8 @@ To change the view mode, click the &lt;code&gt;Group by item&lt;&#x2F;code&gt; s
 		<title>Réquisitions</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
-		<link rel="alternate" href="https://gh-docs.msupply.foundation/fr/docs/distribution/requisitions/" type="text/html"/>
-		<id>https://gh-docs.msupply.foundation/fr/docs/distribution/requisitions/</id>
+		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/distribution/requisitions/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/distribution/requisitions/</id>
 		<content type="html">&lt;p&gt;Lorsqu&#x27;un client qui utilise Open mSupply souhaite vous transmettre une commande, il crée dans son dépôt ce qu&#x27;on appelle une &lt;strong&gt;Commande interne&lt;&#x2F;strong&gt;. Cela apparaîtra comme une &lt;strong&gt;Réquisition&lt;&#x2F;strong&gt; dans votre dépôt.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;afficher-la-commande-d-un-client&quot;&gt;Afficher la commande d&#x27;un client&lt;a class=&quot;zola-anchor&quot; href=&quot;#afficher-la-commande-d-un-client&quot; aria-label=&quot;Anchor link for: afficher-la-commande-d-un-client&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Pour savoir si vous avez reçu des commandes de vos clients, allez à &lt;code&gt;Distribution&lt;&#x2F;code&gt; &amp;gt; &lt;code&gt;Réquisitions clients&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
@@ -846,8 +846,8 @@ To change the view mode, click the &lt;code&gt;Group by item&lt;&#x2F;code&gt; s
 		<title>Didacticiel</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
-		<link rel="alternate" href="https://gh-docs.msupply.foundation/fr/docs/introduction/tutorial/" type="text/html"/>
-		<id>https://gh-docs.msupply.foundation/fr/docs/introduction/tutorial/</id>
+		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/introduction/tutorial/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/introduction/tutorial/</id>
 		<content type="html">&lt;h2 id=&quot;didacticiel-open-msupply&quot;&gt;Didacticiel: Open mSupply&lt;a class=&quot;zola-anchor&quot; href=&quot;#didacticiel-open-msupply&quot; aria-label=&quot;Anchor link for: didacticiel-open-msupply&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Ce didacticiel est conçu pour vous guider à travers les bases de l&#x27;utilisation d&#x27;Open mSupply.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;se-connecter&quot;&gt;Se connecter&lt;a class=&quot;zola-anchor&quot; href=&quot;#se-connecter&quot; aria-label=&quot;Anchor link for: se-connecter&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
@@ -896,8 +896,8 @@ Si vous vous êtes déjà connecté, et changé de dépôt, alors le dépôt le 
 		<title>Emplacements</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
-		<link rel="alternate" href="https://gh-docs.msupply.foundation/fr/docs/inventory/locations/" type="text/html"/>
-		<id>https://gh-docs.msupply.foundation/fr/docs/inventory/locations/</id>
+		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/inventory/locations/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/inventory/locations/</id>
 		<content type="html">&lt;p&gt;Identifier et nommer l&#x27;endroit où se trouve le stock dans votre dépôt est une partie importante des bonnes pratiques d&#x27;entrepôsage. Vous ne voulez pas avoir à parcourir tout votre dépôt pour trouver du stock, perdre du temps et de l&#x27;énergie alors que mSupply peut vous dire exactement où il se trouve !&lt;&#x2F;p&gt;
 &lt;p&gt;Les emplacements dans mSupply sont les espaces aménagés où vous rangez le stock. &lt;&#x2F;p&gt;
 &lt;h2 id=&quot;consulter-les-emplacements-de-votre-depot&quot;&gt;Consulter les emplacements de votre dépôt&lt;a class=&quot;zola-anchor&quot; href=&quot;#consulter-les-emplacements-de-votre-depot&quot; aria-label=&quot;Anchor link for: consulter-les-emplacements-de-votre-depot&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
@@ -936,8 +936,8 @@ Mettre un emplacement En Attente peut être utile si:
 		<title>Inventaires</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
-		<link rel="alternate" href="https://gh-docs.msupply.foundation/fr/docs/inventory/stock-takes/" type="text/html"/>
-		<id>https://gh-docs.msupply.foundation/fr/docs/inventory/stock-takes/</id>
+		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/inventory/stock-takes/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/inventory/stock-takes/</id>
 		<content type="html">&lt;p&gt;mSupply gardera automatiquement une trace de vos niveaux de stock pour vous, au fur et à mesure que vous les recevez et les distribuez. Mais parfois, les données sont saisies de manière incorrecte ou le stock s&#x27;épuise sans que personne ne fasse d&#x27;entrée dans le système.&lt;&#x2F;p&gt;
 &lt;p&gt;Bien sûr, nous essayons de ne pas laisser cela se produire, mais si cela se produit, nous pouvons apporter des corrections. Le moyen le plus simple de corriger les erreurs est de &lt;strong&gt;faire un inventaire&lt;&#x2F;strong&gt; .&lt;&#x2F;p&gt;
 &lt;p&gt;Dans mSupply, vous pouvez facilement faire un inventaire pour :&lt;&#x2F;p&gt;
@@ -990,8 +990,8 @@ Ne vous inquiétez pas s&#x27;il manque un élément dans votre inventaire nouve
 		<title>Stock</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
-		<link rel="alternate" href="https://gh-docs.msupply.foundation/fr/docs/inventory/stock-view/" type="text/html"/>
-		<id>https://gh-docs.msupply.foundation/fr/docs/inventory/stock-view/</id>
+		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/inventory/stock-view/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/inventory/stock-view/</id>
 		<content type="html">&lt;p&gt;L&#x27;une des plus importantes, mais la plus simple des tâches dans mSupply est de vérifier combien de stock vous avez actuellement. Lorsque vous créez un expédition sortante et que vous sélectionnez un produit à sortir, mSupply vous dira si vous avez suffisamment de stock. Vous pourrez à bien d&#x27;autres moments, utiliser cette fonctionnalité pour avoir un apperçu rapide du niveau de vos stocks, et c&#x27;est très simple à faire.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;consulter-le-stock&quot;&gt;Consulter le stock&lt;a class=&quot;zola-anchor&quot; href=&quot;#consulter-le-stock&quot; aria-label=&quot;Anchor link for: consulter-le-stock&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Dans le menu de navigation, allez dans &lt;code&gt;Inventaire&lt;&#x2F;code&gt; et cliquez sur le sous-menu  &lt;code&gt;Stock&lt;&#x2F;code&gt;: &lt;&#x2F;p&gt;
@@ -1019,8 +1019,8 @@ Ne vous inquiétez pas s&#x27;il manque un élément dans votre inventaire nouve
 		<title>Livraisons</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
-		<link rel="alternate" href="https://gh-docs.msupply.foundation/fr/docs/replenishment/inbound-shipments/" type="text/html"/>
-		<id>https://gh-docs.msupply.foundation/fr/docs/replenishment/inbound-shipments/</id>
+		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/replenishment/inbound-shipments/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/replenishment/inbound-shipments/</id>
 		<content type="html">&lt;p&gt;La fonctionnalité &lt;em&gt;Livraison&lt;&#x2F;em&gt; peut être utilisée pour récevoir du stock venant d&#x27;un ou plusieurs fournisseurs.&lt;&#x2F;p&gt;
 &lt;p&gt;Si vous aviez utilisé mSupply par le passé, vous devriez être familier du terme &lt;strong&gt;Facture Fournisseur&lt;&#x2F;strong&gt; au lieu de &lt;strong&gt;&lt;em&gt;Livraison&lt;&#x2F;em&gt;&lt;&#x2F;strong&gt;. &lt;&#x2F;p&gt;
 &lt;p&gt;Toutes les articles reçus doivent être enregistrés dans mSupply soit par :&lt;&#x2F;p&gt;
@@ -1339,8 +1339,8 @@ To change the view mode, click the &lt;code&gt;Group by item&lt;&#x2F;code&gt; s
 		<title>Commandes Internes</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
-		<link rel="alternate" href="https://gh-docs.msupply.foundation/fr/docs/replenishment/internal-orders/" type="text/html"/>
-		<id>https://gh-docs.msupply.foundation/fr/docs/replenishment/internal-orders/</id>
+		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/replenishment/internal-orders/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/replenishment/internal-orders/</id>
 		<content type="html">&lt;p&gt;Les commandes internes portent plusieurs autres noms dans certains pays ou systèmes :&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;Réquisitions&lt;&#x2F;li&gt;
@@ -1488,8 +1488,8 @@ Ensure that your order is correct before sending it to your supplier. Once sent,
 		<title>Fournisseurs</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
-		<link rel="alternate" href="https://gh-docs.msupply.foundation/fr/docs/replenishment/suppliers/" type="text/html"/>
-		<id>https://gh-docs.msupply.foundation/fr/docs/replenishment/suppliers/</id>
+		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/replenishment/suppliers/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/replenishment/suppliers/</id>
 		<content type="html">&lt;p&gt;Dans mSupply, un fournisseur est une entité qui envoie du stock à votre dépôt. &lt;&#x2F;p&gt;
 &lt;div class=&quot;omsupdate&quot;&gt;
 Pour le moment, vous ne pouvez que voir votre fournisseur et ses coordonnées. À l&#x27;avenir, vous pourrez créer et modifier vos fournisseurs (à condition d&#x27;en avoir l&#x27;autorisation !). 
@@ -1521,8 +1521,8 @@ Pour le moment, vous ne pouvez que voir votre fournisseur et ses coordonnées. �
 		<title>Tableau de bord</title>
 		<published>2022-03-17T18:20:00+00:00</published>
 		<updated>2022-03-17T18:20:00+00:00</updated>
-		<link rel="alternate" href="https://gh-docs.msupply.foundation/fr/docs/introduction/dashboard/" type="text/html"/>
-		<id>https://gh-docs.msupply.foundation/fr/docs/introduction/dashboard/</id>
+		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/introduction/dashboard/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/introduction/dashboard/</id>
 		<content type="html">&lt;h2 id=&quot;plus-d-un-tableau-de-bord&quot;&gt;Plus d&#x27;un Tableau de Bord!&lt;a class=&quot;zola-anchor&quot; href=&quot;#plus-d-un-tableau-de-bord&quot; aria-label=&quot;Anchor link for: plus-d-un-tableau-de-bord&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;En effet nous utilisons le terme &lt;em&gt;Tableau de bord&lt;&#x2F;em&gt; pour plus d&#x27;une chose dans Open mSupply.
 La première utilisation du terme &lt;em&gt;Tableau de bord&lt;&#x2F;em&gt; est pour la page d&#x27;accueil. Elle offre non seulement un aperçu sur quelques statistiques, mais aussi quelques liens utiles. Nous verons les détails de ce &lt;em&gt;Tableau de bord&lt;&#x2F;em&gt;. 
@@ -1559,8 +1559,8 @@ La deuxième utilisation du terme &lt;em&gt;Tableau de bord&lt;&#x2F;em&gt; est 
 		<title>Introduction à Open mSupply</title>
 		<published>2022-03-17T18:20:00+00:00</published>
 		<updated>2022-03-17T18:20:00+00:00</updated>
-		<link rel="alternate" href="https://gh-docs.msupply.foundation/fr/docs/introduction/introduction/" type="text/html"/>
-		<id>https://gh-docs.msupply.foundation/fr/docs/introduction/introduction/</id>
+		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/introduction/introduction/" type="text/html"/>
+		<id>https://docs.msupply.foundation/fr/docs/introduction/introduction/</id>
 		<content type="html">&lt;h2 id=&quot;historique&quot;&gt;Historique&lt;a class=&quot;zola-anchor&quot; href=&quot;#historique&quot; aria-label=&quot;Anchor link for: historique&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Open mSupply s&#x27;appuie sur plus de 20 années d&#x27;expériences enrichissantes de mSupply, au cours desquelles il est devenu le système d&#x27;information de gestion logistique (SIGL) le plus utilisé dans les pays à revenu faible et intermédiaire.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;qu-est-ce-que-open-msupply-permet-de-realiser&quot;&gt;Qu&#x27;est ce que Open mSupply permet de réaliser?&lt;a class=&quot;zola-anchor&quot; href=&quot;#qu-est-ce-que-open-msupply-permet-de-realiser&quot; aria-label=&quot;Anchor link for: qu-est-ce-que-open-msupply-permet-de-realiser&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;

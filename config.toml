@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://gh-docs.msupply.foundation/"
+base_url = "https://docs.msupply.foundation/"
 default_language = "en"
 title="mSupply"
 
