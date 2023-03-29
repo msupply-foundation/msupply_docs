@@ -33,4 +33,6 @@ If you wish to serve images from a subdirectory rather than co-locating the cont
 
 ## Deployment
 
-Currently a manual process is required to build and publish.
+This repo is automatically deployed to github pages on push to main. The github action is defined in `.github/workflows/static_deploy.yml`
+
+The deployment code uses `zola 17.2`
