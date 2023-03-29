@@ -6,7 +6,7 @@ default_language = "en"
 compile_sass = true
 build_search_index = true
 
-theme = "Adidoks"
+theme = "adidoks"
 
 [languages.en]
 title="mSupply"
