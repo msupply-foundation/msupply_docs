@@ -23,6 +23,11 @@ generate_feed = true # there will be a feed for French content
 build_search_index = true
 title="mSupply 🇫🇷"
 
+[languages.es]
+generate_feed = true # there will be a feed for Spanish content
+build_search_index = true
+title="mSupply 🇪🇸"
+
 
 [languages.fr.translations]
 summary = "Mon blog"
@@ -30,6 +35,13 @@ title = "mSupply.fr"
 flag="🇫🇷"
 TOCtitle="Sur cette page"
 search_placeholder = "Rechercher des documents..."
+
+[languages.es.translations]
+summary = "Mi blog"
+title = "mSupply.es"
+flag="🇪🇸"
+TOCtitle="En esta pagina"
+search_placeholder = "Buscar documentos..."
 
 [markdown]
 # Whether to do syntax highlighting
