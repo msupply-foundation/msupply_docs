@@ -21,7 +21,7 @@ content = 'La <a href="content/mobile/introduction/introduction.es.md">Guía de 
 [[extra.list]]
 icon = "mSupplyTorso.svg"
 title = "El Original mSupply Desktop"
-content = 'La <a href="https://docs.msupply.org.nz/"> Wiki de documentos de usuario</a> para mSupply Desktop - ahora con más de 20 años'
+content = 'La <a href="https://docs.msupply.org.nz/"> biblioteca de documentos de usuario</a> para mSupply Desktop - ahora con más de 20 años'
 
 [[extra.list]]
 icon = "dashboard.png"
