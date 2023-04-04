@@ -5,7 +5,7 @@
 title = "Open mSupply"
 
 [extra]
-lead = '<b>Open mSupply</b> consists of an ecosystem of software and services to help manage health supply chains</br>You&#39;re on the English site: <a href="/fr">Passer au Français</a> / <a href="/es">Cambiar a Español</a>'
+lead = '<b>Open mSupply</b> consists of an ecosystem of software and services to help manage health supply chains</br>You&#39;re on the English site: <a href="/fr">Passer au Français</a> / Cambiar a <a href="/es">Español</a>'
 url = "/docs/introduction/introduction"
 url_button = "👉 Open mSupply Desktop Docs"
 repo_version = "GitHub v1 beta"
