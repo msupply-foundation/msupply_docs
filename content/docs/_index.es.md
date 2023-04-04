@@ -1,5 +1,5 @@
 +++
-title = "Open mSupply Documentation"
+title = "Documentos Open mSupply"
 description = "The documents of the AdiDoks theme."
 date = 2025-05-01T08:00:00+00:00
 updated = 2021-05-01T08:00:00+00:00
