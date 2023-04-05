@@ -1,5 +1,5 @@
 +++
-title = "Pln de Trabajo Actual"
+title = "Plan de Trabajo Actual"
 description = "Open mSupply Road Map."
 date = 2022-11-10T18:20:00+00:00
 updated = 2022-11-10T18:20:00+00:00
