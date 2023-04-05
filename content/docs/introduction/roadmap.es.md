@@ -1,5 +1,5 @@
 +++
-title = "Pln de Trabajo Actual"
+title = "Plan de Trabajo Actual"
 description = "Open mSupply Road Map."
 date = 2022-11-10T18:20:00+00:00
 updated = 2022-11-10T18:20:00+00:00
@@ -49,117 +49,117 @@ section Versión 2.2
 
 | Área    | Transacción    | Característica / Capacidad     | 
 |-----------------------------------------------------|------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
-| QUANTIFICATION  | Demand Planning   | Rules-based calculation of estimated product volume requirement X by distribution tier and user-defined time periods | 
-| QUANTIFICATION  | Supply Planning   |   | 
-| QUANTIFICATION  | Demand Planning   | Manually edit forecasts     | 
-| PROCUREMENT   | Tender/Request for quotation    | Purchaser: create a new tender   | 
-| PROCUREMENT   | Tender/Request for quotation    | Purchaser: publish tender to a list of suppliers  | 
-| PROCUREMENT   | Tender/Request for quotation    | Purchaser: create electronic request for quotation (EDI 840)   | 
-| PROCUREMENT   | Tender/Request for quotation    | Purchaser: create benchmark prices  | 
-| PROCUREMENT   | Tender/Request for quotation    | Suppliers: can upload their response in Open mSupply (web portal)  | 
-| PROCUREMENT   | Tender/Request for quotation    | Purchaser: manually receive supplier's responses/quotations    | 
-| PROCUREMENT   | Tender/Request for quotation    | Purchaser: automatically receive supplier's responses/quotations (web portal)   | 
-| PROCUREMENT   | Tender/Request for quotation    | Purchaser: receive an electronic response to a request for quotation (EDI 843 / PEPPOL)    | 
-| PROCUREMENT   | Tender/Request for quotation    | Purchasers: evaluation of received quotations   | 
-| PROCUREMENT   | Tender/Request for quotation    | Purchasers: select preferred suppliers (awarding)  | 
-| PROCUREMENT   | Tender/Request for quotation    | Contracts and Grants management   | 
-| PROCUREMENT   | Purchase Orders   | Create PO from a tender     | 
-| PROCUREMENT   | Purchase Orders   | Create Calculated PO     | 
-| PROCUREMENT   | Purchase Orders   | Create Blank PO   | 
-| PROCUREMENT   | Purchase Orders   | Create an electronic Purchase Order (EDI 850)   | 
-| PROCUREMENT   | Purchase Orders   | Add items from master list    | 
-| PROCUREMENT   | Purchase Orders   | PO categories   | 
-| PROCUREMENT   | Purchase Orders   | PO line attributes  | 
-| PROCUREMENT   | Vendor Management  | Create/View/Edit Vendors    | 
-| PROCUREMENT   | Advanced Shipping Notice | Create a manual ASN from a PO   | 
-| PROCUREMENT   | Advanced Shipping Notice | Receive an electronic ASN (EDI 856)  | 
-| PROCUREMENT   | Good Receipts   | Print a good receipt form (pdf, csv) from an inbound shipment (when VERIFIED status is confirmed)  | 
-| PROCUREMENT   | Payments | Print a supplier invoice form (pdf, csv) from an inbound shipment (when VERIFIED status is confirmed) | 
-| PROCUREMENT   | Payments | Record payments made to suppliers (from a supplier invoice)    | 
-| RECEIVING   | Inbound Shipments (ex Supplier Invoices) | Accept notification of arrival of shipment    | 
-| RECEIVING   | Inbound Shipments (ex Supplier Invoices) | Automatically receive inbound shipment data prior to arrival   | 
-| RECEIVING   | Inbound Shipments (ex Supplier Invoices) | Manually record inbound shipment data prior to arrival     | 
-| RECEIVING   | Inbound Shipments (ex Supplier Invoices) | Display any diffrerence between ordered (req or PO) quantities and notified quantities | 
-| RECEIVING   | Inbound Shipments (ex Supplier Invoices) | Notify appropriate parties of discrepancies    | 
-| RECEIVING   | Inbound Shipments (ex Supplier Invoices) | Reject order if necessary    | 
-| RECEIVING   | Inbound Shipments (ex Supplier Invoices) | Display the storage requirements based on quantity shipped gross volume | 
-| RECEIVING   | Inbound Shipments (ex Supplier Invoices) | Display amount of storage space available by type  | 
-| RECEIVING   | Inbound Shipments (ex Supplier Invoices) | Flag if insufficient storage space by type    | 
-| RECEIVING   | Inbound Shipments (ex Supplier Invoices) | Acknowledge arrival of inbound shipment     | 
-| RECEIVING   | Inbound Shipments (ex Supplier Invoices) | Manually record inbound shipment data on arrival  | 
-| RECEIVING   | Inbound Shipments (ex Supplier Invoices) | Barcode scanning for goods receiving     | 
-| RECEIVING   | Inbound Shipments (ex Supplier Invoices) | Flag discrepancies compared to the shipment received     | 
-| RECEIVING   | Inbound Shipments (ex Supplier Invoices) | Record damage, discrepancy, batch mismatch, indicator, and variation information for individual line items    | 
-| RECEIVING   | Inbound Shipments (ex Supplier Invoices) | Record notes concerning discrepancies and variations in goods received | 
-| RECEIVING   | Inbound Shipments (ex Supplier Invoices) | Report damages and discrepancies to appropriate individuals    | 
-| RECEIVING   | Inbound Shipments (ex Supplier Invoices) | Confirm goods into stock (update of inventory records)     | 
-| RECEIVING   | Inbound Shipments (ex Supplier Invoices) | Print receiving reports, stock release form, receipt authorisation, etc...    | 
-| RECEIVING   | Inbound Shipments (ex Supplier Invoices) | Assign an operator to an Inbound Shipment for putting away received stock    | 
-| RECEIVING   | Inbound Shipments (ex Supplier Invoices) | Putaway app: load the inbound shipment's items list and instructions for putaway.  | 
-| RECEIVING   | Inbound Shipments (ex Supplier Invoices) | Display storage conditions for items (eg. temperature controlled)  | 
-| RECEIVING   | Inbound Shipments (ex Supplier Invoices) | Display default storage location for each item   | 
-| RECEIVING   | Inbound Shipments (ex Supplier Invoices) | Propose space/positions for each stock item based on define rules (eg. current space availability, based on ABC category)    | 
-| RECEIVING   | Inbound Shipments (ex Supplier Invoices) | Print pallet/shelf tag specifying status of goods, if appropriate  | 
-| INVENTORY MANAGEMENT    | Locations    | Create/edit inventory storage locations (Aisle, Bin, Slot, etc.)  | 
-| INVENTORY MANAGEMENT    | Locations    | Define storage locations hierarchy  | 
-| INVENTORY MANAGEMENT    | Locations    | Define storage conditions (cold chain, volume, item restrictions, use restrictions, etc...)    | 
-| INVENTORY MANAGEMENT    | Locations    | Record temperatures for storage locations (see category COLD CHAIN)  | 
-| INVENTORY MANAGEMENT    | Items - Stock Movement and Expiry  | Record VVM status  | 
-| INVENTORY MANAGEMENT    | Locations    | Record frozen conditions status   | 
-| INVENTORY MANAGEMENT    | Items - Master data  | Set temperature threshold conditions per product, as appropriate  | 
-| INVENTORY MANAGEMENT    | Items - Stock Movement and Expiry  | Alert conditions outside threshold  | 
-| INVENTORY MANAGEMENT    | Items - Stock Movement and Expiry  | Track lots and expiry dates    | 
-| INVENTORY MANAGEMENT    | Items - Stock Movement and Expiry  | Transfer stock from one location to another    | 
-| INVENTORY MANAGEMENT    | Items - Stock Movement and Expiry  | Display and transmit alerts and notifications for pending expiries  | 
-| INVENTORY MANAGEMENT    | Items - Stock Movement and Expiry  | Display and transmit alerts and notifications for stock outs, overstock, understock  | 
-| INVENTORY MANAGEMENT    | Items - Master data  | Flag items as hazardous, as appropriate     | 
-| INVENTORY MANAGEMENT    | Stocktake    | Create/edit a stocktake for a list of items    | 
-| INVENTORY MANAGEMENT    | Stocktake    | Filter the stock to be included: by item attributes (category, department, expiry date, etc...)   | 
-| INVENTORY MANAGEMENT    | Stocktake    | Filter the stock to be included: by location   | 
-| INVENTORY MANAGEMENT    | Stocktake    | Filter the stock to be included: by master list   | 
-| INVENTORY MANAGEMENT    | Stocktake    | Print stocktake sheets (PDF format)  | 
-| INVENTORY MANAGEMENT    | Stocktake    | Print stocktake sheets (CSV format)  | 
-| INVENTORY MANAGEMENT    | Stocktake    |   | 
-| INVENTORY MANAGEMENT    | Stocktake    | Stocktake app: load the stocktake sheet on a mobile device    | 
-| INVENTORY MANAGEMENT    | Stocktake    | Stocktake app: use a barcode scanner/mobile device camera to select the item the operator is counting | 
-| INVENTORY MANAGEMENT    | Stocktake    | Barcode scanning for stocktaking  | 
-| INVENTORY MANAGEMENT    | Stocktake    | Create inventory adjustments (finalise stocktake)  | 
-| INVENTORY MANAGEMENT    | Stocktake    | Add inventory adjustments reasons  | 
-| INVENTORY MANAGEMENT    | Stocktake    | Cycle counting   | 
-| INVENTORY MANAGEMENT    | Kits  |   | 
-| INVENTORY MANAGEMENT    | Inventory Adjustments |   | 
-| INVENTORY MANAGEMENT    | Repacks |   | 
-| INVENTORY MANAGEMENT    | Items - Stock Movement and Expiry  | Split stock line  | 
-| INVENTORY MANAGEMENT    | Items - Stock Movement and Expiry  | Merge stock line  | 
-| INVENTORY MANAGEMENT    | Pickface replenishments |   | 
-| INVENTORY MANAGEMENT    | Labor Management   | Create/edit warehouse operators   | 
-| DISPATCH   | Outbound Shipment  | Create a pick slip from an allocated outbound shipment     | 
-| DISPATCH   | Outbound Shipment  | Pick slip: Display current location(s) for requisitioned items   | 
-| DISPATCH   | Outbound Shipment  | Pick slip: create pick slip sorted by storage locations     | 
-| DISPATCH   | Outbound Shipment  | Pick slip: Display stock expiry date     | 
-| DISPATCH   | Outbound Shipment  | Pick slip app: load a pick slip on a mobile device.  | 
-| DISPATCH   | Outbound Shipment  | Barcode scanning and order picking  | 
-| DISPATCH   | Outbound Shipment  | Confirm outbound shipment as picked  | 
-| DISPATCH   | Outbound Shipment  | Pack Order    | 
-| DISPATCH   | Outbound Shipment  | Pack Order: Box / cartonisation   | 
-| DISPATCH   | Outbound Shipment  | Print documents for delivery: packing list, customer invoice, goods received note  | 
-| DISPATCH   | Outbound Shipment  | Confirm outbound shipment as shipped (Update of inventory records)  | 
+| CUANTIFICACIÓN | Planificación de la demanda  | Cálculo basado en reglas del volumen estimado de productos requeridos X por nivel de distribución y períodos de tiempo definidos por el usuario | 
+| CUANTIFICACIÓN | Planificación de suministros  |   | 
+| CUANTIFICACIÓN  | Planificación de la demanda  | Editar manualmente las previsiones    | 
+| ADQUISICIONES  | Licitación/Solicitud de cotización   | Comprador: crear una nueva licitación   | 
+| ADQUISICIONES   | Licitación/Solicitud de cotización    | Comprador: publicar la licitación en una lista de proveedores  | 
+| ADQUISICIONES  | Licitación/Solicitud de cotización    | Comprador: crear una solicitud electrónica de cotización (EDI 840)   | 
+| ADQUISICIONES   | Licitación/Solicitud de cotización     | Comprador: crear precios de referencia | 
+| ADQUISICIONES   | Licitación/Solicitud de cotización     | Proveedores: pueden cargar sus respuestas en Open mSupply (portal web)  | 
+| ADQUISICIONES   | Licitación/Solicitud de cotización     | Comprador: recibir manualmente las respuestas / cotizaciones del proveedor    | 
+| ADQUISICIONES  | Licitación/Solicitud de cotización     | Comprador: recibir automáticamente las respuestas / cotizaciones del proveedor (portal web)  | 
+| ADQUISICIONES   | Licitación/Solicitud de cotización    | Comprador: recibir una respuesta electrónica a una solicitud de cotización (EDI 843 / PEPPOL)    | 
+| ADQUISICIONES   | Licitación/Solicitud de cotización     | Compradores: evaluatón de cotizaciones recibidas   | 
+| ADQUISICIONES   | Licitación/Solicitud de cotización     | Compradores: seleccionar proveedores preferidos (adjudicación)  | 
+| ADQUISICIONES   | Licitación/Solicitud de cotización     | Gestión de contratos y subvenciones  | 
+| ADQUISICIONES   | Órdenes de compra  | Crear una orden de compra a partir de una licitación     | 
+| ADQUISICIONES  | Órdenes de compra  | Crear una orden de compra calculada     | 
+| ADQUISICIONES   | Órdenes de compra  | Crear una orden de compra en blanco   | 
+| ADQUISICIONES   | Órdenes de compra   | Crear una orden de compra electrónica (EDI 850)   | 
+| ADQUISICIONES   | Órdenes de compra  | Agregar elementos de la lista maestra    | 
+| ADQUISICIONES   | Órdenes de compra   | Categorías de orden de compra   | 
+| ADQUISICIONES  | Órdenes de compra  | Atributos de línea de orden de compra  | 
+| ADQUISICIONES   | Gestión de proveedores  | Crear / Ver / Editar proveedores   | 
+| ADQUISICIONES   | Aviso de Envío Avanzado | Crear un aviso de envío avanzado (ASN) manual a partir de una orden de compra (PO)   | 
+| ADQUISICIONES   | Aviso de Envío Avanzado | Recibir un ASN electrónico (EDI 856)  | 
+| ADQUISICIONES   | Recepción de bienes   | Imprimir un formulario de recepción de mercancías (PDF, CSV) de un envío entrante (cuando se confirma el estado VERIFICADO)  | 
+| ADQUISICIONES   | Pagos | Imprimir un formulario de factura de proveedor (PDF, CSV) de un envío entrante (cuando se confirma el estado VERIFICADO) | 
+| ADQUISICIONES   | Pagos| Registrar los pagos realizados a proveedores (a partir de una factura de proveedor)    | 
+| RECEPCIÓN   | Entradas(excluyendo facturas de proveedores) | Aceptar notificación de llegada del envío    | 
+| RECEPCIÓN   | Entradas(excluyendo facturas de proveedores) | Recibir automáticamente los datos del envío antes de la llegada  | 
+| RECEPCIÓN  | Entradas(excluyendo facturas de proveedores) | Registrar manualmente los datos del envío antes de la llegada    | 
+| RECEPCIÓN  | Entradas(excluyendo facturas de proveedores) | Mostrar cualquier diferencia entre las cantidades solicitadas (req o PO) y las cantidades notificadas | 
+| RECEPCIÓN   | Entradas(excluyendo facturas de proveedores) | Notificar a las partes correspondientes las discrepancias   | 
+| RECEPCIÓN   | Entradas(excluyendo facturas de proveedores) | Rechazar el pedido si es necesario   | 
+| RECEPCIÓN  | Entradas(excluyendo facturas de proveedores) | Mostrar los requisitos de almacenamiento en función de la cantidad enviada y el volumen bruto | 
+| RECEPCIÓN   | Entradas(excluyendo facturas de proveedores) | Mostrar la cantidad de espacio de almacenamiento disponible por tipo | 
+| RECEPCIÓN  | Entradas(excluyendo facturas de proveedores) | Marcar si no hay suficiente espacio de almacenamiento por tipo   | 
+| RECEPCIÓN  | Entradas(excluyendo facturas de proveedores) | Confirmar la llegada del envío entrante      | 
+| RECEPCIÓN  | Entradas(excluyendo facturas de proveedores) | Registrar manualmente los datos de la entrada al llegar  | 
+| RECEPCIÓN   | Entradas(excluyendo facturas de proveedores) | Escaneo de códigos de barras para la recepción de bienes     | 
+| RECEPCIÓN   | Entradas(excluyendo facturas de proveedores) | Indicar las discrepancias en comparación con el envío recibido    | 
+| RECEPCIÓN   | Entradas(excluyendo facturas de proveedores) | Registrar daños, discrepancias, no coincidencia de lotes, indicador e información de variación para cada línea de producto   | 
+| RECEPCIÓN   | Entradas(excluyendo facturas de proveedores)| Registrar notas sobre las discrepancias y variaciones en los bienes recibidos | 
+| RECEPCIÓN   | Entradas(excluyendo facturas de proveedores) | Informar los daños y discrepancias a las personas correspondientes    | 
+| RECEPCIÓN  | Entradas(excluyendo facturas de proveedores) | Confirmar los bienes en el stock (actualizar los registros de inventario)    | 
+| RECEPCIÓN   | Entradas(excluyendo facturas de proveedores) | Imprimir informes de recepción, formulario de liberación de stock, autorización de recepción, etc...   | 
+| RECEPCIÓN  | Entradas(excluyendo facturas de proveedores) | Asignar un operario a una entrada para ubicar el stock recibido   | 
+| RECEPCIÓN  | Entradas(excluyendo facturas de proveedores) | Aplicación de ubicación: carga la lista de artículos y las instrucciones de ubicación de ña entrada  | 
+| RECEPCIÓN  | Entradas(excluyendo facturas de proveedores) | Mostrar las condiciones de almacenamiento de los artículos (por ejemplo, control de temperatura)  | 
+| RECEPCIÓN  | Entradas(excluyendo facturas de proveedores)| Mostrar la ubicación de almacenamiento predeterminada para cada artículo   | 
+| RECEPCIÓN   | Entradas(excluyendo facturas de proveedores)| Proponer el espacio/posición para cada artículo en inventario basado en reglas definidas (por ejemplo, la disponibilidad actual de espacio, basado en la categoría ABC)   | 
+| RECEPCIÓN  | Entradas(excluyendo facturas de proveedores) | Imprimir etiqueta de paleta/estante que especifique el estado de la mercancía, si es apropiado  | 
+| GESTIÓN DE INVENTARIO     | Ubicaciones   | Crear/editar ubicaciones de almacenamiento de inventario (pasillo, bin, slot, etc.)  | 
+| GESTIÓN DE INVENTARIO     | Ubicaciones   | Definir la jerarquía de las ubicaciones de almacenamiento  | 
+| GESTIÓN DE INVENTARIO    | Ubicaciones    | Definir condiciones de almacenamiento (cadena de frío, volumen, restricciones de elementos, restricciones de uso, etc...)    | 
+| GESTIÓN DE INVENTARIO     | Ubicaciones   | Registrar las temperaturas para las ubicaciones de almacenamiento (ver categoría CADENA DE FRÍO)  | 
+| GESTIÓN DE INVENTARIO     | Artículos - Movimiento de stock y caducidad  | Registrar el estado VVM   | 
+| GESTIÓN DE INVENTARIO     | Ubicaciones     | Registrar el estado de las condiciones de congelación   | 
+| GESTIÓN DE INVENTARIO     | Artículos - Datos maestros  | Establecer condiciones de umbral de temperatura por producto, según corresponda  | 
+| GESTIÓN DE INVENTARIO    | Artículos - Movimiento de stock y caducidad  | Condiciones de alerta fuera del umbral  | 
+| GESTIÓN DE INVENTARIO    | Artículos - Movimiento de stock y caducidad  | Realizar seguimiento de lotes y fechas de caducidad    | 
+| GESTIÓN DE INVENTARIO    | Artículos - Movimiento de stock y caducidad   | Transferir el stock de una ubicación a otra    | 
+| GESTIÓN DE INVENTARIO    | Artículos - Movimiento de stock y caducidad  | Mostrar y transmitir alertas y notificaciones de caducidades pendientes  | 
+| GESTIÓN DE INVENTARIO    | Artículos - Movimiento de stock y caducidad   | Mostrar y transmitir alertas y notificaciones de stock agotado, sobreestock, subestock  | 
+| GESTIÓN DE INVENTARIO    | Artículos - Datos maestros  | Marcar artículos como peligrosos, según corresponda    | 
+| GESTIÓN DE INVENTARIO    | Toma de inventario   | Crear/editar una toma de inventario para una lista de artículos    | 
+| GESTIÓN DE INVENTARIO    | Toma de inventario    | iltrar el stock a incluir: por atributos de artículo (categoría, departamento, fecha de caducidad, etc...)   | 
+| GESTIÓN DE INVENTARIO    | Toma de inventario   | Filtrar el stock a incluir: por ubicación  | 
+| GESTIÓN DE INVENTARIO    | Toma de inventario    | Filtrar el stock a incluir: por lista maestra   | 
+| GESTIÓN DE INVENTARIO     | Toma de inventario    | Imprimir hojas de toma de inventario (formato PDF)  | 
+| GESTIÓN DE INVENTARIO     | Toma de inventario   | Imprimir hojas de toma de inventario (formato CSV)  | 
+| GESTIÓN DE INVENTARIO    | Toma de inventario    |   | 
+| GESTIÓN DE INVENTARIO     | Toma de inventario    | Aplicación de toma de inventario: cargar la hoja de toma de inventario en un dispositivo móvil    | 
+| GESTIÓN DE INVENTARIO     | Toma de inventario    | Aplicación de toma de inventario: usa un escáner de código de barras o la cámara del dispositivo móvil para seleccionar el artículo que el operario está contando | 
+| GESTIÓN DE INVENTARIO     | Toma de inventario    | Escaneo de código de barras para la toma de inventario | 
+| GESTIÓN DE INVENTARIO     | Toma de inventario    | Crear ajustes de inventario (finalizar la toma de inventario)  | 
+| GESTIÓN DE INVENTARIO    | Toma de inventario   | Agregar razones para los ajustes de inventario  | 
+| GESTIÓN DE INVENTARIO    | Toma de inventario   | Conteo cíclico  | 
+| GESTIÓN DE INVENTARIO    | Kits  |   | 
+| GESTIÓN DE INVENTARIO    | Ajustes de inventario |   | 
+| GESTIÓN DE INVENTARIO    | Reempacar |   | 
+| GESTIÓN DE INVENTARIO    | Artículos - Movimiento de stock y caducidad   | Dividir línea de stock  | 
+| GESTIÓN DE INVENTARIO     | Artículos - Movimiento de stock y caducidad   | Combinar línea de stock  | 
+| GESTIÓN DE INVENTARIO     | Reposición de pickface (zona de alta rotación) |   | 
+| GESTIÓN DE INVENTARIO     | Gestión de personal   | Crear/editar operarios de almacén  | 
+| DESPACHOS  | Salidas  | Crear una hoja de recogida a partir de una salida asignada    | 
+| DESPACHOS  | Salidas  | Hoja de recogida: mostrar la ubicación actual de los artículos requeridos   | 
+| DESPACHOS   | Salidas  | Hoja de recogida: crear hoja de recogida ordenada por ubicaciones de almacenamiento     | 
+| DESPACHOS  | Salidas | Hoja de recogida: mostrar la fecha de caducidad del stock    | 
+| DESPACHOS  | Salidas  | Aplicación de hoja de recogida: cargar una hoja de recogida en un dispositivo móvil  | 
+| DESPACHOS   | Salidas  | Escaneo de códigos de barras y recogida de pedidos  | 
+| DESPACHOS  | Salidas  | Confirmar la salida como alistada | 
+| DESPACHOS  | Salidas  | Empaque de pedido    | 
+| DESPACHOS  | Salidas | Empaque de pedido: caja/cartonización  | 
+| DESPACHOS  | Salidas | Imprimir documentos para la entrega: lista de embalaje, factura del cliente, nota de recepción de mercancías | 
+| DESPACHOS  | Salidas | Confirmar la salida como enviada (actualización de los registros de inventario)  | 
 | TRANSPORT   | Transport order/request | Draft transport order     | 
 | TRANSPORT   | Transport order/request | Assign one or multiple "picked" outbound shipments to transport order (same trip or location)   | 
-| TRANSPORT   | Transport order/request | Determine Payload, Volume, and Dimensions    | 
-| TRANSPORT   | Transport order/request | Select Transportation Mode and Type  | 
-| TRANSPORT   | Transport order/request | Determine temperature control requirements    | 
-| TRANSPORT   | Transport order/request | Confirm transport order     | 
-| TRANSPORT   | Transport order/request | Schedule transport resources   | 
-| TRANSPORT   | Transport order/request | Record/Display delivery instructions     | 
-| TRANSPORT   | Transport order/request | Record/Display tracking number, vehicle, driver   | 
-| TRANSPORT   | Transport order/request | Confirm outbound shipments have been loaded    | 
-| TRANSPORT   | Transport order/request | Track location and update ETA   | 
-| TRANSPORT   | Transport order/request | Record transport history (location, temperature)  | 
-| TRANSPORT   | Transport order/request | Confirm delivery / print/send proof of delivery   | 
-| TRANSPORT   | Carrier | Create/edit Carriers     | 
-| TRANSPORT   | Route | Create/edit Routes  | 
-| TRANSPORT   | Fleet Management   |   | 
+| TRANSPORTE   | Orden/Solicitud de transporte | Determinar la carga útil, volumen y dimensiones    | 
+| TRANSPORTE   | Orden/Solicitud de transporte | Seleccionar el modo y tipo de transporte | 
+| TRANSPORTE   | Orden/Solicitud de transporte| Determinar los requisitos de control de temperatura    | 
+| TRANSPORTE   | Orden/Solicitud de transporte | Confirmar la orden de transporte   | 
+| TRANSPORTE   | Orden/Solicitud de transporte| Programar los recursos de transporte  | 
+| TRANSPORTE   | Orden/Solicitud de transporte | Registrar/Mostrar las instrucciones de entrega     | 
+| TRANSPORTE   | Orden/Solicitud de transporte| Registrar/Mostrar el número de seguimiento, vehículo, conductor   | 
+| TRANSPORTE   | Orden/Solicitud de transporte| Confirmar que se han cargado las salidas   | 
+| TRANSPORTE   | Orden/Solicitud de transporte | Rastrear la ubicación y actualizar la hora estimada de llegada  | 
+| TRANSPORTE   | Orden/Solicitud de transporte | Registrar el historial de transporte (ubicación, temperatura)  | 
+| TRANSPORTE   | Orden/Solicitud de transporte | Confirmar la entrega / imprimir/enviar prueba de entrega   | 
+| TRANSPORTE   | Transportista | Create/edit Carriers     | 
+| TRANSPORTE   | Ruta | Crear/editar transportistas   | 
+| TRANSPORTE   | Gestión de flotas   |   | 
 | REQUISITIONS  | General Request Requisition (Int. Order) | Suggest order quantities based on past comsumption data (eg. AMC)  | 
 | REQUISITIONS  | General Request Requisition (Int. Order) | Suggest order quantities based on minimum quantity threshold   | 
 | REQUISITIONS  | General Request Requisition (Int. Order) | Suggest order quantities based on patient records / registry data  | 
