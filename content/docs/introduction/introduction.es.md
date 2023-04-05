@@ -55,8 +55,8 @@ La siguiente tabla describe algunos de los términos comunes utilizados en mSupp
 
 | Término en Open mSupply  |  Término en mSupply Legacy  | Definición                                                            |
 | :---------------: | :-------------------: | :--------------------------------------------------------------------- |
-| Envío saliente |   Factura de cliente   | La acción de suministrar bienes a un cliente particular (almacén del cliente) |
-| Envío entrante |   Factura de proveedor    | La acción de recibir un suministro de bienes de un proveedor particular        |
+| Salidas|   Factura de cliente   | La acción de suministrar bienes a un cliente particular (almacén del cliente) |
+| Entradas|   Factura de proveedor    | La acción de recibir un suministro de bienes de un proveedor particular        |
 |    Requisición    | Requisiciones de cliente | Un pedido de suministro de bienes realizado por un cliente particular (almacén del cliente) |
 |  Órdenes internas | Requisiciones de proveedor | Una solicitud de stock realizada a un proveedor particular (almacén del proveedor)        |
 
