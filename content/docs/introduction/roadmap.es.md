@@ -148,7 +148,7 @@ section Versión 2.2
 | TRANSPORT   | Transport order/request | Assign one or multiple "picked" outbound shipments to transport order (same trip or location)   | 
 | TRANSPORTE   | Orden/Solicitud de transporte | Determinar la carga útil, volumen y dimensiones    | 
 | TRANSPORTE   | Orden/Solicitud de transporte | Seleccionar el modo y tipo de transporte | 
-| TRANSPORTE   | Orden/Solicitud de transporte| Determinar los requisitos de control de temperatura    | 
+| TRANSPORTE   | Orden/Solicitud de transporte| Determinar los reShare+quisitos de control de temperatura    | 
 | TRANSPORTE   | Orden/Solicitud de transporte | Confirmar la orden de transporte   | 
 | TRANSPORTE   | Orden/Solicitud de transporte| Programar los recursos de transporte  | 
 | TRANSPORTE   | Orden/Solicitud de transporte | Registrar/Mostrar las instrucciones de entrega     | 
@@ -160,66 +160,66 @@ section Versión 2.2
 | TRANSPORTE   | Transportista | Create/edit Carriers     | 
 | TRANSPORTE   | Ruta | Crear/editar transportistas   | 
 | TRANSPORTE   | Gestión de flotas   |   | 
-| REQUISITIONS  | General Request Requisition (Int. Order) | Suggest order quantities based on past comsumption data (eg. AMC)  | 
-| REQUISITIONS  | General Request Requisition (Int. Order) | Suggest order quantities based on minimum quantity threshold   | 
-| REQUISITIONS  | General Request Requisition (Int. Order) | Suggest order quantities based on patient records / registry data  | 
-| REQUISITIONS  | General Request Requisition (Int. Order) | estimate stock needs based on aggregating requisitions by intermediate levels   | 
-| REQUISITIONS  | General Request Requisition (Int. Order) | estimate stock needs based on target populations  | 
-| REQUISITIONS  | General Request Requisition (Int. Order) | estimate stock needs quantities based on statistical forecasts   | 
-| REQUISITIONS  | General Request Requisition (Int. Order) | estimate stock needs point based on user-defined criteria    | 
-| REQUISITIONS  | General Request Requisition (Int. Order) | Display past consumption data   | 
-| REQUISITIONS  | General Request Requisition (Int. Order) | Display current available and usable on-hand quantity of each stock item    | 
-| REQUISITIONS  | General Request Requisition (Int. Order) | Display open order and inbound shipments    | 
-| REQUISITIONS  | General Request Requisition (Int. Order) | Display open outbound orders and projected usage  | 
-| REQUISITIONS  | General Request Requisition (Int. Order) | Display current stock levels (SOH) at all relevant levels    | 
-| REQUISITIONS  | General Request Requisition (Int. Order) | Display expiry dates for on-hand stock     | 
-| REQUISITIONS  | General Request Requisition (Int. Order) | Generate suggested order quantities (Requested - SOH) = Suggested Qty | 
-| REQUISITIONS  | General Request Requisition (Int. Order) | Display lead time for order fulfillment     | 
-| REQUISITIONS  | General Request Requisition (Int. Order) | Display item cost at time requisition is generated  | 
-| REQUISITIONS  | General Request Requisition (Int. Order) | Calculate order cost at time requisition is generated     | 
-| REQUISITIONS  | General Request Requisition (Int. Order) | Submit requisition (electronically or manually)   | 
-| REQUISITIONS  | General Request Requisition (Int. Order) | Provide approval/rejection mechanism at appropriate levels    | 
-| REQUISITIONS  | General Request Requisition (Int. Order) | Approver can modify the requisition, if needed   | 
-| REQUISITIONS  | General Request Requisition (Int. Order) | Record requisition approval date  | 
-| PER-PATIENT DISPENSING    | Dispensing    | Record dispensed medicines to an individual patient  | 
-| PER-PATIENT DISPENSING    | Prescription    | Create/edit a prescription    | 
-| PER-PATIENT DISPENSING    | Prescription    | Abbreviations   | 
-| PER-PATIENT DISPENSING    | Prescription    | Drug Interactions Group     | 
-| PER-PATIENT DISPENSING    | Prescription    | Payments and receipt / cash register     | 
-| PER-PATIENT DISPENSING    | Prescription    | Create/edit patients     | 
-| PER-PATIENT DISPENSING    | Prescription    | Create/edit prescribers     | 
-| PER-PATIENT DISPENSING    | Prescription    | Repeats     | 
-| PROCUREMENT   | Good receipt to verify stock on POs  | Create Goods Receipt / Inbound Shipment     | 
-| PROCUREMENT   | Good receipt to verify stock on POs  | Add lines from a PO to an Inbound Shipment    | 
-| COLD CHAIN   | Temperature monitoring | Display and transmits alerts for temperature breach (home screen dashboard), assign one or several temperature sensors to a storage location, define threshold per item | 
-| COLD CHAIN   | Temperature monitoring | Sync of temperature records to the server to feed mSupply dashboard (via Cold Chain app)    | 
-| COLD CHAIN   | Temperature monitoring | Integration with Berlinger temperature loggers and fridge tab   | 
-| SYNC    | Sync Carry over   | https://github.com/openmsupply/open-msupply/issues/608     | 
-| OVERALL SYSTEM  | User permission   | Build in variable user access   | 
-| OVERALL SYSTEM  | Currency | Ability to support several currency and their exchange rate    | 
-| OVERALL SYSTEM  | Any  | Upload scanned documents    | 
-| PROCUREMENT   | Manage templates   | Ability to maintain templates   | 
-| DASHBOARDS   | View data on dashboards | Reports on stock consumption   | 
-| PROCUREMENT   | Purchase Orders   | All approvers can access system to approve procurement forms   | 
-| REQUISITIONS  | General Request Requisition (Int. Order) | Intuitive requisition template with pull-down menus  | 
-| REQUISITIONS  | General Request Requisition (Int. Order) | Requested items can be routed for storage release or purchase   | 
-| PROCUREMENT   | Add notes and process waivers   | Ability to document notes to file and procurement process waivers  | 
-| OVERALL SYSTEM  | Any  | Ability to store contracts and Goods Received Note (GRN) in the system | 
-| PROCUREMENT   | Referencing    | Facilitate 3-way matching for vendor payments (PO, GRN, invoice)  | 
-| PROCUREMENT   | Purchase Orders   | Notify PO change in status to different users or when the full PO is not fulfilled  | 
-| PROCUREMENT   | Matching information  | Procurement and inventory modules communicate data on received goods, POs, and master lists with each other    | 
-| DISPATCH   | Outbound Shipment  | Send a notification of approved outbound shipment  | 
-| DISPATCH   | Outbound Shipment  | Approval system of outbound shipment     | 
-| PROCUREMENT   | Generate Delivery note | Generate Delivery note and Waybill/Packing List   | 
-| TRANSPORT   | Vehicle data sheet  | Record for each vehicle with key parameters (VIN, model, plate, fuel type, model year, reg. data & number, insurance date & policy number, price, etc.) | 
-| TRANSPORT   | Reporting    | Track key monthly vehicle data (# of days vehicle in use and under repair, km driven, odometer reading, fuel cost, liters of fuel consumed)    | 
-| TRANSPORT   | Reporting    | "Track key monthly generator data (running hours, maintenance costs, fuel consumed) | 
+| REQUISICIONES  | Requisición de Solicitud General (Orden Interna) | Sugerir cantidades de pedido basadas en datos de consumo pasado (por ejemplo, AMC)  | 
+| REQUISICIONES  | Requisición de Solicitud General (Orden Interna) | Sugerir cantidades de pedido basadas en el umbral de cantidad mínima  | 
+| REQUISICIONES  | Requisición de Solicitud General (Orden Interna) | Sugerir cantidades de pedido basadas en los registros de pacientes / datos de registro  | 
+| REQUISICIONES  | Requisición de Solicitud General (Orden Interna) | Estimar las necesidades de stock basándose en la agregación de requisiciones por niveles intermedios   | 
+| REQUISICIONES  | Requisición de Solicitud General (Orden Interna)| Estimar las necesidades de stock basándose en poblaciones objetivo  | 
+| REQUISICIONES  | Requisición de Solicitud General (Orden Interna) | Estimar las cantidades necesarias de stock basándose en pronósticos estadísticos  | 
+| REQUISICIONES  | Requisición de Solicitud General (Orden Interna) | Estimar el punto de necesidades de stock basándose en criterios definidos por el usuario    | 
+| REQUISICIONES  | Requisición de Solicitud General (Orden Interna) | Mostrar datos pasados de consumo  | 
+| REQUISICIONES  | Requisición de Solicitud General (Orden Interna) | Mostrar la cantidad actual disponible y utilizable en inventario de cada artículo de stock    | 
+| REQUISICIONES  | Requisición de Solicitud General (Orden Interna) | Mostrar órdenes abiertas y entradas    | 
+| REQUISICIONES  | Requisición de Solicitud General (Orden Interna) | Mostrar órdenes de salida abiertas y uso proyectado  | 
+| REQUISICIONES  | Requisición de Solicitud General (Orden Interna) | Mostrar los niveles de stock actuales (SOH) en todos los niveles relevantes    | 
+| REQUISICIONES  | Requisición de Solicitud General (Orden Interna) | Mostrar las fechas de vencimiento de los productos en stock disponible     | 
+| REQUISICIONES  | Requisición de Solicitud General (Orden Interna) | Generar cantidades sugeridas de pedido (Solicitado - En existencia) = Cantidad sugerida| 
+| REQUISICIONES  | Requisición de Solicitud General (Orden Interna) | Mostrar el tiempo de espera para el cumplimiento del pedido     | 
+| REQUISICIONES  | Requisición de Solicitud General (Orden Interna) | Mostrar el costo del artículo al momento en que se genera la solicitud  | 
+| REQUISICIONES  | Requisición de Solicitud General (Orden Interna)| Calcular el costo del pedido en el momento en que se genera la solicitud    | 
+| REQUISICIONES  | Requisición de Solicitud General (Orden Interna) | Enviar la solicitud (electrónicamente o manualmente)   | 
+| REQUISICIONES  | Requisición de Solicitud General (Orden Interna) | Proporcionar un mecanismo de aprobación/rechazo a niveles apropiados    | 
+| REQUISICIONES  | Requisición de Solicitud General (Orden Interna) | El aprobador puede modificar la solicitud, si es necesario   | 
+| REQUISICIONES  | Requisición de Solicitud General (Orden Interna) | Registrar la fecha de aprobación de la solicitud | 
+| DISPENSACIÓN POR PACIENTE    | Dispensing    | Record dispensed medicines to an individual patient  | 
+| DISPENSACIÓN POR PACIENTE    | Prescripción    | Create/edit a prescription    | 
+| DISPENSACIÓN POR PACIENTE    | Prescripción    | Abbreviations   | 
+| DISPENSACIÓN POR PACIENTE    | Prescripción    | Drug Interactions Group     | 
+| DISPENSACIÓN POR PACIENTE    | Prescripción    | Payments and receipt / cash register     | 
+| DISPENSACIÓN POR PACIENTE    | Prescripción    | Create/edit patients     | 
+| DISPENSACIÓN POR PACIENTE    | Prescripción    | Create/edit prescribers     | 
+| DISPENSACIÓN POR PACIENTE    | Prescripción    | Repeats     | 
+| ADQUISICIONES  | Good receipt to verify stock on POs  | Create Goods Receipt / Inbound Shipment     | 
+| ADQUISICIONES   | Good receipt to verify stock on POs  | Add lines from a PO to an Inbound Shipment    | 
+| CADENA DE FRÍO   | Temperature monitoring | Display and transmits alerts for temperature breach (home screen dashboard), assign one or several temperature sensors to a storage location, define threshold per item | 
+| CADENA DE FRÍO   | Temperature monitoring | Sync of temperature records to the server to feed mSupply dashboard (via Cold Chain app)    | 
+| CADENA DE FRÍO   | Temperature monitoring | Integration with Berlinger temperature loggers and fridge tab   | 
+| SINCRONIZACIÓN   | Sync Carry over   | https://github.com/openmsupply/open-msupply/issues/608     | 
+| SISTEMA EN GENERAL | User permission   | Build in variable user access   | 
+| SISTEMA EN GENERAL  | Currency | Ability to support several currency and their exchange rate    | 
+| SISTEMA EN GENERAL  | Any  | Upload scanned documents    | 
+| ADQUISICIONES   | Manage templates   | Ability to maintain templates   | 
+| TABLEROS DE CONTROL   | View data on dashboards | Reports on stock consumption   | 
+| ADQUISICIONES   | Purchase Orders   | All approvers can access system to approve procurement forms   | 
+| REQUISICIONES  | General Request Requisition (Int. Order) | Intuitive requisition template with pull-down menus  | 
+| REQUISICIONES  | General Request Requisition (Int. Order) | Requested items can be routed for storage release or purchase   | 
+| REQUISICIONES   | Add notes and process waivers   | Ability to document notes to file and procurement process waivers  | 
+| SISTME EN GENERAL  | Any  | Ability to store contracts and Goods Received Note (GRN) in the system | 
+| ADQUISICIONES   | Referencing    | Facilitate 3-way matching for vendor payments (PO, GRN, invoice)  | 
+| ADQUISICIONES   | Purchase Orders   | Notify PO change in status to different users or when the full PO is not fulfilled  | 
+| ADQUISICIONES   | Matching information  | Procurement and inventory modules communicate data on received goods, POs, and master lists with each other    | 
+| DESPACHOS  | Outbound Shipment  | Send a notification of approved outbound shipment  | 
+| DESPACHOS   | Outbound Shipment  | Approval system of outbound shipment     | 
+| ADQUISICIONES   | Generate Delivery note | Generate Delivery note and Waybill/Packing List   | 
+| TRANSPORTE   | Vehicle data sheet  | Record for each vehicle with key parameters (VIN, model, plate, fuel type, model year, reg. data & number, insurance date & policy number, price, etc.) | 
+| TRANSPORTE   | Reporting    | Track key monthly vehicle data (# of days vehicle in use and under repair, km driven, odometer reading, fuel cost, liters of fuel consumed)    | 
+| TRANSPORTE   | Reporting    | "Track key monthly generator data (running hours, maintenance costs, fuel consumed) | 
 | Add notifications when expected levels are not met" |   |   | 
-| TRANSPORT   | Reporting    | "Track repairs per vehicle and generator (type, date, cost, spare parts & consumables used)    | 
+| TRANSPORTE   | Reporting    | "Track repairs per vehicle and generator (type, date, cost, spare parts & consumables used)    | 
 | Add notifications when expected levels are not met" |   |   | 
-| TRANSPORT   | Interoperability   | Can be integrated with vehicle tracking hardware to capture km traveled | 
-| TRANSPORT   | General | Send notifications when key documents are soon to expire (insurance, registration, etc.)    | 
-| OVERALL SYSTEM  | Comments | Users can communicate in the platform (i.e., leave comments during approvals process) | 
-| TENDER    | General | Manage competitive bidding process  | 
-| TENDER    | General | maintain fixed price list for preferred vendors   | 
-| TENDER    | General | maintain standard list of products with estimated prices    | 
+| TRANSPORTE   | Interoperability   | Can be integrated with vehicle tracking hardware to capture km traveled | 
+| TRANSPORTE   | General | Send notifications when key documents are soon to expire (insurance, registration, etc.)    | 
+| SISTEMA EN GENERAL  | Comments | Users can communicate in the platform (i.e., leave comments during approvals process) | 
+| COTIZACIONES   | General | Manage competitive bidding process  | 
+| COTIZACIONES    | General | maintain fixed price list for preferred vendors   | 
+| COTIZACIONES    | General | maintain standard list of products with estimated prices    | 
