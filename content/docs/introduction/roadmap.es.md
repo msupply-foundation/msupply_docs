@@ -182,44 +182,44 @@ section Versión 2.2
 | REQUISICIONES  | Requisición de Solicitud General (Orden Interna) | El aprobador puede modificar la solicitud, si es necesario   | 
 | REQUISICIONES  | Requisición de Solicitud General (Orden Interna) | Registrar la fecha de aprobación de la solicitud | 
 | DISPENSACIÓN POR PACIENTE    | Dispensing    | Record dispensed medicines to an individual patient  | 
-| DISPENSACIÓN POR PACIENTE    | Prescripción    | Create/edit a prescription    | 
-| DISPENSACIÓN POR PACIENTE    | Prescripción    | Abbreviations   | 
-| DISPENSACIÓN POR PACIENTE    | Prescripción    | Drug Interactions Group     | 
-| DISPENSACIÓN POR PACIENTE    | Prescripción    | Payments and receipt / cash register     | 
-| DISPENSACIÓN POR PACIENTE    | Prescripción    | Create/edit patients     | 
-| DISPENSACIÓN POR PACIENTE    | Prescripción    | Create/edit prescribers     | 
-| DISPENSACIÓN POR PACIENTE    | Prescripción    | Repeats     | 
-| ADQUISICIONES  | Good receipt to verify stock on POs  | Create Goods Receipt / Inbound Shipment     | 
-| ADQUISICIONES   | Good receipt to verify stock on POs  | Add lines from a PO to an Inbound Shipment    | 
-| CADENA DE FRÍO   | Temperature monitoring | Display and transmits alerts for temperature breach (home screen dashboard), assign one or several temperature sensors to a storage location, define threshold per item | 
-| CADENA DE FRÍO   | Temperature monitoring | Sync of temperature records to the server to feed mSupply dashboard (via Cold Chain app)    | 
-| CADENA DE FRÍO   | Temperature monitoring | Integration with Berlinger temperature loggers and fridge tab   | 
-| SINCRONIZACIÓN   | Sync Carry over   | https://github.com/openmsupply/open-msupply/issues/608     | 
-| SISTEMA EN GENERAL | User permission   | Build in variable user access   | 
-| SISTEMA EN GENERAL  | Currency | Ability to support several currency and their exchange rate    | 
-| SISTEMA EN GENERAL  | Any  | Upload scanned documents    | 
-| ADQUISICIONES   | Manage templates   | Ability to maintain templates   | 
-| TABLEROS DE CONTROL   | View data on dashboards | Reports on stock consumption   | 
-| ADQUISICIONES   | Purchase Orders   | All approvers can access system to approve procurement forms   | 
-| REQUISICIONES  | General Request Requisition (Int. Order) | Intuitive requisition template with pull-down menus  | 
-| REQUISICIONES  | General Request Requisition (Int. Order) | Requested items can be routed for storage release or purchase   | 
-| REQUISICIONES   | Add notes and process waivers   | Ability to document notes to file and procurement process waivers  | 
-| SISTME EN GENERAL  | Any  | Ability to store contracts and Goods Received Note (GRN) in the system | 
-| ADQUISICIONES   | Referencing    | Facilitate 3-way matching for vendor payments (PO, GRN, invoice)  | 
-| ADQUISICIONES   | Purchase Orders   | Notify PO change in status to different users or when the full PO is not fulfilled  | 
-| ADQUISICIONES   | Matching information  | Procurement and inventory modules communicate data on received goods, POs, and master lists with each other    | 
-| DESPACHOS  | Outbound Shipment  | Send a notification of approved outbound shipment  | 
-| DESPACHOS   | Outbound Shipment  | Approval system of outbound shipment     | 
-| ADQUISICIONES   | Generate Delivery note | Generate Delivery note and Waybill/Packing List   | 
-| TRANSPORTE   | Vehicle data sheet  | Record for each vehicle with key parameters (VIN, model, plate, fuel type, model year, reg. data & number, insurance date & policy number, price, etc.) | 
-| TRANSPORTE   | Reporting    | Track key monthly vehicle data (# of days vehicle in use and under repair, km driven, odometer reading, fuel cost, liters of fuel consumed)    | 
-| TRANSPORTE   | Reporting    | "Track key monthly generator data (running hours, maintenance costs, fuel consumed) | 
+| DISPENSACIÓN POR PACIENTE    | Prescripción    | Crear/editar una prescripción    | 
+| DISPENSACIÓN POR PACIENTE    | Prescripción    | Abreviaciones  | 
+| DISPENSACIÓN POR PACIENTE    | Prescripción    | Grupo de Interacciones de Medicamentos     | 
+| DISPENSACIÓN POR PACIENTE    | Prescripción    | Pagos y recibos / caja registradora    | 
+| DISPENSACIÓN POR PACIENTE    | Prescripción    | Crear/editar pacientes    | 
+| DISPENSACIÓN POR PACIENTE    | Prescripción    | Crear/editar prescriptores     | 
+| DISPENSACIÓN POR PACIENTE    | Prescripción    | Repeticiones    | 
+| ADQUISICIONES  | Confirmación de recepción para verificar el stock en las ordenes de compra   | Crear recibo de mercancía / entradas   | 
+| ADQUISICIONES   | Confirmación de recepción para verificar el stock en las ordenes de compra  | Agregar líneas de una orden de compra a una entrada    | 
+| CADENA DE FRÍO   | Monitoreo de temperatura | Mostrar y transmitir alertas de incumplimiento de temperatura (tablero de control de la pantalla principal), asignar uno o varios sensores de temperatura a una ubicación de almacenamiento, definir umbral por artículo | 
+| CADENA DE FRÍO   | Monitoreo de temperatura | Sincronización de registros de temperatura al servidor para alimentar el tablero de control de mSupply (a través de la aplicación Cold Chain)   | 
+| CADENA DE FRÍO   | Monitoreo de temperatura | Integración con registradores de temperatura Berlinger y pestaña de refrigerador.   | 
+| SINCRONIZACIÓN   | Sincronización de datos pendientes por transferir   | https://github.com/openmsupply/open-msupply/issues/608     | 
+| SISTEMA EN GENERAL | Permiso de usuario   | Crear acceso variable de usuario   | 
+| SISTEMA EN GENERAL  | Moneda| Capacidad para alojar varias monedas y sus tasas de cambio    | 
+| SISTEMA EN GENERAL  | General  | Cargar documentos escaneados   | 
+| ADQUISICIONES   | Gestionar plantillas   | Capacidad para mantener plantillas   | 
+| TABLEROS DE CONTROL   | Ver datos en tableros de control |  Informes sobre el consumo de inventario | 
+| ADQUISICIONES   | Ordenes de compra   | Todos los aprobadores pueden acceder al sistema para aprobar formatos de compra  | 
+| REQUISICIONES  | Solicitud General de Requisición (Orden Interna) |  Plantilla intuitiva de requisición con menús desplegables  | 
+| REQUISICIONES  | Solicitud General de Requisición (Orden Interna) | Los elementos solicitados pueden ser enrutados para su liberación de almacenamiento o compra   | 
+| REQUISICIONES   | Agregar notas y procesar exenciones   | Capacidad para documentar notas en el archivo y exenciones del proceso de adquisiciones  | 
+| SISTEMA EN GENERAL  | General  | Capacidad para almacenar contratos y Notas de Recepción de Mercancías (GRN) en el sistema | 
+| ADQUISICIONES   | Referencia    | Facilitar la conciliación de 3 vías para los pagos a proveedores (Orden de compra, Nota de Recepción de Mercancías, factura)  | 
+| ADQUISICIONES   | Ordenes de Compra   | Notificar cambios en el estado de la Orden de Compra a diferentes usuarios o cuando la Orden de Compra completa no se cumple  | 
+| ADQUISICIONES   | Información de conciliación | Los módulos de adquisiciones e inventario se comunican entre sí para compartir datos sobre bienes recibidos, órdenes de compra y listas maestras    | 
+| DESPACHOS  | Salidas  | Enviar una notificación de salida aprobada  | 
+| DESPACHOS   | Salidas | Sistema de aprobación de salidas    | 
+| ADQUISICIONES   | Generar Nota de Entrega | Generar Nota de Entrega y Carta de Porte/Listado de Empaque   | 
+| TRANSPORTE   | Hoja de datos de vehículo   | Registro para cada vehículo con parámetros clave (VIN, modelo, placa, tipo de combustible, año del modelo, datos y número de registro, fecha y número de póliza de seguro, precio, etc.) | 
+| TRANSPORTE   | Reportes    | Seguimiento de datos clave de vehículos mensuales (# de días que el vehículo está en uso y en reparación, km recorridos, lectura del odómetro, costo de combustible, litros de combustible consumidos)    | 
+| TRANSPORTE   | Reportes    |  Seguimiento de datos clave mensuales de generadores (horas de funcionamiento, costos de mantenimiento, combustible consumido) | 
 | Add notifications when expected levels are not met" |   |   | 
-| TRANSPORTE   | Reporting    | "Track repairs per vehicle and generator (type, date, cost, spare parts & consumables used)    | 
-| Add notifications when expected levels are not met" |   |   | 
-| TRANSPORTE   | Interoperability   | Can be integrated with vehicle tracking hardware to capture km traveled | 
-| TRANSPORTE   | General | Send notifications when key documents are soon to expire (insurance, registration, etc.)    | 
-| SISTEMA EN GENERAL  | Comments | Users can communicate in the platform (i.e., leave comments during approvals process) | 
-| COTIZACIONES   | General | Manage competitive bidding process  | 
-| COTIZACIONES    | General | maintain fixed price list for preferred vendors   | 
-| COTIZACIONES    | General | maintain standard list of products with estimated prices    | 
+| TRANSPORTE   | Reportes    | Registrar reparaciones por vehículo y generador (tipo, fecha, costo, repuestos y consumibles utilizados)  | 
+| Agregar notificaciones cuando no se cumplen los niveles esperados |   |   | 
+| TRANSPORTE   | Interoperabilidad   | Puede integrarse con hardware de seguimiento de vehículos para capturar los kilómetros recorridos | 
+| TRANSPORTE   | General | Enviar notificaciones cuando los documentos clave estén próximos a vencer (seguro, registro, etc.)    | 
+| SISTEMA EN GENERAL  | Comentarios | Los usuarios pueden comunicarse en la plataforma (por ejemplo, dejar comentarios durante el proceso de aprobación) | 
+| COTIZACIONES   | General | Gestionar el proceso de licitación competitiva | 
+| COTIZACIONES    | General | Mantener una lista de precios fijos para proveedores preferidos  | 
+| COTIZACIONES    | General | Mantener una lista estándar de productos con precios estimados  | 
