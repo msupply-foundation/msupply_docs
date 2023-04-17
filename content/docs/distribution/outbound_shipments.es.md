@@ -1,6 +1,6 @@
 +++
-title = "Outbound Shipments"
-description = "Issuing stock to your customers."
+title = "Salidas"
+description = "Proveyendo a tus clientes"
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
 draft = false
@@ -14,82 +14,82 @@ top = false
 +++
 
 
-Outbound Shipments can be used to issue stock to a customer. 
+Las salidas se pueden utilizar para proveer de inventario a tu cliente.
 
-If you have used mSupply in the past, you may be familiar with the term **Customer Invoice** instead of Outbound Shipment. 
-An Outbound Shipment can be used to:
-* Transfer stock to another store which also uses mSupply
-* Issue stock to a customer
-* Fulfill requisitions (customer orders)
+Si has utilizado mSupply anteriormente, es posible que estés familiarizado con el término **Factura al Cliente** en lugar de Salida.
+Una salida se puede utilizar para:
+* Transferir stock a otro almacén que también utiliza mSupply
+* Emitir stock a un cliente
+* Cumplir con requisiciones (órdenes de cliente)
 
-## Viewing Outbound Shipments
+## Visualización de salidas
 
-### Open the Outbound Shipments Menu
+### Abrir el menú de salidas
 
-Choose `Distribution` > `Outbound Shipment` in the navigation panel.
+Selecciona `Distribución` > `Salida` en el panel de navegación.
 
 ![gotooos](/docs/distribution/images/gotoos2.png)
 
-You will be presented with a list Outbound Shipments (if you don't see any, you are probably just starting!). 
+Se mostrará una lista de sakidas(si no ves ninguna, es probable que estés comenzando). 
 
-From this screen you can:
-* View a list of Outbound Shipments
-* Create a new Outbound Shipment
-* Export Outbound Shipments to a `.csv` file
-* Print one or multiple Outbound Shipments
+Desde esta pantalla puedes:
+* Ver un listado de las salidas
+* Crear una salida
+* Exportar las salidas a un archivo `.csv`
+* Imprimir una o varias salidas
 
-### Outbound Shipment list
+### Lista de salidas
 
-1. The list of Outbound Shipments is divided into 7 columns:
+1. La lista de salidas se diviede en 7 columnas:
 
-| Column| Description |
+| Columna| Descripción |
 | :---------- | :---------- |
-| **Name** | Name of the Customer | 
-| **Status** | Current Status of the shipment | 
-| **Number** | Reference Number of the shipment | 
-| **Created** | Creation date of the shipment | 
-| **Reference** | Customer reference | 
-| **Comment** | Comment for the shipment |
+| **Nombre** | Nombre del cliente | 
+| **Estado** | Estado actual del envío | 
+| **Número** | Número de referencia del envío | 
+| **Creado** | Fecha de creación del envío | 
+| **Referencia** | Referencia del cliente | 
+| **Comentario** | Comentario del envío |
 | **Total** | Total value of the shipment |
 
-1. The list can display a fixed number of shipments per page. On the bottom left corner, you can see how many shipments are currently displayed on your screen. 
+2. La lista puede mostrar un número fijo de envíos por página. En la esquina inferior izquierda, puedes ver cuántos envíos se muestran actualmente en tu pantalla.
 
 ![Page](/docs/distribution/images/os_list_showing.png)
 
-3. If you have more than shipments than the current limit, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner). 
+3. Si tienes más envíos que el límite actual, puedes navegar a otras páginas haciendo clic en el número de página o utilizando las flechas izquierda o derecha (esquina inferior derecha).
 
 ![Page](/docs/distribution/images/os_list_pagenumbers.png)
 
-4. You can also select a different number of rows to show per page using the option at the bottom right of the page.
+4. También puedes seleccionar un número diferente de filas para mostrar por página utilizando la opción en la esquina inferior derecha de la página.
 
 ![Rows per page](/docs/introduction/images/rows-per-page-select.png)
 
-### Search by Customer Name
+### Búsqueda por nombre de cliente
 
-You can filter the list of shipments by customer name. This can be useful if you're looking for one particular shipment!
+Puedes filtrar la lista de envíos por el nombre del cliente. ¡Esto puede ser útil si estás buscando un envío en particular!
 
-Type the name of a customer in the `Search by name` field (on the left, just above the list headers). All the shipments for this customer appear in the list. 
+Escribe el nombre de un cliente en el campo `Buscar por nombre` (a la izquierda, justo encima de los encabezados de la lista). Todos los envíos para este cliente aparecerán en la lista.
 
-### Exporting Outbound Shipments
+### Exportar salidas
 
-The list of Outbound Shipments can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page)
+La lista de salias se puede exportar a un archivo separado por comas (CSV). Simplemente haz clic en el botón de exportación (a la derecha, en la parte superior de la página).
 
 ![Export button](/docs/distribution/images/export.png)
 
-and the file will be downloaded. The export function will download all Outbound Shipments, not just the current page, if you have more than 20 of them. Shipments are exported using sort order selected in the table, though of course you could easily sort the list in Excel or whatever you open the .csv file with!
+y el archivo será descargado. La función de exportación descargará todos los envíos salientes, no sólo la página actual, si tienes más de 20 de ellos. Los envíos se exportan utilizando el orden de clasificación seleccionado en la tabla, aunque por supuesto puedes ordenar fácilmente la lista en Excel o en cualquier programa con el que abras el archivo CSV.
 
-### Delete an Outbound Shipment
+### Eliminar una salida
 
-You can delete a shipment from the Outbound Shipment list. 
+Puedes eliminar una salida del listado de salidas.
 
-1. Select the shipment that you want to delete by checking the box on the left end of the list. You can select more than one shipment to be deleted. You can even select them all using the  master checkbox in the list headers. 
+1. Selecciona la salida que deseas eliminar marcando la casilla en el extremo izquierdo de la lista. Puedes seleccionar más de una salida para eliminar. Incluso las puedes seleccionar todas utilizando el checkbox maestro en los encabezados de la lista.
 
-2. Open the `Select` dropdown (top right corner, above the list) and select `Delete selected lines`. 
+2. Abre el menú desplegable `Seleccionar` (esquina superior derecha, encima de la lista) y selecciona `Eliminar líneas seleccionadas`. 
+ 
+3. Una notificación confirma cuántas salidas fueron eliminadas (esquina inferior izquierda). 
 
-3. A notification confirms how many shipments were deleted (bottom left corner). 
-
-<div class="note">
-You can only delete Outbound Shipments with a status <code>NEW</code>.
+<div class="nota">
+Solo puedes eliminar salidas cuyo estado sea <code>NUEVO</code>.
 </div>
 
 ![Outbound list: delete](/docs/distribution/images/os_list_deleteshipment.gif)
