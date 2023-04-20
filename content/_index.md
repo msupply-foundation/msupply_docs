@@ -33,4 +33,9 @@ icon = "coldchain.png"
 title = "mSupply Coldchain"
 content = 'The <a href="/coldchain/introduction">User Documentation</a> for the mSupply Coldchain Android application'
 
+[[extra.list]]
+icon = "conforma.png"
+title = "Conforma"
+content = 'The <a href="https://docs.conforma.nz/">User Documentation</a> for the Conforma workflow managment platform'
+
 +++
