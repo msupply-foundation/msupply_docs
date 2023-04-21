@@ -33,4 +33,9 @@ icon = "coldchain.png"
 title = "mSupply Cadena de frío"
 content = 'Los <a href="/coldchain/introduction">Documentos de usuario</a> de la aplicación Android para mSupply Cadena de Frío'
 
+[[extra.list]]
+icon = "conforma.png"
+title = "Conforma"
+content = 'La <a href="https://docs.conforma.nz/">Documentación de Usuario</a> para la plataforma de gestión de flujos de trabajo Conforma'
+
 +++
