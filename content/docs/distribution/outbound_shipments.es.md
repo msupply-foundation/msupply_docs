@@ -324,240 +324,240 @@ La línea de marcador de posición se utiliza cuando la cantidad que se emite es
 
 ![List of available batch numbers](/docs/distribution/images/os_additem_listofbatches.png)
 
-### Issue a quantity of units
+### Emitir una cantidad de unidades
 
-By default, you are invited to issue a quantity of **units**, regardless of the pack size (number of units in a pack). 
+Por defecto, se le invita a emitir una cantidad de **unidades**, independientemente del tamaño del paquete (número de unidades en un paquete).
 
-When entering a number in the `Issue` field, after clicking the `Allocate` button, the system automatically chooses the batch number(s) with the shortest expiry date (First to Expire, First Out or FEFO logic). 
+Al ingresar un número en el campo `Emitir`, después de hacer clic en el botón `Asignar`, el sistema elige automáticamente el/los número(s) de lote con la fecha de caducidad más cercana (lógica de Primero en Caducar, Primero en Salir o FEFO). 
 
 <div class="imagetitle">
-In below example, we are issuing 10 units of the item. All 10 units will be taken from the same batch (third row). The first two batches were not selected because they are expired. 
+En el siguiente ejemplo, emitiremos 10 unidades del artículo. Las 10 unidades se tomarán de la misma partida (tercera fila). Las dos primeras partidas no fueron seleccionadas porque han caducado.
 </div>
 
 ![additem!](/docs/distribution/images/os_additem_issueunits.png)
 
 <div class="imagetitle">
-In this other example, we are issuing 100 units. System selects three batches with different pack sizes. 
+En este otro ejemplo, emitiremos 100 unidades. El sistema selecciona tres lotes con diferentes tamaños de paquete.
 </div>
 
 ![additem!](/docs/distribution/images/os_additem_issueunitsthreebatches.png)
 
-Note that in this list, the batches which are available for selection are shown first and batches which are not (on hold or no stock available) are shown below and in a grey font.
+Ten en cuenta que en esta lista, las partidas que están disponibles para su selección se muestran primero y las partidas que no lo están (en espera o sin stock disponible) se muestran abajo y en fuente gris.
 
-### Issue a quantity of packs
+### Emitir una cantidad de paquetes
 
-You can decide to issue a quantity of **packs**. To do this, you can change the value in the `Pack Size` dropdown. 
+Puedes decidir emitir una cantidad de **paquetes**. Para hacerlo, puedes cambiar el valor en el menú desplegable `Tamaño del paquete`. 
 
 <div class="imagetitle">
-Let's imagine that your customer only wants pack size of 25 units. You can change the dropdown value from `Any` to `25`. 
+Imaginemos que tu cliente solo quiere un tamaño de paquete de 25 unidades. Puedes cambiar el valor del menú desplegable de  `Cualquier` a `25`. 
 </div>
 
 ![Alt Text](/docs/distribution/images/os_additem_switchtopack.gif)
 
-You are now offered to issue a number of packs of 25 units. Only batch number(s) with a pack size of 25 units can be automatically issued.
+Ahora se te ofrece la posibilidad de emitir un número de paquetes de 25 unidades. Solo se pueden emitir automáticamente los números de lote que tengan un tamaño de paquete de 25 unidades.
 
 <div class="imagetitle">
-In below example, we are issuing 5 packs of 25 units:
+En el siguiente ejemplo, estamos emitiendo 5 paquetes de 25 unidades:
 </div>
 
 ![additem!](/docs/distribution/images/os_additem_issuepacks.png)
 
 <div class="note">
-<b></b> if you had previously entered a quantity of units and you switch to a quantity a packs, the quantity of units will automatically be converted into the correct quantity of packs.  
+<b></b> si previamente has ingresado una cantidad de unidades y cambias a una cantidad de paquetes, la cantidad de unidades se convertirá automáticamente en la cantidad correcta de paquetes.  
 </div>
 
 ![Alt Text](/docs/distribution/images/os_issuepacks.gif)
 
-When a pack size is selected, and stock lines which have a different pack size are not available for selection. As such, those rows are listed lower down in the table and are shown in a grey font, in the same way as other unavailable rows.
+Cuando se selecciona un tamaño de paquete, las líneas de stock que tienen un tamaño de paquete diferente no están disponibles para seleccionar. Por lo tanto, esas filas se enumeran más abajo en la tabla y se muestran en una fuente gris, de la misma manera que otras filas no disponibles.
 
-### Manual Allocation 
+### Asignación Manual 
 
-Regardless if you chose to issue a quantity of units or packs, you can always manually change the quantity at the batch number level directly before pressing on OK. 
+Independientemente de si has elegido emitir una cantidad de unidades o paquetes, siempre puedes cambiar manualmente la cantidad en el nivel del número de partida directamente antes de presionar OK. 
 
-You simply have to enter or edit the quantity in the `Packs Qty Issued` column. 
+Simplemente tienes que ingresar o editar la cantidad en la columna `Cantidad de paquetes emitidos`. 
 
-The values in the **Total** row will be automatically updated with the new quantity.  
+Los valores en la fila **Total** se actualizarán automáticamente con la nueva cantidad.  
 
 <div class="note">
- <b></b> when allocating quantities at the batch number level, the quantity you enter is always a quantity of packs. 
+ <b></b> cuando asignas cantidades en el nivel del número de partida, la cantidad que ingreses siempre será una cantidad de paquetes. 
 </div>
 
 <figure>
 <img src="/docs/distribution/images/os_additem_manualallocation.gif" style="width:100%">
-<figcaption align = "center"><i>Manual allocation at the batch number level.</i></figcaption>
+<figcaption align = "center"><i>Asignación manual a nivel del número de lote.</i></figcaption>
 </figure>
 
-### Issuing when there is not enough stock (Placeholder Line)
+### Emisión cuando no hay suficiente stock (Línea de reserva)
 
-If the amount to be issued is greater than the total stock available from all of the available lines, then the quantity to be issued will automatically be placed in the `placeholder` field, at the bottom of the list of available batch numbers. 
+Si la cantidad a emitir es mayor que el total de stock disponible de todas las líneas disponibles, entonces la cantidad a emitir se colocará automáticamente en el campo de `reserva`, en la parte inferior de la lista de números de partida disponibles. 
 
-Placeholder lines can be allocated later when new stock arrives. However, all shipment lines must be allocated before confirming the allocation. 
+Las líneas de reserva se pueden asignar más tarde cuando llegue nuevo stock. Sin embargo, todas las líneas de envío deben asignarse antes de confirmar la asignación.
 
 <div class="imagetitle">
-Since there is no stock available for <i>042744-Diazepam Injection 5mg/ml Amp/2ml</i>, system is issuing a 100 units in the placeholder field. 
+Dado que no hay stock disponible para <i>042744-Diazepam Injection 5mg/ml Amp/2ml</i>,  el sistema emitirá 100 unidades en el campo de reserva. 
 </div>
 
 ![Alt Text](/docs/distribution/images/os_additem_placeholder.png)
 
-When you look at an Outbound Shipment, you can see if a shipment line has not been allocated or has been partially allocated when it is higlighted in blue. 
+Cuando revisas una salida, puedes ver si una línea de envío no ha sido asignada o ha sido parcialmente asignada cuando se resalta en azul. 
 
 ![Alt Text](/docs/distribution/images/os_placeholderlines.png)
 
-### Confirm Item and Quantity
+### Confirmar artículo y cantidad
 
-When you are happy with the quantity, you can either press on:
-* the `OK` button. You are redirected to the Outbound Shipment view and your item has been added to the list. 
-* the `OK & Next` button to add another item right away
-* the `Cancel` if you do not want to add the item to the Outbound Shipment anymore
+Cuando estés satisfecho con la cantidad, puedes presionar:
+* el botón `OK`.  Serás redirigido a la vista de Salida y el artículo se habrá agregado a la lista. 
+* el botón `OK & Siguiente` para agregar otro artículo inmediatamente.
+* el botón `Cancelar`  si no deseas agregar el artículo al envío de salida.
 
 
-## Adding lines to an Outbound Shipment using a Master List
+## Agregando líneas a un envío de salida usando una lista maestra
 
-Tap on the `Add from master list` button (top right corner). 
+Haga clic en el botón `Agregar desde la lista maestra` (esquina superior derecha). 
 
 ![Add Item button](/docs/distribution/images/os-add-from-master-list-button.png)
 
-A new `Master Lists` window opens. This allows you to select the required master list. Simply click on one of the lists (if you have some available).
-Note that the lists show are those which are visible to the customer of the shipment.
+Se abre una nueva ventana de `Listas Maestras`. Esto le permite seleccionar la lista maestra requerida. Simplemente haga clic en una de las listas (si tiene alguna disponible).
+Tenga en cuenta que las listas que se muestran son aquellas que son visibles para el cliente del envío.
 
 ![Add Item button](/docs/distribution/images/os-add-item-master-lists.png)
 
-Click `OK` on the prompt:
+Haga clic en `OK` en la ventana emergente:
 ![Add Item button](/docs/distribution/images/os-add-item-master-list-prompt.png)
 
-You will then have unallocated (placeholder) lines added to your shipment, which will then look like this:
+Luego se agregarán líneas no asignadas (reserva) a su envío, que se verán así:
 
 ![Add Item button](/docs/distribution/images/os-after-master-list.png)
 
-As you can see - all of the quantities are zero. You can follow the steps for editing these lines, as detailed above.
+Como puede ver, todas las cantidades son cero. Puede seguir los pasos para editar estas líneas, como se detalla arriba.
 
-## Editing an Outbound Shipment Line
+## Editar una línea de salida 
 
-To edit an shipment line, tap on it. You will be presented with the `Edit Item` window, which is identical to the `Add Item` window, except that the item is already chosen. 
+Para editar una línea de envío, selecciónela. Se abrirá la ventana`Editar Artículo`, que es idéntica a la ventana `Agregar Artículo`, excepto que el artículo ya está seleccionado. 
 
-### Edit a Shipment Line
-
-<div class="note">
- <b></b> you can edit a shipment line if the shipment has a status lower than <code>Shipped</code>. 
-</div>
-
-1. Open the Outbound Shipment you want to edit. 
-2. Tap on the line you want to edit. An identical window to `Add Item` appears. At this stage:
-
-    *  Edit the main `Issue Quantity` field 
-    *  or change the number of packs value at the batch number level
+### Editar una línea de envío
 
 <div class="note">
- <b></b> When editing a shipment line, you cannot change the item. You would need to delete the shipment line and to create a new one. 
+ <b></b> puede editar una línea de envío si el estado del envío es inferior a <code>Enviado</code>. 
 </div>
 
-### Delete a Shipment line
+1. Abra la salida que desea editar. 
+2. Haga clic en la línea que desea editar. Aparece una ventana idéntica a `Agregar Artículo`. En esta etapa:
 
-1. Open the Outbound Shipment you want to edit.
-2. Select the line(s) you want to delete by checking the box(es) on the right of the list. 
-3. Go to the `Actions` dropdown menu (top right corner, above the list)
-4. Select the action `Delete selected lines`
+    *  Edite el campo principal de `Emitir Cantidad` 
+    *  o cambie el valor de la cantidad de paquetes en el nivel de número de lote
+
+<div class="note">
+ <b></b> Al editar una línea de envío, no puede cambiar el artículo. Deberá eliminar la línea de envío y crear una nueva. 
+</div>
+
+### Eliminar una línea de envío
+
+1. Abre la salida que quieres evitar.
+2. Selecciona la(s) línea(s) que deseas eliminar marcando la casilla(es) a la derecha de la lista. 
+3. Ve al menú desplegable `Acciones` (esquina superior derecha, encima de la lista).
+4. Selecciona la acción `Eliminar las líneas seleccionadas`
 
 ![Alt Text](/docs/distribution/images/os_actions_deleteselectedlines.png)
 
 <div class="imagetitle">
-In below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100mg tabs</i>
+En el siguiente ejemplo, estamos eliminando e <i>artículo 030063 - Tabletas de ácido acetilsalicílico de 100 mg</i>
 </div>
 
 ![Alt Text](/docs/distribution/images/os_deleteselectedlines.gif)
 
 <div class="tip">
- <b></b> You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
+ <b></b> Puedes eliminar varias líneas a la vez. Asegúrate de revisar lo que está seleccionado antes de realizar la acción de eliminación. 
 </div>
 
-## Processing an Outbound Shipment
+## Procesar una salida
 
-### Allocating an Outbound Shipment
+### Asignar una salida
 
-Allocation is the process of assigning one or multiple batch numbers from the inventory to a shipment line. In other words, you are assigning stock to your shipment. Once allocated, the stock is reserved for the shipment and thus for your customer. 
+La asignación es el proceso de asignar uno o varios números de lote del inventario a una línea de envío. En otras palabras, estás asignando inventario a tu envío. Una vez asignado, el inventario está reservado para el envío y, por lo tanto, para tu cliente.
 
-There are 2 main ways to allocate a shipment line: 
+Hay 2 formas principales de asignar una línea de envío:
 
-1. When adding items, system is automatically assigning stock to the new shipment line when you enter a quantity. If you don't have enough stock, system will add placeholder lines (unallocated lines). 
+1. Al agregar artículos, el sistema asigna automáticamente inventario a la nueva línea de envío cuando ingresas una cantidad. Si no tienes suficiente inventario, el sistema agregará líneas de marcador de posición (líneas no asignadas).
 
-2. Bulk action `Allocate placeholder lines`: 
-    * Select the lines that you want to allocate by checking boxes on the right on the list
-    * In the `Actions` dropdown menu, select `Allocate placeholder lines`. System will check if there is available stock for each selected lines and allocate them using the First to Expire, First Out (FEFO) logic. A notification will let you know whether the operation is successful or not. 
+2. Acción en masa `Asignar líneas de marcador de posición`: 
+    * Selecciona las líneas que deseas asignar marcando las casillas a la derecha en la lista.
+    * En el menú desplegable `Acciones`, selecciona `Signar líneas de marcador de posición`. El sistema verificará si hay inventario disponible para cada línea seleccionada y las asignará utilizando la lógica del primero en caducar, primero en salir (FEFO). Una notificación te informará si la operación se realizó con éxito o no.
 
 <div class="note">
-You won't be able to process your Outbound Shipment if you have unallocated lines (shipment lines without batch number(s) assigned to it) with a quantity greater than 0. You can wait for more stock to arrive or you can delete the placeholder lines. Any unallocated lines with a 0 quantity will automatically be removed for you when you allocate.
+No podrás procesar tu salida si tienes líneas no asignadas (líneas de envío sin número(s) de lote asignado(s)) con una cantidad mayor que 0. Puedes esperar a que llegue más stock o puedes eliminar las líneas de marcador de posición. Cualquier línea no asignada con una cantidad de 0 se eliminará automáticamente cuando asignes.
 </div>
 
-### Confirming an Outbound Shipment's allocation
+### Confirmación de asignación de una salida
 
-Once you all your shipments lines have been allocated, you can **confirm the allocation**:
-* Current status of the shipment has to be `NEW`
-* Lines must be assigned with one or several batch numbers. You won't be able to confirm the allocation if your shipment contains lines without batch numbers assigned to it (placeholder lines). 
+Una vez que todas las líneas de envío han sido asignadas, puedes **confirmar la asignación**:
+*  confirmar la asignación `NUEVO`
+* Las líneas deben estar asignadas con uno o varios números de lote. No podrás confirmar la asignación si tu envío contiene líneas sin números de lote asignados (líneas de marcador de posición).
 
-To confirm the allocation, press the `Confirm Allocated` button. 
+Para confirmar la asignación, presiona el botón `Confirmar asignado`. 
 
 ![Alt Text](/docs/distribution/images/os_confirmallocated.gif)
 
-Once the allocation is confirmed:
+Una vez confirmada la asignación:
 
-* Shipment status is `ALLOCATED`
-* You are now invited to confirm the picking via the `Confirm Picked` button
-* All the items and their quantities will be reserved, meaning that they are no longer available for allocation
-* You can print a **pick slip** to be sent to your warehouse so they can start preparing the shipment
+* El estado del envío es `ASIGNADO`
+* Ahora se te invita a confirmar la selección de artículos mediante el botón `Confirmar seleccionados`
+* Todos los artículos y sus cantidades estarán reservados, lo que significa que ya no están disponibles para la asignación
+* Puedes imprimir una **hoja de recogida** para enviar a tu almacén para que puedan empezar a preparar el envío
 
-### Confirming Outbound Shipment picking
+### Confirmar el alistamiento de la salida
 
-Picking refers to the process where individual items are picked from a fulfillment facility (usually a warehouse or a pharmacy store).
+El término "picking" se refiere al proceso en el que se recogen los artículos individualmente de una instalación de cumplimiento (por lo general, un almacén o una farmacia).
 
-Once a shipment has been allocated, next step is to go get the items to prepare the actual shipment. To help with that, you are able to generate a **pick slip** document. A pickslip indicates:
-* What are the items to be picked
-* The quantity and batch numbers for each item
-* If you manage your inventory with storage locations, where the items are located
+Una vez que se ha asignado un envío, el siguiente paso es ir a buscar los artículos para preparar el envío real. Para ayudar con esto, se puede generar un documento de **lista de recogida**. Una lista de recogida indica:
+* Qué artículos se deben recoger
+* La cantidad y los números de lote para cada artículo
+* Si gestiona su inventario con ubicaciones de almacenamiento, dónde se encuentran los artículos
 
-Once all items are picked and packed. You can then confirm the picking of the shipment to indicate to indicate that it is ready to be dispatched. 
+Una vez que se han recogido y empacado todos los artículos, puede confirmar la preparación del envío para indicar que está listo para ser despachado. 
 
-To confirm that a shipment has been picked, tap on the `Confirm Picked` button. 
+Para confirmar que se ha preparado un envío, haga clic en el botón `Confirmar Recogido`. 
 
 ![Alt Text](/docs/distribution/images/os_confirmpicked.gif)
 
-Once picking is confirmed:
+Una vez confirmado el alistamiento:
 
-* Shipment status is now `PICKED`
-* You are now invited to confirm the shipping via the `Confirm Shipped` button
-* An **Inbound Shipment** has been generated and is now visible to your customer
+* El estado del envío es ahora `RECOGIDO`
+* Ahora se te invita a confirmar el envío a través del botón  `Confirmar Envío` 
+* Se ha generado una entrada **Entrada** y ahora es visible para tu cliente
 
-At this stage, you are still able to edit shipment lines, to add items or to delete existing lines. However, if picking has been confirmed, you need to make sure to inform your fulfillment facility of any change so they can make sure that the shipment is still correct. 
+En este momento, todavía puedes editar las líneas del envío, agregar o eliminar elementos. Sin embargo, si se ha confirmado el picking, debes asegurarte de informar a tu centro de cumplimiento de cualquier cambio para que puedan asegurarse de que el envío siga siendo correcto.
 
-### Confirming the Outbound Shipment shipping 
+### Confirmar el envío de una salida 
 
-The last step to issue stock with an Outbound Shipment is to confirm that stock has been shipped. This a critical step cause when goods are confirmed as shipped, they are no longer part of your inventory records. 
+El último paso para emitir el stock con un Salida es confirmar que se ha enviado el stock. Este es un paso crítico porque cuando los bienes se confirman como enviados, ya no forman parte de los registros de su inventario.
 
-To confirm that an Outbound Shipment has been shipped, tap on the `Confirm Shipped` button. 
+Para confirmar que se ha enviado una salida, haga clic en el botón `Confirmar envío`. 
 
-Once shipping has been confirmed: 
-* Shipment status is now `SHIPPED`
-* Goods are  no longer part of your inventory
-* You can no longer edit shipment lines
-* You can no longer delete the shipment
-* You can print a **delivery note** or an **invoice**
+Una vez que se ha confirmado el envío: 
+* El estado del envío es ahora `ENVIADO`
+* Los bienes ya no forman parte de su inventario
+* Ya no puede editar las líneas de envío
+* Ya no puede eliminar el envío
+* Puede imprimir una **nota de entrega** o una **factura**
 
-### Tracking Progress of Outbound Shipments
+### Seguimiento al progreso de las salidas
 
-If your customer is also using mSupply, you wil be able to see when they'll receive your shipments:
-* status will become `DELIVERED` when goods are received: your customer confirmed that they received your goods
-* status will become `VERIFIED` when shipment has been verified by your customer. Goods are now part of their inventory
+Si su cliente también utiliza mSupply, podrá ver cuándo recibirán sus envíos:
+* el estado se convertirá en `ENTREGADO` cuando los bienes sean recibidos: su cliente confirmó que recibió sus bienes
+* el estado se convertirá en `VERIFICADO` cuando el envío haya sido verificado por su cliente. Los bienes ahora forman parte de su inventario
 
-## Viewing an Outbound Shipment
+## Ver una salida
 
-When viewing a specific shipment, you can view the batches on that shipment grouped by item or with each batch listed separately.
-To change the view mode, click the `Group by item` switch. 
+Cuando se visualiza un envío específico, se pueden ver los lotes en ese envío agrupados por ítem o con cada lote listado por separado.
+Para cambiar el modo de vista, haz clic en el botón `Agrupar por artículo`. 
 
-When grouped by item, you can expand the item to see individual batches, or use the expand in the table header to expand all grouped rows. If you click on an item you will also see all selected batches, as shown in this example:
+Cuando se agrupa por árticulo, se puede expandir el artículo para ver lotes individuales, o utilizar la expansión en el encabezado de la tabla para expandir todas las filas agrupadas. Si haces clic en un artículo, también verás todos los lotes seleccionados, como se muestra en este ejemplo:
 
 ![Group by Item](/docs/distribution/images/os_group_by_item.gif)
 
-If you do not have enough room on your screen, or simply aren't interested in some of the columns shown, you have the option of hiding which columns are shown in this view.
+Si no tienes suficiente espacio en la pantalla, o simplemente no estás interesado en algunas de las columnas mostradas, tienes la opción de ocultar qué columnas se muestran en esta vista.
 
-Click on the `Show / hide columns` button which is at the top right of the table. This gives a list of the columns available - you can check the columns you want to see. The options chosen are stored for the current browser, so next time you view an outbound shipment, you will see the selected columns only. If you have chosen which columns to show, then the button is shown in blue to remind you that there are more columns available.
+Haz clic en el botón `Mostrar / ocultar columnas`, que está en la parte superior derecha de la tabla. Esto da una lista de las columnas disponibles; puedes marcar las columnas que deseas ver. Las opciones elegidas se almacenan para el navegador actual, por lo que la próxima vez que veas una salida, solo verás las columnas seleccionadas. Si has elegido qué columnas mostrar, entonces el botón se muestra en azul para recordarte que hay más columnas disponibles.
 
 ![Hide columns](/docs/distribution/images/os_show_hide_columns.gif)
