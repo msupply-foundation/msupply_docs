@@ -1,6 +1,6 @@
 +++
-title = "Internal Orders"
-description = "Requesting stock from your suppliers."
+title = "Ordenes Internas"
+description = "Solicitando stock a tus proveedores."
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
 draft = false
@@ -13,65 +13,65 @@ toc = true
 top = false
 +++
 
-Internal Orders go by several other names in certain countries or systems:
-* Requisitions
-* Orders
-* Report & Requisition
-* R&R
+Las Órdenes Internas tienen otros nombres en algunos países o sistemas:
+* Solicitudes
+* Pedidos
+* Informes y Solicitudes
+* I&R
 
-Internal Orders are a way to support users in requesting new stock from another store. 
+Las Órdenes Internas son una forma de ayudar a los usuarios a solicitar nuevos stocks desde otro almacén.
 
-## Viewing Internal Orders
+## Ver Ordenes Internas
 
-If you would like to order some stock from your supplier: 
-1. Navigate to the `Replenishment` menu
-2. Tap on `Internal Orders`
+Si deseas pedir inventario a tu proveedor: 
+1. Ve al menú `Reabastecimiento`
+2. Selecciona `Ordenes Internas`
 
 ![Internal Order: nav](/docs/replenishment/images/intord_access.png)
 
-You will see a list of all existing internal orders: 
+Verás una lista de todas las órdenes internas existentes: 
 
 ![Internal Order: list](/docs/replenishment/images/intord_list.png)
 
-You can use the `Search by comment` field to filter the list by the comments of the internal orders: 
+Puedes usar el campo `Buscar por comentario` para filtrar la lista por los comentarios de las órdenes internas: 
 
 ![Internal Order: filter by comment](/docs/replenishment/images/intord_filterlistbycomment.gif)
 
-You can sort the list using the column headers:
-1. Tap the column header of the column that you want to sort. The column is sorted in ascending order. 
+Puedes ordenar la lista utilizando los encabezados de las columnas:
+1. Selecciona el encabezado de la columna que desea ordenar. La columna se ordenará en orden ascendente. 
 2. Tap the column header again and column will be sorted in the opposite order.
 
-## Creating a new Internal Order
+## Crear una Orden Interna
 
-### Select a supplier
+### Seleccionar un proveedor
 
-1. Click on the `New Order` button (top right corner): 
+1. Haz clic en el botón `Nuevo Pedido` (esquina superior derecha): 
 
 ![Internal Order: new order](/docs/replenishment/images/intord_newreqbutton.png)
 
-2. A new window opens, inviting your to select a supplier: 
+2. Se abrirá una nueva ventana que te invita a seleccionar un proveedor: 
 
 ![Internal Order: select supplier](/docs/replenishment/images/intord_selectsupplier2.png)
 
-3. Select a Supplier by pressing on their name. You will see a window like this: 
+3. Selecciona un proveedor haciendo clic en su nombre. Verás una ventana como esta: 
 
 ![Internal Order: newly created order](/docs/replenishment/images/intord_newintord.png)
 
-### Defining Maximum Month of Stock (Maximum MOS)
+### Definir mes máximo de inventario (MOS Máximo)
 
-Defining the Maximum MOS (Month of Stock) is critical to the calculation of the **Suggested Quantity** and you can change it: 
-* There is an industry rule of thumb that the *Maximum MOS* should be set to 3 times the ordering cycle
-* The default *Maximum MOS* is `3.0`, which is based on a monthly ordering cycle
-* If for example, the ordering cycle was every two months, then *Maximum MOS* should be set to 3 x 2 = `6.0` 
+Definir el MOS Máximo (Mes de Inventario) es crítico para el cálculo de la **Cantidad Sugerida** y puedes cambiarlo: 
+* Existe una regla general en la industria que el *MOS Máximo* debería ser establecido en 3 veces el ciclo de pedido
+* El valor por defecto de  *MOS Máximo* es `3.0`, lo que se basa en un ciclo de pedido mensual
+* Si por ejemplo, el ciclo de pedido es cada dos meses, entonces el *MOS Máximo* debería ser establecido en 3 x 2 = `6.0` 
 
 <div class="imagetitle">
-In below example, we are setting our Maximum MOS to 3 Months.  
+En el siguiente ejemplo, estableceremos nuestro MOS Máximo en 3 meses.  
 </div>
 
 
 ![MaxMOS](/docs/replenishment/images/intord_maxmos.png)
 
-This can be done before or after adding items to your order. 
+Esto se puede hacer antes o después de agregar elementos a tu orden.
 
 ### Adding a single item
 
