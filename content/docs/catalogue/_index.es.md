@@ -1,9 +1,9 @@
 +++
-title = "Catalogue"
-description = "Manage your items"
+title = "Catálogo"
+description = "Gestiona tus artículos"
 date = 2025-05-01T18:00:00+00:00
 updated = 2021-05-01T18:00:00+00:00
-template = "docs/section.html"
+template = "docs/section.es.html"
 sort_by = "weight"
 weight = 50
 draft = false
