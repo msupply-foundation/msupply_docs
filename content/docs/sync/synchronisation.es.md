@@ -1,6 +1,6 @@
 +++
-title = "Synchronisation"
-description = "Configure the server sync settings"
+title = "Sincronización"
+description = "Configuración de sincronización del servidor"
 date = 2022-05-17T16:20:00+00:00
 updated = 2022-05-17T16:20:00+00:00
 draft = false
@@ -9,31 +9,31 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "Synchronisation is the term we use to denote the process of transferring data between your server and the central server. This page covers viewing the current status and how to manually initiate synchronisation."
+lead = "La sincronización es el término que utilizamos para denotar el proceso de transferencia de datos entre tu servidor y el servidor central. Esta página cubre la visualización del estado actual y cómo iniciar manualmente la sincronización."
 toc = true
 top = false
 +++
 
-## Viewing the synchronisation status
+## Visualización del estado de sincronización
 
-To view the synchronisation status, go to `Sync` in the lower section of the navigation panel: 
+Para ver el estado de sincronización, ve a `Sincronización` en la sección inferior del panel de navegación: 
 
 ![sync: nav](/docs/sync/images/sync_nav.png)
 
-The page shows the number of records waiting to be pushed to the central server and the time that the last sync happened.
+La página muestra el número de registros que esperan ser enviados al servidor central y la hora en que se realizó la última sincronización.
 
 ![sync: status](/docs/sync/images/sync_status.png)
 
-## Manual synchronisation
+## Sincronización Manual
 
-On this (sync) screen you are also able to initiate synchronisation immediately rather than wait for the scheduled time ( remember, the sync interval is configured in the Admin > Synchronisation section, see the [Administration](/docs/administration/synchronisation/) page for details ).
+En esta pantalla de sincronización también se puede iniciar una sincronización de forma inmediata en lugar de esperar al horario programado (recuerde que el intervalo de sincronización está configurado en la sección Admin > Sincronización, consulte la página de [Administración](/docs/administration/synchronisation/) para obtener más detalles).
 
-To start sync manually, simply click the `Sync now!` button. When you do, you'll see that the button changes to a spinner and the progress is indicated with the stepper icons which change to show which step is currently active. For example, in the image below you'll see that `Pull remote` is active.
+Para iniciar una sincronización manualmente, simplemente haga clic en el botón `¡Sincronizar ahora!`. Cuando lo hagas, verás que el botón cambia a un spinner y el progreso se indica con los iconos de los pasos que cambian para mostrar cuál está activo en ese momento. Por ejemplo, en la imagen siguiente se muestra que `Obtener Remotamente` está activo.
 
 ![sync: manual](/docs/sync/images/sync_in_progress.png)
 
-Here is the complete process in action, with the steps slowed down. You'll notice when you try this that the sync is usually very quick, though it depends on how many items you have to sync:
+Aquí está el proceso completo en acción, con los pasos ralentizados. Notará que al intentar esto, la sincronización suele ser muy rápida, aunque depende de la cantidad de elementos que tenga que sincronizar:
 
 ![sync: manual](/docs/sync/images/sync.gif)
 
-If any errors are encountered during the sync progress you will see these on this screen too. Hover over the `i` icon to see additional details.
+Si se encuentran errores durante el progreso de sincronización, estos también se mostrarán en esta pantalla. Pasa el cursor sobre el icono `i` para ver detalles adicionales.
