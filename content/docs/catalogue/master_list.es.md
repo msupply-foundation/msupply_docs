@@ -1,6 +1,6 @@
 +++
-title = "Master Lists"
-description = "master lists"
+title = "Listas Maestras"
+description = "Listas Maestras"
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
 draft = false
@@ -9,20 +9,20 @@ sort_by = "weight"
 template = "docs/page.html"
 +++
 
-Master lists are standard lists of items that can only be defined at the central server level. 
+Las listas maestras son listas estándar de elementos que solo se pueden definir en el nivel del servidor central. 
 
-## Viewing Master Lists
+## Visualizar listas maestras
 
-Go to `Catalogue` > `Master Lists` in the navigation panel: 
+Ir a `Catálogo` > `Listas Maestras` en el panel de navegación: 
 
 ![](/docs/catalogue/images/cat_gotoml.png)
 
-You will see a window like this: 
+Verás una ventana como esta: 
 
 ![](/docs/catalogue/images/cat_mllist.png)
 
 
-To view all the items of a master list, simply tap on one: 
+Para ver todos los elementos de una lista maestra, simplemente haga clic en uno: 
 
 ![](/docs/catalogue/images/cat_mldetail.png)
 
