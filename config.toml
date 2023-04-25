@@ -13,7 +13,7 @@ title="mSupply"
 build_search_index = true
 
 [languages.en.translations]
-flag="🇬🇧"
+flag="en.svg"
 TOCtitle="On this page"
 search_placeholder = "Search docs..."
 
@@ -25,14 +25,14 @@ title="mSupply 🇫🇷"
 [languages.fr.translations]
 summary = "Mon blog"
 title = "mSupply.fr"
-flag="🇫🇷"
+flag="fr.svg"
 TOCtitle="Sur cette page"
 search_placeholder = "Rechercher des documents..."
 
 [languages.es.translations]
 summary = "Mi blog"
 title = "mSupply.es"
-flag="🇪🇸"
+flag="es.svg"
 TOCtitle="En esta pagina"
 search_placeholder = "Buscar documentos..."
 
