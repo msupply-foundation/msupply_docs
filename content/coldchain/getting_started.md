@@ -19,9 +19,9 @@ top = true
 
 We recommend the following specifications for the mobile device:
 
-* Tablet with 10.1 inch display
-* Android Version 8.1
-* Screen resolution of 800w x 1280h
+* Tablet with 10.1 inch display or larger
+* Android Version 11 or higher
+* Screen resolution of 800w x 1280h or higher
 
 Once mSupply ColdChain is open on the device, it will prevent the device from going to sleep. For this reason, we recommend you keep the device connected to a power supply when using mSupply ColdChain.
 
