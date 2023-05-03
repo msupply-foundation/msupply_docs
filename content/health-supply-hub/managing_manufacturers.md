@@ -20,6 +20,8 @@ The Health Supply Hub maintains list of manufacturers to select from. If the man
 
 While waiting for the updated manufacturer list, or if pressed for time, you can enter "Manufacturer Not On List" in the manufacturer field and include the real manufacturer name in the comment field so the purchaser can update their records when the manufacturer is added.
 
+![Enter Manufacturer Details in Comment](/health-supply-hub/images/enter_manufacturer_comment.jpg)
+
 Note: Purchasers may consider failure to provide valid manufacturer information when assessing your quote.
 
 ## Manufacturer Import Errors

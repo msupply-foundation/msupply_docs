@@ -65,7 +65,34 @@ b. has not entered in the manufacturer details.
 ## I Want To Offer To Supply A Product By Either Sea or Air Freight. How Do I Do That?
 
 1. To propose supply via Sea Freight AND Air Freight for the same item you will need to enter in two separate Quotes for the same product.
-2. See the section above on how to enter in an additional quote for the same Quote Item
+2. See the section below for tips on how to provide alternative quotes for each transport type.
+
+## I've been asked to quote for both air and sea freight, how can I do this efficiently?
+
+Alternative quotes for different freight type currently need to be provided on separate lines.
+Following a process like this may make help speed up this process:
+
+1. In the Quote form fill in the required details for one mode of transport only
+2. Upload into Health Supply Hub to confirm the system will accept all quotes (if system doesn't, fix as directed)
+3. Download Quote template from HSH again (this should include all items already imported)
+
+   ![Quote template with first quote](/health-supply-hub/images/air_sea_1.png)
+
+4. Copy all, and then paste at the bottom of the item list
+   > Tip: To help identify the copied cells you could colour the cells and delete any items where alternative shipping is not being proposed from the copied cells
+5. Remove the pricing and method of delivery details from all the copied cells
+6. Fill in the new delivery method details
+
+   ![Quote template with new method inputted](/health-supply-hub/images/air_sea_3.png)
+
+7. Add filter to spreadsheet and order the first column "Line#" from smallest to largest
+8. Fill out the pricing for the alternative method
+9. Upload into Health Supply Hub
+10. Do any final checks (either by downloading the quote form, or viewing the quotes in the tender details section of HSH)
+
+    ![Quote template with both quotes](/health-supply-hub/images/air_sea_4.png)
+
+11. Submit to Purchaser in Health Supply Hub
 
 ## How do I know my data is secure?
 
