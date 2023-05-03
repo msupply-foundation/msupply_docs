@@ -311,22 +311,22 @@
 					
 					
 					
-							<h3>Administration</h3>
+							<h3>HIV module</h3>
 							<ul class="list-unstyled">
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/administration/display/">Display Settings</a></li>
-							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/administration/synchronisation/">Synchronisation</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/module-hiv/introduction/">Introduction</a></li>
 							
 					</ul>
 					
 					
 					
 					
-							<h3>HIV module</h3>
+							<h3>Administration</h3>
 							<ul class="list-unstyled">
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/module-hiv/introduction/">Introduction</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/administration/display/">Display Settings</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/administration/synchronisation/">Synchronisation</a></li>
 							
 					</ul>
 					
@@ -352,8 +352,18 @@
       <ul>
         
         <li><a href="https://docs.msupply.foundation/docs/inventory/stock-view/#viewing-stock">Viewing stock</a></li>
+        
+        <ul>
+          
+          <li><a href="https://docs.msupply.foundation/docs/inventory/stock-view/#exporting-stock">Exporting Stock</a></li>
+          
+        </ul>
          
         <li><a href="https://docs.msupply.foundation/docs/inventory/stock-view/#looking-for-a-specific-item">Looking for a specific item</a></li>
+         
+        <li><a href="https://docs.msupply.foundation/docs/inventory/stock-view/#editing-a-stock-line">Editing a stock line</a></li>
+         
+        <li><a href="https://docs.msupply.foundation/docs/inventory/stock-view/#updating-barcode">Updating barcode</a></li>
          
       </ul>
     </nav>
@@ -364,14 +374,17 @@
         
         <div class="flagster" style="float: right; padding: 5px">
           <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;inventory&#x2F;stock-view&#x2F;" title="Change language to en"
-            >🇬🇧</a
-          >
+            ><img src="/icons/en.svg" width="28"> </a>
         </div>
         
         <div class="flagster" style="float: right; padding: 5px">
           <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;fr&#x2F;docs&#x2F;inventory&#x2F;stock-view&#x2F;" title="Change language to fr"
-            >🇫🇷</a
-          >
+            ><img src="/icons/fr.svg" width="28"> </a>
+        </div>
+        
+        <div class="flagster" style="float: right; padding: 5px">
+          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;es&#x2F;docs&#x2F;inventory&#x2F;stock-view&#x2F;" title="Change language to es"
+            ><img src="/icons/es.svg" width="28"> </a>
         </div>
         
 
@@ -395,10 +408,28 @@
 <li><strong>SOH</strong>: The total quantity of stock on hand, in number of packs</li>
 <li><strong>Supplier</strong> Shows the source of this stock item</li>
 </ul>
+<h3 id="exporting-stock">Exporting Stock<a class="zola-anchor" href="#exporting-stock" aria-label="Anchor link for: exporting-stock">🔗</a></h3>
+<p>The list of Stock can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page)</p>
+<p><img src="/docs/inventory/images/export.png" alt="Export button" /></p>
+<p>and the file will be downloaded. The export function will download all Stock lines, not just the current page, if you have more than 20 of them.</p>
 <h2 id="looking-for-a-specific-item">Looking for a specific item<a class="zola-anchor" href="#looking-for-a-specific-item" aria-label="Anchor link for: looking-for-a-specific-item">🔗</a></h2>
 <p>You can filter the list by item name or code. This can be useful if you're looking for one particular item. </p>
 <p>Type as much of an item name or code in the <code>Enter item code or name</code> field: </p>
 <p><img src="/docs/inventory/images/stock_search.gif" alt="Stock: search" /></p>
+<h2 id="editing-a-stock-line">Editing a stock line<a class="zola-anchor" href="#editing-a-stock-line" aria-label="Anchor link for: editing-a-stock-line">🔗</a></h2>
+<p>Clicking on a line in the list will open the edit screen. Here, you can change the properties of this stock line.</p>
+<p><img src="/docs/inventory/images/stock_edit_line.png" alt="Edit stock line" /></p>
+<p>To see changes made to this stock line, you can click the <code>Log</code> tab. Note that you might have to scroll to the right in order to see all of the details!</p>
+<p><img src="/docs/inventory/images/stock_line_edit_log_1.png" alt="Stock line log 1" /></p>
+<div class="imagetitle" style="margin-bottom: 40px;">Log, showing changes made to this item</div>
+<p><img src="/docs/inventory/images/stock_line_edit_log_2.png" alt="Stock line log 2" /></p>
+<div class="imagetitle">With the log scrolled to the right</div>
+<h2 id="updating-barcode">Updating barcode<a class="zola-anchor" href="#updating-barcode" aria-label="Anchor link for: updating-barcode">🔗</a></h2>
+<p>This feature is available when running either the android or desktop versions of open mSupply. 
+There is an additional button shown when editing a stock line:</p>
+<p><img src="/docs/inventory/images/stock-line-edit-scan.png" alt="Scan button" /></p>
+<p>Clicking this will start the barcode scanner - if one is attached, when running desktop. If running on android, the camera on the device is used.
+If a barcode is scanned successfully, then the barcode field is populated with the scanned value. If a QR code which has batch and expiry information, then these are also populated from the scanned code.</p>
   
 <div class="docs-navigation d-flex justify-content-between">
   
@@ -406,13 +437,65 @@
   
   
   
-  <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;inventory&#x2F;stock-takes&#x2F;">
-    <div class="card my-1">
-      <div class="card-body py-2">
-        &larr; Stocktakes
-      </div>
-    </div>
-  </a>
+    
+    
+    
+    
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
+            
+              
+              <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;catalogue&#x2F;master-list&#x2F;">
+                <div class="card my-1">
+                  <div class="card-body py-2">
+                    &larr; Master Lists
+                  </div>
+                </div>
+              </a>
+            
+            
+            
+          
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+    
   
 
   
@@ -453,10 +536,10 @@
         
           
           
-          <a class="ms-auto" href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;administration&#x2F;display&#x2F;">
+          <a class="ms-auto" href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;module-hiv&#x2F;introduction&#x2F;">
             <div class="card my-1">
               <div class="card-body py-2">
-               Display Settings &rarr;
+               Introduction &rarr;
               </div>
             </div>
           </a>

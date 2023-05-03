@@ -10,7 +10,7 @@
 		<title>Feuille de route</title>
 		<published>2022-11-10T18:20:00+00:00</published>
 		<updated>2022-11-10T18:20:00+00:00</updated>
-		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/introduction/roadmap/" type="text/html"/>
+		<link href="https://docs.msupply.foundation/fr/docs/introduction/roadmap/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/introduction/roadmap/</id>
 		<content type="html">&lt;p&gt;Une mise à jour de cette feuille de route est prévue toutes les six semaines.
 Elle couvre uniquement les chantiers validés en cours. La liste complète de fonctionnalités prévues est bien plus importante.&lt;&#x2F;p&gt;
@@ -247,7 +247,7 @@ section Version 3.0.0
 		<title>Paramètres d&#x27;affichage</title>
 		<published>2022-05-17T16:20:00+00:00</published>
 		<updated>2022-05-17T16:20:00+00:00</updated>
-		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/administration/display/" type="text/html"/>
+		<link href="https://docs.msupply.foundation/fr/docs/administration/display/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/administration/display/</id>
 		<content type="html">&lt;p&gt;La section des paramètres d&#x27;affichage vous permet de personnaliser l&#x27;apparence de l&#x27;application. Les modifications apportées n&#x27;affecteront que votre expérience d&#x27;utilisation. Si d&#x27;autres personnes souhaitent modifier le logo, par exemple, elles devront le faire elles-mêmes.&lt;&#x2F;p&gt;
 &lt;p&gt;Explorons ce qui est possible...&lt;&#x2F;p&gt;
@@ -285,7 +285,7 @@ section Version 3.0.0
 		<title>Synchronisation</title>
 		<published>2022-05-17T16:20:00+00:00</published>
 		<updated>2022-05-17T16:20:00+00:00</updated>
-		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/administration/synchronisation/" type="text/html"/>
+		<link href="https://docs.msupply.foundation/fr/docs/administration/synchronisation/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/administration/synchronisation/</id>
 		<content type="html">&lt;h2 id=&quot;voir-les-parametres-de-synchronisation&quot;&gt;Voir les paramètres de synchronisation&lt;a class=&quot;zola-anchor&quot; href=&quot;#voir-les-parametres-de-synchronisation&quot; aria-label=&quot;Anchor link for: voir-les-parametres-de-synchronisation&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Pour accéder aux paramètres de synchronisation, allez à &lt;code&gt;Administration&lt;&#x2F;code&gt; dans la partie inférieure du panneau de navigation : &lt;&#x2F;p&gt;
@@ -300,7 +300,7 @@ section Version 3.0.0
 		<title>Articles</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
-		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/catalogue/items/" type="text/html"/>
+		<link href="https://docs.msupply.foundation/fr/docs/catalogue/items/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/catalogue/items/</id>
 		<content type="html">&lt;p&gt;Un article dans open mSupply est généralement un produit que vous achetez auprès d&#x27;un fournisseur, vous le rangez en stock et le fournissez à un client.
 Dans le menu &lt;strong&gt;Articles&lt;&#x2F;strong&gt;, vous pouvez consulter tous les articles qui sont actuellement visibles dans votre dépôt. &lt;&#x2F;p&gt;
@@ -357,7 +357,7 @@ Dans l&#x27;exemple ci-dessous, nous avons 1542 unités d&#x27;amoxicilline disp
 		<title>Listes Maîtres</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
-		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/catalogue/master-list/" type="text/html"/>
+		<link href="https://docs.msupply.foundation/fr/docs/catalogue/master-list/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/catalogue/master-list/</id>
 		<content type="html">&lt;p&gt;Les listes Maîtres sont des listes standard, des regroupements d&#x27;articles qui ne peuvent être définies qu&#x27;au niveau du serveur central. &lt;&#x2F;p&gt;
 &lt;h2 id=&quot;consulter-les-listes-maitres&quot;&gt;Consulter les Listes Maîtres&lt;a class=&quot;zola-anchor&quot; href=&quot;#consulter-les-listes-maitres&quot; aria-label=&quot;Anchor link for: consulter-les-listes-maitres&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
@@ -374,7 +374,7 @@ Dans l&#x27;exemple ci-dessous, nous avons 1542 unités d&#x27;amoxicilline disp
 		<title>Clients</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
-		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/distribution/customers/" type="text/html"/>
+		<link href="https://docs.msupply.foundation/fr/docs/distribution/customers/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/distribution/customers/</id>
 		<content type="html">&lt;div class=&quot;omsupdate&quot;&gt;
 Pour le moment, vous ne pouvez voir que vos clients et leurs informations. À l&#x27;avenir, vous pourrez créer et modifier vos clients (à condition d&#x27;en avoir l&#x27;autorisation !). 
@@ -398,7 +398,7 @@ Si vous ne trouvez pas le client que vous recherchez, contactez votre administra
 		<title>Expéditions</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
-		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/" type="text/html"/>
+		<link href="https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/</id>
 		<content type="html">&lt;p&gt;La fonction &lt;em&gt;Expédition&lt;&#x2F;em&gt; peut être utilisée pour livrer du stock à un client. &lt;&#x2F;p&gt;
 &lt;p&gt;Si vous utilisiez mSupply par le passé, vous devriez être familier au terme &lt;strong&gt;Facture Client&lt;&#x2F;strong&gt; au lieu de &lt;strong&gt;Expédition&lt;&#x2F;strong&gt;. 
@@ -424,14 +424,14 @@ La fonction Expédition est utilisée pour:&lt;&#x2F;p&gt;
 &lt;ol&gt;
 &lt;li&gt;La liste des expéditions comprend 7 colonnes:&lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: left&quot;&gt;Colonne&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;Description&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Nom&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Nom du Client&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Statut&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Le statut actuel de l&#x27;expédition&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Numéro&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Le numéro de référence de l&#x27;expédition&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Créée le&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;La date de création&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Reference&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;La référence du Client&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Commentaire&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Commentaire sur l&#x27;expédition&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Total&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Valeur totale&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Colonne&lt;&#x2F;th&gt;&lt;th align=&quot;left&quot;&gt;Description&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Nom&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Nom du Client&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Statut&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Le statut actuel de l&#x27;expédition&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Numéro&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Le numéro de référence de l&#x27;expédition&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Créée le&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;La date de création&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Reference&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;La référence du Client&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Commentaire&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Commentaire sur l&#x27;expédition&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Total&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Valeur totale&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;ol start=&quot;2&quot;&gt;
 &lt;li&gt;La liste peut afficher un nombre fixe d&#x27;expéditions par page. Au bas de liste, à gauche, on peut voir le nombre d&#x27;expéditons actuellement affiché à l&#x27;écran. &lt;&#x2F;li&gt;
@@ -554,13 +554,13 @@ Si tout s&#x27;est bien passé, vous devriez voir le nom de votre client dans le
 &lt;figcaption align = &quot;center&quot;&gt;Status Sequence: current status is &lt;&#x2F;i&gt;&lt;code&gt;PICKED&lt;&#x2F;code&gt;.&lt;&#x2F;figcaption&gt;
 &lt;&#x2F;figure&gt;
 &lt;p&gt;There are 6 status for the Outbound Shipment: &lt;&#x2F;p&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: left&quot;&gt;Status&lt;&#x2F;th&gt;&lt;th&gt;Description&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;New&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;This is the first status when you create a shipment&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Allocated&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Allocation is confirmed. Goods are no longer available for other shipments but are still part of your inventory.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Picked&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Shipment is picked and is now ready to ship. Goods are still part of your inventory.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Shipped&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Shipment has been shipped and goods are no longer part of your inventory&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Delivered&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Your customer has received the shipment&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Verified&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Your customer has verified the quantity of the shipment. Goods are now part of their inventory .&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Status&lt;&#x2F;th&gt;&lt;th&gt;Description&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;New&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;This is the first status when you create a shipment&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Allocated&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Allocation is confirmed. Goods are no longer available for other shipments but are still part of your inventory.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Picked&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Shipment is picked and is now ready to ship. Goods are still part of your inventory.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Shipped&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Shipment has been shipped and goods are no longer part of your inventory&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Delivered&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Your customer has received the shipment&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Verified&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Your customer has verified the quantity of the shipment. Goods are now part of their inventory .&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;p&gt;If you hover over the status sequence, a shipment history window appears. You can see the date when a shipment was updated from one status to another. &lt;&#x2F;p&gt;
 &lt;div class=&quot;imagetitle&quot;&gt;
@@ -577,10 +577,10 @@ This shipment has been created, allocated and picked on 29&#x2F;03&#x2F;2022
 &lt;h4 id=&quot;confirm-button&quot;&gt;Confirm Button&lt;a class=&quot;zola-anchor&quot; href=&quot;#confirm-button&quot; aria-label=&quot;Anchor link for: confirm-button&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
 &lt;p&gt;The &lt;code&gt;Confirm&lt;&#x2F;code&gt; button is the button to update the status of a shipment. The status which you can confirm depends on the current status of the shipment and follows the sequence shown below.&lt;&#x2F;p&gt;
 &lt;p&gt;When managing an Outbound Shipment, you can only confirm the Allocation, the Picking and the Shipment. &lt;&#x2F;p&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: left&quot;&gt;Confirm...&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;Current Status&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;Next Status&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Confirm Allocated&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;New&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Allocated&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Confirm Picked&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Allocated&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Picked&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Confirm Shipped&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Picked&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Shipped&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Confirm...&lt;&#x2F;th&gt;&lt;th align=&quot;left&quot;&gt;Current Status&lt;&#x2F;th&gt;&lt;th align=&quot;left&quot;&gt;Next Status&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Confirm Allocated&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;New&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Allocated&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Confirm Picked&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Allocated&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Picked&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Confirm Shipped&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Picked&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Shipped&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;p&gt;You don&#x27;t have to update a shipment to next status in the sequence. You can choose to skip some of them to go directly to &lt;code&gt;Confirm Shipped&lt;&#x2F;code&gt; for example.&lt;&#x2F;p&gt;
 &lt;p&gt;As demonstrated below, tap on the down arrow of the &lt;code&gt;Confirm&lt;&#x2F;code&gt; button and select the status you want the shipment to be updated to. &lt;&#x2F;p&gt;
@@ -801,7 +801,7 @@ To change the view mode, click the &lt;code&gt;Group by item&lt;&#x2F;code&gt; s
 		<title>Réquisitions</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
-		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/distribution/requisitions/" type="text/html"/>
+		<link href="https://docs.msupply.foundation/fr/docs/distribution/requisitions/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/distribution/requisitions/</id>
 		<content type="html">&lt;p&gt;Lorsqu&#x27;un client qui utilise Open mSupply souhaite vous transmettre une commande, il crée dans son dépôt ce qu&#x27;on appelle une &lt;strong&gt;Commande interne&lt;&#x2F;strong&gt;. Cela apparaîtra comme une &lt;strong&gt;Réquisition&lt;&#x2F;strong&gt; dans votre dépôt.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;afficher-la-commande-d-un-client&quot;&gt;Afficher la commande d&#x27;un client&lt;a class=&quot;zola-anchor&quot; href=&quot;#afficher-la-commande-d-un-client&quot; aria-label=&quot;Anchor link for: afficher-la-commande-d-un-client&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
@@ -818,12 +818,12 @@ To change the view mode, click the &lt;code&gt;Group by item&lt;&#x2F;code&gt; s
 &lt;ol&gt;
 &lt;li&gt;La liste des réquisitions comprend 5 colonnes:&lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: left&quot;&gt;Colonne&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;Description&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Nom&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Nom du Client&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Numéro&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Numéro de référence de la commande&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Créée le&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Date de création de la commande&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Statut&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;État actuel de la commande&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Commentaires&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Commentaire pour la commande&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Colonne&lt;&#x2F;th&gt;&lt;th align=&quot;left&quot;&gt;Description&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Nom&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Nom du Client&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Numéro&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Numéro de référence de la commande&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Créée le&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Date de création de la commande&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Statut&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;État actuel de la commande&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Commentaires&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Commentaire pour la commande&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;ol start=&quot;2&quot;&gt;
 &lt;li&gt;La liste peut afficher un nombre fixe de commandes par page. Dans le coin inférieur gauche, vous pouvez voir combien de commandes sont actuellement affichées sur votre écran.&lt;&#x2F;li&gt;
@@ -839,14 +839,14 @@ To change the view mode, click the &lt;code&gt;Group by item&lt;&#x2F;code&gt; s
 &lt;h3 id=&quot;exporter-des-commandes&quot;&gt;Exporter des commandes&lt;a class=&quot;zola-anchor&quot; href=&quot;#exporter-des-commandes&quot; aria-label=&quot;Anchor link for: exporter-des-commandes&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;La liste des demandes peut être exportée dans un fichier séparé par des virgules (csv). Cliquez simplement sur le bouton d&#x27;exportation (à droite, en haut de la page).&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;export_fr.png&quot; alt=&quot;Export button&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;et le fichier sera téléchargé. La fonction d&#x27;exportation téléchargera toutes les commandes, même si vous en avez plus de 20 lignes. Les commandes sont exportées en utilisant l&#x27;ordre de tri sélectionné dans le tableau, bien sûr vous pouvez facilement trier la liste dans Excel ou tout outils de lecture de fichier .csv !&lt;&#x2F;p&gt;
+&lt;p&gt;et le fichier sera téléchargé. La fonction d&#x27;exportation téléchargera toutes les commandes, même si vous en avez plus de 20 lignes. &lt;&#x2F;p&gt;
 </content>
 	</entry>
 	<entry xml:lang="fr">
 		<title>Didacticiel</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
-		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/introduction/tutorial/" type="text/html"/>
+		<link href="https://docs.msupply.foundation/fr/docs/introduction/tutorial/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/introduction/tutorial/</id>
 		<content type="html">&lt;h2 id=&quot;didacticiel-open-msupply&quot;&gt;Didacticiel: Open mSupply&lt;a class=&quot;zola-anchor&quot; href=&quot;#didacticiel-open-msupply&quot; aria-label=&quot;Anchor link for: didacticiel-open-msupply&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Ce didacticiel est conçu pour vous guider à travers les bases de l&#x27;utilisation d&#x27;Open mSupply.&lt;&#x2F;p&gt;
@@ -896,7 +896,7 @@ Si vous vous êtes déjà connecté, et changé de dépôt, alors le dépôt le 
 		<title>Emplacements</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
-		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/inventory/locations/" type="text/html"/>
+		<link href="https://docs.msupply.foundation/fr/docs/inventory/locations/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/inventory/locations/</id>
 		<content type="html">&lt;p&gt;Identifier et nommer l&#x27;endroit où se trouve le stock dans votre dépôt est une partie importante des bonnes pratiques d&#x27;entrepôsage. Vous ne voulez pas avoir à parcourir tout votre dépôt pour trouver du stock, perdre du temps et de l&#x27;énergie alors que mSupply peut vous dire exactement où il se trouve !&lt;&#x2F;p&gt;
 &lt;p&gt;Les emplacements dans mSupply sont les espaces aménagés où vous rangez le stock. &lt;&#x2F;p&gt;
@@ -936,7 +936,7 @@ Mettre un emplacement En Attente peut être utile si:
 		<title>Inventaires</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
-		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/inventory/stock-takes/" type="text/html"/>
+		<link href="https://docs.msupply.foundation/fr/docs/inventory/stock-takes/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/inventory/stock-takes/</id>
 		<content type="html">&lt;p&gt;mSupply gardera automatiquement une trace de vos niveaux de stock pour vous, au fur et à mesure que vous les recevez et les distribuez. Mais parfois, les données sont saisies de manière incorrecte ou le stock s&#x27;épuise sans que personne ne fasse d&#x27;entrée dans le système.&lt;&#x2F;p&gt;
 &lt;p&gt;Bien sûr, nous essayons de ne pas laisser cela se produire, mais si cela se produit, nous pouvons apporter des corrections. Le moyen le plus simple de corriger les erreurs est de &lt;strong&gt;faire un inventaire&lt;&#x2F;strong&gt; .&lt;&#x2F;p&gt;
@@ -990,7 +990,7 @@ Ne vous inquiétez pas s&#x27;il manque un élément dans votre inventaire nouve
 		<title>Stock</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
-		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/inventory/stock-view/" type="text/html"/>
+		<link href="https://docs.msupply.foundation/fr/docs/inventory/stock-view/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/inventory/stock-view/</id>
 		<content type="html">&lt;p&gt;L&#x27;une des plus importantes, mais la plus simple des tâches dans mSupply est de vérifier combien de stock vous avez actuellement. Lorsque vous créez un expédition sortante et que vous sélectionnez un produit à sortir, mSupply vous dira si vous avez suffisamment de stock. Vous pourrez à bien d&#x27;autres moments, utiliser cette fonctionnalité pour avoir un apperçu rapide du niveau de vos stocks, et c&#x27;est très simple à faire.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;consulter-le-stock&quot;&gt;Consulter le stock&lt;a class=&quot;zola-anchor&quot; href=&quot;#consulter-le-stock&quot; aria-label=&quot;Anchor link for: consulter-le-stock&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
@@ -1019,7 +1019,7 @@ Ne vous inquiétez pas s&#x27;il manque un élément dans votre inventaire nouve
 		<title>Livraisons</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
-		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/replenishment/inbound-shipments/" type="text/html"/>
+		<link href="https://docs.msupply.foundation/fr/docs/replenishment/inbound-shipments/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/replenishment/inbound-shipments/</id>
 		<content type="html">&lt;p&gt;La fonctionnalité &lt;em&gt;Livraison&lt;&#x2F;em&gt; peut être utilisée pour récevoir du stock venant d&#x27;un ou plusieurs fournisseurs.&lt;&#x2F;p&gt;
 &lt;p&gt;Si vous aviez utilisé mSupply par le passé, vous devriez être familier du terme &lt;strong&gt;Facture Fournisseur&lt;&#x2F;strong&gt; au lieu de &lt;strong&gt;&lt;em&gt;Livraison&lt;&#x2F;em&gt;&lt;&#x2F;strong&gt;. &lt;&#x2F;p&gt;
@@ -1039,14 +1039,14 @@ Ne vous inquiétez pas s&#x27;il manque un élément dans votre inventaire nouve
 &lt;h3 id=&quot;liste-des-livraisons&quot;&gt;Liste des Livraisons&lt;a class=&quot;zola-anchor&quot; href=&quot;#liste-des-livraisons&quot; aria-label=&quot;Anchor link for: liste-des-livraisons&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;La première chose que vous voyez est une liste des Livraisons. &lt;&#x2F;p&gt;
 &lt;p&gt;La liste des livraisons comprend 7 colonnes: &lt;&#x2F;p&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: left&quot;&gt;Colonne&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;Description&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Nom&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Nom du fournisseur&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Statut&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Statut de la livraison&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Numéro&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Numéro de référence de la livraison&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Créée le&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Date de création de la livraison&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Confirmée&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Date de confirmation de la livraison&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Commentaire&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Commentaire sur la livraison&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Total&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Valeur totale&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Colonne&lt;&#x2F;th&gt;&lt;th align=&quot;left&quot;&gt;Description&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Nom&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Nom du fournisseur&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Statut&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Statut de la livraison&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Numéro&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Numéro de référence de la livraison&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Créée le&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Date de création de la livraison&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Confirmée&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Date de confirmation de la livraison&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Commentaire&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Commentaire sur la livraison&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Total&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Valeur totale&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;ol&gt;
 &lt;li&gt;La liste peut afficher &lt;strong&gt;20 livraisons par page&lt;&#x2F;strong&gt;. Dans le coin inférieur gauche, vous pouvez voir combien de livraisons sont actuellement affichées sur votre écran. &lt;&#x2F;li&gt;
@@ -1062,7 +1062,7 @@ Ne vous inquiétez pas s&#x27;il manque un élément dans votre inventaire nouve
 &lt;h3 id=&quot;exporter-la-liste-des-livraisons&quot;&gt;Exporter la liste des livraisons&lt;a class=&quot;zola-anchor&quot; href=&quot;#exporter-la-liste-des-livraisons&quot; aria-label=&quot;Anchor link for: exporter-la-liste-des-livraisons&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;La liste des livraisons peut être exportée dans un fichier CSV. Cliquez simplement sur le bouton &lt;em&gt;Exporter&lt;&#x2F;em&gt; (à droite, en haut de la page).&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;export_fr.png&quot; alt=&quot;Export button&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;et le fichier sera téléchargé. La fonction d&#x27;exportation téléchargera toutes les livraisons, pas seulement la page actuelle, si vous en avez plus de 20. Les livraisons sont exportées en utilisant l&#x27;ordre de tri sélectionné dans la liste, bien que vous puissiez facilement trier la liste dans Excel ou tout autre outil avec lequel vous ouvrez le fichier .csv !&lt;&#x2F;p&gt;
+&lt;p&gt;et le fichier sera téléchargé. La fonction d&#x27;exportation téléchargera toutes les livraisons, pas seulement la page actuelle, si vous en avez plus de 20. &lt;&#x2F;p&gt;
 &lt;h3 id=&quot;supprimer-une-livraison&quot;&gt;Supprimer une livraison&lt;a class=&quot;zola-anchor&quot; href=&quot;#supprimer-une-livraison&quot; aria-label=&quot;Anchor link for: supprimer-une-livraison&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;Vous pouvez supprimer une livraison de la liste.&lt;&#x2F;p&gt;
 &lt;ol&gt;
@@ -1168,12 +1168,12 @@ Nous prévoyons d&#x27;ajouter d&#x27;autres sections à l&#x27;avenir au fur et
     &lt;figcaption align=&quot;center&quot;&gt;Status Sequence: current status is &lt;&#x2F;i&gt;&lt;code&gt;Shipped&lt;&#x2F;code&gt;.&lt;&#x2F;figcaption&gt;
 &lt;&#x2F;figure&gt;
 &lt;p&gt;There are 5 status for the Inbound Shipment: &lt;&#x2F;p&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: left&quot;&gt;Status&lt;&#x2F;th&gt;&lt;th&gt;Description&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;New&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;This is the first status when you create a new manual Inbound Shipment&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Picked&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Supplier has confirmed that shipment is picked and ready to ship  (applies only to automatically created shipments)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Shipped&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Shipment has been shipped and goods are now in transit (applies only to automatically created shipments)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Delivered&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;When you confirm that the shipment has been delivered&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Verified&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;When you have verified the inbound shipment&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Status&lt;&#x2F;th&gt;&lt;th&gt;Description&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;New&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;This is the first status when you create a new manual Inbound Shipment&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Picked&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Supplier has confirmed that shipment is picked and ready to ship  (applies only to automatically created shipments)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Shipped&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Shipment has been shipped and goods are now in transit (applies only to automatically created shipments)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Delivered&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;When you confirm that the shipment has been delivered&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Verified&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;When you have verified the inbound shipment&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;p&gt;You probably noticed that two of the status values only apply to automatically created shipments. These are created by the system when another store in the system creates an Outbound Shipment to deliver stock to your store. If this is the case you&#x27;ll see a message near the top of the page:&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;images&#x2F;is_message_automatic.png&quot; alt=&quot;Automatic IS message&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
@@ -1203,9 +1203,9 @@ This automatic shipment has been created on 03&#x2F;03&#x2F;2022, allocated on 0
 &lt;h4 id=&quot;confirm-button&quot;&gt;Confirm Button&lt;a class=&quot;zola-anchor&quot; href=&quot;#confirm-button&quot; aria-label=&quot;Anchor link for: confirm-button&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
 &lt;p&gt;The &lt;code&gt;Confirm&lt;&#x2F;code&gt; button is the button to update the status of a shipment. The status which you can confirm depends on the current status of the shipment and follows the sequence shown below.&lt;&#x2F;p&gt;
 &lt;p&gt;When managing an Inbound Shipment, you can only confirm it as Delivered or Verified. &lt;&#x2F;p&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: left&quot;&gt;Confirm...&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;Current Status&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;Next Status&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Confirm Delivered&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Shipped&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Delivered&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Confirm Verified&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Delivered&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Verified&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Confirm...&lt;&#x2F;th&gt;&lt;th align=&quot;left&quot;&gt;Current Status&lt;&#x2F;th&gt;&lt;th align=&quot;left&quot;&gt;Next Status&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Confirm Delivered&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Shipped&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Delivered&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Confirm Verified&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Delivered&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Verified&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;p&gt;You don&#x27;t have to update a shipment to next status in the sequence. You can choose to skip some of them to go directly to &lt;code&gt;Confirm Verified&lt;&#x2F;code&gt; for example.&lt;&#x2F;p&gt;
 &lt;p&gt;As demonstrated below, tap on the down arrow of the &lt;code&gt;Confirm&lt;&#x2F;code&gt; button and select the status you want the shipment to be updated to. &lt;&#x2F;p&gt;
@@ -1339,7 +1339,7 @@ To change the view mode, click the &lt;code&gt;Group by item&lt;&#x2F;code&gt; s
 		<title>Commandes Internes</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
-		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/replenishment/internal-orders/" type="text/html"/>
+		<link href="https://docs.msupply.foundation/fr/docs/replenishment/internal-orders/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/replenishment/internal-orders/</id>
 		<content type="html">&lt;p&gt;Les commandes internes portent plusieurs autres noms dans certains pays ou systèmes :&lt;&#x2F;p&gt;
 &lt;ul&gt;
@@ -1448,15 +1448,15 @@ You can create internal orders from multiple master lists by repeating above act
 &lt;&#x2F;div&gt;
 &lt;h3 id=&quot;reading-the-internal-order-s-list&quot;&gt;Reading the Internal Order&#x27;s list&lt;a class=&quot;zola-anchor&quot; href=&quot;#reading-the-internal-order-s-list&quot; aria-label=&quot;Anchor link for: reading-the-internal-order-s-list&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;When you add items (using a master list or not), the item is added to the order&#x27;s table. The following information is provided for each order line:&lt;&#x2F;p&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: left&quot;&gt;Status&lt;&#x2F;th&gt;&lt;th&gt;Description&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Code&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Code of the item&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Name&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Name of the item&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;SoH (Est. remaining)&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;How much stock currently available in your store for this store&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;AMC&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Average Monthly Consumption: how much stock your store uses each month on average (based on a configurable number of months, defaults to 3 months)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Target Stock&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;This is the stock you are aiming for. Calculated as: AMC x Maximum MOS&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Suggested Quantity&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;How much stock mSupply suggests that your order. This is calculated as: AMC x Maximum MOS - SoH&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Requested&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;This is set to zero by default. This is the quantity of units you are ordering from your supplier.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Comment&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;A comment for the order line. Comments will be visible to your supplier.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;left&quot;&gt;Status&lt;&#x2F;th&gt;&lt;th&gt;Description&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Code&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Code of the item&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Name&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Name of the item&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;SoH (Est. remaining)&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;How much stock currently available in your store for this store&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;AMC&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;Average Monthly Consumption: how much stock your store uses each month on average (based on a configurable number of months, defaults to 3 months)&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Target Stock&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;This is the stock you are aiming for. Calculated as: AMC x Maximum MOS&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Suggested Quantity&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;How much stock mSupply suggests that your order. This is calculated as: AMC x Maximum MOS - SoH&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Requested&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;This is set to zero by default. This is the quantity of units you are ordering from your supplier.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;left&quot;&gt;&lt;strong&gt;Comment&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;A comment for the order line. Comments will be visible to your supplier.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;using-suggested-quantities&quot;&gt;Using Suggested Quantities&lt;a class=&quot;zola-anchor&quot; href=&quot;#using-suggested-quantities&quot; aria-label=&quot;Anchor link for: using-suggested-quantities&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;If you tap on the &lt;code&gt;Use Suggested Quantities&lt;&#x2F;code&gt; on the requisition header, mSupply will automatically copy the values in the &lt;strong&gt;Suggested Quantity&lt;&#x2F;strong&gt; column into the &lt;strong&gt;Requested Quantity&lt;&#x2F;strong&gt; column. &lt;&#x2F;p&gt;
@@ -1488,7 +1488,7 @@ Ensure that your order is correct before sending it to your supplier. Once sent,
 		<title>Fournisseurs</title>
 		<published>2022-03-19T18:20:00+00:00</published>
 		<updated>2022-03-19T18:20:00+00:00</updated>
-		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/replenishment/suppliers/" type="text/html"/>
+		<link href="https://docs.msupply.foundation/fr/docs/replenishment/suppliers/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/replenishment/suppliers/</id>
 		<content type="html">&lt;p&gt;Dans mSupply, un fournisseur est une entité qui envoie du stock à votre dépôt. &lt;&#x2F;p&gt;
 &lt;div class=&quot;omsupdate&quot;&gt;
@@ -1521,7 +1521,7 @@ Pour le moment, vous ne pouvez que voir votre fournisseur et ses coordonnées. �
 		<title>Tableau de bord</title>
 		<published>2022-03-17T18:20:00+00:00</published>
 		<updated>2022-03-17T18:20:00+00:00</updated>
-		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/introduction/dashboard/" type="text/html"/>
+		<link href="https://docs.msupply.foundation/fr/docs/introduction/dashboard/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/introduction/dashboard/</id>
 		<content type="html">&lt;h2 id=&quot;plus-d-un-tableau-de-bord&quot;&gt;Plus d&#x27;un Tableau de Bord!&lt;a class=&quot;zola-anchor&quot; href=&quot;#plus-d-un-tableau-de-bord&quot; aria-label=&quot;Anchor link for: plus-d-un-tableau-de-bord&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;En effet nous utilisons le terme &lt;em&gt;Tableau de bord&lt;&#x2F;em&gt; pour plus d&#x27;une chose dans Open mSupply.
@@ -1559,7 +1559,7 @@ La deuxième utilisation du terme &lt;em&gt;Tableau de bord&lt;&#x2F;em&gt; est 
 		<title>Introduction à Open mSupply</title>
 		<published>2022-03-17T18:20:00+00:00</published>
 		<updated>2022-03-17T18:20:00+00:00</updated>
-		<link rel="alternate" href="https://docs.msupply.foundation/fr/docs/introduction/introduction/" type="text/html"/>
+		<link href="https://docs.msupply.foundation/fr/docs/introduction/introduction/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/introduction/introduction/</id>
 		<content type="html">&lt;h2 id=&quot;historique&quot;&gt;Historique&lt;a class=&quot;zola-anchor&quot; href=&quot;#historique&quot; aria-label=&quot;Anchor link for: historique&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Open mSupply s&#x27;appuie sur plus de 20 années d&#x27;expériences enrichissantes de mSupply, au cours desquelles il est devenu le système d&#x27;information de gestion logistique (SIGL) le plus utilisé dans les pays à revenu faible et intermédiaire.&lt;&#x2F;p&gt;
@@ -1594,11 +1594,11 @@ La deuxième utilisation du terme &lt;em&gt;Tableau de bord&lt;&#x2F;em&gt; est 
 &lt;p&gt;Pour avoir un aperçu de l&#x27;étendue des fonctionnalités de mSupply, jetez un oeil par ici sur cet héritage &lt;a href=&quot;https:&#x2F;&#x2F;www.msupply.org.nz&quot;&gt;https:&#x2F;&#x2F;www.msupply.org.nz&lt;&#x2F;a&gt; - C&#x27;est presque 1000 pages si vous imprimez tout (Alors n&#x27;essayez surtout pas ☺️)&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;terminologie&quot;&gt;Terminologie&lt;a class=&quot;zola-anchor&quot; href=&quot;#terminologie&quot; aria-label=&quot;Anchor link for: terminologie&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;Le tableau suivant décrit certains des termes courants utilisés dans mSupply, et guide également les utilisateurs de l&#x27;ancienne version de mSupply sur les améliorations terminologiques que nous avons apportées.&lt;&#x2F;p&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align: center&quot;&gt;Terme Open mSupply&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: center&quot;&gt;Terme ancienne version&lt;&#x2F;th&gt;&lt;th style=&quot;text-align: left&quot;&gt;Définition&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;Expédition&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Facture Client&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;La création d&#x27;une livraison de produit à un client particulier&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;Livraison&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Facture Fournisseur&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;La réception d&#x27;une livraison de produits d&#x27;un fournisseur particulier&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;Réquisition&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Réquisitions Client&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Une commande de produits effectuée par un client particulier&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
-&lt;tr&gt;&lt;td style=&quot;text-align: center&quot;&gt;Commandes Internes&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: center&quot;&gt;Réquisitions Fournisseur&lt;&#x2F;td&gt;&lt;td style=&quot;text-align: left&quot;&gt;Une demande de stock faite pour un fournisseur particulier&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th align=&quot;center&quot;&gt;Terme Open mSupply&lt;&#x2F;th&gt;&lt;th align=&quot;center&quot;&gt;Terme ancienne version&lt;&#x2F;th&gt;&lt;th align=&quot;left&quot;&gt;Définition&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Expédition&lt;&#x2F;td&gt;&lt;td align=&quot;center&quot;&gt;Facture Client&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;La création d&#x27;une livraison de produit à un client particulier&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Livraison&lt;&#x2F;td&gt;&lt;td align=&quot;center&quot;&gt;Facture Fournisseur&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;La réception d&#x27;une livraison de produits d&#x27;un fournisseur particulier&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Réquisition&lt;&#x2F;td&gt;&lt;td align=&quot;center&quot;&gt;Réquisitions Client&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Une commande de produits effectuée par un client particulier&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td align=&quot;center&quot;&gt;Commandes Internes&lt;&#x2F;td&gt;&lt;td align=&quot;center&quot;&gt;Réquisitions Fournisseur&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Une demande de stock faite pour un fournisseur particulier&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h2 id=&quot;commencer&quot;&gt;Commencer&lt;a class=&quot;zola-anchor&quot; href=&quot;#commencer&quot; aria-label=&quot;Anchor link for: commencer&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Si vous démarrez le serveur pour la toute première fois, vous pouvez voir cet écran:&lt;&#x2F;p&gt;

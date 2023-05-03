@@ -66,7 +66,7 @@ La lista de Requisiciones se puede exportar a un archivo separado por comas (csv
 
 ![Export button](/docs/distribution/images/export.png)
 
-y el archivo se descargará automáticamente. La función de exportación descargará todas las Requisiciones, no solo las de la página actual, si tienes más de 20 de ellas. Las Requisiciones se exportan utilizando el orden de clasificación seleccionado en la tabla. Sin embargo, puedes ordenar fácilmente la lista en Excel u otro programa con el que abras el archivo .csv según tus necesidades
+y el archivo se descargará automáticamente. La función de exportación descargará todas las Requisiciones, no solo las de la página actual, si tienes más de 20 de ellas. 
 
 ### Ver una requisición
 

@@ -308,22 +308,22 @@
 					
 					
 					
-							<h3>Administration</h3>
+							<h3>HIV module</h3>
 							<ul class="list-unstyled">
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/administration/display/">Display Settings</a></li>
-							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/administration/synchronisation/">Synchronisation</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/module-hiv/introduction/">Introduction</a></li>
 							
 					</ul>
 					
 					
 					
 					
-							<h3>HIV module</h3>
+							<h3>Administration</h3>
 							<ul class="list-unstyled">
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/module-hiv/introduction/">Introduction</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/administration/display/">Display Settings</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/administration/synchronisation/">Synchronisation</a></li>
 							
 					</ul>
 					
@@ -360,15 +360,18 @@
       <main class="docs-content col-lg-11 col-xl-9">
         
         <div class="flagster" style="float: right; padding: 5px">
+          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;es&#x2F;docs&#x2F;introduction&#x2F;dashboard&#x2F;" title="Change language to es"
+            ><img src="/icons/es.svg" width="28"> </a>
+        </div>
+        
+        <div class="flagster" style="float: right; padding: 5px">
           <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;introduction&#x2F;dashboard&#x2F;" title="Change language to en"
-            >🇬🇧</a
-          >
+            ><img src="/icons/en.svg" width="28"> </a>
         </div>
         
         <div class="flagster" style="float: right; padding: 5px">
           <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;fr&#x2F;docs&#x2F;introduction&#x2F;dashboard&#x2F;" title="Change language to fr"
-            >🇫🇷</a
-          >
+            ><img src="/icons/fr.svg" width="28"> </a>
         </div>
         
 
@@ -382,24 +385,51 @@ Open mSupply has a landing page which gives an overview of some statistics, and 
 <p><img src="/docs/introduction/images/dashboard.png" alt="The dashboard!" /></p>
 <p>You can see some statistics for shipments and stock:</p>
 <ul>
+<li>Replenishment
+<ul>
 <li>Inbound Shipments
 <ul>
 <li><strong>Today</strong> Shows the number of inbound shipments created today</li>
 <li><strong>This week</strong> The number created during the current week</li>
 </ul>
 </li>
-<li>Outbound Shipments
+<li>Internal Orders
 <ul>
-<li><strong>Today</strong> The number of shipments to be picked today, that is, the number with the status of <code>Allocated</code></li>
+<li><strong>New</strong> Shows the number of new internal orders</li>
 </ul>
 </li>
-<li>Stock
+</ul>
+</li>
+<li>Distribution
 <ul>
-<li><strong>Expired</strong> The number of stock lines in the current store which have expired</li>
-<li><strong>Expiring soon</strong> The number of stock lines in the current store which will expire within the next three months</li>
+<li>Shipments
+<ul>
+<li><strong>Have not been shipped</strong> The number of outbound shipments that have not been set to <code>Shipped</code> (or later) status</li>
+</ul>
+</li>
+<li>Requisitions
+<ul>
+<li><strong>New</strong> The number of new customer requisitions</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Inventory Management
+<ul>
+<li>Expiring Stock
+<ul>
+<li><strong>Expired batches</strong> The number of stock lines in the current store which have expired</li>
+<li><strong>Batches expiring in a month</strong> The number of stock lines in the current store which will expire within the month</li>
+</ul>
+</li>
+<li>Stock levels
+<ul>
 <li><strong>Total items</strong> A count of the number of items in this store</li>
 <li><strong>Items with no stock</strong> The item is visible in this store, but there is no stock recorded</li>
-<li><strong>Less than 3 months of stock</strong> Which is based on the average monthly consumption (AMC) for this item in the current store</li>
+<li><strong>Items with less than 3 months of stock</strong> Which is based on the average monthly consumption (AMC) for this item in the current store</li>
+<li><strong>Items with more than 6 months of stock</strong> As above, based on AMC for the item in the current store</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -411,13 +441,12 @@ Open mSupply has a landing page which gives an overview of some statistics, and 
   
   
   
-  <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;introduction&#x2F;tutorial&#x2F;">
-    <div class="card my-1">
-      <div class="card-body py-2">
-        &larr; Tutorial
-      </div>
-    </div>
-  </a>
+    
+    
+    
+    
+      
+    
   
 
   
@@ -425,13 +454,62 @@ Open mSupply has a landing page which gives an overview of some statistics, and 
   
   
   
-    <a class="ms-auto" href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;introduction&#x2F;mobile&#x2F;">
-      <div class="card my-1">
-        <div class="card-body py-2">
-          Mobile &rarr;
-        </div>
-      </div>
-    </a>
+    
+    
+    
+      
+      
+        
+      
+    
+      
+      
+        
+          
+          
+          <a class="ms-auto" href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;distribution&#x2F;customers&#x2F;">
+            <div class="card my-1">
+              <div class="card-body py-2">
+               Customers &rarr;
+              </div>
+            </div>
+          </a>
+          
+          
+          
+        
+      
+    
+      
+      
+        
+      
+    
+      
+      
+        
+      
+    
+      
+      
+        
+      
+    
+      
+      
+        
+      
+    
+      
+      
+        
+      
+    
+      
+      
+        
+      
+    
   
 </div>
 

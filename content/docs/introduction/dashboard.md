@@ -24,17 +24,26 @@ Open mSupply has a landing page which gives an overview of some statistics, and 
 
 You can see some statistics for shipments and stock:
 
-- Inbound Shipments
-  - **Today** Shows the number of inbound shipments created today
-  - **This week** The number created during the current week
-- Outbound Shipments
-  - **Today** The number of shipments to be picked today, that is, the number with the status of `Allocated`
-- Stock
-  - **Expired** The number of stock lines in the current store which have expired
-  - **Expiring soon** The number of stock lines in the current store which will expire within the next three months
-  - **Total items** A count of the number of items in this store
-  - **Items with no stock** The item is visible in this store, but there is no stock recorded
-  - **Less than 3 months of stock** Which is based on the average monthly consumption (AMC) for this item in the current store
+- Replenishment
+  - Inbound Shipments
+    - **Today** Shows the number of inbound shipments created today
+    - **This week** The number created during the current week
+  - Internal Orders
+    - **New** Shows the number of new internal orders
+- Distribution
+  - Shipments
+    - **Have not been shipped** The number of outbound shipments that have not been set to `Shipped` (or later) status
+  - Requisitions
+    - **New** The number of new customer requisitions
+- Inventory Management
+  - Expiring Stock
+    - **Expired batches** The number of stock lines in the current store which have expired
+    - **Batches expiring in a month** The number of stock lines in the current store which will expire within the month
+  - Stock levels
+    - **Total items** A count of the number of items in this store
+    - **Items with no stock** The item is visible in this store, but there is no stock recorded
+    - **Items with less than 3 months of stock** Which is based on the average monthly consumption (AMC) for this item in the current store
+    - **Items with more than 6 months of stock** As above, based on AMC for the item in the current store
 
 As well, there are buttons toward the bottom of the page which allow you to create shipments and requisitions.
 

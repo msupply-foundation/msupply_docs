@@ -70,7 +70,7 @@ La lista de entradas puede ser exportada a un archivo separado por comas (CSV). 
 
 ![Export button](/docs/distribution/images/export.png)
 
-y el archivo se descargará. La función de exportación descargará todas las entradas, no solo la página actual, si tiene más de 20 de ellas. Las entradas exportan utilizando el orden de clasificación seleccionado en la tabla, aunque, por supuesto, podría ordenar fácilmente la lista en Excel o cualquier otro programa con el que abra el archivo .csv.
+y el archivo se descargará. La función de exportación descargará todas las entradas, no solo la página actual, si tiene más de 20 de ellas. 
 
 ### Eliminar una entrada
 

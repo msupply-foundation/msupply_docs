@@ -263,6 +263,8 @@ As demonstrated below, tap on the down arrow of the `Confirm` button and select 
 
 ## Adding lines to an Outbound Shipment
 
+For another way to add items, if you are using the desktop client or android app, you can make use of [barcode scanning](../outbound_shipments/barcode-scanning) to add items.
+
 Tap on the `Add Item` button (top right corner). 
 
 A new `Add Item` window opens. 

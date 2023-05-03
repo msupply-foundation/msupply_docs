@@ -97,6 +97,13 @@
         <lastmod>2022-03-19T18:20:00+00:00</lastmod>
     </url>
     <url>
+        <loc>https://docs.msupply.foundation/docs/distribution/outbound_shipments/</loc>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/docs/distribution/outbound_shipments/barcode-scanning/</loc>
+        <lastmod>2023-05-03T18:20:00+00:00</lastmod>
+    </url>
+    <url>
         <loc>https://docs.msupply.foundation/docs/distribution/requisitions/</loc>
         <lastmod>2022-03-19T18:20:00+00:00</lastmod>
     </url>
@@ -187,6 +194,123 @@
         <lastmod>2022-05-17T16:20:00+00:00</lastmod>
     </url>
     <url>
+        <loc>https://docs.msupply.foundation/es/</loc>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/es/docs/</loc>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/es/docs/administration/</loc>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/es/docs/administration/display/</loc>
+        <lastmod>2022-05-17T16:20:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/es/docs/administration/synchronisation/</loc>
+        <lastmod>2022-05-17T16:20:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/es/docs/catalogue/</loc>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/es/docs/catalogue/items/</loc>
+        <lastmod>2022-03-19T18:20:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/es/docs/catalogue/master-list/</loc>
+        <lastmod>2022-03-19T18:20:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/es/docs/distribution/</loc>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/es/docs/distribution/customers/</loc>
+        <lastmod>2022-03-19T18:20:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/es/docs/distribution/outbound-shipments/</loc>
+        <lastmod>2022-03-19T18:20:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/es/docs/distribution/outbound_shipments/</loc>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/es/docs/distribution/requisitions/</loc>
+        <lastmod>2022-03-19T18:20:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/es/docs/introduction/</loc>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/es/docs/introduction/dashboard/</loc>
+        <lastmod>2022-03-17T18:20:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/es/docs/introduction/faq/</loc>
+        <lastmod>2023-02-01</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/es/docs/introduction/introduction/</loc>
+        <lastmod>2022-03-17T18:20:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/es/docs/introduction/mobile/</loc>
+        <lastmod>2023-02-24T18:20:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/es/docs/introduction/requirements/</loc>
+        <lastmod>2022-06-10T11:38:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/es/docs/introduction/roadmap/</loc>
+        <lastmod>2022-11-10T18:20:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/es/docs/introduction/tutorial/</loc>
+        <lastmod>2022-03-19T18:20:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/es/docs/inventory/</loc>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/es/docs/inventory/stock-takes/</loc>
+        <lastmod>2022-03-19T18:20:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/es/docs/inventory/stock-view/</loc>
+        <lastmod>2022-03-19T18:20:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/es/docs/module-hiv/</loc>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/es/docs/module-hiv/introduction/</loc>
+        <lastmod>2023-01-27T00:00:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/es/docs/replenishment/</loc>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/es/docs/replenishment/inbound-shipments/</loc>
+        <lastmod>2022-03-19T18:20:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/es/docs/replenishment/internal-orders/</loc>
+        <lastmod>2022-03-19T18:20:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/es/docs/replenishment/suppliers/</loc>
+        <lastmod>2022-03-19T18:20:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/es/docs/sync/</loc>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/es/docs/sync/synchronisation/</loc>
+        <lastmod>2022-05-17T16:20:00+00:00</lastmod>
+    </url>
+    <url>
         <loc>https://docs.msupply.foundation/fr/</loc>
     </url>
     <url>
@@ -224,6 +348,9 @@
     <url>
         <loc>https://docs.msupply.foundation/fr/docs/distribution/outbound-shipments/</loc>
         <lastmod>2022-03-19T18:20:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/fr/docs/distribution/outbound_shipments/</loc>
     </url>
     <url>
         <loc>https://docs.msupply.foundation/fr/docs/distribution/requisitions/</loc>

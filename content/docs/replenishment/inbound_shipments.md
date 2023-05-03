@@ -70,7 +70,7 @@ The list of Inbound Shipments can be exported to a comma separated file (csv). S
 
 ![Export button](/docs/distribution/images/export.png)
 
-and the file will be downloaded. The export function will download all Inbound Shipments, not just the current page, if you have more than 20 of them. Shipments are exported using sort order selected in the table, though of course you could easily sort the list in Excel or whatever you open the .csv file with!
+and the file will be downloaded. The export function will download all Inbound Shipments, not just the current page, if you have more than 20 of them. 
 
 ### Delete an Inbound Shipment
 

@@ -63,4 +63,4 @@ La liste des demandes peut être exportée dans un fichier séparé par des virg
 
 ![Export button](/docs/distribution/images/export_fr.png)
 
-et le fichier sera téléchargé. La fonction d'exportation téléchargera toutes les commandes, même si vous en avez plus de 20 lignes. Les commandes sont exportées en utilisant l'ordre de tri sélectionné dans le tableau, bien sûr vous pouvez facilement trier la liste dans Excel ou tout outils de lecture de fichier .csv !
+et le fichier sera téléchargé. La fonction d'exportation téléchargera toutes les commandes, même si vous en avez plus de 20 lignes. 

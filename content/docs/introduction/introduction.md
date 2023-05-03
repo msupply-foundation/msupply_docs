@@ -22,6 +22,12 @@ Open mSupply builds on over 20 years of mSupply, over which time it has become t
 
 Open mSupply runs on Desktop (Windows, Linux & Mac), as a web application in your browser, or also as an Android application (for tablets, not for phones at this stage).
 
+There are windows installers built for each release, providing:
+- Server: which supports either SQLite or postgreSQL and runs as a windows service
+- Desktop: (also available for macOS as a binary, not a dmg or package) A windows application which allows you to connect to a running server
+- Standalone: combines the above two; runs a server as a windows service and has a windows application which will connect to it
+- Demo: A pre-configured server installation which does not require a central server to run
+
 ## What does it do?
 
 In short, Open mSupply manages your inventory, recording every receipt and issue of goods, and thereby providing a running balance of your stock on hand of each item.

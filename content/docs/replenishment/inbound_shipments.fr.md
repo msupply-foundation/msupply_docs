@@ -67,7 +67,7 @@ La liste des livraisons peut être exportée dans un fichier CSV. Cliquez simple
 
 ![Export button](/docs/distribution/images/export_fr.png)
 
-et le fichier sera téléchargé. La fonction d'exportation téléchargera toutes les livraisons, pas seulement la page actuelle, si vous en avez plus de 20. Les livraisons sont exportées en utilisant l'ordre de tri sélectionné dans la liste, bien que vous puissiez facilement trier la liste dans Excel ou tout autre outil avec lequel vous ouvrez le fichier .csv !
+et le fichier sera téléchargé. La fonction d'exportation téléchargera toutes les livraisons, pas seulement la page actuelle, si vous en avez plus de 20. 
 
 
 ### Supprimer une livraison
