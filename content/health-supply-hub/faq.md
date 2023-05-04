@@ -122,6 +122,16 @@ See the [Submitting Bids](/health-supply-hub/submitting-bids/) page for more inf
 
 It is important to note that Purchasers may also expect suppliers provide supplementary information for their Evaluation processes, this may be at the product level (eg User Manuals, GMP certificates) and company level (eg information about your company’s structure, performance and experience). Purchasers may indicate the additional information they require within the quote template and through their own supplementary documentation in the ‘Tender documents’ section.
 
+## How should I use the 'Supplier Reference' field?
+
+The Supplier Reference field should be used to identify the product you are quoting for, or providing other reference information you'd like to receive on a Purchase Order should you be awarded this line.
+
+## How should I use the comments field?
+
+The comments field will be available to the purchaser during evaluation. You may wish to provide additional information about the product, such as manufacturer details if not already provided in the manufacturer field, or any other information you think may be useful for the purchaser to know at evaluation time.
+
+![Comments field](/health-supply-hub/images/faq_comment_ref.jpg)
+
 ## Do we need to be prequalified by the respective government department that we would be tendering for?
 
 This depends on the specific Purchaser/Agency, please contact the purchaser to determine what their respective process is.
