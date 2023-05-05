@@ -76,4 +76,4 @@ There is an additional button shown when editing a stock line:
 ![Scan button](/docs/inventory/images/stock-line-edit-scan.png)
 
 Clicking this will start the barcode scanner - if one is attached, when running desktop. If running on android, the camera on the device is used.
-If a barcode is scanned successfully, then the barcode field is populated with the scanned value. If a QR code which has batch and expiry information, then these are also populated from the scanned code.
+If a barcode is scanned successfully, then the barcode field is populated with the scanned value. If a QR code which has batch and expiry information is scanned, then these fields on the stock edit window are also populated from the scanned code.

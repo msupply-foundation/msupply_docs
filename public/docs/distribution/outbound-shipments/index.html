@@ -329,6 +329,8 @@
 									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/administration/display/">Display Settings</a></li>
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/administration/synchronisation/">Synchronisation</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/administration/permissions/">Permissions</a></li>
 							
 					</ul>
 					
@@ -447,13 +449,13 @@
       <main class="docs-content col-lg-11 col-xl-9">
         
         <div class="flagster" style="float: right; padding: 5px">
-          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;fr&#x2F;docs&#x2F;distribution&#x2F;outbound-shipments&#x2F;" title="Change language to fr"
-            ><img src="/icons/fr.svg" width="28"> </a>
+          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;es&#x2F;docs&#x2F;distribution&#x2F;outbound-shipments&#x2F;" title="Change language to es"
+            ><img src="/icons/es.svg" width="28"> </a>
         </div>
         
         <div class="flagster" style="float: right; padding: 5px">
-          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;es&#x2F;docs&#x2F;distribution&#x2F;outbound-shipments&#x2F;" title="Change language to es"
-            ><img src="/icons/es.svg" width="28"> </a>
+          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;fr&#x2F;docs&#x2F;distribution&#x2F;outbound-shipments&#x2F;" title="Change language to fr"
+            ><img src="/icons/fr.svg" width="28"> </a>
         </div>
         
         <div class="flagster" style="float: right; padding: 5px">
@@ -586,13 +588,13 @@ If everything went well, you should see the name of your customer in the top lef
 <p>In the <strong>Additional Info</strong> section, you can:</p>
 <ul>
 <li>See who created the Outbound Shipment (name of the user)</li>
-<li>View and edit the Outbound Shipment color. To edit the color, tap on the colored circle and select a color from the pop-up</li>
+<li>View and edit the Outbound Shipment color. To edit the color, tap on the coloured circle and select a color from the pop-up</li>
 <li>Write or edit a comment</li>
 </ul>
 <h4 id="related-documents">Related Documents<a class="zola-anchor" href="#related-documents" aria-label="Anchor link for: related-documents">🔗</a></h4>
 <p>In the <strong>Related Documents</strong> section, you can see other related transaction document for the Outbound Shipment. </p>
 <p>If your Outbound Shipment was created to fulfill a <strong>Requisition</strong>, the reference number of the requisition would appear in this section. </p>
-<p>In the future, we would also include other documents such as temperature records, transportation documents or pickslips. </p>
+<p>In the future, we would also include other documents such as temperature records, transportation documents or pick slips. </p>
 <h4 id="invoice-details">Invoice Details<a class="zola-anchor" href="#invoice-details" aria-label="Anchor link for: invoice-details">🔗</a></h4>
 <p>In this section, you will see by default the total selling price of the items listed in the Outbound Shipment. </p>
 <p>You can also add a <strong>Service charges</strong> if you wish to add other charges such as Freight Costs. To add a Service charges to the Invoice Details: </p>
@@ -724,10 +726,10 @@ In below example, we are issuing 5 packs of 25 units:
 </div>
 <p><img src="/docs/distribution/images/os_additem_issuepacks.png" alt="additem!" /></p>
 <div class="note">
-<b></b> if you had previously entered a quantity of units and you switch to a quantity a packs, the quantity of units will automatically be converted into the correct quantity of packs.  
+If you had previously entered a quantity of units and you switch to a quantity of packs, the quantity of units will automatically be converted into the correct quantity of packs.  
 </div>
 <p><img src="/docs/distribution/images/os_issuepacks.gif" alt="Alt Text" /></p>
-<p>When a pack size is selected, and stock lines which have a different pack size are not available for selection. As such, those rows are listed lower down in the table and are shown in a grey font, in the same way as other unavailable rows.</p>
+<p>When a pack size is selected, stock lines which have a different pack size from the one selected are not available for selection. As such, those rows are listed lower down in the table and are shown in a grey font, in the same way as other unavailable rows.</p>
 <h3 id="manual-allocation">Manual Allocation<a class="zola-anchor" href="#manual-allocation" aria-label="Anchor link for: manual-allocation">🔗</a></h3>
 <p>Regardless if you chose to issue a quantity of units or packs, you can always manually change the quantity at the batch number level directly before pressing on OK. </p>
 <p>You simply have to enter or edit the quantity in the <code>Packs Qty Issued</code> column. </p>
@@ -743,23 +745,23 @@ In below example, we are issuing 5 packs of 25 units:
 <p>If the amount to be issued is greater than the total stock available from all of the available lines, then the quantity to be issued will automatically be placed in the <code>placeholder</code> field, at the bottom of the list of available batch numbers. </p>
 <p>Placeholder lines can be allocated later when new stock arrives. However, all shipment lines must be allocated before confirming the allocation. </p>
 <div class="imagetitle">
-Since there is no stock available for <i>042744-Diazepam Injection 5mg/ml Amp/2ml</i>, system is issuing a 100 units in the placeholder field. 
+Since there is no stock available for <i>042744-Diazepam Injection 5mg/ml Amp/2ml</i>, the system is issuing 100 units in the placeholder field. 
 </div>
 <p><img src="/docs/distribution/images/os_additem_placeholder.png" alt="Alt Text" /></p>
-<p>When you look at an Outbound Shipment, you can see if a shipment line has not been allocated or has been partially allocated when it is higlighted in blue. </p>
+<p>When you look at an Outbound Shipment, you can see if a shipment line has not been allocated or has been partially allocated when it is highlighted in blue. </p>
 <p><img src="/docs/distribution/images/os_placeholderlines.png" alt="Alt Text" /></p>
 <h3 id="confirm-item-and-quantity">Confirm Item and Quantity<a class="zola-anchor" href="#confirm-item-and-quantity" aria-label="Anchor link for: confirm-item-and-quantity">🔗</a></h3>
 <p>When you are happy with the quantity, you can either press on:</p>
 <ul>
-<li>the <code>OK</code> button. You are redirected to the Outbound Shipment view and your item has been added to the list. </li>
+<li>the <code>OK</code> button. You are redirected to the Outbound Shipment view and your item has been added to the list</li>
 <li>the <code>OK &amp; Next</code> button to add another item right away</li>
-<li>the <code>Cancel</code> if you do not want to add the item to the Outbound Shipment anymore</li>
+<li>the <code>Cancel</code> button if you do not want to add the item to the Outbound Shipment any more</li>
 </ul>
 <h2 id="adding-lines-to-an-outbound-shipment-using-a-master-list">Adding lines to an Outbound Shipment using a Master List<a class="zola-anchor" href="#adding-lines-to-an-outbound-shipment-using-a-master-list" aria-label="Anchor link for: adding-lines-to-an-outbound-shipment-using-a-master-list">🔗</a></h2>
 <p>Tap on the <code>Add from master list</code> button (top right corner). </p>
 <p><img src="/docs/distribution/images/os-add-from-master-list-button.png" alt="Add Item button" /></p>
 <p>A new <code>Master Lists</code> window opens. This allows you to select the required master list. Simply click on one of the lists (if you have some available).
-Note that the lists show are those which are visible to the customer of the shipment.</p>
+Note that the lists shown are those which are visible to the customer of the shipment.</p>
 <p><img src="/docs/distribution/images/os-add-item-master-lists.png" alt="Add Item button" /></p>
 <p>Click <code>OK</code> on the prompt:
 <img src="/docs/distribution/images/os-add-item-master-list-prompt.png" alt="Add Item button" /></p>
@@ -767,7 +769,7 @@ Note that the lists show are those which are visible to the customer of the ship
 <p><img src="/docs/distribution/images/os-after-master-list.png" alt="Add Item button" /></p>
 <p>As you can see - all of the quantities are zero. You can follow the steps for editing these lines, as detailed above.</p>
 <h2 id="editing-an-outbound-shipment-line">Editing an Outbound Shipment Line<a class="zola-anchor" href="#editing-an-outbound-shipment-line" aria-label="Anchor link for: editing-an-outbound-shipment-line">🔗</a></h2>
-<p>To edit an shipment line, tap on it. You will be presented with the <code>Edit Item</code> window, which is identical to the <code>Add Item</code> window, except that the item is already chosen. </p>
+<p>To edit a shipment line, tap on it. You will be presented with the <code>Edit Item</code> window, which is identical to the <code>Add Item</code> window, except that the item is already chosen. </p>
 <h3 id="edit-a-shipment-line">Edit a Shipment Line<a class="zola-anchor" href="#edit-a-shipment-line" aria-label="Anchor link for: edit-a-shipment-line">🔗</a></h3>
 <div class="note">
  <b></b> you can edit a shipment line if the shipment has a status lower than <code>Shipped</code>. 
@@ -785,7 +787,7 @@ Note that the lists show are those which are visible to the customer of the ship
 </li>
 </ol>
 <div class="note">
- <b></b> When editing a shipment line, you cannot change the item. You would need to delete the shipment line and to create a new one. 
+ <b></b> When editing a shipment line, you cannot change the item. You would need to delete the shipment line and create a new one. 
 </div>
 <h3 id="delete-a-shipment-line">Delete a Shipment line<a class="zola-anchor" href="#delete-a-shipment-line" aria-label="Anchor link for: delete-a-shipment-line">🔗</a></h3>
 <ol>
@@ -813,16 +815,16 @@ In below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100mg ta
 <li>
 <p>Bulk action <code>Allocate placeholder lines</code>: </p>
 <ul>
-<li>Select the lines that you want to allocate by checking boxes on the right on the list</li>
+<li>Select the lines that you want to allocate by checking boxes on the right hand side of the list</li>
 <li>In the <code>Actions</code> dropdown menu, select <code>Allocate placeholder lines</code>. System will check if there is available stock for each selected lines and allocate them using the First to Expire, First Out (FEFO) logic. A notification will let you know whether the operation is successful or not. </li>
 </ul>
 </li>
 </ol>
 <div class="note">
-You won't be able to process your Outbound Shipment if you have unallocated lines (shipment lines without batch number(s) assigned to it) with a quantity greater than 0. You can wait for more stock to arrive or you can delete the placeholder lines. Any unallocated lines with a 0 quantity will automatically be removed for you when you allocate.
+You won't be able to process your Outbound Shipment if you have unallocated lines (shipment lines without batch number(s) assigned to them) with a quantity greater than 0. You can wait for more stock to arrive or you can delete the placeholder lines. Any unallocated lines with a 0 quantity will automatically be removed for you when you allocate.
 </div>
 <h3 id="confirming-an-outbound-shipment-s-allocation">Confirming an Outbound Shipment's allocation<a class="zola-anchor" href="#confirming-an-outbound-shipment-s-allocation" aria-label="Anchor link for: confirming-an-outbound-shipment-s-allocation">🔗</a></h3>
-<p>Once you all your shipments lines have been allocated, you can <strong>confirm the allocation</strong>:</p>
+<p>Once all your shipments lines have been allocated, you can <strong>confirm the allocation</strong>:</p>
 <ul>
 <li>Current status of the shipment has to be <code>NEW</code></li>
 <li>Lines must be assigned with one or several batch numbers. You won't be able to confirm the allocation if your shipment contains lines without batch numbers assigned to it (placeholder lines). </li>
@@ -838,13 +840,13 @@ You won't be able to process your Outbound Shipment if you have unallocated line
 </ul>
 <h3 id="confirming-outbound-shipment-picking">Confirming Outbound Shipment picking<a class="zola-anchor" href="#confirming-outbound-shipment-picking" aria-label="Anchor link for: confirming-outbound-shipment-picking">🔗</a></h3>
 <p>Picking refers to the process where individual items are picked from a fulfillment facility (usually a warehouse or a pharmacy store).</p>
-<p>Once a shipment has been allocated, next step is to go get the items to prepare the actual shipment. To help with that, you are able to generate a <strong>pick slip</strong> document. A pickslip indicates:</p>
+<p>Once a shipment has been allocated, next step is to go get the items to prepare the actual shipment. To help with that, you are able to generate a <strong>pick slip</strong> document. A pick slip indicates:</p>
 <ul>
-<li>What are the items to be picked</li>
+<li>The items to be picked</li>
 <li>The quantity and batch numbers for each item</li>
 <li>If you manage your inventory with storage locations, where the items are located</li>
 </ul>
-<p>Once all items are picked and packed. You can then confirm the picking of the shipment to indicate to indicate that it is ready to be dispatched. </p>
+<p>Once all items are picked and packed. You can then confirm the picking of the shipment to indicate that it is ready to be dispatched. </p>
 <p>To confirm that a shipment has been picked, tap on the <code>Confirm Picked</code> button. </p>
 <p><img src="/docs/distribution/images/os_confirmpicked.gif" alt="Alt Text" /></p>
 <p>Once picking is confirmed:</p>
@@ -855,7 +857,7 @@ You won't be able to process your Outbound Shipment if you have unallocated line
 </ul>
 <p>At this stage, you are still able to edit shipment lines, to add items or to delete existing lines. However, if picking has been confirmed, you need to make sure to inform your fulfillment facility of any change so they can make sure that the shipment is still correct. </p>
 <h3 id="confirming-the-outbound-shipment-shipping">Confirming the Outbound Shipment shipping<a class="zola-anchor" href="#confirming-the-outbound-shipment-shipping" aria-label="Anchor link for: confirming-the-outbound-shipment-shipping">🔗</a></h3>
-<p>The last step to issue stock with an Outbound Shipment is to confirm that stock has been shipped. This a critical step cause when goods are confirmed as shipped, they are no longer part of your inventory records. </p>
+<p>The last step to issue stock with an Outbound Shipment is to confirm that stock has been shipped. This a critical step because when goods are confirmed as shipped, they are no longer a part of your inventory records. </p>
 <p>To confirm that an Outbound Shipment has been shipped, tap on the <code>Confirm Shipped</code> button. </p>
 <p>Once shipping has been confirmed: </p>
 <ul>
@@ -866,10 +868,10 @@ You won't be able to process your Outbound Shipment if you have unallocated line
 <li>You can print a <strong>delivery note</strong> or an <strong>invoice</strong></li>
 </ul>
 <h3 id="tracking-progress-of-outbound-shipments">Tracking Progress of Outbound Shipments<a class="zola-anchor" href="#tracking-progress-of-outbound-shipments" aria-label="Anchor link for: tracking-progress-of-outbound-shipments">🔗</a></h3>
-<p>If your customer is also using mSupply, you wil be able to see when they'll receive your shipments:</p>
+<p>If your customer is also using mSupply, you will be able to see when they'll receive your shipments:</p>
 <ul>
 <li>status will become <code>DELIVERED</code> when goods are received: your customer confirmed that they received your goods</li>
-<li>status will become <code>VERIFIED</code> when shipment has been verified by your customer. Goods are now part of their inventory</li>
+<li>status will become <code>VERIFIED</code> when shipment has been verified by your customer. Goods are now a part of their inventory.</li>
 </ul>
 <h2 id="viewing-an-outbound-shipment">Viewing an Outbound Shipment<a class="zola-anchor" href="#viewing-an-outbound-shipment" aria-label="Anchor link for: viewing-an-outbound-shipment">🔗</a></h2>
 <p>When viewing a specific shipment, you can view the batches on that shipment grouped by item or with each batch listed separately.

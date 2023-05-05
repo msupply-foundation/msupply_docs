@@ -161,7 +161,7 @@ You can close by tapping on the `X Close` button, on the top right corner of the
 
 In the **Additional Info** section, you can:
 * See who created the Outbound Shipment (name of the user)
-* View and edit the Outbound Shipment color. To edit the color, tap on the colored circle and select a color from the pop-up
+* View and edit the Outbound Shipment color. To edit the color, tap on the coloured circle and select a color from the pop-up
 * Write or edit a comment
 
 #### Related Documents
@@ -170,7 +170,7 @@ In the **Related Documents** section, you can see other related transaction docu
 
 If your Outbound Shipment was created to fulfill a **Requisition**, the reference number of the requisition would appear in this section. 
 
-In the future, we would also include other documents such as temperature records, transportation documents or pickslips. 
+In the future, we would also include other documents such as temperature records, transportation documents or pick slips. 
 
 #### Invoice Details
 
@@ -367,12 +367,12 @@ In below example, we are issuing 5 packs of 25 units:
 ![additem!](/docs/distribution/images/os_additem_issuepacks.png)
 
 <div class="note">
-<b></b> if you had previously entered a quantity of units and you switch to a quantity a packs, the quantity of units will automatically be converted into the correct quantity of packs.  
+If you had previously entered a quantity of units and you switch to a quantity of packs, the quantity of units will automatically be converted into the correct quantity of packs.  
 </div>
 
 ![Alt Text](/docs/distribution/images/os_issuepacks.gif)
 
-When a pack size is selected, and stock lines which have a different pack size are not available for selection. As such, those rows are listed lower down in the table and are shown in a grey font, in the same way as other unavailable rows.
+When a pack size is selected, stock lines which have a different pack size from the one selected are not available for selection. As such, those rows are listed lower down in the table and are shown in a grey font, in the same way as other unavailable rows.
 
 ### Manual Allocation 
 
@@ -398,21 +398,21 @@ If the amount to be issued is greater than the total stock available from all of
 Placeholder lines can be allocated later when new stock arrives. However, all shipment lines must be allocated before confirming the allocation. 
 
 <div class="imagetitle">
-Since there is no stock available for <i>042744-Diazepam Injection 5mg/ml Amp/2ml</i>, system is issuing a 100 units in the placeholder field. 
+Since there is no stock available for <i>042744-Diazepam Injection 5mg/ml Amp/2ml</i>, the system is issuing 100 units in the placeholder field. 
 </div>
 
 ![Alt Text](/docs/distribution/images/os_additem_placeholder.png)
 
-When you look at an Outbound Shipment, you can see if a shipment line has not been allocated or has been partially allocated when it is higlighted in blue. 
+When you look at an Outbound Shipment, you can see if a shipment line has not been allocated or has been partially allocated when it is highlighted in blue. 
 
 ![Alt Text](/docs/distribution/images/os_placeholderlines.png)
 
 ### Confirm Item and Quantity
 
 When you are happy with the quantity, you can either press on:
-* the `OK` button. You are redirected to the Outbound Shipment view and your item has been added to the list. 
+* the `OK` button. You are redirected to the Outbound Shipment view and your item has been added to the list
 * the `OK & Next` button to add another item right away
-* the `Cancel` if you do not want to add the item to the Outbound Shipment anymore
+* the `Cancel` button if you do not want to add the item to the Outbound Shipment any more
 
 
 ## Adding lines to an Outbound Shipment using a Master List
@@ -422,7 +422,7 @@ Tap on the `Add from master list` button (top right corner).
 ![Add Item button](/docs/distribution/images/os-add-from-master-list-button.png)
 
 A new `Master Lists` window opens. This allows you to select the required master list. Simply click on one of the lists (if you have some available).
-Note that the lists show are those which are visible to the customer of the shipment.
+Note that the lists shown are those which are visible to the customer of the shipment.
 
 ![Add Item button](/docs/distribution/images/os-add-item-master-lists.png)
 
@@ -437,7 +437,7 @@ As you can see - all of the quantities are zero. You can follow the steps for ed
 
 ## Editing an Outbound Shipment Line
 
-To edit an shipment line, tap on it. You will be presented with the `Edit Item` window, which is identical to the `Add Item` window, except that the item is already chosen. 
+To edit a shipment line, tap on it. You will be presented with the `Edit Item` window, which is identical to the `Add Item` window, except that the item is already chosen. 
 
 ### Edit a Shipment Line
 
@@ -452,7 +452,7 @@ To edit an shipment line, tap on it. You will be presented with the `Edit Item` 
     *  or change the number of packs value at the batch number level
 
 <div class="note">
- <b></b> When editing a shipment line, you cannot change the item. You would need to delete the shipment line and to create a new one. 
+ <b></b> When editing a shipment line, you cannot change the item. You would need to delete the shipment line and create a new one. 
 </div>
 
 ### Delete a Shipment line
@@ -485,16 +485,16 @@ There are 2 main ways to allocate a shipment line:
 1. When adding items, system is automatically assigning stock to the new shipment line when you enter a quantity. If you don't have enough stock, system will add placeholder lines (unallocated lines). 
 
 2. Bulk action `Allocate placeholder lines`: 
-    * Select the lines that you want to allocate by checking boxes on the right on the list
+    * Select the lines that you want to allocate by checking boxes on the right hand side of the list
     * In the `Actions` dropdown menu, select `Allocate placeholder lines`. System will check if there is available stock for each selected lines and allocate them using the First to Expire, First Out (FEFO) logic. A notification will let you know whether the operation is successful or not. 
 
 <div class="note">
-You won't be able to process your Outbound Shipment if you have unallocated lines (shipment lines without batch number(s) assigned to it) with a quantity greater than 0. You can wait for more stock to arrive or you can delete the placeholder lines. Any unallocated lines with a 0 quantity will automatically be removed for you when you allocate.
+You won't be able to process your Outbound Shipment if you have unallocated lines (shipment lines without batch number(s) assigned to them) with a quantity greater than 0. You can wait for more stock to arrive or you can delete the placeholder lines. Any unallocated lines with a 0 quantity will automatically be removed for you when you allocate.
 </div>
 
 ### Confirming an Outbound Shipment's allocation
 
-Once you all your shipments lines have been allocated, you can **confirm the allocation**:
+Once all your shipments lines have been allocated, you can **confirm the allocation**:
 * Current status of the shipment has to be `NEW`
 * Lines must be assigned with one or several batch numbers. You won't be able to confirm the allocation if your shipment contains lines without batch numbers assigned to it (placeholder lines). 
 
@@ -513,12 +513,12 @@ Once the allocation is confirmed:
 
 Picking refers to the process where individual items are picked from a fulfillment facility (usually a warehouse or a pharmacy store).
 
-Once a shipment has been allocated, next step is to go get the items to prepare the actual shipment. To help with that, you are able to generate a **pick slip** document. A pickslip indicates:
-* What are the items to be picked
+Once a shipment has been allocated, next step is to go get the items to prepare the actual shipment. To help with that, you are able to generate a **pick slip** document. A pick slip indicates:
+* The items to be picked
 * The quantity and batch numbers for each item
 * If you manage your inventory with storage locations, where the items are located
 
-Once all items are picked and packed. You can then confirm the picking of the shipment to indicate to indicate that it is ready to be dispatched. 
+Once all items are picked and packed. You can then confirm the picking of the shipment to indicate that it is ready to be dispatched. 
 
 To confirm that a shipment has been picked, tap on the `Confirm Picked` button. 
 
@@ -534,7 +534,7 @@ At this stage, you are still able to edit shipment lines, to add items or to del
 
 ### Confirming the Outbound Shipment shipping 
 
-The last step to issue stock with an Outbound Shipment is to confirm that stock has been shipped. This a critical step cause when goods are confirmed as shipped, they are no longer part of your inventory records. 
+The last step to issue stock with an Outbound Shipment is to confirm that stock has been shipped. This a critical step because when goods are confirmed as shipped, they are no longer a part of your inventory records. 
 
 To confirm that an Outbound Shipment has been shipped, tap on the `Confirm Shipped` button. 
 
@@ -547,9 +547,9 @@ Once shipping has been confirmed:
 
 ### Tracking Progress of Outbound Shipments
 
-If your customer is also using mSupply, you wil be able to see when they'll receive your shipments:
+If your customer is also using mSupply, you will be able to see when they'll receive your shipments:
 * status will become `DELIVERED` when goods are received: your customer confirmed that they received your goods
-* status will become `VERIFIED` when shipment has been verified by your customer. Goods are now part of their inventory
+* status will become `VERIFIED` when shipment has been verified by your customer. Goods are now a part of their inventory.
 
 ## Viewing an Outbound Shipment
 
