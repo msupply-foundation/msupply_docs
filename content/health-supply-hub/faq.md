@@ -124,11 +124,20 @@ It is important to note that Purchasers may also expect suppliers provide supple
 
 ## How should I use the 'Supplier Reference' field?
 
-The Supplier Reference field should be used to identify the product you are quoting for, or providing other reference information you'd like to receive on a Purchase Order should you be awarded this line.
+The Supplier Reference field is intended for suppliers to put information such as their own inventory codes, or their own internal product names. This can then be used for clarification purposes during evaluation and should the supplier’s quote be successful this information can be used when a Purchase Order is issued.
 
 ## How should I use the comments field?
 
-The comments field will be available to the purchaser during evaluation. You may wish to provide additional information about the product, such as manufacturer details if not already provided in the manufacturer field, or any other information you think may be useful for the purchaser to know at evaluation time.
+The comments field is intended for important product information that the Purchaser can consider during their evaluation. Suppliers may wish to provide additional information about their product, such as:
+
+- Manufacturer details (if not already provided in the manufacturer column)
+- Key features of the product such as:
+  - materials - e.g. nitrile gloves (latex free),
+  - packaging information – e.g. blister pack (10 tablets per blister, 10 blisters),
+  - country of origin – e.g. existing stock currently located in Australia.
+- indicative freight costs (if freight has not been included in your quote)
+- referencing documents you have attached with your quote
+- any other information that the Purchaser has requested or that suppliers think may be useful for the Purchaser to know at evaluation time
 
 ![Comments field](/health-supply-hub/images/faq_comment_ref.jpg)
 
