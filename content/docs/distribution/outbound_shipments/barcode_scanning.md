@@ -18,6 +18,14 @@ top = false
 If using the desktop or android apps, you have the option of scanning items in order to add them to the outbound shipment.
 It is recommended to set the scanner to 'continuous scan' mode if it supports this.
 
+We have been using Zebra USB scanners, model DS2208. Any hand held barcode scanner should work for this, though we may need to update to support different models. If you have another model of scanner, please get in touch.
+
+The scanners support 1D and 2D barcodes, and can parse the information from a GS1 barcode in order to read the GTIN-14 code, batch number and expiry date.
+As an example, barcodes could look like this:
+
+![GS1 128 barcode](/docs/distribution/images/GS1-128.png)
+![GS1 QR barcode](/docs/distribution/images/GS1-QR.png)
+
 ### Starting the scanner
 
 To begin, open the outbound shipment. If the status is `New`, `Allocated` or `Picked` you can start and stop the scanner using the `Scan` button:

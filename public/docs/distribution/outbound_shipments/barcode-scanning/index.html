@@ -299,6 +299,8 @@
 									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/replenishment/internal-orders/">Internal Orders</a></li>
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/replenishment/inbound-shipments/">Inbound Shipments</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/replenishment/remote-authorisation/">Remote Authorisation</a></li>
 							
 					</ul>
 					
@@ -396,6 +398,11 @@
          <h2 id="adding-items-using-a-barcode-scanner">Adding items using a barcode scanner</h2>
 <p>If using the desktop or android apps, you have the option of scanning items in order to add them to the outbound shipment.
 It is recommended to set the scanner to 'continuous scan' mode if it supports this.</p>
+<p>We have been using Zebra USB scanners, model DS2208. Any hand held barcode scanner should work for this, though we may need to update to support different models. If you have another model of scanner, please get in touch.</p>
+<p>The scanners support 1D and 2D barcodes, and can parse the information from a GS1 barcode in order to read the GTIN-14 code, batch number and expiry date.
+As an example, barcodes could look like this:</p>
+<p><img src="/docs/distribution/images/GS1-128.png" alt="GS1 128 barcode" />
+<img src="/docs/distribution/images/GS1-QR.png" alt="GS1 QR barcode" /></p>
 <h3 id="starting-the-scanner">Starting the scanner</h3>
 <p>To begin, open the outbound shipment. If the status is <code>New</code>, <code>Allocated</code> or <code>Picked</code> you can start and stop the scanner using the <code>Scan</code> button:</p>
 <p><img src="/docs/distribution/images/os_scan_button.png" alt="Scan button" /></p>
