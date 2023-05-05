@@ -122,6 +122,25 @@ See the [Submitting Bids](/health-supply-hub/submitting-bids/) page for more inf
 
 It is important to note that Purchasers may also expect suppliers provide supplementary information for their Evaluation processes, this may be at the product level (eg User Manuals, GMP certificates) and company level (eg information about your company’s structure, performance and experience). Purchasers may indicate the additional information they require within the quote template and through their own supplementary documentation in the ‘Tender documents’ section.
 
+## How should I use the 'Supplier Reference' field?
+
+The Supplier Reference field is intended for suppliers to put information such as their own inventory codes, or their own internal product names. This can then be used for clarification purposes during evaluation and should the supplier’s quote be successful this information can be used when a Purchase Order is issued.
+
+## How should I use the comments field?
+
+The comments field is intended for important product information that the Purchaser can consider during their evaluation. Suppliers may wish to provide additional information about their product, such as:
+
+- Manufacturer details (if not already provided in the manufacturer column)
+- Key features of the product such as:
+  - materials - e.g. nitrile gloves (latex free),
+  - packaging information – e.g. blister pack (10 tablets per blister, 10 blisters),
+  - country of origin – e.g. existing stock currently located in Australia.
+- indicative freight costs (if freight has not been included in your quote)
+- referencing documents you have attached with your quote
+- any other information that the Purchaser has requested or that suppliers think may be useful for the Purchaser to know at evaluation time
+
+![Comments field](/health-supply-hub/images/faq_comment_ref.jpg)
+
 ## Do we need to be prequalified by the respective government department that we would be tendering for?
 
 This depends on the specific Purchaser/Agency, please contact the purchaser to determine what their respective process is.
