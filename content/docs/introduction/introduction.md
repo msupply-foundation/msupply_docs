@@ -23,10 +23,11 @@ Open mSupply builds on over 20 years of mSupply, over which time it has become t
 Open mSupply runs on Desktop (Windows, Linux & Mac), as a web application in your browser, or also as an Android application (for tablets, not for phones at this stage).
 
 There are windows installers built for each release, providing:
-- Server: which supports either SQLite or postgreSQL and runs as a windows service
-- Desktop: (also available for macOS as a binary, not a dmg or package) A windows application which allows you to connect to a running server
-- Standalone: combines the above two; runs a server as a windows service and has a windows application which will connect to it
-- Demo: A pre-configured server installation which does not require a central server to run
+
+- **Server**: which supports either SQLite or postgreSQL and runs as a windows service
+- **Desktop**: A windows application which allows you to connect to a running server (also available for macOS as a binary, not a dmg or package)
+- **Standalone**: combines the above two; runs a server as a windows service and has a windows application which will connect to it
+- **Demo**: A pre-configured server installation which does not require a central server to run
 
 ## What does it do?
 
@@ -41,17 +42,17 @@ Open mSupply does much more than that. Features include:
   - Perform stocktakes, and assign reasons for inventory adjustments
 - Receive and fulfil orders from customers (facilities you supply)
 - Place orders with your supplying store
-  - Quantify amounts required based on simple or complex formulae
+  - Quantify amounts required based on simple or complex formulas
   - Track order status as your supplying store fulfils and ships the order!
   - Receive goods into stock when the order arrives
 - Be alerted to low stock levels from the dashboard
 
 ## What makes mSupply special?
 
-There are a lot of systems that manage inventory. mSupply has unique features that make it ideal for use for health supply chains in low resource settings:
+There are a lot of systems that manage inventory. Open mSupply has unique features that make it ideal to use for health supply chains in low resource settings:
 
-- **Offline first** mSupply is designed from the ground up to work without internet. We know from 20 years of experience that even the most reliable internet connections sometimes fail or get overloaded. mSupply allows you to work without having to worry about second-by-second internet quality. Of course, when you need to place orders or receive updates from other facilities, you need internet for a few minutes then.
-- **Scalable** We've designed Open mSupply to handle billions of transactions a year, but to also work on an Android tablet! You can implement mSupply in one facility, knowing that if you later decide to deploy thousands of sites, mSupply will still be the right tool.
+- **Offline first**: mSupply is designed from the ground up to work without internet. We know from 20 years of experience that even the most reliable internet connections sometimes fail or get overloaded. mSupply allows you to work without having to worry about second-by-second internet quality. Of course, when you need to place orders or receive updates from other facilities, you need internet for a few minutes then.
+- **Scalable**: We've designed Open mSupply to handle billions of transactions a year, but to also work on an Android tablet! You can implement mSupply in one facility, knowing that if you later decide to deploy thousands of sites, mSupply will still be the right tool.
 
 To get some insight into the full breadth of mSupply's functionality, have a look at the legacy mSupply software documentations at [https://www.msupply.org.nz](https://www.msupply.org.nz) - it's almost 1000 pages if you print it all (so maybe don't ☺️)
 
@@ -59,12 +60,12 @@ To get some insight into the full breadth of mSupply's functionality, have a loo
 
 The following table outlines some of the common terms used in mSupply, and also guides users of legacy mSupply regarding terminology improvements we have made.
 
-| Open mSupply Term |  Legacy mSupply term  | Definition                                                             |
-| :---------------: | :-------------------: | :--------------------------------------------------------------------- |
+| Open mSupply Term |  Legacy mSupply term  | Definition                                                            |
+| :---------------: | :-------------------: | :-------------------------------------------------------------------- |
 | Outbound Shipment |   Customer Invoice    | The creation of a supply of goods to a particular customer (facility) |
 | Inbound Shipment  |   Supplier Invoice    | The receiving of a supply of goods from a particular supplier         |
 |    Requisition    | Customer Requisitions | An order for supply of goods made by a particular customer (facility) |
-|  Internal Orders  | Supplier Requisitions | A request for stock made for a particular supplier (facility)          |
+|  Internal Orders  | Supplier Requisitions | A request for stock made for a particular supplier (facility)         |
 
 ## Getting Started
 

@@ -42,7 +42,7 @@ The setting up of the authorisation workflow requires some configuration changes
 2. Set up authorisers. See [these instructions](https://docs.msupply.org.nz/other_stuff:remote_authorisation#set_up_authorisers)
 3. You may also need to [enable emailing](https://docs.msupply.org.nz/other_stuff:remote_authorisation#enable_emailing_of_authorisers) on the central server
 
-In addition, you'll need to have the stores configured for normal usage in open mSupply, with the supplier and customer relationships configured. Stores will need to have [master lists](https://docs.msupply.org.nz/items:master_lists) assigned to both customer and supplier stores, and programs and program periods configured.
+In addition, you'll need to have the stores configured for normal usage in Open mSupply, with the supplier and customer relationships configured. Stores will need to have [master lists](https://docs.msupply.org.nz/items:master_lists) assigned to both customer and supplier stores, and programs and program periods configured.
 
 ## Using remote authorisation
 
@@ -77,11 +77,9 @@ Once approved by the remote authorisation process though, the status is updated,
 
 ![Requisition list](/docs/replenishment/images/authorisation-requisition-detail-approved.png)
 
-
 The authorisation status can have a few different values:
 
-- None: the requisition does not need authorisation and is not subject to the remote authorisation system. This is true for requisitions which are not for a program. All requisitions with this status can be edited normally.
-- Pending: the requisition is awaiting authorisation of one or more of its lines. A requisition with this status cannot be edited and you cannot create outbound shipments from it.
-- Authorised: all lines that were waiting for authorisation have been authorised (with or without adjustments). The comments and quantity to supply can be edited and outbound shipments can be created from requisitions that are authorised.
-- Denied: the authoriser has reviewed the requisition and the lines have all been denied. Like the Pending status, a requisition with this status cannot be edited and you cannot create outbound shipments from it.
-
+- **None**: the requisition does not need authorisation and is not subject to the remote authorisation system. This is true for requisitions which are not for a program. All requisitions with this status can be edited normally.
+- **Pending**: the requisition is awaiting authorisation of one or more of its lines. A requisition with this status cannot be edited and you cannot create outbound shipments from it.
+- **Authorised**: all lines that were waiting for authorisation have been authorised (with or without adjustments). The comments and quantity to supply can be edited and outbound shipments can be created from requisitions that are authorised.
+- **Denied**: the authoriser has reviewed the requisition and the lines have all been denied. Like the Pending status, a requisition with this status cannot be edited and you cannot create outbound shipments from it.

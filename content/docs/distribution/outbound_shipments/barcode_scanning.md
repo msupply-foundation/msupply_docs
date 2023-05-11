@@ -36,11 +36,11 @@ To begin, open the outbound shipment. If the status is `New`, `Allocated` or `Pi
 
 Once the scanner is started you can scan items. Each time a barcode is detected by the scanner the `Add Item` window is shown. If the scanned barcode matches an item in your database then this item is automatically selected. When no match is made, the usual drop down selection is shown allowing you to select an item.
 
-In addition, if the scanned barcode provides batch information and a match exists in your database, then all other batch lines are disabled, and the matching line is focussed. 
+In addition, if the scanned barcode provides batch information and a match exists in your database, then all other batch lines are disabled, and the matching line is focused.
 
 ![Adding items by scanning](/docs/distribution/images/add-item-by-barcode.gif)
 
-After entering a quantity of the item, click `Ok` as usual. 
+After entering a quantity of the item, click `Ok` as usual.
 
 In the case when the scanned barcode did not match any of the items in your database, this barcode is saved against the item selected in the `Add item` window. This means that the next time this particular item is scanned, it will correctly match an item.
 
