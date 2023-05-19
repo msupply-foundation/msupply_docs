@@ -152,6 +152,10 @@
         <loc>https://docs.msupply.foundation/docs/inventory/images/</loc>
     </url>
     <url>
+        <loc>https://docs.msupply.foundation/docs/inventory/locations/</loc>
+        <lastmod>2023-05-12T18:20:00+00:00</lastmod>
+    </url>
+    <url>
         <loc>https://docs.msupply.foundation/docs/inventory/stock-takes/</loc>
         <lastmod>2022-03-19T18:20:00+00:00</lastmod>
     </url>
@@ -160,14 +164,18 @@
         <lastmod>2022-03-19T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/module-hiv/</loc>
+        <loc>https://docs.msupply.foundation/docs/programs/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/module-hiv/images/</loc>
+        <loc>https://docs.msupply.foundation/docs/programs/images/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/module-hiv/introduction/</loc>
+        <loc>https://docs.msupply.foundation/docs/programs/module-hiv/</loc>
         <lastmod>2023-01-27T00:00:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/docs/programs/requisitions/</loc>
+        <lastmod>2023-05-19T00:00:00+00:00</lastmod>
     </url>
     <url>
         <loc>https://docs.msupply.foundation/docs/replenishment/</loc>
@@ -290,10 +298,10 @@
         <lastmod>2022-03-19T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/es/docs/module-hiv/</loc>
+        <loc>https://docs.msupply.foundation/es/docs/programs/</loc>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/es/docs/module-hiv/introduction/</loc>
+        <loc>https://docs.msupply.foundation/es/docs/programs/module-hiv/</loc>
         <lastmod>2023-01-27T00:00:00+00:00</lastmod>
     </url>
     <url>
@@ -399,7 +407,7 @@
         <lastmod>2022-03-19T18:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/fr/docs/module-hiv/</loc>
+        <loc>https://docs.msupply.foundation/fr/docs/programs/</loc>
     </url>
     <url>
         <loc>https://docs.msupply.foundation/fr/docs/replenishment/</loc>

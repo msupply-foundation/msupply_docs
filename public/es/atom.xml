@@ -54,34 +54,34 @@
 </content>
 	</entry>
 	<entry xml:lang="es">
-		<title>Introducción</title>
+		<title>Módulo VIH</title>
 		<published>2023-01-27T00:00:00+00:00</published>
 		<updated>2023-01-27T00:00:00+00:00</updated>
-		<link href="https://docs.msupply.foundation/es/docs/module-hiv/introduction/" type="text/html"/>
-		<id>https://docs.msupply.foundation/es/docs/module-hiv/introduction/</id>
+		<link href="https://docs.msupply.foundation/es/docs/programs/module-hiv/" type="text/html"/>
+		<id>https://docs.msupply.foundation/es/docs/programs/module-hiv/</id>
 		<content type="html">&lt;p&gt;Trabajo en progreso...&lt;&#x2F;p&gt;
 &lt;p&gt;Crear un nuevo paciente &lt;&#x2F;p&gt;
 &lt;p&gt;mSupply puede crear un archivo de paciente que contendrá toda la información necesaria para dispensar medicamentos. Para crear un nuevo archivo de paciente, haz clic en &#x27;dispensario&#x27; y luego en el icono de &#x27;pacientes&#x27; desde el Panel de control:&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;module-hiv&#x2F;images&#x2F;Access_Patient.png&quot; alt=&quot;Stock: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;programs&#x2F;images&#x2F;Access_Patient.png&quot; alt=&quot;Stock: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Esto mostrará la página de &#x27;Paciente&#x27;. Para ingresar la información de un nuevo paciente en mSupply, haz clic en el botón &#x27;Nuevo Paciente&#x27;.&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;module-hiv&#x2F;images&#x2F;New_Patient.png&quot; alt=&quot;Stock: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;programs&#x2F;images&#x2F;New_Patient.png&quot; alt=&quot;Stock: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Aquí encontrarás la opción de buscar a un paciente existente para poder dispensarle el medicamento necesario al paciente correcto, y la información se documentará e informará a mSupply. &lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;module-hiv&#x2F;images&#x2F;Patient_Details.png&quot; alt=&quot;Stock: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;programs&#x2F;images&#x2F;Patient_Details.png&quot; alt=&quot;Stock: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Haz clic en &#x27;Aceptar y Siguiente&#x27; para mostrar todos los criterios coincidentes, como en el ejemplo a continuación:&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;module-hiv&#x2F;images&#x2F;Matching_Patients.png&quot; alt=&quot;Stock: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;programs&#x2F;images&#x2F;Matching_Patients.png&quot; alt=&quot;Stock: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Para crear un nuevo paciente, simplemente coloca toda la información relevante del paciente en la pestaña &#x27;Nuevo Paciente&#x27;. Esto mostrará la opción para incluir el nombre, fecha de nacimiento y número de identificación de salud nacional, entre otros detalles. &lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;module-hiv&#x2F;images&#x2F;Patient_Details.png&quot; alt=&quot;Stock: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;programs&#x2F;images&#x2F;Patient_Details.png&quot; alt=&quot;Stock: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;La información ahora se puede utilizar para encontrar el archivo del paciente en una fecha posterior. Después de hacer clic en &#x27;Aceptar y Siguiente&#x27;, puedes acceder a la opción &#x27;Crear&#x27;, que transferirá toda la información previamente ingresada a una nueva pestaña que permite&#x2F;requiere más detalles:&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;module-hiv&#x2F;images&#x2F;Create_Patient.png&quot; alt=&quot;Stock: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;programs&#x2F;images&#x2F;Create_Patient.png&quot; alt=&quot;Stock: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Búsqueda de un paciente &lt;&#x2F;p&gt;
 &lt;p&gt;Cuando estés en el menú &#x27;Dispensario&#x27;, aparecerá una lista completa de pacientes existentes. &lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;module-hiv&#x2F;images&#x2F;Search_Patient.png&quot; alt=&quot;Stock: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;programs&#x2F;images&#x2F;Search_Patient.png&quot; alt=&quot;Stock: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Al hacer clic en el nombre de un paciente, se mostrarán los detalles del paciente.&lt;&#x2F;p&gt;
 &lt;p&gt;En el mismo menú de &#x27;Paciente&#x27;, hay barras de búsqueda encima de la lista de pacientes que se pueden utilizar para reducir y especificar la búsqueda. Puedes buscar por el primer nombre y el apellido, así como por ID. Esto puede ser útil para encontrar rápidamente pacientes con nombres comunes o si hay un gran número de pacientes existentes. &lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;module-hiv&#x2F;images&#x2F;Narrow_Search_Patient.png&quot; alt=&quot;Stock: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;programs&#x2F;images&#x2F;Narrow_Search_Patient.png&quot; alt=&quot;Stock: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Encontrar detalles del paciente &lt;&#x2F;p&gt;
 &lt;p&gt;Al hacer clic en un archivo de paciente (en la pestaña &#x27;Paciente&#x27;), se vinculará automáticamente con los detalles personales del paciente. El historial de &#x27;Programa&#x27; y &#x27;Encuentro&#x27; se pueden encontrar en la misma sección. &lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;module-hiv&#x2F;images&#x2F;Patient_Program_Details.png&quot; alt=&quot;Stock: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;programs&#x2F;images&#x2F;Patient_Program_Details.png&quot; alt=&quot;Stock: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Exportar lista de pacientes&lt;&#x2F;p&gt;
 &lt;p&gt;mSupply permite la opción de exportar datos de pacientes para enviarlos a un usuario que no usa mSupply. Esto iniciará la descarga de un archivo de Excel con los detalles básicos de los pacientes:&lt;&#x2F;p&gt;
 &lt;ol&gt;
@@ -90,22 +90,22 @@
 &lt;li&gt;ID&lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
 &lt;p&gt;Esto se puede hacer haciendo clic en la opción &#x27;Exportar&#x27; en la esquina del menú principal de &#x27;Paciente&#x27;.. &lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;module-hiv&#x2F;images&#x2F;Export_Patients.png&quot; alt=&quot;Stock: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;programs&#x2F;images&#x2F;Export_Patients.png&quot; alt=&quot;Stock: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Agregar Programa&lt;&#x2F;p&gt;
 &lt;p&gt;mSupply permite inscribir a los pacientes en un programa relevante para la intervención y la enfermedad del paciente. Esto se puede hacer a través de la pestaña &#x27;Paciente&#x27; o al crear un nuevo paciente&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;module-hiv&#x2F;images&#x2F;Add_Program.png&quot; alt=&quot;Stock: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;programs&#x2F;images&#x2F;Add_Program.png&quot; alt=&quot;Stock: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Los programas son personalizables y específicos para cada contexto y país: los siguientes ejemplos son de la intervención del VIH en Papúa Nueva Guinea. Esto significa que cada programa y los detalles requeridos serán diferentes para cada usuario de mSupply. &lt;&#x2F;p&gt;
 &lt;p&gt;Si hay más de un programa disponible, todas las opciones aparecerán con los programas específicos en los que el paciente está inscrito marcados y en gris.&lt;&#x2F;p&gt;
 &lt;p&gt;Si deseas inscribir al paciente resaltado en otro programa, puedes hacerlo desde este menú.&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;module-hiv&#x2F;images&#x2F;Program_Details.png&quot; alt=&quot;Stock: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;programs&#x2F;images&#x2F;Program_Details.png&quot; alt=&quot;Stock: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Encuentros&lt;&#x2F;p&gt;
 &lt;p&gt;Un &#x27;Encuentro&#x27; es la visita registrada de un paciente y su tratamiento bajo un programa específico.&lt;&#x2F;p&gt;
 &lt;p&gt;NOTA: No puedes registrar un encuentro sin un paciente inscrito en un programa - sin embargo, esto puede cambiar en futuras implementaciones de mSupply&lt;&#x2F;p&gt;
 &lt;p&gt;Bajo la categoría &#x27;Dispensario&#x27; se encuentra la pestaña &#x27;Encuentros&#x27;. &lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;module-hiv&#x2F;images&#x2F;Encounters_Tab.png&quot; alt=&quot;Stock: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;programs&#x2F;images&#x2F;Encounters_Tab.png&quot; alt=&quot;Stock: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Al hacer clic en esto, se mostrará una lista de pacientes y todos los encuentros que se han documentado en mSupply. Esto incluye la fecha, estado y programa.&lt;&#x2F;p&gt;
 &lt;p&gt;NOTA: Un paciente debe estar inscrito en un programa para poder ingresar un encuentro. &lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;module-hiv&#x2F;images&#x2F;Encounters_List.png&quot; alt=&quot;Stock: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;programs&#x2F;images&#x2F;Encounters_List.png&quot; alt=&quot;Stock: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Después de hacer clic en un paciente en la pestaña &amp;quot;Encuentro&amp;quot;, se mostrará un panel de...&lt;&#x2F;p&gt;
 </content>
 	</entry>

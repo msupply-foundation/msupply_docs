@@ -304,6 +304,8 @@
 							<h3>Inventory</h3>
 							<ul class="list-unstyled">
 							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/inventory/locations/">Locations</a></li>
+							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/inventory/stock-takes/">Stocktakes</a></li>
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/inventory/stock-view/">Stock</a></li>
@@ -313,10 +315,12 @@
 					
 					
 					
-							<h3>HIV module</h3>
+							<h3>Programs</h3>
 							<ul class="list-unstyled">
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/module-hiv/introduction/">Introduction</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/programs/module-hiv/">HIV module</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/programs/requisitions/">Requisitions</a></li>
 							
 					</ul>
 					
@@ -413,7 +417,7 @@ The remote authorisation process is currently available only for requisitions wh
 <li>Set up authorisers. See <a href="https://docs.msupply.org.nz/other_stuff:remote_authorisation#set_up_authorisers">these instructions</a></li>
 <li>You may also need to <a href="https://docs.msupply.org.nz/other_stuff:remote_authorisation#enable_emailing_of_authorisers">enable emailing</a> on the central server</li>
 </ol>
-<p>In addition, you'll need to have the stores configured for normal usage in open mSupply, with the supplier and customer relationships configured. Stores will need to have <a href="https://docs.msupply.org.nz/items:master_lists">master lists</a> assigned to both customer and supplier stores, and programs and program periods configured.</p>
+<p>In addition, you'll need to have the stores configured for normal usage in Open mSupply, with the supplier and customer relationships configured. Stores will need to have <a href="https://docs.msupply.org.nz/items:master_lists">master lists</a> assigned to both customer and supplier stores, and programs and program periods configured.</p>
 <h2 id="using-remote-authorisation">Using remote authorisation<a class="zola-anchor" href="#using-remote-authorisation" aria-label="Anchor link for: using-remote-authorisation">🔗</a></h2>
 <h3 id="internal-orders">Internal Orders<a class="zola-anchor" href="#internal-orders" aria-label="Anchor link for: internal-orders">🔗</a></h3>
 <p>Follow the process of creating a program based internal order.
@@ -433,10 +437,10 @@ If you have the store preferences configured correctly, you will see an addition
 <p><img src="/docs/replenishment/images/authorisation-requisition-detail-approved.png" alt="Requisition list" /></p>
 <p>The authorisation status can have a few different values:</p>
 <ul>
-<li>None: the requisition does not need authorisation and is not subject to the remote authorisation system. This is true for requisitions which are not for a program. All requisitions with this status can be edited normally.</li>
-<li>Pending: the requisition is awaiting authorisation of one or more of its lines. A requisition with this status cannot be edited and you cannot create outbound shipments from it.</li>
-<li>Authorised: all lines that were waiting for authorisation have been authorised (with or without adjustments). The comments and quantity to supply can be edited and outbound shipments can be created from requisitions that are authorised.</li>
-<li>Denied: the authoriser has reviewed the requisition and the lines have all been denied. Like the Pending status, a requisition with this status cannot be edited and you cannot create outbound shipments from it.</li>
+<li><strong>None</strong>: the requisition does not need authorisation and is not subject to the remote authorisation system. This is true for requisitions which are not for a program. All requisitions with this status can be edited normally.</li>
+<li><strong>Pending</strong>: the requisition is awaiting authorisation of one or more of its lines. A requisition with this status cannot be edited and you cannot create outbound shipments from it.</li>
+<li><strong>Authorised</strong>: all lines that were waiting for authorisation have been authorised (with or without adjustments). The comments and quantity to supply can be edited and outbound shipments can be created from requisitions that are authorised.</li>
+<li><strong>Denied</strong>: the authoriser has reviewed the requisition and the lines have all been denied. Like the Pending status, a requisition with this status cannot be edited and you cannot create outbound shipments from it.</li>
 </ul>
   
 <div class="docs-navigation d-flex justify-content-between">
