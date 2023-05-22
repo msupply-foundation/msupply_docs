@@ -230,3 +230,9 @@
 #mermaid-1669068550213 :root {
   --mermaid-font-family: 'trebuchet ms', verdana, arial, sans-serif;
 }
+
+.youtube {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
