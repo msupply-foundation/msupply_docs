@@ -49,6 +49,10 @@ In the above example, on Row 9 of the imported excel sheet this supplier:
 a. has submitted something other than a whole number eg ‘1 tube’; and
 b. has not entered in the manufacturer details.
 
+## Video Tutorial - How to fix import errors
+
+{{ youtube(id="36oNjYMW33M", class="youtube") }}
+
 ## I Want To Offer More Than One Product For A Particular Quote Item. How Do I Do That?
 
 1. To offer more than one product for a particular Quote line you will need to insert an additional line to your Quote. You can do this by inserting a new row directly below the Quote Item you want to offer more than one product for, or add it in at the bottom of the list.
@@ -61,6 +65,10 @@ b. has not entered in the manufacturer details.
    ![Accidental increment](/health-supply-hub/images/faq_duplicate_line_3.png)
 4. The best method is to copy and paste the information directly from the original Quote line into your new Quote line
    ![Paste New Line](/health-supply-hub/images/faq_duplicate_line_4.png)
+
+## Video Tutorial - How to provide alternative quotes
+
+{{ youtube(id="BaSt_wkFHxg", class="youtube") }}
 
 ## I Want To Offer To Supply A Product By Either Sea or Air Freight. How Do I Do That?
 
@@ -140,6 +148,10 @@ The comments field is intended for important product information that the Purcha
 - any other information that the Purchaser has requested or that suppliers think may be useful for the Purchaser to know at evaluation time
 
 ![Comments field](/health-supply-hub/images/faq_comment_ref.jpg)
+
+## Video Tutorial - How to use the comments & supplier reference fields
+
+{{ youtube(id="BaSt_wkFHxg", class="youtube") }}
 
 ## Do we need to be prequalified by the respective government department that we would be tendering for?
 
