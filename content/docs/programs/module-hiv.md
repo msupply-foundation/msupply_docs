@@ -1,5 +1,5 @@
 +++
-title = "HIV module"
+title = "Patients"
 description = "Introduction to the HIV patient management module"
 date = 2023-01-27T00:00:00+00:00
 updated = 2023-01-27T00:00:00+00:00
