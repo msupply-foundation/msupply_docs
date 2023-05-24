@@ -16,7 +16,28 @@ top = false
 
 Work in progress...
 
-Creating a New Patient 
+## Creating a New Patient 
+
+The Open mSupply patient program allows users to collect general as well as program specific patient information.
+A patient can be enrolled into multiple patient programs such as an HIV program, a TB program or an immunisation program.
+For every program enrolment there can be multiple patient encounters, e.g. doctor visits.
+All data collected in the patient program module is stored in documents. For example, patient data is stored in a patient document, program enrollment data is stored in program enrollment documents and encounter data is stored in an encounter document.
+All patient program related functionality can be found in the “Dispensary” menu item.
+
+![Stock: nav](/docs/programs/images/dispensary_menu.png)
+
+## Patient Registration
+
+When a patient is not already in the Open mSupply patient database the patient first need to be entered into the system.
+To enter a patient, go to the “Patients” menu and click the “New Patient” button in the right top corner.
+
+![Stock: nav](/docs/programs/images/new_patient1.png)
+
+## Patient Registration
+
+When a patient is not already in the Open mSupply patient database the patient first need to be entered into the system.
+To enter a patient, go to the “Patients” menu and click the “New Patient” button in the right top corner.
+
 
 mSupply can create a patient file that will hold all the necessary information to dispense medicine(s) to. To create a new patient file, click on 'dispensary' and then the 'patients' icon from the Dashboard:
 
