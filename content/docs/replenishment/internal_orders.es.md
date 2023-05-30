@@ -128,13 +128,13 @@ Para cambiar la **Cantidad del pedido** toca en la línea del pedido correspondi
 
 ![Internal Order: add from master list](/docs/replenishment/images/intord_addfromml.gif)
 
-<div class="note"> 
+<div class="nota"> 
 Las listas maestras se definen y asignan a los almacenes a nivel del servidor central. Solo podrás ver las listas maestras que son visibles para tu almacén. 
 <br> <br>
 Si no encuentras la lista maestra que estás buscando y deseas crear una nueva, por favor contacta a tu administrador.
 </div>
 
-<div class="tip">
+<div class="consejo">
 You can create internal orders from multiple master lists by repeating above actions with another master list. 
 </div>
 
@@ -182,7 +182,7 @@ Para enviar la orden a tu proveedor:
 2. Se abrirá una ventana de diálogo que te preguntará si estás seguro de querer enviar la orden. Haz clic en `Aceptar` para continuar
 3. El estado de tu orden ahora es `ENVIADO` y la orden ya no es editable
 
-<div class="warning">
+<div class="advertencia">
 Asegúrate de que tu orden sea correcta antes de enviarla a tu proveedor. Una vez enviada, no se pueden realizar más cambios en órdenes finalizadas.
 </div>
 

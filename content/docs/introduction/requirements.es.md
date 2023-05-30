@@ -44,7 +44,7 @@ Los requisitos de hardware varían ampliamente según para lo que desee usar Ope
 | Cliente o servidor Linux| Procesador de 64 bits<br/>Ubuntu 20+ o similar<br/>4 Gb de RAM<br/>256 Gb de almacenamiento | Procesador de 64 bits<br/>Ubuntu 20+ o similar<br/>8 Gb de RAM<br/>256 Gb de almacenamiento |
 | Cliente o servidor Android | Procesador de 64 bits<br/>Android 10 o posterior<br/>4 Gb de RAM<br/>64 Gb de almacenamiento | Procesador de 64 bits<br/>Android 10 o posterior<br/>4 Gb de RAM<br/>64 Gb de almacenamiento|
 
-<div class="note">
+<div class="nota">
 La gestión de transacciones de inventario es una función fundamental en Open mSupply. Dado que la mayoría de los datos de estas transacciones son numéricos, contar con un teclado numérico puede resultar muy útil en aquellas máquinas donde se ingresa una gran cantidad de información.
 </div>
 

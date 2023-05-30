@@ -11,11 +11,11 @@ p {
   }
 }
 
-.note {
+.note, .nota, .remarque {
   position: relative;
   margin-bottom:1000px;
 }
-.note { 
+.note, .nota, .remarque { 
   border-left: 10px solid #fbaf43;
   border-radius: 4px;
   color: #c97500;
@@ -29,8 +29,7 @@ p {
   font-size: 15px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.note:before {
-  content:"NOTE";
+.note:before, .nota:before, .remarque::before  {
   color: #c97500;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: bold;
@@ -40,12 +39,21 @@ p {
   position:absolute;
   top: 0;
 }
+.note:before {
+  content:"NOTE";
+}
+.nota:before {
+  content:"NOTA";
+}
+.remarque:before {
+  content:"REMARQUE";
+}
 
-.warning {
+.warning, .advertencia, .avertissement {
   position: relative;
   margin-bottom:1000px;
 }
-.warning { 
+.warning, .advertencia, .avertissement { 
   border-left: 10px solid #c84420;
   border-radius: 4px;
   color: #c84420;
@@ -59,8 +67,7 @@ p {
   font-size: 15px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.warning:before {
-  content:"🛑 WARNING!";
+.warning:before, .advertencia:before, .avertissement:before {
   color: #c84420;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: bold;
@@ -70,6 +77,16 @@ p {
   position:absolute;
   top: 0;
 }
+.warning:before {
+  content:"🛑 WARNING!";
+}
+.advertencia:before {
+  content:"🛑 ¡ADVERTENCIA!";
+}
+.avertissement:before {
+  content:"🛑 AVERTISSEMENT!";
+}
+
 
 div.imagetitle {
   margin-left: auto;
@@ -83,11 +100,11 @@ div.imagetitle {
   text-align: center;
 }
 
-.tip {
+.tip, .conseil, .consejo {
   position: relative;
   margin-bottom:10px;
 }
-.tip { 
+.tip, .conseil, .consejo { 
   border-left: 10px solid #0e7ac3;
   border-radius: 4px;
   color: #0e7ac3;
@@ -101,8 +118,7 @@ div.imagetitle {
   font-size: 15px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.tip:before {
-  content: "TIP";
+.tip:before, .conseil:before, .consejo {
   color: #0e7ac3;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: bold;
@@ -111,6 +127,15 @@ div.imagetitle {
   margin-bottom: 10px;
   position:absolute;
   top: 0;
+}
+.tip:before {
+  content: "TIP";
+}
+.conseil:before {
+  content: "CONSEIL"
+}
+.consejo:before {
+  content: "CONSEJO"
 }
 
 h1 {
@@ -145,12 +170,12 @@ table {
   margin-top:0px;
 }
 
-.omsupdate {
+.omsupdate, .mise-a-jour  {
   background-color:#FFFF;
   position: relative;
   margin-bottom:1000px;
 }
-.omsupdate { 
+.omsupdate, .mise-a-jour { 
   border-left: 8px solid #374453;
   color: #374453;
   padding: 40px 10px 10px 60px;
@@ -163,8 +188,7 @@ table {
   background-size:30px;
   background-position:1.2% 50%;
 }
-.omsupdate:before {
-  content:"UPDATE";
+.omsupdate:before, .mise-a-jour:before {
   color: #374453;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: bold;
@@ -173,6 +197,12 @@ table {
   margin-bottom: 10px;
   position:absolute;
   top: 0;
+}
+.omsupdate:before {
+  content:"UPDATE";
+}
+.mise-a-jour:before {
+  content: "MISE À JOUR";
 }
 
 .markdown-body h1:hover .zola-anchor, 

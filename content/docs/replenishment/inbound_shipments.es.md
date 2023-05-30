@@ -82,7 +82,7 @@ Puedes eliminar un envío de la Entradas.
 
 Una notificación confirma cuántos envíos se eliminaron (en la esquina inferior izquierda).
 
-<div class="note">
+<div class="nota">
 Solo puedes eliminar Entradas con estado <code>NUEVO</code>.
 </div>
 
@@ -96,7 +96,7 @@ Solo puedes eliminar Entradas con estado <code>NUEVO</code>.
 
 1. En la proveedores `Proveedores`, se te presentará una lista de proveedores. Puedes seleccionar a tu proveedor de la lista o escribir parte del nombre del proveedor.
 
-<div class="tip">
+<div class="consejo">
 Puedes saber si un proveedor también utiliza mSupply en su tienda. Si es así, verás un ícono como este (<img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto">) junto al código del proveedor. 
 </div>
 
@@ -316,7 +316,7 @@ En la segunda pestaña, `Precios`, puedes actualizar los siguientes campos (todo
 * **Cantidad de unidad** (solo lectura): Número total de unidades para el número de lote
 * **Total de línea** (solo lectura): Valor total de compra para el número de lote (`[Cantidad de unidad] x [Costo]`) 
 
-<div class="warning">
+<div class="advertencia">
 Los precios de venta y costo son por unidad y no por paquete. 
 </div>
 
@@ -334,7 +334,7 @@ Simplemente selecciona una ubicación de almacenamiento en el menú desplegable 
 
 ![Add Item location](/docs/replenishment/images/is_additem_location.png)
 
-<div class="note">
+<div class="nota">
 ¿No conoces la ubicación de almacenamiento todavía? No es necesario que la captures de inmediato. Puedes actualizar la ubicación de almacenamiento en cualquier momento si aún no has confirmado la verificación. 
 </div>
 
@@ -349,7 +349,7 @@ De lo contrario, puedes presionar `Cancelar` y tusd cambios no se guardarán.
 ## Añadir líneas a una entrada utilizando una lista maestra
 
 Haz clic en el botón `Añadir desde lista maestra` (esquina superior derecha). 
-<div class="note">
+<div class="nota">
 El botón estará desactivado si el estado de la entrada es cualquier cosa que no sea <code>Nuevo</code>
 </div>
 
@@ -375,7 +375,7 @@ Para editar una línea de una entrada, simplemente toca en ella. Se abrirá la v
 
 ### Editar una línea de envío
 
-<div class="note">
+<div class="nota">
  <b></b> Puedes editar una línea de envío si el estado del envío es menor que <code>Verificado</code>. 
 </div>
 
@@ -385,7 +385,7 @@ Para editar una línea de una entrada, simplemente toca en ella. Se abrirá la v
     *  Edita el campo principal de `Cantidad recibida` 
     *  O cambia el valor de número de paquetes a nivel de número de lote
 
-<div class="note">
+<div class="nota">
  <b></b> Cuando editas una línea de envío, no puedes cambiar el artículo. Deberás eliminar la línea de envío y crear una nueva. 
 </div>
 
@@ -405,7 +405,7 @@ En el siguiente ejemplo, estamos eliminando <i>item 030453 - Amoxicillina 250mg 
 
 ![Alt Text](/docs/replenishment/images/is_deleteselectedlines.gif)
 
-<div class="tip">
+<div class="consejo">
 Puedes eliminar varias líneas a la vez. Asegúrate de revisar lo que está seleccionado antes de realizar la acción de Eliminar. 
 </div>
 
@@ -420,11 +420,11 @@ En esta etapa, no tiene que verificar si las cantidades u otra información son 
 
 Para confirmar que se ha entregado una entrada, haga clic en el botón `Confirmar Entrega`. 
 
-<div class="note">
+<div class="nota">
 En caso de que su Envío de entrada sea <b>automatico</b>, no puede confirmar su entrega a menos que el proveedor haya confirmado su envío. En otras palabras, su estado de envío debe ser <code>ENVIADO</code> antes de que pueda confirmar que ha recibido la mercancía. 
 </div>
 
-<div class="note">
+<div class="nota">
 Cualquier línea no asignada con un valor de 0 para el número de paquetes se eliminará automáticamente cuando lo confirme.
 </div>
 

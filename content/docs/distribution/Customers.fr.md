@@ -14,7 +14,7 @@ toc = true
 top = false
 +++
 
-<div class="omsupdate">
+<div class="mise-a-jour">
 Pour le moment, vous ne pouvez voir que vos clients et leurs informations. À l'avenir, vous pourrez créer et modifier vos clients (à condition d'en avoir l'autorisation !). 
 </div>
 
@@ -26,7 +26,7 @@ Pour voir les clients de votre dépôt, allez dans le menu  `Distribution` ensui
 
 Une liste de clients visibles dans votre dépôt vous sera présentée. 
 
-<div class="note">
+<div class="remarque">
 Vous ne pouvez voir que les clients qui sont visibles pour votre dépôt. Il peut y avoir plus de clients dans l'organisation que vous n'en voyez dans votre dépôt.  
 <br>
 <br>

@@ -115,7 +115,7 @@ En el siguiente ejemplo, estamos emitiendo inventario al <b>Almacén Regional de
 
 ![gif](/docs/distribution/images/os_select_customer.gif)
 
-<div class="tip">
+<div class="consejo">
 Puede saber si un cliente también está usando mSupply en su almacén. Si lo está haciendo, verá un ícono como este (<img src="/docs/replenishment/is_msupplystoreicon.png" alt="Store" style="width:auto">) junto al código del proveedor. 
 </div>
 
@@ -362,7 +362,7 @@ En el siguiente ejemplo, estamos emitiendo 5 paquetes de 25 unidades:
 
 ![additem!](/docs/distribution/images/os_additem_issuepacks.png)
 
-<div class="note">
+<div class="nota">
 <b></b> si previamente has ingresado una cantidad de unidades y cambias a una cantidad de paquetes, la cantidad de unidades se convertirá automáticamente en la cantidad correcta de paquetes.  
 </div>
 
@@ -378,7 +378,7 @@ Simplemente tienes que ingresar o editar la cantidad en la columna `Cantidad de 
 
 Los valores en la fila **Total** se actualizarán automáticamente con la nueva cantidad.  
 
-<div class="note">
+<div class="nota">
  <b></b> cuando asignas cantidades en el nivel del número de partida, la cantidad que ingreses siempre será una cantidad de paquetes. 
 </div>
 
@@ -437,7 +437,7 @@ Para editar una línea de envío, selecciónela. Se abrirá la ventana`Editar Ar
 
 ### Editar una línea de envío
 
-<div class="note">
+<div class="nota">
  <b></b> puede editar una línea de envío si el estado del envío es inferior a <code>Enviado</code>. 
 </div>
 
@@ -447,7 +447,7 @@ Para editar una línea de envío, selecciónela. Se abrirá la ventana`Editar Ar
     *  Edite el campo principal de `Emitir Cantidad` 
     *  o cambie el valor de la cantidad de paquetes en el nivel de número de lote
 
-<div class="note">
+<div class="nota">
  <b></b> Al editar una línea de envío, no puede cambiar el artículo. Deberá eliminar la línea de envío y crear una nueva. 
 </div>
 
@@ -466,7 +466,7 @@ En el siguiente ejemplo, estamos eliminando e <i>artículo 030063 - Tabletas de 
 
 ![Alt Text](/docs/distribution/images/os_deleteselectedlines.gif)
 
-<div class="tip">
+<div class="consejo">
  <b></b> Puedes eliminar varias líneas a la vez. Asegúrate de revisar lo que está seleccionado antes de realizar la acción de eliminación. 
 </div>
 
@@ -484,7 +484,7 @@ Hay 2 formas principales de asignar una línea de envío:
     * Selecciona las líneas que deseas asignar marcando las casillas a la derecha en la lista.
     * En el menú desplegable `Acciones`, selecciona `Signar líneas de marcador de posición`. El sistema verificará si hay inventario disponible para cada línea seleccionada y las asignará utilizando la lógica del primero en caducar, primero en salir (FEFO). Una notificación te informará si la operación se realizó con éxito o no.
 
-<div class="note">
+<div class="nota">
 No podrás procesar tu salida si tienes líneas no asignadas (líneas de envío sin número(s) de lote asignado(s)) con una cantidad mayor que 0. Puedes esperar a que llegue más stock o puedes eliminar las líneas de marcador de posición. Cualquier línea no asignada con una cantidad de 0 se eliminará automáticamente cuando asignes.
 </div>
 

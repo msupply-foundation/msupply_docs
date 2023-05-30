@@ -84,7 +84,7 @@ Vous pouvez, à partir de la liste, supprimer une expédition.
 
 3. Une notification confirme le nombre d'expéditions supprimées (coin inférieur gauche). 
 
-<div class="note">
+<div class="remarque">
 Vous ne pouvez supprimer que les expéditions avec un statut <code>NOUVEAU</code>.
 </div>
 
@@ -111,7 +111,7 @@ Dans l'exemple ci-dessous, du stock sera livré au client <b>Kamo Regional Wareh
 
 ![gif](/docs/distribution/images/os_select_customer.gif)
 
-<div class="tip">
+<div class="conseil">
 Vous pouvez savoir si un client utilise également mSupply dans son dépôt. Si c'est le cas, vous verrez cette icône (<img src="/docs/replenishment/is_msupplystoreicon.png" alt="Store" style="width:auto">) près du code du fournisseur. 
 </div>
 
@@ -355,7 +355,7 @@ In below example, we are issuing 10 packs of 12 units:
 
 ![additem!](/docs/distribution/images/os_additem_issuepacks.png)
 
-<div class="note">
+<div class="remarque">
 <b></b> if you had previously entered a quantity of units and you switch to a quantity a packs, the quantity of units will automatically be converted into the correct quantity of packs.  
 </div>
 
@@ -371,7 +371,7 @@ You simply have to enter or edit the quantity in the `# Packs` column.
 
 The main `Issue Quantity` field will be automatically updated with the new quantity.  
 
-<div class="note">
+<div class="remarque">
  <b></b> when allocating quantities at the batch number level, the quantity you enter is always a quantity of packs. 
 </div>
 
@@ -409,7 +409,7 @@ To edit an shipment line, tap on it. You will be presented with the `Edit Item` 
 
 ### Edit a Shipment Line
 
-<div class="note">
+<div class="remarque">
  <b></b> you can edit a shipment line if the shipment has a status lower than <code>Shipped</code>. 
 </div>
 
@@ -419,7 +419,7 @@ To edit an shipment line, tap on it. You will be presented with the `Edit Item` 
     *  Edit the main `Issue Quantity` field 
     *  or change the number of packs value at the batch number level
 
-<div class="note">
+<div class="remarque">
  <b></b> When editing a shipment line, you cannot change the item. You would need to delete the shipment line and to create a new one. 
 </div>
 
@@ -438,7 +438,7 @@ In below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100mg ta
 
 ![Alt Text](/docs/distribution/images/os_deleteselectedlines.gif)
 
-<div class="tip">
+<div class="conseil">
  <b></b> You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
 </div>
 
@@ -456,7 +456,7 @@ There are 2 main ways to allocate a shipment line:
     * Select the lines that you want to allocate by checking boxes on the right on the list
     * In the `Actions` dropdown menu, select `Allocate placeholder lines`. System will check if there is available stock for each selected lines and allocate them using the First to Expire, First Out (FEFO) logic. A notification will let you know whether the operation is successful or not. 
 
-<div class="note">
+<div class="remarque">
 You won't be able to process your Outbound Shipment if you have unallocated lines (shipment lines without batch number(s) assigned to it). You can wait for more stock to arrive or you can delete the placeholder lines. 
 </div>
 

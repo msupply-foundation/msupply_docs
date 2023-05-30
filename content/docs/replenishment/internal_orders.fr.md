@@ -127,13 +127,13 @@ Tap on an order line to change the **Order Quantity** or tap on the button `Requ
 
 ![Internal Order: add from master list](/docs/replenishment/images/intord_addfromml.gif)
 
-<div class="note"> 
+<div class="remarque"> 
 Master Lists are defined and assigned to stores at the central server level. You can only see the master lists that are visible to your store. 
 <br> <br>
 If you don't find the master list you are looking for and if you want to create a new one, please contact your administrator.
 </div>
 
-<div class="tip">
+<div class="conseil">
 You can create internal orders from multiple master lists by repeating above actions with another master list. 
 </div>
 
@@ -181,7 +181,7 @@ To send the order to your supplier:
 2. A dialog window opens asking you whether you are sure to want to send the order. Tap on `OK` to proceed
 3. Status of your order is now `SENT` and the order is no longer editable
 
-<div class="warning">
+<div class="avertissement">
 Ensure that your order is correct before sending it to your supplier. Once sent, no further changes can be made to finalised orders. 
 </div>
 

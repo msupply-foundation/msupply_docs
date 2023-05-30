@@ -46,7 +46,7 @@ Pour chaque participation en actions, vous pouvez voir :
 * La date de l'inventaire
 
 
-<div class="warning">
+<div class="avertissement">
 Il ne sert à rien de conserver les anciens inventaires avec status = NEW, surtout si vous êtes sur le point de créer un nouvel inventaire contenant les mêmes éléments. En effet, il peut être assez dangereux de laisser d'anciens inventaires avec statut NEW dans votre système. Si du temps s'est écoulé depuis la création de l'inventaire, l'instantané et les quantités réelles sont presque certainement incorrects. Pour des raisons de bonne gestion, il est recommandé de supprimer les anciens NEW inventaires. </div>
 
 ## Création d'un nouvel inventaire
@@ -61,7 +61,7 @@ Une fenêtre apparaît, vous invitant à sélectionner les éléments à comptab
 
 Cliquez sur OK lorsque vous avez sélectionné l'option souhaitée.
 
-<div class="tip">
+<div class="conseil">
 Ne vous inquiétez pas s'il manque un élément dans votre inventaire nouvellement créé. Vous aurez la possibilité d'ajouter d'autres articles à votre inventaire par la suite. 
 </div>
 

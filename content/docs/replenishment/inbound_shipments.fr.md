@@ -80,7 +80,7 @@ Vous pouvez supprimer une livraison de la liste.
 
 3. Une notification confirme le nombre de livraisons supprimées (coin inférieur gauche)
 
-<div class="note">
+<div class="remarque">
 Vous ne pouvez supprimer que les expéditions avec un statut <code>NOUVEAU</code>.
 </div>
 
@@ -94,7 +94,7 @@ Vous ne pouvez supprimer que les expéditions avec un statut <code>NOUVEAU</code
 
 1. Dans la fenêtre `Fournisseurs`, vous verrez afficher une liste de fournisseurs. Vous pouvez sélectionner directement ou saisir le nom d'un fournisseur. 
 
-<div class="tip">
+<div class="conseil">
 Vous pouvez savoir si un fournisseur utilise également mSupply dans son dépôt. Si c'est le cas, vous verrez une icône comme celle-ci (<img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto">) à côté du code fournisseur. 
 </div>
 
@@ -113,7 +113,7 @@ Si tout s'est bien passé, vous devriez voir le nom de votre fournisseur dans le
 ![New manual Inbound Shipment](/docs/replenishment/images/is_newinboundshipment_fr.png)
 
 
-<div class="note">
+<div class="remarque">
 Lorsque vous créez une <b>nouvelle</b> livraison manuelle, mSupply admet que la livraison a été exécutée par le fournisseur et que vous êtes sur le point de réceptionner les articles. <br /> Raison pour laquelle le statut d'une livraison manuelle a toujours la valeur <code>LIVRE</code>.
 </div>
 
@@ -139,7 +139,7 @@ Le panneau d'information vous permet de voir ou de modifier les informations sur
 * Détails de la facture
 * Détails des transports
 
-<div class="omsupdate">
+<div class="mise-a-jour">
 Nous prévoyons d'ajouter d'autres sections à l'avenir au fur et à mesure de la croissance d'Open mSupply. 
 </div>
 
@@ -318,7 +318,7 @@ On the second tab, `Pricing`, you can update the following fields (all are optio
 * **Unit Qty** (read-only): Total number of units for the batch number
 * **Line Total** (read-only): Total purchasing value for the batch number (`[Unit Qty] x [Cost]`) 
 
-<div class="warning">
+<div class="avertissement">
 Sell & Cost prices are per units and not per pack. 
 </div>
 
@@ -336,7 +336,7 @@ Simply select a storage location from the `Location` dropdown menu.
 
 ![Add Item location](/docs/replenishment/is_additem_location.png)
 
-<div class="note">
+<div class="remarque">
 Don't know the storage location yet ? You don't have to capture it right away. You can update the storage location at any time if you haven't confirmed the verification yet. 
 </div>
 
@@ -355,7 +355,7 @@ To edit an Inbound Shipment line, simply tap on it. You will be presented with t
 
 ### Edit a Shipment Line
 
-<div class="note">
+<div class="remarque">
  <b></b> you can edit a shipment line if the shipment has a status higher lower than <code>VERIFIED</code>. 
 </div>
 
@@ -365,7 +365,7 @@ To edit an Inbound Shipment line, simply tap on it. You will be presented with t
     *  Edit the main `Issue Quantity` field 
     *  or change the number of packs value at the batch number level
 
-<div class="note">
+<div class="remarque">
  <b></b> When editing a shipment line, you cannot change the item. You would need to delete the shipment line and to create a new one. 
 </div>
 
@@ -385,7 +385,7 @@ In below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100mg ta
 
 ![Alt Text](/docs/distribution/os_deleteselectedlines.gif)
 
-<div class="tip">
+<div class="conseil">
 You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
 </div>
 
@@ -400,7 +400,7 @@ At this stage, you don't have to check if quantities or other information are co
 
 To confirm that an Inbound Shipment has been delivered, click on the `Confirm Delivered` button. 
 
-<div class="note">
+<div class="remarque">
 In case your Inbound Shipment is <b>automatic</b>, you cannot confirm its delivery unless the supplier has confirmed its shipment. In other words, your shipment status has to be <code>SHIPPED</code> before you can confirm that you have received the goods. 
 </div>
 

@@ -42,7 +42,7 @@ Une fenêtre comme celle ci-dessous s'ouvre:
 2. **Code**: Entrez un code pour le nouvel emplacement
 3. **En Attente** (case à cocher): Si vous cochez cette case, les stocks dans cet emplacement ne peuvent être servis aux clients. Le stock peut entrer et sortir de cet emplacement mais ne peut être directement destiné à un client. 
 
-<div class="tip">
+<div class="conseil">
 Mettre un emplacement En Attente peut être utile si: 
 <br><br>
 - Le stock doit être empêché d'être servi jusqu'à une inspection / approbation (par exemple, quarantaine ou sous caution)

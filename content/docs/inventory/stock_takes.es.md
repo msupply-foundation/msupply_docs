@@ -42,7 +42,7 @@ Por cada toma de inventario puedes ver:
 * Si lo hay, un **comentario** sobre la toma de inventario
 * La **fecha** de la verificación de inventario
 
-<div class="warning">
+<div class="advertencia">
 No tiene mucho sentido mantener antiguas tomas de inventario con estado = <code>NUEVO</code>, especialmente si estás a punto de crear una que contiene los mismos elementos. De hecho, puede ser bastante peligroso dejar antiguas tomas de inventario con estado  <code>NUEVO</code> en tu sistema. Si ha pasado un tiempo desde que se creó la toma de inventario, es casi seguro que las cantidades de la instantánea y las cantidades reales sean incorrectas. Por razones de limpieza, es una buena práctica eliminar las antiguas tomas de inventario <code>NUEVO</code>.
 </div>
 
@@ -61,11 +61,11 @@ Haz clic en aceptar cuando hayas seleccionado la opción que deseas.
 
 Luego se creará la toma de inventario y las líneas de stock existentes se utilizarán para poblar los valores de lote, vencimiento, tamaño de paquete y número de instantánea de paquetes. Las líneas se muestran en color azul claro y cambiarán a negro cuando se ingrese un valor para la cantidad contada.
 
-<div class="note">No es posible editar el tamaño del paquete de las filas del inventario que están vinculadas a una línea de inventario existente. Si desea cambiar el tamaño del paquete, deberá eliminar la fila y agregar una nueva fila o filas según sea necesario..</div>
+<div class="nota">No es posible editar el tamaño del paquete de las filas del inventario que están vinculadas a una línea de inventario existente. Si desea cambiar el tamaño del paquete, deberá eliminar la fila y agregar una nueva fila o filas según sea necesario..</div>
 
 ![Stocktake with placeholders](/docs/inventory/images/stocktake-placeholders.png)
 
-<div class="tip">
+<div class="consejo">
 No te preocupes si un elemento falta en tu nueva toma de inventario. Después tendrás la posibilidad de agregar más elementos a tu toma de inventario. 
 </div>
 

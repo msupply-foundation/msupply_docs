@@ -16,7 +16,7 @@ top = false
 
 Dans mSupply, un fournisseur est une entité qui envoie du stock à votre dépôt. 
 
-<div class="omsupdate">
+<div class="mise-a-jour">
 Pour le moment, vous ne pouvez que voir votre fournisseur et ses coordonnées. À l'avenir, vous pourrez créer et modifier vos fournisseurs (à condition d'en avoir l'autorisation !). 
 </div>
 
