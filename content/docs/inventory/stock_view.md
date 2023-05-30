@@ -79,3 +79,9 @@ There is an additional button shown when editing a stock line:
 
 Clicking this will start the barcode scanner - if one is attached, when running desktop. If running on android, the camera on the device is used.
 If a barcode is scanned successfully, then the barcode field is populated with the scanned value. If a QR code which has a batch and expiry information is scanned, then these fields on the stock edit window are also populated from the scanned code.
+
+<div class="tip">You can also press the 'control (ctrl)' and 's' keys at the same time to start the barcode scanner</div>
+
+Once you have updated the barcode, this code is associated with the item, for this particular pack size. You can then add items to an outbound shipment using a barcode scanner, and detect this item automatically.
+
+Barcodes updated in this way and also synchronised with other stores, which means that codes you scan here will allow other stores to automatically add these items to outbound shipments using a barcode scanner.

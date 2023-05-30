@@ -14,7 +14,7 @@ toc = true
 top = false
 +++
 
-<div class="omsupdate">
+<div class="noticia">
 En este momento, solo puedes ver a tus clientes y su información. En el futuro, podrás crear y editar a tus clientes (¡siempre y cuando tengas la autorización para hacerlo!). 
 </div>
 

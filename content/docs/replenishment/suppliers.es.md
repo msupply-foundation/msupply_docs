@@ -16,7 +16,7 @@ top = false
 
 En mSupply, un proveedor es una entidad que envía inventario a tu almacén.
 
-<div class="omsupdate">
+<div class="noticia">
 En este momento, solo puedes ver tu proveedor y sus detalles. En el futuro, podrás crear y editar tus clientes (¡si tienes autorización para hacerlo!).
 </div>
 

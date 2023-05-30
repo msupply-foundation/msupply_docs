@@ -137,7 +137,7 @@ El Panel de Información te permite ver o editar la información acerca de la En
 * Detalles de la Factura
 * Detalles del Transporte
 
-<div class="omsupdate">
+<div class="noticia">
 Estamos planeando agregar más secciones en el futuro a medida que Open mSupply crezca 
 </div>
 
@@ -316,7 +316,7 @@ En la segunda pestaña, `Precios`, puedes actualizar los siguientes campos (todo
 * **Cantidad de unidad** (solo lectura): Número total de unidades para el número de lote
 * **Total de línea** (solo lectura): Valor total de compra para el número de lote (`[Cantidad de unidad] x [Costo]`) 
 
-<div class="advertencia">
+<div class="aviso">
 Los precios de venta y costo son por unidad y no por paquete. 
 </div>
 

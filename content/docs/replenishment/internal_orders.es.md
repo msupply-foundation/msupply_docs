@@ -182,7 +182,7 @@ Para enviar la orden a tu proveedor:
 2. Se abrirá una ventana de diálogo que te preguntará si estás seguro de querer enviar la orden. Haz clic en `Aceptar` para continuar
 3. El estado de tu orden ahora es `ENVIADO` y la orden ya no es editable
 
-<div class="advertencia">
+<div class="aviso">
 Asegúrate de que tu orden sea correcta antes de enviarla a tu proveedor. Una vez enviada, no se pueden realizar más cambios en órdenes finalizadas.
 </div>
 

@@ -42,7 +42,7 @@ Por cada toma de inventario puedes ver:
 * Si lo hay, un **comentario** sobre la toma de inventario
 * La **fecha** de la verificación de inventario
 
-<div class="advertencia">
+<div class="aviso">
 No tiene mucho sentido mantener antiguas tomas de inventario con estado = <code>NUEVO</code>, especialmente si estás a punto de crear una que contiene los mismos elementos. De hecho, puede ser bastante peligroso dejar antiguas tomas de inventario con estado  <code>NUEVO</code> en tu sistema. Si ha pasado un tiempo desde que se creó la toma de inventario, es casi seguro que las cantidades de la instantánea y las cantidades reales sean incorrectas. Por razones de limpieza, es una buena práctica eliminar las antiguas tomas de inventario <code>NUEVO</code>.
 </div>
 

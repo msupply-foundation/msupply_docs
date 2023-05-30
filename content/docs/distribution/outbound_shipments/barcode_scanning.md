@@ -32,6 +32,9 @@ To begin, open the outbound shipment. If the status is `New`, `Allocated` or `Pi
 
 ![Scan button](/docs/distribution/images/os_scan_button.png)
 
+<div class="tip">You can also press the 'control (ctrl)' and 's' keys at the same time to start (and stop) scanning</div>
+
+
 ### Adding items
 
 Once the scanner is started you can scan items. Each time a barcode is detected by the scanner the `Add Item` window is shown. If the scanned barcode matches an item in your database then this item is automatically selected. When no match is made, the usual drop down selection is shown allowing you to select an item.
