@@ -326,7 +326,7 @@ This is a list of batch numbers that you have in store for this item:
 - **Pack Qty Issued**: Number of packs to be issued
 
 There is also a final row in the table which is a placeholder line, if the status of the Outbound Shipment is `NEW`.
-The placeholder line is used when the quantity you are issuing is higher than your available stock
+The placeholder line is used when the quantity you are issuing is higher than your available stock.
 
 ![List of available batch numbers](/docs/distribution/images/os_additem_listofbatches.png)
 

@@ -369,6 +369,8 @@
           
           <li><a href="https://docs.msupply.foundation/docs/inventory/stock-takes/#printing-stocktake-sheet">Printing Stocktake sheet</a></li>
           
+          <li><a href="https://docs.msupply.foundation/docs/inventory/stock-takes/#filtering-lines">Filtering lines</a></li>
+          
         </ul>
          
       </ul>
@@ -384,13 +386,13 @@
         </div>
         
         <div class="flagster" style="float: right; padding: 5px">
-          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;fr&#x2F;docs&#x2F;inventory&#x2F;stock-takes&#x2F;" title="Change language to fr"
-            ><img src="/icons/fr.svg" width="28"> </a>
+          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;es&#x2F;docs&#x2F;inventory&#x2F;stock-takes&#x2F;" title="Change language to es"
+            ><img src="/icons/es.svg" width="28"> </a>
         </div>
         
         <div class="flagster" style="float: right; padding: 5px">
-          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;es&#x2F;docs&#x2F;inventory&#x2F;stock-takes&#x2F;" title="Change language to es"
-            ><img src="/icons/es.svg" width="28"> </a>
+          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;fr&#x2F;docs&#x2F;inventory&#x2F;stock-takes&#x2F;" title="Change language to fr"
+            ><img src="/icons/fr.svg" width="28"> </a>
         </div>
         
 
@@ -440,7 +442,7 @@ Don't worry if an item is missing from your newly created stocktake. You will ha
 </div>
 <h3 id="entering-reasons">Entering reasons<a class="zola-anchor" href="#entering-reasons" aria-label="Anchor link for: entering-reasons">🔗</a></h3>
 <p>If you have inventory adjustment options configured in your central server, then you are required to enter a reason when the <code>counted number of packs</code> specified does not match the snapshot number of packs. </p>
-<p>For example, entering <code>100</code> for the counted quantity of Salbutamol, will add a red * to the right of the <code>Reason</code> input and show the negative inventory adjustment reasons:</p>
+<p>For example, entering <code>25</code> for the counted quantity of Paracetamol, will add a red * to the right of the <code>Reason</code> input and show the negative inventory adjustment reasons:</p>
 <p><img src="/docs/inventory/images/stocktake_reasons.png" alt="Stocktake reasons" /></p>
 <p>If you try to save the stocktake row without entering a reason you will see an error:</p>
 <p><img src="/docs/inventory/images/stocktake_reasons_error.png" alt="Stocktake reasons" /></p>
@@ -454,6 +456,13 @@ When printing, a PDF file is generated for you, which will then open in a new br
 <li>Create a PDF immediately, if there is only one report to select from</li>
 </ul>
 <p><img src="/docs/distribution/images/os_print_menu.png" alt="Print menu" /></p>
+<h3 id="filtering-lines">Filtering lines<a class="zola-anchor" href="#filtering-lines" aria-label="Anchor link for: filtering-lines">🔗</a></h3>
+<p>The list of stocktake lines can get very long if you have a large stocktake. To make working with the stocktake easier to manage, you can filter the list by item name or code.</p>
+<p>Simply enter some or all of an item code in the filter input:</p>
+<p><img src="/docs/inventory/images/stockake_filter_code.png" alt="Filter by code" /></p>
+<p>or, enter some of an item's name:</p>
+<p><img src="/docs/inventory/images/stockake_filter_name.png" alt="Filter by code" /></p>
+<p>You can also group the lines by item by enabling the <code>Group by item</code> switch.</p>
   
 <div class="docs-navigation d-flex justify-content-between">
   

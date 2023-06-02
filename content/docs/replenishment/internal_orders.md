@@ -149,6 +149,7 @@ Tap on an order line to change the **Order Quantity** or tap on the button `Requ
 
 <div class="note"> 
 Master Lists are defined and assigned to stores at the central server level. You can only see the master lists that are visible to your store. 
+<br>Also be aware that if you are using programs functionality, only master lists which are not part of a program can be selected.
 <br> <br>
 If you don't find the master list you are looking for and if you want to create a new one, please contact your administrator.
 </div>

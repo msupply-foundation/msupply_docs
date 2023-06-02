@@ -22,12 +22,27 @@ Open mSupply builds on over 20 years of mSupply, over which time it has become t
 
 Open mSupply runs on Desktop (Windows, Linux & Mac), as a web application in your browser, or also as an Android application (for tablets, not for phones at this stage).
 
-There are windows installers built for each release, providing:
+## Where can I download it?
 
-- **Server**: which supports either SQLite or postgreSQL and runs as a windows service
-- **Desktop**: A windows application which allows you to connect to a running server (also available for macOS as a binary, not a dmg or package)
-- **Standalone**: combines the above two; runs a server as a windows service and has a windows application which will connect to it
-- **Demo**: A pre-configured server installation which does not require a central server to run
+We provide a number of downloads on our [releases page](https://github.com/openmsupply/open-msupply/releases) hosted in our GitHub repository.
+The latest version will be shown at the top of the list of releases - we generally recommend using the latest version where possible.
+
+Within each release there is an `Assets` section which has the files you need to install open mSupply.
+
+
+### Windows
+There are installers built for each release, providing:
+
+- **Server**: which supports either SQLite or postgreSQL and runs as a windows service. The installer name for the server is `omSupply_Server_[version].exe`
+- **Desktop**: A windows application which allows you to connect to a running server. The installer name for the server is `omSupply_Desktop_[version].exe`
+- **Standalone**: combines the above two; runs a server as a windows service and has a windows application which will connect to it. The installer name for the server is `omSupply_Standalone_[version].exe`
+- **Demo**: A pre-configured server installation which does not require a central server to run. The installer name for the server is `omSupply_Demo_[version].exe`
+
+### Android
+The android version is distributed as an `.apk` file which you can install. This file has the name `open-msupply-[version]-release.apk`
+
+### MacOS
+For the mac desktop version, we provide a `.dmg` file, which has the name `omSupply_[version].dmg`. 
 
 ## What does it do?
 

@@ -73,7 +73,7 @@ Don't worry if an item is missing from your newly created stocktake. You will ha
 
 If you have inventory adjustment options configured in your central server, then you are required to enter a reason when the `counted number of packs` specified does not match the snapshot number of packs. 
 
-For example, entering `100` for the counted quantity of Salbutamol, will add a red * to the right of the `Reason` input and show the negative inventory adjustment reasons:
+For example, entering `25` for the counted quantity of Paracetamol, will add a red * to the right of the `Reason` input and show the negative inventory adjustment reasons:
 
 ![Stocktake reasons](/docs/inventory/images/stocktake_reasons.png)
 
@@ -93,3 +93,17 @@ This will either
 * Create a PDF immediately, if there is only one report to select from
 
 ![Print menu](/docs/distribution/images/os_print_menu.png)
+
+### Filtering lines
+
+The list of stocktake lines can get very long if you have a large stocktake. To make working with the stocktake easier to manage, you can filter the list by item name or code.
+
+Simply enter some or all of an item code in the filter input:
+
+![Filter by code](/docs/inventory/images/stockake_filter_code.png)
+
+or, enter some of an item's name:
+
+![Filter by code](/docs/inventory/images/stockake_filter_name.png)
+
+You can also group the lines by item by enabling the `Group by item` switch.
