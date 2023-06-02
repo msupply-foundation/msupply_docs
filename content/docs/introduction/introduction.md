@@ -29,8 +29,8 @@ The latest version will be shown at the top of the list of releases - we general
 
 Within each release there is an `Assets` section which has the files you need to install open mSupply.
 
-
 ### Windows
+
 There are installers built for each release, providing:
 
 - **Server**: which supports either SQLite or postgreSQL and runs as a windows service. The installer name for the server is `omSupply_Server_[version].exe`
@@ -39,10 +39,12 @@ There are installers built for each release, providing:
 - **Demo**: A pre-configured server installation which does not require a central server to run. The installer name for the server is `omSupply_Demo_[version].exe`
 
 ### Android
+
 The android version is distributed as an `.apk` file which you can install. This file has the name `open-msupply-[version]-release.apk`
 
 ### MacOS
-For the mac desktop version, we provide a `.dmg` file, which has the name `omSupply_[version].dmg`. 
+
+For the mac desktop version, we provide a `.dmg` file, which has the name `omSupply_[version].dmg`.
 
 ## What does it do?
 

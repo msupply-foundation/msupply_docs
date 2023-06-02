@@ -14,7 +14,7 @@ toc = true
 top = false
 +++
 
-You can manage internal orders by program within open mSupply. This involves using some special settings for master lists. In this method, a program is an extension to a master list. A program includes a standard list of items as well as:
+You can manage Internal Orders by program within Open mSupply. This involves using some special settings for master lists. In this method, a program is an extension to a master list. A program includes a standard list of items as well as:
 
 - **Order Types**: defined categories setting the maximum number of orders and quantity of stock to be ordered per period
 - **Period Schedules**: defined time intervals when orders can be placed; schedules and periods must be set up before creating programs
@@ -27,9 +27,9 @@ The configuration changes needed when setting up a program are made on the centr
 - [Creating a program](https://docs.msupply.org.nz/items:programs#creating_a_program)
 - [Connecting a program to a store](https://docs.msupply.org.nz/items:programs#connecting_a_program_to_a_store)
 
-## Creating a program internal order
+## Creating a program Internal Order
 
-Let's create a program based internal order.
+Let's create a program based Internal Order.
 
 1. Click on the `New Order` button (top right corner):
 
@@ -58,9 +58,9 @@ There are several areas where you'll see additional information when using a pro
 
 ![Internal Order: program order](/docs/programs/images/internal_order_detail.png)
 
-1. Additional information telling you which program, order type and period this internal order is for.
+1. Additional information telling you which program, order type and period this Internal Order is for.
 2. As the message says, you cannot add items, so the `Add item` and `Add from master list` buttons are disabled.
-3. The message also states that you cannot edit the maximum or minimum MOS on a program based internal order. These values are configured by the program.
+3. The message also states that you cannot edit the maximum or minimum MOS on a program based Internal Order. These values are configured by the program.
 
 ### Requisitions
 
@@ -68,7 +68,7 @@ The list view has gained some additional columns, showing the program related da
 
 ![Requisition: list](/docs/programs/images/requisition-list.png)
 
-- **Program**: the name of the program this internal order was created for
+- **Program**: the name of the program this Internal Order was created for
 - **Order type**: the name of the order type ( typically, a normal or emergency order )
 - **Period**: the name of the period selected
 

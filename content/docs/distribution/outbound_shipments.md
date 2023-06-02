@@ -139,7 +139,7 @@ Once your Outbound Shipment has been created, you can enter a customer reference
 
 ### View or edit the Outbound Shipment Information Panel
 
-The Information Panel allows you see or to edit information about the Outbound Shipment. It is divided into multiple sections:
+The Information Panel allows you to see or edit information about the Outbound Shipment. It is divided into multiple sections:
 
 - Additional Info
 - Related Documents
@@ -234,7 +234,7 @@ This shipment has been created, allocated and picked on 29/03/2022
 
 Located on the bottom left corner, on the left of the status sequence.
 
-Check the `Hold` checkbox prevents the Outbound Shipment from being updated to the next status.
+Checking the `Hold` checkbox prevents the Outbound Shipment from being updated to the next status.
 
 ![Outbound checkbox](/docs/distribution/images/os_holdcheckbox.png)
 
@@ -246,9 +246,9 @@ Tap on the `Cancel` button to quit the Outbound Shipment view and return to the 
 
 #### Confirm Button
 
-The `Confirm` button is the button to update the status of a shipment. The status which you can confirm depends on the current status of the shipment and follows the sequence shown below.
+The `Confirm` button updates the status of a shipment. The status which you can confirm depends on the current status of the shipment and follows the sequence shown below.
 
-When managing an Outbound Shipment, you can only confirm the Allocation, the Picking and the Shipment.
+When managing an Outbound Shipment, you can only confirm the Allocation, Picked and Shipped statuses.
 
 | Confirm...            | Current Status | Next Status |
 | :-------------------- | :------------- | :---------- |
@@ -316,10 +316,10 @@ This is a list of batch numbers that you have in store for this item:
 
 - **Batch**: Batch number. It is a designation given to products made in the same manufacturing run.
 - **Expiry**: Expiry date of the batch (format: MM/YYYY)
-- **Location**: If you inventory is managed with storage locations, the name of the location where the item is stored
+- **Location**: This is the name of the location where the item is stored if your inventory is managed with storage locations
 - **Pack Size**: Quantity of units per pack
 - **Pack Sell Price**: Selling unit price of the item
-- **On Hold**: Indicate whether a batch is on hold or not. You cannot issue a batch that is on hold.
+- **On Hold**: Indicates whether a batch is on hold or not. You cannot issue a batch that is on hold.
 - **In Store (packs)**: Total number of packs in your store
 - **Available (packs)**: Number of packs available (not already allocated to other shipments)
 - **[Unit] Qty Issued**: Total quantity of units to be issued
@@ -334,7 +334,7 @@ The placeholder line is used when the quantity you are issuing is higher than yo
 
 By default, you are invited to issue a quantity of **units**, regardless of the pack size (number of units in a pack).
 
-When entering a number in the `Issue` field, after clicking the `Allocate` button, the system automatically chooses the batch number(s) with the shortest expiry date (First to Expire, First Out or FEFO logic).
+When entering a number in the `Issue` field, after clicking the `Allocate` button, the system automatically chooses the batch number(s) with the closest expiry date (First to Expire, First Out or FEFO logic).
 
 <div class="imagetitle">
 In below example, we are issuing 10 units of the item. All 10 units will be taken from the same batch (third row). The first two batches were not selected because they are expired. 
@@ -484,7 +484,7 @@ Allocation is the process of assigning one or multiple batch numbers from the in
 
 There are 2 main ways to allocate a shipment line:
 
-1. When adding items, system is automatically assigning stock to the new shipment line when you enter a quantity. If you don't have enough stock, system will add placeholder lines (unallocated lines).
+1. When adding items, the system will automatically assign stock to the new shipment line when you enter a quantity. If you don't have enough stock, the system will add placeholder lines (unallocated lines).
 
 2. Bulk action `Allocate placeholder lines`:
    - Select the lines that you want to allocate by checking boxes on the right hand side of the list
@@ -568,6 +568,6 @@ When grouped by item, you can expand the item to see individual batches, or use 
 
 If you do not have enough room on your screen, or simply aren't interested in some of the columns shown, you have the option of hiding which columns are shown in this view.
 
-Click on the `Show / hide columns` button which is at the top right of the table. This gives a list of the columns available - you can check the columns you want to see. The options chosen are stored for the current browser, so next time you view an outbound shipment, you will see the selected columns only. If you have chosen which columns to show, then the button is shown in blue to remind you that there are more columns available.
+Click on the `Show / hide columns` button which is at the top right of the table. This gives a list of the columns available - you can check the columns you want to see. The options chosen are stored for the current browser, so next time you view an Outbound Shipment, you will see the selected columns only. If you have chosen which columns to show, then the button is shown in blue to remind you that there are more columns available.
 
 ![Hide columns](/docs/distribution/images/os_show_hide_columns.gif)

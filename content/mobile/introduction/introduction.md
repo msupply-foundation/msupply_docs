@@ -17,7 +17,6 @@ top = false
 	This is the documentation for our original mSupply Mobile. For new installations, we recommend <a href="/docs/introduction/introduction"><strong>Open mSupply</strong></a>
 </div>
 
-
 ### Setting up mSupply Mobile on the device
 
 mSupply Mobile can be set up on your Android device by the mSupply Support Team or by your internal IT team with our support.
@@ -26,17 +25,17 @@ mSupply Mobile can be set up on your Android device by the mSupply Support Team 
 
 Preparing the device for mSupply is very dependant on factors including:
 
-* The make of the device
-* The version of Android running on it
-* The details of how the organisation plans to manage devices and communicate with users
+- The make of the device
+- The version of Android running on it
+- The details of how the organisation plans to manage devices and communicate with users
 
-Please consult with the mSupply Foundation support team (support@msupply.org.nz) on this. 
+Please consult with the mSupply Foundation support team (support@msupply.org.nz) on this.
 
 <div class="note">
 
-* A device is typically allocated to a facility, NOT an individual user. As such ALL operating system (i.e. Android) user accounts set up on the device must be for the site, not a person. This way, if a person leaves and another person takes over operation of the device, nothing should need to be changed.
+- A device is typically allocated to a facility, NOT an individual user. As such ALL operating system (i.e. Android) user accounts set up on the device must be for the site, not a person. This way, if a person leaves and another person takes over operation of the device, nothing should need to be changed.
 
-* Each device running mSupply Mobile will correspond to one mSupply Store.
+- Each device running mSupply Mobile will correspond to one mSupply Store.
 </div>
 
 #### Initialising the store
@@ -45,14 +44,13 @@ After installing the mSupply Mobile app, you must initialise the data for the mS
 
 When first syncing the new device the amount of records to sync may be large (say around 50,000). This could take hours to sync, especially over a poor internet connection. For this reason it is possible for you to limit how many months of transactions and stocktakes you want to include. Limiting the sync date range below explains how to limit the sync date range if this is required.
 
-When you open mSupply Mobile, the first screen looks as follows:
+When you Open mSupply Mobile, the first screen looks as follows:
 
 ![Setup screen!](/mobile/introduction/images/first_screen.jpg)
 
-
-* **PRIMARY SERVER URL**: Please enter the correct URL for your mSupply Server, this uses HTTPS protocol for security. For example: https://your-organisation.msupply.org
-* **SYNC SITE NAME**: The site name as configured on the primary server.
-* **SYNC SITE PASSWORD**: The password for the sync site as configured on the primary server.
+- **PRIMARY SERVER URL**: Please enter the correct URL for your mSupply Server, this uses HTTPS protocol for security. For example: https://your-organisation.msupply.org
+- **SYNC SITE NAME**: The site name as configured on the primary server.
+- **SYNC SITE PASSWORD**: The password for the sync site as configured on the primary server.
 
 Once you have entered the information, click **Connect** to start sync.
 
@@ -67,15 +65,16 @@ Once the server has found all the records to sync, mSupply Mobile will start pul
 #### Logging in to the store
 
 Once complete, you will be taken to the login screen. For guidance beyond here see the mSupply Mobile user guide.
+
 #### Limiting the sync date range
 
 When first syncing the new device the amount of records to sync may be large (say around 50,000). This could take hours to sync, especially over a poor internet connection. For this reason it is possible for you to limit how many months of transactions and stocktakes you want to include.
 
 ![Initialising screen!](/mobile/introduction/images/msupply_sync_months.jpg)
 
-* Change the store Synchronisation type from collector to active or none to unlock editing custom fields.
-* Add a new line setting the Field label to syncMonths and the Field value to the number of months you wish to include.
-* To edit the custom field double-click on the line.
-* Change the store Synchronisation type back to collector
+- Change the store Synchronisation type from collector to active or none to unlock editing custom fields.
+- Add a new line setting the Field label to syncMonths and the Field value to the number of months you wish to include.
+- To edit the custom field double-click on the line.
+- Change the store Synchronisation type back to collector
 
-Now whenever a sync is carried out the store will only sync transactions and stocktakes for the previous X months. 
+Now whenever a sync is carried out the store will only sync transactions and stocktakes for the previous X months.

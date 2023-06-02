@@ -30,10 +30,10 @@ You can see some statistics for shipments and stock:
     - **This week**: The number created during the current week
     - **Inbound shipments not delivered**: Number of shipped invoices that have yet to be delivered
   - Internal Orders
-    - **New**: Shows the number of new internal orders
+    - **New**: Shows the number of new Internal Orders
 - Distribution
   - Shipments
-    - **Have not been shipped**: The number of outbound shipments that have not been set to `Shipped` (or later) status
+    - **Have not been shipped**: The number of Outbound Shipments that have not been set to `Shipped` (or later) status
   - Requisitions
     - **New**: The number of new customer requisitions
 - Inventory Management

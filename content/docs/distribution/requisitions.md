@@ -86,11 +86,11 @@ Another way to adjust the supply quantity, is to click the button `Supply reques
 
 ![Supply Requested Prompt](/docs/distribution/images/requisition-supply-to-requested.png)
 
-To create an outbound shipment which will supply the items requested, click on the `Create Shipment` button. This will create a shipment, add all of the items which are not fully supplied, and then, open that shipment in a new tab. Before doing so, you are prompted to confirm:
+To create an Outbound Shipment which will supply the items requested, click on the `Create Shipment` button. This will create a shipment, add all of the items which are not fully supplied, and then, open that shipment in a new tab. Before doing so, you are prompted to confirm:
 
 ![Create Shipment Prompt](/docs/distribution/images/requisition-create-shipment.png)
 
-If the supply quantity is changed for any item/s in the requisition after a shipment has been made for it and a new shipment is created through clicking the `Create Shipment` button, then a new shipment will be created with the remaining supply amount (supply quantity minus any linked outbound shipment quantity).
+If the supply quantity is changed for any item/s in the requisition after a shipment has been made for it and a new shipment is created through clicking the `Create Shipment` button, then a new shipment will be created with the remaining supply amount (supply quantity minus any linked Outbound Shipment quantity).
 
 ![Create Shipment Detail](/docs/distribution/images/requisition-create-shipment.gif)
 

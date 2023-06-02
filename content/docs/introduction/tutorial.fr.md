@@ -44,11 +44,11 @@ Si le menu est fermé, il suffit de survoler les éléments du menu pour l'ouvri
 
 ![Main navigation](/docs/introduction/images/main_nav.gif)
 
-Sur certains écrans, vous verrez afficher un libellé en en-tête, tel que **Expédition** dans l'exemple ci-avant. En cliquant sur une expédition spécifique de la liste, vous changez cet en-tête en **Expédition/ #[le numéro d'expédition]**. Vous pouvez cliquer sur  **Expédition** pour retourner à la liste - ou utiliser le menu de navigation à gauche.
+Sur certains écrans, vous verrez afficher un libellé en en-tête, tel que **Expédition** dans l'exemple ci-avant. En cliquant sur une expédition spécifique de la liste, vous changez cet en-tête en **Expédition/ #[le numéro d'expédition]**. Vous pouvez cliquer sur **Expédition** pour retourner à la liste - ou utiliser le menu de navigation à gauche.
 
 ### Raccourcis clavier
 
-Des raccourcis clavier sont utilisés tout au long de open mSupply. Plutôt que de tous les mémoriser, pour commencer, il vous suffit de vous souvenir de la combinaison `control (ctrl)`+`k` (windows et linux) ou `cmd (⌘)`+`k` (mac)
+Des raccourcis clavier sont utilisés tout au long de Open mSupply. Plutôt que de tous les mémoriser, pour commencer, il vous suffit de vous souvenir de la combinaison `control (ctrl)`+`k` (windows et linux) ou `cmd (⌘)`+`k` (mac)
 
 Cela fera apparaître la fenêtre suivante, quelle que soit la page sur laquelle vous vous trouvez :
 
@@ -60,11 +60,9 @@ Cependant, vous pouvez également cliquer sur un élément de la liste ou recher
 
 ![CommandK](/docs/introduction/images/cmd_k.gif)
 
-De plus, il existe divers endroits où des raccourcis clavier spécifiques sont disponibles. Un exemple est l'onglet de contrôle utilisé aussi bien pour Les Inventaires que pour Les Livraisons. Ici, vous pouvez utiliser `control`+`1` pour accéder au premier onglet (Quantités) ou `control`+`2` pour le second onglet (Tarification) etc. Vous pouvez ajouter un nouveau lot en tapant la touche `+` de votre clavier. 
+De plus, il existe divers endroits où des raccourcis clavier spécifiques sont disponibles. Un exemple est l'onglet de contrôle utilisé aussi bien pour Les Inventaires que pour Les Livraisons. Ici, vous pouvez utiliser `control`+`1` pour accéder au premier onglet (Quantités) ou `control`+`2` pour le second onglet (Tarification) etc. Vous pouvez ajouter un nouveau lot en tapant la touche `+` de votre clavier.
 
 ![Inbound tabs](/docs/replenishment/images/is_edit_keyboard_shortcuts.png)
-
-
 
 ## Pied de Page
 
@@ -80,7 +78,7 @@ Vous verrez la notification et le nom du dépôt dans le pied de page sera mis �
 
 ## Aide!
 
-Si vous avez besoin d'aide à tout moment lors de l'utilisation du site, cliquez sur `Aide` qui se trouve en bas dans le menu à gauche. 
+Si vous avez besoin d'aide à tout moment lors de l'utilisation du site, cliquez sur `Aide` qui se trouve en bas dans le menu à gauche.
 
 ![Docs](/docs/introduction/images/docs_nav_fr.png)
 

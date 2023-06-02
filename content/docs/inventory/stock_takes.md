@@ -14,33 +14,35 @@ toc = true
 top = false
 +++
 
-mSupply will automatically keep track of your stock levels for you, as you receive and distribute it. But sometimes data gets entered incorrectly or stock goes out without anyone making an entry in the system. 
+mSupply will automatically keep track of your stock levels for you, as you receive and distribute it. But sometimes data gets entered incorrectly or stock goes out without anyone making an entry in the system.
 
-Of course, we try not to let that happen but, if it does happen, we can make corrections. The easiest way to correct mistakes is to do a **Stocktake**. 
+Of course, we try not to let that happen but, if it does happen, we can make corrections. The easiest way to correct mistakes is to do a **Stocktake**.
 
-In mSupply, you can easily do a stocktake for: 
-* A full inventory
-* A limited range of items
-* A single item
+In mSupply, you can easily do a stocktake for:
+
+- A full inventory
+- A limited range of items
+- A single item
 
 ## Viewing Stocktakes
 
-To view your stocktakes, go to `Inventory` and then `Stocktakes` in the navigation panel: 
+To view your stocktakes, go to `Inventory` and then `Stocktakes` in the navigation panel:
 
 ![Stocktake: nav](/docs/inventory/images/stocktake_gotost.png)
 
-This brings up a list of all your stocktakes: 
+This brings up a list of all your stocktakes:
 
 ![Stocktake: list](/docs/inventory/images/stocktake_stocktakelist.png)
 
 For each stock stake you can see:
-* The stock take **number**
-* The stock take **status**. There are two stock take statuses: 
-    * *New*: a stocktake you are still working on
-    * *Finalised*: a stocktake that has alredy been performed. You can no longer edit it.  
-* A **description** of the stocktake (eg. March Stocktake)
-* If any, a **comment** about the stoctake
-* The **date** of the stock take
+
+- The stock take **number**
+- The stock take **status**. There are two stock take statuses:
+  - _New_: a stocktake you are still working on
+  - _Finalised_: a stocktake that has alredy been performed. You can no longer edit it.
+- A **description** of the stocktake (eg. March Stocktake)
+- If any, a **comment** about the stoctake
+- The **date** of the stock take
 
 <div class="warning">
 There is little point in keeping old stocktakes with status = <code>NEW</code>, especially if you are about to create a new stocktake containing the same items. Indeed, it can be quite dangerous to leave old stocktakes with status <code>NEW</code> in your system. If time has passed since the stocktake was created, then the snapshot and actual quantities are almost certainly incorrect. For good housekeeping reasons, it is good practice to delete old <code>NEW</code> stocktakes.
@@ -48,16 +50,15 @@ There is little point in keeping old stocktakes with status = <code>NEW</code>, 
 
 ## Creating a new stock take
 
-Let's start a new stocktake. To do so, tap on the `New Stocktake` button in the right corner of the screen. 
+Let's start a new stocktake. To do so, tap on the `New Stocktake` button in the right corner of the screen.
 
 ![Stocktake: new](/docs/inventory/images/stocktake_newstocktake.png)
 
-A window appears, where you can opt to create a stocktake based on items in a master list, stock in a particular location, or an empty stocktake:
+A window appears, where you can opt to create a stocktake based on items in a master list, items in a particular location, items that are in stock, or an empty stocktake:
 
 ![Stocktake: Add item](/docs/inventory/images/stocktake_additem2.png)
 
-
-Click on OK when you have selected the option you would like. 
+Click on OK when you have selected the option you would like.
 
 The stocktake will then be created, and existing stock lines will be used to populate the values for batch, expiry, pack size and snapshot number of packs. The lines show as light blue, and will change to black when a value is entered for the counted quantity.
 
@@ -71,15 +72,19 @@ Don't worry if an item is missing from your newly created stocktake. You will ha
 
 ### Entering reasons
 
-If you have inventory adjustment options configured in your central server, then you are required to enter a reason when the `counted number of packs` specified does not match the snapshot number of packs. 
+If you have inventory adjustment options configured in your central server, then you are required to enter a reason when the `counted number of packs` specified does not match the snapshot number of packs.
 
-For example, entering `25` for the counted quantity of Paracetamol, will add a red * to the right of the `Reason` input and show the negative inventory adjustment reasons:
+For example, entering `25` for the counted quantity of Paracetamol, will add a red \* to the right of the `Reason` input and show the negative inventory adjustment reasons:
 
 ![Stocktake reasons](/docs/inventory/images/stocktake_reasons.png)
 
 If you try to save the stocktake row without entering a reason you will see an error:
 
 ![Stocktake reasons](/docs/inventory/images/stocktake_reasons_error.png)
+
+and the stocktake row that requires a reason to be entered will be highlighted in red as shown below.
+
+![Stocktake reasons](/docs/inventory/images/stocktake_reasons_error_highlight.png)
 
 ### Printing Stocktake sheet
 
@@ -89,8 +94,9 @@ When printing, a PDF file is generated for you, which will then open in a new br
 ![Print button](/docs/introduction/images/print_button.png)
 
 This will either
-* Show a menu of possible reports for you to select from before creating a PDF. This will happen if there are more than one report defined for the `Stocktake` report type.
-* Create a PDF immediately, if there is only one report to select from
+
+- Show a menu of possible reports for you to select from before creating a PDF. This will happen if there are more than one report defined for the `Stocktake` report type.
+- Create a PDF immediately, if there is only one report to select from
 
 ![Print menu](/docs/distribution/images/os_print_menu.png)
 

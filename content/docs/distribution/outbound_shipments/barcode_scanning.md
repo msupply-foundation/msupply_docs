@@ -1,6 +1,6 @@
 +++
 title = "Barcode scanning"
-description = "Adding stock to an outbound shipment with a barcode scanner."
+description = "Adding stock to an Outbound Shipment with a barcode scanner."
 date = 2023-05-03T18:20:00+00:00
 updated = 2023-05-03T18:20:00+00:00
 draft = false
@@ -15,7 +15,7 @@ top = false
 
 ## Adding items using a barcode scanner
 
-If using the desktop or android apps, you have the option of scanning items in order to add them to the outbound shipment.
+If using the desktop or android apps, you have the option of scanning items in order to add them to the Outbound Shipment.
 It is recommended to set the scanner to 'continuous scan' mode if it supports this.
 
 We have been using Zebra USB scanners, model DS2208. Any hand held barcode scanner should work for this, though we may need to update to support different models. If you have another model of scanner, please get in touch.
@@ -28,12 +28,11 @@ As an example, barcodes could look like this:
 
 ### Starting the scanner
 
-To begin, open the outbound shipment. If the status is `New`, `Allocated` or `Picked` you can start and stop the scanner using the `Scan` button:
+To begin, open the Outbound Shipment. If the status is `New`, `Allocated` or `Picked` you can start and stop the scanner using the `Scan` button:
 
 ![Scan button](/docs/distribution/images/os_scan_button.png)
 
 <div class="tip">You can also press the 'control (ctrl)' and 's' keys at the same time to start (and stop) scanning</div>
-
 
 ### Adding items
 

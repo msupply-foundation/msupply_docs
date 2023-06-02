@@ -72,7 +72,7 @@ To see changes made to this stock line, you can click the `Log` tab. Note that y
 
 ## Updating barcode
 
-This feature is available when running either the android or desktop versions of open mSupply.
+This feature is available when running either the android or desktop versions of Open mSupply.
 There is an additional button shown when editing a stock line:
 
 ![Scan button](/docs/inventory/images/stock-line-edit-scan.png)
@@ -82,6 +82,6 @@ If a barcode is scanned successfully, then the barcode field is populated with t
 
 <div class="tip">You can also press the 'control (ctrl)' and 's' keys at the same time to start the barcode scanner</div>
 
-Once you have updated the barcode, this code is associated with the item, for this particular pack size. You can then add items to an outbound shipment using a barcode scanner, and detect this item automatically.
+Once you have updated the barcode, this code is associated with the item, for this particular pack size. This item will now be automatically detected when adding items to an Outbound Shipment using a barcode scanner.
 
-Barcodes updated in this way and also synchronised with other stores, which means that codes you scan here will allow other stores to automatically add these items to outbound shipments using a barcode scanner.
+Barcodes updated in this way will also synchronised with other stores, which means that codes you scan here will allow other stores to automatically add these items to Outbound Shipments using a barcode scanner.
