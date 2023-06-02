@@ -318,7 +318,7 @@
 							<h3>Programs</h3>
 							<ul class="list-unstyled">
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/programs/module-hiv/">HIV module</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/programs/module-hiv/">Patients</a></li>
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/programs/requisitions/">Requisitions</a></li>
 							
@@ -381,6 +381,11 @@
       <main class="docs-content col-lg-11 col-xl-9">
         
         <div class="flagster" style="float: right; padding: 5px">
+          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;fr&#x2F;docs&#x2F;inventory&#x2F;stock-view&#x2F;" title="Change language to fr"
+            ><img src="/icons/fr.svg" width="28"> </a>
+        </div>
+        
+        <div class="flagster" style="float: right; padding: 5px">
           <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;es&#x2F;docs&#x2F;inventory&#x2F;stock-view&#x2F;" title="Change language to es"
             ><img src="/icons/es.svg" width="28"> </a>
         </div>
@@ -388,11 +393,6 @@
         <div class="flagster" style="float: right; padding: 5px">
           <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;inventory&#x2F;stock-view&#x2F;" title="Change language to en"
             ><img src="/icons/en.svg" width="28"> </a>
-        </div>
-        
-        <div class="flagster" style="float: right; padding: 5px">
-          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;fr&#x2F;docs&#x2F;inventory&#x2F;stock-view&#x2F;" title="Change language to fr"
-            ><img src="/icons/fr.svg" width="28"> </a>
         </div>
         
 
@@ -438,6 +438,9 @@ There is an additional button shown when editing a stock line:</p>
 <p><img src="/docs/inventory/images/stock-line-edit-scan.png" alt="Scan button" /></p>
 <p>Clicking this will start the barcode scanner - if one is attached, when running desktop. If running on android, the camera on the device is used.
 If a barcode is scanned successfully, then the barcode field is populated with the scanned value. If a QR code which has a batch and expiry information is scanned, then these fields on the stock edit window are also populated from the scanned code.</p>
+<div class="tip">You can also press the 'control (ctrl)' and 's' keys at the same time to start the barcode scanner</div>
+<p>Once you have updated the barcode, this code is associated with the item, for this particular pack size. You can then add items to an outbound shipment using a barcode scanner, and detect this item automatically.</p>
+<p>Barcodes updated in this way and also synchronised with other stores, which means that codes you scan here will allow other stores to automatically add these items to outbound shipments using a barcode scanner.</p>
   
 <div class="docs-navigation d-flex justify-content-between">
   
@@ -547,7 +550,7 @@ If a barcode is scanned successfully, then the barcode field is populated with t
           <a class="ms-auto" href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;programs&#x2F;module-hiv&#x2F;">
             <div class="card my-1">
               <div class="card-body py-2">
-               HIV module &rarr;
+               Patients &rarr;
               </div>
             </div>
           </a>

@@ -315,7 +315,7 @@
 							<h3>Programs</h3>
 							<ul class="list-unstyled">
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/programs/module-hiv/">HIV module</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/programs/module-hiv/">Patients</a></li>
 							                           
 									<li><a class="docs-link active" href="https://docs.msupply.foundation/docs/programs/requisitions/">Requisitions</a></li>
 							
@@ -356,8 +356,6 @@
     <nav id="TableOfContents">
       <ul>
         
-        <li><a href="https://docs.msupply.foundation/docs/programs/requisitions/#internal-order-list-changes">Internal Order list changes</a></li>
-         
         <li><a href="https://docs.msupply.foundation/docs/programs/requisitions/#creating-a-program-internal-order">Creating a program internal order</a></li>
          
         <li><a href="https://docs.msupply.foundation/docs/programs/requisitions/#differences-when-using-program-requisitions">Differences when using program requisitions</a></li>
@@ -386,37 +384,29 @@
         <h1>Requisitions</h1>
         
         <p class="lead">Program based requisitions</p>
-         <p>Within open mSupply you can manage internal orders by program. This involves using some special settings for master lists. In this method, a program is an extension to a master list. A program includes a standard list of items as well as:</p>
+         <p>You can manage internal orders by program within open mSupply. This involves using some special settings for master lists. In this method, a program is an extension to a master list. A program includes a standard list of items as well as:</p>
 <ul>
-<li>Order Types: defined categories setting the maximum number of orders and quantity of stock to be ordered per period</li>
-<li>Period Schedules: defined time intervals when orders can be placed; schedules and periods must be set up before creating programs</li>
-<li>Regimen Data: a defined list of additional information that may need to be provided by a customer when making a program requisition</li>
+<li><strong>Order Types</strong>: defined categories setting the maximum number of orders and quantity of stock to be ordered per period</li>
+<li><strong>Period Schedules</strong>: defined time intervals when orders can be placed; schedules and periods must be set up before creating programs</li>
+<li><strong>Regimen Data</strong>: a defined list of additional information that may need to be provided by a customer when making a program requisition</li>
 </ul>
 <p>Examples of items commonly managed by programs include Malaria, HIV and TB medicines and medical supplies.</p>
-<p>The configuration changes needed when setting up a program are made on the central server. See the documentation for an explanation:</p>
+<p>The configuration changes needed when setting up a program are made on the central server. See the documentation below for an explanation:</p>
 <ul>
 <li><a href="https://docs.msupply.org.nz/items:programs#creating_a_program">Creating a program</a></li>
 <li><a href="https://docs.msupply.org.nz/items:programs#connecting_a_program_to_a_store">Connecting a program to a store</a></li>
 </ul>
-<h2 id="internal-order-list-changes">Internal Order list changes</h2>
-<p>When you have program requisitions configured, there are some additional columns shown in the internal order list view:</p>
-<p><img src="/docs/programs/images/internal_order_list.png" alt="Internal Order: list" /></p>
-<ul>
-<li>Program shows - the name of the program this internal order is created for</li>
-<li>Order type - the name of the order type ( typically, a normal or emergency order )</li>
-<li>Period - the name of the period selected</li>
-</ul>
 <h2 id="creating-a-program-internal-order">Creating a program internal order</h2>
-<p>Let's create a program based internal order. </p>
+<p>Let's create a program based internal order.</p>
 <ol>
-<li>Click on the <code>New Order</code> button (top right corner): </li>
+<li>Click on the <code>New Order</code> button (top right corner):</li>
 </ol>
 <p><img src="/docs/replenishment/images/intord_newreqbutton.png" alt="Internal Order: new order" /></p>
 <ol start="2">
 <li>If you have programs configured, you'll see a different modal to the usual one:</li>
 </ol>
 <p><img src="/docs/programs/images/new_internal_order.png" alt="Internal Order: new program order" /></p>
-<p>Here, you can select</p>
+<p>Here, you can select the:</p>
 <ul>
 <li>Program</li>
 <li>Supplier</li>
@@ -432,13 +422,18 @@
 <p>There are several areas where you'll see additional information when using a program based requisition.</p>
 <p><img src="/docs/programs/images/internal_order_detail.png" alt="Internal Order: program order" /></p>
 <ol>
-<li>As the message says, you cannot edit the maximum or minimum MOS on a program based internal order. These values are configured by the program.</li>
-<li>The message also says that you cannot add items, so the <code>Add item</code> and <code>Add from master list</code> buttons are disabled too</li>
-<li>There is some additional information shown, telling you which program, order type and period this internal order is for</li>
+<li>Additional information telling you which program, order type and period this internal order is for.</li>
+<li>As the message says, you cannot add items, so the <code>Add item</code> and <code>Add from master list</code> buttons are disabled.</li>
+<li>The message also states that you cannot edit the maximum or minimum MOS on a program based internal order. These values are configured by the program.</li>
 </ol>
 <h3 id="requisitions">Requisitions</h3>
 <p>The list view has gained some additional columns, showing the program related data:</p>
 <p><img src="/docs/programs/images/requisition-list.png" alt="Requisition: list" /></p>
+<ul>
+<li><strong>Program</strong>: the name of the program this internal order was created for</li>
+<li><strong>Order type</strong>: the name of the order type ( typically, a normal or emergency order )</li>
+<li><strong>Period</strong>: the name of the period selected</li>
+</ul>
 <p>And the detail view also has program information shown:</p>
 <p><img src="/docs/programs/images/requisition-detail.png" alt="Requisition: detail" /></p>
   

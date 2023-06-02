@@ -114,6 +114,25 @@ In below example, the target quantity is 62 units. Since we already have 250 uni
 
 ![Stock Evolution](/docs/replenishment/images/intord_charts_stockevolution.png)
 
+### Requesting a quantity in packs
+
+If the item which you have selected has a default pack size configured (see the mSupply documentation on [editing units](https://docs.msupply.org.nz/items:adding_a_new_item#general_tab) for details on how to do this) then you will see a few additional elements on the 'Add item' window:
+
+![Add item with default pack size](/docs/replenishment/images/intord_add_by_pack.png)
+
+The new elements are:
+
+- The Default pack size
+- A switch to toggle between `Units` and `Packs`
+- An input field for `Requested packs`
+
+When entering the requested quantity in the number of packs, you'll see the fields as above. The `Requested packs` input is enabled, and the `Requested quantity` is disabled, and automatically calculated for you.
+
+The reverse happens when you are entering by units, as you can see below:
+
+![Add item with default pack size](/docs/replenishment/images/intord_add_by_unit.png)
+
+
 ### Adding items using a master list
 
 If your organisation is using Master Lists, you can add multiple items at once using your store's master lists. It is particularly useful when you have a lot of items in your order and you don't want to add them all one by one.  
@@ -146,11 +165,14 @@ When you add items (using a master list or not), the item is added to the order'
 | :--- | ---------- |
 | **Code** | Code of the item |
 | **Name** | Name of the item |
+| **Unit** | Unit of the item e.g. Tablet, Capsule, Vial |
+| **DPS** | Default pack size of the item |
 | **SoH (Est. remaining)** | How much stock currently available in your store for this store |
 | **AMC** | Average Monthly Consumption: how much stock your store uses each month on average (based on a configurable number of months, defaults to 3 months)   |
 | **Target Stock** | This is the stock you are aiming for. Calculated as: AMC x Maximum MOS |
 | **Suggested Quantity** | How much stock mSupply suggests that your order. This is calculated as: AMC x Maximum MOS - SoH |
 | **Requested** | This is set to zero by default. This is the quantity of units you are ordering from your supplier. |
+| **Requested packs** | An approximation of the number of packs requested, which is the requested quantity / default pack size |
 | **Comment** | A comment for the order line. Comments will be visible to your supplier. |
 
 ### Using Suggested Quantities 
@@ -166,7 +188,7 @@ You can always manually edit the order quantity for each by tapping on an order 
 When viewing a specific Internal Order, simply click the `Print` button which is on the top right of the page.
 When printing, a PDF file is generated for you, which will then open in a new browser tab. This can then be printed using your browser by clicking print or using `control`+`P` (if using windows) or `cmd`+`P` keys on your keyboard (if using a mac).
 
-![Print button](//docs/introduction/images//print_button.png)
+![Print button](/docs/introduction/images//print_button.png)
 
 This will either
 * Show a menu of possible reports for you to select from before creating a PDF. This will happen if there are more than one report defined for the `Requisition` report type.
@@ -187,3 +209,55 @@ Ensure that your order is correct before sending it to your supplier. Once sent,
 </div>
 
 
+## Approving internal orders
+
+### Remote approval process
+
+It is possible to configure stores, so that requisitions require approval from specified users before they can be fulfilled.
+For a full description of this process refer to the mSupply [Remote Authorisation](https://docs.msupply.org.nz/other_stuff:remote_authorisation) documentation.
+
+To do this:
+
+- In the requesting store, enable the store preference `Include requisitions from this store in supplier's remote authorisation process` 
+- In the supplying store, enable the store preference `Use remote authorisation for response requisitions`
+
+For further detail on configuring store preferences, refer to the [mSupply documentation](https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab) on the topic.
+
+
+When configured in this way, the requesting store will see an additional column in the internal order list, showing the approval status:
+
+![Internal Order: approval status columns](/docs/replenishment/images/internal_order_list_with_approval.png)
+
+And when viewing a specific internal order, there are columns showing the approved quantity, approved number of packs and a comment entered by the approver, if there is one:
+
+![Internal order detail with approval columns](/docs/replenishment/images/internal_order_detail_approval.png)
+
+Similarly, the supplying store will have an additional column in the requisition list view showing the approval status :
+
+![Internal order detail with approval columns](/docs/distribution/images/requisition_list_approval.png)
+
+And finally, a specific requisition will also have new columns, for the approved quantity and an approval comment, if one has been entered by the approver:
+
+![Internal order detail with approval columns](/docs/distribution/images/requisition_detail_approval.png)
+
+### Local approval process
+
+Another option for implementing an approval step for internal orders is to enable what is called 'local approval'. With this, you can allow only certain users to change the status of an internal order to `Sent`. To allow a user to change the status of an internal order to `Sent`, they require the permission `Can confirm Internal Order as Sent` to be enabled.
+
+To set the permission, edit the user within mSupply and change to the `omSupply permissions` tab, shown below:
+
+![Internal order detail with approval comment](/docs/replenishment/images/mSupply_intord_permission.png)
+
+Without this option checked, the user will not be able to update the internal order status to `Sent` and the order is unable to be processed.
+
+On changing the status to `Sent`, the user's details are added to the comment field; this can be seen when viewing the internal order, in the details panel:
+
+![Internal order detail with approval comment](/docs/replenishment/images/intord_approval_comment.png)
+
+and is also shown to the approver in the remote authorisation web application if that is being used.
+
+The additional text is of the form:
+
+`Approved by [user's full name]. Email: [user's email address] and Phone Number: [user's phone number].`
+
+These details are taken from the user, as configured in mSupply. Refer to the [Managing Users](https://docs.msupply.org.nz/admin:managing_users#details_tab) section on how to do this.

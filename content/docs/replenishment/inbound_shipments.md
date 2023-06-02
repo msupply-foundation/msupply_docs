@@ -215,6 +215,10 @@ You probably noticed that two of the status values only apply to automatically c
 
 ![Automatic IS message](/docs/replenishment/images/is_message_automatic.png)
 
+Note that this message appears differently if the status is `Delivered` or `Verified`
+
+![Automatic IS message: delivered](/docs/replenishment/images/is_message_automatic_delivered.png)
+
 If, however, you've created an Inbound Shipment manually, then the following message shows:
 
 ![Manual IS message](/docs/replenishment/images/is_message_manual.png)

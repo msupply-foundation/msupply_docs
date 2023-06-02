@@ -318,7 +318,7 @@
 							<h3>Programs</h3>
 							<ul class="list-unstyled">
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/programs/module-hiv/">HIV module</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/programs/module-hiv/">Patients</a></li>
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/programs/requisitions/">Requisitions</a></li>
 							
@@ -371,6 +371,8 @@
           
           <li><a href="https://docs.msupply.foundation/docs/replenishment/internal-orders/#adding-a-single-item">Adding a single item</a></li>
           
+          <li><a href="https://docs.msupply.foundation/docs/replenishment/internal-orders/#requesting-a-quantity-in-packs">Requesting a quantity in packs</a></li>
+          
           <li><a href="https://docs.msupply.foundation/docs/replenishment/internal-orders/#adding-items-using-a-master-list">Adding items using a master list</a></li>
           
           <li><a href="https://docs.msupply.foundation/docs/replenishment/internal-orders/#reading-the-internal-order-s-list">Reading the Internal Order&#x27;s list</a></li>
@@ -380,6 +382,16 @@
           <li><a href="https://docs.msupply.foundation/docs/replenishment/internal-orders/#printing-an-internal-order">Printing an Internal Order</a></li>
           
           <li><a href="https://docs.msupply.foundation/docs/replenishment/internal-orders/#sending-an-internal-order">Sending an Internal Order</a></li>
+          
+        </ul>
+         
+        <li><a href="https://docs.msupply.foundation/docs/replenishment/internal-orders/#approving-internal-orders">Approving internal orders</a></li>
+        
+        <ul>
+          
+          <li><a href="https://docs.msupply.foundation/docs/replenishment/internal-orders/#remote-approval-process">Remote approval process</a></li>
+          
+          <li><a href="https://docs.msupply.foundation/docs/replenishment/internal-orders/#local-approval-process">Local approval process</a></li>
           
         </ul>
          
@@ -495,6 +507,18 @@ In below example, the target quantity is 62 units. Since we already have 250 uni
 <li><strong>Stock Evolution</strong>: this chart shows you your stock level for the last 30 days and your projected inventory for the next 30 days. The projected stock will be updated based on your inputs in the <code>Order quantity</code> field:</li>
 </ul>
 <p><img src="/docs/replenishment/images/intord_charts_stockevolution.png" alt="Stock Evolution" /></p>
+<h3 id="requesting-a-quantity-in-packs">Requesting a quantity in packs<a class="zola-anchor" href="#requesting-a-quantity-in-packs" aria-label="Anchor link for: requesting-a-quantity-in-packs">🔗</a></h3>
+<p>If the item which you have selected has a default pack size configured (see the mSupply documentation on <a href="https://docs.msupply.org.nz/items:adding_a_new_item#general_tab">editing units</a> for details on how to do this) then you will see a few additional elements on the 'Add item' window:</p>
+<p><img src="/docs/replenishment/images/intord_add_by_pack.png" alt="Add item with default pack size" /></p>
+<p>The new elements are:</p>
+<ul>
+<li>The Default pack size</li>
+<li>A switch to toggle between <code>Units</code> and <code>Packs</code></li>
+<li>An input field for <code>Requested packs</code></li>
+</ul>
+<p>When entering the requested quantity in the number of packs, you'll see the fields as above. The <code>Requested packs</code> input is enabled, and the <code>Requested quantity</code> is disabled, and automatically calculated for you.</p>
+<p>The reverse happens when you are entering by units, as you can see below:</p>
+<p><img src="/docs/replenishment/images/intord_add_by_unit.png" alt="Add item with default pack size" /></p>
 <h3 id="adding-items-using-a-master-list">Adding items using a master list<a class="zola-anchor" href="#adding-items-using-a-master-list" aria-label="Anchor link for: adding-items-using-a-master-list">🔗</a></h3>
 <p>If your organisation is using Master Lists, you can add multiple items at once using your store's master lists. It is particularly useful when you have a lot of items in your order and you don't want to add them all one by one.</p>
 <ol>
@@ -518,11 +542,14 @@ You can create internal orders from multiple master lists by repeating above act
 <table><thead><tr><th align="left">Status</th><th>Description</th></tr></thead><tbody>
 <tr><td align="left"><strong>Code</strong></td><td>Code of the item</td></tr>
 <tr><td align="left"><strong>Name</strong></td><td>Name of the item</td></tr>
+<tr><td align="left"><strong>Unit</strong></td><td>Unit of the item e.g. Tablet, Capsule, Vial</td></tr>
+<tr><td align="left"><strong>DPS</strong></td><td>Default pack size of the item</td></tr>
 <tr><td align="left"><strong>SoH (Est. remaining)</strong></td><td>How much stock currently available in your store for this store</td></tr>
 <tr><td align="left"><strong>AMC</strong></td><td>Average Monthly Consumption: how much stock your store uses each month on average (based on a configurable number of months, defaults to 3 months)</td></tr>
 <tr><td align="left"><strong>Target Stock</strong></td><td>This is the stock you are aiming for. Calculated as: AMC x Maximum MOS</td></tr>
 <tr><td align="left"><strong>Suggested Quantity</strong></td><td>How much stock mSupply suggests that your order. This is calculated as: AMC x Maximum MOS - SoH</td></tr>
 <tr><td align="left"><strong>Requested</strong></td><td>This is set to zero by default. This is the quantity of units you are ordering from your supplier.</td></tr>
+<tr><td align="left"><strong>Requested packs</strong></td><td>An approximation of the number of packs requested, which is the requested quantity / default pack size</td></tr>
 <tr><td align="left"><strong>Comment</strong></td><td>A comment for the order line. Comments will be visible to your supplier.</td></tr>
 </tbody></table>
 <h3 id="using-suggested-quantities">Using Suggested Quantities<a class="zola-anchor" href="#using-suggested-quantities" aria-label="Anchor link for: using-suggested-quantities">🔗</a></h3>
@@ -532,7 +559,7 @@ You can create internal orders from multiple master lists by repeating above act
 <h3 id="printing-an-internal-order">Printing an Internal Order<a class="zola-anchor" href="#printing-an-internal-order" aria-label="Anchor link for: printing-an-internal-order">🔗</a></h3>
 <p>When viewing a specific Internal Order, simply click the <code>Print</code> button which is on the top right of the page.
 When printing, a PDF file is generated for you, which will then open in a new browser tab. This can then be printed using your browser by clicking print or using <code>control</code>+<code>P</code> (if using windows) or <code>cmd</code>+<code>P</code> keys on your keyboard (if using a mac).</p>
-<p><img src="//docs/introduction/images//print_button.png" alt="Print button" /></p>
+<p><img src="/docs/introduction/images//print_button.png" alt="Print button" /></p>
 <p>This will either</p>
 <ul>
 <li>Show a menu of possible reports for you to select from before creating a PDF. This will happen if there are more than one report defined for the <code>Requisition</code> report type.</li>
@@ -549,6 +576,35 @@ When printing, a PDF file is generated for you, which will then open in a new br
 <div class="warning">
 Ensure that your order is correct before sending it to your supplier. Once sent, no further changes can be made to finalised orders. 
 </div>
+<h2 id="approving-internal-orders">Approving internal orders<a class="zola-anchor" href="#approving-internal-orders" aria-label="Anchor link for: approving-internal-orders">🔗</a></h2>
+<h3 id="remote-approval-process">Remote approval process<a class="zola-anchor" href="#remote-approval-process" aria-label="Anchor link for: remote-approval-process">🔗</a></h3>
+<p>It is possible to configure stores, so that requisitions require approval from specified users before they can be fulfilled.
+For a full description of this process refer to the mSupply <a href="https://docs.msupply.org.nz/other_stuff:remote_authorisation">Remote Authorisation</a> documentation.</p>
+<p>To do this:</p>
+<ul>
+<li>In the requesting store, enable the store preference <code>Include requisitions from this store in supplier's remote authorisation process</code> </li>
+<li>In the supplying store, enable the store preference <code>Use remote authorisation for response requisitions</code></li>
+</ul>
+<p>For further detail on configuring store preferences, refer to the <a href="https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab">mSupply documentation</a> on the topic.</p>
+<p>When configured in this way, the requesting store will see an additional column in the internal order list, showing the approval status:</p>
+<p><img src="/docs/replenishment/images/internal_order_list_with_approval.png" alt="Internal Order: approval status columns" /></p>
+<p>And when viewing a specific internal order, there are columns showing the approved quantity, approved number of packs and a comment entered by the approver, if there is one:</p>
+<p><img src="/docs/replenishment/images/internal_order_detail_approval.png" alt="Internal order detail with approval columns" /></p>
+<p>Similarly, the supplying store will have an additional column in the requisition list view showing the approval status :</p>
+<p><img src="/docs/distribution/images/requisition_list_approval.png" alt="Internal order detail with approval columns" /></p>
+<p>And finally, a specific requisition will also have new columns, for the approved quantity and an approval comment, if one has been entered by the approver:</p>
+<p><img src="/docs/distribution/images/requisition_detail_approval.png" alt="Internal order detail with approval columns" /></p>
+<h3 id="local-approval-process">Local approval process<a class="zola-anchor" href="#local-approval-process" aria-label="Anchor link for: local-approval-process">🔗</a></h3>
+<p>Another option for implementing an approval step for internal orders is to enable what is called 'local approval'. With this, you can allow only certain users to change the status of an internal order to <code>Sent</code>. To allow a user to change the status of an internal order to <code>Sent</code>, they require the permission <code>Can confirm Internal Order as Sent</code> to be enabled.</p>
+<p>To set the permission, edit the user within mSupply and change to the <code>omSupply permissions</code> tab, shown below:</p>
+<p><img src="/docs/replenishment/images/mSupply_intord_permission.png" alt="Internal order detail with approval comment" /></p>
+<p>Without this option checked, the user will not be able to update the internal order status to <code>Sent</code> and the order is unable to be processed.</p>
+<p>On changing the status to <code>Sent</code>, the user's details are added to the comment field; this can be seen when viewing the internal order, in the details panel:</p>
+<p><img src="/docs/replenishment/images/intord_approval_comment.png" alt="Internal order detail with approval comment" /></p>
+<p>and is also shown to the approver in the remote authorisation web application if that is being used.</p>
+<p>The additional text is of the form:</p>
+<p><code>Approved by [user's full name]. Email: [user's email address] and Phone Number: [user's phone number].</code></p>
+<p>These details are taken from the user, as configured in mSupply. Refer to the <a href="https://docs.msupply.org.nz/admin:managing_users#details_tab">Managing Users</a> section on how to do this.</p>
   
 <div class="docs-navigation d-flex justify-content-between">
   

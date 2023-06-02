@@ -373,7 +373,7 @@ section Versión 2.2
 &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;Cliente o servidor Linux&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Procesador de 64 bits&lt;br&#x2F;&gt;Ubuntu 20+ o similar&lt;br&#x2F;&gt;4 Gb de RAM&lt;br&#x2F;&gt;256 Gb de almacenamiento&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Procesador de 64 bits&lt;br&#x2F;&gt;Ubuntu 20+ o similar&lt;br&#x2F;&gt;8 Gb de RAM&lt;br&#x2F;&gt;256 Gb de almacenamiento&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;tr&gt;&lt;td align=&quot;left&quot;&gt;Cliente o servidor Android&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Procesador de 64 bits&lt;br&#x2F;&gt;Android 10 o posterior&lt;br&#x2F;&gt;4 Gb de RAM&lt;br&#x2F;&gt;64 Gb de almacenamiento&lt;&#x2F;td&gt;&lt;td align=&quot;left&quot;&gt;Procesador de 64 bits&lt;br&#x2F;&gt;Android 10 o posterior&lt;br&#x2F;&gt;4 Gb de RAM&lt;br&#x2F;&gt;64 Gb de almacenamiento&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
-&lt;div class=&quot;note&quot;&gt;
+&lt;div class=&quot;nota&quot;&gt;
 La gestión de transacciones de inventario es una función fundamental en Open mSupply. Dado que la mayoría de los datos de estas transacciones son numéricos, contar con un teclado numérico puede resultar muy útil en aquellas máquinas donde se ingresa una gran cantidad de información.
 &lt;&#x2F;div&gt;
 &lt;h3 id=&quot;requisitos-para-tabletas-moviles&quot;&gt;Requisitos para tabletas &#x2F; móviles&lt;a class=&quot;zola-anchor&quot; href=&quot;#requisitos-para-tabletas-moviles&quot; aria-label=&quot;Anchor link for: requisitos-para-tabletas-moviles&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
@@ -594,7 +594,7 @@ En el siguiente ejemplo, tenemos 1542 unidades de amoxicilina disponibles en nue
 		<updated>2022-03-19T18:20:00+00:00</updated>
 		<link href="https://docs.msupply.foundation/es/docs/distribution/customers/" type="text/html"/>
 		<id>https://docs.msupply.foundation/es/docs/distribution/customers/</id>
-		<content type="html">&lt;div class=&quot;omsupdate&quot;&gt;
+		<content type="html">&lt;div class=&quot;noticia&quot;&gt;
 En este momento, solo puedes ver a tus clientes y su información. En el futuro, podrás crear y editar a tus clientes (¡siempre y cuando tengas la autorización para hacerlo!). 
 &lt;&#x2F;div&gt;
 &lt;h2 id=&quot;ver-tus-clientes&quot;&gt;Ver tus clientes&lt;a class=&quot;zola-anchor&quot; href=&quot;#ver-tus-clientes&quot; aria-label=&quot;Anchor link for: ver-tus-clientes&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
@@ -708,7 +708,7 @@ Solo puedes eliminar salidas cuyo estado sea &lt;code&gt;NUEVO&lt;&#x2F;code&gt;
 En el siguiente ejemplo, estamos emitiendo inventario al &lt;b&gt;Almacén Regional de Kamo&lt;&#x2F;b&gt;. 
 &lt;&#x2F;div&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_select_customer.gif&quot; alt=&quot;gif&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;div class=&quot;tip&quot;&gt;
+&lt;div class=&quot;consejo&quot;&gt;
 Puede saber si un cliente también está usando mSupply en su almacén. Si lo está haciendo, verá un ícono como este (&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;is_msupplystoreicon.png&quot; alt=&quot;Store&quot; style=&quot;width:auto&quot;&gt;) junto al código del proveedor. 
 &lt;&#x2F;div&gt;
 &lt;ol start=&quot;2&quot;&gt;
@@ -876,7 +876,7 @@ Imaginemos que tu cliente solo quiere un tamaño de paquete de 25 unidades. Pued
 En el siguiente ejemplo, estamos emitiendo 5 paquetes de 25 unidades:
 &lt;&#x2F;div&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_additem_issuepacks.png&quot; alt=&quot;additem!&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;div class=&quot;note&quot;&gt;
+&lt;div class=&quot;nota&quot;&gt;
 &lt;b&gt;&lt;&#x2F;b&gt; si previamente has ingresado una cantidad de unidades y cambias a una cantidad de paquetes, la cantidad de unidades se convertirá automáticamente en la cantidad correcta de paquetes.  
 &lt;&#x2F;div&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_issuepacks.gif&quot; alt=&quot;Alt Text&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
@@ -885,7 +885,7 @@ En el siguiente ejemplo, estamos emitiendo 5 paquetes de 25 unidades:
 &lt;p&gt;Independientemente de si has elegido emitir una cantidad de unidades o paquetes, siempre puedes cambiar manualmente la cantidad en el nivel del número de partida directamente antes de presionar OK. &lt;&#x2F;p&gt;
 &lt;p&gt;Simplemente tienes que ingresar o editar la cantidad en la columna &lt;code&gt;Cantidad de paquetes emitidos&lt;&#x2F;code&gt;. &lt;&#x2F;p&gt;
 &lt;p&gt;Los valores en la fila &lt;strong&gt;Total&lt;&#x2F;strong&gt; se actualizarán automáticamente con la nueva cantidad.&lt;&#x2F;p&gt;
-&lt;div class=&quot;note&quot;&gt;
+&lt;div class=&quot;nota&quot;&gt;
  &lt;b&gt;&lt;&#x2F;b&gt; cuando asignas cantidades en el nivel del número de partida, la cantidad que ingreses siempre será una cantidad de paquetes. 
 &lt;&#x2F;div&gt;
 &lt;figure&gt;
@@ -922,7 +922,7 @@ Tenga en cuenta que las listas que se muestran son aquellas que son visibles par
 &lt;h2 id=&quot;editar-una-linea-de-salida&quot;&gt;Editar una línea de salida&lt;a class=&quot;zola-anchor&quot; href=&quot;#editar-una-linea-de-salida&quot; aria-label=&quot;Anchor link for: editar-una-linea-de-salida&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Para editar una línea de envío, selecciónela. Se abrirá la ventana&lt;code&gt;Editar Artículo&lt;&#x2F;code&gt;, que es idéntica a la ventana &lt;code&gt;Agregar Artículo&lt;&#x2F;code&gt;, excepto que el artículo ya está seleccionado. &lt;&#x2F;p&gt;
 &lt;h3 id=&quot;editar-una-linea-de-envio&quot;&gt;Editar una línea de envío&lt;a class=&quot;zola-anchor&quot; href=&quot;#editar-una-linea-de-envio&quot; aria-label=&quot;Anchor link for: editar-una-linea-de-envio&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;div class=&quot;note&quot;&gt;
+&lt;div class=&quot;nota&quot;&gt;
  &lt;b&gt;&lt;&#x2F;b&gt; puede editar una línea de envío si el estado del envío es inferior a &lt;code&gt;Enviado&lt;&#x2F;code&gt;. 
 &lt;&#x2F;div&gt;
 &lt;ol&gt;
@@ -937,7 +937,7 @@ Tenga en cuenta que las listas que se muestran son aquellas que son visibles par
 &lt;&#x2F;ul&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
-&lt;div class=&quot;note&quot;&gt;
+&lt;div class=&quot;nota&quot;&gt;
  &lt;b&gt;&lt;&#x2F;b&gt; Al editar una línea de envío, no puede cambiar el artículo. Deberá eliminar la línea de envío y crear una nueva. 
 &lt;&#x2F;div&gt;
 &lt;h3 id=&quot;eliminar-una-linea-de-envio&quot;&gt;Eliminar una línea de envío&lt;a class=&quot;zola-anchor&quot; href=&quot;#eliminar-una-linea-de-envio&quot; aria-label=&quot;Anchor link for: eliminar-una-linea-de-envio&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
@@ -952,7 +952,7 @@ Tenga en cuenta que las listas que se muestran son aquellas que son visibles par
 En el siguiente ejemplo, estamos eliminando e &lt;i&gt;artículo 030063 - Tabletas de ácido acetilsalicílico de 100 mg&lt;&#x2F;i&gt;
 &lt;&#x2F;div&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_deleteselectedlines.gif&quot; alt=&quot;Alt Text&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;div class=&quot;tip&quot;&gt;
+&lt;div class=&quot;consejo&quot;&gt;
  &lt;b&gt;&lt;&#x2F;b&gt; Puedes eliminar varias líneas a la vez. Asegúrate de revisar lo que está seleccionado antes de realizar la acción de eliminación. 
 &lt;&#x2F;div&gt;
 &lt;h2 id=&quot;procesar-una-salida&quot;&gt;Procesar una salida&lt;a class=&quot;zola-anchor&quot; href=&quot;#procesar-una-salida&quot; aria-label=&quot;Anchor link for: procesar-una-salida&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
@@ -971,7 +971,7 @@ En el siguiente ejemplo, estamos eliminando e &lt;i&gt;artículo 030063 - Tablet
 &lt;&#x2F;ul&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
-&lt;div class=&quot;note&quot;&gt;
+&lt;div class=&quot;nota&quot;&gt;
 No podrás procesar tu salida si tienes líneas no asignadas (líneas de envío sin número(s) de lote asignado(s)) con una cantidad mayor que 0. Puedes esperar a que llegue más stock o puedes eliminar las líneas de marcador de posición. Cualquier línea no asignada con una cantidad de 0 se eliminará automáticamente cuando asignes.
 &lt;&#x2F;div&gt;
 &lt;h3 id=&quot;confirmacion-de-asignacion-de-una-salida&quot;&gt;Confirmación de asignación de una salida&lt;a class=&quot;zola-anchor&quot; href=&quot;#confirmacion-de-asignacion-de-una-salida&quot; aria-label=&quot;Anchor link for: confirmacion-de-asignacion-de-una-salida&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
@@ -1177,7 +1177,7 @@ Para abrir y cerrar el menú puedes hacer clic en el logo en la parte superior, 
 &lt;li&gt;Si lo hay, un &lt;strong&gt;comentario&lt;&#x2F;strong&gt; sobre la toma de inventario&lt;&#x2F;li&gt;
 &lt;li&gt;La &lt;strong&gt;fecha&lt;&#x2F;strong&gt; de la verificación de inventario&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;div class=&quot;warning&quot;&gt;
+&lt;div class=&quot;aviso&quot;&gt;
 No tiene mucho sentido mantener antiguas tomas de inventario con estado = &lt;code&gt;NUEVO&lt;&#x2F;code&gt;, especialmente si estás a punto de crear una que contiene los mismos elementos. De hecho, puede ser bastante peligroso dejar antiguas tomas de inventario con estado  &lt;code&gt;NUEVO&lt;&#x2F;code&gt; en tu sistema. Si ha pasado un tiempo desde que se creó la toma de inventario, es casi seguro que las cantidades de la instantánea y las cantidades reales sean incorrectas. Por razones de limpieza, es una buena práctica eliminar las antiguas tomas de inventario &lt;code&gt;NUEVO&lt;&#x2F;code&gt;.
 &lt;&#x2F;div&gt;
 &lt;h2 id=&quot;crear-una-nueva-toma-de-inventario&quot;&gt;Crear una nueva toma de inventario&lt;a class=&quot;zola-anchor&quot; href=&quot;#crear-una-nueva-toma-de-inventario&quot; aria-label=&quot;Anchor link for: crear-una-nueva-toma-de-inventario&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
@@ -1187,9 +1187,9 @@ No tiene mucho sentido mantener antiguas tomas de inventario con estado = &lt;co
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;images&#x2F;stocktake_additem2.png&quot; alt=&quot;Stocktake: Add item&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Haz clic en aceptar cuando hayas seleccionado la opción que deseas. &lt;&#x2F;p&gt;
 &lt;p&gt;Luego se creará la toma de inventario y las líneas de stock existentes se utilizarán para poblar los valores de lote, vencimiento, tamaño de paquete y número de instantánea de paquetes. Las líneas se muestran en color azul claro y cambiarán a negro cuando se ingrese un valor para la cantidad contada.&lt;&#x2F;p&gt;
-&lt;div class=&quot;note&quot;&gt;No es posible editar el tamaño del paquete de las filas del inventario que están vinculadas a una línea de inventario existente. Si desea cambiar el tamaño del paquete, deberá eliminar la fila y agregar una nueva fila o filas según sea necesario..&lt;&#x2F;div&gt;
+&lt;div class=&quot;nota&quot;&gt;No es posible editar el tamaño del paquete de las filas del inventario que están vinculadas a una línea de inventario existente. Si desea cambiar el tamaño del paquete, deberá eliminar la fila y agregar una nueva fila o filas según sea necesario..&lt;&#x2F;div&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;images&#x2F;stocktake-placeholders.png&quot; alt=&quot;Stocktake with placeholders&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;div class=&quot;tip&quot;&gt;
+&lt;div class=&quot;consejo&quot;&gt;
 No te preocupes si un elemento falta en tu nueva toma de inventario. Después tendrás la posibilidad de agregar más elementos a tu toma de inventario. 
 &lt;&#x2F;div&gt;
 &lt;h3 id=&quot;ingresar-razones&quot;&gt;Ingresar razones&lt;a class=&quot;zola-anchor&quot; href=&quot;#ingresar-razones&quot; aria-label=&quot;Anchor link for: ingresar-razones&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
@@ -1303,7 +1303,7 @@ Al imprimir, se genera un archivo PDF para ti, que se abrirá en una nueva pesta
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
 &lt;p&gt;Una notificación confirma cuántos envíos se eliminaron (en la esquina inferior izquierda).&lt;&#x2F;p&gt;
-&lt;div class=&quot;note&quot;&gt;
+&lt;div class=&quot;nota&quot;&gt;
 Solo puedes eliminar Entradas con estado &lt;code&gt;NUEVO&lt;&#x2F;code&gt;.
 &lt;&#x2F;div&gt;
 &lt;h2 id=&quot;crear-una-nueva-entrada-manual&quot;&gt;Crear una nueva entrada manual&lt;a class=&quot;zola-anchor&quot; href=&quot;#crear-una-nueva-entrada-manual&quot; aria-label=&quot;Anchor link for: crear-una-nueva-entrada-manual&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
@@ -1316,7 +1316,7 @@ Solo puedes eliminar Entradas con estado &lt;code&gt;NUEVO&lt;&#x2F;code&gt;.
 &lt;ol&gt;
 &lt;li&gt;En la proveedores &lt;code&gt;Proveedores&lt;&#x2F;code&gt;, se te presentará una lista de proveedores. Puedes seleccionar a tu proveedor de la lista o escribir parte del nombre del proveedor.&lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
-&lt;div class=&quot;tip&quot;&gt;
+&lt;div class=&quot;consejo&quot;&gt;
 Puedes saber si un proveedor también utiliza mSupply en su tienda. Si es así, verás un ícono como este (&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;images&#x2F;is_msupplystoreicon.png&quot; alt=&quot;Store&quot; style=&quot;width:auto&quot;&gt;) junto al código del proveedor. 
 &lt;&#x2F;div&gt;
 &lt;div class=&quot;imagetitle&quot;&gt;
@@ -1346,7 +1346,7 @@ En el siguiente ejemplo, estamos reemplazando &lt;b&gt;Tamaki Central Medical St
 &lt;li&gt;Detalles de la Factura&lt;&#x2F;li&gt;
 &lt;li&gt;Detalles del Transporte&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;div class=&quot;omsupdate&quot;&gt;
+&lt;div class=&quot;noticia&quot;&gt;
 Estamos planeando agregar más secciones en el futuro a medida que Open mSupply crezca 
 &lt;&#x2F;div&gt;
 &lt;h4 id=&quot;como-abrir-y-cerrar-el-panel-de-informacion&quot;&gt;Cómo abrir y cerrar el Panel de Información?&lt;a class=&quot;zola-anchor&quot; href=&quot;#como-abrir-y-cerrar-el-panel-de-informacion&quot; aria-label=&quot;Anchor link for: como-abrir-y-cerrar-el-panel-de-informacion&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
@@ -1469,7 +1469,7 @@ En el siguiente ejemplo, estamos recibiendo 2 números de lote para el artículo
 &lt;li&gt;&lt;strong&gt;Cantidad de unidad&lt;&#x2F;strong&gt; (solo lectura): Número total de unidades para el número de lote&lt;&#x2F;li&gt;
 &lt;li&gt;&lt;strong&gt;Total de línea&lt;&#x2F;strong&gt; (solo lectura): Valor total de compra para el número de lote (&lt;code&gt;[Cantidad de unidad] x [Costo]&lt;&#x2F;code&gt;) &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;div class=&quot;warning&quot;&gt;
+&lt;div class=&quot;aviso&quot;&gt;
 Los precios de venta y costo son por unidad y no por paquete. 
 &lt;&#x2F;div&gt;
 &lt;div class=&quot;imagetitle&quot;&gt;
@@ -1480,7 +1480,7 @@ En el siguiente ejemplo, el precio de venta es de $12 por unidad y el precio de 
 &lt;p&gt;En la tercera pestaña, &lt;code&gt;Ubicación&lt;&#x2F;code&gt;, puedes seleccionar una ubicación de almacenamiento para asignar el número de lote a una ubicación en tu almacén. &lt;&#x2F;p&gt;
 &lt;p&gt;Simplemente selecciona una ubicación de almacenamiento en el menú desplegable  &lt;code&gt;Ubicación&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;images&#x2F;is_additem_location.png&quot; alt=&quot;Add Item location&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;div class=&quot;note&quot;&gt;
+&lt;div class=&quot;nota&quot;&gt;
 ¿No conoces la ubicación de almacenamiento todavía? No es necesario que la captures de inmediato. Puedes actualizar la ubicación de almacenamiento en cualquier momento si aún no has confirmado la verificación. 
 &lt;&#x2F;div&gt;
 &lt;h3 id=&quot;confirmar-el-articulo-y-las-cantidades&quot;&gt;Confirmar el artículo y las cantidades&lt;a class=&quot;zola-anchor&quot; href=&quot;#confirmar-el-articulo-y-las-cantidades&quot; aria-label=&quot;Anchor link for: confirmar-el-articulo-y-las-cantidades&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
@@ -1492,7 +1492,7 @@ En el siguiente ejemplo, el precio de venta es de $12 por unidad y el precio de 
 &lt;p&gt;De lo contrario, puedes presionar &lt;code&gt;Cancelar&lt;&#x2F;code&gt; y tusd cambios no se guardarán. &lt;&#x2F;p&gt;
 &lt;h2 id=&quot;anadir-lineas-a-una-entrada-utilizando-una-lista-maestra&quot;&gt;Añadir líneas a una entrada utilizando una lista maestra&lt;a class=&quot;zola-anchor&quot; href=&quot;#anadir-lineas-a-una-entrada-utilizando-una-lista-maestra&quot; aria-label=&quot;Anchor link for: anadir-lineas-a-una-entrada-utilizando-una-lista-maestra&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Haz clic en el botón &lt;code&gt;Añadir desde lista maestra&lt;&#x2F;code&gt; (esquina superior derecha). &lt;&#x2F;p&gt;
-&lt;div class=&quot;note&quot;&gt;
+&lt;div class=&quot;nota&quot;&gt;
 El botón estará desactivado si el estado de la entrada es cualquier cosa que no sea &lt;code&gt;Nuevo&lt;&#x2F;code&gt;
 &lt;&#x2F;div&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os-add-from-master-list-button.png&quot; alt=&quot;Add Item button&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
@@ -1506,7 +1506,7 @@ El botón estará desactivado si el estado de la entrada es cualquier cosa que n
 &lt;h2 id=&quot;editar-una-linea-de-una-entrada&quot;&gt;Editar una línea de una entrada&lt;a class=&quot;zola-anchor&quot; href=&quot;#editar-una-linea-de-una-entrada&quot; aria-label=&quot;Anchor link for: editar-una-linea-de-una-entrada&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Para editar una línea de una entrada, simplemente toca en ella. Se abrirá la ventana &lt;code&gt;Editar artículo&lt;&#x2F;code&gt;, que es idéntica a la ventana &lt;code&gt;Agregar artículo&lt;&#x2F;code&gt;, excepto que el elemento ya está seleccionado y no se puede modificar. &lt;&#x2F;p&gt;
 &lt;h3 id=&quot;editar-una-linea-de-envio&quot;&gt;Editar una línea de envío&lt;a class=&quot;zola-anchor&quot; href=&quot;#editar-una-linea-de-envio&quot; aria-label=&quot;Anchor link for: editar-una-linea-de-envio&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;div class=&quot;note&quot;&gt;
+&lt;div class=&quot;nota&quot;&gt;
  &lt;b&gt;&lt;&#x2F;b&gt; Puedes editar una línea de envío si el estado del envío es menor que &lt;code&gt;Verificado&lt;&#x2F;code&gt;. 
 &lt;&#x2F;div&gt;
 &lt;ol&gt;
@@ -1521,7 +1521,7 @@ El botón estará desactivado si el estado de la entrada es cualquier cosa que n
 &lt;&#x2F;ul&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
-&lt;div class=&quot;note&quot;&gt;
+&lt;div class=&quot;nota&quot;&gt;
  &lt;b&gt;&lt;&#x2F;b&gt; Cuando editas una línea de envío, no puedes cambiar el artículo. Deberás eliminar la línea de envío y crear una nueva. 
 &lt;&#x2F;div&gt;
 &lt;h3 id=&quot;eliminar-una-linea-de-envio&quot;&gt;Eliminar una línea de envío&lt;a class=&quot;zola-anchor&quot; href=&quot;#eliminar-una-linea-de-envio&quot; aria-label=&quot;Anchor link for: eliminar-una-linea-de-envio&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
@@ -1537,7 +1537,7 @@ El botón estará desactivado si el estado de la entrada es cualquier cosa que n
 En el siguiente ejemplo, estamos eliminando &lt;i&gt;item 030453 - Amoxicillina 250mg tabs&lt;&#x2F;i&gt;
 &lt;&#x2F;div&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;images&#x2F;is_deleteselectedlines.gif&quot; alt=&quot;Alt Text&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;div class=&quot;tip&quot;&gt;
+&lt;div class=&quot;consejo&quot;&gt;
 Puedes eliminar varias líneas a la vez. Asegúrate de revisar lo que está seleccionado antes de realizar la acción de Eliminar. 
 &lt;&#x2F;div&gt;
 &lt;h2 id=&quot;recibir-inventario-con-una-entrada&quot;&gt;Recibir inventario con una entrada&lt;a class=&quot;zola-anchor&quot; href=&quot;#recibir-inventario-con-una-entrada&quot; aria-label=&quot;Anchor link for: recibir-inventario-con-una-entrada&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
@@ -1545,10 +1545,10 @@ Puedes eliminar varias líneas a la vez. Asegúrate de revisar lo que está sele
 &lt;p&gt;Ya sea que su envío de entrada sea &lt;strong&gt;manual&lt;&#x2F;strong&gt; o &lt;strong&gt;automatico&lt;&#x2F;strong&gt;, el primer paso para recibir la mercancía es confirmar la entrega&lt;&#x2F;p&gt;
 &lt;p&gt;En esta etapa, no tiene que verificar si las cantidades u otra información son correctas, solo tiene que reconocer que ha recibido la mercancía de su proveedor. &lt;&#x2F;p&gt;
 &lt;p&gt;Para confirmar que se ha entregado una entrada, haga clic en el botón &lt;code&gt;Confirmar Entrega&lt;&#x2F;code&gt;. &lt;&#x2F;p&gt;
-&lt;div class=&quot;note&quot;&gt;
+&lt;div class=&quot;nota&quot;&gt;
 En caso de que su Envío de entrada sea &lt;b&gt;automatico&lt;&#x2F;b&gt;, no puede confirmar su entrega a menos que el proveedor haya confirmado su envío. En otras palabras, su estado de envío debe ser &lt;code&gt;ENVIADO&lt;&#x2F;code&gt; antes de que pueda confirmar que ha recibido la mercancía. 
 &lt;&#x2F;div&gt;
-&lt;div class=&quot;note&quot;&gt;
+&lt;div class=&quot;nota&quot;&gt;
 Cualquier línea no asignada con un valor de 0 para el número de paquetes se eliminará automáticamente cuando lo confirme.
 &lt;&#x2F;div&gt;
 &lt;h3 id=&quot;verifica-tu-entrada&quot;&gt;Verifica tu entrada&lt;a class=&quot;zola-anchor&quot; href=&quot;#verifica-tu-entrada&quot; aria-label=&quot;Anchor link for: verifica-tu-entrada&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
@@ -1682,12 +1682,12 @@ En el ejemplo siguiente, la cantidad objetivo es de 62 unidades. Dado que ya ten
 &lt;p&gt;Ahora todos los artículos de la lista maestra aparecerán en tu pedido. Si habías agregado previamente algún artículo individualmente, se agregarán los artículos que no estén ya incluidos. &lt;&#x2F;p&gt;
 &lt;p&gt;Para cambiar la &lt;strong&gt;Cantidad del pedido&lt;&#x2F;strong&gt; toca en la línea del pedido correspondiente o toca en el botón &lt;code&gt;Sugerido a Pedido&lt;&#x2F;code&gt; &lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;images&#x2F;intord_addfromml.gif&quot; alt=&quot;Internal Order: add from master list&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;div class=&quot;note&quot;&gt; 
+&lt;div class=&quot;nota&quot;&gt; 
 Las listas maestras se definen y asignan a los almacenes a nivel del servidor central. Solo podrás ver las listas maestras que son visibles para tu almacén. 
 &lt;br&gt; &lt;br&gt;
 Si no encuentras la lista maestra que estás buscando y deseas crear una nueva, por favor contacta a tu administrador.
 &lt;&#x2F;div&gt;
-&lt;div class=&quot;tip&quot;&gt;
+&lt;div class=&quot;consejo&quot;&gt;
 You can create internal orders from multiple master lists by repeating above actions with another master list. 
 &lt;&#x2F;div&gt;
 &lt;h3 id=&quot;reading-the-internal-order-s-list&quot;&gt;Reading the Internal Order&#x27;s list&lt;a class=&quot;zola-anchor&quot; href=&quot;#reading-the-internal-order-s-list&quot; aria-label=&quot;Anchor link for: reading-the-internal-order-s-list&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
@@ -1723,7 +1723,7 @@ Al imprimir, se generará un archivo PDF que se abrirá en una nueva pestaña de
 &lt;li&gt;Se abrirá una ventana de diálogo que te preguntará si estás seguro de querer enviar la orden. Haz clic en &lt;code&gt;Aceptar&lt;&#x2F;code&gt; para continuar&lt;&#x2F;li&gt;
 &lt;li&gt;El estado de tu orden ahora es &lt;code&gt;ENVIADO&lt;&#x2F;code&gt; y la orden ya no es editable&lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
-&lt;div class=&quot;warning&quot;&gt;
+&lt;div class=&quot;aviso&quot;&gt;
 Asegúrate de que tu orden sea correcta antes de enviarla a tu proveedor. Una vez enviada, no se pueden realizar más cambios en órdenes finalizadas.
 &lt;&#x2F;div&gt;
 </content>
@@ -1735,7 +1735,7 @@ Asegúrate de que tu orden sea correcta antes de enviarla a tu proveedor. Una ve
 		<link href="https://docs.msupply.foundation/es/docs/replenishment/suppliers/" type="text/html"/>
 		<id>https://docs.msupply.foundation/es/docs/replenishment/suppliers/</id>
 		<content type="html">&lt;p&gt;En mSupply, un proveedor es una entidad que envía inventario a tu almacén.&lt;&#x2F;p&gt;
-&lt;div class=&quot;omsupdate&quot;&gt;
+&lt;div class=&quot;noticia&quot;&gt;
 En este momento, solo puedes ver tu proveedor y sus detalles. En el futuro, podrás crear y editar tus clientes (¡si tienes autorización para hacerlo!).
 &lt;&#x2F;div&gt;
 &lt;h2 id=&quot;ver-tus-proveedores&quot;&gt;Ver tus proveedores&lt;a class=&quot;zola-anchor&quot; href=&quot;#ver-tus-proveedores&quot; aria-label=&quot;Anchor link for: ver-tus-proveedores&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;

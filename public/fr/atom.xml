@@ -376,14 +376,14 @@ Dans l&#x27;exemple ci-dessous, nous avons 1542 unités d&#x27;amoxicilline disp
 		<updated>2022-03-19T18:20:00+00:00</updated>
 		<link href="https://docs.msupply.foundation/fr/docs/distribution/customers/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/distribution/customers/</id>
-		<content type="html">&lt;div class=&quot;omsupdate&quot;&gt;
+		<content type="html">&lt;div class=&quot;mise-a-jour&quot;&gt;
 Pour le moment, vous ne pouvez voir que vos clients et leurs informations. À l&#x27;avenir, vous pourrez créer et modifier vos clients (à condition d&#x27;en avoir l&#x27;autorisation !). 
 &lt;&#x2F;div&gt;
 &lt;h2 id=&quot;voir-les-clients&quot;&gt;Voir les Clients&lt;a class=&quot;zola-anchor&quot; href=&quot;#voir-les-clients&quot; aria-label=&quot;Anchor link for: voir-les-clients&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Pour voir les clients de votre dépôt, allez dans le menu  &lt;code&gt;Distribution&lt;&#x2F;code&gt; ensuite &lt;code&gt;Clients&lt;&#x2F;code&gt;. &lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;cust_gotocust2_fr.png&quot; alt=&quot;Page&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Une liste de clients visibles dans votre dépôt vous sera présentée. &lt;&#x2F;p&gt;
-&lt;div class=&quot;note&quot;&gt;
+&lt;div class=&quot;remarque&quot;&gt;
 Vous ne pouvez voir que les clients qui sont visibles pour votre dépôt. Il peut y avoir plus de clients dans l&#x27;organisation que vous n&#x27;en voyez dans votre dépôt.  
 &lt;br&gt;
 &lt;br&gt;
@@ -461,7 +461,7 @@ La fonction Expédition est utilisée pour:&lt;&#x2F;p&gt;
 &lt;p&gt;Une notification confirme le nombre d&#x27;expéditions supprimées (coin inférieur gauche). &lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
-&lt;div class=&quot;note&quot;&gt;
+&lt;div class=&quot;remarque&quot;&gt;
 Vous ne pouvez supprimer que les expéditions avec un statut &lt;code&gt;NOUVEAU&lt;&#x2F;code&gt;.
 &lt;&#x2F;div&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_list_deleteshipment.gif&quot; alt=&quot;Outbound list: delete&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
@@ -486,7 +486,7 @@ Vous ne pouvez supprimer que les expéditions avec un statut &lt;code&gt;NOUVEAU
 Dans l&#x27;exemple ci-dessous, du stock sera livré au client &lt;b&gt;Kamo Regional Warehouse&lt;&#x2F;b&gt;. 
 &lt;&#x2F;div&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_select_customer.gif&quot; alt=&quot;gif&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;div class=&quot;tip&quot;&gt;
+&lt;div class=&quot;conseil&quot;&gt;
 Vous pouvez savoir si un client utilise également mSupply dans son dépôt. Si c&#x27;est le cas, vous verrez cette icône (&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;is_msupplystoreicon.png&quot; alt=&quot;Store&quot; style=&quot;width:auto&quot;&gt;) près du code du fournisseur. 
 &lt;&#x2F;div&gt;
 &lt;ol start=&quot;2&quot;&gt;
@@ -653,7 +653,7 @@ Let&#x27;s imagine that your customer only wants pack size of 12 units. You can 
 In below example, we are issuing 10 packs of 12 units:
 &lt;&#x2F;div&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_additem_issuepacks.png&quot; alt=&quot;additem!&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;div class=&quot;note&quot;&gt;
+&lt;div class=&quot;remarque&quot;&gt;
 &lt;b&gt;&lt;&#x2F;b&gt; if you had previously entered a quantity of units and you switch to a quantity a packs, the quantity of units will automatically be converted into the correct quantity of packs.  
 &lt;&#x2F;div&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_issuepacks.gif&quot; alt=&quot;Alt Text&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
@@ -662,7 +662,7 @@ In below example, we are issuing 10 packs of 12 units:
 &lt;p&gt;Regardless if you chose to issue a quantity of units or packs, you can always manually change the quantity at the batch number level directly before pressing on OK. &lt;&#x2F;p&gt;
 &lt;p&gt;You simply have to enter or edit the quantity in the &lt;code&gt;# Packs&lt;&#x2F;code&gt; column. &lt;&#x2F;p&gt;
 &lt;p&gt;The main &lt;code&gt;Issue Quantity&lt;&#x2F;code&gt; field will be automatically updated with the new quantity.&lt;&#x2F;p&gt;
-&lt;div class=&quot;note&quot;&gt;
+&lt;div class=&quot;remarque&quot;&gt;
  &lt;b&gt;&lt;&#x2F;b&gt; when allocating quantities at the batch number level, the quantity you enter is always a quantity of packs. 
 &lt;&#x2F;div&gt;
 &lt;figure&gt;
@@ -688,7 +688,7 @@ Since there is no stock available for &lt;i&gt;042744-Diazepam Injection 5mg&#x2
 &lt;h2 id=&quot;editing-an-outbound-shipment-line&quot;&gt;Editing an Outbound Shipment Line&lt;a class=&quot;zola-anchor&quot; href=&quot;#editing-an-outbound-shipment-line&quot; aria-label=&quot;Anchor link for: editing-an-outbound-shipment-line&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;To edit an shipment line, tap on it. You will be presented with the &lt;code&gt;Edit Item&lt;&#x2F;code&gt; window, which is identical to the &lt;code&gt;Add Item&lt;&#x2F;code&gt; window, except that the item is already chosen. &lt;&#x2F;p&gt;
 &lt;h3 id=&quot;edit-a-shipment-line&quot;&gt;Edit a Shipment Line&lt;a class=&quot;zola-anchor&quot; href=&quot;#edit-a-shipment-line&quot; aria-label=&quot;Anchor link for: edit-a-shipment-line&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;div class=&quot;note&quot;&gt;
+&lt;div class=&quot;remarque&quot;&gt;
  &lt;b&gt;&lt;&#x2F;b&gt; you can edit a shipment line if the shipment has a status lower than &lt;code&gt;Shipped&lt;&#x2F;code&gt;. 
 &lt;&#x2F;div&gt;
 &lt;ol&gt;
@@ -703,7 +703,7 @@ Since there is no stock available for &lt;i&gt;042744-Diazepam Injection 5mg&#x2
 &lt;&#x2F;ul&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
-&lt;div class=&quot;note&quot;&gt;
+&lt;div class=&quot;remarque&quot;&gt;
  &lt;b&gt;&lt;&#x2F;b&gt; When editing a shipment line, you cannot change the item. You would need to delete the shipment line and to create a new one. 
 &lt;&#x2F;div&gt;
 &lt;h3 id=&quot;delete-a-shipment-line&quot;&gt;Delete a Shipment line&lt;a class=&quot;zola-anchor&quot; href=&quot;#delete-a-shipment-line&quot; aria-label=&quot;Anchor link for: delete-a-shipment-line&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
@@ -718,7 +718,7 @@ Since there is no stock available for &lt;i&gt;042744-Diazepam Injection 5mg&#x2
 In below example, we are deleting &lt;i&gt;item 030063 - Acetylsalicylic Acid 100mg tabs&lt;&#x2F;i&gt;
 &lt;&#x2F;div&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;images&#x2F;os_deleteselectedlines.gif&quot; alt=&quot;Alt Text&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;div class=&quot;tip&quot;&gt;
+&lt;div class=&quot;conseil&quot;&gt;
  &lt;b&gt;&lt;&#x2F;b&gt; You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
 &lt;&#x2F;div&gt;
 &lt;h2 id=&quot;processing-an-outbound-shipment&quot;&gt;Processing an Outbound Shipment&lt;a class=&quot;zola-anchor&quot; href=&quot;#processing-an-outbound-shipment&quot; aria-label=&quot;Anchor link for: processing-an-outbound-shipment&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
@@ -737,7 +737,7 @@ In below example, we are deleting &lt;i&gt;item 030063 - Acetylsalicylic Acid 10
 &lt;&#x2F;ul&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
-&lt;div class=&quot;note&quot;&gt;
+&lt;div class=&quot;remarque&quot;&gt;
 You won&#x27;t be able to process your Outbound Shipment if you have unallocated lines (shipment lines without batch number(s) assigned to it). You can wait for more stock to arrive or you can delete the placeholder lines. 
 &lt;&#x2F;div&gt;
 &lt;h3 id=&quot;confirming-an-outbound-shipment-s-allocation&quot;&gt;Confirming an Outbound Shipment&#x27;s allocation&lt;a class=&quot;zola-anchor&quot; href=&quot;#confirming-an-outbound-shipment-s-allocation&quot; aria-label=&quot;Anchor link for: confirming-an-outbound-shipment-s-allocation&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
@@ -915,7 +915,7 @@ Si vous vous êtes déjà connecté, et changé de dépôt, alors le dépôt le 
 &lt;li&gt;&lt;strong&gt;Code&lt;&#x2F;strong&gt;: Entrez un code pour le nouvel emplacement&lt;&#x2F;li&gt;
 &lt;li&gt;&lt;strong&gt;En Attente&lt;&#x2F;strong&gt; (case à cocher): Si vous cochez cette case, les stocks dans cet emplacement ne peuvent être servis aux clients. Le stock peut entrer et sortir de cet emplacement mais ne peut être directement destiné à un client. &lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
-&lt;div class=&quot;tip&quot;&gt;
+&lt;div class=&quot;conseil&quot;&gt;
 Mettre un emplacement En Attente peut être utile si: 
 &lt;br&gt;&lt;br&gt;
 - Le stock doit être empêché d&#x27;être servi jusqu&#x27;à une inspection &#x2F; approbation (par exemple, quarantaine ou sous caution)
@@ -964,7 +964,7 @@ Mettre un emplacement En Attente peut être utile si:
 &lt;li&gt;Le cas échéant, un commentaire sur le stock&lt;&#x2F;li&gt;
 &lt;li&gt;La date de l&#x27;inventaire&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;div class=&quot;warning&quot;&gt;
+&lt;div class=&quot;avertissement&quot;&gt;
 Il ne sert à rien de conserver les anciens inventaires avec status = NEW, surtout si vous êtes sur le point de créer un nouvel inventaire contenant les mêmes éléments. En effet, il peut être assez dangereux de laisser d&#x27;anciens inventaires avec statut NEW dans votre système. Si du temps s&#x27;est écoulé depuis la création de l&#x27;inventaire, l&#x27;instantané et les quantités réelles sont presque certainement incorrects. Pour des raisons de bonne gestion, il est recommandé de supprimer les anciens NEW inventaires. &lt;&#x2F;div&gt;
 &lt;h2 id=&quot;creation-d-un-nouvel-inventaire&quot;&gt;Création d&#x27;un nouvel inventaire&lt;a class=&quot;zola-anchor&quot; href=&quot;#creation-d-un-nouvel-inventaire&quot; aria-label=&quot;Anchor link for: creation-d-un-nouvel-inventaire&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;Commençons un nouvel inventaire. Pour ce faire, appuyez sur le New Stocktakebouton dans le coin droit de l&#x27;écran&lt;&#x2F;p&gt;
@@ -972,7 +972,7 @@ Il ne sert à rien de conserver les anciens inventaires avec status = NEW, surto
 &lt;p&gt;Une fenêtre apparaît, vous invitant à sélectionner les éléments à comptabiliser :&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;inventory&#x2F;images&#x2F;stocktake_additem2.png&quot; alt=&quot;Stocktake: Add item&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Cliquez sur OK lorsque vous avez sélectionné l&#x27;option souhaitée.&lt;&#x2F;p&gt;
-&lt;div class=&quot;tip&quot;&gt;
+&lt;div class=&quot;conseil&quot;&gt;
 Ne vous inquiétez pas s&#x27;il manque un élément dans votre inventaire nouvellement créé. Vous aurez la possibilité d&#x27;ajouter d&#x27;autres articles à votre inventaire par la suite. 
 &lt;&#x2F;div&gt;
 &lt;h3 id=&quot;impression-de-la-feuille-d-inventaire&quot;&gt;Impression de la feuille d&#x27;inventaire&lt;a class=&quot;zola-anchor&quot; href=&quot;#impression-de-la-feuille-d-inventaire&quot; aria-label=&quot;Anchor link for: impression-de-la-feuille-d-inventaire&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
@@ -1076,7 +1076,7 @@ Ne vous inquiétez pas s&#x27;il manque un élément dans votre inventaire nouve
 &lt;p&gt;Une notification confirme le nombre de livraisons supprimées (coin inférieur gauche)&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
-&lt;div class=&quot;note&quot;&gt;
+&lt;div class=&quot;remarque&quot;&gt;
 Vous ne pouvez supprimer que les expéditions avec un statut &lt;code&gt;NOUVEAU&lt;&#x2F;code&gt;.
 &lt;&#x2F;div&gt;
 &lt;h2 id=&quot;creer-une-nouvelle-livraison-manuelle&quot;&gt;Créer une nouvelle livraison manuelle&lt;a class=&quot;zola-anchor&quot; href=&quot;#creer-une-nouvelle-livraison-manuelle&quot; aria-label=&quot;Anchor link for: creer-une-nouvelle-livraison-manuelle&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
@@ -1089,7 +1089,7 @@ Vous ne pouvez supprimer que les expéditions avec un statut &lt;code&gt;NOUVEAU
 &lt;ol&gt;
 &lt;li&gt;Dans la fenêtre &lt;code&gt;Fournisseurs&lt;&#x2F;code&gt;, vous verrez afficher une liste de fournisseurs. Vous pouvez sélectionner directement ou saisir le nom d&#x27;un fournisseur. &lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
-&lt;div class=&quot;tip&quot;&gt;
+&lt;div class=&quot;conseil&quot;&gt;
 Vous pouvez savoir si un fournisseur utilise également mSupply dans son dépôt. Si c&#x27;est le cas, vous verrez une icône comme celle-ci (&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;images&#x2F;is_msupplystoreicon.png&quot; alt=&quot;Store&quot; style=&quot;width:auto&quot;&gt;) à côté du code fournisseur. 
 &lt;&#x2F;div&gt;
 &lt;div class=&quot;imagetitle&quot;&gt;
@@ -1103,7 +1103,7 @@ Dans l&#x27;exemple ci-dessous, nous recevons du stock de &lt;b&gt;Tamaki Centra
 Si tout s&#x27;est bien passé, vous devriez voir le nom de votre fournisseur dans le coin supérieur gauche et le statut actuel devrait être &lt;code&gt;LIVRE&lt;&#x2F;code&gt;.
 &lt;&#x2F;div&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;images&#x2F;is_newinboundshipment_fr.png&quot; alt=&quot;New manual Inbound Shipment&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;div class=&quot;note&quot;&gt;
+&lt;div class=&quot;remarque&quot;&gt;
 Lorsque vous créez une &lt;b&gt;nouvelle&lt;&#x2F;b&gt; livraison manuelle, mSupply admet que la livraison a été exécutée par le fournisseur et que vous êtes sur le point de réceptionner les articles. &lt;br &#x2F;&gt; Raison pour laquelle le statut d&#x27;une livraison manuelle a toujours la valeur &lt;code&gt;LIVRE&lt;&#x2F;code&gt;.
 &lt;&#x2F;div&gt;
 &lt;h3 id=&quot;modifier-le-nom-du-fournisseur&quot;&gt;Modifier le nom du Fournisseur&lt;a class=&quot;zola-anchor&quot; href=&quot;#modifier-le-nom-du-fournisseur&quot; aria-label=&quot;Anchor link for: modifier-le-nom-du-fournisseur&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
@@ -1122,7 +1122,7 @@ Dans l&#x27;exemple ci-dessous, nous remplaçons &lt;b&gt;Tamaki Central Medical
 &lt;li&gt;Détails de la facture&lt;&#x2F;li&gt;
 &lt;li&gt;Détails des transports&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;div class=&quot;omsupdate&quot;&gt;
+&lt;div class=&quot;mise-a-jour&quot;&gt;
 Nous prévoyons d&#x27;ajouter d&#x27;autres sections à l&#x27;avenir au fur et à mesure de la croissance d&#x27;Open mSupply. 
 &lt;&#x2F;div&gt;
 &lt;h4 id=&quot;how-to-open-and-close-the-information-panel&quot;&gt;How to open and close the Information Panel ?&lt;a class=&quot;zola-anchor&quot; href=&quot;#how-to-open-and-close-the-information-panel&quot; aria-label=&quot;Anchor link for: how-to-open-and-close-the-information-panel&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
@@ -1245,7 +1245,7 @@ In below example, we are receiving 2 batch numbers for item &lt;i&gt;030453 - Am
 &lt;li&gt;&lt;strong&gt;Unit Qty&lt;&#x2F;strong&gt; (read-only): Total number of units for the batch number&lt;&#x2F;li&gt;
 &lt;li&gt;&lt;strong&gt;Line Total&lt;&#x2F;strong&gt; (read-only): Total purchasing value for the batch number (&lt;code&gt;[Unit Qty] x [Cost]&lt;&#x2F;code&gt;) &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;div class=&quot;warning&quot;&gt;
+&lt;div class=&quot;avertissement&quot;&gt;
 Sell &amp; Cost prices are per units and not per pack. 
 &lt;&#x2F;div&gt;
 &lt;div class=&quot;imagetitle&quot;&gt;
@@ -1256,7 +1256,7 @@ In below example, sell price $12 per unit and cost price is $10 per unit.
 &lt;p&gt;In the third tab, &lt;code&gt;Location&lt;&#x2F;code&gt;, you can select a storage location to assign the batch number to a location in your storage facility. &lt;&#x2F;p&gt;
 &lt;p&gt;Simply select a storage location from the &lt;code&gt;Location&lt;&#x2F;code&gt; dropdown menu.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;is_additem_location.png&quot; alt=&quot;Add Item location&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;div class=&quot;note&quot;&gt;
+&lt;div class=&quot;remarque&quot;&gt;
 Don&#x27;t know the storage location yet ? You don&#x27;t have to capture it right away. You can update the storage location at any time if you haven&#x27;t confirmed the verification yet. 
 &lt;&#x2F;div&gt;
 &lt;h3 id=&quot;confirm-item-and-quantities&quot;&gt;Confirm item and quantities&lt;a class=&quot;zola-anchor&quot; href=&quot;#confirm-item-and-quantities&quot; aria-label=&quot;Anchor link for: confirm-item-and-quantities&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
@@ -1269,7 +1269,7 @@ Don&#x27;t know the storage location yet ? You don&#x27;t have to capture it rig
 &lt;h2 id=&quot;editing-an-inbound-shipment-line&quot;&gt;Editing an Inbound Shipment line&lt;a class=&quot;zola-anchor&quot; href=&quot;#editing-an-inbound-shipment-line&quot; aria-label=&quot;Anchor link for: editing-an-inbound-shipment-line&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;p&gt;To edit an Inbound Shipment line, simply tap on it. You will be presented with the &lt;code&gt;Edit Item&lt;&#x2F;code&gt; window, which is identical to the &lt;code&gt;Add Item&lt;&#x2F;code&gt; window, except that the item is already chosen and cannot be modified. &lt;&#x2F;p&gt;
 &lt;h3 id=&quot;edit-a-shipment-line&quot;&gt;Edit a Shipment Line&lt;a class=&quot;zola-anchor&quot; href=&quot;#edit-a-shipment-line&quot; aria-label=&quot;Anchor link for: edit-a-shipment-line&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;div class=&quot;note&quot;&gt;
+&lt;div class=&quot;remarque&quot;&gt;
  &lt;b&gt;&lt;&#x2F;b&gt; you can edit a shipment line if the shipment has a status higher lower than &lt;code&gt;VERIFIED&lt;&#x2F;code&gt;. 
 &lt;&#x2F;div&gt;
 &lt;ol&gt;
@@ -1284,7 +1284,7 @@ Don&#x27;t know the storage location yet ? You don&#x27;t have to capture it rig
 &lt;&#x2F;ul&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
-&lt;div class=&quot;note&quot;&gt;
+&lt;div class=&quot;remarque&quot;&gt;
  &lt;b&gt;&lt;&#x2F;b&gt; When editing a shipment line, you cannot change the item. You would need to delete the shipment line and to create a new one. 
 &lt;&#x2F;div&gt;
 &lt;h3 id=&quot;delete-a-shipment-line&quot;&gt;Delete a Shipment line&lt;a class=&quot;zola-anchor&quot; href=&quot;#delete-a-shipment-line&quot; aria-label=&quot;Anchor link for: delete-a-shipment-line&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
@@ -1300,7 +1300,7 @@ Don&#x27;t know the storage location yet ? You don&#x27;t have to capture it rig
 In below example, we are deleting &lt;i&gt;item 030063 - Acetylsalicylic Acid 100mg tabs&lt;&#x2F;i&gt;
 &lt;&#x2F;div&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;distribution&#x2F;os_deleteselectedlines.gif&quot; alt=&quot;Alt Text&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;div class=&quot;tip&quot;&gt;
+&lt;div class=&quot;conseil&quot;&gt;
 You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
 &lt;&#x2F;div&gt;
 &lt;h2 id=&quot;receiving-stock-with-an-inbound-shipment&quot;&gt;Receiving stock with an Inbound Shipment&lt;a class=&quot;zola-anchor&quot; href=&quot;#receiving-stock-with-an-inbound-shipment&quot; aria-label=&quot;Anchor link for: receiving-stock-with-an-inbound-shipment&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
@@ -1308,7 +1308,7 @@ You can delete multiple lines at once. Be sure to review what is selected before
 &lt;p&gt;Whether your Inbound Shipment is &lt;strong&gt;manual&lt;&#x2F;strong&gt; or &lt;strong&gt;automatic&lt;&#x2F;strong&gt;, the first step to receive the goods is to confirm the delivery. &lt;&#x2F;p&gt;
 &lt;p&gt;At this stage, you don&#x27;t have to check if quantities or other information are correct, you just have to acknowledge that you have received the goods from your supplier. &lt;&#x2F;p&gt;
 &lt;p&gt;To confirm that an Inbound Shipment has been delivered, click on the &lt;code&gt;Confirm Delivered&lt;&#x2F;code&gt; button. &lt;&#x2F;p&gt;
-&lt;div class=&quot;note&quot;&gt;
+&lt;div class=&quot;remarque&quot;&gt;
 In case your Inbound Shipment is &lt;b&gt;automatic&lt;&#x2F;b&gt;, you cannot confirm its delivery unless the supplier has confirmed its shipment. In other words, your shipment status has to be &lt;code&gt;SHIPPED&lt;&#x2F;code&gt; before you can confirm that you have received the goods. 
 &lt;&#x2F;div&gt;
 &lt;h3 id=&quot;verify-your-inbound-shipment&quot;&gt;Verify your Inbound Shipment&lt;a class=&quot;zola-anchor&quot; href=&quot;#verify-your-inbound-shipment&quot; aria-label=&quot;Anchor link for: verify-your-inbound-shipment&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
@@ -1438,12 +1438,12 @@ In below example, the target quantity is 62 units. Since we already have 250 uni
 &lt;p&gt;All the items of the master list are now listed in your order. If you had previously added single item, it will add items that are not already there. &lt;&#x2F;p&gt;
 &lt;p&gt;Tap on an order line to change the &lt;strong&gt;Order Quantity&lt;&#x2F;strong&gt; or tap on the button &lt;code&gt;Requested to Suggested&lt;&#x2F;code&gt; button &lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;images&#x2F;intord_addfromml.gif&quot; alt=&quot;Internal Order: add from master list&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;div class=&quot;note&quot;&gt; 
+&lt;div class=&quot;remarque&quot;&gt; 
 Master Lists are defined and assigned to stores at the central server level. You can only see the master lists that are visible to your store. 
 &lt;br&gt; &lt;br&gt;
 If you don&#x27;t find the master list you are looking for and if you want to create a new one, please contact your administrator.
 &lt;&#x2F;div&gt;
-&lt;div class=&quot;tip&quot;&gt;
+&lt;div class=&quot;conseil&quot;&gt;
 You can create internal orders from multiple master lists by repeating above actions with another master list. 
 &lt;&#x2F;div&gt;
 &lt;h3 id=&quot;reading-the-internal-order-s-list&quot;&gt;Reading the Internal Order&#x27;s list&lt;a class=&quot;zola-anchor&quot; href=&quot;#reading-the-internal-order-s-list&quot; aria-label=&quot;Anchor link for: reading-the-internal-order-s-list&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
@@ -1479,7 +1479,7 @@ When printing, a PDF file is generated for you, which will then open in a new br
 &lt;li&gt;A dialog window opens asking you whether you are sure to want to send the order. Tap on &lt;code&gt;OK&lt;&#x2F;code&gt; to proceed&lt;&#x2F;li&gt;
 &lt;li&gt;Status of your order is now &lt;code&gt;SENT&lt;&#x2F;code&gt; and the order is no longer editable&lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
-&lt;div class=&quot;warning&quot;&gt;
+&lt;div class=&quot;avertissement&quot;&gt;
 Ensure that your order is correct before sending it to your supplier. Once sent, no further changes can be made to finalised orders. 
 &lt;&#x2F;div&gt;
 </content>
@@ -1491,7 +1491,7 @@ Ensure that your order is correct before sending it to your supplier. Once sent,
 		<link href="https://docs.msupply.foundation/fr/docs/replenishment/suppliers/" type="text/html"/>
 		<id>https://docs.msupply.foundation/fr/docs/replenishment/suppliers/</id>
 		<content type="html">&lt;p&gt;Dans mSupply, un fournisseur est une entité qui envoie du stock à votre dépôt. &lt;&#x2F;p&gt;
-&lt;div class=&quot;omsupdate&quot;&gt;
+&lt;div class=&quot;mise-a-jour&quot;&gt;
 Pour le moment, vous ne pouvez que voir votre fournisseur et ses coordonnées. À l&#x27;avenir, vous pourrez créer et modifier vos fournisseurs (à condition d&#x27;en avoir l&#x27;autorisation !). 
 &lt;&#x2F;div&gt;
 &lt;h2 id=&quot;voir-les-fournisseurs&quot;&gt;Voir les Fournisseurs&lt;a class=&quot;zola-anchor&quot; href=&quot;#voir-les-fournisseurs&quot; aria-label=&quot;Anchor link for: voir-les-fournisseurs&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;

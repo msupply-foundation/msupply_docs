@@ -48,7 +48,7 @@
 
 	
 
-<title>HIV module - mSupply</title>
+<title>Patients - mSupply</title>
 <meta name="description" content="Introduction to the HIV patient management module">
 <link rel="canonical" href="https://docs.msupply.foundation/docs/programs/module-hiv/">
 
@@ -318,7 +318,7 @@
 							<h3>Programs</h3>
 							<ul class="list-unstyled">
 							                           
-									<li><a class="docs-link active" href="https://docs.msupply.foundation/docs/programs/module-hiv/">HIV module</a></li>
+									<li><a class="docs-link active" href="https://docs.msupply.foundation/docs/programs/module-hiv/">Patients</a></li>
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/programs/requisitions/">Requisitions</a></li>
 							
@@ -359,6 +359,30 @@
     <nav id="TableOfContents">
       <ul>
         
+        <li><a href="https://docs.msupply.foundation/docs/programs/module-hiv/#creating-a-new-patient">Creating a New Patient</a></li>
+         
+        <li><a href="https://docs.msupply.foundation/docs/programs/module-hiv/#patient-registration">Patient Registration</a></li>
+         
+        <li><a href="https://docs.msupply.foundation/docs/programs/module-hiv/#patient-list">Patient List</a></li>
+         
+        <li><a href="https://docs.msupply.foundation/docs/programs/module-hiv/#patient-details-view">Patient Details View</a></li>
+         
+        <li><a href="https://docs.msupply.foundation/docs/programs/module-hiv/#patient-program-enrolment">Patient Program Enrolment</a></li>
+         
+        <li><a href="https://docs.msupply.foundation/docs/programs/module-hiv/#patient-program-encounters">Patient Program Encounters</a></li>
+         
+        <li><a href="https://docs.msupply.foundation/docs/programs/module-hiv/#patient-registration-1">Patient Registration</a></li>
+         
+        <li><a href="https://docs.msupply.foundation/docs/programs/module-hiv/#searching-for-a-patient">Searching for a Patient</a></li>
+         
+        <li><a href="https://docs.msupply.foundation/docs/programs/module-hiv/#finding-patient-details">Finding Patient Details</a></li>
+         
+        <li><a href="https://docs.msupply.foundation/docs/programs/module-hiv/#export-patient-list">Export Patient List</a></li>
+         
+        <li><a href="https://docs.msupply.foundation/docs/programs/module-hiv/#add-program">Add Program</a></li>
+         
+        <li><a href="https://docs.msupply.foundation/docs/programs/module-hiv/#encounters">Encounters</a></li>
+         
       </ul>
     </nav>
   </div>
@@ -377,11 +401,78 @@
         </div>
         
 
-        <h1>HIV module</h1>
+        <h1>Patients</h1>
         
         <p class="lead">Introduction to the HIV patient management module</p>
          <p>Work in progress...</p>
-<p>Creating a New Patient </p>
+<h2 id="creating-a-new-patient">Creating a New Patient</h2>
+<p>The Open mSupply patient program allows users to collect general as well as program specific patient information.
+A patient can be enrolled into multiple patient programs such as an HIV program, a TB program or an immunisation program.</p>
+<p>For every program enrolment there can be multiple patient encounters, e.g. doctor visits.
+All data collected in the patient program module is stored in documents. For example, patient data is stored in a patient document, program enrollment data is stored in program enrollment documents and encounter data is stored in an encounter document.
+All patient program related functionality can be found in the “Dispensary” menu item.</p>
+<p><img src="/docs/programs/images/dispensary_menu.png" alt="Stock: nav" /></p>
+<h2 id="patient-registration">Patient Registration</h2>
+<p>When a patient is not already in the Open mSupply patient database the patient first need to be entered into the system.
+To enter a patient, go to the “Patients” menu and click the “New Patient” button in the right top corner.</p>
+<p><img src="/docs/programs/images/new_patient1.png" alt="Stock: nav" /></p>
+<p>The patient creation is split into three steps:</p>
+<ol>
+<li>Entering of basic patient information such as name or date of birth</li>
+<li>Search for existing similar patients to avoid duplicated patient entries</li>
+<li>Entering full patient information and finalising the patient</li>
+</ol>
+<p>In the second step the user is provided with a list of similar patients.</p>
+<p>If, for some reason, the entered patient is already in the system this patient entry can be selected from the list.</p>
+<p><img src="/docs/programs/images/Patient_creation.png" alt="Stock: nav" /></p>
+<h2 id="patient-list">Patient List</h2>
+<p>Navigating to the “Dispensary” → “Patients” menu item will show a list of existing patients.
+This list can be searched by patient first name, last name or patient ID.</p>
+<p><img src="/docs/programs/images/Patient_list.png" alt="Stock: nav" /></p>
+<h2 id="patient-details-view">Patient Details View</h2>
+<p>Selecting a patient from the patient list will open the patient details view.</p>
+<p><img src="/docs/programs/images/Patient_details_view.png" alt="Stock: nav" /></p>
+<p>There are three tabs:</p>
+<ol>
+<li>“Details” shows the general patient information </li>
+<li>“Programs” shows a list of program enrolments for the selected patient</li>
+<li>“Encounters” shows a list of encounters for the selected patient</li>
+</ol>
+<h2 id="patient-program-enrolment">Patient Program Enrolment</h2>
+<p>To enrol a patient into a program select the “Add Program” button in the top right corner of the patient details view.</p>
+<p><img src="/docs/programs/images/Patient_encounter1.png" alt="Stock: nav" /></p>
+<p>This will open a dialog with a list of available patient programs.
+Already enrolled programs are greyed out and can’t be selected.</p>
+<p><img src="/docs/programs/images/Patient_encounter2.png" alt="Stock: nav" /></p>
+<p>To enrol a patient into a program select the desired program from the list.
+This opens the program enrolment document where program specific information can be entered.</p>
+<p>Note, the content of the program enrolment document is program specific and can be configured by the site administrator.</p>
+<h2 id="patient-program-encounters">Patient Program Encounters</h2>
+<p>Once a patient is enrolled in a program, an encounter for this program can be created.
+To do so select “Add Encounter” through the drop-down menu in the right top corner.</p>
+<p><img src="/docs/programs/images/Patient_encounter3.png" alt="Stock: nav" /></p>
+<p>This will open a dialog to create an encounter.
+First, the type of encounter needs to be selected, i.e. which program enrolment the encounter is associated with.
+Secondly, the encounter date must be selected.
+The encounter date can be in the past, e.g. for entering finished encounter, or in the future, e.g. to schedule an encounter (aka appointment).</p>
+<p><img src="/docs/programs/images/Patient_encounter4.png" alt="Stock: nav" /></p>
+<p>Once an encounter is created, the full encounter document will open to enter encounter details.</p>
+<p>Note, The content of the encounter document is program specific and can be configured by the system administrator.</p>
+<p>Every encounter has an encounter header where common encounter details can be updated, e.g. the clinician who handles the encounter or the encounter status.</p>
+<p>Note, the list of clinicians is managed by the site administrator and must be updated on the mSupply central server.</p>
+<p>An encounter can have three statuses:</p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>• “Pending” (depending on the current date this could mean the encounter is scheduled, or the encounter has been missed)
+</span><span>• “Visited”
+</span><span>• “Cancelled”
+</span></code></pre>
+<p><img src="/docs/programs/images/Patient_encounter5.png" alt="Stock: nav" /></p>
+<p>The “More” button in the right top of the encounter detail view opens a column with additional encounter information such as a summary of previous encounters and the option to add an encounter note.</p>
+<p><img src="/docs/programs/images/Patient_encounter6.png" alt="Stock: nav" /></p>
+<p>To navigate back to the patient detail view select the patient name at the top of the encounter header.</p>
+<p><img src="/docs/programs/images/Patient_encounter7.png" alt="Stock: nav" /></p>
+<h2 id="patient-registration-1">Patient Registration</h2>
+<p>When a patient is not already in the Open mSupply patient database the patient first need to be entered into the system.
+To enter a patient, go to the “Patients” menu and click the “New Patient” button in the right top corner.</p>
 <p>mSupply can create a patient file that will hold all the necessary information to dispense medicine(s) to. To create a new patient file, click on 'dispensary' and then the 'patients' icon from the Dashboard:</p>
 <p><img src="/docs/programs/images/Access_Patient.png" alt="Stock: nav" /></p>
 <p>This will bring up the 'Patient' page. To input the information of a new patient into mSupply, click on the 'New Patient' button. </p>
@@ -394,16 +485,16 @@
 <p><img src="/docs/programs/images/Patient_Details.png" alt="Stock: nav" /></p>
 <p>The information can now be used to find the patient file at a later date. After clicking on the 'OK &amp; Next' you can then access the 'Create' option, that will transfer all the information previously input into a new tab that allows/requires more detail:</p>
 <p><img src="/docs/programs/images/Create_Patient.png" alt="Stock: nav" /></p>
-<p>Searching for a Patient </p>
+<h2 id="searching-for-a-patient">Searching for a Patient</h2>
 <p>When in the 'Dispensary' menu a comprehensive list of exisitng patients will appear. </p>
 <p><img src="/docs/programs/images/Search_Patient.png" alt="Stock: nav" /></p>
 <p>Clicking on a patient name will bring up the patient's details.</p>
 <p>In the same 'Patient' menu, search bars are above the patient list that can be used to narrow and specify the search. You can search by both first and last name as well as by ID. This can be useful to quickly find patients with common names or if there is a large number of existing patients. </p>
 <p><img src="/docs/programs/images/Narrow_Search_Patient.png" alt="Stock: nav" /></p>
-<p>Finding Patient Details </p>
+<h2 id="finding-patient-details">Finding Patient Details</h2>
 <p>Clicking on a patient file (in the 'Patient' tab) will automatically link to the personal details of the patient. The 'Program' and 'Encounter' history can be found in the same section. </p>
 <p><img src="/docs/programs/images/Patient_Program_Details.png" alt="Stock: nav" /></p>
-<p>Export Patient List</p>
+<h2 id="export-patient-list">Export Patient List</h2>
 <p>mSupply allows the option of exporting patient data to be sent to a non-mSupply user. This will begin the download of an excel file with the basic details of patients:</p>
 <ol>
 <li>First name</li>
@@ -412,14 +503,14 @@
 </ol>
 <p>This can be done by clicking on the 'Export' option in the corner of the main 'Patient' menu. </p>
 <p><img src="/docs/programs/images/Export_Patients.png" alt="Stock: nav" /></p>
-<p>Add Program</p>
+<h2 id="add-program">Add Program</h2>
 <p>mSupply allows patients to be enrolled in a program relevent to the intervention and the patient's illness. This can be done through the 'Patient' tab or while creating a new patient. </p>
 <p><img src="/docs/programs/images/Add_Program.png" alt="Stock: nav" /></p>
 <p>Programs are customizable and specific to each context and country - the following examples are from the HIV intervention in Papua New Guinea. This means that each program and the details required will be different for each mSupply user. </p>
 <p>If there is more than one program avaible, all the options will appear with the specific programs the patient is enrolled in ticked and grey. </p>
 <p>If you would like to enroll the highlighted patient in another program, you can do so from this menu.</p>
 <p><img src="/docs/programs/images/Program_Details.png" alt="Stock: nav" /></p>
-<p>Encounters</p>
+<h2 id="encounters">Encounters</h2>
 <p>An 'Encounter' is the recorded visit of a patient, and their treatment, under a specific program.</p>
 <p>NOTE: You cannot record and encounter without a patient enrolled in a program - however this may change in future implementation of mSupply</p>
 <p>Under the 'Dispensary' category there is the 'Encounters' tab. </p>
