@@ -391,12 +391,12 @@
         <h1>Supplier Requisitions</h1>
         
         <p class="lead">Supplier Requisitions (General Orders)</p>
-         <p>If you would like to order some stock from your supplier, tap on <strong>Supplier Requisitions</strong>. </p>
+         <p>If you would like to order some stock from your supplier, tap on <strong>Supplier Requisitions</strong>.</p>
 <p><img src="/mobile/introduction/images/supplier_requisitions_GO.png" alt="Custom invoices button on Navigator" /></p>
 <h3 id="current-supplier-requisitions">Current Supplier Requisitions<a class="zola-anchor" href="#current-supplier-requisitions" aria-label="Anchor link for: current-supplier-requisitions">🔗</a></h3>
 <p>The Supplier Requisition window will start by displaying <strong>Current</strong> requisitions.</p>
 <p><img src="/mobile/introduction/images/current_supplier_requisitions_GO.png" alt="Custom invoices button on Navigator" /></p>
-<p>These are the requisitions that are <strong>In Progress</strong> (see the <strong>Status</strong> column).  These are supplier requisitions that you have not yet sent off to your supplying store.  You can tap on any <strong>In Progress</strong> requisitions to open and continue work.</p>
+<p>These are the requisitions that are <strong>In Progress</strong> (see the <strong>Status</strong> column). These are supplier requisitions that you have not yet sent off to your supplying store. You can tap on any <strong>In Progress</strong> requisitions to open and continue work.</p>
 <div class="tip">
 <p><strong>In Progress</strong> Supplier Requisitions in mSupply Mobile are the same as mSupply Desktop Internal Orders with status = <code>sg</code>.</p>
 </div>
@@ -406,7 +406,7 @@
 <h3 id="past-supplier-requisitions">Past Supplier Requisitions<a class="zola-anchor" href="#past-supplier-requisitions" aria-label="Anchor link for: past-supplier-requisitions">🔗</a></h3>
 <p>To view past Supplier Requisitions, tap the <strong>Past</strong> tab.</p>
 <p><img src="/mobile/introduction/images/past_supplier_requisitions.png" alt="Custom invoices button on Navigator" /></p>
-<p>The list of past requisitions will all have a <strong>Status</strong> of <strong>Finalised</strong>. You can tap on any row to view a finalised requisition.  However, no further changes can be made to finalised requisitions.</p>
+<p>The list of past requisitions will all have a <strong>Status</strong> of <strong>Finalised</strong>. You can tap on any row to view a finalised requisition. However, no further changes can be made to finalised requisitions.</p>
 <div class="tip">
 <p><strong>Finalised</strong> Supplier Requisitions in mSupply Mobile are the same as mSupply Desktop Internal Orders with status = <code>fn</code>.</p>
 </div>
@@ -419,17 +419,17 @@
 <p><img src="/mobile/introduction/images/addding_items_requisition.png" alt="Custom invoices button on Navigator" /></p>
 <p>Start typing to search for the item.</p>
 <p><img src="/mobile/introduction/images/adding_items_search.png" alt="Custom invoices button on Navigator" /></p>
-<p>In this case, we need to purchase <strong>Ibuprofen 200mg tablets</strong> so we select this item. </p>
+<p>In this case, we need to purchase <strong>Ibuprofen 200mg tablets</strong> so we select this item.</p>
 <p><img src="/mobile/introduction/images/adding_items_search2.png" alt="Custom invoices button on Navigator" /></p>
 <p>When you select an item, it will be added to the requisition. The following information is provided about the item:</p>
 <ul>
 <li><strong>Item Code</strong> and <strong>Item Name</strong>: as per your mSupply item list details</li>
 <li><strong>Current Stock</strong>: how much stock currently available in your facility</li>
 <li><strong>Monthly Use</strong>: how much stock your facility uses each month on average (based on a configurable number of months (refer <a href="/mobile/setup/config/#other-preferences">Store Preferences tab</a>, but defaults to <strong>3</strong>).</li>
-<li><strong>Suggested Quantity</strong>: how much stock mSupply Mobile suggests that you order.  This is calculated as:
+<li><strong>Suggested Quantity</strong>: how much stock mSupply Mobile suggests that you order. This is calculated as:
 <ul>
 <li><strong>Monthly Use</strong> x <strong>Max MOS</strong> - <strong>Current Stock</strong></li>
-<li>So, for the above example for Ibuprofen 200mg tablets,  <strong>Suggested Quantity</strong> = (<strong>453</strong> x <strong>2</strong>) - <strong>80</strong> = <strong>827</strong></li>
+<li>So, for the above example for Ibuprofen 200mg tablets, <strong>Suggested Quantity</strong> = (<strong>453</strong> x <strong>2</strong>) - <strong>80</strong> = <strong>827</strong></li>
 </ul>
 </li>
 </ul>
@@ -437,9 +437,9 @@
 <p>What should <strong>Max MOS</strong> be set to?</p>
 <p>Max MOS = Lead time + Order cycle + Buffer stock</p>
 <ul>
-<li>Lead time:  The time between creating the requisition and receiving the stock.  For most facilities using mSupply Mobile, we can hope that this will be no more than <strong>1</strong> month</li>
-<li>Order cycle:  This is the frequency of ordering.  If it is every month, this will be <strong>1</strong>, if it is once per quarter, then this will be <strong>3</strong>.</li>
-<li>Buffer stock:  This is the safety margin of stock that the facility <em>plans</em> for.  The safety margin accounts for things such as an order being missed, or delivery delayed.  A common approach is to set this to <em>twice</em> the Order cycle.</li>
+<li>Lead time: The time between creating the requisition and receiving the stock. For most facilities using mSupply Mobile, we can hope that this will be no more than <strong>1</strong> month</li>
+<li>Order cycle: This is the frequency of ordering. If it is every month, this will be <strong>1</strong>, if it is once per quarter, then this will be <strong>3</strong>.</li>
+<li>Buffer stock: This is the safety margin of stock that the facility <em>plans</em> for. The safety margin accounts for things such as an order being missed, or delivery delayed. A common approach is to set this to <em>twice</em> the Order cycle.</li>
 </ul>
 <p>So, if we have:</p>
 <ul>
@@ -449,20 +449,21 @@
 </ul>
 <p>Then:</p>
 <ul>
-<li>Max MOS = <strong>1</strong> + <strong>1</strong> + <strong>2</strong> = 4</li>
-</ul>
+<li>
+<p>Max MOS = <strong>1</strong> + <strong>1</strong> + <strong>2</strong> = 4</p>
 </div>
+</li>
+<li>
+<p><strong>Requested Quantity</strong>: This is set to zero by default. You can do either of the following:</p>
 <ul>
-<li><strong>Requested Quantity</strong>: This is set to zero by default. You can do either of the following:
-<ul>
-<li>Accept the <strong>Suggested Quantities</strong> by tapping on the <strong>Use Suggested Quantities</strong> button.  This populates all cells.</li>
-<li>Change the values manually by tapping in the cell and changing the number.  You can also do this after accepting the <strong>Suggested Quantities</strong> by tapping on the <strong>Use Suggested Quantities</strong> button.</li>
+<li>Accept the <strong>Suggested Quantities</strong> by tapping on the <strong>Use Suggested Quantities</strong> button. This populates all cells.</li>
+<li>Change the values manually by tapping in the cell and changing the number. You can also do this after accepting the <strong>Suggested Quantities</strong> by tapping on the <strong>Use Suggested Quantities</strong> button.</li>
 </ul>
 </li>
 </ul>
 <h4 id="larger-orders">Larger Orders<a class="zola-anchor" href="#larger-orders" aria-label="Anchor link for: larger-orders">🔗</a></h4>
 <p>If you have a lot of items to order (for example, when you are placing your main order), it can be slow to add them one by one.</p>
-<p>To add a lot of items at once, tap <strong>Add Master List Items</strong>. </p>
+<p>To add a lot of items at once, tap <strong>Add Master List Items</strong>.</p>
 <p><img src="/mobile/introduction/images/requisitions_add_larger_order.png" alt="Custom invoices button on Navigator" /></p>
 <p>Select one or more master lists by tapping on the check box next to the master list (the row will turn orange once selected). Only master lists visible to your store are shown. In this example, there is only one master list available. Once you have made your selection, tap <strong>Done</strong>.</p>
 <p><img src="/mobile/introduction/images/requisitions_add_larger_order2.png" alt="Custom invoices button on Navigator" /></p>
@@ -476,7 +477,7 @@
 Please note, when you tap **Use Suggested Quantities**, this will overwrite any value that had previously been entered in the **Requested Quantity** column.  However, you can still manually overwrite the amount of stock requested for each item afterward.
 </div>
 <h3 id="create-automatic-order">Create Automatic Order<a class="zola-anchor" href="#create-automatic-order" aria-label="Anchor link for: create-automatic-order">🔗</a></h3>
-<p>If you tap <strong>Create Automatic Order</strong> on the requisition header, mSupply Mobile will automatically create a supplier requisition with all items stocked at your facility (from all Master Lists) that require stock.  That is, any item at your facility that has a suggested quantity greater than zero will be listed. The <strong>Requested Quantity</strong> column will also be filled with the suggested quantity value.</p>
+<p>If you tap <strong>Create Automatic Order</strong> on the requisition header, mSupply Mobile will automatically create a supplier requisition with all items stocked at your facility (from all Master Lists) that require stock. That is, any item at your facility that has a suggested quantity greater than zero will be listed. The <strong>Requested Quantity</strong> column will also be filled with the suggested quantity value.</p>
 <p><img src="/mobile/introduction/images/requisitions_automatic_order.png" alt="Custom invoices button on Navigator" /></p>
 <p>Once again, you can still check the amount of stock requested for each item and change if required.</p>
 <h3 id="finalising-a-supplier-requisition">Finalising a Supplier Requisition<a class="zola-anchor" href="#finalising-a-supplier-requisition" aria-label="Anchor link for: finalising-a-supplier-requisition">🔗</a></h3>
@@ -485,9 +486,9 @@ Please note, when you tap **Use Suggested Quantities**, this will overwrite any 
 <p>Even if you don't have a current internet connection, it's ok! The order will send automatically once your device is able to connect to the internet.</p>
 <div class="tip">
 <p>Remember:</p>
-<p>A <strong>Supplier Requisition</strong> is an order that you have placed with your supplier. </p>
+<p>A <strong>Supplier Requisition</strong> is an order that you have placed with your supplier.</p>
 <p>A <strong>Supplier Invoice</strong> is a record of what your supplier has actually sent you.</p>
-<p>These are not always the same, as your supplier might not have enough stock to fill your requisition, or they might have sent you some extra stock. When stock arrives at your facility, you should check it off against the <strong>Supplier Invoice</strong>. </p>
+<p>These are not always the same, as your supplier might not have enough stock to fill your requisition, or they might have sent you some extra stock. When stock arrives at your facility, you should check it off against the <strong>Supplier Invoice</strong>.</p>
 </div>
   
 <div class="docs-navigation d-flex justify-content-between">

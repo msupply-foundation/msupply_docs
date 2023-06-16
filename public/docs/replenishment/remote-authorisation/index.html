@@ -389,26 +389,26 @@
         <h1>Remote Authorisation</h1>
         
         <p class="lead">Authorise customer requisitions remotely</p>
-         <p>Remote authorisation allows people with the appropriate permission to authorise program-based requisitions using a web app. This allows the ordering process to have an additional validation step before an outbound shipment is created and stock is sent out to customers.</p>
+         <p>Remote authorisation allows people with the appropriate permission to authorise program-based requisitions using a web app. This allows the ordering process to have an additional validation step before an Outbound Shipment is created and stock is sent out to customers.</p>
 <div class="note">
 The remote authorisation process is currently available only for requisitions which have been created for a program. You will need to have programs configured to use this feature.
 </div>
 <p>When using remote authorisation, the process flow is as follows:</p>
 <ul>
-<li>An internal order is created in a customer store, using a program</li>
+<li>An Internal Order is created in a customer store, using a program</li>
 <li>The customer store synchronises and the request is sent to the supplying store</li>
-<li>The process waits until the internal order status is set to <code>Sent</code></li>
+<li>The process waits until the Internal Order status is set to <code>Sent</code></li>
 <li>The requisition is automatically created in the supplying store, and has an approval status of <code>Pending</code></li>
 <li>Authorisers are notified via email that there is a requisition requiring authorisation</li>
 <li>On clicking the link in the email, the authoriser is taken to the web app ( which is hosted by the central server )</li>
 <li>After logging in, they are able to adjust, comment and authorise ( or deny ) the request</li>
 <li>Once authorised, the status is updated:
 <ul>
-<li>for the internal order ( in the customer store )</li>
+<li>for the Internal Order ( in the customer store )</li>
 <li>for the requisition ( in the supplying store )</li>
 </ul>
 </li>
-<li>Comments made by the authoriser and any adjusted quantities, are shown in the customer store's internal order</li>
+<li>Comments made by the authoriser and any adjusted quantities, are shown in the customer store's Internal Order</li>
 </ul>
 <h2 id="configuration">Configuration<a class="zola-anchor" href="#configuration" aria-label="Anchor link for: configuration">🔗</a></h2>
 <p>The setting up of the authorisation workflow requires some configuration changes on the central server:</p>
@@ -420,10 +420,10 @@ The remote authorisation process is currently available only for requisitions wh
 <p>In addition, you'll need to have the stores configured for normal usage in Open mSupply, with the supplier and customer relationships configured. Stores will need to have <a href="https://docs.msupply.org.nz/items:master_lists">master lists</a> assigned to both customer and supplier stores, and programs and program periods configured.</p>
 <h2 id="using-remote-authorisation">Using remote authorisation<a class="zola-anchor" href="#using-remote-authorisation" aria-label="Anchor link for: using-remote-authorisation">🔗</a></h2>
 <h3 id="internal-orders">Internal Orders<a class="zola-anchor" href="#internal-orders" aria-label="Anchor link for: internal-orders">🔗</a></h3>
-<p>Follow the process of creating a program based internal order.
-If you have the store preferences configured correctly, you will see an additional column in the list view of internal orders, which shows the approval status of the newly created order:</p>
+<p>Follow the process of creating a program based Internal Order.
+If you have the store preferences configured correctly, you will see an additional column in the list view of Internal Orders, which shows the approval status of the newly created order:</p>
 <p><img src="/docs/replenishment/images/authorisation-internal-order-list.png" alt="Internal Order list" /></p>
-<p>In addition, when viewing the details of the internal order, you'll see two new columns and the approval status of the order:</p>
+<p>In addition, when viewing the details of the Internal Order, you'll see two new columns and the approval status of the order:</p>
 <p><img src="/docs/replenishment/images/authorisation-internal-order-detail.png" alt="Internal Order list" /></p>
 <p>The <strong>Approved Quantity</strong> is the quantity approved by the authoriser. This may be different to the requested quantity. If so, the authoriser has the option of entering an explanatory comment, which is shown in the <strong>Approval Comment</strong> column.</p>
 <h3 id="authorisation">Authorisation<a class="zola-anchor" href="#authorisation" aria-label="Anchor link for: authorisation">🔗</a></h3>
@@ -431,16 +431,16 @@ If you have the store preferences configured correctly, you will see an addition
 <h3 id="requisitions">Requisitions<a class="zola-anchor" href="#requisitions" aria-label="Anchor link for: requisitions">🔗</a></h3>
 <p>In the supplying store, you'll see a few changes too. The requisition list has gained an additional column:</p>
 <p><img src="/docs/replenishment/images/authorisation-requisition-list.png" alt="Requisition list" /></p>
-<p>And when viewing details, you can see the approval status and new columns, just as in the internal order. When the requisition is in the <code>Pending</code> approval state, you also cannot confirm finalised or create a shipment:</p>
+<p>And when viewing details, you can see the approval status and new columns, just as in the Internal Order. When the requisition is in the <code>Pending</code> approval state, you also cannot confirm finalised or create a shipment:</p>
 <p><img src="/docs/replenishment/images/authorisation-requisition-detail-pending.png" alt="Requisition list" /></p>
 <p>Once approved by the remote authorisation process though, the status is updated, and you can edit the requisition:</p>
 <p><img src="/docs/replenishment/images/authorisation-requisition-detail-approved.png" alt="Requisition list" /></p>
 <p>The authorisation status can have a few different values:</p>
 <ul>
 <li><strong>None</strong>: the requisition does not need authorisation and is not subject to the remote authorisation system. This is true for requisitions which are not for a program. All requisitions with this status can be edited normally.</li>
-<li><strong>Pending</strong>: the requisition is awaiting authorisation of one or more of its lines. A requisition with this status cannot be edited and you cannot create outbound shipments from it.</li>
-<li><strong>Authorised</strong>: all lines that were waiting for authorisation have been authorised (with or without adjustments). The comments and quantity to supply can be edited and outbound shipments can be created from requisitions that are authorised.</li>
-<li><strong>Denied</strong>: the authoriser has reviewed the requisition and the lines have all been denied. Like the Pending status, a requisition with this status cannot be edited and you cannot create outbound shipments from it.</li>
+<li><strong>Pending</strong>: the requisition is awaiting authorisation of one or more of its lines. A requisition with this status cannot be edited and you cannot create Outbound Shipments from it.</li>
+<li><strong>Authorised</strong>: all lines that were waiting for authorisation have been authorised (with or without adjustments). The comments and quantity to supply can be edited and Outbound Shipments can be created from requisitions that are authorised.</li>
+<li><strong>Denied</strong>: the authoriser has reviewed the requisition and the lines have all been denied. Like the Pending status, a requisition with this status cannot be edited and you cannot create Outbound Shipments from it.</li>
 </ul>
   
 <div class="docs-navigation d-flex justify-content-between">

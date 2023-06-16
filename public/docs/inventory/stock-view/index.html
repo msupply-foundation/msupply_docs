@@ -373,6 +373,8 @@
          
         <li><a href="https://docs.msupply.foundation/docs/inventory/stock-view/#updating-barcode">Updating barcode</a></li>
          
+        <li><a href="https://docs.msupply.foundation/docs/inventory/stock-view/#repacking-stock">Repacking stock</a></li>
+         
       </ul>
     </nav>
   </div>
@@ -381,8 +383,8 @@
       <main class="docs-content col-lg-11 col-xl-9">
         
         <div class="flagster" style="float: right; padding: 5px">
-          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;inventory&#x2F;stock-view&#x2F;" title="Change language to en"
-            ><img src="/icons/en.svg" width="28"> </a>
+          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;fr&#x2F;docs&#x2F;inventory&#x2F;stock-view&#x2F;" title="Change language to fr"
+            ><img src="/icons/fr.svg" width="28"> </a>
         </div>
         
         <div class="flagster" style="float: right; padding: 5px">
@@ -391,8 +393,8 @@
         </div>
         
         <div class="flagster" style="float: right; padding: 5px">
-          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;fr&#x2F;docs&#x2F;inventory&#x2F;stock-view&#x2F;" title="Change language to fr"
-            ><img src="/icons/fr.svg" width="28"> </a>
+          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;inventory&#x2F;stock-view&#x2F;" title="Change language to en"
+            ><img src="/icons/en.svg" width="28"> </a>
         </div>
         
 
@@ -433,14 +435,29 @@
 <p><img src="/docs/inventory/images/stock_line_edit_log_2.png" alt="Stock line log 2" /></p>
 <div class="imagetitle">With the log scrolled to the right</div>
 <h2 id="updating-barcode">Updating barcode<a class="zola-anchor" href="#updating-barcode" aria-label="Anchor link for: updating-barcode">🔗</a></h2>
-<p>This feature is available when running either the android or desktop versions of open mSupply.
+<p>This feature is available when running either the android or desktop versions of Open mSupply.
 There is an additional button shown when editing a stock line:</p>
 <p><img src="/docs/inventory/images/stock-line-edit-scan.png" alt="Scan button" /></p>
 <p>Clicking this will start the barcode scanner - if one is attached, when running desktop. If running on android, the camera on the device is used.
 If a barcode is scanned successfully, then the barcode field is populated with the scanned value. If a QR code which has a batch and expiry information is scanned, then these fields on the stock edit window are also populated from the scanned code.</p>
 <div class="tip">You can also press the 'control (ctrl)' and 's' keys at the same time to start the barcode scanner</div>
-<p>Once you have updated the barcode, this code is associated with the item, for this particular pack size. You can then add items to an outbound shipment using a barcode scanner, and detect this item automatically.</p>
-<p>Barcodes updated in this way and also synchronised with other stores, which means that codes you scan here will allow other stores to automatically add these items to outbound shipments using a barcode scanner.</p>
+<p>Once you have updated the barcode, this code is associated with the item, for this particular pack size. This item will now be automatically detected when adding items to an Outbound Shipment using a barcode scanner.</p>
+<p>Barcodes updated in this way will also synchronised with other stores, which means that codes you scan here will allow other stores to automatically add these items to Outbound Shipments using a barcode scanner.</p>
+<h2 id="repacking-stock">Repacking stock<a class="zola-anchor" href="#repacking-stock" aria-label="Anchor link for: repacking-stock">🔗</a></h2>
+<p>The repack feature gives us the ability to break down stock into smaller pack sizes, consolidate it into larger pack sizes or move part or all of a stock line to a new location. Here's how to use it:</p>
+<p>In the list showing all current stock, there is a column on the far left, titled <code>Repack</code>. To repack a stock item, click the repack icon for that line, like so:</p>
+<p><img src="/docs/inventory/images/stock-list-view-repack.png" alt="Stock list view showing repack button" /></p>
+<p>To begin with, the stock line won't have any repacks showing, so you'll see a window like this:</p>
+<p><img src="/docs/inventory/images/repack-no-repacks.png" alt="Repack window with no repacks" /></p>
+<p>Click the <code>New</code> button to start a repack:</p>
+<p><img src="/docs/inventory/images/repack-enter.png" alt="Repack entry form" /></p>
+<p>From here, you can enter the number of packs which you'd like to repack, up to a maximum of the current number of packs in stock. This number is the number shown next to <code>Packs available</code> - in this case there are 48 packs available.</p>
+<p>You can then enter a new pack size, and optionally, enter a location for the new stock. The <code>New number of packs</code> is calculated automatically.
+Click <code>Save</code> to save the changes. Clicking <code>Print</code> will allow you to print details of this repack action.</p>
+<p>The repacks made from this stock item are shown in a list:</p>
+<p><img src="/docs/inventory/images/repack-list.png" alt="Repack list" /></p>
+<p>Clicking on one of the lines will show details of the repack, and allow printing of it:</p>
+<p><img src="/docs/inventory/images/repack-view.png" alt="View an existing repack" /></p>
   
 <div class="docs-navigation d-flex justify-content-between">
   

@@ -1593,41 +1593,41 @@ Para cambiar el modo de vista, haga clic en el botón &lt;code&gt;Agrupar por ar
 &lt;&#x2F;ul&gt;
 &lt;p&gt;Las Órdenes Internas son una forma de ayudar a los usuarios a solicitar nuevos stocks desde otro almacén.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;ver-ordenes-internas&quot;&gt;Ver Ordenes Internas&lt;a class=&quot;zola-anchor&quot; href=&quot;#ver-ordenes-internas&quot; aria-label=&quot;Anchor link for: ver-ordenes-internas&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
-&lt;p&gt;Si deseas pedir inventario a tu proveedor: &lt;&#x2F;p&gt;
+&lt;p&gt;Si deseas pedir inventario a tu proveedor:&lt;&#x2F;p&gt;
 &lt;ol&gt;
 &lt;li&gt;Ve al menú &lt;code&gt;Reabastecimiento&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;Selecciona &lt;code&gt;Ordenes Internas&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;images&#x2F;intord_access.png&quot; alt=&quot;Internal Order: nav&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;Verás una lista de todas las órdenes internas existentes: &lt;&#x2F;p&gt;
+&lt;p&gt;Verás una lista de todas las órdenes internas existentes:&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;images&#x2F;intord_list.png&quot; alt=&quot;Internal Order: list&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;Puedes usar el campo &lt;code&gt;Buscar por comentario&lt;&#x2F;code&gt; para filtrar la lista por los comentarios de las órdenes internas: &lt;&#x2F;p&gt;
+&lt;p&gt;Puedes usar el campo &lt;code&gt;Buscar por comentario&lt;&#x2F;code&gt; para filtrar la lista por los comentarios de las órdenes internas:&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;images&#x2F;intord_filterlistbycomment.gif&quot; alt=&quot;Internal Order: filter by comment&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Puedes ordenar la lista utilizando los encabezados de las columnas:&lt;&#x2F;p&gt;
 &lt;ol&gt;
-&lt;li&gt;Selecciona el encabezado de la columna que desea ordenar. La columna se ordenará en orden ascendente. &lt;&#x2F;li&gt;
+&lt;li&gt;Selecciona el encabezado de la columna que desea ordenar. La columna se ordenará en orden ascendente.&lt;&#x2F;li&gt;
 &lt;li&gt;Tap the column header again and column will be sorted in the opposite order.&lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
 &lt;h2 id=&quot;crear-una-orden-interna&quot;&gt;Crear una Orden Interna&lt;a class=&quot;zola-anchor&quot; href=&quot;#crear-una-orden-interna&quot; aria-label=&quot;Anchor link for: crear-una-orden-interna&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 &lt;h3 id=&quot;seleccionar-un-proveedor&quot;&gt;Seleccionar un proveedor&lt;a class=&quot;zola-anchor&quot; href=&quot;#seleccionar-un-proveedor&quot; aria-label=&quot;Anchor link for: seleccionar-un-proveedor&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;ol&gt;
-&lt;li&gt;Haz clic en el botón &lt;code&gt;Nuevo Pedido&lt;&#x2F;code&gt; (esquina superior derecha): &lt;&#x2F;li&gt;
+&lt;li&gt;Haz clic en el botón &lt;code&gt;Nuevo Pedido&lt;&#x2F;code&gt; (esquina superior derecha):&lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;images&#x2F;intord_newreqbutton.png&quot; alt=&quot;Internal Order: new order&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;ol start=&quot;2&quot;&gt;
-&lt;li&gt;Se abrirá una nueva ventana que te invita a seleccionar un proveedor: &lt;&#x2F;li&gt;
+&lt;li&gt;Se abrirá una nueva ventana que te invita a seleccionar un proveedor:&lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;images&#x2F;intord_selectsupplier2.png&quot; alt=&quot;Internal Order: select supplier&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;ol start=&quot;3&quot;&gt;
-&lt;li&gt;Selecciona un proveedor haciendo clic en su nombre. Verás una ventana como esta: &lt;&#x2F;li&gt;
+&lt;li&gt;Selecciona un proveedor haciendo clic en su nombre. Verás una ventana como esta:&lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;images&#x2F;intord_newintord.png&quot; alt=&quot;Internal Order: newly created order&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;definir-mes-maximo-de-inventario-mos-maximo&quot;&gt;Definir mes máximo de inventario (MOS Máximo)&lt;a class=&quot;zola-anchor&quot; href=&quot;#definir-mes-maximo-de-inventario-mos-maximo&quot; aria-label=&quot;Anchor link for: definir-mes-maximo-de-inventario-mos-maximo&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;Definir el MOS Máximo (Mes de Inventario) es crítico para el cálculo de la &lt;strong&gt;Cantidad Sugerida&lt;&#x2F;strong&gt; y puedes cambiarlo: &lt;&#x2F;p&gt;
+&lt;p&gt;Definir el MOS Máximo (Mes de Inventario) es crítico para el cálculo de la &lt;strong&gt;Cantidad Sugerida&lt;&#x2F;strong&gt; y puedes cambiarlo:&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;Existe una regla general en la industria que el &lt;em&gt;MOS Máximo&lt;&#x2F;em&gt; debería ser establecido en 3 veces el ciclo de pedido&lt;&#x2F;li&gt;
-&lt;li&gt;El valor por defecto de  &lt;em&gt;MOS Máximo&lt;&#x2F;em&gt; es &lt;code&gt;3.0&lt;&#x2F;code&gt;, lo que se basa en un ciclo de pedido mensual&lt;&#x2F;li&gt;
-&lt;li&gt;Si por ejemplo, el ciclo de pedido es cada dos meses, entonces el &lt;em&gt;MOS Máximo&lt;&#x2F;em&gt; debería ser establecido en 3 x 2 = &lt;code&gt;6.0&lt;&#x2F;code&gt; &lt;&#x2F;li&gt;
+&lt;li&gt;El valor por defecto de &lt;em&gt;MOS Máximo&lt;&#x2F;em&gt; es &lt;code&gt;3.0&lt;&#x2F;code&gt;, lo que se basa en un ciclo de pedido mensual&lt;&#x2F;li&gt;
+&lt;li&gt;Si por ejemplo, el ciclo de pedido es cada dos meses, entonces el &lt;em&gt;MOS Máximo&lt;&#x2F;em&gt; debería ser establecido en 3 x 2 = &lt;code&gt;6.0&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;div class=&quot;imagetitle&quot;&gt;
 En el siguiente ejemplo, estableceremos nuestro MOS Máximo en 3 meses.  
@@ -1646,7 +1646,7 @@ En el siguiente ejemplo, estableceremos nuestro MOS Máximo en 3 meses.
 &lt;li&gt;&lt;strong&gt;Cantidad Sugerida&lt;&#x2F;strong&gt;: cuánto inventario mSupply sugiere que pidas para alcanzar la cantidad objetivo&lt;&#x2F;li&gt;
 &lt;li&gt;&lt;strong&gt;Cantidad de pedido&lt;&#x2F;strong&gt;: la cantidad de unidades que solicitas a tu proveedor.&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;p&gt;También deberías ver los siguientes gráficos: &lt;&#x2F;p&gt;
+&lt;p&gt;También deberías ver los siguientes gráficos:&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Distribución de inventario&lt;&#x2F;strong&gt;: En este gráfico, verás la siguiente información:
 &lt;ul&gt;
@@ -1673,14 +1673,14 @@ En el ejemplo siguiente, la cantidad objetivo es de 62 unidades. Dado que ya ten
 &lt;&#x2F;ul&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;images&#x2F;intord_charts_stockevolution.png&quot; alt=&quot;Stock Evolution&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;anade-articulos-usando-listas-maestras&quot;&gt;Añade artículos usando listas maestras&lt;a class=&quot;zola-anchor&quot; href=&quot;#anade-articulos-usando-listas-maestras&quot; aria-label=&quot;Anchor link for: anade-articulos-usando-listas-maestras&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
-&lt;p&gt;Si tu organización está utilizando Listas Maestras, puedes añadir múltiples artículos a la vez utilizando las listas maestras de tu almacén. Es especialmente útil cuando tienes muchos artículos en tu pedido y no quieres añadirlos uno por uno. &lt;&#x2F;p&gt;
+&lt;p&gt;Si tu organización está utilizando Listas Maestras, puedes añadir múltiples artículos a la vez utilizando las listas maestras de tu almacén. Es especialmente útil cuando tienes muchos artículos en tu pedido y no quieres añadirlos uno por uno.&lt;&#x2F;p&gt;
 &lt;ol&gt;
-&lt;li&gt;Toca el botón &lt;code&gt;Agregar desde lista maestra&lt;&#x2F;code&gt; &lt;&#x2F;li&gt;
+&lt;li&gt;Toca el botón &lt;code&gt;Agregar desde lista maestra&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;Selecciona una lista maestra&lt;&#x2F;li&gt;
-&lt;li&gt;Se abrirá una ventana de diálogo que te preguntará si deseas agregar todos los artículos de esta lista maestra. Toca en  &lt;code&gt;Aceptar&lt;&#x2F;code&gt; si deseas continuar. &lt;&#x2F;li&gt;
+&lt;li&gt;Se abrirá una ventana de diálogo que te preguntará si deseas agregar todos los artículos de esta lista maestra. Toca en &lt;code&gt;Aceptar&lt;&#x2F;code&gt; si deseas continuar.&lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
-&lt;p&gt;Ahora todos los artículos de la lista maestra aparecerán en tu pedido. Si habías agregado previamente algún artículo individualmente, se agregarán los artículos que no estén ya incluidos. &lt;&#x2F;p&gt;
-&lt;p&gt;Para cambiar la &lt;strong&gt;Cantidad del pedido&lt;&#x2F;strong&gt; toca en la línea del pedido correspondiente o toca en el botón &lt;code&gt;Sugerido a Pedido&lt;&#x2F;code&gt; &lt;&#x2F;p&gt;
+&lt;p&gt;Ahora todos los artículos de la lista maestra aparecerán en tu pedido. Si habías agregado previamente algún artículo individualmente, se agregarán los artículos que no estén ya incluidos.&lt;&#x2F;p&gt;
+&lt;p&gt;Para cambiar la &lt;strong&gt;Cantidad del pedido&lt;&#x2F;strong&gt; toca en la línea del pedido correspondiente o toca en el botón &lt;code&gt;Sugerido a Pedido&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;images&#x2F;intord_addfromml.gif&quot; alt=&quot;Internal Order: add from master list&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;div class=&quot;nota&quot;&gt; 
 Las listas maestras se definen y asignan a los almacenes a nivel del servidor central. Solo podrás ver las listas maestras que son visibles para tu almacén. 
@@ -1688,7 +1688,7 @@ Las listas maestras se definen y asignan a los almacenes a nivel del servidor ce
 Si no encuentras la lista maestra que estás buscando y deseas crear una nueva, por favor contacta a tu administrador.
 &lt;&#x2F;div&gt;
 &lt;div class=&quot;consejo&quot;&gt;
-You can create internal orders from multiple master lists by repeating above actions with another master list. 
+You can create Internal Orders from multiple master lists by repeating above actions with another master list. 
 &lt;&#x2F;div&gt;
 &lt;h3 id=&quot;reading-the-internal-order-s-list&quot;&gt;Reading the Internal Order&#x27;s list&lt;a class=&quot;zola-anchor&quot; href=&quot;#reading-the-internal-order-s-list&quot; aria-label=&quot;Anchor link for: reading-the-internal-order-s-list&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;Puedes crear órdenes internas a partir de múltiples listas maestras repitiendo las mismas acciones con otra lista maestra.&lt;&#x2F;p&gt;
@@ -1704,11 +1704,11 @@ You can create internal orders from multiple master lists by repeating above act
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h3 id=&quot;uso-de-cantidades-sugeridas&quot;&gt;Uso de cantidades sugeridas&lt;a class=&quot;zola-anchor&quot; href=&quot;#uso-de-cantidades-sugeridas&quot; aria-label=&quot;Anchor link for: uso-de-cantidades-sugeridas&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;Si pulsas &lt;code&gt;Usar Cantidades Sugeridas&lt;&#x2F;code&gt; en la cabecera de la requisición, mSupply copiará automáticamente los valores de la columna &lt;strong&gt;Cantidad Sugerida&lt;&#x2F;strong&gt; en la columna &lt;strong&gt;Cantidad Solicitada&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
-&lt;p&gt;Siempre puedes editar manualmente la cantidad de cada línea de pedido pulsando en ella. &lt;&#x2F;p&gt;
+&lt;p&gt;Siempre puedes editar manualmente la cantidad de cada línea de pedido pulsando en ella.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;replenishment&#x2F;images&#x2F;intord_reqtosug.png&quot; alt=&quot;Use Suggested Quantities&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;imprimir-una-orden-interna&quot;&gt;Imprimir una Orden Interna&lt;a class=&quot;zola-anchor&quot; href=&quot;#imprimir-una-orden-interna&quot; aria-label=&quot;Anchor link for: imprimir-una-orden-interna&quot;&gt;🔗&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
 &lt;p&gt;Al ver una Orden Interna específica, simplemente haz clic en el botón &lt;code&gt;Imprimir&lt;&#x2F;code&gt; que está en la parte superior derecha de la página.
-Al imprimir, se generará un archivo PDF que se abrirá en una nueva pestaña de tu navegador. Luego puedes imprimirlo usando tu navegador haciendo clic en imprimir o usando las teclas  &lt;code&gt;control&lt;&#x2F;code&gt;+&lt;code&gt;P&lt;&#x2F;code&gt; (si usas windows) o &lt;code&gt;cmd&lt;&#x2F;code&gt;+&lt;code&gt;P&lt;&#x2F;code&gt; en tu teclado (si usas una Mac).&lt;&#x2F;p&gt;
+Al imprimir, se generará un archivo PDF que se abrirá en una nueva pestaña de tu navegador. Luego puedes imprimirlo usando tu navegador haciendo clic en imprimir o usando las teclas &lt;code&gt;control&lt;&#x2F;code&gt;+&lt;code&gt;P&lt;&#x2F;code&gt; (si usas windows) o &lt;code&gt;cmd&lt;&#x2F;code&gt;+&lt;code&gt;P&lt;&#x2F;code&gt; en tu teclado (si usas una Mac).&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;&#x2F;docs&#x2F;introduction&#x2F;images&#x2F;&#x2F;print_button.png&quot; alt=&quot;Print button&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Esto hará que&lt;&#x2F;p&gt;
 &lt;ul&gt;
