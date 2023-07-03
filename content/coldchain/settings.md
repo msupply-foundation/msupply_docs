@@ -14,6 +14,7 @@ toc = true
 top = true
 +++
 
+### Settings
 
 Selecting the Settings tab at the bottom right of the screen will take you to the Settings screen. From here, you can adjust the settings to:
 
