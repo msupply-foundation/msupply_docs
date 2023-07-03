@@ -24,7 +24,7 @@ The status bar displayed across the top of the home screen shows:
 1. Date and time: the current date and time are displayed as per the tablet time-zone settings.
 2. Battery: an icon and percentage are displayed indicating charge remaining for the tablet.
 
-![Date and Battery Display!](/coldchain/images/date_and_battery.png)]
+![Date and Battery Display!](/coldchain/images/date_and_battery.png)
 
 ### Sensor graphs
 

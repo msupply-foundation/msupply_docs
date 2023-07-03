@@ -9,7 +9,7 @@ sort_by = "weight"
 template = "coldchain/page.html"
 
 [extra]
-lead = "The landing page"
+lead = ""
 toc = true
 top = true
 +++

@@ -9,7 +9,7 @@ sort_by = "weight"
 template = "coldchain/page.html"
 
 [extra]
-lead = "Welcome to mSupply Coldchain!"
+lead = ""
 toc = true
 top = true
 +++
