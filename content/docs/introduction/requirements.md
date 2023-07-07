@@ -25,7 +25,7 @@ The server requires a little more memory and processing capability, depending on
 
 - In environments with regular power outages, it is highly recommended to procure Laptop machines rather than desktop machines. Laptop machines will almost always be the best solution in terms of both cost and effectiveness for these reasons:
   - In environments with poor quality electricity supply, laptop computers will generally be more reliable than desktop computers with UPS protection. In such environments UPS batteries will normally die within 2 years. Laptop batteries have better power management and the batteries last longer
-  - Even when the battery runs out on a laptop, the power management will normally cause the machine to shut down gracefully. 
+  - Even when the battery runs out on a laptop, the power management will normally cause the machine to shut down gracefully.
   - Laptop computers have built-in microphone and camera for provision of support
   - Laptop computers have built-in Wi-Fi adaptor for network connection
   - Laptop computers are smaller and lighter than desktop computers, and so are less costly to ship.
@@ -52,7 +52,7 @@ Recording stock transactions is a core Open mSupply activity. Most stock transac
 
 ### Mobile / tablet requirements
 
-You are able to use a browser on a tablet to connect to an open mSupply server, and the only requirement here is a suitably fast tablet with a browser such as chrome or firefox. 
+You are able to use a browser on a tablet to connect to an open mSupply server, and the only requirement here is a suitably fast tablet with a browser such as chrome or firefox.
 
 For a stand-alone, offline, solution a mobile application is also available for android devices.
 
@@ -60,7 +60,7 @@ Recommended Specifications:
 In short, open mSupply mobile runs on Android tablets (not on phones as there is too much data to use well on small phone screens).
 The application requires at least Android 5.0 (Lollipop)
 
-|           | Minimum | Recommended | 
+|           | Minimum | Recommended |
 | :-------- | :------ | :---------- |
 | Display size | 9.8 inches | 10.1 inches |
 | Resolution   | 768 x 1024 pixels | 800 x 1200 pixels |
@@ -72,6 +72,17 @@ In order to provide support, the device must also be compatible with MDM (Mobile
 
 
 Please contact us for testing and / or advice before making a large hardware purchase.
+
+### Bandwidth and Latency requirements
+Firstly, this is a good time to mention our synrchronisation system, which has saved many countries from a failed installation!
+#### Offline (Sync) mode
+* 128kbps bandwidth
+* high latency (e.g. satellite) is OK, and users will not notice it in day-to-day operations, as sync is running in the background, and requests for data a fulfilled from the local database, not over the internet.
+* intermittent (say only once a week) is OK
+#### Cloud hosted (Online) mode
+* The initial download of Javascript code is around 1 Mb, so a 512kbps connection or faster is best (loads in 10 seconds or so)
+* You need an internet connection on to use Open mSupply in this mode.
+* high latency (e.g. a satellite or overloaded connection) will result in slower performance
 
 
 #### Smart UPS
@@ -111,7 +122,7 @@ Useful productivity accessories for laptop computers include
 
 ### Backup system
 
-Once you start using Open mSupply, it is of crucial importance that you have a method of backing up your data. In a default installation, Open mSupply stores all its data in a file that rapidly becomes large. You need, therefore, to have a high capacity removable storage device. We strongly recommend the use of an external hard disk using either firewire (IEEE 1394) or USB2 to facilitate off-site storage of backups.
+Once you start using Open mSupply, it's important that you have a method of backing up your data. In a default installation, Open mSupply stores all its data in a file that rapidly becomes large. You need, therefore, to have a high capacity removable storage device. We strongly recommend the use of an external hard disk using either firewire (IEEE 1394) or USB2 to facilitate off-site storage of backups.
 
 - If not using our internet backup service, you need to be able to store backed up data off-site to prevent the risk of loss by fire, theft, etc.
 
@@ -123,4 +134,3 @@ Windows based operating systems are particularly prone to malware if precautions
 - Disable USB ports - refer to [this site](http://www.thewindowsclub.com/disable-enable-usb-windowunlock-pen-drive-at-office-or-school-computer) for suggested methods
 
 Ensure that access to passwords to allow exceptions to the above two measures are kept secure.
-
