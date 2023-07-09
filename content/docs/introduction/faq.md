@@ -14,9 +14,12 @@ toc = true
 top = true
 +++
 
-#### What are the practical limits in terms of amount of data that can be stored over a 5 year periods
+#### What are the limits to data handling?
 
-There are two aspects to this question with Open mSupply.
+There are three aspects to this question with Open mSupply-
+* **Remote Sites** are where you do day-to-day work.
+* **Cloud hosted remote sites** can be used when you have full time high quality internet.
+* The **Central Server** is where master data is managed, and where all data from remote sites is aggregated for reporting.
 
 ##### Remote sites
 On a particular remote site, the database will be SQLite if running on Android, or usually Postgres if running a desktop server. We are assuming that if you have a busy site, you will upgrade to desktop (which is a painless process), so the Android limits are less relevant.
@@ -28,6 +31,9 @@ On a particular remote site, the database will be SQLite if running on Android, 
 | Users   | configured centrally - no practical limit at a site  |
 | Suppliers   | configured centrally - no practical limit at a site  |
 | Transactions   | > 1,000,000,000    |
+
+##### Cloud hosted remote sites
+If you host your remote site in the cloud, it can have thousands of connected users. The record limits are as above, but performance will be determined by available bandwidth both for the server and for each user's own internet connection.
 
 ##### The Central Server
 The Central Server uses Postgres, and aggregates all data from all sites, as well as being the master data server for Sites, Products (Items), Facilities, Suppliers and Users.
