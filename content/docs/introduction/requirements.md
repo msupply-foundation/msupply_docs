@@ -73,19 +73,7 @@ In order to provide support, the device must also be compatible with MDM (Mobile
 
 Please contact us for testing and / or advice before making a large hardware purchase.
 
-### Bandwidth and Latency requirements
-Firstly, this is a good time to mention our synrchronisation system, which has saved many countries from a failed installation!
-#### Offline (Sync) mode
-* 128kbps bandwidth
-* high latency (e.g. satellite) is OK, and users will not notice it in day-to-day operations, as sync is running in the background, and requests for data a fulfilled from the local database, not over the internet.
-* intermittent (say only once a week) is OK
-#### Cloud hosted (Online) mode
-* The initial download of Javascript code is around 1 Mb, so a 512kbps connection or faster is best (loads in 10 seconds or so)
-* You need an internet connection on to use Open mSupply in this mode.
-* high latency (e.g. a satellite or overloaded connection) will result in slower performance
-
-
-#### Smart UPS
+### Smart UPS
 A 'smart' UPS ([Uninterruptible Power Supply](https://en.wikipedia.org/wiki/Uninterruptible_power_supply)) detects when the battery power is about to run out and sends a notification to software on the server which triggers a graceful shut down of the computer. To enable this, there needs to be a cable connection (normally USB) between the UPS and the computer combined with software running on the computer.
 
 In our experience, the primary cause of computer hardware failure is data corruption due to ungraceful shutdowns. This happens when power to the computer is cut instantly, without any notification to the computer to shut down gracefully. If the machine is 'protected' by a normal UPS, then this can still happen when the battery power runs out. Even if the machine is notionally protected by a 'smart' UPS, there are a number of circumstances where this UPS protection fails:
@@ -120,17 +108,41 @@ Useful productivity accessories for laptop computers include
 - External keyboard (not wireless - batteries replacement is expensive and environmentally problematic)
 - External screen
 
-### Backup system
+## Bandwidth and Latency requirements
+Firstly, this is a good time to mention our synchronisation system, which has saved many countries from a failed installation!
+
+#### Offline (Sync) mode
+* 128kbps bandwidth
+* high latency (e.g. satellite) is OK, and users will not notice it in day-to-day operations, as sync is running in the background, and requests for data a fulfilled from the local database, not over the internet.
+* intermittent (say only once a week) is OK
+
+#### Cloud hosted (Online) mode
+* The initial download of Javascript code is around 1 Mb, so a 512kbps connection or faster is best (loads in 10 seconds or so)
+* You need an internet connection on to use Open mSupply in this mode.
+* high latency (e.g. a satellite or overloaded connection) will result in slower performance
+
+## Backup system
 
 Once you start using Open mSupply, it's important that you have a method of backing up your data. In a default installation, Open mSupply stores all its data in a file that rapidly becomes large. You need, therefore, to have a high capacity removable storage device. We strongly recommend the use of an external hard disk using either firewire (IEEE 1394) or USB2 to facilitate off-site storage of backups.
 
 - If not using our internet backup service, you need to be able to store backed up data off-site to prevent the risk of loss by fire, theft, etc.
 
 
-### Antivirus
+## Antivirus
 Windows based operating systems are particularly prone to malware if precautions are not taken. We recommend the following precautions:
 
 - Install a reputable anti-virus program, including web protection if the computer has access to the internet
 - Disable USB ports - refer to [this site](http://www.thewindowsclub.com/disable-enable-usb-windowunlock-pen-drive-at-office-or-school-computer) for suggested methods
 
 Ensure that access to passwords to allow exceptions to the above two measures are kept secure.
+
+## mSupply
+An installation of mSupply is currently required when running open mSupply (this is used to manage a number of centralised aspects of the system). 
+The version of both mSupply and open mSupply is important, as not all versions of each are compatible with each other. 
+
+The table below shows which version of mSupply you will require when running open mSupply
+
+| omSupply         | mSupply               |
+| :--------------- | :-------------------- |
+| 1.1.00 - 1.1.15  | 7.04.03 - 7.05.04     |
+| 1.2.00+          | 7.05.05+              |

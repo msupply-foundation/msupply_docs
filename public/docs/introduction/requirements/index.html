@@ -368,11 +368,25 @@
           
           <li><a href="https://docs.msupply.foundation/docs/introduction/requirements/#mobile-tablet-requirements">Mobile &#x2F; tablet requirements</a></li>
           
-          <li><a href="https://docs.msupply.foundation/docs/introduction/requirements/#backup-system">Backup system</a></li>
-          
-          <li><a href="https://docs.msupply.foundation/docs/introduction/requirements/#antivirus">Antivirus</a></li>
+          <li><a href="https://docs.msupply.foundation/docs/introduction/requirements/#smart-ups">Smart UPS</a></li>
           
         </ul>
+         
+        <li><a href="https://docs.msupply.foundation/docs/introduction/requirements/#bandwidth-and-latency-requirements">Bandwidth and Latency requirements</a></li>
+        
+        <ul>
+          
+          <li><a href="https://docs.msupply.foundation/docs/introduction/requirements/#offline-sync-mode">Offline (Sync) mode</a></li>
+          
+          <li><a href="https://docs.msupply.foundation/docs/introduction/requirements/#cloud-hosted-online-mode">Cloud hosted (Online) mode</a></li>
+          
+        </ul>
+         
+        <li><a href="https://docs.msupply.foundation/docs/introduction/requirements/#backup-system">Backup system</a></li>
+         
+        <li><a href="https://docs.msupply.foundation/docs/introduction/requirements/#antivirus">Antivirus</a></li>
+         
+        <li><a href="https://docs.msupply.foundation/docs/introduction/requirements/#msupply">mSupply</a></li>
          
       </ul>
     </nav>
@@ -404,7 +418,7 @@ The server requires a little more memory and processing capability, depending on
 <p>In environments with regular power outages, it is highly recommended to procure Laptop machines rather than desktop machines. Laptop machines will almost always be the best solution in terms of both cost and effectiveness for these reasons:</p>
 <ul>
 <li>In environments with poor quality electricity supply, laptop computers will generally be more reliable than desktop computers with UPS protection. In such environments UPS batteries will normally die within 2 years. Laptop batteries have better power management and the batteries last longer</li>
-<li>Even when the battery runs out on a laptop, the power management will normally cause the machine to shut down gracefully. </li>
+<li>Even when the battery runs out on a laptop, the power management will normally cause the machine to shut down gracefully.</li>
 <li>Laptop computers have built-in microphone and camera for provision of support</li>
 <li>Laptop computers have built-in Wi-Fi adaptor for network connection</li>
 <li>Laptop computers are smaller and lighter than desktop computers, and so are less costly to ship.</li>
@@ -433,7 +447,7 @@ The server requires a little more memory and processing capability, depending on
 Recording stock transactions is a core Open mSupply activity. Most stock transaction data is numeric. A numeric keypad is often helpful for machines that have a lot of data entry done on them.
 </div>
 <h3 id="mobile-tablet-requirements">Mobile / tablet requirements<a class="zola-anchor" href="#mobile-tablet-requirements" aria-label="Anchor link for: mobile-tablet-requirements">🔗</a></h3>
-<p>You are able to use a browser on a tablet to connect to an open mSupply server, and the only requirement here is a suitably fast tablet with a browser such as chrome or firefox. </p>
+<p>You are able to use a browser on a tablet to connect to an open mSupply server, and the only requirement here is a suitably fast tablet with a browser such as chrome or firefox.</p>
 <p>For a stand-alone, offline, solution a mobile application is also available for android devices.</p>
 <p>Recommended Specifications:
 In short, open mSupply mobile runs on Android tablets (not on phones as there is too much data to use well on small phone screens).
@@ -447,7 +461,7 @@ The application requires at least Android 5.0 (Lollipop)</p>
 </tbody></table>
 <p>In order to provide support, the device must also be compatible with MDM (Mobile Device Management) software and support google services. Please contact <a href="https://msupply.foundation/#contact">mSupply Foundation</a> for details.</p>
 <p>Please contact us for testing and / or advice before making a large hardware purchase.</p>
-<h4 id="smart-ups">Smart UPS<a class="zola-anchor" href="#smart-ups" aria-label="Anchor link for: smart-ups">🔗</a></h4>
+<h3 id="smart-ups">Smart UPS<a class="zola-anchor" href="#smart-ups" aria-label="Anchor link for: smart-ups">🔗</a></h3>
 <p>A 'smart' UPS (<a href="https://en.wikipedia.org/wiki/Uninterruptible_power_supply">Uninterruptible Power Supply</a>) detects when the battery power is about to run out and sends a notification to software on the server which triggers a graceful shut down of the computer. To enable this, there needs to be a cable connection (normally USB) between the UPS and the computer combined with software running on the computer.</p>
 <p>In our experience, the primary cause of computer hardware failure is data corruption due to ungraceful shutdowns. This happens when power to the computer is cut instantly, without any notification to the computer to shut down gracefully. If the machine is 'protected' by a normal UPS, then this can still happen when the battery power runs out. Even if the machine is notionally protected by a 'smart' UPS, there are a number of circumstances where this UPS protection fails:</p>
 <ul>
@@ -485,18 +499,40 @@ The application requires at least Android 5.0 (Lollipop)</p>
 <li>External keyboard (not wireless - batteries replacement is expensive and environmentally problematic)</li>
 <li>External screen</li>
 </ul>
-<h3 id="backup-system">Backup system<a class="zola-anchor" href="#backup-system" aria-label="Anchor link for: backup-system">🔗</a></h3>
-<p>Once you start using Open mSupply, it is of crucial importance that you have a method of backing up your data. In a default installation, Open mSupply stores all its data in a file that rapidly becomes large. You need, therefore, to have a high capacity removable storage device. We strongly recommend the use of an external hard disk using either firewire (IEEE 1394) or USB2 to facilitate off-site storage of backups.</p>
+<h2 id="bandwidth-and-latency-requirements">Bandwidth and Latency requirements<a class="zola-anchor" href="#bandwidth-and-latency-requirements" aria-label="Anchor link for: bandwidth-and-latency-requirements">🔗</a></h2>
+<p>Firstly, this is a good time to mention our synchronisation system, which has saved many countries from a failed installation!</p>
+<h4 id="offline-sync-mode">Offline (Sync) mode<a class="zola-anchor" href="#offline-sync-mode" aria-label="Anchor link for: offline-sync-mode">🔗</a></h4>
+<ul>
+<li>128kbps bandwidth</li>
+<li>high latency (e.g. satellite) is OK, and users will not notice it in day-to-day operations, as sync is running in the background, and requests for data a fulfilled from the local database, not over the internet.</li>
+<li>intermittent (say only once a week) is OK</li>
+</ul>
+<h4 id="cloud-hosted-online-mode">Cloud hosted (Online) mode<a class="zola-anchor" href="#cloud-hosted-online-mode" aria-label="Anchor link for: cloud-hosted-online-mode">🔗</a></h4>
+<ul>
+<li>The initial download of Javascript code is around 1 Mb, so a 512kbps connection or faster is best (loads in 10 seconds or so)</li>
+<li>You need an internet connection on to use Open mSupply in this mode.</li>
+<li>high latency (e.g. a satellite or overloaded connection) will result in slower performance</li>
+</ul>
+<h2 id="backup-system">Backup system<a class="zola-anchor" href="#backup-system" aria-label="Anchor link for: backup-system">🔗</a></h2>
+<p>Once you start using Open mSupply, it's important that you have a method of backing up your data. In a default installation, Open mSupply stores all its data in a file that rapidly becomes large. You need, therefore, to have a high capacity removable storage device. We strongly recommend the use of an external hard disk using either firewire (IEEE 1394) or USB2 to facilitate off-site storage of backups.</p>
 <ul>
 <li>If not using our internet backup service, you need to be able to store backed up data off-site to prevent the risk of loss by fire, theft, etc.</li>
 </ul>
-<h3 id="antivirus">Antivirus<a class="zola-anchor" href="#antivirus" aria-label="Anchor link for: antivirus">🔗</a></h3>
+<h2 id="antivirus">Antivirus<a class="zola-anchor" href="#antivirus" aria-label="Anchor link for: antivirus">🔗</a></h2>
 <p>Windows based operating systems are particularly prone to malware if precautions are not taken. We recommend the following precautions:</p>
 <ul>
 <li>Install a reputable anti-virus program, including web protection if the computer has access to the internet</li>
 <li>Disable USB ports - refer to <a href="http://www.thewindowsclub.com/disable-enable-usb-windowunlock-pen-drive-at-office-or-school-computer">this site</a> for suggested methods</li>
 </ul>
 <p>Ensure that access to passwords to allow exceptions to the above two measures are kept secure.</p>
+<h2 id="msupply">mSupply<a class="zola-anchor" href="#msupply" aria-label="Anchor link for: msupply">🔗</a></h2>
+<p>An installation of mSupply is currently required when running open mSupply (this is used to manage a number of centralised aspects of the system). 
+The version of both mSupply and open mSupply is important, as not all versions of each are compatible with each other. </p>
+<p>The table below shows which version of mSupply you will require when running open mSupply</p>
+<table><thead><tr><th align="left">omSupply</th><th align="left">mSupply</th></tr></thead><tbody>
+<tr><td align="left">1.1.00 - 1.1.15</td><td align="left">7.04.03 - 7.05.04</td></tr>
+<tr><td align="left">1.2.00+</td><td align="left">7.05.05+</td></tr>
+</tbody></table>
   
 <div class="docs-navigation d-flex justify-content-between">
   

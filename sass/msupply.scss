@@ -223,3 +223,8 @@ table {
   vertical-align: middle;
   visibility: hidden;
 }
+
+body.dark .flagster img {
+  background: #dee2e6;
+  border-radius: 10px;
+}

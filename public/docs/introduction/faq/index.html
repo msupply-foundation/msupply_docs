@@ -356,6 +356,18 @@
     <nav id="TableOfContents">
       <ul>
         
+        <li><a href="https://docs.msupply.foundation/docs/introduction/faq/#what-are-the-limits-to-data-handling">What are the limits to data handling?</a></li>
+        
+        <ul>
+          
+          <li><a href="https://docs.msupply.foundation/docs/introduction/faq/#remote-sites">Remote sites</a></li>
+          
+          <li><a href="https://docs.msupply.foundation/docs/introduction/faq/#cloud-hosted-remote-sites">Cloud hosted remote sites</a></li>
+          
+          <li><a href="https://docs.msupply.foundation/docs/introduction/faq/#the-central-server">The Central Server</a></li>
+          
+        </ul>
+         
         <li><a href="https://docs.msupply.foundation/docs/introduction/faq/#can-you-have-multi-users-on-one-android-tablet-with-open-msupply">Can you have multi-users on one Android tablet with Open mSupply?</a></li>
          
         <li><a href="https://docs.msupply.foundation/docs/introduction/faq/#can-you-have-multi-stores-on-one-tablet-with-open-msupply">Can you have multi-stores on one tablet with Open mSupply?</a></li>
@@ -387,15 +399,47 @@
         <h1>Frequent Asked Questions</h1>
         
         <p class="lead">Questions about Open mSupply</p>
-         <h4 id="can-you-have-multi-users-on-one-android-tablet-with-open-msupply">Can you have multi-users on one Android tablet with Open mSupply?<a class="zola-anchor" href="#can-you-have-multi-users-on-one-android-tablet-with-open-msupply" aria-label="Anchor link for: can-you-have-multi-users-on-one-android-tablet-with-open-msupply">🔗</a></h4>
+         <h4 id="what-are-the-limits-to-data-handling">What are the limits to data handling?<a class="zola-anchor" href="#what-are-the-limits-to-data-handling" aria-label="Anchor link for: what-are-the-limits-to-data-handling">🔗</a></h4>
+<p>There are three aspects to this question with Open mSupply-</p>
+<ul>
+<li><strong>Remote Sites</strong> are where you do day-to-day work.</li>
+<li><strong>Cloud hosted remote sites</strong> can be used when you have full time high quality internet.</li>
+<li>The <strong>Central Server</strong> is where master data is managed, and where all data from remote sites is aggregated for reporting.</li>
+</ul>
+<h5 id="remote-sites">Remote sites<a class="zola-anchor" href="#remote-sites" aria-label="Anchor link for: remote-sites">🔗</a></h5>
+<p>On a particular remote site, the database will be SQLite if running on Android, or usually Postgres if running a desktop server. We are assuming that if you have a busy site, you will upgrade to desktop (which is a painless process), so the Android limits are less relevant.</p>
+<table><thead><tr><th>Type of record</th><th align="right">Record limit</th></tr></thead><tbody>
+<tr><td>Products</td><td align="right">&gt; 1,000,000</td></tr>
+<tr><td>Trade items</td><td align="right">&gt; 1,000,000,000</td></tr>
+<tr><td>Users</td><td align="right">configured centrally - no practical limit at a site</td></tr>
+<tr><td>Suppliers</td><td align="right">configured centrally - no practical limit at a site</td></tr>
+<tr><td>Transactions</td><td align="right">&gt; 1,000,000,000</td></tr>
+</tbody></table>
+<h5 id="cloud-hosted-remote-sites">Cloud hosted remote sites<a class="zola-anchor" href="#cloud-hosted-remote-sites" aria-label="Anchor link for: cloud-hosted-remote-sites">🔗</a></h5>
+<p>If you host your remote site in the cloud, it can have thousands of connected users. The record limits are as above, but performance will be determined by available bandwidth both for the server and for each user's own internet connection.</p>
+<h5 id="the-central-server">The Central Server<a class="zola-anchor" href="#the-central-server" aria-label="Anchor link for: the-central-server">🔗</a></h5>
+<p>The Central Server uses Postgres, and aggregates all data from all sites, as well as being the master data server for Sites, Products (Items), Facilities, Suppliers and Users.</p>
+<table><thead><tr><th>Type of record</th><th align="right">Record limit</th></tr></thead><tbody>
+<tr><td>Products</td><td align="right">&gt; 1,000,000</td></tr>
+<tr><td>Trade items</td><td align="right">&gt; 1,000,000,000</td></tr>
+<tr><td>Users</td><td align="right">&gt; 100,000</td></tr>
+<tr><td>Suppliers</td><td align="right">&gt; 100,000</td></tr>
+<tr><td>Sites</td><td align="right">&gt; 100,000</td></tr>
+<tr><td>Transactions</td><td align="right">&gt; 1,000,000,000</td></tr>
+</tbody></table>
+<p>(As of 2023 we are still to rewrite the central server as an open source project - the limits for the commercial mSupply central server are lower, but we still have sites with tens of millions of transactions, and growing fast. We don't expect any site to run into limits before we transition to an open source central server).</p>
+<h4 id="can-you-have-multi-users-on-one-android-tablet-with-open-msupply">Can you have multi-users on one Android tablet with Open mSupply?<a class="zola-anchor" href="#can-you-have-multi-users-on-one-android-tablet-with-open-msupply" aria-label="Anchor link for: can-you-have-multi-users-on-one-android-tablet-with-open-msupply">🔗</a></h4>
 <p>Yes!</p>
 <p>You can have multiple users log into the one tablet.</p>
 <h4 id="can-you-have-multi-stores-on-one-tablet-with-open-msupply">Can you have multi-stores on one tablet with Open mSupply?<a class="zola-anchor" href="#can-you-have-multi-stores-on-one-tablet-with-open-msupply" aria-label="Anchor link for: can-you-have-multi-stores-on-one-tablet-with-open-msupply">🔗</a></h4>
 <p>Yes!</p>
-<p>The stores visible on each tablet at each site are configured centrally.</p>
+<p>The stores visible on each tablet at each site are configured centrally.
+When you log in you will see all stores that you have permission to log in to.
+If you don't see a store you expect, check permissions on the central server and make sure the remote site has synchronised after updating permissions.</p>
 <h4 id="can-you-have-multiple-users-on-multiple-open-msupply-tablets-accessing-the-same-store-concurrently">Can you have multiple users on multiple Open mSupply tablets accessing the same store concurrently<a class="zola-anchor" href="#can-you-have-multiple-users-on-multiple-open-msupply-tablets-accessing-the-same-store-concurrently" aria-label="Anchor link for: can-you-have-multiple-users-on-multiple-open-msupply-tablets-accessing-the-same-store-concurrently">🔗</a></h4>
 <p>Yes!</p>
 <p>You can also access an Open mSupply server running on an Android tablet from a machine running Open mSupply desktop or from a web browser on any device.</p>
+<p>Further, Open mSupply &quot;publishes&quot; its availability on the local network, so you can log into the server without messing aroudn with IP addresses and the like.</p>
 <h4 id="can-multiple-people-view-edit-the-same-shipment-stocktake-requisiton-at-the-same-time">Can multiple people view/edit the same shipment/stocktake/requisiton at the same time<a class="zola-anchor" href="#can-multiple-people-view-edit-the-same-shipment-stocktake-requisiton-at-the-same-time" aria-label="Anchor link for: can-multiple-people-view-edit-the-same-shipment-stocktake-requisiton-at-the-same-time">🔗</a></h4>
 <p>Yes! Although the last edit will override previous edits if you both edit the same line at the same time. Stock integrity will be maintained though.</p>
 <h4 id="are-there-any-concurrent-license-restrictions">Are there any concurrent license restrictions?<a class="zola-anchor" href="#are-there-any-concurrent-license-restrictions" aria-label="Anchor link for: are-there-any-concurrent-license-restrictions">🔗</a></h4>
