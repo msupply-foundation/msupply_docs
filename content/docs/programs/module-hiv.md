@@ -214,7 +214,13 @@ This can be done by clicking on the `Export` button in the top right corner of t
 ![export patients](/docs/programs/images/export_patients.png)
 
 
+## Reports
 
+Navigating to `Dispensary` > `Reports` will show you a list of reports that have been configured for your system.
  
+ ![reports list](/docs/programs/images/reports_list.png)
+
+ You can click on the `Print` button beside a report to print it. The system may show a dialog window requesting more information to be entered first.
+
 
 
