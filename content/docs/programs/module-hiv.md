@@ -34,6 +34,7 @@ You will also need to enable the store preference for `omSupply: Uses program mo
 ![Store preference](/docs/programs/images/store_preference.png)
 
 ## Patients
+
 In order to use the program module, you'll first need to create and manage patients to dispense to.
 
 ### Patient Registration
@@ -52,7 +53,7 @@ The patient creation is split into three steps:
 2. Search for existing similar patients to avoid duplicated patient entries
 3. Entering full patient information and finalising the patient
 
-After clicking the `New Patient` button, you'll be shown a dialog window. 
+After clicking the `New Patient` button, you'll be shown a dialog window.
 
 ![patient details](/docs/programs/images/patient_details.png)
 
@@ -66,16 +67,15 @@ Clicking the `Create` button will create the new patient record, and you'll see 
 
 ![create patient](/docs/programs/images/create_patient.png)
 
-
 ### Patient List
 
 Navigating to the `Dispensary` → `Patients` menu item will show a list of existing patients.
 
 ![patient list](/docs/programs/images/patient_list.png)
 
-### Searching for a Patient 
+### Searching for a Patient
 
-In the list view, search bars are above the patient list that can be used to narrow and specify the search. You can search by both first and last name as well as by ID. This can be useful to quickly find patients with common names or if there is a large number of existing patients. 
+In the list view, search bars are above the patient list that can be used to narrow and specify the search. You can search by both first and last name as well as by ID. This can be useful to quickly find patients with common names or if there is a large number of existing patients.
 
 ![patient search](/docs/programs/images/patient_search.png)
 
@@ -89,9 +89,9 @@ The information recorded here is customisable for a specific installation of ope
 
 On the patient detail view there are three tabs:
 
-1) Details: shows the general patient information 
-2) Programs: shows a list of program enrolments for the selected patient
-3) Encounters: shows a list of encounters for the selected patient
+1. Details: shows the general patient information
+2. Programs: shows a list of program enrolments for the selected patient
+3. Encounters: shows a list of encounters for the selected patient
 
 To view the list of programs which this patient is enrolled in, click the `Programs` tab.
 
@@ -108,7 +108,6 @@ The `Encounters` tab behaves in the same way. Clicking on it will show a list of
 Clicking on an encounter in the list will then take you to the details page for that encounter. For example:
 
 ![patient encounter](/docs/programs/images/patient_encounter.png)
-
 
 You can also view a simple history of changes made to the patient record, by clicking the `History` button which is on the bottom left of the screen:
 
@@ -131,9 +130,8 @@ Programs are customisable and specific to each context and country. Examples of 
 To enrol a patient into a program select the `Add Program` button in the top right corner of the patient details view.
 ![add program](/docs/programs/images/add_program_button.png)
 
-
 This will open a dialog window with a list of available patient programs.
-Programs which the patient is already enrolled in are greyed out and can’t be selected.
+Programs which the patient are already enrolled in are greyed out and can’t be selected.
 
 ![program enrolment dialog](/docs/programs/images/program_enrolment_dialog.png)
 
@@ -144,7 +142,7 @@ Note, the content of the program enrolment document is program specific and can 
 
 ## Encounters
 
-An 'Encounter' is the recorded visit of a patient, and their treatment, under a specific program.  
+An 'Encounter' is the recorded visit of a patient, and their treatment, under a specific program.
 
 To view the list of encounters, navigate to the `Encounters` item under the `Dispensary` menu:
 
@@ -162,19 +160,19 @@ Like programs, encounters are highly customisable and are tailored to a specific
 
 To create an encounter, select `Add Encounter` through the drop-down menu in the right top corner.
 
-<div class="note">A patient must have to be enrolled in a program to input an encounter</div>
+<div class="note">A patient must be enrolled in a program to input an encounter</div>
 
 ![add patient encounter](/docs/programs/images/add_encounter_button.png)
 
 This will open a dialog window to create an encounter.
 
-First, the type of encounter needs to be selected, i.e. which program enrolment the encounter is associated with.
+First, the program enrolment associated with the encounter must be selected.
 
-Secondly, the encounter date must be selected. The encounter date can be in the past, e.g. for entering finished encounter, or in the future, e.g. to schedule an encounter (aka appointment).
+Secondly, the encounter date must be selected. The encounter date can be in the past (for entering a finished encounter), or in the future (to schedule an encounter - AKA make an appointment).
 
 ![new encounter dialog](/docs/programs/images/new_encounter_dialog.png)
 
-Once an encounter is created, the full encounter document will open to enter encounter details.
+Once an encounter is created, the full encounter document will open to allow encounter details input.
 
 <div class="note">The content of the encounter document is program specific and can be configured by the system administrator</div>
 
@@ -184,7 +182,7 @@ Every encounter has an encounter header where common encounter details can be up
 
 An encounter can have three statuses:
 
-- Pending (depending on the current date this could mean the encounter is scheduled, or the encounter has been missed)
+- Pending (this status can be displayed as scheduled or missed depdning on the current date)
 - Visited
 - Cancelled
 
@@ -194,33 +192,28 @@ The `More` button in the right top of the encounter detail view opens a column w
 
 ![encounter detail panel](/docs/programs/images/encounter_detail_panel.png)
 
-If you would like to view the patient details, when you are looking at an encounter, you can do this easily. Simply click on the patient name at the top of the encounter header, as shown:
+You can easily view patient details while looking at an encounter. Simply click on the patient name at the top of the encounter header, as shown:
 
 ![patient encounter breadcrumb link](/docs/programs/images/encounter_patient_breadcrumb.png)
-
 
 ## Export Patient List
 
 The list of patients can be exported to a comma separated file. This will export the following patient details:
 
-1) ID
-2) National ID
-3) First name
-4) Last name
-5) Date of Birth
+1. ID
+2. National ID
+3. First name
+4. Last name
+5. Date of Birth
 
 This can be done by clicking on the `Export` button in the top right corner of the patient list view.
 
 ![export patients](/docs/programs/images/export_patients.png)
 
-
 ## Reports
 
 Navigating to `Dispensary` > `Reports` will show you a list of reports that have been configured for your system.
- 
- ![reports list](/docs/programs/images/reports_list.png)
 
- You can click on the `Print` button beside a report to print it. The system may show a dialog window requesting more information to be entered first.
+![reports list](/docs/programs/images/reports_list.png)
 
-
-
+You can click on the `Print` button beside a report to print it. The system may show a dialog window requesting more information to be entered first.
