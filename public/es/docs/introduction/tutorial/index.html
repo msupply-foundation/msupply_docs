@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="preload" as="font" href="https://docs.msupply.foundation/fonts/vendor/jost/jost-v4-latin-regular.woff2" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="https://docs.msupply.foundation/fonts/vendor/jost/jost-v4-latin-700.woff2"  type="font/woff2" crossorigin>
+
+
+<link rel="stylesheet" href="https://docs.msupply.foundation/main.css">
+<link rel="stylesheet" href="https://docs.msupply.foundation/msupply.css">
+
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+  
+  
+  
+    
+  
+  
+  
+  
+    
+  
+  
+  
+
+
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+
+	
+
+
+	
+
+<title>Tutorial - mSupply 🇪🇸</title>
+<meta name="description" content="Introductory tutorial for Open mSupply.">
+<link rel="canonical" href="https://docs.msupply.foundation/es/docs/introduction/tutorial/">
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    
+      
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          {
+            "@type": "ListItem",
+            "position":  1 ,
+            "name": "Home",
+            "item": "https://docs.msupply.foundation/"
+          },
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  2 ,
+            "name": "Es",
+            "item": "https://docs.msupply.foundation/es/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  3 ,
+            "name": "Docs",
+            "item": "https://docs.msupply.foundation/es/docs/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  4 ,
+            "name": "Introduction",
+            "item": "https://docs.msupply.foundation/es/docs/introduction/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  5 ,
+            "name": "Tutorial",
+            "item": "https://docs.msupply.foundation/es/docs/introduction/tutorial/"
+          },
+        
+      
+    
+  }
+</script>
+
+
+
+
+
+
+  <meta name="theme-color" content="#fff">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://docs.msupply.foundation/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://docs.msupply.foundation/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://docs.msupply.foundation/favicon-16x16.png">
+  
+    <link rel="manifest" href="https://docs.msupply.foundation/site.webmanifest" crossorigin>
+  
+
+
+  
+
+</head>
+  
+<body class="docs single">
+    
+ 
+
+    
+
+<div class="header-bar fixed-top"></div>
+<header class="navbar fixed-top navbar-expand-md navbar-light">
+	<div class="container">
+		<input class="menu-btn order-0" type="checkbox" id="menu-btn">
+		<label class="menu-icon d-md-none" for="menu-btn"><span class="navicon"></span></label>
+		<a class="navbar-brand order-1 order-md-0 me-auto" href="https://docs.msupply.foundation//es">mSupply 🇪🇸</a>
+		<button id="mode" class="btn btn-link order-2 order-md-4" type="button" aria-label="Toggle mode">
+			<span class="toggle-dark"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></span>
+			<span class="toggle-light"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></span>
+		</button>
+		<ul class="navbar-nav fork-me order-3 order-md-5">
+			
+				
+					<li class="nav-item">
+						<a class="nav-link" href="https://twitter.com/mSupply"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg><span class="ms-2 visually-hidden">Twitter</span></a>
+					</li>
+				
+			
+		</ul>
+		<div class="collapse navbar-collapse order-4 order-md-1">
+			<ul class="navbar-nav main-nav me-auto order-5 order-md-2">
+				
+					
+				
+				
+				
+					
+						<li class="nav-item docs active">
+							<a class="nav-link" href="https://docs.msupply.foundation/docs/introduction/introduction/">Open mSupply (Desktop+Mobile)</a>
+						</li>
+					
+						<li class="nav-item">
+							<a class="nav-link" href="https://docs.msupply.foundation/coldchain/introduction/">Coldchain</a>
+						</li>
+					
+						<li class="nav-item">
+							<a class="nav-link" href="https://docs.msupply.foundation/dashboard/introduction/">Dashboard</a>
+						</li>
+					
+						<li class="nav-item">
+							<a class="nav-link" href="https://docs.msupply.foundation/mobile/introduction/introduction/">Mobile (Legacy)</a>
+						</li>
+					
+						<li class="nav-item">
+							<a class="nav-link" href="https://docs.msupply.foundation/health-supply-hub/introduction/">Health Supply Hub</a>
+						</li>
+					
+				
+			</ul>
+			<div class="break order-6 d-md-none"></div>
+			
+				<form class="navbar-form flex-grow-1 order-7 order-md-3">
+					<input id="userinput" class="form-control is-search" type="search" placeholder="Buscar documentos..."
+						aria-label="Search docs..." autocomplete="off">
+					<div id="suggestions" class="shadow bg-white rounded"></div>
+				</form>
+			
+		</div>
+	</div>
+</header>
+ 
+
+  
+<div class="wrap container" role="document">
+  <div class="content">
+    <div class="row flex-xl-nowrap">
+      
+<div class="col-lg-5 col-xl-4 docs-sidebar">
+	<nav class="docs-links" aria-label="Main navigation">
+		
+			
+		
+			
+			
+			
+					
+					
+					
+							<h3>Documentation</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/es/docs/introduction/introduction/">Introducción</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/es/docs/introduction/roadmap/">Plan de Trabajo Actual</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/es/docs/introduction/faq/">Preguntas Frecuentes</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/es/docs/introduction/requirements/">Requisitos</a></li>
+							                           
+									<li><a class="docs-link active" href="https://docs.msupply.foundation/es/docs/introduction/tutorial/">Tutorial</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/es/docs/introduction/dashboard/">Tablero de Control</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/es/docs/introduction/mobile/">Mobile</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Distribución</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/es/docs/distribution/customers/">Clientes</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/es/docs/distribution/requisitions/">Requisiciones</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/es/docs/distribution/outbound-shipments/">Salidas</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Rebastecimiento</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/es/docs/replenishment/suppliers/">Proveedores</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/es/docs/replenishment/internal-orders/">Ordenes Internas</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/es/docs/replenishment/inbound-shipments/">Entradas</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Catálogo</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/es/docs/catalogue/items/">Artículos</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/es/docs/catalogue/master-list/">Listas Maestras</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Inventario</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/es/docs/inventory/stock-takes/">Tomas de Inventario</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/es/docs/inventory/stock-view/">Inventario</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Programas</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/es/docs/programs/module-hiv/">Módulo VIH</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Administración</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/es/docs/administration/display/">Configuración de visualización</a></li>
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/es/docs/administration/synchronisation/">Sincronización</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Synchronisation</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/es/docs/sync/synchronisation/">Sincronización</a></li>
+							
+					</ul>
+					
+					
+			
+	</nav>
+</div>
+  
+<nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
+  <div class="page-links">
+    <h3>En esta pagina</h3>
+    <nav id="TableOfContents">
+      <ul>
+        
+        <li><a href="https://docs.msupply.foundation/es/docs/introduction/tutorial/#tutorial-open-msupply">Tutorial Open mSupply</a></li>
+         
+        <li><a href="https://docs.msupply.foundation/es/docs/introduction/tutorial/#inicio-de-sesion">Inicio de sesión</a></li>
+         
+        <li><a href="https://docs.msupply.foundation/es/docs/introduction/tutorial/#navegacion">Navegación</a></li>
+        
+        <ul>
+          
+          <li><a href="https://docs.msupply.foundation/es/docs/introduction/tutorial/#atajos-de-teclado">Atajos de teclado</a></li>
+          
+        </ul>
+         
+        <li><a href="https://docs.msupply.foundation/es/docs/introduction/tutorial/#pie-de-pagina">Pie de página</a></li>
+         
+        <li><a href="https://docs.msupply.foundation/es/docs/introduction/tutorial/#ayuda">¡Ayuda!</a></li>
+         
+      </ul>
+    </nav>
+  </div>
+</nav>
+ 
+      <main class="docs-content col-lg-11 col-xl-9">
+        
+        <div class="flagster" style="float: right; padding: 5px">
+          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;introduction&#x2F;tutorial&#x2F;" title="Change language to en"
+            ><img src="/icons/en.svg" width="28"> </a>
+        </div>
+        
+        <div class="flagster" style="float: right; padding: 5px">
+          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;fr&#x2F;docs&#x2F;introduction&#x2F;tutorial&#x2F;" title="Change language to fr"
+            ><img src="/icons/fr.svg" width="28"> </a>
+        </div>
+        
+        <div class="flagster" style="float: right; padding: 5px">
+          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;es&#x2F;docs&#x2F;introduction&#x2F;tutorial&#x2F;" title="Change language to es"
+            ><img src="/icons/es.svg" width="28"> </a>
+        </div>
+        
+
+        <h1>Tutorial</h1>
+         <h2 id="tutorial-open-msupply">Tutorial Open mSupply<a class="zola-anchor" href="#tutorial-open-msupply" aria-label="Anchor link for: tutorial-open-msupply">🔗</a></h2>
+<p>Este tutorial está diseñado para guiarte a través de los conceptos básicos del uso de Open mSupply.</p>
+<h2 id="inicio-de-sesion">Inicio de sesión<a class="zola-anchor" href="#inicio-de-sesion" aria-label="Anchor link for: inicio-de-sesion">🔗</a></h2>
+<ol>
+<li>En primer lugar, deberás abrir tu navegador web. Nosotros recomendamos Firefox, pero Chrome y sus muchos derivados también son suficientes.</li>
+<li>Introduce la dirección web (URL) de tu servidor mSupply. En nuestro caso, estamos utilizando https://demo-open.msupply.org - nuestro sitio web de prueba.</li>
+<li>Después de presionar <enter> en tu teclado, se te mostrará la página de inicio de sesión.</li>
+</ol>
+<p><img src="/docs/introduction/images/log_in.png" alt="login!" /></p>
+<ol start="4">
+<li>Ingresa tu nombre de usuario y contraseña y presiona <enter> en tu teclado o haz clic en el botón [Iniciar sesión].</li>
+</ol>
+<p>Si todo va bien, serás redirigido a la página del tablero de control. 
+Si hubo un problema, verás un mensaje de error como este:</p>
+<p><img src="/docs/introduction/images/log_in_error.png" alt="login!" /></p>
+<p>Intenta volver a escribir tu nombre de usuario y contraseña. Recuerda que ambos son sensibles a las mayúsculas y minúsculas. Una vez que hayas iniciado sesión, se seleccionará automáticamente el almacén predeterminado de tu usuario. Si tienes acceso a otros almacenes, podrás cambiar entre ellos después de iniciar sesión (ver más abajo).Si ya has iniciado sesión antes y has cambiado de almacén, se seleccionará automáticamente el almacén más reciente cuando inicies sesión de nuevo.</p>
+<h2 id="navegacion">Navegación<a class="zola-anchor" href="#navegacion" aria-label="Anchor link for: navegacion">🔗</a></h2>
+<p>El menú principal se encuentra en el lado izquierdo de la pantalla. Si tienes una pantalla pequeña, por defecto estará colapsado - en pantallas más grandes estará abierto por defecto.
+Para abrir y cerrar el menú puedes hacer clic en el logo en la parte superior, como se muestra a continuación. Una vez que hayas seleccionado una opción, el menú permanecerá abierto o cerrado.</p>
+<p>Si el menú está cerrado, simplemente pasar el cursor sobre los elementos del menú lo abrirá, en cuyo caso al hacer clic en un elemento, el menú se cerrará de nuevo. Si estás en una tablet, hacer clic en un elemento del menú tendrá el mismo efecto.</p>
+<p><img src="/docs/introduction/images/main_nav.gif" alt="Main navigation" /></p>
+<p>En algunas pantallas verás que el encabezado muestra un título, como <strong>Salida</strong> in the example above. en el ejemplo anterior. Al hacer clic en un envío específico, el título cambiará a <strong>Salida/ #[número de envío]</strong>. Puedes hacer clic en la parte <strong>Salida</strong> para volver a la lista o utilizar la navegación principal a la izquierda.</p>
+<h3 id="atajos-de-teclado">Atajos de teclado<a class="zola-anchor" href="#atajos-de-teclado" aria-label="Anchor link for: atajos-de-teclado">🔗</a></h3>
+<p>Hay atajos de teclado utilizados en todo open mSupply. En lugar de recordarlos todos, para empezar solo tienes que recordar la combinación <code>control (ctrl)</code>+<code>k</code> (windows y linux) o <code>cmd (⌘)</code>+<code>k</code> (mac).</p>
+<p>Esto te mostrará la siguiente ventana, sin importar en qué página te encuentres:</p>
+<p><img src="/docs/introduction/images/cmd_k.png" alt="CommandK" /></p>
+<p>Esto te muestra la lista de atajos disponibles globalmente, por ejemplo, presionar <code>d</code> en tu teclado te llevará al tablero de control (¡a menos que estés escribiendo texto en un campo de entrada!).</p>
+<p>Sin embargo, también puedes hacer clic en un elemento de la lista o buscar comandos disponibles:</p>
+<p><img src="/docs/introduction/images/cmd_k.gif" alt="CommandK" /></p>
+<p>Además, hay varios lugares donde están disponibles los atajos de teclado específicos. Un ejemplo es el control de pestañas utilizado tanto en Inventario como en Entradas. Aquí puedes usar <code>control</code>+<code>1</code> para navegar a la primera pestaña (Cantidades) o<code>control</code>+<code>2</code>  para la segunda pestaña (Precios), etc. Si presionas<code>+</code> en tu teclado, puedes agregar un nuevo lote.</p>
+<p><img src="/docs/replenishment/images/is_edit_keyboard_shortcuts.png" alt="Inbound tabs" /></p>
+<h2 id="pie-de-pagina">Pie de página<a class="zola-anchor" href="#pie-de-pagina" aria-label="Anchor link for: pie-de-pagina">🔗</a></h2>
+<p>El fondo de la pantalla contiene información útil y se muestra en todas las pantallas.</p>
+<p><img src="/docs/introduction/images/footer.png" alt="Footer" /></p>
+<p>Algunos usuarios tienen acceso a más de un almacén. Para cambiar el almacén que está actualmente seleccionado, simplemente haz clic en el nombre del almacén en el pie de página:</p>
+<p><img src="/docs/introduction/images/store_switcher.gif" alt="Store switcher" /></p>
+<p>Verás la notificación y el nombre del almacén en el pie de página se actualizará. A partir de ahora, todas las acciones se realizarán en el almacén recién seleccionado.</p>
+<p>De manera similar, puedes seleccionar otro idioma haciendo clic en el idioma actual en el pie de página:</p>
+<p><img src="/docs/introduction/images/footer_select_language.png" alt="Footer" /></p>
+<h2 id="ayuda">¡Ayuda!<a class="zola-anchor" href="#ayuda" aria-label="Anchor link for: ayuda">🔗</a></h2>
+<p>Si te quedas atascado en cualquier momento al utilizar el sitio, haz clic en el elemento del menú <code>Docs</code>.</p>
+<p><img src="/docs/introduction/images/docs_nav.png" alt="Docs" /></p>
+<p>Esto te llevará a la página de documentación que se relaciona con la página actual que estás viendo.</p>
+  
+<div class="docs-navigation d-flex justify-content-between">
+  
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+      
+      
+        
+      
+    
+      
+      
+        
+          
+          
+          <a class="ms-auto" href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;es&#x2F;docs&#x2F;distribution&#x2F;customers&#x2F;">
+            <div class="card my-1">
+              <div class="card-body py-2">
+               Clientes &rarr;
+              </div>
+            </div>
+          </a>
+          
+          
+          
+        
+      
+    
+      
+      
+        
+      
+    
+      
+      
+        
+      
+    
+      
+      
+        
+      
+    
+      
+      
+        
+      
+    
+      
+      
+        
+      
+    
+      
+      
+        
+      
+    
+  
+</div>
+
+      </main>
+    </div>
+  </div>
+</div>
+
+
+  
+    
+<footer class="footer text-muted">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 order-last order-lg-first">
+				<ul class="list-inline">
+					
+						<li class="list-inline-item">Powered by <a href="https://www.getzola.org/">Zola</a>, and <a href="https://github.com/aaranxu/adidoks">AdiDoks</a></li>
+					
+				</ul>
+			</div>
+			<div class="col-lg-8 order-first order-lg-last text-lg-end">
+				<ul class="list-inline">
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+  
+
+  
+<script type="text/javascript" src="https://docs.msupply.foundation/js/main.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
+
+  <script type="text/javascript" src="https://docs.msupply.foundation/plugins/elasticlunr.min.js" defer></script>
+  <script type="text/javascript" src="https://docs.msupply.foundation/plugins/lunr.stemmer.support.js" defer></script>
+  <script type="text/javascript" src="https://docs.msupply.foundation/plugins/lunr.fr.js" defer></script>
+  <script type="text/javascript" src="https://docs.msupply.foundation/search_index.es.js" defer></script>
+  <script type="text/javascript" src="https://docs.msupply.foundation/js/search.js" defer></script>
+
+  
+</body>
+</html>

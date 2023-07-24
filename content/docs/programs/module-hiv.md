@@ -131,7 +131,7 @@ To enrol a patient into a program select the `Add Program` button in the top rig
 ![add program](/docs/programs/images/add_program_button.png)
 
 This will open a dialog window with a list of available patient programs.
-Programs which the patient are already enrolled in are greyed out and can’t be selected.
+Programs which the patient is already enrolled in are greyed out and can’t be selected.
 
 ![program enrolment dialog](/docs/programs/images/program_enrolment_dialog.png)
 
@@ -172,7 +172,7 @@ Secondly, the encounter date must be selected. The encounter date can be in the 
 
 ![new encounter dialog](/docs/programs/images/new_encounter_dialog.png)
 
-Once an encounter is created, the full encounter document will open to allow encounter details input.
+Once an encounter is created, the full encounter document will open to allow encounter details to be entered.
 
 <div class="note">The content of the encounter document is program specific and can be configured by the system administrator</div>
 

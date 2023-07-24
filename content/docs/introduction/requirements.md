@@ -144,5 +144,5 @@ The table below shows which version of mSupply you will require when running ope
 
 | omSupply         | mSupply               |
 | :--------------- | :-------------------- |
-| 1.1.00 - 1.1.15  | 7.04.03 - 7.05.04     |
+| 1.1.00 - 1.1.16  | 7.04.01+              |
 | 1.2.00+          | 7.05.05+              |
