@@ -87,11 +87,12 @@ It is your sole responsibility to engage with the relevant Purchaser to indicate
 | B      | Internal Line ID – This is the unique ID number to link your quote/s back to the correct Quote Item when the Purchaser downloads quotes into their mSupply system. |
 | C      | Item Code # – This is the code the Purchaser uses for this item                                     |
 | D      | Item Name Column                                                                                    |
-| E      | Number of Packs req uired in the Purchaser’s requested pack size                                    |
-| F      | Purchaser's requested Pack Size                                                                     |
-| G      | Total Quantity of single units bei ng requested by the Purchaser                                    |
-| H      | Any conditions the Purchaser may have for a particular Quote Item                                   |
-| I      | Purchasers Unit of Measure                                                                          |
+| E      | Product Specification Column                                    |
+| F      | Number of Packs req uired in the Purchaser’s requested pack size                                    |
+| G      | Purchaser's requested Pack Size                                                                     |
+| H      | Total Quantity of single units being requested by the Purchaser                                    |
+| I      | Any conditions the Purchaser may have for a particular Quote Item                                   |
+| J      | Purchasers Unit of Measure                                                                          |
 
 1. This screen shot shows the fields you must fill in to submit a quote
 
@@ -99,16 +100,16 @@ It is your sole responsibility to engage with the relevant Purchaser to indicate
 
 | Column | Description                                                                                                   |
 | ------ | ------------------------------------------------------------------------------------------------------------- | 
-| J      | Enter in how many packs you are offering to supply the Purchaser                                              |
-| K      | Enter in the Pack Size of the product your offering to supply                                                 |
-| L      | Enter in the Price you are offering to supply a single pack of your product at, in the currency you allocated in the next column                                           |
-| M      | The currency your Quoted price per pack is in (Please use [ISO currency codes](https://en.wikipedia.org/wiki/ | ISO_4217#List_of_ISO_4217_currency_codes))                             |
-| N      | When your product is expected to expire, or the shelf life if the product has not yet been manufactured       |
-| O      | Delivery time, explain how long it would take to get your product to the Purchaser's identified delivery      | location                                                               |
-| P      | The finished product manufacturer of your product. NB Please check this is not just the regulatory sponsor / distributor of the product                                             |
-| Q      | How you would deliver the product eg Air freight or Sea Freight                                               |
-| R      | You can choose to put your internal reference code or product identifier here                                 |
-| S      | A field to put any further comments in to explain what you are offering the Purchaser more clearly, or include any other information you think the Purchaser may need to know |
+| K      | Enter in how many packs you are offering to supply the Purchaser                                              |
+| L      | Enter in the Pack Size of the product your offering to supply                                                 |
+| M      | Enter in the Price you are offering to supply a single pack of your product at, in the currency you allocated in the next column                                           |
+| N      | The currency your Quoted price per pack is in (Please use [ISO currency codes](https://en.wikipedia.org/wiki/ISO_4217#List_of_ISO_4217_currency_codes))                             |
+| O      | When your product is expected to expire, or the shelf life if the product has not yet been manufactured       |
+| P      | Delivery time, explain how long it would take to get your product to the Purchaser's identified delivery location                                                               |
+| Q      | The finished product manufacturer of your product. NB Please check this is not just the regulatory sponsor / distributor of the product                                             |
+| R      | How you would deliver the product eg Air freight or Sea Freight                                               |
+| S      | You can choose to put your internal reference code or product identifier here                                 |
+| T      | A field to put any further comments in to explain what you are offering the Purchaser more clearly, or include any other information you think the Purchaser may need to know |
 
 ## Submitting Your Quote
 
