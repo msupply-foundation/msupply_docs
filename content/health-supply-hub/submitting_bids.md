@@ -102,7 +102,7 @@ It is your sole responsibility to engage with the relevant Purchaser to indicate
 | ------ | ------------------------------------------------------------------------------------------------------------- | 
 | K      | Enter in how many packs you are offering to supply the Purchaser                                              |
 | L      | Enter in the Pack Size of the product your offering to supply                                                 |
-| M      | Enter in the Price you are offering to supply a single pack of your product at, in the currency you allocated in the next column                                           |
+| M      | Enter in the Price you are offering to supply a single pack of your product at, in the currency you specify in the next column                                           |
 | N      | The currency your Quoted price per pack is in (Please use [ISO currency codes](https://en.wikipedia.org/wiki/ISO_4217#List_of_ISO_4217_currency_codes))                             |
 | O      | When your product is expected to expire, or the shelf life if the product has not yet been manufactured       |
 | P      | Delivery time, explain how long it would take to get your product to the Purchaser's identified delivery location                                                               |
