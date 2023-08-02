@@ -51,10 +51,10 @@ Navigate to **SYNC SETTINGS**
 
 * Put in your store credentials under USERNAME and PASSWORD
 * Add Urls
-    * Authentication - example: http://192.168.4.3:8080/coldchain/v1/login
+    * Login - example: http://192.168.4.3:8080/coldchain/v1/login
+    * Sensor - example: http://192.168.4.3:8080/coldchain/v1/sensor
     * Temperature-log - example: http://192.168.4.3:8080/coldchain/v1/temperature-log
     * Temperature-breach - example: http://192.168.4.3:8080/coldchain/v1/temperature-breach
-    * Sensor - example: http://192.168.4.3:8080/coldchain/v1/sensor
 
 ![Integration Settings!](/coldchain/images/integration_settings.png)
 
