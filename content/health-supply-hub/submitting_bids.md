@@ -88,7 +88,7 @@ It is your sole responsibility to engage with the relevant Purchaser to indicate
 | C      | Item Code # – This is the code the Purchaser uses for this item                                     |
 | D      | Item Name Column                                                                                    |
 | E      | Product Specifications, as provided by the purchaser                                  |
-| F      | Number of Packs req uired in the Purchaser’s requested pack size                                    |
+| F      | Number of Packs required in the Purchaser’s requested pack size                                    |
 | G      | Purchaser's requested Pack Size                                                                     |
 | H      | Total Quantity of single units being requested by the Purchaser                                    |
 | I      | Any conditions the Purchaser may have for a particular Quote Item                                   |
