@@ -1,5 +1,5 @@
 +++
-title = "TSS"
+title = "Target Software Standards"
 description = "Open mSupply's Target Software Standards compliance"
 date = 2022-03-17T18:20:00+00:00
 updated = 2022-03-17T18:20:00+00:00
@@ -12,8 +12,6 @@ template = "docs/page.html"
 toc = true
 top = true
 +++
-
-## Target Software Standards
 
 This chart denotes Open mSupply's current compliance with the <a href="https://isghealth.org/">Interagency Supply Chain Group's</a> Target Software Standards for Low, Medium and High resource settings.
 
