@@ -13,7 +13,9 @@ toc = true
 top = true
 +++
 
-This chart denotes Open mSupply's current compliance with the <a href="https://isghealth.org/">Interagency Supply Chain Group's</a> Target Software Standards for Low, Medium and High resource settings.
+Open mSupply's target is 100% compliance with the <a href="https://isghealth.org/">Interagency Supply Chain Group's</a> Target Software Standards for Low, Medium and High resource settings.
+
+These charts indicate Open mSupply's current progress towards that target. 
 
 <div {% if class %}class="{{class}}"{% endif %}>
     <iframe width="1000" height="860" frameborder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRmM6xnuRn6DlZLmaYoZj0RnMFRu2lx5qUM-qN2u_5S6tL7BQfC2zh6PDL43t1fU6ZLwWh3Hwi9AjLj/pubhtml?gid=1920344479&amp;single=true&amp;widget=false&chrome=false&amp;headers=false"></iframe>
