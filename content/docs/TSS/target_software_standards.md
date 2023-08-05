@@ -13,7 +13,7 @@ toc = true
 top = true
 +++
 
-Open mSupply's target is 100% compliance with the <a href="https://isghealth.org/">Interagency Supply Chain Group's</a> Target Software Standards for Low, Medium and High resource settings.
+The mSupply Foundation's target is 100% compliance with the <a href="https://isghealth.org/">Interagency Supply Chain Group's</a> Target Software Standards for Low, Medium and High resource settings.
 
 These charts indicate Open mSupply's current progress towards that target. 
 
