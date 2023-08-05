@@ -9,7 +9,6 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "Open mSupply's Target Software Standards compliance"
 toc = true
 top = true
 +++
