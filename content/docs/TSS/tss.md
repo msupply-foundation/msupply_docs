@@ -17,3 +17,7 @@ top = true
 ## Target Software Standards
 
 This is a test
+
+<div {% if class %}class="{{class}}"{% endif %}>
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRmM6xnuRn6DlZLmaYoZj0RnMFRu2lx5qUM-qN2u_5S6tL7BQfC2zh6PDL43t1fU6ZLwWh3Hwi9AjLj/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+</div>
