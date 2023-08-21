@@ -29,5 +29,5 @@ The breakdown of Open mSupply's TSS compliance can be seen in the following tabl
 
 Test:
 <div {% if class %}class="{{class}}"{% endif %}>
-    <iframe width="402" height="346" frameborder="0" scrolling="no" src="https://msupplyfoundation-my.sharepoint.com/personal/adamdewey_msupplyfoundation_onmicrosoft_com/_layouts/15/Doc.aspx?sourcedoc={7e6cb4e7-6923-402c-a25c-794a66c3dc06}&action=embedview&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True"></iframe>
+    <iframe width="1230" height="11500" frameborder="0" scrolling="no" src="https://msupplyfoundation-my.sharepoint.com/personal/adamdewey_msupplyfoundation_onmicrosoft_com/_layouts/15/Doc.aspx?sourcedoc={7e6cb4e7-6923-402c-a25c-794a66c3dc06}&action=embedview&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True"></iframe>
 </div>
