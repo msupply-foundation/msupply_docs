@@ -23,7 +23,7 @@ These charts indicate Open mSupply's current progress towards that goal.
 
 The breakdown of Open mSupply's TSS compliance can be seen in the following table:
 
-Note: A link to the full interactive table, including preset filter views, can be found <a href="https://docs.google.com/spreadsheets/d/1hc8sG9e7pvKy9r6JKxSe6SM0MjgQwN4VqjiGX90A4BU/edit?usp=sharing
+Note: A link to the full interactive table, including preset filter views, can be found <a target="_blank" href="https://docs.google.com/spreadsheets/d/1hc8sG9e7pvKy9r6JKxSe6SM0MjgQwN4VqjiGX90A4BU/edit?usp=sharing
 ">here</a>.
 
 <div {% if class %}class="{{class}}"{% endif %}>
