@@ -14,6 +14,10 @@ toc = true
 top = true
 +++
 
+#### Does Open mSupply work offline?
+
+Yes! Open mSupply is designed to be 'offline first' which means that users can continue to perform their daily operations without needing an internet connection. Occasional internet connectivity is required to sync data from remote sites to the central server. 
+
 #### What are the limits to data handling?
 
 There are three aspects to this question with Open mSupply-
