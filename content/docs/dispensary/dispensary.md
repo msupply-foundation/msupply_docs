@@ -21,10 +21,6 @@ A Prescription can be used to:
 
 ## Viewing Prescriptions
 
-<div class="note">
-The store that you are logged into must be a <code>DISPENSARY</code>.
-</div>
-
 ### Open the Prescriptions Menu
 
 Choose `Dispensary` > `Prescription` in the navigation panel.
