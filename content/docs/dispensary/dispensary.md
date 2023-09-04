@@ -21,9 +21,7 @@ A Prescription can be used to:
 
 ## Viewing Prescriptions
 
-<div class="note">
-The store that you are logged into must be a <code>DISPENSARY</code>.
-</div>
+To use prescriptions, ensure that your store is set to `Dispensary` mode (see the [virtual stores](https://docs.msupply.org.nz/other_stuff:virtual_stores#store_type) documentation for how to do this).
 
 ### Open the Prescriptions Menu
 
