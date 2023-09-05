@@ -88,9 +88,6 @@
 }
 
 @include media-breakpoint-up(md) {
-  .navbar-brand {
-    margin-right: 1rem !important;
-  }
 
   .main-nav .nav-item:first-child .nav-link,
   .fork-me .nav-item:first-child .nav-link {
@@ -102,22 +99,27 @@
     padding-right: 0;
   }
 
+  .main-nav .nav-link {
+    max-height: 2rem;
+    overflow: hidden;
+  }
+
   .navbar-form {
     margin-top: 0;
-    margin-left: 6rem;
-    margin-right: 1.5rem;
+    margin-left: 3rem;
+    margin-right: 0.5rem;
   }
 }
 
 @include media-breakpoint-up(lg) {
   .navbar-form {
-    margin-left: 15rem;
+    margin-left: 1rem;
   }
 }
 
 @include media-breakpoint-up(xl) {
   .navbar-form {
-    margin-left: 30rem;
+    margin-left: 2.5rem;
   }
 }
 

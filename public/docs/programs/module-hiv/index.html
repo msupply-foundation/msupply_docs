@@ -160,10 +160,10 @@
     
 
 <div class="header-bar fixed-top"></div>
-<header class="navbar fixed-top navbar-expand-md navbar-light">
+<header class="navbar fixed-top navbar-expand-lg navbar-light">
 	<div class="container">
 		<input class="menu-btn order-0" type="checkbox" id="menu-btn">
-		<label class="menu-icon d-md-none" for="menu-btn"><span class="navicon"></span></label>
+		<label class="menu-icon d-xl-none" for="menu-btn"><span class="navicon"></span></label>
 		<a class="navbar-brand order-1 order-md-0 me-auto" href="https://docs.msupply.foundation/">mSupply</a>
 		<button id="mode" class="btn btn-link order-2 order-md-4" type="button" aria-label="Toggle mode">
 			<span class="toggle-dark"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></span>
@@ -315,6 +315,16 @@
 					
 					
 					
+							<h3>Dispensary</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/dispensary/dispensary/">Prescriptions</a></li>
+							
+					</ul>
+					
+					
+					
+					
 							<h3>Programs</h3>
 							<ul class="list-unstyled">
 							                           
@@ -345,6 +355,16 @@
 							<ul class="list-unstyled">
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/sync/synchronisation/">Synchronisation</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>TSS</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/TSS/target-software-standards/">Target Software Standards</a></li>
 							
 					</ul>
 					
@@ -403,13 +423,13 @@
       <main class="docs-content col-lg-11 col-xl-9">
         
         <div class="flagster" style="float: right; padding: 5px">
-          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;es&#x2F;docs&#x2F;programs&#x2F;module-hiv&#x2F;" title="Change language to es"
-            ><img src="/icons/es.svg" width="28"> </a>
+          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;programs&#x2F;module-hiv&#x2F;" title="Change language to en"
+            ><img src="/icons/en.svg" width="28"> </a>
         </div>
         
         <div class="flagster" style="float: right; padding: 5px">
-          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;programs&#x2F;module-hiv&#x2F;" title="Change language to en"
-            ><img src="/icons/en.svg" width="28"> </a>
+          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;es&#x2F;docs&#x2F;programs&#x2F;module-hiv&#x2F;" title="Change language to es"
+            ><img src="/icons/es.svg" width="28"> </a>
         </div>
         
 
@@ -424,7 +444,8 @@ A patient can be enrolled into multiple patient programs such as an HIV program,
 <p><img src="/docs/programs/images/dispensary_menu.png" alt="dispensary menu" /></p>
 <h2 id="enabling-the-patient-management-module">Enabling the patient management module</h2>
 <p>To use the module, ensure that your store is set to <code>Dispensary</code> mode (see the <a href="https://docs.msupply.org.nz/other_stuff:virtual_stores#store_type">virtual stores</a> documentation for how to do this).</p>
-<p>You will also need to enable the store preference for <code>omSupply: Uses program module</code></p>
+<p>You will also need to enable the store preference for <code>omSupply: Uses program module</code>.
+This preference is compatible with Open mSupply <code>v1.2.0+</code> and mSupply <code>v7-07-00-beta9+</code>.</p>
 <p><img src="/docs/programs/images/store_preference.png" alt="Store preference" /></p>
 <h2 id="patients">Patients</h2>
 <p>In order to use the program module, you'll first need to create and manage patients to dispense to.</p>
@@ -563,18 +584,28 @@ This opens the program enrolment document where program specific information can
         
         
           
+        
+      
+        
+        
+          
             
               
-              <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;inventory&#x2F;stock-view&#x2F;">
+              <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;dispensary&#x2F;dispensary&#x2F;">
                 <div class="card my-1">
                   <div class="card-body py-2">
-                    &larr; Stock
+                    &larr; Prescriptions
                   </div>
                 </div>
               </a>
             
             
             
+          
+        
+      
+        
+        
           
         
       
@@ -642,6 +673,11 @@ This opens the program enrolment document where program specific information can
       
       
         
+      
+    
+      
+      
+        
           
           
           <a class="ms-auto" href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;administration&#x2F;display&#x2F;">
@@ -654,6 +690,11 @@ This opens the program enrolment document where program specific information can
           
           
           
+        
+      
+    
+      
+      
         
       
     
