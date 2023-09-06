@@ -29,7 +29,7 @@ All patient program related functionality can be found in the “Dispensary” m
 
 To use the module, ensure that your store is set to `Dispensary` mode (see the [virtual stores](https://docs.msupply.org.nz/other_stuff:virtual_stores#store_type) documentation for how to do this).
 
-You will also need to enable the store preference for `omSupply: Uses program module`.
+You will also need to enable the store preference for `Open mSupply: Uses program module`.
 This preference is compatible with Open mSupply `v1.2.0+` and mSupply `v7-07-00-beta9+`.
 
 ![Store preference](/docs/programs/images/store_preference.png)

@@ -18,7 +18,7 @@ toc = true
 Cuando inicias la aplicación mobile por primera vez, aparecerá una pantalla de bienvenida que te preguntará si prefieres ejecutarla en uno de dos modos:
 
 - **Cliente** Es cuando la aplicación mobile se conecta a un servidor en tu red local.
-- **Servidor** La aplicación ejecutará una versión completa del servidor omSupply localmente. Puedes configurar este servidor para que se sincronice con un servidor central.
+- **Servidor** La aplicación ejecutará una versión completa del servidor Open mSupply localmente. Puedes configurar este servidor para que se sincronice con un servidor central.
 
 ![Mobile welcome screen](/docs/introduction/images/mobile_welcome.png)
 

@@ -20,7 +20,7 @@ Permissions are configured on a per user basis, and this is done on the central 
 
 ## Settings available
 
-The following table lists the area and name of the permissions in the central server which are of relevance to Open mSupply. In the table, the description explains where this permission might be used in omSupply and why you may need to enable it.
+The following table lists the area and name of the permissions in the central server which are of relevance to Open mSupply. In the table, the description explains where this permission might be used in Open mSupply and why you may need to enable it.
 
 In addition to these specific permissions, you'll need to ensure that the user has access to the store(s) which they'll be working in.
 

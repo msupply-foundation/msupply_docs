@@ -142,7 +142,11 @@ The version of both mSupply and open mSupply is important, as not all versions o
 
 The table below shows which version of mSupply you will require when running open mSupply
 
-| omSupply         | mSupply               |
+| Open mSupply         | mSupply               |
 | :--------------- | :-------------------- |
 | 1.1.00 - 1.1.16  | 7.04.01+              |
 | 1.2.00+          | 7.05.05+              |
+
+If you attempt to connect to an imcompatible server you'll get an error message like this:
+
+![server version mismatch!](/docs/introduction/images/version_mismatch.png)

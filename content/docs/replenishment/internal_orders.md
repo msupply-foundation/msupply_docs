@@ -248,7 +248,7 @@ And finally, a specific requisition will also have new columns, for the approved
 
 Another option for implementing an approval step for Internal Orders is to enable what is called 'local approval'. With this, you can allow only certain users to change the status of an Internal Order to `Sent`. To allow a user to change the status of an Internal Order to `Sent`, they require the permission `Can confirm Internal Order as Sent` to be enabled.
 
-To set the permission, edit the user within mSupply and change to the `omSupply permissions` tab, shown below:
+To set the permission, edit the user within mSupply and change to the `Open mSupply permissions` tab, shown below:
 
 ![Internal Order detail with approval comment](/docs/replenishment/images/mSupply_intord_permission.png)
 
