@@ -1,0 +1,20 @@
+{% macro pdf_export(current_section) %}
+		{% if lang == "en" %}
+			{% set index_path = current_section ~ "/_index.md"  | trim_start_matches(pat="/") %}
+		{% else %}
+			{% set index_path = current_section ~ "/_index." ~ lang ~ ".md"  | trim_start_matches(pat="/") %}
+		{% endif %}
+		{% set index = get_section(path=index_path) %}
+		{% if index.pages %}
+			{% for page in index.pages %}{{ page.permalink | safe}}
+			{% endfor %}
+		{% endif %}
+		{% if index.subsections %}
+				{% for s in index.subsections %}
+					{% set subsection = get_section(path=s) %}
+					{% if subsection.pages %}{% for page in subsection.pages %} {{ page.permalink | safe}}
+					{% endfor %}
+					{% endif %}
+				{% endfor %}
+		{% endif %}
+{% endmacro %}
