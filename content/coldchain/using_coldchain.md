@@ -1,6 +1,6 @@
 +++
-title = "Using mSupply Coldchain"
-description = "mSupply Coldchain sensor setup."
+title = "Using mSupply Cold Chain"
+description = "mSupply Cold Chain sensor setup."
 date = 2022-03-17T18:20:00+00:00
 updated = 2022-03-17T18:20:00+00:00
 draft = false
@@ -17,7 +17,7 @@ top = true
 
 ### Sensors
 
-Sensors is the home screen for the mSupply ColdChain application. You can also access the Sensors screen by pressing the Sensors tab on the bottom left of the screen.
+Sensors is the home screen for the mSupply Cold Chain application. You can also access the Sensors screen by pressing the Sensors tab on the bottom left of the screen.
 
 The status bar displayed across the top of the home screen shows:
 
@@ -28,7 +28,7 @@ The status bar displayed across the top of the home screen shows:
 
 ### Sensor graphs
 
-When using the mSupply ColdChain application for the first time, no sensors will be displayed. Please see Sensor Settings for the instructions on how to find and set up sensors. Once sensors are linked to the application, a graph displaying temperature logs will be displayed on the Sensors tab (home page).
+When using the mSupply Cold Chain application for the first time, no sensors will be displayed. Please see Sensor Settings for the instructions on how to find and set up sensors. Once sensors are linked to the application, a graph displaying temperature logs will be displayed on the Sensors tab (home page).
 
 ![Sensor Temperature Graph!](/coldchain/images/sensor_graph.png)
 
