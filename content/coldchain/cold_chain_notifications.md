@@ -62,7 +62,6 @@ Users can then subscribe to the Telegram channels that they wish to monitor.
 
 ### Setting up Telegram Messenger notifications for mSupply Cold Chain 
 
-
-
+Coming soon!
 
 
