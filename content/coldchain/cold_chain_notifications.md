@@ -24,6 +24,8 @@ The instant message mediums currently supported are:
 
 ### Telegram Messenger notifications for mSupply Cold Chain 
 
+*Note: To enable Telegram Messenger notifications mSupply Cold Chain must be used in conjunction with mSupply Desktop or Open mSupply.* 
+
 Telegram Messenger is a free application that can be used on Android or iOS phones and tablets. 
 It can also be used on Windows, Linux and Mac computers. 
 
@@ -60,7 +62,6 @@ Users can then subscribe to the Telegram channels that they wish to monitor.
 
 ### Setting up Telegram Messenger notifications for mSupply Cold Chain 
 
-To enable Telegram Messenger notifications mSupply Cold Chain must be used in conjunction with mSupply Desktop or Open mSupply. 
 
 
 
