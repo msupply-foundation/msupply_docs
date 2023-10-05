@@ -18,4 +18,4 @@ mSupply Cold Chain offers real-time instant message notifications straight to yo
 
 The instant message mediums currently supported are: 
 
-- ![Telegram Messenger](https://telegram.org/)
+- <a href="https://telegram.org/">Telegram Messenger</a>
