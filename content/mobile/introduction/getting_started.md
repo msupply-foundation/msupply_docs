@@ -37,7 +37,7 @@ But, if the operator's eyesight may be poor, or you will ever be wanting to moni
 
 ##### Recommended specification
 
-If [mSupply Vaccine](/mobile/dispensing_vaccines/vaccine/#cold-chain-for-vaccines-and-other-cold-chain-items) or mSupply ColdChain are to be used on the device at any point, the following are required minimum specifications:
+If [mSupply Vaccine](/mobile/dispensing_vaccines/vaccine/#cold-chain-for-vaccines-and-other-cold-chain-items) or mSupply Cold Chain are to be used on the device at any point, the following are required minimum specifications:
 
 - Minimum display size: **10.1 inch** (measured diagonally)
 - Minimum display resolution: **800 x 1280 pixels**

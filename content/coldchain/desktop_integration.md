@@ -1,6 +1,6 @@
 +++
 title = "Integration with mSupply Desktop"
-description = "mSupply Coldchain sensor setup."
+description = "mSupply Cold Chain sensor setup."
 date = 2022-03-17T18:20:00+00:00
 updated = 2022-03-17T18:20:00+00:00
 draft = false
@@ -22,12 +22,12 @@ Minimum version requirements
 
 #### BlueMaestro sensors
 
-* mSupply cold chain app version: 0.4.2 recommended
+* mSupply Cold Chain app version: 0.4.2 recommended
 * mSupply Desktop version: V5-04-00 or higher recommended
 
 #### Laird Sensors
 
-* mSupply cold chain app version: 0.5.0-rc0
+* mSupply Cold Chain app version: 0.5.0-rc0
 * Minimum mSupply Desktop version: V5-07-00-RC41
 
 ### mSupply Desktop Setup Steps
@@ -58,9 +58,9 @@ Navigate to **SYNC SETTINGS**
 
 ![Integration Settings!](/coldchain/images/integration_settings.png)
 
-mSupply Coldchain will send data to the server every 1-2 minutes.
+mSupply Cold Chain will send data to the server every 1-2 minutes.
 
-On desktop computers running mSupply, a new floating Coldchain monitoring window is shown to users: 
+On desktop computers running mSupply, a new floating cold chain monitoring window is shown to users: 
 
 ![Fridge down, Fridge down!](/coldchain/images/desktop_notifications.png)
 

@@ -1,6 +1,6 @@
 +++
-title = "mSupply Coldchain Settings"
-description = "mSupply Coldchain settings adjustment."
+title = "mSupply Cold Chain Settings"
+description = "mSupply Cold Chain settings adjustment."
 date = 2022-03-17T18:20:00+00:00
 updated = 2022-03-17T18:20:00+00:00
 draft = false
@@ -25,12 +25,12 @@ Selecting the Settings tab at the bottom right of the screen will take you to th
 
 ### Sensor settings
 
-When using the mSupply ColdChain application for the first time, the Sensor Settings screen will have two sections:
+When using the mSupply Cold Chain application for the first time, the Sensor Settings screen will have two sections:
 
 * Options
 * Found Sensors
 
-Please refer to the mSupply ColdChain Getting Started for information about the device settings and sensor requirements and recommendations when setting up the application for the first time.
+Please refer to the mSupply Cold Chain Getting Started for information about the device settings and sensor requirements and recommendations when setting up the application for the first time.
 
 #### Options
 
@@ -38,7 +38,7 @@ Logging interval: Sets the default number of minutes between logs on sensors. Us
 
 ![Default Logging Interval!](/coldchain/images/log_interval_setting.png)
 
-The logging interval applies for all sensors when they are first linked to the mSupply ColdChain application. Different log intervals can be set for each sensor in Available Sensors/Log interval (see below).
+The logging interval applies for all sensors when they are first linked to the mSupply Cold Chain application. Different log intervals can be set for each sensor in Available Sensors/Log interval (see below).
 
 #### Found sensors
 
@@ -51,7 +51,7 @@ Start logging from: Using the date/time options, you can set the schedule for th
 
 ### Available sensors
 
-Once a sensor has been linked to the mSupply ColdChain application, it will be displayed as an Available Sensor at the top of the screen. You can select a linked sensor by double-tapping on the sensor name/row or by pressing on “>” in the device’s row.
+Once a sensor has been linked to the mSupply Cold Chain application, it will be displayed as an Available Sensor at the top of the screen. You can select a linked sensor by double-tapping on the sensor name/row or by pressing on “>” in the device’s row.
 
 ![Sensor Detail Settings!](/coldchain/images/sensor_detail_settings.png)
 
@@ -141,6 +141,6 @@ The temperature selected can be between -30 and +50 degrees Celsius.
 
 Period: The time period used for cumulative temperature configuration (and hence alerts) on the Sensor tab is set at 72 hours.
 
-To view cumulative temperature breaches for a different period, you can change the time period on the Sensor Detail screen. The mSupply ColdChain application will use this time period to calculate cumulative temperature and display any breaches at the top of the Sensor Detail screen.
+To view cumulative temperature breaches for a different period, you can change the time period on the Sensor Detail screen. The mSupply Cold Chain application will use this time period to calculate cumulative temperature and display any breaches at the top of the Sensor Detail screen.
 
 You can export the sensor logs for further information and investigation regarding temperature breaches. 

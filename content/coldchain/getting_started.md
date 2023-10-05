@@ -1,6 +1,6 @@
 +++
 title = "Getting started"
-description = "mSupply Coldchain setup."
+description = "mSupply Cold chain setup."
 date = 2022-03-17T18:20:00+00:00
 updated = 2022-03-17T18:20:00+00:00
 draft = false
@@ -22,7 +22,7 @@ We recommend the following specifications for the mobile device:
 - Android Version 11 or higher
 - Screen resolution of 800w x 1280h or higher
 
-Once mSupply ColdChain is open on the device, it will prevent the device from going to sleep. For this reason, we recommend you keep the device connected to a power supply when using mSupply ColdChain.
+Once mSupply Cold Chain is open on the device, it will prevent the device from going to sleep. For this reason, we recommend you keep the device connected to a power supply when using mSupply Cold Chain.
 
 ### Sensors
 
@@ -34,7 +34,7 @@ Alternative sensor: Laird BT510
 
 ### Permissions and peripherals
 
-The first time you Open mSupply ColdChain, it will guide you through enabling permissions and turning on required peripherals if they have not already been set correctly.
+The first time you Open mSupply Cold Chain, it will guide you through enabling permissions and turning on required peripherals if they have not already been set correctly.
 
 If devices are managed through a Mobile Device Management (MDM) system, then the permissions described here will likely need to configured through a policy / profile in the MDM, and will not be configurable on the device as described here.
 
@@ -51,10 +51,10 @@ If devices are managed through a Mobile Device Management (MDM) system, then the
 
 ![Bluetooth On!](/coldchain/images/bluetooth_on.png)
 
-Once a sensor is linked to mSupply ColdChain, it will be automatically synchronised via Bluetooth according to the user-programmable schedule. mSupply ColdChain requires Bluetooth to be enabled in order to receive temperature logs. If Bluetooth is disabled when the application is operating, the user will be prompted to reconnect.
+Once a sensor is linked to mSupply Cold Chain, it will be automatically synchronised via Bluetooth according to the user-programmable schedule. mSupply Cold Chain requires Bluetooth to be enabled in order to receive temperature logs. If Bluetooth is disabled when the application is operating, the user will be prompted to reconnect.
 
-If the device is turned off, mSupply ColdChain is closed, or Bluetooth is disabled, the sensor will store up to 20,000 temperature logs as per the sensor settings. After 20,000 logs, the sensor will overwrite the oldest logs. When the device, mSupply ColdChain application or Bluetooth is enabled again, please allow a few log intervals for transfer of all saved logs.
+If the device is turned off, mSupply Cold Chain is closed, or Bluetooth is disabled, the sensor will store up to 20,000 temperature logs as per the sensor settings. After 20,000 logs, the sensor will overwrite the oldest logs. When the device, mSupply Cold Chain application or Bluetooth is enabled again, please allow a few log intervals for transfer of all saved logs.
 
 We recommend that each device should be linked to a maximum of six sensors. Each sensor should only be linked to one device.
 
-For information on how to link sensors to mSupply ColdChain please go to Sensor Settings.
+For information on how to link sensors to mSupply Cold Chain please go to Sensor Settings.

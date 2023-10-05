@@ -1,6 +1,6 @@
 +++
 title = "Integration with mSupply Dashboard"
-description = "mSupply Coldchain sensor setup."
+description = "mSupply Cold Chain sensor setup."
 date = 2022-03-17T18:20:00+00:00
 updated = 2022-03-17T18:20:00+00:00
 draft = false
@@ -16,11 +16,11 @@ top = true
 
 
 ### Introduction
-One of the things that makes mSupply Coldchain unique is that, when integrated with mSupply Desktop, it can not only tell you when there has been a breach, but also which batches have been affected.
+One of the things that makes mSupply Cold Chain unique is that, when integrated with mSupply Desktop, it can not only tell you when there has been a breach, but also which batches have been affected.
 
 The following examples use the mSupply Grafana dashboard to visualise information. Usually a consultant from the mSupply Foundation will set these up for you, but they're recorded below for users who have the skill, or who may want to tweak a query to suit their particular situation.
 
-These queries generally need to be set up by an administrator but have been included here as a reference to demonstrate some of the mSupply cold chain data that can be made available on the mSupply Dashboard.
+These queries generally need to be set up by an administrator but have been included here as a reference to demonstrate some of the mSupply Cold Chain data that can be made available on the mSupply Dashboard.
 
 ### Sensor Graph
 
@@ -119,7 +119,7 @@ General instructions are here: https://gist.github.com/ilap/cb6d512694c3e4f2427f
 
 But note that you need to invite your bot, not the bot father to the channel
 
-Temperature logs rely on the using mSupply Desktop to transfer mSupply Coldchain records from the tablet to the server. If the mSupply Desktop (alternate) web server is not running then no logs will be synced (and hence nothing will show on the Dashboard).
+Temperature logs rely on the using mSupply Desktop to transfer mSupply Cold Chain records from the tablet to the server. If the mSupply Desktop (alternate) web server is not running then no logs will be synced (and hence nothing will show on the Dashboard).
 
 You can test if the alternate server process is really running by checking port 8081 in Windows cmd with 
 ```
