@@ -56,12 +56,15 @@ Here User 3 has subscribed to two channels.
 
 ### Setting up Telegram Messenger
 
-Users must install the application and create an account with Telegram. 
+#### 1. Install Telegram Messenger 
+Users must install the <a href="https://telegram.org/">Telegram Messenger application</a> and create an account with Telegram. 
 
-Users can then subscribe to the Telegram channels that they wish to monitor.
+#### 2. Create a user account
+Users can then subscribe themselves, or be subscribed, to the mSupply Cold Chain Telegram channels that they wish to monitor.
 
 ### Setting up Telegram Messenger notifications for mSupply Cold Chain 
 
-Coming soon!
+The following steps describe how to set up Telegram notifications for mSupply Cold Chain.
 
+#### 1. 
 
