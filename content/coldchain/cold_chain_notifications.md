@@ -62,7 +62,7 @@ Users must install the <a href="https://telegram.org/">Telegram Messenger applic
 #### 2. Create a user account
 Users must then create an account with Telegram. 
 
-Once the user account is created users can then subscribe themselves, or be subscribed, to the mSupply Cold Chain Telegram channels that they wish to monitor.
+Once the user account is created users can then subscribe themselves, or can be subscribed by admin users, to the mSupply Cold Chain Telegram channels that they wish to monitor.
 
 ### Setting up Telegram Messenger notifications for mSupply Cold Chain 
 
