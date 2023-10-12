@@ -426,7 +426,12 @@ Whether your Inbound Shipment is **manual** or **automatic**, the first step to 
 
 At this stage, you don't have to check if quantities or other information are correct, you just have to acknowledge that you have received the goods from your supplier.
 
-To confirm that an Inbound Shipment has been delivered, click on the `Confirm Delivered` button.
+To confirm that an Inbound Shipment has been delivered, click on the `Confirm Delivered` button. 
+
+Once you have done this:
+
+- Goods are now part of your inventory
+- Shipment status is now `DELIVERED`
 
 <div class="note">
 In case your Inbound Shipment is <b>automatic</b>, you cannot confirm its delivery unless the supplier has confirmed its shipment. In other words, your shipment status has to be <code>SHIPPED</code> before you can confirm that you have received the goods. 
@@ -452,7 +457,6 @@ Once all information have been captured or verified, you can confirm the Shipmen
 
 Once you have done this:
 
-- Goods are now part of your inventory
 - Shipment status is now `VERIFIED`
 - You can no longer edit shipment lines
 - You can no longer delete the shipment

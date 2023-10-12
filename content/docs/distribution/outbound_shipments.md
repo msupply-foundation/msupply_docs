@@ -531,6 +531,7 @@ To confirm that a shipment has been picked, tap on the `Confirm Picked` button.
 Once picking is confirmed:
 
 - Shipment status is now `PICKED`
+- Goods are no longer able to be allocated to other shipments
 - You are now invited to confirm the shipping via the `Confirm Shipped` button
 - An **Inbound Shipment** has been generated and is now visible to your customer
 

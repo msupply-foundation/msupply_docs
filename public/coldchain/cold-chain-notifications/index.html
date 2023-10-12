@@ -48,9 +48,9 @@
 
 	
 
-<title>Getting started - mSupply</title>
-<meta name="description" content="mSupply Cold chain setup.">
-<link rel="canonical" href="https://docs.msupply.foundation/coldchain/getting-started/">
+<title>Cold Chain Notifications - mSupply</title>
+<meta name="description" content="mSupply Cold Chain notifications documentation.">
+<link rel="canonical" href="https://docs.msupply.foundation/coldchain/cold-chain-notifications/">
 
 
 
@@ -103,13 +103,16 @@
         
         
         
+        
+        
+        
           
           
           {
             "@type": "ListItem",
             "position":  3 ,
-            "name": "Getting Started",
-            "item": "https://docs.msupply.foundation/coldchain/getting-started/"
+            "name": "Cold Chain Notifications",
+            "item": "https://docs.msupply.foundation/coldchain/cold-chain-notifications/"
           },
         
       
@@ -226,7 +229,7 @@
 					                           
 							<li><a class="docs-link" href="https://docs.msupply.foundation/coldchain/introduction/">mSupply Cold Chain</a></li>
 					                           
-							<li><a class="docs-link active" href="https://docs.msupply.foundation/coldchain/getting-started/">Getting started</a></li>
+							<li><a class="docs-link" href="https://docs.msupply.foundation/coldchain/getting-started/">Getting started</a></li>
 					                           
 							<li><a class="docs-link" href="https://docs.msupply.foundation/coldchain/using-coldchain/">Using mSupply Cold Chain</a></li>
 					                           
@@ -236,7 +239,7 @@
 					                           
 							<li><a class="docs-link" href="https://docs.msupply.foundation/coldchain/dashboard/">Integration with mSupply Dashboard</a></li>
 					                           
-							<li><a class="docs-link" href="https://docs.msupply.foundation/coldchain/cold-chain-notifications/">Cold Chain Notifications</a></li>
+							<li><a class="docs-link active" href="https://docs.msupply.foundation/coldchain/cold-chain-notifications/">Cold Chain Notifications</a></li>
 					
 					</ul>
 			
@@ -255,11 +258,35 @@
     <nav id="TableOfContents">
       <ul>
         
-        <li><a href="https://docs.msupply.foundation/coldchain/getting-started/#mobile-device">Mobile device</a></li>
+        <li><a href="https://docs.msupply.foundation/coldchain/cold-chain-notifications/#introduction">Introduction</a></li>
          
-        <li><a href="https://docs.msupply.foundation/coldchain/getting-started/#sensors">Sensors</a></li>
+        <li><a href="https://docs.msupply.foundation/coldchain/cold-chain-notifications/#telegram-messenger-notifications-for-msupply-cold-chain">Telegram Messenger notifications for mSupply Cold Chain</a></li>
+        
+        <ul>
+          
+          <li><a href="https://docs.msupply.foundation/coldchain/cold-chain-notifications/#a-single-telegram-channel-receiving-notifications-from-all-cce-at-all-facilities">A single Telegram channel receiving notifications from all CCE at all facilities.</a></li>
+          
+          <li><a href="https://docs.msupply.foundation/coldchain/cold-chain-notifications/#multiple-telegram-channels-receiving-notifications-from-all-cce-at-a-single-facility-each">Multiple Telegram channels receiving notifications from all CCE at a single facility each.</a></li>
+          
+        </ul>
          
-        <li><a href="https://docs.msupply.foundation/coldchain/getting-started/#permissions-and-peripherals">Permissions and peripherals</a></li>
+        <li><a href="https://docs.msupply.foundation/coldchain/cold-chain-notifications/#setting-up-telegram-messenger">Setting up Telegram Messenger</a></li>
+        
+        <ul>
+          
+          <li><a href="https://docs.msupply.foundation/coldchain/cold-chain-notifications/#1-install-telegram-messenger">1. Install Telegram Messenger</a></li>
+          
+          <li><a href="https://docs.msupply.foundation/coldchain/cold-chain-notifications/#2-create-a-user-account">2. Create a user account</a></li>
+          
+        </ul>
+         
+        <li><a href="https://docs.msupply.foundation/coldchain/cold-chain-notifications/#setting-up-telegram-messenger-notifications-for-msupply-cold-chain">Setting up Telegram Messenger notifications for mSupply Cold Chain</a></li>
+        
+        <ul>
+          
+          <li><a href="https://docs.msupply.foundation/coldchain/cold-chain-notifications/#1-create-a-telegram-channel">1. Create a Telegram channel</a></li>
+          
+        </ul>
          
       </ul>
     </nav>
@@ -269,45 +296,49 @@
       <main class="docs-content col-lg-11 col-xl-9">
         
         <div class="flagster" style="float: right; padding: 5px">
-          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;coldchain&#x2F;getting-started&#x2F;" title="Change language to en"
+          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;coldchain&#x2F;cold-chain-notifications&#x2F;" title="Change language to en"
             >en.svg</a
           >
         </div>
         
 
-        <h1>Getting started</h1>
-         <h3 id="mobile-device">Mobile device<a class="zola-anchor" href="#mobile-device" aria-label="Anchor link for: mobile-device">🔗</a></h3>
-<p>We recommend the following specifications for the mobile device:</p>
+        <h1>Cold Chain Notifications</h1>
+         <h3 id="introduction">Introduction<a class="zola-anchor" href="#introduction" aria-label="Anchor link for: introduction">🔗</a></h3>
+<p>mSupply Cold Chain offers real-time instant message notifications straight to your phone. </p>
+<p>Notifications can be sent for hot and cold temperature breaches and an additional notification can be sent to warn users if the system is not currently receiving data from the temperature sensors. </p>
+<p>The instant message mediums currently supported are: </p>
 <ul>
-<li>Tablet with 10.1 inch display or larger</li>
-<li>Android Version 11 or higher</li>
-<li>Screen resolution of 800w x 1280h or higher</li>
+<li><a href="https://telegram.org/">Telegram Messenger</a></li>
 </ul>
-<p>Once mSupply Cold Chain is open on the device, it will prevent the device from going to sleep. For this reason, we recommend you keep the device connected to a power supply when using mSupply Cold Chain.</p>
-<h3 id="sensors">Sensors<a class="zola-anchor" href="#sensors" aria-label="Anchor link for: sensors">🔗</a></h3>
-<p>Manufacturer: Blue Maestro Model: DSCTHD001</p>
-<p>(There is a bug in the firmware of model DSCTEMP001 - The above model is the same electronics, but without the firmware bug)</p>
-<p>Alternative sensor: Laird BT510</p>
-<h3 id="permissions-and-peripherals">Permissions and peripherals<a class="zola-anchor" href="#permissions-and-peripherals" aria-label="Anchor link for: permissions-and-peripherals">🔗</a></h3>
-<p>The first time you Open mSupply Cold Chain, it will guide you through enabling permissions and turning on required peripherals if they have not already been set correctly.</p>
-<p>If devices are managed through a Mobile Device Management (MDM) system, then the permissions described here will likely need to configured through a policy / profile in the MDM, and will not be configurable on the device as described here.</p>
-<ol>
-<li>Allow the application to access photos, media and files on your device: this will allow the export of log data to the device for report and email purposes.</li>
-</ol>
-<p><img src="/coldchain/images/allow_coldchain_access.png" alt="Android Access!" /></p>
-<ol start="2">
-<li>Allow the application to access this device’s location: this will allow the Android’s low energy Bluetooth to work.</li>
-<li>Pressing OK will take you to the Location to ensure that it is turned on.</li>
-</ol>
-<p><img src="/coldchain/images/allow_coldchain_access_more.png" alt="Android Access- again!" /></p>
-<ol start="4">
-<li>You will be prompted to confirm Bluetooth permission. Select Allow.</li>
-</ol>
-<p><img src="/coldchain/images/bluetooth_on.png" alt="Bluetooth On!" /></p>
-<p>Once a sensor is linked to mSupply Cold Chain, it will be automatically synchronised via Bluetooth according to the user-programmable schedule. mSupply Cold Chain requires Bluetooth to be enabled in order to receive temperature logs. If Bluetooth is disabled when the application is operating, the user will be prompted to reconnect.</p>
-<p>If the device is turned off, mSupply Cold Chain is closed, or Bluetooth is disabled, the sensor will store up to 20,000 temperature logs as per the sensor settings. After 20,000 logs, the sensor will overwrite the oldest logs. When the device, mSupply Cold Chain application or Bluetooth is enabled again, please allow a few log intervals for transfer of all saved logs.</p>
-<p>We recommend that each device should be linked to a maximum of six sensors. Each sensor should only be linked to one device.</p>
-<p>For information on how to link sensors to mSupply Cold Chain please go to Sensor Settings.</p>
+<h3 id="telegram-messenger-notifications-for-msupply-cold-chain">Telegram Messenger notifications for mSupply Cold Chain<a class="zola-anchor" href="#telegram-messenger-notifications-for-msupply-cold-chain" aria-label="Anchor link for: telegram-messenger-notifications-for-msupply-cold-chain">🔗</a></h3>
+<p><em>Note: To enable Telegram Messenger notifications mSupply Cold Chain must be used in conjunction with mSupply Desktop or Open mSupply.</em> </p>
+<p>Telegram Messenger is a free application that can be used on Android or iOS phones and tablets. 
+It can also be used on Windows, Linux and Mac computers. </p>
+<p>mSupply Cold Chain notifications are broadcast on dedicated <a href="https://telegram.org/faq_channels
+">Telegram channels</a>. </p>
+<p>Channels are very configurable - they can broadcast notifications from a single facility or they can broadcast from multiple facilities. They can broadcast from a single piece of Cold Chain Equipment (CCE) within a facility or they can broadcast from multiple pieces of CCE within a facility. </p>
+<p>Users can subscribe to a single Telegram channel or they may subscribe to multiple Telegram channels, depending on their monitoring requirements. </p>
+<p>Here are some example configurations that are achieveable with mSupply Cold Chain: </p>
+<h4 id="a-single-telegram-channel-receiving-notifications-from-all-cce-at-all-facilities">A single Telegram channel receiving notifications from all CCE at all facilities.<a class="zola-anchor" href="#a-single-telegram-channel-receiving-notifications-from-all-cce-at-all-facilities" aria-label="Anchor link for: a-single-telegram-channel-receiving-notifications-from-all-cce-at-all-facilities">🔗</a></h4>
+<p>This configuration allows for notifications for all CCE at all facilities to be broadcast to a single Telegram channel. </p>
+<p>All users in this scenario have subscribed to this single channel and so all users will see all notifications from all CCE at all facilities. </p>
+<p><img src="/coldchain/images/multi-facility-telegram.png" alt="Telegram - Multi-facility, multi-CCE" /></p>
+<h4 id="multiple-telegram-channels-receiving-notifications-from-all-cce-at-a-single-facility-each">Multiple Telegram channels receiving notifications from all CCE at a single facility each.<a class="zola-anchor" href="#multiple-telegram-channels-receiving-notifications-from-all-cce-at-a-single-facility-each" aria-label="Anchor link for: multiple-telegram-channels-receiving-notifications-from-all-cce-at-a-single-facility-each">🔗</a></h4>
+<p>This configuration allows for separate Telegram channels for each facility. Users may subscribe to the facility that they are interested in monitoring. </p>
+<p>Here User 3 has subscribed to two channels. </p>
+<p><img src="/coldchain/images/single-facility-telegram.png" alt="Telegram - Single-facility, multi-CCE" /></p>
+<h3 id="setting-up-telegram-messenger">Setting up Telegram Messenger<a class="zola-anchor" href="#setting-up-telegram-messenger" aria-label="Anchor link for: setting-up-telegram-messenger">🔗</a></h3>
+<h4 id="1-install-telegram-messenger">1. Install Telegram Messenger<a class="zola-anchor" href="#1-install-telegram-messenger" aria-label="Anchor link for: 1-install-telegram-messenger">🔗</a></h4>
+<p>Users must install the <a href="https://telegram.org/">Telegram Messenger application</a> .</p>
+<h4 id="2-create-a-user-account">2. Create a user account<a class="zola-anchor" href="#2-create-a-user-account" aria-label="Anchor link for: 2-create-a-user-account">🔗</a></h4>
+<p>Users must then create an account with Telegram. </p>
+<p>Once the user account is created users can then subscribe themselves, or can be subscribed by admin users, to the mSupply Cold Chain Telegram channels that they wish to monitor.</p>
+<h3 id="setting-up-telegram-messenger-notifications-for-msupply-cold-chain">Setting up Telegram Messenger notifications for mSupply Cold Chain<a class="zola-anchor" href="#setting-up-telegram-messenger-notifications-for-msupply-cold-chain" aria-label="Anchor link for: setting-up-telegram-messenger-notifications-for-msupply-cold-chain">🔗</a></h3>
+<p>The following steps describe how to set up Telegram notifications for mSupply Cold Chain.</p>
+<h4 id="1-create-a-telegram-channel">1. Create a Telegram channel<a class="zola-anchor" href="#1-create-a-telegram-channel" aria-label="Anchor link for: 1-create-a-telegram-channel">🔗</a></h4>
+<p>A Telegram channel is the place where users will receive mSupply Cold Chain notifications. See <a href="https://docs.msupply.foundation/coldchain/cold-chain-notifications/#a-single-telegram-channel-receiving-notifications-from-all-cce-at-all-facilities
+">above</a> for illustrative channel examples. </p>
+<p>More coming soon!</p>
   
 <div class="docs-navigation d-flex justify-content-between">
   

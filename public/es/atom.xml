@@ -16,7 +16,7 @@
 &lt;p&gt;Cuando inicias la aplicación mobile por primera vez, aparecerá una pantalla de bienvenida que te preguntará si prefieres ejecutarla en uno de dos modos:&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Cliente&lt;&#x2F;strong&gt; Es cuando la aplicación mobile se conecta a un servidor en tu red local.&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;strong&gt;Servidor&lt;&#x2F;strong&gt; La aplicación ejecutará una versión completa del servidor omSupply localmente. Puedes configurar este servidor para que se sincronice con un servidor central.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Servidor&lt;&#x2F;strong&gt; La aplicación ejecutará una versión completa del servidor Open mSupply localmente. Puedes configurar este servidor para que se sincronice con un servidor central.&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;docs&#x2F;introduction&#x2F;images&#x2F;mobile_welcome.png&quot; alt=&quot;Mobile welcome screen&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Simplemente haz clic en el botón de la opción que prefieras. ¡No te preocupes! Esto se puede cambiar más tarde. Si vas a la configuración después de configurar tu aplicación, tendrás una opción adicional al verla en mobile:&lt;&#x2F;p&gt;
