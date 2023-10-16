@@ -89,6 +89,8 @@ The Recipient Telegram channel is now created.
 
 Each mSupply system has its own unique notification bot that serves to update the Recipient Telegram channel. 
 
+*Note: If you do not know the name of the mSupply bot for your system please contact support@msupply.foundation*
+
 Once the notification bot is added to the Recipient Telegram channel the channel is then linked to the mSupply system. 
 
 The bot must be added as an administrator user. 
