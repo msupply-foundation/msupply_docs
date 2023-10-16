@@ -68,9 +68,46 @@ Once the user account is created users can then subscribe themselves, or can be 
 
 The following steps describe how to set up Telegram notifications for mSupply Cold Chain.
 
-#### 1. Create a Telegram channel
+#### 1. Create a Recipient Telegram channel
 A Telegram channel is the place where users will receive mSupply Cold Chain notifications. See <a href="https://docs.msupply.foundation/coldchain/cold-chain-notifications/#a-single-telegram-channel-receiving-notifications-from-all-cce-at-all-facilities
 ">above</a> for illustrative channel examples. 
+
+'Recipient' is the terminology used to describe someone or some thing that receives notifications. 
+
+In our case we want to create a Telegram channel that will receive notifications - thus a 'Recipient Telegram channel'. 
+
+#### 2. Add the mSupply notification bot to the Recipient Telegram channel
+
+Each mSupply system has its own unique notification bot that serves to update the Recipient Telegram channel. 
+
+Once the notification bot is added to the Recipient Telegram channel the channel is then linked to the mSupply system. 
+
+#### 3. Create a Cold Chain Notification
+
+This is where we set up each Cold Chain Notification. 
+
+A notification can be for a single facility, or it can be for all facilities in the system. See <a href="https://docs.msupply.foundation/coldchain/cold-chain-notifications/#a-single-telegram-channel-receiving-notifications-from-all-cce-at-all-facilities
+">above</a> for illustrative notification examples. 
+
+1. In the notifications configuration page click on the 'New Notification' button. 
+2. Select the type 'Cold Chain'
+3. Give the notification a meaningful name, e.g. 'Cold chain alerts for all CCE in Facility ABC'
+4. Select the required Recipient Telegram channel (or channels)
+5. Check the types of alert required (high, low temperature, no data etc)
+6. Check the preferences (reminders, confirmation messages)
+7. Select the sensors to be alerted on. (Type a facility name to see all sensors in that facility)
+8. Ensure the 'Enable' toggle is set to on. 
+9. Save the notification
+
+#### 4. Subscribe users to the Recipient Telegram channel
+
+Admins can invite required users to the Telegram channel. 
+
+Alternatively users may search for the channel and add themselves. 
+
+That's it! Notifications will now be sent to the Telegram channel and subscribed users will see them as they appear. 
+
+
 
 More coming soon!
 
