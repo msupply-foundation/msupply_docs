@@ -121,7 +121,7 @@ A notification can be for a single facility, or it can be for all facilities in 
 8. Ensure the 'Enable' toggle is set to on. 
 9. Save the notification
 
-Notifications will now be sent to the Recipient Telegram channel. 
+Cold chain notifications will now be sent to the Recipient Telegram channel. 
 
 #### 4. Subscribe users to the Recipient Telegram channel
 
