@@ -76,11 +76,31 @@ A Telegram channel is the place where users will receive mSupply Cold Chain noti
 
 In our case we want to create a Telegram channel that will receive notifications - thus a 'Recipient Telegram channel'. 
 
+1. Go to Create new message in Telegram
+2. Select 'New Channel'
+3. Give the channel an appropriate name, e.g. 'Cold chain alerts for Facility ABC'
+4. Press the tick icon
+5. Select 'Private Channel'
+6. Press the arrow icon
+
+The Recipient Telegram channel is now created.
+
 #### 2. Add the mSupply notification bot to the Recipient Telegram channel
 
 Each mSupply system has its own unique notification bot that serves to update the Recipient Telegram channel. 
 
 Once the notification bot is added to the Recipient Telegram channel the channel is then linked to the mSupply system. 
+
+The bot must be added as an administrator user. 
+
+1. Click on the title of the Telegram channel
+2. Select 'Administrators'
+3. Select 'Add Admin'
+4. Search for and select the mSupply bot
+5. Grant the bot the default admin permissions
+6. Press the tick icon
+
+The Recipient Telegram channel will now be visible in the Recipients section of the notifications configuration page. 
 
 #### 3. Create a Cold Chain Notification
 
@@ -99,15 +119,15 @@ A notification can be for a single facility, or it can be for all facilities in 
 8. Ensure the 'Enable' toggle is set to on. 
 9. Save the notification
 
+Notifications will now be sent to the Recipient Telegram channel. 
+
 #### 4. Subscribe users to the Recipient Telegram channel
 
 Admins can invite required users to the Telegram channel. 
 
 Alternatively users may search for the channel and add themselves. 
 
-That's it! Notifications will now be sent to the Telegram channel and subscribed users will see them as they appear. 
+That's it! 
 
-
-
-More coming soon!
+Notifications will now be sent to the Telegram channel and subscribed users will see them as they appear. 
 
