@@ -127,6 +127,11 @@ Cold chain notifications will now be sent to the Recipient Telegram channel.
 
 Admins can invite required users to the Telegram channel. 
 
+1. Click on the title of the Telegram channel.
+2. Select 'Subscribers'
+3. Select 'Add subscribers'
+4. Search for the users and select to add them to the channel
+
 Alternatively users may search for the channel and add themselves (only for Public channels). 
 
 That's it! 
