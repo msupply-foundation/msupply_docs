@@ -127,7 +127,7 @@ Notifications will now be sent to the Recipient Telegram channel.
 
 Admins can invite required users to the Telegram channel. 
 
-Alternatively users may search for the channel and add themselves. 
+Alternatively users may search for the channel and add themselves (only for Public channels). 
 
 That's it! 
 
