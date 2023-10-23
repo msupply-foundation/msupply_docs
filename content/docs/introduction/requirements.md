@@ -146,6 +146,7 @@ The table below shows which version of mSupply you will require when running ope
 | :--------------- | :-------------------- |
 | 1.1.00 - 1.1.16  | 7.04.01+              |
 | 1.2.00+          | 7.05.05+              |
+| 1.4.00+          | 7.09.00+              |
 
 If you attempt to connect to an imcompatible server you'll get an error message like this:
 
