@@ -46,5 +46,5 @@ The categories below list bounties for each area of our tool suite.
 #### mSupply Cold Chain 
 
 <div {% if class %}class="{{class}}"{% endif %}>
-    <iframe width="1230" height="1170" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRpYVOfHPGFytIjIQXK4tRPb2f69hnVpaqK6D_JkYbqFkfsr6JpyQcZfNS984eV27URbgCGT9w3EnNX/pubhtml?gid=0&amp;single=true&amp;widget=false&chrome=false&amp;headers=false"></iframe>
+    <iframe width="1230" height="450" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRpYVOfHPGFytIjIQXK4tRPb2f69hnVpaqK6D_JkYbqFkfsr6JpyQcZfNS984eV27URbgCGT9w3EnNX/pubhtml?gid=0&amp;single=true&amp;widget=false&chrome=false&amp;headers=false"></iframe>
 </div>
