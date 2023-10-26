@@ -52,10 +52,6 @@ Navigate to **SYNC SETTINGS**
 
 mSupply Cold Chain will send data to the server every 1-2 minutes.
 
-On desktop computers running mSupply, a new floating cold chain monitoring window is shown to users: 
-
-![Fridge down, Fridge down!](/coldchain/images/desktop_notifications.png)
-
 
 ### mSupply Cold Chain V0.5.3 (and earlier) Setup Steps
 
