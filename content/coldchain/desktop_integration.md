@@ -22,13 +22,8 @@ Minimum version requirements
 
 #### BlueMaestro sensors
 
-* mSupply Cold Chain app version: 0.4.2 recommended
+* mSupply Cold Chain app version: 0.5.4 recommended
 * mSupply Desktop version: V5-04-00 or higher recommended
-
-#### Laird Sensors
-
-* mSupply Cold Chain app version: 0.5.0-rc0
-* Minimum mSupply Desktop version: V5-07-00-RC41
 
 ### mSupply Desktop Setup Steps
 
@@ -38,7 +33,31 @@ Instructions on the server side setup are located on the [mSupply Desktop docume
 
 The Swagger API used for communicating with mSupply desktop is described [here](https://app.swaggerhub.com/apis/msupply-foundation/ColdChain/1.0.1#/):
 
-### mSupply Cold Chain Setup Steps
+### mSupply Cold Chain V0.5.4+
+
+Navigate to **SETTINGS** (located at the bottom of the main screen): 
+
+![Settings Here!](/coldchain/images/settings_tab.png)
+
+Navigate to **SYNC SETTINGS**
+
+![Settings Here!](/coldchain/images/sync_settings.png)
+
+
+* Put in your store credentials under USERNAME and PASSWORD
+* Add the sync url and port 
+    * Example: http://192.168.4.3:8080
+
+![Integration Settings!](/coldchain/images/integration_settings.png)
+
+mSupply Cold Chain will send data to the server every 1-2 minutes.
+
+On desktop computers running mSupply, a new floating cold chain monitoring window is shown to users: 
+
+![Fridge down, Fridge down!](/coldchain/images/desktop_notifications.png)
+
+
+### mSupply Cold Chain V0.5.3 (and earlier) Setup Steps
 
 Navigate to **SETTINGS** (located at the bottom of the main screen): 
 
