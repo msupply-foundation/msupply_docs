@@ -50,6 +50,8 @@ Navigate to **SYNC SETTINGS**
 
 ![Integration Settings!](/coldchain/images/integration_settings.png)
 
+Press the 'Start Integration' button to start sending data to the server. 
+
 mSupply Cold Chain will send data to the server every 1-2 minutes.
 
 
@@ -72,6 +74,8 @@ Navigate to **SYNC SETTINGS**
     * Temperature-breach - example: http://192.168.4.3:8080/coldchain/v1/temperature-breach
 
 ![Integration Settings!](/coldchain/images/integration_settings.png)
+
+Press the 'Start Integration' button to start sending data to the server. 
 
 mSupply Cold Chain will send data to the server every 1-2 minutes.
 
