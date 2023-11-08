@@ -13,13 +13,13 @@ toc = true
 top = true
 +++
 
-`notify`` is a notification system that can be used to send emails and Telegram messages from mSupply or any postgres database.
+`notify` is a notification system that can be used to send emails and Telegram messages from mSupply or any postgres database.
 
 It's designed so that different plugins can be built to support different types of notifications.
 
 Currently there are two plugins:
 
-- Scheduled Reports
+- [Scheduled Reports](/notify/scheduled)
 - Cold Chain
 
 They operate fairly independently of each other, but both use the same underlying notification system.

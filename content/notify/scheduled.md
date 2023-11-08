@@ -77,11 +77,11 @@ If your query returns only 1 row, you need to access the data using `query_name.
 
 ## Scheduling the Notification
 
-To schedule the notification, you need to set a Starting From date, and a Repeat Interval.
+To schedule the notification, you need to set a `Starting From` datetime, and a `Repeat`` Interval.
 
 ![Scheduling the notification](/notify/images/image-4.png)
 
-The `Starting From` date and time that the first notification will be sent on.
+`Starting From` specifies the date and time that the first notification will be sent on.
 The repeat interval can be set to `Daily`, `Weekly` or `Monthly`.
 
 If `Monthly` is selected, and the `Starting From` date is the 31st of the month, the notification will be sent on the last day of every month, even if the month doesn't have 31 days.
@@ -92,7 +92,7 @@ To test the notification configuration, set the `Starting From` date 1 minute fr
 
 If you have any queries associated with your notification, you'll need to configure them before the notification will work.
 
-To configure a query, click the `Queries` tab, and then select the queries you want to run when the notification is sent.
+To configure a query, click the `Select Queries` button, and then choose the queries you want to run when the notification is sent.
 
 ![Configuring Queries](/notify/images/image-8.png)
 
