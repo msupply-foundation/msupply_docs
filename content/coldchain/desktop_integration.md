@@ -48,7 +48,7 @@ Navigate to **SYNC SETTINGS**
 * Add the sync url and port 
     * Example: http://192.168.4.3:8080
 
-![Integration Settings!](/coldchain/images/integration_settings.png)
+![Sync Settings!](/coldchain/images/sync_settings_detail.png)
 
 Press the 'Start Integration' button to start sending data to the server. 
 

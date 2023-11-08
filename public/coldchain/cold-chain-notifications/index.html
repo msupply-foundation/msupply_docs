@@ -284,7 +284,13 @@
         
         <ul>
           
-          <li><a href="https://docs.msupply.foundation/coldchain/cold-chain-notifications/#1-create-a-telegram-channel">1. Create a Telegram channel</a></li>
+          <li><a href="https://docs.msupply.foundation/coldchain/cold-chain-notifications/#1-create-a-recipient-telegram-channel">1. Create a Recipient Telegram channel</a></li>
+          
+          <li><a href="https://docs.msupply.foundation/coldchain/cold-chain-notifications/#2-add-the-msupply-notification-bot-to-the-recipient-telegram-channel">2. Add the mSupply notification bot to the Recipient Telegram channel</a></li>
+          
+          <li><a href="https://docs.msupply.foundation/coldchain/cold-chain-notifications/#3-create-a-cold-chain-notification">3. Create a Cold Chain Notification</a></li>
+          
+          <li><a href="https://docs.msupply.foundation/coldchain/cold-chain-notifications/#4-subscribe-users-to-the-recipient-telegram-channel">4. Subscribe users to the Recipient Telegram channel</a></li>
           
         </ul>
          
@@ -335,10 +341,61 @@ It can also be used on Windows, Linux and Mac computers. </p>
 <p>Once the user account is created users can then subscribe themselves, or can be subscribed by admin users, to the mSupply Cold Chain Telegram channels that they wish to monitor.</p>
 <h3 id="setting-up-telegram-messenger-notifications-for-msupply-cold-chain">Setting up Telegram Messenger notifications for mSupply Cold Chain<a class="zola-anchor" href="#setting-up-telegram-messenger-notifications-for-msupply-cold-chain" aria-label="Anchor link for: setting-up-telegram-messenger-notifications-for-msupply-cold-chain">🔗</a></h3>
 <p>The following steps describe how to set up Telegram notifications for mSupply Cold Chain.</p>
-<h4 id="1-create-a-telegram-channel">1. Create a Telegram channel<a class="zola-anchor" href="#1-create-a-telegram-channel" aria-label="Anchor link for: 1-create-a-telegram-channel">🔗</a></h4>
+<h4 id="1-create-a-recipient-telegram-channel">1. Create a Recipient Telegram channel<a class="zola-anchor" href="#1-create-a-recipient-telegram-channel" aria-label="Anchor link for: 1-create-a-recipient-telegram-channel">🔗</a></h4>
 <p>A Telegram channel is the place where users will receive mSupply Cold Chain notifications. See <a href="https://docs.msupply.foundation/coldchain/cold-chain-notifications/#a-single-telegram-channel-receiving-notifications-from-all-cce-at-all-facilities
 ">above</a> for illustrative channel examples. </p>
-<p>More coming soon!</p>
+<p>'Recipient' is the terminology used to describe someone or some thing that receives notifications. </p>
+<p>In our case we want to create a Telegram channel that will receive notifications - thus a 'Recipient Telegram channel'. </p>
+<ol>
+<li>Go to Create new message in Telegram</li>
+<li>Select 'New Channel'</li>
+<li>Give the channel an appropriate name, e.g. 'Cold chain alerts for Facility ABC'</li>
+<li>Press the tick icon</li>
+<li>Select 'Private Channel'</li>
+<li>Press the arrow icon</li>
+</ol>
+<p>The Recipient Telegram channel is now created.</p>
+<h4 id="2-add-the-msupply-notification-bot-to-the-recipient-telegram-channel">2. Add the mSupply notification bot to the Recipient Telegram channel<a class="zola-anchor" href="#2-add-the-msupply-notification-bot-to-the-recipient-telegram-channel" aria-label="Anchor link for: 2-add-the-msupply-notification-bot-to-the-recipient-telegram-channel">🔗</a></h4>
+<p>Each mSupply system has its own unique notification bot that serves to update the Recipient Telegram channel. </p>
+<p><em>Note: If you do not know the name of the mSupply bot for your system please contact support@msupply.foundation</em></p>
+<p>Once the notification bot is added to the Recipient Telegram channel the channel is then linked to the mSupply system. </p>
+<p>The bot must be added as an administrator user. </p>
+<ol>
+<li>Click on the title of the Telegram channel</li>
+<li>Select 'Administrators'</li>
+<li>Select 'Add Admin'</li>
+<li>Search for and select the mSupply bot</li>
+<li>Grant the bot the default admin permissions</li>
+<li>Press the tick icon</li>
+</ol>
+<p>The Recipient Telegram channel will now be visible in the Recipients section of the notifications configuration page. </p>
+<h4 id="3-create-a-cold-chain-notification">3. Create a Cold Chain Notification<a class="zola-anchor" href="#3-create-a-cold-chain-notification" aria-label="Anchor link for: 3-create-a-cold-chain-notification">🔗</a></h4>
+<p>This is where we set up each Cold Chain Notification. </p>
+<p>A notification can be for a single facility, or it can be for all facilities in the system. See <a href="https://docs.msupply.foundation/coldchain/cold-chain-notifications/#a-single-telegram-channel-receiving-notifications-from-all-cce-at-all-facilities
+">above</a> for illustrative notification examples. </p>
+<ol>
+<li>In the notifications configuration page click on the 'New Notification' button. </li>
+<li>Select the type 'Cold Chain'</li>
+<li>Give the notification a meaningful name, e.g. 'Cold chain alerts for all CCE in Facility ABC'</li>
+<li>Select the required Recipient Telegram channel (or channels)</li>
+<li>Check the types of alert required (high, low temperature, no data etc)</li>
+<li>Check the preferences (reminders, confirmation messages)</li>
+<li>Select the sensors to be alerted on. (Type a facility name to see all sensors in that facility)</li>
+<li>Ensure the 'Enable' toggle is set to on. </li>
+<li>Save the notification</li>
+</ol>
+<p>Cold chain notifications will now be sent to the Recipient Telegram channel. </p>
+<h4 id="4-subscribe-users-to-the-recipient-telegram-channel">4. Subscribe users to the Recipient Telegram channel<a class="zola-anchor" href="#4-subscribe-users-to-the-recipient-telegram-channel" aria-label="Anchor link for: 4-subscribe-users-to-the-recipient-telegram-channel">🔗</a></h4>
+<p>Admins can invite required users to the Telegram channel. </p>
+<ol>
+<li>Click on the title of the Telegram channel.</li>
+<li>Select 'Subscribers'</li>
+<li>Select 'Add subscribers'</li>
+<li>Search for the users and select to add them to the channel</li>
+</ol>
+<p>Alternatively users may search for the channel and add themselves (only for Public channels). </p>
+<p>That's it! </p>
+<p>Notifications will now be sent to the Telegram channel and subscribed users will see them as they appear. </p>
   
 <div class="docs-navigation d-flex justify-content-between">
   

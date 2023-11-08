@@ -38,14 +38,18 @@ gantt
   Basic dispensing: t1-3-1, 23-06-01, 85d
   Dispensing : milestone, m2, after t2-0-1, 
 section Version 1.4
-  Cold chain integration :t1-4-1, after t1-3-1, 58d
-  Front-end plugin framework :t1-4-2, 23-09-01, 40d
+  Dispensing updates: t1-4-1, 23-06-01, 85d
 section Version 1.5
-  Multi unit item: t1-5-1, 23-08-15, 120d
-  Reporting phase 1: t1-5-2, after t1-4-2, 14d
+  Cold chain integration :t1-5-1, after t1-4-1, 58d
+  Multi unit item: t1-5-2, 23-08-15, 120d
 section Version 1.6
-  Customer returns: t1-6-1, after t1-4-1, 32d
-  Supplier returns: t1-6-2, after t1-4-1, 32d
+  Reporting phase 1: t1-6-2, after t1-5-1, 14d
+  Front-end plugin framework :t1-6-1, 23-09-01, 40d
+section Version 1.7
+  Cold chain equipment :t1-7-1, after t1-5-1, 60d
+section Version 1.8
+  Customer returns: t1-8-1, after t1-7-1, 32d
+  Supplier returns: t1-8-2, after t1-7-1, 32d
 {% end %} 
 
 

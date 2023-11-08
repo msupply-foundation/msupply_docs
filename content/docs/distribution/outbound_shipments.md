@@ -514,7 +514,7 @@ Once the allocation is confirmed:
 
 ### Confirming Outbound Shipment picking
 
-Picking refers to the process where individual items are picked from a fulfillment facility (usually a warehouse or a pharmacy store).
+Picking refers to the process where individual items are picked from a fulfilment facility (usually a warehouse or a pharmacy store).
 
 Once a shipment has been allocated, next step is to go get the items to prepare the actual shipment. To help with that, you are able to generate a **pick slip** document. A pick slip indicates:
 
@@ -535,7 +535,7 @@ Once picking is confirmed:
 - You are now invited to confirm the shipping via the `Confirm Shipped` button
 - An **Inbound Shipment** has been generated and is now visible to your customer
 
-At this stage, you are still able to edit shipment lines, to add items or to delete existing lines. However, if picking has been confirmed, you need to make sure to inform your fulfillment facility of any change so they can make sure that the shipment is still correct.
+At this stage, you are still able to edit shipment lines, to add items or to delete existing lines. However, if picking has been confirmed, you need to make sure to inform your fulfilment facility of any change so they can make sure that the shipment is still correct.
 
 ### Confirming the Outbound Shipment shipping
 
