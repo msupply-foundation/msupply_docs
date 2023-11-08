@@ -87,3 +87,61 @@ The repeat interval can be set to `Daily`, `Weekly` or `Monthly`.
 If `Monthly` is selected, and the `Starting From` date is the 31st of the month, the notification will be sent on the last day of every month, even if the month doesn't have 31 days.
 
 To test the notification configuration, set the `Starting From` date 1 minute from now, Enable the configuration and click Save.
+
+## Configuring Queries
+
+If you have any queries associated with your notification, you'll need to configure them before the notification will work.
+
+To configure a query, click the `Queries` tab, and then select the queries you want to run when the notification is sent.
+
+![Configuring Queries](/notify/images/image-8.png)
+
+To create new queries, you need to go the `Queries` page, and click `New Query`. This process is described in more detail in the [Queries](/notify/queries) section.
+
+In this example, we have a query with a `reference_name` : `out_of_stock_items` that has a parameter called `store_id`.
+
+![Out of Stock Items Query](/notify/images/image-7.png)
+
+The data from each sql query is accessed using it's reference name, so in this case, we would access the data using `out_of_stock_items`.
+
+## Parameters
+
+If the queries you've selected have parameters, you'll need to configure them before the notification will work.
+
+Any required parameters for the queries you have selected will be listed under the `Parameters` tab.
+
+![Configuring the store_id parameter](/notify/images/image-9.png)
+
+If you want the notification to run multiple times, with different parameters, you can add multiple parameter sets.
+
+This can be done by clicking the `duplicate` button next to the parameter set.
+
+![Duplicate](/notify/images/image-10.png)
+
+If you have more than one parameter set, the notification will run once for each parameter set. This means if you setup a lot of parameter sets, you could end up with a lot of notifications being sent.
+
+> Note: Using SQL Recipients, you can control which recipients receive notifications for each parameter set.
+
+Parameter sets can be entered by a parameter JSON object, this also allows you to add other parameters you might want to use in your templates.
+
+![Alt text](/notify/images/image-11.png)
+
+Parameters are accessed directly in a template, see `{{ store_name }}` in the example below:
+
+```
+# Hello {{ recipient.name }}
+
+Here are the items that are out of stock at {{ store_name }}:
+{% for item in out_of_stock_items %}
+- {{ item.name }}
+{% endfor %}
+```
+
+> Note: if your query's reference name is the same as one of your parameters, the query will replace the parameter in the template, making it unavailable.
+
+## Hints
+
+- You can use a special variable `{{__tera_context}}` to view all the data that is available in your template which can be useful for debugging.
+- If your sql queries fail to run, this can cause the whole notification to fail, check the `Notification Events` page to see if there are any errors.
+- Telegram is really picky with what kinds of data it will accept, if you're having trouble sending a telegram message, there's some more information about the format of the data [here](https://core.telegram.org/bots/api#markdownv2-style).
+- It's definitely possible to do maths in your template if desired, see the tera docs for more information [https://keats.github.io/tera/docs/#math](https://keats.github.io/tera/docs/#math)
