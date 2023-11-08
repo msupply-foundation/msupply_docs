@@ -661,4 +661,18 @@
         <loc>https://docs.msupply.foundation/mobile/setup/users/</loc>
         <lastmod>2021-05-01T08:00:00+00:00</lastmod>
     </url>
+    <url>
+        <loc>https://docs.msupply.foundation/notify/</loc>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/notify/images/</loc>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/notify/introduction/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/notify/scheduled/</loc>
+        <lastmod>2021-05-01T08:00:00+00:00</lastmod>
+    </url>
 </urlset>
