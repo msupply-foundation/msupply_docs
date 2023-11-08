@@ -14,16 +14,18 @@ top = false
 +++
 
 The cold chain features within open mSupply allow you to:
-- view and manage temperature sensors
-- import data from Berlinger Q-tag temperature loggers
-- view logs and breach data from sensors
-- receive notifications of temperature breach events
+- View and manage temperature sensors
+- Import data from Berlinger Q-tag temperature loggers
+- View logs and breach data from sensors
+- Receive notifications of temperature breach events
  
-Sensors can be assigned to a storage location, which then allows you to associate temperature logs and breaches with specific stock.
+Sensors can be assigned to a storage location, which then allows you to associate temperature logs and breaches with specific stock lines. You can also view historical data to check if your cold chain equipment is operating correctly and to check if your stock might have been affected by temperature variations.
+
+If a temperature breach happens, then a notification is displayed on every page of open mSupply as a warning to check potentially affected stock. Once the breach is dismissed then the notification is no longer shown.
 
 Open mSupply integrates with the android based cold chain application; simply configure your cold chain application to sync with the open mSupply server address and configure a username and password. Temperature sensors, breaches and logs will then appear within open mSupply.
 
-Note that the cold chain referred to here is the integration of cold chain features within open mSupply. There is separate documentation for the android [cold chain application](/coldchain/introduction/).
+<div class="note">The cold chain referred to here is the integration of cold chain features within open mSupply. There is separate documentation for the android <a application href="/coldchain/introduction/">Cold Chain application</a>.</div>
 
 ## Configuration
 
@@ -35,7 +37,7 @@ Any users who are to view and manage cold chain features should have the followi
   - View sensor details
   - Edit sensor location
 
-See the [user permissions](https://docs.msupply.org.nz/admin:managing_users#permissions_tabs) documentation for how to do this
+See the [user permissions](https://docs.msupply.org.nz/admin:managing_users#permissions_tabs) documentation for more details.
 
 ## Cold chain app integration
 
@@ -45,9 +47,11 @@ To configure the integration, you will only need to configure a user and then yo
 
 The user is a standard mSupply user, with the following configuration:
 - The default store assigned to the user is the store which the temperature data will be associated with 
-- The user must have the omSupply permission of `Cold chain API access` (see image below)
-![Cold chain API permission](/docs/coldchain/images/coldchain_permission.png)
 - The store will need to be part of the site that open mSupply is synchronising with. Have a look at the [Admin](/docs/administration/synchronisation/#viewing-the-synchronisation-settings) section to see which site omSupply is syncing with, and then the [Synchronisation](https://docs.msupply.org.nz/synchronisation:sync_sites#viewing_sync_sites) screen to check that your site includes the correct store.
+- The user must have the omSupply permission of `Cold chain API access` (see below)
+
+![Cold chain API permission](/docs/coldchain/images/coldchain_permission.png)
+
 
 
 From here, simply follow the steps in the cold chain application documentation for [Integrating with mSupply Desktop](/coldchain/desktop-integration/#msupply-desktop-setup-steps)

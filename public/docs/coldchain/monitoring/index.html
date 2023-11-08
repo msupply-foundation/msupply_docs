@@ -329,6 +329,8 @@
 							                           
 									<li><a class="docs-link active" href="https://docs.msupply.foundation/docs/coldchain/monitoring/">Monitoring</a></li>
 							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/coldchain/notifications/">Notifications</a></li>
+							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/coldchain/sensors/">Sensors</a></li>
 							
 					</ul>
@@ -400,19 +402,13 @@
     <nav id="TableOfContents">
       <ul>
         
-        <li><a href="https://docs.msupply.foundation/docs/coldchain/monitoring/#viewing-temperature-monitoring-data">Viewing temperature monitoring data</a></li>
-        
-        <ul>
-          
-          <li><a href="https://docs.msupply.foundation/docs/coldchain/monitoring/#open-the-monitoring-menu">Open the Monitoring Menu</a></li>
-          
-          <li><a href="https://docs.msupply.foundation/docs/coldchain/monitoring/#chart">Chart</a></li>
-          
-          <li><a href="https://docs.msupply.foundation/docs/coldchain/monitoring/#breaches">Breaches</a></li>
-          
-          <li><a href="https://docs.msupply.foundation/docs/coldchain/monitoring/#log">Log</a></li>
-          
-        </ul>
+        <li><a href="https://docs.msupply.foundation/docs/coldchain/monitoring/#viewing-monitoring-data">Viewing Monitoring data</a></li>
+         
+        <li><a href="https://docs.msupply.foundation/docs/coldchain/monitoring/#chart">Chart</a></li>
+         
+        <li><a href="https://docs.msupply.foundation/docs/coldchain/monitoring/#breaches">Breaches</a></li>
+         
+        <li><a href="https://docs.msupply.foundation/docs/coldchain/monitoring/#log">Log</a></li>
          
       </ul>
     </nav>
@@ -428,11 +424,16 @@
         
 
         <h1>Monitoring</h1>
-         <h2 id="viewing-temperature-monitoring-data">Viewing temperature monitoring data</h2>
-<h3 id="open-the-monitoring-menu">Open the Monitoring Menu</h3>
+         <p>The Monitoring section displays cold chain monitoring data in three different views:</p>
+<ol>
+<li>A chart view which shows a summary of data from all sensors</li>
+<li>A list of all recorded breaches</li>
+<li>A list view of all temperature logs</li>
+</ol>
+<h3 id="viewing-monitoring-data">Viewing Monitoring data</h3>
 <p>Choose <code>Cold chain</code> &gt; <code>Monitoring</code> in the navigation panel.</p>
 <p><img src="/docs/coldchain/images/goto_monitoring.png" alt="goto monitoring" /></p>
-<p>This page contains three tabs, displaying different views of temperature monitoring data. The first tab which will be displayed is the <code>Chart</code> tab.</p>
+<p>This page contains three tabs, displaying different views of temperature monitoring data. The tab which will be displayed by default is the <code>Chart</code> tab.</p>
 <h3 id="chart">Chart</h3>
 <p><img src="/docs/coldchain/images/chart_view.png" alt="Chart view" /></p>
 <p>The chart tab displays a chart showing all configured sensors. You can filter the data displayed by:</p>
@@ -447,28 +448,32 @@
 <p>If the sensor has recorded a breach - an icon will be shown on the chart. Clicking on the icon displays information about the breach, with a button which takes you to the list of all breaches:</p>
 <p><img src="/docs/coldchain/images/chart_breach.png" alt="Chart Breach" /></p>
 <p>To close the popup, click the red x in the top right corner.</p>
+<p>Also shown on the chart are red (top) and blue (bottom) shaded areas. These show the standard temperature breach threshold values of 2°C and 8°C. Note that your environment may be using different threshold values, so you may have breaches which are outside of these ranges!</p>
 <h3 id="breaches">Breaches</h3>
+<p>The breaches tab displays a list of all recorded breaches. </p>
 <p><img src="/docs/coldchain/images/breaches_list.png" alt="Breaches" /></p>
-<p>The breaches tab displays a list of all recorded breaches. The list of breaches is divided into 10 columns:</p>
+<p>The list of breaches is divided into 10 columns:</p>
 <table><thead><tr><th align="left">Column</th><th align="left">Description</th></tr></thead><tbody>
-<tr><td align="left"></td><td align="left">Icon showing an alert if this breach is unacknowledged</td></tr>
-<tr><td align="left"><strong>Status</strong></td><td align="left">Date and time of the most recent activity for this sensor</td></tr>
-<tr><td align="left"><strong>Date time</strong></td><td align="left">Date and time of the most recent activity for this sensor</td></tr>
+<tr><td align="left"></td><td align="left">An icon showing an alert if this breach is unacknowledged</td></tr>
+<tr><td align="left"><strong>Status</strong></td><td align="left">The breach status can be <code>Acknowledged</code> or <code>Unacknowledged</code></td></tr>
 <tr><td align="left"><strong>Sensor name</strong></td><td align="left">Name of the Sensor</td></tr>
-<tr><td align="left"><strong>Location</strong></td><td align="left">Current location of the sensor</td></tr>
+<tr><td align="left"><strong>Location</strong></td><td align="left">Current location assigned to the sensor</td></tr>
 <tr><td align="left"><strong>CCE</strong></td><td align="left">Name of the cold chain equipment item which the sensor is associated with</td></tr>
-<tr><td align="left"><strong>Temperature</strong></td><td align="left">The most recent temperature reported by the sensor</td></tr>
-<tr><td align="left"><strong>Breach type</strong></td><td align="left">If the sensor has had a breach, this shows the type of the most recent breach</td></tr>
+<tr><td align="left"><strong>Breach start</strong></td><td align="left">Date and time at which the breach started</td></tr>
+<tr><td align="left"><strong>Duration</strong></td><td align="left">The duration of the breach, if it has ended. If the breach has not ended then <code>Ongoing</code> is shown</td></tr>
+<tr><td align="left"><strong>Type</strong></td><td align="left">The type of the breach: this is a combination of Hot or Cold (shown by the icon and text colour) and Consecutive or Cumulative</td></tr>
+<tr><td align="left"><strong>Temperature</strong></td><td align="left">The temperature recorded when the breach was updated, which is the start or end of the breach (if the breach has ended)</td></tr>
 </tbody></table>
 <p>You can filter the data displayed by:</p>
 <ul>
 <li>Sensor name</li>
 <li>Location</li>
 <li>Date/Time Range</li>
-<li>Breach type</li>
+<li>Type</li>
+<li>Acknowledged</li>
 </ul>
 <p>To add a filter to the page, choose the required filter from the drop down. </p>
-<p><img src="/docs/coldchain/images/log_filter.png" alt="Filter" /></p>
+<p><img src="/docs/coldchain/images/breach_filter.png" alt="Filter" /></p>
 <ol>
 <li>The list can display a fixed number of sensors per page. On the bottom left corner, you can see how many sensors are currently displayed on your screen.</li>
 </ol>
@@ -482,15 +487,16 @@
 </ol>
 <p><img src="/docs/introduction/images/rows-per-page-select.png" alt="Rows per page" /></p>
 <h3 id="log">Log</h3>
+<p>The log view shows a list of all temperature logs.</p>
 <p><img src="/docs/coldchain/images/log_list.png" alt="Logs" /></p>
-<p>The log tab displays a list of all temperature logs. The list of temperature logs is divided into 6 columns:</p>
+<p>The list of temperature logs is divided into 6 columns:</p>
 <table><thead><tr><th align="left">Column</th><th align="left">Description</th></tr></thead><tbody>
 <tr><td align="left"><strong>Date time</strong></td><td align="left">Date and time of the most recent activity for this sensor</td></tr>
 <tr><td align="left"><strong>Sensor name</strong></td><td align="left">Name of the Sensor</td></tr>
-<tr><td align="left"><strong>Location</strong></td><td align="left">Current location of the sensor</td></tr>
+<tr><td align="left"><strong>Location</strong></td><td align="left">Current location assigned to the sensor</td></tr>
 <tr><td align="left"><strong>CCE</strong></td><td align="left">Name of the cold chain equipment item which the sensor is associated with</td></tr>
 <tr><td align="left"><strong>Temperature</strong></td><td align="left">The most recent temperature reported by the sensor</td></tr>
-<tr><td align="left"><strong>Breach type</strong></td><td align="left">If the sensor has had a breach, this shows the type of the most recent breach</td></tr>
+<tr><td align="left"><strong>Breach type</strong></td><td align="left">If the sensor has had a breach, this shows the type of the most recent breach. This is a combination of Hot or Cold (shown by the icon and text colour) and Consecutive or Cumulative.</td></tr>
 </tbody></table>
 <p>You can filter the data displayed by:</p>
 <ul>

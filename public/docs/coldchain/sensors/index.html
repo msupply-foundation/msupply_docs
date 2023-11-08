@@ -329,6 +329,8 @@
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/coldchain/monitoring/">Monitoring</a></li>
 							                           
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/coldchain/notifications/">Notifications</a></li>
+							                           
 									<li><a class="docs-link active" href="https://docs.msupply.foundation/docs/coldchain/sensors/">Sensors</a></li>
 							
 					</ul>
@@ -401,18 +403,12 @@
       <ul>
         
         <li><a href="https://docs.msupply.foundation/docs/coldchain/sensors/#viewing-sensors">Viewing Sensors</a></li>
-        
-        <ul>
-          
-          <li><a href="https://docs.msupply.foundation/docs/coldchain/sensors/#open-the-sensors-menu">Open the Sensors Menu</a></li>
-          
-          <li><a href="https://docs.msupply.foundation/docs/coldchain/sensors/#sensor-list">Sensor list</a></li>
-          
-          <li><a href="https://docs.msupply.foundation/docs/coldchain/sensors/#editing-a-sensor">Editing a sensor</a></li>
-          
-          <li><a href="https://docs.msupply.foundation/docs/coldchain/sensors/#importing-fridgetags">Importing FridgeTags</a></li>
-          
-        </ul>
+         
+        <li><a href="https://docs.msupply.foundation/docs/coldchain/sensors/#sensor-list">Sensor list</a></li>
+         
+        <li><a href="https://docs.msupply.foundation/docs/coldchain/sensors/#editing-a-sensor">Editing a sensor</a></li>
+         
+        <li><a href="https://docs.msupply.foundation/docs/coldchain/sensors/#importing-fridgetags">Importing FridgeTags</a></li>
          
       </ul>
     </nav>
@@ -428,15 +424,14 @@
         
 
         <h1>Sensors</h1>
-         <h2 id="viewing-sensors">Viewing Sensors</h2>
-<h3 id="open-the-sensors-menu">Open the Sensors Menu</h3>
+         <h3 id="viewing-sensors">Viewing Sensors</h3>
 <p>Choose <code>Cold chain</code> &gt; <code>Sensors</code> in the navigation panel.</p>
 <p><img src="/docs/coldchain/images/goto_sensors.png" alt="goto sensors" /></p>
 <p>You will be presented with a list of Sensors (if you don't see any, you many not have imported or integrated with the cold chain app!).</p>
 <p>From this screen you can:</p>
 <ul>
 <li>View a list of Sensors</li>
-<li>Import data from a Berlinger Q-tag</li>
+<li>Import data from a Berlinger FridgeTag</li>
 </ul>
 <h3 id="sensor-list">Sensor list</h3>
 <p><img src="/docs/coldchain/images/sensor_list.png" alt="Sensor list" /></p>
@@ -474,14 +469,16 @@
 <li>Edit the name of the sensor </li>
 <li>Assign the sensor to a location</li>
 </ul>
-<div class="note">If the sensor is one that synchronises with Cold chain application, then the name must be edited there</div>
+<div class="note">If the sensor is one that synchronises with Cold Chain application (e.g. the type is Blue Maestro or Laird), then the name must be edited in the Cold Chain application</div>
 <p>The other details of the sensor, such as Battery level and Last recorded temperature are also shown on this screen.</p>
 <h3 id="importing-fridgetags">Importing FridgeTags</h3>
 <p>If you are using Berlinger FridgeTags, you can import the data directly into open mSupply. To do this, insert the USB of the FridgeTag into your computer.
 Then click the <code>Import fridge tag</code> button:</p>
 <p><img src="/docs/coldchain/images/import_fridge_tag.png" alt="Import fridge tag" /></p>
 <p>This will open a file browsing window, allowing you to select the <code>.txt</code> file of the FridgeTag data. Simply click on the file and wait for the import to complete.</p>
-<p>Currently supported devices are the Q-Tag FridgeTags from Berlinger.</p>
+<div class="note">Currently supported devices are the Q-Tag FridgeTags from Berlinger.</div>
+<p>Be patient! The import may take some time if you have a lot of data to import.
+Note that currently, any breaches recorded will not be imported / associated with the sensor.</p>
   
 <div class="docs-navigation d-flex justify-content-between">
   

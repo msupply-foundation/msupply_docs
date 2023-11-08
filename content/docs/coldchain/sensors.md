@@ -13,9 +13,8 @@ toc = true
 top = false
 +++
 
-## Viewing Sensors
 
-### Open the Sensors Menu
+### Viewing Sensors
 
 Choose `Cold chain` > `Sensors` in the navigation panel.
 
@@ -26,7 +25,7 @@ You will be presented with a list of Sensors (if you don't see any, you many not
 From this screen you can:
 
 - View a list of Sensors
-- Import data from a Berlinger Q-tag
+- Import data from a Berlinger FridgeTag
 
 ### Sensor list
 
@@ -68,7 +67,7 @@ On this screen you can
 - Edit the name of the sensor 
 - Assign the sensor to a location
 
-<div class="note">If the sensor is one that synchronises with Cold chain application, then the name must be edited there</div>
+<div class="note">If the sensor is one that synchronises with Cold Chain application (e.g. the type is Blue Maestro or Laird), then the name must be edited in the Cold Chain application</div>
 
 The other details of the sensor, such as Battery level and Last recorded temperature are also shown on this screen.
 
@@ -82,4 +81,7 @@ Then click the `Import fridge tag` button:
 
 This will open a file browsing window, allowing you to select the `.txt` file of the FridgeTag data. Simply click on the file and wait for the import to complete.
 
-Currently supported devices are the Q-Tag FridgeTags from Berlinger.
+<div class="note">Currently supported devices are the Q-Tag FridgeTags from Berlinger.</div>
+
+Be patient! The import may take some time if you have a lot of data to import.
+Note that currently, any breaches recorded will not be imported / associated with the sensor.

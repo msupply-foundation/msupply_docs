@@ -48,9 +48,9 @@
 
 	
 
-<title>Permissions - mSupply</title>
-<meta name="description" content="Configure user permissions">
-<link rel="canonical" href="https://docs.msupply.foundation/docs/administration/permissions/">
+<title>Notifications - mSupply</title>
+<meta name="description" content="Temperature breach &#x2F; excursion notifications">
+<link rel="canonical" href="https://docs.msupply.foundation/docs/coldchain/notifications/">
 
 
 
@@ -105,8 +105,8 @@
           {
             "@type": "ListItem",
             "position":  3 ,
-            "name": "Administration",
-            "item": "https://docs.msupply.foundation/docs/administration/"
+            "name": "Coldchain",
+            "item": "https://docs.msupply.foundation/docs/coldchain/"
           },
         
       
@@ -123,8 +123,8 @@
           {
             "@type": "ListItem",
             "position":  4 ,
-            "name": "Permissions",
-            "item": "https://docs.msupply.foundation/docs/administration/permissions/"
+            "name": "Notifications",
+            "item": "https://docs.msupply.foundation/docs/coldchain/notifications/"
           },
         
       
@@ -329,7 +329,7 @@
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/coldchain/monitoring/">Monitoring</a></li>
 							                           
-									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/coldchain/notifications/">Notifications</a></li>
+									<li><a class="docs-link active" href="https://docs.msupply.foundation/docs/coldchain/notifications/">Notifications</a></li>
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/coldchain/sensors/">Sensors</a></li>
 							
@@ -357,7 +357,7 @@
 							                           
 									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/administration/synchronisation/">Synchronisation</a></li>
 							                           
-									<li><a class="docs-link active" href="https://docs.msupply.foundation/docs/administration/permissions/">Permissions</a></li>
+									<li><a class="docs-link" href="https://docs.msupply.foundation/docs/administration/permissions/">Permissions</a></li>
 							
 					</ul>
 					
@@ -402,10 +402,6 @@
     <nav id="TableOfContents">
       <ul>
         
-        <li><a href="https://docs.msupply.foundation/docs/administration/permissions/#updating-settings">Updating settings</a></li>
-         
-        <li><a href="https://docs.msupply.foundation/docs/administration/permissions/#settings-available">Settings available</a></li>
-         
       </ul>
     </nav>
   </div>
@@ -414,38 +410,32 @@
       <main class="docs-content col-lg-11 col-xl-9">
         
         <div class="flagster" style="float: right; padding: 5px">
-          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;administration&#x2F;permissions&#x2F;" title="Change language to en"
+          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;coldchain&#x2F;notifications&#x2F;" title="Change language to en"
             ><img src="/icons/en.svg" width="28"> </a>
         </div>
         
 
-        <h1>Permissions</h1>
-        
-        <p class="lead">User permission configuration and how the permissions relate to central server users.</p>
-         <h2 id="updating-settings">Updating settings<a class="zola-anchor" href="#updating-settings" aria-label="Anchor link for: updating-settings">🔗</a></h2>
-<p>Permissions are configured on a per user basis, and this is done on the central server. See the <a href="https://docs.msupply.org.nz/admin:managing_users#permissions_tabs">central server</a> documentation for an explanation of how to do this.</p>
-<h2 id="settings-available">Settings available<a class="zola-anchor" href="#settings-available" aria-label="Anchor link for: settings-available">🔗</a></h2>
-<p>The following table lists the area and name of the permissions in the central server which are of relevance to Open mSupply. In the table, the description explains where this permission might be used in Open mSupply and why you may need to enable it.</p>
-<p>In addition to these specific permissions, you'll need to ensure that the user has access to the store(s) which they'll be working in.</p>
-<table><thead><tr><th>Tab</th><th>Area</th><th>Permission</th><th>Description</th></tr></thead><tbody>
-<tr><td>Permissions</td><td>Admin</td><td>Access server administration</td><td>Allows access to the <code>Admin</code> page</td></tr>
-<tr><td>Permissions</td><td>Items</td><td>Manage locations</td><td>Allows a user to maintain locations</td></tr>
-<tr><td></td><td></td><td>Edit items</td><td>Able to edit items, required when saving a barcode</td></tr>
-<tr><td></td><td></td><td>View stock</td><td>View stock lines</td></tr>
-<tr><td></td><td></td><td>Edit stock</td><td>Modify stock lines</td></tr>
-<tr><td>Permissions (2)</td><td>Invoices</td><td>View customer invoices</td><td>Can view Outbound Shipments. Also used to query statistics on the dashboard</td></tr>
-<tr><td></td><td></td><td>Create customer invoices</td><td>Can maintain Outbound Shipments</td></tr>
-<tr><td></td><td></td><td>Edit customer invoices</td><td>Can maintain Outbound Shipments - if either edit or create permission is given the user can edit</td></tr>
-<tr><td></td><td></td><td>View supplier invoices</td><td>Can view Inbound Shipments. Also used to query statistics on the dashboard</td></tr>
-<tr><td></td><td></td><td>Create supplier invoices</td><td>Can maintain Inbound Shipments</td></tr>
-<tr><td></td><td></td><td>Edit supplier invoices</td><td>Can maintain Inbound Shipments - if either edit or create permission is given the user can edit</td></tr>
-<tr><td>Permissions (2)</td><td>Reports</td><td>View reports</td><td>Required to print pages, as this uses the reporting system</td></tr>
-<tr><td>Permissions (3)</td><td>Admin</td><td>View log</td><td>Able to view the logs, these show as a tab on many windows</td></tr>
-<tr><td>Permissions (3)</td><td>Requisitions</td><td>View requisitions</td><td>RequisitionQuery</td></tr>
-<tr><td></td><td></td><td>Create and edit requisitions</td><td>RequisitionMutate</td></tr>
-<tr><td>Permissions (3)</td><td>Stocktakes</td><td>Create stocktake</td><td>Can create stocktakes</td></tr>
-<tr><td></td><td></td><td>Delete stocktake</td><td>Can delete stocktakes</td></tr>
-</tbody></table>
+        <h1>Notifications</h1>
+         <p>If the following conditions have all been met, then a notification bar will appear on all pages:</p>
+<ul>
+<li>The vaccine module has been enabled for the current store</li>
+<li>The currently logged in user has permission to view temperature logs</li>
+<li>One or more sensors have recorded a temperature breach</li>
+<li>One or more of those breaches has not been acknowledged</li>
+</ul>
+<p>Here's how the bar appears, shown at the top of the dashboard page:</p>
+<p><img src="/docs/coldchain/images/notification_bar.png" alt="notification bar" /></p>
+<div class="tip">If the store has the vaccine module enabled, and the user does not have permission to view logs, or some other error occurs, then you will see a notification when you first login or change stores: <p><img src="/docs/coldchain/images/notification_warning.png" alt="Notification permission warning" /></p>This is just to let you know that this use won't be notified if a breach occurs.</div>
+<br/>
+<p>The notification panel shows:</p>
+<ol>
+<li>How long ago the breach was recorded</li>
+<li>The temperature reading</li>
+<li>The name of the sensor which recorded the breach</li>
+<li>The name of the Location which the sensor is assigned to, if one is assigned</li>
+<li>A button which takes you to the breaches page, where you can see all the details of the breach, along with other breaches</li>
+</ol>
+<p>If you want to dismiss the notification bar - you'll need to acknowledge the breach. You can do this in the <a href="/coldchain/using-coldchain/#breaches">Cold Chain application</a></p>
   
 <div class="docs-navigation d-flex justify-content-between">
   
@@ -481,28 +471,28 @@
         
         
           
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
             
               
-              <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;programs&#x2F;requisitions&#x2F;">
+              <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;dispensary&#x2F;dispensary&#x2F;">
                 <div class="card my-1">
                   <div class="card-body py-2">
-                    &larr; Requisitions
+                    &larr; Prescriptions
                   </div>
                 </div>
               </a>
             
             
             
-          
-        
-      
-        
-        
-          
-        
-      
-        
-        
           
         
       
@@ -580,28 +570,28 @@
       
       
         
-      
-    
-      
-      
-        
-      
-    
-      
-      
-        
           
           
-          <a class="ms-auto" href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;sync&#x2F;synchronisation&#x2F;">
+          <a class="ms-auto" href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;programs&#x2F;module-hiv&#x2F;">
             <div class="card my-1">
               <div class="card-body py-2">
-               Synchronisation &rarr;
+               Patients &rarr;
               </div>
             </div>
           </a>
           
           
           
+        
+      
+    
+      
+      
+        
+      
+    
+      
+      
         
       
     

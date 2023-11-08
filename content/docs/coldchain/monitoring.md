@@ -13,15 +13,18 @@ toc = true
 top = false
 +++
 
-## Viewing temperature monitoring data
+The Monitoring section displays cold chain monitoring data in three different views:
+1. A chart view which shows a summary of data from all sensors
+2. A list of all recorded breaches
+3. A list view of all temperature logs
 
-### Open the Monitoring Menu
+### Viewing Monitoring data
 
 Choose `Cold chain` > `Monitoring` in the navigation panel.
 
 ![goto monitoring](/docs/coldchain/images/goto_monitoring.png)
 
-This page contains three tabs, displaying different views of temperature monitoring data. The first tab which will be displayed is the `Chart` tab.
+This page contains three tabs, displaying different views of temperature monitoring data. The tab which will be displayed by default is the `Chart` tab.
 
 ### Chart
 
@@ -44,33 +47,39 @@ If the sensor has recorded a breach - an icon will be shown on the chart. Clicki
 
 To close the popup, click the red x in the top right corner.
 
+Also shown on the chart are red (top) and blue (bottom) shaded areas. These show the standard temperature breach threshold values of 2°C and 8°C. Note that your environment may be using different threshold values, so you may have breaches which are outside of these ranges!
+
 ### Breaches
+
+The breaches tab displays a list of all recorded breaches. 
 
 ![Breaches](/docs/coldchain/images/breaches_list.png)
 
-The breaches tab displays a list of all recorded breaches. The list of breaches is divided into 10 columns:
+The list of breaches is divided into 10 columns:
 
 | Column              | Description                      |
 | :------------------ | :------------------------------- |
-|                     | Icon showing an alert if this breach is unacknowledged        |
-| **Status**       | Date and time of the most recent activity for this sensor     |
-| **Date time**       | Date and time of the most recent activity for this sensor     |
-| **Sensor name**            | Name of the Sensor               |
-| **Location**        | Current location of the sensor |
+|                     | An icon showing an alert if this breach is unacknowledged        |
+| **Status**          | The breach status can be `Acknowledged` or `Unacknowledged`     |
+| **Sensor name**     | Name of the Sensor               |
+| **Location**        | Current location assigned to the sensor |
 | **CCE**             | Name of the cold chain equipment item which the sensor is associated with   |
-| **Temperature**    | The most recent temperature reported by the sensor         |
-| **Breach type**     | If the sensor has had a breach, this shows the type of the most recent breach |
+| **Breach start**    | Date and time at which the breach started |
+| **Duration**     | The duration of the breach, if it has ended. If the breach has not ended then `Ongoing` is shown |
+| **Type**     | The type of the breach: this is a combination of Hot or Cold (shown by the icon and text colour) and Consecutive or Cumulative |
+| **Temperature**     | The temperature recorded when the breach was updated, which is the start or end of the breach (if the breach has ended) |
 
 You can filter the data displayed by:
 
 - Sensor name
 - Location
 - Date/Time Range
-- Breach type
+- Type
+- Acknowledged
 
 To add a filter to the page, choose the required filter from the drop down. 
 
-![Filter](/docs/coldchain/images/log_filter.png)
+![Filter](/docs/coldchain/images/breach_filter.png)
 
 1. The list can display a fixed number of sensors per page. On the bottom left corner, you can see how many sensors are currently displayed on your screen.
 
@@ -86,18 +95,20 @@ To add a filter to the page, choose the required filter from the drop down.
 
 ### Log
 
+The log view shows a list of all temperature logs.
+
 ![Logs](/docs/coldchain/images/log_list.png)
 
-The log tab displays a list of all temperature logs. The list of temperature logs is divided into 6 columns:
+The list of temperature logs is divided into 6 columns:
 
 | Column              | Description                      |
 | :------------------ | :------------------------------- |
 | **Date time**       | Date and time of the most recent activity for this sensor     |
 | **Sensor name**            | Name of the Sensor               |
-| **Location**        | Current location of the sensor |
+| **Location**        | Current location assigned to the sensor |
 | **CCE**             | Name of the cold chain equipment item which the sensor is associated with   |
 | **Temperature**    | The most recent temperature reported by the sensor         |
-| **Breach type**     | If the sensor has had a breach, this shows the type of the most recent breach |
+| **Breach type**     | If the sensor has had a breach, this shows the type of the most recent breach. This is a combination of Hot or Cold (shown by the icon and text colour) and Consecutive or Cumulative. |
 
 You can filter the data displayed by:
 
