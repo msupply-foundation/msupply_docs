@@ -110,7 +110,7 @@ You can only delete Outbound Shipments with a status <code>NEW</code>.
 1. In the `Customers` window, you will be presented with a list of available customers. You can select your customer from the list or you can type as much of a customer name.
 
 <div class="imagetitle">
-In below example, we are issuing stock to <b>Kamo Regional Warehouse</b>. 
+In the below example, we are issuing stock to <b>Kamo Regional Warehouse</b>. 
 </div>
 
 ![gif](/docs/distribution/images/os_select_customer.gif)
@@ -334,10 +334,10 @@ The placeholder line is used when the quantity you are issuing is higher than yo
 
 By default, you are invited to issue a quantity of **units**, regardless of the pack size (number of units in a pack).
 
-When entering a number in the `Issue` field, after clicking the `Allocate` button, the system automatically chooses the batch number(s) with the closest expiry date (First to Expire, First Out or FEFO logic).
+When entering a number in the `Issue` field, the system automatically chooses the batch number(s) with the closest expiry date (First to Expire, First Out or FEFO logic).
 
 <div class="imagetitle">
-In below example, we are issuing 10 units of the item. All 10 units will be taken from the same batch (third row). The first two batches were not selected because they are expired. 
+In the example below, we are issuing 5 units of the item. All 5 units will be taken from the same batch (second row). The first batches was not selected because it is expired. 
 </div>
 
 ![additem!](/docs/distribution/images/os_additem_issueunits.png)
@@ -349,6 +349,26 @@ In this other example, we are issuing 100 units. System selects three batches wi
 ![additem!](/docs/distribution/images/os_additem_issueunitsthreebatches.png)
 
 Note that in this list, the batches which are available for selection are shown first and batches which are not (on hold or no stock available) are shown below and in a grey font.
+
+#### Warnings
+
+You may see one or more warning messages on this screen:
+
+![placeholder warning!](/docs/distribution/images/os_warning_placeholder.png)
+
+The warning is shown to let you know that not enough stock is available to fulfil your request. A placeholder quantity is added automatically so that you can keep track of the amount requested, while adding more stock (for example by using an internal order or inbound shipment).
+
+This image also shows the warning which lets you know that some stock lines are expired; this may be why the system did not auto-allocate particular stock lines. You can still manually choose those lines and issue the expired stock! It is just the auto allocation process which does not choose them.
+
+![pack sizes warning!](/docs/distribution/images/os_warning_pack_sizes.png)
+
+This warning tells you that because of the available pack sizes, the system has rounded up the quantity requested. In this example, there is only five packs available of pack size `1`. There are packs of `1000` available though, so when ten tablets are requested, the system has rounded up the request to `1` pack of `1000`.
+
+
+![pack sizes warning!](/docs/distribution/images/os_warning_no_quantity.png)
+
+If you add an item forget to enter a quantity to issue, and click `OK` you will see this warning message. It is informing you that there is no issue quantity; from here you can click `OK` again to confirm that you intended to enter `0`, in which case the window will close and a placeholder row will be added to the shipment. You can edit the row later and add a quantity. If you forget to add a quantity however, and confirm the shipment as allocated, this row will be removed!
+
 
 ### Issue a quantity of packs
 
@@ -363,7 +383,7 @@ Let's imagine that your customer only wants pack size of 25 units. You can chang
 You are now offered to issue a number of packs of 25 units. Only batch number(s) with a pack size of 25 units can be automatically issued.
 
 <div class="imagetitle">
-In below example, we are issuing 5 packs of 25 units:
+In the example below, we are issuing 5 packs of 25 units:
 </div>
 
 ![additem!](/docs/distribution/images/os_additem_issuepacks.png)
