@@ -503,6 +503,11 @@
       <main class="docs-content col-lg-11 col-xl-9">
         
         <div class="flagster" style="float: right; padding: 5px">
+          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;fr&#x2F;docs&#x2F;distribution&#x2F;outbound-shipments&#x2F;" title="Change language to fr"
+            ><img src="/icons/fr.svg" width="28"> </a>
+        </div>
+        
+        <div class="flagster" style="float: right; padding: 5px">
           <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;docs&#x2F;distribution&#x2F;outbound-shipments&#x2F;" title="Change language to en"
             ><img src="/icons/en.svg" width="28"> </a>
         </div>
@@ -510,11 +515,6 @@
         <div class="flagster" style="float: right; padding: 5px">
           <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;es&#x2F;docs&#x2F;distribution&#x2F;outbound-shipments&#x2F;" title="Change language to es"
             ><img src="/icons/es.svg" width="28"> </a>
-        </div>
-        
-        <div class="flagster" style="float: right; padding: 5px">
-          <a href="https:&#x2F;&#x2F;docs.msupply.foundation&#x2F;fr&#x2F;docs&#x2F;distribution&#x2F;outbound-shipments&#x2F;" title="Change language to fr"
-            ><img src="/icons/fr.svg" width="28"> </a>
         </div>
         
 
@@ -606,7 +606,7 @@ You can only delete Outbound Shipments with a status <code>NEW</code>.
 <li>In the <code>Customers</code> window, you will be presented with a list of available customers. You can select your customer from the list or you can type as much of a customer name.</li>
 </ol>
 <div class="imagetitle">
-In below example, we are issuing stock to <b>Kamo Regional Warehouse</b>. 
+In the below example, we are issuing stock to <b>Kamo Regional Warehouse</b>. 
 </div>
 <p><img src="/docs/distribution/images/os_select_customer.gif" alt="gif" /></p>
 <div class="tip">
@@ -758,9 +758,9 @@ The placeholder line is used when the quantity you are issuing is higher than yo
 <p><img src="/docs/distribution/images/os_additem_listofbatches.png" alt="List of available batch numbers" /></p>
 <h3 id="issue-a-quantity-of-units">Issue a quantity of units<a class="zola-anchor" href="#issue-a-quantity-of-units" aria-label="Anchor link for: issue-a-quantity-of-units">🔗</a></h3>
 <p>By default, you are invited to issue a quantity of <strong>units</strong>, regardless of the pack size (number of units in a pack).</p>
-<p>When entering a number in the <code>Issue</code> field, after clicking the <code>Allocate</code> button, the system automatically chooses the batch number(s) with the closest expiry date (First to Expire, First Out or FEFO logic).</p>
+<p>When entering a number in the <code>Issue</code> field, the system automatically chooses the batch number(s) with the closest expiry date (First to Expire, First Out or FEFO logic).</p>
 <div class="imagetitle">
-In below example, we are issuing 10 units of the item. All 10 units will be taken from the same batch (third row). The first two batches were not selected because they are expired. 
+In the example below, we are issuing 5 units of the item. All 5 units will be taken from the same batch (second row). The first batches was not selected because it is expired. 
 </div>
 <p><img src="/docs/distribution/images/os_additem_issueunits.png" alt="additem!" /></p>
 <div class="imagetitle">
@@ -768,6 +768,15 @@ In this other example, we are issuing 100 units. System selects three batches wi
 </div>
 <p><img src="/docs/distribution/images/os_additem_issueunitsthreebatches.png" alt="additem!" /></p>
 <p>Note that in this list, the batches which are available for selection are shown first and batches which are not (on hold or no stock available) are shown below and in a grey font.</p>
+<h4 id="warnings">Warnings<a class="zola-anchor" href="#warnings" aria-label="Anchor link for: warnings">🔗</a></h4>
+<p>You may see one or more warning messages on this screen:</p>
+<p><img src="/docs/distribution/images/os_warning_placeholder.png" alt="placeholder warning!" /></p>
+<p>The warning is shown to let you know that not enough stock is available to fulfil your request. A placeholder quantity is added automatically so that you can keep track of the amount requested, while adding more stock (for example by using an internal order or inbound shipment).</p>
+<p>This image also shows the warning which lets you know that some stock lines are expired; this may be why the system did not auto-allocate particular stock lines. You can still manually choose those lines and issue the expired stock! It is just the auto allocation process which does not choose them.</p>
+<p><img src="/docs/distribution/images/os_warning_pack_sizes.png" alt="pack sizes warning!" /></p>
+<p>This warning tells you that because of the available pack sizes, the system has rounded up the quantity requested. In this example, there is only five packs available of pack size <code>1</code>. There are packs of <code>1000</code> available though, so when ten tablets are requested, the system has rounded up the request to <code>1</code> pack of <code>1000</code>.</p>
+<p><img src="/docs/distribution/images/os_warning_no_quantity.png" alt="pack sizes warning!" /></p>
+<p>If you add an item forget to enter a quantity to issue, and click <code>OK</code> you will see this warning message. It is informing you that there is no issue quantity; from here you can click <code>OK</code> again to confirm that you intended to enter <code>0</code>, in which case the window will close and a placeholder row will be added to the shipment. You can edit the row later and add a quantity. If you forget to add a quantity however, and confirm the shipment as allocated, this row will be removed!</p>
 <h3 id="issue-a-quantity-of-packs">Issue a quantity of packs<a class="zola-anchor" href="#issue-a-quantity-of-packs" aria-label="Anchor link for: issue-a-quantity-of-packs">🔗</a></h3>
 <p>You can decide to issue a quantity of <strong>packs</strong>. To do this, you can change the value in the <code>Pack Size</code> dropdown.</p>
 <div class="imagetitle">
@@ -776,7 +785,7 @@ Let's imagine that your customer only wants pack size of 25 units. You can chang
 <p><img src="/docs/distribution/images/os_additem_switchtopack.gif" alt="Alt Text" /></p>
 <p>You are now offered to issue a number of packs of 25 units. Only batch number(s) with a pack size of 25 units can be automatically issued.</p>
 <div class="imagetitle">
-In below example, we are issuing 5 packs of 25 units:
+In the example below, we are issuing 5 packs of 25 units:
 </div>
 <p><img src="/docs/distribution/images/os_additem_issuepacks.png" alt="additem!" /></p>
 <div class="note">
