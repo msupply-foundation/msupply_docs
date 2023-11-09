@@ -48,7 +48,7 @@ On some screens you'll see that the header shows a heading, such as **Outbound S
 
 ### Keyboard shortcuts
 
-There are keyboard shortcuts used throughout open mSupply. Rather than remember them all, to get started you simply have to remember the combination `control (ctrl)`+`k` (windows and linux) or `cmd (⌘)`+`k` (mac)
+There are keyboard shortcuts used throughout Open mSupply. Rather than remember them all, to get started you simply have to remember the combination `control (ctrl)`+`k` (windows and linux) or `cmd (⌘)`+`k` (mac)
 
 This will bring up the following window, no matter which page you are on:
 

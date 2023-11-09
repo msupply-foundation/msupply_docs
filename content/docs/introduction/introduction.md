@@ -27,7 +27,7 @@ Open mSupply runs on Desktop (Windows, Linux & Mac), as a web application in you
 We provide a number of downloads on our [releases page](https://github.com/openmsupply/open-msupply/releases) hosted in our GitHub repository.
 The latest version will be shown at the top of the list of releases - we generally recommend using the latest version where possible.
 
-Within each release there is an `Assets` section which has the files you need to install open mSupply.
+Within each release there is an `Assets` section which has the files you need to install Open mSupply.
 
 ### Windows
 
