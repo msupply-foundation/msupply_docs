@@ -52,12 +52,12 @@ Recording stock transactions is a core Open mSupply activity. Most stock transac
 
 ### Mobile / tablet requirements
 
-You are able to use a browser on a tablet to connect to an open mSupply server, and the only requirement here is a suitably fast tablet with a browser such as chrome or firefox.
+You are able to use a browser on a tablet to connect to an Open mSupply server, and the only requirement here is a suitably fast tablet with a browser such as chrome or firefox.
 
 For a stand-alone, offline, solution a mobile application is also available for android devices.
 
 Recommended Specifications:
-In short, open mSupply mobile runs on Android tablets (not on phones as there is too much data to use well on small phone screens).
+In short, Open mSupply mobile runs on Android tablets (not on phones as there is too much data to use well on small phone screens).
 The application requires at least Android 5.0 (Lollipop)
 
 |           | Minimum | Recommended |
@@ -137,10 +137,10 @@ Windows based operating systems are particularly prone to malware if precautions
 Ensure that access to passwords to allow exceptions to the above two measures are kept secure.
 
 ## mSupply
-An installation of mSupply is currently required when running open mSupply (this is used to manage a number of centralised aspects of the system). 
-The version of both mSupply and open mSupply is important, as not all versions of each are compatible with each other. 
+An installation of mSupply is currently required when running Open mSupply (this is used to manage a number of centralised aspects of the system). 
+The version of both mSupply and Open mSupply is important, as not all versions of each are compatible with each other. 
 
-The table below shows which version of mSupply you will require when running open mSupply
+The table below shows which version of mSupply you will require when running Open mSupply
 
 | Open mSupply         | mSupply               |
 | :--------------- | :-------------------- |

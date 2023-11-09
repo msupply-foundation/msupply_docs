@@ -47,7 +47,7 @@ En algunas pantallas verás que el encabezado muestra un título, como **Salida*
 
 ### Atajos de teclado
 
-Hay atajos de teclado utilizados en todo open mSupply. En lugar de recordarlos todos, para empezar solo tienes que recordar la combinación `control (ctrl)`+`k` (windows y linux) o `cmd (⌘)`+`k` (mac).
+Hay atajos de teclado utilizados en todo Open mSupply. En lugar de recordarlos todos, para empezar solo tienes que recordar la combinación `control (ctrl)`+`k` (windows y linux) o `cmd (⌘)`+`k` (mac).
 
 Esto te mostrará la siguiente ventana, sin importar en qué página te encuentres:
 

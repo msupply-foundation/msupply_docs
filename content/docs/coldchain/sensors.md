@@ -69,12 +69,12 @@ On this screen you can
 
 <div class="note">If the sensor is one that synchronises with Cold Chain application (e.g. the type is Blue Maestro or Laird), then the name must be edited in the Cold Chain application</div>
 
-The other details of the sensor, such as Battery level and Last recorded temperature are also shown on this screen.
+The other details of the sensor, such as battery level and last recorded temperature are also shown on this screen.
 
 
 ### Importing FridgeTags
 
-If you are using Berlinger FridgeTags, you can import the data directly into open mSupply. To do this, insert the USB of the FridgeTag into your computer.
+If you are using Berlinger FridgeTags, you can import the data directly into Open mSupply. To do this, insert the USB of the FridgeTag into your computer.
 Then click the `Import fridge tag` button:
 
 ![Import fridge tag](/docs/coldchain/images/import_fridge_tag.png)

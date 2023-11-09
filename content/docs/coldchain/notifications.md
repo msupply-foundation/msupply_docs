@@ -24,7 +24,7 @@ Here's how the bar appears, shown at the top of the dashboard page:
 
 ![notification bar](/docs/coldchain/images/notification_bar.png)
 
-<div class="tip">If the store has the vaccine module enabled, and the user does not have permission to view logs, or some other error occurs, then you will see a notification when you first login or change stores: <p><img src="/docs/coldchain/images/notification_warning.png" alt="Notification permission warning" /></p>This is just to let you know that this use won't be notified if a breach occurs.</div>
+<div class="tip">If the store has the vaccine module enabled, and the user does not have permission to view logs, or some other error occurs, then you will see a notification when you first login or change stores: <p><img src="/docs/coldchain/images/notification_warning.png" alt="Notification permission warning" /></p>This is just to let you know that this user won't be notified if a breach occurs.</div>
 
 <br/>
 

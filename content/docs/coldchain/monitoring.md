@@ -81,7 +81,7 @@ To add a filter to the page, choose the required filter from the drop down.
 
 ![Filter](/docs/coldchain/images/breach_filter.png)
 
-1. The list can display a fixed number of sensors per page. On the bottom left corner, you can see how many sensors are currently displayed on your screen.
+1. The list can display a fixed number of breaches per page. On the bottom left corner, you can see how many breaches are currently displayed on your screen.
 
 ![Page](/docs/introduction/images/list_showing.png)
 
@@ -121,7 +121,7 @@ To add a filter to the page, choose the required filter from the drop down.
 
 ![Filter](/docs/coldchain/images/log_filter.png)
 
-1. The list can display a fixed number of sensors per page. On the bottom left corner, you can see how many sensors are currently displayed on your screen.
+1. The list can display a fixed number of logs per page. On the bottom left corner, you can see how many logs are currently displayed on your screen.
 
 ![Page](/docs/introduction/images/list_showing.png)
 

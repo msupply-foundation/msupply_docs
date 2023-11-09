@@ -86,7 +86,7 @@ Selecting a patient from the patient list will open the patient details view.
 
 ![patient details view](/docs/programs/images/patient_details_view.png)
 
-The information recorded here is customisable for a specific installation of open mSupply. While there's a base set of data recorded, such as name and birth date, there is also a range of types of data which can be configured in addition to this. Your patient detail view will likely look slightly different to that shown above.
+The information recorded here is customisable for a specific installation of Open mSupply. While there's a base set of data recorded, such as name and birth date, there is also a range of types of data which can be configured in addition to this. Your patient detail view will likely look slightly different to that shown above.
 
 On the patient detail view there are three tabs:
 
