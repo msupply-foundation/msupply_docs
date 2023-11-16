@@ -77,7 +77,7 @@ The list of Outbound Shipments can be exported to a comma separated file (csv). 
 
 ![Export button](/docs/distribution/images/export.png)
 
-and the file will be downloaded. The export function will download all Outbound Shipments, not just the current page, if you have more than 20 of them. Shipments are exported using sort order selected in the table, though of course you could easily sort the list in Excel or whatever you open the .csv file with!
+and the file will be downloaded. The export function will download all Outbound Shipments, not just the current page, if you have more than 20 of them.
 
 ### Delete an Outbound Shipment
 
@@ -119,7 +119,7 @@ In the below example, we are issuing stock to <b>Kamo Regional Warehouse</b>.
 You can tell if a customer is also using mSupply in their store. If they do, you will see icon like this (<img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto">) next to the supplier code. 
 </div>
 
-2. Once you tap or press `Enter`, your Outbound Shipment is automatically created
+2. Once you tap or press `Enter`, or click on a customer, your Outbound Shipment is automatically created
 
 <div class=imagetitle>
 If everything went well, you should see the name of your customer in the top left corner and the status should be <code>NEW</code> 
