@@ -25,7 +25,7 @@ You will be presented with a list of Sensors (if you don't see any, you many not
 From this screen you can:
 
 - View a list of Sensors
-- Import data from a Berlinger FridgeTag
+- Import data from a Berlinger Fridge-tag
 
 ### Sensor list
 
@@ -72,16 +72,16 @@ On this screen you can
 The other details of the sensor, such as battery level and last recorded temperature are also shown on this screen.
 
 
-### Importing FridgeTags
+### Importing Fridge-tags
 
-If you are using Berlinger FridgeTags, you can import the data directly into Open mSupply. To do this, insert the USB of the FridgeTag into your computer.
-Then click the `Import fridge tag` button:
+If you are using Berlinger Fridge-tags, you can import the data directly into Open mSupply. To do this, insert the USB of the Fridge-tag into your computer.
+Then click the `Import Fridge-tag` button:
 
 ![Import fridge tag](/docs/coldchain/images/import_fridge_tag.png)
 
-This will open a file browsing window, allowing you to select the `.txt` file of the FridgeTag data. Simply click on the file and wait for the import to complete.
+This will open a file browsing window, allowing you to select the `.txt` file of the Fridge-tag data. Simply click on the file and wait for the import to complete.
 
-<div class="note">Currently supported devices are the Q-Tag FridgeTags from Berlinger.</div>
+<div class="note">Currently supported devices are the Q-Tag Fridge-tags from Berlinger.</div>
 
 Be patient! The import may take some time if you have a lot of data to import.
 Note that currently, any breaches recorded will not be imported / associated with the sensor.

@@ -21,7 +21,7 @@ gantt
  dateFormat YY-MM-DD
  axisFormat %B
  section Versión 1.1
-  Integración de Fridgetag :t1-1-1,23-02-21, 35d
+  Integración de Fridge-tag :t1-1-1,23-02-21, 35d
   División de paquetes :t1-1-2,23-03-06, 35d
   Función de programas RC1 :t1-1-3,23-02-01, 30d
   Estabilización de Android :t1-1-4,23-02-01, 25d
