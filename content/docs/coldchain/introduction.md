@@ -15,7 +15,7 @@ top = false
 
 The cold chain features within Open mSupply allow you to:
 - View and manage temperature sensors
-- Import data from Berlinger Q-tag temperature loggers
+- Import data from Berlinger [Fridge-tag](https://www.berlinger.com/cold-chain-management/refrigerator-temperature-logger-solution-1) and [Q-tag](https://www.berlinger.com/shipment-monitoring-solutions) temperature loggers (Berlinger and the mSupply Foundation have been working together to make sure Berlinger temperature monitors are well supported in Open mSupply; you can read more [here](https://www.berlinger.com/partnership-msupply)).
 - View logs and breach data from sensors
 - Receive notifications of temperature breach events
  
@@ -25,7 +25,7 @@ If a temperature breach happens, then a notification is displayed on every page 
 
 Open mSupply integrates with the android based Cold Chain application; simply configure your Cold Chain application to sync with the Open mSupply server address and configure a username and password. Temperature sensors, breaches and logs will then appear within Open mSupply.
 
-<div class="note">The cold chain referred to here is the integration of cold chain features within Open mSupply. There is separate documentation for the android <a application href="/coldchain/introduction/">Cold Chain application</a>.</div>
+<div class="note">The cold chain referred to here is the integration of cold chain features within Open mSupply. There is separate documentation for the <a href="/coldchain/introduction/">Android Cold Chain application</a>.</div>
 
 ## Configuration
 
