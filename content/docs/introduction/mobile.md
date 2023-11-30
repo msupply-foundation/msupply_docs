@@ -45,3 +45,14 @@ In server mode, you will configure the server to run on the mobile device, and s
 
 ![Mobile initialisation](/docs/introduction/images/mobile_initialisation.png)
 
+## Viewing logs
+
+In the android app you'll see an additional section. This allows you to change the mode between client and server, and to view the log file:
+
+![Mobile settings](/docs/introduction/images/mobile_settings.png)
+
+Click on the `View` button to open a window which displays the server log:
+
+![Mobile log viewer](/docs/introduction/images/mobile_view_log.png)
+
+From here you can save the log as a text file to your device: simply click `Save` and choose a location to save the file.
