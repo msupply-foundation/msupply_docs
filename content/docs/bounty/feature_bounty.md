@@ -15,7 +15,7 @@ top = true
 
 <a target="_blank" href="https://msupply.foundation/about">The mSupply Foundation</a> is a non-profit organisation.
 
-We are not motified by profit. 
+We are not motivated by profit. 
 Instead we are motivated by the opportunity to improve access to essential medicines and vaccines for people in low to middle income countries.
 
 We seek to do that by developing and implementing technological solutions to strengthen health supply chains in those countries. 
