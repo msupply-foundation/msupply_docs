@@ -37,3 +37,8 @@ Here is the complete process in action, with the steps slowed down. You'll notic
 ![sync: manual](/docs/sync/images/sync.gif)
 
 If any errors are encountered during the sync progress you will see these on this screen too. Hover over the `i` icon to see additional details.
+
+## Server details
+
+
+![sync: manual](/docs/sync/images/expand_qr.gif)

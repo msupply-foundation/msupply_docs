@@ -86,8 +86,25 @@ The following table outlines some of the common terms used in mSupply, and also 
 
 ## Getting Started
 
-If you are running the server for the very first time, you may see this screen:
+To run Open mSupply you will require an mSupply server to operate as a central server. While we are planning to create a new open source central server, that is not yet available.
+
+Note that we are also currently working through testing the migration process and the integration of Open mSupply with an existing mSupply system. As such, we aren't recommending that you upgrade without talking to us first. 
+
+### Installation
+
+#### Preconditions
+1.  You need an existing mSupply system with Legacy mSupply server with web and sync server modules
+2. As of December 2023, it is not possible to migrate an existing Legacy (or Mobile) mSupply store to an Open mSupply store; only new stores can be created in Open mSupply
+
+#### Procedure:
+1. Any Open mSupply stores need to be created in the Legacy mSupply central server as detailed in [Creating new stores](https://docs.msupply.org.nz/other_stuff:virtual_stores#creating_new_stores).  Note that you will normally [Turn an existing customer into a store](https://docs.msupply.org.nz/other_stuff:virtual_stores#transition_a_customer_to_a_virtual_store).
+2. Users need to be created and configured for the store(s) in the Legacy mSupply central server as detailed in [Managing Users](https://docs.msupply.org.nz/admin:managing_users)
+3. The Open mSupply site needs to be created  in the Legacy mSupply central server as detailed in [Creating New Sync Sites](https://docs.msupply.org.nz/synchronisation:sync_sites#creating_new_sync_sites)
+4. The store(s) will need to be added to the Open mSupply site in the Legacy mSupply central server as detailed in [Adding stores](https://docs.msupply.org.nz/synchronisation:sync_sites#adding_stores)
+5. Deploy Open mSupply to your device from the [Open mSupply github repository](https://github.com/msupply-foundation/open-msupply).  Consult with TMF support to make sure that you are deploying the correct version
+6. Initiate Open mSupply on the device.  You should see something like the screen below.
+    - URL:  Consult with TMF support to make sure that you have the correct URL
+    - Site name:  As entered in [Creating New Sync Sites](https://docs.msupply.org.nz/synchronisation:sync_sites#creating_new_sync_sites)
+    - Password:  As entered in [Creating New Sync Sites](https://docs.msupply.org.nz/synchronisation:sync_sites#creating_new_sync_sites)
 
 ![Initialisation](/docs/introduction/images/initialisation.png)
-
-Don't panic! This simply means that the server needs to know how to connect to the central mSupply server. If you don't know what to enter, contact support and they can help.
