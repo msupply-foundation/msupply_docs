@@ -20,7 +20,7 @@ Choose `Cold chain` > `Sensors` in the navigation panel.
 
 ![goto sensors](/docs/coldchain/images/goto_sensors.png)
 
-You will be presented with a list of Sensors (if you don't see any, you many not have imported or integrated with the cold chain app!).
+You will be presented with a list of Sensors (if you don't see any, you may not have imported or integrated with the cold chain app!).
 
 From this screen you can:
 
@@ -81,7 +81,8 @@ Then click the `Import Fridge-tag` button:
 
 This will open a file browsing window, allowing you to select the `.txt` file of the Fridge-tag data. Simply click on the file and wait for the import to complete.
 
-<div class="note">Currently supported devices are the Q-Tag Fridge-tags from Berlinger.</div>
+<div class="note">Currently supported devices are Fridge-tags and Q-Tags from Berlinger.</div>
 
 Be patient! The import may take some time if you have a lot of data to import.
-Note that currently, any breaches recorded will not be imported / associated with the sensor.
+
+Note: breaches recorded on the Fridge-tag / Q-tag will not be imported - this functionality will be provided in a future release.
