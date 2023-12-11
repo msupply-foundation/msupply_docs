@@ -20,7 +20,7 @@ It's designed so that different plugins can be built to support different types 
 Currently there are two plugins:
 
 - [Scheduled Reports](/notify/scheduled)
-- Cold Chain
+- [Cold Chain](/coldchain/cold-chain-notifications)
 
 They operate fairly independently of each other, but both use the same underlying notification system.
 
