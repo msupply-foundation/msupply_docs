@@ -67,7 +67,7 @@ Here are the items that are out of stock:
 {% endfor %}
 ```
 
-If your query returns only 1 row, you need to access the data using `query_name.0.column_name`, for example if you have a query with the number of sites that haven't syncd in teh last 24 hours, you would need to use a template like this:
+If your query returns only 1 row, you need to access the data using `query_name.0.column_name`, for example if you have a query with the number of sites that haven't syncd in the last 24 hours, you would need to use a template like this:
 
 ```markdown
 # Hello {{ recipient.name }}
@@ -77,7 +77,7 @@ If your query returns only 1 row, you need to access the data using `query_name.
 
 ## Scheduling the Notification
 
-To schedule the notification, you need to set a `Starting From` datetime, and a `Repeat`` Interval.
+To schedule the notification, you need to set a `Starting From` datetime, and a `Repeat` Interval.
 
 ![Scheduling the notification](/notify/images/image-4.png)
 
