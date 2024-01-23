@@ -9,7 +9,7 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "The landing page"
+lead = "Open mSupply Integrations with systems supporting the HL7 FHIR Standard"
 toc = true
 +++
 
