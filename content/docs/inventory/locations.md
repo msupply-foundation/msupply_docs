@@ -28,6 +28,13 @@ You will see a list of your storage locations:
 
 ![Location: list](/docs/inventory/images/loc_loclist.png)
 
+## Looking for a specific location
+
+You can filter the list by location name or on hold status.
+
+![Location: filter](/docs/inventory/images/location_filter.png)
+
+
 ## Creating a new location
 
 To create a new location, tap on the `New Location` button in the top right corner of the screen:

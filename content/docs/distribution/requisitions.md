@@ -55,11 +55,13 @@ From this screen you can:
 
 ![Rows per page](/docs/introduction/images/rows-per-page-select.png)
 
-### Search by comment
+### Filter requisitions
 
-You can filter the list of requisitions by comment. This can be useful if you're looking for one particular requisition!
+You can filter the list of requisitions by name or status. This can be useful if you're looking for one particular requisition!
 
-Start typing in the `Search by comment` field (on the left, just above the list headers). All the requisitions which have a comment matching the entered text will appear in the list.
+![Requisition filter](/docs/distribution/images/req_filter.png)
+
+Select the desired filter from the list and either select a status from the list, or start typing in the `Name` field. All the requisitions which match the entered filter value will appear in the list.
 
 ### Exporting Requisitions
 

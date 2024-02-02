@@ -48,9 +48,11 @@ and the file will be downloaded. The export function will download all Stock lin
 
 ## Looking for a specific item
 
-You can filter the list by item name or code. This can be useful if you're looking for one particular item.
+You can filter the list by item name or code, location or by expiry. This can be useful if you're looking for one particular item.
 
-Type as much of an item name or code in the `Enter item code or name` field:
+![Stock: filter](/docs/inventory/images/stock_filter.png)
+
+Click on the `Filters` to show the available filters, select an option, for example `Code or Name`, and type as much of an item name or code in the `Enter item code or name` field:
 
 ![Stock: search](/docs/inventory/images/stock_search.gif)
 

@@ -67,9 +67,13 @@ From this screen you can:
 
 ### Search by Customer Name
 
-You can filter the list of shipments by customer name. This can be useful if you're looking for one particular shipment!
+You can filter the list of shipments by customer name or by status. This can be useful if you're looking for one particular shipment!
+Select the `Name` filter from the list to filter by the customer name:
 
-Type the name of a customer in the `Search by name` field (on the left, just above the list headers). All the shipments for this customer will appear in the list.
+![Outbound shipment filter](/docs/distribution/images/os_filter.png)
+
+Type the name of a customer in the `Name` field. All the shipments for this customer will appear in the list.
+
 
 ### Exporting Outbound Shipments
 

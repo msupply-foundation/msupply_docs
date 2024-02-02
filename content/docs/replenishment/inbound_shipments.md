@@ -60,11 +60,15 @@ The Inbound Shipments list is divided into 7 columns:
 
 ![Rows per page](/docs/introduction/images/rows-per-page-select.png)
 
-### Search by Supplier Name
+### Filter Inbound Shipments
 
-You can filter the list of shipments by supplier name. This can be useful if you're looking for one particular shipment!
+You can filter the list of shipments by supplier name, created date or status. This can be useful if you're looking for one particular shipment!
 
-Type the name of a supplier in the `Search by name` field (on the left, just above the list headers). All the shipments for this supplier will appear in the list.
+![Inbound Shipments filter](/docs/replenishment/images/is_filter.png)
+
+For example, to filter by supplier name, click on `Filters`, select `Name` and start typing some or all of a supplier name in the `Name` field. All the shipments for this supplier will appear in the list.
+
+![Inbound shipment name filter](/docs/replenishment/images/is_name_filter.gif)
 
 ### Exporting Inbound Shipments
 

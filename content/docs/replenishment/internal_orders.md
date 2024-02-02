@@ -35,9 +35,9 @@ You will see a list of all existing Internal Orders:
 
 ![Internal Order: list](/docs/replenishment/images/intord_list.png)
 
-You can use the `Search by comment` field to filter the list by the comments of the Internal Orders:
+You can use the filters to filter the list by the name or status of the Internal Orders:
 
-![Internal Order: filter by comment](/docs/replenishment/images/intord_filterlistbycomment.gif)
+![Internal Order: filter](/docs/replenishment/images/intord_filter.png)
 
 You can sort the list using the column headers:
 

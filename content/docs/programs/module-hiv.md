@@ -76,7 +76,15 @@ Navigating to the `Dispensary` → `Patients` menu item will show a list of exis
 
 ### Searching for a Patient
 
-In the list view, search bars are above the patient list that can be used to narrow and specify the search. You can search by both first and last name as well as by ID. This can be useful to quickly find patients with common names or if there is a large number of existing patients.
+In the list view, filters are available, above the patient list that can be used to narrow and specify the search. You can filter the list by:
+* First name (enabled by default)
+* Last name (enabled by default)
+* last name  (enabled by default)
+* Patient ID
+* Date of Birth
+* Gender
+ 
+This can be useful to quickly find patients with common names or if there is a large number of existing patients.
 
 ![patient search](/docs/programs/images/patient_search.png)
 
