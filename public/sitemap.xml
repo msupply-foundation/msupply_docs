@@ -84,13 +84,6 @@
         <lastmod>2022-05-17T16:20:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://docs.msupply.foundation/docs/bounty/</loc>
-    </url>
-    <url>
-        <loc>https://docs.msupply.foundation/docs/bounty/feature-bounty/</loc>
-        <lastmod>2022-03-17T18:20:00+00:00</lastmod>
-    </url>
-    <url>
         <loc>https://docs.msupply.foundation/docs/catalogue/</loc>
     </url>
     <url>
@@ -160,6 +153,21 @@
     <url>
         <loc>https://docs.msupply.foundation/docs/distribution/requisitions/</loc>
         <lastmod>2022-03-19T18:20:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/docs/integrations/</loc>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/docs/integrations/dhis2/</loc>
+        <lastmod>2022-03-17T18:20:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/docs/integrations/hl7-fhir/</loc>
+        <lastmod>2022-03-17T18:20:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.msupply.foundation/docs/integrations/sage/</loc>
+        <lastmod>2022-03-17T18:20:00+00:00</lastmod>
     </url>
     <url>
         <loc>https://docs.msupply.foundation/docs/introduction/</loc>

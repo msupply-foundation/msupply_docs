@@ -57,12 +57,22 @@ Open mSupply does much more than that. Features include:
   - Manage shelf locations for your store/warehouse
   - Assign locations to incoming stock, or change locations as you rearrange stock in your warehouse
   - Perform stocktakes, and assign reasons for inventory adjustments
+  - Repack stock
 - Receive and fulfil orders from customers (facilities you supply)
 - Place orders with your supplying store
   - Quantify amounts required based on simple or complex formulas
   - Track order status as your supplying store fulfils and ships the order!
   - Receive goods into stock when the order arrives
 - Be alerted to low stock levels from the dashboard
+- Perform basic dispensing
+  - Manage patient records
+  - Create a prescription for a patient
+- Manage cold chain
+  - View logs from temperature sensors
+  - Upload data from USB temperature loggers
+  - Be alerted of temperature excursions and breaches
+  - Connect temperature monitoring devices to stock via stock locations
+- Extend functionality of the base system with the use of front-end plugins. These allow for custom development of simple tasks such as adding fields to records which can then be displayed in lists and editing forms. For further details, see the [plugin readme](https://github.com/msupply-foundation/open-msupply/blob/main/client/packages/plugins/README.md).
 
 ## What makes mSupply special?
 
