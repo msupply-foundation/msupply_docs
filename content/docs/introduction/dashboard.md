@@ -47,3 +47,6 @@ You can see some statistics for shipments and stock:
     - **Items with more than 6 months of stock**: As above, based on AMC for the item in the current store
 
 There are buttons towards the bottom of the page as well which allow you to create shipments and requisitions.
+
+Clicking on the headings (e.g. `Inbound Shipments`, `Shipments` etc) will take you to the list of those items.
+In addition, clicking on the text beside an item (e.g. `Have not been shipped`) will take you to a view which gives you a list which is filtered to show all the records which match the condition listed. The exception to this is the statistics shown under `Stock levels` which currently do not have filters available.

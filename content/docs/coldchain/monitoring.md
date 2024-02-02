@@ -18,6 +18,8 @@ The Monitoring section displays cold chain monitoring data in three different vi
 2. A list of all recorded breaches
 3. A list view of all temperature logs
 
+On any of these views, you can import data from a fridge tag. For details on this, see below.
+
 ### Viewing Monitoring data
 
 Choose `Cold chain` > `Monitoring` in the navigation panel.
@@ -38,8 +40,9 @@ The chart tab displays a chart showing all configured sensors. You can filter th
 - Breach type
 
 To add a filter to the page, choose the required filter from the drop down. 
+<div class="note">Some views have default filters already applied, such as the chart view shown below</div>
 
-![Filter](/docs/coldchain/images/log_filter.png)
+![Filter](/docs/coldchain/images/chart_filter.png)
 
 If the sensor has recorded a breach - an icon will be shown on the chart. Clicking on the icon displays information about the breach, with a button which takes you to the list of all breaches:
 
@@ -65,9 +68,10 @@ The list of breaches is divided into 10 columns:
 | **Location**        | Current location assigned to the sensor |
 | **CCE**             | Name of the cold chain equipment item which the sensor is associated with   |
 | **Breach start**    | Date and time at which the breach started |
+| **Breach end**      | Date and time at which the breach ended, if applicable |
 | **Duration**     | The duration of the breach, if it has ended. If the breach has not ended then `Ongoing` is shown |
 | **Type**     | The type of the breach: this is a combination of Hot or Cold (shown by the icon and text colour) and Consecutive or Cumulative |
-| **Temperature**     | The temperature recorded when the breach was updated, which is the start or end of the breach (if the breach has ended) |
+| **Max / Min**     | The temperature recorded when the breach was updated, which is the start or end of the breach (if the breach has ended) |
 
 You can filter the data displayed by:
 
@@ -75,9 +79,10 @@ You can filter the data displayed by:
 - Location
 - Date/Time Range
 - Type
-- Acknowledged
+- Unacknowledged
 
-To add a filter to the page, choose the required filter from the drop down. 
+By default, the `Unacknowledged` filter is shown on this page.
+To add a filter to the page, choose the required filter from the drop down. To remove any applied filters, click the `Remove all filters` option.
 
 ![Filter](/docs/coldchain/images/breach_filter.png)
 
@@ -92,6 +97,26 @@ To add a filter to the page, choose the required filter from the drop down.
 3. You can also select a different number of rows to show per page using the option at the bottom right of the page.
 
 ![Rows per page](/docs/introduction/images/rows-per-page-select.png)
+
+#### Acknowledging breaches
+
+From this list, you can choose to acknowledge a breach which then will stop the breach showing as a notification at the top of the page.
+If a breach has been unacknowledged you will see a red alert icon on the left of the row, like this:
+
+![Breach acknowledge button](/docs/coldchain/images/breach_acknowledge_button.png)
+
+Clicking the button will show a window, in this you can enter a comment to acknowledge the breach:
+
+![Breach acknowledge dialog](/docs/coldchain/images/breach_acknowledge.png)
+
+If a breach is ongoing, i.e. it has not ended yet, then you are unable to acknowledge it yet, and the window is disabled:
+
+![Breach acknowledge ongoing](/docs/coldchain/images/breach_acknowledge_ongoing.png)
+
+Once a breach is acknowledged, the red alert icon is no longer shown for that breach row. Instead, a speech bubble icon is shown. Hovering over this (on the desktop / web version) or pressing it for a second (on tablets) will show the comment:
+
+![Breach comment](/docs/coldchain/images/breach_comment.png)
+
 
 ### Log
 
@@ -132,3 +157,18 @@ To add a filter to the page, choose the required filter from the drop down.
 3. You can also select a different number of rows to show per page using the option at the bottom right of the page.
 
 ![Rows per page](/docs/introduction/images/rows-per-page-select.png)
+
+### Importing Fridge-tags
+
+If you are using Berlinger Fridge-tags, you can import the data directly into Open mSupply. To do this, insert the USB of the Fridge-tag into your computer.
+Then click the `Import Fridge-tag` button:
+
+![Import fridge tag](/docs/coldchain/images/import_fridge_tag.png)
+
+This will open a file browsing window, allowing you to select the `.txt` file of the Fridge-tag data. Simply click on the file and wait for the import to complete.
+
+<div class="note">Currently supported devices are Fridge-tags and Q-Tags from Berlinger.</div>
+
+Be patient! The import may take some time if you have a lot of data to import.
+
+Note: breaches recorded on the Fridge-tag / Q-tag will not be imported - this functionality will be provided in a future release.

@@ -13,6 +13,8 @@ toc = true
 top = false
 +++
 
+## Breaches
+
 If the following conditions have all been met, then a notification bar will appear on all pages:
 
 - The vaccine module has been enabled for the current store
@@ -35,6 +37,9 @@ The notification panel shows:
 4. The name of the Location which the sensor is assigned to, if one is assigned
 5. A button which takes you to the breaches page, where you can see all the details of the breach, along with other breaches
 
-If you want to dismiss the notification bar - you'll need to acknowledge the breach. You can do this in the [Cold Chain application](/coldchain/using-coldchain/#breaches)
+If you want to dismiss the notification bar - you'll need to acknowledge the breach. You can do this from the [breach list view](/docs/coldchain/monitoring/#acknowledging-breaches)
 
 
+## Excursions
+
+You can also be notified when a temperature has exceeded a configured threshold. This is called an 'excursion'. Once the temperature has returned to be within the threshold range, the notification will no longer be shown.

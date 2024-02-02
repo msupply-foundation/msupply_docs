@@ -17,7 +17,7 @@ The cold chain features within Open mSupply allow you to:
 - View and manage temperature sensors
 - Import data from Berlinger [Fridge-tag](https://www.berlinger.com/cold-chain-management/refrigerator-temperature-logger-solution-1) and [Q-tag](https://www.berlinger.com/shipment-monitoring-solutions) temperature loggers (Berlinger and the mSupply Foundation have been working together to make sure Berlinger temperature monitors are well supported in Open mSupply; you can read more [here](https://www.berlinger.com/partnership-msupply)).
 - View logs and breach data from sensors
-- Receive notifications of temperature breach events
+- Receive notifications of temperature breach and temperature excursion events
  
 Sensors can be assigned to a storage location, which then allows you to associate temperature logs and breaches with specific stock lines. You can also view historical data to check if your cold chain equipment is operating correctly and to check if your stock might have been affected by temperature variations.
 
