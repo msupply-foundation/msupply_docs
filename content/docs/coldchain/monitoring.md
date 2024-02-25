@@ -169,6 +169,10 @@ This will open a file browsing window, allowing you to select the `.txt` file of
 
 <div class="note">Currently supported devices are Fridge-tags and Q-Tags from Berlinger.</div>
 
-Be patient! The import may take some time if you have a lot of data to import.
+Here's how the process looks (this is the mac desktop version):
+
+![Import fridge tag](/docs/coldchain/images/import_fridge_tag.gif)
+
+<div class="note">You may need to wait for the text file to be generated after connecting the Fridge-tag to your computer.</div>
 
 Note: breaches recorded on the Fridge-tag / Q-tag will not be imported - this functionality will be provided in a future release.
