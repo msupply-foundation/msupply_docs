@@ -1,5 +1,5 @@
 +++
-title = "Frequent Asked Questions"
+title = "Frequently Asked Questions"
 description = "aka FAQ."
 date = 2023-02-01
 updated = 2023-02-01

@@ -140,7 +140,7 @@ Ensure that access to passwords to allow exceptions to the above two measures ar
 An installation of mSupply is currently required when running Open mSupply (this is used to manage a number of centralised aspects of the system). 
 The version of both mSupply and Open mSupply is important, as not all versions of each are compatible with each other. 
 
-The table below shows which version of mSupply you will require when running Open mSupply
+The table below shows which version of mSupply you will require when running Open mSupply:
 
 | Open mSupply         | mSupply               |
 | :--------------- | :-------------------- |
@@ -148,6 +148,6 @@ The table below shows which version of mSupply you will require when running Ope
 | 1.2.00+          | 7.05.05+              |
 | 1.4.00+          | 7.09.00+              |
 
-If you attempt to connect to an imcompatible server you'll get an error message like this:
+If you attempt to connect to an incompatible server you'll get an error message like this:
 
 ![server version mismatch!](/docs/introduction/images/version_mismatch.png)
