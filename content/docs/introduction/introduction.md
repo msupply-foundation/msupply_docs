@@ -16,7 +16,7 @@ top = true
 
 ## History
 
-Open TEST mSupply builds on over 20 years of mSupply, over which time it has become the most used Logistics Management Information System (LMIS) in low & middle income countries.
+Open mSupply builds on over 20 years of mSupply, over which time it has become the most used Logistics Management Information System (LMIS) in low & middle income countries.
 
 ## What platforms are supported?
 
