@@ -182,8 +182,7 @@ In the future, we would also include other documents such as temperature records
 
 In this section, you will see by default the total selling price of the items listed in the Outbound Shipment.
 
-You can also add a **Service charges** if you wish to add other charges such as Freight Costs. To add a Service charges to the Invoice Details:
-
+You can also add a **Service charges** if you wish to add other charges such as `Freight Costs`. Note: Service charges must be in your Master List for you to use them. To add a Service charges to the Invoice Details:
 1. Tap on the `Edit Service Charges` button. A new window opens.
 2. Tap on the `Add charge` button on the new window. A new line appears in the list of charges. You tap on `Cancel` if you do not wish to add anything.
 3. **Name:** Select a service charges in the dropdown list. You can customise the list of available charges. Contact your administrator
@@ -193,11 +192,25 @@ You can also add a **Service charges** if you wish to add other charges such as 
 7. **Total:** The total field is automatically calculated based on the Amount and the Tax percentage
 8. **Delete:** You can tap on the `Delete` icon to delete the charge
 
-In this section, you can also edit the tax rate (%) for the items sell price. Tap on the pencil icon and enter a value.
+The tax rate (%) for service charges and the items sell price can also be edited by clicking on the pencil icon. A pop-up window will appear for you to enter a value.
+
+###### Foreign Currencies
+If your store is issuing in foreign currencies follow [these instructions](https://docs.msupply.org.nz/other_stuff:currencies) in the central server documentation to set it up. You will also need to enable the store preference `Store: Able to issue in foreign currency`. This preference is compatible with Open mSupply `v1.7.0+`.
+
+![Store preference](/docs/distribution/images/store-pref-issue-in-foreign-currencies.png)
+
+The pen icon will become active once the above instructions have been followed and only if the customer is an external customer. Click on this icon and change to a currency that you would like to issue the shipment in. The currency rate can also be edited if you and the customer have agreed on a different rate.
+![gif](/docs/distribution/images/os-change-foreign-currency.gif)
+You can also see the foreign currency totals in the invoice line details as well.
+![Line with Foreign Currency Pricing](/docs/distribution/images/os-line-with-foreign-currency.png)
 
 #### Transport Details
 
 In this section, you can see or edit a transport reference number (eg. a booking or a tracking reference number).
+
+#### Actions
+1. **Delete:** You can tap on the `Delete` button to delete the charge
+2. **Copy to Clipboard**: You can tap on the `Copy to Clipboard` button to copy the invoice details to the clipboard.
 
 ### Outbound Shipment Status Sequence
 
