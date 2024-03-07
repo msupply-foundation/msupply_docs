@@ -183,6 +183,7 @@ In the future, we would also include other documents such as temperature records
 In this section, you will see by default the total selling price of the items listed in the Outbound Shipment.
 
 You can also add a **Service charges** if you wish to add other charges such as `Freight Costs`. Note: Service charges must be in your Master List for you to use them. To add a Service charges to the Invoice Details:
+
 1. Tap on the `Edit Service Charges` button. A new window opens.
 2. Tap on the `Add charge` button on the new window. A new line appears in the list of charges. You tap on `Cancel` if you do not wish to add anything.
 3. **Name:** Select a service charges in the dropdown list. You can customise the list of available charges. Contact your administrator
