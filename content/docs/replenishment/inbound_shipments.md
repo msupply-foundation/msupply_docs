@@ -203,7 +203,7 @@ You can also see the foreign currency totals in the invoice line details as well
 In this section, you can see or edit a transport reference number (eg. a booking or a tracking reference number).
 
 #### Actions
-1. **Delete:** You can tap on the `Delete` button to delete the charge
+1. **Delete:** You can tap on the `Delete` button to delete the invoice
 2. **Copy to Clipboard**: You can tap on the `Copy to Clipboard` button to copy the invoice details to the clipboard.
 
 ### Inbound Shipment Status Sequence
