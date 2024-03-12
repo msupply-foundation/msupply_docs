@@ -180,7 +180,7 @@ The following Berlinger devices are compatible with Open mSupply:
 
 
 | Device              | Breach data displayed             |    Temperature graph plotted |
-| :------------------ | :------------------------------- |
+| :------------------ | :------------------------------- | :------------------------------- |
 | **Q-tag CLm doc**       | Yes | Yes |
 | **Q-tag CLm doc D**            | Yes | Yes |
 | **Q-tag CLm doc Ice**        | Yes | Yes |
