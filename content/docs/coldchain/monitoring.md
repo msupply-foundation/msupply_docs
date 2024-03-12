@@ -175,4 +175,22 @@ Here's how the process looks (this is the mac desktop version):
 
 <div class="note">You may need to wait for the text file to be generated after connecting the Fridge-tag to your computer.</div>
 
-Note: breaches recorded on the Fridge-tag / Q-tag will not be imported - this functionality will be provided in a future release.
+
+The following Berlinger devices are compatible with Open mSupply: 
+
+
+| Device              | Breach data displayed             |    Temperature graph plotted |
+| :------------------ | :------------------------------- |
+| **Q-tag CLm doc**       | Yes | Yes |
+| **Q-tag CLm doc D**            | Yes | Yes |
+| **Q-tag CLm doc Ice**        | Yes | Yes |
+| **Q-tag CLm doc Ice R**       | Yes   | Yes |
+| **Q-tag CLm doc L**    | Yes  | Yes |
+| **Q-tag CLm doc LR**     | Yes | Yes |
+| **Fridge-tag 2**     | Yes | No* |
+| **Fridge-tag 2E**     | Yes | No* |
+| **Fridge-tag 2L**     | Yes | Yes |
+| **Fridge-tag UL**     | Yes | Yes |
+
+*Logger device does not capture individual temperature logs
+
