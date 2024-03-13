@@ -61,7 +61,7 @@ La liste des livraisons comprend 7 colonnes:
 
 Vous pouvez filtrer la liste des livraisons par nom de fournisseur. Cela peut être utile si vous recherchez une livraison en particulier !
 
-Saisissez le nom du fournisseur dans le champs `Search by name` (à gauche, juste au-dessus des en-têtes de liste). Toutes les livraisons de ce fournisseur apparaîtront dans la liste.
+Saisissez le nom du fournisseur dans le champ `Search by name` (à gauche, juste au-dessus des en-têtes de liste). Toutes les livraisons de ce fournisseur apparaîtront dans la liste.
 
 ### Exporter la liste des livraisons
 
