@@ -94,7 +94,7 @@ You can delete a shipment from the Outbound Shipment list.
 3. A notification confirms how many shipments were deleted (bottom left corner).
 
 <div class="note">
-You can only delete Outbound Shipments with a status <code>NEW</code>.
+You can only delete Outbound Shipments if they have not been <code>SHIPPED</code>.
 </div>
 
 ![Outbound list: delete](/docs/distribution/images/os_list_deleteshipment.gif)
