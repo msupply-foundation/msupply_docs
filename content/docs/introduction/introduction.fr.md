@@ -106,7 +106,7 @@ Veuillez noter que nous sommes également en train de tester le processus de mig
 **Conditions préalables**
 
 Vous avez besoin d'un système mSupply existant avec un serveur Legacy mSupply doté de modules de serveur Web et de synchronisation.
-Depuis décembre 2023, il n'est pas possible de migrer un magasin Legacy (ou Mobile) mSupply existant vers un magasin Open mSupply ; seuls les nouveaux magasins peuvent être créés dans Open mSupply.
+Depuis décembre 2023, il n'est pas possible de migrer un dépôt Legacy (ou Mobile) mSupply existant vers un dépôt Open mSupply ; seuls les nouveaux dépôts peuvent être créés dans Open mSupply.
 
 **Procédure**
 
