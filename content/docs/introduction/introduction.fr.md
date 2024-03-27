@@ -42,7 +42,7 @@ mSupply possède des fonctionnalités uniques qui le rendent idéal pour une uti
 
 - **Hors ligne d'abord** mSupply est conçu pour fonctionner sans Internet. Même les connexions Internet les plus fiables peuvent se montrer instables voire s'interrompre. mSupply vous permet de travailler sans avoir à vous soucier de la qualité ou de la continuité d'Internet. Bvous avez besoin d'Internet pendant quelques minutes pour transmettre vos commandes ou recevoir des mises à jour.
 
-- **Evolutif** Nous avons conçu Open mSupply non seulement pour gérer des milliards de transactions par an, mais aussi pour avoir la possibilité de travailler sur une tablette Android! Vous pouvez mettre en place mSupply dans un dépôt/entrepôt et le déployer par la suite sur des milliers de sites. mSupply est l'outil adéquat pour toutes les échelles de projet.
+- **Evolutif**Nous avons conçu Open mSupply pour gérer des milliards de transactions par an, tout en tenant sur une simple tablette ! Vous pouvez installer mSupply dans un entrepôt et le déployer par la suite sur des milliers de sites. mSupply est l'outil adéquat pour toutes les échelles de projet.
 
 Pour avoir un aperçu de l'étendue des fonctionnalités de mSupply, jetez un oeil par ici sur cet héritage [https://www.msupply.org.nz](https://www.msupply.org.nz) - Il y a environ 1000 pages d'impression, n'essayez pas...
 
