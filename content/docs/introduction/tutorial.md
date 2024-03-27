@@ -40,11 +40,11 @@ If you have logged in previously, and changed stores, then the most recent store
 The main menu is on the left side of the screen. If you have a small screen size, then it will be collapsed by default - for larger screens it will instead be open by default.
 To open and close you can click on the logo at the top, as shown below. The menu remains either open or closed once you have selected an option.
 
-If the menu is closed, simply hovering over the menu items will open it, in which case clicking on an item will let the menu close again. If you are on a tablet, clicking on a menu item will have the same effect.
+If the menu is closed, simply hovering over the menu items will open it, in which case clicking on an item will close the menu again. If you are on a tablet, clicking on a menu item will have the same effect.
 
 ![Main navigation](/docs/introduction/images/main_nav.gif)
 
-On some screens you'll see that the header shows a heading, such as **Outbound Shipment** in the example above. Clicking on a specific shipment then changes that heading to **Outbound Shipment/ #[the shipment number]**. You are able to click on the **Outbound Shipment** part to return to the list - or use the main navigation on the left.
+On some screens you'll see that the header shows a heading, such as **Outbound Shipment** in the example above. Clicking on a specific shipment then changes that heading to **Outbound Shipment / #[the shipment number]**. You are able to click on the **Outbound Shipment** part to return to the list - or use the main navigation on the left.
 
 ### Keyboard shortcuts
 
