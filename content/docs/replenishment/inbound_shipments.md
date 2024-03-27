@@ -189,6 +189,7 @@ You can also add a **Service charges** if you wish to add other charges such as 
 The tax rate (%) for service charges and the items sell price can also be edited by clicking on the pencil icon. A pop-up window will appear for you to enter a value.
 
 ###### Foreign Currencies
+
 If your store is issuing in foreign currencies follow [these instructions](https://docs.msupply.org.nz/other_stuff:currencies) in the central server documentation to set it up. You will also need to enable the store preference `Store: Able to issue in foreign currency`. This preference is compatible with Open mSupply `v1.7.0+`.
 
 ![Store preference](/docs/distribution/images/store-pref-issue-in-foreign-currencies.png)
@@ -203,6 +204,7 @@ You can also see the foreign currency totals in the invoice line details as well
 In this section, you can see or edit a transport reference number (eg. a booking or a tracking reference number).
 
 #### Actions
+
 1. **Delete:** You can tap on the `Delete` button to delete the invoice
 2. **Copy to Clipboard**: You can tap on the `Copy to Clipboard` button to copy the invoice details to the clipboard.
 
@@ -444,7 +446,7 @@ Whether your Inbound Shipment is **manual** or **automatic**, the first step to 
 
 At this stage, you don't have to check if quantities or other information are correct, you just have to acknowledge that you have received the goods from your supplier.
 
-To confirm that an Inbound Shipment has been delivered, click on the `Confirm Delivered` button. 
+To confirm that an Inbound Shipment has been delivered, click on the `Confirm Delivered` button.
 
 Once you have done this:
 
@@ -478,6 +480,54 @@ Once you have done this:
 - Shipment status is now `VERIFIED`
 - You can no longer edit shipment lines
 - You can no longer delete the shipment
+
+## Returning stock from an Inbound Shipment
+
+Sometimes, you might need to return stock that you received via an Inbound Shipment. You can do this by creating an [Outbound Return](../outbound-returns).
+
+1. Open the Inbound Shipment for which you would like to return some or all of the stock
+2. Make sure that status is at least `DELIVERED`
+3. Select the line(s) you want to return by checking the box(es) on the right of the list
+
+![Alt Text](/docs/replenishment/images/is_select_to_return.png)
+
+4. Go to the `Actions` dropdown menu (top right corner, above the list)
+5. Select the action `Return selected lines`
+
+![Alt Text](/docs/replenishment/images/is_actions_returnlines.png)
+
+#### Select quantity to return
+
+A modal will open, containing each line you selected to return:
+
+- **Code**: Item code
+- **Name**: Item name
+- **Batch**: Batch number. It is a designation given to products made in the same manufacturing run.
+- **Expiry**: Expiry date of the batch (format: MM/YYYY)
+- **Quantity Available for Return**: Number of packs available. This means the number of packs not already allocated to other shipments or returns, so could be less than the quantity received in the Inbound Shipment.
+- **Quantity to Return**: Number of packs to be returned
+
+![Alt Text](/docs/replenishment/images/is_return_select_quantity.png)
+
+The `Quantity to Return` values will initially be `0` - you can adjust this to return some or all of the available stock.
+
+#### Warnings
+
+If you forget to enter a quantity to return for any batch and click `Next step`, you will see this warning message. You'll need to add a quantity to return from at least one batch. You can click `Cancel` if you no longer want to return any of this stock.
+![Alt Text](/docs/replenishment/images/is_selectquantity_warning.png)
+
+#### Provide reasons
+
+Once you are happy with your quantities to return, you can click `Next step`. The list of batches will be filtered to only include the batches you provided a return quantity for. In this view, you can provide a reason for returning each batch, and an additional comment.
+
+![Alt Text](/docs/replenishment/images/is_return_lines.gif)
+
+#### Confirm
+
+When you are happy with the quantities and reasons, you can press on:
+
+- the `OK` button. An Outbound Return will be created, and you will be redirected to view it. The quantities of stock selected to return will be reserved for the new return.
+- the `Back` button, to go back to the `Select quantity` step
 
 ## Viewing an Inbound Shipment
 
