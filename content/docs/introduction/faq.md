@@ -20,7 +20,7 @@ Yes! Open mSupply is designed to be 'offline first' which means that users can c
 
 #### What are the limits to data handling?
 
-There are three aspects to this question with Open mSupply-
+There are three aspects to this question with Open mSupply:
 * **Remote Sites** are where you do day-to-day work.
 * **Cloud hosted remote sites** can be used when you have full time high quality internet.
 * The **Central Server** is where master data is managed, and where all data from remote sites is aggregated for reporting.
@@ -66,15 +66,15 @@ The stores visible on each tablet at each site are configured centrally.
 When you log in you will see all stores that you have permission to log in to.
 If you don't see a store you expect, check permissions on the central server and make sure the remote site has synchronised after updating permissions.
 
-#### Can you have multiple users on multiple Open mSupply tablets accessing the same store concurrently
+#### Can you have multiple users on multiple Open mSupply tablets accessing the same store concurrently?
 
 Yes!
 
 You can also access an Open mSupply server running on an Android tablet from a machine running Open mSupply desktop or from a web browser on any device.
 
-Further, Open mSupply "publishes" its availability on the local network, so you can log into the server without messing aroudn with IP addresses and the like.
+Further, Open mSupply "publishes" its availability on the local network, so you can log into the server without messing around with IP addresses and the like.
 
-#### Can multiple people view/edit the same shipment/stocktake/requisiton at the same time
+#### Can multiple people view/edit the same shipment/stocktake/requisiton at the same time?
 Yes! Although the last edit will override previous edits if you both edit the same line at the same time. Stock integrity will be maintained though.
 
 #### Are there any concurrent license restrictions?

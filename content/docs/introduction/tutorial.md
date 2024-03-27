@@ -14,20 +14,20 @@ toc = true
 
 ## Open mSupply Tutorial
 
-This tutorial is designed to guide you through the basics of using Open mSupply
+This tutorial is designed to guide you through the basics of using Open mSupply.
 
 ## Logging in
 
 1. For a start, you'll need to open your web browser. We like Firefox, but Chrome and its myriad children will also suffice.
 2. Enter the web address (URL) of your mSupply server. In our case we're using https://demo-open.msupply.org - our test web site.
-3. After pressing <enter> on your keyboard you'll be shown the login page
+3. After pressing `enter` on your keyboard you'll be shown the login page
 
 ![login!](/docs/introduction/images/log_in.png)
 
-4. Enter your user name and password and press <enter> on your keyboard, or click the [Log in] button
+4. Enter your user name and password and press `enter` on your keyboard, or click the [Log in] button
 
-All going well, you'll be redirected to the dashboard page.
-If there was a problem, you'll see an error message, like this:
+If everything is going well, you'll be redirected to the dashboard page.
+BUT if there was a problem, you'll see an error message, like this:
 
 ![login!](/docs/introduction/images/log_in_error.png)
 
