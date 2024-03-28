@@ -58,7 +58,7 @@ L'enregistrement des transactions de stocks est une activité centrale d'Open mS
 Vous pouvez utiliser un navigateur sur une tablette pour vous connecter à un serveur Open mSupply.
 La seule exigence est une tablette suffisamment rapide dotée d'un navigateur tel que Chrome ou Firefox.
 
-Solution hors ligne autonome
+## Solution hors ligne autonome
 
 Une application mobile est également disponible pour les appareils Android pour une solution hors ligne autonome.
 
