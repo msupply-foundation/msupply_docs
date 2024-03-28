@@ -53,7 +53,7 @@ L'enregistrement des transactions de stocks est une activité centrale d'Open mS
 
 ### Configuration requise pour mobile/tablette
 
-Connexion à un serveur Open mSupply
+## Connexion à un serveur Open mSupply
 
 Vous pouvez utiliser un navigateur sur une tablette pour vous connecter à un serveur Open mSupply.
 La seule exigence est une tablette suffisamment rapide dotée d'un navigateur tel que Chrome ou Firefox.
