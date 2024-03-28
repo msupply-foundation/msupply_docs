@@ -83,7 +83,7 @@ N'hésitez pas à nous contacter pour des tests et/ou des conseils avant de fair
 
 Un onduleur intelligent (UPS)([Uninterruptible Power Supply](https://en.wikipedia.org/wiki/Uninterruptible_power_supply)) détecte quand une batterie est sur le point de mourir et envoie une notification à un logiciel sur le serveur, ce qui déclenche un arrêt ordonné de l'ordinateur. Pour ce faire, il faut une connexion par câble (généralement USB) entre l'onduleur et l'ordinateur, combinée à un logiciel fonctionnant sur l'ordinateur.
 
-Selon notre expérience, la principale cause de défaillance matérielle des ordinateurs est la corruption des données due à des arrêts brutaux. Cela se produit lorsque l'alimentation de l'ordinateur est coupée instantanément, sans aucun avertissement permettant à l'ordinateur de s'arrêter correctement. Si la machine est "protégée" par un onduleur normal, cela peut toujours se produire lorsque la batterie est épuisée. Même si la machine est théoriquement protégée par un onduleur intelligent, il existe un certain nombre de circonstances où cette protection par UPS échoue :
+Selon notre expérience, la principale cause de défaillance matérielle des ordinateurs est la corruption des données due à des arrêts brutaux. Cela se produit lorsque l'alimentation de l'ordinateur est coupée instantanément, sans aucun avertissement permettant à l'ordinateur de s'arrêter correctement. Si la machine est "protégée" par un onduleur normal, cela peut toujours se produire lorsque la batterie est épuisée. Même si la machine est théoriquement protégée par un onduleur intelligent, il existe un certain nombre de circonstances où cette protection peut échouer :
 
 - La connexion par câble et le logiciel peuvent tomber en panne.
   - Le câble peut se déconnecter.
