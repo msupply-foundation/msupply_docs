@@ -14,7 +14,7 @@ top = true
 +++
 
 Une mise à jour de cette feuille de route est prévue toutes les six semaines.
-Elle couvre uniquement les chantiers validés en cours. La liste complète de fonctionnalités prévues est bien plus importante.
+Elle couvre uniquement les chantiers validés en cours. La liste complète de fonctionnalités à venir est bien plus longue.
 
 ### Feuille de route
 {% mermaid ()%}
@@ -120,18 +120,18 @@ section Version 3.0.0
 | GESTION DES STOCKS | Emplacements | Définition des conditions de stockage (chaîne du froid, volume, restrictions selon les articles, restrictions selon utilisation, etc...) |
 | GESTION DES STOCKS | Emplacements | Enregistrement des températures par lieux de stockage (voir catégorie CHAÎNE DU FROID) |
 | GESTION DES STOCKS | Articles - Mouvement de stock et expiration | Enregistrement du statut PCV (Pastille de contrôle du vaccins) |
-| GESTION DES STOCKS | Emplacements | Enregistrement du statut des conditions de congelation |
-| GESTION DES STOCKS | Articles - Listes maitresses | Définition des niveaux de seuil de température par produit, le cas échéant |
+| GESTION DES STOCKS | Emplacements | Enregistrement du statut des conditions de congélation |
+| GESTION DES STOCKS | Articles - Listes maîtresse | Définition des niveaux de seuil de température par produit, le cas échéant |
 | GESTION DES STOCKS | Articles - Mouvement de stock et expiration | Alertes en cas de dépassement des seuils|
 | GESTION DES STOCKS | Articles - Mouvement de stock et expiration | Suivi des lots et dates d'expiration |
-| GESTION DES STOCKS | Articles - Mouvement de stock et expiration | Transfer de stock d'un emplacement à un autre |
+| GESTION DES STOCKS | Articles - Mouvement de stock et expiration | Transfert de stock d'un emplacement à un autre |
 | GESTION DES STOCKS | Articles - Mouvement de stock et expiration | Affichage et envoi d'alertes/notifications pour les expirations en cours |
 | GESTION DES STOCKS | Articles - Mouvement de stock et expiration | Affichage et envoi d'alertes et notifications en case de rupture de stock, surstock, sous-stock |
-| GESTION DES STOCKS | Articles - Listes maitresses | Signalement d'articles dangereux, le cas échéant |
+| GESTION DES STOCKS | Articles - Listes maîtresse | Signalement d'articles dangereux, le cas échéant |
 | GESTION DES STOCKS | Inventaire | Créer/modifier un inventaire pour une liste d'articles |
 | GESTION DES STOCKS | Inventaire | Filtres pour le stock à inclure : par attributs d'article (catégorie, rayon, date de péremption, etc...) |
 | GESTION DES STOCKS | Inventaire | Filtres pour le stock à inclure : par emplacement |
-| GESTION DES STOCKS | Inventaire | Filtres le stock à inclure : par liste maitresse |
+| GESTION DES STOCKS | Inventaire | Filtres le stock à inclure : par liste maîtresse |
 | GESTION DES STOCKS | Inventaire | Impression des fiches d'inventaire (format PDF) |
 | GESTION DES STOCKS | Inventaire | Impression des fiches d'inventaire (format CSV) |
 | GESTION DES STOCKS | Inventaire | |
