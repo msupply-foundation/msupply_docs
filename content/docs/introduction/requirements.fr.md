@@ -96,7 +96,7 @@ Les ordinateurs portables ont tendance à être beaucoup plus résistants aux co
 
 - L'onduleur intelligent intégré d'un ordinateur portable est très fiable.
 - Les batteries internes durent beaucoup plus longtemps que les batteries d'onduleur.
-- Même si la batterie interne de l'ordinateur portable se dégrade, la fonction intelligente semble fonctionner de manière beaucoup plus fiable qu'un onduleur autonome communiquant avec un ordinateur tour.
+- Même si la batterie interne de l'ordinateur portable se dégrade, la fonction intelligente semble fonctionner de manière beaucoup plus fiable qu'un onduleur autonome communiquant avec un ordinateur de bureau.
 
 Voici quelques avantages supplémentaires des ordinateurs portables par rapport aux ordinateurs de bureau :
 
