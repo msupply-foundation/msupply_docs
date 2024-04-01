@@ -74,7 +74,6 @@ Select the `Name` filter from the list to filter by the customer name:
 
 Type the name of a customer in the `Name` field. All the shipments for this customer will appear in the list.
 
-
 ### Exporting Outbound Shipments
 
 The list of Outbound Shipments can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page)
@@ -196,6 +195,7 @@ You can also add a **Service charges** if you wish to add other charges such as 
 The tax rate (%) for service charges and the items sell price can also be edited by clicking on the pencil icon. A pop-up window will appear for you to enter a value.
 
 ###### Foreign Currencies
+
 If your store is issuing in foreign currencies follow [these instructions](https://docs.msupply.org.nz/other_stuff:currencies) in the central server documentation to set it up. You will also need to enable the store preference `Store: Able to issue in foreign currency`. This preference is compatible with Open mSupply `v1.7.0+`.
 
 ![Store preference](/docs/distribution/images/store-pref-issue-in-foreign-currencies.png)
@@ -210,6 +210,7 @@ You can also see the foreign currency totals in the invoice line details as well
 In this section, you can see or edit a transport reference number (eg. a booking or a tracking reference number).
 
 #### Actions
+
 1. **Delete:** You can tap on the `Delete` button to delete the invoice
 2. **Copy to Clipboard**: You can tap on the `Copy to Clipboard` button to copy the invoice details to the clipboard.
 
@@ -382,11 +383,9 @@ This image also shows the warning which lets you know that some stock lines are 
 
 This warning tells you that because of the available pack sizes, the system has rounded up the quantity requested. In this example, there is only five packs available of pack size `1`. There are packs of `1000` available though, so when ten tablets are requested, the system has rounded up the request to `1` pack of `1000`.
 
-
 ![pack sizes warning!](/docs/distribution/images/os_warning_no_quantity.png)
 
 If you add an item forget to enter a quantity to issue, and click `OK` you will see this warning message. It is informing you that there is no issue quantity; from here you can click `OK` again to confirm that you intended to enter `0`, in which case the window will close and a placeholder row will be added to the shipment. You can edit the row later and add a quantity. If you forget to add a quantity however, and confirm the shipment as allocated, this row will be removed!
-
 
 ### Issue a quantity of packs
 
@@ -595,6 +594,50 @@ If your customer is also using mSupply, you will be able to see when they'll rec
 
 - status will become `DELIVERED` when goods are received: your customer confirmed that they received your goods
 - status will become `VERIFIED` when shipment has been verified by your customer. Goods are now a part of their inventory.
+
+## Process return of stock from an Outbound Shipment
+
+Sometimes, stock sent via an Outbound Shipment will need to be returned. You can do this by creating an [Inbound Return](../inbound-returns).
+
+1. Open the Outbound Shipment for which you would like to process the return of some or all of the stock
+2. Make sure that status is at least `SHIPPED`
+3. Select the line(s) you want to process the return of by checking the box(es) on the right of the list
+4. Go to the `Actions` dropdown menu (top right corner, above the list)
+5. Select the action `Process return of selected lines`
+
+![OS return lines](/docs/distribution/images/os_returnlines.gif)
+
+### Select quantity returned
+
+A modal will open, containing each line you selected for return:
+
+- **Code**: Item code
+- **Name**: Item name
+- **Batch**: Batch number. It is a designation given to products made in the same manufacturing run.
+- **Expiry**: Expiry date of the batch (format: MM/YYYY)
+- **Unit Variant / Pack Size**: Quantity of units per pack
+- **Pack Quantity Issued**: Number of packs that were issued in the Outbound Shipment
+- **Quantity Returned**: Number of packs to be returned
+
+The `Quantity Returned` values will initially be `0` - you can adjust this to return some or all of the available stock.
+
+#### Warnings
+
+If you forget to enter a `Quantity Returned` for any line and click `Next step`, you will see this warning message. You'll need to add a quantity returned from at least one line. You can click `Cancel` if you no longer want to process the return of any of this stock.
+![Alt Text](/docs/distribution/images/os_selectquantity_warning.png)
+
+### Provide reasons
+
+Once you are happy with your returned quantities, you can click `Next step`. The list of lines will be filtered to only include the lines you provided a return quantity for. In this view, you can enter a reason for the return of each line, and an additional comment.
+
+![Alt Text](/docs/distribution/images/os_return_lines_modal.gif)
+
+### Confirm
+
+When you are happy with the quantities and reasons, you can press on:
+
+- the `OK` button. An Inbound Return will be created, and you will be redirected to view it.
+- the `Back` button, to go back to the `Select quantity` step
 
 ## Viewing an Outbound Shipment
 

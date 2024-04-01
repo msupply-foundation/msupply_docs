@@ -23,7 +23,7 @@ If you have used mSupply in the past, you may be familiar with the term **Suppli
 
 ### Open the Outbound Returns Menu
 
-Choose `Replenishment` > `Outbound Return` in the navigation panel.
+Choose `Replenishment` > `Outbound Returns` in the navigation panel.
 
 ![gotooor](/docs/replenishment/images/gotoor.png)
 
@@ -37,16 +37,18 @@ From this screen you can:
 
 ### Outbound Return list
 
-1. The list of Outbound Returns is divided into 6 columns:
+1. The list of Outbound Returns is divided into 4 columns:
 
-| Column        | Description                    |
-| :------------ | :----------------------------- |
-| **Name**      | Name of the Supplier           |
-| **Status**    | Current Status of the return   |
-| **Number**    | Reference Number of the return |
-| **Created**   | Creation date of the return    |
-| **Reference** | Supplier reference             |
-| **Comment**   | Comment for the return         |
+| Column      | Description                    |
+| :---------- | :----------------------------- |
+| **Name**    | Name of the Supplier           |
+| **Status**  | Current Status of the return   |
+| **Number**  | Reference Number of the return |
+| **Created** | Creation date of the return    |
+
+<!-- TODO: include once added -->
+<!-- | **Reference** | Supplier reference             |
+| **Comment**   | Comment for the return         | -->
 
 1. The list can display a fixed number of returns per page. On the bottom left corner, you can see how many returns are currently displayed on your screen.
 
@@ -114,7 +116,7 @@ Often, you will be returning goods that you received via an Inbound Shipment. In
 1. In the `Suppliers` window, you will be presented with a list of available suppliers. You can select your supplier from the list or you can type as much of a supplier name.
 
 <div class="imagetitle">
-In the below example, we are want to return stock to <b>Kamo Regional Warehouse</b>. 
+In the below example, we are wanting to return stock to <b>Kamo Regional Warehouse</b>. 
 </div>
 
 ![Search supplier list](/docs/replenishment/images/or_select_supplier.png)
@@ -232,7 +234,7 @@ Tap on the `Close` button to quit the Outbound Return view and return to the Out
 
 The `Confirm` button updates the status of a return. The status which you can confirm depends on the current status of the return and follows the sequence shown below.
 
-When managing an Outbound Return, you can only confirm the Allocation, Picked and Shipped statuses.
+When managing an Outbound Return, you can only confirm the Picked and Shipped statuses.
 
 | Confirm...          | Current Status | Next Status |
 | :------------------ | :------------- | :---------- |
@@ -312,7 +314,7 @@ When you are happy with the quantities, you can press the `Next step` button. Th
 
 When you are happy with the quantities and reasons, you can press on:
 
-- the `OK` button. You will be redirected to the Outbound Return view and see your item added to the list. The quantities for each batch will be reserved for this return.
+- the `OK` button. Your item will be added to the Outbound Return. The quantities for each batch will be reserved for this return.
 - the `OK & Next` button to add another item right away
 - the `Back` button, to go back to the `Select quantity` step
 
@@ -352,7 +354,7 @@ If you set all return quantities to `0`, and click `Next step` you will see this
 ![Outbound return actions dropdown](/docs/replenishment/images/or_actions_deletelines.png)
 
 <div class="imagetitle">
-In below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100mg tabs</i>
+In below example, we are deleting 2 items, with the item codes 030453 and 201116
 </div>
 
 ![Alt Text](/docs/replenishment/images/or_deleteselectedlines.gif)
@@ -377,7 +379,7 @@ Once all items are picked and packed. You can then confirm the picking of the re
 
 To confirm that a return has been picked, tap on the `Confirm Picked` button.
 
-![Alt Text](/docs/distribution/images/os_confirmpicked.gif)
+![Alt Text](/docs/replenishment/images/or_confirmpicked.gif)
 
 Once picking is confirmed:
 
@@ -423,4 +425,5 @@ Click on the `Show / hide columns` button which is at the top right of the table
 <div class="imagetitle">
 In below example, we are hiding the pricing columns
 </div>
+
 ![Hide columns](/docs/replenishment/images/or_filter_columns.gif)
