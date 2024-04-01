@@ -33,10 +33,10 @@ Within each release there is an `Assets` section which has the files you need to
 
 There are installers built for each release, providing:
 
-- **Server**: which supports either SQLite or postgreSQL and runs as a windows service. The installer name for the server is `omSupply_Server_[version].exe`
-- **Desktop**: A windows application which allows you to connect to a running server. The installer name for the server is `omSupply_Desktop_[version].exe`
-- **Standalone**: combines the above two; runs a server as a windows service and has a windows application which will connect to it. The installer name for the server is `omSupply_Standalone_[version].exe`
-- **Demo**: A pre-configured server installation which does not require a central server to run. The installer name for the server is `omSupply_Demo_[version].exe`
+- **Server**: which supports either SQLite or PostgreSQL and runs as a windows service. The installer name for the server is `Open_mSupply_Server_[version].exe`
+- **Desktop**: A windows application which allows you to connect to a running server. The installer name for the server is `Open_mSupply_Desktop_[version].exe`
+- **Standalone**: combines the above two; runs a server as a windows service and has a windows application which will connect to it. The installer name for the server is `Open_mSupply_Standalone_[version].exe`
+- **Demo**: A pre-configured server installation which does not require a central server to run. The installer name for the server is `Open_mSupply_Demo_[version].exe`
 
 ### Android
 
@@ -44,11 +44,11 @@ The android version is distributed as an `.apk` file which you can install. This
 
 ### MacOS
 
-For the mac desktop version, we provide a `.dmg` file, which has the name `omSupply_[version].dmg`.
+For the mac desktop version, we provide a `.dmg` file, which has the name `Open_mSupply_[version].dmg`.
 
 ## What does it do?
 
-In short, Open mSupply manages your inventory, recording every receipt and issue of goods, and thereby providing a running balance of your stock on hand of each item.
+In short, Open mSupply manages your inventory, recording every receipt and issue of goods, and thereby providing a running balance of your stock on hand for each item.
 
 Open mSupply does much more than that. Features include:
 
@@ -106,7 +106,7 @@ Note that we are also currently working through testing the migration process an
 
 #### Preconditions
 
-1.  You need an existing mSupply system with Legacy mSupply server with web and sync server modules
+1.  You need an existing mSupply system with a Legacy mSupply server with web and sync server modules
 2.  As of December 2023, it is not possible to migrate an existing Legacy (or Mobile) mSupply store to an Open mSupply store; only new stores can be created in Open mSupply
 
 #### Procedure:
@@ -115,7 +115,7 @@ Note that we are also currently working through testing the migration process an
 2. Users need to be created and configured for the store(s) in the Legacy mSupply central server as detailed in [Managing Users](https://docs.msupply.org.nz/admin:managing_users)
 3. The Open mSupply site needs to be created in the Legacy mSupply central server as detailed in [Creating New Sync Sites](https://docs.msupply.org.nz/synchronisation:sync_sites#creating_new_sync_sites)
 4. The store(s) will need to be added to the Open mSupply site in the Legacy mSupply central server as detailed in [Adding stores](https://docs.msupply.org.nz/synchronisation:sync_sites#adding_stores)
-5. Deploy Open mSupply to your device from the [Open mSupply github repository](https://github.com/msupply-foundation/open-msupply). Consult with TMF support to make sure that you are deploying the correct version
+5. Deploy Open mSupply to your device from the [Open mSupply GitHub repository](https://github.com/msupply-foundation/open-msupply). Consult with TMF support to make sure that you are deploying the correct version
 6. Initiate Open mSupply on the device. You should see something like the screen below.
    - URL: Consult with TMF support to make sure that you have the correct URL
    - Site name: As entered in [Creating New Sync Sites](https://docs.msupply.org.nz/synchronisation:sync_sites#creating_new_sync_sites)

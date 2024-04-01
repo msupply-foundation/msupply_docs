@@ -16,23 +16,22 @@ top = true
 ## Open mSupply Requirements
 
 Open mSupply runs on a number of platforms and for a basic installation has very modest hardware requirements.
-The client can be a web browser, an android tablet or a PC running windows or mac OS.
-The server requires a little more memory and processing capability, depending on the number of users. It can run on windows, mac or linux operating systems.
+The client can be a web browser, an android tablet or a PC running windows, linux or mac OS.
+The server requires a little more memory and processing capability, depending on the number of users.
 
 ## Hardware Requirements
 
 ### General hardware recommendations
 
-- In environments with regular power outages, it is highly recommended to procure Laptop machines rather than desktop machines. Laptop machines will almost always be the best solution in terms of both cost and effectiveness for these reasons:
+- In environments with regular power outages, it is highly recommended to procure laptop machines rather than desktop machines. Laptop machines will almost always be the best solution in terms of both cost and effectiveness for these reasons:
   - In environments with poor quality electricity supply, laptop computers will generally be more reliable than desktop computers with UPS protection. In such environments UPS batteries will normally die within 2 years. Laptop batteries have better power management and the batteries last longer
-  - Even when the battery runs out on a laptop, the power management will normally cause the machine to shut down gracefully.
-  - Laptop computers have built-in microphone and camera for provision of support
-  - Laptop computers have built-in Wi-Fi adaptor for network connection
-  - Laptop computers are smaller and lighter than desktop computers, and so are less costly to ship.
-
-- A connected printer is not absolutely necessary in every situation, but for most situations it is a requirement. An ink-jet or laser is preferable.
+  - Even when the battery runs out on a laptop, the power management will normally cause the machine to shut down gracefully
+  - Built-in microphone and camera for provision of support
+  - Built-in Wi-Fi adaptor for network connection
+  - Laptop computers are smaller and lighter than desktop computers, and so are less costly to ship
+- A connected printer is not absolutely necessary in every situation, but for most situations it is a requirement. An ink-jet or laser is preferable
 - Buy hardware for which good after sales support is available
-- Buy brands with a reputation for quality (even if it means buying a slower/older machine)
+- Buy brands with a reputation for quality (even if it means buying a older/slower machine)
 
 ### Windows, Mac, and, Linux hardware requirements
 
@@ -50,7 +49,7 @@ Hardware requirements vary widely depending on what you want to use Open mSupply
 Recording stock transactions is a core Open mSupply activity. Most stock transaction data is numeric. A numeric keypad is often helpful for machines that have a lot of data entry done on them.
 </div>
 
-### Mobile / tablet requirements
+### Mobile/tablet requirements
 
 You are able to use a browser on a tablet to connect to an Open mSupply server, and the only requirement here is a suitably fast tablet with a browser such as chrome or firefox.
 
@@ -71,7 +70,7 @@ The application requires at least Android 5.0 (Lollipop)
 In order to provide support, the device must also be compatible with MDM (Mobile Device Management) software and support google services. Please contact [mSupply Foundation](https://msupply.foundation/#contact) for details.
 
 
-Please contact us for testing and / or advice before making a large hardware purchase.
+Please contact us for testing and/or advice before making a large hardware purchase.
 
 ### Smart UPS
 A 'smart' UPS ([Uninterruptible Power Supply](https://en.wikipedia.org/wiki/Uninterruptible_power_supply)) detects when the battery power is about to run out and sends a notification to software on the server which triggers a graceful shut down of the computer. To enable this, there needs to be a cable connection (normally USB) between the UPS and the computer combined with software running on the computer.
@@ -88,14 +87,14 @@ Laptop computers tend to be much more resilient to power failure:
 
 - A laptop's built-in 'smart' UPS is very reliable
 - The internal batteries last much longer than UPS batteries
-- Even if the laptop internal battery degrades, the 'smart' function appears to work much more reliably than a standalone UPS communicating with a 'tower' computer.
+- Even if the laptop's internal battery degrades, the 'smart' function appears to work much more reliably than a standalone UPS communicating with a 'tower' computer.
 
 Here are some additional advantages of laptops vs. desktop machines:
 
 - Lower cost of freight:
   - To send the machine to site
   - To send spare parts for repair on-site
-  - To retrieve the machine from site for any repairs that can not be undertaken on site
+  - To retrieve the machine from site for any repairs that cannot be undertaken on site
 - It is standard to have features such as Wi-Fi, Bluetooth and camera included by default and this may not be the case with desktops
 
 A concern with laptop computers is security. It is easier to steal a laptop computer from an office than it is to steal a desktop computer. For this reason, laptops are normally configured with a physical locking feature such as [Kensington lock slot](https://en.wikipedia.org/wiki/Kensington_Security_Slot).
@@ -113,7 +112,7 @@ Firstly, this is a good time to mention our synchronisation system, which has sa
 
 #### Offline (Sync) mode
 * 128kbps bandwidth
-* high latency (e.g. satellite) is OK, and users will not notice it in day-to-day operations, as sync is running in the background, and requests for data a fulfilled from the local database, not over the internet.
+* high latency (e.g. satellite) is OK, and users will not notice it in day-to-day operations, as sync is running in the background, and requests for data is fulfilled from the local database, not over the internet.
 * intermittent (say only once a week) is OK
 
 #### Cloud hosted (Online) mode
@@ -134,7 +133,7 @@ Windows based operating systems are particularly prone to malware if precautions
 - Install a reputable anti-virus program, including web protection if the computer has access to the internet
 - Disable USB ports - refer to [this site](http://www.thewindowsclub.com/disable-enable-usb-windowunlock-pen-drive-at-office-or-school-computer) for suggested methods
 
-Ensure that access to passwords to allow exceptions to the above two measures are kept secure.
+Ensure that access to passwords which allow exceptions to the above two measures are kept secure.
 
 ## mSupply
 An installation of mSupply is currently required when running Open mSupply (this is used to manage a number of centralised aspects of the system). 

@@ -5,7 +5,7 @@
 title = "Open mSupply"
 
 [extra]
-lead = '<b>Open mSupply</b> consists of an ecosystem of software and services to help manage health supply chains</br>You&#39;re on the English site: Passer au <a href="/fr"> Français</a> / Cambiar a <a href="/es">Español</a>'
+lead = '<b><a href="https://msupply.foundation/open-msupply/">Open mSupply</a> </b> consists of an ecosystem of software and services to help manage health supply chains</br>You&#39;re on the English site: Passer au <a href="/fr"> Français</a> / Cambiar a <a href="/es">Español</a>'
 url = "/docs/introduction/introduction"
 url_button = "👉 Open mSupply Desktop Docs"
 repo_version = "GitHub v1 beta"
@@ -15,8 +15,14 @@ repo_url = "https://github.com/openmsupply/remote-server"
 
 [[extra.list]]
 icon = "mSupplymobile.png"
+title = "Open mSupply Web Site"
+content = 'The <a href="https://msupply.foundation/open-msupply/">web site for Open mSupply</a>'
+
+
+[[extra.list]]
+icon = "mSupplymobile.png"
 title = "mSupply mobile"
-content = 'The <a href="/mobile/introduction/introduction">User Guide</a> for mSupply mobile'
+content = 'The <a href="/mobile/introduction/introduction">User Guide</a> for mSupply mobile (Legacy)'
 
 [[extra.list]]
 icon = "mSupplyTorso.svg"

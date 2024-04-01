@@ -15,7 +15,7 @@ toc = true
 
 ## Getting started
 
-When you first start the mobile app, you'll be greeted with a welcome screen which asks if you'd prefer to run in one of two modes:
+When you first start the mobile app, you'll be greeted with a welcome screen which asks if you'd prefer to run in one of the two modes:
 
 - **Client** Which is where the mobile app connects to a server on your local network
 - **Server** The app will run a full version of the Open mSupply server locally. You can configure this server to sync with a central server
