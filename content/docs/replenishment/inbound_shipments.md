@@ -504,7 +504,7 @@ A modal will open, containing each line you selected to return:
 - **Name**: Item name
 - **Batch**: Batch number. It is a designation given to products made in the same manufacturing run.
 - **Expiry**: Expiry date of the batch (format: MM/YYYY)
-- **Quantity Available for Return**: Number of packs available. This means the number of packs not already allocated to other shipments or returns, so could be less than the quantity received in the Inbound Shipment.
+- **Quantity Available for Return**: Number of packs available. This means the number of packs not already allocated to other shipments or returns, so the quantity could be less than the quantity received in the Inbound Shipment.
 - **Quantity to Return**: Number of packs to be returned
 
 ![Alt Text](/docs/replenishment/images/is_return_select_quantity.png)

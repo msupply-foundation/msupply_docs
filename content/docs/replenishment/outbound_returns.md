@@ -113,7 +113,7 @@ Often, you will be returning goods that you received via an Inbound Shipment. In
 
 #### Select a Supplier
 
-1. In the `Suppliers` window, you will be presented with a list of available suppliers. You can select your supplier from the list or you can type as much of a supplier name.
+1. In the `Suppliers` window, you will be presented with a list of available suppliers. You can select your supplier from the list or you can type as much of a supplier name as you want.
 
 <div class="imagetitle">
 In the below example, we are wanting to return stock to <b>Kamo Regional Warehouse</b>. 
@@ -200,13 +200,13 @@ Passed statuses are hightlighted in blue, next statuses appear in grey.
 
 There are 5 status for the Outbound Return:
 
-| Status        | Description                                                                                   |
-| :------------ | --------------------------------------------------------------------------------------------- |
-| **New**       | This is the first status when you create a return                                             |
-| **Picked**    | Return is picked and is now ready to ship. Goods are still part of your inventory.            |
-| **Shipped**   | Return has been shipped and goods are no longer part of your inventory                        |
-| **Delivered** | Your supplier has received the return                                                         |
-| **Verified**  | Your supplier has verified the quantity of the return. Goods are now part of their inventory. |
+| Status        | Description                                                                                                                                           |
+| :------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **New**       | This is the first status when you create a return. Goods are reserved (no longer available for other shipments) but are still part of your inventory. |
+| **Picked**    | Return is picked and is now ready to ship. Goods are no longer part of your inventory.                                                                |
+| **Shipped**   | Return has been shipped                                                                                                                               |
+| **Delivered** | Your supplier has received the return                                                                                                                 |
+| **Verified**  | Your supplier has verified the quantity of the return. Goods are now part of their inventory.                                                         |
 
 If you hover over the status sequence, a return history window appears. You can see the date when a return was updated from one status to another.
 
@@ -384,27 +384,28 @@ To confirm that a return has been picked, tap on the `Confirm Picked` button.
 Once picking is confirmed:
 
 - Return status is now `PICKED`
+- Goods are no longer part of your inventory
 - You are now invited to confirm the shipping via the `Confirm Shipped` button
-- An **Inbound Return** has been generated and is now visible to your supplier
+- If your supplier is also using mSupply, then an **Inbound Return** has been generated and is now visible to your supplier
 
 At this stage, you are still able to edit return lines, to add items or to delete existing lines. However, if picking has been confirmed, you need to make sure to inform your fulfilment facility of any change so they can make sure that the return is still correct.
 
 ### Confirming the Outbound Return shipping
 
-The last step to return stock with an Outbound Return is to confirm that stock has been shipped. This is a critical step because when goods are confirmed as `Shipped`, they are no longer a part of your inventory records.
+The last step to return stock with an Outbound Return is to confirm that stock has been shipped.
 
 To confirm that an Outbound Return has been shipped, tap on the `Confirm Shipped` button.
 
 Once shipping has been confirmed:
 
 - Return status is now `SHIPPED`
-- Goods are no longer part of your inventory
 - You can no longer edit return lines
 - You can no longer delete the return
+- Your supplier is able to mark the return as `DELIVERED` once they receive the return
 
 ### Tracking Progress of Outbound Returns
 
-If your supplier is also using mSupply, you will be able to see when they'll receive your returns:
+If your supplier is also using mSupply, you will be able to see when they receive your returns:
 
 - status will become `DELIVERED` when goods are received: your supplier confirmed that they received your return
 - status will become `VERIFIED` when the return has been verified by your supplier. Goods are now a part of their inventory.
