@@ -37,18 +37,16 @@ From this screen you can:
 
 ### Outbound Return list
 
-1. The list of Outbound Returns is divided into 4 columns:
+1. The list of Outbound Returns is divided into 6 columns:
 
-| Column      | Description                    |
-| :---------- | :----------------------------- |
-| **Name**    | Name of the Supplier           |
-| **Status**  | Current Status of the return   |
-| **Number**  | Reference Number of the return |
-| **Created** | Creation date of the return    |
-
-<!-- TODO: include once added -->
-<!-- | **Reference** | Supplier reference             |
-| **Comment**   | Comment for the return         | -->
+| Column        | Description                    |
+| :------------ | :----------------------------- |
+| **Name**      | Name of the Supplier           |
+| **Status**    | Current Status of the return   |
+| **Number**    | Reference Number of the return |
+| **Created**   | Creation date of the return    |
+| **Reference** | Supplier reference             |
+| **Comment**   | Comment for the return         |
 
 1. The list can display a fixed number of returns per page. On the bottom left corner, you can see how many returns are currently displayed on your screen.
 
@@ -275,6 +273,7 @@ This is a list of batch numbers that you have in store for this item:
 - **Name**: Item name
 - **Batch**: Batch number. It is a designation given to products made in the same manufacturing run.
 - **Expiry**: Expiry date of the batch (format: MM/YYYY)
+- **Pack**: Number of units per pack
 - **Quantity Available for Return**: Number of packs available (not already allocated to other shipments or returns)
 - **Quantity to Return**: Number of packs to be returned
 

@@ -39,18 +39,16 @@ From this screen you can:
 
 ### Inbound Return list
 
-1. The list of Inbound Returns is divided into 4 columns:
+1. The list of Inbound Returns is divided into 6 columns:
 
-| Column      | Description                    |
-| :---------- | :----------------------------- |
-| **Name**    | Name of the Customer           |
-| **Status**  | Current Status of the return   |
-| **Number**  | Reference Number of the return |
-| **Created** | Creation date of the return    |
-
-<!-- TODO: include once added -->
-<!-- | **Reference** | Customer reference             |
-| **Comment**   | Comment for the return         | -->
+| Column        | Description                    |
+| :------------ | :----------------------------- |
+| **Name**      | Name of the Customer           |
+| **Status**    | Current Status of the return   |
+| **Number**    | Reference Number of the return |
+| **Created**   | Creation date of the return    |
+| **Reference** | Customer reference             |
+| **Comment**   | Comment for the return         |
 
 1. The list can display a fixed number of returns per page. On the bottom left corner, you can see how many returns are currently displayed on your screen.
 
