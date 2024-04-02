@@ -120,7 +120,7 @@ In the below example, we are issuing stock to <b>Kamo Regional Warehouse</b>.
 ![gif](/docs/distribution/images/os_select_customer.gif)
 
 <div class="tip">
-You can tell if a customer is also using mSupply in their store. If they do, you will see icon like this (<img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto">) next to the supplier code. 
+You can tell if a customer is also using mSupply in their store if they have an icon like this (<img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto">) next to the supplier code. 
 </div>
 
 2. Once you tap or press `Enter`, or click on a customer, your Outbound Shipment is automatically created
@@ -182,10 +182,14 @@ In the future, we would also include other documents such as temperature records
 
 In this section, you will see by default the total selling price of the items listed in the Outbound Shipment.
 
-You can also add a **Service charges** if you wish to add other charges such as `Freight Costs`. Note: Service charges must be in your Master List for you to use them. To add a Service charges to the Invoice Details:
+You can also add a **Service charges** if you wish to add other charges such as `Freight Costs`. 
+<div class="note">
+Service charges must be in your Master List for you to use them.
+</div>
 
+To add a Service charges to the Invoice Details:
 1. Tap on the `Edit Service Charges` button. A new window opens.
-2. Tap on the `Add charge` button on the new window. A new line appears in the list of charges. You tap on `Cancel` if you do not wish to add anything.
+2. Tap on the `Add charge` button on the new window. A new line appears in the list of charges. Tap on `Cancel` if you do not wish to add anything
 3. **Name:** Select a service charges in the dropdown list. You can customise the list of available charges. Contact your administrator
 4. **Comment:** You can add a comment to provide further details about the new charge
 5. **Amount:** Enter the amount of the charge
@@ -193,7 +197,7 @@ You can also add a **Service charges** if you wish to add other charges such as 
 7. **Total:** The total field is automatically calculated based on the Amount and the Tax percentage
 8. **Delete:** You can tap on the `Delete` icon to delete the charge
 
-The tax rate (%) for service charges and the items sell price can also be edited by clicking on the pencil icon. A pop-up window will appear for you to enter a value.
+The tax rate (%) for service charges and the item's sell price can also be edited by clicking on the pencil icon. A pop-up window will appear for you to enter a value.
 
 ###### Foreign Currencies
 If your store is issuing in foreign currencies follow [these instructions](https://docs.msupply.org.nz/other_stuff:currencies) in the central server documentation to set it up. You will also need to enable the store preference `Store: Able to issue in foreign currency`. This preference is compatible with Open mSupply `v1.7.0+`.
@@ -234,11 +238,11 @@ There are 6 status for the Outbound Shipment:
 | Status        | Description                                                                                                      |
 | :------------ | ---------------------------------------------------------------------------------------------------------------- |
 | **New**       | This is the first status when you create a shipment                                                              |
-| **Allocated** | Allocation is confirmed. Goods are no longer available for other shipments but are still part of your inventory. |
-| **Picked**    | Shipment is picked and is now ready to ship. Goods are still part of your inventory.                             |
-| **Shipped**   | Shipment has been shipped and goods are no longer part of your inventory                                         |
-| **Delivered** | Your customer has received the shipment                                                                          |
-| **Verified**  | Your customer has verified the quantity of the shipment. Goods are now part of their inventory.                  |
+| **Allocated** | Allocation is confirmed. Goods are no longer available for other shipments but are still part of your inventory  |
+| **Picked**    | Shipment is picked and is now ready to ship. Goods are no longer part of your inventory                          |
+| **Shipped**   | Shipment has been shipped.                                                                                       |
+| **Delivered** | Your customer has received the shipment. Goods are now part of their inventory                                   |
+| **Verified**  | Your customer has verified the quantity of the shipment.                                                         |
 
 If you hover over the status sequence, a shipment history window appears. You can see the date when a shipment was updated from one status to another.
 
@@ -260,7 +264,7 @@ Checking the `Hold` checkbox prevents the Outbound Shipment from being updated t
 
 #### Cancel Button
 
-Tap on the `Cancel` button to quit the Outbound Shipment view and return to the Outbound Shipments list.
+Tap on the `Close` button to quit the Outbound Shipment view and return to the Outbound Shipments list.
 
 #### Confirm Button
 
@@ -376,7 +380,8 @@ You may see one or more warning messages on this screen:
 
 The warning is shown to let you know that not enough stock is available to fulfil your request. A placeholder quantity is added automatically so that you can keep track of the amount requested, while adding more stock (for example by using an internal order or inbound shipment).
 
-This image also shows the warning which lets you know that some stock lines are expired; this may be why the system did not auto-allocate particular stock lines. You can still manually choose those lines and issue the expired stock! It is just the auto allocation process which does not choose them.
+This image also shows the warning which lets you know that some stock lines are expired; this may be why the system did not auto-allocate particular stock lines.
+However you can still manually choose those lines and issue the expired stock! 
 
 ![pack sizes warning!](/docs/distribution/images/os_warning_pack_sizes.png)
 
@@ -438,7 +443,7 @@ If the amount to be issued is greater than the total stock available from all of
 Placeholder lines can be allocated later when new stock arrives. However, all shipment lines must be allocated before confirming the allocation.
 
 <div class="imagetitle">
-Since there is no stock available for <i>042744-Diazepam Injection 5mg/ml Amp/2ml</i>, the system is issuing 100 units in the placeholder field. 
+Since there is no stock available for <i>0e676300 Benzoyl Peroxide Topical Cream 5% 22g</i>, the system is issuing 12 units in the placeholder field. 
 </div>
 
 ![Alt Text](/docs/distribution/images/os_additem_placeholder.png)
@@ -569,9 +574,9 @@ To confirm that a shipment has been picked, tap on the `Confirm Picked` button.
 Once picking is confirmed:
 
 - Shipment status is now `PICKED`
-- Goods are no longer able to be allocated to other shipments
+- Goods are no longer part of your inventory and cannot be allocated to other shipments
 - You are now invited to confirm the shipping via the `Confirm Shipped` button
-- An **Inbound Shipment** has been generated and is now visible to your customer
+- If your customer is also using mSupply, then an **Inbound Shipment** has been generated and is now visible to your customer
 
 At this stage, you are still able to edit shipment lines, to add items or to delete existing lines. However, if picking has been confirmed, you need to make sure to inform your fulfilment facility of any change so they can make sure that the shipment is still correct.
 
