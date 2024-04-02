@@ -20,7 +20,7 @@ When a customer orders stock from you, they create an **Internal Order** in thei
 
 To know if you have received requisitions from your customers, go to `Distribution` > `Requisition`
 
-![Requistion nav](/docs/distribution/images/req_gotoreq2.png)
+![Requisition nav](/docs/distribution/images/req_gotoreq2.png)
 
 You should see a list of all requisitions sent by your customers.
 
@@ -39,7 +39,7 @@ From this screen you can:
 | :---------- | :---------------------------------- |
 | **Name**    | Name of the Customer                |
 | **Number**  | Reference Number of the requisition |
-| **Created** | Creation date of the requisition    |
+| **Created** | Creation Date of the requisition    |
 | **Status**  | Current Status of the requisition   |
 | **Comment** | Comment for the requisition         |
 
@@ -82,7 +82,22 @@ Clicking on an individual item in this view, will then show you details of the p
 
 ![Requisition Detail](/docs/distribution/images/requisition-item-detail.png)
 
-The requested quantity is also shown, along with the stock item details.
+The requested quantity is also shown, along with the stock item details. 
+
+The `My Store` tab indicates if the store have enough stock to meet the customer's requested quantity as well as the requested quantities from other customers. The two bars show the following:
+1. 
+   - Your stock on hand for this item
+   - Any incoming stock for this item that has been `Shipped`, but not yet `Delivered`
+   - The quantity being requested for this item in any `Internal Orders`
+2. 
+   - The quantity being requested for this item in this Requisition
+   - The quantity being requested in other Requisitions
+
+![Requisition Detail](/docs/distribution/images/requisition-item-detail-customer-tab.png)
+
+The `Customer` tab shows the customer's stock situation for this item:
+- The customer's *Target Quantity* for this item. This is calculated as: Target MOS x AMC
+- The customer's stock on hand for this item
 
 Another way to adjust the supply quantity, is to click the button `Supply requested` at the top of the page. This will automatically set the supply quantity to be that of the quantity requested for that item. Click the button and you are asked for confirmation before the adjustment happens:
 
@@ -96,4 +111,4 @@ If the supply quantity is changed for any item/s in the requisition after a ship
 
 ![Create Shipment Detail](/docs/distribution/images/requisition-create-shipment.gif)
 
-After creating such a shipment, you will see the shipment number, along with a link to view it, in the `Related documents` section of the additional details panel on the right of the screen.
+After creating the shipment, you will see the shipment number, along with a link to view it, in the `Related documents` section of the additional details panel on the right of the screen.

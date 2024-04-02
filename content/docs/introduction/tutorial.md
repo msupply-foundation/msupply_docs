@@ -14,20 +14,20 @@ toc = true
 
 ## Open mSupply Tutorial
 
-This tutorial is designed to guide you through the basics of using Open mSupply
+This tutorial is designed to guide you through the basics of using Open mSupply.
 
 ## Logging in
 
 1. For a start, you'll need to open your web browser. We like Firefox, but Chrome and its myriad children will also suffice.
 2. Enter the web address (URL) of your mSupply server. In our case we're using https://demo-open.msupply.org - our test web site.
-3. After pressing <enter> on your keyboard you'll be shown the login page
+3. After pressing `enter` on your keyboard you'll be shown the login page
 
 ![login!](/docs/introduction/images/log_in.png)
 
-4. Enter your user name and password and press <enter> on your keyboard, or click the [Log in] button
+4. Enter your user name and password and press `enter` on your keyboard, or click the [Log in] button
 
-All going well, you'll be redirected to the dashboard page.
-If there was a problem, you'll see an error message, like this:
+If everything is going well, you'll be redirected to the dashboard page.
+BUT if there was a problem, you'll see an error message, like this:
 
 ![login!](/docs/introduction/images/log_in_error.png)
 
@@ -40,11 +40,11 @@ If you have logged in previously, and changed stores, then the most recent store
 The main menu is on the left side of the screen. If you have a small screen size, then it will be collapsed by default - for larger screens it will instead be open by default.
 To open and close you can click on the logo at the top, as shown below. The menu remains either open or closed once you have selected an option.
 
-If the menu is closed, simply hovering over the menu items will open it, in which case clicking on an item will let the menu close again. If you are on a tablet, clicking on a menu item will have the same effect.
+If the menu is closed, simply hovering over the menu items will open it, in which case clicking on an item will close the menu again. If you are on a tablet, clicking on a menu item will have the same effect.
 
 ![Main navigation](/docs/introduction/images/main_nav.gif)
 
-On some screens you'll see that the header shows a heading, such as **Outbound Shipment** in the example above. Clicking on a specific shipment then changes that heading to **Outbound Shipment/ #[the shipment number]**. You are able to click on the **Outbound Shipment** part to return to the list - or use the main navigation on the left.
+On some screens you'll see that the header shows a heading, such as **Outbound Shipment** in the example above. Clicking on a specific shipment then changes that heading to **Outbound Shipment / #[the shipment number]**. You are able to click on the **Outbound Shipment** part to return to the list - or use the main navigation on the left.
 
 ### Keyboard shortcuts
 
