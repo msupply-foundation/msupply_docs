@@ -182,19 +182,19 @@ In the future, we would also include other documents such as temperature records
 
 In this section, you will see by default the total selling price of the items listed in the Outbound Shipment.
 
-You can also add a **Service charges** if you wish to add other charges such as `Freight Costs`. 
+You can also add **service charges** if you wish to add other charges such as `Freight Costs`. 
 <div class="note">
 Service charges must be in your Master List for you to use them.
 </div>
 
-To add a Service charges to the Invoice Details:
-1. Tap on the `Edit Service Charges` button. A new window opens.
+To add a service charges to the Invoice Details:
+1. Tap on the three dots besides `Service charges` to get a new window to appear.
 2. Tap on the `Add charge` button on the new window. A new line appears in the list of charges. Tap on `Cancel` if you do not wish to add anything
-3. **Name:** Select a service charges in the dropdown list. You can customise the list of available charges. Contact your administrator
+3. **Name:** Select a service charge from the dropdown list. You can customise the list of available charges. Contact your administrator
 4. **Comment:** You can add a comment to provide further details about the new charge
 5. **Amount:** Enter the amount of the charge
 6. **Tax:** Enter a % of tax for the charge
-7. **Total:** The total field is automatically calculated based on the Amount and the Tax percentage
+7. **Total:** The total field is automatically calculated based on the *amount* and the *tax percentage*
 8. **Delete:** You can tap on the `Delete` icon to delete the charge
 
 The tax rate (%) for service charges and the item's sell price can also be edited by clicking on the pencil icon. A pop-up window will appear for you to enter a value.
@@ -338,14 +338,14 @@ This is a list of batch numbers that you have in store for this item:
 
 - **Batch**: Batch number. It is a designation given to products made in the same manufacturing run.
 - **Expiry**: Expiry date of the batch (format: MM/YYYY)
-- **Location**: This is the name of the location where the item is stored if your inventory is managed with storage locations
-- **Pack Size**: Quantity of units per pack
+- **Location**: This is the code of the location where the item is stored if your inventory is managed with storage locations
 - **Pack Sell Price**: Selling unit price of the item
-- **On Hold**: Indicates whether a batch is on hold or not. You cannot issue a batch that is on hold.
+- **Pack**: Quantity of units per pack
 - **In Store (packs)**: Total number of packs in your store
 - **Available (packs)**: Number of packs available (not already allocated to other shipments)
-- **[Unit] Qty Issued**: Total quantity of units to be issued
-- **Pack Qty Issued**: Number of packs to be issued
+- **[Pack] Qty Issued**: Total quantity of packs to be issued
+- **[Unit] Qty Issued**: Number of units to be issued
+- **On Hold**: Indicates whether a batch is on hold or not. You cannot issue a batch that is on hold.
 
 There is also a final row in the table which is a placeholder line, if the status of the Outbound Shipment is `NEW`.
 The placeholder line is used when the quantity you are issuing is higher than your available stock.
@@ -359,13 +359,13 @@ By default, you are invited to issue a quantity of **units**, regardless of the 
 When entering a number in the `Issue` field, the system automatically chooses the batch number(s) with the closest expiry date (First to Expire, First Out or FEFO logic).
 
 <div class="imagetitle">
-In the example below, we are issuing 5 units of the item. All 5 units will be taken from the same batch (second row). The first batches was not selected because it is expired. 
+In the example below, we are issuing 11 units of the item. All 11 units will be taken from the same batch (second row). The first batches was not selected because it is expired. 
 </div>
 
 ![additem!](/docs/distribution/images/os_additem_issueunits.png)
 
 <div class="imagetitle">
-In this other example, we are issuing 100 units. System selects three batches with different pack sizes. 
+In this other example, we are issuing 150 units. System selects three batches with different pack sizes. 
 </div>
 
 ![additem!](/docs/distribution/images/os_additem_issueunitsthreebatches.png)
@@ -385,7 +385,7 @@ However you can still manually choose those lines and issue the expired stock!
 
 ![pack sizes warning!](/docs/distribution/images/os_warning_pack_sizes.png)
 
-This warning tells you that because of the available pack sizes, the system has rounded up the quantity requested. In this example, there is only five packs available of pack size `1`. There are packs of `1000` available though, so when ten tablets are requested, the system has rounded up the request to `1` pack of `1000`.
+This warning tells you that because of the available pack sizes, the system has rounded up the quantity requested. In this example, there is no pack size that is less than `12`. There are packs of `20` available though, so when 12 tablets are requested, the system has rounded up the request to `2` packs of `20`.
 
 
 ![pack sizes warning!](/docs/distribution/images/os_warning_no_quantity.png)
@@ -398,15 +398,15 @@ If you add an item forget to enter a quantity to issue, and click `OK` you will 
 You can decide to issue a quantity of **packs**. To do this, you can change the value in the `Pack Size` dropdown.
 
 <div class="imagetitle">
-Let's imagine that your customer only wants pack size of 25 units. You can change the dropdown value from `Any` to `25`. 
+Let's imagine that your customer only wants pack size of 10 units. You can change the dropdown value from `Any` to `10`. 
 </div>
 
 ![Alt Text](/docs/distribution/images/os_additem_switchtopack.gif)
 
-You are now offered to issue a number of packs of 25 units. Only batch number(s) with a pack size of 25 units can be automatically issued.
+You are now offered to issue a number of packs of 10 units. Only batch number(s) with a pack size of 10 units can be automatically issued.
 
 <div class="imagetitle">
-In the example below, we are issuing 5 packs of 25 units:
+In the example below, we are issuing 5 packs of 10 units:
 </div>
 
 ![additem!](/docs/distribution/images/os_additem_issuepacks.png)
@@ -421,11 +421,11 @@ When a pack size is selected, stock lines which have a different pack size from 
 
 ### Manual Allocation
 
-Regardless if you chose to issue a quantity of units or packs, you can always manually change the quantity at the batch number level directly before pressing on OK.
+Regardless of if you chose to issue a quantity of units or packs, you can always manually change the quantity at the batch number level directly before pressing on OK.
 
 You simply have to enter or edit the quantity in the `Packs Qty Issued` column.
 
-The values in the **Total** row will be automatically updated with the new quantity.
+The values in the **Total quantity** row will be automatically updated with the new quantity.
 
 <div class="note">
  <b></b> When allocating quantities at the batch number level, the quantity you enter is always a quantity of packs. 
@@ -443,7 +443,7 @@ If the amount to be issued is greater than the total stock available from all of
 Placeholder lines can be allocated later when new stock arrives. However, all shipment lines must be allocated before confirming the allocation.
 
 <div class="imagetitle">
-Since there is no stock available for <i>0e676300 Benzoyl Peroxide Topical Cream 5% 22g</i>, the system is issuing 12 units in the placeholder field. 
+Since there is no stock available for <i>358b04bf Abacavir Oral Solution 20mg per mL 240mL</i>, the system is issuing 12 units in the placeholder field. 
 </div>
 
 ![Alt Text](/docs/distribution/images/os_additem_placeholder.png)
@@ -510,7 +510,7 @@ To edit a shipment line, tap on it. You will be presented with the `Edit Item` w
 ![Alt Text](/docs/distribution/images/os_actions_deleteselectedlines.png)
 
 <div class="imagetitle">
-In below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100mg tabs</i>
+In below example, we are deleting <i>item 358b04bf Abacavir Oral Solution 20mg per mL 240mL</i>
 </div>
 
 ![Alt Text](/docs/distribution/images/os_deleteselectedlines.gif)
@@ -559,7 +559,7 @@ Once the allocation is confirmed:
 
 Picking refers to the process where individual items are picked from a fulfilment facility (usually a warehouse or a pharmacy store).
 
-Once a shipment has been allocated, next step is to go get the items to prepare the actual shipment. To help with that, you are able to generate a **pick slip** document. A pick slip indicates:
+Once a shipment has been allocated, the next step is to go get the items to prepare the actual shipment. To help with that, you are able to generate a **pick slip**. A pick slip indicates:
 
 - The items to be picked
 - The quantity and batch numbers for each item
