@@ -105,7 +105,7 @@ You can only delete Outbound Shipments if they have not been <code>SHIPPED</code
 
 2. Press the `New Shipment` button, in the top right corner
 
-![New Shipment](/docs/distribution/images/clicknewshipment.png)
+![New Shipment](/docs/distribution/images/os_click_new_shipment.png)
 
 3. A new window `Customers` opens, inviting you to select a customer.
 
@@ -125,7 +125,7 @@ You can tell if a customer is also using mSupply in their store if they have an 
 
 2. Once you tap or press `Enter`, or click on a customer, your Outbound Shipment is automatically created
 
-<div class=imagetitle>
+<div class=imagetitle>os
 If everything went well, you should see the name of your customer in the top left corner and the status should be <code>NEW</code> 
 </div>
 

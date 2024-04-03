@@ -92,7 +92,7 @@ The following table outlines some of the common terms used in mSupply, and also 
 | Outbound Shipment |   Customer Invoice    | The creation of a supply of goods to a particular customer (facility) |
 | Inbound Shipment  |   Supplier Invoice    | The receiving of a supply of goods from a particular supplier         |
 |    Requisition    | Customer Requisitions | An order for supply of goods made by a particular customer (facility) |
-|  Internal Orders  | Supplier Requisitions | A request for stock made for a particular supplier (facility)         |
+|  Internal Orders  | Supplier Requisitions | A request for stock made to a particular supplier (facility)         |
 
 ## Getting Started
 
