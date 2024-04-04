@@ -17,7 +17,7 @@ top = false
 In mSupply, a supplier is an entity that is sending stock to your store. 
 
 <div class="omsupdate">
-At the moment, you are only able to view your supplier and their details. In the future, you will be able to create and edit your customers (provided you have the authorisation to do so!). 
+At the moment, you are only able to view your supplier and their details. In the future, you will be able to create and edit your suppliers (provided you have the authorisation to do so!). 
 </div>
 
 ## Viewing Suppliers

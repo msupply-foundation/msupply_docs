@@ -594,7 +594,7 @@ Once shipping has been confirmed:
 - You can no longer delete the shipment
 - You can print a **delivery note** or an **invoice**
 
-### Tracking Progress of Outbound Shipments
+### Tracking the Progress of Outbound Shipments
 
 If your customer is also using mSupply, you will be able to see when they'll receive your shipments:
 
