@@ -26,12 +26,12 @@ Pour voir les Fournisseurs de votre dépôt, allez dans le menu `Approvisionneme
 
 ![Suppliers Nav](/docs/replenishment/images/sup_gotosup_fr.png)
 
-A list of your store's suppliers appears: 
+La liste des fournisseurs de votre dépôt apparait : 
 
 ![Suppliers List](/docs/replenishment/images/sup_suplist_fr.png)
 
 
-## Voir détails fournisseurs
+## Voir les détails d'un fournisseur
 
 Pour voir les détails d'un fournisseur, cliquez simplement sur son nom : 
 
@@ -43,7 +43,7 @@ Pour voir les détails d'un fournisseur, cliquez simplement sur son nom :
 * **Pays**: Pays du fournisseur
 * **Commentaire**: Commentaire à propos du fournisseur
 * **Téléphone**: Numéro de téléphone du fournisseur 
-* **Site Interet**: Site web ou adresse électronique du fournisseur
+* **Site Internet**: Site web ou adresse électronique du fournisseur
 * **Date de Création**: Date de création du fournisseur dans mSupply
 * **Fabricant**: Si la case est cochée, alors ce fournisseur est aussi fabricant
 * **Donateur**: Si la case est cochée, alors ce fournisseur est aussi Donateur
