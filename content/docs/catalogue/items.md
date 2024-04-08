@@ -25,6 +25,17 @@ In the navigation panel, tap on `Catalogue` > `Items` to show the items list:
 
 You can see all the items which are available for use by your store:
 
+The Items list is divided into 6 columns: 
+
+| Column      | Description                      |
+| :---------- | :------------------------------- |
+| **Code**    | The item's unique code           |
+| **Name**    | The item's name                  |
+| **Unit**    | The unit of measure for the item |
+| **SOH**     | How much stock is available in your store          |
+| **AMC**     | Average Monthly Consumption. This is how much stock your store uses each month on average (based on a configurable number of months, defaults to 3 months).           |
+| **MOS**     | umber of months of consumption left with current stock. This is calculated as: `Stock on Hand / AMC`.                  |
+
 ![Items list](/docs/catalogue/images/cat_itemslist.png)
 
 ## Viewing an item's details
@@ -40,7 +51,7 @@ On top of the screen, you can the following information:
 - **Months of Stock**: Number of months of consumption left with current stock. This is calculated as: `Stock on Hand / AMC`.
 
 <div class="imagetitle">
-In below example, we have 1542 units of Amoxicillin available in our store. The average consumption is 53.3  units per month which means that there is the equivalent of 28.9 months of stock in the inventory. 
+In below example, we have 20,219 units of Acetylsalicylic Acid available in our store. The average consumption is 3,443.67 units per month which means that there is the equivalent of 5.87 months of stock in the inventory. 
 </div>
 
 ![Item detail headers](/docs/catalogue/images/cat_itemdetailsheaders.png)
@@ -54,6 +65,7 @@ In the bottom part, item details are divided into several sections:
 - **Unit**: The unit you use for this item. It is useful to distinguish items you issue by pack (eg. eye drops) from items you issue by volume (eg. oral liquids)
 - **Strength**: For a medicine, the concentration of its active ingredients (eg. for Amoxillin 250mg, the strength is 250mg)
 - **Defined Daily Dose**: The assumed average maintenance dose per day for a medicine used for its main indication in adults
+- **Type**: The type of item (eg. Stock or Service)
 - **Doses**: For vaccines, the number of dose per vial
 - **Vaccine** (check box): If this is checked, this item is a vaccine and a number of dose can be assigned
 
