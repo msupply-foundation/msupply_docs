@@ -25,13 +25,13 @@ When using remote authorisation, the process flow is as follows:
 - An Internal Order is created in a customer store, using a program
 - The customer store synchronises and the request is sent to the supplying store
 - The process waits until the Internal Order status is set to `Sent`
-- The requisition is automatically created in the supplying store, and has an approval status of `Pending`
-- Authorisers are notified via email that there is a requisition requiring authorisation
+- The Requisition is automatically created in the supplying store, and has an approval status of `Pending`
+- Authorisers are notified via email that there is a Requisition requiring authorisation
 - On clicking the link in the email, the authoriser is taken to the web app ( which is hosted by the central server )
 - After logging in, they are able to adjust, comment and authorise ( or deny ) the request
 - Once authorised, the status is updated:
   - for the Internal Order ( in the customer store )
-  - for the requisition ( in the supplying store )
+  - for the Requisition ( in the supplying store )
 - Comments made by the authoriser and any adjusted quantities, are shown in the customer store's Internal Order
 
 ## Configuration
@@ -65,11 +65,11 @@ The authorisation process is detailed in the [central server documentation](http
 
 ### Requisitions
 
-In the supplying store, you'll see a few changes too. The requisition list has gained an additional column:
+In the supplying store, you'll see a few changes too. The Requisition list has gained an additional column:
 
 ![Requisition list](/docs/replenishment/images/authorisation-requisition-list.png)
 
-And when viewing details, you can see the approval status and new columns, just as in the Internal Order. When the requisition is in the `Pending` approval state, you also cannot confirm finalised or create a shipment:
+And when viewing details, you can see the approval status and new columns, just as in the Internal Order. When the Requisition is in the `Pending` approval state, you also cannot confirm finalised or create a shipment:
 
 ![Requisition list](/docs/replenishment/images/authorisation-requisition-detail-pending.png)
 
@@ -79,7 +79,7 @@ Once approved by the remote authorisation process though, the status is updated,
 
 The authorisation status can have a few different values:
 
-- **None**: the requisition does not need authorisation and is not subject to the remote authorisation system. This is true for requisitions which are not for a program. All requisitions with this status can be edited normally.
-- **Pending**: the requisition is awaiting authorisation of one or more of its lines. A requisition with this status cannot be edited and you cannot create Outbound Shipments from it.
-- **Authorised**: all lines that were waiting for authorisation have been authorised (with or without adjustments). The comments and quantity to supply can be edited and Outbound Shipments can be created from requisitions that are authorised.
-- **Denied**: the authoriser has reviewed the requisition and the lines have all been denied. Like the Pending status, a requisition with this status cannot be edited and you cannot create Outbound Shipments from it.
+- **None**: the Requisition does not need authorisation and is not subject to the remote authorisation system. This is true for Requisitions which are not for a program. All Requisitions with this status can be edited normally.
+- **Pending**: the Requisition is awaiting authorisation of one or more of its lines. A Requisition with this status cannot be edited and you cannot create Outbound Shipments from it.
+- **Authorised**: all lines that were waiting for authorisation have been authorised (with or without adjustments). The comments and quantity to supply can be edited and Outbound Shipments can be created from Requisitions that are authorised.
+- **Denied**: the authoriser has reviewed the Requisition and the lines have all been denied. Like the Pending status, a Requisition with this status cannot be edited and you cannot create Outbound Shipments from it.
