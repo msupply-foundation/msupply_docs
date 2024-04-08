@@ -1,6 +1,8 @@
 ### Creating PDFs with PrinceXML
 
-Navigate to this folder, then run:
+1. run `Zola build --drafts`
+2. Copy the output `public/pdf/omsupply-pages-en/index.html` to this folder and rename "mSupply_html_files_en.txt"
+2. Navigate to this folder, then run:
 
 #### French
 
