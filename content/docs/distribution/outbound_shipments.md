@@ -565,7 +565,8 @@ Once a shipment has been allocated, the next step is to go get the items to prep
 - The quantity and batch numbers for each item
 - If you manage your inventory with storage locations, where the items are located
 
-Once all items are picked and packed. You can then confirm the picking of the shipment to indicate that it is ready to be dispatched.
+Once all items are picked and packed. You can then confirm the picking of the shipment to indicate that it is ready to be dispatched. Goods are no longer part of your inventory and cannot be allocated to other shipments once the status has been changed to `PICKED`.
+
 
 To confirm that a shipment has been picked, tap on the `Confirm Picked` button.
 
@@ -574,7 +575,6 @@ To confirm that a shipment has been picked, tap on the `Confirm Picked` button.
 Once picking is confirmed:
 
 - Shipment status is now `PICKED`
-- Goods are no longer part of your inventory and cannot be allocated to other shipments
 - You are now invited to confirm the shipping via the `Confirm Shipped` button
 - If your customer is also using mSupply, then an **Inbound Shipment** has been generated and is now visible to your customer
 
