@@ -34,21 +34,24 @@ This brings up a list of all your stocktakes:
 
 ![Stocktake: list](/docs/inventory/images/stocktake_stocktakelist.png)
 
-For each stock stake you can see:
+For each stocktake you can see:
 
-- The stock take **number**
-- The stock take **status**. There are two stock take statuses:
-  - _New_: a stocktake you are still working on
-  - _Finalised_: a stocktake that has alredy been performed. You can no longer edit it.
-- A **description** of the stocktake (eg. March Stocktake)
-- If any, a **comment** about the stoctake
-- The **date** of the stock take
+| Column      | Description                      |
+| :---------- | :------------------------------- |
+| **Number**  | The number of the Stocktake      |
+| **Status**  | The status of the Stocktake. _New_: a currently active stocktake. _Finalised_: Stocktake has already been performed. You can no longer edit it                 |
+| **Description**    | The description of the Stocktake (e.g. March Stocktake) |
+| **Created**     | The date the Stocktake was created          |
+| **Date**     | The date the Stocktake was done       |
+| **Comment**     | Stocktake comment if any                 |
+
+
 
 <div class="warning">
-There is little point in keeping old stocktakes with status = <code>NEW</code>, especially if you are about to create a new stocktake containing the same items. Indeed, it can be quite dangerous to leave old stocktakes with status <code>NEW</code> in your system. If time has passed since the stocktake was created, then the snapshot and actual quantities are almost certainly incorrect. For good housekeeping reasons, it is good practice to delete old <code>NEW</code> stocktakes.
+There is little point in keeping old stocktakes with status = <code>NEW</code>, and it can even be quite dangerous, especially if you are about to create a new stocktake containing the same items. If time has passed since the stocktake was created, then the snapshot and actual quantities are almost certainly incorrect. For good housekeeping reasons, it is good practice to delete old <code>NEW</code> stocktakes.
 </div>
 
-## Creating a new stock take
+## Creating a New Stocktake
 
 Let's start a new stocktake. To do so, tap on the `New Stocktake` button in the right corner of the screen.
 
@@ -62,7 +65,7 @@ Click on OK when you have selected the option you would like.
 
 The stocktake will then be created, and existing stock lines will be used to populate the values for batch, expiry, pack size and snapshot number of packs. The lines show as light blue, and will change to black when a value is entered for the counted quantity.
 
-<div class="note">You are not able to edit the pack size of stocktake rows which are linked to an existing stock line. If you wish to repack, you can delete the row and add a new row or rows, as necessary.</div>
+<div class="note">You are not able to edit the pack size of stocktake rows which are linked to an existing stock line. If you wish to repack, follow the instructions in <a href="/docs/inventory/stock-view/#repacking-stock">Repack</a>.</div>
 
 ![Stocktake with placeholders](/docs/inventory/images/stocktake-placeholders.png)
 
@@ -72,9 +75,9 @@ Don't worry if an item is missing from your newly created stocktake. You will ha
 
 ### Entering reasons
 
-If you have inventory adjustment options configured in your central server, then you are required to enter a reason when the `counted number of packs` specified does not match the snapshot number of packs.
+If you have [inventory adjustment options](https://docs.msupply.org.nz/preferences:options?s[]=reasons) configured in your central server, then you are required to enter a reason when the `counted packs` specified does not match the snapshot packs.
 
-For example, entering `25` for the counted quantity of Paracetamol, will add a red \* to the right of the `Reason` input and show the negative inventory adjustment reasons:
+For example, entering `11` for the counted quantity of Abacavir Oral Solution, will add a red \* to the right of the `Reason` input and show the negative inventory adjustment reasons:
 
 ![Stocktake reasons](/docs/inventory/images/stocktake_reasons.png)
 
@@ -88,7 +91,7 @@ and the stocktake row that requires a reason to be entered will be highlighted i
 
 ### Printing Stocktake sheet
 
-When viewing a specific Stocktake, simply click the `Print` button which is on the top right of the page.
+When viewing a specific stocktake, simply click the `Print` button which is on the top right of the page.
 When printing, a PDF file is generated for you, which will then open in a new browser tab. This can then be printed using your browser by clicking print or using `control`+`P` (if using windows) or `cmd`+`P` keys on your keyboard (if using a mac).
 
 ![Print button](/docs/introduction/images/print_button.png)
@@ -106,10 +109,10 @@ The list of stocktake lines can get very long if you have a large stocktake. To 
 
 Simply enter some or all of an item code in the filter input:
 
-![Filter by code](/docs/inventory/images/stockake_filter_code.png)
+![Filter by code](/docs/inventory/images/stocktake_filter_code.png)
 
 or, enter some of an item's name:
 
-![Filter by code](/docs/inventory/images/stockake_filter_name.png)
+![Filter by code](/docs/inventory/images/stocktake_filter_name.png)
 
 You can also group the lines by item by enabling the `Group by item` switch.
