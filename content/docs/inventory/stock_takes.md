@@ -38,11 +38,11 @@ For each stocktake you can see:
 
 | Column      | Description                      |
 | :---------- | :------------------------------- |
-| **Number**  | The number of the Stocktake      |
-| **Status**  | The status of the Stocktake. _New_: a currently active stocktake. _Finalised_: Stocktake has already been performed. You can no longer edit it                 |
-| **Description**    | The description of the Stocktake (e.g. March Stocktake) |
-| **Created**     | The date the Stocktake was created          |
-| **Date**     | The date the Stocktake was done       |
+| **Number**  | The number of the stocktake      |
+| **Status**  | The status of the stocktake. _New_: a currently active stocktake. _Finalised_: stocktake has already been performed. You can no longer edit it                 |
+| **Description**    | The description of the stocktake (e.g. March Stocktake) |
+| **Created**     | The date the stocktake was created          |
+| **Date**     | The date the stocktake was done       |
 | **Comment**     | Stocktake comment if any                 |
 
 
