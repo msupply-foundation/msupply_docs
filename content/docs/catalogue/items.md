@@ -29,8 +29,8 @@ The Items list is divided into 6 columns:
 
 | Column      | Description                      |
 | :---------- | :------------------------------- |
-| **Code**    | The item's unique code           |
-| **Name**    | The item's name                  |
+| **Code**    | Code assigned to this item in mSupply           |
+| **Name**    | This is the name by which mSupply will refer to the item                  |
 | **Unit**    | The unit of measure for the item |
 | **SOH**     | How much stock is available in your store          |
 | **AMC**     | Average Monthly Consumption. This is how much stock your store uses each month on average (based on a configurable number of months, defaults to 3 months).           |

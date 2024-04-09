@@ -27,16 +27,18 @@ A detailed list of your inventory appears:
 
 The list is divided into 8 columns:
 
-- **Code**: This is the code assigned to this item in mSupply
-- **Name**: This is the name by which mSupply will refer to the item
-- **Batch**: Batch number of the stock line
-- **Expiry**: Expiry date of the batch
-- **Location**: Where the item is being stored in your facility
-- **Unit**: The unit you use for this item
-- **Pack Size**: Number of units per pack
-- **Pack Qty**: Number of packs available in your store
-- **SOH**: The total quantity of stock on hand, in number of packs
-- **Supplier** Shows the source of this stock item
+| Column      | Description                      |
+| :---------- | :------------------------------- |
+| **Code**    | Code assigned to this item in mSupply         |
+| **Name**    | This is the name by which mSupply will refer to the item                  |
+| **Batch**    | Batch number of the stock line |
+| **Expiry**    | Expiry date of the batch |
+| **Location**    | Where the item is being stored in your facility |
+| **Pack**    | The pack size and unit for this item |
+| **Pack Qty**    | Number of packs available in your store |
+| **SOH**    | The total quantity of stock on hand, in number of packs |
+| **Supplier**    | Shows the source of this stock item |
+
 
 ### Exporting Stock
 
@@ -44,7 +46,7 @@ The list of Stock can be exported to a comma separated file (csv). Simply click 
 
 ![Export button](/docs/inventory/images/export.png)
 
-and the file will be downloaded. The export function will download all Stock lines, not just the current page, if you have more than 20 of them.
+and the file will be downloaded. The export function will download all stock lines, not just the current page, if you have more than 20 of them.
 
 ## Looking for a specific item
 
@@ -52,7 +54,7 @@ You can filter the list by item name or code, location or by expiry. This can be
 
 ![Stock: filter](/docs/inventory/images/stock_filter.png)
 
-Click on the `Filters` to show the available filters, select an option, for example `Code or Name`, and type as much of an item name or code in the `Enter item code or name` field:
+Click on the `Filters` to show the available filters, select an option, for example `Code or Name`, and type as much of an item name or code in the `Code or Name` field:
 
 ![Stock: search](/docs/inventory/images/stock_search.gif)
 
