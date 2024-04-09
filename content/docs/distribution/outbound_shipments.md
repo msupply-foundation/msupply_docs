@@ -324,7 +324,7 @@ Once the item is selected, you can see the following information:
 
 #### Issue [Quantity] of units in packs of [Pack Size]
 
-In the `Issue Quantity` field, you can enter the quantity that you want to issue to your customer.
+In the `Issue` field, you can enter the quantity that you want to issue to your customer.
 
 By default, you are invited to issue a quantity of **units**. However, you have the possibility to issue a quantity of packs instead by changing the value in the second dropdown (`Pack Size`).
 
@@ -336,16 +336,18 @@ Default value is `Any` when you are issuing units.
 
 This is a list of batch numbers that you have in store for this item:
 
-- **Batch**: Batch number. It is a designation given to products made in the same manufacturing run.
-- **Expiry**: Expiry date of the batch (format: MM/YYYY)
-- **Location**: This is the code of the location where the item is stored if your inventory is managed with storage locations
-- **Pack Sell Price**: Selling unit price of the item
-- **Pack**: Quantity of units per pack
-- **In Store (packs)**: Total number of packs in your store
-- **Available (packs)**: Number of packs available (not already allocated to other shipments)
-- **[Pack] Qty Issued**: Total quantity of packs to be issued
-- **[Unit] Qty Issued**: Number of units to be issued
-- **On Hold**: Indicates whether a batch is on hold or not. You cannot issue a batch that is on hold.
+| Column                | Description                                                                                   |
+| :-------------------- | :-------------------------------------------------------------------------------------------- |
+| **Batch**             | Batch number. It is a designation given to products made in the same manufacturing run.      |
+| **Expiry**            | Expiry date of the batch (format: MM/YYYY)                                                    |
+| **Location**          | This is the code of the location where the item is stored if your inventory is managed with storage locations |
+| **Pack Sell Price**   | Selling unit price of the item                                                                |
+| **Pack**              | Quantity of units per pack                                                                    |
+| **In Store (packs)**  | Total number of packs in your store                                                           |
+| **Available (packs)** | Number of packs available (not already allocated to other shipments)                          |
+| **[Pack] Qty Issued** | Total quantity of packs to be issued                                                          |
+| **[Unit] Qty Issued** | Number of units to be issued                                                                  |
+| **On Hold**           | Indicates whether a batch is on hold or not. You cannot issue a batch that is on hold.       |
 
 There is also a final row in the table which is a placeholder line, if the status of the Outbound Shipment is `NEW`.
 The placeholder line is used when the quantity you are issuing is higher than your available stock.

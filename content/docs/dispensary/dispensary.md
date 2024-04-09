@@ -257,7 +257,7 @@ Once the item is selected, you can see the following information:
 
 #### Issue [Quantity] of units in packs of [Pack Size]
 
-In the `Issue Quantity` field, you can enter the quantity that you want to issue to your patient.
+In the `Issue` field, you can enter the quantity that you want to issue to your patient.
 
 By default, you are invited to issue a quantity of **units**. However, you have the possibility to issue a quantity of packs instead by changing the value in the second dropdown (`Pack Size`).
 
@@ -269,15 +269,17 @@ Default value is `Any` when you are issuing units.
 
 This is a list of batch numbers that you have in store for this item:
 
-- **Batch**: Batch number. It is a designation given to products made in the same manufacturing run.
-- **Expiry**: Expiry date of the batch (format: MM/YYYY)
-- **Location**: This is the name of the location where the item is stored if your inventory is managed with storage locations
-- **Pack Size**: Quantity of units per pack
-- **On Hold**: Indicates whether a batch is on hold or not. You cannot issue a batch that is on hold.
-- **In Store (packs)**: Total number of packs in your store
-- **Available (packs)**: Number of packs available (not already allocated to other shipments)
-- **[Unit] Qty Issued**: Total quantity of units to be issued
-- **Pack Qty Issued**: Number of packs to be issued
+| Column              | Description                                                                                      |
+| :--------------------- | :----------------------------------------------------------------------------------------------- |
+| **Batch**              | Batch number. It is a designation given to products made in the same manufacturing run.         |
+| **Expiry**             | Expiry date of the batch (format: MM/YYYY)                                                      |
+| **Location**           | This is the name of the location where the item is stored if your inventory is managed with storage locations |         
+| **On Hold**            | Indicates whether a batch is on hold or not. You cannot issue a batch that is on hold.          |
+| **In Store (packs)**   | Total number of packs in your store                                                              |
+| **Available (packs)**  | Number of packs available (not already allocated to other shipments)                             |
+| **Pack**              | Number of units in the pack and unit name |
+| **[Unit] Qty Issued**  | Total quantity of units to be issued                                                             |
+| **Pack Qty Issued**    | Number of packs to be issued                                                                     |
 
 ![List of available batch numbers](/docs/dispensary/images/prescription_additem_listofbatches.png)
 
@@ -287,10 +289,8 @@ The batches which are available for selection are shown first and batches which 
 
 By default, you are invited to issue a quantity of **units**, regardless of the pack size (number of units in a pack).
 
-When entering a number in the `Issue` field, after clicking the `Allocate` button, the system automatically chooses the batch number(s) with the closest expiry date (First to Expire, First Out or FEFO logic).
-
 <div class="imagetitle">
-In below example, we are issuing 100 units of the item. All 100 units will be taken from the same batch (second row). The first batch was not selected because it is expired. 
+In below example, we are issuing 100 units of the item. All 100 units will be taken from the same batch (fourth row). The first three batches was not selected because they are expired. 
 </div>
 
 ![additem!](/docs/dispensary/images/prescription_additem_issueunits.png)
@@ -301,29 +301,43 @@ In this other example, we are issuing 100 units. System selects two batches with
 
 ![additem!](/docs/dispensary/images/prescription_additem_issueunitstwobatches.png)
 
+#### Warnings
+
+You may see one or more warning messages on this screen:
+
+![placeholder warning!](/docs/distribution/images/os_warning_placeholder.png)
+
+The warning is shown to let you know that not enough stock is available to fulfil your request. A placeholder quantity is added automatically so that you can keep track of the amount requested, while adding more stock (for example by using an internal order or inbound shipment).
+
+This image also shows the warning which lets you know that some stock lines are expired; this may be why the system did not auto-allocate particular stock lines.
+However you can still manually choose those lines and issue the expired stock! 
+
+![pack sizes warning!](/docs/distribution/images/os_warning_pack_sizes.png)
+
+This warning tells you that because of the available pack sizes, the system has rounded up the quantity requested. In this example, there is no pack size that is less than `12`. There are packs of `20` available though, so when 12 tablets are requested, the system has rounded up the request to `2` packs of `20`.
+
+
+![pack sizes warning!](/docs/distribution/images/os_warning_no_quantity.png)
+
+If you add an item forget to enter a quantity to issue, and click `OK` you will see this warning message. It is informing you that there is no issue quantity; from here you can click `OK` again to confirm that you intended to enter `0`, in which case the window will close and a placeholder row will be added to the shipment. You can edit the row later and add a quantity. If you forget to add a quantity however, and confirm the shipment as allocated, this row will be removed!
+
 ### Issue a quantity of packs
 
 You can decide to issue a quantity of **packs**. To do this, you can change the value in the `Pack Size` dropdown.
 
 <div class="imagetitle">
-Let's imagine that you only want to dispense in a pack size of 25 units. You can change the dropdown value from `Any` to `25`. 
+Let's imagine that you only want to dispense in a pack size of 10 units. You can change the dropdown value from `Any` to `10`. 
 </div>
 
 ![Alt Text](/docs/dispensary/images/prescription_additem_switchtopack.gif)
 
-You are now offered to issue a number of packs of 25 units. Only batch number(s) with a pack size of 25 units can be automatically issued.
-
-<div class="imagetitle">
-In below example, we are issuing 4 packs of 25 units:
-</div>
-
-![additem!](/docs/dispensary/images/prescription_additem_issuepacks.png)
+You are now offered to issue a number of packs of 10 units. Only batch number(s) with a pack size of 10 units can be automatically issued.
 
 <div class="note">
 If you had previously entered a quantity of units and you switch to a quantity of packs, the quantity of units will automatically be converted into the correct quantity of packs.  
 </div>
 
-![Alt Text](/docs/dispensary/images/prescription_issuepacks.gif)
+![Alt Text](/docs/dispensary/images/prescription_issuepacks.png)
 
 When a pack size is selected, stock lines which have a different pack size from the one selected are not available for selection. As such, those rows are listed lower down in the table and are shown in a grey font, in the same way as other unavailable rows.
 
@@ -365,7 +379,7 @@ To edit a prescription line, tap on it. You will be presented with the `Edit Ite
 1. Open the Prescription you want to edit.
 2. Tap on the line you want to edit. An identical window to `Add Item` appears. At this stage:
 
-   - Edit the main `Issue Quantity` field
+   - Edit the main `Issue` field
    - or change the number of packs value at the batch number level
 
 <div class="note">
@@ -397,13 +411,7 @@ In below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100mg ta
 
 Picking refers to the process where individual items are picked from pharmacy.
 
-Once all items are picked and packed. You can then confirm the picking of the prescription to indicate that it is ready to be dispatched.
-
-To confirm that a prescription has been picked, tap on the `Confirm Picked` button.
-
-![Alt Text](/docs/dispensary/images/prescription_confirmpicked.gif)
-
-Once picking is confirmed:
+Once an item has been added to your prescription, the status will automatically change to picked:
 
 - Prescription status is now `PICKED`
 - You are now invited to confirm the prescription via the `Confirm Verified` button
@@ -432,6 +440,6 @@ all grouped rows.
 
 If you do not have enough room on your screen, or simply aren't interested in some of the columns shown, you have the option of hiding which columns are shown in this view.
 
-Click on the `Show / hide columns` button which is at the top right of the table. This gives a list of the columns available - you can check the columns you want to see. The options chosen are stored for the current browser, so next time you view an Outbound Shipment, you will see the selected columns only. If you have chosen which columns to show, then the button is shown in blue to remind you that there are more columns available.
+Click on the `Show / hide columns` button which is at the top right of the table. This gives a list of the columns available - you can check the columns you want to see. The options chosen are stored for the current browser, so next time you view a Prescription, you will see the selected columns only. If you have chosen which columns to show, then the button is shown in blue to remind you that there are more columns available.
 
 ![Hide columns](/docs/dispensary/images/prescription_show_hide_columns.gif)
