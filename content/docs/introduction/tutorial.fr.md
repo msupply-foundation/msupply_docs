@@ -42,7 +42,7 @@ Le menu principal se trouve sur le côté gauche de l'écran. Si vous avez un pe
 
 Si le menu est fermé, il suffit de survoler les éléments du menu pour l'ouvrir, dans ce cas, cliquer sur un élément laisse le menu se refermer. Le résultat est le même sur tablette.
 
-![Main navigation](/docs/introduction/images/main_nav.gif)
+![Main navigation](/docs/introduction/images/main_nav_fr.gif)
 
 Sur certains écrans, va s'afficher un libellé en en-tête, tel que **Expédition** dans l'exemple ci-avant dessus. En cliquant sur une expédition spécifique de la liste, vous changez cet en-tête en **Expédition/ #[le numéro d'expédition]**. Vous pouvez cliquer sur **Expédition** pour retourner à la liste - ou utiliser le menu de navigation à gauche.
 
@@ -58,11 +58,11 @@ La liste des raccourcis disponibles s'affiche. Par exemple en tapant la lettre `
 
 Vous pouvez également cliquer sur un élément de la liste ou rechercher les commandes disponibles :
 
-![CommandK](/docs/introduction/images/cmd_k.gif)
+![CommandK](/docs/introduction/images/cmd_k_fr.gif)
 
-De plus, il existe divers endroits où des raccourcis clavier spécifiques sont disponibles, comme, par exemple, l'onglet de contrôle utilisé aussi bien pour les Inventaires que pour les Livraisons. Ici, vous pouvez utiliser `control`+`1` pour accéder au premier onglet (Quantités) ou `control`+`2` pour le second onglet (Tarification) etc. Vous pouvez ajouter un nouveau lot en tapant la touche `+` de votre clavier.
+De plus, il existe divers endroits où des raccourcis clavier spécifiques sont disponibles, comme, par exemple, l'onglet de contrôle utilisé aussi bien pour les Inventaires que pour les Livraisons. Ici, vous pouvez utiliser `control`+`1` pour accéder au premier onglet (Lot) ou `control`+`2` pour le second onglet (Tarification) etc. Vous pouvez ajouter un nouveau lot en tapant la touche `+` de votre clavier.
 
-![Inbound tabs](/docs/replenishment/images/is_edit_keyboard_shortcuts.png)
+![Inbound tabs](/docs/replenishment/images/is_edit_keyboard_shortcuts_fr.png)
 
 ## Pied de Page
 

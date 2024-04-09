@@ -59,62 +59,66 @@ Vous pouvez trier la liste à l'aide des en-têtes de colonne :
 
 ![Internal Order: newly created order](/docs/replenishment/images/intord_newintord_fr.png)
 
-### Defining Maximum Month of Stock (Maximum MOS)
+### Définition du Stock Mensuel Maximum (SMM ou Maximum MOS)
 
-Defining the Maximum MOS (Month of Stock) is critical to the calculation of the **Suggested Quantity** and you can change it:
+La définition du Stock Mensuel Maximum est un élément essentiel pour le calcul de la **Quantité suggérée**. Vous pouvez modifier cette valeur librement.
 
-- There is an industry rule of thumb that the _Maximum MOS_ should be set to 3 times the ordering cycle
-- The default _Maximum MOS_ is `3.0`, which is based on a monthly ordering cycle
-- If for example, the ordering cycle was every two months, then _Maximum MOS_ should be set to 3 x 2 = `6.0`
+
+- Règle générale du secteur : En règle générale, le _SMM_ doit être défini à 3 fois le cycle de commande.
+
+- SMM par défaut : Le SMM par défaut est de `3.0`, ce qui est basé sur un cycle de commande mensuel.
+- Exemple : Si le cycle de commande est de deux mois, le SMM doit alors être défini sur 3 x 2 = Exemple : Si le cycle de commande est de deux mois, le SMM doit alors être défini sur 3 x 2 = `6.0`.
 
 <div class="imagetitle">
-In below example, we are setting our Maximum MOS to 3 Months.  
+Dans l'exemple ci-dessous, nous définissons notre SMM à 3 mois.  
 </div>
 
 ![MaxMOS](/docs/replenishment/images/intord_maxmos.png)
 
-This can be done before or after adding items to your order.
+Remarque importante : Vous pouvez définir le SMM avant ou après l'ajout d'articles à votre commande.
 
-### Adding a single item
+### Ajout d'un article unique
 
-Tap on `Add Item` to add a single item to your order. A new window opens:
+Pour ajouter un article unique à votre commande, appuyez sur `Ajouter un article`. Une nouvelle fenêtre apparaît :
 
 ![Internal Order: add item](/docs/replenishment/images/intord_additem2.png)
 
-First select the item you want to add to your order. Open the `Stock details` dropdown menu and select your item from the list. You can also type some or all of an item name (or code) to look for a specific item.
+Sélectionnez l'article que vous souhaitez ajouter à votre commande. Ouvrez le menu déroulant `Détails du stock` et choisissez l'article dans la liste. Vous pouvez également saisir une partie ou la totalité du nom (ou du code) de l'article pour effectuer une recherche spécifique.
 
-Once item is selected, you should see the following information on the window:
+Une fois l'article sélectionné, apparaissent les informations suivantes dans la fenêtre :
 
-- **Item Code** and **Item Name**
-- **Unit**: the default unit used for this item (_eg. Tablet, Vial_)
-- **AMC**: Average Monthly Consumption. How much stock your store uses each month on average (based on a configurable number of months, default is set to 3 months)
-- **Suggested Quantity**: how much stock mSupply suggests that your order to reach your stock target quantity
-- **Order quantity**: the quantity of units that you request from your supplier
+- **Code Article** and **Nom Article**
+- **Unité**:  l'unité par défaut utilisée pour cet article (ex. :_comprimé, flacon_)
+- **CMM**: Consommation Moyenne Mensuelle. Il s'agit de la quantité moyenne de stock utilisée par votre dépôt chaque mois (calculée sur la base d'un nombre configurable de mois, la valeur par défaut étant de 3 mois).
+- **Quantité Suggérée**: la quantité de stock que mSupply vous suggère de commander pour atteindre votre quantité cible de stock.
+- **Quantité commandée**: la quantité d'unités que vous demandez à votre fournisseur.
 
-You should also see the following charts:
+Apparaissent également les graphiques suivants :
 
-- **Stock distribution**: In this chart, you will see the following information:
-  - The _Target Quantity_ for the item. This is calculated as: Maximum MOS x AMC.
-  - Your current _Stock on Hand_ (in grey)
-  - The _suggested quantity_ calculated by mSupply
+- **Répartition du stock**: ce graphique présente les informations suivantes.
+  - La _Quantité cible_ pour l'article. Elle est calculée comme suit : _SMM x CMM_.
+  - Votre Stock actuel (_en gris_).
+  - La _Quantité suggérée_ calculée par mSupply.
 
 <div class="imagetitle">
-In below example, our target quantity is 600 units which is the equivalent of 3 months of stock (3 x 200 = 600 units). Our stock on hand (in grey) is 50 so in order to reach my target, mSupply suggests to order 550 units (600 - 50). 
+Dans l'exemple ci-dessous, notre quantité cible est de 600 unités, ce qui équivaut à 3 mois de stock (3 x 200 = 600 unités). Notre stock actuel (en gris) est de 50 unités. Ainsi, pour atteindre mon objectif, mSupply suggère de commander 550 unités (600 - 50).
+
 </div>
 
 ![Stock Distribution](/docs/replenishment/images/intord_charts_stockdistri.png)
 
 <div class="imagetitle">
-In below example, the target quantity is 62 units. Since we already have 250 units in stock (in grey), the suggested quantity is zero. 
+Dans un autre exemple, la quantité cible est de 62 unités. Comme nous avons déjà 250 unités en stock (en gris), la quantité suggérée est nulle.
+
 </div>
 
 ![Stock Distribution 2](/docs/replenishment/images/intord_charts_stockdistri2.png)
 
-- **Consumption History (monthly)**: this chart shows the monthly consumption up to 12 months in the past (in grey) and the current AMC (in orange):
+- **Historique de consommation (mensuel)**:  Ce graphique présente la consommation mensuelle jusqu'à 12 mois en arrière (en gris) et la CMM actuelle (en orange).
 
 ![Consumption](/docs/replenishment/images/intord_charts_consumption.png)
 
-- **Stock Evolution**: this chart shows you your stock level for the last 30 days and your projected inventory for the next 30 days. The projected stock will be updated based on your inputs in the `Order quantity` field:
+- **Évolution du stock**: Ce graphique vous montre votre niveau de stock des 30 derniers jours et votre stock projeté pour les 30 prochains jours. Le stock projeté sera mis à jour en fonction de vos saisies dans le champ `Quantité commandée`.
 
 ![Stock Evolution](/docs/replenishment/images/intord_charts_stockevolution.png)
 
