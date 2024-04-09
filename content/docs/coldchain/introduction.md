@@ -25,13 +25,13 @@ If a temperature breach happens, then a notification is displayed on every page 
 
 Open mSupply integrates with the android based Cold Chain application; simply configure your Cold Chain application to sync with the Open mSupply server address and configure a username and password. Temperature sensors, breaches and logs will then appear within Open mSupply.
 
-<div class="note">The cold chain referred to here is the integration of cold chain features within Open mSupply. There is separate documentation for the <a href="/coldchain/introduction/">Android Cold Chain application</a>.</div>
+<div class="note">The Cold Chain referred to here is the integration of the Cold Chain features within Open mSupply. There is separate documentation for the <a href="/coldchain/introduction/">Android Cold Chain application</a>.</div>
 
 ## Configuration
 
 To begin, enable the store preference for `mobile: Uses Vaccine Module` (see the [store preferences](https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab) documentation for how to do this).
 
-Any users who are to view and manage cold chain features should have the following permissions enabled:
+Any users who are to view and manage the Cold Chain features should have the following permissions enabled:
 
 - Vaccines
   - View sensor details
