@@ -4,7 +4,7 @@ description = "Open mSupply Road Map."
 date = 2022-11-10T18:20:00+00:00
 updated = 2022-11-10T18:20:00+00:00
 draft = false
-weight = 1
+weight = 2
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -21,22 +21,24 @@ gantt
  title Open mSupply Road Map 2024
  dateFormat YY-MM-DD
  axisFormat %B
-section Version 1.6
-  Reporting phase 1: t1-6-2, 24-01-25, 14d
-  Front-end plugin framework :t1-6-1, 24-01-03, 40d
 section Version 1.7
-  Currency: t1-7-1, after t1-6-1, 12d
-  Merge: t1-7-2, after t1-6-1, 30d
+  Currency: t1-7-1, 24-02-12, 12d
+  Merge: t1-7-2, 24-02-12, 30d
+v1.7.00 : milestone, m1, 24-03-20, 16d
 section Version 2.0
-  Pack variant: t1-8-1, after t1-7-2, 24d
+  Pack variant: t1-8-1, 24-02-12, 36d
   Customer returns: t1-8-2, after t1-7-2, 30d
   Supplier returns: t1-8-3, after t1-7-2, 30d
-  Asset (CCE) management: t1-8-4, after t1-7-2, 35d
-  Migration: t1-8-5, after t1-7-2, 30d
+  Asset (CCE) management: t1-8-4, after t1-7-2, 30d
+  Migration: t1-8-5, after t1-7-2, 40d
+v2.0.00 : milestone, m2, 24-05-08, 0d
 section Version 2.1
   Inventory Adjustments: t2-1-1, after t1-8-2, 24d
   Backend plugins: t2-1-2, after t1-8-2, 30d
   Reports: t2-1-3, after t1-8-2, 20d
+section Version 2.2
+  Label printing: t2-2-1, after t2-1-1, 20d
+  Basic PO & receiving: t2-2-2, after t2-1-1, 30d
 {% end %} 
 
 

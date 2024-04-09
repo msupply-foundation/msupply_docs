@@ -33,7 +33,7 @@ From this screen you can view a list of Sensors and edit a Sensor.
 | Column              | Description                      |
 | :------------------ | :------------------------------- |
 | **Name**            | Name of the Sensor               |
-| **CCE**             | Name of the cold chain equipment item which the sensor is associated with   |
+| **CCE**             | Asset number of the cold chain equipment item which the sensor is associated with   |
 | **Location**        | Current location of the sensor |
 | **Serial Number**   | A unique identifier for the sensor    |
 | **Battery Level**   | Most recent battery reading, in percentage               |

@@ -4,7 +4,7 @@ description = "Requirements for Open mSupply."
 date = 2022-06-10T11:38:00+00:00
 updated = 2022-06-10T11:38:00+00:00
 draft = false
-weight = 4
+weight = 6
 sort_by = "weight"
 template = "docs/page.html"
 
