@@ -106,7 +106,7 @@ Click the `New` button to start a repack:
 
 ![Repack entry form](/docs/inventory/images/repack-enter.png)
 
-From here, you can enter the number of packs which you'd like to repack, up to a maximum of the current number of packs in stock. This number is the number shown next to `Packs available` - in this case there are 48 packs available.
+From here, you can enter the number of packs which you'd like to repack, up to a maximum of the current number of packs in stock. This number is the number shown next to `Packs available` - in this case there are 779 packs available.
 
 You can then enter a new pack size, and optionally, enter a location for the new stock. The `New number of packs` is calculated automatically.
 Click `Save` to save the changes. Clicking `Print` will allow you to print details of this repack action.
