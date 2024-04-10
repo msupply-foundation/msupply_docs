@@ -4,7 +4,7 @@ description = "Prescribing stock to patients."
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
 draft = false
-weight = 1
+weight = 2
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -37,7 +37,7 @@ From this screen you can:
 - Create a new Prescription
 - Export Prescription to a `.csv` file
 
-### Prescription list
+### Prescription List
 
 1. The list of Prescriptions is divided into 5 columns:
 
@@ -49,7 +49,7 @@ From this screen you can:
 | **Created** | Creation date of the prescription   |
 | **Comment** | Comment for the prescription        |
 
-1. The list can display a fixed number of prescriptions per page. On the bottom left corner, you can see how many prescriptions are currently displayed on your screen.
+2. The list can display a fixed number of prescriptions per page. On the bottom left corner, you can see how many prescriptions are currently displayed on your screen.
 
 ![Page](/docs/distribution/images/os_list_showing.png)
 
