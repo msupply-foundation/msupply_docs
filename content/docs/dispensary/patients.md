@@ -14,7 +14,7 @@ toc = true
 top = false
 +++
 
-Patients can be added and their information edited from this page. The Patient information page is highly customisable and can be tailored to specific programs. Please see [Programs](/docs/programs/patients) for more information.
+Patients can be added and their information edited from this page. 
 
 ### Viewing Patients
 
