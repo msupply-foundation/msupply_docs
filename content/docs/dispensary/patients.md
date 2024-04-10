@@ -76,11 +76,9 @@ and the file will be downloaded. The export function will download all Patients,
 
 Press on the `New Patient` button in the top right corner.
 
-![New Patient](/docs/dispensary/images/patient_new.png)
-
 A new window will appear for you to enter the patient's details. You must enter the patient's code, first name and last name to enable to `Ok & Next` button. If you do not wish to enter the patient's real name, you can use a pseudonym.
 
-![New Patient](/docs/dispensary/images/patient_new_form.png)
+![New Patient](/docs/dispensary/images/patient_new.png)
 
 If you have a patient or patients matching the name you have entered, you will be prompted to select the patient in the new window. 
 
