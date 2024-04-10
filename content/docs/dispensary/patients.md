@@ -1,6 +1,6 @@
 +++
 title = "Patients"
-description = "Introduction to the HIV patient management module"
+description = "Introduction to the Patients"
 date = 2023-01-27T00:00:00+00:00
 updated = 2023-01-27T00:00:00+00:00
 draft = false
