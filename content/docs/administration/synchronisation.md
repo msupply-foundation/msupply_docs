@@ -20,7 +20,7 @@ To view the synchronisation settings, go to `Admin` in the lower section of the 
 
 ![admin: nav](/docs/administration/images/admin_nav.png)
 
-You will see the synchronisation section below the display settings:
+You will see the synchronisation section below the display settings, click on this to view the options.
 
 ![admin: page](/docs/administration/images/administration.png)
 
