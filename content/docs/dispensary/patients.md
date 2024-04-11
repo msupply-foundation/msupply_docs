@@ -16,7 +16,7 @@ top = false
 
 Patients can be added and their information edited from this page. 
 
-### Viewing Patients
+### Patients
 
 To use patients, ensure that your store is set to `Dispensary` mode (see the [virtual stores](https://docs.msupply.org.nz/other_stuff:virtual_stores#store_type) documentation for how to do this).
 
