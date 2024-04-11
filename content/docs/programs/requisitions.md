@@ -9,7 +9,7 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "Program based requisitions"
+lead = "Program based Requisitions"
 toc = true
 top = false
 +++
