@@ -25,16 +25,16 @@ In the navigation panel, tap on `Catalogue` > `Items` to show the items list:
 
 You can see all the items which are available for use by your store:
 
-The Items list is divided into 6 columns: 
+The Items list is divided into 6 columns:
 
-| Column      | Description                      |
-| :---------- | :------------------------------- |
-| **Code**    | Code assigned to this item in mSupply           |
-| **Name**    | This is the name by which mSupply will refer to the item                  |
-| **Unit**    | The unit of measure for the item |
-| **SOH**     | How much stock is available in your store          |
-| **AMC**     | Average Monthly Consumption. This is how much stock your store uses each month on average (based on a configurable number of months, defaults to 3 months).           |
-| **MOS**     | umber of months of consumption left with current stock. This is calculated as: `Stock on Hand / AMC`.                  |
+| Column   | Description                                                                                                                                                 |
+| :------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Code** | Code assigned to this item in mSupply                                                                                                                       |
+| **Name** | This is the name by which mSupply will refer to the item                                                                                                    |
+| **Unit** | The unit of measure for the item                                                                                                                            |
+| **SOH**  | How much stock is available in your store                                                                                                                   |
+| **AMC**  | Average Monthly Consumption. This is how much stock your store uses each month on average (based on a configurable number of months, defaults to 3 months). |
+| **MOS**  | Number of months of consumption left with current stock. This is calculated as: `Stock on Hand / AMC`.                                                      |
 
 ![Items list](/docs/catalogue/images/cat_itemslist.png)
 
@@ -57,6 +57,7 @@ In below example, we have 20,219 units of Acetylsalicylic Acid available in our 
 ![Item detail headers](/docs/catalogue/images/cat_itemdetailsheaders.png)
 
 There are two tabs in the bottom part of the screen:
+
 - **General**: The item's basic information
 - **Master Lists**: Master lists associated with the item
 <!-- - **Pack Variants**: Customisable pack sizes for the item. Can only be configured in Open mSupply's new central server. -->
