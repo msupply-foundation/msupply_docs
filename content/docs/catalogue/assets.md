@@ -20,11 +20,11 @@ From the **Assets** menu, you can view all of the assets currently in your store
 
 ### Viewing Asset List
 
-In the navigation panel, tap on 'Catalogue' > 'Assets' to show the asset list:
+In the navigation panel, tap on `Catalogue` > `Assets` to show the asset list
 
 ![Assets nav](/docs/catalogue/images/assets.png)
 
-You can see all the assets which are available in your store:
+Here you can see all the assets which are available in your store.
 
 The asset list is divided into 6 columns:
 
@@ -35,12 +35,12 @@ The asset list is divided into 6 columns:
 | **Type**          | The type of asset                                          |
 | **Manufacturer**  | The manufacturer of your asset                             |
 | **Model**         | The model number of the asset                              |
-| **Class**         | The class of asset. ie: `Cold chain equipment`             |
+| **Class**         | The class of the asset. ie: `Cold chain equipment`         |
 | **Category**      | The subcategory of the asset                               |
 
 ![Assets page](/docs/catalogue/images/assets_page.png)
 
-The list can display a fixed number of patients per page. On the bottom left corner, you can see how many assets are currently displayed on your screen.
+The list can display a fixed number of assets per page. On the bottom left corner, you can see how many assets are currently displayed on your screen.
 
 ![Page](/docs/distribution/images/os_list_showing.png)
 
@@ -52,19 +52,27 @@ You can also select a different number of rows to show per page using the option
 
 ![Rows per page](/docs/introduction/images/rows-per-page-select.png)
 
+#### Filter Assets
+
 To add a filter to the page, choose the required filter from the drop down. Multiple filters can be combined.
+
+<p align="center">
+    <img src="/docs/catalogue/images/assets_filter.png" width="425" height="250">
+</p>
+
+#### Delete Assets
 
 Assets can be selected and deleted using the toolbar action:
 
 <p align="center">
-    <img src="/docs/catalogue/images/assets_delete.png" width="425" height="400">
+    <img src="/docs/catalogue/images/assets_delete.png" width="425" height="380">
 </p>
 
 ### Importing And Exporting
 
 #### Import
 
-Assets can be imported from a csv file using the 'Import' button
+Assets can be imported from a csv file using the `Import` button
 
 ![Assets nav](/docs/catalogue/images/assets_import.png)
 
@@ -86,25 +94,27 @@ A csv file can be uploaded once it has been created in the example format.
 
 #### Export
 
-Asset can be exported as a csv using the 'Export' button
+Asset can be exported as a csv using the `Export` button
 
 ![Assets nav](/docs/catalogue/images/asset_export_button.png)
 
 ### Managing status log reasons
 
-Status log reasons can be managed using this button
+Status log reasons can be managed using this button.
+
+When users add a new status log against a particular asset, more detail can be provided with a reason associated with the new status. For example, an asset which has been labled `NON_FUNCTIONING` could be assigned a reason of `power supply broken`. These reasons are customisable, and associated with a particular status.
+
+Reasons can be managed on a new page accessible from the `Manage Log Reasons` button.
 
 ![Assets nav](/docs/catalogue/images/manage_reasons_button.png)
 
-Status log reasons can be added and deleted for a particular status here. These reasons can be added to a status log for additional context for why there is a new functional status.
+#### Managing log reasons
 
 ![Log Reasons page](/docs/catalogue/images/manage_log_reasons.png)
 
-#### Managing log reasons
-
 On this page you can:
 
-- Create new log reasons through the 'Create log reason' button
+- Create new log reasons through the `Create log reason` button
 
 <p align="center">
     <img src="/docs/catalogue/images/reasons_create_button.png" width="400" height="300">
@@ -116,14 +126,14 @@ This will open a create new reason modal
     <img src="/docs/catalogue/images/reasons_create_modal.png" width="500" height="350">
 </p>
 
-- Select and delete existing reasons with the 'Actions' dropdown
+- Select and delete existing reasons with the `Actions` dropdown
 
 <p align="center">
-    <img src="/docs/catalogue/images/reasons_delete.png" width="400" height="350">
+    <img src="/docs/catalogue/images/reasons_delete.png" width="400" height="400">
 </p>
 
 - Filter existing reasons by status using the filter dropdown
 
 <p align="center">
-    <img src="/docs/catalogue/images/reasons_filter.png" width="550" height="300">
+    <img src="/docs/catalogue/images/reasons_filter.png" width="550" height="250">
 </p>
