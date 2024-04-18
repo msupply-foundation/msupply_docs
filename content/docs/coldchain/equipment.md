@@ -13,15 +13,15 @@ toc = true
 top = false
 +++
 
-### Viewing
-
 Cold Chain Equipment is a digital register fpr the creation and management of cold chain assets. It allows health departments to manage, record functional status logs, and update locations of cold chain assets.
 
 From the **Equipment** menu, all assets available in a store can be viewed.
 
 All cold chain assets of all stores are visible when accessing the **Equipment** menu via Open mSupply central server.
 
-![Equipment nav](/docs/coldchain/images/equipment.png)
+<p align="center">
+    <img src="/docs/coldchain/images/equipment.png" width="400" height="525">
+</p>
 
 You can see all cold chain equipment available in your store:
 
@@ -38,15 +38,29 @@ The equipment list is divided into 6 columns:
 | **Non-catalogue**     | Designates if the asset is not part of the primary PQS catalogue |
 | **Notes**             | Notes entered about the asset                                    |
 
-![Equipment view](/docs/coldchain/images/equipment_route.png)
+![Equipment nav](/docs/coldchain/images/equipment_route.png)
+
+#### Paginate Equipment
+
+The list can display a fixed number of patients per page. On the bottom left corner, you can see how many patients are currently displayed on your screen.
+
+![Page](/docs/distribution/images/os_list_showing.png)
+
+If you have more patients than the current limit, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner).
+
+![Page](/docs/distribution/images/os_list_pagenumbers.png)
+
+You can also select a different number of rows to show per page using the option at the bottom right of the page.
+
+#### Filter Equipment
 
 To add a filter to the page, choose the required filter from the drop down. Multiple filters can be combined.
 
-![Equipment filters](/docs/coldchain/images/equipment_filters.png)
+![Equipment filters](/docs/coldchain/images/equipment_filter.png)
 
 Assets can be selected and deleted using the toolbar action:
 
-![Equipment delete action](/docs/coldchain/images/delete_action.png)
+![Equipment delete action](/docs/coldchain/images/delete_rows.png)
 
 ### Importing And Exporting
 
@@ -54,15 +68,21 @@ Assets can be selected and deleted using the toolbar action:
 
 Cold chain assets can be imported from a csv file using the 'Import' button
 
-![Equipment import button](/docs/coldchain/images/equipment_import_button.png)
+<p align="center">
+    <img src="/docs/coldchain/images/equipment_import_button.png" width="550" height="280">
+</p>
 
 This will open an import modal.
 
-![Equipment import modal](/docs/coldchain/images/equipment_import_modal.png)
+<p align="center">
+    <img src="/docs/coldchain/images/equipment_import_modal.png" width="750" height="420">
+</p>
 
 An example template comma-separated-value (csv) is available for download here:
 
-![Equipment download button](/docs/coldchain/images/equipment_import_template_download.png)
+<p align="center">
+    <img src="/docs/coldchain/images/equipment_import_template_download.png" width="750" height="420">
+</p>
 
 When accessing the import modal from central server, cold chain assets can be imported for a number of stores at once. In this case there will be a store column on the template example, and this field will be required.
 
@@ -72,19 +92,27 @@ Data will need to be converted into the format of the csv template provided in o
 
 A csv file can be uploaded once it has been created in the example format.
 
-![Equipment import upload](/docs/coldchain/images/equipment_import_upload.png)
+<p align="center">
+    <img src="/docs/coldchain/images/equipment_import_upload.png" width="750" height="420">
+</p>
 
 #### Export
 
 Asset can be exported as a csv using the 'Export' button
 
-![Equipment export button](/docs/coldchain/images/equipment_export_button.png)
+<p align="center">
+    <img src="/docs/distribution/images/export.png" width="150" height="67">
+</p>
 
 ### Create new asset
 
 Cold chain assets can be created manually with the 'New Asset' button
 
-![Create asset button](/docs/coldchain/images/create_asset_button.png)
+<p align="center">
+    <img src="/docs/coldchain/images/create_asset_button.png" width="170" height="62">
+</p>
+
+Clicking this button will open the 'Create Asset' modal
 
 With this modal you can assign:
 
@@ -95,7 +123,9 @@ With this modal you can assign:
 
 If the asset does not belong to a catalogue item, you can use the toggle to create an asset which does not belong to a catalogue.
 
-![Create asset modal](/docs/coldchain/images/create_asset_modal.png)
+<p align="center">
+    <img src="/docs/coldchain/images/create_asset_modal.png" width="750" height="420">
+</p>
 
 ### Managing cold chain assets
 
@@ -148,11 +178,15 @@ This records all user actions which have been taken for this asset using the Ope
 
 Clicking on the 'Update Status' button allows the creation of a new status log.
 
-![Asset update status button](/docs/coldchain/images/update_status_button.png)
+<p align="center">
+    <img src="/docs/coldchain/images/update_status_button.png" width="200" height="62">
+</p>
 
 This will open a new status log modal
 
-![Update status modal](/docs/coldchain/images/update_status_modal.png)
+<p align="center">
+    <img src="/docs/coldchain/images/status_log_modal.png" width="700" height="420">
+</p>
 
 This includes
 
@@ -162,10 +196,10 @@ This includes
 
 Additional documents including photos can be uploaded for this status log
 
-![Status log document upload](/docs/coldchain/images/status_log_document_upload.png)
+<p align="center">
+    <img src="/docs/coldchain/images/status_log_document_upload.png" width="700" height="420">
+</p>
 
 These documents can be viewed in the 'Status Logs' tab
 
 ![Status log document](/docs/coldchain/images/status_log_document.png)
-
-#### Print QR code
