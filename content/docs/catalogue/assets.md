@@ -40,13 +40,25 @@ The asset list is divided into 6 columns:
 
 ![Assets page](/docs/catalogue/images/assets_page.png)
 
-To add a filter to the page, choose the required filter from the drop down. Multiple filters can be combined.
+The list can display a fixed number of patients per page. On the bottom left corner, you can see how many assets are currently displayed on your screen.
 
-![Assets filter](/docs/catalogue/images/assets_filter.png)
+![Page](/docs/distribution/images/os_list_showing.png)
+
+If you have more assets than the current limit, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner).
+
+![Page](/docs/distribution/images/os_list_pagenumbers.png)
+
+You can also select a different number of rows to show per page using the option at the bottom right of the page.
+
+![Rows per page](/docs/introduction/images/rows-per-page-select.png)
+
+To add a filter to the page, choose the required filter from the drop down. Multiple filters can be combined.
 
 Assets can be selected and deleted using the toolbar action:
 
-![Assets nav](/docs/catalogue/images/assets_delete.png)
+<p align="center">
+    <img src="/docs/catalogue/images/assets_delete.png" width="425" height="400">
+</p>
 
 ### Importing And Exporting
 
@@ -58,11 +70,15 @@ Assets can be imported from a csv file using the 'Import' button
 
 This will open an import modal.
 
-![Assets nav](/docs/catalogue/images/assets_import_modal.png)
+<p align="center">
+    <img src="/docs/catalogue/images/assets_import_modal.png" width="750" height="420">
+</p>
 
 An example template comma-separated-value (csv) is available for download here:
 
-![Assets nav](/docs/catalogue/images/asset_import_template.png)
+<p align="center">
+    <img src="/docs/catalogue/images/asset_import_template.png" width="750" height="420">
+</p>
 
 Data will need to be converted into the format of the csv template provided in order for Open mSupply to be able to process and upload this data.
 
@@ -84,10 +100,30 @@ Status log reasons can be added and deleted for a particular status here. These 
 
 ![Log Reasons page](/docs/catalogue/images/manage_log_reasons.png)
 
-This page will allow
+#### Managing log reasons
 
-- New log reasons to be created
-- Log reasons to be deleted
-- Log reason list to be filtered
+On this page you can:
 
-![Log Reasons functionality](/docs/catalogue/images/log_reasons_functionality.png)
+- Create new log reasons through the 'Create log reason' button
+
+<p align="center">
+    <img src="/docs/catalogue/images/reasons_create_button.png" width="400" height="300">
+</p>
+
+This will open a create new reason modal
+
+<p align="center">
+    <img src="/docs/catalogue/images/reasons_create_modal.png" width="500" height="350">
+</p>
+
+- Select and delete existing reasons with the 'Actions' dropdown
+
+<p align="center">
+    <img src="/docs/catalogue/images/reasons_delete.png" width="400" height="350">
+</p>
+
+- Filter existing reasons by status using the filter dropdown
+
+<p align="center">
+    <img src="/docs/catalogue/images/reasons_filter.png" width="550" height="300">
+</p>

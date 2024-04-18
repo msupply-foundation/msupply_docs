@@ -42,15 +42,17 @@ The equipment list is divided into 6 columns:
 
 #### Paginate Equipment
 
-The list can display a fixed number of patients per page. On the bottom left corner, you can see how many patients are currently displayed on your screen.
+The list can display a fixed number of patients per page. On the bottom left corner, you can see how many assets are currently displayed on your screen.
 
 ![Page](/docs/distribution/images/os_list_showing.png)
 
-If you have more patients than the current limit, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner).
+If you have more assets than the current limit, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner).
 
 ![Page](/docs/distribution/images/os_list_pagenumbers.png)
 
 You can also select a different number of rows to show per page using the option at the bottom right of the page.
+
+![Rows per page](/docs/introduction/images/rows-per-page-select.png)
 
 #### Filter Equipment
 
@@ -109,7 +111,7 @@ Asset can be exported as a csv using the 'Export' button
 Cold chain assets can be created manually with the 'New Asset' button
 
 <p align="center">
-    <img src="/docs/coldchain/images/create_asset_button.png" width="170" height="62">
+    <img src="/docs/coldchain/images/create_asset_button.png" width="150" height="55">
 </p>
 
 Clicking this button will open the 'Create Asset' modal
