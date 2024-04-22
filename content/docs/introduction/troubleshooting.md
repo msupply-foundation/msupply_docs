@@ -46,3 +46,12 @@ If you are running the postgreSQL version, there may be an issue with the servic
 C:\Program Files\PostgreSQL\14\lib;
 ```
 
+## Unable to login
+
+If you have created a user, configured permissions, and are still getting an error when trying to login, here are some steps to try:
+* Ensure that the user has a store checked as 'Default store' in the mSupply [user administration screen](https://docs.msupply.org.nz/admin:managing_users#login_rights_tab)
+* Check that the user [has permission](https://docs.msupply.org.nz/admin:managing_users#permissions_tabs) to login to a store which is part of the sync site
+* Edit the user in mSupply and check that the user isn't blocked ( you'll see a specific error relating to this in Open mSupply )
+* Try refreshing the page if you are using the web version
+
+<div class="note">Usernames are not case-sensitive, but passwords are!</div>
