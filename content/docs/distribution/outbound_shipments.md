@@ -181,19 +181,21 @@ In the future, we would also include other documents such as temperature records
 
 In this section, you will see by default the total selling price of the items listed in the Outbound Shipment.
 
-You can also add **service charges** if you wish to add other charges such as `Freight Costs`. 
+You can also add **service charges** if you wish to add other charges such as `Freight Costs`.
+
 <div class="note">
 Service charges must be in your Master List for you to use them.
 </div>
 
 To add a service charges to the Invoice Details:
+
 1. Tap on the three dots besides `Service charges` to get a new window to appear.
 2. Tap on the `Add charge` button on the new window. A new line appears in the list of charges. Tap on `Cancel` if you do not wish to add anything
 3. **Name:** Select a service charge from the dropdown list. You can customise the list of available charges. Contact your administrator
 4. **Comment:** You can add a comment to provide further details about the new charge
 5. **Amount:** Enter the amount of the charge
 6. **Tax:** Enter a % of tax for the charge
-7. **Total:** The total field is automatically calculated based on the *amount* and the *tax percentage*
+7. **Total:** The total field is automatically calculated based on the _amount_ and the _tax percentage_
 8. **Delete:** You can tap on the `Delete` icon to delete the charge
 
 The tax rate (%) for service charges and the item's sell price can also be edited by clicking on the pencil icon. A pop-up window will appear for you to enter a value.
@@ -236,14 +238,14 @@ Passed statuses are hightlighted in blue, next statuses appear in grey.
 
 There are 6 status for the Outbound Shipment:
 
-| Status        | Description                                                                                                      |
-| :------------ | ---------------------------------------------------------------------------------------------------------------- |
-| **New**       | This is the first status when you create a shipment                                                              |
-| **Allocated** | Allocation is confirmed. Goods are no longer available for other shipments but are still part of your inventory  |
-| **Picked**    | Shipment is picked and is now ready to ship. Goods are no longer part of your inventory                          |
-| **Shipped**   | Shipment has been shipped.                                                                                       |
-| **Delivered** | Your customer has received the shipment. Goods are now part of their inventory                                   |
-| **Verified**  | Your customer has verified the quantity of the shipment.                                                         |
+| Status        | Description                                                                                                     |
+| :------------ | --------------------------------------------------------------------------------------------------------------- |
+| **New**       | This is the first status when you create a shipment                                                             |
+| **Allocated** | Allocation is confirmed. Goods are no longer available for other shipments but are still part of your inventory |
+| **Picked**    | Shipment is picked and is now ready to ship. Goods are no longer part of your inventory                         |
+| **Shipped**   | Shipment has been shipped.                                                                                      |
+| **Delivered** | Your customer has received the shipment. Goods are now part of their inventory                                  |
+| **Verified**  | Your customer has verified the quantity of the shipment.                                                        |
 
 If you hover over the status sequence, a shipment history window appears. You can see the date when a shipment was updated from one status to another.
 
@@ -337,18 +339,18 @@ Default value is `Any` when you are issuing units.
 
 This is a list of batch numbers that you have in store for this item:
 
-| Column                | Description                                                                                   |
-| :-------------------- | :-------------------------------------------------------------------------------------------- |
-| **Batch**             | Batch number. It is a designation given to products made in the same manufacturing run.      |
-| **Expiry**            | Expiry date of the batch (format: MM/YYYY)                                                    |
+| Column                | Description                                                                                                   |
+| :-------------------- | :------------------------------------------------------------------------------------------------------------ |
+| **Batch**             | Batch number. It is a designation given to products made in the same manufacturing run.                       |
+| **Expiry**            | Expiry date of the batch (format: MM/YYYY)                                                                    |
 | **Location**          | This is the code of the location where the item is stored if your inventory is managed with storage locations |
-| **Pack Sell Price**   | Selling unit price of the item                                                                |
-| **Pack**              | Quantity of units per pack                                                                    |
-| **In Store (packs)**  | Total number of packs in your store                                                           |
-| **Available (packs)** | Number of packs available (not already allocated to other shipments)                          |
-| **[Pack] Qty Issued** | Total quantity of packs to be issued                                                          |
-| **[Unit] Qty Issued** | Number of units to be issued                                                                  |
-| **On Hold**           | Indicates whether a batch is on hold or not. You cannot issue a batch that is on hold.       |
+| **Pack Sell Price**   | Selling unit price of the item                                                                                |
+| **Pack**              | Quantity of units per pack                                                                                    |
+| **In Store (packs)**  | Total number of packs in your store                                                                           |
+| **Available (packs)** | Number of packs available (not already allocated to other shipments)                                          |
+| **[Pack] Qty Issued** | Total quantity of packs to be issued                                                                          |
+| **[Unit] Qty Issued** | Number of units to be issued                                                                                  |
+| **On Hold**           | Indicates whether a batch is on hold or not. You cannot issue a batch that is on hold.                        |
 
 There is also a final row in the table which is a placeholder line, if the status of the Outbound Shipment is `NEW`.
 The placeholder line is used when the quantity you are issuing is higher than your available stock.
@@ -384,7 +386,7 @@ You may see one or more warning messages on this screen:
 The warning is shown to let you know that not enough stock is available to fulfil your request. A placeholder quantity is added automatically so that you can keep track of the amount requested, while adding more stock (for example by using an internal order or inbound shipment).
 
 This image also shows the warning which lets you know that some stock lines are expired; this may be why the system did not auto-allocate particular stock lines.
-However you can still manually choose those lines and issue the expired stock! 
+However you can still manually choose those lines and issue the expired stock!
 
 ![pack sizes warning!](/docs/distribution/images/os_warning_pack_sizes.png)
 
@@ -568,7 +570,6 @@ Once a shipment has been allocated, the next step is to go get the items to prep
 
 Once all items are picked and packed. You can then confirm the picking of the shipment to indicate that it is ready to be dispatched. Goods are no longer part of your inventory and cannot be allocated to other shipments once the status has been changed to `PICKED`.
 
-
 To confirm that a shipment has been picked, tap on the `Confirm Picked` button.
 
 ![Alt Text](/docs/distribution/images/os_confirmpicked.gif)
@@ -618,13 +619,15 @@ Sometimes, stock sent via an Outbound Shipment will need to be returned. You can
 
 A modal will open, containing each line you selected for return:
 
-- **Code**: Item code
-- **Name**: Item name
-- **Batch**: Batch number. It is a designation given to products made in the same manufacturing run.
-- **Expiry**: Expiry date of the batch (format: MM/YYYY)
-- **Unit Variant / Pack Size**: Quantity of units per pack
-- **Pack Quantity Issued**: Number of packs that were issued in the Outbound Shipment
-- **Quantity Returned**: Number of packs to be returned
+| Column                       | Description                                                                             |
+| :--------------------------- | :-------------------------------------------------------------------------------------- |
+| **Code**                     | Item code                                                                               |
+| **Name**                     | Item name                                                                               |
+| **Batch**                    | Batch number. It is a designation given to products made in the same manufacturing run. |
+| **Expiry**                   | Expiry date of the batch (format: MM/YYYY)                                              |
+| **Unit Variant / Pack Size** | Quantity of units per pack                                                              |
+| **Pack Quantity Issued**     | Number of packs that were issued in the Outbound Shipment                               |
+| **Quantity Returned**        | Number of packs to be returned                                                          |
 
 The `Quantity Returned` values will initially be `0` - you can adjust this to return some or all of the available stock.
 

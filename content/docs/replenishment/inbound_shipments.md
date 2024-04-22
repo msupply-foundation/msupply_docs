@@ -39,16 +39,16 @@ First thing you see is a list of existing Inbound Shipments.
 
 The Inbound Shipments list is divided into 7 columns:
 
-| Column      | Description                      |
-| :---------- | :------------------------------- |
-| **Name**    | Name of the Supplier             |
-| **Status**  | Current Status of the shipment   |
-| **Number**  | Reference Number of the shipment |
-| **Created** | Creation date of the shipment    |
-| **Delivered** | Date when the shipment was delivered |
-| **Comment** | Comment for the shipment         |
-| **Reference** | This will contain the supplier invoice number if it was created automatically   |
-| **Total**   | Total value of the shipment      |
+| Column        | Description                                                                   |
+| :------------ | :---------------------------------------------------------------------------- |
+| **Name**      | Name of the Supplier                                                          |
+| **Status**    | Current Status of the shipment                                                |
+| **Number**    | Reference Number of the shipment                                              |
+| **Created**   | Creation date of the shipment                                                 |
+| **Delivered** | Date when the shipment was delivered                                          |
+| **Comment**   | Comment for the shipment                                                      |
+| **Reference** | This will contain the supplier invoice number if it was created automatically |
+| **Total**     | Total value of the shipment                                                   |
 
 2. The list can display a fixed number of shipments per page. On the bottom left corner, you can see how many shipments are currently displayed on your screen.
 
@@ -498,12 +498,14 @@ Sometimes, you might need to return stock that you received via an Inbound Shipm
 
 A modal will open, containing each line you selected to return:
 
-- **Code**: Item code
-- **Name**: Item name
-- **Batch**: Batch number. It is a designation given to products made in the same manufacturing run.
-- **Expiry**: Expiry date of the batch (format: MM/YYYY)
-- **Quantity Available for Return**: Number of packs available. This means the number of packs not already allocated to other shipments or returns, so the quantity could be less than the quantity received in the Inbound Shipment.
-- **Quantity to Return**: Number of packs to be returned
+|              Column               | Description                                                                                                                                                                                      |
+| :-------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|             **Code**              | Item code                                                                                                                                                                                        |
+|             **Name**              | Item name                                                                                                                                                                                        |
+|             **Batch**             | Batch number. It is a designation given to products made in the same manufacturing run.                                                                                                          |
+|            **Expiry**             | Expiry date of the batch (format: MM/YYYY)                                                                                                                                                       |
+| **Quantity Available for Return** | Number of packs available. This means the number of packs not already allocated to other shipments or returns, so the quantity could be less than the quantity received in the Inbound Shipment. |
+|      **Quantity to Return**       | Number of packs to be returned                                                                                                                                                                   |
 
 ![Alt Text](/docs/replenishment/images/is_return_select_quantity.png)
 
