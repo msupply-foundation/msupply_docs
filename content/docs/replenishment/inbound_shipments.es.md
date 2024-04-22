@@ -4,7 +4,7 @@ description = "Recibir inventario desde tus proveedores"
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
 draft = false
-weight = 43
+weight = 44
 sort_by = "weight"
 template = "docs/page.html"
 
