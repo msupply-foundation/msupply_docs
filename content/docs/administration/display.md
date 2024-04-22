@@ -23,14 +23,13 @@ To view the display settings, go to `Admin` in the lower section of the navigati
 
 ![Location: nav](/docs/administration/images/admin_nav.png)
 
-You will see the display settings section at the top of the page: 
+You will see the display settings at the top, click on this to view the options:
 
 ![Location: list](/docs/administration/images/display_settings.png)
 
-
 ## Language
 
-To change the language, you simply have to select from the drop down list
+To change the language, you simply have to select from the drop down list.
 
 ![Language](/docs/administration/images/change_language.png)
 

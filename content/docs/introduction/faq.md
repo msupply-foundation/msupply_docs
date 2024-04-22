@@ -4,7 +4,7 @@ description = "aka FAQ."
 date = 2023-02-01
 updated = 2023-02-01
 draft = false
-weight = 3
+weight = 4
 sort_by = "weight"
 template = "docs/page.html"
 

@@ -101,7 +101,7 @@ Solo puedes eliminar salidas cuyo estado sea <code>NUEVO</code>.
 
 2. Presionar el botón  `Nueva salida`, en la esquina superior derecha.
 
-![New Shipment](/docs/distribution/images/clicknewshipment.png)
+![New Shipment](/docs/distribution/images/os_click_new_shipment.png)
 
 3. Se abrirá una nueva ventana llamada `Clientes`, la cual le invita a seleccionar un cliente. 
 

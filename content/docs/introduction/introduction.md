@@ -91,8 +91,9 @@ The following table outlines some of the common terms used in mSupply, and also 
 | :---------------: | :-------------------: | :----------------------------------------------------------------------- |
 | Outbound Shipment |   Customer Invoice    | The creation of a supply of goods to a particular customer (facility)    |
 | Inbound Shipment  |   Supplier Invoice    | The receiving of a supply of goods from a particular supplier            |
+| Inbound Shipment  |   Supplier Invoice    | The receiving of a supply of goods from a particular supplier            |
 |    Requisition    | Customer Requisitions | An order for supply of goods made by a particular customer (facility)    |
-|  Internal Orders  | Supplier Requisitions | A request for stock made for a particular supplier (facility)            |
+|  Internal Orders  | Supplier Requisitions | A request for stock made to a particular supplier (facility)             |
 |  Outbound Return  |    Supplier Credit    | The return of supplied goods to a particular supplier (facility)         |
 |  Inbound Return   |    Customer Credit    | The receiving of a return of goods from a particular customer (facility) |
 
@@ -111,7 +112,7 @@ Note that we are also currently working through testing the migration process an
 
 #### Procedure:
 
-1. Any Open mSupply stores need to be created in the Legacy mSupply central server as detailed in [Creating new stores](https://docs.msupply.org.nz/other_stuff:virtual_stores#creating_new_stores). Note that you will normally [Turn an existing customer into a store](https://docs.msupply.org.nz/other_stuff:virtual_stores#transition_a_customer_to_a_virtual_store).
+1. Any Open mSupply stores need to be created in the Legacy mSupply central server as detailed in [Creating new stores](https://docs.msupply.org.nz/other_stuff:virtual_stores#creating_new_stores). Note that [turning an existing customer into a store](https://docs.msupply.org.nz/other_stuff:virtual_stores#transition_a_customer_to_a_virtual_store) is not currently supported for Open mSupply sites.
 2. Users need to be created and configured for the store(s) in the Legacy mSupply central server as detailed in [Managing Users](https://docs.msupply.org.nz/admin:managing_users)
 3. The Open mSupply site needs to be created in the Legacy mSupply central server as detailed in [Creating New Sync Sites](https://docs.msupply.org.nz/synchronisation:sync_sites#creating_new_sync_sites)
 4. The store(s) will need to be added to the Open mSupply site in the Legacy mSupply central server as detailed in [Adding stores](https://docs.msupply.org.nz/synchronisation:sync_sites#adding_stores)

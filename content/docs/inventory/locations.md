@@ -54,7 +54,7 @@ Putting a location on hold can be useful if:
 <br><br>
 - The stock needs to be kept from being issued until some inspection / approval (e.g. quarantine or under bond)
 <br><br>
-- The stock is a bulk quantity with the same expiry date as another stock line in another location from which you want stock issued. You can use this feature to force mSupply to always suggest issuing stock of this item from the 'issue' location rather than this 'bulk' location. When you have finished issuing stock from the 'issue' location, and you want to issue the stock that is in the 'bulk' location, you will need to either take the 'bulk' location off hold, or, move all, or some of it (split), the stock from the 'bulk' location.
+- The stock is a bulk quantity with the same expiry date as another stock line in another location from which you want stock issued. You can use this feature to force mSupply to always suggest issuing stock of this item from the 'issue' location rather than this 'bulk' location. When you have finished issuing stock from the 'issue' location, and you want to issue the stock that is in the 'bulk' location, you will need to either take the 'bulk' location off hold, move all stock or some of it (split) from the 'bulk' location into another location.
 </div>
 
 ## Editing a new location

@@ -55,7 +55,7 @@ From this screen you can:
 
 ![Rows per page](/docs/introduction/images/rows-per-page-select.png)
 
-### Filter requisitions
+### Filter Requisitions
 
 You can filter the list of requisitions by name or status. This can be useful if you're looking for one particular requisition!
 
@@ -71,7 +71,7 @@ The list of Requisitions can be exported to a comma separated file (csv). Simply
 
 and the file will be downloaded. The export function will download all Requisitions, not just the current page, if you have more than 20 of them.
 
-### Viewing a requisition
+### Viewing a Requisition
 
 To view the detail of a particular requisition, simply click on it in the list view.
 You will then see the detail view of the requisition:
@@ -85,11 +85,13 @@ Clicking on an individual item in this view, will then show you details of the p
 The requested quantity is also shown, along with the stock item details. 
 
 The `My Store` tab indicates if the store have enough stock to meet the customer's requested quantity as well as the requested quantities from other customers. The two bars show the following:
-1. 
+
+*The first bar:*
    - Your stock on hand for this item
    - Any incoming stock for this item that has been `Shipped`, but not yet `Delivered`
    - The quantity being requested for this item in any `Internal Orders`
-2. 
+
+*The second bar:*
    - The quantity being requested for this item in this Requisition
    - The quantity being requested in other Requisitions
 

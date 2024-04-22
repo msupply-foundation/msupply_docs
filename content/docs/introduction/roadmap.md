@@ -4,7 +4,7 @@ description = "Open mSupply Road Map."
 date = 2022-11-10T18:20:00+00:00
 updated = 2022-11-10T18:20:00+00:00
 draft = false
-weight = 1
+weight = 2
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -18,38 +18,27 @@ It only covers our immediate committed work stream. Our planned feature list is 
 ### Road map
 {% mermaid ()%}
 gantt
- title Open mSupply Road Map 2023
+ title Open mSupply Road Map 2024
  dateFormat YY-MM-DD
  axisFormat %B
- section Version 1.1.11
-  Barcode scanning :t1-1-12-1,23-04-10, 15d
-  Program based requisitions :t1-1-12-2,23-03-15, 30d
-  Remote authorisation :t1-1-12-2,23-04-15, 7d
- section Version 1.1.12
-  Barcode scanning :t1-1-12-1,23-04-30, 15d
- section Version 1.1.15
-  Repacks :t1-1-2,23-05-01, 35d
-  Programs feature RC1 :t1-1-3,23-02-01, 30d
-  Android stabilisation :t1-1-4,23-02-01, 25d
- section Version 1.2
-  Preferences: t1-2-3, after t1-1-2, 28d
-  Patient programs feature: t1-2-2, after t1-1-3, 150d
- section Version 1.3
-  Basic dispensing: t1-3-1, 23-06-01, 85d
-  Dispensing : milestone, m2, after t2-0-1, 
-section Version 1.4
-  Dispensing updates: t1-4-1, 23-06-01, 85d
-section Version 1.5
-  Cold chain integration :t1-5-1, after t1-4-1, 58d
-  Multi unit item: t1-5-2, 23-08-15, 120d
-section Version 1.6
-  Reporting phase 1: t1-6-2, after t1-5-1, 14d
-  Front-end plugin framework :t1-6-1, 23-09-01, 40d
 section Version 1.7
-  Cold chain equipment :t1-7-1, after t1-5-1, 60d
-section Version 1.8
-  Customer returns: t1-8-1, after t1-7-1, 32d
-  Supplier returns: t1-8-2, after t1-7-1, 32d
+  Currency: t1-7-1, 24-02-12, 12d
+  Merge: t1-7-2, 24-02-12, 30d
+v1.7.00 : milestone, m1, 24-03-20, 16d
+section Version 2.0
+  Pack variant: t1-8-1, 24-02-12, 36d
+  Customer returns: t1-8-2, after t1-7-2, 30d
+  Supplier returns: t1-8-3, after t1-7-2, 30d
+  Asset (CCE) management: t1-8-4, after t1-7-2, 30d
+  Migration: t1-8-5, after t1-7-2, 40d
+v2.0.00 : milestone, m2, 24-05-08, 0d
+section Version 2.1
+  Inventory Adjustments: t2-1-1, after t1-8-2, 24d
+  Backend plugins: t2-1-2, after t1-8-2, 30d
+  Reports: t2-1-3, after t1-8-2, 20d
+section Version 2.2
+  Label printing: t2-2-1, after t2-1-1, 20d
+  Basic PO & receiving: t2-2-2, after t2-1-1, 30d
 {% end %} 
 
 

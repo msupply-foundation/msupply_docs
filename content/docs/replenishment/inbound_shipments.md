@@ -45,7 +45,9 @@ The Inbound Shipments list is divided into 7 columns:
 | **Status**  | Current Status of the shipment   |
 | **Number**  | Reference Number of the shipment |
 | **Created** | Creation date of the shipment    |
+| **Delivered** | Date when the shipment was delivered |
 | **Comment** | Comment for the shipment         |
+| **Reference** | This will contain the supplier invoice number if it was created automatically   |
 | **Total**   | Total value of the shipment      |
 
 2. The list can display a fixed number of shipments per page. On the bottom left corner, you can see how many shipments are currently displayed on your screen.
@@ -100,7 +102,7 @@ You can only delete Inbound Shipments with a status <code>NEW</code>.
 
 ### Select a Supplier
 
-1. In the `Suppliers` window, you will be presented with a list of suppliers. You can select your supplier from the list or you can type as much of a supplier name.
+1. In the `Suppliers` window, you will be presented with a list of suppliers. You can select your supplier from the list or you can type as much of a supplier name as you want.
 
 <div class="tip">
 You can tell if a supplier is also using mSupply in their store. If they do, you will see icon like this (<img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto">) next to the supplier code. 
@@ -232,7 +234,7 @@ There are 5 status for the Inbound Shipment:
 | **Picked**    | Supplier has confirmed that shipment is picked and ready to ship (applies only to automatically created shipments) |
 | **Shipped**   | Shipment has been shipped and goods are now in transit (applies only to automatically created shipments)           |
 | **Delivered** | When you confirm that the shipment has been delivered                                                              |
-| **Verified**  | When you have verified the inbound shipment                                                                        |
+| **Verified**  | When you have verified the Inbound Shipment                                                                        |
 
 You probably noticed that two of the status values only apply to automatically created shipments. These are created by the system when another store in the system creates an Outbound Shipment to deliver stock to your store. If this is the case you'll see a message near the top of the page:
 
@@ -324,13 +326,13 @@ In the `Quantities` tab, you can update the following fields:
 
 1. **Batch**: Type here the batch number. Leave blank if item is not managed with batch number.
 2. **Expiry**: The expiry date of the batch number. Leave blank is not applicable
-3. **# Packs**: The quantity of packs you are receiving
+3. **Pack Qty**: The quantity of packs you are receiving
 4. **Pack Size**: The quantity of units per pack (by default, pack size is 1)
 5. **Unit Qty** (read-only): Automatically calculated based on # Packs and Pack Size (`[# Packs] x [Pack Size]`)
 6. If you are receiving more than one batch number for the same item, you can tap on the `Add Batch` button
 
 <div class="imagetitle">
-In below example, we are receiving 2 batch numbers for item <i>030453 - Amoxicillin 250mg tabs</i> with a different pack size. 
+In below example, we are receiving 2 batch numbers for item <i>030063 - Acetylsalicylic Acid 100mg tabs</i> with a different pack size. 
 </div>
 
 ![Add Item quantities](/docs/replenishment/images/is_additem_quantities.png)
@@ -339,17 +341,19 @@ In below example, we are receiving 2 batch numbers for item <i>030453 - Amoxicil
 
 On the second tab, `Pricing`, you can update the following fields (all are optional):
 
-- **Sell**: The selling unit price of the item (default value is 0)
+- **Batch** (read-only): Batch number
+- **Pack Size** (read-only): The quantity of units per pack
+- **Pack Qty** (read-only): The quantity of packs you are receiving
 - **Cost**: The purchasing unit price of the item (default value is 0)
-- **Unit Qty** (read-only): Total number of units for the batch number
-- **Line Total** (read-only): Total purchasing value for the batch number (`[Unit Qty] x [Cost]`)
+- **Sell**: The selling unit price of the item (default value is 0)
+- **Line Total** (read-only): Total purchasing value for the batch number (`[Pack Qty] x [Cost]`)
 
 <div class="warning">
 Sell & Cost prices are per units and not per pack. 
 </div>
 
 <div class="imagetitle">
-In below example, sell price $12 per unit and cost price is $10 per unit. 
+In below example, the first line's cost price is $0.01 per unit and the sell price $0.10 per unit. 
 </div>
 
 ![Add Item pricing](/docs/replenishment/images/is_additem_pricing.png)
@@ -363,15 +367,15 @@ Simply select a storage location from the `Location` dropdown menu.
 ![Add Item location](/docs/replenishment/images/is_additem_location.png)
 
 <div class="note">
-Don't know the storage location yet ? You don't have to capture it right away. You can update the storage location at any time if you haven't confirmed the verification yet. 
+Don't know the storage location yet? You don't have to capture it right away. You can update the storage location at any time if you haven't confirmed the verification yet. 
 </div>
 
 ### Confirm item and quantities
 
 When you're done, you can add the new line by tapping on:
 
-- `OK`if you don't want to add another line to your shipment
-- `OK & Next`if you have other lines to create
+- `OK` if you don't want to add another line to your shipment
+- `OK & Next` if you have other lines to create
 
 Otherwise, you can tap on `Cancel` and your changes won't be saved.
 
@@ -425,12 +429,6 @@ To edit an Inbound Shipment line, simply tap on it. You will be presented with t
 3. Select the line(s) you want to delete by checking the box(es) on the right of the list
 4. Go to the `Actions` dropdown menu (top right corner, above the list)
 5. Select the action `Delete selected lines`
-
-![Alt Text](/docs/replenishment/images/is_actions_deleteselectedlines.png)
-
-<div class="imagetitle">
-In below example, we are deleting <i>item 030453 - Amoxicillin 250mg tabs</i>
-</div>
 
 ![Alt Text](/docs/replenishment/images/is_deleteselectedlines.gif)
 

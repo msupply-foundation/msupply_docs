@@ -1,0 +1,54 @@
+# Simple workflow for copying the staging branch to the staging repo
+name: Copy to staging repo
+
+on:
+  # Runs on pushes targeting the staging branch
+  push:
+    branches: ["staging"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # Single copy job
+  copy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source
+        uses: actions/checkout@v3
+        with:
+          path: 'content'
+          ref: 'staging'
+          persist-credentials: false
+      - name: Checkout Destination
+        uses: actions/checkout@v3
+        with:
+          path: 'dest'
+          ref: 'main'
+          repository: 'msupply-foundation/msupply_docs_staging'
+          token: ${{ secrets.STAGING_TOKEN }}
+          persist-credentials: true
+      - run: |
+          # change to destination repository
+          cd dest
+          # copy a files or folders from source to destination
+          cp -rf ../content/* .
+          # this is useful for debugging
+          git status
+          # github.actor is the name of the login that checked in the commit in the source repository       
+          git config --global user.name ${{ github.actor }}
+          # configure your email address
+          git config --global user.email "m2@msupply.foundation"
+          # add all the copied files to the destination repo for a commit
+          git add .
+          # check if any files actually changed, if files are different them commit them 
+          # include the sha commit from the source repository as the commit in the destination commit.
+          git diff --quiet && git diff --staged --quiet || git commit -m "from ${{ github.sha }}" 
+          # push the changes
+          git push origin 

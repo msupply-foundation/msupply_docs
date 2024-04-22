@@ -25,6 +25,17 @@ In the navigation panel, tap on `Catalogue` > `Items` to show the items list:
 
 You can see all the items which are available for use by your store:
 
+The Items list is divided into 6 columns: 
+
+| Column      | Description                      |
+| :---------- | :------------------------------- |
+| **Code**    | Code assigned to this item in mSupply           |
+| **Name**    | This is the name by which mSupply will refer to the item                  |
+| **Unit**    | The unit of measure for the item |
+| **SOH**     | How much stock is available in your store          |
+| **AMC**     | Average Monthly Consumption. This is how much stock your store uses each month on average (based on a configurable number of months, defaults to 3 months).           |
+| **MOS**     | umber of months of consumption left with current stock. This is calculated as: `Stock on Hand / AMC`.                  |
+
 ![Items list](/docs/catalogue/images/cat_itemslist.png)
 
 ## Viewing an item's details
@@ -40,30 +51,36 @@ On top of the screen, you can the following information:
 - **Months of Stock**: Number of months of consumption left with current stock. This is calculated as: `Stock on Hand / AMC`.
 
 <div class="imagetitle">
-In below example, we have 1542 units of Amoxicillin available in our store. The average consumption is 53.3  units per month which means that there is the equivalent of 28.9 months of stock in the inventory. 
+In below example, we have 20,219 units of Acetylsalicylic Acid available in our store. The average consumption is 3,443.67 units per month which means that there is the equivalent of 5.87 months of stock in the inventory. 
 </div>
 
 ![Item detail headers](/docs/catalogue/images/cat_itemdetailsheaders.png)
 
-In the bottom part, item details are divided into several sections:
+There are two tabs in the bottom part of the screen:
+- **General**: The item's basic information
+- **Master Lists**: Master lists associated with the item
+<!-- - **Pack Variants**: Customisable pack sizes for the item. Can only be configured in Open mSupply's new central server. -->
 
-### Details
+#### General
+
+##### Details
 
 - **Name**: This is the name by which mSupply will refer to the item
 - **Code**: This should be unique for each item and is a helpful shorthand for referring to items
 - **Unit**: The unit you use for this item. It is useful to distinguish items you issue by pack (eg. eye drops) from items you issue by volume (eg. oral liquids)
 - **Strength**: For a medicine, the concentration of its active ingredients (eg. for Amoxillin 250mg, the strength is 250mg)
 - **Defined Daily Dose**: The assumed average maintenance dose per day for a medicine used for its main indication in adults
+- **Type**: The type of item (eg. Stock or Service)
 - **Doses**: For vaccines, the number of dose per vial
 - **Vaccine** (check box): If this is checked, this item is a vaccine and a number of dose can be assigned
 
-### Categories
+##### Categories
 
 - **ATC Category**: ATC stands for Anatomical, Therapeutic, Chemical and is a method of classifying entities, and identifying them by category
 - **Universal Name**: if the item is linked to the [universal drug code database](https://codes.msupply.foundation/), this shows the universal, or generic name for the given item
 - **Universal Code**: similarly, the code allocated to the universal drug code item
 
-### Packaging
+##### Packaging
 
 - **Default pack size**: This is the default pack size that will be assigned to incoming stock as it is received
 - **Outer pack size**: The number of units in a carton (outer pack). Not the number of preferred pack size packs in a carton (outer pack).
@@ -71,6 +88,11 @@ In the bottom part, item details are divided into several sections:
 - **Volume per outer pack**: The default volume of an Outer pack size pack of this item
 - **Weight**: The weight of a preferred pack size pack in kg
 
-### Pricing
+##### Pricing
 
 - **Margin**: This is the default margin that will be applied to this item on Inbound Shipments to calculate the selling price
+
+#### Master Lists
+
+This tab lists the Master Lists associated with this item.
+![Item detail headers](/docs/catalogue/images/cat_itemmasterlists.png)

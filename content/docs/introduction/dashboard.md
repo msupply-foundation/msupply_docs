@@ -4,8 +4,8 @@ description = "Open mSupply Introduction."
 date = 2022-03-17T18:20:00+00:00
 updated = 2022-03-17T18:20:00+00:00
 draft = false
-weight = 5
-sort_by = "weight"
+weight = 3
+sort_by = "title"
 template = "docs/page.html"
 
 [extra]
@@ -35,7 +35,7 @@ You can see some statistics for shipments and stock:
   - Shipments
     - **Have not been shipped**: The number of Outbound Shipments that have not been set to `Shipped` (or later) status
   - Requisitions
-    - **New**: The number of new customer requisitions
+    - **New**: The number of new Requisitions
 - Inventory Management
   - Expiring Stock
     - **Expired batches**: The number of stock lines in the current store which have expired

@@ -22,9 +22,11 @@ To view the server log, go to `Admin` in the lower section of the navigation pan
 
 ![Admin: nav](/docs/administration/images/admin_nav.png)
 
-You will see the text 'Server log' and a button to `View` the logs:
+You will see the `Support` section below the Synchronisation settings, click on this to view the options.
 
 ![Support: server log](/docs/administration/images/support_server_log.png)
+
+The Support section allows you to view the server log files and download your database for support purposes.
 
 Pressing the `View` button will open a new window which allows you to select the log file to view. The logs shown in the `Server log` drop down are all of the logs currently available on the server.
 
@@ -52,3 +54,7 @@ After selecting a log file to view, the contents of the log is loaded. This make
 When loaded, you'll see the text contents of the log:
 
 ![Support: select log](/docs/administration/images/support_log_contents.png)
+
+To download the database, press the `Download` button. You can find this download in your download folder.
+
+![Support: download database](/docs/administration/images/download_database.png)

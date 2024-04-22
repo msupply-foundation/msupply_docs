@@ -4,7 +4,7 @@ description = "Open mSupply Introduction."
 date = 2023-02-24T18:20:00+00:00
 updated = 2023-02-24T18:20:00+00:00
 draft = false
-weight = 6
+weight = 5
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -17,8 +17,8 @@ toc = true
 
 When you first start the mobile app, you'll be greeted with a welcome screen which asks if you'd prefer to run in one of the two modes:
 
-- **Client** Which is where the mobile app connects to a server on your local network
-- **Server** The app will run a full version of the Open mSupply server locally. You can configure this server to sync with a central server
+- **Client:** Which is where the mobile app connects to a server on your local network
+- **Server:** The app will run a full version of the Open mSupply server locally. You can configure this server to sync with a central server
 
 ![Mobile welcome screen](/docs/introduction/images/mobile_welcome.png)
 
@@ -27,7 +27,7 @@ Simply click the button of the option you prefer. Don't worry though! this can b
 ![Mobile settings](/docs/introduction/images/mobile_settings.png)
 
 ## Client mode
-
+mo
 After selecting the client mode, you'll see a list of available servers. These are the servers on your local network. 
 
 You may see `[ Not configured ]` next to some of the servers - this indicates that the server hasn't yet been configured to synchronise with a central server yet.
