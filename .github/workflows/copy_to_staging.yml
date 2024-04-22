@@ -1,5 +1,5 @@
 # Simple workflow for copying the staging branch to the staging repo
-name: Copy
+name: Copy to staging repo
 
 on:
   # Runs on pushes targeting the staging branch
