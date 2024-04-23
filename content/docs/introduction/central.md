@@ -21,7 +21,7 @@ In essence it's just another Open mSupply instance. However, the differences fro
 
 - Only one instance of the Open mSupply central server will exist in the Open mSupply system
 - It will be configured by our support staff and needs to be available on the World Wide Web (typically as a cloud server, but can also be hosted in country)
-- All remote instances of Open mSupply will communicate with Open mSupply central server, as part of the synchronisation process
+- All remote instances of Open mSupply will communicate with Open mSupply central server, as part of the [synchronisation process](/docs/sync/synchronisation/)
 - Allows for configurations of subsets of central data
 
 ## What does it look like?
