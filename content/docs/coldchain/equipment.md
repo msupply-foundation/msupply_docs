@@ -109,6 +109,24 @@ Asset can be exported as a csv using the `Export` button
     <img src="/docs/distribution/images/export.png" width="150" height="67">
 </p>
 
+### QR code scanning
+
+If you are running Open mSupply on a tablet, or are running the desktop version, you will get an extra button on the menu bar which allows scanning QR codes. This is the `Scan` button:
+
+![Scan button](/docs/coldchain/images/equipment_scan.png)
+
+You may see this notification when you click the button:
+
+![Scan button](/docs/coldchain/images/equipment_scan_error.png)
+
+If you do, don't panic! Head over to the [Barcode Scanners](/docs/administration/devices/#barcode-scanners) section of the `Admin` documentation and configure a scanner before continuing.
+
+Once you have a scanner connected - you can click the `Scan` button and scan a QR code.
+If a match is found when you scan, you'll be taken to the detail page for that cold chain equipment item. If not, you'll see a notification telling that no match was found.
+
+<div class="note">You can print a QR code label for an equipment item. See the <a href="/docs/coldchain/equipment/#printing-a-qr-code">Print QR code</a> section for details</div>
+
+
 ### Create new asset
 
 Cold chain assets can be created manually with the `New Asset` button
@@ -171,6 +189,9 @@ Additional documents can be uploaded for this asset.
 
 ![Asset documents tab](/docs/coldchain/images/documents_tab.png)
 
+Documents which are uploaded here will synchronise to the central server, though not as a part of the usual sync process. Files will only be sent when there is no other information to synchronise, which means that adding documents won't cause delays in shipments or stock showing up.
+
+
 #### Log
 
 The `Log` tab shows the activity log of this asset.
@@ -208,3 +229,15 @@ Additional documents including photos can also be uploaded for this status log
 These documents can be viewed in the `Status Logs` tab
 
 ![Status log document](/docs/coldchain/images/status_log_document.png)
+
+#### Printing a QR code
+
+To help identify assets, you can print a QR code label for your asset. This can then be scanned (see above) to easily identify an asset in your system.
+
+Simply click the `Print QR code` button and a QR code will be printed, if you have a label printer configured.
+
+To configure a label printer, refer to the [Label Printing](/docs/administration/devices/#label-printing) section of the administration pages.
+
+The label will show the code and serial number, for example:
+
+![Sample QR](/docs/coldchain/images/sample_qr_label.jpg)
