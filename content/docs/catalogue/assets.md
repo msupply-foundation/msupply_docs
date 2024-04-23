@@ -9,13 +9,14 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "Managing your assets"
+lead = "Managing your catalogue of asset items"
 toc = true
 top = false
 +++
 
-Assets in Open mSupply is a digital register to manage the creation and maintenance of assets. It allows health departments to keep track of, manage and maintain their assets.
+Assets in Open mSupply is a digital register to manage the creation and maintenance of assets.
 
+The asset catalogue provides a list of base asset items, and is pre-populated from the [WHO PQS Catalogue](https://apps.who.int/immunization_standards/vaccine_quality/pqs_catalogue/) (sections E003 & E004). You can then create an asset based on the items in this catalogue using the [Equipment](/docs/coldchain/equipment/) section. Doing so will give you base information, such as the manufacturer & model of an asset without having to enter that manually.
 From the **Assets** menu, you can view all of the assets currently in your store.
 
 ### Viewing Asset List
@@ -28,15 +29,15 @@ Here you can see all the assets which are available in your store.
 
 The asset list is divided into 6 columns:
 
-| Column            | Description                                                |
-| :---------------- | :--------------------------------------------------------- |
-| **Sub catalogue** | The catalogue this asset belongs to                        |
-| **Code**          | The code of the catalogue item which this asset belongs to |
-| **Type**          | The type of asset                                          |
-| **Manufacturer**  | The manufacturer of your asset                             |
-| **Model**         | The model number of the asset                              |
-| **Class**         | The class of the asset. ie: `Cold chain equipment`         |
-| **Category**      | The subcategory of the asset                               |
+| Column            | Description                                                                                               |
+| :---------------- | :-------------------------------------------------------------------------------------------------------- |
+| **Sub catalogue** | The catalogue this asset belongs to                                                                       |
+| **Code**          | The code of the catalogue item which this asset belongs to                                                |
+| **Type**          | The type of asset                                                                                         |
+| **Manufacturer**  | The manufacturer of your asset                                                                            |
+| **Model**         | The model number of the asset                                                                             |
+| **Class**         | The class of the asset. ie: `Cold chain equipment`                                                        |
+| **Category**      | The subcategory of the asset e.g. section E003 in the PQS catalogue which is `Refrigerators and freezers` |
 
 ![Assets page](/docs/catalogue/images/assets_page.png)
 
@@ -72,7 +73,7 @@ Assets can be selected and deleted using the toolbar action:
 
 #### Import
 
-Assets can be imported from a csv file using the `Import` button
+Assets can be imported from a comma-separated-file (csv) file using the `Import` button.
 
 ![Assets nav](/docs/catalogue/images/assets_import.png)
 
@@ -82,7 +83,7 @@ This will open an import modal.
     <img src="/docs/catalogue/images/assets_import_modal.png" width="750" height="420">
 </p>
 
-An example template comma-separated-value (csv) is available for download here:
+An example template (in csv format) is available for download here:
 
 <p align="center">
     <img src="/docs/catalogue/images/asset_import_template.png" width="750" height="420">
@@ -94,13 +95,11 @@ A csv file can be uploaded once it has been created in the example format.
 
 #### Export
 
-Asset can be exported as a csv using the `Export` button
+A list of assets can be exported as a csv file using the `Export` button.
 
 ![Assets nav](/docs/catalogue/images/asset_export_button.png)
 
 ### Managing status log reasons
-
-Status log reasons can be managed using this button.
 
 When users add a new status log against a particular asset, more detail can be provided with a reason associated with the new status. For example, an asset which has been labled `NON_FUNCTIONING` could be assigned a reason of `power supply broken`. These reasons are customisable, and associated with a particular status.
 

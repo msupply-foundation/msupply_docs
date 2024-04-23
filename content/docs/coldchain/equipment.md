@@ -17,7 +17,11 @@ Cold Chain Equipment is a digital register for the creation and management of co
 
 From the **Equipment** menu, all assets available in a store can be viewed.
 
-Cold chain assets from all stores are visible when accessing the **Equipment** menu via Open mSupply [central server](/docs/administration/synchronisation/).
+<!--
+TODO: Add link to central server docs when they are created
+-->
+
+Cold chain assets from all stores are visible when accessing the **Equipment** menu via Open mSupply central server.
 
 <p align="center">
     <img src="/docs/coldchain/images/equipment.png" width="400" height="525">
@@ -27,18 +31,18 @@ Here you can see all cold chain equipment available in your store.
 
 The equipment list is divided into 6 columns:
 
-| Column                | Description                                                                                                                                |
-| :-------------------- | :----------------------------------------------------------------------------------------------------------------------------------------- |
-| **Asset Number**      | The asset number                                                                                                                           |
-| **Type**              | The type of asset                                                                                                                          |
-| **Manufacturer**      | The manufacturer of your asset                                                                                                             |
-| **Model**             | The model number of the asset                                                                                                              |
-| **Functional Status** | The functional status of the asset ie: `FUNCTIONING`                                                                                       |
-| **Serial Number**     | The serial number of the asset                                                                                                             |
-| **Non-catalogue**     | Designates if the asset is not part of the [WHO PQS Catalogue](https://apps.who.int/immunization_standards/vaccine_quality/pqs_catalogue/) |
-| **Notes**             | Notes entered about the asset                                                                                                              |
+| Column                | Description                                                                                                       |
+| :-------------------- | :---------------------------------------------------------------------------------------------------------------- |
+| **Asset Number**      | The asset number                                                                                                  |
+| **Type**              | The type of asset                                                                                                 |
+| **Manufacturer**      | The manufacturer of your asset                                                                                    |
+| **Model**             | The model number of the asset                                                                                     |
+| **Functional Status** | The functional status of the asset ie: `FUNCTIONING`                                                              |
+| **Serial Number**     | The serial number of the asset                                                                                    |
+| **Non-catalogue**     | Designates if the asset was not created from a catalogue item (see [Catalogue > Assets](/docs/catalogue/assets/)) |
+| **Notes**             | Notes entered about the asset                                                                                     |
 
-![Equipment nav](/docs/coldchain/images/equipment_route.png)
+![Equipment nav](/docs/coldchain/images/equipment_list.png)
 
 #### Paginate Equipment
 
@@ -72,7 +76,7 @@ Assets can be selected and deleted using the toolbar action:
 
 #### Import
 
-Cold chain assets can be imported from a csv file using the `Import` button
+Cold chain assets can be imported from a comma-separated-value (csv) file using the `Import` button
 
 <p align="center">
     <img src="/docs/coldchain/images/equipment_import_button.png" width="550" height="280">
@@ -84,14 +88,19 @@ This will open an import modal.
     <img src="/docs/coldchain/images/equipment_import_modal.png" width="750" height="420">
 </p>
 
-An example template comma-separated-value (csv) is available for download here:
+An example template csv is available for download here:
 
 <p align="center">
     <img src="/docs/coldchain/images/equipment_import_template_download.png" width="750" height="420">
 </p>
 
 When importing assets from a store, they will be assigned to that store.
-When importing assets from the [central server](/docs/administration/synchronisation/), an additional field of `store` will be required which will assign assets to their respective stores.
+
+<!--
+TODO: Add link to central server docs when they are created
+-->
+
+When importing assets from the central server, an additional field of `store` will be required which will assign assets to their respective stores.
 
 Information will need to be entered in the format provided by the csv template in order for Open mSupply to be able to process and upload this data.
 
@@ -103,7 +112,7 @@ A csv file can be uploaded once it has been created in the example format.
 
 #### Export
 
-Asset can be exported as a csv using the `Export` button
+A list of assets can be exported as a csv using the `Export` button.
 
 <p align="center">
     <img src="/docs/distribution/images/export.png" width="150" height="67">
@@ -126,10 +135,9 @@ If a match is found when you scan, you'll be taken to the detail page for that c
 
 <div class="note">You can print a QR code label for an equipment item. See the <a href="/docs/coldchain/equipment/#printing-a-qr-code">Print QR code</a> section for details</div>
 
-
 ### Create new asset
 
-Cold chain assets can be created manually with the `New Asset` button
+Cold chain assets can be created manually with the `New Asset` button.
 
 <p align="center">
     <img src="/docs/coldchain/images/create_asset_button.png" width="150" height="55">
@@ -140,11 +148,11 @@ Clicking this button will open the `Create Asset` modal
 With this modal you can assign:
 
 - the Asset Category
-- the asset catalogue item the asset belongs to
+- the asset catalogue item the Asset will be based on: this will link information from the catalogue item ( such as manufacturer & model ) to this newly created Asset
 - the Asset number
-- notes about the asset
+- notes about the Asset
 
-If the asset you are creating is not part of the `WHO PQS catalogue`, you can use the toggle to create an asset which does not belong to the catalogue.
+If the asset you are creating is not part of either the `WHO PQS` or `General` catalogue, you can use the toggle to create an asset which is not based on a catalogue item.
 
 <p align="center">
     <img src="/docs/coldchain/images/create_asset_modal.png" width="650" height="420">
@@ -162,14 +170,14 @@ There are 4 tabs available to manage the asset:
 
 #### Summary tab
 
-The `Summary` tab can
+From the `Summary` tab, you can:
 
 - edit the serial number
 - assign an installation date
 - assign a replacement date
 - assign locations to the the asset
 
-Multiple locations can be assigned to one asset.
+<div class="tip">Multiple locations can be assigned to one asset</div>
 
 You can also view the functional status and edit the notes of the status log.
 
@@ -189,8 +197,11 @@ Additional documents can be uploaded for this asset.
 
 ![Asset documents tab](/docs/coldchain/images/documents_tab.png)
 
-Documents which are uploaded here will synchronise to the central server, though not as a part of the usual sync process. Files will only be sent when there is no other information to synchronise, which means that adding documents won't cause delays in shipments or stock showing up.
+<!--
+TODO: Add link to central server docs when they are created
+-->
 
+Documents which are uploaded here will synchronise to the central server, though not as a part of the usual sync process. Files will only be sent when there is no other information to synchronise, which means that adding documents won't cause delays in shipments or stock showing up.
 
 #### Log
 
