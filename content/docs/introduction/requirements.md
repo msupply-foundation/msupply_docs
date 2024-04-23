@@ -146,7 +146,16 @@ The table below shows which version of mSupply you will require when running Ope
 | 1.1.00 - 1.1.16  | 7.04.01+              |
 | 1.2.00+          | 7.05.05+              |
 | 1.4.00+          | 7.09.00+              |
+| 2.0.00+          | 7.14.00+              |
 
 If you attempt to connect to an incompatible server you'll get an error message like this:
 
 ![server version mismatch!](/docs/introduction/images/version_mismatch.png)
+
+## Open mSupply Central Server
+
+From v2.0.00, open mSupply central server is required for succesfull synchronisation. See open mSupply central server section and open [mSupply central server site configuration in mSupply](https://docs.msupply.org.nz/synchronisation:sync_sites#open_msupply_central_server_settings) for more details. 
+
+You will get the following error message if open mSupply central server is not configured
+
+![v6 not configured!](/docs/introduction/images/v6_not_configured.png)
