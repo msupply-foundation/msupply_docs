@@ -189,6 +189,9 @@ Additional documents can be uploaded for this asset.
 
 ![Asset documents tab](/docs/coldchain/images/documents_tab.png)
 
+Documents which are uploaded here will synchronise to the central server, though not as a part of the usual sync process. Files will only be sent when there is no other information to synchronise, which means that adding documents won't cause delays in shipments or stock showing up.
+
+
 #### Log
 
 The `Log` tab shows the activity log of this asset.
