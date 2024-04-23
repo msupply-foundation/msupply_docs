@@ -30,8 +30,7 @@ It will look very much like any other Open mSupply instance, but you will see a 
 
 ![central server identifier bar!](/docs/introduction/images/central_server_bar_identifier.png)
 
-Similar to mSupply central server, only one instance of open mSupply central server will exist in open mSupply system. 
-Our support staff will be control 
+Similar to the mSupply central server, only one instance of the Open mSupply central server will exist in the Open mSupply system.
 
 ## Remote site vs central server
 
