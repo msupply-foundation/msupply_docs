@@ -16,23 +16,25 @@ top = false
 
 ## Viewing the synchronisation status
 
-To view the synchronisation status, go to `Sync` in the lower section of the navigation panel: 
+To view the synchronisation status, go to `Sync` in the lower section of the navigation panel:
 
 ![sync: nav](/docs/sync/images/sync_nav.png)
 
-The page shows the number of records waiting to be pushed to the central server and the time that the last sync happened.
+The page shows the number of records waiting to be pushed to the central servers, and the time that the last sync happened.
 
 ![sync: status](/docs/sync/images/sync_status.png)
+
+As of v2.0.0, your Open mSupply server actually syncs to two central servers! The `Push V6` and `Pull V6` steps transfer data to and from the Open mSupply central server, which you can read more about [here](../../introduction/central). The `Push`, `Pull Central` and `Pull Remote` steps are syncing with an mSupply central server.
 
 ## Manual synchronisation
 
 On this (sync) screen you are also able to initiate synchronisation immediately rather than wait for the scheduled time ( remember, the sync interval is configured in the Admin > Synchronisation section, see the [Administration](/docs/administration/synchronisation/) page for details ).
 
-To start sync manually, simply click the `Sync now!` button. When you do, you'll see that the button changes to a spinner and the progress is indicated with the stepper icons which change to show which step is currently active. For example, in the image below you'll see that `Pull remote` is active.
+To start sync manually, simply click the `Sync now!` button. When you do, you'll see that the button changes to a spinner and the progress is indicated with the stepper icons which change to show which step is currently active. For example, in the image below you'll see that the `Push` step is active.
 
 ![sync: manual](/docs/sync/images/sync_in_progress.png)
 
-Here is the complete process in action, with the steps slowed down. You'll notice when you try this that the sync is usually very quick, though it depends on how many items you have to sync:
+Here is the complete process in action. You'll notice that most of the sync steps are very quick, though it depends on how many records you have to sync:
 
 <p><img src="/docs/sync/images/sync.gif" alt=:"sync: manual" width="800" /></p>
 
