@@ -13,7 +13,7 @@ toc = true
 top = true
 +++
 
-Open mSupply central server is a special site that allows for configuration of subsets of central data. Please see the [requirements](/docs/introduction/requirements/#open-msupply-requirements) section for details on the requirements for running open mSupply, and the [Open mSupply central server](docs/introduction/requirements/#open-msupply-central-server) section for details about the central server requirements specifically.
+Open mSupply central server is a special site that allows for configuration of subsets of central data. Please see the [requirements](/docs/introduction/requirements/#open-msupply-requirements) section for details on the requirements for running Open mSupply, and the [Open mSupply central server](docs/introduction/requirements/#open-msupply-central-server) section for details about the central server requirements specifically.
 
 ## What is the Open mSupply central server
 
