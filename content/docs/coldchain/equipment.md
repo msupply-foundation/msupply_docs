@@ -100,7 +100,7 @@ When importing assets from a store, they will be assigned to that store.
 TODO: Add link to central server docs when they are created
 -->
 
-When importing assets from the central server, an additional field of `store` will be required which will assign assets to their respective stores.
+When importing assets on the central server, an additional field of `store` will be required which will assign assets to their respective stores.
 
 Information will need to be entered in the format provided by the csv template in order for Open mSupply to be able to process and upload this data.
 
