@@ -1,6 +1,6 @@
 +++
-title = "Open mSupply central server"
-description = "Open mSupply central server functionality"
+title = "Open mSupply Central Server"
+description = "Open mSupply Central Server functionality"
 date = 2022-06-10T11:38:00+00:00
 updated = 2022-06-10T11:38:00+00:00
 draft = false
