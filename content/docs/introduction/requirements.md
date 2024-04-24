@@ -152,7 +152,7 @@ If you attempt to connect to an incompatible server you'll get an error message 
 
 ![server version mismatch!](/docs/introduction/images/version_mismatch.png)
 
-## Open mSupply Central Server
+## Open mSupply central server
 
 From v2.0.00, the Open mSupply central server is required for successful synchronisation. See the [Open mSupply central server](/docs/introduction/central) and [Open mSupply central server site configuration in mSupply](https://docs.msupply.org.nz/synchronisation:sync_sites#open_msupply_central_server_settings) for more details. 
 
