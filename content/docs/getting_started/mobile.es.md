@@ -4,7 +4,7 @@ description = "Open mSupply Introduction."
 date = 2023-02-24T18:20:00+00:00
 updated = 2023-02-24T18:20:00+00:00
 draft = false
-weight = 5
+weight = 10
 sort_by = "weight"
 template = "docs/page.html"
 

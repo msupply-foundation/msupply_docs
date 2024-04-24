@@ -4,7 +4,7 @@ description = "Feuille de route pour Open mSupply."
 date = 2022-11-10T18:20:00+00:00
 updated = 2022-11-10T18:20:00+00:00
 draft = false
-weight = 2
+weight = 20
 sort_by = "weight"
 template = "docs/page.html"
 

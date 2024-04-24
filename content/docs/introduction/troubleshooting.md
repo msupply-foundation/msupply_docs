@@ -4,7 +4,7 @@ description = "Troubleshooting an Open mSupply Installation"
 date = 2023-11-10T16:20:00+00:00
 updated = 2023-11-10T16:20:00+00:00
 draft = false
-weight = 10
+weight = 50
 sort_by = "weight"
 template = "docs/page.html"
 
