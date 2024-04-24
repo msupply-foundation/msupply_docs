@@ -34,7 +34,7 @@ To start sync manually, simply click the `Sync now!` button. When you do, you'll
 
 ![sync: manual](/docs/sync/images/sync_in_progress.png)
 
-Here is the complete process in action. You'll notice that most of the sync steps are very quick, though it depends on how many items you have to sync:
+Here is the complete process in action. You'll notice that most of the sync steps are very quick, though it depends on how many records you have to sync:
 
 <p><img src="/docs/sync/images/sync.gif" alt=:"sync: manual" width="800" /></p>
 
