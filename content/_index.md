@@ -18,12 +18,6 @@ icon = "mSupplymobile.png"
 title = "Open mSupply Web Site"
 content = 'The <a href="https://msupply.foundation/open-msupply/">web site for Open mSupply</a>'
 
-
-[[extra.list]]
-icon = "mSupplymobile.png"
-title = "mSupply mobile"
-content = 'The <a href="/mobile/introduction/introduction">User Guide</a> for mSupply mobile (Legacy)'
-
 [[extra.list]]
 icon = "mSupplyTorso.svg"
 title = "The Original mSupply Desktop"
@@ -31,8 +25,20 @@ content = 'The <a href="https://docs.msupply.org.nz/">User Documentation wiki</a
 
 [[extra.list]]
 icon = "dashboard.png"
+title = "Health Supply Hub"
+content = 'The <a href="/health-supply-hub/introduction">User Guide</a> for the Health Supply Hub'
+
+
+[[extra.list]]
+icon = "dashboard.png"
+title = "mSupply Notify"
+content = 'The <a href="/notify/introduction">User Guide</a> for the mSupply Notify Application'
+
+[[extra.list]]
+icon = "dashboard.png"
 title = "mSupply Dashboard"
 content = 'The <a href="/dashboard/introduction">User Guide</a> for the mSupply Dashboard'
+
 
 [[extra.list]]
 icon = "coldchain.png"
@@ -43,5 +49,11 @@ content = 'The <a href="/coldchain/introduction">User Documentation</a> for the 
 icon = "conforma.png"
 title = "Conforma"
 content = 'The <a href="https://docs.conforma.nz/">User Documentation</a> for the Conforma workflow managment platform'
+
+
+[[extra.list]]
+icon = "mSupplymobile.png"
+title = "mSupply mobile"
+content = 'The <a href="/mobile/introduction/introduction">User Guide</a> for mSupply mobile (Legacy)'
 
 +++
