@@ -46,7 +46,7 @@
         {% for val in section.extra.list %}
         <div class="col-lg-5">
         <a href="{{ val.url }}"><img class="mb-2" src="/icons/{{val.icon}}" alt="{{ val.title }}" height="100px"></a>
-        <a href="{{ val.url }}"><h2 class="h4">{{ val.title }}</h2></a>
+        <a href="{{ val.url }}" class="homepage-link"><h2 class="h4">{{ val.title }}</h2></a>
           <p>{{ val.content | safe }}</p>
         </div>
         {% endfor %}
