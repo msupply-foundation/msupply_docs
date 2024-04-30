@@ -154,7 +154,7 @@ If you attempt to connect to an incompatible server you'll get an error message 
 
 ## Open mSupply central server
 
-From v2.0.00, the Open mSupply central server is required for successful synchronisation. See the [Open mSupply central server](/docs/introduction/central) and [Open mSupply central server site configuration in mSupply](https://docs.msupply.org.nz/synchronisation:sync_sites#open_msupply_central_server_settings) for more details. 
+From v2.0.00, the Open mSupply central server is required for successful synchronisation. See the [Open mSupply central server](/docs/getting_started/central/) and [Open mSupply central server site configuration in mSupply](https://docs.msupply.org.nz/synchronisation:sync_sites#open_msupply_central_server_settings) for more details. 
 
 You will get the following error message the Open mSupply central server is not configured
 
