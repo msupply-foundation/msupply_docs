@@ -13,6 +13,8 @@ toc = true
 top = true
 +++
 
+<div class="tip">See the <a href="#configuration-and-synchronisation">Configuration</a> section for how to get started with the central server configuration.</div>
+
 Open mSupply central server is a special site that allows for configuration of subsets of central data. Please see the [requirements](/docs/introduction/requirements/#open-msupply-requirements) section for details on the requirements for running Open mSupply, and the [Open mSupply central server](/docs/introduction/requirements/#open-msupply-central-server) section for details about the central server requirements specifically.
 
 ## What is the Open mSupply central server
@@ -38,13 +40,32 @@ Some operations are only allowed in the Open mSupply central server, if an opera
 
 ![only allowed on central!](/docs/introduction/images/only_allowed_on_central.png)
 
-Throughout this documentation you will see sections that refer to open mSupply central server functionality, they will look like this and will have a link to this page
+Throughout this documentation you will see sections that refer to open mSupply central server functionality. To indicate this, they will have this image on the page:
 
 [![central server only](/docs/introduction/images/central_server.png '🔗 Available on central server only ')](/docs/getting_started/central/#remote-site-vs-central-server)
 
+Clicking on the image will take you to this page.
+
 ## Configuration and Synchronisation
 
-Open mSupply is configured as another site on the mSupply central server with a [couple of extra settings](https://docs.msupply.org.nz/synchronisation:sync_sites#open_msupply_central_server_settings). When the Open mSupply site goes through the synchronisation cycle, it will query the mSupply central server and ask for the URL where the Open mSupply central server resides, it will then use this URL to synchroniser with the Open mSupply central site.
+Open mSupply is configured as another site on the mSupply central server with a [couple of extra settings](https://docs.msupply.org.nz/synchronisation:sync_sites#open_msupply_central_server_settings). 
+
+To configure your Open mSupply site to use a central server, there are a couple of options.
+
+#### Using a separate Open mSupply central server and remote server
+
+* In mSupply, create a new site with a store assigned (this can be a dummy store)
+* Tick the checkbox (as noted in the 'extra settings' link above)
+* Enter the server URL. Note that this URL is that of your new Open mSupply central server. This will be different to the usual Open mSupply server and to the mSupply server!
+
+#### Configuring an existing Open mSupply site as a central server
+
+* In mSupply, edit the Open mSupply site, then
+* Tick the checkbox (as noted in the 'extra settings' link above)
+* Enter the current Open mSupply URL as the central server URL
+
+
+When the Open mSupply site goes through the synchronisation cycle, it will query the mSupply central server and ask for the URL where the Open mSupply central server resides, it will then use this URL to synchroniser with the Open mSupply central site.
 
 Synchronisation to Open mSupply central server is performed via the V6 API, and requires a couple of extra steps, as per the V6 push and pull steps in the sync stepper
 
