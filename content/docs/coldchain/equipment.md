@@ -104,6 +104,16 @@ When importing assets on the central server, an additional field of `store` will
 
 Information will need to be entered in the format provided by the csv template in order for Open mSupply to be able to process and upload this data.
 
+| Column                        | Description                                                       | Example               | Mandatory                  |
+| :---------------------------- | :----------------------------                                     | :-------------------- | :---------                 |
+| **Asset Number**              | The asset number assigned by the user's organisation              | 1                     | *                          |
+| **Catalogue item code**       | The Asset Catalogue code - i.e. the kind of asset to be imported  | E003/002              | *                          |
+| **Store**                     | The code of the Store to which the asset is to be assigned        | CMS                   | * (central only)           |
+| **Notes**                     | General notes about the asset                                     | Kept in EPI office    |                            |
+| **Serial Number**             | The serial number of that particular asset                        | 123456789ABC          |                            |
+| **Installation date**         | The date that the asset was installed at the Store                | 2024-01-14            |                            |
+
+
 A csv file can be uploaded once it has been created in the example format.
 
 <p align="center">
