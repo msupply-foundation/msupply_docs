@@ -1,3 +1,10 @@
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+
+
 p {
   img, svg {
   vertical-align: middle;
@@ -232,3 +239,22 @@ body.dark .flagster img {
   background: #dee2e6;
   border-radius: 10px;
 }
+
+body.dark .accordion-item {
+  background-color: $gray-800;
+  border-color: rgba(142, 215, 251, 0.125);
+}
+
+body.dark .accordion-button {
+  border: 1px solid rgba(29, 45, 53, 0.125);
+}
+
+body.dark .accordion-button {
+  background-color: $gray-800;
+}
+
+body.dark .accordion-button:not(.collapsed) {
+  color: #da8337;
+  background-color: #fef4ec;
+}
+
