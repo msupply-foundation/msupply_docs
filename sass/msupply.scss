@@ -228,3 +228,13 @@ body.dark .flagster img {
   background: #dee2e6;
   border-radius: 10px;
 }
+
+a.homepage-link {
+  color: #000;
+  text-decoration: none;
+}
+
+a.homepage-link:hover {
+  color: #f2913d;
+  text-decoration: underline;
+}
