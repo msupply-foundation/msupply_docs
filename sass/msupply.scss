@@ -258,3 +258,12 @@ body.dark .accordion-button:not(.collapsed) {
   background-color: #fef4ec;
 }
 
+a.homepage-link {
+  color: #000;
+  text-decoration: none;
+}
+
+a.homepage-link:hover {
+  color: #f2913d;
+  text-decoration: underline;
+}
