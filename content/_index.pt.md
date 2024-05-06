@@ -16,26 +16,31 @@ repo_url = "https://github.com/openmsupply/remote-server"
 [[extra.list]]
 icon = "mSupplymobile.png"
 title = "mSupply mobile"
+url = "pt/docs/mobile/introduction/"
 content = 'La <a href="content/mobile/introduction/introduction.es.md">Guía de usuario</a> de mSupply mobile!'
 
 [[extra.list]]
 icon = "mSupplyTorso.svg"
 title = "El Original mSupply Desktop"
+url = "https://docs.msupply.org.nz/"
 content = 'La <a href="https://docs.msupply.org.nz/"> biblioteca de documentos de usuario</a> para mSupply Desktop - ahora con más de 20 años'
 
 [[extra.list]]
 icon = "dashboard.png"
 title = "Tablero de Control mSupply"
+url = "pt/docs/dashboard/introduction/"
 content = 'La <a href="/dashboard/introduction">Guía de usuario</a> del tablero de control de mSupply!'
 
 [[extra.list]]
 icon = "coldchain.png"
 title = "mSupply Cadena de frío"
+url = "pt/docs/coldchain/introduction/"
 content = 'Los <a href="/coldchain/introduction">Documentos de usuario</a> de la aplicación Android para mSupply Cadena de Frío'
 
 [[extra.list]]
 icon = "conforma.png"
 title = "Conforma"
+url = "pt/docs/conforma/introduction/"
 content = 'La <a href="https://docs.conforma.nz/es">Documentación de Usuario</a> para la plataforma de gestión de flujos de trabajo Conforma'
 
 +++
