@@ -157,20 +157,19 @@ Clicking this button will open the `Create Asset` modal
 
 With this modal you can assign:
 
-- the Asset Category
-- the asset catalogue item the Asset will be based on: this will link information from the catalogue item ( such as manufacturer & model ) to this newly created Asset
-- the Asset number
-- notes about the Asset
+- set the store for the asset
+- the asset category
+- the asset catalogue item the asset will be based on: this will link information from the catalogue item ( such as manufacturer & model ) to this newly created asset
+- the asset number
+- notes about the asset
 
 If the asset you are creating is not part of either the `WHO PQS` or `General` catalogue, you can use the toggle to create an asset which is not based on a catalogue item.
 
-<p align="center">
-    <img src="/docs/coldchain/images/create_asset_modal.png" width="650" height="420">
-</p>
+![Create asset modal](/docs/coldchain/images/create_asset_modal.png)
 
 ### Managing cold chain assets
 
-Clicking on a row in the list will show the details of that asset.
+Clicking on a row in the list will show the details of that asset. If your asset is under the `Refrigerators and freezers` category, then you will see extra information such as the energy source and storage volume (capacity of the fridge or freezer catagorised by the temperature of the item).
 
 ![Asset detail view](/docs/coldchain/images/asset_detail_view.png)
 
