@@ -345,7 +345,7 @@ This is a list of batch numbers that you have in store for this item:
 | **Expiry**            | Expiry date of the batch (format: MM/YYYY)                                                                    |
 | **Location**          | This is the code of the location where the item is stored if your inventory is managed with storage locations |
 | **Pack Sell Price**   | Selling unit price of the item                                                                                |
-| **Pack**              | Quantity of units per pack                                                                                    |
+| **Pack Size**         | Quantity of units per pack                                                                                    |
 | **In Store (packs)**  | Total number of packs in your store                                                                           |
 | **Available (packs)** | Number of packs available (not already allocated to other shipments)                                          |
 | **[Pack] Qty Issued** | Total quantity of packs to be issued                                                                          |
@@ -390,7 +390,7 @@ However you can still manually choose those lines and issue the expired stock!
 
 ![pack sizes warning!](/docs/distribution/images/os_warning_pack_sizes.png)
 
-This warning tells you that because of the available pack sizes, the system has rounded up the quantity requested. In this example, there is no pack size that is less than `12`. There are packs of `20` available though, so when 12 tablets are requested, the system has rounded up the request to `2` packs of `20`.
+This warning tells you that because of the available pack sizes, the system has rounded up the quantity requested. In this example, there is no pack size that is less than `5`. There are packs of `10` available though, so when252 tablets are requested, the system has rounded up the request to `1` pack of `10`.
 
 ![pack sizes warning!](/docs/distribution/images/os_warning_no_quantity.png)
 
@@ -406,10 +406,10 @@ Let's imagine that your customer only wants pack size of 10 units. You can chang
 
 ![Alt Text](/docs/distribution/images/os_additem_switchtopack.gif)
 
-You are now offered to issue a number of packs of 10 units. Only batch number(s) with a pack size of 10 units can be automatically issued.
+You are now offered to issue a number of packs of 100 units. Only batch number(s) with a pack size of 100 units can be automatically issued.
 
 <div class="imagetitle">
-In the example below, we are issuing 5 packs of 10 units:
+In the example below, we are issuing 5 packs of 100 units:
 </div>
 
 ![additem!](/docs/distribution/images/os_additem_issuepacks.png)
@@ -446,7 +446,7 @@ If the amount to be issued is greater than the total stock available from all of
 Placeholder lines can be allocated later when new stock arrives. However, all shipment lines must be allocated before confirming the allocation.
 
 <div class="imagetitle">
-Since there is no stock available for <i>358b04bf Abacavir Oral Solution 20mg per mL 240mL</i>, the system is issuing 12 units in the placeholder field. 
+Since there is no stock available for <i>358b04bf Abacavir Oral Solution 20mg per mL 240mL</i>, the system is issuing 120 units in the placeholder field. 
 </div>
 
 ![Alt Text](/docs/distribution/images/os_additem_placeholder.png)
@@ -513,7 +513,7 @@ To edit a shipment line, tap on it. You will be presented with the `Edit Item` w
 ![Alt Text](/docs/distribution/images/os_actions_deleteselectedlines.png)
 
 <div class="imagetitle">
-In below example, we are deleting <i>item 358b04bf Abacavir Oral Solution 20mg per mL 240mL</i>
+In below example, we are deleting <i>three placeholder lines</i>.
 </div>
 
 ![Alt Text](/docs/distribution/images/os_deleteselectedlines.gif)
@@ -625,8 +625,8 @@ A modal will open, containing each line you selected for return:
 | **Name**                     | Item name                                                                               |
 | **Batch**                    | Batch number. It is a designation given to products made in the same manufacturing run. |
 | **Expiry**                   | Expiry date of the batch (format: MM/YYYY)                                              |
-| **Unit Variant / Pack Size** | Quantity of units per pack                                                              |
-| **Pack Quantity Issued**     | Number of packs that were issued in the Outbound Shipment                               |
+| **Pack Size** | Quantity of units per pack                                                              |
+| **Pack Qty Issued**     | Number of packs that were issued in the Outbound Shipment                               |
 | **Quantity Returned**        | Number of packs to be returned                                                          |
 
 The `Quantity Returned` values will initially be `0` - you can adjust this to return some or all of the available stock.
