@@ -23,9 +23,7 @@ TODO: Add link to central server docs when they are created
 
 Cold chain assets from all stores are visible when accessing the **Equipment** menu via Open mSupply central server.
 
-<p align="center">
-    <img src="/docs/coldchain/images/equipment.png" width="400" height="525">
-</p>
+![goto equipment](/docs/coldchain/images/equipment.png)
 
 Here you can see all cold chain equipment available in your store.
 
@@ -68,9 +66,7 @@ To add a filter to the page, choose the required filter from the drop down. Mult
 
 Assets can be selected and deleted using the toolbar action:
 
-<p align="center">
-    <img src="/docs/coldchain/images/delete_rows.png" width="250" height="375">
-</p>
+![](/docs/coldchain/images/delete_rows.png)
 
 ### Importing And Exporting
 
@@ -78,9 +74,7 @@ Assets can be selected and deleted using the toolbar action:
 
 Cold chain assets can be imported from a comma-separated-value (csv) file using the `Import` button
 
-<p align="center">
-    <img src="/docs/coldchain/images/equipment_import_button.png" width="550" height="280">
-</p>
+![](/docs/coldchain/images/equipment_import_button.png)
 
 This will open an import modal.
 
@@ -157,7 +151,7 @@ Clicking this button will open the `Create Asset` modal
 
 With this modal you can assign:
 
-- set the store for the asset
+- set the store for the asset (only available on central server)
 - the asset category
 - the asset catalogue item the asset will be based on: this will link information from the catalogue item ( such as manufacturer & model ) to this newly created asset
 - the asset number
