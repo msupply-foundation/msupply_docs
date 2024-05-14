@@ -14,6 +14,7 @@ top = false
 +++
 
 The Monitoring section displays cold chain monitoring data in three different views:
+
 1. A chart view which shows a summary of data from all sensors
 2. A list of all recorded breaches
 3. A list view of all temperature logs
@@ -39,8 +40,9 @@ The chart tab displays a chart showing all configured sensors. You can filter th
 - Date/Time Range
 - Breach type
 
-To add a filter to the page, choose the required filter from the drop down. 
-<div class="note">Some views have default filters already applied, such as the chart view shown below</div>
+To add a filter to the page, choose the required filter from the drop down.
+
+<div class="note">By default, data from the last 24 hours is shown. Use the from date/time and to date/time fields to look at a longer period of time.</div>
 
 ![Filter](/docs/coldchain/images/chart_filter.png)
 
@@ -50,28 +52,30 @@ If the sensor has recorded a breach - an icon will be shown on the chart. Clicki
 
 To close the popup, click the red x in the top right corner.
 
-Also shown on the chart are red (top) and blue (bottom) shaded areas. These show the standard temperature breach threshold values of 2°C and 8°C. Note that your environment may be using different threshold values, so you may have breaches which are outside of these ranges!
+Also shown on the chart are red (top) and blue (bottom) shaded areas. These show the standard temperature breach threshold values of 2°C and 8°C.
+
+<div class="note">If you have use different threshold values in your configuration, you may see breached outside of the standard range.</div>
 
 ### Breaches
 
-The breaches tab displays a list of all recorded breaches. 
+The breaches tab displays a list of all recorded breaches.
 
 ![Breaches](/docs/coldchain/images/breaches_list.png)
 
 The list of breaches is divided into 10 columns:
 
-| Column              | Description                      |
-| :------------------ | :------------------------------- |
-|                     | An icon showing an alert if this breach is unacknowledged        |
-| **Status**          | The breach status can be `Acknowledged` or `Unacknowledged`     |
-| **Sensor name**     | Name of the Sensor               |
-| **Location**        | Current location assigned to the sensor |
-| **CCE**             | Name of the cold chain equipment item which the sensor is associated with   |
-| **Breach start**    | Date and time at which the breach started |
-| **Breach end**      | Date and time at which the breach ended, if applicable |
-| **Duration**     | The duration of the breach, if it has ended. If the breach has not ended then `Ongoing` is shown |
-| **Type**     | The type of the breach: this is a combination of Hot or Cold (shown by the icon and text colour) and Consecutive or Cumulative |
-| **Max / Min**     | The temperature recorded when the breach was updated, which is the start or end of the breach (if the breach has ended) |
+| Column           | Description                                                                                                                    |
+| :--------------- | :----------------------------------------------------------------------------------------------------------------------------- |
+|                  | An icon showing an alert if this breach is unacknowledged                                                                      |
+| **Status**       | The breach status can be `Acknowledged` or `Unacknowledged`                                                                    |
+| **Sensor name**  | Name of the Sensor                                                                                                             |
+| **Location**     | Current location assigned to the sensor                                                                                        |
+| **CCE**          | Name of the cold chain equipment item which the sensor is associated with                                                      |
+| **Breach start** | Date and time at which the breach started                                                                                      |
+| **Breach end**   | Date and time at which the breach ended, if applicable                                                                         |
+| **Duration**     | The duration of the breach, if it has ended. If the breach has not ended then `Ongoing` is shown                               |
+| **Type**         | The type of the breach: this is a combination of Hot or Cold (shown by the icon and text colour) and Consecutive or Cumulative |
+| **Max / Min**    | The temperature recorded when the breach was updated, which is the start or end of the breach (if the breach has ended)        |
 
 You can filter the data displayed by:
 
@@ -117,7 +121,6 @@ Once a breach is acknowledged, the red alert icon is no longer shown for that br
 
 ![Breach comment](/docs/coldchain/images/breach_comment.png)
 
-
 ### Log
 
 The log view shows a list of all temperature logs.
@@ -126,14 +129,14 @@ The log view shows a list of all temperature logs.
 
 The list of temperature logs is divided into 6 columns:
 
-| Column              | Description                      |
-| :------------------ | :------------------------------- |
-| **Date time**       | Date and time of the most recent activity for this sensor     |
-| **Sensor name**            | Name of the Sensor               |
-| **Location**        | Current location assigned to the sensor |
-| **CCE**             | Name of the cold chain equipment item which the sensor is associated with   |
-| **Temperature**    | The most recent temperature reported by the sensor         |
-| **Breach type**     | If the sensor has had a breach, this shows the type of the most recent breach. This is a combination of Hot or Cold (shown by the icon and text colour) and Consecutive or Cumulative. |
+| Column          | Description                                                                                                                                                                            |
+| :-------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Date time**   | Date and time of the most recent activity for this sensor                                                                                                                              |
+| **Sensor name** | Name of the Sensor                                                                                                                                                                     |
+| **Location**    | Current location assigned to the sensor                                                                                                                                                |
+| **CCE**         | Name of the cold chain equipment item which the sensor is associated with                                                                                                              |
+| **Temperature** | The most recent temperature reported by the sensor                                                                                                                                     |
+| **Breach type** | If the sensor has had a breach, this shows the type of the most recent breach. This is a combination of Hot or Cold (shown by the icon and text colour) and Consecutive or Cumulative. |
 
 You can filter the data displayed by:
 
@@ -142,7 +145,7 @@ You can filter the data displayed by:
 - Date/Time Range
 - Breach type
 
-To add a filter to the page, choose the required filter from the drop down. 
+To add a filter to the page, choose the required filter from the drop down.
 
 ![Filter](/docs/coldchain/images/log_filter.png)
 
@@ -175,22 +178,19 @@ Here's how the process looks (this is the mac desktop version):
 
 <div class="note">You may need to wait for the text file to be generated after connecting the Fridge-tag to your computer.</div>
 
+The following Berlinger devices are compatible with Open mSupply:
 
-The following Berlinger devices are compatible with Open mSupply: 
+| Device                  | Breach data displayed | Temperature graph plotted |
+| :---------------------- | :-------------------- | :------------------------ |
+| **Q-tag CLm doc**       | Yes                   | Yes                       |
+| **Q-tag CLm doc D**     | Yes                   | Yes                       |
+| **Q-tag CLm doc Ice**   | Yes                   | Yes                       |
+| **Q-tag CLm doc Ice R** | Yes                   | Yes                       |
+| **Q-tag CLm doc L**     | Yes                   | Yes                       |
+| **Q-tag CLm doc LR**    | Yes                   | Yes                       |
+| **Fridge-tag 2**        | Yes                   | No\*                      |
+| **Fridge-tag 2E**       | Yes                   | No\*                      |
+| **Fridge-tag 2L**       | Yes                   | Yes                       |
+| **Fridge-tag UL**       | Yes                   | Yes                       |
 
-
-| Device              | Breach data displayed             |    Temperature graph plotted |
-| :------------------ | :------------------------------- | :------------------------------- |
-| **Q-tag CLm doc**       | Yes | Yes |
-| **Q-tag CLm doc D**            | Yes | Yes |
-| **Q-tag CLm doc Ice**        | Yes | Yes |
-| **Q-tag CLm doc Ice R**       | Yes   | Yes |
-| **Q-tag CLm doc L**    | Yes  | Yes |
-| **Q-tag CLm doc LR**     | Yes | Yes |
-| **Fridge-tag 2**     | Yes | No* |
-| **Fridge-tag 2E**     | Yes | No* |
-| **Fridge-tag 2L**     | Yes | Yes |
-| **Fridge-tag UL**     | Yes | Yes |
-
-*Logger device does not capture individual temperature logs
-
+\*Logger device does not capture individual temperature logs
