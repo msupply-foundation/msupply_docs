@@ -345,7 +345,7 @@ On the second tab, `Pricing`, you can update the following fields (all are optio
 - **Pack Size** (read-only): The quantity of units per pack
 - **Pack Qty** (read-only): The quantity of packs you are receiving
 - **Cost**: The purchasing unit price of the item (default value is 0)
-- **Sell**: The selling unit price of the item (default value is 0)
+- **Pack Sell Price**: The selling unit price of the item (default value is 0)
 - **Line Total** (read-only): Total purchasing value for the batch number (`[Pack Qty] x [Cost]`)
 
 <div class="warning">

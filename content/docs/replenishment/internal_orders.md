@@ -87,9 +87,11 @@ First select the item you want to add to your order. You can also type some or a
 Once item is selected, you should see the following information on the window:
 
 - **Item Code** and **Item Name**
+- **Units/Packs toggle**: this allows you to switch between ordering in units or packs
 - **Unit**: the default unit used for this item (_eg. Tablet, Vial_)
 - **AMC**: Average Monthly Consumption. How much stock your store uses each month on average (based on a configurable number of months, default is set to 3 months)
 - **SOH**: Stock on Hand. How much stock the store currently has available
+- **Default pack size**: the default pack size of the item
 - **Suggested Quantity**: how much stock mSupply suggests that your order to reach your stock target quantity
 - **Requested quantity**: the quantity of units that you request from your supplier
 
