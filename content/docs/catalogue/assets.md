@@ -92,7 +92,7 @@ A list of assets can be exported as a csv file using the `Export` button.
 
 ### Managing status log reasons
 
-<div class="note">You must be on the Open mSupply central server to access this feature. <a href="/docs/getting_started/central">Click here to find out out more</a>.</div>
+<div class="note">Status log reasons are managed from the Open mSupply central server. <a href="/docs/getting_started/central">Click here to find out out more</a>.</div>
 
 When users add a new status log against a particular asset, more detail can be provided with a reason associated with the new status. For example, an asset which has been labled `NON_FUNCTIONING` could be assigned a reason of `power supply broken`. These reasons are customisable, and associated with a particular status.
 
