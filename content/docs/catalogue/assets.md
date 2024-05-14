@@ -57,37 +57,29 @@ You can also select a different number of rows to show per page using the option
 
 To add a filter to the page, choose the required filter from the drop down. Multiple filters can be combined.
 
-<p align="center">
-    <img src="/docs/catalogue/images/assets_filter.png" width="425" height="250">
-</p>
+![Asset filter](/docs/catalogue/images/assets_filter.png)
 
 #### Delete Assets
 
 Assets can be selected and deleted using the toolbar action:
 
-<p align="center">
-    <img src="/docs/catalogue/images/assets_delete.png" width="425" height="380">
-</p>
+![Assets delete](/docs/catalogue/images/assets_delete.png)
 
 ### Importing And Exporting
 
 #### Import
-
+s
 Assets can be imported from a comma-separated-file (csv) file using the `Import` button.
 
-![Assets nav](/docs/catalogue/images/assets_import.png)
+![Import assets](/docs/catalogue/images/assets_import.png)
 
 This will open an import modal.
 
-<p align="center">
-    <img src="/docs/catalogue/images/assets_import_modal.png" width="750" height="420">
-</p>
+![Import assets modal](/docs/catalogue/images/assets_import_modal.png)
 
 An example template (in csv format) is available for download here:
 
-<p align="center">
-    <img src="/docs/catalogue/images/asset_import_template.png" width="750" height="420">
-</p>
+![Download template](/docs/catalogue/images/asset_import_template.png)
 
 Data will need to be converted into the format of the csv template provided in order for Open mSupply to be able to process and upload this data.
 
@@ -100,6 +92,8 @@ A list of assets can be exported as a csv file using the `Export` button.
 ![Assets nav](/docs/catalogue/images/asset_export_button.png)
 
 ### Managing status log reasons
+
+<div class="note">You must be on the central server to access this feature. <a href="/docs/getting_started/central">Click here to find out out more</a>.</div>
 
 When users add a new status log against a particular asset, more detail can be provided with a reason associated with the new status. For example, an asset which has been labled `NON_FUNCTIONING` could be assigned a reason of `power supply broken`. These reasons are customisable, and associated with a particular status.
 
@@ -114,25 +108,13 @@ Reasons can be managed on a new page accessible from the `Manage Log Reasons` bu
 On this page you can:
 
 - Create new log reasons through the `Create log reason` button
-
-<p align="center">
-    <img src="/docs/catalogue/images/reasons_create_button.png" width="400" height="300">
-</p>
+![New reason button](/docs/catalogue/images/reasons_create_button.png)
 
 This will open a create new reason modal
-
-<p align="center">
-    <img src="/docs/catalogue/images/reasons_create_modal.png" width="500" height="350">
-</p>
+![New reason modal](/docs/catalogue/images/reasons_create_modal.png)
 
 - Select and delete existing reasons with the `Actions` dropdown
-
-<p align="center">
-    <img src="/docs/catalogue/images/reasons_delete.png" width="400" height="400">
-</p>
+![Delete reason button](/docs/catalogue/images/reasons_delete.png)
 
 - Filter existing reasons by status using the filter dropdown
-
-<p align="center">
-    <img src="/docs/catalogue/images/reasons_filter.png" width="550" height="250">
-</p>
+![Filter reasons](/docs/catalogue/images/reasons_filter.png)
