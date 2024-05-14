@@ -4,7 +4,7 @@ description = "Counting and adjusting stock."
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
 draft = false
-weight = 62
+weight = 63
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -36,16 +36,14 @@ This brings up a list of all your stocktakes:
 
 For each stocktake you can see:
 
-| Column      | Description                      |
-| :---------- | :------------------------------- |
-| **Number**  | The number of the stocktake      |
-| **Status**  | The status of the stocktake. _New_: a currently active stocktake. _Finalised_: stocktake has already been performed. You can no longer edit it                 |
-| **Description**    | The description of the stocktake (e.g. March Stocktake) |
-| **Created**     | The date the stocktake was created          |
-| **Date**     | The date the stocktake was done       |
-| **Comment**     | Stocktake comment if any                 |
-
-
+| Column          | Description                                                                                                                                    |
+| :-------------- | :--------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Number**      | The number of the stocktake                                                                                                                    |
+| **Status**      | The status of the stocktake. _New_: a currently active stocktake. _Finalised_: stocktake has already been performed. You can no longer edit it |
+| **Description** | The description of the stocktake (e.g. March Stocktake)                                                                                        |
+| **Created**     | The date the stocktake was created                                                                                                             |
+| **Date**        | The date the stocktake was done                                                                                                                |
+| **Comment**     | Stocktake comment if any                                                                                                                       |
 
 <div class="warning">
 There is little point in keeping old stocktakes with status = <code>NEW</code>, and it can even be quite dangerous, especially if you are about to create a new stocktake containing the same items. If time has passed since the stocktake was created, then the snapshot and actual quantities are almost certainly incorrect. For good housekeeping reasons, it is good practice to delete old <code>NEW</code> stocktakes.
