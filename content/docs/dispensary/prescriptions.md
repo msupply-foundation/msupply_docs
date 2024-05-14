@@ -277,7 +277,7 @@ This is a list of batch numbers that you have in store for this item:
 | **On Hold**            | Indicates whether a batch is on hold or not. You cannot issue a batch that is on hold.          |
 | **In Store (packs)**   | Total number of packs in your store                                                              |
 | **Available (packs)**  | Number of packs available (not already allocated to other shipments)                             |
-| **Pack**              | Number of units in the pack and unit name |
+| **Pack Size**              | Quantity of units per pack                       |
 | **[Unit] Qty Issued**  | Total quantity of units to be issued                                                             |
 | **Pack Qty Issued**    | Number of packs to be issued                                                                     |
 
@@ -290,13 +290,13 @@ The batches which are available for selection are shown first and batches which 
 By default, you are invited to issue a quantity of **units**, regardless of the pack size (number of units in a pack).
 
 <div class="imagetitle">
-In below example, we are issuing 100 units of the item. All 100 units will be taken from the same batch (fourth row). The first three batches was not selected because they are expired. 
+In below example, we are issuing 1000 units of the item. All 1000 units will be taken from the same batch (third row). The first two batches was not selected because they are expired. 
 </div>
 
 ![additem!](/docs/dispensary/images/prescription_additem_issueunits.png)
 
 <div class="imagetitle">
-In this other example, we are issuing 100 units. System selects two batches with different pack sizes. 
+In this other example, we are issuing 82 units. System selects two batches with different pack sizes. 
 </div>
 
 ![additem!](/docs/dispensary/images/prescription_additem_issueunitstwobatches.png)
@@ -326,7 +326,7 @@ If you add an item forget to enter a quantity to issue, and click `OK` you will 
 You can decide to issue a quantity of **packs**. To do this, you can change the value in the `Pack Size` dropdown.
 
 <div class="imagetitle">
-Let's imagine that you only want to dispense in a pack size of 10 units. You can change the dropdown value from `Any` to `10`. 
+Let's imagine that you only want to dispense in a pack size of 100 units. You can change the dropdown value from `Any` to `100`. 
 </div>
 
 ![Alt Text](/docs/dispensary/images/prescription_additem_switchtopack.gif)
@@ -336,8 +336,6 @@ You are now offered to issue a number of packs of 10 units. Only batch number(s)
 <div class="note">
 If you had previously entered a quantity of units and you switch to a quantity of packs, the quantity of units will automatically be converted into the correct quantity of packs.  
 </div>
-
-![Alt Text](/docs/dispensary/images/prescription_issuepacks.png)
 
 When a pack size is selected, stock lines which have a different pack size from the one selected are not available for selection. As such, those rows are listed lower down in the table and are shown in a grey font, in the same way as other unavailable rows.
 
