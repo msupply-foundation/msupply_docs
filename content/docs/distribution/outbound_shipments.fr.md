@@ -324,7 +324,7 @@ By default, you are invited to issue a quantity of **units**, regardless of the 
 When entering a number in the `Issue Quantity` field, system automatically chooses the batch number(s) with the shortest expiry date (First to Expire, First Out or FEFO logic). 
 
 <div class="imagetitle">
-In below example, we are issuing 100 units of the item. All 100 units will be taken from the same batch (second row). First batch was not selected because it is expired. 
+In the below example, we are issuing 100 units of the item. All 100 units will be taken from the same batch (second row). First batch was not selected because it is expired. 
 </div>
 
 ![additem!](/docs/distribution/images/os_additem_issueunits.png)
@@ -350,7 +350,7 @@ Let's imagine that your customer only wants pack size of 12 units. You can chang
 You are now offered to issue a number of packs of 12 units. Only batch number(s) with a pack size of 12 units can be automatically issued.
 
 <div class="imagetitle">
-In below example, we are issuing 10 packs of 12 units:
+In the below example, we are issuing 10 packs of 12 units:
 </div>
 
 ![additem!](/docs/distribution/images/os_additem_issuepacks.png)
@@ -433,7 +433,7 @@ To edit an shipment line, tap on it. You will be presented with the `Edit Item` 
 ![Alt Text](/docs/distribution/images/os_actions_deleteselectedlines.png)
 
 <div class="imagetitle">
-In below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100mg tabs</i>
+In the below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100mg tabs</i>
 </div>
 
 ![Alt Text](/docs/distribution/images/os_deleteselectedlines.gif)

@@ -108,7 +108,7 @@ You can only delete Prescriptions with a status <code>NEW</code>.
 1. In the `Patients` window, you will be presented with a list of available patients. The patients list will load the first 100 patients and prompt you to refine your search by typing as much of the patient's name or code as you can.
 
 <div class="imagetitle">
-In below example, we are prescribing medicine to <b>Luna Lovegood</b>. 
+In the below example, we are prescribing medicine to <b>Luna Lovegood</b>. 
 </div>
 
 ![gif](/docs/dispensary/images/prescription_select_patient.gif)
@@ -290,7 +290,7 @@ The batches which are available for selection are shown first and batches which 
 By default, you are invited to issue a quantity of **units**, regardless of the pack size (number of units in a pack).
 
 <div class="imagetitle">
-In below example, we are issuing 1000 units of the item. All 1000 units will be taken from the same batch (third row). The first two batches was not selected because they are expired. 
+In the below example, we are issuing 1000 units of the item. All 1000 units will be taken from the same batch (third row). The first two batches was not selected because they are expired. 
 </div>
 
 ![additem!](/docs/dispensary/images/prescription_additem_issueunits.png)
@@ -394,7 +394,7 @@ To edit a prescription line, tap on it. You will be presented with the `Edit Ite
 ![Alt Text](/docs/distribution/images/os_actions_deleteselectedlines.png)
 
 <div class="imagetitle">
-In below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100mg tabs</i>
+In the below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100mg tabs</i>
 </div>
 
 ![Alt Text](/docs/dispensary/images/prescription_deleteselectedlines.gif)

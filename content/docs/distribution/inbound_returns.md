@@ -368,7 +368,7 @@ If you set all return quantities to `0`, and click `Next step` you will see this
 ![Delete lines actions dropdown](/docs/replenishment/images/or_actions_deletelines.png)
 
 <div class="imagetitle">
-In below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100mg tabs</i>
+In the below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100mg tabs</i>
 </div>
 
 ![Alt Text](/docs/distribution/images/ir_deleteselectedlines.gif)
@@ -430,7 +430,7 @@ If you do not have enough room on your screen, or simply aren't interested in so
 Click on the `Show / hide columns` button which is at the top right of the table. This gives a list of the columns available - you can check the columns you want to see. The options chosen are stored for the current browser, so next time you view an Inbound Return, you will see the selected columns only. If you have chosen which columns to show, then the button is shown in blue to remind you that there are more columns available.
 
 <div class="imagetitle">
-In below example, we hide the batch, expiry and unit quantity columns
+In the below example, we hide the batch, expiry and unit quantity columns
 </div>
 
 ![Hide columns](/docs/distribution/images/ir_filter_columns.gif)

@@ -51,7 +51,7 @@ On top of the screen, you can the following information:
 - **Months of Stock**: Number of months of consumption left with current stock. This is calculated as: `Stock on Hand / AMC`.
 
 <div class="imagetitle">
-In below example, we have 20,219 units of Acetylsalicylic Acid available in our store. The average consumption is 3,443.67 units per month which means that there is the equivalent of 5.87 months of stock in the inventory. 
+In the below example, we have 20,219 units of Acetylsalicylic Acid available in our store. The average consumption is 3,443.67 units per month which means that there is the equivalent of 5.87 months of stock in the inventory. 
 </div>
 
 ![Item detail headers](/docs/catalogue/images/cat_itemdetailsheaders.png)
