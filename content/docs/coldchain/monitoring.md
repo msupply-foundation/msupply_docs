@@ -54,7 +54,7 @@ To close the popup, click the red x in the top right corner.
 
 Also shown on the chart are red (top) and blue (bottom) shaded areas. These show the standard temperature breach threshold values of 2°C and 8°C.
 
-<div class="note">If you have use different threshold values in your configuration, you may see breached outside of the standard range.</div>
+<div class="note">If you have use different threshold values in your configuration, you may see breaches outside of the standard range.</div>
 
 ### Breaches
 
