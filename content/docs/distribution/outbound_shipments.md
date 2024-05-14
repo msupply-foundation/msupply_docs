@@ -390,7 +390,7 @@ However you can still manually choose those lines and issue the expired stock!
 
 ![pack sizes warning!](/docs/distribution/images/os_warning_pack_sizes.png)
 
-This warning tells you that because of the available pack sizes, the system has rounded up the quantity requested. In this example, there is no pack size that is less than `5`. There are packs of `10` available though, so when252 tablets are requested, the system has rounded up the request to `1` pack of `10`.
+This warning tells you that because of the available pack sizes, the system has rounded up the quantity requested. In this example, there is no pack size that is less than `5`. There are packs of `10` available though, so when 5 tablets are requested, the system has rounded up the request to `1` pack of `10`.
 
 ![pack sizes warning!](/docs/distribution/images/os_warning_no_quantity.png)
 
