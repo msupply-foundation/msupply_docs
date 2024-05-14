@@ -68,7 +68,6 @@ Assets can be selected and deleted using the toolbar action:
 ### Importing And Exporting
 
 #### Import
-s
 Assets can be imported from a comma-separated-file (csv) file using the `Import` button.
 
 ![Import assets](/docs/catalogue/images/assets_import.png)
