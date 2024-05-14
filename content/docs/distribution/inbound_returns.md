@@ -47,8 +47,8 @@ From this screen you can:
 | **Status**    | Current Status of the return   |
 | **Number**    | Reference Number of the return |
 | **Created**   | Creation date of the return    |
-| **Reference** | Customer reference             |
 | **Comment**   | Comment for the return         |
+| **Reference** | Customer reference             |
 
 1. The list can display a fixed number of returns per page. On the bottom left corner, you can see how many returns are currently displayed on your screen.
 
@@ -295,7 +295,7 @@ In the `Select Quantities` step, you can enter the following fields:
 - **Name**: Item name
 - **Batch**: Batch number. It is a designation given to products made in the same manufacturing run.
 - **Expiry**: Expiry date of the batch (format: MM/YYYY)
-- **Unit Variant / Pack Size**: Quantity of units per pack
+- **Pack Size**: Quantity of units per pack
 - **Pack Quantity Issued**: Number of packs that were issued in the Outbound Shipment
 - **Quantity Returned**: Number of packs to be returned
 

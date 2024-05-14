@@ -25,7 +25,6 @@ Examples of items commonly managed by programs include Malaria, HIV and TB medic
 The configuration changes needed when setting up a program are made on the central server. See the documentation below for an explanation:
 
 - [Creating a program](https://docs.msupply.org.nz/items:programs#creating_a_program)
-- [Connecting a program to a store](https://docs.msupply.org.nz/items:programs#connecting_a_program_to_a_store)
 
 ## Creating a program Internal Order
 
@@ -45,6 +44,8 @@ Here, you can select the:
 - Supplier
 - Order Type
 - Period
+
+The programs and order period you see will be affected by the store tags and program preference. [Click here to find out how to connect a program to a store](https://docs.msupply.org.nz/items:programs#connecting_a_program_to_a_store).
 
 3. Only when you have selected all of the above, can you click `Create` and continue.
 

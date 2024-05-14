@@ -34,7 +34,7 @@ The list is divided into 8 columns:
 | **Batch**    | Batch number of the stock line |
 | **Expiry**    | Expiry date of the batch |
 | **Location**    | Where the item is being stored in your facility |
-| **Pack**    | The pack size and unit for this item |
+| **Pack Size**    | The pack size of the item |
 | **Pack Qty**    | Number of packs available in your store |
 | **SOH**    | The total quantity of stock on hand, in number of packs |
 | **Supplier**    | Shows the source of this stock item |
