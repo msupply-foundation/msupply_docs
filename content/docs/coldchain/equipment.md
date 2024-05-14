@@ -151,7 +151,7 @@ Clicking this button will open the `Create Asset` modal
 
 With this modal you can assign:
 
-- set the store for the asset (only available on central server)
+- set the store for the asset (only available on the Open mSupply central server)
 - the asset category
 - the asset catalogue item the asset will be based on: this will link information from the catalogue item ( such as manufacturer & model ) to this newly created asset
 - the asset number
