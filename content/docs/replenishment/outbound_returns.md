@@ -353,7 +353,7 @@ If you set all return quantities to `0`, and click `Next step` you will see this
 ![Outbound return actions dropdown](/docs/replenishment/images/or_actions_deletelines.png)
 
 <div class="imagetitle">
-In below example, we are deleting 2 items, with the item codes 030453 and 201116
+In the below example, we are deleting 2 items, with the item codes 030453 and 201116
 </div>
 
 ![Alt Text](/docs/replenishment/images/or_deleteselectedlines.gif)
@@ -423,7 +423,7 @@ If you do not have enough room on your screen, or simply aren't interested in so
 Click on the `Show / hide columns` button which is at the top right of the table. This gives a list of the columns available - you can check the columns you want to see. The options chosen are stored for the current browser, so next time you view an Outbound Return, you will see the selected columns only. If you have chosen which columns to show, then the button is shown in blue to remind you that there are more columns available.
 
 <div class="imagetitle">
-In below example, we are hiding the pricing columns
+In the below example, we are hiding the pricing columns
 </div>
 
 ![Hide columns](/docs/replenishment/images/or_filter_columns.gif)

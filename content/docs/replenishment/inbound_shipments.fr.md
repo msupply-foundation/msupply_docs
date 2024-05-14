@@ -307,7 +307,7 @@ In the `Quantities` tab, you can update the following fields:
 6. If you are receiving more than one batch number for the same item, you can tap on the `Add Batch` button
 
 <div class="imagetitle">
-In below example, we are receiving 2 batch numbers for item <i>030453 - Amoxicillin 250mg tabs</i> with a different pack size. 
+In the below example, we are receiving 2 batch numbers for item <i>030453 - Amoxicillin 250mg tabs</i> with a different pack size. 
 </div>
 
 ![Add Item quantities](/docs/replenishment/is_additem_quantities.png)
@@ -326,7 +326,7 @@ Sell & Cost prices are per units and not per pack.
 </div>
 
 <div class="imagetitle">
-In below example, sell price $12 per unit and cost price is $10 per unit. 
+In the below example, sell price $12 per unit and cost price is $10 per unit. 
 </div>
 
 ![Add Item pricing](/docs/replenishment/is_additem_pricing.png)
@@ -383,7 +383,7 @@ To edit an Inbound Shipment line, simply tap on it. You will be presented with t
 ![Alt Text](/docs/distribution/os_actions_deleteselectedlines.png)
 
 <div class="imagetitle">
-In below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100mg tabs</i>
+In the below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100mg tabs</i>
 </div>
 
 ![Alt Text](/docs/distribution/os_deleteselectedlines.gif)

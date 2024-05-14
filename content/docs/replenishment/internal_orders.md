@@ -69,7 +69,7 @@ Defining the Target MOS (Month of Stock) is critical to the calculation of the *
 - If for example, the ordering cycle was every two months, then _Target MOS_ should be set to 3 x 2 = `6.0`
 
 <div class="imagetitle">
-In below example, we are setting our Target MOS to 3 Months.  
+In the below example, we are setting our Target MOS to 3 Months.  
 </div>
 
 ![MaxMOS](/docs/replenishment/images/intord_maxmos.png)
@@ -103,13 +103,13 @@ You should also see the following charts:
   - The _Suggested Order Quantity_ calculated by mSupply
 
 <div class="imagetitle">
-In below example, our target quantity is 609 units which is the equivalent of 3 months of stock (3 x 203 = 609 units). Our stock on hand (in grey) is 269 so in order to reach my target, mSupply suggests to order 342 units (609 - 269). 
+In the below example, our target quantity is 609 units which is the equivalent of 3 months of stock (3 x 203 = 609 units). Our stock on hand (in grey) is 269 so in order to reach my target, mSupply suggests to order 342 units (609 - 269). 
 </div>
 
 ![Stock Distribution](/docs/replenishment/images/intord_charts_stockdistri.png)
 
 <div class="imagetitle">
-In below example, the target quantity is 408 units. Since we already have 467 units in stock (in grey), the suggested quantity is zero. 
+In the below example, the target quantity is 408 units. Since we already have 467 units in stock (in grey), the suggested quantity is zero. 
 </div>
 
 ![Stock Distribution 2](/docs/replenishment/images/intord_charts_stockdistri2.png)

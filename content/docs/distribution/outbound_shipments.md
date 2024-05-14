@@ -513,7 +513,7 @@ To edit a shipment line, tap on it. You will be presented with the `Edit Item` w
 ![Alt Text](/docs/distribution/images/os_actions_deleteselectedlines.png)
 
 <div class="imagetitle">
-In below example, we are deleting <i>three placeholder lines</i>.
+In the below example, we are deleting <i>three placeholder lines</i>.
 </div>
 
 ![Alt Text](/docs/distribution/images/os_deleteselectedlines.gif)

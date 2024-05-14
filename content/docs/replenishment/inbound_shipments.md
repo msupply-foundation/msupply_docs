@@ -109,7 +109,7 @@ You can tell if a supplier is also using mSupply in their store. If they do, you
 </div>
 
 <div class="imagetitle">
-In below example, we are receiving stock from <b>Tamaki Central Medical Store</b>. 
+In the below example, we are receiving stock from <b>Tamaki Central Medical Store</b>. 
 </div>
 
 ![Select a Supplier](/docs/replenishment/images/is_selectsupplier.gif)
@@ -127,7 +127,7 @@ If everything went well, you should see the name of your supplier in the top lef
 If you have selected the wrong supplier, you can change the supplier name in the `Supplier Name` field or select one the dropdown list:
 
 <div class="imagetitle">
-In below example, we are replacing <b>Tamaki Central Medical Store</b> by <b>Waikato District Store</b>. 
+In the below example, we are replacing <b>Tamaki Central Medical Store</b> by <b>Waikato District Store</b>. 
 </div>
 
 ![gif](/docs/replenishment/images/is_editsuppliername.gif)
@@ -332,7 +332,7 @@ In the `Quantities` tab, you can update the following fields:
 6. If you are receiving more than one batch number for the same item, you can tap on the `Add Batch` button
 
 <div class="imagetitle">
-In below example, we are receiving 2 batch numbers for item <i>030063 - Acetylsalicylic Acid 100mg tabs</i> with a different pack size. 
+In the below example, we are receiving 2 batch numbers for item <i>030063 - Acetylsalicylic Acid 100mg tabs</i> with a different pack size. 
 </div>
 
 ![Add Item quantities](/docs/replenishment/images/is_additem_quantities.png)
@@ -353,7 +353,7 @@ Sell & Cost prices are per units and not per pack.
 </div>
 
 <div class="imagetitle">
-In below example, the first line's cost price is $0.01 per unit and the sell price $0.10 per unit. 
+In the below example, the first line's cost price is $0.01 per unit and the sell price $0.10 per unit. 
 </div>
 
 ![Add Item pricing](/docs/replenishment/images/is_additem_pricing.png)
