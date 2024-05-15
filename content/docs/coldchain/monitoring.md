@@ -40,7 +40,7 @@ The chart tab displays a chart showing all configured sensors. You can filter th
 - Date/Time Range
 - Breach type
 
-To add a filter to the page, choose the required filter from the drop down.
+To add a filter to the page, choose the required filter from the drop down, the date time filter will apply to all of the tabs in the monitoring section.
 
 <div class="note">By default, data from the last 24 hours is shown. Use the from date/time and to date/time fields to look at a longer period of time.</div>
 
