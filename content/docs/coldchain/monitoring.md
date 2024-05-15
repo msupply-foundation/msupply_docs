@@ -54,11 +54,11 @@ To close the popup, click the red x in the top right corner.
 
 Also shown on the chart are red (top) and blue (bottom) shaded areas. These show the standard temperature breach threshold values of 2°C and 8°C.
 
-<div class="note">If you have use different threshold values in your configuration, you may see breaches outside of the standard range.</div>
+<div class="note">If you have used different threshold values in your configuration, you may see breaches outside of the standard range.</div>
 
 If you select a long time period, you may see a warning message like this:
 ![Cold chain graph with too much data warning](/docs/coldchain/images/chart_view_too_much_data.png)
-To avoid this, you may need select a shorter time period or filter the data to show only the sensors you are interested in.
+To avoid this, you may need to select a shorter time period or filter the data to show only the sensors you are interested in.
 Only the first 8640 data points are shown on the graph.
 
 ### Breaches
