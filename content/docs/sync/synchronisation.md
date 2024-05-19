@@ -34,6 +34,12 @@ To start sync manually, simply click the `Sync now!` button. When you do, you'll
 
 ![sync: manual](/docs/sync/images/sync_in_progress.png)
 
+You'll notice the totals below the `Push V6` and `Push` steps - this is the number of changes to be _processed_ by each step.
+
+The records will then be pushed to _either_ the Open mSupply central server (V6) or the mSupply central server, but they need to be processed before they know where to go!
+
+So in the above example, 4 sync records are being sent in total, not 8.
+
 Here is the complete process in action. You'll notice that most of the sync steps are very quick, though it depends on how many records you have to sync:
 
 <p><img src="/docs/sync/images/sync.gif" alt=:"sync: manual" width="800" /></p>
