@@ -78,27 +78,42 @@ You will then see the detail view of the requisition:
 
 ![Requisition Detail](/docs/distribution/images/requisition-detail.png)
 
+| Column        | Description                                                                                                                                                            |
+| :------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Code**      | Code of the item                                                                                                                                                       |
+| **Name**      | Name of the item                                                                                                                                                       |
+| **Unit**      | The unit of measure for the item                                                                                                                                       |
+| **Our SOH**   | How much stock is available in this store                                                                                                                              |
+| **Their SOH** | How much stock is available in the customer's store                                                                                                                    |
+| **Requested** | The quantity requested by customer                                                                                                                                     |
+| **Supply**    | The quantity that will be supplied by this store                                                                                                                       |
+| **Issued**    | The quantity that has already been issued in `Outbound Shipments`                                                                                                      |
+| **Remaining** | The quantity remaining to be supplied to the customer which will be re-calculated after an `Outbound Shipment` has been created. The calculation is 'Supply - Issued'. |
+
 Clicking on an individual item in this view, will then show you details of the particular item. Here you can adjust the quantity to supply:
 
 ![Requisition Detail](/docs/distribution/images/requisition-item-detail.png)
 
-The requested quantity is also shown, along with the stock item details. 
+The requested quantity is also shown, along with the stock item details.
 
 The `My Store` tab indicates if the store have enough stock to meet the customer's requested quantity as well as the requested quantities from other customers. The two bars show the following:
 
-*The first bar:*
-   - Your stock on hand for this item
-   - Any incoming stock for this item that has been `Shipped`, but not yet `Delivered`
-   - The quantity being requested for this item in any `Internal Orders`
+_The first bar:_
 
-*The second bar:*
-   - The quantity being requested for this item in this Requisition
-   - The quantity being requested in other Requisitions
+- Your stock on hand for this item
+- Any incoming stock for this item that has been `Shipped`, but not yet `Delivered`
+- The quantity being requested for this item in any `Internal Orders`
+
+_The second bar:_
+
+- The quantity being requested for this item in this Requisition
+- The quantity being requested in other Requisitions
 
 ![Requisition Detail](/docs/distribution/images/requisition-item-detail-customer-tab.png)
 
 The `Customer` tab shows the customer's stock situation for this item:
-- The customer's *Target Quantity* for this item. This is calculated as: Target MOS x AMC
+
+- The customer's _Target Quantity_ for this item. This is calculated as: Target MOS x AMC
 - The customer's stock on hand for this item
 
 Another way to adjust the supply quantity, is to click the button `Supply requested` at the top of the page. This will automatically set the supply quantity to be that of the quantity requested for that item. Click the button and you are asked for confirmation before the adjustment happens:
