@@ -86,7 +86,7 @@ You will then see the detail view of the requisition:
 | **Our SOH**   | How much stock is available in this store                                                                                                                                       |
 | **Their SOH** | How much stock is available in the customer's store                                                                                                                             |
 | **Requested** | The quantity requested by customer                                                                                                                                              |
-| **Supply**    | The quantity that will be supplied by this store (quantity can be different from what is being requested)                                                                       |
+| **Supply**    | The quantity that will be supplied by this store (quantity can differ from what is being requested)                                                                             |
 | **Issued**    | The quantity that has already been issued in `Outbound Shipments`                                                                                                               |
 | **Remaining** | The quantity remaining to be supplied to the customer. The calculation is 'Supply - Issued'. This quantity will be re-calculated after an `Outbound Shipment` has been created. |
 
