@@ -78,17 +78,17 @@ You will then see the detail view of the requisition:
 
 ![Requisition Detail](/docs/distribution/images/requisition-detail.png)
 
-| Column        | Description                                                                                                                                                            |
-| :------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Code**      | Code of the item                                                                                                                                                       |
-| **Name**      | Name of the item                                                                                                                                                       |
-| **Unit**      | The unit of measure for the item                                                                                                                                       |
-| **Our SOH**   | How much stock is available in this store                                                                                                                              |
-| **Their SOH** | How much stock is available in the customer's store                                                                                                                    |
-| **Requested** | The quantity requested by customer                                                                                                                                     |
-| **Supply**    | The quantity that will be supplied by this store                                                                                                                       |
-| **Issued**    | The quantity that has already been issued in `Outbound Shipments`                                                                                                      |
-| **Remaining** | The quantity remaining to be supplied to the customer which will be re-calculated after an `Outbound Shipment` has been created. The calculation is 'Supply - Issued'. |
+| Column        | Description                                                                                                                                                                     |
+| :------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Code**      | Code of the item                                                                                                                                                                |
+| **Name**      | Name of the item                                                                                                                                                                |
+| **Unit**      | The unit of measure for the item                                                                                                                                                |
+| **Our SOH**   | How much stock is available in this store                                                                                                                                       |
+| **Their SOH** | How much stock is available in the customer's store                                                                                                                             |
+| **Requested** | The quantity requested by customer                                                                                                                                              |
+| **Supply**    | The quantity that will be supplied by this store (quantity can be different from what is being requested)                                                                       |
+| **Issued**    | The quantity that has already been issued in `Outbound Shipments`                                                                                                               |
+| **Remaining** | The quantity remaining to be supplied to the customer. The calculation is 'Supply - Issued'. This quantity will be re-calculated after an `Outbound Shipment` has been created. |
 
 Clicking on an individual item in this view, will then show you details of the particular item. Here you can adjust the quantity to supply:
 
