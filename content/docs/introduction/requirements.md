@@ -144,13 +144,13 @@ An installation of mSupply is currently required when running Open mSupply. This
 
 From v2.0.00, the Open mSupply central server is also required for successful synchronisation. See the [Open mSupply central server](/docs/getting_started/central/) and [Open mSupply central server site configuration in mSupply](https://docs.msupply.org.nz/synchronisation:sync_sites#open_msupply_central_server_settings) for more details.
 
-You will get the following error message the Open mSupply central server is not configured
+You will get the following error message if the Open mSupply central server is not configured:
 
 ![v6 not configured!](/docs/introduction/images/v6_not_configured.png)
 
 The versions of both central servers and your Open mSupply remote site are important, as not all versions of each are compatible with each other.
 
-The table below shows which versions of mSupply and Open mSupply Central you will require when running as Open mSupply remote site:
+The table below shows which versions of mSupply and Open mSupply Central you will require when running as an Open mSupply remote site:
 
 | Open mSupply Remote | mSupply Central | Open mSupply Central |
 | :------------------ | :-------------- | -------------------- |
