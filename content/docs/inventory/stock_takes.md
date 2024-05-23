@@ -111,7 +111,7 @@ Once you select an item, stocktake rows will be generated for any batches of tha
 
 ![Stocktake add item with batches](/docs/inventory/images/stocktake_newitem_with_batches.png)
 
-If there are no batches with stock for that item, your batch list will be blank. You can use the `Add batch (+)` button to add a new blank row, enter the batch information and the counted number of packs.
+If there are no batches with stock for that item, your batch list will be blank. The `Add batch (+)` button will add a new blank row, where you can enter batch information and the counted number of packs.
 
 ![Stocktake add item no batches](/docs/inventory/images/stocktake_newitem_no_batches.png)
 
@@ -149,7 +149,7 @@ Sometimes you may want to make changes to many or all of the lines in your stock
 
 ### Change location
 
-Use the checkbox column to select the lines you wish to change the location for. Then you can select `Change location of lines` from the `Actions` dropdown.
+Use the checkbox column to select the lines you wish to change the location for. Then select the `Change location of lines` option from the `Actions` dropdown.
 
 ![Stocktake actions](/docs/inventory/images/stocktake_actions.png)
 
@@ -161,7 +161,7 @@ Select a location and press OK. All selected stock lines will now have an update
 
 ### Reduce number of packs to 0
 
-Use the checkbox column to select the lines you wish to reduce to 0. Then you can select `Reduce lines to 0` from the `Actions` dropdown.
+Use the checkbox column to select the lines you wish to reduce to 0. Then select the `Reduce lines to 0` option from the `Actions` dropdown.
 
 ![Stocktake action reduce to 0](/docs/inventory/images/stocktake_action_reduce_to_0.png)
 
@@ -177,7 +177,7 @@ Select a reason and press OK. All selected stock lines will now have a `Counted 
 
 ### Deleting stocktake lines
 
-Use the checkbox column to select the lines you wish to delete. Then you can select `Delete selected lines` from the `Actions` dropdown.
+Use the checkbox column to select the lines you wish to delete. Then select the `Delete selected lines` option from the `Actions` dropdown.
 
 This will bring up a confirmation popup:
 
