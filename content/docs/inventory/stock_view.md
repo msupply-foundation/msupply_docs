@@ -132,7 +132,7 @@ To see changes made to this stock line, you can click the `Log` tab. The list sh
 
 ### Ledger tab
 
-The `Log` tab shows changes relating to batch information, such as changes in location or pricing. The `Ledger` tab shows the stock movements for a particular stock line. These could be the result of Inbound/Outbound Shipments, Returns, Repacks or Inventory Adjustments.
+The `Log` tab shows changes relating to the batch, such as changes in location or pricing. The `Ledger` tab shows the stock movements for a particular stock line. These could be the result of Inbound/Outbound Shipments, Returns, Repacks or Inventory Adjustments.
 
 <div class="imagetitle" style="margin-bottom: 40px;">Ledger, showing stock movements of this batch</div>
 
@@ -154,7 +154,7 @@ Click the `New` button to start a repack:
 
 ![Repack entry form](/docs/inventory/images/repack-enter.png)
 
-From here, you can enter the number of packs which you'd like to repack, up to a maximum of the current number of packs in stock. This number is the number shown next to `Packs available` - in this case there are 5779 packs available.
+From here, you can enter the number of packs which you'd like to repack, up to a maximum of the current number of packs in stock (represented by the number next to `Packs available`) - in this case there are 5779 packs available.
 
 You can then enter a new pack size, and optionally, enter a location for the new stock. The `New number of packs` is calculated automatically.
 Click `Save` to save the changes. Clicking `Print` will allow you to print details of this repack action.

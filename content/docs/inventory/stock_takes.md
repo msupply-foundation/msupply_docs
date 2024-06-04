@@ -71,7 +71,7 @@ Don't worry if an item is missing from your newly created stocktake. You will ha
 
 ### Entering counted packs
 
-To start entering stocktake data for an item, click on the stocktake row you would like to edit. A window appears, where you can enter the counted number of packs. You can also update other data from this window, like the expiry date, or pricing or location information for a particular batch.
+To start entering stocktake data for an item, click on the stocktake row you would like to edit. A window appears, where you can enter the counted number of packs. You can also update other data from this window, like the expiry date, pricing or location information for a particular batch.
 
 ![Stocktake edit window](/docs/inventory/images/stocktake_edit.png)
 
@@ -85,7 +85,7 @@ You can use the `Add batch (+)` button to add more batches of a particular item 
 
 If you have [inventory adjustment options](https://docs.msupply.org.nz/preferences:options?s[]=reasons) configured in your central server, then you are required to enter a reason when the `counted packs` specified does not match the snapshot packs.
 
-For example, after entering `95` for the counted quantity of this batch Amoxicillin 250mg tabs, a red \* will appear to the right of the `Reason` input, and you will need to select one of the negative inventory adjustment reasons:
+For example, after entering `95` for the counted quantity for Amoxicillin 250mg tabs - batch 166893, a red \* will appear to the right of the `Reason` input, and you will need to select one of the negative inventory adjustment reasons:
 
 ![Stocktake reasons](/docs/inventory/images/stocktake_reasons.png)
 
@@ -99,7 +99,7 @@ and the stocktake row that requires a reason to be entered will be highlighted i
 
 ### Adding items
 
-If an item was not included in the generated stocktake rows when you created your stocktake, you can add it manually. Click the `Add Item` button in the top right of your screen.
+If an item was not included in the generated stocktake rows when you created your stocktake, you can add it manually by clicking the `Add Item` button in the top right of your screen.
 
 ![Stocktake add item](/docs/inventory/images/stocktake_add_item.png)
 
@@ -153,7 +153,7 @@ Use the checkbox column to select the lines you wish to change the location for.
 
 ![Stocktake actions](/docs/inventory/images/stocktake_actions.png)
 
-This will bring up a window where you can select which location you would like to change these stock to:
+This will bring up a window where you can select which location you would like to move the stock lines to:
 
 ![Stocktake change location](/docs/inventory/images/stocktake_change_location.png)
 
