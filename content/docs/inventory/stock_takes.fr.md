@@ -4,7 +4,7 @@ description = "Comptage et ajustement des stocks."
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
 draft = false
-weight = 2
+weight = 3
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -20,10 +20,9 @@ Bien sûr, nous essayons de ne pas laisser cela se produire, mais si cela se pro
 
 Dans mSupply, vous pouvez facilement faire un inventaire pour :
 
-* Un inventaire complet
-* Une gamme limitée d'articles
-* Un seul article
-
+- Un inventaire complet
+- Une gamme limitée d'articles
+- Un seul article
 
 ## Affichage des inventaires
 
@@ -37,14 +36,13 @@ Cela fait apparaître une liste de tous vos inventaires :
 
 Pour chaque participation en actions, vous pouvez voir :
 
-* Le numéro d'inventaire
-* Le statut d'inventaire . Il existe deux statuts d'inventaire :
-  *   Nouveau : un état des lieux sur lequel vous travaillez encore
-  *   Finalisé : un état des lieux qui a déjà été réalisé. Vous ne pouvez plus le modifier.
-* Une description de l'inventaire (par exemple, inventaire de mars)
-* Le cas échéant, un commentaire sur le stock
-* La date de l'inventaire
-
+- Le numéro d'inventaire
+- Le statut d'inventaire . Il existe deux statuts d'inventaire :
+  - Nouveau : un état des lieux sur lequel vous travaillez encore
+  - Finalisé : un état des lieux qui a déjà été réalisé. Vous ne pouvez plus le modifier.
+- Une description de l'inventaire (par exemple, inventaire de mars)
+- Le cas échéant, un commentaire sur le stock
+- La date de l'inventaire
 
 <div class="avertissement">
 Il ne sert à rien de conserver les anciens inventaires avec status = NEW, surtout si vous êtes sur le point de créer un nouvel inventaire contenant les mêmes éléments. En effet, il peut être assez dangereux de laisser d'anciens inventaires avec statut NEW dans votre système. Si du temps s'est écoulé depuis la création de l'inventaire, l'instantané et les quantités réelles sont presque certainement incorrects. Pour des raisons de bonne gestion, il est recommandé de supprimer les anciens NEW inventaires. </div>
@@ -72,7 +70,8 @@ Lorsque vous consultez un inventaire spécifique, cliquez simplement sur le Prin
 ![Print button](//docs/introduction/images//print_button.png)
 
 Cela va soit:
-* Affiche un menu de rapports possibles parmi lesquels choisir avant de créer un PDF. Cela se produira si plusieurs rapports sont définis pour le Stocktaketype de rapport.
-* Créez un PDF immédiatement, s'il n'y a qu'un seul rapport à sélectionner
+
+- Affiche un menu de rapports possibles parmi lesquels choisir avant de créer un PDF. Cela se produira si plusieurs rapports sont définis pour le Stocktaketype de rapport.
+- Créez un PDF immédiatement, s'il n'y a qu'un seul rapport à sélectionner
 
 ![Print menu](/docs/distribution/images/os_print_menu.png)
