@@ -169,7 +169,7 @@ This will bring up a confirmation popup:
 
 ![Stocktake reduce to 0](/docs/inventory/images/stocktake_reduce_0.png)
 
-If inventory adjustment reasons are configured from the central server, you will also be required to supply the reason for reducing the stock level:
+If [inventory adjustment reasons](https://docs.msupply.org.nz/preferences:options?s[]=reasons) are configured from the central server, you will also be required to supply the reason for reducing the stock level:
 
 ![Stocktake reduce to 0 select reason](/docs/inventory/images/stocktake_reduce_0_reason.png)
 
