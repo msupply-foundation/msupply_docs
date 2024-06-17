@@ -19,7 +19,7 @@ Let's explore what's possible...
 
 ## Viewing the display settings
 
-To view the display settings, go to `Admin` in the lower section of the navigation panel: 
+To view the display settings, go to `Settings` in the lower section of the navigation panel:
 
 ![Location: nav](/docs/administration/images/admin_nav.png)
 
@@ -43,11 +43,11 @@ It is possible to use a custom logo for the site. This shows in the left navigat
 
 ![Custom logo login](/docs/administration/images/custom_logo_nav.png)
 
-The logo will need to be in the `svg` format. To update, simply 
+The logo will need to be in the `svg` format. To update, simply
 
-* enable the custom logo by clicking the toggle switch
-* copy the text of the .svg file and paste it into the text area
-* click save
+- enable the custom logo by clicking the toggle switch
+- copy the text of the .svg file and paste it into the text area
+- click save
 
 ![Edit custom logo](/docs/administration/images/edit_logo.png)
 
@@ -55,9 +55,8 @@ The logo will need to be in the `svg` format. To update, simply
 
 You can also configure a custom look for your site by using a custom theme. To do this:
 
-* enable the custom theme by clicking the toggle switch
-* you'll see a sample of the current theme in the text area - this shows you what can be updated
-* edit the theme and click save to view the results
+- enable the custom theme by clicking the toggle switch
+- you'll see a sample of the current theme in the text area - this shows you what can be updated
+- edit the theme and click save to view the results
 
 ![Edit custom logo](/docs/administration/images/edit_theme.png)
-

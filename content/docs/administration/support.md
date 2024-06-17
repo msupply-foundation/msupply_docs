@@ -15,10 +15,9 @@ top = false
 
 The support section provides some tools for troubleshooting and supporting an Open mSupply installation.
 
-
 ## Viewing the server log
 
-To view the server log, go to `Admin` in the lower section of the navigation panel: 
+To view the server log, go to `Settings` in the lower section of the navigation panel:
 
 ![Admin: nav](/docs/administration/images/admin_nav.png)
 
@@ -47,6 +46,7 @@ logging:
   max_file_count: 10
   max_file_size: 1
 ```
+
 After selecting a log file to view, the contents of the log is loaded. This make take a little time if the log is a large one!
 
 ![Support: select log](/docs/administration/images/support_log_loading.png)

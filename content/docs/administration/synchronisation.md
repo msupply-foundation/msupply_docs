@@ -16,7 +16,7 @@ top = false
 
 ## Viewing the synchronisation settings
 
-To view the synchronisation settings, go to `Admin` in the lower section of the navigation panel: 
+To view the synchronisation settings, go to `Settings` in the lower section of the navigation panel:
 
 ![admin: nav](/docs/administration/images/admin_nav.png)
 

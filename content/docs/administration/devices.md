@@ -17,11 +17,11 @@ The devices settings section allows you to configure devices that you may have c
 
 ## Viewing the display settings
 
-To view the display settings, go to `Admin` in the lower section of the navigation panel: 
+To view the display settings, go to `Settings` in the lower section of the navigation panel:
 
 ![Admin: nav](/docs/administration/images/admin_nav.png)
 
-You will see the list of admin sections:
+You will see the list of settings sections:
 
 ![Admin: collapsed](/docs/administration/images/admin_collapsed.png)
 
