@@ -4,7 +4,7 @@ description = "Customise how the site looks for you"
 date = 2022-05-17T16:20:00+00:00
 updated = 2022-05-17T16:20:00+00:00
 draft = false
-weight = 71
+weight = 1
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -23,7 +23,11 @@ To view the display settings, go to `Settings` in the lower section of the navig
 
 ![Location: nav](/docs/administration/images/admin_nav.png)
 
-You will see the display settings at the top, click on this to view the options:
+You will see the list of settings sections:
+
+![Admin: collapsed](/docs/administration/images/admin_collapsed.png)
+
+You will see the `Display settings` at the top, click on this to view the options:
 
 ![Location: list](/docs/administration/images/display_settings.png)
 

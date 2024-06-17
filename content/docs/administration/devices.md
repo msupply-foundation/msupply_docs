@@ -4,7 +4,7 @@ description = "Configure devices attached to the system"
 date = 2022-05-17T16:20:00+00:00
 updated = 2022-05-17T16:20:00+00:00
 draft = false
-weight = 60
+weight = 4
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -25,7 +25,7 @@ You will see the list of settings sections:
 
 ![Admin: collapsed](/docs/administration/images/admin_collapsed.png)
 
-click on the `Devices` section to begin.
+Click on the `Devices` section to begin.
 
 ## Label Printing
 
