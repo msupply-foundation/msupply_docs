@@ -9,10 +9,11 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "The Facilities list is where you can view all stores, and manage their properties"
 toc = true
 top = false
 +++
+
+The Facilities list is available only on the [Open mSupply Central Server](/docs/getting_started/central). This is where you can view all stores, and manage their properties.
 
 ## Viewing Facilities
 
@@ -21,8 +22,6 @@ Choose `Manage` > `Facilities` in the navigation panel.
 ![goto: facilities](/docs/manage/images/goto_facilities.png)
 
 You will be presented with a list of stores in your system.
-
-<!-- TODO -->
 
 ![facility list](/docs/manage/images/facilities.png)
 
@@ -58,21 +57,22 @@ You can filter the list of facilities by name or by code. This can be useful if 
 
 In the search bar in the top left of your screen, type some (or all) of a store name or store code. The list will now contain all matching facilities:
 
-<!-- TODO -->
-
-![Facilities filter](/docs/manage/images/facilities_filter.gif)
+![Facilities filter](/docs/manage/images/facilities_filter.png)
 
 ## Editing store properties
 
-To edit the properties of a store, click on it. This will open a new `Edit Facility` window.
+To edit the properties of a store in the list, click on it. This will open a new `Edit Facility` window.
 
 <div class='tip'>
-If nothing happens when you click on a store, that's because you have no store properties configured! To set these up, please contact support.
+If you see a message like this when you open the Edit Facility window, that means you have no store properties configured! To set these up, please contact support.
+
+![Facilities: no properties](/docs/manage/images/facilities-no-properties-defined.png)
+
 </div>
 
-![Edit facility](/docs/manage/images/edit_facility.png)
+From this window, you can edit the store properties. Once you are happy with your changes:
 
-From here, you can edit the store properties. Once you are happy with your changes:
+![Edit facility](/docs/manage/images/edit_facility.png)
 
 - Click `OK` to save your changes and close the window
 - Click `OK & Next` to save your changes and start editing the next store
