@@ -9,10 +9,17 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "Demographics is a where you can view future projections for different demographic indicators"
 toc = true
 top = false
 +++
+
+Demographics is available only on the [Open mSupply Central Server](/docs/getting_started/central). This is where you can view and manage future projections for different demographic indicators.
+
+## Configuration
+
+Currently, `Demographics` features are only enabled as part of the `Vaccine` module.
+
+To begin, enable the store preference for `mobile: Uses Vaccine Module` (see the [store preferences](https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab) documentation for how to do this).
 
 ## Viewing Demographics Indicators
 
@@ -22,24 +29,16 @@ Choose `Manage` > `Demographics` in the navigation panel.
 
 You will be presented with a list of Demographics Indicators:
 
-<!-- TODO -->
-
-![indicators list](/docs/manage/images/demographics.png)
+<!-- TOOD: screenshot -->
 
 The list of Demographics Indicators is divided into 8 columns:
 
-| Column         | Description                                                                    |
-| :------------- | :----------------------------------------------------------------------------- |
-| **Name**       | The name of the demographic                                                    |
-| **Percentage** | Percentage of the general population included in this demographic              |
-| **Population** | The calculated population of that demographic, based on the `Percentage`       |
-| **Years**      | Population projections for 5 future years, based on the `% Growth` predictions |
-
-## General population
-
-All calculations are based on the current general population. To begin, enter the current population:
-
-<!-- TOOD: screenshot -->
+| Column              | Description                                                                    |
+| :------------------ | :----------------------------------------------------------------------------- |
+| **Name**            | The name of the demographic                                                    |
+| **Percentage**      | Percentage of the general population included in this demographic              |
+| **Population**      | The calculated population of that demographic, based on the `Percentage`       |
+| **5 Years columns** | Population projections for 5 future years, based on the `% Growth` predictions |
 
 ## Yearly growth percentage
 
@@ -47,10 +46,16 @@ For each year, you can enter the predicted population growth percentage. This ca
 
 Once you click out of the cell, your projections will update.
 
-<!-- TOOD: screenshot -->
+<!-- TOOD: screenshot... probably a gif? -->
 
 - Click `Save` once you are happy with your changes
 - OR: Click `Cancel` at any time to revert your changes
+
+## General population
+
+All calculations are based on the current `General Population`. To begin, enter the current population:
+
+<!-- TOOD: screenshot -->
 
 ## Adding a new indicator
 
