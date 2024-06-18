@@ -29,7 +29,7 @@ Choose `Manage` > `Demographics` in the navigation panel.
 
 You will be presented with a list of Demographics Indicators:
 
-<!-- TOOD: screenshot -->
+![indicators](/docs/manage/images/indcators.png)
 
 The list of Demographics Indicators is divided into 8 columns:
 
@@ -46,7 +46,7 @@ For each year, you can enter the predicted population growth percentage. This ca
 
 Once you click out of the cell, your projections will update.
 
-<!-- TOOD: screenshot... probably a gif? -->
+![edit growth](/docs/manage/images/percentage_growth.gif)
 
 - Click `Save` once you are happy with your changes
 - OR: Click `Cancel` at any time to revert your changes
@@ -55,15 +55,15 @@ Once you click out of the cell, your projections will update.
 
 All calculations are based on the current `General Population`. To begin, enter the current population:
 
-<!-- TOOD: screenshot -->
+![population](/docs/manage/images/population.png)
 
 ## Adding a new indicator
 
-To add a new demographic indicator, click the `Add New Indicator` button in the top right:
-
-<!-- TOOD: screenshot -->
+To add a new demographic indicator, click the `Add New Indicator` button in the top right.
 
 This will add a new row to the table. You can now enter a name for the demographic, and the percentage of the population included.
 
 - Click `Save` once you are happy with your changes
 - OR: Click `Cancel` at any time to revert your changes
+
+![add new indicator](/docs/manage/images/add_indicator.gif)
