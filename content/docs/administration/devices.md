@@ -15,7 +15,7 @@ top = false
 
 The devices settings section allows you to configure devices that you may have connected to the Open mSupply system.
 
-## Viewing the display settings
+## Viewing the device settings
 
 To view the display settings, go to `Settings` in the lower section of the navigation panel:
 
