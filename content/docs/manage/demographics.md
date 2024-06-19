@@ -29,7 +29,7 @@ Choose `Manage` > `Demographics` in the navigation panel.
 
 You will be presented with a list of Demographics Indicators:
 
-![indicators](/docs/manage/images/indcators.png)
+![indicators](/docs/manage/images/indicators.png)
 
 The list of Demographics Indicators is divided into 8 columns:
 
@@ -42,9 +42,7 @@ The list of Demographics Indicators is divided into 8 columns:
 
 ## Yearly growth percentage
 
-For each year, you can enter the predicted population growth percentage. This can be a positive or negative number.
-
-Once you click out of the cell, your projections will update.
+For each year, you can enter the predicted population growth percentage. This can be a positive or negative number. As you edit the growth percentage, you will notice the population projections update.
 
 ![edit growth](/docs/manage/images/percentage_growth.gif)
 
