@@ -15,8 +15,6 @@ top = false
 
 The configuration settings section allows you to configure custom data for the system. It is only available on the [Open mSupply Central Server](/docs/getting_started/central).
 
-Currently it is only used to configure store properties for GAPS.
-
 ## Viewing the configuration settings
 
 To view the configuration settings, go to `Settings` in the lower section of the navigation panel:
