@@ -19,11 +19,11 @@ The devices settings section allows you to configure devices that you may have c
 
 To view the display settings, go to `Settings` in the lower section of the navigation panel:
 
-![Admin: nav](/docs/administration/images/admin_nav.png)
+![Admin: nav](/docs/settings/images/admin_nav.png)
 
 You will see the list of settings sections:
 
-![Admin: collapsed](/docs/administration/images/admin_collapsed.png)
+![Admin: collapsed](/docs/settings/images/admin_collapsed.png)
 
 Click on the `Devices` section to begin.
 
@@ -31,7 +31,7 @@ Click on the `Devices` section to begin.
 
 The label printing functionality is in an experimental state currently. You can configure a single, network-enabled, label printer which supports the ZPL printer language.
 
-![Label Printing](/docs/administration/images/devices_label_printing.png)
+![Label Printing](/docs/settings/images/devices_label_printing.png)
 
 Enter the IP address and other details of the printer. To test your configuration, you can click the `Test` button. This will attempt to connect to the printer and fetch configuration details from it.
 
@@ -44,20 +44,20 @@ We support serial-mode and keyboard-mode scanners. The preference is serial scan
 
 On opening the barcode scanners section you may see the message `Not connected`:
 
-![Barcode scanner](/docs/administration/images/devices_scanner_not_connected.png)
+![Barcode scanner](/docs/settings/images/devices_scanner_not_connected.png)
 
 even though you have a scanner plugged in. The system needs to be instructed that a scanner is available - here's how this is done:
 
 Click the `Detect` button. A barcode will be shown:
 
-![Barcode scanner](/docs/administration/images/devices_scanner_barcode.png)
+![Barcode scanner](/docs/settings/images/devices_scanner_barcode.png)
 
 Scan the barcode with your barcode scanner (this may take a few attempts!). You will see the following notification when successful:
 
-![Barcode scanner](/docs/administration/images/devices_scanner_found.png)
+![Barcode scanner](/docs/settings/images/devices_scanner_found.png)
 
 and then the message is changed to the following:
 
-![Barcode scanner](/docs/administration/images/devices_scanner_connected.png)
+![Barcode scanner](/docs/settings/images/devices_scanner_connected.png)
 
 You are now able to use the barcode scanner!

@@ -98,15 +98,14 @@ When importing assets on the central server, an additional field of `store` will
 
 Information will need to be entered in the format provided by the csv template in order for Open mSupply to be able to process and upload this data.
 
-| Column                        | Description                                                       | Example               | Mandatory                  |
-| :---------------------------- | :----------------------------                                     | :-------------------- | :---------                 |
-| **Asset Number**              | The asset number assigned by the user's organisation              | 1                     | *                          |
-| **Catalogue item code**       | The Asset Catalogue code - i.e. the kind of asset to be imported  | E003/002              | *                          |
-| **Store**                     | The code of the Store to which the asset is to be assigned        | CMS                   | * (central only)           |
-| **Notes**                     | General notes about the asset                                     | Kept in EPI office    |                            |
-| **Serial Number**             | The serial number of that particular asset                        | 123456789ABC          |                            |
-| **Installation date**         | The date that the asset was installed at the Store                | 2024-01-14            |                            |
-
+| Column                  | Description                                                      | Example            | Mandatory         |
+| :---------------------- | :--------------------------------------------------------------- | :----------------- | :---------------- |
+| **Asset Number**        | The asset number assigned by the user's organisation             | 1                  | \*                |
+| **Catalogue item code** | The Asset Catalogue code - i.e. the kind of asset to be imported | E003/002           | \*                |
+| **Store**               | The code of the Store to which the asset is to be assigned       | CMS                | \* (central only) |
+| **Notes**               | General notes about the asset                                    | Kept in EPI office |                   |
+| **Serial Number**       | The serial number of that particular asset                       | 123456789ABC       |                   |
+| **Installation date**   | The date that the asset was installed at the Store               | 2024-01-14         |                   |
 
 A csv file can be uploaded once it has been created in the example format.
 
@@ -132,7 +131,7 @@ You may see this notification when you click the button:
 
 ![Scan button](/docs/coldchain/images/equipment_scan_error.png)
 
-If you do, don't panic! Head over to the [Barcode Scanners](/docs/administration/devices/#barcode-scanners) section of the `Admin` documentation and configure a scanner before continuing.
+If you do, don't panic! Head over to the [Barcode Scanners](/docs/settings/devices/#barcode-scanners) section of the `Settings` documentation and configure a scanner before continuing.
 
 Once you have a scanner connected - you can click the `Scan` button and scan a QR code.
 If a match is found when you scan, you'll be taken to the detail page for that cold chain equipment item. If not, you'll see a notification telling that no match was found.
@@ -250,7 +249,7 @@ To help identify assets, you can print a QR code label for your asset. This can 
 
 Simply click the `Print QR code` button and a QR code will be printed, if you have a label printer configured.
 
-To configure a label printer, refer to the [Label Printing](/docs/administration/devices/#label-printing) section of the administration pages.
+To configure a label printer, refer to the [Label Printing](/docs/settings/devices/#label-printing) section of the settings pages.
 
 The label will show the code and serial number, for example:
 

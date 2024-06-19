@@ -156,16 +156,16 @@ You can create Internal Orders from multiple master lists by repeating above act
 When you add items (using a master list or not), the item is added to the order's table. The following information is provided for each order line:
 
 | Status                   | Description                                                                                                                                        |
-| :----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
 | **Code**                 | Code of the item                                                                                                                                   |
 | **Name**                 | Name of the item                                                                                                                                   |
 | **Unit**                 | Unit of the item e.g. Tablet, Capsule, Vial                                                                                                        |
 | **DPS**                  | Default pack size of the item                                                                                                                      |
-| **SoH (Est. remaining)** | Stock on Hand: how much stock is currently available in your store for this store                                                                                    |
+| **SoH (Est. remaining)** | Stock on Hand: how much stock is currently available in your store for this store                                                                  |
 | **AMC**                  | Average Monthly Consumption: how much stock your store uses each month on average (based on a configurable number of months, defaults to 3 months) |
-| **Target Stock**         | This is the stock you are aiming for. Calculated as: AMC x Target MOS MOS                                                                             |
-| **Suggested Quantity**   | How much stock mSupply suggests that your order. This is calculated as: (AMC x Target MOS) - SoH                                                    |
-| **Requested**            | This is set to zero by default. This is the quantity of units you are ordering from your supplier.                                                 |                                                                       |
+| **Target Stock**         | This is the stock you are aiming for. Calculated as: AMC x Target MOS MOS                                                                          |
+| **Suggested Quantity**   | How much stock mSupply suggests that your order. This is calculated as: (AMC x Target MOS) - SoH                                                   |
+| **Requested**            | This is set to zero by default. This is the quantity of units you are ordering from your supplier.                                                 |     |
 
 ### Using Suggested Quantities
 
@@ -191,7 +191,7 @@ This will either
 
 ### Sending an Internal Order
 
-You will need the permission [Can confirm Internal Order as Sent](/docs/administration/permissions/) to be able to send an Internal Order:
+You will need the permission [Can confirm Internal Order as Sent](/docs/settings/permissions/) to be able to send an Internal Order:
 
 1. Tap on the `Confirm Sent` button (bottom right corner)
 2. A dialog window opens asking you whether you are sure to want to send the order. Tap on `OK` to proceed

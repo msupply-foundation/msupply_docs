@@ -18,11 +18,11 @@ top = false
 
 To view the synchronisation settings, go to `Settings` in the lower section of the navigation panel:
 
-![admin: nav](/docs/administration/images/admin_nav.png)
+![admin: nav](/docs/settings/images/admin_nav.png)
 
 You will see the synchronisation section below the display settings, click on this to view the options.
 
-![admin: page](/docs/administration/images/administration.png)
+![admin: page](/docs/settings/images/administration.png)
 
 ## Updating settings
 

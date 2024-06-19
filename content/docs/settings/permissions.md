@@ -26,7 +26,7 @@ In addition to these specific permissions, you'll need to ensure that the user h
 
 | Tab                  | Area                  | Permission                          | Description                                                                                                  |
 | -------------------- | --------------------- | ----------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| Permissions          | Admin                 | Access server administration        | Allows access to the `Admin` page                                                                            |
+| Permissions          | Settings              | Access server administration        | Allows access to the `Settings` page                                                                         |
 | Permissions          | Items                 | Manage locations                    | Allows a user to maintain locations                                                                          |
 |                      |                       | Edit items                          | Able to edit items, required when saving a barcode                                                           |
 |                      |                       | Edit Item names, codes and units    | Can maintain pack variants                                                                                   |
