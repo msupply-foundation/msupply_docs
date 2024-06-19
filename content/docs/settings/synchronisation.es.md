@@ -16,15 +16,14 @@ top = false
 
 ## Ver las configuraciones de sincronización
 
-Para ver las configuraciones de sincronización, ve a  `Admin` en la sección inferior del panel de navegación:
+Para ver las configuraciones de sincronización, ve a `Admin` en la sección inferior del panel de navegación:
 
-![admin: nav](/docs/administration/images/admin_nav.png)
+![admin: nav](/docs/settings/images/admin_nav.png)
 
 Verás la sección de sincronización debajo de las opciones de visualización:
 
-![admin: page](/docs/administration/images/administration.png)
+![admin: page](/docs/settings/images/administration.png)
 
 ## Actualización de la configuración
 
 ¡Ten mucho cuidado al actualizar estas configuraciones! Controlan cómo el servidor se conecta al servidor central y generalmente no necesitan ser cambiados. Si realizas algún cambio sin consultar al administrador del servidor central, es muy probable que rompas la conexión de sincronización.
-

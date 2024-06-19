@@ -28,7 +28,7 @@ As of v2.0.0, your Open mSupply server actually syncs to two central servers! Th
 
 ## Manual synchronisation
 
-On this (sync) screen you are also able to initiate synchronisation immediately rather than wait for the scheduled time ( remember, the sync interval is configured in the Admin > Synchronisation section, see the [Administration](/docs/administration/synchronisation/) page for details ).
+On this (sync) screen you are also able to initiate synchronisation immediately rather than wait for the scheduled time ( remember, the sync interval is configured in the Admin > Synchronisation section, see the [Settings](/docs/settings/synchronisation/) page for details ).
 
 To start sync manually, simply click the `Sync now!` button. When you do, you'll see that the button changes to a spinner and the progress is indicated with the stepper icons which change to show which step is currently active. For example, in the image below you'll see that the `Push` step is active.
 
