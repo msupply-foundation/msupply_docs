@@ -29,7 +29,9 @@ Click on the `Configuration` section to begin.
 
 ## GAPS Store Properties
 
-Here you will find a button, where you can the initialise store properties that are required for the GAPS feature. To configure these properties, click the `Initialise` button:
+To operate fully, the GAPS feature requires a number of configuration changes and data records to be added to the system. In order to make this process easier, all of the required general configuration steps have been automated for you.
+
+In order to add the GAPS configuration changes, simply click the `Initialise` button, shown below:
 
 ![GAPS: uninitialised](/docs/settings/images/gaps_unconfigured.png)
 
@@ -41,4 +43,10 @@ An `Edit` button will also appear in the footer, where you can edit the store pr
 
 ![Store properties edit](/docs/settings/images/store_properties_edit_footer.png)
 
-Clicking that `Edit` button will open a new window, where you can [view and edit your store properties](/docs/manage/facilities/#editing-your-store-properties). If the properties are configured correctly, you will see a number of property inputs in this window.
+Clicking that `Edit` button will open a new window, where you can [view and edit your store properties](/docs/manage/facilities/#editing-your-store-properties).
+
+You will see a number of property inputs in this window. If you don't, there may be something wrong with the configuration - please contact support to investigate.
+
+<div class='note'>
+GAPS configuration is a one way process that cannot be undone! Please be sure you wish to use the GAPS feature before initialising.
+</div>

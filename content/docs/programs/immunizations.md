@@ -40,7 +40,7 @@ This will open a new window, where you can enter the name of the new Immunizatio
 
 - Click `OK` once you are happy with your changes
   - You will be redirected to the detail view for your new Immunization Program
-- OR: Click `Cancel` at any time to revert your changes
+- OR: Click `Cancel` to close the window if you've changed your mind
 
 ## Deleting an Immunization Program
 
@@ -98,7 +98,7 @@ This will open a new window, where you can enter the name of the new Vaccine Cou
 
 - Click `OK` once you are happy with your changes
   - You will be redirected to the detail view of your newly created Vaccine Course
-- OR: Click `Cancel` at any time to revert your changes
+- OR: Click `Cancel` to close the window if you've changed your mind
 
 ### Deleting a Vaccine Course
 

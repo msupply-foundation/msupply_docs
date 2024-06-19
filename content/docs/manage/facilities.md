@@ -35,10 +35,6 @@ The list of Stores is divided into 5 columns:
 | **Customer** | Whether this store is a customer |
 | **Donor**    | Whether this store is a donor    |
 
-<div>
-You will also see an icon like this (<img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto">) next to the store code - meaning this is an mSupply store.
-</div>
-
 The list can display a fixed number of stores per page. On the bottom left corner, you can see how many stores are currently displayed on your screen.
 
 ![Pagination: showing](/docs/distribution/images/os_list_showing.png)
@@ -70,14 +66,13 @@ If you see a message like this when you open the Edit Facility window, that mean
 
 </div>
 
-From this window, you can edit the store properties. Once you are happy with your changes:
+From this window, you can edit the store properties.
 
 ![Edit facility](/docs/manage/images/edit_facility.png)
 
 - Click `OK` to save your changes and close the window
 - Click `OK & Next` to save your changes and start editing the next store
-
-OR: Click `Cancel` at any time to revert your changes and close the window
+- Click `Cancel` at any time to revert your changes and close the window
 
 ### Editing your store properties
 
@@ -93,9 +88,6 @@ Some properties can be disabled here. This means they are only editable on the O
 
 ![Edit own store](/docs/manage/images/edit_remote_store.png)
 
-Once you are happy with your changes:
+Once you are happy with your changes, click `OK` to save and close the window.
 
-- Click `OK` to save your changes and close the window
-- Click `OK & Next` to save your changes and start editing the next store
-
-OR: Click `Cancel` at any time to revert your changes and close the window
+Click `Cancel` at any time to revert your changes and close the window.

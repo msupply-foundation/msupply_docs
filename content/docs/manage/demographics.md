@@ -13,11 +13,13 @@ toc = true
 top = false
 +++
 
-Demographics is available only on the [Open mSupply Central Server](/docs/getting_started/central). This is where you can view and manage future projections for different demographic indicators.
+The Demographics section is where you can view and manage future projections for different Demographic Indicators. This population data can then be used to estimate the required cold storage capacity for upcoming immunization programs.
+
+Demographics management is only available on the [Open mSupply Central Server](/docs/getting_started/central).
 
 ## Configuration
 
-Currently, `Demographics` features are only enabled as part of the `Vaccine` module.
+Currently, `Demographics` features are enabled as part of the `Vaccine` module.
 
 To begin, enable the store preference for `mobile: Uses Vaccine Module` (see the [store preferences](https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab) documentation for how to do this).
 
@@ -27,11 +29,11 @@ Choose `Manage` > `Demographics` in the navigation panel.
 
 ![goto: demographics](/docs/manage/images/goto_demographics.png)
 
-You will be presented with a list of Demographics Indicators:
+You will be presented with a list of Demographic Indicators:
 
 ![indicators](/docs/manage/images/indicators.png)
 
-The list of Demographics Indicators is divided into 8 columns:
+The list of Demographic Indicators is divided into 8 columns:
 
 | Column              | Description                                                                    |
 | :------------------ | :----------------------------------------------------------------------------- |
