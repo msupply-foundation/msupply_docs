@@ -4,7 +4,7 @@ description = "Configure user permissions"
 date = 2023-05-05T16:20:00+00:00
 updated = 2023-05-05T16:20:00+00:00
 draft = false
-weight = 6
+weight = 4
 sort_by = "weight"
 template = "docs/page.html"
 
