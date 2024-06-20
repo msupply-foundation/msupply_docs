@@ -60,7 +60,7 @@ In the search bar in the top left of your screen, type some (or all) of a store 
 To edit the properties of a store in the list, click on it. This will open a new `Edit Facility` window.
 
 <div class='tip'>
-If you see a message like this when you open the Edit Facility window, that means you have no store properties configured! To set these up, please contact support.
+If you see a message like this when you open the Edit Facility window, that means you have no store properties configured! To set these up, please contact support or <a href='/docs/settings/configuration/#gaps-store-properties'>enable GAPS Properties</a>.
 
 ![Facilities: no properties](/docs/manage/images/facilities-no-properties-defined.png)
 

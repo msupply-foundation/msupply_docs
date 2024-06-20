@@ -13,6 +13,8 @@ toc = true
 top = false
 +++
 
+Note: Immunization programs are only visible on the [Open mSupply Central Server](/docs/getting_started/central).
+
 Choose `Programs` > `Immunizations` in the navigation panel.
 
 ![goto: immunizations](/docs/programs/images/goto_immunizations.png)
