@@ -4,7 +4,7 @@ description = "Configure the server sync settings"
 date = 2022-05-17T16:20:00+00:00
 updated = 2022-05-17T16:20:00+00:00
 draft = false
-weight = 72
+weight = 6
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -16,13 +16,13 @@ top = false
 
 ## Viewing the synchronisation settings
 
-To view the synchronisation settings, go to `Admin` in the lower section of the navigation panel: 
+To view the synchronisation settings, go to `Settings` in the lower section of the navigation panel:
 
-![admin: nav](/docs/administration/images/admin_nav.png)
+![admin: nav](/docs/settings/images/admin_nav.png)
 
 You will see the synchronisation section below the display settings, click on this to view the options.
 
-![admin: page](/docs/administration/images/administration.png)
+![admin: page](/docs/settings/images/administration.png)
 
 ## Updating settings
 

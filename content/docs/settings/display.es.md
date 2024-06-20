@@ -21,18 +21,17 @@ Exploremos lo que es posible...
 
 Para ver la configuración de visualización, ve a `Admin` en la sección inferior del panel de navegación:
 
-![Location: nav](/docs/administration/images/admin_nav.png)
+![Location: nav](/docs/settings/images/admin_nav.png)
 
 Verás la sección de configuración de visualización en la parte superior de la página:
 
-![Location: list](/docs/administration/images/display_settings.png)
-
+![Location: list](/docs/settings/images/display_settings.png)
 
 ## Idioma
 
 Para cambiar el idioma, simplemente debes seleccionarlo de la lista desplegable.
 
-![Language](/docs/administration/images/change_language.png)
+![Language](/docs/settings/images/change_language.png)
 
 El idioma seleccionado se utilizará para todo lo que hagas en el sitio. Si recargas la página o abres una nueva pestaña, se utilizará este idioma. Sin embargo, si ves el sitio en un navegador diferente (por ejemplo, Firefox después de cambiar el idioma en Chrome), deberás seleccionar el idioma nuevamente.
 
@@ -40,24 +39,23 @@ El idioma seleccionado se utilizará para todo lo que hagas en el sitio. Si reca
 
 Es posible utilizar un logo personalizado para el sitio. Este se muestra en la navegación izquierda y en la pantalla de inicio de sesión. Por ejemplo:
 
-![Custom logo login](/docs/administration/images/custom_logo_login.png)
+![Custom logo login](/docs/settings/images/custom_logo_login.png)
 
-![Custom logo login](/docs/administration/images/custom_logo_nav.png)
+![Custom logo login](/docs/settings/images/custom_logo_nav.png)
 
-El logo debe estar en formato `svg`. Para actualizarlo, simplemente 
+El logo debe estar en formato `svg`. Para actualizarlo, simplemente
 
-* habilita el logo personalizado haciendo clic en el switch
-* copia el texto del archivo .svg y pégalo en el área de texto
-* haz clic en guardar
-![Edit custom logo](/docs/administration/images/edit_logo.png)
+- habilita el logo personalizado haciendo clic en el switch
+- copia el texto del archivo .svg y pégalo en el área de texto
+- haz clic en guardar
+  ![Edit custom logo](/docs/settings/images/edit_logo.png)
 
 ## Personaliza la apariencia
 
 También puedes configurar una apariencia personalizada para tu sitio utilizando un tema personalizado. Para hacer esto:
 
-* habilita el tema personalizado haciendo clic en el switch
-* verás una muestra del tema actual en el área de texto - esto te muestra lo que se puede actualizar
-* edita el tema y haz clic en guardar para ver los resultados
+- habilita el tema personalizado haciendo clic en el switch
+- verás una muestra del tema actual en el área de texto - esto te muestra lo que se puede actualizar
+- edita el tema y haz clic en guardar para ver los resultados
 
-![Edit custom logo](/docs/administration/images/edit_theme.png)
-
+![Edit custom logo](/docs/settings/images/edit_theme.png)
