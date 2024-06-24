@@ -60,7 +60,7 @@ In the search bar in the top left of your screen, type some (or all) of a store 
 To edit the properties of a store in the list, click on it. This will open a new `Edit Facility` window.
 
 <div class='tip'>
-If you see a message like this when you open the Edit Facility window, that means you have no store properties configured! To set these up, please contact support.
+If you see a message like this when you open the Edit Facility window, that means you have no store properties configured! To set these up, please contact support or <a href='/docs/settings/configuration/#gaps-store-properties'>enable GAPS Properties</a>.
 
 ![Facilities: no properties](/docs/manage/images/facilities-no-properties-defined.png)
 
@@ -91,3 +91,11 @@ Some properties can be disabled here. This means they are only editable on the O
 Once you are happy with your changes, click `OK` to save and close the window.
 
 Click `Cancel` at any time to revert your changes and close the window.
+
+## Permissions & Restrictions
+
+Facilities are only visible on the [Open mSupply Central Server](/docs/getting_started/central).
+
+To Edit facilities centrally you need the `Can modify central data` permission, enabled in the [omSupply Permissions Tab](https://docs.msupply.org.nz/admin:managing_users?s[]=permission#omsupply_permissions_tab) on your Central Store.
+
+![Can Modify Central Data Permission](/docs/programs/images/can_modify_central.png)
