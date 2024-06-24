@@ -67,3 +67,13 @@ This will add a new row to the table. You can now enter a name for the demograph
 - OR: Click `Cancel` at any time to revert your changes
 
 ![add new indicator](/docs/manage/images/add_indicator.gif)
+
+## Permissions & Restrictions
+
+Demographics are only visible on the [Open mSupply Central Server](/docs/getting_started/central) and requires the [`mobile: Uses vaccine module`](https://docs.msupply.org.nz/cold_chain_equipment:mobile?s[]=vaccine#enable_the_vaccine_module_for_the_mobile_store) store preference.
+
+![mSupply Store Preference Vaccine Module](/docs/programs/images/vaccine_module.png)
+
+To Create, Edit or Delete Demographics you need the `Can modify central data` permission, enabled in the [omSupply Permissions Tab](https://docs.msupply.org.nz/admin:managing_users?s[]=permission#omsupply_permissions_tab) on your Central Store.
+
+![Can Modify Central Data Permission](/docs/programs/images/can_modify_central.png)
