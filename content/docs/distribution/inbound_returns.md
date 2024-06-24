@@ -13,13 +13,13 @@ toc = true
 top = false
 +++
 
-Inbound Returns can be used to return stock to a customer.
+An Inbound Returns is used to record stock which is returned by a customer.
 
 It is important to be able to receive goods back from a customer without it being counted as goods coming from a supplier. If your customer issues the goods to you on an Outbound Shipment, and you then receive it through an Inbound Shipment, then those goods will be counted as part of your store's 'supply' from suppliers, which is not correct. An Inbound Return is the right way to receive goods back from a customer.
 
 If you have used mSupply in the past, you may be familiar with the term **Customer Credit** instead of Inbound Return.
 
-All returned goods should be recorded in mSupply with an Inbound Return. They are created automatically, as a result of an Outbound Return created by another store in mSupply, and can also be entered manually.
+All goods returned by a customer should be recorded in mSupply with an Inbound Return. They are created automatically, as a result of an Outbound Return created by another store in Open mSupply, and can also be entered manually.
 
 ## Viewing Inbound Returns
 
@@ -29,7 +29,7 @@ Choose `Distribution` > `Inbound Returns` in the navigation panel.
 
 ![go to Inbound return](/docs/distribution/images/gotoir.png)
 
-You will be presented with a list of Inbound Returns (if you don't see any, you are probably just starting!).
+You will be presented with a list of Inbound Returns if some have been created already.
 
 From this screen you can:
 
@@ -66,7 +66,7 @@ From this screen you can:
 
 You can filter the list of returns by customer name or by status. This can be useful if you're looking for one particular return!
 
-Select the `Name` filter from the list to filter by the customer name. Type the name of a customer in the `Name` field. All the returns for this customer will appear in the list.
+For example: Select the `Name` filter from the list to filter by the customer name. Type the name of a customer in the `Name` field. All the returns for this customer will appear in the list.
 
 ![Inbound return filter](/docs/distribution/images/ir_filter.gif)
 
@@ -76,7 +76,7 @@ The list of Inbound Returns can be exported to a comma separated file (csv). Sim
 
 ![Export button](/docs/distribution/images/export.png)
 
-and the file will be downloaded. The export function will download all Inbound Returns, not just the current page, if you have more than 20 of them.
+and the file will be downloaded. The export function will download all Inbound Returns, not just the current page, if you have more returns than the current page limit.
 
 ### Delete an Inbound Return
 
@@ -94,7 +94,7 @@ You can only delete Inbound Returns if they have a status of <code>NEW</code>.
 
 ![Inbound list: delete](/docs/distribution/images/ir_delete.gif)
 
-## Creating a new manual Inbound Return
+## Creating an Inbound Return
 
 Inbound Returns are created automatically, when an Outbound Return is created by another store. If needed, they can also be created manually, as explained below.
 
