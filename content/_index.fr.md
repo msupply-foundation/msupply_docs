@@ -4,7 +4,7 @@ title = "Open mSupply"
 
 [extra]
 lead = '<b>Open mSupply</b> se compose d`un écosystème de logiciels et de services pour aider à gérer les chaînes d`approvisionnement de la santé</br>Vous êtes sur le site français: Change to  <a href="/">English</a> / Cambiar a <a href="/es"> Español</a> '
-url = "fr/docs/introduction/"
+url = "fr/docs/introduction/introduction"
 url_button = "Commencer"
 repo_version = "2.0"
 repo_license = "Open-source AGPL License."
