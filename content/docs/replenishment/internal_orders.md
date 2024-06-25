@@ -136,7 +136,8 @@ If your organisation is using Master Lists, you can add multiple items at once u
 
 All the items of the master list are now listed in your order. If you had previously added single item, it will add items that are not already there.
 
-Tap on an order line to change the **Requested Quantity** or tap on the `Use Suggested Quantities` button
+Tap on an order line to change the **Requested Quantity** or tap on the `Use
+Suggested Quantities` button to automatically copy the values in the **Suggested Quantity** column into the **Requested Quantity** column.
 
 ![Internal Order: add from master list](/docs/replenishment/images/intord_addfromml.gif)
 
@@ -156,7 +157,7 @@ You can create Internal Orders from multiple master lists by repeating above act
 When you add items (using a master list or not), the item is added to the order's table. The following information is provided for each order line:
 
 | Status                   | Description                                                                                                                                        |
-| :----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
+| :----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Code**                 | Code of the item                                                                                                                                   |
 | **Name**                 | Name of the item                                                                                                                                   |
 | **Unit**                 | Unit of the item e.g. Tablet, Capsule, Vial                                                                                                        |
@@ -165,15 +166,7 @@ When you add items (using a master list or not), the item is added to the order'
 | **AMC**                  | Average Monthly Consumption: how much stock your store uses each month on average (based on a configurable number of months, defaults to 3 months) |
 | **Target Stock**         | This is the stock you are aiming for. Calculated as: AMC x Target MOS MOS                                                                          |
 | **Suggested Quantity**   | How much stock mSupply suggests that your order. This is calculated as: (AMC x Target MOS) - SoH                                                   |
-| **Requested**            | This is set to zero by default. This is the quantity of units you are ordering from your supplier.                                                 |     |
-
-### Using Suggested Quantities
-
-If you tap on the `Use Suggested Quantities` on the requisition header, mSupply will automatically copy the values in the **Suggested Quantity** column into the **Requested Quantity** column.
-
-You can always manually edit the order quantity for each by tapping on an order line.
-
-![Use Suggested Quantities](/docs/replenishment/images/intord_reqtosug.png)
+| **Requested**            | This is set to zero by default. This is the quantity of units you are ordering from your supplier.                                                 |
 
 ### Printing an Internal Order
 
