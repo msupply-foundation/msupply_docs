@@ -29,7 +29,7 @@ Preparing the device for mSupply is very dependant on factors including:
 - The version of Android running on it
 - The details of how the organisation plans to manage devices and communicate with users
 
-Please consult with the mSupply Foundation support team (support@msupply.org.nz) on this.
+Please consult with the mSupply Foundation support team [support@msupply.foundation](mailto:support@msupply.foundation) on this.
 
 <div class="note">
 

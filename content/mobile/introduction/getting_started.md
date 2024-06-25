@@ -18,7 +18,7 @@ top = false
 #### Google Mobile Services (GMS)
 
 - There is a good chance that if your proposed device is not on [this list](https://storage.googleapis.com/play_public/supported_devices.html) of supported models, then it will not support [Google Mobile Services (GMS)](https://www.android.com/intl/en_au/gms/), mSupply Mobile and/or the [mobile device management software](https://en.wikipedia.org/wiki/Mobile_device_management) used to remotely manage the device.
-- Even if it is on this list, please make sure the model has been validated by Sustainable Solutions before procuring any significant quantities of the device. Please contact mSupply Support on [support@msupply.org.nz](mailto:support@msupply.org.nz) to see which models have been validated so far.
+- Even if it is on this list, please make sure the model has been validated by Sustainable Solutions before procuring any significant quantities of the device. Please contact mSupply Support on [support@msupply.foundation](mailto:support@msupply.foundation) to see which models have been validated so far.
 
 #### Android version
 
