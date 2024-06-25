@@ -35,6 +35,10 @@ The list of Stores is divided into 5 columns:
 | **Customer** | Whether this store is a customer |
 | **Donor**    | Whether this store is a donor    |
 
+<div class="tip">
+You can tell if a customer is also using Open mSupply in their store if they have an icon like this <img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto"> next to the code. 
+</div>
+
 The list can display a fixed number of stores per page. On the bottom left corner, you can see how many stores are currently displayed on your screen.
 
 ![Pagination: showing](/docs/distribution/images/os_list_showing.png)
