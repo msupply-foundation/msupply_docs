@@ -19,46 +19,33 @@ Elle couvre uniquement les chantiers validés en cours. La liste complète de fo
 ### Feuille de route
 {% mermaid ()%}
 gantt
- title Feuille de route Open mSupply
+ title Feuille de route Open mSupply 2024
  dateFormat YY-MM-DD
  axisFormat %B
- section Version 1.0
-  Piste d'audit :t1-0-1, 22-08-01 , 28d
-  Programme d'installation :22-08-10 , 14d
-  Application Android :t1-0-2, after t1-0-1 , 28d
-  Application de bureau :after t1-0-1 , 21d
- section Version 1.0.4
-  Edition de ligne de stock :t1-0-3, 22-11-07, 21d
- section Version 1.1.0
-  Remplacement du serveur Discovery (android + PC) :22-11-07,28d
-  Migrations de bases de données :22-11-24,14d
- section Version 1.1.1
-  Intégration des capteurs de température :22-11-21, 35d
-  Reconditionnements :after t1-0-3, 35d
- section Version 1.1.2
-  Intégration de la fonction ColdChain :t1-1-1, 22-12-05, 56d
-  Edition de fiches patients  :t1-1-2, 22-10-01 , 35d
-  Formulaires personnalisables  :after t1-0-2 , 56d
-  Programmes :t1-1-3, after t1-1-2, 42d
-  Consultations : after t1-1-2, 35d
-  Périodes: t1-1-4, after t1-1-3, 28d
-  Fonctionnalités des programmes : milestone, m1, after t1-1-4, 
- section Version 2.0.0
-  Distribution: t2-0-1, after t1-1-1, 70d
-  Réglages: t2-0-2, after t1-1-1, 28d
-  Fonction R&R améliorée: after t2-0-2, 56d
-  Intégration DHIS2: t2-0-3, after t2-0-2, 28d
-  Intégration HL7: t2-0-4, after t2-0-3, 28d
-  Dispensation : milestone, m2, after t2-0-1, 
-section Version 2.1.0
-  Retours client: t2-1-1, after t2-0-4, 32d
-  Retours fournisseur: t2-1-2, after t2-0-4, 32d
-section Version 3.0.0
-  Propriétés article: t3-0-1, after t2-1-1, 14d
-  Sérialisation: t3-0-2, after t3-0-1, 21d
-  Framework de plug-in frontal: after t2-1-1, 32d
+section Version 1.7
+  Piste d'audit: t1-7-1, 24-02-12, 12d
+  Réglages: t1-7-2, 24-02-12, 30d
+v1.7.00 : milestone, m1, 24-03-20, 16d
+section Version 2.0
+  Retours Client: t2-0-1, after t1-7-2, 30d
+  Retours Fournisseur: t2-0-2, after t1-7-2, 30d
+  Gestion des équipement du froid (CCE): t2-0-3, after t2-0-4, 40d
+  Serveur central: t2-0-4, 24-02-12, 30d
+v2.0.00 : milestone, m2, 24-05-08, 0d
+section Version 2.1
+  Migration: t2-0-5, after t1-7-2, 120d
+  Ajustements d'inventaire: t2-1-1, after t1-8-2, 24d
+  Backend plugins: t2-1-2, 24-05-24, 30d
+  Sauvegardes du Serveur Central: t2-1-4, 24-05-18, 14d
+  GAPS: t2-1-5, 24-05-24, 40d
+v2.1.00 : milestone, m2, 24-07-03, 0d
+section Version 2.2
+  Rapports: t2-1-3, after t2-1-2, 20d
+  Carte de vaccination: t2-2-1, after t2-1-5, 30d
+  Intégration DHIS2 : t2-2-2, 24-06-01, 20d   
+  Amélioration des variations de pack: t2-2-3, after t2-1-2, 10d
+v2.2.00 : milestone, m2, 24-08-14, 0d
 {% end %} 
-
 
 ### Fonctionnalités prévues
 
