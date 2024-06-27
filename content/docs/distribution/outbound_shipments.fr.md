@@ -123,89 +123,89 @@ Si tout s'est bien passé, vous devriez voir le nom de votre client dans le coin
 
 ![Outbound shipment: created](/docs/distribution/images/os_created_fr.png)
 
-### Edit the Customer Name
+### Modifier le nom du client
 
-If you have selected the wrong customer, you can change the customer name in the `Customer Name` field or select one the dropdown list: 
+Si vous avez sélectionné le mauvais client, vous pouvez modifier le nom du client dans le champ `Customer Name` ou le sélectionner dans la liste déroulante : 
 
 ![gif](/docs/distribution/images/os_change_customer.gif)
 
-### Enter a Customer Reference
+### Saisir une référence client
 
-Once your Outbound Shipment has been created, you can enter a customer reference in the `Customer Ref` field, if they have one (eg. *PO#1234567*)
+Une fois l'expédition créé, vous pouvez saisir une référence client dans le champ `Customer Ref`, s'il y en a une. (ex. *PO#1234567*)
 
-### View or edit the Outbound Shipment Information Panel
+### Afficher ou modifier le panneau d'information sur les expéditions
 
-The Information Panel allows you see or to edit information about the Outbound Shipment. It is divided in multiple sections: 
-* Additional Info
-* Related Documents
-* Invoice Details
-* Transport Details
+Le panneau d'information permet d'afficher ou de modifier des informations sur l'expédition. Il est divisé en plusieurs sections : 
+* Informations complémentaires
+* Documents connexes
+* Détails de la facture
+* Détails du transport
 
-We are planning to add more sections in the future as Open mSupply grows. 
+Nous prévoyons ajouter d'autres sections à l'avenir, au fur et à mesure de la croissance d'Open mSupply. 
 
-#### How to open and close the Information Panel ?
+#### Comment ouvrir et fermer le panneau d'information ?
 
-If you are using a large screen, the information panel will be automatically opened for you. However, on an average sized screen, the information panel will be closed by default.
+Si vous utilisez un grand écran, le panneau d'information sera automatiquement ouvert pour vous. En revanche, sur un écran de taille moyenne, le panneau d'information sera fermé par défaut.
 
-To open the Information Panel, you can tap on the `More` button, located in the top right corner of the Outbound Shipment view. 
+Pour ouvrir le panneau d'information, vous pouvez cliquer sur le bouton `More`, situé dans le coin supérieur droit de la vue de l'expédition.. 
 
-You can close by tapping on the `X Close` button, on the top right corner of the information panel. 
+Vous pouvez fermer la fenêtre en cliquant sur le bouton `X Close`, situé dans le coin supérieur droit de la fenêtre d'information. 
 
 ![Open and close the Information Panel](/docs/distribution/images/os_infopanel_openclose.gif)
 
-#### Additional Info
+#### Informations complémentaires
 
-In the **Additional Info** section, you can:
-* See who created the Outbound Shipment (name of the user)
-* View and edit the Outbound Shipment color. To edit the color, tap on the colored circle and select a color from the pop-up
-* Write or edit a comment
+Dans la section **Informations complémentaires**, vous pouvez :
+* Voir qui a créé l'expédition (nom de l'utilisateur)
+* Afficher et modifier la couleur de l'envoi sortant. Pour modifier la couleur, tapez sur le cercle coloré et sélectionnez une couleur dans le menu déroulant.
+* Écrire ou modifier un commentaire
 
-#### Related Documents
+#### Documents connexes
 
-In the **Related Documents** section, you can see other related transaction document for the Outbound Shipment. 
+Dans la section **Documents connexes**, vous pouvez consulter d'autres documents de transaction liés à l'expédition. 
 
-If your Outbound Shipment was created to fulfill a **Requisition**, the reference number of the requisition would appear in this section. 
+Si votre expédition a été créé pour répondre à une **Requisition**, le numéro de référence de la réquisition apparaît dans cette section. 
 
-In the future, we would also include other documents such as temperature records, transportation documents or pickslips. 
+À l'avenir, nous inclurons également d'autres documents tels que des relevés de température, des documents de transport ou des fiches de prélèvement. 
 
-#### Invoice Details
+#### Détails de la facture
 
-In this section, you will see by default the total selling price of the items listed in the Outbound Shipment. 
+Dans cette section, vous verrez par défaut le prix de vente total des articles énumérés dans l'expédition. 
 
-You can also add a **Service charges** if you wish to add other charges such as Freight Costs. To add a Service charges to the Invoice Details: 
+Vous pouvez également ajouter un **Service charges** si vous souhaitez ajouter d'autres frais tels que les frais de transport. Pour ajouter des frais de service aux détails de la facture : 
 
-1. Tap on the `Edit Service Charges` button. A new window opens. 
-2. Tap on the `Add charge` button on the new window. A new line appears in the list of charges. You tap on `Cancel` if you do not wish to add anything. 
-3. **Name:** Select a service charges in the dropdown list. You can customise the list of available charges. Contact your administrator
-4. **Comment:** yYou can add a comment to provide further details about the new charge
-5. **Amount:** Enter the amount of the charge
-6. **Tax:** Enter a % of tax for the charge
-7. **Total:** The total field is automatically calculated based on the Amount and the Tax percentage
-8. **Delete:** You can tap on the `Delete` icon to delete the charge
+1. Tapez sur le bouton `Edit Service Charges`. Une nouvelle fenêtre s'ouvre. 
+2. Tapez sur le bouton `Add charge` dans la nouvelle fenêtre. Une nouvelle ligne apparaît dans la liste des frais. Si vous ne souhaitez rien ajouter, cliquez sur `Cancel`. 
+3. **Name:** Sélectionnez un service dans la liste déroulante. Vous pouvez personnaliser la liste des frais disponibles. Contactez votre administrateur
+4. **Comment:** Vous pouvez ajouter un commentaire pour fournir des détails supplémentaires sur la nouvelle taxe.
+5. **Amount:** Indiquer le montant de la taxe
+6. **Tax:** Entrer un % de taxe pour la charge
+7. **Total:** Le champ total est automatiquement calculé sur la base du montant et du pourcentage de la taxe.
+8. **Delete:** Vous pouvez appuyer sur l'icône `Delete` pour effacer la charge.
 
-In this section, you can also edit the tax rate (%) for the items sell price. Tap on the pencil icon and enter a value.
+Dans cette section, vous pouvez également modifier le taux de taxe (%) pour le prix de vente des articles. Tapez sur l'icône du crayon et entrez une valeur.
 
-#### Transport Details
+#### Détails du transport
 
-In this section, you can see or edit a transport reference number (eg. a booking or a tracking reference number). 
+Dans cette section, vous pouvez voir ou modifier un numéro de référence de transport (par exemple, un numéro de référence de réservation ou de suivi). 
 
-### Outbound Shipment Status Sequence
+### Status de séquence des expéditions
 
-The status sequence is located at the bottom left corner of the Outbound Shipment screen. 
+Le status de la séquence se trouve dans le coin inférieur gauche de l'écran expédition. 
 
-Passed statuses are hightlighted in blue, next statuses appear in grey. 
+Les statuts passés sont mis en évidence en bleu, les statuts suivants apparaissent en gris. 
 
 <figure>
 <img src="/docs/distribution/os_statussequence2.png" style="width:100%">
-<figcaption align = "center">Status Sequence: current status is <code>NEW</code>.</figcaption>
+<figcaption align = "center">Status Sequence: status actuel est <code>NEW</code>.</figcaption>
 </figure>
 
 <figure>
 <img src="/docs/distribution/os_statussequence3.png" alt="Trulli" style="width:100%">
-<figcaption align = "center">Status Sequence: current status is </i><code>PICKED</code>.</figcaption>
+<figcaption align = "center">Status Sequence: status actuel est </i><code>PICKED</code>.</figcaption>
 </figure>
 
-There are 6 status for the Outbound Shipment: 
+Il y a 6 statuts pour l'expédition : 
 
 | Status | Description |
 | :--- | ---------- |
