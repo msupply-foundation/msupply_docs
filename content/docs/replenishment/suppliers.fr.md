@@ -26,7 +26,7 @@ Pour voir les Fournisseurs de votre dépôt, allez dans le menu `Approvisionneme
 
 ![Suppliers Nav](/docs/replenishment/images/sup_gotosup_fr.png)
 
-A list of your store's suppliers appears: 
+Une liste des fournisseurs de votre magasin apparaît : 
 
 ![Suppliers List](/docs/replenishment/images/sup_suplist_fr.png)
 
