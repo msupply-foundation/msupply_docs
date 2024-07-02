@@ -106,145 +106,139 @@ Il arrive souvent que vous retourniez des marchandises que vous avez reçues par
 
 ![New Return](/docs/replenishment/images/clicknewreturn.png)
 
-3. A new window `Suppliers` opens, inviting you to select a supplier.
+3. Une nouvelle fenêtre s'ouvre `Fournisseurs`, vous invitant à sélectionner un fournisseur.
 
-#### Select a Supplier
+#### Sélectionner un fournisseur
 
-1. In the `Suppliers` window, you will be presented with a list of available suppliers. You can select your supplier from the list or you can type as much of a supplier name as you want.
-
+1. Dans la fenêtre `Fournisseurs`, une liste des fournisseurs disponibles s'affiche. Vous pouvez sélectionner votre fournisseur dans la liste ou saisir autant de noms de fournisseurs que vous le souhaitez.
 <div class="imagetitle">
-In the below example, we are wanting to return stock to <b>Kamo Regional Warehouse</b>. 
+Dans l'exemple ci-dessous, nous voulons renvoyer le stock à <b>Entrepôt régional de Kamo</b>. 
 </div>
 
 ![Search supplier list](/docs/replenishment/images/or_select_supplier.png)
 
 <div class="tip">
-You can tell if a supplier is also using mSupply in their store. If they do, you will see icon like this (<img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto">) next to the supplier code. 
+Vous pouvez savoir si un fournisseur utilise également mSupply dans son magasin. Si c'est le cas, vous verrez une icône comme celle-ci (<img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto">) à côté du code du fournisseur. 
 </div>
 
-2. Once you tap or press `Enter`, or click on a supplier, your Outbound Return is automatically created
+2. Une fois que vous avez tapé ou appuyé sur `Entrer`, ou cliquez sur un fournisseur, votre retour sortant est automatiquement créé
 
 <div class=imagetitle>
-If everything went well, you should see the name of your supplier in the top left corner and the status should be <code>NEW</code> 
+Si tout s'est bien passé, vous devriez voir le nom de votre fournisseur dans le coin supérieur gauche et le statut devrait être le suivant <code>NOUVEAU</code> 
 </div>
 
 ![Outbound return: created](/docs/replenishment/images/or_created.png)
 
-### Enter a Supplier Reference
+### Saisir une référence fournisseur
+Une fois le retour sortant créé, vous pouvez saisir une référence fournisseur dans le champ `Référence`, s'il en a un (par exemple _PO#1234567_)
 
-Once your Outbound Return has been created, you can enter a supplier reference in the `Reference` field, if they have one (eg. _PO#1234567_)
+### Consulter ou modifier le panneau d'information sur les retours sortants
+Le panneau d'information vous permet de consulter ou de modifier des informations sur le retour sortant. Il est divisé en plusieurs sections :
 
-### View or edit the Outbound Return Information Panel
+- Informations complémentaires
+- Documents connexes
+- Détails du transport
 
-The Information Panel allows you to see or edit information about the Outbound Return. It is divided into multiple sections:
+Nous prévoyons d'ajouter d'autres sections à l'avenir, au fur et à mesure de la croissance d'Open mSupply.
 
-- Additional Info
-- Related Documents
-- Transport Details
+#### Comment ouvrir et fermer le panneau d'information ?
+Si vous utilisez un grand écran, le panneau d'information sera automatiquement ouvert pour vous. En revanche, sur un écran de taille moyenne, le panneau d'information sera fermé par défaut.
 
-We are planning to add more sections in the future as Open mSupply grows.
-
-#### How to open and close the Information Panel?
-
-If you are using a large screen, the information panel will be automatically opened for you. However, on an average sized screen, the information panel will be closed by default.
-
-To open the Information Panel, you can tap on the `More` button, located in the top right corner of the Outbound Return view.
-
-You can close by tapping on the `X Close` button, on the top right corner of the information panel.
+Pour ouvrir le panneau d'information, vous pouvez appuyer sur le bouton `Plus d'informations`, situé dans le coin supérieur droit de la vue des retours sortants.
+Vous pouvez fermer l'application en appuyant sur le bouton `X Fermer`, dans le coin supérieur droit du panneau d'information.
 
 ![Open and close the Information Panel](/docs/replenishment/images/or_sidepanel.gif)
 
-#### Additional Info
+#### Informations complémentaires
 
-In the **Additional Info** section, you can:
+Dans la section **Informations complémentaires** vous pouvez le faire :
 
-- See who created the Outbound Return (name of the user)
-- View and edit the Outbound Return color. To edit the color, tap on the coloured circle and select a color from the pop-up
-- Write or edit a comment
+- Voir qui a créé le retour sortant (nom de l'utilisateur)
+- Afficher et modifier la couleur du retour sortant. Pour modifier la couleur, tapez sur le cercle coloré et sélectionnez une couleur dans le menu déroulant.
+- Rédiger ou modifier un commentaire
 
-#### Related Documents
+#### Documents connexes
 
-In the **Related Documents** section, you can see other related transaction documents for the Outbound Return.
+Dans la section **Documents connexes**, vous pouvez consulter d'autres documents de transaction liés au retour sortant.
+Si votre retour sortant a été créé à partir d'un **Envoi entrant**, le numéro de référence de l'envoi entrant apparaît dans cette section.
+À l'avenir, nous inclurons également d'autres documents tels que les documents de transport ou les bordereaux de prélèvement.
 
-If your Outbound Return was created from an **Inbound Shipment**, the reference number of the Inbound Shipment would appear in this section.
+#### Détails du transport
 
-In the future, we would also include other documents such as transportation documents or pick slips.
-
-#### Transport Details
-
-In this section, you can see or edit a transport reference number (eg. a booking or a tracking reference number).
+Dans cette section, vous pouvez voir ou modifier un numéro de référence de transport (par exemple, un numéro de référence de réservation ou de suivi).
 
 #### Actions
 
-1. **Delete:** You can tap on the `Delete` button to delete the return. You can only delete Outbound Returns if they have not been <code>SHIPPED</code>.
-2. **Copy to Clipboard**: You can tap on the `Copy to Clipboard` button to copy the invoice details to the clipboard.
+1. **Supprimer:** Vous pouvez appuyer sur la touche `Supprimer` pour supprimer le retour. Vous ne pouvez supprimer les retours sortants que s'ils n'ont pas été <code>EXPÉDIÉ</code>.
 
-### Outbound Return Status Sequence
+2. **Copier dans le presse-papiers**: Vous pouvez taper sur la touche `Copier dans le presse-papiers` pour copier les détails de la facture dans le presse-papiers.
 
-The status sequence is located at the bottom left corner of the Outbound Return screen.
+### Séquence d'état des retours sortants
 
-Passed statuses are hightlighted in blue, next statuses appear in grey.
+L'ordre des statuts se trouve dans le coin inférieur gauche de l'écran des retours sortants.
+
+Les statuts passés sont mis en évidence en bleu, les statuts suivants apparaissent en gris.
 
 <figure>
 <img src="/docs/replenishment/images/or_statussequence2.png" alt="Outbound Return Status Sequence (New)" style="width:100%">
-<figcaption align = "center">Status Sequence: current status is <code>NEW</code>.</figcaption>
+<figcaption align = "center">Séquence d'état : l'état actuel est <code>NOUVEAU</code>.</figcaption>
 </figure>
 
 <figure>
 <img src="/docs/replenishment/images/or_statussequence.png" alt="Outbound Return Status Sequence (Shipped)" style="width:100%">
-<figcaption align = "center">Status Sequence: current status is </i><code>SHIPPED</code>.</figcaption>
+<figcaption align = "center">Séquence d'état : l'état actuel est </i><code>EXPÉDIÉ</code>.</figcaption>
 </figure>
 
-There are 5 status for the Outbound Return:
+Il y a 5 statuts pour le retour sortant :
 
-| Status        | Description                                                                                                                                           |
+| Statut | Description                                                                                                                                           |
 | :------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **New**       | This is the first status when you create a return. Goods are reserved (no longer available for other shipments) but are still part of your inventory. |
-| **Picked**    | Return is picked and is now ready to ship. Goods are no longer part of your inventory.                                                                |
-| **Shipped**   | Return has been shipped                                                                                                                               |
-| **Delivered** | Your supplier has received the return                                                                                                                 |
-| **Verified**  | Your supplier has verified the quantity of the return. Goods are now part of their inventory.                                                         |
+| **New**       | Il s'agit du premier statut lorsque vous créez un retour. Les marchandises sont réservées (elles ne sont plus disponibles pour d'autres envois) mais font toujours partie de votre inventaire. |
+| **Picked**    | Le retour est prélevé et est maintenant prêt à être expédié. Les marchandises ne font plus partie de votre inventaire.                                                                |
+| **Shipped**   | Le retour a été expédié                                                                                                                               |
+| **Delivered** | Votre fournisseur a reçu le retour                                                                                                                 |
+| **Verified**  | Votre fournisseur a vérifié la quantité du retour. Les marchandises font désormais partie de son stock.                                                         |
 
-If you hover over the status sequence, a return history window appears. You can see the date when a return was updated from one status to another.
+Si vous survolez la séquence de statuts, une fenêtre d'historique des retours s'affiche. Vous pouvez voir la date à laquelle un retour a été mis à jour d'un statut à un autre.
 
 <div class="imagetitle">
-This return has been created on 03/03/2022, picked on 04/03/2022 and shipped on 07/03/2022
+Ce retour a été créé le 03/03/2022, prélevé le 04/03/2022 et expédié le 07/03/2022.
 </div>
 
 ![Outbound status: hover](/docs/replenishment/images/is_statussequence_hover.png)
 
-### Hold checkbox
+### Case à cocher Hold
 
-Located on the bottom left corner, on the left of the status sequence.
+Situé dans le coin inférieur gauche, à gauche de la séquence d'état.
 
-Checking the `Hold` checkbox prevents the Outbound Return from being updated to the next status.
+Vérification de la `Tenir` empêche la mise à jour du retour sortant vers le statut suivant.
 
 ![Outbound checkbox](/docs/distribution/images/os_holdcheckbox.png)
 
-### Close and Confirm button
+### Bouton de fermeture et de confirmation
 
-#### Close Button
+#### Bouton de fermeture
 
-Tap on the `Close` button to quit the Outbound Return view and return to the Outbound Returns list.
+Cliquez sur le bouton `Fermer` pour quitter la vue des retours sortants et revenir à la liste des retours sortants.
 
-#### Confirm Button
+#### Bouton de confirmation
 
-The `Confirm` button updates the status of a return. The status which you can confirm depends on the current status of the return and follows the sequence shown below.
+Le bouton `Confirmer` met à jour le statut d'un retour. L'état que vous pouvez confirmer dépend de l'état actuel du retour et suit la séquence indiquée ci-dessous.
 
-When managing an Outbound Return, you can only confirm the Picked and Shipped statuses.
+Lorsque vous gérez un retour sortant, vous ne pouvez confirmer que les statuts Enlevé et Expédié.
 
-| Confirm...          | Current Status | Next Status |
+| Confirm...          | Statut actuel | Statut suivant |
 | :------------------ | :------------- | :---------- |
-| **Confirm Picked**  | New            | Picked      |
-| **Confirm Shipped** | Picked         | Shipped     |
+| **Confirmer la sélection**  | Nouveau            | Choisi      |
+| **Confirmer l'envoi** | Choisi         | Expédié     |
 
-You don't have to update a return to the next status in the sequence. You can choose to skip `Picked` to go directly to `Shipped` for example.
+Il n'est pas nécessaire de mettre à jour un retour au statut suivant dans la séquence. Vous pouvez choisir de sauter `Choisi` pour accéder directement à `Expédié` par exemple.
 
-As demonstrated below, tap on the down arrow of the `Confirm` button and select the status you want the return to be updated to.
+Comme indiqué ci-dessous, appuyez sur la flèche vers le bas du bouton `Confirmer` et sélectionnez le statut dans lequel vous souhaitez que le retour soit mis à jour.
 
 ![Skip Status](/docs/replenishment/images/or_confirm_skip_status.gif)
 
-## Adding lines to an Outbound Return
+## Ajouter des lignes à un retour sortant
 
 Tap on the `Add Item` button (top right corner).
 
@@ -254,27 +248,25 @@ A new `Add Item` window opens.
 
 ### Select an Item
 
-In the `Add Item` window, you can look up an item by:
+Dans la fenêtre `Ajouter un article`, vous pouvez rechercher un article par :
+- En lisant la liste des éléments disponibles
+- ou en tapant tout ou partie du nom de l'article
+- ou en tapant une partie ou la totalité du code d'un article
 
-- Reading through the list of available items
-- or by typing some or all of the item name
-- or by typing some or all of an item code
-
-Once your item is highlighted, tap on the name or press `Enter`.
+Une fois que l'élément est en surbrillance, tapez sur son nom ou appuyez sur `Entrer`.
 
 ![Select an item](/docs/replenishment/images/or_additem.gif)
 
-#### List of available batches:
+#### Liste des lots disponibles :
+Il s'agit d'une liste de numéros de lots que vous avez en stock pour cet article :
 
-This is a list of batch numbers that you have in store for this item:
-
-- **Code**: Item code
-- **Name**: Item name
-- **Batch**: Batch number. It is a designation given to products made in the same manufacturing run.
-- **Expiry**: Expiry date of the batch (format: MM/YYYY)
-- **Pack**: Number of units per pack
-- **Quantity Available for Return**: Number of packs available (not already allocated to other shipments or returns)
-- **Quantity to Return**: Number of packs to be returned
+- **Code**: Code de l'article
+- **Nom**: Nom de l'article
+- **Lot**: Numéro de lot. Il s'agit d'une désignation donnée aux produits fabriqués au cours d'un même cycle de fabrication.
+- **Expiration**: Date d'expiration du lot (format : MM/AAAA)
+- **Emballage**: Nombre d'unités par paquet
+- **Quantité disponible pour le retour**: Nombre d'emballages disponibles (non déjà affectés à d'autres envois ou retours)
+- **Quantité à renvoyer**: Nombre d'emballages à renvoyer
 
 ![List of available batch numbers](/docs/replenishment/images/or_additem_listofbatches.png)
 
@@ -288,141 +280,137 @@ In the example below, we are returning all 17 packs of the first batch in the li
 
 ![Set quantities to return](/docs/replenishment/images/or_addquantities.png)
 
-#### Warnings
+#### Avertissements
 
-You may see one or more warning messages on this screen:
+Il se peut que cet écran affiche un ou plusieurs messages d'avertissement :
 
 ![return quantity warning!](/docs/replenishment/images/or_addquantities_warning.png)
 
-If you forget to enter a quantity to return for any batch and click `Next step`, you will see this warning message. You'll need to add a quantity to return from at least one batch. You can click `Cancel` if you no longer want to return any of this stock.
-
-### Provide Reasons
-
+Si vous oubliez de saisir une quantité à restituer pour un lot et que vous cliquez sur `Prochaine étape`, vous verrez apparaître ce message d'avertissement. Vous devrez ajouter une quantité à retourner à partir d'au moins un lot.. Vous pouvez cliquer sur `Annuler` si vous ne souhaitez plus renvoyer ce stock.
+### Fournir des raisons
 <div class="note">
 
-Return reasons are configured on the mSupply central server via **[options](https://docs.msupply.org.nz/preferences:options)**
+Les motifs de retour sont configurés sur le serveur central mSupply via **[options](https://docs.msupply.org.nz/preferences:options)**
 
 </div>
 
-When you are happy with the quantities, you can press the `Next step` button. The list of batches will be filtered to only include the batches you set a return quantity for. In this view, you can provide a reason for returning each batch, and an additional comment.
+Lorsque vous êtes satisfait des quantités, vous pouvez appuyer sur le bouton `Next step`. La liste des lots sera filtrée pour n'inclure que les lots pour lesquels vous avez défini une quantité de retour. Dans cette vue, vous pouvez indiquer un motif de retour pour chaque lot, ainsi qu'un commentaire supplémentaire.
 
 ![Provide return reasons](/docs/replenishment/images/or_additem_returnstep.png)
 
-### Confirm
+### Confirmer
 
-When you are happy with the quantities and reasons, you can press on:
+Lorsque vous êtes satisfait des quantités et des raisons, vous pouvez continuer :
 
-- the `OK` button. Your item will be added to the Outbound Return. The quantities for each batch will be reserved for this return.
-- the `OK & Next` button to add another item right away
-- the `Back` button, to go back to the `Select quantity` step
+- le bouton `OK`. Votre article sera ajouté au retour sortant. Les quantités de chaque lot seront réservées à ce retour.
+- le bouton `OK & Suivant` pour ajouter immédiatement un autre élément
+- le bouton `Retour` pour revenir à l'écran `Sélectionner la quantité` 
 
-## Editing an Outbound Return Line
+## Modification d'une ligne de retour sortante
 
-To edit a return line, tap on it. You will be presented with the `Edit Item` window, which is identical to the `Add Item` window, except that the item is already chosen.
+Pour modifier une ligne de retour, tapez dessus. L'écran suivant s'affiche `Edit Item` qui est identique à la fenêtre `Ajouter un article`, sauf que l'article est déjà choisi.
 
-### Edit a Return Line
+### Modifier une ligne de retour
 
 <div class="note">
- <b></b> You can edit a return line if the return has a status lower than <code>SHIPPED</code>. 
+ <b></b> Vous pouvez traiter une ligne de retour si le statut du retour est inférieur à <code>EXPÉDIÉ</code>. 
 </div>
 
-1. Open the Outbound Return you want to edit.
-2. Tap on the line you want to edit. An identical window to `Add Item` appears. At this stage you can:
+1. Ouvrez le retour sortant que vous souhaitez modifier.
+2. Tapez sur la ligne que vous souhaitez modifier. Une fenêtre identique à celle de `Ajouter un article` apparaît. À ce stade, vous pouvez
 
-   - Edit quantity to return for each batch
-   - Click `Next step` to view/adjust the reasons and comments
+   - Modifier la quantité à renvoyer pour chaque lot
+   - Cliquez sur `Prochaine étape` pour consulter/ajuster les motifs et les commentaires
 
-If you set the Quantity to Return to `0`, that line will be removed from the return.
+Si vous réglez la quantité à restituer sur `0`, cette ligne sera supprimée de la déclaration.
 
-If you set all return quantities to `0`, and click `Next step` you will see this warning message. It is informing you that no return quantities were provided; from here you can click `OK` again to confirm, in which case the window will close and all lines for that item will be removed.
+Si vous réglez toutes les quantités de retour sur `0`, et cliquez sur `Prochaine étape` vous verrez apparaître ce message d'avertissement. Il vous informe qu'aucune quantité de retour n'a été fournie ; à partir de là, vous pouvez cliquer sur `OK` pour confirmer, auquel cas la fenêtre se fermera et toutes les lignes relatives à cet élément seront supprimées.
 
 ![no quantities warning!](/docs/replenishment/images/or_edit_noquantities.png)
 
 <div class="note">
- <b></b> When editing a return line, you cannot change the item. You would need to delete the return line and create a new one. 
+ <b></b> Lorsque vous modifiez une ligne de retour, vous ne pouvez pas modifier le poste. Vous devez supprimer la ligne de retour et en créer une nouvelle. 
 </div>
 
-### Delete a Return Line
+### Supprimer une ligne de retour
 
-1. Open the Outbound Return you want to edit.
-2. Select the line(s) you want to delete by checking the box(es) on the right of the list.
-3. Go to the `Actions` dropdown menu (top right corner, above the list)
-4. Select the action `Delete selected lines`
+1. Ouvrez le retour sortant que vous souhaitez modifier.
+2. Sélectionnez la ou les ligne(s) à supprimer en cochant la ou les case(s) à droite de la liste.
+3. Aller à la page `Actions` menu déroulant (en haut à droite, au-dessus de la liste)
+4. Sélectionner `Supprimer les lignes sélectionnées`
 
 ![Outbound return actions dropdown](/docs/replenishment/images/or_actions_deletelines.png)
 
 <div class="imagetitle">
-In the below example, we are deleting 2 items, with the item codes 030453 and 201116
+Dans l'exemple ci-dessous, nous supprimons 2 articles, avec les codes 030453 et 201116.
 </div>
 
 ![Alt Text](/docs/replenishment/images/or_deleteselectedlines.gif)
 
 <div class="tip">
- <b></b> You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
+ <b></b> Vous pouvez supprimer plusieurs lignes à la fois. Veillez à vérifier ce qui est sélectionné avant d'effectuer l'action Supprimer. 
 </div>
 
-## Processing an Outbound Return
+## Traitement d'un retour sortant
 
-### Confirming Outbound Return picking
+### Confirmation de l'enlèvement des retours sortants
 
-Picking refers to the process where individual items are picked from a fulfilment facility (usually a warehouse or a pharmacy store).
+La préparation des commandes est le processus par lequel des articles individuels sont prélevés dans un centre de traitement des commandes (généralement un entrepôt ou un magasin de produits pharmaceutiques).
 
-Once a return has been created, the next step is to go get the items to prepare the actual return. To help with that, you are able to generate a **pick slip** document. A pick slip indicates:
+Une fois qu'un retour a été créé, l'étape suivante consiste à aller chercher les articles pour préparer le retour proprement dit. Pour vous aider dans cette tâche, vous pouvez générer un document **le bordereau de prélèvement**. Un bordereau de prélèvement indique
 
-- The items to be picked
-- The quantity and batch numbers for each item
-- If you manage your inventory with storage locations, where the items are located
+- les articles à prélever
+- la quantité et le numéro de lot de chaque article
+- Si vous gérez vos stocks à l'aide de magasins, l'endroit où se trouvent les articles.
 
-Once all items are picked and packed. You can then confirm the picking of the return to indicate that it is ready to be dispatched.
-
-To confirm that a return has been picked, tap on the `Confirm Picked` button.
+Une fois tous les articles prélevés et emballés, vous pouvez confirmer le prélèvement du retour pour indiquer qu'il est prêt à être expédié. Vous pouvez alors confirmer le prélèvement du retour pour indiquer qu'il est prêt à être expédié.
+Pour confirmer qu'un retour a été prélevé, appuyez sur le bouton `Confirmer la sélection`.
 
 ![Alt Text](/docs/replenishment/images/or_confirmpicked.gif)
 
-Once picking is confirmed:
+Une fois la sélection confirmée :
 
-- Return status is now `PICKED`
-- Goods are no longer part of your inventory
-- You are now invited to confirm the shipping via the `Confirm Shipped` button
-- If your supplier is also using mSupply, then an **Inbound Return** has been generated and is now visible to your supplier
+- Le statut du retour est maintenant `CHOISI`
+- Les marchandises ne font plus partie de votre inventaire
+- Vous êtes maintenant invité à confirmer l'expédition par le biais du bouton `Confirmer l'envoi`
+- Si votre fournisseur utilise également mSupply, il est possible d'obtenir un **Retour entrant** a été généré et est maintenant visible par votre fournisseur
 
-At this stage, you are still able to edit return lines, to add items or to delete existing lines. However, if picking has been confirmed, you need to make sure to inform your fulfilment facility of any change so they can make sure that the return is still correct.
+À ce stade, vous pouvez encore modifier les lignes de retour, ajouter des articles ou supprimer des lignes existantes. Toutefois, si le prélèvement a été confirmé, vous devez veiller à informer votre service d'exécution des commandes de tout changement afin qu'il puisse s'assurer que le retour est toujours correct.
 
-### Confirming the Outbound Return shipping
+### Confirmation de l'expédition du retour sortant
 
-The last step to return stock with an Outbound Return is to confirm that stock has been shipped.
+La dernière étape d'un retour sortant consiste à confirmer que le stock a été expédié.
 
-To confirm that an Outbound Return has been shipped, tap on the `Confirm Shipped` button.
+Pour confirmer qu'un retour sortant a été expédié, cliquez sur `Confirm Shipped`.
 
-Once shipping has been confirmed:
+Une fois l'expédition confirmée :
 
-- Return status is now `SHIPPED`
-- You can no longer edit return lines
-- You can no longer delete the return
-- Your supplier is able to mark the return as `DELIVERED` once they receive the return
+- Le statut du retour est maintenant `EXPÉDIÉ`
+- Vous ne pouvez plus modifier les lignes de retour
+- Vous ne pouvez plus supprimer le retour
+- Votre fournisseur peut marquer le retour comme `LIVRÉ` une fois qu'ils ont reçu le retour
 
-### Tracking Progress of Outbound Returns
+### Suivi de la progression des retours sortants
 
-If your supplier is also using mSupply, you will be able to see when they receive your returns:
+Si votre fournisseur utilise également mSupply, vous pourrez voir quand il reçoit vos retours :
+- le statut deviendra `LIVRÉ` à la réception des marchandises : votre fournisseur a confirmé qu'il avait reçu votre retour
+- le statut deviendra `VERIFIEE` lorsque le retour a été vérifié par votre fournisseur. Les marchandises font désormais partie de leur inventaire.
 
-- status will become `DELIVERED` when goods are received: your supplier confirmed that they received your return
-- status will become `VERIFIED` when the return has been verified by your supplier. Goods are now a part of their inventory.
+## Visualisation d'un retour sortant
+Lorsque vous consultez une déclaration spécifique, vous pouvez visualiser les lots de cette déclaration groupés par article ou avec chaque lot listé séparément.
+Pour modifier le mode d'affichage, cliquez sur le commutateur `Regroupement par poste`.
 
-## Viewing an Outbound Return
-
-When viewing a specific return, you can view the batches on that return grouped by item or with each batch listed separately.
-To change the view mode, click the `Group by item` switch.
-
-When grouped by item, you can expand the item to see individual batches, or use the expand in the table header to expand all grouped rows. If you click on an item you will also see all selected batches, as shown in this example:
-
+Lorsque les lots sont regroupés par élément, vous pouvez développer l'élément pour voir les lots individuels, ou utiliser le développement dans l'en-tête du tableau pour développer toutes les lignes regroupées. Si vous cliquez sur un élément, vous verrez également tous les lots sélectionnés, comme le montre cet exemple :
 ![Group by Item](/docs/replenishment/images/or_group_by_item.gif)
 
-If you do not have enough room on your screen, or simply aren't interested in some of the columns shown, you have the option of hiding which columns are shown in this view.
+Si vous manquez de place sur votre écran, ou si certaines colonnes ne vous intéressent tout simplement pas, vous avez la possibilité de masquer les colonnes affichées dans cette vue.
 
-Click on the `Show / hide columns` button which is at the top right of the table. This gives a list of the columns available - you can check the columns you want to see. The options chosen are stored for the current browser, so next time you view an Outbound Return, you will see the selected columns only. If you have chosen which columns to show, then the button is shown in blue to remind you that there are more columns available.
+Cliquez sur le bouton `Afficher / masquer les colonnes` qui se trouve en haut à droite du tableau. La liste des colonnes disponibles s'affiche. Vous pouvez cocher les colonnes que vous souhaitez voir. Les options choisies sont enregistrées pour le navigateur actuel, de sorte que la prochaine fois que vous consulterez un retour sortant, vous ne verrez que les colonnes sélectionnées. Si vous avez choisi les colonnes à afficher, le bouton apparaît en bleu pour vous rappeler que d'autres colonnes sont disponibles.
+
+
 
 <div class="imagetitle">
-In the below example, we are hiding the pricing columns
+Dans l'exemple ci-dessous, nous masquons les colonnes de tarification
 </div>
 
 ![Hide columns](/docs/replenishment/images/or_filter_columns.gif)
