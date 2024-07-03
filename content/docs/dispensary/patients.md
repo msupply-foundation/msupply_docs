@@ -32,7 +32,7 @@ You will be presented with a list of patients visible to your store.
 
 ![](/docs/dispensary/images/patient-list-view.png)
 
-The list of patients is divided into 8 columns:
+1. The list of patients is divided into 8 columns:
 
 | Column            | Description                      |
 | :---------------- | :------------------------------- |

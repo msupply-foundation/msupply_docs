@@ -160,7 +160,7 @@ Clicking on a row in the list will show the details of that asset. If your asset
 
 ![Asset detail view](/docs/coldchain/images/asset_detail_view.png)
 
-There are 4 tabs available to manage the asset:
+There are 5 tabs available to manage the asset:
 
 ![Detail view tabs](/docs/coldchain/images/asset_detail_view_tabs.png)
 
