@@ -56,7 +56,7 @@ To configure your Open mSupply site to use a central server, there are a couple 
 
 - In mSupply, create a new site with a store assigned (this can be a dummy store)
 - Tick the checkbox (as noted in the 'extra settings' link above)
-- Enter the server URL. Note that this URL is that of your new Open mSupply
+- Enter the server URL of your new Open mSupply
   central server. This will be different to the usual Open mSupply server and to
   the mSupply server!
 
