@@ -22,7 +22,7 @@ Toutes les articles reçus doivent être enregistrés dans mSupply soit par :
 - Création manuelle d'une livraison (livraison manuelle)
 - Traitement d'une livraison qui a été créée automatiquement dans votre dépôt suite à un envoi de stock venant d'un autre dépôt fournisseur.
 
-## Voir les Livraisons
+## Vusialisation des Livraisons
 
 ### Ouvrir le Menu Livraison
 
@@ -61,7 +61,7 @@ La liste des livraisons comprend 7 colonnes:
 
 Vous pouvez filtrer la liste des livraisons par nom de fournisseur. Cela peut être utile si vous recherchez une livraison en particulier !
 
-Saisissez le nom du fournisseur dans le champ `Search by name` (à gauche, juste au-dessus des en-têtes de liste). Toutes les livraisons de ce fournisseur apparaîtront dans la liste.
+Saisissez le nom du fournisseur dans le champ `Recherche par nom` (à gauche, juste au-dessus des en-têtes de liste). Toutes les livraisons de ce fournisseur apparaîtront dans la liste.
 
 ### Exporter la liste des livraisons
 
@@ -119,7 +119,7 @@ Lorsque vous créez une <b>nouvelle</b> livraison manuelle, mSupply admet que la
 
 ### Modifier le nom du Fournisseur
 
-Si vous n'avez pas sélectionné le bon fournisseur, vous pouvez toujours modifié le nom du fournisseur dans le champs `Supplier Name` ou sélectionner un autre:
+Si vous n'avez pas sélectionné le bon fournisseur, vous pouvez toujours modifié le nom du fournisseur dans le champs `Nom du fournisseur` ou sélectionner un autre:
 
 <div class="imagetitle">
 Dans l'exemple ci-dessous, nous remplaçons <b>Tamaki Central Medical Store</b> par <b>Waikato District Store</b>. 
@@ -129,7 +129,7 @@ Dans l'exemple ci-dessous, nous remplaçons <b>Tamaki Central Medical Store</b> 
 
 ### Saisir une référence fournisseur
 
-Une fois que la livraison a été créée, vous pouvez renseigner la référence du fournisseur dans le champs `Supplier Ref` s'il en a un: (Exple. _ PO#1234567 _)
+Une fois que la livraison a été créée, vous pouvez renseigner la référence du fournisseur dans le champs `Fournisseur Réf.` s'il en a un: (Exple. _ PO#1234567 _)
 
 ### Afficher ou modifier le panneau d'informations sur les livraisons
 
@@ -144,294 +144,281 @@ Le panneau d'information vous permet de voir ou de modifier les informations sur
 Nous prévoyons d'ajouter d'autres sections à l'avenir au fur et à mesure de la croissance d'Open mSupply. 
 </div>
 
-#### How to open and close the Information Panel ?
+#### Comment ouvrir et fermer le panneau d'information ?
 
-To open the Information Panel, you can tap on the `More` button, located in the top right corner of the Inbound Shipment view.
+Pour ouvrir le panneau d'information, vous pouvez appuyer sur le bouton `Plus d'informations`, situé dans le coin supérieur droit de la vue des envois entrants.
 
-You can close by tapping on the `X Close` button, on the top right corner of the information panel.
+Vous pouvez fermer cette fenêtre en cliquant sur le bouton `X Fermer`, dans le coin supérieur droit du panneau d'information.
 
 ![Open and close the Information Panel](/docs/replenishment/images/is_infopanel_openclose.gif)
 
-#### Additonal Info
+#### Informations supplémentaires
 
-In the **Additional Info** section, you can:
+Dans la section **Informations complémentaires**, vous pouvez :
 
-- See who created the Inbound Shipment (name of the user)
-- View and edit the Inbound Shipment color. To edit the color, tap on the colored circle and select a color from the pop-up
-- Write or edit a comment
+- Voir qui a créé l'envoi entrant (nom de l'utilisateur)
+- Afficher et modifier la couleur de l'envoi entrant. Pour modifier la couleur, appuyez sur le cercle coloré et sélectionnez une couleur dans le menu déroulant.
+- Écrire ou modifier un commentaire
 
-#### Related Documents
+#### Documents connexes
 
-In the **Related Documents** section, you can see other related transaction document for the Inbound Shipment.
+Dans la section des **Documents connexes** , vous pouvez consulter d'autres documents de transaction liés à l'envoi entrant.
 
-If your Inbound Shipment was created to fulfill a **Internal Order**, the reference number of your order would appear in this section.
+Si votre envoi entrant a été créé pour répondre à une **Commande interner**, le numéro de référence de votre commande apparaît dans cette section.
 
-In the future, we would also include other documents such as temperature records, transportation documents or pickslips.
+À l'avenir, nous inclurons également d'autres documents tels que des relevés de température, des documents de transport ou des fiches de prélèvement.
 
-#### Invoice Details
+#### Détails de la facture
 
-In this section, you will see by default the total cost price of the items listed in the Inbound Shipment.
+Dans cette section, vous verrez par défaut le prix de revient total des articles énumérés dans l'envoi entrant.
+Vous pouvez également ajouter un **Service charges** si vous souhaitez ajouter d'autres frais tels que les frais de transport. Pour ajouter des frais de service aux détails de la facture :
 
-You can also add a **Service charges** if you wish to add other charges such as Freight Costs. To add a Service charges to the Invoice Details:
+1. Cliquez sur bouton `Modifier les frais de service`. Une nouvelle fenêtre s'ouvre.
+2. Cliquez sur le bouton `Add charge` dans la nouvelle fenêtre. Une nouvelle ligne apparaît dans la liste des frais. Vous cliquez sur `Annuler` si vous ne souhaitez rien ajouter.
+3. **Name:** sélectionnez un service dans la liste déroulante. Vous pouvez personnaliser la liste des frais disponibles. Contactez votre administrateur.
+4. **Commentaire:** Vous pouvez ajouter un commentaire pour fournir des détails supplémentaires sur la nouvelle taxe.
+5. **Montant:** Indiquer le montant de la taxe
+6. **Impôts:** Entrer un % de taxe pour la charge
+7. **Total:** Le champ total est automatiquement calculé sur la base du montant et du pourcentage de la taxe.
+8. **Supprimer:** Vous pouvez cliquer sur `Supprimer` pour supprimer la charge
 
-1. Tap on the `Edit Service Charges` button. A new window opens.
-2. Tap on the `Add charge` button on the new window. A new line appears in the list of charges. You tap on `Cancel` if you do not wish to add anything.
-3. **Name:** select a service charges in the dropdown list. You can customise the list of available charges. Contact your administrator.
-4. **Comment:** You can add a comment to provide further details about the new charge
-5. **Amount:** Enter the amount of the charge
-6. **Tax:** Enter a % of tax for the charge
-7. **Total:** The total field is automatically calculated based on the Amount and the Tax percentage
-8. **Delete:** You can tap on the `Delete` icon to delete the charge
+Dans cette section, vous pouvez également modifier le taux de taxe (%) pour le prix de revient. Cliquez sur l'icône du crayon et entrez
 
-In this section, you can also edit the tax rate (%) for the cost price. Tap on the pencil icon and enter
+#### Détails du transport
 
-#### Transport Details
+Dans cette section, vous pouvez voir ou modifier un numéro de référence de transport (par exemple, un numéro de référence de réservation ou de suivi).
 
-In this section, you can see or edit a transport reference number (eg. a booking or a tracking reference number).
+### Séquence d'état des envois entrants
 
-### Inbound Shipment Status Sequence
+L'ordre des statuts se trouve dans le coin inférieur gauche de l'écran "Expédition entrante".
 
-The status sequence is located at the bottom left corner of the Inbound Shipment screen.
-
-Passed statuses are hightlighted in blue, next statuses appear in grey.
+Les statuts passés sont mis en évidence en bleu, les statuts suivants apparaissent en gris.
 
 <figure>
     <img src="/docs/replenishment/images/is_statussequence2.png" alt="Inbound Shipment Status Sequence (New)" style="width:100%">
-    <figcaption align="center">Status Sequence: current status is <code>New</code>.</figcaption>
+    <figcaption align="center">Séquence d'état : l'état actuel est <code>Nouveau</code>.</figcaption>
 </figure>
 
 <figure>
     <img src="/docs/replenishment/images/is_statussequence3.png" alt="Inbound Shipment Status Sequence (Shipped)" style="width:100%">
-    <figcaption align="center">Status Sequence: current status is </i><code>Shipped</code>.</figcaption>
+    <figcaption align="center">Séquence d'état : l'état actuel est </i><code>Expédié</code>.</figcaption>
 </figure>
 
-There are 5 status for the Inbound Shipment:
-
-| Status        | Description                                                                                                        |
+Il y a 5 statuts pour l'envoi entrant :
+| Statut        | Description                                                                                                        |
 | :------------ | ------------------------------------------------------------------------------------------------------------------ |
-| **New**       | This is the first status when you create a new manual Inbound Shipment                                             |
-| **Picked**    | Supplier has confirmed that shipment is picked and ready to ship (applies only to automatically created shipments) |
-| **Shipped**   | Shipment has been shipped and goods are now in transit (applies only to automatically created shipments)           |
-| **Delivered** | When you confirm that the shipment has been delivered                                                              |
-| **Verified**  | When you have verified the inbound shipment                                                                        |
+| **Nouveau**       | Il s'agit du premier état lorsque vous créez un nouveau transport entrant manuel.                                             |
+| **Choisi**    | Le fournisseur a confirmé que l'envoi est prélevé et prêt à être expédié (ne s'applique qu'aux envois créés automatiquement). |
+| **Expédié**   | L'envoi a été expédié et les marchandises sont maintenant en transit (ne s'applique qu'aux envois créés automatiquement).           |
+| **Livré** | Lorsque vous confirmez que l'envoi a été livré                                                              |
+| **Vérifié**  | Lorsque vous avez vérifié l'envoi entrant                                                                        |
 
-You probably noticed that two of the status values only apply to automatically created shipments. These are created by the system when another store in the system creates an Outbound Shipment to deliver stock to your store. If this is the case you'll see a message near the top of the page:
+Vous avez probablement remarqué que deux des valeurs de statut ne s'appliquent qu'aux envois créés automatiquement. Ces envois sont créés par le système lorsqu'un autre magasin du système crée un envoi sortant pour livrer du stock à votre magasin. Dans ce cas, un message apparaît en haut de la page :
 
 ![Automatic IS message](/docs/replenishment/images/is_message_automatic.png)
 
-If, however, you've created an Inbound Shipment manually, then the following message shows:
+Toutefois, si vous avez créé manuellement un envoi entrant, le message suivant s'affiche :
 
 ![Manual IS message](/docs/replenishment/images/is_message_manual.png)
 
-and you'll see that the status bar has only the status values which apply to this type of shipment.
+et vous verrez que la barre d'état ne contient que les valeurs d'état qui s'appliquent à ce type de transport.
 
 <figure align="center">
     <img src="/docs/replenishment/is_statussequence4.png" alt="Inbound Shipment Status Sequence (New & manual)" style="width:60%">
-    <figcaption align="center">Status Sequence: current status is </i><code>New</code>.</figcaption>
+    <figcaption align="center">Séquence d'état : l'état actuel est </i><code>Nouveau</code>.</figcaption>
 </figure>
 
-If you hover over the status sequence, a shipment history window appears. You can see the date when a shipment was updated from one status to another.
-
+Si vous survolez la séquence de statuts, une fenêtre d'historique des envois s'affiche. Vous pouvez voir la date à laquelle un envoi est passé d'un statut à un autre.
 <div class="imagetitle">
-This manual shipment has been created on 03/03/2022
+Cet envoi manuel a été créé le 03/03/2022
 </div>
 
 ![Inbound status: hover 2](/docs/replenishment/images/is_statussequence_hover2.png)
 
 <div class="imagetitle">
-This automatic shipment has been created on 03/03/2022, allocated on 04/03/2022 and picked on 07/03/2022
+Cette expédition automatique a été créée le 03/03/2022, attribuée le 04/03/2022 et prélevée le 07/03/202.2
 </div>
 
 ![Inbound status: hover](/docs/replenishment/images/is_statussequence_hover.png)
 
-### Hold checkbox
+### Case à cocher Hold
 
-Located on the bottom left corner, on the left of the status sequence.
+Situé dans le coin inférieur gauche, à gauche de la séquence d'état.
 
-Check the `Hold` checkbox prevents the Inbound Shipment from being updated to the next status.
+Vérifier le `Tenir` empêche la mise à jour de l'envoi entrant vers le statut suivant.
 
 ![Outbound hold checkbox](/docs/distribution/images/os_holdcheckbox.png)
 
-### Cancel and Confirm button
+### Bouton d'annulation et de confirmation
 
-#### Cancel Button
+#### Bouton d'annulation
 
-Click on the `Cancel` button to quit the Inbound Shipment view and return to the Inbound Shipments list.
+Cliquez sur `Cancel` pour quitter la vue des envois entrants et revenir à la liste des envois entrants.
 
-#### Confirm Button
+#### Bouton de confirmation
 
-The `Confirm` button is the button to update the status of a shipment. The status which you can confirm depends on the current status of the shipment and follows the sequence shown below.
+Le bouton `Confirmer` est le bouton qui permet de mettre à jour le statut d'un envoi. Le statut que vous pouvez confirmer dépend de l'état actuel de l'envoi et suit la séquence indiquée ci-dessous.
 
-When managing an Inbound Shipment, you can only confirm it as Delivered or Verified.
+Lorsque vous gérez un envoi entrant, vous ne pouvez que le confirmer comme étant livré ou vérifié.
 
-| Confirm...            | Current Status | Next Status |
+| Confirmer...            | Statut actuel | Statut suivant |
 | :-------------------- | :------------- | :---------- |
-| **Confirm Delivered** | Shipped        | Delivered   |
-| **Confirm Verified**  | Delivered      | Verified    |
+| **Confirmer la livraison** | Expédié        | Livré   |
+| **Confirmer Vérifié**  | Livré      | Vérifié    |
 
-You don't have to update a shipment to next status in the sequence. You can choose to skip some of them to go directly to `Confirm Verified` for example.
+Il n'est pas nécessaire de mettre à jour un envoi pour qu'il passe au statut suivant dans la séquence. Vous pouvez choisir d'ignorer certains d'entre eux pour passer directement au statut `Confirmer Vérifié` par exemple.
 
-As demonstrated below, tap on the down arrow of the `Confirm` button and select the status you want the shipment to be updated to.
-
+Comme indiqué ci-dessous, tapez sur la flèche vers le bas de l'icône `Confirmer` et sélectionnez le statut de l'envoi à mettre à jour.
 ![Skip Status](/docs/replenishment/images/is_skipstatus.gif)
 
-## Adding lines to an Inbound Shipment
+## Ajout de lignes à un envoi entrant
 
-To add a line, tap on the `Add Item` button located in the top left corner of your screen.
+Pour ajouter une ligne, Cliquez sur le bouton `Ajouter un article` situé dans le coin supérieur gauche de votre écran.
 
-A new `Add Item` window opens.
+Une nouvelle fenêtre s'ouvre avec le bouton `Ajouter un article`.
 
 ![Inbound: add item button](/docs/replenishment/is_additem_button.png)
 
-### Select an Item
+### Sélectionner un article
+Dans `Ajouter un article` vous pouvez rechercher un élément par :
 
-In the `Add Item` window, you can look up an item by:
+- En lisant la liste des éléments disponibles
+- ou en tapant tout ou partie du nom d'un article
+- ou en tapant une partie ou la totalité du code d'un article
 
-- Reading through the list of available items
-- or by typing some or all of an item name
-- or by typing some or all of an item code
-
-Once your item is highlighted, tap on the name or press `Enter`.
+Une fois que votre élément est mis en surbrillance, tapez sur le nom ou appuyez sur `Entrer`.
 
 ![Add Item](/docs/distribution/os_additem.gif)
 
-### Quantities tab
+### Onglet Quantités
 
-In the `Quantities` tab, you can update the following fields:
+Dans `Quantités` vous pouvez mettre à jour les champs suivants :
 
-1. **Batch**: Type here the batch number. Leave blank if item is not managed with batch number.
-2. **Expiry**: The expiry date of the batch number. Leave blank is not applicable
-3. **# Packs**: The quantity of packs you are receiving
-4. **Pack Size**: The quantity of units per pack (by default, pack size is 1)
-5. **Unit Qty** (read-only): Automatically calculated based on # Packs and Pack Size (`[# Packs] x [Pack Size]`)
-6. If you are receiving more than one batch number for the same item, you can tap on the `Add Batch` button
+1. **Lot**: Saisissez ici le numéro de lot. Laisser en blanc si l'article n'est pas géré avec un numéro de lot.
+2. **Expiration**: La date d'expiration du numéro de lot. Laisser en blanc si non applicable
+3. **# Paquets**: La quantité de paquets que vous recevez
+4. **Taille de l'emballage**: La quantité d'unités par paquet (par défaut, la taille du paquet est de 1)
+5. **Unité Qté** (en lecture seule) : Calculé automatiquement en fonction du nombre de paquets et de la taille du paquet. (`[# Paquets] x [Taille du paquet]`)
+6. Si vous recevez plus d'un numéro de lot pour le même article, vous pouvez cliquer sur le bouton `Ajouter un lot`
 
 <div class="imagetitle">
-In the below example, we are receiving 2 batch numbers for item <i>030453 - Amoxicillin 250mg tabs</i> with a different pack size. 
+Dans l'exemple ci-dessous, nous recevons 2 numéros de lot pour l'article <i>030453 - Amoxicillin 250mg tabs</i> avec une taille d'emballage différente. 
 </div>
 
 ![Add Item quantities](/docs/replenishment/is_additem_quantities.png)
 
-### Pricing tab
+### Onglet Prix
 
-On the second tab, `Pricing`, you can update the following fields (all are optional):
+Le `Tarification`, vous pouvez mettre à jour les champs suivants (tous sont facultatifs) :
 
-- **Sell**: The selling unit price of the item (default value is 0)
-- **Cost**: The purchasing unit price of the item (default value is 0)
-- **Unit Qty** (read-only): Total number of units for the batch number
-- **Line Total** (read-only): Total purchasing value for the batch number (`[Unit Qty] x [Cost]`)
+- **Vendre**: Prix unitaire de vente de l'article (valeur par défaut : 0)
+- **Coût**: Le prix unitaire d'achat de l'article (valeur par défaut : 0)
+- **Unité Qté** (en lecture seule) : Nombre total d'unités pour le numéro de lot
+- **Ligne Total** (en lecture seule) : Valeur totale des achats pour le numéro de lot (`[Qté unitaire] x [Coût]`)
 
 <div class="avertissement">
-Sell & Cost prices are per units and not per pack. 
+Les prix de vente et de revient s'entendent par unité et non par paquet. 
 </div>
 
 <div class="imagetitle">
-In the below example, sell price $12 per unit and cost price is $10 per unit. 
+Dans l'exemple ci-dessous, le prix de vente est de 12 dollars par unité et le prix de revient est de 10 dollars par unité. 
 </div>
 
 ![Add Item pricing](/docs/replenishment/is_additem_pricing.png)
 
-### Location tab
+### Onglet Localisation
 
-In the third tab, `Location`, you can select a storage location to assign the batch number to a location in your storage facility.
-
-Simply select a storage location from the `Location` dropdown menu.
-
+Dans le troisième onglet, `Localisation`, vous pouvez sélectionner un lieu de stockage pour affecter le numéro de lot à un lieu de votre installation de stockage.
+Il suffit de sélectionner un emplacement storDans le troisième ongletage dans la liste des emplacements. `Localisation` menu déroulant.
 ![Add Item location](/docs/replenishment/is_additem_location.png)
 
 <div class="remarque">
-Don't know the storage location yet ? You don't have to capture it right away. You can update the storage location at any time if you haven't confirmed the verification yet. 
+Vous ne connaissez pas encore le lieu de stockage ? Vous n'êtes pas obligé de le saisir immédiatement. Vous pouvez mettre à jour le lieu de stockage à tout moment si vous n'avez pas encore confirmé la vérification. 
 </div>
 
-### Confirm item and quantities
+### Confirmer l'article et les quantités
 
-When you're done, you can add the new line by tapping on:
+Lorsque vous avez terminé, vous pouvez ajouter la nouvelle ligne en appuyant sur :
 
-- `OK`if you don't want to add another line to your shipment
-- `OK & Next`if you have other lines to create
+- `OK`si vous ne voulez pas ajouter une ligne supplémentaire à votre envoi
+- `OK & Suivant`si vous avez d'autres lignes à créer
 
-Otherwise, you can tap on `Cancel` and your changes won't be saved.
-
-## Editing an Inbound Shipment line
-
-To edit an Inbound Shipment line, simply tap on it. You will be presented with the `Edit Item` window, which is identical to the `Add Item` window, except that the item is already chosen and cannot be modified.
-
-### Edit a Shipment Line
+Sinon, vous pouvez appuyer sur `Annuler` et vos modifications ne seront pas sauvegardées.
+## Modification d'une ligne d'envoi entrant
+Pour modifier une ligne d'envoi entrant, il suffit de taper dessus. L'écran `Modifier l'article` qui est identique à la fenêtre `Ajouter un article` sauf que l'élément est déjà choisi et ne peut être modifié.
+### Modifier une ligne d'expédition
 
 <div class="remarque">
- <b></b> you can edit a shipment line if the shipment has a status higher lower than <code>VERIFIED</code>. 
+ <b></b> vous pouvez modifier une ligne d'expédition si le statut de l'expédition est supérieur ou inférieur à <code>VERIFIEE</code>. 
 </div>
 
-1. Open the Inbound Shipment you want to edit
-2. Tap on the line you want to edit. An identical window to `Add Item` appears. At this stage:
-
-   - Edit the main `Issue Quantity` field
-   - or change the number of packs value at the batch number level
-
+1. Ouvrez l'envoi entrant que vous souhaitez modifier.
+2. Tapez sur la ligne que vous souhaitez modifier. Une fenêtre identique à celle de `Ajouter un article` apparaît. À ce stade :
+   - Modifier la page principale `Numéro Quantité` champ
+   - ou modifier la valeur du nombre d'emballages au niveau du numéro de lot
 <div class="remarque">
- <b></b> When editing a shipment line, you cannot change the item. You would need to delete the shipment line and to create a new one. 
+ <b></b> Lorsque vous modifiez une ligne d'expédition, vous ne pouvez pas modifier l'article. Vous devez supprimer la ligne d'expédition et en créer une nouvelle. 
 </div>
 
-### Delete a Shipment line
+### Supprimer une ligne de transport
 
-1. Open the Inbound Shipment that you would like to edit
-2. Make sure that status is not yet `VERIFIED`
-3. Select the line(s) you want to delete by checking the box(es) on the right of the list
-4. Go to the `Actions` dropdown menu (top right corner, above the list)
-5. Select the action `Delete selected lines`
+1. Ouvrez l'envoi entrant que vous souhaitez modifier.
+2. Assurez-vous que le statut n'est pas encore `VERIFIEE`
+3. Sélectionnez la (les) ligne(s) à supprimer en cochant la (les) case(s) située(s) à droite de la liste.
+4. Aller à la page `Actions` menu déroulant (en haut à droite, au-dessus de la liste)
+5. Sélectionner l'action `Supprimer les lignes sélectionnées`
 
 ![Alt Text](/docs/distribution/os_actions_deleteselectedlines.png)
 
 <div class="imagetitle">
-In the below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100mg tabs</i>
+Dans l'exemple ci-dessous, nous supprimons <i>item 030063 - Acide acétylsalicylique 100mg tabs</i>
 </div>
 
 ![Alt Text](/docs/distribution/os_deleteselectedlines.gif)
 
 <div class="conseil">
-You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
+Vous pouvez supprimer plusieurs lignes à la fois. Veillez à vérifier ce qui est sélectionné avant d'effectuer l'action Supprimer. 
 </div>
 
-## Receiving stock with an Inbound Shipment
+## Réception d'un stock avec un envoi entrant
 
-### Confirm the delivery of the shipment
+### Confirmer la livraison de l'envoi
 
-Whether your Inbound Shipment is **manual** or **automatic**, the first step to receive the goods is to confirm the delivery.
+Que votre envoi entrant soit **manuel** or **automatique**, la première étape de la réception des marchandises consiste à confirmer la livraison.
 
-At this stage, you don't have to check if quantities or other information are correct, you just have to acknowledge that you have received the goods from your supplier.
-
-To confirm that an Inbound Shipment has been delivered, click on the `Confirm Delivered` button.
+À ce stade, vous ne devez pas vérifier si les quantités ou d'autres informations sont correctes, vous devez simplement reconnaître que vous avez reçu les marchandises de votre fournisseur.
+Pour confirmer qu'un envoi entrant a été livré, cliquez sur le bouton `Confirmer la livraison`.
 
 <div class="remarque">
-In case your Inbound Shipment is <b>automatic</b>, you cannot confirm its delivery unless the supplier has confirmed its shipment. In other words, your shipment status has to be <code>SHIPPED</code> before you can confirm that you have received the goods. 
+Si votre envoi entrant est <b>automatique</b>, vous ne pouvez pas confirmer sa livraison si le fournisseur n'a pas confirmé son expédition. En d'autres termes, le statut de votre envoi doit être <code>EXPÉDIÉ</code> avant de pouvoir confirmer que vous avez reçu les marchandises. 
 </div>
 
-### Verify your Inbound Shipment
+### Vérifier votre envoi entrant
 
-Verification is the last step to receive goods in mSupply. At this stage, you can check what you have received and make sure that that information in mSupply are correct.
+La vérification est la dernière étape de la réception des marchandises dans mSupply. À ce stade, vous pouvez vérifier ce que vous avez reçu et vous assurer que les informations contenues dans mSupply sont correctes.
 
-You have the possibility to verify the following information:
+Vous avez la possibilité de vérifier les informations suivantes :
 
-- Batch numbers and their expiry dates
-- Quantity of packs and pack size
-- Pricing information: cost and sell prices
+- Numéros de lots et dates de péremption
+- Quantité d'emballages et taille de l'emballage
+- Informations sur les prix : prix de revient et prix de vente
 
-You can also capture where received goods are to be stored in the `Location` tab.
+Vous pouvez également saisir l'endroit où les marchandises reçues doivent être stockées dans l'application `Localisation` tabulation.
 
-Once all information have been captured or verified, you can confirm the Shipment as `VERIFIED` by tapping on the `Confirm Verified` button.
+Une fois que toutes les informations ont été saisies ou vérifiées, vous pouvez confirmer l'envoi comme suit `VERIFIEE` en tapant sur le bouton `Confirmer Vérifié` .
 
-Once you have done this:
+Une fois que vous avez fait cela :
 
-- Goods are now part of your inventory
-- Shipment status is now `VERIFIED`
-- You can no longer edit shipment lines
-- You can no longer delete the shipment
+- Les marchandises font désormais partie de votre inventaire
+- Le statut de l'envoi est maintenant `VERIFIEE`
+- Vous ne pouvez plus modifier les lignes d'expédition
+- Vous ne pouvez plus supprimer l'envoi
 
-## Viewing an Inbound Shipment
+## Visualisation d'un envoi entrant
 
-When viewing a specific shipment, you can view the batches on that shipment grouped by item or with each batch listed separately.
-To change the view mode, click the `Group by item` switch.
+Lors de la consultation d'un envoi spécifique, vous pouvez visualiser les lots de cet envoi regroupés par article ou avec chaque lot listé séparément.
+Pour modifier le mode d'affichage, cliquez sur le bouton `Regroupement par poste` interrupteur.
 
-When grouped by item, you can expand the item to see individual batches, or use the expand in the table header to expand all grouped rows. If you click on an item you will also see all selected batches, as shown in this example:
+Lorsque les lots sont groupés par article, vous pouvez développer l'article pour voir les lots individuels, ou utiliser le développement dans l'en-tête du tableau pour développer toutes les lignes groupées. Si vous cliquez sur un élément, vous verrez également tous les lots sélectionnés, comme le montre cet exemple :
 
 ![Group by Item](/docs/replenishment/is_group_by_item.gif)
