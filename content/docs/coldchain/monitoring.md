@@ -42,7 +42,7 @@ The chart tab displays a chart showing all configured sensors. You can filter th
 
 To add a filter to the page, choose the required filter from the drop down, the date time filter will apply to all of the tabs in the monitoring section.
 
-<div class="note">By default, data from the last 24 hours is shown. Use the from date/time and to date/time fields to look at a longer period of time.
+<div class="note">By default, data from the last 24 hours is shown. Use the <code>From date/time</code> and <code>To date/time</code> fields to look at a longer period of time.
 </br></br>
 The filters also retain their values when you switch between the tabs.
 </div>
