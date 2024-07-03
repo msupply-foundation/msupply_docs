@@ -60,7 +60,7 @@ To configure your Open mSupply site to use a central server, there are a couple 
   central server. This will be different to the usual Open mSupply server and to
   the mSupply server!
 
-<div class="warning">Open mSupply central server can be configured and sync even if the URL is wrong since it's only the remote sites that need to use the Open mSupply central server URL to connect.</div>
+<div class="warning">Open mSupply central server can be configured and synced successfully, even if this URL is wrong. This field is only used by remote sites, to know where to find the Open mSupply central server.</div>
 
 #### Configuring an existing Open mSupply site as a central server
 
