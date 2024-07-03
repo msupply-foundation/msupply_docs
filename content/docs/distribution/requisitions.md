@@ -104,6 +104,12 @@ _The first bar:_
 - Any incoming stock for this item that has been `Shipped`, but not yet `Delivered`
 - The quantity being requested for this item in any `Internal Orders`
 
+<div class="imagetitle">
+This message will be displayed if your store currently doesn't have any stock available.
+</div>
+
+![](/docs/distribution/images/req-no-available-stock-message.png)
+
 _The second bar:_
 
 - The quantity being requested for this item in this Requisition
