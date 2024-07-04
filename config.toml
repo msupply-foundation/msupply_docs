@@ -9,8 +9,9 @@ build_search_index = true
 theme = "adidoks"
 
 [languages.en]
-title = "mSupply"
+title = "mSupply documentation"
 build_search_index = true
+description = "Documentation and user guides for the mSupply foundation suite of software products. Here you'll find the user guide for notify, mSupply dashboard, health supply hub and mSupply mobile. There is also the user documentation for Open mSupply, Conforma, mSupply and mSupply cold chain."
 
 [languages.en.translations]
 flag = "en.svg"
