@@ -16,7 +16,7 @@ top = false
 
 ## Visualización del estado de sincronización
 
-Para ver el estado de sincronización, ve a `Sincronización` en la sección inferior del panel de navegación: 
+Para ver el estado de sincronización, ve a `Sincronización` en la sección inferior del panel de navegación:
 
 ![sync: nav](/docs/sync/images/sync_nav.png)
 
@@ -26,7 +26,7 @@ La página muestra el número de registros que esperan ser enviados al servidor 
 
 ## Sincronización Manual
 
-En esta pantalla de sincronización también se puede iniciar una sincronización de forma inmediata en lugar de esperar al horario programado (recuerde que el intervalo de sincronización está configurado en la sección Admin > Sincronización, consulte la página de [Administración](/docs/administration/synchronisation/) para obtener más detalles).
+En esta pantalla de sincronización también se puede iniciar una sincronización de forma inmediata en lugar de esperar al horario programado (recuerde que el intervalo de sincronización está configurado en la sección Admin > Sincronización, consulte la página de [Administración](/docs/settings/synchronisation/) para obtener más detalles).
 
 Para iniciar una sincronización manualmente, simplemente haga clic en el botón `¡Sincronizar ahora!`. Cuando lo hagas, verás que el botón cambia a un spinner y el progreso se indica con los iconos de los pasos que cambian para mostrar cuál está activo en ese momento. Por ejemplo, en la imagen siguiente se muestra que `Obtener Remotamente` está activo.
 
