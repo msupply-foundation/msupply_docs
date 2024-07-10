@@ -18,7 +18,7 @@ toc = true
 Lorsque vous démarrez l'application mobile pour la première fois, vous êtes accueilli par un écran de bienvenue qui vous demande le mode d'utilisation préféré :
 
 - **Client:** Lorsque l'application mobile se connecte à un serveur sur votre réseau local
-- **Serveur:** L'application exécute localement une version complète du serveur Open mSupply. Ce serveur peut être configurer pour synchroniser avec un serveur distant.
+- **Serveur:** L'application exécute localement une version complète du serveur Open mSupply. Ce serveur peut être configuré pour synchroniser avec un serveur distant.
 
 ![Mobile welcome screen](/docs/introduction/images/mobile_welcome.png)
 
