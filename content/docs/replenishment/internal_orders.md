@@ -136,7 +136,8 @@ If your organisation is using Master Lists, you can add multiple items at once u
 
 All the items of the master list are now listed in your order. If you had previously added single item, it will add items that are not already there.
 
-Tap on an order line to change the **Requested Quantity** or tap on the `Use Suggested Quantities` button
+Tap on an order line to change the **Requested Quantity** or tap on the `Use
+Suggested Quantities` button to automatically copy the values in the **Suggested Quantity** column into the **Requested Quantity** column.
 
 ![Internal Order: add from master list](/docs/replenishment/images/intord_addfromml.gif)
 
@@ -161,19 +162,11 @@ When you add items (using a master list or not), the item is added to the order'
 | **Name**                 | Name of the item                                                                                                                                   |
 | **Unit**                 | Unit of the item e.g. Tablet, Capsule, Vial                                                                                                        |
 | **DPS**                  | Default pack size of the item                                                                                                                      |
-| **SoH (Est. remaining)** | Stock on Hand: how much stock is currently available in your store for this store                                                                                    |
+| **SoH (Est. remaining)** | Stock on Hand: how much stock is currently available in your store for this store                                                                  |
 | **AMC**                  | Average Monthly Consumption: how much stock your store uses each month on average (based on a configurable number of months, defaults to 3 months) |
-| **Target Stock**         | This is the stock you are aiming for. Calculated as: AMC x Target MOS MOS                                                                             |
-| **Suggested Quantity**   | How much stock mSupply suggests that your order. This is calculated as: (AMC x Target MOS) - SoH                                                    |
-| **Requested**            | This is set to zero by default. This is the quantity of units you are ordering from your supplier.                                                 |                                                                       |
-
-### Using Suggested Quantities
-
-If you tap on the `Use Suggested Quantities` on the requisition header, mSupply will automatically copy the values in the **Suggested Quantity** column into the **Requested Quantity** column.
-
-You can always manually edit the order quantity for each by tapping on an order line.
-
-![Use Suggested Quantities](/docs/replenishment/images/intord_reqtosug.png)
+| **Target Stock**         | This is the stock you are aiming for. Calculated as: AMC x Target MOS MOS                                                                          |
+| **Suggested Quantity**   | How much stock mSupply suggests that your order. This is calculated as: (AMC x Target MOS) - SoH                                                   |
+| **Requested**            | This is set to zero by default. This is the quantity of units you are ordering from your supplier.                                                 |
 
 ### Printing an Internal Order
 
@@ -191,7 +184,7 @@ This will either
 
 ### Sending an Internal Order
 
-You will need the permission [Can confirm Internal Order as Sent](/docs/administration/permissions/) to be able to send an Internal Order:
+You will need the permission [Can confirm Internal Order as Sent](/docs/settings/permissions/) to be able to send an Internal Order:
 
 1. Tap on the `Confirm Sent` button (bottom right corner)
 2. A dialog window opens asking you whether you are sure to want to send the order. Tap on `OK` to proceed

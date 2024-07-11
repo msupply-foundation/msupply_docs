@@ -14,7 +14,7 @@ toc = true
 top = false
 +++
 
-Patients can be added and their information edited from this page. 
+Patients can be added and their information edited from this page.
 
 ### Patients
 
@@ -22,7 +22,7 @@ To use patients, ensure that your store is set to `Dispensary` mode (see the [vi
 
 ### Open the Patient Menu
 
-Click on `Dispensary` > `Patients` in the navigation panel. 
+Click on `Dispensary` > `Patients` in the navigation panel.
 
 ![dispensary menu](/docs/dispensary/images/dispensary_menu.png)
 
@@ -30,17 +30,20 @@ You will be presented with a list of patients visible to your store.
 
 ### Patient List
 
-The list of patients is divided into 8 columns: 
+![](/docs/dispensary/images/patient-list-view.png)
 
-| Column      | Description                         |
-| :---------- | :---------------------------------- |
-| **Patient ID**    | The ID of the patient                |
-| **NUIC**  | National unique identifier code  |
-| **First name**  | First name  |
-| **Last name**  | Last name  |
-| **Gender** | Gender | 
-| **Date of Birth**  | The patient's date of birth  |
-| **Deceased** | Whether the patient is deceased  |
+1. The list of patients is divided into 8 columns:
+
+| Column            | Description                      |
+| :---------------- | :------------------------------- |
+| **Patient ID**    | The ID of the patient            |
+| **NUIC**          | National unique identifier code  |
+| **Created**       | The date the patient was created |
+| **First name**    | First name                       |
+| **Last name**     | Last name                        |
+| **Gender**        | Gender                           |
+| **Date of Birth** | The patient's date of birth      |
+| **Deceased**      | Whether the patient is deceased  |
 
 2. The list can display a fixed number of patients per page. On the bottom left corner, you can see how many patients are currently displayed on your screen.
 
@@ -60,11 +63,11 @@ You can filter the list of patients by using the search bar at the top of the pa
 
 ![Patient filter](/docs/dispensary/images/patient_filter.png)
 
-For example, to filter by gender, click on the `Filters`, select `Gender`, and then select which gender you would like to filter by. 
+For example, to filter by gender, click on the `Filters`, select `Gender`, and then select which gender you would like to filter by.
 
 ![Patient filter gender](/docs/dispensary/images/patient_filter.gif)
 
-### Exporting Patients 
+### Exporting Patients
 
 The list of Patients can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page)
 
@@ -80,7 +83,7 @@ A new window will appear for you to enter the patient's details. You must enter 
 
 ![New Patient](/docs/dispensary/images/patient_new.png)
 
-If you have a patient or patients matching the name you have entered, you will be prompted to select the patient in the new window. 
+If you have a patient or patients matching the name you have entered, you will be prompted to select the patient in the new window.
 
 ![New Patient](/docs/dispensary/images/patient_search.png)
 
@@ -94,4 +97,4 @@ Then click the `Create` button at the bottom right of the page to create the pat
 
 ### Edit a Patient
 
-To edit a patient, click on the patient's name in the list of patients. 
+To edit a patient, click on the patient's name in the list of patients.

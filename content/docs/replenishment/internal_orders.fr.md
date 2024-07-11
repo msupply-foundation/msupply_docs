@@ -61,132 +61,129 @@ Vous pouvez trier la liste à l'aide des en-têtes de colonne :
 
 ### Defining Maximum Month of Stock (Maximum MOS)
 
-Defining the Maximum MOS (Month of Stock) is critical to the calculation of the **Suggested Quantity** and you can change it:
+La définition du MOS (mois de stock) maximum est essentielle pour le calcul de la **Quantité suggérée** et vous pouvez la modifier :
 
-- There is an industry rule of thumb that the _Maximum MOS_ should be set to 3 times the ordering cycle
-- The default _Maximum MOS_ is `3.0`, which is based on a monthly ordering cycle
-- If for example, the ordering cycle was every two months, then _Maximum MOS_ should be set to 3 x 2 = `6.0`
+- Il existe une règle générale dans l'industrie selon laquelle, le _Maximum MOS_ doit être fixé à 3 fois le cycle de commande.
+- Par défaut le _MOS Maximum _ est de 3,0, ce qui est basé sur un cycle de commande mensuel.
+- Si, par exemple, le cycle de commande a lieu tous les deux mois, le _Maximum MOS_ doit être fixé à 3 x 2 = `6.0`.
 
 <div class="imagetitle">
-In the below example, we are setting our Maximum MOS to 3 Months.  
+Dans l'exemple ci-dessous, nous fixons notre MOS maximale à 3 mois.  
 </div>
 
 ![MaxMOS](/docs/replenishment/images/intord_maxmos.png)
 
-This can be done before or after adding items to your order.
+Cette opération peut être effectuée avant ou après l'ajout d'articles à votre commande.
 
 ### Adding a single item
 
-Tap on `Add Item` to add a single item to your order. A new window opens:
+Cliquez sur `Ajouter un article` pour ajouter un seul article à votre commande. Une nouvelle fenêtre s'ouvre :
 
 ![Internal Order: add item](/docs/replenishment/images/intord_additem2.png)
 
-First select the item you want to add to your order. Open the `Stock details` dropdown menu and select your item from the list. You can also type some or all of an item name (or code) to look for a specific item.
+Sélectionnez d'abord l'article que vous souhaitez ajouter à votre commande. Ouvrez la fenêtre `Détails du stock` et sélectionnez votre article dans la liste. Vous pouvez également taper tout ou une partie du nom d'un article (ou d'un code) pour rechercher un article spécifique.
 
-Once item is selected, you should see the following information on the window:
+Une fois l'élément sélectionné, les informations suivantes s'affichent dans la fenêtre :
 
-- **Item Code** and **Item Name**
-- **Unit**: the default unit used for this item (_eg. Tablet, Vial_)
-- **AMC**: Average Monthly Consumption. How much stock your store uses each month on average (based on a configurable number of months, default is set to 3 months)
-- **Suggested Quantity**: how much stock mSupply suggests that your order to reach your stock target quantity
-- **Order quantity**: the quantity of units that you request from your supplier
+- **Code de l'article** et **Nom de l'article**
+- **Unité**: l'unité par défaut utilisée pour cet élément (_eg. Tablette, Fiole_)
+- **CMM**: Consommation mensuelle moyenne. La quantité de stock que votre magasin utilise en moyenne chaque mois (sur la base d'un nombre de mois configurable, la valeur par défaut est de 3 mois).
+- **Quantité suggérée**: quelle quantité de stock mSupply suggère que votre commande atteigne votre quantité cible de stock
+- **Quantité commandée**: la quantité d'unités que vous demandez à votre fournisseur
 
-You should also see the following charts:
+Vous devriez également voir les graphiques suivants :
 
-- **Stock distribution**: In this chart, you will see the following information:
-  - The _Target Quantity_ for the item. This is calculated as: Maximum MOS x AMC.
-  - Your current _Stock on Hand_ (in grey)
-  - The _suggested quantity_ calculated by mSupply
+- **Distribution des stocks**: Dans ce tableau, vous trouverez les informations suivantes :
+  - La _quantité cible_ de l'article. Elle est calculée comme suit : MOS maximum x CMM.
+  - Votre _Stock Actuel_ (en gris)
+  - La _quantité suggérée_ calculée par mSupply
 
 <div class="imagetitle">
-In the below example, our target quantity is 600 units which is the equivalent of 3 months of stock (3 x 200 = 600 units). Our stock on hand (in grey) is 50 so in order to reach my target, mSupply suggests to order 550 units (600 - 50). 
+Dans l'exemple ci-dessous, notre quantité cible est de 600 unités, ce qui équivaut à 3 mois de stock (3 x 200 = 600 unités). Notre stock disponible (en gris) est de 50 unités. Pour atteindre mon objectif, mSupply me suggère de commander 550 unités (600 - 50). 
 </div>
 
 ![Stock Distribution](/docs/replenishment/images/intord_charts_stockdistri.png)
 
 <div class="imagetitle">
-In the below example, the target quantity is 62 units. Since we already have 250 units in stock (in grey), the suggested quantity is zero. 
+Dans l'exemple ci-dessous, la quantité cible est de 62 unités. Comme nous avons déjà 250 unités en stock (en gris), la quantité suggérée est de zéro. 
 </div>
 
 ![Stock Distribution 2](/docs/replenishment/images/intord_charts_stockdistri2.png)
 
-- **Consumption History (monthly)**: this chart shows the monthly consumption up to 12 months in the past (in grey) and the current AMC (in orange):
-
+- **Historique de la consommation (mensuel)**: ce graphique montre la consommation mensuelle jusqu'à 12 mois dans le passé (en gris) et la CMM actuel (en orange) :
 ![Consumption](/docs/replenishment/images/intord_charts_consumption.png)
 
-- **Stock Evolution**: this chart shows you your stock level for the last 30 days and your projected inventory for the next 30 days. The projected stock will be updated based on your inputs in the `Order quantity` field:
+- **Évolution des stocks**: ce graphique vous montre votre niveau de stock pour les 30 derniers jours et votre stock prévisionnel pour les 30 prochains jours. Le stock prévisionnel sera mis à jour en fonction des données que vous aurez saisies dans le champ `Quantité commandée`:
 
 ![Stock Evolution](/docs/replenishment/images/intord_charts_stockevolution.png)
 
-### Adding items using a master list
+### Ajout d'éléments à l'aide d'une liste de base
 
-If your organisation is using Master Lists, you can add multiple items at once using your store's master lists. It is particularly useful when you have a lot of items in your order and you don't want to add them all one by one.
+Si votre organisation utilise les listes maîtresses, vous pouvez ajouter plusieurs articles à la fois en utilisant les listes maîtresses de votre magasin. Cette fonction est particulièrement utile lorsque vous avez beaucoup d'articles dans votre commande et que vous ne voulez pas les ajouter tous un par un.
 
-1. Tap on the `Add from master list` button
-2. Select a master list
-3. A dialog window opens asking you whether you want to add all of the items from this master list. Tap `OK` if you wish to proceed.
+1. Tapez sur le bouton `Ajouter à partir de la liste principale`
+2. Sélectionner une liste de base
+3. Une fenêtre de dialogue s'ouvre pour vous demander si vous souhaitez ajouter tous les éléments de cette liste de base. Appuyez `OK` si vous souhaitez poursuivre.
 
-All the items of the master list are now listed in your order. If you had previously added single item, it will add items that are not already there.
+Tous les articles de la liste principale figurent désormais dans votre commande. Si vous avez déjà ajouté un seul article, il ajoutera les articles qui ne sont pas déjà présents.
 
-Tap on an order line to change the **Order Quantity** or tap on the button `Requested to Suggested` button
+Tapez sur une ligne de commande pour modifier la **Quantité commandée** ou tapez sur le bouton `Demandé à Suggéré`
 
 ![Internal Order: add from master list](/docs/replenishment/images/intord_addfromml.gif)
 
 <div class="remarque"> 
-Master Lists are defined and assigned to stores at the central server level. You can only see the master lists that are visible to your store. 
+Les listes de base sont définies et attribuées aux points de vente au niveau du serveur central. Vous ne pouvez voir que les listes maîtresses visibles par votre point de vente. 
 <br> <br>
-If you don't find the master list you are looking for and if you want to create a new one, please contact your administrator.
+Si vous ne trouvez pas la liste maîtresse que vous recherchez et si vous souhaitez en créer une nouvelle, veuillez contacter votre administrateur.
 </div>
 
 <div class="conseil">
-You can create Internal Orders from multiple master lists by repeating above actions with another master list. 
+Vous pouvez créer des commandes internes à partir de plusieurs listes de base en répétant les actions ci-dessus avec une autre liste de base. 
 </div>
 
-### Reading the Internal Order's list
+### Lecture de la liste de l'ordre interne
 
-When you add items (using a master list or not), the item is added to the order's table. The following information is provided for each order line:
-
+Lorsque vous ajoutez des articles (à l'aide d'une liste de base ou non), l'article est ajouté au tableau de la commande. Les informations suivantes sont fournies pour chaque ligne de commande :
 | Status                   | Description                                                                                                                                        |
 | :----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Code**                 | Code of the item                                                                                                                                   |
-| **Name**                 | Name of the item                                                                                                                                   |
-| **SoH (Est. remaining)** | How much stock currently available in your store for this store                                                                                    |
-| **AMC**                  | Average Monthly Consumption: how much stock your store uses each month on average (based on a configurable number of months, defaults to 3 months) |
-| **Target Stock**         | This is the stock you are aiming for. Calculated as: AMC x Maximum MOS                                                                             |
-| **Suggested Quantity**   | How much stock mSupply suggests that your order. This is calculated as: AMC x Maximum MOS - SoH                                                    |
-| **Requested**            | This is set to zero by default. This is the quantity of units you are ordering from your supplier.                                                 |
-| **Comment**              | A comment for the order line. Comments will be visible to your supplier.                                                                           |
+| **Code**                 | Code de l'article                                                                                                                                   |
+| **Nom**                 | Nom de l'article                                                                                                                                   |
+| **SDU (Est. restant)** | Quantité de stock actuellement disponible dans votre magasin                                                                                     |
+| **CMM**                  | Consommation mensuelle moyenne : la quantité de stock que votre magasin utilise en moyenne chaque mois (sur la base d'un nombre de mois configurable, la valeur par défaut étant de 3 mois). |
+| **Stock cible**         | C'est le stock que vous visez. Calculé comme suit : CMM x MOS maximum                                                                             |
+| **Quantité suggérée**   | La quantité de stock que mSupply suggère pour votre commande. Cette quantité est calculée comme suit : CMM x MOS maximum - SDU                                                    |
+| **Demandé**            | Cette valeur est fixée par défaut à zéro. Il s'agit de la quantité d'unités que vous commandez à votre fournisseur.                                                 |
+| **Commentaire**              | Un commentaire pour la ligne de commande. Les commentaires seront visibles par votre fournisseur.                                                                           |
 
-### Using Suggested Quantities
+### Utilisation des quantités suggérées
+Si vous tapez sur le bouton `Quantités suggérées pour l'utilisation` dans l'en-tête de la demande d'achat, mSupply copiera automatiquement les valeurs de l'élément **Quantité suggérée** dans la colonne **Quantité demandée** colonne.
 
-If you tap on the `Use Suggested Quantities` on the requisition header, mSupply will automatically copy the values in the **Suggested Quantity** column into the **Requested Quantity** column.
-
-You can always manually edit the order quantity for each by tapping on an order line.
+Vous pouvez toujours modifier manuellement la quantité commandée pour chaque ligne de commande en cliquant sur celle-ci.
 
 ![Use Suggested Quantities](/docs/replenishment/images/intord_reqtosug.png)
 
-### Printing an Internal Order
+### Impression d'une commande interne
 
-When viewing a specific Internal Order, simply click the `Print` button which is on the top right of the page.
-When printing, a PDF file is generated for you, which will then open in a new browser tab. This can then be printed using your browser by clicking print or using `control`+`P` (if using windows) or `cmd`+`P` keys on your keyboard (if using a mac).
+Pour consulter un ordre interne spécifique, il suffit de cliquer sur le bouton `Imprimer` qui se trouve en haut à droite de la page.
+Lors de l'impression, un fichier PDF est généré pour vous, qui s'ouvre alors dans un nouvel onglet du navigateur. Vous pouvez ensuite l'imprimer à l'aide de votre navigateur en cliquant sur "Imprimer" ou en utilisant le bouton "Imprimer". `contrôle`+`P` (si vous utilisez Windows) ou `cmd`+`P` de votre clavier (si vous utilisez un Mac).
 
 ![Print button](/docs/introduction/images/print_button.png)
 
-This will either
+Il s'agit soit
 
-- Show a menu of possible reports for you to select from before creating a PDF. This will happen if there are more than one report defined for the `Requisition` report type.
-- Create a PDF immediately, if there is only one report to select from
+- Affiche un menu de rapports possibles à sélectionner avant de créer un PDF. Cela se produira si plusieurs rapports sont définis pour le fichier `Demande d'information` type de rapport.
+- Créer un PDF immédiatement, s'il n'y a qu'un seul rapport à sélectionner
 
 ![Print menu](/docs/distribution/images/os_print_menu.png)
 
-### Sending an Internal Order
+### Envoi d'un ordre interne
 
-To send the order to your supplier:
+Pour envoyer la commande à votre fournisseur :
 
-1. Tap on the `Confirm Sent` button (bottom right corner)
-2. A dialog window opens asking you whether you are sure to want to send the order. Tap on `OK` to proceed
-3. Status of your order is now `SENT` and the order is no longer editable
+1. Tapez sur `Confirmer l'envoi` (en bas à droite)
+2. Une fenêtre de dialogue s'ouvre pour vous demander si vous êtes sûr de vouloir envoyer la commande. Cliquez sur `OK` de procéder
+3. Le statut de votre commande est maintenant `ENVOI` et l'ordre n'est plus modifiable
 
 <div class="avertissement">
-Ensure that your order is correct before sending it to your supplier. Once sent, no further changes can be made to finalised orders. 
+Assurez-vous que votre commande est correcte avant de l'envoyer à votre fournisseur. Une fois envoyées, les commandes finalisées ne peuvent plus être modifiées. 
 </div>

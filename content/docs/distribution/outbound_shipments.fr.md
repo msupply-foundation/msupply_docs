@@ -123,165 +123,165 @@ Si tout s'est bien passé, vous devriez voir le nom de votre client dans le coin
 
 ![Outbound shipment: created](/docs/distribution/images/os_created_fr.png)
 
-### Edit the Customer Name
+### Modifier le nom du client
 
-If you have selected the wrong customer, you can change the customer name in the `Customer Name` field or select one the dropdown list: 
+Si vous avez sélectionné le mauvais client, vous pouvez modifier le nom du client dans le champ `Customer Name` ou le sélectionner dans la liste déroulante : 
 
 ![gif](/docs/distribution/images/os_change_customer.gif)
 
-### Enter a Customer Reference
+### Saisir une référence client
 
-Once your Outbound Shipment has been created, you can enter a customer reference in the `Customer Ref` field, if they have one (eg. *PO#1234567*)
+Une fois l'expédition créé, vous pouvez saisir une référence client dans le champ `Customer Ref`, s'il y en a une. (ex. *PO#1234567*)
 
-### View or edit the Outbound Shipment Information Panel
+### Afficher ou modifier le panneau d'information sur les expéditions
 
-The Information Panel allows you see or to edit information about the Outbound Shipment. It is divided in multiple sections: 
-* Additional Info
-* Related Documents
-* Invoice Details
-* Transport Details
+Le panneau d'information permet d'afficher ou de modifier des informations sur l'expédition. Il est divisé en plusieurs sections : 
+* Informations complémentaires
+* Documents connexes
+* Détails de la facture
+* Détails du transport
 
-We are planning to add more sections in the future as Open mSupply grows. 
+Nous prévoyons ajouter d'autres sections à l'avenir, au fur et à mesure de la croissance d'Open mSupply. 
 
-#### How to open and close the Information Panel ?
+#### Comment ouvrir et fermer le panneau d'information ?
 
-If you are using a large screen, the information panel will be automatically opened for you. However, on an average sized screen, the information panel will be closed by default.
+Si vous utilisez un grand écran, le panneau d'information sera automatiquement ouvert pour vous. En revanche, sur un écran de taille moyenne, le panneau d'information sera fermé par défaut.
 
-To open the Information Panel, you can tap on the `More` button, located in the top right corner of the Outbound Shipment view. 
+Pour ouvrir le panneau d'information, vous pouvez cliquer sur le bouton `More`, situé dans le coin supérieur droit de la vue de l'expédition.. 
 
-You can close by tapping on the `X Close` button, on the top right corner of the information panel. 
+Vous pouvez fermer la fenêtre en cliquant sur le bouton `X Close`, situé dans le coin supérieur droit de la fenêtre d'information. 
 
 ![Open and close the Information Panel](/docs/distribution/images/os_infopanel_openclose.gif)
 
-#### Additional Info
+#### Informations complémentaires
 
-In the **Additional Info** section, you can:
-* See who created the Outbound Shipment (name of the user)
-* View and edit the Outbound Shipment color. To edit the color, tap on the colored circle and select a color from the pop-up
-* Write or edit a comment
+Dans la section **Informations complémentaires**, vous pouvez :
+* Voir qui a créé l'expédition (nom de l'utilisateur)
+* Afficher et modifier la couleur de l'envoi sortant. Pour modifier la couleur, tapez sur le cercle coloré et sélectionnez une couleur dans le menu déroulant.
+* Écrire ou modifier un commentaire
 
-#### Related Documents
+#### Documents connexes
 
-In the **Related Documents** section, you can see other related transaction document for the Outbound Shipment. 
+Dans la section **Documents connexes**, vous pouvez consulter d'autres documents de transaction liés à l'expédition. 
 
-If your Outbound Shipment was created to fulfill a **Requisition**, the reference number of the requisition would appear in this section. 
+Si votre expédition a été créé pour répondre à une **Requisition**, le numéro de référence de la réquisition apparaît dans cette section. 
 
-In the future, we would also include other documents such as temperature records, transportation documents or pickslips. 
+À l'avenir, nous inclurons également d'autres documents tels que des relevés de température, des documents de transport ou des fiches de prélèvement. 
 
-#### Invoice Details
+#### Détails de la facture
 
-In this section, you will see by default the total selling price of the items listed in the Outbound Shipment. 
+Dans cette section, vous verrez par défaut le prix de vente total des articles énumérés dans l'expédition. 
 
-You can also add a **Service charges** if you wish to add other charges such as Freight Costs. To add a Service charges to the Invoice Details: 
+Vous pouvez également ajouter un **Service charges** si vous souhaitez ajouter d'autres frais tels que les frais de transport. Pour ajouter des frais de service aux détails de la facture : 
 
-1. Tap on the `Edit Service Charges` button. A new window opens. 
-2. Tap on the `Add charge` button on the new window. A new line appears in the list of charges. You tap on `Cancel` if you do not wish to add anything. 
-3. **Name:** Select a service charges in the dropdown list. You can customise the list of available charges. Contact your administrator
-4. **Comment:** yYou can add a comment to provide further details about the new charge
-5. **Amount:** Enter the amount of the charge
-6. **Tax:** Enter a % of tax for the charge
-7. **Total:** The total field is automatically calculated based on the Amount and the Tax percentage
-8. **Delete:** You can tap on the `Delete` icon to delete the charge
+1. Tapez sur le bouton `Edit Service Charges`. Une nouvelle fenêtre s'ouvre. 
+2. Tapez sur le bouton `Add charge` dans la nouvelle fenêtre. Une nouvelle ligne apparaît dans la liste des frais. Si vous ne souhaitez rien ajouter, cliquez sur `Cancel`. 
+3. **Name:** Sélectionnez un service dans la liste déroulante. Vous pouvez personnaliser la liste des frais disponibles. Contactez votre administrateur
+4. **Comment:** Vous pouvez ajouter un commentaire pour fournir des détails supplémentaires sur la nouvelle taxe.
+5. **Amount:** Indiquer le montant de la taxe
+6. **Tax:** Entrer un % de taxe pour la charge
+7. **Total:** Le champ total est automatiquement calculé sur la base du montant et du pourcentage de la taxe.
+8. **Delete:** Vous pouvez appuyer sur l'icône `Delete` pour effacer la charge.
 
-In this section, you can also edit the tax rate (%) for the items sell price. Tap on the pencil icon and enter a value.
+Dans cette section, vous pouvez également modifier le taux de taxe (%) pour le prix de vente des articles. Tapez sur l'icône du crayon et entrez une valeur.
 
-#### Transport Details
+#### Détails du transport
 
-In this section, you can see or edit a transport reference number (eg. a booking or a tracking reference number). 
+Dans cette section, vous pouvez voir ou modifier un numéro de référence de transport (par exemple, un numéro de référence de réservation ou de suivi). 
 
-### Outbound Shipment Status Sequence
+### Status de séquence des expéditions
 
-The status sequence is located at the bottom left corner of the Outbound Shipment screen. 
+Le status de la séquence se trouve dans le coin inférieur gauche de l'écran expédition. 
 
-Passed statuses are hightlighted in blue, next statuses appear in grey. 
+Les statuts passés sont mis en évidence en bleu, les statuts suivants apparaissent en gris. 
 
 <figure>
 <img src="/docs/distribution/os_statussequence2.png" style="width:100%">
-<figcaption align = "center">Status Sequence: current status is <code>NEW</code>.</figcaption>
+<figcaption align = "center">Status Sequence: status actuel est <code>NEW</code>.</figcaption>
 </figure>
 
 <figure>
 <img src="/docs/distribution/os_statussequence3.png" alt="Trulli" style="width:100%">
-<figcaption align = "center">Status Sequence: current status is </i><code>PICKED</code>.</figcaption>
+<figcaption align = "center">Status Sequence: status actuel est </i><code>PICKED</code>.</figcaption>
 </figure>
 
-There are 6 status for the Outbound Shipment: 
+Il y a 6 statuts pour l'expédition : 
 
 | Status | Description |
 | :--- | ---------- |
-| **New** | This is the first status when you create a shipment |
-| **Allocated** | Allocation is confirmed. Goods are no longer available for other shipments but are still part of your inventory. |
-| **Picked** | Shipment is picked and is now ready to ship. Goods are still part of your inventory. |
-| **Shipped** | Shipment has been shipped and goods are no longer part of your inventory |
-| **Delivered** | Your customer has received the shipment |
-| **Verified** | Your customer has verified the quantity of the shipment. Goods are now part of their inventory . |
+| **New** | Il s'agit du premier status lorsque vous créez un transfert. |
+| **Allocated** | L'allocation est confirmée. Les produits ne sont plus disponibles pour d'autres transferts mais font toujours partie de votre inventaire. |
+| **Picked** | Le transfert est prélevé et prêt à être expédié. Les produits font toujours partie de votre inventaire. |
+| **Shipped** | Le transfert a été effectué et les produits ne font plus partie de votre inventaire. |
+| **Delivered** | Votre client a reçu le transfert |
+| **Verified** | Votre client a vérifié la quantité du transfert. Les produits font désormais partie de son inventaire. |
 
-If you hover over the status sequence, a shipment history window appears. You can see the date when a shipment was updated from one status to another. 
+Si vous survolez le statut des séquences, une fenêtre d'historique des transferts s'affiche. Vous pouvez voir la date à laquelle un transfert est passé d'un statut à un autre. 
 
 <div class="imagetitle">
-This shipment has been created, allocated and picked on 29/03/2022
+Ce transfert a été créé, attribué et prélevé le 29/03/2022.
 </div>
 
 ![Outbound status: hover](/docs/distribution/images/os_statussequence_hover.png)
 
-### Hold checkbox
+### Case à cocher Hold
 
-Located on the bottom left corner, on the left of the status sequence. 
+Situé dans le coin inférieur gauche, à gauche du statuts de la séquence. 
 
-Check the `Hold` checkbox prevents the Outbound Shipment from being updated to the next status. 
+Le fait de cocher la case `Hold` empêche la mise à jour du transfert sortant vers le statut suivant. 
 
 ![Outbound checkbox](/docs/distribution/images/os_holdcheckbox.png)
 
-### Cancel and Confirm button
+### Bouton d'annulation et de confirmation
 
-#### Cancel Button
+#### Bouton d'annulation
 
-Tap on the `Cancel` button to quit the Outbound Shipment view and return to the Outbound Shipments list. 
+Tapez sur le bouton `Cancel` pour quitter la vue des transfert sortants et revenir à la liste des transferts sortants. 
 
-#### Confirm Button
+#### Bouton de confirmation
 
-The `Confirm` button is the button to update the status of a shipment. The status which you can confirm depends on the current status of the shipment and follows the sequence shown below.
+Le bouton `Confirm` permet de mettre à jour le statut d'un transfert. Le statut que vous pouvez confirmer dépend du statut actuel du transfert et suit la séquence indiquée ci-dessous.
 
-When managing an Outbound Shipment, you can only confirm the Allocation, the Picking and the Shipment. 
+Lors de la gestion d'un transfert sortant, vous ne pouvez que confirmer l'allocation, le prélèvement et le transfert. 
 
-| Confirm... | Current Status | Next Status |
+| Confirmer... | Statut actuel | Statut suivant |
 | :---------- | :---------- | :---------- |
-| **Confirm Allocated** | New | Allocated|
-| **Confirm Picked** | Allocated | Picked|
-| **Confirm Shipped** | Picked | Shipped |
+| **Confirmer l'allocation** | Nouveau | Attribué|
+| **Confirmer la sélection** | Alloué | Choisi|
+| **Confirmer l'envoi** | Choisi | Expédié |
 
-You don't have to update a shipment to next status in the sequence. You can choose to skip some of them to go directly to `Confirm Shipped` for example.
+Il n'est pas nécessaire de mettre à jour un transfert pour qu'il passe au statut suivant dans la séquence. Vous pouvez choisir d'ignorer certains d'entre eux pour passer directement à `Confirm Shipped` par exemple.
 
-As demonstrated below, tap on the down arrow of the `Confirm` button and select the status you want the shipment to be updated to. 
+Comme indiqué ci-dessous, appuyez sur la flèche vers le bas du bouton `Confirm` et sélectionnez le statut dans lequel vous souhaitez que le transfert soit mis à jour. 
 
 ![Skip Status](/docs/distribution/images/os_confirmbutton_skipstatuses.gif)
 
-## Adding lines to an Outbound Shipment
+## Ajout de lignes à une expédition
 
-Tap on the `Add Item` button (top right corner). 
+Bouton de réapprovisionnement `Add Item` (en haut à droite). 
 
-A new `Add Item` window opens. 
+Une nouvelle fenêtre `Add Item` s'ouvre. 
 
 ![Add Item button](/docs/distribution/images/additembutton.png)
 
-### Select an Item
+### Sélectionner un article
 
-In the `Add Item` window, you can look up an item by:
-* Reading through the list of available items
-* or by typing some or all of item name
-* or by typing some or all of an item code
+Dans la fenêtre `Add Item` vous pouvez rechercher un élément par :
+* Lecture de la liste des éléments disponibles
+* ou en tapant tout ou une partie du nom de l'article
+* ou en tapant tout ou une partie d'un code article
 
-Once your item is highligthed, tap on the name or press `Enter`.
+Une fois que votre article est mis en évidence, tapez sur le nom ou appuyez sur `Enter`.
 
 ![Alt Text](/docs/distribution/images/os_additem.gif)
 
-Once the item is selected, you can see the following information: 
+Une fois l'élément sélectionné, les informations suivantes s'affichent : 
 
-#### Headers
+#### En-têtes
 
-* Item code and name (eg. *030453 Amoxicillin 250 mg Tabs*)
-* the available stock quantity for this item (eg. *3527 units*)
-* the item's unit (eg. *Tab*)
+* Code et nom de l'article (ex. *030453 Amoxicilline 250 mg Tabs*)
+* la quantité de stock disponible pour cet article (ex. *3527 unités*)
+* l'unité de l'article (ex. *Tab*)
 
 <div class="imagetitle">
 <b>Example:</b> For the item *030453 - Amoxicillin 250mg tabs*, there are 3527 tabs available. 
@@ -289,110 +289,108 @@ Once the item is selected, you can see the following information:
 
 ![add item headers](/docs/distribution/images/additem_headers.png)
 
-#### Issue [Quantity] of units in packs of [Pack Size]
+#### [Quantité] d'unités à délivrer en paquets de [Taille de l'emballage].
 
-In the `Issue Quantity` field, you can enter the quantity that you want to issue to your customer. 
+Dans le champ `Issue Quantity`, vous pouvez saisir la quantité que vous souhaitez délivrer à votre client. 
 
-By default, you are invited to issue a quantity of **units**. However, you have the possibility to issue a quantity of packs instead by changing the value in the second dropdown (`Pack Size`). 
+Par défaut, vous êtes invité à délivrer une quantité de **units**. Cependant, vous avez la possibilité de délivrer une quantité de paquets en changeant la valeur dans la deuxième liste déroulante (`Taille de l'emballage`). 
 
-Default value is `Any` when you are issuing units. 
+La valeur par défaut est `Any` lorsque vous délivrez des unités. 
 
 ![Outbound Issue quantity](/docs/distribution/images/os_issuequantityinunits.png)
 
 
-#### List of available batches:
+#### Liste des lots disponibles :
 
-This is a list of batch numbers that you have in store for this item: 
-* **# Packs**: Number of packs to be issued
-* **Pack Size**: Quantity of units per pack
-* **Unit Qty**: Total quantity of units to be issued
-* **Available**: Number of packs available (not already allocated to other shipments)
-* **In store**: Total number of packs in your store
-* **Batch**: Batch number. It is a designation given to products made in the same manufacturing run. 
-* **Expiry**: Expiry date of the batch (format: MM/YYYY)
-* **Location**: If you inventory is managed with storage locations, the name of the location where the item is stored
-* **Sell**: Selling unit price of the item
-* **On Hold**: Indicate whether a batch is on hold or not. You cannot issue a batch that is on hold. 
-* **Placeholder**: The placeholder line is used when the quantity you are issuing is higher than your available stock
+Il s'agit d'une liste de numéros de lots que vous avez en stock pour cet article : 
+* **# Emballages**: Nombre d'emballages à délivrer
+* **Taille de l'emballage**: Quantité d'unités par emballage
+* **Unit Qty**: Quantité totale d'unités à délivrer
+* **Disponible**: Nombre de paquets disponibles (non déjà affectés à d'autres expéditions)
+* **En stock**: Nombre total de paquets dans votre dépot
+* **Lot**: Numéro de lot. Il s'agit d'une désignation donnée aux produits fabriqués au cours d'un même cycle de fabrication. 
+* **Expiration**: Date d'expiration du lot (format : MM/AAAA)
+* **Emplacement**: Si votre inventaire est géré avec des emplacements de stockage, le nom de l'emplacement où l'article est stocké.
+* **Vente**: Prix unitaire de vente de l'article
+* **En attente**: Indiquer si un lot est en attente ou non. Il n'est pas possible d'émettre un lot en attente. 
+* **Espace reservé**: La ligne de remplacement est utilisée lorsque la quantité à délivrer est supérieure au stock disponible.
 
 ![List of available batch numbers](/docs/distribution/images/os_additem_listofbatches.png)
 
-### Issue a quantity of units
+### Délivrer une quantité d'unités
 
-By default, you are invited to issue a quantity of **units**, regardless of the pack size (number of units in a pack). 
-
-When entering a number in the `Issue Quantity` field, system automatically chooses the batch number(s) with the shortest expiry date (First to Expire, First Out or FEFO logic). 
+Par défaut, vous êtes invité à délivrer une quantité de **units**, quelle que soit la taille de l'emballage (nombre d'unités dans un emballage). 
+Lors de la saisie d'un nombre dans le champ `Issue Quantity`, le système choisit automatiquement le(s) numéro(s) de lot ayant la date de péremption la plus courte (logique "Premier à expirer, premier à sortir" ou FIFO). 
 
 <div class="imagetitle">
-In the below example, we are issuing 100 units of the item. All 100 units will be taken from the same batch (second row). First batch was not selected because it is expired. 
+Dans l'exemple ci-dessous, nous émettons 100 unités de l'article. Les 100 unités seront prélevées dans le même lot (deuxième ligne). Le premier lot n'a pas été sélectionné car il est périmé. 
 </div>
 
 ![additem!](/docs/distribution/images/os_additem_issueunits.png)
 
 <div class="imagetitle">
-In this other example, we are issuing 1200 units. System selects two batches with different pack sizes. 
+Dans cet autre exemple, nous émettons 1200 unités. Le système sélectionne deux lots avec des tailles d'emballage différentes. 
 </div>
 
 ![additem!](/docs/distribution/images/os_additem_issueunitstwobatches.png)
 
-Note that in this list, the batches which are available for selection are shown first and batches which are not (on hold or no stock available) are shown below and in a grey font.
+Notez que dans cette liste, les lots qui sont disponibles pour la sélection sont affichés en premier et les lots qui ne le sont pas (en attente ou pas de stock disponible) sont affichés en dessous et dans une police grise.
+### Délivrer une quantité d'emballages
 
-### Issue a quantity of packs
-
-You can decide to issue a quantity of **packs**. To do this, you can change the value in the `Pack Size` dropdown. 
+Vous pouvez décider de délivrer une quantité d'**emballages**. Pour ce faire, vous pouvez modifier la valeur de la liste déroulante `Taille de l'emballage`. 
 
 <div class="imagetitle">
-Let's imagine that your customer only wants pack size of 12 units. You can change the dropdown value from `Any` to `12`. 
+Imaginons que votre client ne veuille que des emballages de 12 unités. Vous pouvez changer la valeur de la liste déroulante de `Any` à `12`. 
 </div>
 
 ![Alt Text](/docs/distribution/images/os_additem_switchtopack.gif)
 
-You are now offered to issue a number of packs of 12 units. Only batch number(s) with a pack size of 12 units can be automatically issued.
+Il vous est maintenant proposé d'émettre un certain nombre d'emballages de 12 unités. Seul(s) le(s) numéro(s) de lot avec une taille d'emballage de 12 unités peut(vent) être automatiquement délivré(s).
 
 <div class="imagetitle">
-In the below example, we are issuing 10 packs of 12 units:
+Dans l'exemple ci-dessous, nous délivrons 10 emballages de 12 unités :
 </div>
 
 ![additem!](/docs/distribution/images/os_additem_issuepacks.png)
 
 <div class="remarque">
-<b></b> if you had previously entered a quantity of units and you switch to a quantity a packs, the quantity of units will automatically be converted into the correct quantity of packs.  
+<b></b> si vous avez déjà introduit une quantité d'unités et que vous passez à une quantité d'emballages, la quantité d'unités sera automatiquement convertie en la quantité correcte d'emballages.  
 </div>
 
 ![Alt Text](/docs/distribution/images/os_issuepacks.gif)
 
-When a pack size is selected, and stock lines which have a different pack size are not available for selection. As such, those rows are listed lower down in the table and are shown in a grey font, in the same way as other unavailable rows.
+Lorsqu'une taille d'emballage est sélectionnée, les lignes de stock qui ont une taille d'emballage différente ne sont pas disponibles pour la sélection. Ces lignes sont donc répertoriées plus bas dans le tableau et apparaissent en caractères gris, comme les autres lignes non disponibles.
 
-### Manual Allocation 
+### Allocation manuelle 
 
-Regardless if you chose to issue a quantity of units or packs, you can always manually change the quantity at the batch number level directly before pressing on OK. 
+Que vous ayez choisi de délivrer une quantité d'unités ou d'emballages, vous pouvez toujours modifier manuellement la quantité au niveau du numéro de lot directement avant d'appuyer sur OK. 
 
-You simply have to enter or edit the quantity in the `# Packs` column. 
+Il vous suffit de saisir ou de modifier la quantité dans la colonne `# Packs`. 
 
-The main `Issue Quantity` field will be automatically updated with the new quantity.  
+Le champ principal `Quantité à délivrer` sera automatiquement mis à jour avec la nouvelle quantité.  
 
 <div class="remarque">
- <b></b> when allocating quantities at the batch number level, the quantity you enter is always a quantity of packs. 
+ <b></b> Lors de l'allocation de quantités au niveau du numéro de lot, la quantité saisie est toujours une quantité d'emballages. 
 </div>
 
 <figure>
 <img src="/docs/distribution/os_additem_manualallocation.gif" alt="Trulli" style="width:100%">
-<figcaption align = "center"><i>Manual allocation at the batch number level.</i></figcaption>
+<figcaption align = "center"><i>Allocation manuelle au niveau du numéro de lot.</i></figcaption>
 </figure>
 
-### Issuing when there is not enough stock (Placeholder Line)
+### Émettre quand il n'y a pas assez de stock (ligne de remplacement)
 
-If the amount to be issued is greater than the total stock available from all of the available lines, then the quantity to be issued will automatically be placed in the `placeholder` field, at the bottom of the list of available batch numbers. 
+Si la quantité à délivrer est supérieur au stock total disponible sur toutes les lignes disponibles, la quantité à délivrer sera automatiquement placée dans le champ `placeholder`, au bas de la liste des numéros de lots disponibles. 
 
-Placeholder lines can be allocated later when new stock arrives. However, all shipment lines must be allocated before confirming the allocation. 
+Les lignes de remplacement peuvent être attribuées ultérieurement lorsque de nouveaux stocks arrivent. Cependant, toutes les lignes d'expédition doivent être allouées avant de confirmer l'allocation. 
 
 <div class="imagetitle">
-Since there is no stock available for <i>042744-Diazepam Injection 5mg/ml Amp/2ml</i>, system is issuing a 100 units in the placeholder field. 
+Étant donné qu'il n'y a pas de stock disponible pour les <i>042744-Diazepam Injection 5mg/ml Amp/2ml</i>, Le système délivre 100 unités dans le champ réservé. 
 </div>
 
 ![Alt Text](/docs/distribution/images/os_additem_placeholder.png)
 
-When you look at an Outbound Shipment, you can see if a shipment line has not been allocated or has been partially allocated when it is higlighted in blue. 
+Lorsque vous examinez une expédition, vous pouvez voir si une ligne d'expédition n'a pas été allouée ou a été partiellement allouée lorsqu'elle est surlignée en bleu.
 
 ![Alt Text](/docs/distribution/images/os_placeholderlines.png)
 
