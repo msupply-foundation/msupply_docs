@@ -1,5 +1,5 @@
 +++
-title = "Sensors"
+title = "Capteurs"
 description = "Management of temperature sensors"
 date = 2023-11-08T15:20:00+00:00
 updated = 2023-11-08T15:20:00+00:00
