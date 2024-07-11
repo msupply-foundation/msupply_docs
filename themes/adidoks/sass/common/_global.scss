@@ -21,7 +21,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  margin: 2rem 0 1rem;
+  margin: 1rem 0 1rem;
 }
 
 @include media-breakpoint-up(md) {
@@ -42,7 +42,7 @@ h6,
   .h4,
   .h5,
   .h6 {
-    margin-bottom: 1.125rem;
+    margin-bottom: 1rem;
   }
 }
 
@@ -63,7 +63,7 @@ a.btn:focus {
 
 .section {
   padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
 }
 
 .section-md {
@@ -86,7 +86,7 @@ a.btn:focus {
 */
 
 body {
-  padding-top: 3.5625rem;
+  padding-top: 3rem;
 }
 
 .docs-sidebar {
