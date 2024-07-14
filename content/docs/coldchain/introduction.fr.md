@@ -1,6 +1,6 @@
 +++
 title = "Introduction"
-description = "Temperature monitoring and reporting features"
+description = "Surveillance des températures"
 date = 2023-11-08T15:20:00+00:00
 updated = 2023-11-08T15:20:00+00:00
 draft = false
@@ -13,45 +13,45 @@ toc = true
 top = false
 +++
 
-The cold chain features within Open mSupply allow you to:
-- View and manage temperature sensors
-- Import data from Berlinger [Fridge-tag](https://www.berlinger.com/cold-chain-management/refrigerator-temperature-logger-solution-1) and [Q-tag](https://www.berlinger.com/shipment-monitoring-solutions) temperature loggers (Berlinger and the mSupply Foundation have been working together to make sure Berlinger temperature monitors are well supported in Open mSupply; you can read more [here](https://www.berlinger.com/partnership-msupply)).
-- View logs and breach data from sensors
-- Receive notifications of temperature breach and temperature excursion events
- 
-Sensors can be assigned to a storage location, which then allows you to associate temperature logs and breaches with specific stock lines. You can also view historical data to check if your cold chain equipment is operating correctly and to check if your stock might have been affected by temperature variations.
+Les fonctionnalités de la chaîne du froid au sein d'Open mSupply vous permettent de:
+- Visualiser et gérer les capteurs de température
+- Importer des données des enregistreurs de température Berlinger [Fridge-tag](https://www.berlinger.com/cold-chain-management/refrigerator-temperature-logger-solution-1) et [Q-tag](https://www.berlinger.com/shipment-monitoring-solutions). erlinger et la fondation mSupply ont collaboré pour garantir une prise en charge optimale des moniteurs de température Berlinger dans Open mSupply; pour en savoir plus, en Anglais [ici](https://www.berlinger.com/partnership-msupply)).
+- Visualiser les journaux et les données d'anomalie des capteurs 
+- Recevoir des notifications en cas d'anomalie de température et de divergence de température
+- Associer les capteurs à un emplacement de stockage.Liez les capteurs à des zones de stockage spécifiques pour associer les enregistrements et les anomalies de température à des stocks particuliers.
+ - Visualiser l'historique des données.Vérifiez le fonctionnement correct de votre chaîne du froid et l'impact potentiel des variations de température sur vos stocks en accédant à l'historique des données.
 
-If a temperature breach happens, then a notification is displayed on every page of Open mSupply as a warning to check potentially affected stock. Once the breach is acknowledged then the notification is no longer shown.
+Une notification d'avertissement s'affiche sur toutes les pages d'Open mSupply en cas d'anomalie de température, vous invitant à contrôler les stocks potentiellement affectés. La notification disparaît une fois l'alerte confirmée.
 
-Open mSupply integrates with the android based Cold Chain application; simply configure your Cold Chain application to sync with the Open mSupply server address and configure a username and password. Temperature sensors, breaches and logs will then appear within Open mSupply.
+Open mSupply s'intégre avec l'application mobile de la chaîne du froid; Configurez votre application mobile de la chaîne du froid pour qu'elle se synchronise avec l'adresse du serveur Open mSupply à l'aide d'un nom d'utilisateur et d'un mot de passe. Les capteurs de température, les anomalies et les journaux apparaîtront alors dans Open mSupply.
 
-<div class="note">The Cold Chain referred to here is the integration of the Cold Chain features within Open mSupply. There is separate documentation for the <a href="/coldchain/introduction/">Android Cold Chain application</a>.</div>
+<div class="note">Dans ce contexte, la "chaîne du froid" fait référence aux fonctionnalités intégrées d'Open mSupply et non à une application distincte. Il existe une documentation séparée pour l'application Android Chaîne du Froid.
 
 ## Configuration
 
-To begin, enable the store preference for `mobile: Uses Vaccine Module` (see the [store preferences](https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab) documentation for how to do this).
+Pour commencer, activer la préférence du site `mobile: Uses Vaccine Module` .Voir en Anglais les instructions [préférences pour les sites](https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab).
 
-Any users who are to view and manage the Cold Chain features should have the following permissions enabled:
+Les utilisateurs qui ont besoin de visualiser et de gérer les fonctionnalités de la chaîne du froid doivent disposer des permissions suivantes activées :
 
-- Vaccines
-  - View sensor details
-  - Edit sensor location
+- Vaccins
+  - Visualiser les détails des capteurs
+  - Modifier l'emplacement des capteurs
 
-See the [user permissions](https://docs.msupply.org.nz/admin:managing_users#permissions_tabs) documentation for more details.
+Voir en Anglais les [permissions utilisateurs](https://docs.msupply.org.nz/admin:managing_users#permissions_tabs) pour plus d'information.
 
-## Cold chain app integration
+## Intégration de l'application chaîne du froid
 
-The [Cold Chain](/coldchain/introduction/) application is able to sync data to a server. The server can be an instance of Open mSupply or mSupply.
+L'application [chaîne du froid](/coldchain/introduction/) peut synchroniser ses données avec un serveur. Le serveur peut être une instance d'Open mSupply ou de mSupply.
 
-To configure the integration, you will only need to configure a user and then you can update the Cold Chain application.
+Pour configurer l'intégration, il vous suffit simplement de paramétrer un utilisateur, puis de mettre à jour l'application Chaîne du Froid.
 
-The user is a standard mSupply user, with the following configuration:
-- The default store assigned to the user is the store which the temperature data will be associated with 
-- The store will need to be part of the site that Open mSupply is synchronising with. Have a look at the [Admin](/docs/administration/synchronisation/#viewing-the-synchronisation-settings) section to see which site omSupply is syncing with, and then the [Synchronisation](https://docs.msupply.org.nz/synchronisation:sync_sites#viewing_sync_sites) screen to check that your site includes the correct store.
-- The user must have the omSupply permission of `Cold chain API access` (see below)
+L'utilisateur utilisé pour l'intégration est un utilisateur standard de mSupply avec la configuration suivante :
+- L'utilisateur doit être associé au site par défaut qui correspond à l'emplacement des capteurs de température et auquel les données de température seront rattachées. 
+- Le site doit faire partie du site synchronisé avec Open mSupply. Référez-vous à la section  [Administrateur](https://wiki.msupply.foundation/fr:mobile:setup:server_side:2) pour voir avec quel site omSupply se synchronise avec, ainsi que l'écran [Synchronisation](https://docs.msupply.org.nz/synchronisation:sync_sites#viewing_sync_sites) que votre site se synchronise avec le serveur correct.
+- L'utilisateur doit avoir la permission pour  `Accès à l'API de la chaîne du froid` (voir ci-dessous)
 
-![Cold chain API permission](/docs/coldchain/images/coldchain_permission.png)
+![Permission API de la chaîne du froid](/docs/coldchain/images/coldchain_permission.png)
 
 
 
-From here, simply follow the steps in the Cold Chain application documentation for [Integrating with mSupply Desktop](/coldchain/desktop-integration/#msupply-desktop-setup-steps)
+À partir de là, suivez simplement les étapes de la documentation de l'application Chaîne du froid pour [Intégration avec mSupply Desktop](/coldchain/desktop-integration/#msupply-desktop-setup-steps)

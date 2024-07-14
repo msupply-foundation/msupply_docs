@@ -1,6 +1,6 @@
 +++
-title = "Monitoring"
-description = "Temperature monitoring and reporting features"
+title = "Surveillance"
+description = "Surveillance des températures et outils de rapport"
 date = 2023-11-08T15:20:00+00:00
 updated = 2023-11-08T15:20:00+00:00
 draft = false
@@ -13,74 +13,72 @@ toc = true
 top = false
 +++
 
-The Monitoring section displays cold chain monitoring data in three different views:
+La section Surveillance montre les données de surveillance de la chaîne du froid de trois manières:
 
-1. A chart view which shows a summary of data from all sensors
-2. A list of all recorded breaches
-3. A list view of all temperature logs
+1. Un graphique montrant un résumé des données de tous les capteurs
+2. Une liste de toutes les anomalies enregistrées
+3. Une liste de tous les journaux de température
 
-On any of these views, you can import data from a fridge tag. For details on this, see below.
+Pour toutes ces options, vous pouvez importer les données d'un fridge tag. Pour plus d'information, voir ci-dessous.
 
-### Viewing Monitoring data
+### Observer les données de surveillance
 
-Choose `Cold chain` > `Monitoring` in the navigation panel.
+Choisissez `Chaîne du froid` > `MSurveillance` dans le panneau de navigation.
 
 ![goto monitoring](/docs/coldchain/images/goto_monitoring.png)
 
-This page contains three tabs, displaying different views of temperature monitoring data. The tab which will be displayed by default is the `Chart` tab.
+Cette page contient trois onglets, affichant différents apercus des données de controle des températures. L'onglet `Graphique` sera celui affiché par défaut.
 
-### Chart
+### Graphique
 
-![Chart view](/docs/coldchain/images/chart_view.png)
+![Apercu du graphique](/docs/coldchain/images/chart_view.png)
 
-The chart tab displays a chart showing all configured sensors. You can filter the data displayed by:
+L'onglet Graphique montre un graphique avec tous les capteurs configurés. Vous pouvez filtrer les données par:
 
-- Sensor name
-- Location
-- Date/Time Range
-- Breach type
+- Nom du capteur
+- Emplacement
+- Date/Période
+- Type d'anomalie
 
-To add a filter to the page, choose the required filter from the drop down, the date time filter will apply to all of the tabs in the monitoring section.
+Pour ajouter un filtre à la page, choisissez le filtre désiré dans le menu déroulant. Le filtre périodique s'appliquera à tous les onglets de la section de surveillance.
 
-<div class="note">By default, data from the last 24 hours is shown. Use the from date/time and to date/time fields to look at a longer period of time.</div>
+<div class="note">Par défaut, les données des dernieres 24 heures sont affichées. Utilisez les champs date/heure pour observer une période de temps plus longue.</div>
 
-![Filter](/docs/coldchain/images/chart_filter.png)
+![Filtre](/docs/coldchain/images/chart_filter.png)
 
-If the sensor has recorded a breach - an icon will be shown on the chart. Clicking on the icon displays information about the breach, with a button which takes you to the list of all breaches:
+Si le capteur a enregistré une breche ou une anomalie - une icone apparaitra sur le tableau. Cliquez sur l'icone pour faire apparaitre l'information sur l'anomalie avec un bouton vous amenant vers la liste de toutes les breches.
 
-![Chart Breach](/docs/coldchain/images/chart_breach.png)
+![Graphique des anomalies](/docs/coldchain/images/chart_breach.png)
 
-To close the popup, click the red x in the top right corner.
+S'affichent également sur le graphique les depassements de seuil de temperature de 2°C (zone rouge)  et 8°C (zone bleue).
 
-Also shown on the chart are red (top) and blue (bottom) shaded areas. These show the standard temperature breach threshold values of 2°C and 8°C.
+<div class="note">Si vous avez configuré différentes valeurs de seuil, il est possible que vous voyiez des anomalies en dehors de l'éventail standard.</div>
 
-<div class="note">If you have used different threshold values in your configuration, you may see breaches outside of the standard range.</div>
+Si vous sélectionnez une période de temps longue, il est possible que s'affiche le message d'alerte suivant:
+![Alerte de graphique de chaîne du froid contenant trop de données](/docs/coldchain/images/chart_view_too_much_data.png)
+Pour éviter cela, sélectionnez une période plus courte ou choisissez un nombre de capteurs réduit.
+Seuls les premiers 8640 points de donnée s'affichent sur le graphique.
 
-If you select a long time period, you may see a warning message like this:
-![Cold chain graph with too much data warning](/docs/coldchain/images/chart_view_too_much_data.png)
-To avoid this, you may need to select a shorter time period or filter the data to show only the sensors you are interested in.
-Only the first 8640 data points are shown on the graph.
+### Anomalies
 
-### Breaches
+L'onglet `Anomalies` montre les enregistrements de toutes les breches
 
-The breaches tab displays a list of all recorded breaches.
+![Anomalies](/docs/coldchain/images/breaches_list.png)
 
-![Breaches](/docs/coldchain/images/breaches_list.png)
+La liste est divisée en 10 colonnes:
 
-The list of breaches is divided into 10 columns:
-
-| Column           | Description                                                                                                                    |
+| Colonne           | Description                                                                                                                    |
 | :--------------- | :----------------------------------------------------------------------------------------------------------------------------- |
-|                  | An icon showing an alert if this breach is unacknowledged                                                                      |
-| **Status**       | The breach status can be `Acknowledged` or `Unacknowledged`                                                                    |
-| **Sensor name**  | Name of the Sensor                                                                                                             |
-| **Location**     | Current location assigned to the sensor                                                                                        |
-| **CCE**          | Name of the cold chain equipment item which the sensor is associated with                                                      |
-| **Breach start** | Date and time at which the breach started                                                                                      |
-| **Breach end**   | Date and time at which the breach ended, if applicable                                                                         |
-| **Duration**     | The duration of the breach, if it has ended. If the breach has not ended then `Ongoing` is shown                               |
-| **Type**         | The type of the breach: this is a combination of Hot or Cold (shown by the icon and text colour) and Consecutive or Cumulative |
-| **Max / Min**    | The temperature recorded when the breach was updated, which is the start or end of the breach (if the breach has ended)        |
+|                   | Une icone montrant une alerte si la breche est ignorée                                                                      |
+| **Statut**        | Le statut de la breche peut etre `Pris en compte` ou `Ignoré`                                                                    |
+| **Nom du capteur**| Nom du capteur                                                                                                             |
+| **Emplacment**    | Emplacment actuel assigné au capteur                                                                                        |
+| **CCE**           | Nom de l'actif de la chaîne du froid auquel est rattaché le capteur                                                      |
+| **Début**         | Date et heure de début de l'anomalie                                                                                      |
+| **Fin**           | Date et heure de début de la breche, si applicable                                                                         |
+| **Durée**         | La durée de l'anomalie, si elle s'est terminée. `En cours` s'affiche si la breche n'est pas terminée.                               |
+| **Type**          | Le type d'anomalie: ceci est une combinaison de Chaud ou Froid (voir la couleur du text et de l'icone) et  Consécutif ou Cumulé |
+| **Max / Min**     | La température enregistrée quand l'anomalie a été mise a jour, c'est a dire le debut ou la fin de l'anomalie.        |
 
 You can filter the data displayed by:
 
