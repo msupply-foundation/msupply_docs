@@ -42,73 +42,73 @@ La liste des équipements est divisée en 6 colonnes:
 
 ![Equipment nav](/docs/coldchain/images/equipment_list.png)
 
-#### Paginate Equipment
+#### Paginer les équipements
 
-The list can display a fixed number of assets per page. On the bottom left corner, you can see how many assets are currently displayed on your screen.
+La liste peut afficher un nombre fixe d'actifs par page. Dans le coin inférieur gauche, vous pouvez voir combien d'actifs sont actuellement affichés sur votre écran.
 
 ![Page](/docs/distribution/images/os_list_showing.png)
 
-If you have more assets than the current limit, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner).
+Si vous disposez de plus d'actifs que la limite actuelle, vous pouvez accéder aux autres pages en appuyant sur le numéro de page ou en utilisant la droite ou la gauche des flèches (coin inférieur droit).
 
 ![Page](/docs/distribution/images/os_list_pagenumbers.png)
 
-You can also select a different number of rows to show per page using the option at the bottom right of the page.
+Vous pouvez également sélectionner un nombre différent de lignes à afficher par page en utilisant l'option en bas à droite de la page.
 
-![Rows per page](/docs/introduction/images/rows-per-page-select.png)
+![Colonnes par page](/docs/introduction/images/rows-per-page-select.png)
 
-#### Filter Equipment
+#### Filtrer les équipements
 
-To add a filter to the page, choose the required filter from the drop down. Multiple filters can be combined.
+Pour ajouter un filtre à la page, choisissez le filtre requis dans la liste déroulante. Plusieurs filtres peuvent être combinés.
 
-![Equipment filters](/docs/coldchain/images/equipment_filter.png)
+![Filtrer les actifs](/docs/coldchain/images/equipment_filter.png)
 
-#### Delete Equipment
+#### Supprimer des actifs
 
-Assets can be selected and deleted using the toolbar action:
+Les actifs peuvent être sélectionnés et supprimés à l'aide de l'action de la barre d'outils :
 
 ![](/docs/coldchain/images/delete_rows.png)
 
-### Importing And Exporting
+### Importer et exporter
 
 #### Import
 
-Cold chain assets can be imported from a comma-separated-value (csv) file using the `Import` button
+Les actifs de la chaîne du froid peuvent être importés à partir d'un fichier de valeurs séparées par des virgules (csv) à l'aide du bouton `Importer`
 
 ![](/docs/coldchain/images/equipment_import_button.png)
 
-This will open an import modal.
+Cette action ouvre un modèle d'import.
 
 <p align="center">
     <img src="/docs/coldchain/images/equipment_import_modal.png" width="750" height="420">
 </p>
 
-An example template csv is available for download here:
+Un exemple de modèle CSV est disponible en téléchargement ici :
 
 <p align="center">
     <img src="/docs/coldchain/images/equipment_import_template_download.png" width="750" height="420">
 </p>
 
-When importing assets from a store, they will be assigned to that store.
+Lors de l’importation d’actifs depuis un dépôt, ils seront attribués à ce dépôt.
 
 <!--
 TODO: Add link to central server docs when they are created
 -->
 
-When importing assets on the central server, an additional field of `store` will be required which will assign assets to their respective stores.
+Lors de l'importation d'actifs sur le serveur central, un champ supplémentaire « dépôt » sera requis pour attribuer les actifs à leurs dépôt respectifs.
 
-Information will need to be entered in the format provided by the csv template in order for Open mSupply to be able to process and upload this data.
+Les informations devront être saisies dans le format fourni par le modèle csv pour qu'Open mSupply puisse traiter et télécharger ces données.
 
-| Column                        | Description                                                       | Example               | Mandatory                  |
+| Colonne                       | Description                                                       | Exemple               | Obligatoire                 |
 | :---------------------------- | :----------------------------                                     | :-------------------- | :---------                 |
-| **Asset Number**              | The asset number assigned by the user's organisation              | 1                     | *                          |
-| **Catalogue item code**       | The Asset Catalogue code - i.e. the kind of asset to be imported  | E003/002              | *                          |
-| **Store**                     | The code of the Store to which the asset is to be assigned        | CMS                   | * (central only)           |
-| **Notes**                     | General notes about the asset                                     | Kept in EPI office    |                            |
-| **Serial Number**             | The serial number of that particular asset                        | 123456789ABC          |                            |
-| **Installation date**         | The date that the asset was installed at the Store                | 2024-01-14            |                            |
+| **Numéro de série**              | Le numéro d'actif attribué par l'organisation de l'utilisateur              | 1                     | *                          |
+| **Code Article Catalogue**       | Le code du catalogue d'actifs - le type d'actif à importer  | E003/002              | *                          |
+| **Dépôt**                     | Le code du dépôt auquel l'actif' doit être affecté        | CMS                   | * (seulement central)           |
+| **Notes**                     | Note générales sur l'équipement                                     | Bureau du PEV    |                            |
+| **Numéro de série**             | Le numéro de série de cet actif particulier                       | 123456789ABC          |                            |
+| **Date d'insytallation**         | Date d'installation de l'actif dans le dépôt                | 2024-01-14            |                            |
 
 
-A csv file can be uploaded once it has been created in the example format.
+Un fichier csv peut être téléchargé une fois créé dans le format exemple.
 
 <p align="center">
     <img src="/docs/coldchain/images/equipment_import_upload.png" width="750" height="420">
@@ -116,142 +116,140 @@ A csv file can be uploaded once it has been created in the example format.
 
 #### Export
 
-A list of assets can be exported as a csv using the `Export` button.
+Une liste d'actifs peut être exportée au format CSV à l'aide du bouton `Exporter`.
 
 <p align="center">
     <img src="/docs/distribution/images/export.png" width="150" height="67">
 </p>
 
-### QR code scanning
+### Scanner un code QR
 
-If you are running Open mSupply on a tablet, or are running the desktop version, you will get an extra button on the menu bar which allows scanning QR codes. This is the `Scan` button:
+Si vous exécutez Open mSupply sur une tablette ou si vous exécutez la version de bureau, vous obtiendrez un bouton supplémentaire dans la barre de menu qui permet de scanner les codes QR. Voici le bouton `Scan`
 
-![Scan button](/docs/coldchain/images/equipment_scan.png)
+![Bouton Scan](/docs/coldchain/images/equipment_scan.png)
 
-You may see this notification when you click the button:
+Vous pouvez voir cette notification lorsque vous cliquez sur le bouton :
 
-![Scan button](/docs/coldchain/images/equipment_scan_error.png)
+![Bouton Scan](/docs/coldchain/images/equipment_scan_error.png)
 
-If you do, don't panic! Head over to the [Barcode Scanners](/docs/administration/devices/#barcode-scanners) section of the `Admin` documentation and configure a scanner before continuing.
+Dans ce cas, référez-vous à la section  [Scanners de code barre](/docs/administration/devices/#barcode-scanners) de la documentatiom `Administrateur` et configurez un sacnner avant de continuer.
 
-Once you have a scanner connected - you can click the `Scan` button and scan a QR code.
-If a match is found when you scan, you'll be taken to the detail page for that cold chain equipment item. If not, you'll see a notification telling that no match was found.
+Une fois que vous avez connecté un scanner, vous pouvez cliquer sur le bouton `Scan` et scanner un code QR.
+Si une correspondance est trouvée lors de la numérisation, vous serez redirigé vers la page de détails de cet élément d'équipement de la chaîne du froid. Sinon, vous verrez une notification indiquant qu'aucune correspondance n'a été trouvée.
 
-<div class="note">You can print a QR code label for an equipment item. See the <a href="/docs/coldchain/equipment/#printing-a-qr-code">Print QR code</a> section for details</div>
+<div class="note">Vous pouvez imprimer une étiquette QR code pour un équipement. Voir la section <a href="/docs/coldchain/equipment/#printing-a-qr-code">Imprimer un code QR</a> [pour plus de détails]</div>
 
-### Create new asset
+### Créer un nouvel actif
 
-Cold chain assets can be created manually with the `New Asset` button.
+Les actifs de la chaîne du froid peuvent être créés manuellement avec le bouton `Nouvel actif`.
 
 <p align="center">
     <img src="/docs/coldchain/images/create_asset_button.png" width="150" height="55">
 </p>
 
-Clicking this button will open the `Create Asset` modal
+En cliquant, ce bouton ouvre le mode `Créer un Actif`
 
-With this modal you can assign:
+Vous pouvez allouer:
 
-- set the store for the asset (only available on the Open mSupply central server)
-- the asset category
-- the asset catalogue item the asset will be based on: this will link information from the catalogue item ( such as manufacturer & model ) to this newly created asset
-- the asset number
-- notes about the asset
+- le dépot pour l'actif (seulement disponible sur le serveur central open mSupply)
+- la catégorie d'actif
+- l'article du catalogue d'actif auquel l'actif fait référence: Cela reliera les informations de l'élément du catalogue (telles que le fabricant et le modèle) à cet actif nouvellement créé.
+- le numéro d'actif
+- les notes sur cet équipement
 
-If the asset you are creating is not part of either the `WHO PQS` or `General` catalogue, you can use the toggle to create an asset which is not based on a catalogue item.
+Si l'actif que vous créez ne fait partie ni du catalogue `OMS PQS` ni du catalogue `Général`, vous pouvez utiliser la bascule pour créer un actif qui n'est pas basé sur un élément du catalogue.
 
-![Create asset modal](/docs/coldchain/images/create_asset_modal.png)
+![Créer un modele d'actif](/docs/coldchain/images/create_asset_modal.png)
 
-### Managing cold chain assets
+### Gérer les équipements de la chaîne du froid
 
-Clicking on a row in the list will show the details of that asset. If your asset is under the `Refrigerators and freezers` category, then you will see extra information such as the energy source and storage volume (capacity of the fridge or freezer catagorised by the temperature of the item).
+Cliquer sur une ligne de la liste affichera les détails de cet actif. Si votre actif appartient à la catégorie « Réfrigérateurs et congélateurs », vous verrez alors des informations supplémentaires telles que la source d'énergie et le volume de stockage (capacité du réfrigérateur ou du congélateur classée en fonction de la température de l'article).
 
-![Asset detail view](/docs/coldchain/images/asset_detail_view.png)
+![Détails de l'équipement](/docs/coldchain/images/asset_detail_view.png)
 
-There are 4 tabs available to manage the asset:
+Il y a 4 onglets disponibles pour gérer l'actif :
 
-![Detail view tabs](/docs/coldchain/images/asset_detail_view_tabs.png)
+![Onlets vue détaillée](/docs/coldchain/images/asset_detail_view_tabs.png)
 
-#### Summary tab
+#### Onglet Résumé
 
-From the `Summary` tab, you can:
+Depuis l'onglet `Résumé`, vous pouvez:
 
-- edit the serial number
-- assign an installation date
-- assign a replacement date
-- assign locations to the the asset
+- éditer le numéro de série
+- allouer une date d'installation
+- donner une date de remplacement
+- attribuer des emplacements à l'actif
 
-<div class="tip">Multiple locations can be assigned to one asset</div>
+<div class="Astuce">Plusieurs emplacements peuvent être attribués à un seul actif</div>
 
-You can also view the functional status and edit the notes of the status log.
+Vous pouvez également afficher l'état fonctionnel et modifier les notes du journal d'état.
 
-![Asset detail summary notes](/docs/coldchain/images/asset_detail_summary_notes.png)
+![Notes récapitulatives détaillées des actifs](/docs/coldchain/images/asset_detail_summary_notes.png)
 
-#### Status Logs
+#### Journal d'état
 
-The `Status Logs` tab shows all of the status logs of the asset.
+L'onglet `JOurnal d'état` montre le journal d'état de tous les équipements
 
-![Asset logs tab](/docs/coldchain/images/status_logs_tab.png)
+![Onglet Journal des états](/docs/coldchain/images/status_logs_tab.png)
 
 #### Documents
 
-The `Documents` tab shows documents which have been uploaded for the asset catalogue item the asset belongs to, and the documents uploaded for this asset.
+L'onglet `Documents` affiche les documents qui ont été téléchargés pour l'élément du catalogue d'actifs auquel appartient l'actif, ainsi que les documents téléchargés pour cet actif.
 
-Additional documents can be uploaded for this asset.
+Des documents supplémentaires peuvent être téléchargés pour cet actif.
 
-![Asset documents tab](/docs/coldchain/images/documents_tab.png)
+![Onglet des documents des actifs](/docs/coldchain/images/documents_tab.png)
 
 <!--
 TODO: Add link to central server docs when they are created
 -->
 
-Documents which are uploaded here will synchronise to the central server, though not as a part of the usual sync process. Files will only be sent when there is no other information to synchronise, which means that adding documents won't cause delays in shipments or stock showing up.
+Les documents téléchargés ici seront synchronisés avec le serveur central, mais pas dans le cadre du processus de synchronisation habituel. Les fichiers ne seront envoyés que lorsqu'il n'y a aucune autre information à synchroniser, ce qui signifie que l'ajout de documents n'entraînera pas de retard dans les expéditions ou dans l'arrivée des stocks.
 
-#### Log
+#### Journal
 
-The `Log` tab shows the activity log of this asset.
+L'onglet `Journal` montre le journal d'activité de cet actif particulier.
 
-This records all user actions which have been taken for this asset using the Open mSupply system.
+Ceci enregistre toutes les actions de l'utilisateur qui ont été entreprises pour cet actif à l'aide du système Open mSupply.
 
-### Toolbar
+### Bar d'action
 
-#### Update Status
+#### État de mise à jour
 
-Clicking on the `Update Status` button allows the creation of a new status log.
+Cliquer sur le bouton `État de mise à jour` permet la création d'un nouveau journal d'activité
 
 <p align="center">
     <img src="/docs/coldchain/images/update_status_button.png" width="200" height="62">
 </p>
 
-This will open a new status log modal.
+Ceci ouvre un nouveau journal.
 
 <p align="center">
     <img src="/docs/coldchain/images/status_log_modal.png" width="700" height="420">
 </p>
 
-Here you can enter:
-
-- A new functional status
-- A reason for the new functional status
-- Any observations or notes
-
-Additional documents including photos can also be uploaded for this status log
+Ici, vous pouvez saisir :
+- Un nouveau statut fonctionnel
+- Une raison pour le nouveau statut fonctionnel
+- Toutes observations ou notes
+Des documents supplémentaires, notamment des photos, peuvent également être téléchargés pour ce journal d'état.
 
 <p align="center">
     <img src="/docs/coldchain/images/status_log_document_upload.png" width="700" height="420">
 </p>
 
-These documents can be viewed in the `Status Logs` tab
+Ces documents peuvent etre consultés dans l'onglet `Journaux d'état`. 
 
-![Status log document](/docs/coldchain/images/status_log_document.png)
+![Document de journal d'état](/docs/coldchain/images/status_log_document.png)
 
-#### Printing a QR code
+#### Imprimer un code QR
 
-To help identify assets, you can print a QR code label for your asset. This can then be scanned (see above) to easily identify an asset in your system.
+Pour vous aider à identifier les actifs, vous pouvez imprimer une étiquette de code QR pour votre actif. Celui-ci peut ensuite être analysé (voir ci-dessus) pour identifier facilement un actif dans votre système.
 
-Simply click the `Print QR code` button and a QR code will be printed, if you have a label printer configured.
+Cliquez simplement sur le bouton `Imprimer le code QR` et un code QR sera imprimé, si vous avez configuré une imprimante d'étiquettes.
 
-To configure a label printer, refer to the [Label Printing](/docs/administration/devices/#label-printing) section of the administration pages.
+Pour configurer une imprimante d'étiquette, référez-vous a la section [Impression d'étiquette](/docs/administration/devices/#label-printing) des pages Administrateur.
 
-The label will show the code and serial number, for example:
+L'étiquette indiquera le code et le numéro de série, par exemple :
 
-![Sample QR](/docs/coldchain/images/sample_qr_label.jpg)
+![Echantillon QR](/docs/coldchain/images/sample_qr_label.jpg)

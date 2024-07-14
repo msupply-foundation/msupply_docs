@@ -13,33 +13,36 @@ toc = true
 top = false
 +++
 
-## Breaches
+Open mSupply utilise un système de notifications pour vous alerter des variations de température enregistrées par les capteurs de la chaîne du froid.
 
-If the following conditions have all been met, then a notification bar will appear on all pages:
+## Anomalies
 
-- The vaccine module has been enabled for the current store
-- The currently logged in user has permission to view temperature logs
-- One or more sensors have recorded a temperature breach
-- One or more of those breaches has not been acknowledged
+Une barre de notification apparaîtra en haut de toutes les pages si toutes les conditions suivantes sont remplies :
 
-Here's how the bar appears, shown at the top of the dashboard page:
+- Le module Vaccin est activé pour le depot actuel.
+- L'utilisateur actuellement connecté est autorisé à consulter les enregistrements de température.
+- Un ou plusieurs capteurs ont enregistré un dépassement de température.
+- Un ou plusieurs de ces dépassements n'ont pas été confirmés.
+
+
+Voici à quoi ressemble la barre de notification, affichée en haut de la page du tableau de bord :
 
 ![notification bar](/docs/coldchain/images/notification_bar.png)
 
-<div class="tip">If the store has the vaccine module enabled, and the user does not have permission to view logs, or some other error occurs, then you will see a notification when you first login or change stores: <p><img src="/docs/coldchain/images/notification_warning.png" alt="Notification permission warning" /></p>This is just to let you know that this user won't be notified if a breach occurs.</div>
+<div class="tip">ISi le module Vaccin est activé pour le site et que l'utilisateur n'est pas autorisé à consulter les enregistrements de température, ou si une autre erreur se produit, une notification s'affiche lors de la première connexion ou du changement de msite : <p><img src="/docs/coldchain/images/notification_warning.png" alt="Notification permission warning" /></p>Cette notification a pour seul but d'informer l'utilisateur qu'il ne sera pas averti en cas de dépassement de température.</div>
 
 <br/>
 
-The notification panel shows:
-1. How long ago the breach was recorded
-2. The temperature reading
-3. The name of the sensor which recorded the breach
-4. The name of the Location which the sensor is assigned to, if one is assigned
-5. A button which takes you to the breaches page, where you can see all the details of the breach, along with other breaches
+Le panneau de notification affiche les informations suivantes :
+1. Heure d'enregistrement du dépassement
+2. Valeur de la température enregistrée
+3. Nom du capteur ayant enregistré le dépassement
+4. Nom de l'emplacement auquel le capteur est attribué, s'il y en a un
+5. Un bouton permettant d'accéder à la page des dépassements, où vous pouvez consulter tous les détails du dépassement concerné, ainsi que d'autres dépassements.
 
-If you want to dismiss the notification bar - you'll need to acknowledge the breach. You can do this from the [breach list view](/docs/coldchain/monitoring/#acknowledging-breaches)
+Pour faire disparaître la barre de notification, vous devez confirmer le dépassement. Vous pouvez le faire à partir de la vue en [liste des dépassements](/docs/coldchain/monitoring/#acknowledging-breaches)
 
 
-## Excursions
+## Écarts de température
 
-You can also be notified when a temperature has exceeded a configured threshold. This is called an 'excursion'. Once the temperature has returned to be within the threshold range, the notification will no longer be shown.
+YVous pouvez également être averti lorsque la température dépasse un seuil configuré. C'est ce que l'on appelle un 'écart de température'. Une fois que la température est revenue dans la plage de tolérance, la notification ne s'affiche plus.

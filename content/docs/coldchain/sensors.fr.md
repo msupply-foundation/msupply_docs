@@ -1,6 +1,6 @@
 +++
 title = "Capteurs"
-description = "Management of temperature sensors"
+description = "Gestion des capteurs de température"
 date = 2023-11-08T15:20:00+00:00
 updated = 2023-11-08T15:20:00+00:00
 draft = false
@@ -14,58 +14,59 @@ top = false
 +++
 
 
-### Viewing Sensors
+### Visualisation des capteurs
 
-Choose `Cold chain` > `Sensors` in the navigation panel.
+Sélectionnez `Chaîne du froid > Capteurs` dans le panneau de navigation.
 
 ![goto sensors](/docs/coldchain/images/goto_sensors.png)
 
-You will be presented with a list of Sensors (if you don't see any, you may not have imported or integrated with the cold chain app!).
+Une liste de capteurs s'affiche (si vous n'en voyez aucun, c'est peut-être que vous n'avez pas importé de données ou intégré l'application de la chaîne du froid).
 
-From this screen you can view a list of Sensors and edit a Sensor.
+À partir de cet écran, vous pouvez visualiser la liste des capteurs et modifier un capteur.
 
-### Sensor list
+### Liste des capteurs
 
 ![Sensor list](/docs/coldchain/images/sensor_list.png)
 
-1. The list of Sensors is divided into 9 columns:
+1. La liste des capteurs est divisée en 9 colonnes
 
-| Column              | Description                      |
-| :------------------ | :------------------------------- |
-| **Name**            | Name of the Sensor               |
-| **CCE**             | Asset number of the cold chain equipment item which the sensor is associated with   |
-| **Location**        | Current location of the sensor |
-| **Serial Number**   | A unique identifier for the sensor    |
-| **Battery Level**   | Most recent battery reading, in percentage               |
-| **Last reading**    | The most recent temperature reported by the sensor         |
-| **Date time**       | Date and time of the most recent activity for this sensor     |
-| **Sensor type**     | The manufacturer of the sensor, currently support options are `Blue Maestro`, `Laird` & `Berlinger` |
-| **Breach type**     | If the sensor has had a breach, this shows the type of the most recent breach |
+| Column                 | Description                      |
+| :----------------------| :------------------------------- |
+| **Nom**                | Nom du capteur               |
+| **CCE**                | Nom de l'équipement de la chaîne du froid auquel le capteur est associé   |
+| **Emplacement**        | Emplacement actuel du capteur |
+| **Numéro de série**    | Identifiant unique du capteur    |
+| **Niveau de batterie** | Niveau de batterie le plus récent, en pourcentage              |
+| **Dernière lecture**   | Température la plus récente rapportée par le capteur         |
+| **Date/heure**         | Date et heure de l'activité la plus récente pour ce capteu     |
+| **Type de capteur**    | Fabricant du capteur. Les options actuellement prises en charge sont `Blue Maestro`, `Laird` & `Berlinger` |
+| **Type de dépassement**| Si le capteur a enregistré un dépassement, cette colonne indique le type du dépassement le plus récent |
 
-1. The list can display a fixed number of sensors per page. On the bottom left corner, you can see how many sensors are currently displayed on your screen.
+1. Le nombre de capteurs affichés par page est limité. Vous pouvez voir en bas à gauche le nombre de capteurs actuellement affichés sur votre écran.
 
 ![Page](/docs/introduction/images/list_showing.png)
 
-2. If you have more sensors than the current limit, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner).
+2. Si vous avez plus de capteurs que la limite actuelle, vous pouvez naviguer vers les autres pages en appuyant sur le numéro de page ou en utilisant les flèches droite et gauche (coin inférieur droit).
 
 ![Page](/docs/introduction/images/list_pagenumbers.png)
 
-3. You can also select a different number of rows to show per page using the option at the bottom right of the page.
+3. YVous pouvez également sélectionner un nombre différent de lignes à afficher par page en utilisant l'option en bas à droite de la page.
 
 ![Rows per page](/docs/introduction/images/rows-per-page-select.png)
 
-### Editing a sensor
+### Modification d'un capteur
 
-Clicking on a row in the list will show you the details of that sensor
+En cliquant sur une ligne de la liste, vous accédez aux détails de ce capteur
 
 ![Sensor details](/docs/coldchain/images/sensor_details.png)
 
-On this screen you can 
-- Edit the name of the sensor 
-- Assign the sensor to a location
+Sur cet écran, vous pouvez :
+- Modifier le nom du capteur
+- Attribuer le capteur à un emplacement
 
-<div class="note">If the sensor is one that synchronises with Cold Chain application (e.g. the type is Blue Maestro or Laird), then the name must be edited in the Cold Chain application</div>
 
-The other details of the sensor, such as battery level and last recorded temperature are also shown on this screen.
+<div class="note">Si le capteur est synchronisé avec l'application de la chaîne du froid (par exemple, s'il s'agit d'un Blue Maestro ou d'un Laird), son nom doit être modifié dans l'application de la chaîne du froid.</div>
+
+Les autres détails du capteur, tels que le niveau de batterie et la dernière température enregistrée, sont également indiqués sur cet écran.
 
 
