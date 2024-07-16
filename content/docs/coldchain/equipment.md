@@ -38,6 +38,7 @@ The equipment list is divided into 6 columns:
 | **Functional Status** | The functional status of the asset ie: `FUNCTIONING`                                                              |
 | **Serial Number**     | The serial number of the asset                                                                                    |
 | **Non-catalogue**     | Designates if the asset was not created from a catalogue item (see [Catalogue > Assets](/docs/catalogue/assets/)) |
+| **Installation date** | The date the asset was installed                                                                                  |
 | **Notes**             | Notes entered about the asset                                                                                     |
 
 ![Equipment nav](/docs/coldchain/images/equipment_list.png)
@@ -76,17 +77,10 @@ Cold chain assets can be imported from a comma-separated-value (csv) file using 
 
 ![](/docs/coldchain/images/equipment_import_button.png)
 
-This will open an import modal.
+This will open an import modal. Click on `Download a template` to download a csv
+template which can be used to import assets.
 
-<p align="center">
-    <img src="/docs/coldchain/images/equipment_import_modal.png" width="750" height="420">
-</p>
-
-An example template csv is available for download here:
-
-<p align="center">
-    <img src="/docs/coldchain/images/equipment_import_template_download.png" width="750" height="420">
-</p>
+![](/docs/coldchain/images/equipment_import_modal.png)
 
 When importing assets from a store, they will be assigned to that store.
 
@@ -98,15 +92,14 @@ When importing assets on the central server, an additional field of `store` will
 
 Information will need to be entered in the format provided by the csv template in order for Open mSupply to be able to process and upload this data.
 
-| Column                        | Description                                                       | Example               | Mandatory                  |
-| :---------------------------- | :----------------------------                                     | :-------------------- | :---------                 |
-| **Asset Number**              | The asset number assigned by the user's organisation              | 1                     | *                          |
-| **Catalogue item code**       | The Asset Catalogue code - i.e. the kind of asset to be imported  | E003/002              | *                          |
-| **Store**                     | The code of the Store to which the asset is to be assigned        | CMS                   | * (central only)           |
-| **Notes**                     | General notes about the asset                                     | Kept in EPI office    |                            |
-| **Serial Number**             | The serial number of that particular asset                        | 123456789ABC          |                            |
-| **Installation date**         | The date that the asset was installed at the Store                | 2024-01-14            |                            |
-
+| Column                  | Description                                                      | Example            | Mandatory         |
+| :---------------------- | :--------------------------------------------------------------- | :----------------- | :---------------- |
+| **Asset Number**        | The asset number assigned by the user's organisation             | 1                  | \*                |
+| **Catalogue item code** | The Asset Catalogue code - i.e. the kind of asset to be imported | E003/002           | \*                |
+| **Store**               | The code of the Store to which the asset is to be assigned       | CMS                | \* (central only) |
+| **Notes**               | General notes about the asset                                    | Kept in EPI office |                   |
+| **Serial Number**       | The serial number of that particular asset                       | 123456789ABC       |                   |
+| **Installation date**   | The date that the asset was installed at the Store               | 2024-01-14         |                   |
 
 A csv file can be uploaded once it has been created in the example format.
 
@@ -132,7 +125,7 @@ You may see this notification when you click the button:
 
 ![Scan button](/docs/coldchain/images/equipment_scan_error.png)
 
-If you do, don't panic! Head over to the [Barcode Scanners](/docs/administration/devices/#barcode-scanners) section of the `Admin` documentation and configure a scanner before continuing.
+If you do, don't panic! Head over to the [Barcode Scanners](/docs/settings/devices/#barcode-scanners) section of the `Settings` documentation and configure a scanner before continuing.
 
 Once you have a scanner connected - you can click the `Scan` button and scan a QR code.
 If a match is found when you scan, you'll be taken to the detail page for that cold chain equipment item. If not, you'll see a notification telling that no match was found.
@@ -167,7 +160,7 @@ Clicking on a row in the list will show the details of that asset. If your asset
 
 ![Asset detail view](/docs/coldchain/images/asset_detail_view.png)
 
-There are 4 tabs available to manage the asset:
+There are 5 tabs available to manage the asset:
 
 ![Detail view tabs](/docs/coldchain/images/asset_detail_view_tabs.png)
 
@@ -182,9 +175,13 @@ From the `Summary` tab, you can:
 
 <div class="tip">Multiple locations can be assigned to one asset</div>
 
-You can also view the functional status and edit the notes of the status log.
+You can also view the functional status and edit notes on the status.
 
-![Asset detail summary notes](/docs/coldchain/images/asset_detail_summary_notes.png)
+#### Details
+
+The `Details` tab shows the asset properties.
+
+![](/docs/coldchain/images/equipment_detail.png)
 
 #### Status Logs
 
@@ -218,15 +215,11 @@ This records all user actions which have been taken for this asset using the Ope
 
 Clicking on the `Update Status` button allows the creation of a new status log.
 
-<p align="center">
-    <img src="/docs/coldchain/images/update_status_button.png" width="200" height="62">
-</p>
+![](/docs/coldchain/images/update_status_button.png)
 
 This will open a new status log modal.
 
-<p align="center">
-    <img src="/docs/coldchain/images/status_log_modal.png" width="700" height="420">
-</p>
+![](/docs/coldchain/images/status_log_modal.png)
 
 Here you can enter:
 
@@ -236,9 +229,7 @@ Here you can enter:
 
 Additional documents including photos can also be uploaded for this status log
 
-<p align="center">
-    <img src="/docs/coldchain/images/status_log_document_upload.png" width="700" height="420">
-</p>
+![](/docs/coldchain/images/status_log_document_upload.png)
 
 These documents can be viewed in the `Status Logs` tab
 
@@ -250,7 +241,7 @@ To help identify assets, you can print a QR code label for your asset. This can 
 
 Simply click the `Print QR code` button and a QR code will be printed, if you have a label printer configured.
 
-To configure a label printer, refer to the [Label Printing](/docs/administration/devices/#label-printing) section of the administration pages.
+To configure a label printer, refer to the [Label Printing](/docs/settings/devices/#label-printing) section of the settings pages.
 
 The label will show the code and serial number, for example:
 

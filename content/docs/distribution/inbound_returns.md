@@ -123,7 +123,7 @@ In the below example, we are wanting to receive returned stock from <b>Tamaki Ce
 ![Create inbound return](/docs/distribution/images/ir_create.gif)
 
 <div class="tip">
-You can tell if a customer is also using mSupply in their store. If they do, you will see an icon like this (<img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto">) next to the customer code. 
+You can tell if a customer is also using Open mSupply in their store. If they do, you will see an icon like this <img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto"> next to the customer code. 
 </div>
 
 2. Once you tap or press `Enter`, or click on a customer, your Inbound Return is automatically created

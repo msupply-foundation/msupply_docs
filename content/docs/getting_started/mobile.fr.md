@@ -9,50 +9,48 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "Getting started with the mobile application."
+lead = "Démarrer avec l'application mobile."
 toc = true
 +++
 
-## Getting started
+## Démarrer
 
 Lorsque vous démarrez l'application mobile pour la première fois, vous êtes accueilli par un écran de bienvenue qui vous demande le mode d'utilisation préféré :
 
-- **Client:** Which is where the mobile app connects to a server on your local network
-- **Server:** The app will run a full version of the Open mSupply server locally. You can configure this server to sync with a central server
+- **Client:** Lorsque l'application mobile se connecte à un serveur sur votre réseau local
+- **Serveur:** L'application exécute localement une version complète du serveur Open mSupply. Ce serveur peut être configuré pour synchroniser avec un serveur distant.
 
 ![Mobile welcome screen](/docs/introduction/images/mobile_welcome.png)
 
-Simply click the button of the option you prefer. Don't worry though! this can be changed later. If you navigate to settings after configuring your app, you will have an additional option when viewing on mobile:
+Cliquez simplement sur le bouton de l'option que vous préférez. Ne vous inquiétez pas, cela peut être modifié ultérieurement. Si vous accédez aux paramètres après avoir configuré votre application, vous disposerez d'une option supplémentaire pour l'affichage sur mobile:
 
 ![Mobile settings](/docs/introduction/images/mobile_settings.png)
 
 ## Client mode
-mo
-After selecting the client mode, you'll see a list of available servers. These are the servers on your local network. 
+Après avoir sélectionné le mode client, vous verrez une liste des serveurs disponibles. Il s'agit des serveurs de votre réseau local. 
 
-You may see `[ Not configured ]` next to some of the servers - this indicates that the server hasn't yet been configured to synchronise with a central server yet.
+Vous pouvez voir `[ Non configuré ]` à côté de certains serveurs - cela indique que le serveur n'a pas encore été configuré pour se synchroniser avec un serveur central.
 
 ![Mobile server selection](/docs/introduction/images/mobile_server_selection.png)
 
-Click on the name of the server to select it.
-If you wish to change server later, you can do this from the login screen. When using the mobile app, the login screen has two additional items, as shown. Clicking the pencil icon will redirect you back to the server selection screen.
+Cliquez sur le nom du serveur pour le sélectionner. Si vous souhaitez changer de serveur ultérieurement, vous pouvez le faire à partir de l'écran de connexion. Lorsque vous utilisez l'application mobile, l'écran de connexion comporte deux éléments supplémentaires, comme indiqué. En cliquant sur l'icône en forme de crayon, vous serez redirigé vers l'écran de sélection du serveur.
 
 ![Mobile login](/docs/introduction/images/mobile_login.png)
 
 ## Server mode
 
-In server mode, you will configure the server to run on the mobile device, and synchronise with a central server. The initialisation screen is the same as for the desktop and web versions, with the addition of the server details in the bottom right:
+En mode serveur, vous configurerez le serveur pour qu'il fonctionne sur l'appareil mobile et se synchronise avec un serveur central. L'écran d'initialisation est le même que pour les versions desktop et web, avec l'ajout des détails du serveur en bas à droite :
 
 ![Mobile initialisation](/docs/introduction/images/mobile_initialisation.png)
 
 ## Viewing logs
 
-In the android app you'll see an additional section. This allows you to change the mode between client and server, and to view the log file:
+Dans l'application Android, vous verrez une section supplémentaire. Elle vous permet de changer le mode entre le client et le serveur, et de visualiser le fichier journal:
 
 ![Mobile settings](/docs/introduction/images/mobile_settings.png)
 
-Click on the `View` button to open a window which displays the server log:
+Cliquez sur l'icône `View` pour ouvrir une fenêtre qui affiche le journal du serveur:
 
 ![Mobile log viewer](/docs/introduction/images/mobile_view_log.png)
 
-From here you can save the log as a text file to your device: simply click `Save` and choose a location to save the file.
+À partir de là, vous pouvez enregistrer le journal sous la forme d'un fichier texte sur votre appareil : il vous suffit de cliquer sur `Enregistrer` et choisissez un emplacement pour enregistrer le fichier.

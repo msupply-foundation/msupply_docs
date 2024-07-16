@@ -80,6 +80,9 @@ In a similar way, you can select another language by clicking on the current lan
 
 ![Footer](/docs/introduction/images/footer_select_language.png)
 
+If store properties have been configured for your Open mSupply system, you will also see an `Edit` button next to the store selector, where you can [view and edit your store properties](/docs/manage/facilities/#editing-your-store-properties):
+
+![Footer: store edit](/docs/manage/images/footer_store_edit.png)
 
 ## Help!
 
