@@ -206,7 +206,6 @@
 <script type="application/ld+json">
   {
     "@context": "http://schema.org",
-    "@type": "BreadcrumbList",
     {% if page_path == "/" %}
     {
       "@type": "ListItem",
@@ -251,6 +250,7 @@
         {% endif %}
       {% endfor %}
     {% endif %}
+    "@type": "BreadcrumbList"
   }
 </script>
 
