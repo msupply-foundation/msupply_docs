@@ -21,29 +21,31 @@ gantt
  title Open mSupply Road Map 2024
  dateFormat YY-MM-DD
  axisFormat %B
-section Version 1.7
-  Currency: t1-7-1, 24-02-12, 12d
-  Merge: t1-7-2, 24-02-12, 30d
-v1.7.00 : milestone, m1, 24-03-20, 16d
-section Version 2.0
-  Customer returns: t2-0-1, after t1-7-2, 30d
-  Supplier returns: t2-0-2, after t1-7-2, 30d
-  Asset (CCE) management: t2-0-3, after t2-0-4, 40d
-  Central server: t2-0-4, 24-02-12, 30d
-v2.0.00 : milestone, m2, 24-05-08, 0d
 section Version 2.1
-  Migration: t2-0-5, after t1-7-2, 120d
-  Inventory Adjustments: t2-1-1, after t1-8-2, 24d
-  Backend plugins: t2-1-2, 24-05-24, 30d
-  Central server backups: t2-1-4, 24-05-18, 14d
-  GAPS: t2-1-5, 24-05-24, 40d
+  Migration: t2-0-5, after t1-7-2, 110d
+  Inventory Adjustments: t2-1-1, 24-05-12, 24d
+  Facility properties: t2-1-2, 24-05-24, 5d
+  Asset properties: t2-1-3, 24-05-24, 5d
+  Manage population data: t2-1-4, after t2-1-2, 5d
+  Create immunization programs: t2-1-5, after t2-1-3, 5d
 v2.1.00 : milestone, m2, 24-07-03, 0d
 section Version 2.2
-  Reports: t2-1-3, after t2-1-2, 20d
-  Vaccination card: t2-2-1, after t2-1-5, 30d
-  DHIS2 integration: t2-2-2, 24-06-01, 20d   
-  Pack variant refinement: t2-2-3, after t2-1-2, 10d
+  Basic reports part 1: t2-2-1, 24-07-14, 20d
+  DHIS2 integration: t2-2-2, 24-07-14, 20d   
+  Central server backups: t2-2-3, 24-07-24, 14d
+  R&R forms: t2-2-4, 24-07-10, 34d
 v2.2.00 : milestone, m2, 24-08-14, 0d
+section Version 2.3
+  Backdating prescriptions: t2-3-5, 24-08-14, 10d
+  Backend plugins: t2-3-4, after t2-3-5, 30d
+  Basic reports part 2: t2-3-1, 24-08-14, 40d
+  Pack variant refinement: t2-3-2, 24-08-14, 10d
+  GAPS: t2-3-3, after t2-3-2, 40d
+v2.3.00 : milestone, m2, 24-10-09, 0d
+section Version 2.4
+  Vaccination card: t2-4-1, 24-10-12, 30d
+  Dispensing v2: t2-4-2, 24-10-12, 30d
+v2.4.00 : milestone, m2, 24-11-20, 0d
 {% end %} 
 
 
