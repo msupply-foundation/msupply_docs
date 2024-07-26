@@ -15,11 +15,13 @@ top = false
 
 The Monitoring section displays cold chain temperature monitoring data in three different views:
 
-1. A chart view which shows a summary of data from all sensors
-2. A list of all recorded breaches
+1. A chart view which visually displays temperature data from all sensors
+2. A list view of all recorded breaches
 3. A list view of all temperature logs
 
-On any of these views, you can import data from a fridge tag. For details on this, see below.
+<div class="note">
+Temperature data may be imported into Open mSupply via Bluetooth (e.g. [mSupply Foundation temperature sensors](https://msupply.foundation/open-msupply/cold-chain/#mSupplySensor)) or via USB (e.g. [Berlinger Fridge-tags / Q-tags](https://msupply.foundation/open-msupply/cold-chain/#BerlingerSensor) - see below)
+</div>
 
 ### Viewing Monitoring data
 
