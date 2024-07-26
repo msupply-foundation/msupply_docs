@@ -13,15 +13,15 @@ toc = true
 top = false
 +++
 
-Cold Chain Equipment is a digital register for the creation and management of cold chain assets. It allows health departments to manage cold chain assets, to record their locations and to update their functional status.
+Cold Chain Equipment is a digital registry and inventory for the management of cold chain assets such as fridges, freezers and remote temperature monitoring devices. It allows health departments to track their cold chain assets including their location and functional status.
 
-From the **Equipment** menu, all assets available in a store can be viewed.
+From the `Equipment` menu, all assets available in the current store can be viewed.
 
 <!--
 TODO: Add link to central server docs when they are created
 -->
 
-Cold chain assets from all stores are visible when accessing the **Equipment** menu via Open mSupply central server.
+Cold chain assets from **all** stores are visible when accessing the `Equipment` menu via Open mSupply central server.
 
 ![goto equipment](/docs/coldchain/images/equipment.png)
 
