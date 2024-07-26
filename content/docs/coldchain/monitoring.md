@@ -169,7 +169,7 @@ To add a filter to the page, choose the required filter from the drop down.
 
 ![Rows per page](/docs/introduction/images/rows-per-page-select.png)
 
-### Importing Fridge-tags
+### Importing Fridge-tag data
 
 If you are using Berlinger Fridge-tags, you can import the data directly into Open mSupply. To do this, insert the USB of the Fridge-tag into your computer.
 Then click the `Import Fridge-tag` button:
