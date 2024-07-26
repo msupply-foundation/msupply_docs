@@ -13,7 +13,7 @@ toc = true
 top = false
 +++
 
-Cold Chain Equipment is a digital register for the creation and management of cold chain assets. It allows health departments to manage, record functional status logs, and update locations of cold chain assets.
+Cold Chain Equipment is a digital register for the creation and management of cold chain assets. It allows health departments to manage cold chain assets, to record their locations and to update their functional status.
 
 From the **Equipment** menu, all assets available in a store can be viewed.
 
@@ -183,9 +183,9 @@ The `Details` tab shows the asset properties.
 
 ![](/docs/coldchain/images/equipment_detail.png)
 
-#### Status Logs
+#### Status History
 
-The `Status Logs` tab shows all of the status logs of the asset.
+The `Status History` tab shows the history of the functional status of the asset.
 
 ![Asset logs tab](/docs/coldchain/images/status_logs_tab.png)
 
@@ -213,11 +213,11 @@ This records all user actions which have been taken for this asset using the Ope
 
 #### Update Status
 
-Clicking on the `Update Status` button allows the creation of a new status log.
+Clicking on the `Update Status` button allows the creation of a new functional status entry.
 
 ![](/docs/coldchain/images/update_status_button.png)
 
-This will open a new status log modal.
+This will open the functional status modal.
 
 ![](/docs/coldchain/images/status_log_modal.png)
 
@@ -227,13 +227,13 @@ Here you can enter:
 - A reason for the new functional status
 - Any observations or notes
 
-Additional documents including photos can also be uploaded for this status log
+Additional documents including photos can also be uploaded for this functional status entry
 
 ![](/docs/coldchain/images/status_log_document_upload.png)
 
-These documents can be viewed in the `Status Logs` tab
+These documents can be viewed in the `Status History` tab
 
-![Status log document](/docs/coldchain/images/status_log_document.png)
+![Status History document](/docs/coldchain/images/status_log_document.png)
 
 #### Printing a QR code
 
