@@ -13,7 +13,7 @@ toc = true
 top = false
 +++
 
-The Monitoring section displays cold chain monitoring data in three different views:
+The Monitoring section displays cold chain temperature monitoring data in three different views:
 
 1. A chart view which shows a summary of data from all sensors
 2. A list of all recorded breaches
