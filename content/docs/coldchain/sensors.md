@@ -13,6 +13,65 @@ toc = true
 top = false
 +++
 
+### Connecting Sensors
+
+Open mSupply supports multiple types of temperature sensors. 
+
+The methods for connecting each are described below.
+
+#### mSupply temperature sensors
+
+mSupply Foundation manufacturers its own [mSupply temperature sensors](https://msupply.foundation/open-msupply/cold-chain/#mSupplySensor).
+
+These sensors can be connected to Open mSupply via integration with the [mSupply Cold Chain](/coldchain/introduction/) application.
+
+To configure the integration, you will need to configure a new mSupply user.
+
+The user is a standard mSupply user, with the following configuration:
+
+- The default store assigned to the user is the store with which the temperature data will be associated.
+- The store will need to be part of the site that Open mSupply is synchronising with. Have a look at the [Settings](/docs/settings/synchronisation/#viewing-the-synchronisation-settings) section to see which site omSupply is syncing with, and then the [Synchronisation](https://docs.msupply.org.nz/synchronisation:sync_sites#viewing_sync_sites) screen to check that your site includes the correct store.
+- The user must have the Open Supply permission of `Cold chain API access` (see below)
+
+![Cold chain API permission](/docs/coldchain/images/coldchain_permission.png)
+
+From here, simply follow the steps in the mSupply Cold Chain application documentation for [Integrating with mSupply Desktop](/coldchain/desktop-integration/#msupply-desktop-setup-steps)
+
+#### Fridge-tags and Q-tags
+
+If you are using Berlinger Fridge-tags, you can import the data directly into Open mSupply. To do this, insert the USB of the Fridge-tag into your computer.
+Then click the `Import Fridge-tag` button:
+
+![Import fridge tag](/docs/coldchain/images/import_fridge_tag.png)
+
+This will open a file browsing window, allowing you to select the `.txt` file of the Fridge-tag data. Simply click on the file and wait for the import to complete.
+
+<div class="note">Currently supported devices are Fridge-tags and Q-Tags from Berlinger.</div>
+
+Here's how the process looks (this is the mac desktop version):
+
+![Import fridge tag](/docs/coldchain/images/import_fridge_tag.gif)
+
+<div class="note">You may need to wait for the text file to be generated after connecting the Fridge-tag to your computer.</div>
+
+The following Berlinger devices are compatible with Open mSupply:
+
+| Device                  | Breach data displayed | Temperature graph plotted |
+| :---------------------- | :-------------------- | :------------------------ |
+| **Q-tag CLm doc**       | Yes                   | Yes                       |
+| **Q-tag CLm doc D**     | Yes                   | Yes                       |
+| **Q-tag CLm doc Ice**   | Yes                   | Yes                       |
+| **Q-tag CLm doc Ice R** | Yes                   | Yes                       |
+| **Q-tag CLm doc L**     | Yes                   | Yes                       |
+| **Q-tag CLm doc LR**    | Yes                   | Yes                       |
+| **Fridge-tag 2**        | Yes                   | No\*                      |
+| **Fridge-tag 2E**       | Yes                   | No\*                      |
+| **Fridge-tag 2L**       | Yes                   | Yes                       |
+| **Fridge-tag UL**       | Yes                   | Yes                       |
+
+\*Logger device does not capture individual temperature logs
+
+
 ### Viewing Sensors
 
 Choose `Cold chain` > `Sensors` in the navigation panel.
@@ -64,6 +123,6 @@ On this screen you can
 - Edit the name of the sensor
 - Assign the sensor to a location
 
-<div class="note">If the sensor is one that synchronises with Cold Chain application then the name must be edited in the Cold Chain application</div>
+<div class="note">The names of mSupply temperature sensors must be edited in the mSupply Cold Chain application</div>
 
 The other details of the sensor, such as battery level and last recorded temperature are also shown on this screen.

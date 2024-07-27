@@ -172,36 +172,3 @@ To add a filter to the page, choose the required filter from the drop down.
 
 ![Rows per page](/docs/introduction/images/rows-per-page-select.png)
 
-### Importing Fridge-tag data
-
-If you are using Berlinger Fridge-tags, you can import the data directly into Open mSupply. To do this, insert the USB of the Fridge-tag into your computer.
-Then click the `Import Fridge-tag` button:
-
-![Import fridge tag](/docs/coldchain/images/import_fridge_tag.png)
-
-This will open a file browsing window, allowing you to select the `.txt` file of the Fridge-tag data. Simply click on the file and wait for the import to complete.
-
-<div class="note">Currently supported devices are Fridge-tags and Q-Tags from Berlinger.</div>
-
-Here's how the process looks (this is the mac desktop version):
-
-![Import fridge tag](/docs/coldchain/images/import_fridge_tag.gif)
-
-<div class="note">You may need to wait for the text file to be generated after connecting the Fridge-tag to your computer.</div>
-
-The following Berlinger devices are compatible with Open mSupply:
-
-| Device                  | Breach data displayed | Temperature graph plotted |
-| :---------------------- | :-------------------- | :------------------------ |
-| **Q-tag CLm doc**       | Yes                   | Yes                       |
-| **Q-tag CLm doc D**     | Yes                   | Yes                       |
-| **Q-tag CLm doc Ice**   | Yes                   | Yes                       |
-| **Q-tag CLm doc Ice R** | Yes                   | Yes                       |
-| **Q-tag CLm doc L**     | Yes                   | Yes                       |
-| **Q-tag CLm doc LR**    | Yes                   | Yes                       |
-| **Fridge-tag 2**        | Yes                   | No\*                      |
-| **Fridge-tag 2E**       | Yes                   | No\*                      |
-| **Fridge-tag 2L**       | Yes                   | Yes                       |
-| **Fridge-tag UL**       | Yes                   | Yes                       |
-
-\*Logger device does not capture individual temperature logs
