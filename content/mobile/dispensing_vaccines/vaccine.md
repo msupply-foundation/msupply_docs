@@ -52,7 +52,7 @@ Once all of the permissions and services have been enabled, your window will loo
 
 The following is a list of approved temperature sensors that will work together with mSupply Cold Chain and mSupply Mobile: 
 
- *Blue Maestro Tempo Disc™ Waterproof IP67 Bluetooth Temperature Sensor Beacon and Logger [Download PDF](https://apps.who.int/immunization_standards/vaccine_quality/pqs_catalogue/LinkPDF.aspx?UniqueID=36773b7f-77f4-4b10-b9dc-98be5966fc1d&amp;TipoDoc=DataSheet&amp;ID=0).  
+ *mSupply Foundation Waterproof IP67 Bluetooth Temperature Sensor Beacon and Logger [Download PDF](https://apps.who.int/immunization_standards/vaccine_quality/pqs_catalogue/LinkPDF.aspx?UniqueID=36773b7f-77f4-4b10-b9dc-98be5966fc1d&amp;TipoDoc=DataSheet&amp;ID=0).  
 
 Approved sensors can be purchased directly from the manufacturer or reseller online.  Please contact [&#99;&#111;&#108;&#100;&#99;&#104;&#97;&#105;&#110;&#64;&#109;&#115;&#117;&#112;&#112;&#108;&#121;&#46;&#102;&#111;&#117;&#110;&#100;&#97;&#116;&#105;&#111;&#110;](mailto:&#99;&#111;&#108;&#100;&#99;&#104;&#97;&#105;&#110;&#64;&#109;&#115;&#117;&#112;&#112;&#108;&#121;&#46;&#102;&#111;&#117;&#110;&#100;&#97;&#116;&#105;&#111;&#110;) for further information.  
 

@@ -38,7 +38,7 @@ From this screen you can view a list of Sensors and edit a Sensor.
 | **Battery Level** | Most recent battery reading, in percentage                                                          |
 | **Last reading**  | The most recent temperature reported by the sensor                                                  |
 | **Date time**     | Date and time of the most recent activity for this sensor                                           |
-| **Sensor type**   | The manufacturer of the sensor, currently support options are `Blue Maestro`, `Laird` & `Berlinger` |
+| **Sensor type**   | The manufacturer of the sensor, currently support options are `mSupply` & `Berlinger` |
 | **Breach type**   | If the sensor has had a breach, this shows the type of the most recent breach                       |
 
 1. The list can display a fixed number of sensors per page. On the bottom left corner, you can see how many sensors are currently displayed on your screen.
@@ -64,6 +64,6 @@ On this screen you can
 - Edit the name of the sensor
 - Assign the sensor to a location
 
-<div class="note">If the sensor is one that synchronises with Cold Chain application (e.g. the type is Blue Maestro or Laird), then the name must be edited in the Cold Chain application</div>
+<div class="note">If the sensor is one that synchronises with Cold Chain application then the name must be edited in the Cold Chain application</div>
 
 The other details of the sensor, such as battery level and last recorded temperature are also shown on this screen.

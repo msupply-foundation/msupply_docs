@@ -39,7 +39,7 @@ Une liste de capteurs s'affiche (si vous n'en voyez aucun, c'est peut-être que 
 | **Niveau de batterie** | Niveau de batterie le plus récent, en pourcentage              |
 | **Dernière lecture**   | Température la plus récente rapportée par le capteur         |
 | **Date/heure**         | Date et heure de l'activité la plus récente pour ce capteu     |
-| **Type de capteur**    | Fabricant du capteur. Les options actuellement prises en charge sont `Blue Maestro`, `Laird` & `Berlinger` |
+| **Type de capteur**    | Fabricant du capteur. Les options actuellement prises en charge sont `mSupply` & `Berlinger` |
 | **Type de dépassement**| Si le capteur a enregistré un dépassement, cette colonne indique le type du dépassement le plus récent |
 
 1. Le nombre de capteurs affichés par page est limité. Vous pouvez voir en bas à gauche le nombre de capteurs actuellement affichés sur votre écran.
@@ -65,7 +65,7 @@ Sur cet écran, vous pouvez :
 - Attribuer le capteur à un emplacement
 
 
-<div class="note">Si le capteur est synchronisé avec l'application de la chaîne du froid (par exemple, s'il s'agit d'un Blue Maestro ou d'un Laird), son nom doit être modifié dans l'application de la chaîne du froid.</div>
+<div class="note">Si le capteur est synchronisé avec l'application de la chaîne du froid son nom doit être modifié dans l'application de la chaîne du froid.</div>
 
 Les autres détails du capteur, tels que le niveau de batterie et la dernière température enregistrée, sont également indiqués sur cet écran.
 
