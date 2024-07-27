@@ -26,11 +26,7 @@ Once mSupply Cold Chain is open on the device, it will prevent the device from g
 
 ### Sensors
 
-Manufacturer: Blue Maestro Model: DSCTHD001
-
-(There is a bug in the firmware of model DSCTEMP001 - The above model is the same electronics, but without the firmware bug)
-
-Alternative sensor: Laird BT510
+Manufacturer: mSupply Foundation 
 
 ### Permissions and peripherals
 
