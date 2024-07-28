@@ -171,9 +171,9 @@ From the `Summary` tab, you can:
 - edit the serial number
 - assign an installation date
 - assign a replacement date
-- assign locations to the the asset
+- Link stock storage `Locations` to the the asset
 
-<div class="tip">Multiple locations can be assigned to one asset</div>
+<div class="tip">Multiple stock storage Locations can be assigned to one asset</div>
 
 You can also view the functional status and edit notes on the status.
 
