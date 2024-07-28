@@ -15,7 +15,7 @@ top = false
 
 ## Overview
 
-Open mSupply provides the following cold chain features: 
+Open mSupply offers the following cold chain functionality: 
 
 - **Remote temperature monitoring**
 - **Cold Chain Equipment (CCE) inventory management**
@@ -24,25 +24,41 @@ Open mSupply provides the following cold chain features:
 #### Remote temperature monitoring
 
 Open mSupply allows health facilities to:
-- View temperature logs from fridges and freezers
+- View temperature logs from fridges and freezers 
 - View and respond to temperature breach events
 - Manage temperature sensors
 - Receive real-time notifications of temperature breach and temperature excursion events
+
+Central health authorities can: 
+- View temperature data from all health facilities in centralised web portal
 
 Temperature data can be imported into Open mSupply from multiple sources. 
 The methods currently supported are:  
 - Connect [mSupply temperature sensors](https://msupply.foundation/open-msupply/cold-chain/#mSupplySensor) to Open mSupply via Bluetooth
 - Import data from Berlinger [Fridge-tags](https://www.berlinger.com/cold-chain-management/refrigerator-temperature-logger-solution-1) and [Q-tags](https://www.berlinger.com/shipment-monitoring-solutions) via USB (you can read more [here](https://www.berlinger.com/partnership-msupply)).
 
-
 #### Cold Chain Equipment inventory management
 
-Open mSupply allows health facilities to manage and monitor their CCE inventory such as fridges, freezers and remote temperature monitoring devices. Details of cold chain assets can easily be captured and maintained, including their location and functional status. 
+Open mSupply allows health facilities to:
+- Capture details of CCE assets such as fridges, freezers and remote temperature monitoring devices
+- View operation and maintenance manuals for CCE
+- Update CCE functional status
+- Record CCE maintenance logs
 
+Central health authorities can: 
+- View the location of CCE assets for all health facilities
+- Distribute CCE between health facilities
+- View aggregated CCE data, such as functional status, in a centralised web portal
 
 #### Compromised stock identification
 
-Sensors can be assigned to a storage location, which then allows you to associate temperature logs and breaches with specific stock lines. You can also view historical data to check if your cold chain equipment is operating correctly and to check if your stock might have been affected by temperature variations.
+Open mSupply allows health facilities to: 
+- Link temperature data to stock data
+- View stock lines that have been potentially compromised in a centralised web portal
+
+Sensors can be linked to a stock storage [Location](/docs/inventory/locations/). 
+This link allows Open mSupply to associate temperature logs and breach events with specific stock lines. 
+Historical data is available to check that cold chain equipment is operating correctly and to see whether stock might have been affected by any temperature variations.
 
 ## Getting started
 

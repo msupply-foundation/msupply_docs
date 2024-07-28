@@ -35,7 +35,7 @@ The user is a standard mSupply user, with the following configuration:
 
 ![Cold chain API permission](/docs/coldchain/images/coldchain_permission.png)
 
-From here, simply follow the steps in the mSupply Cold Chain application documentation for [Integrating with mSupply Desktop](/coldchain/desktop-integration/#msupply-desktop-setup-steps)
+From here, follow the steps in the mSupply Cold Chain application documentation for [Integrating with mSupply Desktop](/coldchain/desktop-integration/#msupply-desktop-setup-steps) using the new mSupply user credentials created above in place of the store credentials.
 
 #### Fridge-tags and Q-tags
 
@@ -45,8 +45,6 @@ Then click the `Import Fridge-tag` button:
 ![Import fridge tag](/docs/coldchain/images/import_fridge_tag.png)
 
 This will open a file browsing window, allowing you to select the `.txt` file of the Fridge-tag data. Simply click on the file and wait for the import to complete.
-
-<div class="note">Currently supported devices are Fridge-tags and Q-Tags from Berlinger.</div>
 
 Here's how the process looks (this is the mac desktop version):
 
@@ -78,7 +76,7 @@ Choose `Cold chain` > `Sensors` in the navigation panel.
 
 ![goto sensors](/docs/coldchain/images/goto_sensors.png)
 
-You will be presented with a list of Sensors (if you don't see any, you may not have imported or integrated with the cold chain app!).
+You will be presented with a list of Sensors (if you don't see any, you may not have imported data yet or integrated with the mSupply Cold Chain app!).
 
 From this screen you can view a list of Sensors and edit a Sensor.
 
@@ -92,7 +90,7 @@ From this screen you can view a list of Sensors and edit a Sensor.
 | :---------------- | :-------------------------------------------------------------------------------------------------- |
 | **Name**          | Name of the Sensor                                                                                  |
 | **CCE**           | Asset number of the cold chain equipment item which the sensor is associated with                   |
-| **Location**      | Current location of the sensor                                                                      |
+| **Location**      | Current stock storage `Location` of the sensor                                                                      |
 | **Serial Number** | A unique identifier for the sensor                                                                  |
 | **Battery Level** | Most recent battery reading, in percentage                                                          |
 | **Last reading**  | The most recent temperature reported by the sensor                                                  |
@@ -121,7 +119,7 @@ Clicking on a row in the list will show you the details of that sensor
 On this screen you can
 
 - Edit the name of the sensor
-- Assign the sensor to a location
+- Link the sensor to a stock storage `Location`
 
 <div class="note">The names of mSupply temperature sensors must be edited in the mSupply Cold Chain application</div>
 
