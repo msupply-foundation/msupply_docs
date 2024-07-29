@@ -62,13 +62,11 @@ Historical data is available to check that cold chain equipment is operating cor
 
 ## Getting started
 
-To begin using cold chain features enable the store preference for `mobile: Uses Vaccine Module` (see the [store preferences](https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab) documentation for how to do this).
+To begin using cold chain features enable the [store preference](https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab) called `mobile: Uses Vaccine Module`.
 
-Any users that require access to cold chain features should have the following permissions enabled:
+Any users that require access to cold chain features should have the following [user permissions](https://docs.msupply.org.nz/admin:managing_users#permissions_tabs) enabled:
 
 - Vaccines
-  - View sensor details
-  - Edit sensor location
-
-See the [user permissions](https://docs.msupply.org.nz/admin:managing_users#permissions_tabs) documentation for more details.
+  - `View sensor details`
+  - `Edit sensor location`
 
