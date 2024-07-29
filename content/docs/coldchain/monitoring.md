@@ -20,7 +20,7 @@ The Monitoring section displays cold chain temperature monitoring data in three 
 3. A list view of all temperature logs
 
 <div class="note">
-Temperature data may be imported into Open mSupply via Bluetooth (e.g. <a href="https://msupply.foundation/open-msupply/cold-chain/#mSupplySensor" target="_blank">mSupply Foundation temperature sensors</a>) or via USB (e.g. <a href="https://msupply.foundation/open-msupply/cold-chain/#BerlingerSensor" target="_blank">Berlinger Fridge-tags / Q-tags</a> - see below)
+Temperature data may be imported into Open mSupply via Bluetooth (e.g. <a href="https://msupply.foundation/open-msupply/cold-chain/#mSupplySensor" target="_blank">mSupply temperature sensors</a>) or via USB (e.g. <a href="https://msupply.foundation/open-msupply/cold-chain/#BerlingerSensor" target="_blank">Berlinger Fridge-tags / Q-tags)</a> - see <a href="https://docs.msupply.foundation/docs/coldchain/sensors/#connecting-sensors">Connecting Sensors</a> for more info.
 </div>
 
 
