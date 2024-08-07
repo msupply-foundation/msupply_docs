@@ -119,6 +119,6 @@ In order to print or export, you will need an R&R Form report configured. Please
 When you are ready to finalise the R&R form, click the `Finalise` button at the bottom right of the screen. At this point:
 
 - The R&R form will no longer be editable
-- An Internal Order will be created and sent to the selected supplier
+- An Internal Order will be created and sent to the selected supplier. The values entered against each item in the R&R form are used to populate the Internal Order, so check the `Requested` value before confirming! 
 
 You can also click the `Close` button at any time to return to the list view.
