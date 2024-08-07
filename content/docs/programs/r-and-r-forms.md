@@ -21,7 +21,9 @@ To use R&R Forms, ensure that you enable the store preference for `Open mSupply:
 ![Store preference](/docs/programs/images/program_pref.png)
 
 You'll also need a program configured and visible in your store, and the program will need a period schedule associated with it.
-Start with configuring [periods and schedules](https://docs.msupply.org.nz/admin:schedules_periods) and then create a program and associate the schedule.
+
+Start with configuring [periods and schedules](https://docs.msupply.org.nz/admin:schedules_periods), then create a program and associate the schedule.
+
 See the [mSupply docs](https://docs.msupply.org.nz/items:programs) for configuring programs - note though that you'll only need the start of this process, which is to create a program and associate a schedule. For R&R forms, the other program configuration aspects aren't used yet.
 
 ## R&R Forms - List View
@@ -121,6 +123,6 @@ In order to print or export, you will need an R&R Form report configured. Please
 When you are ready to finalise the R&R form, click the `Finalise` button at the bottom right of the screen. At this point:
 
 - The R&R form will no longer be editable
-- An Internal Order will be created and sent to the selected supplier. The values entered against each item in the R&R form are used to populate the Internal Order, so check the `Requested` value before confirming! 
+- An Internal Order will be created and sent to the selected supplier. The values entered against each item in the R&R form are used to populate the Internal Order, so check the `Requested` value before confirming!
 
 You can also click the `Close` button at any time to return to the list view.
