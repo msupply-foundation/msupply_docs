@@ -9,16 +9,18 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "View and Manage R&R Forms"
+lead = "Report and Requisition (R&R) Forms are used to report on item usage and request stock from suppliers. They help to ensure that you have enough stock on hand to meet the needs of your patients."
 toc = true
 top = false
 +++
+
+## Setup
 
 To use R&R Forms, ensure that you enable the store preference for `Open mSupply: Uses program module`.
 
 ![Store preference](/docs/programs/images/program_pref.png)
 
-Report and Requisition (R&R) Forms are used to report on item usage and request stock from suppliers. The R&R form is a tool to help you manage your stock levels and ensure that you have enough stock on hand to meet the needs of your patients.
+You'll also need a program configured and visible in your store. It will need a period schedule associated with it. See the [mSupply docs](https://docs.msupply.org.nz/items:programs) for configuring programs.
 
 ## R&R Forms - List View
 
