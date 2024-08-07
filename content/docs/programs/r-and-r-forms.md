@@ -20,7 +20,9 @@ To use R&R Forms, ensure that you enable the store preference for `Open mSupply:
 
 ![Store preference](/docs/programs/images/program_pref.png)
 
-You'll also need a program configured and visible in your store. It will need a period schedule associated with it. See the [mSupply docs](https://docs.msupply.org.nz/items:programs) for configuring programs.
+You'll also need a program configured and visible in your store, and the program will need a period schedule associated with it.
+Start with configuring [periods and schedules](https://docs.msupply.org.nz/admin:schedules_periods) and then create a program and associate the schedule.
+See the [mSupply docs](https://docs.msupply.org.nz/items:programs) for configuring programs - note though that you'll only need the start of this process, which is to create a program and associate a schedule. For R&R forms, the other program configuration aspects aren't used yet.
 
 ## R&R Forms - List View
 
