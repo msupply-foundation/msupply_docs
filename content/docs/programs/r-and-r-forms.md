@@ -18,7 +18,7 @@ To use R&R Forms, ensure that you enable the store preference for `Open mSupply:
 
 ![Store preference](/docs/programs/images/program_pref.png)
 
-Report and Requisition (R&R) are used to manage t
+Report and Requisition (R&R) Forms are used to report on item usage and request stock from suppliers. The R&R form is a tool to help you manage your stock levels and ensure that you have enough stock on hand to meet the needs of your patients.
 
 ## R&R Forms - List View
 
@@ -28,42 +28,95 @@ Go to `Programs` > `R&R Forms` to view the list of R&R Forms.
 
 You can click the column headers to sort the list by that column.
 
+<!-- TODO: repalce with status list -->
+
 ![R&R List](/docs/programs/images/rnr_list.png)
 
 Clicking on an R&R form will take you to the details page.
 
-#### Add an R&R Form
+### Add an R&R Form
 
-To add an Encounter for the patient, click the `Add Encounter` button on the top right corner of the screen. Click on the down arrow next to the button and select `Add Encounter` if the button does not say `Add Encounter`.
+To add an R&R Form, click the `Add Form` button on the top right corner of the screen.
 
-A window will open for you to select the encounter (this selection will vary depending on what programs the patient is enrolled in), visit date, clinician and add notes for this encounter.
+![Add Button](/docs/programs/images/rnr_add_button.png)
 
-<div class="imagetitle">In the below example, we are creating a HIV Care Encounter</div>
+A window will open for you to select the program, schedule, period and supplier for the R&R form.
 
-![Add Encounter](/docs/programs/images/add_encounter.gif)
+![Add R&R: empty](/docs/programs/images/add_rnr_empty.png)
 
-![Encounter](/docs/programs/images/encounter_header.png)
+The first time you create an R&R form, you will need to select each of these options. After that, the inputs will be pre-filled with the previous period's data.
 
-- The side panel (opened by clicking `More` on the top right corner) will contain additional information such as previous encounters.
+<div class="imagetitle">Our most recent R&R form was from April 2024, for Program Tb. The same program, schedule and supplier are selected, and the next period is chosen automatically.</div>
 
-![Encounter](/docs/programs/images/encounter_side_panel.png)
+![Add R&R: pre-filled](/docs/programs/images/add_rnr.png)
 
-<div class="imagetitle">In this example, we are viewing the HIV Care Encounter</div>
+The first time you create an R&R form, you can select any available period. After that, you will only be able to select the next period in the sequence.
 
-![Encounter](/docs/programs/images/encounter_detail_view.png)
+<div class="imagetitle">The previous R&R form was for the APR 24 period</div>
 
-### Viewing an R&R Form
+![Add R&R: pre-selected period](/docs/programs/images/add_rnr_selected_period.png)
 
-The R&R form contains the following columns:
+Note that you cannot create the next R&R form until the previous one is finalised:
 
-| Column                   | Description                                                          |
-| :----------------------- | :------------------------------------------------------------------- |
-| **Program**              | The name of the program                                              |
-| **Enrolment Patient ID** | The patient's program ID                                             |
-| **Additional Info**      | Displays program specific information. E.g. _LTFU_ lost to follow up |
-| **Program Status**       | The status of the program                                            |
-| **Enrolment Date**       | The date the patient was enrolled in the program                     |
+![Warning: need to finalise previous](/docs/programs/images/add_rnr_error_finalise.png)
 
-![Programs](/docs/programs/images/patient_program_tab.png)
+Once you are happy with your inputs, click `OK` to generate the form. You will be redirected to the R&R form details page.
 
-Once the R&R form is finalised, and Internal Order will automatically be created and sent to the selected supplier.
+## Detail View
+
+![R&R Detail view](/docs/programs/images/rnr_detail.png)
+
+The R&R form contains the following columns. Calculated/non-editable columns are greyed out. Columns marked with an asterisk (\*) below are editable.
+
+| Column                   | Description                                                                                                                                                                                                   |
+| :----------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Code**                 | Item code                                                                                                                                                                                                     |
+| **Name**                 | Item name                                                                                                                                                                                                     |
+| **Strength**             | Strength of the item                                                                                                                                                                                          |
+| **Unit**                 | Unit of measure for the item                                                                                                                                                                                  |
+| **VEN**                  | Item VEN category: Vital (V), Essential (E), Non-essential (N)                                                                                                                                                |
+| **Initial balance\***    | Stock on hand for this item at the start of the period. Uses the final balance from the previous R&R form (if it exists), or attempts to calculate the balance based on any transaction data in Open mSupply. |
+| **Received\***           | Quantity of this item received during the period. Populated by quantities received through Inbound Shipments.                                                                                                 |
+| **Consumed\***           | Quantity of this item consumed during the period. Populated by quantities distributed through Outbound Shipments or Prescriptions.                                                                            |
+| **Adjusted consumption** | Consumption, adjusted for any days out of stock. Calculation is <code>Consumed x Days in period / Days in stock</code>                                                                                        |
+| **Adjustments\***        | Losses/adjustments made for this item during the period. Can be positive or negative. Populated by data from Stocktakes or Inventory Adjustments.                                                             |
+| **Stock out duration\*** | Number of days in the period where stock on hand for the item was 0.                                                                                                                                          |
+| **Final balance**        | Stock on hand for the item at the end of the period. Calculation is <code>Initial balance + Received - Consumed + Adjustments</code>                                                                          |
+| **AMC**                  | Average monthly consumption over the last 3 periods                                                                                                                                                           |
+| **Maximum**              | <code>AMC x 2</code>                                                                                                                                                                                          |
+| **Expiry\***             | Expiry date of the earliest expiring available batch of this item                                                                                                                                             |
+| **Requested\***          | Quantity to be requested in the requisition. Calculated as <code>Maximum - Final balance</code>                                                                                                               |
+| **Comment\***            | You can add any comments to the line as needed                                                                                                                                                                |
+| **Confirmed\***          | Use this column to keep track of which lines are complete. Acts as the save button for changes to a line.                                                                                                     |
+
+### Editing the R&R Form
+
+You can make changes to the usage data for each item in the R&R form, as well as the quantity to request from the supplier.
+
+Once you are happy with the information for an item, click the `Confirmed` checkbox to save the data.
+
+![Edit line](/docs/programs/images/rnr_edit_line.gif)
+
+### Print and Export
+
+You can print or export the R&R form by clicking the `Print` or `Export` buttons in the top right corner of the screen.
+
+![Print and export buttons](/docs/programs/images/rnr_print_and_export.png)
+
+- The `Print` button will open your browser's print window. You can also save the report as a PDF from here.
+- The `Export` button will download the R&R form as an Excel file.
+
+<div class="note">
+In order to print or export, you will need an R&R Form report configured. Please contact support for assistance.
+</div>
+
+### Finalising an R&R Form
+
+![Finalise](/docs/programs/images/rnr_finalise.png)
+
+When you are ready to finalise the R&R form, click the `Finalise` button at the bottom right of the screen. At this point:
+
+- The R&R form will no longer be editable
+- An Internal Order will be created and sent to the selected supplier
+
+You can also click the `Close` button at any time to return to the list view.
