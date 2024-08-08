@@ -4,7 +4,7 @@ description = "Introduction to R&R Forms"
 date = 2024-08-06T00:00:00+00:00
 updated = 2024-08-06T00:00:00+00:00
 draft = false
-weight = 60
+weight = 46
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -28,15 +28,13 @@ See the [mSupply docs](https://docs.msupply.org.nz/items:programs) for configuri
 
 ## R&R Forms - List View
 
-Go to `Programs` > `R&R Forms` to view the list of R&R Forms.
+Go to `Replenishment` > `R&R Forms` to view the list of R&R Forms.
 
-![R&R Navigation](/docs/programs/images/goto_rnr.png)
+![R&R Navigation](/docs/replenishment/images/goto_rnr.png)
 
 You can click the column headers to sort the list by that column.
 
-<!-- TODO: repalce with status list -->
-
-![R&R List](/docs/programs/images/rnr_list.png)
+![R&R List](/docs/replenishment/images/rnr_list.png)
 
 Clicking on an R&R form will take you to the details page.
 
@@ -44,33 +42,33 @@ Clicking on an R&R form will take you to the details page.
 
 To add an R&R Form, click the `Add Form` button on the top right corner of the screen.
 
-![Add Button](/docs/programs/images/rnr_add_button.png)
+![Add Button](/docs/replenishment/images/rnr_add_button.png)
 
 A window will open for you to select the program, schedule, period and supplier for the R&R form.
 
-![Add R&R: empty](/docs/programs/images/add_rnr_empty.png)
+![Add R&R: empty](/docs/replenishment/images/add_rnr_empty.png)
 
 The first time you create an R&R form, you will need to select each of these options. After that, the inputs will be pre-filled with the previous period's data.
 
 <div class="imagetitle">Our most recent R&R form was from April 2024, for Program Tb. The same program, schedule and supplier are selected, and the next period is chosen automatically.</div>
 
-![Add R&R: pre-filled](/docs/programs/images/add_rnr.png)
+![Add R&R: pre-filled](/docs/replenishment/images/add_rnr.png)
 
 The first time you create an R&R form, you can select any available period. After that, you will only be able to select the next period in the sequence.
 
 <div class="imagetitle">The previous R&R form was for the APR 24 period</div>
 
-![Add R&R: pre-selected period](/docs/programs/images/add_rnr_selected_period.png)
+![Add R&R: pre-selected period](/docs/replenishment/images/add_rnr_selected_period.png)
 
 Note that you cannot create the next R&R form until the previous one is finalised:
 
-![Warning: need to finalise previous](/docs/programs/images/add_rnr_error_finalise.png)
+![Warning: need to finalise previous](/docs/replenishment/images/add_rnr_error_finalise.png)
 
 Once you are happy with your inputs, click `OK` to generate the form. You will be redirected to the R&R form details page.
 
 ## Detail View
 
-![R&R Detail view](/docs/programs/images/rnr_detail.png)
+![R&R Detail view](/docs/replenishment/images/rnr_detail.png)
 
 The R&R form contains the following columns. Calculated/non-editable columns are greyed out. Columns marked with an asterisk (\*) below are editable.
 
@@ -101,13 +99,13 @@ You can make changes to the usage data for each item in the R&R form, as well as
 
 Once you are happy with the information for an item, click the `Confirmed` checkbox to save the data.
 
-![Edit line](/docs/programs/images/rnr_edit_line.gif)
+![Edit line](/docs/replenishment/images/rnr_edit_line.gif)
 
 ### Print and Export
 
 You can print or export the R&R form by clicking the `Print` or `Export` buttons in the top right corner of the screen.
 
-![Print and export buttons](/docs/programs/images/rnr_print_and_export.png)
+![Print and export buttons](/docs/replenishment/images/rnr_print_and_export.png)
 
 - The `Print` button will open your browser's print window. You can also save the report as a PDF from here.
 - The `Export` button will download the R&R form as an Excel file.
@@ -118,7 +116,7 @@ In order to print or export, you will need an R&R Form report configured. Please
 
 ### Finalising an R&R Form
 
-![Finalise](/docs/programs/images/rnr_finalise.png)
+![Finalise](/docs/replenishment/images/rnr_finalise.png)
 
 When you are ready to finalise the R&R form, click the `Finalise` button at the bottom right of the screen. At this point:
 
