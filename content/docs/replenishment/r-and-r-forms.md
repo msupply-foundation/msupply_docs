@@ -28,13 +28,11 @@ See the [mSupply docs](https://docs.msupply.org.nz/items:programs) for configuri
 
 ## R&R Forms - List View
 
-Go to `Programs` > `R&R Forms` to view the list of R&R Forms.
+Go to `Replenishment` > `R&R Forms` to view the list of R&R Forms.
 
 ![R&R Navigation](/docs/replenishment/images/goto_rnr.png)
 
 You can click the column headers to sort the list by that column.
-
-<!-- TODO: repalce with status list -->
 
 ![R&R List](/docs/replenishment/images/rnr_list.png)
 
