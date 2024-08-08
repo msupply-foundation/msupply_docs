@@ -1,5 +1,5 @@
 +++
-title = "Report"
+title = "Reports"
 description = "Open mSupply Reports."
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
@@ -12,13 +12,11 @@ template = "docs/page.html"
 toc = true
 +++
 
-## Reports
-
 The reports page gives you an overview of the reports available in Open mSupply.
 You can access the reports page by clicking on the `Reports` menu item.
 ![goto_report](/docs/getting_started/images/goto_report.png)
 
-You will be presented with a list of reports that you can run. The reports
+You will be presented with a list of reports that you can generate. The reports
 listed below are the standard reports and will already be set up for you. If
 you need a custom report, please contact mSupply support at [support@msupply.foundation](mailto:support@msupply.foundation).
 
@@ -41,11 +39,16 @@ Click on the report you want to generate. For this example, we will generate the
 Click on the `Stock Status` report.
 ![stock status](/docs/getting_started/images/goto_stock_status.png)
 
-You will be presented with a form where you can filter out the report based on
-certain criterias or display all items for the report. For the `Stock Status`
-report, you can filter out the report based on the following criterias: `Item
-Name` and `Item Code`. The form also
-displays what preferences the report is based on.
+You will be presented with a form where you can edit the filter criteria used by the report. Leave unchanged to display all items for the report.
+
+For the `Stock Status` report, you can filter the report based on the following criteria:
+
+- `Item Name`
+- `Item Code`
+
+If you enter values for both the code and name, the items shown would have to match **both** criteria i.e. entering a code of `01` and a name of `am` would only show items with a code that contains `01` and a name that contains `am`.
+
+The form also display which preferences the report is based on.
 
 ![stock status filter](/docs/getting_started/images/report_filter.png)
 
@@ -62,8 +65,8 @@ report.
 
 ![print button](/docs/getting_started/images/print_button.png)
 
-When printing, a PDF file is generated for you, which will then open in a new
-browser tab. This can then be printed using your browser by clicking print or
+A print preview window will open showing you what will be printed and allowing
+you to select the printer. This can then be printed using your browser by clicking print or
 using `control`+`P` (if using windows) or `cmd`+`P` keys on your keyboard (if
 using a mac).
 
