@@ -26,7 +26,7 @@ Cliquez simplement sur le bouton de l'option que vous préférez. Ne vous inqui�
 
 ![Mobile settings](/docs/introduction/images/mobile_settings.png)
 
-## Client mode
+## Le mode Client
 Après avoir sélectionné le mode client, vous verrez une liste des serveurs disponibles. Il s'agit des serveurs de votre réseau local. 
 
 Vous pouvez voir `[ Non configuré ]` à côté de certains serveurs - cela indique que le serveur n'a pas encore été configuré pour se synchroniser avec un serveur central.
@@ -37,13 +37,13 @@ Cliquez sur le nom du serveur pour le sélectionner. Si vous souhaitez changer d
 
 ![Mobile login](/docs/introduction/images/mobile_login.png)
 
-## Server mode
+## Mode Serveur
 
 En mode serveur, vous configurerez le serveur pour qu'il fonctionne sur l'appareil mobile et se synchronise avec un serveur central. L'écran d'initialisation est le même que pour les versions desktop et web, avec l'ajout des détails du serveur en bas à droite :
 
 ![Mobile initialisation](/docs/introduction/images/mobile_initialisation.png)
 
-## Viewing logs
+## Visualiser le fichier journal
 
 Dans l'application Android, vous verrez une section supplémentaire. Elle vous permet de changer le mode entre le client et le serveur, et de visualiser le fichier journal:
 
