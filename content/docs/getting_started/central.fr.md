@@ -72,7 +72,7 @@ La synchronisation avec le serveur central Open mSupply s'effectue via l'API V6 
 
 ## Types de données du serveur central Open mSupply
 
-<div class="note">Depuis la<code>v2.0.00</code></div>
+<div class="note">Depuis la <code>v2.0.00</code></div>
 
 Données configurées dans le serveur central Open mSuppy:
 
