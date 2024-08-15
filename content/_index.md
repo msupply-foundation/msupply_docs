@@ -28,8 +28,8 @@ content = 'The <a href="https://docs.msupply.org.nz/">User Documentation wiki</a
 [[extra.list]]
 icon = "health-supply-hub.png"
 title = "Health Supply Hub"
-url = "/health-supply-hub/introduction"
-content = 'The <a href="/health-supply-hub/introduction">User Guide</a> for the Health Supply Hub'
+url = "/health-supply-hub/supplier/introduction"
+content = 'The <a href="/health-supply-hub/supplier/introduction">User Guide</a> for the Health Supply Hub'
 
 
 [[extra.list]]
