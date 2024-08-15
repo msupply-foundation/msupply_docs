@@ -45,6 +45,8 @@ If you receive an “Authentication Error”, this may indicate that you do not 
 
 #### Managing users in your Organisation
 
+#### Managing users in your Organisation
+
 If you have admin rights, you are able to view and manage users in your organisation. Select “Users” (1) to view users in your organisation and “Invite user” (2) to invite users to your organisation. When inviting users, select user permissions you would like this person to have.
 
 ![image](/health-supply-hub/customer/images/managing_my_organisation_users.png)

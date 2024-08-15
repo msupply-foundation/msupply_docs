@@ -5,6 +5,7 @@ date = 2025-05-01T08:00:00+00:00
 updated = 2021-05-01T08:00:00+00:00
 sort_by = "weight"
 weight = 4
+weight = 4
 template = "health-supply-hub/page.html"
 
 [extra]
@@ -14,7 +15,11 @@ top = false
 
 #### Creating a Tender on mSupply
 
+#### Creating a Tender on mSupply
+
 Tenders are created on mSupply through the Tender module. For further information on how to do this, see the [mSupply Tender Module Training Guide 2023](https://drive.google.com/file/d/1aZOy6aDVvtKFRtG7SezpMOofSCoHrFD4/view?usp=drive_link)
+
+#### Tender Process
 
 #### Tender Process
 
