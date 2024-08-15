@@ -74,18 +74,18 @@ Open mSupply does much more than that. Features include:
   - Connect temperature monitoring devices to stock via stock locations
 - Extend functionality of the base system with the use of front-end plugins. These allow for custom development of simple tasks such as adding fields to records which can then be displayed in lists and editing forms. For further details, see the [plugin readme](https://github.com/msupply-foundation/open-msupply/blob/main/client/packages/plugins/README.md).
 
-## What makes mSupply special?
+## What makes Open mSupply special?
 
 There are a lot of systems that manage inventory. Open mSupply has unique features that make it ideal to use for health supply chains in low resource settings:
 
-- **Offline first**: mSupply is designed from the ground up to work without internet. We know from 20 years of experience that even the most reliable internet connections sometimes fail or get overloaded. mSupply allows you to work without having to worry about second-by-second internet quality. Of course, when you need to place orders or receive updates from other facilities, you need internet for a few minutes then.
-- **Scalable**: We've designed Open mSupply to handle billions of transactions a year, but to also work on an Android tablet! You can implement mSupply in one facility, knowing that if you later decide to deploy thousands of sites, mSupply will still be the right tool.
+- **Offline first**: Open mSupply is designed from the ground up to work without internet. We know from 20 years of experience that even the most reliable internet connections sometimes fail or get overloaded. Open mSupply allows you to work without having to worry about second-by-second internet quality. Of course, when you need to place orders or receive updates from other facilities, you need internet for a few minutes then.
+- **Scalable**: We've designed Open mSupply to handle billions of transactions a year, but to also work on an Android tablet! You can implement Open mSupply in one facility, knowing that if you later decide to deploy thousands of sites, Open mSupply will still be the right tool.
 
-To get some insight into the full breadth of mSupply's functionality, have a look at the legacy mSupply software documentations at [https://www.msupply.org.nz](https://www.msupply.org.nz) - it's almost 1000 pages if you print it all (so maybe don't ☺️)
+To get some insight into the full breadth of Open mSupply's functionality, have a look at the legacy mSupply software documentations at [https://www.msupply.org.nz](https://www.msupply.org.nz) - it's almost 1000 pages if you print it all (so maybe don't ☺️)
 
 ### Terminology
 
-The following table outlines some of the common terms used in mSupply, and also guides users of legacy mSupply regarding terminology improvements we have made.
+The following table outlines some of the common terms used in Open mSupply, and also guides users of legacy mSupply regarding terminology improvements we have made.
 
 | Open mSupply Term |  Legacy mSupply term  | Definition                                                               |
 | :---------------: | :-------------------: | :----------------------------------------------------------------------- |

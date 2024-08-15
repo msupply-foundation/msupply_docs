@@ -33,7 +33,7 @@ The server requires a little more memory and processing capability, depending on
 - Buy hardware for which good after sales support is available
 - Buy brands with a reputation for quality (even if it means buying a older/slower machine)
 
-### Windows, Mac, and, Linux hardware requirements
+### Desktop / laptop requirements
 
 Hardware requirements vary widely depending on what you want to use Open mSupply for. Here's a rough guide:
 
@@ -43,13 +43,13 @@ Hardware requirements vary widely depending on what you want to use Open mSupply
 | Mac Client machine for use with server     | 64 bit processor<br/>macOS Mojave (10.14) – macOS Big Sur (11)(Latest release of major version is required, such as 10.14.6)<br/>4 Gb RAM, 300Mb of disk space | 64 bit processor<br/>Mac OS 10.14.6 or later<br/>8 Gb RAM, 500Mb of disk space                                                                                                                                                           |
 | Windows server                             | 64 bit processor<br/>Windows 10 Pro or Win server 2019<br/>8 Gb RAM<br/>50 GB HDD/SDD volume with daily backups to an external volume                          | 64 bit processor<br/>Windows Server 2019+<br/>8 Gb RAM<br/>4 x HDD/SDD volumes, 3 configured as RAID1 or RAID5 with hot spare<br/>Daily backups to the fourth volume plus daily off-site backups<br/>Attached to a Smart UPS (see below) |
 | Linux client or server                     | 64 bit processor<br/>Ubuntu 20+ or similar<br/>4 Gb RAM<br/>256 Gb storage                                                                                     | 64 bit processor<br/>Ubuntu 20+ or similar<br/>8 Gb RAM<br/>256 Gb storage                                                                                                                                                               |
-| Android client or server                   | 64 bit processor<br/>Android 10 or later<br/>4 Gb RAM<br/>64 Gb storage                                                                                        | 64 bit processor<br/>Android 10 or later<br/>4 Gb RAM<br/>64 Gb storage                                                                                                                                                                  |
+
 
 <div class="note">
 Recording stock transactions is a core Open mSupply activity. Most stock transaction data is numeric. A numeric keypad is often helpful for machines that have a lot of data entry done on them.
 </div>
 
-### Mobile/tablet requirements
+### Mobile / tablet requirements
 
 You are able to use a browser on a tablet to connect to an Open mSupply server, and the only requirement here is a suitably fast tablet with a browser such as chrome or firefox.
 
@@ -57,15 +57,16 @@ For a stand-alone, offline, solution a mobile application is also available for 
 
 Recommended Specifications:
 In short, Open mSupply mobile runs on Android tablets (not on phones as there is too much data to use well on small phone screens).
-The application requires at least Android 5.0 (Lollipop)
+The application requires at least Android 10
 
 |                 | Minimum           | Recommended       |
 | :-------------- | :---------------- | :---------------- |
 | Display size    | 9.8 inches        | 10.1 inches       |
 | Resolution      | 768 x 1024 pixels | 800 x 1200 pixels |
-| Android version | 5.0               | 8.1               |
-| Processor       |                   | Quad-core 1.3GHz  |
-| Memory          |                   | 1.5 Gb RAM        |
+| Android version | 10                | 14                |
+| Processor       | 64 bit            | 64 bit            |
+| RAM             | 2 Gb              | 4 Gb              |
+| Storage         | 32 Gb             | 64 Gb             |
 
 In order to provide support, the device must also be compatible with MDM (Mobile Device Management) software and support google services. Please contact [mSupply Foundation](https://msupply.foundation/#contact) for details.
 

@@ -13,45 +13,60 @@ toc = true
 top = false
 +++
 
-The cold chain features within Open mSupply allow you to:
+## Overview
 
-- View and manage temperature sensors
-- Import data from Berlinger [Fridge-tag](https://www.berlinger.com/cold-chain-management/refrigerator-temperature-logger-solution-1) and [Q-tag](https://www.berlinger.com/shipment-monitoring-solutions) temperature loggers (Berlinger and the mSupply Foundation have been working together to make sure Berlinger temperature monitors are well supported in Open mSupply; you can read more [here](https://www.berlinger.com/partnership-msupply)).
-- View logs and breach data from sensors
-- Receive notifications of temperature breach and temperature excursion events
+Open mSupply offers the following cold chain functionality: 
 
-Sensors can be assigned to a storage location, which then allows you to associate temperature logs and breaches with specific stock lines. You can also view historical data to check if your cold chain equipment is operating correctly and to check if your stock might have been affected by temperature variations.
+- **Remote temperature monitoring**
+- **Cold Chain Equipment (CCE) inventory management**
+- **Compromised stock identification** 
 
-If a temperature breach happens, then a notification is displayed on every page of Open mSupply as a warning to check potentially affected stock. Once the breach is acknowledged then the notification is no longer shown.
+#### Remote temperature monitoring
 
-Open mSupply integrates with the android based Cold Chain application; simply configure your Cold Chain application to sync with the Open mSupply server address and configure a username and password. Temperature sensors, breaches and logs will then appear within Open mSupply.
+Open mSupply allows health facilities to:
+- View temperature logs from fridges and freezers 
+- View and respond to temperature breach events
+- Manage temperature sensors
+- Receive real-time notifications of temperature breach and temperature excursion events
 
-<div class="note">The Cold Chain referred to here is the integration of the Cold Chain features within Open mSupply. There is separate documentation for the <a href="/coldchain/introduction/">Android Cold Chain application</a>.</div>
+Central health authorities can: 
+- View temperature data from all health facilities in centralised web portal
 
-## Configuration
+Temperature data can be imported into Open mSupply from multiple sources. 
+The methods currently supported are:  
+- Connect [mSupply temperature sensors](https://msupply.foundation/open-msupply/cold-chain/#mSupplySensor) to Open mSupply via Bluetooth
+- Import data from Berlinger [Fridge-tags](https://www.berlinger.com/cold-chain-management/refrigerator-temperature-logger-solution-1) and [Q-tags](https://www.berlinger.com/shipment-monitoring-solutions) via USB (you can read more [here](https://www.berlinger.com/partnership-msupply)).
 
-To begin, enable the store preference for `mobile: Uses Vaccine Module` (see the [store preferences](https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab) documentation for how to do this).
+#### Cold Chain Equipment inventory management
 
-Any users who are to view and manage the Cold Chain features should have the following permissions enabled:
+Open mSupply allows health facilities to:
+- Capture details of CCE assets such as fridges, freezers and remote temperature monitoring devices
+- View operation and maintenance manuals for CCE
+- Update CCE functional status
+- Record CCE maintenance logs
+
+Central health authorities can: 
+- View the location of CCE assets for all health facilities
+- Distribute CCE between health facilities
+- View aggregated CCE data, such as functional status, in a centralised web portal
+
+#### Compromised stock identification
+
+Open mSupply allows health facilities to: 
+- Link temperature data to stock data
+- View stock lines that have been potentially compromised in a centralised web portal
+
+Sensors can be linked to a stock storage [Location](/docs/inventory/locations/). 
+This link allows Open mSupply to associate temperature logs and breach events with specific stock lines. 
+Historical data is available to check that cold chain equipment is operating correctly and to see whether stock might have been affected by any temperature variations.
+
+## Getting started
+
+To begin using cold chain features enable the [store preference](https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab) called `mobile: Uses Vaccine Module`.
+
+Any users that require access to cold chain features should have the following [user permissions](https://docs.msupply.org.nz/admin:managing_users#permissions_tabs) enabled:
 
 - Vaccines
-  - View sensor details
-  - Edit sensor location
+  - `View sensor details`
+  - `Edit sensor location`
 
-See the [user permissions](https://docs.msupply.org.nz/admin:managing_users#permissions_tabs) documentation for more details.
-
-## Cold chain app integration
-
-The [Cold Chain](/coldchain/introduction/) application is able to sync data to a server. The server can be an instance of Open mSupply or mSupply.
-
-To configure the integration, you will only need to configure a user and then you can update the Cold Chain application.
-
-The user is a standard mSupply user, with the following configuration:
-
-- The default store assigned to the user is the store which the temperature data will be associated with
-- The store will need to be part of the site that Open mSupply is synchronising with. Have a look at the [Settings](/docs/settings/synchronisation/#viewing-the-synchronisation-settings) section to see which site omSupply is syncing with, and then the [Synchronisation](https://docs.msupply.org.nz/synchronisation:sync_sites#viewing_sync_sites) screen to check that your site includes the correct store.
-- The user must have the omSupply permission of `Cold chain API access` (see below)
-
-![Cold chain API permission](/docs/coldchain/images/coldchain_permission.png)
-
-From here, simply follow the steps in the Cold Chain application documentation for [Integrating with mSupply Desktop](/coldchain/desktop-integration/#msupply-desktop-setup-steps)

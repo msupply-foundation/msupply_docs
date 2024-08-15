@@ -4,7 +4,7 @@ description = "Temperature breach / excursion notifications"
 date = 2023-11-08T15:20:00+00:00
 updated = 2023-11-08T15:20:00+00:00
 draft = false
-weight = 1
+weight = 20
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -13,7 +13,16 @@ toc = true
 top = false
 +++
 
+Open mSupply can notify users in real-time if a temperature breach occurs. 
+
+A notification is displayed at the top of every page of Open mSupply as a warning to check potentially affected stock. Once a breach is acknowledged then the notification is no longer shown.
+
+Notifications can also be sent to users' phones via the Telegram instant messaging app. 
+
+
 ## Breaches
+
+Users can be notified when a temperature breach is recorded for a sensor. 
 
 If the following conditions have all been met, then a notification bar will appear on all pages:
 
@@ -42,4 +51,4 @@ If you want to dismiss the notification bar - you'll need to acknowledge the bre
 
 ## Excursions
 
-You can also be notified when a temperature has exceeded a configured threshold. This is called an 'excursion'. Once the temperature has returned to be within the threshold range, the notification will no longer be shown.
+You can also be notified when a temperature has temporarily exceeded a configured threshold. This is called an 'excursion'. Once the temperature has returned to be within the threshold range, the notification will no longer be shown.
