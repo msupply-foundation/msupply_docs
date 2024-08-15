@@ -39,7 +39,7 @@ If you receive an “Authentication Error”, this may indicate that you do not 
 Permission denied
 ![image](/health-supply-hub/images/image.png)
 
-#### Managing users in your organisation
+#### Managing users in your Organisation
 
 If you have admin rights, you are able to view and manage users in your organisation. Select “Users” (1) to view users in your organisation and “Invite user” (2) to invite users to your organisation. When inviting users, select user permissions you would like this person to have.
 
@@ -48,11 +48,11 @@ User managing image
 
 Note: You may also notice a user with “name_integration” in your organisation. This is not a true user but is used to link your mSupply program to Health Supply Hub.
 
-##### Deleting users
+##### Deleting Users
 
 Users cannot be removed from Health Supply Hub for audit purposes. In future updates there will be a feature to hide inactive users.
 
-#### Supplier profiles
+#### Supplier Profiles
 
 Suppliers are required to go through an application process to become visible on the Health Supply Hub Supplier Profile list.
 
@@ -70,7 +70,7 @@ The organisation profile will display the organisation logo, website and other i
 Supplier profile image
 ![image](/health-supply-hub/images/image.png)
 
-#### Mamaging suppliers
+#### Managing Suppliers
 
 Supplier lists can be created to help make managing suppliers and tenders a lot easier. To create a supplier list, select “Manage Suppliers” (1) then “New supplier list” (2). Select “Manager supplier list” (3) to add suppliers.
 

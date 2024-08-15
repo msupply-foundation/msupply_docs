@@ -4,25 +4,29 @@ $gray-700: #495057;
 $gray-800: #343a40;
 $gray-900: #212529;
 
-
 p {
-  img, svg {
-  vertical-align: middle;
-  max-width: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top:5px;
-  margin-bottom:40px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  img,
+  svg {
+    vertical-align: middle;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 }
 
-.note, .nota, .remarque {
+.note,
+.nota,
+.remarque {
   position: relative;
-  margin-bottom:1000px;
+  margin-bottom: 1000px;
 }
-.note, .nota, .remarque { 
+.note,
+.nota,
+.remarque {
   border-left: 10px solid #fbaf43;
   border-radius: 4px;
   color: #c97500;
@@ -34,33 +38,75 @@ p {
   border-start-end-radius: 10px;
   border-start-start-radius: 5px;
   font-size: 15px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
-.note:before, .nota:before, .remarque::before  {
+.note:before,
+.nota:before,
+.remarque::before {
   color: #c97500;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   font-weight: bold;
   font-size: 16px;
-  margin-top:10px;
+  margin-top: 10px;
   margin-bottom: 10px;
-  position:absolute;
+  position: absolute;
   top: 0;
 }
 .note:before {
-  content:"NOTE";
+  content: "NOTE";
 }
 .nota:before {
-  content:"NOTA";
+  content: "NOTA";
 }
 .remarque:before {
-  content:"REMARQUE";
+  content: "REMARQUE";
 }
 
-.warning, .aviso, .avertissement {
+.success {
   position: relative;
-  margin-bottom:1000px;
+  margin-bottom: 1000px;
 }
-.warning, .aviso, .avertissement { 
+.success {
+  border-left: 10px solid #3eb715;
+  border-radius: 4px;
+  color: #3eb715;
+  padding: 46px 20px 20px 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-end-start-radius: 5px;
+  border-end-end-radius: 10px;
+  border-start-end-radius: 10px;
+  border-start-start-radius: 5px;
+  font-size: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.success:before {
+  color: #3eb715;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 0;
+}
+.success:before {
+  content: "SUCCESS";
+}
+
+.warning,
+.aviso,
+.avertissement {
+  position: relative;
+  margin-bottom: 1000px;
+}
+.warning,
+.aviso,
+.avertissement {
   border-left: 10px solid #c84420;
   border-radius: 4px;
   color: #c84420;
@@ -72,28 +118,31 @@ p {
   border-start-end-radius: 10px;
   border-start-start-radius: 5px;
   font-size: 15px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
-.warning:before, .aviso:before, .avertissement:before {
+.warning:before,
+.aviso:before,
+.avertissement:before {
   color: #c84420;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   font-weight: bold;
   font-size: 16px;
-  margin-top:10px;
+  margin-top: 10px;
   margin-bottom: 10px;
-  position:absolute;
+  position: absolute;
   top: 0;
 }
 .warning:before {
-  content:"🛑 WARNING!";
+  content: "🛑 WARNING!";
 }
 .aviso:before {
-  content:"🛑 AVISO!";
+  content: "🛑 AVISO!";
 }
 .avertissement:before {
-  content:"🛑 AVERTISSEMENT!";
+  content: "🛑 AVERTISSEMENT!";
 }
-
 
 div.imagetitle {
   margin-left: auto;
@@ -102,16 +151,20 @@ div.imagetitle {
   margin-bottom: 5px;
   margin-top: 30px;
   font-size: 11pt;
-  font-weight:bold;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
 }
 
-.tip, .conseil, .consejo {
+.tip,
+.conseil,
+.consejo {
   position: relative;
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
-.tip, .conseil, .consejo { 
+.tip,
+.conseil,
+.consejo {
   border-left: 10px solid #0e7ac3;
   border-radius: 4px;
   color: #0e7ac3;
@@ -123,37 +176,41 @@ div.imagetitle {
   border-start-end-radius: 10px;
   border-start-start-radius: 5px;
   font-size: 15px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
-.tip:before, .conseil:before, .consejo {
+.tip:before,
+.conseil:before,
+.consejo {
   color: #0e7ac3;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   font-weight: bold;
   font-size: 16px;
-  margin-top:10px;
+  margin-top: 10px;
   margin-bottom: 10px;
-  position:absolute;
+  position: absolute;
   top: 0;
 }
 .tip:before {
   content: "TIP";
 }
 .conseil:before {
-  content: "CONSEIL"
+  content: "CONSEIL";
 }
 .consejo:before {
-  content: "CONSEJO"
+  content: "CONSEJO";
 }
 
 h1 {
   color: #f2913d;
 }
 
-h2  {
+h2 {
   margin-top: 25px;
 }
 
-h3  {
+h3 {
   margin-top: 15px;
 }
 
@@ -167,50 +224,58 @@ h5 {
 
 code {
   background-color: #fafafa;
-  color: #E05535;
-  font-size:14px;
+  color: #e05535;
+  font-size: 14px;
   padding-left: 1px;
   padding-right: 1px;
 }
 
-th{
+th {
   color: #f2913d;
 }
 
 table {
-  margin-top:0px;
+  margin-top: 0px;
 }
 
-.omsupdate, .mise-a-jour, .noticia  {
-  background-color:#FFFF;
+.omsupdate,
+.mise-a-jour,
+.noticia {
+  background-color: #ffff;
   position: relative;
-  margin-bottom:1000px;
+  margin-bottom: 1000px;
 }
-.omsupdate, .mise-a-jour, .noticia { 
+.omsupdate,
+.mise-a-jour,
+.noticia {
   border-left: 8px solid #374453;
   color: #374453;
   padding: 40px 10px 10px 60px;
   margin-bottom: 20px;
   margin-top: 20px;
   font-size: 15px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   background-image: url("/docs/icon.png");
   background-repeat: no-repeat;
-  background-size:30px;
-  background-position:1.2% 50%;
+  background-size: 30px;
+  background-position: 1.2% 50%;
 }
-.omsupdate:before, .mise-a-jour:before, .noticia:before {
+.omsupdate:before,
+.mise-a-jour:before,
+.noticia:before {
   color: #374453;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   font-weight: bold;
   font-size: 16px;
-  margin-top:10px;
+  margin-top: 10px;
   margin-bottom: 10px;
-  position:absolute;
+  position: absolute;
   top: 0;
 }
 .omsupdate:before {
-  content:"UPDATE";
+  content: "UPDATE";
 }
 .mise-a-jour:before {
   content: "MISE À JOUR";
@@ -219,11 +284,11 @@ table {
   content: "NOTICIA";
 }
 
-.markdown-body h1:hover .zola-anchor, 
-.markdown-body h2:hover .zola-anchor, 
-.markdown-body h3:hover .zola-anchor, 
-.markdown-body h4:hover .zola-anchor, 
-.markdown-body h5:hover .zola-anchor, 
+.markdown-body h1:hover .zola-anchor,
+.markdown-body h2:hover .zola-anchor,
+.markdown-body h3:hover .zola-anchor,
+.markdown-body h4:hover .zola-anchor,
+.markdown-body h5:hover .zola-anchor,
 .markdown-body h6:hover .zola-anchor {
   visibility: visible;
 }

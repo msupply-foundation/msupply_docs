@@ -35,7 +35,7 @@ docs image
 
 For any queries, there is a “Docs” icon on the sidebar menu of Health Supply Hub which will open up the Help Page for the page you are viewing. If this does not help to answer your query, please do not hesitate to [contact the Health Supply Hub Support Team via email](mailto:health-supply-hub@msupply.foundation).
 
-#### Useful tips
+#### Useful Tips
 
 Save the following emails to your safe sender list to avoid HSH emails going into your junk or spam folders:
 
