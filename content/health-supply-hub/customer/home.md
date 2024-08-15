@@ -41,13 +41,14 @@ tender module image
 sidebar image
 ![image](/health-supply-hub/images/image.png)
 
-- Orange mSupply logo - expand or minimise the menu
-- Tenders - opens the tender list view
-- Manage Suppliers - organise supplier groups for targetted tenders
-- Manufacturers - List of manufacturers (non-exhaustive)
-- My Organisation - Manage your users and organisation profile
-- Supplier Profiles - View suppliers active on Health Supply Hub
-- Docs - Quicklink to help page
-- Admin - Change the language or view version number
-- My Account - Admin settings for your account
-- Logout - Logout of your account
+| Orange mSupply logo | expand or minimise the menu                    |
+| ------------------- | ---------------------------------------------- |
+| Tenders             | opens the tender list view                     |
+| Manage Suppliers    | organise supplier groups for targetted tenders |
+| Manufacturers       | List of manufacturers (non-exhaustive)         |
+| My Organisation     | Manage your users and organisation profile     |
+| Supplier Profiles   | View suppliers active on Health Supply Hub     |
+| Docs                | Quicklink to help page                         |
+| Admin               | Change the language or view version number     |
+| My Account          | Admin settings for your account                |
+| Logout              | Logout of your account                         |
