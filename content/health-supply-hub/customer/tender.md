@@ -44,8 +44,9 @@ Reasons that are provided for withdrawn tenders are published in “Reason” (6
 
 The types of statuses a tender can have include:
 
-| Draft     | Tender has not yet been published                                   |
+|           |                                                                     |
 | --------- | ------------------------------------------------------------------- |
+| Draft     | Tender has not yet been published                                   |
 | Open      | Tender is published and live for suppliers to bid                   |
 | Closed    | Tender has exceeded the closing date and no more bids can be placed |
 | Withdrawn | Tender has been withdrawn                                           |
