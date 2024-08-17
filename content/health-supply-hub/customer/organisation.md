@@ -14,7 +14,9 @@ top = false
 
 #### Setting up your Organisation Profile
 
-![image](/health-supply-hub/images/customer_organisation_navigation.png)
+<p align="center">
+<img src="/health-supply-hub/images/customer_organisation_navigation.png" width="750"  >
+</p>
 
 Organisation profiles are visible to both suppliers and purchasers. Purchasers are able to see supplier profiles, while suppliers are able to see purchaser profiles.
 Update your organisation profile by selecting “My Organisation” (1) then “Update Profile” (2) and “Update Contact” (3). An organisation profile allows suppliers to find purchasers to request to bid/quote in tenders. You may upload a logo, website information and contact details which will be visible to suppliers.
@@ -30,11 +32,15 @@ There are 3 types of user permission settings on Health Supply Hub.
 
 To view your user permission settings, hover your mouse over your “User” at the bottom of the webpage.
 
-![image](/health-supply-hub/images/my_organisation_identifier.png)
+<p align="center">
+<img src="/health-supply-hub/images/my_organisation_identifier.png" width="400"  >
+</p>
 
 If you receive an “Authentication Error”, this may indicate that you do not have the permissions for the task. See your “Organisation Admin” to review your access or [contact mSupply Support Team](mailto:health-supply-hub@msupply.foundation).
 
-![image](/health-supply-hub/images/permission_denied.png)
+<p align="center">
+<img src="/health-supply-hub/images/permission_denied.png" width="400"  >
+</p>
 
 #### Managing users in your Organisation
 
