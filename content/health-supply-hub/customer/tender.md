@@ -24,8 +24,9 @@ After a tender has been created on mSupply and then uploaded to Health Supply Hu
 
 The uploaded tender displays an overview of supplier interest on the tender (2):
 
-| Invited           | Amount of suppliers you have invited to bid/quote on your tender |
+|                   |                                                                  |
 | ----------------- | ---------------------------------------------------------------- |
+| Invited           | Amount of suppliers you have invited to bid/quote on your tender |
 | Registered        | Amount of suppliers who have registered (given interest) to bid  |
 | Confirmed         | Amount of suppliers who have sent in a bid/quote                 |
 | Total quote lines | Amount of item lines in total quoted by suppliers                |
