@@ -14,8 +14,7 @@ top = false
 
 #### Navigating the Home Page
 
-Home page image
-![image](/health-supply-hub/images/image.png)
+![image](/health-supply-hub/images/dashboard_navigation.png)
 
 The Homepage contains a Sidebar menu on the left. By default, Health Supply Hub opens in the Tender view. The tenders (1) appear in the order of the closed or nearest closing date. Tenders may also be filtered by status (2) or by the tender closing date period (3). The user logged in is located at the bottom of the webpage (4).
 
@@ -33,13 +32,11 @@ The tender statuses are located at (5). These statuses include:
 
 Details for Health Supply Hub tenders come from the mSupply Tender module:
 
-tender module image
-![image](/health-supply-hub/images/image.png)
+![image](/health-supply-hub/images/tender_module_comparison.png)
 
 #### Sidebar Menu
 
-sidebar image
-![image](/health-supply-hub/images/image.png)
+![image](/health-supply-hub/images/customer_sidebar.png)
 
 | Orange mSupply logo | expand or minimise the menu                    |
 | ------------------- | ---------------------------------------------- |
