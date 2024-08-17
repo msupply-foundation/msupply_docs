@@ -16,8 +16,7 @@ To begin using Health Supply Hub, the [mSupply Support Team](mailto:health-suppl
 
 #### Logging in
 
-login screen
-![image](/health-supply-hub/images/image.png)
+![image](/health-supply-hub/images/login_screen.png)
 
 Use your email address or username that has been set up for you on Health Supply Hub to login. This will have been set up for you by the Health Supply Hub support team
 
@@ -25,13 +24,11 @@ If you have forgotten your password, select the “Forgot Password?” button. T
 
 You will then be directed to the Health Supply Hub main screen.
 
-mainsreen image
-![image](/health-supply-hub/images/image.png)
+![image](/health-supply-hub/images/customer_dashboard.png)
 
 #### Help & Support
 
-docs image
-![image](/health-supply-hub/images/image.png)
+![image](/health-supply-hub/images/docs_button.png)
 
 For any queries, there is a “Docs” icon on the sidebar menu of Health Supply Hub which will open up the Help Page for the page you are viewing. If this does not help to answer your query, please do not hesitate to [contact the Health Supply Hub Support Team via email](mailto:health-supply-hub@msupply.foundation).
 
