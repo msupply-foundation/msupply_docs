@@ -68,13 +68,17 @@ On the tender, check “Incoterm” and “Closing Date” are correct. Then, re
 
 #### Inviting Suppliers
 
-![image](/health-supply-hub/images/invite_supplier_button.png)
+<p align="center">
+<img src="/health-supply-hub/images/invite_supplier_button.png" width="250"  >
+</p>
 
 Suppliers can be invited during the draft and open stages of a tender. To invite a supplier, select “Invite Supplier” on the tender home page or in the tender.
 
 You may then choose suppliers from the “Supplier List” if you have created any, or search for the supplier using the search bar. Once you have selected suppliers to invite, select “OK”.
 
-![image](/health-supply-hub/images/invite_supplier_modal.png)
+<p align="center">
+<img src="/health-supply-hub/images/invite_supplier_modal.png" width="750"  >
+</p>
 
 This will immediately send an email invitation to the supplier for your tender.
 
@@ -88,14 +92,17 @@ mSupply requires you to select at least one supplier before being able to upload
 
 If you have set up supplier lists, to add bulk suppliers go to “Invite Supplier” and choose your supplier list. Select your suppliers for your tender, then select OK.
 
-![image](/health-supply-hub/images/invite_supplier_list.png)
+<p align="center">
+<img src="/health-supply-hub/images/invite_supplier_list.png" width="750"  >
+</p>
 
 #### View Suppliers
 
 To view suppliers invited to your tender, select your tender, then select “Invited Suppliers”
 
-invite suppliers tab image
-![image](/health-supply-hub/images/view_invited_suppliers.png)
+<p align="center">
+<img src="/health-supply-hub/images/view_invited_suppliers.png" width="750"  >
+</p>
 
 Invited Suppliers statuses include:
 
@@ -109,7 +116,9 @@ Invited Suppliers statuses include:
 
 If you would like to extend your closing date for your tender, select “Extend closing date”. Give the new date and reason for extension. An email update will be sent to the invited suppliers.
 
-![image](/health-supply-hub/images/extend_closing_date.png)
+<p align="center">
+<img src="/health-supply-hub/images/extend_closing_date.png" width="250"  >
+</p>
 
 ![image](/health-supply-hub/images/extend_closing_date_modal.png)
 
@@ -117,7 +126,9 @@ If you would like to extend your closing date for your tender, select “Extend 
 
 Select your tender to view from the tender list to open the detail view.
 
-![image](/health-supply-hub/images/customer_tender_detail_view.png)
+<p align="center">
+<img src="/health-supply-hub/images/customer_tender_detail_view.png" width="750"  >
+</p>
 
 ##### Tenderline Items
 
@@ -138,7 +149,9 @@ Details for HSH tender item lines come from the mSupply Tender module:
 
 If a supplier has submitted an inquiry regarding your tender, you can access it through the "Questions" section of your tender interface. Additionally, you will receive an email notification whenever a question is submitted. You have the option to respond exclusively to the inquiring supplier by deselecting the "Publish a notice" checkbox. Alternatively, you can choose to reply and publish a notice, which will allow all registered suppliers to receive an email notification.
 
-![image](/health-supply-hub/images/customer_questions.png)
+<p align="center">
+<img src="/health-supply-hub/images/customer_questions.png" width="750"  >
+</p>
 
 | 1   | All vs unanswered question filter                                                                                                                                                                                                                                                                     |
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -155,7 +168,9 @@ When a tender is in the open stage, a notice can be created and sent to all supp
 
 Publish a notice for suppliers about your tender. A record of published notices will appear at the bottom of the notice menu. Notices will be emailed to registered suppliers and will also appear for suppliers in the Notice section.
 
-![image](/health-supply-hub/images/customer_notices.png)
+<p align="center">
+<img src="/health-supply-hub/images/customer_notices.png" width="750"  >
+</p>
 
 ##### Tender Documents
 
@@ -168,7 +183,9 @@ An email will be sent to the registered suppliers notifying them of your tender 
 | 3   | Your tender document will appear here for you to open                  |
 | 4   | Select the bin icon to delete the tender document                      |
 
-![image](/health-supply-hub/images/customer_tender_documents.png)
+<p align="center">
+<img src="/health-supply-hub/images/customer_tender_documents.png" width="750"  >
+</p>
 
 #### Publishing a Tender
 
