@@ -15,7 +15,7 @@ top = false
 #### Navigating the Home Page
 
 <p align="center">
-<img src="/health-supply-hub/images/dashboard_navigation.png" width="750" height="420" >
+<img src="/health-supply-hub/images/dashboard_navigation.png" width="750"  >
 </p>
 
 The Homepage contains a Sidebar menu on the left. By default, Health Supply Hub opens in the Tender view. The tenders (1) appear in the order of the closed or nearest closing date. Tenders may also be filtered by status (2) or by the tender closing date period (3). The user logged in is located at the bottom of the webpage (4).
@@ -24,8 +24,9 @@ The Homepage contains a Sidebar menu on the left. By default, Health Supply Hub 
 
 The tender statuses are located at (5). These statuses include:
 
-| Draft     | Tender is waiting to be reviewed and published         |
+|           |                                                        |
 | --------- | ------------------------------------------------------ |
+| Draft     | Tender is waiting to be reviewed and published         |
 | Open      | Tender has been published and is open for bids/quotes  |
 | Closed    | Tender is closed and quotes can no longer be submitted |
 | Withdrawn | Tender is withdrawn and no bids can be made            |
@@ -44,8 +45,9 @@ Details for Health Supply Hub tenders come from the mSupply Tender module:
 <img src="/health-supply-hub/images/customer_sidebar.png"  height="420" >
 <!-- </p> -->
 
-| Orange mSupply logo | expand or minimise the menu                    |
+|                     |                                                |
 | ------------------- | ---------------------------------------------- |
+| Orange mSupply logo | expand or minimise the menu                    |
 | Tenders             | opens the tender list view                     |
 | Manage Suppliers    | organise supplier groups for targetted tenders |
 | Manufacturers       | List of manufacturers (non-exhaustive)         |
