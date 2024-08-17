@@ -108,8 +108,9 @@ To view suppliers invited to your tender, select your tender, then select “Inv
 
 Invited Suppliers statuses include:
 
-| Invited   | Supplier has been sent an invitation to bid                                                                                                 |
+|           |                                                                                                                                             |
 | --------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| Invited   | Supplier has been sent an invitation to bid                                                                                                 |
 | Draft     | Supplier has submitted a draft quote - this quote may still be withdrawn or modified until the tender closes                                |
 | Confirmed | Supplier has registered (shown interest) in bidding                                                                                         |
 | Withdrawn | Supplier has withdrawn the quote. Suppliers will also need to provide a reason when withdrawing a quote. This will appear below the status. |
@@ -140,8 +141,9 @@ Details for HSH tender item lines come from the mSupply Tender module:
 
 ![image](/health-supply-hub/images/customer_tenderline_items_vs_tender_module.png)
 
-| 1   | Item list sorting      |
+|     |                        |
 | --- | ---------------------- |
+| 1   | Item list sorting      |
 | 2   | Number of packs        |
 | 3   | Pack size              |
 | 4   | Product Specifications |
@@ -155,8 +157,9 @@ If a supplier has submitted an inquiry regarding your tender, you can access it 
 <img src="/health-supply-hub/images/customer_questions.png" width="750"  >
 </p>
 
-| 1   | All vs unanswered question filter                                                                                                                                                                                                                                                                     |
+|     |                                                                                                                                                                                                                                                                                                       |
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | All vs unanswered question filter                                                                                                                                                                                                                                                                     |
 | 2   | Question Search                                                                                                                                                                                                                                                                                       |
 | 3   | Asking Organisation                                                                                                                                                                                                                                                                                   |
 | 4   | Answer                                                                                                                                                                                                                                                                                                |
@@ -179,8 +182,9 @@ Publish a notice for suppliers about your tender. A record of published notices 
 Upload tender documents to provide extra information to suppliers for your tender. These include documents such as contracts, specifications, conditions, etc. These documents become visible to the supplier once you have published your tender.
 An email will be sent to the registered suppliers notifying them of your tender document upload.
 
-| 1   | In your tender, select “Tender Documents”                              |
+|     |                                                                        |
 | --- | ---------------------------------------------------------------------- |
+| 1   | In your tender, select “Tender Documents”                              |
 | 2   | Select the icon to search and choose file, or drag/drop file to upload |
 | 3   | Your tender document will appear here for you to open                  |
 | 4   | Select the bin icon to delete the tender document                      |
