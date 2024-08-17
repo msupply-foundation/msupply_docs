@@ -29,7 +29,6 @@ There are 3 types of user permission settings on Health Supply Hub.
 | ------------------- | ------------------------------------------------------- |
 | Organisation Access | General users who are only able to view tenders         |
 | Organisation Admin  | Ability to manage profile, tenders, users and suppliers |
-| Governance Users    | Special users with high level functions                 |
 
 To view your user permission settings, hover your mouse over your “User” at the bottom of the webpage.
 
