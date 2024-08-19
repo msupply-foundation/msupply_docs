@@ -20,7 +20,7 @@ Tenders are created on mSupply through the Tender module. For further informatio
 
 After a tender has been created on mSupply and then uploaded to Health Supply Hub, this will appear in “Tenders” with the status “Draft” (1).
 
-![image](/health-supply-hub/images/customer_tender_draft.png)
+![image](/health-supply-hub/customer/images/customer_tender_draft.png)
 
 The uploaded tender displays an overview of supplier interest on the tender (2):
 
@@ -33,7 +33,7 @@ The uploaded tender displays an overview of supplier interest on the tender (2):
 
 Draft tenders cannot be viewed by the supplier. Before publishing a draft tender, ensure all details are correct as changes cannot be made afterwards. Publishing the tender (3) will make it live for suppliers to see and place bids. Once the tender is published, the status will change to “Open” (4). If you would like to withdraw your published tender, select “Withdraw tender” (5). If you withdraw your tender, a prompt will appear to provide a reason which will be sent to suppliers for withdrawing the tender.
 
-![image](/health-supply-hub/images/tender_process_open.png)
+![image](/health-supply-hub/customer/images/tender_process_open.png)
 
 <div class="note">
 	Tenders cannot be deleted once published for audit purposes. They cannonly be withdrawn
@@ -41,7 +41,7 @@ Draft tenders cannot be viewed by the supplier. Before publishing a draft tender
 
 Reasons that are provided for withdrawn tenders are published in “Reason” (6). Once the tender is withdrawn this will also be removed for the supplier.
 
-![image](/health-supply-hub/images/customer_tender_withdrawn.png)
+![image](/health-supply-hub/customer/images/customer_tender_withdrawn.png)
 
 The types of statuses a tender can have include:
 
@@ -56,7 +56,7 @@ The types of statuses a tender can have include:
 
 To review a draft tender, select the tender name to open.
 
-![image](/health-supply-hub/images/customer_draft_tender_summary.png)
+![image](/health-supply-hub/customer/images/customer_draft_tender_summary.png)
 
 On the tender, check “Incoterm” and “Closing Date” are correct. Then, review the “Tender Line Items”. Ensure item name, conditions, product specifications, required packs and pack size are correct. Once you have finished reviewing the tender, you may choose to invite more suppliers or add tender documents (discussed later).
 
@@ -71,7 +71,7 @@ On the tender, check “Incoterm” and “Closing Date” are correct. Then, re
 #### Inviting Suppliers
 
 <p align="center">
-<img src="/health-supply-hub/images/invite_supplier_button.png" width="250"  >
+<img src="/health-supply-hub/customer/images/invite_supplier_button.png" width="250"  >
 </p>
 
 Suppliers can be invited during the draft and open stages of a tender. To invite a supplier, select “Invite Supplier” on the tender home page or in the tender.
@@ -79,7 +79,7 @@ Suppliers can be invited during the draft and open stages of a tender. To invite
 You may then choose suppliers from the “Supplier List” if you have created any, or search for the supplier using the search bar. Once you have selected suppliers to invite, select “OK”.
 
 <p align="center">
-<img src="/health-supply-hub/images/invite_supplier_modal.png" width="750"  >
+<img src="/health-supply-hub/customer/images/invite_supplier_modal.png" width="750"  >
 </p>
 
 This will immediately send an email invitation to the supplier for your tender.
@@ -95,7 +95,7 @@ mSupply requires you to select at least one supplier before being able to upload
 If you have set up supplier lists, to add bulk suppliers go to “Invite Supplier” and choose your supplier list. Select your suppliers for your tender, then select OK.
 
 <p align="center">
-<img src="/health-supply-hub/images/invite_supplier_list.png" width="750"  >
+<img src="/health-supply-hub/customer/images/invite_supplier_list.png" width="750"  >
 </p>
 
 #### View Suppliers
@@ -103,7 +103,7 @@ If you have set up supplier lists, to add bulk suppliers go to “Invite Supplie
 To view suppliers invited to your tender, select your tender, then select “Invited Suppliers”
 
 <p align="center">
-<img src="/health-supply-hub/images/view_invited_suppliers.png" width="750"  >
+<img src="/health-supply-hub/customer/images/view_invited_suppliers.png" width="750"  >
 </p>
 
 Invited Suppliers statuses include:
@@ -120,17 +120,17 @@ Invited Suppliers statuses include:
 If you would like to extend your closing date for your tender, select “Extend closing date”. Give the new date and reason for extension. An email update will be sent to the invited suppliers.
 
 <p align="center">
-<img src="/health-supply-hub/images/extend_closing_date.png" width="250"  >
+<img src="/health-supply-hub/customer/images/extend_closing_date.png" width="250"  >
 </p>
 
-![image](/health-supply-hub/images/extend_closing_date_modal.png)
+![image](/health-supply-hub/customer/images/extend_closing_date_modal.png)
 
 #### Viewing the Tender
 
 Select your tender to view from the tender list to open the detail view.
 
 <p align="center">
-<img src="/health-supply-hub/images/customer_tender_detail_view.png" width="750"  >
+<img src="/health-supply-hub/customer/images/customer_tender_detail_view.png" width="750"  >
 </p>
 
 ##### Tenderline Items
@@ -139,7 +139,7 @@ This is your tender item line details that you have uploaded to HSH. Here we can
 
 Details for HSH tender item lines come from the mSupply Tender module:
 
-![image](/health-supply-hub/images/customer_tenderline_items_vs_tender_module.png)
+![image](/health-supply-hub/customer/images/customer_tenderline_items_vs_tender_module.png)
 
 |     |                        |
 | --- | ---------------------- |
@@ -154,7 +154,7 @@ Details for HSH tender item lines come from the mSupply Tender module:
 If a supplier has submitted an inquiry regarding your tender, you can access it through the "Questions" section of your tender interface. Additionally, you will receive an email notification whenever a question is submitted. You have the option to respond exclusively to the inquiring supplier by deselecting the "Publish a notice" checkbox. Alternatively, you can choose to reply and publish a notice, which will allow all registered suppliers to receive an email notification.
 
 <p align="center">
-<img src="/health-supply-hub/images/customer_questions.png" width="750"  >
+<img src="/health-supply-hub/customer/images/customer_questions.png" width="750"  >
 </p>
 
 |     |                                                                                                                                                                                                                                                                                                       |
@@ -174,7 +174,7 @@ When a tender is in the open stage, a notice can be created and sent to all supp
 Publish a notice for suppliers about your tender. A record of published notices will appear at the bottom of the notice menu. Notices will be emailed to registered suppliers and will also appear for suppliers in the Notice section.
 
 <p align="center">
-<img src="/health-supply-hub/images/customer_notices.png" width="750"  >
+<img src="/health-supply-hub/customer/images/customer_notices.png" width="750"  >
 </p>
 
 ##### Tender Documents
@@ -190,7 +190,7 @@ An email will be sent to the registered suppliers notifying them of your tender 
 | 4   | Select the bin icon to delete the tender document                      |
 
 <p align="center">
-<img src="/health-supply-hub/images/customer_tender_documents.png" width="750"  >
+<img src="/health-supply-hub/customer/images/customer_tender_documents.png" width="750"  >
 </p>
 
 #### Publishing a Tender
@@ -199,10 +199,10 @@ Once you have added your suppliers to the tender and checked the tender is corre
 
 Before a tender has been published, suppliers will not be able to see or upload quotes to the tender.
 
-![image](/health-supply-hub/images/publish_tender_button.png)
+![image](/health-supply-hub/customer/images/publish_tender_button.png)
 
 #### Closed Tenders
 
 Once tender submissions have been closed, you will be able to retrieve and review these submissions through the mSupply Tender Module. Refer to the [mSupply Tender Module Training Guide 2023](https://drive.google.com/file/d/1aZOy6aDVvtKFRtG7SezpMOofSCoHrFD4/view?usp=drive_link) for further information on this.
 
-![image](/health-supply-hub/images/customer_closed_tender.png)
+![image](/health-supply-hub/customer/images/customer_closed_tender.png)
