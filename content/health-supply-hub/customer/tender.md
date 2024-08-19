@@ -193,6 +193,20 @@ An email will be sent to the registered suppliers notifying them of your tender 
 <img src="/health-supply-hub/customer/images/customer_tender_documents.png" width="750"  >
 </p>
 
+##### Tender Logs
+
+Tender logs detail all changes that have occured to your tender. This includes the time of change, the user in your organisation who made the changes, and what the change was.
+
+<p align="center">
+<img src="/health-supply-hub/customer/images/customer-tender-logs.png" width="750"  >
+</p>
+
+Clicking on a log will open up a view of what changes the log details.
+
+<div class="note">
+    Once the tender is closed, this view will also include all logs about suppliers that have engaged with this tender, and the logs of their quotes. This will show when quotes were uploaded, when questions were asked, etc.
+</div>
+
 #### Publishing a Tender
 
 Once you have added your suppliers to the tender and checked the tender is correct, you can select “Publish Tender”. This will send an email notification to the invited suppliers as a request to participate in the tender.
