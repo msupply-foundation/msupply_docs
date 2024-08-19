@@ -43,7 +43,7 @@ Please note that the HSH invite link expires after a short period of time and yo
 
 HSH is designed to guide you through identifying where errors are in your quote template. HSH will tell you which row on the Excel spreadsheet contains the error:
 
-![Error Message - Pack Size Not A Whole Number](/health-supply-hub/images/faq_import_error.png)
+![Error Message - Pack Size Not A Whole Number](/health-supply-hub/supplier/images/faq_import_error.png)
 
 In the above example, on Row 9 of the imported excel sheet this supplier:
 a. has submitted something other than a whole number eg ‘1 tube’; and
@@ -57,14 +57,14 @@ b. has not entered in the manufacturer details.
 
 1. To offer more than one product for a particular Quote line you will need to insert an additional line to your Quote. You can do this by inserting a new row directly below the Quote Item you want to offer more than one product for, or add it in at the bottom of the list.
 
-![Right Click on Line, and copy it](/health-supply-hub/images/faq_duplicate_line_1.png)
-![Paste Line](/health-supply-hub/images/faq_duplicate_line_2.png)
+![Right Click on Line, and copy it](/health-supply-hub/supplier/images/faq_duplicate_line_1.png)
+![Paste Line](/health-supply-hub/supplier/images/faq_duplicate_line_2.png)
 
 2. Whatever row you choose to use to add in your additional product be sure to copy over the information for that Quote line that has been prefilled by the mSupply Tender module. This is required for HSH to be able to read your quote. Without it you will get an error when trying to upload your Quote to HSH
 3. Don’t drag the information down into the new row. A common error that can occur is that any cell value ending in a number will be increased by one as shown in the example below:
-   ![Accidental increment](/health-supply-hub/images/faq_duplicate_line_3.png)
+   ![Accidental increment](/health-supply-hub/supplier/images/faq_duplicate_line_3.png)
 4. The best method is to copy and paste the information directly from the original Quote line into your new Quote line
-   ![Paste New Line](/health-supply-hub/images/faq_duplicate_line_4.png)
+   ![Paste New Line](/health-supply-hub/supplier/images/faq_duplicate_line_4.png)
 
 ## Video Tutorial - How to provide alternative quotes
 
@@ -84,21 +84,21 @@ Following a process like this may make help speed up this process:
 2. Upload into Health Supply Hub to confirm the system will accept all quotes (if system doesn't, fix as directed)
 3. Download Quote template from HSH again (this should include all items already imported)
 
-   ![Quote template with first quote](/health-supply-hub/images/air_sea_1.png)
+   ![Quote template with first quote](/health-supply-hub/supplier/images/air_sea_1.png)
 
 4. Copy all, and then paste at the bottom of the item list
    > Tip: To help identify the copied cells you could colour the cells and delete any items where alternative shipping is not being proposed from the copied cells
 5. Remove the pricing and method of delivery details from all the copied cells
 6. Fill in the new delivery method details
 
-   ![Quote template with new method inputted](/health-supply-hub/images/air_sea_3.png)
+   ![Quote template with new method inputted](/health-supply-hub/supplier/images/air_sea_3.png)
 
 7. Add filter to spreadsheet and order the first column "Line#" from smallest to largest
 8. Fill out the pricing for the alternative method
 9. Upload into Health Supply Hub
 10. Do any final checks (either by downloading the quote form, or viewing the quotes in the tender details section of HSH)
 
-    ![Quote template with both quotes](/health-supply-hub/images/air_sea_4.png)
+    ![Quote template with both quotes](/health-supply-hub/supplier/images/air_sea_4.png)
 
 11. Submit to Purchaser in Health Supply Hub
 
@@ -147,7 +147,7 @@ The comments field is intended for important product information that the Purcha
 - referencing documents you have attached with your quote
 - any other information that the Purchaser has requested or that suppliers think may be useful for the Purchaser to know at evaluation time
 
-![Comments field](/health-supply-hub/images/faq_comment_ref.jpg)
+![Comments field](/health-supply-hub/supplier/images/faq_comment_ref.jpg)
 
 ## Video Tutorial - How to use the comments & supplier reference fields
 
@@ -161,4 +161,4 @@ This depends on the specific Purchaser/Agency, please contact the purchaser to d
 
 Terms and Conditions for supply are at the discretion of the Purchaser, they may have a standard base contract, or product specific contracts. We are advising they attach their Standard Terms and Conditions along with other relevant documentation in each respective supply requests ‘Tender Documents’ section.
 
-![Tender Documents](/health-supply-hub/images/faq_tender_documents.png)
+![Tender Documents](/health-supply-hub/supplier/images/faq_tender_documents.png)

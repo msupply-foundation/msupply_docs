@@ -44,17 +44,17 @@ It is your responsibility to review Requests from Purchasers on HSH. If you are 
 
 It is your sole responsibility to engage with the relevant Purchaser to indicate your interest in supplying for them.
 
-![Register to Quote](/health-supply-hub/images/register_to_quote.png)
+![Register to Quote](/health-supply-hub/supplier/images/register_to_quote.png)
 
 ## Responding To A Request For Supply
 
 1. Once you login the first page that will open is the ‘Tenders’ Page. Any new and open tenders that your organisation has been invited to will appear at the top of this page. All Tenders your organisation has been invited to will be displayed on this page in chronological order of the Tender Deadline Date or ‘Closing Date.’
 
-![Tenders Page](/health-supply-hub/images/tender_list.png)
+![Tenders Page](/health-supply-hub/supplier/images/tender_list.png)
 
 2. When a tender is open for supply the Status will show a blue button that says ‘Ready to Quote’. The annotated picture below highlights key features of each Tender in HSH
 
-![Tender Screenshot with Annotations](/health-supply-hub/images/annotated_tender.png)
+![Tender Screenshot with Annotations](/health-supply-hub/supplier/images/annotated_tender.png)
 
 | Label | Description                                                                                                                                                                                                                                                               |
 | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -79,59 +79,59 @@ It is your sole responsibility to engage with the relevant Purchaser to indicate
 3. If you are unable to submit a quote through HSH this may put you at a commercial disadvantage – Purchasers may choose to exclude suppliers' quotes from further consideration if they do not submit their quotes via HSH.
 4. This screen shot shows the Purchaser generated data.
 
-![Quote Template Purchaser Section](/health-supply-hub/images/quote_purchaser_fields.png)
+![Quote Template Purchaser Section](/health-supply-hub/supplier/images/quote_purchaser_fields.png)
 
-| Column | Description                                                                                         |
-| ------ | --------------------------------------------------------------------------------------------------- |
-| A      | Line # - This is a quick reference both you and the Purchaser can use when referring to a Quote Item     |
+| Column | Description                                                                                                                                                        |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| A      | Line # - This is a quick reference both you and the Purchaser can use when referring to a Quote Item                                                               |
 | B      | Internal Line ID – This is the unique ID number to link your quote/s back to the correct Quote Item when the Purchaser downloads quotes into their mSupply system. |
-| C      | Item Code # – This is the code the Purchaser uses for this item                                     |
-| D      | Item Name Column                                                                                    |
-| E      | Product Specifications, as provided by the purchaser                                  |
-| F      | Number of Packs required in the Purchaser’s requested pack size                                    |
-| G      | Purchaser's requested Pack Size                                                                     |
-| H      | Total Quantity of single units being requested by the Purchaser                                    |
-| I      | Any conditions the Purchaser may have for a particular Quote Item                                   |
-| J      | Purchasers Unit of Measure                                                                          |
+| C      | Item Code # – This is the code the Purchaser uses for this item                                                                                                    |
+| D      | Item Name Column                                                                                                                                                   |
+| E      | Product Specifications, as provided by the purchaser                                                                                                               |
+| F      | Number of Packs required in the Purchaser’s requested pack size                                                                                                    |
+| G      | Purchaser's requested Pack Size                                                                                                                                    |
+| H      | Total Quantity of single units being requested by the Purchaser                                                                                                    |
+| I      | Any conditions the Purchaser may have for a particular Quote Item                                                                                                  |
+| J      | Purchasers Unit of Measure                                                                                                                                         |
 
 1. This screen shot shows the fields you must fill in to submit a quote
 
-![Quote Template Supplier Section](/health-supply-hub/images/quote_supplier_fields.png)
+![Quote Template Supplier Section](/health-supply-hub/supplier/images/quote_supplier_fields.png)
 
-| Column | Description                                                                                                   |
-| ------ | ------------------------------------------------------------------------------------------------------------- | 
-| K      | Enter in how many packs you are offering to supply the Purchaser                                              |
-| L      | Enter in the Pack Size of the product your offering to supply                                                 |
-| M      | Enter in the Price you are offering to supply a single pack of your product at, in the currency you specify in the next column                                           |
-| N      | The currency your Quoted price per pack is in (Please use [ISO currency codes](https://en.wikipedia.org/wiki/ISO_4217#List_of_ISO_4217_currency_codes))                             |
-| O      | When your product is expected to expire, or the shelf life if the product has not yet been manufactured       |
-| P      | Delivery time, explain how long it would take to get your product to the Purchaser's identified delivery location                                                               |
-| Q      | The finished product manufacturer of your product. NB Please check this is not just the regulatory sponsor / distributor of the product                                             |
-| R      | How you would deliver the product eg Air freight or Sea Freight                                               |
-| S      | You can choose to put your internal reference code or product identifier here                                 |
+| Column | Description                                                                                                                                                                   |
+| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| K      | Enter in how many packs you are offering to supply the Purchaser                                                                                                              |
+| L      | Enter in the Pack Size of the product your offering to supply                                                                                                                 |
+| M      | Enter in the Price you are offering to supply a single pack of your product at, in the currency you specify in the next column                                                |
+| N      | The currency your Quoted price per pack is in (Please use [ISO currency codes](https://en.wikipedia.org/wiki/ISO_4217#List_of_ISO_4217_currency_codes))                       |
+| O      | When your product is expected to expire, or the shelf life if the product has not yet been manufactured                                                                       |
+| P      | Delivery time, explain how long it would take to get your product to the Purchaser's identified delivery location                                                             |
+| Q      | The finished product manufacturer of your product. NB Please check this is not just the regulatory sponsor / distributor of the product                                       |
+| R      | How you would deliver the product eg Air freight or Sea Freight                                                                                                               |
+| S      | You can choose to put your internal reference code or product identifier here                                                                                                 |
 | T      | A field to put any further comments in to explain what you are offering the Purchaser more clearly, or include any other information you think the Purchaser may need to know |
 
 ## Submitting Your Quote
 
 1. When you are ready to submit your quote you should click the ‘Upload Quote’ button.
-   ![Upload Quote Button](/health-supply-hub/images/upload_quote.png)
+   ![Upload Quote Button](/health-supply-hub/supplier/images/upload_quote.png)
 
 2. A window will pop up giving you instructions on how to upload your Quote
 3. Then drag and drop your Quote Excel file into the grey area of the pop-up window; Or click the grey area of the pop-up window to search for your file on your local drive.
 
 4. Click the Import button:
 
-![upload_quote](/health-supply-hub/images/upload_quote_modal.png)
+![upload_quote](/health-supply-hub/supplier/images/upload_quote_modal.png)
 
 - if there are no compatibility issues with your Excel Quote, HSH will tell you your quote has been successfully imported into HSH;
 - if there are compatibility issues with your Excel Quote, HSH will inform you of where the errors are located within your quote sheet (see FAQ section for more information).
 
-![upload quote success](/health-supply-hub/images/upload_quote_success.png)
+![upload quote success](/health-supply-hub/supplier/images/upload_quote_success.png)
 
 5. After you have successfully imported your quote into HSH you then need to Submit it to the Purchaser by clicking the ‘Submit Quote’ button. If this has been done correctly the Status section will show a Green ‘Quote Submitted’ sign.
 6. In addition to submitting your product bids you must also ensure that you have provided the Purchaser with all the additional requested documentation. You can upload these documents to HSH by clicking the Attachment button and dragging and dropping the files in the greyed out section or click the greyed out section to search for them.
 
-![Supplier upload attachments](/health-supply-hub/images/supplier_attach_files.png)
+![Supplier upload attachments](/health-supply-hub/supplier/images/supplier_attach_files.png)
 
 > IMPORTANT: If your quote has been uploaded, but not submitted, the Purchaser will not be able to see your quote. Ensure your quote status is displayed as "Quote Submitted" before the closing date.
 
