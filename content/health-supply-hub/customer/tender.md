@@ -206,3 +206,15 @@ Before a tender has been published, suppliers will not be able to see or upload 
 Once tender submissions have been closed, you will be able to retrieve and review these submissions through the mSupply Tender Module. Refer to the [mSupply Tender Module Training Guide 2023](https://drive.google.com/file/d/1aZOy6aDVvtKFRtG7SezpMOofSCoHrFD4/view?usp=drive_link) for further information on this.
 
 ![image](/health-supply-hub/customer/images/customer_closed_tender.png)
+
+#### Tender Audit Report
+
+A Tender Audit Report can be generated for closed tenders by pressing the Download Audit Report on the tender details page.
+
+![image](/health-supply-hub/customer/images/audit-report-button.png)
+
+This report details a summary supplier activity with the tender.
+
+<div class="note">
+    The tender must be closed before a report can be generated.
+</div>
