@@ -47,9 +47,9 @@ Details for Health Supply Hub tenders come from the mSupply Tender module:
 
 |                     |                                                |
 | ------------------- | ---------------------------------------------- |
-| Orange mSupply logo | expand or minimise the menu                    |
-| Tenders             | opens the tender list view                     |
-| Manage Suppliers    | organise supplier groups for targetted tenders |
+| Orange mSupply logo | Expand or minimise the menu                    |
+| Tenders             | Opens the tender list view                     |
+| Manage Suppliers    | Organise supplier groups for targetted tenders |
 | Manufacturers       | List of manufacturers (non-exhaustive)         |
 | My Organisation     | Manage your users and organisation profile     |
 | Supplier Profiles   | View suppliers active on Health Supply Hub     |
