@@ -15,7 +15,7 @@ top = false
 #### Setting up your Organisation Profile
 
 <p align="center">
-<img src="/health-supply-hub/images/customer_organisation_navigation.png" width="750"  >
+<img src="/health-supply-hub/customer/images/customer_organisation_navigation.png" width="750"  >
 </p>
 
 Organisation profiles are visible to both suppliers and purchasers. Purchasers are able to see supplier profiles, while suppliers are able to see purchaser profiles.
@@ -33,20 +33,20 @@ There are 3 types of user permission settings on Health Supply Hub.
 To view your user permission settings, hover your mouse over your “User” at the bottom of the webpage.
 
 <p align="center">
-<img src="/health-supply-hub/images/my_organisation_identifier.png" width="400"  >
+<img src="/health-supply-hub/customer/images/my_organisation_identifier.png" width="400"  >
 </p>
 
 If you receive an “Authentication Error”, this may indicate that you do not have the permissions for the task. See your “Organisation Admin” to review your access or [contact mSupply Support Team](mailto:health-supply-hub@msupply.foundation).
 
 <p align="center">
-<img src="/health-supply-hub/images/permission_denied.png" width="400"  >
+<img src="/health-supply-hub/customer/images/permission_denied.png" width="400"  >
 </p>
 
 #### Managing users in your Organisation
 
 If you have admin rights, you are able to view and manage users in your organisation. Select “Users” (1) to view users in your organisation and “Invite user” (2) to invite users to your organisation. When inviting users, select user permissions you would like this person to have.
 
-![image](/health-supply-hub/images/managing_my_organisation_users.png)
+![image](/health-supply-hub/customer/images/managing_my_organisation_users.png)
 
 Note: You may also notice a user with “name_integration” in your organisation. This is not a true user but is used to link your mSupply program to Health Supply Hub.
 
@@ -64,22 +64,22 @@ Once registered, purchasers are able to link suppliers to their mSupply instance
 
 To view Supplier Profiles, go to “Supplier Profiles” on the sidebar menu and select the supplier.
 
-![image](/health-supply-hub/images/navigate_to_supplier_profiles.png)
+![image](/health-supply-hub/customer/images/navigate_to_supplier_profiles.png)
 
 The organisation profile will display the organisation logo, website and other important details related to the organisation. This is an opportunity for purchasers to see and consider more suppliers in their tenders.
 
-![image](/health-supply-hub/images/supplier_profile_view.png)
+![image](/health-supply-hub/customer/images/supplier_profile_view.png)
 
 #### Managing Suppliers
 
 Supplier lists can be created to help make managing suppliers and tenders a lot easier. To create a supplier list, select “Manage Suppliers” (1) then “New supplier list” (2). Select “Manager supplier list” (3) to add suppliers.
 
 Managing suppliers button
-![image](/health-supply-hub/images/managing_suppliers.png)
+![image](/health-supply-hub/customer/images/managing_suppliers.png)
 
 Select “Add to list” (1) to add suppliers. You are unable to edit Supplier list names once they have been created. To remove the list, select “Delete Supplier list” (2). To remove suppliers, select the supplier and then select the dropdown and “Remove selected suppliers” (3).
 
 Select action suppliers suppliers button
-![image](/health-supply-hub/images/managing_suppliers_actions.png)
+![image](/health-supply-hub/customer/images/managing_suppliers_actions.png)
 
 Select suppliers to add to your supplier list, then select “OK”.
