@@ -36,7 +36,7 @@ Draft tenders cannot be viewed by the supplier. Before publishing a draft tender
 ![image](/health-supply-hub/images/tender_process_open.png)
 
 <div class="note">
-	Tenders cannot be deleted once published for audit purposes. They cannonly be withdrawn
+	Tenders cannot be deleted once published for audit purposes. They can only be withdrawn
 </div>
 
 Reasons that are provided for withdrawn tenders are published in “Reason” (6). Once the tender is withdrawn this will also be removed for the supplier.
