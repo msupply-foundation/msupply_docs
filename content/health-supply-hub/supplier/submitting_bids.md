@@ -139,6 +139,12 @@ It is your sole responsibility to engage with the relevant Purchaser to indicate
 
 {{ youtube(id="Mky2cJ_hNUU", class="youtube") }}
 
+### Quote Logs
+
+You will be able to see logs of your quote on the Log tab of the Tender Detail view. This includes information of all changes to your quote that have occured.
+
+![image](/health-supply-hub/customer/images/supplier-quote-logs.png)
+
 ## Tips
 
 1. If you need to correct any errors in your quote you can do so by Uploading a new Quote to HSH before the ‘Closing Date’
