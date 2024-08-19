@@ -89,6 +89,12 @@ They can then activate their account by clicking on the ‘Activate Account’ b
 
 3. When you are satisfied with the changes made, click ‘OK’
 
+### User Logs
+
+Health Supply Hub keeps tracks of actions taken on user accounts. The log tab on the modal will show details of when the account was created, when it has been used, and when it has been updated.
+
+![Edit User](/health-supply-hub/supplier/images/log-tab.png)
+
 ### Tips
 
 - Additional users can be added to your organisation after your organisation registration is complete.

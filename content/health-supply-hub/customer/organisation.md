@@ -51,6 +51,12 @@ If you have admin rights, you are able to view and manage users in your organisa
 
 Note: You may also notice a user with “name_integration” in your organisation. This is not a true user but is used to link your mSupply program to Health Supply Hub.
 
+#### User Logs
+
+Health Supply Hub keeps tracks of actions taken on user accounts. The log tab on the modal will show details of when the account was created, when it has been used, and when it has been updated.
+
+![Edit User](/health-supply-hub/supplier/images/log-tab.png)
+
 ##### Deleting Users
 
 Users cannot be removed from Health Supply Hub for audit purposes. In future updates there will be a feature to hide inactive users.
