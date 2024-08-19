@@ -20,19 +20,19 @@ The Health Supply Hub maintains list of manufacturers to select from. If the man
 
 While waiting for the updated manufacturer list, or if pressed for time, you can enter "Manufacturer Not On List" in the manufacturer field and include the real manufacturer name in the comment field so the purchaser can update their records when the manufacturer is added.
 
-![Enter Manufacturer Details in Comment](/health-supply-hub/images/enter_manufacturer_comment.jpg)
+![Enter Manufacturer Details in Comment](/health-supply-hub/supplier/images/enter_manufacturer_comment.jpg)
 
 Note: Purchasers may consider failure to provide valid manufacturer information when assessing your quote.
 
 ## Manufacturer Import Errors
 
 If your import fails with an error like this, Health Supply Hub was not able to identify the manufacturer from the approved list.
-![Manufacturer Import Error](/health-supply-hub/images/manufacturer_error.png)
+![Manufacturer Import Error](/health-supply-hub/supplier/images/manufacturer_error.png)
 
 Check that you have spelled the Manufacturer Name correctly (note, we have include the country name in the manufacturer field to help identify the correct manufacturer).
 
 You can search for manufacturers from the 'Manufacturers' tab in HSH
-![Manufacturer Search](/health-supply-hub/images/manufacturer_search_online.png)
+![Manufacturer Search](/health-supply-hub/supplier/images/manufacturer_search_online.png)
 
 Or you can check the names provided in the 'ManufacturerList' tab in your excel template.
-![Manufacturer Search](/health-supply-hub/images/manufacturer_search_excel.png)
+![Manufacturer Search](/health-supply-hub/supplier/images/manufacturer_search_excel.png)
