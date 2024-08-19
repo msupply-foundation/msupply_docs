@@ -18,22 +18,89 @@ By requesting to register your organisation on HSH you acknowledge that you have
 
 ### Registration Process
 
-1. To register your organisation please use the supplier registration form [here](https://forms.gle/oDDwAKKB3B6gMWPW7)
-2. You will need to provide basic information about your organisation and your organisation's approved HSH Administrator.
+[Health Supply Hub](https://health-supply-hub.msupply.org) has an easy to register form for suppliers. When you visit for the first time, go to this link to access the registration form:
 
-3. The HSH Team will then register your organisation. Once processed, all designated users will receive a verification email. Click the provided link to navigate to the user account activation page.
-   ![User invitation page](/health-supply-hub/images/invited_email.png)
+![Supplier registration button](/health-supply-hub/images/supplier_login-page-registration-form.png)
+This link will take you to the supplier registration form.
 
-4. Should you have any issues or queries about the registration process, please email the HSH Support team at:
-   health-supply-hub@msupply.foundation
+#### Organisation Details
 
-5. To finish setting up your account enter your:
-   - Desired username;
-   - Full name; and
-   - New account password.
-6. Then click the Activate Account button.
-   ![User invitation page](/health-supply-hub/images/activate_user_account.png)
-7. Now your account is activated and you can now log into the HSH e-portal.
+1. enter your organisation's details
+
+![Supplier registration form organisation details](/health-supply-hub/images/supplier_organisation_details.png)
+
+#### Contact Details
+
+2. Enter the contact details of your organisation
+
+![supplier registration form organisation details](/health-supply-hub/images/supplier_contact_details.png)
+
+<div class="note">
+	Ensure the primary email here is recorded correctly. This is the email [Health Supply Hub](https://health-supply-hub.msupply.org) administrators will use to contact you about your application.
+</div>
+
+#### Users
+
+3. Enter user details for your organisation.
+
+![supplier registration form organisation details](/health-supply-hub/images/supplier_users.png)
+
+You can add as many users as you need for your organisation by pressing the new user button.
+
+<div class="note">
+    Ensure at least one user for your organisation has Organisation Admin permission status.
+</div>
+
+#### Business Interests
+
+4. Enter business interest details for your organisation.
+
+![Business interests](/health-supply-hub/images/supplier_business_interests.png)
+
+Business interests will be visible on your public organisation profile to purchaser organisations. They will use this information to invite suppliers whose business interests align with the tender.
+
+A public supplier organisation profile is optional. To make your organisation private, toggle the private selection.
+
+A private organisation won't have a visible profile page for purchaser organisations to view.
+
+Your organisation's profile can be customised and changed between public and private at any time.
+
+<div class="note">
+    Setting your organisation to private does not affect your organisations ability to submit quotes to tenders. Purchaser organisations can also still invite your organisation to tenders.
+</div>
+
+#### Confirmation
+
+5. After entering all details, confirm your application by pressing the submit button.
+
+![Confirmation Page](/health-supply-hub/images/supplier_confirmation_button.png)
+
+If your application is missing any information, you will be prompted here to fill out all required information.
+
+<div class="note">
+    Setting your organisation to private does not affect your organisations ability to submit quotes to tenders. Purchaser organisations can also still invite your organisation to tenders.
+</div>
+
+![Confirmation Message](/health-supply-hub/images/supplier_confirmation_message.png)
+
+After confirming, our admin team will review your application.
+
+You will then receive an email with a response from our admin team.
+
+![Registration Accepted Email](/health-supply-hub/images/supplier_registration_accepted_email.png)
+
+If your application is denied for any reason, we will also let you know.
+
+![Registration Denied Email](/health-supply-hub/images/supplier_registration_denied_email.png)
+
+<div class="note">
+    If your application is declined, our admin team will provide reasons why. You can also email us at [mSupply Support Team](mailto:health-supply-hub@msupply.foundation) if you have any questions about your application.
+</div>
+
+After your application is accepted, each of your users which were added in your application process will also receive an email.
+This will be used for them to set up their user login for [Health Supply Hub](https://health-supply-hub.msupply.org).
+
+![User setup email](/health-supply-hub/images/supplier_registration_user_activation_email.png)
 
 ### Tips
 
