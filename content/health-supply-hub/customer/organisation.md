@@ -12,7 +12,7 @@ toc = true
 top = false
 +++
 
-#### Setting up your Organisation Profile
+### Setting up your Organisation Profile
 
 <p align="center">
 <img src="/health-supply-hub/customer/images/customer_organisation_navigation.png" width="750"  >
@@ -21,7 +21,7 @@ top = false
 Organisation profiles are visible to both suppliers and purchasers. Purchasers are able to see supplier profiles, while suppliers are able to see purchaser profiles.
 Update your organisation profile by selecting “My Organisation” (1) then “Update Profile” (2) and “Update Contact” (3). An organisation profile allows suppliers to find purchasers to request to bid/quote in tenders. You may upload a logo, website information and contact details which will be visible to suppliers.
 
-#### Users
+### Users
 
 There are 3 types of user permission settings on Health Supply Hub.
 
@@ -43,7 +43,7 @@ If you receive an “Authentication Error”, this may indicate that you do not 
 <img src="/health-supply-hub/customer/images/permission_denied.png" width="400"  >
 </p>
 
-#### Managing users in your Organisation
+### Managing users in your Organisation
 
 If you have admin rights, you are able to view and manage users in your organisation. Select “Users” (1) to view users in your organisation and “Invite user” (2) to invite users to your organisation. When inviting users, select user permissions you would like this person to have.
 
@@ -61,7 +61,7 @@ Health Supply Hub keeps tracks of actions taken on user accounts. The log tab on
 
 Users cannot be removed from Health Supply Hub for audit purposes. In future updates there will be a feature to hide inactive users.
 
-#### Supplier Profiles
+### Supplier Profiles
 
 Suppliers are required to go through an application process to become visible on the Health Supply Hub Supplier Profile list.
 
@@ -77,7 +77,7 @@ The organisation profile will display the organisation logo, website and other i
 
 ![image](/health-supply-hub/customer/images/supplier_profile_view.png)
 
-#### Managing Suppliers
+### Managing Suppliers
 
 Supplier lists can be created to help make managing suppliers and tenders a lot easier. To create a supplier list, select “Manage Suppliers” (1) then “New supplier list” (2). Select “Manager supplier list” (3) to add suppliers.
 

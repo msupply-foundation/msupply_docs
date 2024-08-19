@@ -16,7 +16,7 @@ top = false
 
 {{ youtube(id="73lq84ojH1I", class="youtube") }}
 
-## Restricted Procurement Processes
+### Restricted Procurement Processes
 
 Restricted tendering is a procurement method that limits the request for tenders to a select number of suppliers, contractors, or service providers. This method of procurement is also called: Closed Tendering, Limited Bidding and Selective Tendering.
 
@@ -38,7 +38,7 @@ Information that you may be required to provide to a Purchaser includes:
 - Information about your previous experience in supplying the same or similar goods in similar settings to that of the Purchaser’s settings.
 - References
 
-## Expressing Interest To Bid On A Purchaser Request
+### Expressing Interest To Bid On A Purchaser Request
 
 It is your responsibility to review Requests from Purchasers on HSH. If you are interested in a particular request for supply, you should click the ‘Register to Quote’ button to ensure any further correspondence related to that opportunity will be sent to you and to enable the upload quote functionality.
 
@@ -46,7 +46,7 @@ It is your sole responsibility to engage with the relevant Purchaser to indicate
 
 ![Register to Quote](/health-supply-hub/supplier/images/register_to_quote.png)
 
-## Responding To A Request For Supply
+### Responding To A Request For Supply
 
 1. Once you login the first page that will open is the ‘Tenders’ Page. Any new and open tenders that your organisation has been invited to will appear at the top of this page. All Tenders your organisation has been invited to will be displayed on this page in chronological order of the Tender Deadline Date or ‘Closing Date.’
 
@@ -72,7 +72,7 @@ It is your sole responsibility to engage with the relevant Purchaser to indicate
 | l     | Button you press to submit your quote once your quote template is successfully loaded, and you are willing to commit to supply                                                                                                                                            |
 | m     | The date the request is due to close                                                                                                                                                                                                                                      |
 
-## The Quote Template
+### The Quote Template
 
 1. Health Supply Hub has a Microsoft® Excel ® quote template that must be strictly followed. This is to ensure that your quote is compatible with the Purchaser’s mSupply System.
 2. Failure to fill out the quote template correctly means you will be unable to upload your quote into HSH.
@@ -111,7 +111,7 @@ It is your sole responsibility to engage with the relevant Purchaser to indicate
 | S      | You can choose to put your internal reference code or product identifier here                                                                                                 |
 | T      | A field to put any further comments in to explain what you are offering the Purchaser more clearly, or include any other information you think the Purchaser may need to know |
 
-## Submitting Your Quote
+### Submitting Your Quote
 
 1. When you are ready to submit your quote you should click the ‘Upload Quote’ button.
    ![Upload Quote Button](/health-supply-hub/supplier/images/upload_quote.png)
@@ -139,13 +139,13 @@ It is your sole responsibility to engage with the relevant Purchaser to indicate
 
 {{ youtube(id="Mky2cJ_hNUU", class="youtube") }}
 
-### Quote Logs
+#### Quote Logs
 
 You will be able to see logs of your quote on the Log tab of the Tender Detail view. This includes information of all changes to your quote that have occured.
 
 ![image](/health-supply-hub/customer/images/supplier-quote-logs.png)
 
-## Tips
+### Tips
 
 1. If you need to correct any errors in your quote you can do so by Uploading a new Quote to HSH before the ‘Closing Date’
 2. To support timely evaluation of your offer we suggest that you attach your supporting document in a zip file that contains separate folders for each Quote Item.

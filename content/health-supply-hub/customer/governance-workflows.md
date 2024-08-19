@@ -72,6 +72,8 @@ A tender with Governance Workflows enabled will also have different permission r
 	Organisation Admin users are able to publish a tender as a governance workflow tender. However only a Governance user can set a tender to Governance type once it has been published.
 </div>
 
+#### Governance Tender Permissions
+
 | Action                   | Access User | Admin User | Governance User |
 | ------------------------ | ----------- | ---------- | --------------- |
 | view tender              | ✅          | ✅         | ✅              |

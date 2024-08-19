@@ -24,7 +24,7 @@ While waiting for the updated manufacturer list, or if pressed for time, you can
 
 Note: Purchasers may consider failure to provide valid manufacturer information when assessing your quote.
 
-## Manufacturer Import Errors
+### Manufacturer Import Errors
 
 If your import fails with an error like this, Health Supply Hub was not able to identify the manufacturer from the approved list.
 ![Manufacturer Import Error](/health-supply-hub/supplier/images/manufacturer_error.png)
