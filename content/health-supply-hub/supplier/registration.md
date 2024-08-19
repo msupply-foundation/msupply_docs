@@ -20,20 +20,20 @@ By requesting to register your organisation on HSH you acknowledge that you have
 
 [Health Supply Hub](https://health-supply-hub.msupply.org) has an easy to register form for suppliers. When you visit for the first time, go to this link to access the registration form:
 
-![Supplier registration button](/health-supply-hub/images/supplier_login-page-registration-form.png)
+![Supplier registration button](/health-supply-hub/supplier/images/supplier_login-page-registration-form.png)
 This link will take you to the supplier registration form.
 
 #### Organisation Details
 
 1. enter your organisation's details
 
-![Supplier registration form organisation details](/health-supply-hub/images/supplier_organisation_details.png)
+![Supplier registration form organisation details](/health-supply-hub/supplier/images/supplier_organisation_details.png)
 
 #### Contact Details
 
 2. Enter the contact details of your organisation
 
-![supplier registration form organisation details](/health-supply-hub/images/supplier_contact_details.png)
+![supplier registration form organisation details](/health-supply-hub/supplier/images/supplier_contact_details.png)
 
 <div class="note">
 	Ensure the primary email here is recorded correctly. This is the email [Health Supply Hub](https://health-supply-hub.msupply.org) administrators will use to contact you about your application.
@@ -43,7 +43,7 @@ This link will take you to the supplier registration form.
 
 3. Enter user details for your organisation.
 
-![supplier registration form organisation details](/health-supply-hub/images/supplier_users.png)
+![supplier registration form organisation details](/health-supply-hub/supplier/images/supplier_users.png)
 
 You can add as many users as you need for your organisation by pressing the new user button.
 
@@ -55,7 +55,7 @@ You can add as many users as you need for your organisation by pressing the new 
 
 4. Enter business interest details for your organisation.
 
-![Business interests](/health-supply-hub/images/supplier_business_interests.png)
+![Business interests](/health-supply-hub/supplier/images/supplier_business_interests.png)
 
 Business interests will be visible on your public organisation profile to purchaser organisations. They will use this information to invite suppliers whose business interests align with the tender.
 
@@ -73,7 +73,7 @@ Your organisation's profile can be customised and changed between public and pri
 
 5. After entering all details, confirm your application by pressing the submit button.
 
-![Confirmation Page](/health-supply-hub/images/supplier_confirmation_button.png)
+![Confirmation Page](/health-supply-hub/supplier/images/supplier_confirmation_button.png)
 
 If your application is missing any information, you will be prompted here to fill out all required information.
 
@@ -81,17 +81,17 @@ If your application is missing any information, you will be prompted here to fil
     Setting your organisation to private does not affect your organisations ability to submit quotes to tenders. Purchaser organisations can also still invite your organisation to tenders.
 </div>
 
-![Confirmation Message](/health-supply-hub/images/supplier_confirmation_message.png)
+![Confirmation Message](/health-supply-hub/supplier/images/supplier_confirmation_message.png)
 
 After confirming, our admin team will review your application.
 
 You will then receive an email with a response from our admin team.
 
-![Registration Accepted Email](/health-supply-hub/images/supplier_registration_accepted_email.png)
+![Registration Accepted Email](/health-supply-hub/supplier/images/supplier_registration_accepted_email.png)
 
 If your application is denied for any reason, we will also let you know.
 
-![Registration Denied Email](/health-supply-hub/images/supplier_registration_denied_email.png)
+![Registration Denied Email](/health-supply-hub/supplier/images/supplier_registration_denied_email.png)
 
 <div class="note">
     If your application is declined, our admin team will provide reasons why. You can also email us at [mSupply Support Team](mailto:health-supply-hub@msupply.foundation) if you have any questions about your application.
@@ -100,7 +100,7 @@ If your application is denied for any reason, we will also let you know.
 After your application is accepted, each of your users which were added in your application process will also receive an email.
 This will be used for them to set up their user login for [Health Supply Hub](https://health-supply-hub.msupply.org).
 
-![User setup email](/health-supply-hub/images/supplier_registration_user_activation_email.png)
+![User setup email](/health-supply-hub/supplier/images/supplier_registration_user_activation_email.png)
 
 ### Tips
 
