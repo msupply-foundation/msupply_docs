@@ -36,7 +36,7 @@ This link will take you to the supplier registration form.
 ![supplier registration form organisation details](/health-supply-hub/supplier/images/supplier_contact_details.png)
 
 <div class="note">
-	Ensure the primary email here is recorded correctly. This is the email [Health Supply Hub](https://health-supply-hub.msupply.org) administrators will use to contact you about your application.
+	Ensure the primary email here is recorded correctly. This is the email Health Supply Hub administrators will use to contact you about your application.
 </div>
 
 #### Users
