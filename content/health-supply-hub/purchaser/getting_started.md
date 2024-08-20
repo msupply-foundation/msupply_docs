@@ -12,7 +12,7 @@ toc = true
 top = false
 +++
 
-To begin using Health Supply Hub, the [mSupply Support Team](mailto:health-supply-hub@msupply.foundation) will assist with integrating your mSupply program with Health Supply Hub. They will also set up the main user who will be able to manage other users that are going to be involved in the procurement process on Health Supply Hub.
+To begin using Health Supply Hub, the [Health Supply Hub Support Team](mailto:health-supply-hub@msupply.foundation) will assist with integrating your mSupply program with Health Supply Hub. They will also set up the main user who will be able to manage other users that are going to be involved in the procurement process on Health Supply Hub.
 
 ### Logging in
 

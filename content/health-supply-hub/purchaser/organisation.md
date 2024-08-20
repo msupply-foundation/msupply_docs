@@ -37,7 +37,7 @@ To view your user permission settings, hover your mouse over your “User” at 
 <img src="/health-supply-hub/purchaser/images/my_organisation_identifier.png" width="400"  >
 </p>
 
-If you receive an “Authentication Error”, this may indicate that you do not have the permissions for the task. See your “Organisation Admin” to review your access or [contact mSupply Support Team](mailto:health-supply-hub@msupply.foundation).
+If you receive an “Authentication Error”, this may indicate that you do not have the permissions for the task. See your “Organisation Admin” to review your access or [contact the Health Supply Hub Support Team](mailto:health-supply-hub@msupply.foundation).
 
 <p align="center">
 <img src="/health-supply-hub/purchaser/images/permission_denied.png" width="400"  >

@@ -16,7 +16,7 @@ Governance Workflows allow additional control over editing permissions of your t
 
 ### Getting started with Governance Workflows
 
-Your organisation will need to have Governance Workflows enabled before you can use them. To get started, get in touch with the [mSupply Support Team](mailto:health-supply-hub@msupply.foundation) who will be able to enable them for your organisation, and select which users are to have Governance permissions.
+Your organisation will need to have Governance Workflows enabled before you can use them. To get started, get in touch with the [Health Supply Hub Support Team](mailto:health-supply-hub@msupply.foundation) who will be able to enable them for your organisation, and select which users are to have Governance permissions.
 
 A [Health Supply Hub](https://health-supply-hub.msupply.org) admin user will also be able to select specific users within your organisation to have Governance Workflow permissions. There permissions are a higher level than organisation admin.
 
