@@ -25,7 +25,7 @@ With Restricted Tenders it is at the sole discretion of the Purchaser as to whic
 Currently Health Supply Hub is set up for Purchaser to issue restricted tenders only. Open tendering via HSH is currently under development.
 Even after this feature is developed purchasers may choose to issue restricted tenders.
 
-#### Your Responsibilities
+### Your Responsibilities
 
 You must ensure that you have engaged with the relevant Purchaser so that they know you have an interest in supplying for them. Not all procurements are openly advertised.
 Each Purchaser may have different requirements for new suppliers to be invited to their supply requests. You should contact the relevant staff at the relevant Purchasing Agency to understand their specific needs.
