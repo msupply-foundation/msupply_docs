@@ -24,8 +24,7 @@ By requesting to register your organisation on HSH you acknowledge that you have
 3. The HSH Team will then register your organisation. Once processed, all designated users will receive a verification email. Click the provided link to navigate to the user account activation page.
    ![User invitation page](/health-supply-hub/images/invited_email.png)
 
-4. Should you have any issues or queries about the registration process, please email the HSH Support team at:
-   health-supply-hub@msupply.foundation
+4. Should you have any issues or queries about the registration process, please email the [HSH Support Team](mailto:health-supply-hub@msupply.foundation)
 
 5. To finish setting up your account enter your:
    - Desired username;

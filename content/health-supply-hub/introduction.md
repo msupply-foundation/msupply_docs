@@ -20,7 +20,7 @@ Traditional tender processes are often very time consuming and prone to errors. 
 
 Health Supply Hub is a platform that assists in the tender process by extending the functionality of the mSupply Tender module through its web-based tender management platform. It facilitates the easy upload and management of tenders created within mSupply and allows for efficient communication and transparency among suppliers.
 
-Purchasers create tenders on mSupply and upload the tender to Health Supply Hub. Suppliers view these tenders and upload their quotes for items they wish to bid on. They are also able to ask questions and obtain clarification with the purchaser. Once quotes have been uploaded by the supplier, this is downloaded back to the mSupply Tender module where it can be reviewed by the purchaser and successful bidders chosen.
+Purchasers create tenders on mSupply and upload the tender to Health Supply Hub. Suppliers view these tenders and upload their quotes for items they wish to bid on. They are also able to ask questions and obtain clarification with the purchaser. Once quotes have been uploaded by the supplier, this is downloaded back to the mSupply Tender module where it evaluation can be completed by the purchaser and successful bidders chosen.
 
 [Health Supply Hub (HSH)](https://health-supply-hub.msupply.org/) is a web-based platform to facilitate procurement of medical supplies.
 
