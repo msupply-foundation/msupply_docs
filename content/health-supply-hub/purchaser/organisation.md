@@ -65,7 +65,7 @@ Users cannot be removed from Health Supply Hub for audit purposes. In future upd
 
 Suppliers are required to go through an application process to become visible on the Health Supply Hub Supplier Profile list.
 
-Once registered, these suppliers can then be invited to participate in tenders. If a purchaser would like a particular supplier who is not registered on HSH to bid, they will need to request the supplier to register. This can be done by [submitting a form](/health-supply-hub/supplier/registration/#registration-process), or emailing health-supply-hub@msupply.foundation (allow 1 working day for processing your registration). Registering to Health Supply Hub is easy and helps to streamline the tender process for both you and the supplier.
+Once registered, these suppliers can then be invited to participate in tenders. If a purchaser would like a particular supplier who is not registered on HSH to bid, they will need to request the supplier to register. This can be done by [submitting a form](/health-supply-hub/supplier/registration/#registration-process), or emailing the [Health Supply Hub Support Team](mailto:health-supply-hub@msupply.foundation) (allow 1 working day for processing your registration). Registering to Health Supply Hub is easy and helps to streamline the tender process for both you and the supplier.
 
 Once registered, purchasers are able to link suppliers to their mSupply instance (with or without help from mSupply Support). The purchaser can then easily invite the supplier via mSupply tender module and make orders from winning bidders.
 

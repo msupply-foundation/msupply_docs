@@ -94,7 +94,7 @@ If your application is denied for any reason, we will also let you know.
 ![Registration Denied Email](/health-supply-hub/supplier/images/supplier_registration_denied_email.png)
 
 <div class="note">
-    If your application is declined, our admin team will provide reasons why. You can also email the <a href="mailto: mailto:health-supply-hub@msupply.foundation">mSupply Support Team</a> if you have any questions about your application.
+    If your application is declined, our admin team will provide reasons why. You can also email the <a href="mailto: mailto:health-supply-hub@msupply.foundation">Health Supply Hub Support Team</a> if you have any questions about your application.
 </div>
 
 After your application is accepted, each of your users which were added in your application process will also receive an email.
@@ -110,4 +110,4 @@ This will be used for them to set up their user login for [Health Supply Hub](ht
 1. For cases where the Administrator person or inbox may be unavailable, we strongly recommend you add additional Users so they can gain access to the HSH site and receive copies of any emails without needing to contact the HSH Support Team
 1. Your organisation can have as many administrators and users as it wants
 1. If you have previously registered with the Health Supply Hub e-portal, you do not need to register again
-1. If you lose access to your email, you can email the [HSH Support Team](health-supply-hub@msupply.foundation) to get a new user account and email set up with your organisation
+1. If you lose access to your email, you can email the [Health Supply Hub Support Team](mailto:health-supply-hub@msupply.foundation) to get a new user account and email set up with your organisation

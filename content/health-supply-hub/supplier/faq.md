@@ -14,7 +14,7 @@ top = false
 
 ### The Manufacturer I want to bid with is not available in the list. What should I do?
 
-Please email health-supply-hub@msupply.foundation with the list of any manufacturers you want to use in your quote or fill out the request form [here](https://docs.google.com/forms/d/e/1FAIpQLScv8Mmin1SXuJwD7MDALEYb648Nrb_XvLpBUer8YIhdwR9NpA/viewform?usp=sf_link).
+Please email [Health Supply Hub Support Team](mailto:health-supply-hub@msupply.foundation) with the list of any manufacturers you want to use in your quote or fill out the request form [here](https://docs.google.com/forms/d/e/1FAIpQLScv8Mmin1SXuJwD7MDALEYb648Nrb_XvLpBUer8YIhdwR9NpA/viewform?usp=sf_link).
 
 In the mean time, please enter "Manufacturer Not On List" in the manufacturer field and include the real manufacturer name in the comment field so the purchaser can update their records when the manufacturer is added.
 
@@ -30,7 +30,7 @@ There are two user roles that can be assigned to users.
 When submitting a quote you should submit under the legal entity /organisation that would be legally responsible for supplying that product.
 Therefore each company/legal entity should be registered on HSH, you'll need to login with a different user account for each organisation.
 
-A separate username and password is required for each organisation, if you'd like help setting this up, please contact `health-supply-hub@msupply.foundation` for assistance.
+A separate username and password is required for each organisation, if you'd like help setting this up, please contact [Health Supply Hub Support Team](mailto:health-supply-hub@msupply.foundation) for assistance.
 
 ### My Personalised Link To Register Has Expired. What Do I Do?
 
