@@ -110,4 +110,4 @@ This will be used for them to set up their user login for [Health Supply Hub](ht
 1. For cases where the Administrator person or inbox may be unavailable, we strongly recommend you add additional Users so they can gain access to the HSH site and receive copies of any emails without needing to contact the HSH Support Team
 1. Your organisation can have as many administrators and users as it wants
 1. If you have previously registered with the Health Supply Hub e-portal, you do not need to register again
-1. If you lose access to your email, you can email the HSH Support Team (health-supply-hub@msupply.foundation) to get a new user account and email set up with your organisation
+1. If you lose access to your email, you can email the [HSH Support Team](health-supply-hub@msupply.foundation) to get a new user account and email set up with your organisation
