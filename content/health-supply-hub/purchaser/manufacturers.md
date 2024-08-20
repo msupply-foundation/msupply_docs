@@ -14,4 +14,4 @@ top = false
 
 To view a list of the manufacturers available on Health Supply Hub, go to “Manufacturers” on the sidebar menu. The manufacturer list is used to provide transparency to purchasers so that they know where their items are being manufactured and by whom. Manufacturers are checked and added by our mSupply Support Team to ensure validity.
 
-![image](/health-supply-hub/customer/images/customer_managing_manufacturers.png)
+![image](/health-supply-hub/purchaser/images/customer_managing_manufacturers.png)

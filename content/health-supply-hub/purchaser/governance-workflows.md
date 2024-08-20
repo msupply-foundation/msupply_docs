@@ -22,11 +22,11 @@ A [Health Supply Hub](https://health-supply-hub.msupply.org) admin user will als
 
 After publishing a tender, a user with governance workflow permissions will be able to set the tender to Governance Workflow type.
 
-![image](/health-supply-hub/customer/images/governance-workflow-select.png)
+![image](/health-supply-hub/purchaser/images/governance-workflow-select.png)
 
 [Organisation Admin](../organisation#users) and [Organisation Access](../organisation#users) users will then be able to see that the tender has been set to use Governance Workflows.
 
-![image](/health-supply-hub/customer/images/normal_user_governance_tender.png)
+![image](/health-supply-hub/purchaser/images/normal_user_governance_tender.png)
 
 ### Differences of a Governance Workflow Tender
 
@@ -34,19 +34,19 @@ The key feature of a governance workflow tender is that it will be locked by def
 
 Before it is unlocked, Organisation Access and Organisation Admin users will see a locked tender:
 
-![image](/health-supply-hub/customer/images/locked-tender.png)
+![image](/health-supply-hub/purchaser/images/locked-tender.png)
 
 Attachments will also be hidden while the tender is locked:
 
-![image](/health-supply-hub/customer/images/attachments-hidden.png)
+![image](/health-supply-hub/purchaser/images/attachments-hidden.png)
 
 To unlock a tender for all users to view, a governance user must unlock the tender in the tender detail view.
 
-![image](/health-supply-hub/customer/images/unlock-tender-button.png)
+![image](/health-supply-hub/purchaser/images/unlock-tender-button.png)
 
 Once it is unlocked, organisation admin and organisation access users will be able to view all quote details as normal.
 
-![image](/health-supply-hub/customer/images/unlocked-tender.png)
+![image](/health-supply-hub/purchaser/images/unlocked-tender.png)
 
 ### Permissions of Governance Workflows on Open Tenders
 
