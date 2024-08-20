@@ -143,7 +143,7 @@ It is your sole responsibility to engage with the relevant Purchaser to indicate
 
 You will be able to see logs of your quote on the Log tab of the Tender Detail view. This includes information of all changes to your quote that have occured.
 
-![image](/health-supply-hub/purchaser/images/supplier-quote-logs.png)
+![image](/health-supply-hub/supplier/images/supplier-quote-logs.png)
 
 ### Tips
 
