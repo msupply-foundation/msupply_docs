@@ -94,7 +94,7 @@ If your application is denied for any reason, we will also let you know.
 ![Registration Denied Email](/health-supply-hub/supplier/images/supplier_registration_denied_email.png)
 
 <div class="note">
-    If your application is declined, our admin team will provide reasons why. You can also email us at [mSupply Support Team](mailto:health-supply-hub@msupply.foundation) if you have any questions about your application.
+    If your application is declined, our admin team will provide reasons why. You can also email the <a href="mailto: mailto:health-supply-hub@msupply.foundation">mSupply Support Team</a> if you have any questions about your application.
 </div>
 
 After your application is accepted, each of your users which were added in your application process will also receive an email.
