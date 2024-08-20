@@ -14,7 +14,7 @@ top = false
 
 Governance Workflows allow additional control over editing permissions of your tenders and viewing permission of quotes. This is done by adding an additional higher level permission user type: Governance. Governance workflows can be used for larger tenders where your organisation might want to restrict what users are able to take key actions on a tender.
 
-### Getting started with Governance Worflows
+### Getting started with Governance Workflows
 
 Your organisation will need to have Governance Workflows enabled before you can use them. To get started, get in touch with the [mSupply Support Team](mailto:health-supply-hub@msupply.foundation) who will be able to enable them for your organisation, and select which users are to have Governance permissions.
 
