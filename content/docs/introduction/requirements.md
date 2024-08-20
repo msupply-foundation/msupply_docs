@@ -44,7 +44,6 @@ Hardware requirements vary widely depending on what you want to use Open mSupply
 | Windows server                             | 64 bit processor<br/>Windows 10 Pro or Win server 2019<br/>8 Gb RAM<br/>50 GB HDD/SDD volume with daily backups to an external volume                          | 64 bit processor<br/>Windows Server 2019+<br/>8 Gb RAM<br/>4 x HDD/SDD volumes, 3 configured as RAID1 or RAID5 with hot spare<br/>Daily backups to the fourth volume plus daily off-site backups<br/>Attached to a Smart UPS (see below) |
 | Linux client or server                     | 64 bit processor<br/>Ubuntu 20+ or similar<br/>4 Gb RAM<br/>256 Gb storage                                                                                     | 64 bit processor<br/>Ubuntu 20+ or similar<br/>8 Gb RAM<br/>256 Gb storage                                                                                                                                                               |
 
-
 <div class="note">
 Recording stock transactions is a core Open mSupply activity. Most stock transaction data is numeric. A numeric keypad is often helpful for machines that have a lot of data entry done on them.
 </div>
@@ -138,6 +137,13 @@ Windows based operating systems are particularly prone to malware if precautions
 - Disable USB ports - refer to [this site](http://www.thewindowsclub.com/disable-enable-usb-windowunlock-pen-drive-at-office-or-school-computer) for suggested methods
 
 Ensure that access to passwords which allow exceptions to the above two measures are kept secure.
+
+## Database
+
+Open mSupply supports both SQLite and postgreSQL as database servers, with the selection made at time of installation.
+We recommend using PostgreSQL when running a centralised or high-use server as it can provide greater performance than SQLite does. PostgreSQL does require a separate installation - you can use an existing installation, install separately to Open mSupply, or select the checkbox which is part of the server installation.
+
+There is a minimum version for PostgreSQL of version 12.
 
 ## Central Servers
 
