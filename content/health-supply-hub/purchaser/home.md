@@ -12,15 +12,15 @@ toc = true
 top = false
 +++
 
-#### Navigating the Home Page
+### Navigating the Home Page
 
 <p align="center">
-<img src="/health-supply-hub/images/dashboard_navigation.png" width="750"  >
+<img src="/health-supply-hub/purchaser/images/dashboard_navigation.png" width="750"  >
 </p>
 
 The Homepage contains a Sidebar menu on the left. By default, Health Supply Hub opens in the Tender view. The tenders (1) appear in the order of the closed or nearest closing date. Tenders may also be filtered by status (2) or by the tender closing date period (3). The user logged in is located at the bottom of the webpage (4).
 
-##### Statuses
+#### Statuses
 
 The tender statuses are located at (5). These statuses include:
 
@@ -31,25 +31,25 @@ The tender statuses are located at (5). These statuses include:
 | Closed    | Tender is closed and quotes can no longer be submitted |
 | Withdrawn | Tender is withdrawn and no bids can be made            |
 
-##### Tender Module
+#### Tender Module
 
 Details for Health Supply Hub tenders come from the mSupply Tender module:
 
 <p align="center">
-<img src="/health-supply-hub/images/tender_module_comparison.png" width="750"  >
+<img src="/health-supply-hub/purchaser/images/tender_module_comparison.png" width="750"  >
 </p>
 
-#### Sidebar Menu
+### Sidebar Menu
 
 <!-- <p align="left"> -->
-<img src="/health-supply-hub/images/customer_sidebar.png"  height="420" >
+<img src="/health-supply-hub/purchaser/images/customer_sidebar.png"  height="420" >
 <!-- </p> -->
 
 |                     |                                                |
 | ------------------- | ---------------------------------------------- |
-| Orange mSupply logo | Expand or minimise the menu                    |
-| Tenders             | Opens the tender list view                     |
-| Manage Suppliers    | Organise supplier groups for targetted tenders |
+| Orange mSupply logo | expand or minimise the menu                    |
+| Tenders             | opens the tender list view                     |
+| Manage Suppliers    | organise supplier groups for targetted tenders |
 | Manufacturers       | List of manufacturers (non-exhaustive)         |
 | My Organisation     | Manage your users and organisation profile     |
 | Supplier Profiles   | View suppliers active on Health Supply Hub     |
