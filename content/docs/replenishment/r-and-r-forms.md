@@ -72,26 +72,28 @@ Once you are happy with your inputs, click `OK` to generate the form. You will b
 
 The R&R form contains the following columns. Calculated/non-editable columns are greyed out. Columns marked with an asterisk (\*) below are editable.
 
-| Column                   | Description                                                                                                                                                                                                   |
-| :----------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Code**                 | Item code                                                                                                                                                                                                     |
-| **Name**                 | Item name                                                                                                                                                                                                     |
-| **Strength**             | Strength of the item                                                                                                                                                                                          |
-| **Unit**                 | Unit of measure for the item                                                                                                                                                                                  |
-| **VEN**                  | Item VEN category: Vital (V), Essential (E), Non-essential (N)                                                                                                                                                |
-| **Initial balance\***    | Stock on hand for this item at the start of the period. Uses the final balance from the previous R&R form (if it exists), or attempts to calculate the balance based on any transaction data in Open mSupply. |
-| **Received\***           | Quantity of this item received during the period. Populated by quantities received through Inbound Shipments.                                                                                                 |
-| **Consumed\***           | Quantity of this item consumed during the period. Populated by quantities distributed through Outbound Shipments or Prescriptions.                                                                            |
-| **Adjusted consumption** | Consumption, adjusted for any days out of stock. Calculation is <code>Consumed x Days in period / Days in stock</code>                                                                                        |
-| **Adjustments\***        | Losses/adjustments made for this item during the period. Can be positive or negative. Populated by data from Stocktakes or Inventory Adjustments.                                                             |
-| **Stock out duration\*** | Number of days in the period where stock on hand for the item was 0.                                                                                                                                          |
-| **Final balance**        | Stock on hand for the item at the end of the period. Calculation is <code>Initial balance + Received - Consumed + Adjustments</code>                                                                          |
-| **AMC**                  | Average monthly consumption over the last 3 periods                                                                                                                                                           |
-| **Maximum**              | <code>AMC x 2</code>                                                                                                                                                                                          |
-| **Expiry\***             | Expiry date of the earliest expiring available batch of this item                                                                                                                                             |
-| **Requested\***          | Quantity to be requested in the requisition. Calculated as <code>Maximum - Final balance</code>                                                                                                               |
-| **Comment\***            | You can add any comments to the line as needed                                                                                                                                                                |
-| **Confirmed\***          | Use this column to keep track of which lines are complete. Acts as the save button for changes to a line.                                                                                                     |
+| Column                                | Description                                                                                                                                                                                                   |
+| :------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Code**                              | Item code                                                                                                                                                                                                     |
+| **Name**                              | Item name                                                                                                                                                                                                     |
+| **Strength**                          | Strength of the item                                                                                                                                                                                          |
+| **Unit**                              | Unit of measure for the item                                                                                                                                                                                  |
+| **VEN**                               | Item VEN category: Vital (V), Essential (E), Non-essential (N)                                                                                                                                                |
+| **Initial balance\***                 | Stock on hand for this item at the start of the period. Uses the final balance from the previous R&R form (if it exists), or attempts to calculate the balance based on any transaction data in Open mSupply. |
+| **Received\***                        | Quantity of this item received during the period. Populated by quantities received through Inbound Shipments.                                                                                                 |
+| **Consumed/distributed\***            | Quantity of this item consumed during the period. Populated by quantities distributed through Outbound Shipments or Prescriptions.                                                                            |
+| **Adjusted consumption/distribution** | Consumption, adjusted for any days out of stock. Calculation is <code>Consumed x Days in period / Days in stock</code>                                                                                        |
+| **Adjustments +/-\***                 | Losses/adjustments made for this item during the period. Can be positive or negative. Populated by data from Stocktakes or Inventory Adjustments.                                                             |
+| **Stock out duration\***              | Number of days in the period where stock on hand for the item was 0.                                                                                                                                          |
+| **Final balance**                     | Stock on hand for the item at the end of the period. Calculation is <code>Initial balance + Received - Consumed + Adjustments</code>                                                                          |
+| **AMC/AMD**                           | Average monthly consumption (distribution) over the last 3 periods                                                                                                                                            |
+| **Maximum**                           | Ideal amount of stock to have on hand, requested quantity could be any amount up to this value. Calculated as <code>AMC x 2</code>                                                                            |
+| **Expiry\***                          | Expiry date of the earliest expiring available batch of this item                                                                                                                                             |
+| **Requested\***                       | Quantity to be requested in the requisition. Calculated as <code>Maximum - Final balance</code>                                                                                                               |
+| **Low stock**                         | Warning indicator if your final balance is low in comparison to the ideal stock level. Will show `!` when `Final balance` is less than half of `Maximum`, and `!!` when less than quarter                     |
+| **Comment\***                         | You can add any comments to the line as needed                                                                                                                                                                |
+| **Confirmed\***                       | Use this column to keep track of which lines are complete. Acts as the save button for changes to a line.                                                                                                     |
+| **Approved Quantity**                 | Once the R&R Form is finalised, this column will show the quantity approved by the supplier                                                                                                                   |
 
 ### Editing the R&R Form
 
@@ -122,5 +124,6 @@ When you are ready to finalise the R&R form, click the `Finalise` button at the 
 
 - The R&R form will no longer be editable
 - An Internal Order will be created and sent to the selected supplier. The values entered against each item in the R&R form are used to populate the Internal Order, so check the `Requested` value before confirming!
+- Once the Internal Order has been approved by the supplier, the `Approved Quantity` column will be populated with the approved quantities.
 
 You can also click the `Close` button at any time to return to the list view.
