@@ -93,7 +93,7 @@ The R&R form contains the following columns. Calculated/non-editable columns are
 | **Low stock**                         | Warning indicator if your final balance is low in comparison to the ideal stock level. Will show `!` when `Final balance` is less than half of `Maximum`, and `!!` when less than quarter                     |
 | **Comment\***                         | You can add any comments to the line as needed                                                                                                                                                                |
 | **Confirmed\***                       | Use this column to keep track of which lines are complete. Acts as the save button for changes to a line.                                                                                                     |
-| **Approved Quantity**                 | Once the R&R Form is finalised, this column will show the quantity approved by the supplier                                                                                                                   |
+| **Approved Quantity**                 | Once the R&R Form is finalised, this column will show the quantity approved by the authoriser (if authorisation is configured)                                                                                |
 
 ### Editing the R&R Form
 
@@ -124,6 +124,6 @@ When you are ready to finalise the R&R form, click the `Finalise` button at the 
 
 - The R&R form will no longer be editable
 - An Internal Order will be created and sent to the selected supplier. The values entered against each item in the R&R form are used to populate the Internal Order, so check the `Requested` value before confirming!
-- Once the Internal Order has been approved by the supplier, the `Approved Quantity` column will be populated with the approved quantities.
+- Once the Internal Order has been approved by the authoriser, the `Approved Quantity` column will be populated with the approved quantities.
 
 You can also click the `Close` button at any time to return to the list view.
