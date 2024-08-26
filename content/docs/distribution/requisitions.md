@@ -33,35 +33,44 @@ From this screen you can:
 
 ### Requisition list
 
-1. The list of Requisitions is divided into 5 columns:
+The list of Requisitions is divided into 6 columns:
 
-| Column      | Description                         |
-| :---------- | :---------------------------------- |
-| **Name**    | Name of the Customer                |
-| **Number**  | Reference Number of the requisition |
-| **Created** | Creation Date of the requisition    |
-| **Status**  | Current Status of the requisition   |
-| **Comment** | Comment for the requisition         |
+| Column        | Description                                      |
+| :------------ | :----------------------------------------------- |
+| **Name**      | Name of the Customer                             |
+| **Number**    | Reference Number of the requisition              |
+| **Created**   | Creation Date of the requisition                 |
+| **Status**    | Current Status of the requisition                |
+| **Shipments** | Number of shipments created from the requisition |
+| **Comment**   | Comment for the requisition                      |
 
-1. The list can display a fixed number of requisitions per page. On the bottom left corner, you can see how many requisitions are currently displayed on your screen.
+<div class="note">If you have program requisitions enabled, you may have additional columns in this table!</div>
+
+The list can display a fixed number of requisitions per page. On the bottom left corner, you can see how many requisitions are currently displayed on your screen.
 
 ![Page](/docs/distribution/images/os_list_showing.png)
 
-3. If you have more requisitions than the current limit, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner).
+If you have more requisitions than the current limit, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner).
 
 ![Page](/docs/distribution/images/os_list_pagenumbers.png)
 
-4. You can also select a different number of rows to show per page using the option at the bottom right of the page.
+You can also select a different number of rows to show per page using the option at the bottom right of the page.
 
 ![Rows per page](/docs/introduction/images/rows-per-page-select.png)
 
 ### Filter Requisitions
 
-You can filter the list of requisitions by name or status. This can be useful if you're looking for one particular requisition!
+You can filter the list of requisitions by name, status or whether shipments have been created. This can be useful if you're looking for one particular requisition!
 
 ![Requisition filter](/docs/distribution/images/req_filter.png)
 
-Select the desired filter from the list and either select a status from the list, or start typing in the `Name` field. All the requisitions which match the entered filter value will appear in the list.
+Select the desired filter(s) from the list:
+
+- **Name**: Start typing in the field to filter by customer name
+- **Status**: Select a status from the dropdown list
+- **Shipment created**: Toggle on to only show requisitions where shipments have been created
+
+All the requisitions which match the filters will appear in the list.
 
 ### Exporting Requisitions
 
