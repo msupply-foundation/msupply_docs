@@ -72,10 +72,10 @@ La liste est divisée en 10 colonnes:
 |                   | Une icone montrant une alerte si la breche est ignorée                                                                      |
 | **Statut**        | Le statut de la breche peut etre `Pris en compte` ou `Ignoré`                                                                    |
 | **Nom du capteur**| Nom du capteur                                                                                                             |
-| **Emplacment**    | Emplacment actuel assigné au capteur                                                                                        |
+| **Emplacement**    | Emplacment actuel assigné au capteur                                                                                        |
 | **CCE**           | Nom de l'actif de la chaîne du froid auquel est rattaché le capteur                                                      |
 | **Début**         | Date et heure de début de l'anomalie                                                                                      |
-| **Fin**           | Date et heure de début de la breche, si applicable                                                                         |
+| **Fin**           | Date et heure de début de l'anomalie', si applicable                                                                         |
 | **Durée**         | La durée de l'anomalie, si elle s'est terminée. `En cours` s'affiche si la breche n'est pas terminée.                               |
 | **Type**          | Le type d'anomalie: ceci est une combinaison de Chaud ou Froid (voir la couleur du text et de l'icone) et  Consécutif ou Cumulé |
 | **Max / Min**     | La température enregistrée quand l'anomalie a été mise a jour, c'est a dire le debut ou la fin de l'anomalie.        |
@@ -124,7 +124,7 @@ Once a breach is acknowledged, the red alert icon is no longer shown for that br
 
 ![Breach comment](/docs/coldchain/images/breach_comment.png)
 
-### Log
+### Journal
 
 The log view shows a list of all temperature logs.
 
