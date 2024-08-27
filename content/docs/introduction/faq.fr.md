@@ -23,60 +23,58 @@ Oui...Open mSupply a été créé pour une utilisation 'hors ligne' ce qui signi
 Avec Open mSupply, 3 aspects peuvent etre évoqués:
 * Les **Sites distants** ou l'utilisateur fait ses taches quotidiennes.
 * Les **Sites distants hébergés sur le Cloud** qui peuvent etre utilises la ou il y a une connection Internet de qualité et continue.
-* Le **Serveur Central** est ou les données principales ainsi que les données des sites distants sont agregées pour le reporting.
+* Le **Serveur Central** est l'endroit où les données principales ainsi que les données des sites distants sont agregées pour le reporting.
 
 ##### Sites distants
-On a particular remote site, the database will be SQLite if running on Android, or usually Postgres if running a desktop server. We are assuming that if you have a busy site, you will upgrade to desktop (which is a painless process), so the Android limits are less relevant.
+Sur un site distant particulier, la base de données sera SQLite si elle est exécutée sur Android, ou généralement Postgres si elle est exécutée sur un serveur de bureau. Nous partons du principe que si vous avez un site très fréquenté, vous effectuerez une mise à niveau vers un ordinateur de bureau (ce qui est un processus simple), de sorte que les limites d'Android sont moins pertinentes.
 
-|  Type of record   |  Record limit   |
+|  Type d'enregistrement   |  Limite d'enregistrement   |
 |-------|-------:|
-| Products   | > 1,000,000   |
-| Trade items   | > 1,000,000,000   |
-| Users   | configured centrally - no practical limit at a site  |
-| Suppliers   | configured centrally - no practical limit at a site  |
+| Produits   | > 1,000,000   |
+| Articles    | > 1,000,000,000   |
+| Utilisateurs   | configuration centrale - pas de limite pratique par site  |
+| SFournisseurs   | configuration centrale - pas de limite pratique par site  |
 | Transactions   | > 1,000,000,000    |
 
-##### Cloud hosted remote sites
-If you host your remote site in the cloud, it can have thousands of connected users. The record limits are as above, but performance will be determined by available bandwidth both for the server and for each user's own internet connection.
+##### Sites distants hébergés dans le cloud
+Si vous hébergez votre site distant dans le cloud, il peut accueillir des milliers d'utilisateurs connectés. Les limites d'enregistrement sont les mêmes que ci-dessus, mais les performances seront déterminées par la bande passante disponible à la fois pour le serveur et pour la connexion Internet de chaque utilisateur.
 
-##### The Central Server
-The Central Server uses Postgres, and aggregates all data from all sites, as well as being the master data server for Sites, Products (Items), Facilities, Suppliers and Users.
+##### Le Serveur Central
+Le serveur central utilise Postgres et regroupe toutes les données de tous les sites, tout en étant le serveur de données principal pour les sites, les produits (articles), les dépots, les fournisseurs et les utilisateurs.
 
-|  Type of record   |  Record limit   |
+|  Type d'enregistrement   |  Limite d'enregistrement   |
 |-------|-------:|
-| Products   | > 1,000,000   |
-| Trade items   | > 1,000,000,000   |
-| Users   | > 100,000   |
-| Suppliers   | > 100,000  |
+| Produits   | > 1,000,000   |
+| Articles   | > 1,000,000,000   |
+| Utilisateurs   | > 100,000   |
+| Forunisseurs   | > 100,000  |
 | Sites  | > 100,000   |
 | Transactions   | > 1,000,000,000    |
 
-(As of 2023 we are still to rewrite the central server as an open source project - the limits for the commercial mSupply central server are lower, but we still have sites with tens of millions of transactions, and growing fast. We don't expect any site to run into limits before we transition to an open source central server).
+(En 2024, nous devons encore réécrire le serveur central en tant que projet open source - les limites du serveur central commercial mSupply sont plus basses, mais nous avons toujours des sites avec des dizaines de millions de transactions et une croissance rapide. Nous ne prévoyons pas qu'un site rencontre des limites avant de passer à un serveur central open source).
 
-#### Can you have multi-users on one Android tablet with Open mSupply?
-Yes!
+#### Pouvez-vous avoir plusieurs utilisateurs sur une tablette Android avec Open mSupply ?
+Oui! Plusieurs utilisateurs peuvent se connecter à une même tablette.
 
-You can have multiple users log into the one tablet.
+#### Pouvez-vous avoir plusieurs magasins sur une seule tablette avec Open mSupply ?
 
-#### Can you have multi-stores on one tablet with Open mSupply?
+Oui!
 
-Yes!
+Les dépôts visibles sur chaque tablette de chaque site sont configurés de manière centralisée.
+Lorsque vous vous connectez, vous verrez tous les dépôts auxquels vous avez l'autorisation de vous connecter.
+Si vous ne voyez pas un dépôt que vous attendez, vérifiez les autorisations sur le serveur central et assurez-vous que le site distant s'est synchronisé après la mise à jour des autorisations.
 
-The stores visible on each tablet at each site are configured centrally.
-When you log in you will see all stores that you have permission to log in to.
-If you don't see a store you expect, check permissions on the central server and make sure the remote site has synchronised after updating permissions.
+#### Pouvez-vous avoir plusieurs utilisateurs sur plusieurs tablettes Open mSupply accédant simultanément au même dépôt ?
 
-#### Can you have multiple users on multiple Open mSupply tablets accessing the same store concurrently?
+Oui!
 
-Yes!
+Vous pouvez également accéder à un serveur Open mSupply exécuté sur une tablette Android à partir d'une machine exécutant Open mSupply Desktop ou à partir d'un navigateur Web sur n'importe quel appareil.
 
-You can also access an Open mSupply server running on an Android tablet from a machine running Open mSupply desktop or from a web browser on any device.
+De plus, Open mSupply « publie » sa disponibilité sur le réseau local, ce qui vous permet de vous connecter au serveur sans avoir à vous soucier des adresses IP et autres.
 
-Further, Open mSupply "publishes" its availability on the local network, so you can log into the server without messing around with IP addresses and the like.
+#### Plusieurs personnes peuvent-elles visualiser/modifier la même expédition/le même inventaire/la même demande en même temps ?
+Oui! Bien que la dernière modification remplace les modifications précédentes si vous modifiez la même ligne en même temps, l'intégrité du stock sera néanmoins préservée.
 
-#### Can multiple people view/edit the same shipment/stocktake/requisiton at the same time?
-Yes! Although the last edit will override previous edits if you both edit the same line at the same time. Stock integrity will be maintained though.
+#### Existe-t-il des restrictions de licences simultanées ?
 
-#### Are there any concurrent license restrictions?
-
-There aren't any restrictions on the number of users connected to a server.
+Il n'y a aucune restriction sur le nombre d'utilisateurs connectés à un serveur.
