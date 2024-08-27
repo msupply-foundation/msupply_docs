@@ -55,13 +55,13 @@ The programs and order period you see will be affected by the store tags and pro
 
 ### Internal Orders
 
-There are several areas where you'll see additional information when using a program based requisition.
+There are several areas where you'll see additional information when using a program based Internal Order.
 
 ![Internal Order: program order](/docs/programs/images/internal_order_detail.png)
 
-1. Additional information telling you which program, order type and period this Internal Order is for.
-2. As the message says, you cannot add items, so the `Add item` and `Add from master list` buttons are disabled.
-3. The message also states that you cannot edit the maximum or minimum MOS on a program based Internal Order. These values are configured by the program.
+1. The `Add item` and `Add from master list` buttons are disabled. Items in a program based Internal Order are configured by the program.
+2. A message explaining that you also cannot edit the maximum or minimum MOS on a program based Internal Order. These values are configured by the program.
+3. Additional information telling you which program, order type and period this Internal Order is for. This detail panel can be opened by clicking the `More` button in the top right of the page.
 
 ### Requisitions
 
