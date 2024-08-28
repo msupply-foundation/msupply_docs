@@ -42,7 +42,7 @@ Details for Health Supply Hub tenders come from the mSupply Tender module:
 ### Sidebar Menu
 
 <!-- <p align="left"> -->
-<img src="/health-supply-hub/purchaser/images/customer_sidebar.png"  height="420" >
+<img src="/health-supply-hub/purchaser/images/purchaser_sidebar.png"  height="420" >
 <!-- </p> -->
 
 |                     |                                                |

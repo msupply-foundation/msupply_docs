@@ -15,7 +15,7 @@ top = false
 ### Setting up your Organisation Profile
 
 <p align="center">
-<img src="/health-supply-hub/purchaser/images/customer_organisation_navigation.png" width="750"  >
+<img src="/health-supply-hub/purchaser/images/purchaser_organisation_navigation.png" width="750"  >
 </p>
 
 Organisation profiles are visible to both suppliers and purchasers. Purchasers are able to see supplier profiles, while suppliers are able to see purchaser profiles.
