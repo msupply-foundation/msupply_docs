@@ -36,7 +36,7 @@ Draft tenders cannot be viewed by the supplier. Before publishing a draft tender
 ![image](/health-supply-hub/purchaser/images/tender_process_open.png)
 
 <div class="note">
-	Tenders cannot be deleted once published for audit purposes. They cannonly be withdrawn
+	Tenders cannot be deleted once published for audit purposes. They can only be withdrawn.
 </div>
 
 Reasons that are provided for withdrawn tenders are published in “Reason” (6). Once the tender is withdrawn this will also be removed for the supplier.
@@ -154,7 +154,7 @@ Details for HSH tender item lines come from the mSupply Tender module:
 If a supplier has submitted an inquiry regarding your tender, you can access it through the "Questions" section of your tender interface. Additionally, you will receive an email notification whenever a question is submitted. You have the option to respond exclusively to the inquiring supplier by deselecting the "Publish a notice" checkbox. Alternatively, you can choose to reply and publish a notice, which will allow all registered suppliers to receive an email notification.
 
 <p align="center">
-<img src="/health-supply-hub/purchaser/images/customer_questions.png" width="750"  >
+<img src="/health-supply-hub/purchaser/images/purchaser_questions.png" width="750"  >
 </p>
 
 |     |                                                                                                                                                                                                                                                                                                       |
@@ -162,7 +162,7 @@ If a supplier has submitted an inquiry regarding your tender, you can access it 
 | 1   | All vs unanswered question filter                                                                                                                                                                                                                                                                     |
 | 2   | Question Search                                                                                                                                                                                                                                                                                       |
 | 3   | Asking Organisation                                                                                                                                                                                                                                                                                   |
-| 4   | Answer                                                                                                                                                                                                                                                                                                |
+| 4   | Private Answer that is only shared with the supplier that asked the question                                                                                                                                                                                                                          |
 | 5   | Notices allow you to create a public message so that all suppliers can see. This can help to clear confusion about your tender and prevent other suppliers from asking the same question. Type in your “Title” for your notice. Type in your message you would like to attach for your public notice. |
 
 |
