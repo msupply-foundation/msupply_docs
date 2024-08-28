@@ -27,7 +27,7 @@ If you have forgotten your password, select the “Forgot Password?” button. T
 You will then be directed to the Health Supply Hub main screen.
 
 <p align="center">
-<img src="/health-supply-hub/purchaser/images/customer_dashboard.png" width="750" height="420" >
+<img src="/health-supply-hub/purchaser/images/purchaser_dashboard.png" width="750" height="420" >
 </p>
 
 ### Help & Support

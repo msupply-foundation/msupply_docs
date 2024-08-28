@@ -20,7 +20,7 @@ Tenders are created on mSupply through the Tender module. For further informatio
 
 After a tender has been created on mSupply and then uploaded to Health Supply Hub, this will appear in “Tenders” with the status “Draft” (1).
 
-![image](/health-supply-hub/purchaser/images/customer_tender_draft.png)
+![image](/health-supply-hub/purchaser/images/purchaser_tender_draft.png)
 
 The uploaded tender displays an overview of supplier interest on the tender (2):
 
@@ -36,12 +36,12 @@ Draft tenders cannot be viewed by the supplier. Before publishing a draft tender
 ![image](/health-supply-hub/purchaser/images/tender_process_open.png)
 
 <div class="note">
-	Tenders cannot be deleted once published for audit purposes. They cannonly be withdrawn
+	Tenders cannot be deleted once published for audit purposes. They can only be withdrawn.
 </div>
 
 Reasons that are provided for withdrawn tenders are published in “Reason” (6). Once the tender is withdrawn this will also be removed for the supplier.
 
-![image](/health-supply-hub/purchaser/images/customer_tender_withdrawn.png)
+![image](/health-supply-hub/purchaser/images/purchaser_tender_withdrawn.png)
 
 The types of statuses a tender can have include:
 
@@ -56,7 +56,7 @@ The types of statuses a tender can have include:
 
 To review a draft tender, select the tender name to open.
 
-![image](/health-supply-hub/purchaser/images/customer_draft_tender_summary.png)
+![image](/health-supply-hub/purchaser/images/purchaser_draft_tender_summary.png)
 
 On the tender, check “Incoterm” and “Closing Date” are correct. Then, review the “Tender Line Items”. Ensure item name, conditions, product specifications, required packs and pack size are correct. Once you have finished reviewing the tender, you may choose to invite more suppliers or add tender documents (discussed later).
 
@@ -130,7 +130,7 @@ If you would like to extend your closing date for your tender, select “Extend 
 Select your tender to view from the tender list to open the detail view.
 
 <p align="center">
-<img src="/health-supply-hub/purchaser/images/customer_tender_detail_view.png" width="750"  >
+<img src="/health-supply-hub/purchaser/images/purchaser_tender_detail_view.png" width="750"  >
 </p>
 
 #### Tenderline Items
@@ -139,7 +139,7 @@ This is your tender item line details that you have uploaded to HSH. Here we can
 
 Details for HSH tender item lines come from the mSupply Tender module:
 
-![image](/health-supply-hub/purchaser/images/customer_tenderline_items_vs_tender_module.png)
+![image](/health-supply-hub/purchaser/images/purchaser_tenderline_items_vs_tender_module.png)
 
 |     |                        |
 | --- | ---------------------- |
@@ -154,7 +154,7 @@ Details for HSH tender item lines come from the mSupply Tender module:
 If a supplier has submitted an inquiry regarding your tender, you can access it through the "Questions" section of your tender interface. Additionally, you will receive an email notification whenever a question is submitted. You have the option to respond exclusively to the inquiring supplier by deselecting the "Publish a notice" checkbox. Alternatively, you can choose to reply and publish a notice, which will allow all registered suppliers to receive an email notification.
 
 <p align="center">
-<img src="/health-supply-hub/purchaser/images/customer_questions.png" width="750"  >
+<img src="/health-supply-hub/purchaser/images/purchaser_questions.png" width="750"  >
 </p>
 
 |     |                                                                                                                                                                                                                                                                                                       |
@@ -162,7 +162,7 @@ If a supplier has submitted an inquiry regarding your tender, you can access it 
 | 1   | All vs unanswered question filter                                                                                                                                                                                                                                                                     |
 | 2   | Question Search                                                                                                                                                                                                                                                                                       |
 | 3   | Asking Organisation                                                                                                                                                                                                                                                                                   |
-| 4   | Answer                                                                                                                                                                                                                                                                                                |
+| 4   | Private Answer that is only shared with the supplier that asked the question                                                                                                                                                                                                                          |
 | 5   | Notices allow you to create a public message so that all suppliers can see. This can help to clear confusion about your tender and prevent other suppliers from asking the same question. Type in your “Title” for your notice. Type in your message you would like to attach for your public notice. |
 
 |
@@ -174,7 +174,7 @@ When a tender is in the open stage, a notice can be created and sent to all supp
 Publish a notice for suppliers about your tender. A record of published notices will appear at the bottom of the notice menu. Notices will be emailed to registered suppliers and will also appear for suppliers in the Notice section.
 
 <p align="center">
-<img src="/health-supply-hub/purchaser/images/customer_notices.png" width="750"  >
+<img src="/health-supply-hub/purchaser/images/purchaser_notices.png" width="750"  >
 </p>
 
 #### Tender Documents
@@ -190,7 +190,7 @@ An email will be sent to the registered suppliers notifying them of your tender 
 | 4   | Select the bin icon to delete the tender document                      |
 
 <p align="center">
-<img src="/health-supply-hub/purchaser/images/customer_tender_documents.png" width="750"  >
+<img src="/health-supply-hub/purchaser/images/purchaser_tender_documents.png" width="750"  >
 </p>
 
 #### Tender Logs
@@ -219,7 +219,7 @@ Before a tender has been published, suppliers will not be able to see or upload 
 
 Once tender submissions have been closed, you will be able to retrieve and review these submissions through the mSupply Tender Module. Refer to the [mSupply Tender Module Training Guide 2023](https://drive.google.com/file/d/1aZOy6aDVvtKFRtG7SezpMOofSCoHrFD4/view?usp=drive_link) for further information on this.
 
-![image](/health-supply-hub/purchaser/images/customer_closed_tender.png)
+![image](/health-supply-hub/purchaser/images/purchaser_closed_tender.png)
 
 ### Tender Audit Report
 
