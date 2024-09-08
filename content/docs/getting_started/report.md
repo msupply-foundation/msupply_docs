@@ -77,3 +77,9 @@ To export a report to excel, click on the `Export` button on the top right corne
 ![export button](/docs/getting_started/images/export_button.png)
 
 The report will be downloaded as an excel file.
+
+### Standard report translations
+
+Standard reports will be translated to the user's language if available when generating the report.
+
+If unavailable, english translations will be used as a default.
