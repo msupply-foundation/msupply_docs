@@ -82,4 +82,4 @@ The report will be downloaded as an excel file.
 
 Standard reports will be translated to the user's language if available when generating the report.
 
-If unavailable, english translations will be used as a default.
+If a translation in the user's language is unavailable, an english translation will be used as a default.
