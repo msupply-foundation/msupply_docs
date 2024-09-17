@@ -6,6 +6,9 @@ updated = 2021-05-01T08:00:00+00:00
 sort_by = "weight"
 weight = 81
 template = "health-supply-hub/page.html"
+aliases = [
+    "/health-supply-hub/faq"
+]
 
 [extra]
 toc = true
