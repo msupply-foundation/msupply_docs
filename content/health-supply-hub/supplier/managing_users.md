@@ -19,14 +19,14 @@ top = false
 
 Within your organisation account in HSH there are two different User roles:
 
-#### Organisation Access (General user):
+#### Organisation Access (General user)
 
 - can view quotes;
 - can upload quotes;
 - can upload additional documentation; and
 - can submit quotes;
 
-#### Organisation Admin (Administrator):
+#### Organisation Admin (Administrator)
 
 - same access as above;
 - additionally is able to do system administrative tasks, including managing users for your organisation, and updating the organisation's details.
@@ -88,6 +88,7 @@ They can then activate their account by clicking on the ‘Activate Account’ b
    c. Name
    d. Email
    e. Role in your organisation – either Administrator or Access.
+
    ![Edit User](/health-supply-hub/supplier/images/user_edit_modal.png)
 
 3. When you are satisfied with the changes made, click ‘OK’
