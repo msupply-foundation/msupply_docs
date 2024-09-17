@@ -20,9 +20,9 @@ top = false
 
 Minimum version requirements  
 
-#### BlueMaestro sensors
+#### mSupply Foundation temperature sensors
 
-* mSupply Cold Chain app version: 0.5.4 recommended
+* mSupply Cold Chain app version: 0.5.6 recommended
 * mSupply Desktop version: V5-04-00 or higher recommended
 
 ### mSupply Desktop Setup Steps

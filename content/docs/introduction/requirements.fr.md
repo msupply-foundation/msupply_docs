@@ -55,15 +55,16 @@ L'enregistrement des transactions de stocks est une activité centrale d'Open mS
 
 Spécifications recommandées:
 En résumé, Open mSupply mobile fonctionne sur les tablettes Android (pas sur les téléphones car les écrans de téléphone sont trop petits pour une utilisation efficace avec une grande quantité de données).
-L'application nécessite au moins Android 5.0 (Lollipop).
+L'application nécessite au moins Android 10.
 
-|                 | Minimum           | Recommended       |
+|                 | Minimum           | Recommandé       |
 | :-------------- | :---------------- | :---------------- |
-| Display size    | 9.8 inches        | 10.1 inches       |
-| Resolution      | 768 x 1024 pixels | 800 x 1200 pixels |
-| Android version | 5.0               | 8.1               |
-| Processor       |                   | Quad-core 1.3GHz  |
-| Memory          |                   | 1.5 Gb RAM        |
+| Taille écran    | 9.8 inches        | 10.1 inches       |
+| Résolution      | 768 x 1024 pixels | 800 x 1200 pixels |
+| Version Android | 10                | 14                |
+| Processeur      | 64 bit            | 64 bit            |
+| RAM             | 2 Gb              | 4 Gb              |
+| Stockage        | 32 Gb             | 64 Gb             |
 
 Pour que nous puissions fournir une assistance, l'appareil doit également être compatible avec le logiciel de gestion des appareils mobiles (MDM) et prendre en charge les services Google. Veuillez contacter [la Fondation mSupply](https://msupply.foundation/#contact)  pour plus de détails.
 
@@ -138,6 +139,8 @@ Le tableau ci-dessous indique la version d'mSupply dont vous aurez besoin pour e
 | 1.2.00+             | 7.05.05+        | N/A                  |
 | 1.4.00+             | 7.09.00+        | N/A                  |
 | 2.0.00+             | 7.14.04+        | 2.0.00+              |
+| 2.1.00+             | 7.14.04+        | 2.1.00+              |
+| 2.2.00+             | 7.14.04+        | 2.2.00+              |
 
 Si vous essayez de vous connecter a un serveur incompatible, vous obtiendrez le message suivant:
 

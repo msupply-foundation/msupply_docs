@@ -13,13 +13,16 @@ toc = true
 top = false
 +++
 
-The Monitoring section displays cold chain monitoring data in three different views:
+The Monitoring section displays cold chain temperature monitoring data in three different ways:
 
-1. A chart view which shows a summary of data from all sensors
-2. A list of all recorded breaches
+1. A chart view which visually displays temperature data from all sensors
+2. A list view of all recorded breaches
 3. A list view of all temperature logs
 
-On any of these views, you can import data from a fridge tag. For details on this, see below.
+<div class="note">
+Temperature data may be imported into Open mSupply via Bluetooth (e.g. <a href="https://msupply.foundation/open-msupply/cold-chain/#mSupplySensor" target="_blank">mSupply temperature sensors</a>) or via USB (e.g. <a href="https://msupply.foundation/open-msupply/cold-chain/#BerlingerSensor" target="_blank">Berlinger Fridge-tags / Q-tags)</a> - see <a href="https://docs.msupply.foundation/docs/coldchain/sensors/#connecting-sensors">Connecting Sensors</a> for more info.
+</div>
+
 
 ### Viewing Monitoring data
 
@@ -33,18 +36,20 @@ This page contains three tabs, displaying different views of temperature monitor
 
 ![Chart view](/docs/coldchain/images/chart_view.png)
 
-The chart tab displays a chart showing all configured sensors. You can filter the data displayed by:
+The chart tab displays a chart plot for all configured sensors. You can filter the data displayed by:
 
 - Sensor name
 - Location
 - Date/Time Range
 - Breach type
 
-To add a filter to the page, choose the required filter from the drop down, the date time filter will apply to all of the tabs in the monitoring section.
+To add a filter to the page, choose the required filter from the drop down. 
 
 <div class="note">By default, data from the last 24 hours is shown. Use the <code>From date/time</code> and <code>To date/time</code> fields to look at a longer period of time.
 </br></br>
 The filters also retain their values when you switch between the tabs.
+</br></br>
+The date time filter will apply to all of the tabs in the monitoring section.
 </div>
 
 ![Filter](/docs/coldchain/images/chart_filter.png)
@@ -55,18 +60,18 @@ If the sensor has recorded a breach - an icon will be shown on the chart. Clicki
 
 To close the popup, click the red x in the top right corner.
 
-Also shown on the chart are red (top) and blue (bottom) shaded areas. These show the standard temperature breach threshold values of 2°C and 8°C.
+Also shown on the chart are red (top) and blue (bottom) shaded areas. These show the standard temperature breach threshold values of 8°C and 2°C.
 
 <div class="note">If you have used different threshold values in your configuration, you may see breaches outside of the standard range.</div>
 
 If you select a long time period, you may see a warning message like this:
 ![Cold chain graph with too much data warning](/docs/coldchain/images/chart_view_too_much_data.png)
 To avoid this, you may need to select a shorter time period or filter the data to show only the sensors you are interested in.
-Only the first 8640 data points are shown on the graph.
+Only the first 8640 data points are shown on the chart.
 
 ### Breaches
 
-The breaches tab displays a list of all recorded breaches.
+The `Breaches` tab displays a list of all recorded breaches.
 
 ![Breaches](/docs/coldchain/images/breaches_list.png)
 
@@ -77,7 +82,7 @@ The list of breaches is divided into 10 columns:
 |                  | An icon showing an alert if this breach is unacknowledged                                                                      |
 | **Status**       | The breach status can be `Acknowledged` or `Unacknowledged`                                                                    |
 | **Sensor name**  | Name of the Sensor                                                                                                             |
-| **Location**     | Current location assigned to the sensor                                                                                        |
+| **Location**     | Current location linked to the sensor                                                                                        |
 | **CCE**          | Name of the cold chain equipment item which the sensor is associated with                                                      |
 | **Breach start** | Date and time at which the breach started                                                                                      |
 | **Breach end**   | Date and time at which the breach ended, if applicable                                                                         |
@@ -93,8 +98,10 @@ You can filter the data displayed by:
 - Type
 - Unacknowledged
 
-By default, the `Unacknowledged` filter is shown on this page.
 To add a filter to the page, choose the required filter from the drop down. To remove any applied filters, click the `Remove all filters` option.
+
+<div class="note">By default, the `Unacknowledged` filter is shown on the breach list view page.
+</div>
 
 ![Filter](/docs/coldchain/images/breach_filter.png)
 
@@ -117,7 +124,7 @@ If a breach has been unacknowledged you will see a red alert icon on the left of
 
 ![Breach acknowledge button](/docs/coldchain/images/breach_acknowledge_button.png)
 
-Clicking the button will show a window, in this you can enter a comment to acknowledge the breach:
+Clicking the icon will show a window, in this you can enter a comment to acknowledge the breach:
 
 ![Breach acknowledge dialog](/docs/coldchain/images/breach_acknowledge.png)
 
@@ -131,7 +138,7 @@ Once a breach is acknowledged, the red alert icon is no longer shown for that br
 
 ### Log
 
-The log view shows a list of all temperature logs.
+The `Log` tab shows a list of all temperature logs.
 
 ![Logs](/docs/coldchain/images/log_list.png)
 
@@ -141,7 +148,7 @@ The list of temperature logs is divided into 6 columns:
 | :-------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Date time**   | Date and time of the most recent activity for this sensor                                                                                                                              |
 | **Sensor name** | Name of the Sensor                                                                                                                                                                     |
-| **Location**    | Current location assigned to the sensor                                                                                                                                                |
+| **Location**    | Current location linked to the sensor                                                                                                                                  |
 | **CCE**         | Name of the cold chain equipment item which the sensor is associated with                                                                                                              |
 | **Temperature** | The most recent temperature reported by the sensor                                                                                                                                     |
 | **Breach type** | If the sensor has had a breach, this shows the type of the most recent breach. This is a combination of Hot or Cold (shown by the icon and text colour) and Consecutive or Cumulative. |
@@ -169,36 +176,3 @@ To add a filter to the page, choose the required filter from the drop down.
 
 ![Rows per page](/docs/introduction/images/rows-per-page-select.png)
 
-### Importing Fridge-tags
-
-If you are using Berlinger Fridge-tags, you can import the data directly into Open mSupply. To do this, insert the USB of the Fridge-tag into your computer.
-Then click the `Import Fridge-tag` button:
-
-![Import fridge tag](/docs/coldchain/images/import_fridge_tag.png)
-
-This will open a file browsing window, allowing you to select the `.txt` file of the Fridge-tag data. Simply click on the file and wait for the import to complete.
-
-<div class="note">Currently supported devices are Fridge-tags and Q-Tags from Berlinger.</div>
-
-Here's how the process looks (this is the mac desktop version):
-
-![Import fridge tag](/docs/coldchain/images/import_fridge_tag.gif)
-
-<div class="note">You may need to wait for the text file to be generated after connecting the Fridge-tag to your computer.</div>
-
-The following Berlinger devices are compatible with Open mSupply:
-
-| Device                  | Breach data displayed | Temperature graph plotted |
-| :---------------------- | :-------------------- | :------------------------ |
-| **Q-tag CLm doc**       | Yes                   | Yes                       |
-| **Q-tag CLm doc D**     | Yes                   | Yes                       |
-| **Q-tag CLm doc Ice**   | Yes                   | Yes                       |
-| **Q-tag CLm doc Ice R** | Yes                   | Yes                       |
-| **Q-tag CLm doc L**     | Yes                   | Yes                       |
-| **Q-tag CLm doc LR**    | Yes                   | Yes                       |
-| **Fridge-tag 2**        | Yes                   | No\*                      |
-| **Fridge-tag 2E**       | Yes                   | No\*                      |
-| **Fridge-tag 2L**       | Yes                   | Yes                       |
-| **Fridge-tag UL**       | Yes                   | Yes                       |
-
-\*Logger device does not capture individual temperature logs

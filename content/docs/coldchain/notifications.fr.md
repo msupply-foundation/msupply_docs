@@ -4,7 +4,7 @@ description = "Temperature breach / excursion notifications"
 date = 2023-11-08T15:20:00+00:00
 updated = 2023-11-08T15:20:00+00:00
 draft = false
-weight = 1
+weight = 20
 sort_by = "weight"
 template = "docs/page.html"
 
