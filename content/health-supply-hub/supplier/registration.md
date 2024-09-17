@@ -28,7 +28,7 @@ This link will take you to the supplier registration form.
 
 #### Organisation Details
 
-1. enter your organisation's details
+1. Enter your organisation's details
 
 ![Supplier registration form organisation details](/health-supply-hub/supplier/images/supplier_organisation_details.png)
 
@@ -39,7 +39,7 @@ This link will take you to the supplier registration form.
 ![supplier registration form organisation details](/health-supply-hub/supplier/images/supplier_contact_details.png)
 
 <div class="note">
-	Ensure the primary email here is recorded correctly. This is the email [Health Supply Hub](https://health-supply-hub.msupply.org) administrators will use to contact you about your application.
+Ensure the primary email here is recorded correctly. This is the email that Health Supply Hub administrators will use to contact you about your application.
 </div>
 
 #### Users
@@ -51,7 +51,7 @@ This link will take you to the supplier registration form.
 You can add as many users as you need for your organisation by pressing the new user button.
 
 <div class="note">
-    Ensure at least one user for your organisation has Organisation Admin permission status.
+Ensure at least one user for your organisation has Organisation Admin permission status.
 </div>
 
 #### Business Interests
@@ -97,7 +97,7 @@ If your application is denied for any reason, we will also let you know.
 ![Registration Denied Email](/health-supply-hub/supplier/images/supplier_registration_denied_email.png)
 
 <div class="note">
-    If your application is declined, our admin team will provide reasons why. You can also email us at [mSupply Support Team](mailto:health-supply-hub@msupply.foundation) if you have any questions about your application.
+    If your application is declined, our admin team will provide reasons why. You can also contact <a href="mailto:health-supply-hub@msupply.foundation">Health Supply Hub</a> team if you have any questions about your application, or simply respond to emails regarding your application.
 </div>
 
 After your application is accepted, each of your users which were added in your application process will also receive an email.
@@ -108,9 +108,9 @@ This will be used for them to set up their user login for [Health Supply Hub](ht
 ### Tips
 
 1. Save the `health-supply-hub@msupply.foundation` email address to your safe sender list
-1. If your company has several locations, register the company against the head office and add contact details for individuals at the different locations. Once registered, you can add several contacts in the Users section. See ‘[Managing your organisation in HSH](/health-supply-hub/managing-users/)' for more information
-1. Email alerts and actions will be sent to the email addresses you provide, so if possible it is useful to enter an email address that is accessible by multiple approved users in the Administrator User Details section such as `tenders@your-organisation.co.nz`
-1. For cases where the Administrator person or inbox may be unavailable, we strongly recommend you add additional Users so they can gain access to the HSH site and receive copies of any emails without needing to contact the HSH Support Team
-1. Your organisation can have as many administrators and users as it wants
-1. If you have previously registered with the Health Supply Hub e-portal, you do not need to register again
-1. If you lose access to your email, you can email the HSH Support Team (health-supply-hub@msupply.foundation) to get a new user account and email set up with your organisation
+2. If your company has several locations, register the company against the head office and add contact details for individuals at the different locations. Once registered, you can add several contacts in the Users section. See [Managing your organisation in HSH](/health-supply-hub/managing-users/) for more information
+3. Email alerts and actions will be sent to the email addresses you provide, so if possible it is useful to enter an email address that is accessible by multiple approved users in the Administrator User Details section such as `tenders@your-organisation.co.nz`
+4. For cases where the Administrator person or inbox may be unavailable, we strongly recommend you add additional Users so they can gain access to the HSH site and receive copies of any emails without needing to contact the HSH Support Team
+5. Your organisation can have as many administrators and users as it wants
+6. If you have previously registered with the Health Supply Hub e-portal, you do not need to register again
+7. If you lose access to your email, you can email the [HSH Support Team](mailto:health-supply-hub@msupply.foundation) to get a new user account and email set up with your organisation
