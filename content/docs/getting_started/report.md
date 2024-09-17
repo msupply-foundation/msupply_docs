@@ -46,9 +46,9 @@ For the `Stock Status` report, you can filter the report based on the following 
 - `Item Name`
 - `Item Code`
 
-If you enter values for both the code and name, the items shown would have to match **both** criteria i.e. entering a code of `01` and a name of `am` would only show items with a code that contains `01` and a name that contains `am`.
+If you enter values for both the code and name, the items shown would have to match **both** criteria i.e. entering a code of `01` and a name of `am` would only show items with a code that starts with `01` and a name that starts with `am`.
 
-The form also display which preferences the report is based on.
+The report is also generated based on your [store's preferences](https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab)
 
 ![stock status filter](/docs/getting_started/images/report_filter.png)
 
