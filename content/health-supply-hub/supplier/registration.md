@@ -6,6 +6,9 @@ updated = 2021-05-01T08:00:00+00:00
 sort_by = "weight"
 weight = 2
 template = "health-supply-hub/page.html"
+aliases = [
+    "/health-supply-hub/registration"
+]
 
 [extra]
 toc = true
@@ -18,11 +21,11 @@ By requesting to register your organisation on HSH you acknowledge that you have
 
 ### Registration Process
 
-1. To register your organisation please use the supplier registration form [here](https://forms.gle/oDDwAKKB3B6gMWPW7)
+1. To register your organisation please use the supplier registration form [here](https://health-supply-hub.msupply.org/register)
 2. You will need to provide basic information about your organisation and your organisation's approved HSH Administrator.
 
 3. The HSH Team will then register your organisation. Once processed, all designated users will receive a verification email. Click the provided link to navigate to the user account activation page.
-   ![User invitation page](/health-supply-hub/images/invited_email.png)
+   ![User invitation page](/health-supply-hub/supplier/images/invited_email.png)
 
 4. Should you have any issues or queries about the registration process, please email the [HSH Support Team](mailto:health-supply-hub@msupply.foundation)
 
@@ -31,7 +34,7 @@ By requesting to register your organisation on HSH you acknowledge that you have
    - Full name; and
    - New account password.
 6. Then click the Activate Account button.
-   ![User invitation page](/health-supply-hub/images/activate_user_account.png)
+   ![User invitation page](/health-supply-hub/supplier/images/activate_user_account.png)
 7. Now your account is activated and you can now log into the HSH e-portal.
 
 ### Tips
