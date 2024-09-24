@@ -481,7 +481,7 @@ Once you have done this:
 
 ## Returning stock from an Inbound Shipment
 
-Sometimes, you might need to return stock that you received via an Inbound Shipment. You can do this by creating an [Outbound Return](../outbound-returns).
+Sometimes, you might need to return stock that you received via an Inbound Shipment. You can do this by creating an [Supplier Return](../outbound-returns).
 
 1. Open the Inbound Shipment for which you would like to return some or all of the stock
 2. Make sure that status is at least `DELIVERED`
@@ -526,7 +526,7 @@ Once you are happy with your quantities to return, you can click `Next step`. Th
 
 When you are happy with the quantities and reasons, you can press on:
 
-- the `OK` button. An Outbound Return will be created, and you will be redirected to view it. The quantities of stock selected to return will be reserved for the new return.
+- the `OK` button. An Supplier Return will be created, and you will be redirected to view it. The quantities of stock selected to return will be reserved for the new return.
 - the `Back` button, to go back to the `Select quantity` step
 
 ## Viewing an Inbound Shipment
