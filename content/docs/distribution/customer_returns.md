@@ -78,7 +78,7 @@ The list of Customer Returns can be exported to a comma separated file (csv). Si
 
 and the file will be downloaded. The export function will download all Customer Returns, not just the current page, if you have more returns than the current page limit.
 
-### Delete an Customer Return
+### Delete a Customer Return
 
 You can delete a return from the Customer Return list.
 
@@ -94,7 +94,7 @@ You can only delete Customer Returns if they have a status of <code>NEW</code>.
 
 ![Inbound list: delete](/docs/distribution/images/ir_delete.gif)
 
-## Creating an Customer Return
+## Creating a Customer Return
 
 Customer Returns are created automatically, when an Supplier Return is created by another store. If needed, they can also be created manually, as explained below.
 
@@ -269,7 +269,7 @@ As demonstrated below, tap on the down arrow of the `Confirm` button and select 
 
 ![Skip Status](/docs/distribution/images/ir_confirm_skip_status.gif)
 
-## Adding lines to an Customer Return
+## Adding lines to a Customer Return
 
 Tap on the `Add Item` button (top right corner).
 
@@ -377,7 +377,7 @@ In the below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100m
  <b></b> You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
 </div>
 
-## Receiving an Customer Return
+## Receiving a Customer Return
 
 ### Confirming the delivery of the return
 
@@ -416,7 +416,7 @@ Once you have done this:
 - You can no longer edit return lines
 - You can no longer delete the return
 
-## Viewing an Customer Return
+## Viewing a Customer Return
 
 When viewing a specific return, you can view the batches on that return grouped by item or with each batch listed separately.
 To change the view mode, click the `Group by item` switch.
