@@ -19,7 +19,7 @@ top = false
 Si vous avez installé le client Open mSupply ou une version autonome sur votre machine, mais que vous ne parvenez pas à vous connecter au serveur, essayez les étapes suivantes : 
 
 1. Vérifiez le nom de l'ordinateur. Si vous utilisez un ordinateur Windows, vous pouvez généralement le trouver en passant par le Panneau de configuration > Système et sécurité > Système. Modifiez le nom de l'ordinateur pour vous assurer qu'il ne contient pas de caractères spéciaux et qu'il n'est pas très long. Redémarrez l'ordinateur et essayez de vous connecter à nouveau. 
-2. Si l'étape ci-dessus ne fonctionne pas, vous devrez peut-être installer un adaptateur de bouclage réseau sur votre ordinateur à l'aide de [ces instructions](https://techhub.hpe.com/eginfolib/networking/docs/sdn/sdnc2_5/5998-7318prog/content/s_sdnc-dev-nw-adapter-install.html). 
+2. Si l'étape ci-dessus ne fonctionne pas, vous devrez peut-être installer un adaptateur de bouclage réseau sur votre ordinateur à l'aide de [ces instructions](https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/install-microsoft-loopback-adapter#method-2). 
 
 ## Sous Windows, si le service ne démarre pas
 
