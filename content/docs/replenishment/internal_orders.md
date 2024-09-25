@@ -62,6 +62,10 @@ You can sort the list using the column headers:
 
 ### Defining Target MOS (Maximum MOS)
 
+Additional information and configuration for the Internal Order can be found in the detail panel, which you can access by clicking the `More` button in the top right:
+
+![MaxMOS](/docs/replenishment/images/intord_moreinfo.png)
+
 Defining the Target MOS (Month of Stock) is critical to the calculation of the **Suggested Quantity**:
 
 - There is an industry rule of thumb that the _Target MOS_ should be set to 3 times the ordering cycle
@@ -233,7 +237,7 @@ To set the permission, edit the user within mSupply and change to the `Open mSup
 
 Without this option checked, the user will not be able to update the Internal Order status to `Sent` and the order is unable to be processed.
 
-On changing the status to `Sent`, the user's details are added to the comment field; this can be seen when viewing the Internal Order, in the details panel:
+On changing the status to `Sent`, the user's details are added to the comment field; this can be seen when viewing the Internal Order, in the detail panel:
 
 ![Internal Order detail with approval comment](/docs/replenishment/images/intord_approval_comment.png)
 
