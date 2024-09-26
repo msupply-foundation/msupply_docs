@@ -15,7 +15,7 @@ top = false
 
 Supplier Returns can be used to return stock to a supplier.
 
-It is important to be able to return goods to a supplier without it being counted as goods being issued to a customer. If you just issue goods to your supplier through an Outbound Shipment, then those goods will be counted as part of your store's 'issuance' (consumption). a Supplier Return is the right way to return goods to a supplier.
+It is important to be able to return goods to a supplier without it being counted as goods being issued to a customer. If you just issue goods to your supplier through an Outbound Shipment, then those goods will be counted as part of your store's 'issuance' (consumption). A Supplier Return is the right way to return goods to a supplier.
 
 If you have used mSupply in the past, you may be familiar with the term **Supplier Credit** instead of Supplier Return.
 

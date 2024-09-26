@@ -13,9 +13,9 @@ toc = true
 top = false
 +++
 
-a Customer Returns is used to record stock which is returned by a customer.
+A Customer Returns is used to record stock which is returned by a customer.
 
-It is important to be able to receive goods back from a customer without it being counted as goods coming from a supplier. If your customer issues the goods to you on an Outbound Shipment, and you then receive it through an Inbound Shipment, then those goods will be counted as part of your store's 'supply' from suppliers, which is not correct. a Customer Return is the right way to receive goods back from a customer.
+It is important to be able to receive goods back from a customer without it being counted as goods coming from a supplier. If your customer issues the goods to you on an Outbound Shipment, and you then receive it through an Inbound Shipment, then those goods will be counted as part of your store's 'supply' from suppliers, which is not correct. A Customer Return is the right way to receive goods back from a customer.
 
 If you have used mSupply in the past, you may be familiar with the term **Customer Credit** instead of Customer Return.
 
