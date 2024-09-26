@@ -13,13 +13,13 @@ toc = true
 top = false
 +++
 
-An Customer Returns is used to record stock which is returned by a customer.
+a Customer Returns is used to record stock which is returned by a customer.
 
-It is important to be able to receive goods back from a customer without it being counted as goods coming from a supplier. If your customer issues the goods to you on an Outbound Shipment, and you then receive it through an Inbound Shipment, then those goods will be counted as part of your store's 'supply' from suppliers, which is not correct. An Customer Return is the right way to receive goods back from a customer.
+It is important to be able to receive goods back from a customer without it being counted as goods coming from a supplier. If your customer issues the goods to you on an Outbound Shipment, and you then receive it through an Inbound Shipment, then those goods will be counted as part of your store's 'supply' from suppliers, which is not correct. a Customer Return is the right way to receive goods back from a customer.
 
 If you have used mSupply in the past, you may be familiar with the term **Customer Credit** instead of Customer Return.
 
-All goods returned by a customer should be recorded in mSupply with an Customer Return. They are created automatically, as a result of an Supplier Return created by another store in Open mSupply, and can also be entered manually.
+All goods returned by a customer should be recorded in mSupply with a Customer Return. They are created automatically, as a result of a Supplier Return created by another store in Open mSupply, and can also be entered manually.
 
 ## Viewing Customer Returns
 
@@ -96,11 +96,11 @@ You can only delete Customer Returns if they have a status of <code>NEW</code>.
 
 ## Creating a Customer Return
 
-Customer Returns are created automatically, when an Supplier Return is created by another store. If needed, they can also be created manually, as explained below.
+Customer Returns are created automatically, when a Supplier Return is created by another store. If needed, they can also be created manually, as explained below.
 
 ### Create from Outbound Shipment
 
-Often, you will be processing the return of goods that you sent via an Outbound Shipment. In this case, you can [create an Customer Return from the Outbound Shipment](../outbound-shipments/#process-return-of-stock-from-an-outbound-shipment) itself.
+Often, you will be processing the return of goods that you sent via an Outbound Shipment. In this case, you can [create a Customer Return from the Outbound Shipment](../outbound-shipments/#process-return-of-stock-from-an-outbound-shipment) itself.
 
 ### Create manually
 
@@ -172,7 +172,7 @@ In the future, we would also include other documents such as transportation docu
 
 #### Transport Details
 
-If your Customer Return was created automatically, via an Supplier Return from another store, you will see a Transport Details section. Here, you can see a transport reference (e.g. a booking or tracking number.)
+If your Customer Return was created automatically, via a Supplier Return from another store, you will see a Transport Details section. Here, you can see a transport reference (e.g. a booking or tracking number.)
 
 #### Actions
 
@@ -205,7 +205,7 @@ There are 5 status for the Customer Return:
 | **Delivered** | When you confirm that the return has been delivered                                                                   |
 | **Verified**  | When you have verified the Customer Return                                                                            |
 
-You probably noticed that two of the status values only apply to automatically created shipments. These are created by the system when another store in the system creates an Supplier Return to return stock to your store. If this is the case you'll see a message near the top of the page:
+You probably noticed that two of the status values only apply to automatically created shipments. These are created by the system when another store in the system creates a Supplier Return to return stock to your store. If this is the case you'll see a message near the top of the page:
 
 ![Automatic IS message](/docs/distribution/images/ir_message_automatic.png)
 
@@ -256,7 +256,7 @@ Tap on the `Close` button to quit the Customer Return view and return to the Cus
 
 The `Confirm` button updates the status of a return. The status which you can confirm depends on the current status of the return and follows the sequence shown below.
 
-When managing an Customer Return, you can only confirm it as Delivered or Verified.
+When managing a Customer Return, you can only confirm it as Delivered or Verified.
 
 | Confirm...            | Current Status | Next Status |
 | :-------------------- | :------------- | :---------- |
@@ -331,7 +331,7 @@ When you are happy with the quantities and reasons, you can press on:
 - the `OK & Next` button to add another item right away
 - the `Back` button, to go back to the `Select quantity` step
 
-## Editing an Customer Return Line
+## Editing a Customer Return Line
 
 To edit a return line, tap on it. You will be presented with the `Edit Item` window, which is identical to the `Add Item` window, except that the item is already chosen.
 
@@ -385,7 +385,7 @@ Whether your Customer Return is **manual** or **automatic**, the first step to r
 
 At this stage, you don't have to check if quantities or other information are correct, you just have to acknowledge that you have received the returned goods from your customer.
 
-To confirm that an Customer Return has been delivered, click on the `Confirm Delivered` button.
+To confirm that a Customer Return has been delivered, click on the `Confirm Delivered` button.
 
 Once you have done this:
 
@@ -427,7 +427,7 @@ When grouped by item, you can expand the item to see individual batches, or use 
 
 If you do not have enough room on your screen, or simply aren't interested in some of the columns shown, you have the option of hiding which columns are shown in this view.
 
-Click on the `Show / hide columns` button which is at the top right of the table. This gives a list of the columns available - you can check the columns you want to see. The options chosen are stored for the current browser, so next time you view an Customer Return, you will see the selected columns only. If you have chosen which columns to show, then the button is shown in blue to remind you that there are more columns available.
+Click on the `Show / hide columns` button which is at the top right of the table. This gives a list of the columns available - you can check the columns you want to see. The options chosen are stored for the current browser, so next time you view a Customer Return, you will see the selected columns only. If you have chosen which columns to show, then the button is shown in blue to remind you that there are more columns available.
 
 <div class="imagetitle">
 In the below example, we hide the batch, expiry and unit quantity columns

@@ -646,7 +646,7 @@ Once you are happy with your returned quantities, you can click `Next step`. The
 
 When you are happy with the quantities and reasons, you can press on:
 
-- the `OK` button. An Customer Return will be created, and you will be redirected to view it.
+- the `OK` button. a Customer Return will be created, and you will be redirected to view it.
 - the `Back` button, to go back to the `Select quantity` step
 
 ## Viewing an Outbound Shipment

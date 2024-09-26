@@ -15,7 +15,7 @@ top = false
 
 Supplier Returns can be used to return stock to a supplier.
 
-It is important to be able to return goods to a supplier without it being counted as goods being issued to a customer. If you just issue goods to your supplier through an Outbound Shipment, then those goods will be counted as part of your store's 'issuance' (consumption). An Supplier Return is the right way to return goods to a supplier.
+It is important to be able to return goods to a supplier without it being counted as goods being issued to a customer. If you just issue goods to your supplier through an Outbound Shipment, then those goods will be counted as part of your store's 'issuance' (consumption). a Supplier Return is the right way to return goods to a supplier.
 
 If you have used mSupply in the past, you may be familiar with the term **Supplier Credit** instead of Supplier Return.
 
@@ -77,7 +77,7 @@ The list of Supplier Returns can be exported to a comma separated file (csv). Si
 
 and the file will be downloaded. The export function will download all Supplier Returns, not just the current page, if you have more than 20 of them.
 
-### Delete an Supplier Return
+### Delete a Supplier Return
 
 You can delete a return from the Supplier Return list.
 
@@ -93,11 +93,11 @@ You can only delete Supplier Returns if they have not been <code>SHIPPED</code>.
 
 ![Outbound list: delete](/docs/replenishment/images/or_delete.gif)
 
-## Creating an Supplier Return
+## Creating a Supplier Return
 
 ### Create from Inbound Shipment
 
-Often, you will be returning goods that you received via an Inbound Shipment. In this case, you can [create an Supplier Return from the Inbound Shipment](../inbound-shipments/#returning-stock-from-an-inbound-shipment) itself.
+Often, you will be returning goods that you received via an Inbound Shipment. In this case, you can [create a Supplier Return from the Inbound Shipment](../inbound-shipments/#returning-stock-from-an-inbound-shipment) itself.
 
 ### Create manually
 
@@ -232,7 +232,7 @@ Tap on the `Close` button to quit the Supplier Return view and return to the Sup
 
 The `Confirm` button updates the status of a return. The status which you can confirm depends on the current status of the return and follows the sequence shown below.
 
-When managing an Supplier Return, you can only confirm the Picked and Shipped statuses.
+When managing a Supplier Return, you can only confirm the Picked and Shipped statuses.
 
 | Confirm...          | Current Status | Next Status |
 | :------------------ | :------------- | :---------- |
@@ -245,7 +245,7 @@ As demonstrated below, tap on the down arrow of the `Confirm` button and select 
 
 ![Skip Status](/docs/replenishment/images/or_confirm_skip_status.gif)
 
-## Adding lines to an Supplier Return
+## Adding lines to a Supplier Return
 
 Tap on the `Add Item` button (top right corner).
 
@@ -317,7 +317,7 @@ When you are happy with the quantities and reasons, you can press on:
 - the `OK & Next` button to add another item right away
 - the `Back` button, to go back to the `Select quantity` step
 
-## Editing an Supplier Return Line
+## Editing a Supplier Return Line
 
 To edit a return line, tap on it. You will be presented with the `Edit Item` window, which is identical to the `Add Item` window, except that the item is already chosen.
 
@@ -362,7 +362,7 @@ In the below example, we are deleting 2 items, with the item codes 030453 and 20
  <b></b> You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
 </div>
 
-## Processing an Supplier Return
+## Processing a Supplier Return
 
 ### Confirming Supplier Return picking
 
@@ -391,9 +391,9 @@ At this stage, you are still able to edit return lines, to add items or to delet
 
 ### Confirming the Supplier Return shipping
 
-The last step to return stock with an Supplier Return is to confirm that stock has been shipped.
+The last step to return stock with a Supplier Return is to confirm that stock has been shipped.
 
-To confirm that an Supplier Return has been shipped, tap on the `Confirm Shipped` button.
+To confirm that a Supplier Return has been shipped, tap on the `Confirm Shipped` button.
 
 Once shipping has been confirmed:
 
@@ -409,7 +409,7 @@ If your supplier is also using mSupply, you will be able to see when they receiv
 - status will become `DELIVERED` when goods are received: your supplier confirmed that they received your return
 - status will become `VERIFIED` when the return has been verified by your supplier. Goods are now a part of their inventory.
 
-## Viewing an Supplier Return
+## Viewing a Supplier Return
 
 When viewing a specific return, you can view the batches on that return grouped by item or with each batch listed separately.
 To change the view mode, click the `Group by item` switch.
@@ -420,7 +420,7 @@ When grouped by item, you can expand the item to see individual batches, or use 
 
 If you do not have enough room on your screen, or simply aren't interested in some of the columns shown, you have the option of hiding which columns are shown in this view.
 
-Click on the `Show / hide columns` button which is at the top right of the table. This gives a list of the columns available - you can check the columns you want to see. The options chosen are stored for the current browser, so next time you view an Supplier Return, you will see the selected columns only. If you have chosen which columns to show, then the button is shown in blue to remind you that there are more columns available.
+Click on the `Show / hide columns` button which is at the top right of the table. This gives a list of the columns available - you can check the columns you want to see. The options chosen are stored for the current browser, so next time you view a Supplier Return, you will see the selected columns only. If you have chosen which columns to show, then the button is shown in blue to remind you that there are more columns available.
 
 <div class="imagetitle">
 In the below example, we are hiding the pricing columns

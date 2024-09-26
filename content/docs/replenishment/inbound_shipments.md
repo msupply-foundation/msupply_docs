@@ -526,7 +526,7 @@ Once you are happy with your quantities to return, you can click `Next step`. Th
 
 When you are happy with the quantities and reasons, you can press on:
 
-- the `OK` button. An Supplier Return will be created, and you will be redirected to view it. The quantities of stock selected to return will be reserved for the new return.
+- the `OK` button. a Supplier Return will be created, and you will be redirected to view it. The quantities of stock selected to return will be reserved for the new return.
 - the `Back` button, to go back to the `Select quantity` step
 
 ## Viewing an Inbound Shipment
