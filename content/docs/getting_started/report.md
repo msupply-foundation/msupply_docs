@@ -77,3 +77,13 @@ To export a report to excel, click on the `Export` button on the top right corne
 ![export button](/docs/getting_started/images/export_button.png)
 
 The report will be downloaded as an excel file.
+
+## Standard Reports
+
+Builds 2.3.0 and above will include standard reports in all instances of open mSupply. The 2.3.0 build includes the following reports:
+
+- Invoice Landscape
+- Item Usage
+- Stock Detail
+- Stock Status
+- Expiring Items
