@@ -13,7 +13,11 @@ toc = true
 top = false
 +++
 
-Note: Immunization programs are only visible on the [Open mSupply Central Server](/docs/getting_started/central).
+<div class="note">
+  Immunization programs are only configurable from the <a href='/docs/getting_started/central'>Open mSupply Central Server<a>. See the <a href="#permissions-restrictions">Permissions & Restrictions</a> section for more details.
+</div>
+
+// TODO base progs are configured in the OG central server, much like in patient programs. contact your administrator to set up.
 
 Choose `Programs` > `Immunizations` in the navigation panel.
 
@@ -30,40 +34,6 @@ The list of Immunization Programs is divided into 2 columns:
 | **Program Name**    | The name of the Immunization Program                             |
 | **Vaccine Courses** | The Vaccine Courses that are a part of that Immunization Program |
 
-## Adding a new Immunization Program
-
-To add a new Immunization Program, click the `New Program` button in the top right.
-
-![immunizations: new program button](/docs/programs/images/immunizations_new_program_button.png)
-
-This will open a new window, where you can enter the name of the new Immunization Program. Note that all programs must have a unique name.
-
-![immunizations: new program modal](/docs/programs/images/immunizations_new_program_modal.png)
-
-- Click `OK` once you are happy with your changes
-  - You will be redirected to the detail view for your new Immunization Program
-- OR: Click `Cancel` to close the window if you've changed your mind
-
-## Deleting an Immunization Program
-
-You can delete Immunization Programs from the list view.
-
-Select the Immunization Program that you wish to delete by checking the box on the right end of the list. You can select more than one Immunization Program to be deleted at once. You can even select them all using the master checkbox in the table header.
-
-![immunizations: select to delete](/docs/programs/images/immunizations_select.png)
-
-Open the `Actions` dropdown in the top right corner, above the list, and select `Delete selected lines`.
-
-![immunizations: actions](/docs/programs/images/immunizations_actions.png)
-
-You will be asked to confirm that you wish to delete the selected programs. Press `Cancel` to prevent deleting, or `Ok` to confirm.
-
-![immunizations: confirm delete](/docs/programs/images/immunizations_confirm_delete.png)
-
-A notification in the bottom left corner will confirm how many programs were deleted.
-
-![immunizations: delete success](/docs/programs/images/immunizations_delete_success.png)
-
 ## Viewing Immunization Program Details
 
 To view an Immunization Program in more detail, click on it. This will take you to the detail page for that program.
@@ -71,10 +41,6 @@ To view an Immunization Program in more detail, click on it. This will take you 
 ![immunizations: detail](/docs/programs/images/immunizations_detail.png)
 
 You can use the `Close` button in the bottom right to close the detail view, and go back to the list of Immunization Programs.
-
-If you need to edit the name of the Immunization Program, do so by updating the input field at the top of the detail screen.
-
-Once you are happy with your changes, use the `Save` button in the bottom right to save them.
 
 ### Vaccine Courses
 
@@ -94,13 +60,22 @@ To add a new Vaccine Course, click the `Add vaccine course` button in the top ri
 
 ![vaccine course: add button](/docs/programs/images/vaccine_course_add_button.png)
 
-This will open a new window, where you can enter the name of the new Vaccine Course.
+This will open a new window, where you can enter the details of the new Vaccine Course, including its name, details like its wastage rate, and the dose schedule.
 
 ![vaccine course: create modal](/docs/programs/images/vaccine_course_add.png)
 
 - Click `OK` once you are happy with your changes
-  - You will be redirected to the detail view of your newly created Vaccine Course
-- OR: Click `Cancel` to close the window if you've changed your mind
+- OR: Click `Cancel` to close the window and discard your changes
+
+#### Doses
+
+// TODO = doses
+
+### Editing a Vaccine Course
+
+To view or edit the details of a Vaccine Course, click on the row in the list. This will re-open the editing window, for you to view or change any details.
+
+![vaccine course: edit modal](/docs/programs/images/vaccine_course_detail.png)
 
 ### Deleting a Vaccine Course
 
@@ -120,24 +95,12 @@ You will be asked to confirm that you wish to delete the selected Vaccine Course
 
 A notification in the bottom left corner will confirm how many courses were deleted.
 
-## Viewing Vaccine Course Details
-
-To view a Vaccine Course in more detail, click on it. This will take you to the detail page for that course.
-
-![vaccine course: detail](/docs/programs/images/vaccine_course_detail.png)
-
-You can use the `Close` button in the bottom right to close the detail view, and go back to the list of Vaccine Courses within this Immunization Program.
-
-From this view, you can edit all the relevant information for the Vaccine Course, including its name, details like its wastage rate, and the number of doses.
-
-Once you are happy with your changes, you can use the `Save` button in the bottom right to save them.
-
 ## Permissions & Restrictions
 
-Immunization Programs are only visible on the [Open mSupply Central Server](/docs/getting_started/central) and requires the [`mobile: Uses vaccine module`](https://docs.msupply.org.nz/cold_chain_equipment:mobile?s[]=vaccine#enable_the_vaccine_module_for_the_mobile_store) store preference.
+Immunization Programs can only be managed on the [Open mSupply Central Server](/docs/getting_started/central) and requires the [`mobile: Uses vaccine module`](https://docs.msupply.org.nz/cold_chain_equipment:mobile?s[]=vaccine#enable_the_vaccine_module_for_the_mobile_store) store preference.
 
 ![mSupply Store Preference Vaccine Module](/docs/programs/images/vaccine_module.png)
 
-To Create, Edit or Delete Immunization Programs or Vaccine Courses you need the `Can modify central data` permission, enabled in the [omSupply Permissions Tab](https://docs.msupply.org.nz/admin:managing_users?s[]=permission#omsupply_permissions_tab) on your Central Store.
+To configure Immunization Programs or Vaccine Courses, you need the `Can modify central data` permission enabled in the [Open mSupply Permissions Tab](https://docs.msupply.org.nz/admin:managing_users?s[]=permission#open_msupply_permissions_tab) on your Central Store.
 
 ![Can Modify Central Data Permission](/docs/programs/images/can_modify_central.png)
