@@ -13,11 +13,17 @@ toc = true
 top = false
 +++
 
-<div class="note">
-  Immunization programs are only configurable from the <a href='/docs/getting_started/central'>Open mSupply Central Server<a>. See the <a href="#permissions-restrictions">Permissions & Restrictions</a> section for more details.
-</div>
+## Setup
 
-// TODO base progs are configured in the OG central server, much like in patient programs. contact your administrator to set up.
+Base Immunization Programs are configured in the mSupply central server.
+
+For GAPS functionality, you will only need to configure a new Master List, and mark it as an Immunization Program Master list.
+
+For Immunization [Patient Programs](/docs/programs/program-module), contact your administrator to get set up.
+
+Once the base Immunization Program Master List is created, you can configure it further in the <a href='/docs/getting_started/central'>Open mSupply Central Server<a>. See the <a href="#permissions-restrictions">Permissions & Restrictions</a> section for more details.
+
+## Viewing Immunization Programs
 
 Choose `Programs` > `Immunizations` in the navigation panel.
 

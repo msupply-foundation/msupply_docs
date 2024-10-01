@@ -102,9 +102,9 @@ This contact tracing tab will display 7 columns:
 
 ![Contact Tracing](/docs/programs/images/patient_contact_tracing_tab.png)
 
-5. **Vaccinations**: This tab contains the list of Immunisation Programs that the patient is enrolled in.
+5. **Vaccinations**: This tab contains the list of Immunization Programs that the patient is enrolled in.
 
-Clicking on an Immunisation Program will take you to the patient's Vaccination Card for that program. See [Vaccination Cards](/docs/programs/program-module/#vaccination-cards) for more information.
+Clicking on an Immunization Program will take you to the patient's Vaccination Card for that program. See [Vaccination Cards](/docs/programs/program-module/#vaccination-cards) for more information.
 
 This Vaccinations tab will display 4 columns:
 
@@ -199,7 +199,7 @@ An encounter can have three statuses:
 ![Encounter](/docs/programs/images/encounter_detail_view.png)
 
 <div class="note">
-  Immunisation Program Encounters will have an additional <code>Vaccinations</code> tab, which displays the patient's Vaccination Card for that program. See <a href='#vaccination-encounters'>Vaccination Encounters</a> for more information.
+  Immunization Program Encounters will have an additional <code>Vaccinations</code> tab, which displays the patient's Vaccination Card for that program. See <a href='#vaccination-encounters'>Vaccination Encounters</a> for more information.
 </div>
 
 ### Contact tracing
@@ -236,9 +236,9 @@ If the patient is already linked to the contact, but you want to change the pati
 
 ### Vaccination Cards
 
-If the patient is enrolled in an Immunisation Program, you can view their progress through the program by viewing their Vaccination Card.
+If the patient is enrolled in an Immunization Program, you can view their progress through the program by viewing their Vaccination Card.
 
-From the `Vaccinations` tab in the patient detail view, select the Immunisation Program you want to view the Vaccination Card for.
+From the `Vaccinations` tab in the patient detail view, select the Immunization Program you want to view the Vaccination Card for.
 
 ![Vaccinations Tab](/docs/programs/images/patient_vaccinations_tab.png)
 
@@ -276,7 +276,7 @@ Note that only the rows where a vaccination has been recorded (as `Given` or `No
 
 #### Vaccination Encounters
 
-Immunisation Program Encounters will have an additional `Vaccinations` tab, which displays the same immunisation card as in the patient view above. However, new doses can also be administered from within the encounter.
+Immunization Program Encounters will have an additional `Vaccinations` tab, which displays the same Vaccination card as in the patient view above. However, new doses can also be administered from within the encounter.
 
 ![Vaccination Card - Encounter](/docs/programs/images/encounter_vax_card.png)
 
