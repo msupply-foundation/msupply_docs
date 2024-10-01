@@ -75,12 +75,25 @@ This will open a new window, where you can enter the details of the new Vaccine 
 
 ![vaccine course: create modal](/docs/programs/images/vaccine_course_add.png)
 
-- Click `OK` once you are happy with your changes
-- OR: Click `Cancel` to close the window and discard your changes
-
 #### Doses
 
-// TODO = doses
+To add doses to the Vaccine Course, click the `(+) Dose` button. This will add a new row to the dose schedule, where you can enter the details of the dose.
+
+![vaccine course: dose edit table](/docs/programs/images/vaccine_course_dose_edit.png)
+
+The Dose Schedule table is divided into 6 columns:
+
+| Column                  | Description                                                                                                              |
+| :---------------------- | :----------------------------------------------------------------------------------------------------------------------- |
+| **Dose #**              | The number of the dose in the schedule                                                                                   |
+| **Label**               | The label of the dose, to appear in the [Vaccination Card](/docs/programs/program-module#vaccination-cards)              |
+| **From age**            | Minimum recommended age to receive the dose (in years and months)                                                        |
+| **To age**              | Maximum recommended age to receive the dose (in years and months)                                                        |
+| **Custom age label**    | Custom age label to be displayed in the Vaccination Card. If not defined, the default is the `From age` (e.g. `6 years`) |
+| **Min interval (days)** | Minimum number of days before the patient should receive the next dose                                                   |
+
+- Click `OK` once you are happy with your changes
+- OR: Click `Cancel` to close the window and discard your changes
 
 ### Editing a Vaccine Course
 
