@@ -21,14 +21,13 @@ In this webpage, near the top-ish right there is a green "Code" button. Click it
 
 Follow the prompts and let it clone the repo to your machine.
 
-#### Build Zola version 17.2 😧
+#### Download Zola and Convince MacOS it is safe
 
-1. Clone Zola the same way as above with "Open in Github Desktop": https://github.com/getzola/zola
-2. In github desktop, click on the "History" tab then scroll down and select the _commit_ that is tagged `v0.17.2`, right click and choose "Checkout Commit" ![image](https://github.com/user-attachments/assets/ec8cc390-c11f-49b4-bc61-2dda56957da1)
-3. Install rust. You're a programmer Harry! https://www.rust-lang.org/tools/install
-4. Open a terminal in your Zola repo directory. You can do this in github desktop in the "Repository" Menu "Open in Terminal", or navigate a terminal window there if you're in the know.
-5. Run the command `cargo install --path . --locked` - this will use rust to build zola and install it
-6. Run `Zola --version` and pray that you are on `0.17.2`
+1. Download [the terminal executable program for your OS](https://github.com/getzola/zola/releases/download/v0.17.2/zola-v0.17.2-x86_64-apple-darwin.tar.gz) from https://github.com/getzola/zola/releases/tag/v0.17.2
+2. Extract it and copy `zola` file to `/usr/local/bin/` (pressing `cmd+shift+.` in a finder window will toggle showing hidden folders 🙂)
+3. In a terminal try run `zola`. It'll complain about malware, at which point you can allow it in settings 
+![image](https://github.com/user-attachments/assets/6d9869d0-86e9-49e3-9e04-f35481a30d94)
+4. Run `zola --version` and if it says 0.17.2 you're good to go!
 
 #### Serve our docs with Zola!
 
