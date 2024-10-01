@@ -605,7 +605,7 @@ If your customer is also using mSupply, you will be able to see when they'll rec
 
 ## Process return of stock from an Outbound Shipment
 
-Sometimes, stock sent via an Outbound Shipment will need to be returned. You can do this by creating an [Inbound Return](../inbound-returns).
+Sometimes, stock sent via an Outbound Shipment will need to be returned. You can do this by creating an [Customer Return](../inbound-returns).
 
 1. Open the Outbound Shipment for which you would like to process the return of some or all of the stock
 2. Make sure that status is at least `SHIPPED`
@@ -619,15 +619,15 @@ Sometimes, stock sent via an Outbound Shipment will need to be returned. You can
 
 A modal will open, containing each line you selected for return:
 
-| Column                       | Description                                                                             |
-| :--------------------------- | :-------------------------------------------------------------------------------------- |
-| **Code**                     | Item code                                                                               |
-| **Name**                     | Item name                                                                               |
-| **Batch**                    | Batch number. It is a designation given to products made in the same manufacturing run. |
-| **Expiry**                   | Expiry date of the batch (format: MM/YYYY)                                              |
-| **Pack Size** | Quantity of units per pack                                                              |
-| **Pack Qty Issued**     | Number of packs that were issued in the Outbound Shipment                               |
-| **Quantity Returned**        | Number of packs to be returned                                                          |
+| Column                | Description                                                                             |
+| :-------------------- | :-------------------------------------------------------------------------------------- |
+| **Code**              | Item code                                                                               |
+| **Name**              | Item name                                                                               |
+| **Batch**             | Batch number. It is a designation given to products made in the same manufacturing run. |
+| **Expiry**            | Expiry date of the batch (format: MM/YYYY)                                              |
+| **Pack Size**         | Quantity of units per pack                                                              |
+| **Pack Qty Issued**   | Number of packs that were issued in the Outbound Shipment                               |
+| **Quantity Returned** | Number of packs to be returned                                                          |
 
 The `Quantity Returned` values will initially be `0` - you can adjust this to return some or all of the available stock.
 
@@ -646,7 +646,7 @@ Once you are happy with your returned quantities, you can click `Next step`. The
 
 When you are happy with the quantities and reasons, you can press on:
 
-- the `OK` button. An Inbound Return will be created, and you will be redirected to view it.
+- the `OK` button. a Customer Return will be created, and you will be redirected to view it.
 - the `Back` button, to go back to the `Select quantity` step
 
 ## Viewing an Outbound Shipment

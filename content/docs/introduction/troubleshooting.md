@@ -19,7 +19,7 @@ top = false
 If you have installed Open mSupply client or standalone on your machine, but are unable to connect to the server, try the following steps: 
 
 1. Check the name of the computer. If you are on a Windows machine, this can generally be found by going through the Control Panel > System and Security > System. Change the PC name to ensure it does not have any special characters and is not very long. Restart the computer and try connecting again. 
-2. If the step above doesn't work, you may need to install a network loopback adaptor on your computer using [these instructions](https://techhub.hpe.com/eginfolib/networking/docs/sdn/sdnc2_5/5998-7318prog/content/s_sdnc-dev-nw-adapter-install.html). 
+2. If the step above doesn't work, you may need to install a network loopback adaptor on your computer using [these instructions](https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/install-microsoft-loopback-adapter#method-2). 
 
 ## On windows, if the service doesn't start
 
