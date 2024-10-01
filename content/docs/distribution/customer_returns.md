@@ -117,7 +117,7 @@ Often, you will be processing the return of goods that you sent via an Outbound 
 1. In the `Customers` window, you will be presented with a list of available customers. You can select your customer from the list or you can filter by typing the customer name.
 
 <div class="imagetitle">
-In the below example, we are wanting to receive returned stock from <b>Tamaki Central Medical Store</b>. 
+In the below example, we are wanting to receive returned stock from <b>Slytherin Clinic</b>. 
 </div>
 
 ![Create Customer Return](/docs/distribution/images/ir_create.gif)
