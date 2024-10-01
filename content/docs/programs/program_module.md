@@ -198,6 +198,10 @@ An encounter can have three statuses:
 
 ![Encounter](/docs/programs/images/encounter_detail_view.png)
 
+<div class="note">
+  Immunisation Program Encounters will have an additional <code>Vaccinations</code> tab, which displays the patient's Vaccination Card for that program. See <a href='#vaccination-encounters'>Vaccination Encounters</a> for more information.
+</div>
+
 ### Contact tracing
 
 Contact tracing is the process of identifying people who might have been exposed to a disease through the patient. The contact can then be contacted, registered and enrolled into a matching program if needed.
@@ -332,13 +336,21 @@ You can view the created prescription by clicking on the dose row again in the v
 
 #### Editing Vaccination Records
 
-Vaccination records should be entered at the time of vaccination, so there shouldn't be a need to edit them. However, if you need to correct a mistake, you can do so by clicking on the row in the Vaccination Card that corresponds to the dose you want to edit.
+Vaccination records should be entered at the time of vaccination, so there shouldn't be a need to edit them. However, if you need to correct a mistake, you can do so by clicking on the row in the Vaccination Card that corresponds to the dose you want to edit, to open the edit window.
+
+![Vaccination Modal - edit](/docs/programs/images/edit_vaccination.png)
 
 All fields are editable. Some things to note:
 
 - Changing the date will not change the prescription date
-- If you change from `Given` to `Not given`, and a prescription was previously created for the vaccination, you will have the option to revert the existing stock transaction
+- If you change from `Given` to `Not given`, and a Prescription was previously created from the vaccination, you will have the option to `revert the existing stock transaction`
+  - If enabled, a [Customer Return](/docs/distribution/customer-returns) will be created for the vaccine item that was previously administered (note that the prescription will continue to exist - finalised prescriptions cannot be deleted)
 
 ![Vaccination Modal - revert transaction](/docs/programs/images/vaccination_revert_transaction.png)
 
-This will create a [Customer Return](/docs/distribution/customer-returns) for the vaccine item that was previously dispensed.
+- If you change the item or batch, and a Prescription was previously created from the vaccination, you will have the option to `update stock transactions`. If enabled:
+  - A [Customer Return](/docs/distribution/customer-returns) will be created for the vaccine item that was previously administered
+  - A [Prescription](/docs/dispensary/prescriptions) will be created for the new vaccine item/batch
+  - Note that the previous prescription will continue to exist - finalised prescriptions cannot be deleted
+
+![Vaccination Modal - update transaction](/docs/programs/images/vaccination_update_transactions.png)
