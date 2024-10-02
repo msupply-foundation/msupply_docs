@@ -86,7 +86,7 @@ English will be used by default in places where translations in the user's langu
 
 ## Standard Reports
 
-Builds 2.3.0 and above will include standard reports by default in all instances of open mSupply. The 2.3.0 build includes the following reports:
+Version 2.3.0+ will include standard reports by default in all instances of Open mSupply:
 
 - Invoice Landscape
 - Item Usage
