@@ -269,17 +269,17 @@ Default value is `Any` when you are issuing units.
 
 This is a list of batch numbers that you have in store for this item:
 
-| Column              | Description                                                                                      |
-| :--------------------- | :----------------------------------------------------------------------------------------------- |
-| **Batch**              | Batch number. It is a designation given to products made in the same manufacturing run.         |
-| **Expiry**             | Expiry date of the batch (format: MM/YYYY)                                                      |
-| **Location**           | This is the name of the location where the item is stored if your inventory is managed with storage locations |         
-| **On Hold**            | Indicates whether a batch is on hold or not. You cannot issue a batch that is on hold.          |
-| **In Store (packs)**   | Total number of packs in your store                                                              |
-| **Available (packs)**  | Number of packs available (not already allocated to other shipments)                             |
-| **Pack Size**              | Quantity of units per pack                       |
-| **[Unit] Qty Issued**  | Total quantity of units to be issued                                                             |
-| **Pack Qty Issued**    | Number of packs to be issued                                                                     |
+| Column                | Description                                                                                                   |
+| :-------------------- | :------------------------------------------------------------------------------------------------------------ |
+| **Batch**             | Batch number. It is a designation given to products made in the same manufacturing run.                       |
+| **Expiry**            | Expiry date of the batch (format: MM/YYYY)                                                                    |
+| **Location**          | This is the name of the location where the item is stored if your inventory is managed with storage locations |
+| **On Hold**           | Indicates whether a batch is on hold or not. You cannot issue a batch that is on hold.                        |
+| **In Store (packs)**  | Total number of packs in your store                                                                           |
+| **Available (packs)** | Number of packs available (not already allocated to other invoices)                                           |
+| **Pack Size**         | Quantity of units per pack                                                                                    |
+| **[Unit] Qty Issued** | Total quantity of units to be issued                                                                          |
+| **Pack Qty Issued**   | Number of packs to be issued                                                                                  |
 
 ![List of available batch numbers](/docs/dispensary/images/prescription_additem_listofbatches.png)
 
@@ -307,19 +307,18 @@ You may see one or more warning messages on this screen:
 
 ![placeholder warning!](/docs/distribution/images/os_warning_placeholder.png)
 
-The warning is shown to let you know that not enough stock is available to fulfil your request. A placeholder quantity is added automatically so that you can keep track of the amount requested, while adding more stock (for example by using an internal order or inbound shipment).
+The warning is shown to let you know that not enough stock is available to fulfil your request. A placeholder quantity is added automatically so that you can keep track of the amount requested, while adding more stock (for example by using an Internal Order or Inbound Shipment).
 
 This image also shows the warning which lets you know that some stock lines are expired; this may be why the system did not auto-allocate particular stock lines.
-However you can still manually choose those lines and issue the expired stock! 
+However you can still manually choose those lines and issue the expired stock!
 
 ![pack sizes warning!](/docs/distribution/images/os_warning_pack_sizes.png)
 
 This warning tells you that because of the available pack sizes, the system has rounded up the quantity requested. In this example, there is no pack size that is less than `12`. There are packs of `20` available though, so when 12 tablets are requested, the system has rounded up the request to `2` packs of `20`.
 
-
 ![pack sizes warning!](/docs/distribution/images/os_warning_no_quantity.png)
 
-If you add an item, forget to enter a quantity to issue, and click `OK` you will see this warning message. It is informing you that there is no issue quantity; from here you can click `OK` again to confirm that you intended to enter `0`, in which case the window will close and a placeholder row will be added to the shipment. You can edit the row later and add a quantity. If you forget to add a quantity however, and confirm the shipment as allocated, this row will be removed!
+If you add an item, forget to enter a quantity to issue, and click `OK` you will see this warning message. It is informing you that there is no issue quantity; from here you can click `OK` again to confirm that you intended to enter `0`, in which case the window will close and a placeholder row will be added to the invoice. You can edit the row later and add a quantity. If you forget to add a quantity however, and confirm the invoice as allocated, this row will be removed!
 
 ### Issue a quantity of packs
 
@@ -414,7 +413,7 @@ Once an item has been added to your prescription, the status will automatically 
 - Prescription status is now `PICKED`
 - You are now invited to confirm the prescription via the `Confirm Verified` button
 
-At this stage, you are still able to edit shipment lines, to add items or to delete existing lines.
+At this stage, you are still able to edit invoice lines, to add items or to delete existing lines.
 
 ### Verify the Prescription
 
