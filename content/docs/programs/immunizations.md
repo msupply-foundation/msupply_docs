@@ -71,13 +71,13 @@ To add a new Vaccine Course, click the `Add vaccine course` button in the top ri
 
 ![vaccine course: add button](/docs/programs/images/vaccine_course_add_button.png)
 
-This will open a new window, where you can enter the details of the new Vaccine Course, including its name, details like its wastage rate, and the dose schedule.
+This will open a new window, where you can enter the details of the new Vaccine Course, e.g. Vaccine course name, wastage rate, dose schedule.
 
 ![vaccine course: create modal](/docs/programs/images/vaccine_course_add.png)
 
 #### Doses
 
-To add doses to the Vaccine Course, click the `(+) Dose` button. This will add a new row to the dose schedule, where you can enter the details of the dose.
+To add doses to the Vaccine Course, click the `(+) Dose` button. This will add a new row to the `dose schedule` table, where the details of the dose can be entered, including when the dose can administered.
 
 ![vaccine course: dose edit table](/docs/programs/images/vaccine_course_dose_edit.png)
 
