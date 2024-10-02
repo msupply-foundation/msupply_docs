@@ -213,12 +213,11 @@ Note that this message appears differently if the status is `Delivered` or `Veri
 
 ![Automatic IS message: delivered](/docs/distribution/images/ir_message_automatic_delivered.png)
 
-If, however, you've created an Inbound Shipment manually, then the following message shows:
+If, however, you've created an Customer Return manually, then the following message shows:
 
 ![Manual IS message](/docs/distribution/images/ir_message_manual.png)
 
-and you'll see that the status bar has only the status values which apply to
-this Customer Returns.
+and you'll see that the status bar has only the status values which apply to this Customer Return.
 
 <figure align="center">
     <img src="/docs/distribution/images/ir_statussequence_manual.png" alt="Inbound Shipment Status Sequence (New & manual)" style="width:60%">
@@ -394,7 +393,7 @@ Once you have done this:
 - Return status is now `DELIVERED`
 
 <div class="note">
-In case your Customer Return is <b>automatic</b>, you cannot confirm its delivery unless the customer has confirmed its shipment. In other words, your invoice status has to be <code>SHIPPED</code> before you can confirm that you have received the returned goods. 
+In case your Customer Return is <b>automatic</b>, you cannot confirm its delivery unless the customer has confirmed its shipment. In other words, your return status has to be <code>SHIPPED</code> before you can confirm that you have received the returned goods. 
 </div>
 
 ![Alt Text](/docs/distribution/images/ir_confirmdelivered.gif)
