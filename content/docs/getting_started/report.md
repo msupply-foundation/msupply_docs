@@ -80,7 +80,7 @@ The report will be downloaded as an excel file.
 
 ## Standard Reports
 
-Builds 2.3.0 and above will include standard reports in all instances of open mSupply. The 2.3.0 build includes the following reports:
+Builds 2.3.0 and above will include standard reports by default in all instances of open mSupply. The 2.3.0 build includes the following reports:
 
 - Invoice Landscape
 - Item Usage
