@@ -92,6 +92,10 @@ The Dose Schedule table is divided into 6 columns:
 | **Custom age label**    | Custom age label to be displayed in the Vaccination Card. If not defined, the default is the `From age` (e.g. `6 years`) |
 | **Min interval (days)** | Minimum number of days before the patient should receive the next dose                                                   |
 
+<div class="note">
+  If custom age labels are used, ensure that label is the same across all doses in the Immunization Program with the same <code>From age</code>. For example, if you want to replace "0 months" with "Birth", all doses across all Vaccine Courses with a <code>From age</code> of 0 months will need the custom age label of "Birth". This ensures correct grouping of doses in the Vaccination Card.
+</div>
+
 Once you are happy with the Vaccine Course details, click OK to save the new Vaccine Course.
 
 Click `Cancel` at any time to close the window and discard your changes.
