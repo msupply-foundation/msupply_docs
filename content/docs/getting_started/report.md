@@ -78,6 +78,12 @@ To export a report to excel, click on the `Export` button on the top right corne
 
 The report will be downloaded as an excel file.
 
+### Standard report translations
+
+Standard reports will be translated to the user's language if available when generating the report.
+
+English will be used by default in places where translations in the user's language is unavailable.
+
 ## Standard Reports
 
 Builds 2.3.0 and above will include standard reports by default in all instances of open mSupply. The 2.3.0 build includes the following reports:

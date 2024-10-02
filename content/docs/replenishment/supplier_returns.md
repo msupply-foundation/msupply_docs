@@ -1,5 +1,5 @@
 +++
-title = "Outbound Returns"
+title = "Supplier Returns"
 description = "Returning stock to your suppliers."
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
@@ -13,31 +13,31 @@ toc = true
 top = false
 +++
 
-Outbound Returns can be used to return stock to a supplier.
+Supplier Returns can be used to return stock to a supplier.
 
-It is important to be able to return goods to a supplier without it being counted as goods being issued to a customer. If you just issue goods to your supplier through an Outbound Shipment, then those goods will be counted as part of your store's 'issuance' (consumption). An Outbound Return is the right way to return goods to a supplier.
+It is important to be able to return goods to a supplier without it being counted as goods being issued to a customer. If you just issue goods to your supplier through an Outbound Shipment, then those goods will be counted as part of your store's 'issuance' (consumption). A Supplier Return is the right way to return goods to a supplier.
 
-If you have used mSupply in the past, you may be familiar with the term **Supplier Credit** instead of Outbound Return.
+If you have used mSupply in the past, you may be familiar with the term **Supplier Credit** instead of Supplier Return.
 
-## Viewing Outbound Returns
+## Viewing Supplier Returns
 
-### Open the Outbound Returns Menu
+### Open the Supplier Returns Menu
 
-Choose `Replenishment` > `Outbound Returns` in the navigation panel.
+Choose `Replenishment` > `Supplier Returns` in the navigation panel.
 
 ![gotooor](/docs/replenishment/images/gotoor.png)
 
-You will be presented with a list of Outbound Returns (if you don't see any, you are probably just starting!).
+You will be presented with a list of Supplier Returns (if you don't see any, you are probably just starting!).
 
 From this screen you can:
 
-- View a list of Outbound Returns
-- Create a new Outbound Return
-- Export Outbound Returns to a `.csv` file
+- View a list of Supplier Returns
+- Create a new Supplier Return
+- Export Supplier Returns to a `.csv` file
 
-### Outbound Return list
+### Supplier Return list
 
-1. The list of Outbound Returns is divided into 6 columns:
+1. The list of Supplier Returns is divided into 6 columns:
 
 | Column        | Description                    |
 | :------------ | :----------------------------- |
@@ -65,21 +65,21 @@ From this screen you can:
 You can filter the list of returns by supplier name or by status. This can be useful if you're looking for one particular return!
 Select the `Name` filter from the list to filter by the supplier name:
 
-![Outbound return filter](/docs/replenishment/images/or_filter.png)
+![Supplier Return filter](/docs/replenishment/images/or_filter.png)
 
 Type the name of a supplier in the `Name` field. All the returns for this supplier will appear in the list.
 
-### Exporting Outbound Returns
+### Exporting Supplier Returns
 
-The list of Outbound Returns can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page)
+The list of Supplier Returns can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page)
 
 ![Export button](/docs/distribution/images/export.png)
 
-and the file will be downloaded. The export function will download all Outbound Returns, not just the current page, if you have more than 20 of them.
+and the file will be downloaded. The export function will download all Supplier Returns, not just the current page, if you have more than 20 of them.
 
-### Delete an Outbound Return
+### Delete a Supplier Return
 
-You can delete a return from the Outbound Return list.
+You can delete a return from the Supplier Return list.
 
 1. Select the return that you want to delete by checking the box on the left end of the list. You can select more than one return to be deleted. You can even select them all using the master checkbox in the list headers.
 
@@ -88,20 +88,20 @@ You can delete a return from the Outbound Return list.
 3. A notification confirms how many returns were deleted (bottom left corner).
 
 <div class="note">
-You can only delete Outbound Returns if they have not been <code>SHIPPED</code>.
+You can only delete Supplier Returns if they have not been <code>SHIPPED</code>.
 </div>
 
 ![Outbound list: delete](/docs/replenishment/images/or_delete.gif)
 
-## Creating an Outbound Return
+## Creating a Supplier Return
 
 ### Create from Inbound Shipment
 
-Often, you will be returning goods that you received via an Inbound Shipment. In this case, you can [create an Outbound Return from the Inbound Shipment](../inbound-shipments/#returning-stock-from-an-inbound-shipment) itself.
+Often, you will be returning goods that you received via an Inbound Shipment. In this case, you can [create a Supplier Return from the Inbound Shipment](../inbound-shipments/#returning-stock-from-an-inbound-shipment) itself.
 
 ### Create manually
 
-1. Go to `Replenishment` > `Outbound Return`.
+1. Go to `Replenishment` > `Supplier Return`.
 
 2. Press the `New Return` button, in the top right corner
 
@@ -123,21 +123,21 @@ In the below example, we are wanting to return stock to <b>Kamo Regional Warehou
 You can tell if a supplier is also using Open mSupply in their store. If they do, you will see icon like this <img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto"> next to the supplier code. 
 </div>
 
-2. Once you tap or press `Enter`, or click on a supplier, your Outbound Return is automatically created
+2. Once you tap or press `Enter`, or click on a supplier, your Supplier Return is automatically created
 
 <div class=imagetitle>
 If everything went well, you should see the name of your supplier in the top left corner and the status should be <code>NEW</code> 
 </div>
 
-![Outbound return: created](/docs/replenishment/images/or_created.png)
+![Supplier Return: created](/docs/replenishment/images/or_created.png)
 
 ### Enter a Supplier Reference
 
-Once your Outbound Return has been created, you can enter a supplier reference in the `Reference` field, if they have one (eg. _PO#1234567_)
+Once your Supplier Return has been created, you can enter a supplier reference in the `Reference` field, if they have one (eg. _PO#1234567_)
 
-### View or edit the Outbound Return Information Panel
+### View or edit the Supplier Return Information Panel
 
-The Information Panel allows you to see or edit information about the Outbound Return. It is divided into multiple sections:
+The Information Panel allows you to see or edit information about the Supplier Return. It is divided into multiple sections:
 
 - Additional Info
 - Related Documents
@@ -149,7 +149,7 @@ We are planning to add more sections in the future as Open mSupply grows.
 
 If you are using a large screen, the information panel will be automatically opened for you. However, on an average sized screen, the information panel will be closed by default.
 
-To open the Information Panel, you can tap on the `More` button, located in the top right corner of the Outbound Return view.
+To open the Information Panel, you can tap on the `More` button, located in the top right corner of the Supplier Return view.
 
 You can close by tapping on the `X Close` button, on the top right corner of the information panel.
 
@@ -159,15 +159,15 @@ You can close by tapping on the `X Close` button, on the top right corner of the
 
 In the **Additional Info** section, you can:
 
-- See who created the Outbound Return (name of the user)
-- View and edit the Outbound Return color. To edit the color, tap on the coloured circle and select a color from the pop-up
+- See who created the Supplier Return (name of the user)
+- View and edit the Supplier Return color. To edit the color, tap on the coloured circle and select a color from the pop-up
 - Write or edit a comment
 
 #### Related Documents
 
-In the **Related Documents** section, you can see other related transaction documents for the Outbound Return.
+In the **Related Documents** section, you can see other related transaction documents for the Supplier Return.
 
-If your Outbound Return was created from an **Inbound Shipment**, the reference number of the Inbound Shipment would appear in this section.
+If your Supplier Return was created from an **Inbound Shipment**, the reference number of the Inbound Shipment would appear in this section.
 
 In the future, we would also include other documents such as transportation documents or pick slips.
 
@@ -177,26 +177,26 @@ In this section, you can see or edit a transport reference number (eg. a booking
 
 #### Actions
 
-1. **Delete:** You can tap on the `Delete` button to delete the return. You can only delete Outbound Returns if they have not been <code>SHIPPED</code>.
+1. **Delete:** You can tap on the `Delete` button to delete the return. You can only delete Supplier Returns if they have not been <code>SHIPPED</code>.
 2. **Copy to Clipboard**: You can tap on the `Copy to Clipboard` button to copy the invoice details to the clipboard.
 
-### Outbound Return Status Sequence
+### Supplier Return Status Sequence
 
-The status sequence is located at the bottom left corner of the Outbound Return screen.
+The status sequence is located at the bottom left corner of the Supplier Return screen.
 
 Passed statuses are hightlighted in blue, next statuses appear in grey.
 
 <figure>
-<img src="/docs/replenishment/images/or_statussequence2.png" alt="Outbound Return Status Sequence (New)" style="width:100%">
+<img src="/docs/replenishment/images/or_statussequence2.png" alt="Supplier Return Status Sequence (New)" style="width:100%">
 <figcaption align = "center">Status Sequence: current status is <code>NEW</code>.</figcaption>
 </figure>
 
 <figure>
-<img src="/docs/replenishment/images/or_statussequence.png" alt="Outbound Return Status Sequence (Shipped)" style="width:100%">
+<img src="/docs/replenishment/images/or_statussequence.png" alt="Supplier Return Status Sequence (Shipped)" style="width:100%">
 <figcaption align = "center">Status Sequence: current status is </i><code>SHIPPED</code>.</figcaption>
 </figure>
 
-There are 5 status for the Outbound Return:
+There are 5 status for the Supplier Return:
 
 | Status        | Description                                                                                                                                           |
 | :------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -218,7 +218,7 @@ This return has been created on 03/03/2022, picked on 04/03/2022 and shipped on 
 
 Located on the bottom left corner, on the left of the status sequence.
 
-Checking the `Hold` checkbox prevents the Outbound Return from being updated to the next status.
+Checking the `Hold` checkbox prevents the Supplier Return from being updated to the next status.
 
 ![Outbound checkbox](/docs/distribution/images/os_holdcheckbox.png)
 
@@ -226,13 +226,13 @@ Checking the `Hold` checkbox prevents the Outbound Return from being updated to 
 
 #### Close Button
 
-Tap on the `Close` button to quit the Outbound Return view and return to the Outbound Returns list.
+Tap on the `Close` button to quit the Supplier Return view and return to the Supplier Returns list.
 
 #### Confirm Button
 
 The `Confirm` button updates the status of a return. The status which you can confirm depends on the current status of the return and follows the sequence shown below.
 
-When managing an Outbound Return, you can only confirm the Picked and Shipped statuses.
+When managing a Supplier Return, you can only confirm the Picked and Shipped statuses.
 
 | Confirm...          | Current Status | Next Status |
 | :------------------ | :------------- | :---------- |
@@ -245,7 +245,7 @@ As demonstrated below, tap on the down arrow of the `Confirm` button and select 
 
 ![Skip Status](/docs/replenishment/images/or_confirm_skip_status.gif)
 
-## Adding lines to an Outbound Return
+## Adding lines to a Supplier Return
 
 Tap on the `Add Item` button (top right corner).
 
@@ -313,11 +313,11 @@ When you are happy with the quantities, you can press the `Next step` button. Th
 
 When you are happy with the quantities and reasons, you can press on:
 
-- the `OK` button. Your item will be added to the Outbound Return. The quantities for each batch will be reserved for this return.
+- the `OK` button. Your item will be added to the Supplier Return. The quantities for each batch will be reserved for this return.
 - the `OK & Next` button to add another item right away
 - the `Back` button, to go back to the `Select quantity` step
 
-## Editing an Outbound Return Line
+## Editing a Supplier Return Line
 
 To edit a return line, tap on it. You will be presented with the `Edit Item` window, which is identical to the `Add Item` window, except that the item is already chosen.
 
@@ -327,7 +327,7 @@ To edit a return line, tap on it. You will be presented with the `Edit Item` win
  <b></b> You can edit a return line if the return has a status lower than <code>SHIPPED</code>. 
 </div>
 
-1. Open the Outbound Return you want to edit.
+1. Open the Supplier Return you want to edit.
 2. Tap on the line you want to edit. An identical window to `Add Item` appears. At this stage you can:
 
    - Edit quantity to return for each batch
@@ -345,12 +345,12 @@ If you set all return quantities to `0`, and click `Next step` you will see this
 
 ### Delete a Return Line
 
-1. Open the Outbound Return you want to edit.
+1. Open the Supplier Return you want to edit.
 2. Select the line(s) you want to delete by checking the box(es) on the right of the list.
 3. Go to the `Actions` dropdown menu (top right corner, above the list)
 4. Select the action `Delete selected lines`
 
-![Outbound return actions dropdown](/docs/replenishment/images/or_actions_deletelines.png)
+![Supplier Return actions dropdown](/docs/replenishment/images/or_actions_deletelines.png)
 
 <div class="imagetitle">
 In the below example, we are deleting 2 items, with the item codes 030453 and 201116
@@ -362,9 +362,9 @@ In the below example, we are deleting 2 items, with the item codes 030453 and 20
  <b></b> You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
 </div>
 
-## Processing an Outbound Return
+## Processing a Supplier Return
 
-### Confirming Outbound Return picking
+### Confirming Supplier Return picking
 
 Picking refers to the process where individual items are picked from a fulfilment facility (usually a warehouse or a pharmacy store).
 
@@ -385,15 +385,15 @@ Once picking is confirmed:
 - Return status is now `PICKED`
 - Goods are no longer part of your inventory
 - You are now invited to confirm the shipping via the `Confirm Shipped` button
-- If your supplier is also using mSupply, then an **Inbound Return** has been generated and is now visible to your supplier
+- If your supplier is also using mSupply, then an **Customer Return** has been generated and is now visible to your supplier
 
 At this stage, you are still able to edit return lines, to add items or to delete existing lines. However, if picking has been confirmed, you need to make sure to inform your fulfilment facility of any change so they can make sure that the return is still correct.
 
-### Confirming the Outbound Return shipping
+### Confirming the Supplier Return shipping
 
-The last step to return stock with an Outbound Return is to confirm that stock has been shipped.
+The last step to return stock with a Supplier Return is to confirm that stock has been shipped.
 
-To confirm that an Outbound Return has been shipped, tap on the `Confirm Shipped` button.
+To confirm that a Supplier Return has been shipped, tap on the `Confirm Shipped` button.
 
 Once shipping has been confirmed:
 
@@ -402,14 +402,14 @@ Once shipping has been confirmed:
 - You can no longer delete the return
 - Your supplier is able to mark the return as `DELIVERED` once they receive the return
 
-### Tracking Progress of Outbound Returns
+### Tracking Progress of Supplier Returns
 
 If your supplier is also using mSupply, you will be able to see when they receive your returns:
 
 - status will become `DELIVERED` when goods are received: your supplier confirmed that they received your return
 - status will become `VERIFIED` when the return has been verified by your supplier. Goods are now a part of their inventory.
 
-## Viewing an Outbound Return
+## Viewing a Supplier Return
 
 When viewing a specific return, you can view the batches on that return grouped by item or with each batch listed separately.
 To change the view mode, click the `Group by item` switch.
@@ -420,7 +420,7 @@ When grouped by item, you can expand the item to see individual batches, or use 
 
 If you do not have enough room on your screen, or simply aren't interested in some of the columns shown, you have the option of hiding which columns are shown in this view.
 
-Click on the `Show / hide columns` button which is at the top right of the table. This gives a list of the columns available - you can check the columns you want to see. The options chosen are stored for the current browser, so next time you view an Outbound Return, you will see the selected columns only. If you have chosen which columns to show, then the button is shown in blue to remind you that there are more columns available.
+Click on the `Show / hide columns` button which is at the top right of the table. This gives a list of the columns available - you can check the columns you want to see. The options chosen are stored for the current browser, so next time you view a Supplier Return, you will see the selected columns only. If you have chosen which columns to show, then the button is shown in blue to remind you that there are more columns available.
 
 <div class="imagetitle">
 In the below example, we are hiding the pricing columns
