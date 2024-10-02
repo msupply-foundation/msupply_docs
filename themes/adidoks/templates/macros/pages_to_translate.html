@@ -1,0 +1,31 @@
+{#- This macro outputs a list of pages in English that is used to pass into PrincePDF for PDF generation -#}
+<html>
+<body>
+{%- macro pdf_export(current_section) -%}
+{%- set index_path = current_section ~ "/_index.md"  | trim_start_matches(pat="/") -%}
+{%- set index = get_section(path=index_path) -%}
+
+{%- if index.subsections -%}
+  {% for a in ["fr","es","pt"] %}
+  <h3>Missing Pages for {{a}}</h3>
+		{% for s in index.subsections -%}
+			{%- set subsection = get_section(path=s) -%}
+			{%- if subsection.translations %}
+				{%- for page in subsection.pages -%}
+					{% set_global has_page = false %}
+					{%- for this_translation in page.translations -%}
+						{%- if this_translation.lang == a %}
+  							{% set_global has_page = true %}
+  						{%- else -%}
+						{%- endif -%}
+					{%- endfor -%}		
+					{%- if has_page == false %}
+						<p>{{ page.permalink | safe}}</p>
+					{%- endif -%}
+				{%- endfor -%}		
+			{%- endif -%}
+		{%- endfor %}
+	{% endfor %}
+{%- endif -%}
+{%- endmacro -%}
+</body></html>

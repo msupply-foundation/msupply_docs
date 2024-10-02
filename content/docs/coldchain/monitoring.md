@@ -23,7 +23,6 @@ The Monitoring section displays cold chain temperature monitoring data in three 
 Temperature data may be imported into Open mSupply via Bluetooth (e.g. <a href="https://msupply.foundation/open-msupply/cold-chain/#mSupplySensor" target="_blank">mSupply temperature sensors</a>) or via USB (e.g. <a href="https://msupply.foundation/open-msupply/cold-chain/#BerlingerSensor" target="_blank">Berlinger Fridge-tags / Q-tags)</a> - see <a href="https://docs.msupply.foundation/docs/coldchain/sensors/#connecting-sensors">Connecting Sensors</a> for more info.
 </div>
 
-
 ### Viewing Monitoring data
 
 Choose `Cold chain` > `Monitoring` in the navigation panel.
@@ -78,11 +77,11 @@ The `Breaches` tab displays a list of all recorded breaches.
 The list of breaches is divided into 10 columns:
 
 | Column           | Description                                                                                                                    |
-| :--------------- | :----------------------------------------------------------------------------------------------------------------------------- |
+|:---------------- |:------------------------------------------------------------------------------------------------------------------------------ |
 |                  | An icon showing an alert if this breach is unacknowledged                                                                      |
 | **Status**       | The breach status can be `Acknowledged` or `Unacknowledged`                                                                    |
 | **Sensor name**  | Name of the Sensor                                                                                                             |
-| **Location**     | Current location linked to the sensor                                                                                        |
+| **Location**     | Current location linked to the sensor                                                                                          |
 | **CCE**          | Name of the cold chain equipment item which the sensor is associated with                                                      |
 | **Breach start** | Date and time at which the breach started                                                                                      |
 | **Breach end**   | Date and time at which the breach ended, if applicable                                                                         |
@@ -145,10 +144,10 @@ The `Log` tab shows a list of all temperature logs.
 The list of temperature logs is divided into 6 columns:
 
 | Column          | Description                                                                                                                                                                            |
-| :-------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|:--------------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Date time**   | Date and time of the most recent activity for this sensor                                                                                                                              |
 | **Sensor name** | Name of the Sensor                                                                                                                                                                     |
-| **Location**    | Current location linked to the sensor                                                                                                                                  |
+| **Location**    | Current location linked to the sensor                                                                                                                                                  |
 | **CCE**         | Name of the cold chain equipment item which the sensor is associated with                                                                                                              |
 | **Temperature** | The most recent temperature reported by the sensor                                                                                                                                     |
 | **Breach type** | If the sensor has had a breach, this shows the type of the most recent breach. This is a combination of Hot or Cold (shown by the icon and text colour) and Consecutive or Cumulative. |
@@ -175,4 +174,3 @@ To add a filter to the page, choose the required filter from the drop down.
 3. You can also select a different number of rows to show per page using the option at the bottom right of the page.
 
 ![Rows per page](/docs/introduction/images/rows-per-page-select.png)
-

@@ -1,10 +1,6 @@
 {#- This macro outputs a list of pages in English that is used to pass into PrincePDF for PDF generation -#}
 {%- macro pdf_export(current_section) -%}
-{%- if lang == "en" -%}
-	{%- set index_path = current_section ~ "/_index.md"  | trim_start_matches(pat="/") -%}
-{%- else -%}
-{%- set index_path = current_section ~ "/_index." ~ lang ~ ".md"  | trim_start_matches(pat="/") -%}
-{%- endif %}
+{%- set index_path = current_section ~ "/_index.fr.md"  | trim_start_matches(pat="/") -%}
 {%- set index = get_section(path=index_path) -%}
 {%- if index.pages %}
 	{% for page in index.pages %}
@@ -15,10 +11,12 @@
 {%- if index.subsections -%}
 	{%- for s in index.subsections -%}
 		{%- set subsection = get_section(path=s) -%}
-		{%- if subsection.pages %}
-			{%- for page in subsection.pages -%}
-			{#- Leave the next line not indented the missing "-" at the end of this comment means whitespace is not being removed so we get a line break #}
+		{%- if subsection.translations %}
+			{%- for page in subsection.translations -%}
+					{%- if page.lang == "fr" %}
+					{#- Leave the next line not indented the missing "-" at the end of this comment means whitespace is not being removed so we get a line break #}
 {{ page.permalink | safe}}
+					{%- endif -%}
 			{%- endfor -%}
 	{%- endif -%}
 	{%- endfor %}
