@@ -451,7 +451,7 @@ A prescription can be backdated by changing the Date field in the Prescription.
 It is recommended to backdate the prescription before adding any items to the prescription, that way you'll see the stock available at that date.
 </div>
 
-If you have backdated a prescription, when adding items, the available stock will be adjusted to what was available at that date.
+If you have backdated a prescription, when adding items, the available stock will be adjusted to what was available at that date and has not been used since.
 
 When adding items to a backdated prescription, the available stock will be adjusted to what was available at that date.
 The other field still show the current state of the system.
