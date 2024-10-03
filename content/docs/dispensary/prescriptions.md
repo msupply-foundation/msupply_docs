@@ -2,7 +2,7 @@
 title = "Prescriptions"
 description = "Prescribing stock to patients."
 date = 2022-03-19T18:20:00+00:00
-updated = 2022-03-19T18:20:00+00:00
+updated = 2024-10-03T17:40:00+00:00
 draft = false
 weight = 2
 sort_by = "weight"
