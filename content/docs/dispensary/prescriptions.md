@@ -443,7 +443,7 @@ Click on the `Show / hide columns` button which is at the top right of the table
 
 ### Backdating A Prescription
 
-A prescription can be backdated by changing the Date field in the Prescription.
+A prescription can be backdated by changing the Date field in the header.
 
 ![Prescription Date UI Control](/docs/dispensary/images/prescription_backdate_highlight.png)
 
@@ -469,4 +469,6 @@ If you have already assign stock to a prescription, and then you change the date
 
 ![Backdating a Prescription Error](/docs/dispensary/images/prescription_backdate_stock_error.png)
 
+<div class="tip">
 This means some of the stock you've selected was introduced after the date of the prescription. The best way to resolve this is to delete all lines from the prescription, change the date, then add the items again, or you might have just selected the wrong date, so check that first!
+</div>
