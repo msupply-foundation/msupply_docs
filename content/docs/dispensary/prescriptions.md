@@ -451,10 +451,10 @@ A prescription can be backdated by changing the Date field in the Prescription.
 It is recommended to backdate the prescription before adding any items to the prescription, that way you'll see the stock available at that date.
 </div>
 
-If you have backdated a prescription, when adding items, the available stock will be adjusted to what was available at that date and has not been used since.
+#### Stock Levels
 
-When adding items to a backdated prescription, the available stock will be adjusted to what was available at that date.
-The other field still show the current state of the system.
+When adding items to a backdated prescription, the available stock will be adjusted to what was available at that date (and hasn't been used since).
+The other fields still show the current state of the system.
 
 ![Backdating a Prescription, stock levels](/docs/dispensary/images/prescription_backdate_stock_levels.png)
 
@@ -462,7 +462,7 @@ The other field still show the current state of the system.
 If some stock you are expecting to see doesn't show as available, use the <a href="/docs/inventory/stock-view/#ledger-tab">Ledger</a> in Inventory -> Stock to see when that stock was received.
 </div>
 
-## Backdating a Prescription Errors
+#### Errors when Backdating a Prescription
 
 If you have already assign stock to a prescription, and then you change the date of the prescription to a date before the stock was received, you may see an error message saying
 `Stock not available on specified date`.
