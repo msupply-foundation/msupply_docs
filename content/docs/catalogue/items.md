@@ -97,3 +97,26 @@ There are two tabs in the bottom part of the screen:
 
 This tab lists the Master Lists associated with this item.
 ![Item detail headers](/docs/catalogue/images/cat_itemmasterlists.png)
+
+
+#### Pack Variants
+
+Please refer to [Item Pack Variants](/docs/catalogue/pack-variants) section for more detail.
+
+You can configure and view item pack variants in this tab. 
+
+![pack variant tab](/docs/catalogue/images/pack_variant_tab.png)
+
+New pack variants are added via **New Pack Variant** button, existing pack variants are edited by clicking on the table row. Deletion can be done via editing modal or by selecting lines via checkboxes and using the 'Select' drop down option.
+
+When editing or creating pack variant the following modal will be shown
+
+![edit pack variant](/docs/catalogue/images/edit_pack_variant.png)
+
+- **Pack Size**: The pack size of this pack variant, unique for item
+- **Abbreviation**: How this pack size will appear in UI when window space is limited
+- **Name**: How this pack size will appear in UI when windows space is not limited
+
+Editing configurations is restricted to central server, when configurations have changed they will appear on the remote sites after synchronisation
+
+[![central server only](/docs/introduction/images/central_server.png '🔗 Available on central server only ')](/docs/introduction/central/#remote-site-vs-central-server)
