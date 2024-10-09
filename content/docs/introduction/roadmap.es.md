@@ -15,34 +15,7 @@ toc = true
 Este mapa de ruta se actualizará aproximadamente cada seis semanas y solo cubre nuestro flujo de trabajo comprometido inmediato. Nuestra lista de funciones planificadas es mucho más extensa.
 
 ### Plan de trabajo
-{% mermaid ()%}
-gantt
- title Plan de Trabajo Open mSupply
- dateFormat YY-MM-DD
- axisFormat %B
- section Versión 1.1
-  Integración de Fridge-tag :t1-1-1,23-02-21, 35d
-  División de paquetes :t1-1-2,23-03-06, 35d
-  Función de programas RC1 :t1-1-3,23-02-01, 30d
-  Estabilización de Android :t1-1-4,23-02-01, 25d
- section Versión 1.2
-  Preferencias: t1-2-3, after t1-1-2, 28d
-  Integración de cadena de frío :t1-2-1, after t1-1-1, 56d
-  Función de programas RC2: t1-2-2, after t1-1-3, 90d
- section Versión 2.0
-  Dispensación: t2-0-1, after t1-2-2, 70d
-  Funcionalidad mejorada de R&R: after t1-2-3, 56d
-  Integración DHIS2: t2-0-3, after t1-2-2, 28d
-  Integración HL7: t2-0-4, after t2-0-3, 28d
-  Dispensación : milestone, m2, after t2-0-1, 
-section Versión 2.1
-  Devoluciones de clientes: t2-1-1, after t2-0-4, 32d
-  Devoluciones de proveedores: t2-1-2, after t2-0-4, 32d
-section Versión 2.2
-  Propiedades de los productos: t3-0-1, after t2-1-1, 14d
-  Serialización: t3-0-2, after t3-0-1, 21d
-  Front-end Marco de complementos: after t2-1-1, 32d
-{% end %} 
+![Plan de trabajo](/docs/introduction/images/roadmap_es.png)
 
 
 ### Características planificadas
