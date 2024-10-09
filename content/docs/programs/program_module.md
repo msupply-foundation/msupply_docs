@@ -238,6 +238,10 @@ If the patient is already linked to the contact, but you want to change the pati
 
 If the patient is enrolled in an Immunization Program, you can view their progress through the program by viewing their Vaccination Card.
 
+<div class='note'>
+  The Vaccination Card can only be viewed from the facility where the patient was enrolled in the program. If the patient was enrolled in the program at a different facility, you will not be able to view their Vaccination Card.
+</div>
+
 From the `Vaccinations` tab in the patient detail view, select the Immunization Program you want to view the Vaccination Card for.
 
 ![Vaccinations Tab](/docs/programs/images/patient_vaccinations_tab.png)
