@@ -9,7 +9,7 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "L'intégration Open mSupply avec le logiciel de comptabilité et d'inventaire SAGE"
+lead = "L'intégration Open mSupply avec le logiciel de comptabilité et de gestion financière SAGE"
 toc = true
 +++
 
