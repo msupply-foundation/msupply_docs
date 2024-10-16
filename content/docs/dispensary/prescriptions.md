@@ -2,7 +2,7 @@
 title = "Prescriptions"
 description = "Prescribing stock to patients."
 date = 2022-03-19T18:20:00+00:00
-updated = 2022-03-19T18:20:00+00:00
+updated = 2024-10-03T17:40:00+00:00
 draft = false
 weight = 2
 sort_by = "weight"
@@ -399,7 +399,39 @@ In the below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100m
 ![Alt Text](/docs/dispensary/images/prescription_deleteselectedlines.gif)
 
 <div class="tip">
- <b></b> You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
+You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
+</div>
+
+## Backdating A Prescription
+
+A prescription can be backdated by changing the Date field in the header.
+
+![Prescription Date UI Control](/docs/dispensary/images/prescription_backdate_highlight.png)
+
+<div class="tip">
+It is recommended to backdate the prescription before adding any items to the prescription, that way you'll see the stock available at that date.
+</div>
+
+#### Stock Levels
+
+When adding items to a backdated prescription, the available stock will be adjusted to what was available at that date (and hasn't been used since).
+The other fields still show the current state of the system.
+
+![Backdating a Prescription, stock levels](/docs/dispensary/images/prescription_backdate_stock_levels.png)
+
+<div class="tip">
+If some stock you are expecting to see doesn't show as available, use the <a href="/docs/inventory/stock-view/#ledger-tab">Ledger</a> in Inventory -> Stock to see when that stock was received.
+</div>
+
+#### Errors when Backdating a Prescription
+
+If you have already assigned stock to a prescription, and then you change the date of the prescription to a date before the stock was received, you may see an error message saying
+`Stock not available on specified date`.
+
+![Backdating a Prescription Error](/docs/dispensary/images/prescription_backdate_stock_error.png)
+
+<div class="tip">
+This means some of the stock you've selected was introduced after the date of the prescription. The best way to resolve this is to delete all lines from the prescription, change the date, then add the items again. You might have just selected the wrong date, so check that first!
 </div>
 
 ## Processing a Prescription
