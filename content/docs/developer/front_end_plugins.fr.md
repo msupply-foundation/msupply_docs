@@ -14,7 +14,7 @@ toc = true
 
 Nous avons l'intention de créer un site Web de documentation pour les développeurs distinct, mais nous voulions que ces informations soient trouvables jusqu'à ce que nous le fassions. Elles se trouvent ici :
 
-## Poruquoi des Plugins?
+## Pourquoi des Plugins?
 Les plugins vous permettent d'ajouter des fonctionnalités à Open mSupply sans avoir à modifier la base de code principale.
 
 
