@@ -404,13 +404,9 @@ You can delete multiple lines at once. Be sure to review what is selected before
 
 ## Backdating A Prescription
 
-A prescription can be backdated by changing the Date field in the header.
+A prescription can be backdated by changing the Date field in the header. This must be done before adding items to the prescription.
 
 ![Prescription Date UI Control](/docs/dispensary/images/prescription_backdate_highlight.png)
-
-<div class="tip">
-It is recommended to backdate the prescription before adding any items to the prescription, that way you'll see the stock available at that date.
-</div>
 
 #### Stock Levels
 
@@ -423,16 +419,13 @@ The other fields still show the current state of the system.
 If some stock you are expecting to see doesn't show as available, use the <a href="/docs/inventory/stock-view/#ledger-tab">Ledger</a> in Inventory -> Stock to see when that stock was received.
 </div>
 
-#### Errors when Backdating a Prescription
+#### Changing the date after adding items
 
-If you have already assigned stock to a prescription, and then you change the date of the prescription to a date before the stock was received, you may see an error message saying
-`Stock not available on specified date`.
+If you have already assigned stock to a prescription, and then you change the date of the prescription, you will see this warning:
 
-![Backdating a Prescription Error](/docs/dispensary/images/prescription_backdate_stock_error.png)
+![Backdating a Prescription - Delete lines](/docs/dispensary/images/prescription_backdate_delete_lines.png)
 
-<div class="tip">
-This means some of the stock you've selected was introduced after the date of the prescription. The best way to resolve this is to delete all lines from the prescription, change the date, then add the items again. You might have just selected the wrong date, so check that first!
-</div>
+The system needs to recalculate the available stock levels based on the new date, so existing lines will be removed and you'll need to add them again. Therefore, it is recommended to set the date before adding items to the prescription!
 
 ## Processing a Prescription
 
