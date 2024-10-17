@@ -50,7 +50,9 @@ If you enter values for both the code and name, the items shown would have to ma
 
 The form also display which preferences the report is based on.
 
-![stock status filter](/docs/getting_started/images/report_filter.png)
+<p align="center">
+    <img src="/docs/getting_started/images/report_filter.png" alt="stock status filter" width="560" height="486">
+</p>
 
 Click `Ok` to generate the report. If you find that you would like to narrow
 down the report while viewing it, you can click on the `Filter` button on the
@@ -83,3 +85,13 @@ The report will be downloaded as an excel file.
 Standard reports will be translated to the user's language if available when generating the report.
 
 English will be used by default in places where translations in the user's language is unavailable.
+
+## Standard Reports
+
+Version 2.3.0+ will include standard reports by default in all instances of Open mSupply:
+
+- Invoice Landscape
+- Item Usage
+- Stock Detail
+- Stock Status
+- Expiring Items
