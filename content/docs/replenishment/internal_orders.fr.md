@@ -153,15 +153,16 @@ Vous pouvez créer des commandes internes à partir de plusieurs listes de base 
 Lorsque vous ajoutez des articles (à l'aide d'une liste de base ou non), l'article est ajouté au tableau de la commande. Les informations suivantes sont fournies pour chaque ligne de commande :
 | Status                   | Description                                                                                                                                        |
 | :----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Code**                 | Code de l'article                                                                                                                                   |
-| **Nom**                 | Nom de l'article                                                                                                                                   |
-| **Unité**                 | Unité de l'article, par exemple comprimé, gélule, flacon                                                                                                        |
-| **DPS**                  | Taille d'emballage par défaut de l'article                                                                                                                      |
-| **SDU (Est. restant)** | Stock disponible : quelle est la quantité de stock actuellement disponible dans votre magasin pour ce magasin ?
-| **CMM**                  | Consommation mensuelle moyenne : la quantité de stock que votre magasin utilise en moyenne chaque mois (sur la base d'un nombre de mois configurable, la valeur par défaut étant de 3 mois). |
-| **Stock cible**         | C'est le stock que vous visez. Calculé comme suit : CMM x MOS cible                                                                             |
-| **Quantité suggérée**   | La quantité de stock que mSupply suggère pour votre commande. Cette quantité est calculée comme suit : (AMC x MOS cible) - SoH                                                    |
-| **Demandé**            | Cette valeur est fixée par défaut à zéro. Il s'agit de la quantité d'unités que vous commandez à votre fournisseur.                                                 |                                                                       |
+| **Code**                 | Code de l'article                                                                                                                                  |
+| **Nom**                  | Nom de l'article                                                                                                                                   |
+| **Unité**                | Unité de l'article, par exemple comprimé, gélule, flacon                                                                                                       |
+| **DPS**                  | Taille d'emballage par défaut de l'article                                                                                                                     |
+| **SDU (Est. restant)**   | Stock disponible : quelle est la quantité de stock actuellement disponible dans votre magasin pour ce magasin ?
+| **CMM**                  | Consommation mensuelle moyenne : la quantité de stock que votre magasin utilise en moyenne chaque mois 
+(sur la base d'un nombre de mois configurable, la       valeur par défaut étant de 3 mois).                                                                                     |
+| **Stock cible**          | C'est le stock que vous visez. Calculé comme suit : CMM x MOS cible                                                                                |
+| **Quantité suggérée**    | La quantité de stock que mSupply suggère pour votre commande. Cette quantité est calculée comme suit : (AMC x MOS cible) - SoH                                 |
+| **Demandé**              | Cette valeur est fixée par défaut à zéro. Il s'agit de la quantité d'unités que vous commandez à votre fournisseur.                                |           
 
 ### Utilisation des quantités suggérées
 
