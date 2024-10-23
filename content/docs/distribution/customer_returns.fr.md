@@ -1,5 +1,5 @@
 +++
-title = "Customer Returns"
+title = "Retours clients"
 description = "Receiving returned stock from your customers"
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
@@ -13,424 +13,425 @@ toc = true
 top = false
 +++
 
-A Customer Returns is used to record stock which is returned by a customer.
+Un retour client sert à enregistrer le stock qui est retourné par un client.
 
-It is important to be able to receive goods back from a customer without it being counted as goods coming from a supplier. If your customer issues the goods to you on an Outbound Shipment, and you then receive it through an Inbound Shipment, then those goods will be counted as part of your store's 'supply' from suppliers, which is not correct. A Customer Return is the right way to receive goods back from a customer.
+Il est important de pouvoir recevoir des articles d’un client sans qu’elles soient comptées comme étant des articles provenant d’un fournisseur. Si votre client vous envoie les articles dans un envoi sortant et que vous les recevez par l’intermédiaire d’un envoi entrant, ces articles seront comptées comme faisant partie de la 'livraison' de votre dépot par les fournisseurs, ce qui n’est pas correct. Un retour client est la bonne façon de recevoir des articles en arrière d’un client.
 
-If you have used mSupply in the past, you may be familiar with the term **Customer Credit** instead of Customer Return.
+Si vous avez déjà utilisé mSupply, vous connaissez peut-être le terme **Crédit Client** au lieu de « retour client ».
 
-All goods returned by a customer should be recorded in mSupply with a Customer Return. They are created automatically, as a result of a Supplier Return created by another store in Open mSupply, and can also be entered manually.
 
-## Viewing Customer Returns
+Tous les produits retournés par un client doivent être enregistrés dans mSupply avec un retour client. Ils sont créés automatiquement, à la suite d’un retour fournisseur créé par un autre dépot dans Open mSupply, et peuvent également être entrés manuellement.
 
-### Open the Customer Returns Menu
+## Affichage des retours clients
 
-Choose `Distribution` > `Customer Returns` in the navigation panel.
+### Ouvrir le menu des retours clients
+
+Choisissez `Distribution` > `Retours Client` dans le panneau de navigation.
 
 ![go to Customer Return](/docs/distribution/images/gotoir.png)
 
-You will be presented with a list of Customer Returns if some have been created already.
+Vous recevrez une liste des retours clients si certains ont déjà été créés.
 
-From this screen you can:
+De cet écran, vous pouvez :
 
-- View a list of Customer Returns
-- Create a new Customer Return
-- Export Customer Returns to a `.csv` file
+- Afficher la liste des retours clients
+- Créer un nouveau retour client
+- Exporter les retours du client dans un fichier `.csv`
 
-### Customer Return list
+### Liste des retours clients
 
-1. The list of Customer Returns is divided into 6 columns:
+1. La liste des retours clients est divisée en 6 colonnes :
 
-| Column        | Description                    |
+| Colonne        | Description                    |
 | :------------ | :----------------------------- |
-| **Name**      | Name of the Customer           |
-| **Status**    | Current Status of the return   |
-| **Number**    | Reference Number of the return |
-| **Created**   | Creation date of the return    |
-| **Comment**   | Comment for the return         |
-| **Reference** | Customer reference             |
+| **Nom**      | nom du client          |
+| **Statut**    | Statut actuel du retour   |
+| **Numéro**    | Numéro de référence du retour |
+| **Créé**   | Date de création du retour    |
+| **Commentaire**   | Commentaire pour le retour         |
+| **Référence** | Référence client             |
 
-1. The list can display a fixed number of returns per page. On the bottom left corner, you can see how many returns are currently displayed on your screen.
+2. La liste peut afficher un nombre fixe de retours par page. Dans le coin inférieur gauche, vous pouvez voir combien de retours sont actuellement affichés sur votre écran.
 
 ![Page](/docs/distribution/images/os_list_showing.png)
 
-3. If you have more returns than the current limit, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner).
+3. Si vous avez plus de retours que la limite actuelle, vous pouvez naviguer vers les autres pages en appuyant sur le numéro de page ou en utilisant la droite des flèches gauche (coin inférieur droit).
 
 ![Page](/docs/distribution/images/os_list_pagenumbers.png)
 
-4. You can also select a different number of rows to show per page using the option at the bottom right of the page.
+4. Vous pouvez également sélectionner un nombre différent de lignes à afficher par page en utilisant l’option située dans le coin inférieur droit de la page.
 
 ![Rows per page](/docs/introduction/images/rows-per-page-select.png)
 
-### Search by Customer Name
+### Recherche par nom de client
 
-You can filter the list of returns by customer name or by status. This can be useful if you're looking for one particular return!
+Vous pouvez filtrer la liste des retours par nom de client ou par statut. Cela peut être utile si vous cherchez un retour particulier!
 
-For example: Select the `Name` filter from the list to filter by the customer name. Type the name of a customer in the `Name` field. All the returns for this customer will appear in the list.
+Par exemple : Sélectionnez le filtre `Nom` dans la liste pour filtrer par nom de client. Tapez le nom d’un client dans le champ `Nom`. Tous les retours pour ce client apparaîtront dans la liste.
 
 ![Customer Return filter](/docs/distribution/images/ir_filter.gif)
 
-### Exporting Customer Returns
+### Exportation des retours clients
 
-The list of Customer Returns can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page)
+La liste des retours clients peut être exportée dans un fichier séparé par des virgules (csv). Il suffit de cliquer sur le bouton d’exportation (à droite, en haut de la page)
 
 ![Export button](/docs/distribution/images/export.png)
 
-and the file will be downloaded. The export function will download all Customer Returns, not just the current page, if you have more returns than the current page limit.
+et le fichier sera téléchargé. La fonction d’exportation téléchargera tous les retours clients, et non seulement la page actuelle, si vous avez plus de retours que la limite de page actuelle.
 
-### Delete a Customer Return
+### Supprimer un retour client
 
-You can delete a return from the Customer Return list.
+Vous pouvez supprimer un retour de la liste des retours clients.
 
-1. Select the return that you want to delete by checking the box on the left end of the list. You can select more than one return to be deleted. You can even select them all using the master checkbox in the list headers.
+1. Sélectionnez le retour que vous voulez supprimer en cochant la case à gauche de la liste. Vous pouvez sélectionner plus d’un retour à supprimer. Vous pouvez même les sélectionner tous en utilisant la case à cocher maître dans les en-têtes de liste.
 
-2. Open the `Select` dropdown (top right corner, above the list) and select `Delete selected lines`.
+2. Ouvrez le menu déroulant `Selectionner` (en haut à droite, au-dessus de la liste) et sélectionnez `Supprimer les lignes selectionnées`.
 
-3. A notification confirms how many returns were deleted (bottom left corner).
+3. Une notification confirme combien de retours ont été supprimés (coin inférieur gauche).
 
 <div class="note">
-You can only delete Customer Returns if they have a status of <code>NEW</code>.
+Vous ne pouvez supprimer les retours de clients que s’ils ont un statut <code>NOUVEAU</code>.
 </div>
 
 ![Inbound list: delete](/docs/distribution/images/ir_delete.gif)
 
-## Creating a Customer Return
+## Création d’un retour client
 
-Customer Returns are created automatically, when a Supplier Return is created by another store. If needed, they can also be created manually, as explained below.
+Les retours clients sont créés automatiquement, lorsqu’un retour fournisseur est créé par un autre D2POT. Si nécessaire, ils peuvent également être créés manuellement, comme expliqué ci-dessous.
 
-### Create from Outbound Shipment
+### Créer à partir d’une livraison
 
-Often, you will be processing the return of goods that you sent via an Outbound Shipment. In this case, you can [create a Customer Return from the Outbound Shipment](../outbound-shipments/#process-return-of-stock-from-an-outbound-shipment) itself.
+Souvent, vous traiterez le retour de marchandises que vous avez envoyées par l’intermédiaire d’une livraison. Dans ce cas, vous pouvez [create a Customer Return from the Outbound Shipment](../outbound-shipments/#process-return-of-stock-from-an-outbound-shipment).
 
-### Create manually
+### Créer manuellement
 
-1. Go to `Distribution` > `Customer Return`.
+1. Allez à `Distribution` > `Retours client`.
 
-2. Press the `New Return` button, in the top right corner
+2. Appuyez sur le bouton `Nouveau Retour` dans le coin supérieur droit.
 
 ![New Return](/docs/distribution/images/ir_newreturn.png)
 
-3. A new window `Customers` opens, inviting you to select a customer.
+3. Une nouvelle fenêtre `Clients` s'ouvre, vous invitant à sélectionner un client.
 
-#### Select a Customer
+#### Sélectionner un client
 
-1. In the `Customers` window, you will be presented with a list of available customers. You can select your customer from the list or you can filter by typing the customer name.
+1. Dans la fenêtre `Clients` vous verrez une liste des clients disponibles. Vous pouvez sélectionner votre client dans la liste ou vous pouvez filtrer en tapant le nom du client.
 
 <div class="imagetitle">
-In the below example, we are wanting to receive returned stock from <b>Tamaki Central Medical Store</b>. 
+Dans l’exemple ci-dessous, nous souhaitons recevoir des articles retournés du <b>Dépot Médical Central de Tamaki</b>. 
 </div>
 
 ![Create Customer Return](/docs/distribution/images/ir_create.gif)
 
 <div class="tip">
-You can tell if a customer is also using Open mSupply in their store. If they do, you will see an icon like this <img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto"> next to the customer code. 
+Vous pouvez savoir si un client utilise également Open mSupply dans son dépot. Si c’est le cas, vous verrez une icône comme celle-ci <img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto"> à côté du code client.
 </div>
 
-2. Once you tap or press `Enter`, or click on a customer, your Customer Return is automatically created
+2. Une fois que vous appuyez sur `Entrée`, ou cliquez sur un client, votre retour de client est automatiquement créé.
 
-If everything went well, you should see the name of your customer in the top left corner and the status should be <code>NEW</code>
+Si tout s’est bien passé, vous devriez voir le nom de votre client dans le coin supérieur gauche et l’état devrait être <code>NOUVEAU</code>
 
-### Enter a Customer Reference
+### Entrez une référence client
 
-Once your Customer Return has been created, you can enter a customer reference in the `Customer Ref` field, if they have one (eg. _PO#1234567_)
+Une fois que votre retour client a été créé, vous pouvez entrer une référence de client dans le champ `Ref Client` s’il en a une (ex. _PO#1234567_)
 
-### Customer Return Information Panel
+### Panneau de renseignements sur les retours clients
 
-The Information Panel allows you to see or edit information about the Customer Return. It is divided into multiple sections:
+Le panneau d’information vous permet de voir ou de modifier les renseignements sur le retour du client. Il est divisé en plusieurs sections :
 
-- Additional Info
-- Related Documents
-- Transport Details
+- Informations complémentaires
+- Documents relatifs
+- Détails de transport
 
-We are planning to add more sections in the future as Open mSupply grows.
+Nous prévoyons d’ajouter d’autres sections à l’avenir, au fur et à mesure que Open mSupply se développera.
 
-#### How to open and close the Information Panel?
+#### Comment ouvrir et fermer le panneau d’information?
 
-If you are using a large screen, the information panel will be automatically opened for you. However, on an average sized screen, the information panel will be closed by default.
+Si vous utilisez un grand écran, le panneau d’information s’ouvrira automatiquement pour vous. Toutefois, sur un écran de taille moyenne, le panneau d’information sera fermé par défaut.
 
-To open the Information Panel, you can tap on the `More` button, located in the top right corner of the Customer Return view.
+Pour ouvrir le panneau d’information, vous pouvez appuyer sur le bouton `Plus` situé dans le coin supérieur droit de la vue Retour client.
 
-You can close by tapping on the `X Close` button, on the top right corner of the information panel.
+Vous pouvez fermer en appuyant sur le bouton `X Fermer` dans le coin supérieur droit du panneau d’information.
 
 ![Open and close the Information Panel](/docs/distribution/images/ir_sidepanel.gif)
 
-#### Additional Info
+#### Informations complémentaires
 
-In the **Additional Info** section, you can:
+Dans la section **Informations complémentaires**, vous pouvez :
 
-- See who created the Customer Return (name of the user)
-- View and edit the Customer Return color. To edit the color, tap on the coloured circle and select a color from the pop-up
-- Write or edit a comment
+- Voir qui a créé le retour client (nom de l’utilisateur)
+- Afficher et modifier la couleur de retour du client. Pour modifier la couleur, appuyez sur le cercle coloré et sélectionnez une couleur dans la fenêtre contextuelle.
+- Écrire ou modifier un commentaire
 
-#### Related Documents
+#### Documents relatifs
 
-In the **Related Documents** section, you can see other related transaction documents for the Customer Return.
+Dans la section **Documents relatifs**, vous pouvez voir d’autres documents de transaction connexes pour le retour client.
 
-If your Customer Return was created from an **Outbound Shipment**, the reference number of the Outbound Shipment would appear in this section.
+Si votre retour client a été créé à partir d’un **Livraison**, le numéro de référence de l’envoi sortant apparaîtra dans cette section.
 
-In the future, we would also include other documents such as transportation documents or pick slips.
+À l’avenir, nous inclurons également d’autres documents tels que des documents de transport ou des bordereaux de prélèvement.
 
-#### Transport Details
+#### Détails transport
 
-If your Customer Return was created automatically, via a Supplier Return from another store, you will see a Transport Details section. Here, you can see a transport reference (e.g. a booking or tracking number.)
+Si votre retour client a été créé automatiquement, via un retour fournisseur à partir d’un autre dépot, vous verrez une section Détails de transport. Ici, vous pouvez voir une référence de transport (p. ex., un numéro de réservation ou de suivi)
+
 
 #### Actions
 
-1. **Delete:** You can click the `Delete` button to delete the return. You can only delete Customer Returns while they are in <code>NEW</code> status.
-2. **Copy to Clipboard**: You can click the `Copy to Clipboard` button to copy the invoice details to the clipboard.
+1. **Supprimer:** Vous pouvez cliquer sur le bouton `Supprimer` pour supprimer le retour. Vous ne pouvez supprimer les retours de clients que lorsqu’ils sont dans le statut <code>NOUVEAU</code>.
+2. **Copier dans le presse-papiers**: Vous pouvez cliquer sur le bouton `Copier dans le presse-papiers` pour copier les détails de la facture dans le presse-papiers.
 
-### Customer Return Status Sequence
+### Séquence de statut de retour client
 
-The status sequence is located at the bottom left corner of the Customer Return screen.
+La séquence de statut se trouve dans le coin inférieur gauche de l’écran Retour client.
 
-Passed statuses are hightlighted in blue, next statuses appear in grey.
+Les statuts passés sont surlignés en bleu, les états suivants apparaissent en gris.
 
 <figure>
 <img src="/docs/distribution/images/ir_statussequence.png" alt="Customer Return Status Sequence (New)" style="width:100%">
-<figcaption align = "center">Status Sequence: current status is <code>NEW</code>.</figcaption>
+<figcaption align = "center">Status Sequence: Le statut actuel est <code>NOUVEAU</code>.</figcaption>
 </figure>
 
 <figure>
 <img src="/docs/distribution/images/ir_statussequence2.png" alt="Customer Return Status Sequence (Shipped)" style="width:100%">
-<figcaption align = "center">Status Sequence: current status is </i><code>SHIPPED</code>.</figcaption>
+<figcaption align = "center">Status Sequence: Le statut actuel est </i><code>EXPEDIE</code>.</figcaption>
 </figure>
 
-There are 5 status for the Customer Return:
+Il y a 5 statuts pour le retour client :
 
 | Status        | Description                                                                                                           |
 | :------------ | --------------------------------------------------------------------------------------------------------------------- |
-| **New**       | This is the first status when you create a new manual Customer Return                                                 |
-| **Picked**    | Customer has confirmed that the return is picked and is ready to ship (only applies to automatically created returns) |
-| **Shipped**   | Return has been shipped and goods are now in transit (applies only to automatically created returns)                  |
-| **Delivered** | When you confirm that the return has been delivered                                                                   |
-| **Verified**  | When you have verified the Customer Return                                                                            |
+| **Nouveau**       | Il s’agit du premier état lorsque vous créez un nouveau retour client manuel                                                 |
+| **Sélectionné**    | Le client a confirmé que le retour est sélectionné et prêt à être expédié (s’applique uniquement aux retours créés automatiquement). |
+| **Expédié**   | Le retour a été expédié et les marchandises sont en transit (s’applique uniquement aux retours créés automatiquement)                  |
+| **Livré** | Lorsque vous confirmez que le retour a été livré                                                                   |
+| **Vérifié**  | Lorsque vous avez vérifié le retour du client                                                                            |
 
-You probably noticed that two of the status values only apply to automatically created shipments. These are created by the system when another store in the system creates a Supplier Return to return stock to your store. If this is the case you'll see a message near the top of the page:
+Vous avez probablement remarqué que deux des valeurs de statut ne s’appliquent qu’aux envois créés automatiquement. Ces données sont créées par le système lorsqu’un autre magasin du système crée un retour de fournisseur pour retourner les stocks à votre dépot. Si c’est le cas, vous verrez un message en haut de la page :
 
 ![Automatic IS message](/docs/distribution/images/ir_message_automatic.png)
 
-Note that this message appears differently if the status is `Delivered` or `Verified`
+Notez que ce message apparaît différemment si le statut est `Livré` ou `Vérifié`
 
 ![Automatic IS message: delivered](/docs/distribution/images/ir_message_automatic_delivered.png)
 
-If, however, you've created an Inbound Shipment manually, then the following message shows:
+Si, toutefois, vous avez créé un envoi entrant manuellement, le message suivant s’affiche :
 
 ![Manual IS message](/docs/distribution/images/ir_message_manual.png)
 
-and you'll see that the status bar has only the status values which apply to this type of shipment.
+et vous verrez que la barre de statut ne contient que les valeurs du statut qui s’appliquent à ce type d’envoi.
 
 <figure align="center">
     <img src="/docs/distribution/images/ir_statussequence_manual.png" alt="Inbound Shipment Status Sequence (New & manual)" style="width:60%">
-    <figcaption align="center">Status Sequence: current status is </i><code>New</code>.</figcaption>
+    <figcaption align="center">Status Sequence: Le statut actuel est </i><code>Nouveau</code>.</figcaption>
 </figure>
 
-If you hover over the status sequence, a return history window appears. You can see the date when a return was updated from one status to another.
+Si vous passez le curseur de la souris sur la séquence de statut, une fenêtre d’historique des retours apparaît. Vous pouvez voir la date à laquelle un retour a été mis à jour d’un statut à l’autre.
 
 <div class="imagetitle">
-This manual return has been created on 28/03/2024
+Ce retour manuel a été créé le 28/03/2024
 </div>
 
 ![Inbound status: hover 2](/docs/distribution/images/ir_status_sequence_hover_manual.png)
 
 <div class="imagetitle">
-This automatic return has been created, picked and shipped on the 26/03/24
+Ce retour automatique a été créé, sélectionné et expédié le 26/03/24
 </div>
 
 ![Inbound status: hover](/docs/distribution/images/ir_status_sequence_hover_auto.png)
 
-### Hold checkbox
+### Case à cocher En attente
 
-Located on the bottom left corner, on the left of the status sequence.
+Situé dans le coin inférieur gauche, à gauche de la séquence de statut.
 
-Checking the `Hold` checkbox prevents the Customer Return from being updated to the next status.
+Cocher la case `En attente` empêche le retour du client d’être mis à jour au prochain statut.
 
 ![Inbound checkbox](/docs/distribution/images/os_holdcheckbox.png)
 
-### Close and Confirm button
+### Bouton de fermer et de confirmer
 
-#### Close Button
+#### Bouton Fermer
 
-Tap on the `Close` button to quit the Customer Return view and return to the Customer Returns list.
+Appuyez sur le bouton `Fermer` pour quitter la vue Retour du client et retourner à la liste Retours du client.
 
-#### Confirm Button
+#### bouton Confirmer
 
-The `Confirm` button updates the status of a return. The status which you can confirm depends on the current status of the return and follows the sequence shown below.
+Le bouton `Confirmer` met à jour le statut d’un retour. Le statut que vous pouvez confirmer dépend du statut actuel du retour et suit la séquence ci-dessous.
 
-When managing a Customer Return, you can only confirm it as Delivered or Verified.
+Lorsque vous gérez un retour de client, vous ne pouvez le confirmer que comme étant livré ou vérifié.
 
 | Confirm...            | Current Status | Next Status |
 | :-------------------- | :------------- | :---------- |
-| **Confirm Delivered** | Shipped        | Delivered   |
-| **Confirm Verified**  | Delivered      | Verified    |
+| **Confirmer la livraison** | expédié        | livré   |
+| **Confirmer la vérification**  | livré      | vérifié    |
 
-For manual Customer Returns, you don't have to update to the next status in the sequence. You can choose to skip `Delivered` to go directly to `Confirm Verified`.
+Pour les retours clients manuels, vous n’avez pas besoin de passer au statut suivant dans la séquence. Vous pouvez choisir de sauter `Livré` pour passer directement à `Confirmer Verifier`.
 
-As demonstrated below, tap on the down arrow of the `Confirm` button and select the status you want the return to be updated to.
+Comme indiqué ci-dessous, appuyez sur la flèche vers le bas du bouton `Confirmer` et sélectionnez le statut auquel vous voulez que le retour soit mis à jour.
 
 ![Skip Status](/docs/distribution/images/ir_confirm_skip_status.gif)
 
-## Adding lines to a Customer Return
+## Ajout de lignes à un retour client
 
-Tap on the `Add Item` button (top right corner).
+Appuyez sur le bouton `Ajouter Article` (en haut à droite).
 
 ![Add Item button](/docs/distribution/images/ir_additembutton.png)
 
-### Select an Item
+### Sélectionner un article
 
-A new `Add Item` window opens. In the `Add Item` window, you can look up an item by:
+Une nouvelle fenêtre `Ajouter article` s’ouvre. Dans la fenêtre `Ajouter article` vous pouvez rechercher un article en :
 
-- Reading through the list of available items
-- or by typing some or all of the item name
-- or by typing some or all of an item code
+- Lecture de la liste des articles disponibles
+- ou en tapant tout ou partie du nom de l’article
+- ou en tapant tout ou partie d’un code d’article
 
-Once your item is highlighted, tap on the name or press `Enter`.
+Une fois que votre article est en surbrillance, appuyez sur le nom ou appuyez sur `Entrer`.
 
 ![Select an item](/docs/distribution/images/ir_additem.gif)
 
-#### Select quantities step
+#### Étape de sélection des quantités
 
-In the `Select Quantities` step, you can enter the following fields:
+Dans l’étape `Selectionner Quantitiés`, vous pouvez entrer les champs suivants :
 
-- **Code**: Item code
-- **Name**: Item name
-- **Batch**: Batch number. It is a designation given to products made in the same manufacturing run.
-- **Expiry**: Expiry date of the batch (format: MM/YYYY)
-- **Pack Size**: Quantity of units per pack
-- **Pack Quantity Issued**: Number of packs that were issued in the Outbound Shipment
-- **Quantity Returned**: Number of packs to be returned
+- **Code**: code article
+- **Nom**: nom d'article
+- **Lot**: Numéro de lot. C’est une désignation donnée aux produits fabriqués dans le même cycle de fabrication.
+- **Expiration**: Date d’expiration du lot (format : MM/AAAA)
+- **Taille de l'emballage**: Quantité d’unités par paquet
+- **Quantité d’emballage émise**: Nombre de colis qui ont été émis dans la livraison
+- **Quantité retournée**: Nombre de colis à retourner
 
-If you are receiving more than one batch number for the same item, you can add lines with the `Add Batch` button.
+Si vous recevez plus d’un numéro de lot pour le même article, vous pouvez ajouter des lignes avec le bouton `Ajouter lot`.
 
 ![List of batches](/docs/distribution/images/ir_list_of_batches.png)
 
-#### Warnings
+#### Avertissements
 
-You may see one or more warning messages on this screen.
+Vous pouvez voir un ou plusieurs messages d’avertissement sur cet écran.
 
-If you forget to enter a `Quantity Returned` for any batch and click `Next step`, you will see this warning message. You'll need to add a returned quantity for at least one batch. You can click `Cancel` if you no longer want to process the return of any of this stock.
+Si vous oubliez d’entrer une `Quantité Retournée` pour un lot et que vous cliquez sur `Etape suivante`, vous verrez ce message d’avertissement. Vous devrez ajouter une quantité retournée pour au moins un lot. Vous pouvez cliquer sur `Annuler` si vous ne voulez plus traiter le retour de ce stock.
 
 ![return quantity warning!](/docs/distribution/images/ir_addquantities_warning.png)
 
-### Provide Reasons
+### Donner les raisons
 
 <div class="note">
 
-Return reasons are configured on the mSupply central server via **[options](https://docs.msupply.org.nz/preferences:options)**
+Les raisons de retour sont configurées sur le serveur central mSupply via **[options](https://docs.msupply.org.nz/preferences:options)**
 
 </div>
 
-When you are happy with the batch info and return quantities, you can press the `Next step` button. The list of batches will be filtered to only include the batches you set a return quantity for. In this view, you can enter a reason for the return of each batch, and an additional comment.
+Lorsque vous êtes satisfait des informations sur le lot et les quantités à retourner, vous pouvez appuyer sur le bouton `Etape suivante`.  La liste des lots sera filtrée pour inclure uniquement les lots pour lesquels vous avez défini une quantité de retour. Dans cette vue, vous pouvez entrer une raison pour le retour de chaque lot, et un commentaire supplémentaire.
 
 ![Provide return reasons](/docs/distribution/images/ir_additem_returnstep.png)
 
-### Confirm
+### Confirmer
 
-When you are happy with the quantities and reasons, you can press on:
+Lorsque vous êtes satisfait des quantités et des motifs, vous pouvez appuyer sur :
 
-- the `OK` button. Your item will be added to the Customer Return
-- the `OK & Next` button to add another item right away
-- the `Back` button, to go back to the `Select quantity` step
+- Le bouton `OK` Votre article sera ajouté au formulaire de retour du client.
+- le bouton `OK & suivant` pour ajouter un autre article immédiatement
+- le bouton `Retour`, pour revenir à l’étape `Selectionner quantité` 
 
-## Editing a Customer Return Line
+## Modification d’une ligne de retour du client
 
-To edit a return line, tap on it. You will be presented with the `Edit Item` window, which is identical to the `Add Item` window, except that the item is already chosen.
+Pour modifier une ligne de retour, appuyez dessus. Vous verrez la fenêtre `Modifier article`, qui est identique à la fenêtre  `Ajouter article`,  except that the item is already chosen.
 
-### Edit a Return Line
+### Modifier une ligne de retour
 
 <div class="note">
- <b></b> You can edit a return line if the return is not yet <code>VERIFIED</code>. 
+ <b></b> Vous pouvez modifier une ligne de retour si le retour n’est pas encore <code>VERIFIÉ</code>. 
 </div>
 
-1. Open the Customer Return you want to edit.
-2. Tap on the line you want to edit. An identical window to `Add Item` appears. At this stage you can:
+1. Ouvrez le retour client que vous souhaitez modifier.
+2. Appuyez sur la ligne que vous voulez modifier. Une fenêtre identique à `Ajouter Article` apparaît. À ce stade, vous pouvez :
 
-   - Edit batch info
-   - Edit quantity returned for each batch
-   - Click `Next step` to view/adjust the reasons and comments
+   - Modifier les informations du lot
+   - Modifier la quantité retournée pour chaque lot
+   - Cliquez sur `Prochaine étape` pour afficher ou modifier les motifs et les commentaires.
 
-If you set the Quantity Returned to `0`, that line will be removed from the return.
+Si vous définissez la quantité retournée à `0`, cette ligne sera supprimée du retour.
 
-If you set all return quantities to `0`, and click `Next step` you will see this warning message. It is informing you that no return quantities were provided; from here you can click `OK` again to confirm, in which case the window will close and all lines for that item will be removed.
+Si vous définissez toutes les quantités de retour à `0`, et cliquez sur `Prochaine étape` vous verrez ce message d’avertissement. Il vous informe qu’aucune quantité de retour n’a été fournie; à partir de là, vous pouvez cliquer sur `OK` à nouveau pour confirmer, auquel cas la fenêtre se fermera et toutes les lignes pour cet article seront supprimées.
 
 ![no quantities warning!](/docs/distribution/images/ir_edit_noquantities.png)
 
 <div class="note">
- <b></b> When editing a return line, you cannot change the item. You would need to delete the return line and create a new one. 
+ <b></b> Lorsque vous modifiez une ligne de retour, vous ne pouvez pas modifier l’article. Vous devez supprimer la ligne de retour et en créer une nouvelle. 
 </div>
 
-### Delete a Return Line
+### Supprimer une ligne de retour
 
-1. Open the Customer Return you want to edit.
-2. Select the line(s) you want to delete by checking the box(es) on the right of the list.
-3. Go to the `Actions` dropdown menu (top right corner, above the list)
-4. Select the action `Delete selected lines`
+1. Ouvrez le retour client que vous souhaitez modifier.
+2. Sélectionnez la ou les lignes que vous voulez supprimer en cochant la ou les cases à droite de la liste.
+3. Allez au menu déroulant `Actions` (en haut à droite, au-dessus de la liste)
+4. Sélectionnez l’action `Supprimer les lignes sélectionnées`
 
 ![Delete lines actions dropdown](/docs/replenishment/images/or_actions_deletelines.png)
 
 <div class="imagetitle">
-In the below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100mg tabs</i>
+Dans l’exemple ci-dessous, nous supprimons <i>article 030063 - Acetylsalicylic Acid 100mg tabs</i>
 </div>
 
 ![Alt Text](/docs/distribution/images/ir_deleteselectedlines.gif)
 
 <div class="tip">
- <b></b> You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
+ <b></b> Vous pouvez supprimer plusieurs lignes à la fois. N’oubliez pas de vérifier ce qui est sélectionné avant d’effectuer l’action Supprimer. 
 </div>
 
-## Receiving a Customer Return
+## Réception d’un retour de client
 
-### Confirming the delivery of the return
+### Confirmer la livraison du retour
 
-Whether your Customer Return is **manual** or **automatic**, the first step to receive the returned goods is to confirm the delivery.
+Que votre retour soit **manuel** ou **automatique**, la première étape pour recevoir les marchandises retournées est de confirmer la livraison.
 
-At this stage, you don't have to check if quantities or other information are correct, you just have to acknowledge that you have received the returned goods from your customer.
+À ce stade, vous n’avez pas besoin de vérifier si les quantités ou d’autres informations sont correctes, il vous suffit de confirmer que vous avez reçu les marchandises retournées par votre client.
 
-To confirm that a Customer Return has been delivered, click on the `Confirm Delivered` button.
+Pour confirmer qu’un retour de client a été livré, cliquez sur le bouton `Confirmer la livraison`.
 
-Once you have done this:
+Une fois que vous avez fait ceci :
 
-- Goods are now part of your inventory
-- Return status is now `DELIVERED`
+- Les articles font maintenant partie de votre inventaire
+- Le statut de retour est maintenant `LIVRÉ`
 
 <div class="note">
-In case your Customer Return is <b>automatic</b>, you cannot confirm its delivery unless the customer has confirmed its shipment. In other words, your shipment status has to be <code>SHIPPED</code> before you can confirm that you have received the returned goods. 
+Si votre retour client est <b>automatique</b>, vous ne pouvez pas confirmer sa livraison à moins que le client n’ait confirmé son envoi. En d’autres termes, votre statut de livraison doit être <code>EXPÉDIÉ</code> avant que vous puissiez confirmer que vous avez reçu les articles retournées. 
 </div>
 
 ![Alt Text](/docs/distribution/images/ir_confirmdelivered.gif)
 
-### Verify your Customer Return
+### Vérifier le retour client
 
-Verification is the last step to receive returned goods in mSupply. At this stage, you can check what you have received and make sure that the information in mSupply is correct.
+La vérification est la dernière étape pour recevoir les articles retournées dans mSupply. À ce stade, vous pouvez vérifier ce que vous avez reçu et vous assurer que les informations dans mSupply sont correctes.
 
-You have the possibility to verify the following information:
+Vous avez la possibilité de vérifier les informations suivantes :
 
-- Batch numbers and their expiry dates
-- Quantity of packs and pack size
-- Return reasons
+- Numéros de lot et dates d’expiration
+- Quantité de colis et taille du colis
+- Raisons de retour
 
-Once all information has been captured or verified, you can confirm the Customer Return as `VERIFIED` by tapping on the `Confirm Verified` button.
+Une fois que tous les renseignements ont été saisis ou vérifiés, vous pouvez confirmer le retour du client en cliquant sur `VÉRIFIÉ` dans la boîte de dialogue `Confirmer`.
 
-Once you have done this:
+Une fois que vous avez fait ceci :
 
-- Customer Return status is now `VERIFIED`
-- You can no longer edit return lines
-- You can no longer delete the return
+- Le statut de retour du client est maintenant `VÉRIFIÉ`
+- Vous ne pouvez plus modifier les lignes de retour
+- Vous ne pouvez plus supprimer le retour
 
-## Viewing a Customer Return
+## Visualisation d’un retour client
 
-When viewing a specific return, you can view the batches on that return grouped by item or with each batch listed separately.
-To change the view mode, click the `Group by item` switch.
+Lorsque vous affichez un retour spécifique, vous pouvez afficher les lots de ce retour groupés par article ou avec chaque lot répertorié séparément. Pour changer le mode de visualisation, cliquez sur l’interrupteur `Grouper par article`.
 
-When grouped by item, you can expand the item to see individual batches, or use the expand in the table header to expand all grouped rows.
+Lorsque vous regroupez par article, vous pouvez développer l’élément pour afficher les lots individuels ou utiliser le bouton développer dans l’en-tête de la table pour développer toutes les lignes groupées.
 
 ![Group by Item](/docs/distribution/images/ir_group_by_item.gif)
 
-If you do not have enough room on your screen, or simply aren't interested in some of the columns shown, you have the option of hiding which columns are shown in this view.
+Si vous n’avez pas assez de place sur votre écran, ou si certaines des colonnes affichées ne vous intéressent tout simplement pas, vous avez la possibilité de masquer les colonnes qui sont affichées dans cette vue.
 
-Click on the `Show / hide columns` button which is at the top right of the table. This gives a list of the columns available - you can check the columns you want to see. The options chosen are stored for the current browser, so next time you view a Customer Return, you will see the selected columns only. If you have chosen which columns to show, then the button is shown in blue to remind you that there are more columns available.
+Cliquez sur le bouton `Afficher / masquer les colonnes` qui se trouve en haut à droite du tableau. Cela donne une liste des colonnes disponibles - vous pouvez vérifier les colonnes que vous voulez voir. Les options choisies sont enregistrées pour le navigateur actuel, de sorte que la prochaine fois que vous afficherez un retour client, vous ne verrez que les colonnes sélectionnées. Si vous avez choisi les colonnes à afficher, le bouton est affiché en bleu pour vous rappeler qu’il y a plus de colonnes disponibles.
 
 <div class="imagetitle">
-In the below example, we hide the batch, expiry and unit quantity columns
+Dans l’exemple ci-dessous, nous cachons les colonnes de lot, d’expiration et de quantité unitaire
 </div>
 
 ![Hide columns](/docs/distribution/images/ir_filter_columns.gif)
