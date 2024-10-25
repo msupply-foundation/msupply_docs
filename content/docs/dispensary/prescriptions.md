@@ -2,7 +2,7 @@
 title = "Prescriptions"
 description = "Prescribing stock to patients."
 date = 2022-03-19T18:20:00+00:00
-updated = 2024-10-03T17:40:00+00:00
+updated = 2022-03-19T18:20:00+00:00
 draft = false
 weight = 2
 sort_by = "weight"
@@ -269,17 +269,17 @@ Default value is `Any` when you are issuing units.
 
 This is a list of batch numbers that you have in store for this item:
 
-| Column                | Description                                                                                                   |
-| :-------------------- | :------------------------------------------------------------------------------------------------------------ |
-| **Batch**             | Batch number. It is a designation given to products made in the same manufacturing run.                       |
-| **Expiry**            | Expiry date of the batch (format: MM/YYYY)                                                                    |
-| **Location**          | This is the name of the location where the item is stored if your inventory is managed with storage locations |
-| **On Hold**           | Indicates whether a batch is on hold or not. You cannot issue a batch that is on hold.                        |
-| **In Store (packs)**  | Total number of packs in your store                                                                           |
-| **Available (packs)** | Number of packs available (not already allocated to other invoices)                                           |
-| **Pack Size**         | Quantity of units per pack                                                                                    |
-| **[Unit] Qty Issued** | Total quantity of units to be issued                                                                          |
-| **Pack Qty Issued**   | Number of packs to be issued                                                                                  |
+| Column              | Description                                                                                      |
+| :--------------------- | :----------------------------------------------------------------------------------------------- |
+| **Batch**              | Batch number. It is a designation given to products made in the same manufacturing run.         |
+| **Expiry**             | Expiry date of the batch (format: MM/YYYY)                                                      |
+| **Location**           | This is the name of the location where the item is stored if your inventory is managed with storage locations |         
+| **On Hold**            | Indicates whether a batch is on hold or not. You cannot issue a batch that is on hold.          |
+| **In Store (packs)**   | Total number of packs in your store                                                              |
+| **Available (packs)**  | Number of packs available (not already allocated to other shipments)                             |
+| **Pack Size**              | Quantity of units per pack                       |
+| **[Unit] Qty Issued**  | Total quantity of units to be issued                                                             |
+| **Pack Qty Issued**    | Number of packs to be issued                                                                     |
 
 ![List of available batch numbers](/docs/dispensary/images/prescription_additem_listofbatches.png)
 
@@ -307,18 +307,19 @@ You may see one or more warning messages on this screen:
 
 ![placeholder warning!](/docs/distribution/images/os_warning_placeholder.png)
 
-The warning is shown to let you know that not enough stock is available to fulfil your request. A placeholder quantity is added automatically so that you can keep track of the amount requested, while adding more stock (for example by using an Internal Order or Inbound Shipment).
+The warning is shown to let you know that not enough stock is available to fulfil your request. A placeholder quantity is added automatically so that you can keep track of the amount requested, while adding more stock (for example by using an internal order or inbound shipment).
 
 This image also shows the warning which lets you know that some stock lines are expired; this may be why the system did not auto-allocate particular stock lines.
-However you can still manually choose those lines and issue the expired stock!
+However you can still manually choose those lines and issue the expired stock! 
 
 ![pack sizes warning!](/docs/distribution/images/os_warning_pack_sizes.png)
 
 This warning tells you that because of the available pack sizes, the system has rounded up the quantity requested. In this example, there is no pack size that is less than `12`. There are packs of `20` available though, so when 12 tablets are requested, the system has rounded up the request to `2` packs of `20`.
 
+
 ![pack sizes warning!](/docs/distribution/images/os_warning_no_quantity.png)
 
-If you add an item, forget to enter a quantity to issue, and click `OK` you will see this warning message. It is informing you that there is no issue quantity; from here you can click `OK` again to confirm that you intended to enter `0`, in which case the window will close and a placeholder row will be added to the invoice. You can edit the row later and add a quantity. If you forget to add a quantity however, and confirm the invoice as allocated, this row will be removed!
+If you add an item, forget to enter a quantity to issue, and click `OK` you will see this warning message. It is informing you that there is no issue quantity; from here you can click `OK` again to confirm that you intended to enter `0`, in which case the window will close and a placeholder row will be added to the shipment. You can edit the row later and add a quantity. If you forget to add a quantity however, and confirm the shipment as allocated, this row will be removed!
 
 ### Issue a quantity of packs
 
@@ -399,33 +400,8 @@ In the below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100m
 ![Alt Text](/docs/dispensary/images/prescription_deleteselectedlines.gif)
 
 <div class="tip">
-You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
+ <b></b> You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
 </div>
-
-## Backdating A Prescription
-
-A prescription can be backdated by changing the Date field in the header. This must be done before adding items to the prescription.
-
-![Prescription Date UI Control](/docs/dispensary/images/prescription_backdate_highlight.png)
-
-#### Stock Levels
-
-When adding items to a backdated prescription, the available stock will be adjusted to what was available at that date (and hasn't been used since).
-The other fields still show the current state of the system.
-
-![Backdating a Prescription, stock levels](/docs/dispensary/images/prescription_backdate_stock_levels.png)
-
-<div class="tip">
-If some stock you are expecting to see doesn't show as available, use the <a href="/docs/inventory/stock-view/#ledger-tab">Ledger</a> in Inventory -> Stock to see when that stock was received.
-</div>
-
-#### Changing the date after adding items
-
-If you have already assigned stock to a prescription, and then you change the date of the prescription, you will see this warning:
-
-![Backdating a Prescription - Delete lines](/docs/dispensary/images/prescription_backdate_delete_lines.png)
-
-The system needs to recalculate the available stock levels based on the new date, so existing lines will be removed and you'll need to add them again. Therefore, it is recommended to set the date before adding items to the prescription!
 
 ## Processing a Prescription
 
@@ -438,7 +414,7 @@ Once an item has been added to your prescription, the status will automatically 
 - Prescription status is now `PICKED`
 - You are now invited to confirm the prescription via the `Confirm Verified` button
 
-At this stage, you are still able to edit invoice lines, to add items or to delete existing lines.
+At this stage, you are still able to edit shipment lines, to add items or to delete existing lines.
 
 ### Verify the Prescription
 
