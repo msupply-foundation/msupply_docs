@@ -1,6 +1,6 @@
 +++
-title = "HL7 (FHIR) Integration"
-description = "Open mSupply Integrations with systems supporting the HL7 FHIR Standard."
+title = "Intégration avec HL7 (FHIR) "
+description = "Intégration de Open mSupply avec les systèmes supportant le standard HL7 FHIR"
 date = 2022-03-17T18:20:00+00:00
 updated = 2022-03-17T18:20:00+00:00
 draft = false
@@ -9,11 +9,11 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "Open mSupply Integrations with systems supporting the HL7 FHIR Standard"
+lead = "Intégration de Open mSupply avec les systèmes supportant le standard HL7 FHIR"
 toc = true
 +++
 
 ## HL7
-HL7 is the internation standard for sharing electronic health information.
+HL7 FHIR est la norme internationale pour le partage d’informations de santé électroniques. est une norme d'interopérabilité de nouvelle génération créée par l'organisme de développement de normes Health Level 7 (HL7®). FHIR est conçu pour permettre l'échange rapide et efficace de données de santé, y compris les données cliniques et administratives.
 
-mSupply can receive patient master records from systems that support HL7 FHIR. This allows you to run an electronic medical record system for patient management, and for patients generated in that system to populate Open mSupply as they are created or updated.
+mSupply peut recevoir des dossiers médicaux principaux de patients provenant de systèmes prenant en charge HL7 FHIR. Cela vous permet d'exécuter un système de dossiers médicaux électroniques pour la gestion des patients et pour les patients générés dans ce système afin de renseigner Open mSupply au fur et à mesure de leur création ou de leur mise à jour.
