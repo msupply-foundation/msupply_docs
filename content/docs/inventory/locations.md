@@ -34,7 +34,6 @@ You can filter the list by location name or on hold status.
 
 ![Location: filter](/docs/inventory/images/location_filter.png)
 
-
 ## Creating a new location
 
 To create a new location, tap on the `New Location` button in the top right corner of the screen:
@@ -47,7 +46,8 @@ A window like this opens:
 
 1. **Name**: Enter the name of the new location
 2. **Code**: Enter a code for the new location
-3. **On Hold** (checkbox): If you check this box, then goods in this location cannot be selected for issue to customers. Goods can be moved in to, and out, of the location but they cannot be issued from that location.
+3. **Temperature** (optional): Select the storage temperature range. These options are configured as [Location Types](https://docs.msupply.org.nz/items:item_locations?s[]=location&s[]=type#location_types) on the mSupply Central Server.
+4. **On Hold** (checkbox): If you check this box, then goods in this location cannot be selected for issue to customers. Goods can be moved in to, and out, of the location but they cannot be issued from that location.
 
 <div class="tip">
 Putting a location on hold can be useful if:
