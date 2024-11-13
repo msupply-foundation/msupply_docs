@@ -171,14 +171,23 @@ the Requisition details to the clipboard.
 | **Issued**    | The quantity that has already been issued in `Outbound Shipments`                                                                                                               |
 | **Remaining** | The quantity remaining to be supplied to the customer. The calculation is 'Supply - Issued'. This quantity will be re-calculated after an `Outbound Shipment` has been created. |
 
-One way to adjust the supply quantity, is to click the button `Supply requested` at the top of the page. This will automatically set the supply quantity to be that of the quantity requested for that item. Click the button and you are asked for confirmation before the adjustment happens:
+One way to adjust the supply quantity, is to click the button `Supply requested`
+at the top of the page. This will automatically set the supply quantity to be
+that of the quantity requested for that item.
 
-![Supply Requested Prompt](/docs/distribution/images/requisition-supply-to-requested.png)
+![Supply Requested button](/docs/distribution/images/requisition_supply_requested_button.png)
+
+Click the button and you are asked
+for confirmation before the adjustment happens:
+
+![Supply Requested
+Prompt](/docs/distribution/images/requisition-supply-to-requested.png)
+
+The other way to adjust the supply quantity is to click on the item line in the
+table. This will open the line details page where you will see information about
+the item such as your stock on hand, and the requested quantity.
 
 ![Requisition Detail](/docs/distribution/images/requisition_line_edit_page.png)
-
-The requested quantity is also shown, along with other details related to the
-item such as your stock on hand.
 
 Once the `Quantity to supply` field is entered, a green tick will appear next to the item name, to help you track your progress.
 
@@ -298,5 +307,5 @@ customer and any comments. The values are saved automatically.
 
 ![Requisition Line Edit](/docs/distribution/images/requisition_line_edit_page.png)
 
-After this, the workflow will follow the [same steps](https://docs.msupply.foundation/docs/distribution/requisitions/#viewing-a-requisition)
+After this, the workflow will follow the [same steps](#viewing-a-requisition)
 as for a requisition created from an Internal Order.
