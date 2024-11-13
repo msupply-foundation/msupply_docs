@@ -173,7 +173,7 @@ the Requisition details to the clipboard.
 
 One way to adjust the supply quantity, is to click the button `Supply requested`
 at the top of the page. This will automatically set the supply quantity to be
-that of the quantity requested for that item.
+that of the quantity requested for each item.
 
 ![Supply Requested button](/docs/distribution/images/requisition_supply_requested_button.png)
 
