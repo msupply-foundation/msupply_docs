@@ -75,14 +75,14 @@ The list view has gained some additional columns, showing the program related da
 
 #### Manual Program Requisitions
 
-You can create a manual program requisition for customers who do not use mSupply
-and those who do (for those who do, this should only be done in exceptional).
+Program Requisitions can also be created manually. This would typically be for customers who do not use mSupply, or in exceptional circumstances.
 
 See the configuration steps above, and also the [Customer
 tag](https://docs.msupply.org.nz/names:adding_and_editing#tags_tab)
 documentation to find out how to set up programs and add tags to customers.
 
-Click on the `New Requisition` button (top right corner).
+On the Requisitions page, click on the `New Requisition` button (top right
+corner).
 
 ![New Requisition](/docs/programs/images/add_requisition_button.png)
 
@@ -90,23 +90,23 @@ If you have programs set up, you'll see a different modal to the usual one:
 
 ![New Program Requisition](/docs/programs/images/add_program_requisition.png)
 
-Here, you can select the:
+From the `Program` tab, you can create a Program Requisition by selecting the:
 
 - Program
 - Customer
 - Order Type
 - Period
 
-Only when you have selected all of the above, can you click `Create` and
-continue.
+Only when you have selected all of the above, can you click `Create`.
+
+You will now be redirected to the Requisition detail page. The lines will be
+pre-populated with the items from the program; this means that you cannot add
+items manually to the Requisition.
 
 ![Program Requisition Detail
 View](/docs/programs/images/program_requisition_detail_view.gif)
 
 The line edit page will also contain the extra columns as well:
-
-![Program Requisition Line
-Edit](/docs/programs/images/program_requisition_line_edit.png)
 
 | Column                    | Description                                                                                               |
 | :------------------------ | :-------------------------------------------------------------------------------------------------------- |
@@ -122,6 +122,10 @@ Edit](/docs/programs/images/program_requisition_line_edit.png)
 | **MOS**                   | Months of stock for the item                                                                              |
 | **Reason**                | A reason will be provided if their is a difference between the supply quantity and the requested quantity |
 
-And the side panel will also show the program information.
+![Program Requisition Line
+Edit](/docs/programs/images/program_requisition_line_edit.png)
+
+An additional section will be visible in the side panel showing the program
+information.
 
 ![Requisition: detail](/docs/programs/images/requisition-detail.png)
