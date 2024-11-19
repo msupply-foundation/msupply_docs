@@ -108,19 +108,19 @@ View](/docs/programs/images/program_requisition_detail_view.gif)
 
 The line edit page will also contain the extra columns as well:
 
-| Column                    | Description                                                                                               |
-| :------------------------ | :-------------------------------------------------------------------------------------------------------- |
-| **Initial stock on hand** | The customer's stock on hand at the start of the program period                                           |
-| **Incoming**              | The customer's incoming stock in units for this item                                                      |
-| **Outgoing**              | The customer's outgoing stock in units for this item                                                      |
-| **Losses**                | Inventory Adjustment                                                                                      |
-| **Additions**             | Inventory Adjustment                                                                                      |
-| **Available**             | Initial stock on hand + incoming stock +/- inventory adjustment - outgoing stock                          |
-| **Short Expiry**          | Sum of available stock for the item which has an expiry date after the program end date                   |
-| **Days out of stock**     | (Target MOS \* AMC) - available stock                                                                     |
-| **AMC**                   | The customer's average monthly consumption for this item                                                  |
-| **MOS**                   | Months of stock for the item                                                                              |
-| **Reason**                | A reason will be provided if their is a difference between the supply quantity and the requested quantity |
+| Column                    | Description                                                                                                  |
+| :------------------------ | :----------------------------------------------------------------------------------------------------------- |
+| **Initial stock on hand** | The customer's stock on hand at the start of the program period                                              |
+| **Incoming**              | The customer's incoming stock in units for this item                                                         |
+| **Outgoing**              | The customer's outgoing stock in units for this item                                                         |
+| **Losses**                | Inventory Adjustment                                                                                         |
+| **Additions**             | Inventory Adjustment                                                                                         |
+| **Available**             | Initial stock on hand + incoming stock +/- inventory adjustment - outgoing stock                             |
+| **Short Expiry**          | Sum of available stock for the item which has an expiry date after the program end date                      |
+| **Days out of stock**     | (Target MOS \* AMC) - available stock                                                                        |
+| **AMC**                   | The customer's average monthly consumption for this item                                                     |
+| **MOS**                   | Months of stock for the item                                                                                 |
+| **Reason**                | A reason will be provided if their is a difference between the suggested quantity and the requested quantity |
 
 ![Program Requisition Line
 Edit](/docs/programs/images/program_requisition_line_edit.png)
