@@ -1,6 +1,6 @@
 +++
-title = "Listes Maîtres"
-description = "Listes Maîtres"
+title = "Listes Maîtresse"
+description = "Listes Maîtresse"
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
 draft = false
@@ -9,11 +9,11 @@ sort_by = "weight"
 template = "docs/page.html"
 +++
 
-Les listes Maîtres sont des listes standard, des regroupements d'articles qui ne peuvent être définies qu'au niveau du serveur central. 
+Les listes Maîtresse sont des listes standard, des regroupements d'articles qui ne peuvent être définies qu'au niveau du serveur central. 
 
-## Consulter les Listes Maîtres
+## Consulter les Listes Maîtresse
 
-Allez à `Catalogue` > `Listes Maîtres` dans le panneau de navigation à gauche: 
+Allez à `Catalogue` > `Listes Maîtresse` dans le panneau de navigation à gauche: 
 
 ![](/docs/catalogue/images/cat_gotoml.png)
 

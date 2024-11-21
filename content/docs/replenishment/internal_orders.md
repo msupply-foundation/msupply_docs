@@ -195,7 +195,7 @@ You will need the permission [Can confirm Internal Order as Sent](/docs/settings
 3. Status of your order is now `SENT` and the order is no longer editable
 
 <div class="warning">
-Ensure that your order is correct before sending it to your supplier. Once `SENT`, no further changes can be made to the order. 
+Ensure that your order is correct before sending it to your supplier. Once sent, no further changes can be made to finalised orders. 
 </div>
 
 ## Approving Internal Orders
