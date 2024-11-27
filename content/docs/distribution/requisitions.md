@@ -309,3 +309,12 @@ customer and any comments. The values are saved automatically.
 
 After this, the workflow will follow the [same steps](#viewing-a-requisition)
 as for a requisition created from an Internal Order.
+
+#### Extra Requisition Columns
+
+In manual requisitions it is possible to collect many additional columns of data for reporting and forcasting purposes. To enable these columns you need to configure store permissions to enable these extra columns as documenting in mSupply Desktop documentation [here](https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab).
+
+![Customer requisitions extra fields](/docs/distribution/images/customer_requisition_extra_columns.png)
+
+For quick reference this is the preference your logged in store requires:
+![Show extra fields on requisitions preference](/docs/distribution/images/show_extra_fields_on_requisitions.png)
