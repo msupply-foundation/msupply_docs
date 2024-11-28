@@ -31,7 +31,7 @@ Manual Customer Requisitions can be made to other stores as a fallback if device
 
 <div class='note'>
 HIV is only available on Programs where "HIV" has been enabled.
-</div>```
+</div>
 
 3. Click on one of the Program Indicator buttons
 
