@@ -106,7 +106,7 @@ items manually to the Requisition.
 #### Extra Requisition Fields
 
 In manual requisitions it is possible to collect many additional columns of data for reporting and forcasting purposes. To enable these columns you need to configure store permissions to enable these extra columns as documenting in mSupply Desktop documentation [here](https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab). For quick reference this is the preference your logged in store requires:
-![Show extra fields on requisitions preference](/docs/distribution/images/show_extra_fields_on_requisitions.png)
+![Show extra fields on requisitions preference](/docs/programs/images/show_extra_fields_on_requisitions.png)
 
 ![Program Requisition Detail
 View](/docs/programs/images/program_requisition_detail_view.gif)
