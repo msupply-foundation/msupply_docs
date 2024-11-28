@@ -110,7 +110,7 @@ You will then see the detail view of the requisition:
 The customer reference is automatically generated when the customer creates an
 Internal Order, but you can also enter a customer reference manually.
 
-#### View or edit the Requisition Information Panel
+#### View or Edit the Requisition Information Panel
 
 The information Panel allows you to see or edit information about the
 Requisition. It is divided into three sections:
@@ -121,7 +121,7 @@ Requisition. It is divided into three sections:
 
 We are planning to add more sections in the future as Open mSupply grows.
 
-##### How to open and close the information Panel?
+##### How to Open and Close the Information Panel?
 
 To open the Information Panel, you can tap on the `More` button, located in the
 top right corner of the Requisition page.
@@ -286,7 +286,7 @@ Usually, Requisitions will be sent to you by your Customers. However, if they ar
 You cannot change the customer name after the requisition has been created. If you have made a mistake in selecting the customer, you will need to delete the requisition and create a new one.
 </div>
 
-#### Adding lines to a Requisition
+#### Adding Lines to a Requisition
 
 Tap on the `Add Item` button (top right corner).
 

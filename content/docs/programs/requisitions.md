@@ -75,7 +75,7 @@ The list view has gained some additional columns, showing the program related da
 
 #### Manual Program Requisitions
 
-Program Requisitions can also be created manually. This would typically be for customers who do not use mSupply, or in exceptional circumstances.
+Program Requisitions can also be created manually. This would typically be for customers who do not use mSupply, or in exceptional circumstances for other mSupply stores. It is **strongly** advised not to do this for customers that are mSupply Stores, unless their device is destroyed or mSupply is otherwise not operable. The risk is creating duplicate requisitions and indicator data for periods and schedules if users at the customer store are also entering the same data into mSupply.
 
 See the configuration steps above, and also the [Customer
 tag](https://docs.msupply.org.nz/names:adding_and_editing#tags_tab)
@@ -102,6 +102,11 @@ Only when you have selected all of the above, can you click `Create`.
 You will now be redirected to the Requisition detail page. The lines will be
 pre-populated with the items from the program; this means that you cannot add
 items manually to the Requisition.
+
+#### Extra Requisition Fields
+
+In manual requisitions it is possible to collect many additional columns of data for reporting and forcasting purposes. To enable these columns you need to configure store permissions to enable these extra columns as documenting in mSupply Desktop documentation [here](https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab). For quick reference this is the preference your logged in store requires:
+![Show extra fields on requisitions preference](/docs/programs/images/show_extra_fields_on_requisitions.png)
 
 ![Program Requisition Detail
 View](/docs/programs/images/program_requisition_detail_view.gif)
