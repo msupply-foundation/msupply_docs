@@ -29,7 +29,9 @@ Manual Customer Requisitions can be made to other stores as a fallback if device
 
 ![Indicators tab](/docs/programs/images/indicators.png)
 
-Note: HIV is only available on Programs where "HIV" has been enabled.
+<div class='note'>
+HIV is only available on Programs where "HIV" has been enabled.
+</div>```
 
 3. Click on one of the Program Indicator buttons
 
