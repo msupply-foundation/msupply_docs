@@ -24,7 +24,7 @@ Program Indicators are configured on the mSupply Primary Server, following the d
 
 Manual Customer Requisitions can be made to other stores as a fallback if device that store is meant to be active on is no longer operational.
 
-1. Create a manual requisition to another store as described [here](http://127.0.0.1:1111/docs/distribution/requisitions/#manual-requisition)
+1. Create a manual requisition to another store as described [here](/docs/distribution/requisitions/#manual-requisition)
 2. Click on the Indicators tab
 
 ![Indicators tab](/docs/programs/images/indicators.png)
