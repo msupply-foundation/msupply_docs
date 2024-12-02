@@ -73,6 +73,68 @@ The list view has gained some additional columns, showing the program related da
 - **Order type**: the name of the order type ( typically, a normal or emergency order )
 - **Period**: the name of the period selected
 
-And the detail view also has program information shown:
+#### Manual Program Requisitions
+
+Program Requisitions can also be created manually. This would typically be for customers who do not use mSupply, or in exceptional circumstances for other mSupply stores. It is **strongly** advised not to do this for customers that are mSupply Stores, unless their device is destroyed or mSupply is otherwise not operable. The risk is creating duplicate requisitions and indicator data for periods and schedules if users at the customer store are also entering the same data into mSupply.
+
+See the configuration steps above, and also the [Customer
+tag](https://docs.msupply.org.nz/names:adding_and_editing#tags_tab)
+documentation to find out how to set up programs and add tags to customers.
+
+On the Requisitions page, click on the `New Requisition` button (top right
+corner).
+
+![New Requisition](/docs/programs/images/add_requisition_button.png)
+
+If you have programs set up, you'll see a different modal to the usual one:
+
+![New Program Requisition](/docs/programs/images/add_program_requisition.png)
+
+From the `Program` tab, you can create a Program Requisition by selecting the:
+
+- Program
+- Customer
+- Order Type
+- Period
+
+Only when you have selected all of the above, can you click `Create`.
+
+You will now be redirected to the Requisition detail page. The lines will be
+pre-populated with the items from the program; this means that you cannot add
+items manually to the Requisition.
+
+#### Extra Requisition Fields
+
+In manual requisitions it is possible to collect many additional columns of data for reporting and forecasting purposes. To enable these columns you need to configure store preferences to enable these extra columns as described in the [mSupply Desktop documentation](https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab).
+
+For quick reference this is the preference your logged-in store requires:
+![Show extra fields on requisitions preference](/docs/programs/images/show_extra_fields_on_requisitions.png)
+
+This is how the extra columns look within a requisition:
+
+![Program Requisition Detail
+View](/docs/programs/images/program_requisition_detail_view.gif)
+
+The line edit page will also contain the extra columns as well:
+
+| Column                    | Description                                                                                                  |
+| :------------------------ | :----------------------------------------------------------------------------------------------------------- |
+| **Initial stock on hand** | The customer's stock on hand at the start of the program period                                              |
+| **Incoming**              | The customer's incoming stock in units for this item                                                         |
+| **Outgoing**              | The customer's outgoing stock in units for this item                                                         |
+| **Losses**                | Inventory Adjustment                                                                                         |
+| **Additions**             | Inventory Adjustment                                                                                         |
+| **Available**             | Initial stock on hand + incoming stock +/- inventory adjustment - outgoing stock                             |
+| **Short Expiry**          | Sum of available stock for the item which has an expiry date after the program end date                      |
+| **Days out of stock**     | (Target MOS \* AMC) - available stock                                                                        |
+| **AMC**                   | The customer's average monthly consumption for this item                                                     |
+| **MOS**                   | Months of stock for the item                                                                                 |
+| **Reason**                | A reason will be provided if their is a difference between the suggested quantity and the requested quantity |
+
+![Program Requisition Line
+Edit](/docs/programs/images/program_requisition_line_edit.png)
+
+An additional section will be visible in the side panel showing the program
+information.
 
 ![Requisition: detail](/docs/programs/images/requisition-detail.png)

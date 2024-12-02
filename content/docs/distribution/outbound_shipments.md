@@ -166,7 +166,7 @@ You can close by tapping on the `X Close` button, on the top right corner of the
 In the **Additional Info** section, you can:
 
 - See who created the Outbound Shipment (name of the user)
-- View and edit the Outbound Shipment color. To edit the color, tap on the coloured circle and select a color from the pop-up
+- View and edit the Outbound Shipment color. To edit the color, tap on the colored circle and select a color from the pop-up
 - Write or edit a comment
 
 #### Related Documents
