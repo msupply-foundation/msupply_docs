@@ -95,6 +95,28 @@ Then click the `Create` button at the bottom right of the page to create the pat
 
 ![New Patient](/docs/dispensary/images/patient_creation_detail.png)
 
+### Lookup a Patient
+
+If you have followed the process above, you may see a different icon to the right of a patient's details on the patient search results screen:
+
+![Fetch patient button](/docs/dispensary/images/fetch_patient_button.png)
+
+This 'download' icon indicates that a patient matches your current search criteria, but that patient is not part of your current site. The patient has been created in another store; but don't worry! You can use the patient record in your store which would avoid creating a duplicate patient record.
+
+To use this patient record, you must first fetch the patient details. Click the patient row (which has a tooltip message as shown below):
+
+![Fetch patient row](/docs/dispensary/images/fetch_patient_row.png)
+
+You'll then be prompted to confirm the action:
+
+![Fetch patient confirmation](/docs/dispensary/images/fetch_patient_confirmation.png)
+
+and if successful, you'll then get a further message:
+
+![Fetch patient done](/docs/dispensary/images/fetch_patient_done.png)
+
+Clicking the `View patient` button here will take you to the screen which displays the patient details. The patient is now available for prescribing to, enrolling in a program and for creating encounters. You can update the patient details and have them synchronise back to the store which originally created the patient record.
+
 ### Edit a Patient
 
 To edit a patient, click on the patient's name in the list of patients.
