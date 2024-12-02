@@ -14,15 +14,18 @@ toc = true
 top = false
 +++
 
-Program Indicators are essentially sets of configurable survey questions that can be answered as part of a program requisition. They are recorded against the period that the program requisition is created for and used in reporting.
+The term 'Program Indicators' refers to a set of configurable survey questions which can be answered as part of a program requisition. They are recorded against the period of the program requisition and used for reporting purposes.
 
 ## Enabling Program Indicators
 
-Program Indicators are configured on the mSupply Primary Server, following the documenation [here](https://docs.msupply.org.nz/items:programs#adding_indicators_to_a_program).
+Program Indicators are configured on the mSupply central server, following the documentation [here](https://docs.msupply.org.nz/items:programs#adding_indicators_to_a_program).
 
 ## Manual Customer Requisitions
 
-Manual Customer Requisitions can be made to other stores as a fallback if device that store is meant to be active on is no longer operational.
+Manual Customer Requisitions can be made to other stores as a fallback if the Open mSupply store is not able to create a requisition itself (e.g. if
+the tablet or laptop used by that store is no longer operational).
+
+The process of entering program indicators is as follows:
 
 1. Create a manual requisition to another store as described [here](/docs/distribution/requisitions/#manual-requisition)
 2. Click on the Indicators tab
@@ -37,4 +40,4 @@ HIV is only available on Programs where "HIV" has been enabled.
 
 ![Indicators edit](/docs/programs/images/indicators_edit.png)
 
-From here you can enter in the data entry configured for each indicator configured for this program.
+From here you can enter in the data, as configured for each indicator of this program.
