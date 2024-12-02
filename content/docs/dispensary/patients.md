@@ -101,7 +101,7 @@ If you have followed the process above, you may see a different icon to the righ
 
 ![Fetch patient button](/docs/dispensary/images/fetch_patient_button.png)
 
-This 'download' icon indicates that a patient matches your current search criteria, but that patient is not part of your current site. The patient has been created in another store; but don't worry! You can use the patient record in your store which would avoid creating a duplicate patient record.
+Sometimes the record for the patient you are searching for has already be created at another site. This 'download' icon indicates that a patient matches your current search criteria, and you can download all their existing patient data to your site. 
 
 To use this patient record, you must first fetch the patient details. Click the patient row (which has a tooltip message as shown below):
 
