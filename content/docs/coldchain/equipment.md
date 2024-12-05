@@ -82,34 +82,68 @@ template which can be used to import assets.
 
 ![](/docs/coldchain/images/equipment_import_modal.png)
 
-When importing assets from a store, they will be assigned to that store.
+Assets are automatically assigned to the logged in store.
 
-<!--
-TODO: Add link to central server docs when they are created
--->
-
-When importing assets on the central server, an additional field of `store` will be required which will assign assets to their respective stores.
+This differs when importing assets on the Open mSupply Central Server - an additional field of `store` will be required to assign assets to their respective stores.
 
 Information will need to be entered in the format provided by the csv template in order for Open mSupply to be able to process and upload this data.
 
-| Column                  | Description                                                      | Example            | Mandatory         |
-| :---------------------- | :--------------------------------------------------------------- | :----------------- | :---------------- |
-| **Asset Number**        | The asset number assigned by the user's organisation             | 1                  | \*                |
-| **Catalogue item code** | The Asset Catalogue code - i.e. the kind of asset to be imported | E003/002           | \*                |
-| **Store**               | The code of the Store to which the asset is to be assigned       | CMS                | \* (central only) |
-| **Notes**               | General notes about the asset                                    | Kept in EPI office |                   |
-| **Serial Number**       | The serial number of that particular asset                       | 123456789ABC       |                   |
-| **Installation date**   | The date that the asset was installed at the Store               | 2024-01-14         |                   |
+| Column                  | Description                                                                                | Example                    | Mandatory         |
+| :---------------------- | :----------------------------------------------------------------------------------------- | :------------------------- | :---------------- |
+| **Store**               | The code of the Store to which the asset is to be assigned                                 | CMS                        | \* (central only) |
+| **Asset Number**        | The asset number assigned by the user's organisation                                       | 1                          | \*                |
+| **Catalogue item code** | The [Asset Catalogue code](/docs/catalogue/assets) - i.e. the kind of asset to be imported | E003/002                   | \*                |
+| **Installation date**   | The date that the asset was installed at the Store                                         | 2024-01-14                 |                   |
+| **Replacement due**     | The date that the asset is due for replacement                                             | 2026-01-14                 |                   |
+| **Warranty start**      | The start date of the asset's warranty                                                     | 2024-01-14                 |                   |
+| **Warranty end**        | The end date of the asset's warranty                                                       | 2025-01-14                 |                   |
+| **Serial Number**       | The serial number of that particular asset                                                 | 123456789ABC               |                   |
+| **Status**              | The asset's [functional status](#status-history)                                           | Functional                 |                   |
+| **Needs replacement**   | Whether the asset needs replacing                                                          | TRUE                       |                   |
+| **Notes**               | General notes about the asset                                                              | Kept in EPI office         |                   |
+| **Asset properties**    | Many columns may be also be available here for configured asset properties                 | energy_source: Electricity |                   |
 
-A csv file can be uploaded once it has been created in the example format.
+When you are ready, drag and drop the csv file into the modal or click on the `Browse files` button to select the file from your computer.
 
 <p align="center">
     <img src="/docs/coldchain/images/equipment_import_upload.png" width="750" height="420">
 </p>
 
+#### If things go wrong
+
+Sometimes errors occur when importing CCE assets. Here are some common errors you might encounter:
+
+##### Upload Errors
+
+After uploading your CSV file, your data will be validated and displayed to you to review. At this step, if the data in your uploaded file is not valid, you will see an error message and won't be able to continue to the import step.
+
+![](/docs/coldchain/images/cce_import_error.png)
+
+Common mistakes here are uploading a file type other than CSV, or if you included some duplicate asset numbers in your file. You'll see these errors in the `Error message` column.
+
+You can use the `Export` button at the bottom of the upload window to download a CSV file which includes the error messages, to investigate what went wrong.
+
+Once you have corrected the errors, you can go back to the `Upload` tab to upload the corrected file.
+
+##### Upload Warnings
+
+If certain data is missing or incorrect (such as the installation date and other date columns) you'll see a warning message rather than an error. This is because the asset can still be created without these date fields, but it's recommended to include them.
+
+![](/docs/coldchain/images/cce_import_warning.png)
+
+The `Error message` column has been replaced by a `Warning` column, which will warn you which fields are missing or incorrect. You can still proceed with the import with this missing data if you wish.
+
+##### Import Errors
+
+The import step is where the new cold chain assets are actually created in the system. If there are any errors at this step, you'll see a message like this:
+
+![](/docs/coldchain/images/cce_failed_to_import.png)
+
+This usually happens when you have an asset in your import file which already exists in the system (same asset number). You'll see the error message in the `Error message` column. Again, you can export a CSV file with the error messages to investigate what went wrong.
+
 #### Export
 
-A list of assets can be exported as a csv using the `Export` button.
+A list of existing assets can be exported as a csv using the `Export` button.
 
 <p align="center">
     <img src="/docs/distribution/images/export.png" width="150" height="67">
@@ -186,6 +220,15 @@ The `Details` tab shows the asset properties.
 #### Status History
 
 The `Status History` tab shows the history of the functional status of the asset.
+
+Available functional statuses are:
+
+- `Functioning`
+- `Functioning but needs attention`
+- `Not functioning`
+- `Not in use`
+- `Unserviceable`
+- `Decommissioned`
 
 ![Asset logs tab](/docs/coldchain/images/status_logs_tab.png)
 
