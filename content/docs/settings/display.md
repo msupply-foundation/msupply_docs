@@ -13,7 +13,7 @@ toc = true
 top = false
 +++
 
-The display settings section allows you to customise how the site looks for you. Changes made will only affect your experience - if other people would like to change the logo, for example, they will have to make the change themselves.
+The display settings section allows you to customise how the site looks. Some changes will only affect you, and others will be for all users of the site.
 
 Let's explore what's possible...
 
@@ -33,15 +33,15 @@ You will see the `Display settings` at the top, click on this to view the option
 
 ## Language
 
-To change the language, you simply have to select from the drop down list.
+To change the language, you simply have to select from the drop down list. The language selected will only affect you - each user can select the language which they want to view.
 
 ![Language](/docs/settings/images/change_language.png)
 
-The selected language will be used for everything you do on the site. If you reload the page or open a new tab, this language will be used. However if you view the site in a different browser (for example Firefox after changing the language in Chrome) you will need to select the language again.
+The selected language will be used for everything you do on the site. If you reload the page, open a new tab, or come back to the site at a later date, then this language will be used. However if you view the site in a different browser (for example Firefox after changing the language in Chrome) you will need to select the language again.
 
 ## Custom logo
 
-It is possible to use a custom logo for the site. This shows in the left navigation and on the login screen. For example:
+It is possible to use a custom logo for the site. The new logo will be shown for all users of the site, so take care! The logo shows in the left navigation and on the login screen. For example:
 
 ![Custom logo login](/docs/settings/images/custom_logo_login.png)
 
@@ -57,7 +57,8 @@ The logo will need to be in the `svg` format. To update, simply
 
 ## Custom theme
 
-You can also configure a custom look for your site by using a custom theme. To do this:
+You can also configure a custom look for your site by using a custom theme. This is an advanced configuration feature and the changes you make here are shown to all users of the site so be careful!
+To update the theme:
 
 - enable the custom theme by clicking the toggle switch
 - you'll see a sample of the current theme in the text area - this shows you what can be updated
