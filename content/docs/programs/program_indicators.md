@@ -41,3 +41,8 @@ HIV is only available on Programs where "HIV" has been enabled.
 ![Indicators edit](/docs/programs/images/indicators_edit.png)
 
 From here you can enter in the data, as configured for each indicator of this program.
+
+<div class='note'>
+    Only indicators which are set to active will show up for any requisition. This includes requisitions made with indicators which were previously active; they will no longer be displayed.
+    Indicator lines which don't have a value also will not show up in the ui.
+</div>
