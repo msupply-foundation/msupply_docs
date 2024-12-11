@@ -117,7 +117,7 @@ Often, you will be processing the return of goods that you sent via an Outbound 
 1. In the `Customers` window, you will be presented with a list of available customers. You can select your customer from the list or you can filter by typing the customer name.
 
 <div class="imagetitle">
-In the below example, we are wanting to receive returned stock from <b>Tamaki Central Medical Store</b>. 
+In the below example, we are wanting to receive returned stock from <b>Slytherin Clinic</b>. 
 </div>
 
 ![Create Customer Return](/docs/distribution/images/ir_create.gif)
@@ -205,7 +205,7 @@ There are 5 status for the Customer Return:
 | **Delivered** | When you confirm that the return has been delivered                                                                   |
 | **Verified**  | When you have verified the Customer Return                                                                            |
 
-You probably noticed that two of the status values only apply to automatically created shipments. These are created by the system when another store in the system creates a Supplier Return to return stock to your store. If this is the case you'll see a message near the top of the page:
+You probably noticed that two of the status values only apply to automatically created returns. These are created by the system when another store in the system creates a Supplier Return to return stock to your store. If this is the case you'll see a message near the top of the page:
 
 ![Automatic IS message](/docs/distribution/images/ir_message_automatic.png)
 
@@ -213,11 +213,11 @@ Note that this message appears differently if the status is `Delivered` or `Veri
 
 ![Automatic IS message: delivered](/docs/distribution/images/ir_message_automatic_delivered.png)
 
-If, however, you've created an Inbound Shipment manually, then the following message shows:
+If, however, you've created an Customer Return manually, then the following message shows:
 
 ![Manual IS message](/docs/distribution/images/ir_message_manual.png)
 
-and you'll see that the status bar has only the status values which apply to this type of shipment.
+and you'll see that the status bar has only the status values which apply to this Customer Return.
 
 <figure align="center">
     <img src="/docs/distribution/images/ir_statussequence_manual.png" alt="Inbound Shipment Status Sequence (New & manual)" style="width:60%">
@@ -393,7 +393,7 @@ Once you have done this:
 - Return status is now `DELIVERED`
 
 <div class="note">
-In case your Customer Return is <b>automatic</b>, you cannot confirm its delivery unless the customer has confirmed its shipment. In other words, your shipment status has to be <code>SHIPPED</code> before you can confirm that you have received the returned goods. 
+In case your Customer Return is <b>automatic</b>, you cannot confirm its delivery unless the customer has confirmed its shipment. In other words, your return status has to be <code>SHIPPED</code> before you can confirm that you have received the returned goods. 
 </div>
 
 ![Alt Text](/docs/distribution/images/ir_confirmdelivered.gif)
