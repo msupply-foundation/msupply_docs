@@ -120,3 +120,5 @@ Clicking the `View patient` button here will take you to the screen which displa
 ### Edit a Patient
 
 To edit a patient, click on the patient's name in the list of patients.
+
+If there is more data in your Patient view, it's likely due to Patient Programs being configured. You can find out more in the [Patient Programs](/docs/programs/program-module) documentation.
