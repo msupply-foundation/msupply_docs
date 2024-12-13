@@ -22,6 +22,10 @@ Open mSupply se basa en más de 20 años de experiencia de mSupply, durante los 
 
 Open mSupply es compatible con distintas plataformas: se puede ejecutar en equipos de escritorio con Windows, Linux y Mac, como una aplicación web en tu navegador y como una aplicación de Android diseñada para tabletas (actualmente no compatible con teléfonos).
 
+## Sección de prueba
+
+Esta es una sección de prueba para ver cómo se ve en la página renderizada.
+
 ## ¿Qué hace?
 
 En resumen, Open mSupply es un software que administra tu inventario, registrando cada entrada y salida de bienes y proporcionando un balance actualizado de tu stock disponible para cada artículo.
@@ -53,12 +57,12 @@ Para obtener una idea de toda la funcionalidad de mSupply, echa un vistazo a la 
 
 La siguiente tabla describe algunos de los términos comunes utilizados en mSupply, y también guía a los usuarios de mSupply Legacy sobre las mejoras terminológicas que hemos realizado.
 
-| Término en Open mSupply  |  Término en mSupply Legacy  | Definición                                                            |
-| :---------------: | :-------------------: | :--------------------------------------------------------------------- |
-| Salidas|   Factura de cliente   | La acción de suministrar bienes a un cliente particular (almacén del cliente) |
-| Entradas|   Factura de proveedor    | La acción de recibir un suministro de bienes de un proveedor particular        |
-|    Requisición    | Requisiciones de cliente | Un pedido de suministro de bienes realizado por un cliente particular (almacén del cliente) |
-|  Órdenes internas | Requisiciones de proveedor | Una solicitud de stock realizada a un proveedor particular (almacén del proveedor)        |
+| Término en Open mSupply | Término en mSupply Legacy  | Definición                                                                                  |
+| :---------------------: | :------------------------: | :------------------------------------------------------------------------------------------ |
+|         Salidas         |     Factura de cliente     | La acción de suministrar bienes a un cliente particular (almacén del cliente)               |
+|        Entradas         |    Factura de proveedor    | La acción de recibir un suministro de bienes de un proveedor particular                     |
+|       Requisición       |  Requisiciones de cliente  | Un pedido de suministro de bienes realizado por un cliente particular (almacén del cliente) |
+|    Órdenes internas     | Requisiciones de proveedor | Una solicitud de stock realizada a un proveedor particular (almacén del proveedor)          |
 
 ## Comenzando
 

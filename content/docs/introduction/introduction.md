@@ -22,6 +22,10 @@ Open mSupply builds on over 20 years of mSupply, over which time it has become t
 
 Open mSupply runs on Desktop (Windows, Linux & Mac), as a web application in your browser, or also as an Android application (for tablets, not for phones at this stage).
 
+## Test Section
+
+This is a test section to see how it looks in the rendered page.
+
 ## Where can I download it?
 
 We provide a number of downloads on our [releases page](https://github.com/openmsupply/open-msupply/releases) hosted in our GitHub repository.
