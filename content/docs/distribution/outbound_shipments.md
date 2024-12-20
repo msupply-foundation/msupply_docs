@@ -211,6 +211,8 @@ The pen icon will become active once the above instructions have been followed a
 You can also see the foreign currency totals in the invoice line details as well.
 ![Line with Foreign Currency Pricing](/docs/distribution/images/os-line-with-foreign-currency.png)
 
+<div class="tip">See the <a href="/docs/introduction/faq/#is-there-support-for-my-currency">currency support question</a> for the list of codes supported</div>
+
 #### Transport Details
 
 In this section, you can see or edit a transport reference number (eg. a booking or a tracking reference number).
