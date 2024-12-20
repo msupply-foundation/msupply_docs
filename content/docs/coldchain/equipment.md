@@ -88,20 +88,20 @@ This differs when importing assets on the Open mSupply Central Server - an addit
 
 Information will need to be entered in the format provided by the csv template in order for Open mSupply to be able to process and upload this data.
 
-| Column                  | Description                                                                                | Example                    | Mandatory         |
-| :---------------------- | :----------------------------------------------------------------------------------------- | :------------------------- | :---------------- |
+| Column                  | Description                                                                                | Example                    | Mandatory                      |
+| :---------------------- | :----------------------------------------------------------------------------------------- | :------------------------- | :----------------------------- |
 | **Store**               | The code of the Store to which the asset is to be assigned                                 | CMS                        | \* (Open mSupply Central only) |
-| **Asset Number**        | The asset number assigned by the user's organisation                                       | 1                          | \*                |
-| **Catalogue item code** | The [Asset Catalogue code](/docs/catalogue/assets) - i.e. the kind of asset to be imported | E003/002                   | \*                |
-| **Installation date**   | The date that the asset was installed at the Store                                         | 2024-01-14                 |                   |
-| **Replacement due**     | The date that the asset is due for replacement                                             | 2026-01-14                 |                   |
-| **Warranty start**      | The start date of the asset's warranty                                                     | 2024-01-14                 |                   |
-| **Warranty end**        | The end date of the asset's warranty                                                       | 2025-01-14                 |                   |
-| **Serial Number**       | The serial number of that particular asset                                                 | 123456789ABC               |                   |
-| **Status**              | The asset's [functional status](#status-history)                                           | Functional                 |                   |
-| **Needs replacement**   | Whether the asset needs replacing                                                          | TRUE                       |                   |
-| **Notes**               | General notes about the asset                                                              | Kept in EPI office         |                   |
-| **Asset properties**    | Many columns may be also be available here for configured asset properties                 | energy_source: Electricity |                   |
+| **Asset Number**        | The asset number assigned by the user's organisation                                       | 1                          | \*                             |
+| **Catalogue item code** | The [Asset Catalogue code](/docs/catalogue/assets) - i.e. the kind of asset to be imported | E003/002                   | \*                             |
+| **Installation date**   | The date that the asset was installed at the Store                                         | 14/01/2024                 |                                |
+| **Replacement due**     | The date that the asset is due for replacement                                             | 14/01/2026                 |                                |
+| **Warranty start**      | The start date of the asset's warranty                                                     | 14/01/2024                 |                                |
+| **Warranty end**        | The end date of the asset's warranty                                                       | 14/01/2025                 |                                |
+| **Serial Number**       | The serial number of that particular asset                                                 | 123456789ABC               |                                |
+| **Status**              | The asset's [functional status](#status-history)                                           | Functional                 |                                |
+| **Needs replacement**   | Whether the asset needs replacing                                                          | TRUE                       |                                |
+| **Notes**               | General notes about the asset                                                              | Kept in EPI office         |                                |
+| **Asset properties**    | Many columns may be also be available here for configured asset properties                 | energy_source: Electricity |                                |
 
 When you are ready, drag and drop the csv file into the modal or click on the `Browse files` button to select the file from your computer.
 
@@ -132,6 +132,8 @@ If certain data is missing or incorrect (such as the installation date and other
 ![](/docs/coldchain/images/cce_import_warning.png)
 
 There will be a `Warning` column, which will alert you to which fields are missing or incorrect. You can still proceed with the import with this missing data if you wish.
+
+<div class="note">Sometimes spreadsheet software can reformat dates, into a format we can't process. If your dates are missing on import, check your CSV file and ensure the dates are in DD/MM/YYYY format!</div>
 
 ##### Import Errors
 
@@ -223,12 +225,12 @@ The `Status History` tab shows the history of the functional status of the asset
 
 Available functional statuses are:
 
-- `Functioning`
-- `Functioning but needs attention`
-- `Not functioning`
-- `Not in use`
-- `Unserviceable`
-- `Decommissioned`
+- Functioning
+- Functioning but needs attention
+- Not functioning
+- Not in use
+- Unserviceable
+- Decommissioned
 
 ![Asset logs tab](/docs/coldchain/images/status_logs_tab.png)
 
