@@ -61,7 +61,7 @@ To add a filter to the page, choose the required filter from the drop down. Mult
 
 ### Importing And Exporting
 
-Importing and deleting of asset catalogue items can only be done on the Open mSupply central server. <a href="/docs/getting_started/central">Click here to find out out more</a>.
+Importing and deleting of asset catalogue items can only be done on the [Open mSupply Central Server](/docs/getting_started/central).
 
 #### Import
 

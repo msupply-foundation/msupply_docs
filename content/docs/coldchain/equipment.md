@@ -84,13 +84,13 @@ template which can be used to import assets.
 
 Assets are automatically assigned to the logged in store.
 
-This differs when importing assets on the Open mSupply Central Server - an additional field of `store` will be required to assign assets to their respective stores.
+This differs when importing assets on the Open mSupply Central Server - an additional field of `Store` will be required to assign assets to their respective stores.
 
 Information will need to be entered in the format provided by the csv template in order for Open mSupply to be able to process and upload this data.
 
 | Column                  | Description                                                                                | Example                    | Mandatory         |
 | :---------------------- | :----------------------------------------------------------------------------------------- | :------------------------- | :---------------- |
-| **Store**               | The code of the Store to which the asset is to be assigned                                 | CMS                        | \* (central only) |
+| **Store**               | The code of the Store to which the asset is to be assigned                                 | CMS                        | \* (Open mSupply Central only) |
 | **Asset Number**        | The asset number assigned by the user's organisation                                       | 1                          | \*                |
 | **Catalogue item code** | The [Asset Catalogue code](/docs/catalogue/assets) - i.e. the kind of asset to be imported | E003/002                   | \*                |
 | **Installation date**   | The date that the asset was installed at the Store                                         | 2024-01-14                 |                   |
@@ -131,7 +131,7 @@ If certain data is missing or incorrect (such as the installation date and other
 
 ![](/docs/coldchain/images/cce_import_warning.png)
 
-The `Error message` column has been replaced by a `Warning` column, which will warn you which fields are missing or incorrect. You can still proceed with the import with this missing data if you wish.
+There will be a `Warning` column, which will alert you to which fields are missing or incorrect. You can still proceed with the import with this missing data if you wish.
 
 ##### Import Errors
 
@@ -139,7 +139,7 @@ The import step is where the new cold chain assets are actually created in the s
 
 ![](/docs/coldchain/images/cce_failed_to_import.png)
 
-This usually happens when you have an asset in your import file which already exists in the system (same asset number). You'll see the error message in the `Error message` column. Again, you can export a CSV file with the error messages to investigate what went wrong.
+This usually happens when you have an asset in your import file which has the same asset number as an existing asset. You'll see the error message in the `Error message` column. Again, you can export a CSV file with the error messages to investigate what went wrong.
 
 #### Export
 
