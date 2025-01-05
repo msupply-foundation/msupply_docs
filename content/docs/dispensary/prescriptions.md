@@ -139,7 +139,8 @@ Once your Prescription has been created, you can select a clinician from the `Cl
 The Information Panel allows you to see or edit information about the Prescription. It is divided into multiple sections:
 
 - Additional Info
-- Invoice Details
+- Pricing
+- Patient Details
 
 We are planning to add more sections in the future as Open mSupply grows.
 
@@ -153,7 +154,7 @@ You can close by tapping on the `X Close` button, on the top right corner of the
 
 ![Open and close the Information Panel](/docs/dispensary/images/prescription_infopanel_openclose.gif)
 
-#### Additional Info
+#### Information Panel
 
 In the **Additional Info** section, you can:
 
@@ -161,9 +162,13 @@ In the **Additional Info** section, you can:
 - View and edit the Prescription color. To edit the color, tap on the coloured circle and select a color from the pop-up
 - Write or edit a comment
 
-#### Prescription Details
+In the **Pricing** section, you can:
 
-In this section, you will see by default the total selling price of the items listed in the Prescription.
+- See the total selling price of the items listed in the Prescription.
+
+In the **Patient Details** section, you can:
+
+- Select a Diagnosis related to the prescription
 
 ### Prescription Status Sequence
 
