@@ -76,6 +76,14 @@ Some users have access to more than one store. To change the store which is curr
 
 You will see the notification and the store name in the footer will be updated. From now, all actions will be in the newly selected store.
 
+Likewise, you can click on your username with the human icon:
+
+![Admin](/docs/getting_started/images/admin_button.png)
+
+Upon clicking, it will show you a modal containing your information and the functionality to log out:
+
+![User modal](/docs/getting_started/images/user_modal.png)
+
 In a similar way, you can select another language by clicking on the current language in the footer:
 
 ![Footer](/docs/introduction/images/footer_select_language.png)
