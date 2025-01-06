@@ -298,8 +298,6 @@ You will be redirected to the edit page. You can look up an item by:
 
 Once your item is highlighted, tap on the name or press `Enter`.
 
-![Add Item](/docs/distribution/images/requisition_add_item.gif)
-
 Once an item has been selected, you will be redirected to the item edit page. Here you can enter the customer's stock on hand, average monthly consumption and
 requested quantity. You can also enter how much you are going to supply to the
 customer and any comments. The values are saved automatically.
