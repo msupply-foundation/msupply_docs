@@ -80,7 +80,7 @@ Likewise, you can click on your username with the human icon:
 
 ![Admin](/docs/getting_started/images/admin_button.png)
 
-Upon clicking, it will show you a modal containing your information and the functionality to log out:
+Upon clicking, it will show you a modal containing your information and the ability to log out:
 
 ![User modal](/docs/getting_started/images/user_modal.png)
 
