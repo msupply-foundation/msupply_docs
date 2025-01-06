@@ -44,5 +44,5 @@ From here you can enter in the data, as configured for each indicator of this pr
 
 <div class='note'>
     Only indicators which are set to active will show up for any requisition. This includes requisitions made with indicators which were previously active; they will no longer be displayed.
-    Indicator lines which don't have a value also will not show up in the ui.
+    Indicator lines which don't have a value also not be displayed.
 </div>
