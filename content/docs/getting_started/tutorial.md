@@ -94,8 +94,8 @@ If store properties have been configured for your Open mSupply system, you will 
 
 ## Help!
 
-If you get stuck at any time when using the site, click on the `Docs` menu item.
+If you get stuck at any time when using the site, click on the `Help` menu item.
 
-![Docs](/docs/introduction/images/docs_nav.png)
+![Docs](/docs/help/images/help_nav.png)
 
-This will take you to the documentation page which relates to the current page you are viewing.
+The [Help](/docs/help) page allows you to reach out to us with any feedback or support requests. You can also access this User Guide from the Help page.
