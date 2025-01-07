@@ -98,4 +98,4 @@ If you get stuck at any time when using the site, click on the `Help` menu item.
 
 ![Docs](/docs/help/images/help_nav.png)
 
-The [Help](/docs/help) page allows you to reach out to us with any feedback or support requests. You can also access this User Guide from the Help page.
+The [Help](/docs/help/help) page allows you to reach out to us with any feedback or support requests. You can also access this User Guide from the Help page.
