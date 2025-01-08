@@ -149,9 +149,9 @@ Sometimes you may want to make changes to many or all of the lines in your stock
 
 ### Change location
 
-Use the checkbox column to select the lines you wish to change the location for. Then select the `Change location of lines` option from the `Actions` dropdown.
+Use the checkbox column to select the lines you wish to change the location for. The `Actions` footer will display at the bottom of the screen when a stocktake line is selected. It will display the number of stocktake lines selected and the actions which can be taken. Click `Change location`.
 
-![Stocktake actions](/docs/inventory/images/stocktake_actions.png)
+![Stocktake actions](/docs/inventory/images/change-location-stocktake-line.png)
 
 This will bring up a window where you can select which location you would like to move the stock lines to:
 
@@ -161,9 +161,9 @@ Select a location and press OK. All selected stock lines will now have an update
 
 ### Reduce number of packs to 0
 
-Use the checkbox column to select the lines you wish to reduce to 0. Then select the `Reduce lines to 0` option from the `Actions` dropdown.
+Use the checkbox column to select the lines you wish to reduce to 0. The `Actions` footer will display at the bottom of the screen when a stocktake line is selected. It will display the number of stocktake lines selected and the actions which can be taken. Click `Reduce to 0`.
 
-![Stocktake action reduce to 0](/docs/inventory/images/stocktake_action_reduce_to_0.png)
+![Stocktake action reduce to 0](/docs/inventory/images/reduce-to-zero-stocktake-line.png)
 
 This will bring up a confirmation popup:
 
@@ -177,7 +177,7 @@ Select a reason and press OK. All selected stock lines will now have a `Counted 
 
 ### Deleting stocktake lines
 
-Use the checkbox column to select the lines you wish to delete. Then select the `Delete selected lines` option from the `Actions` dropdown.
+Use the checkbox column to select the lines you wish to delete. The `Actions` footer will display at the bottom of the screen when a stocktake line is selected. It will display the number of stocktake lines selected and the actions which can be taken. Click `Delete`.
 
 This will bring up a confirmation popup:
 
