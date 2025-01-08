@@ -98,4 +98,4 @@ If you get stuck at any time when using the site, click on the `Help` menu item.
 
 ![Docs](/docs/help/images/help_nav.png)
 
-Use the [Help](/docs/help/help) page to access the Open mSupply User Guide (where you are now!) The Help page is also where you can reach out to us with any feedback or support requests.
+The [Help](/docs/help/help) page allows you to reach out to us with any feedback or support requests. You can also access this User Guide from the Help page.
