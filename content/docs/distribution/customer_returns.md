@@ -84,7 +84,7 @@ You can delete a return from the Customer Return list.
 
 1. Select the return that you want to delete by checking the box on the left end of the list. You can select more than one return to be deleted. You can even select them all using the master checkbox in the list headers.
 
-2. Open the `Select` dropdown (top right corner, above the list) and select `Delete selected lines`.
+2. The `Actions` footer will display at the bottom of the screen when a return is selected. It will display the number of returns selected and the actions which can be taken. Click `Delete`.
 
 3. A notification confirms how many returns were deleted (bottom left corner).
 
@@ -92,7 +92,7 @@ You can delete a return from the Customer Return list.
 You can only delete Customer Returns if they have a status of <code>NEW</code>.
 </div>
 
-![Inbound list: delete](/docs/distribution/images/ir_delete.gif)
+![Inbound list: delete](/docs/distribution/images/delete-customer-return.gif)
 
 ## Creating a Customer Return
 
@@ -362,16 +362,16 @@ If you set all return quantities to `0`, and click `Next step` you will see this
 
 1. Open the Customer Return you want to edit.
 2. Select the line(s) you want to delete by checking the box(es) on the right of the list.
-3. Go to the `Actions` dropdown menu (top right corner, above the list)
-4. Select the action `Delete selected lines`
+3. The `Actions` footer will display at the bottom of the screen when a return line is selected. It will display the number of return lines selected and the actions which can be taken.
+4. Select the action `Delete`
 
-![Delete lines actions dropdown](/docs/replenishment/images/or_actions_deletelines.png)
+![Delete lines actions footer](/docs/distribution/images/customer-return-line-actions.png)
 
 <div class="imagetitle">
-In the below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100mg tabs</i>
+In the below example, we are deleting two lines
 </div>
 
-![Alt Text](/docs/distribution/images/ir_deleteselectedlines.gif)
+![Deleting customer return lines](/docs/distribution/images/delete-customer-return-line.gif)
 
 <div class="tip">
  <b></b> You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 

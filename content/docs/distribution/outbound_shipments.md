@@ -88,7 +88,7 @@ You can delete a shipment from the Outbound Shipment list.
 
 1. Select the shipment that you want to delete by checking the box on the left end of the list. You can select more than one shipment to be deleted. You can even select them all using the master checkbox in the list headers.
 
-2. Open the `Select` dropdown (top right corner, above the list) and select `Delete selected lines`.
+2. The `Actions` footer will display at the bottom of the screen when a shipment is selected. It will display the number of shipments selected and the actions which can be taken. Click `Delete`.
 
 3. A notification confirms how many shipments were deleted (bottom left corner).
 
@@ -96,7 +96,7 @@ You can delete a shipment from the Outbound Shipment list.
 You can only delete Outbound Shipments if they have not been <code>SHIPPED</code>.
 </div>
 
-![Outbound list: delete](/docs/distribution/images/os_list_deleteshipment.gif)
+![Outbound list: delete](/docs/distribution/images/Delete-outbound-shipment.png)
 
 ## Creating an Outbound Shipment
 
@@ -508,17 +508,17 @@ To edit a shipment line, tap on it. You will be presented with the `Edit Item` w
 ### Delete a Shipment line
 
 1. Open the Outbound Shipment you want to edit.
-2. Select the line(s) you want to delete by checking the box(es) on the right of the list.
-3. Go to the `Actions` dropdown menu (top right corner, above the list)
-4. Select the action `Delete selected lines`
+2. Select the line(s) you want to delete by checking the box(es) on the left hand side of the list.
+3. The `Actions` footer will display at the bottom of the screen when a shipment line is selected. It will display the number of shipment lines selected and the actions which can be taken.
+4. Click `Delete`.
 
-![Alt Text](/docs/distribution/images/os_actions_deleteselectedlines.png)
+![Outbound shipment lines actions footer](/docs/distribution/images/outbound-shipment-line-actions-footer.png)
 
 <div class="imagetitle">
 In the below example, we are deleting <i>three placeholder lines</i>.
 </div>
 
-![Alt Text](/docs/distribution/images/os_deleteselectedlines.gif)
+![Alt Text](/docs/distribution/images/delete-outbound-shipment-line.gif)
 
 <div class="tip">
  <b></b> You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
@@ -535,8 +535,11 @@ There are 2 main ways to allocate a shipment line:
 1. When adding items, the system will automatically assign stock to the new shipment line when you enter a quantity. If you don't have enough stock, the system will add placeholder lines (unallocated lines).
 
 2. Bulk action `Allocate placeholder lines`:
-   - Select the lines that you want to allocate by checking boxes on the right hand side of the list
-   - In the `Actions` dropdown menu, select `Allocate placeholder lines`. System will check if there is available stock for each selected line and allocate them using the First to Expire, First Out (FEFO) logic. A notification will let you know whether the operation is successful or not.
+
+   - Select the lines that you want to allocate by checking boxes on the left hand side of the list
+   - The `Actions` footer will display at the bottom of the screen when a shipment line is selected. It will display the number of shipment lines selected and the actions which can be taken.
+
+3. Select `Allocate placeholder lines`. System will check if there is available stock for each selected line and allocate them using the First to Expire, First Out (FEFO) logic. A notification will let you know whether the operation is successful or not.
 
 <div class="note">
 You won't be able to process your Outbound Shipment if you have unallocated lines (shipment lines without batch number(s) assigned to them) with a quantity greater than 0. You can wait for more stock to arrive or you can delete the placeholder lines. Any unallocated lines with a 0 quantity will automatically be removed for you when you allocate.
@@ -551,7 +554,7 @@ Once all your shipments lines have been allocated, you can **confirm the allocat
 
 To confirm the allocation, press the `Confirm Allocated` button.
 
-![Alt Text](/docs/distribution/images/os_confirmallocated.gif)
+![Alt Text](/docs/distribution/images/confirm-allocated-outbound-shipment-line.gif)
 
 Once the allocation is confirmed:
 
@@ -574,7 +577,7 @@ Once all items are picked and packed. You can then confirm the picking of the sh
 
 To confirm that a shipment has been picked, tap on the `Confirm Picked` button.
 
-![Alt Text](/docs/distribution/images/os_confirmpicked.gif)
+![Alt Text](/docs/distribution/images/confirm-picked-outbound-shipment-line.gif)
 
 Once picking is confirmed:
 
@@ -612,10 +615,10 @@ Sometimes, stock sent via an Outbound Shipment will need to be returned. You can
 1. Open the Outbound Shipment for which you would like to process the return of some or all of the stock
 2. Make sure that status is at least `SHIPPED`
 3. Select the line(s) you want to process the return of by checking the box(es) on the right of the list
-4. Go to the `Actions` dropdown menu (top right corner, above the list)
-5. Select the action `Process return of selected lines`
+4. The `Actions` footer will display at the bottom of the screen when a shipment line is selected. It will display the number of shipment lines selected and the actions which can be taken.
+5. Select the action `Process return`
 
-![OS return lines](/docs/distribution/images/os_returnlines.gif)
+![OS return lines](/docs/distribution/images/process-return-outbound-shipment-line.gif)
 
 ### Select quantity returned
 
