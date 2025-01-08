@@ -76,6 +76,14 @@ Some users have access to more than one store. To change the store which is curr
 
 You will see the notification and the store name in the footer will be updated. From now, all actions will be in the newly selected store.
 
+You can view your user information by clicking on your username:
+
+![Admin](/docs/getting_started/images/admin_button.png)
+
+You can also log out from here:
+
+![User modal](/docs/getting_started/images/user_modal.png)
+
 In a similar way, you can select another language by clicking on the current language in the footer:
 
 ![Footer](/docs/introduction/images/footer_select_language.png)
@@ -86,8 +94,8 @@ If store properties have been configured for your Open mSupply system, you will 
 
 ## Help!
 
-If you get stuck at any time when using the site, click on the `Docs` menu item.
+If you get stuck at any time when using the site, click on the `Help` menu item.
 
-![Docs](/docs/introduction/images/docs_nav.png)
+![Docs](/docs/help/images/help_nav.png)
 
-This will take you to the documentation page which relates to the current page you are viewing.
+Use the [Help](/docs/help/help) page to access the Open mSupply User Guide (where you are now!) The Help page is also where you can reach out to us with any feedback or support requests.
