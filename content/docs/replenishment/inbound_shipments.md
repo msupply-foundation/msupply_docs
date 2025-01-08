@@ -86,7 +86,7 @@ You can delete a shipment from the Inbound Shipment list.
 
 1. Select the shipment that you want to delete by checking the box on the left end of the list. You can select more than one shipments to be deleted. You can even select them all using the master checkbox in the list headers.
 
-1. Open the Select dropdown (top right corner, above the list) and select `Delete selected lines`.
+2. The `Actions` footer will display at the bottom of the screen when a shipment is selected. It will display the number of shipments selected and the actions which can be taken. Click `Delete`.
 
 A notification confirms how many shipments were deleted (bottom left corner).
 
