@@ -302,11 +302,14 @@ In this other example, we are issuing 11 units. System selects two batches with 
 
 You may see one or more warning messages on this screen:
 
-![alt text](/docs/dispensary/images/prescription_warning_non-whole-packs.png)
+![Warning: can't allocate that many](/docs/dispensary/images/prescription_warning_cant_allocate_more_than_we_have.png)
+This warning tells you that you are trying to issue more units than you have in stock. You will need to reduce the quantity you are trying to issue, or add more stock to the system.
+
+![Warning: Partial Pack](/docs/dispensary/images/prescription_warning_non-whole-packs.png)
 
 This warning tells you that because of the available pack sizes, the quantity you are trying to issue would result in an a partial pack being issued. If do not want to split a pack, you'll need to enter a quantity that is a multiple of the pack size(s) available.
 
-![alt text](/docs/dispensary/images/prescription_warning_on-hold.png)
+![Warning: Expired stock](/docs/dispensary/images/prescription_warning_on-hold.png)
 
 This warning tells you that some of your stock is on hold and/or expired cannot be auto allocated.
 
