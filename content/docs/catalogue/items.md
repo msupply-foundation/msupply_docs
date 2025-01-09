@@ -100,7 +100,7 @@ This tab lists the Master Lists associated with this item.
 
 ### Ledger
 
-The item ledger tab shows the history of the item.
+The item ledger tab shows a history of transactions in this store for the item.
 
 ![](/docs/catalogue/images/item_ledger.png)
 
@@ -111,7 +111,7 @@ The ledger is divided into 16 columns:
 | **Type**             | The type of the transaction                                      |
 | **Date**             | The date of the transaction was confirmed                        |
 | **Time**             | The time of the transaction was confirmed                        |
-| **Invoice Number**   | The invoice number of the transaction                            |
+| **Invoice Number**   | The invoice (shipment) number of the transaction                 |
 | **Name**             | The name of the customer or supplier                             |
 | **Status**           | The status of the transaction                                    |
 | **Expiry**           | The expiry date of the stock line                                |

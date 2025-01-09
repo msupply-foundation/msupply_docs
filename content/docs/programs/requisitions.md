@@ -75,9 +75,7 @@ documentation](https://docs.msupply.org.nz/other_stuff:virtual_stores#preference
 
 ![Show extra fields on requisitions preference](/docs/programs/images/show_extra_fields_on_requisitions.png)
 
-This is how the extra columns look within an Internal Order:
-
-![](/docs/programs/images/internal_order_extra_fields.gif)
+Enabling the preference will show the extra columns on the requisition list page:
 
 <!-- TODO: Calculations (currently aren't calculated)  -->
 
@@ -168,12 +166,7 @@ In manual requisitions it is possible to collect many additional columns of data
 for reporting and forecasting purposes. You will need the `Show extra fields on
 requisitions` store preference. See above for details.
 
-This is how the extra columns look within a requisition:
-
-![Program Requisition Detail
-View](/docs/programs/images/program_requisition_detail_view.gif)
-
-The line edit page will also contain the extra columns as well:
+Enabling the preference will show the extra columns on the requisition list page:
 
 | Column                    | Description                                                                                                  |
 | :------------------------ | :----------------------------------------------------------------------------------------------------------- |
@@ -188,6 +181,8 @@ The line edit page will also contain the extra columns as well:
 | **AMC**                   | The customer's average monthly consumption for this item                                                     |
 | **MOS**                   | Months of stock for the item                                                                                 |
 | **Reason**                | A reason will be provided if their is a difference between the suggested quantity and the requested quantity |
+
+The line edit page will also contain the extra columns as well.
 
 ![Program Requisition Line
 Edit](/docs/programs/images/program_requisition_line_edit.png)
