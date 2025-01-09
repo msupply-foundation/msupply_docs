@@ -46,14 +46,8 @@ stock from customers for internal orders` is enabled
 
 ![Use consumption & stock from customers for internal orders](/docs/programs/images/consumption_data_pref.png)
 
-then you will also see a table underneath the input fields which shows indicator
-data from customer stores.
-
+then you will also see a table showing summarised indicator data from your customer stores for the period.
 ![Indicator info](/docs/programs/images/indicator_info_table.png)
-
-If more than one program order has been created for this period with the same
-indicators, then the sum of the indicator will be displayed (if the question is
-expecting a number).
 
 The previous and next buttons at the bottom allows you to navigate between the
 indicators.

@@ -79,8 +79,6 @@ This is how the extra columns look within an Internal Order:
 
 ![](/docs/programs/images/internal_order_extra_fields.gif)
 
-The line edit page will also contain the extra columns as well:
-
 <!-- TODO: Calculations (currently aren't calculated)  -->
 
 | Column                    | Description                                                                                                  |
@@ -96,6 +94,8 @@ The line edit page will also contain the extra columns as well:
 | **AMC**                   | The customer's average monthly consumption for this item                                                     |
 | **MOS**                   | Months of stock for the item                                                                                 |
 | **Reason**                | A reason will be provided if their is a difference between the suggested quantity and the requested quantity |
+
+The line edit page will also contain the extra columns.
 
 ![Program Requisition Line
 Edit](/docs/programs/images/internal_order_extra_fields_edit.png)

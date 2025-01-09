@@ -104,7 +104,7 @@ The item ledger tab shows the history of the item.
 
 ![](/docs/catalogue/images/item_ledger.png)
 
-The ledger is divided into 15 columns:
+The ledger is divided into 16 columns:
 
 | Column               | Description                                                      |
 | :------------------- | :--------------------------------------------------------------- |
@@ -116,7 +116,8 @@ The ledger is divided into 15 columns:
 | **Status**           | The status of the transaction                                    |
 | **Expiry**           | The expiry date of the stock line                                |
 | **Batch**            | The batch number of the stock line                               |
-| **Pack Size**        | The pack size and quantity                                       |
+| **Pack Size**        | The pack size                                                    |
+| **Number of packs**  | The number of packs in the transaction                           |
 | **Unit Qty**         | The quantity that was assigned to the transaction in units       |
 | **Balance**          | The balance of the stock line                                    |
 | **Pack cost price**  | The cost price of the pack                                       |
