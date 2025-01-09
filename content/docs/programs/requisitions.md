@@ -61,7 +61,64 @@ There are several areas where you'll see additional information when using a pro
 
 1. The `Add item` and `Add from master list` buttons are disabled. Items in a program based Internal Order are configured by the program.
 2. A message explaining that you also cannot edit the target and reorder threshold MOS values on a program based Internal Order. These values are configured by the program.
-3. Additional information telling you which program, order type and period this Internal Order is for. This detail panel can be opened by clicking the `More` button in the top right of the page.
+3. Additional information telling you which program, order type and period this
+   Internal Order is for. This detail panel can be opened by clicking the `More`
+   button in the top right of the page.
+
+#### Extra Requisition Fields
+
+In Internal Orders, it is possible to display additional columns of data for
+reporting and forcing purposes. These columns are calculated and are not
+editable. To enable these columns you need to configure store preferences to
+enable these extra columns as described in the [mSupply Desktop
+documentation](https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab).
+
+![Show extra fields on requisitions preference](/docs/programs/images/show_extra_fields_on_requisitions.png)
+
+Enabling the preference will show the extra columns on the requisition list page:
+
+<!-- TODO: Calculations (currently aren't calculated)  -->
+
+| Column                    | Description                                                                                                  |
+| :------------------------ | :----------------------------------------------------------------------------------------------------------- |
+| **Initial stock on hand** | The customer's stock on hand at the start of the program period                                              |
+| **Incoming**              | The customer's incoming stock in units for this item                                                         |
+| **Outgoing**              | The customer's outgoing stock in units for this item                                                         |
+| **Losses**                | Inventory Adjustment                                                                                         |
+| **Additions**             | Inventory Adjustment                                                                                         |
+| **Available**             | Initial stock on hand + incoming stock +/- inventory adjustment - outgoing stock                             |
+| **Short Expiry**          | Sum of available stock for the item which has an expiry date after the program end date                      |
+| **Days out of stock**     | (Target MOS \* AMC) - available stock                                                                        |
+| **AMC**                   | The customer's average monthly consumption for this item                                                     |
+| **MOS**                   | Months of stock for the item                                                                                 |
+| **Reason**                | A reason will be provided if their is a difference between the suggested quantity and the requested quantity |
+
+The line edit page will also contain the extra columns.
+
+![Program Requisition Line
+Edit](/docs/programs/images/internal_order_extra_fields_edit.png)
+
+If your store has the store preference `Use consumption &
+stock from customers for internal orders` enabled
+
+![Use consumption & stock from customers for internal
+orders](/docs/programs/images/consumption_data_pref.png)
+
+Then you will see an extra table underneath the input fields which shows the
+customer's data based on their program requisitions for that period.
+
+![](/docs/programs/images/internal_order_item_info.png)
+
+The table has 6 columns:
+
+| Column          | Description                                                                                                                                  |
+| :-------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Name**        | The customer's name or the current store name                                                                                                |
+| **AMC**         | The customer's average monthly consumption. For the currently logged in store, this will be the sum of all customer AMC                      |
+| **Unit Qty**    | Stock on hand at the end of the program period                                                                                               |
+| **Adjustments** | Calculated using the following calculation for the item. Delivered inbound shipments - picked outbound shipments +- any inventory adjuments. |
+| **Outgoing**    | Quantity of item in picked outbound shipments                                                                                                |
+| **Date range**  | The end date of the program period                                                                                                           |
 
 ### Requisitions
 
@@ -105,17 +162,11 @@ items manually to the Requisition.
 
 #### Extra Requisition Fields
 
-In manual requisitions it is possible to collect many additional columns of data for reporting and forecasting purposes. To enable these columns you need to configure store preferences to enable these extra columns as described in the [mSupply Desktop documentation](https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab).
+In manual requisitions it is possible to collect many additional columns of data
+for reporting and forecasting purposes. You will need the `Show extra fields on
+requisitions` store preference. See above for details.
 
-For quick reference this is the preference your logged-in store requires:
-![Show extra fields on requisitions preference](/docs/programs/images/show_extra_fields_on_requisitions.png)
-
-This is how the extra columns look within a requisition:
-
-![Program Requisition Detail
-View](/docs/programs/images/program_requisition_detail_view.gif)
-
-The line edit page will also contain the extra columns as well:
+Enabling the preference will show the extra columns on the requisition list page:
 
 | Column                    | Description                                                                                                  |
 | :------------------------ | :----------------------------------------------------------------------------------------------------------- |
@@ -130,6 +181,8 @@ The line edit page will also contain the extra columns as well:
 | **AMC**                   | The customer's average monthly consumption for this item                                                     |
 | **MOS**                   | Months of stock for the item                                                                                 |
 | **Reason**                | A reason will be provided if their is a difference between the suggested quantity and the requested quantity |
+
+The line edit page will also contain the extra columns as well.
 
 ![Program Requisition Line
 Edit](/docs/programs/images/program_requisition_line_edit.png)

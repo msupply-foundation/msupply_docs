@@ -290,7 +290,7 @@ You cannot change the customer name after the requisition has been created. If y
 
 Tap on the `Add Item` button (top right corner).
 
-A new `Add Item` window will open. You can look up an item by:
+You will be redirected to the edit page. You can look up an item by:
 
 - Reading through the list of available items
 - or by typing some or all of the item name
@@ -298,10 +298,7 @@ A new `Add Item` window will open. You can look up an item by:
 
 Once your item is highlighted, tap on the name or press `Enter`.
 
-![Add Item](/docs/distribution/images/requisition_add_item.gif)
-
-Once the item has been selected, you will be redirected to the line edit page.
-Here you can enter the customer's stock on hand, average monthly consumption and
+Once an item has been selected, you will be redirected to the item edit page. Here you can enter the customer's stock on hand, average monthly consumption and
 requested quantity. You can also enter how much you are going to supply to the
 customer and any comments. The values are saved automatically.
 
