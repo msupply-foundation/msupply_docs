@@ -65,9 +65,9 @@ To add a filter to the page, choose the required filter from the drop down. Mult
 
 #### Delete Equipment
 
-Assets can be selected and deleted using the toolbar action:
+Assets can be selected and deleted using the `Actions` footer. The `Actions` footer will display at the bottom of the screen when an asset is selected. It will display the number of assets selected and the actions which can be taken.
 
-![](/docs/coldchain/images/delete_rows.png)
+![Delete coldchain equipment](/docs/coldchain/images/delete-coldchain-equipment.png)
 
 ### Importing And Exporting
 
