@@ -616,9 +616,9 @@ Sometimes, stock sent via an Outbound Shipment will need to be returned. You can
 2. Make sure that status is at least `SHIPPED`
 3. Select the line(s) you want to process the return of by checking the box(es) on the right of the list
 4. The `Actions` footer will display at the bottom of the screen when a shipment line is selected. It will display the number of shipment lines selected and the actions which can be taken.
-5. Select the action `Process return`
+5. Select the action `Return selected lines`.
 
-![OS return lines](/docs/distribution/images/process-return-outbound-shipment-line.gif)
+![OS return lines](/docs/distribution/images/return-selected-outbound-shipment-line.gif)
 
 ### Select quantity returned
 
