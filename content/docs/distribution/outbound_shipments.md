@@ -96,7 +96,7 @@ You can delete a shipment from the Outbound Shipment list.
 You can only delete Outbound Shipments if they have not been <code>SHIPPED</code>.
 </div>
 
-![Outbound list: delete](/docs/distribution/images/Delete-outbound-shipment.png)
+![Outbound list: delete](/docs/distribution/images/delete-outbound-shipment.png)
 
 ## Creating an Outbound Shipment
 
@@ -509,10 +509,7 @@ To edit a shipment line, tap on it. You will be presented with the `Edit Item` w
 
 1. Open the Outbound Shipment you want to edit.
 2. Select the line(s) you want to delete by checking the box(es) on the left hand side of the list.
-3. The `Actions` footer will display at the bottom of the screen when a shipment line is selected. It will display the number of shipment lines selected and the actions which can be taken.
-4. Click `Delete`.
-
-![Outbound shipment lines actions footer](/docs/distribution/images/outbound-shipment-line-actions-footer.png)
+3. Click the `Delete` button which appears at the bottom of the page.
 
 <div class="imagetitle">
 In the below example, we are deleting <i>three placeholder lines</i>.
@@ -534,12 +531,9 @@ There are 2 main ways to allocate a shipment line:
 
 1. When adding items, the system will automatically assign stock to the new shipment line when you enter a quantity. If you don't have enough stock, the system will add placeholder lines (unallocated lines).
 
-2. Bulk action `Allocate placeholder lines`:
+2. Bulk action `Allocate placeholder lines`: Select the lines that you want to allocate by checking boxes on the left hand side of the list
 
-   - Select the lines that you want to allocate by checking boxes on the left hand side of the list
-   - The `Actions` footer will display at the bottom of the screen when a shipment line is selected. It will display the number of shipment lines selected and the actions which can be taken.
-
-3. Select `Allocate placeholder lines`. System will check if there is available stock for each selected line and allocate them using the First to Expire, First Out (FEFO) logic. A notification will let you know whether the operation is successful or not.
+3. Click the `Allocate placeholder lines` button which appears at the bottom of the page. System will check if there is available stock for each selected line and allocate them using the First to Expire, First Out (FEFO) logic. A notification will let you know whether the operation is successful or not.
 
 <div class="note">
 You won't be able to process your Outbound Shipment if you have unallocated lines (shipment lines without batch number(s) assigned to them) with a quantity greater than 0. You can wait for more stock to arrive or you can delete the placeholder lines. Any unallocated lines with a 0 quantity will automatically be removed for you when you allocate.
@@ -615,8 +609,7 @@ Sometimes, stock sent via an Outbound Shipment will need to be returned. You can
 1. Open the Outbound Shipment for which you would like to process the return of some or all of the stock
 2. Make sure that status is at least `SHIPPED`
 3. Select the line(s) you want to process the return of by checking the box(es) on the right of the list
-4. The `Actions` footer will display at the bottom of the screen when a shipment line is selected. It will display the number of shipment lines selected and the actions which can be taken.
-5. Select the action `Return selected lines`.
+4. Click the `Return selected lines` button which appears at the bottom of the page.
 
 ![OS return lines](/docs/distribution/images/return-selected-outbound-shipment-line.gif)
 
