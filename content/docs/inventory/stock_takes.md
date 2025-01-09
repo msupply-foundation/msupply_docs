@@ -161,7 +161,7 @@ Select a location and press OK. All selected stock lines will now have an update
 
 ### Reduce number of packs to 0
 
-Use the checkbox column to select the lines you wish to reduce to 0. The `Actions` footer will display at the bottom of the screen when a stocktake line is selected. It will display the number of stocktake lines selected and the actions which can be taken. Click `Reduce to 0`.
+Use the checkbox column to select the lines you wish to reduce to 0. Click the `Reduce to 0` button which appears at the bottom of the page.
 
 ![Stocktake action reduce to 0](/docs/inventory/images/reduce-to-zero-stocktake-line.png)
 

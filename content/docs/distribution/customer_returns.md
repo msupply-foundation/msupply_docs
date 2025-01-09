@@ -84,7 +84,7 @@ You can delete a return from the Customer Return list.
 
 1. Select the return that you want to delete by checking the box on the left end of the list. You can select more than one return to be deleted. You can even select them all using the master checkbox in the list headers.
 
-2. The `Actions` footer will display at the bottom of the screen when a return is selected. It will display the number of returns selected and the actions which can be taken. Click `Delete`.
+2. Click the `Delete` button which appears at the bottom of the page.
 
 3. A notification confirms how many returns were deleted (bottom left corner).
 
@@ -362,10 +362,7 @@ If you set all return quantities to `0`, and click `Next step` you will see this
 
 1. Open the Customer Return you want to edit.
 2. Select the line(s) you want to delete by checking the box(es) on the right of the list.
-3. The `Actions` footer will display at the bottom of the screen when a return line is selected. It will display the number of return lines selected and the actions which can be taken.
-4. Select the action `Delete`
-
-![Delete lines actions footer](/docs/distribution/images/customer-return-line-actions.png)
+3. Click the `Delete` button which appears at the bottom of the page.
 
 <div class="imagetitle">
 In the below example, we are deleting two lines
