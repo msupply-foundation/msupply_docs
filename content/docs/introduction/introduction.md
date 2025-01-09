@@ -107,7 +107,7 @@ Note that we are also currently working through testing the migration process an
 
 #### Preconditions
 
-1.  You need an existing mSupply system with a Legacy mSupply server with web and sync server modules
+1.  You need an existing mSupply system with a Legacy mSupply server with web and sync server modules. You can read more about the hardware requirements for Legacy mSupply server [here](https://docs.msupply.org.nz/setting_up_msupply:requirements#requirements)
 2.  As of December 2023, it is not possible to migrate an existing Legacy (or Mobile) mSupply store to an Open mSupply store; only new stores can be created in Open mSupply
 
 #### Procedure:

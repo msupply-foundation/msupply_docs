@@ -19,7 +19,7 @@ TOCtitle = "On this page"
 search_placeholder = "Search docs..."
 
 [languages.fr]
-generate_feed = true      # there will be a feed for French content
+generate_feeds = true     # there will be a feed for French content
 build_search_index = true
 title = "mSupply 🇫🇷"
 
@@ -38,7 +38,7 @@ TOCtitle = "En esta pagina"
 search_placeholder = "Buscar documentos..."
 
 [languages.es]
-generate_feed = true      # there will be a feed for Spanish content
+generate_feeds = true     # there will be a feed for Spanish content
 build_search_index = true
 title = "mSupply 🇪🇸"
 
@@ -49,7 +49,7 @@ TOCtitle = "Nesta página"
 search_placeholder = "Pesquisar documentos..."
 
 [languages.pt]
-generate_feed = true      # there will be a feed for Portuguese content
+generate_feeds = true     # there will be a feed for Portuguese content
 build_search_index = true
 title = "mSupply 🇵🇹"
 
