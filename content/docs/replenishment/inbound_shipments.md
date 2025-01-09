@@ -432,7 +432,7 @@ To edit an Inbound Shipment line, simply tap on it. You will be presented with t
 4. The `Actions` footer will display at the bottom of the screen when a shipment line is selected. It will display the number of shipment lines selected and the actions which can be taken.
 5. Click `Delete`
 
-![Alt Text](/docs/replenishment/images/delete-inbound-shipment.gif)
+![Alt Text](/docs/replenishment/images/delete-inbound-shipment-line.gif)
 
 <div class="tip">
 You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
@@ -489,10 +489,9 @@ Sometimes, you might need to return stock that you received via an Inbound Shipm
 2. Make sure that status is at least `DELIVERED`
 3. Select the line(s) you want to return by checking the box(es) on the left of the list
 4. The `Actions` footer will display at the bottom of the screen when a shipment line is selected. It will display the number of shipment lines selected and the actions which can be taken.
-5. Click `Process return`
+5. Click `Return selected lines`
 
-<!-- [![Process return inbound shipment line](/docs/replenishment/images/process-return-inbound-shipment-line.png)](/docs/replenishment/images/process-return-inbound-shipment-line.png) -->
-<img src="/docs/replenishment/images/process-return-inbound-shipment-line.png" alt="Zoomable Image" style="transition: transform 0.25s ease; width: 100%;" onmouseover="this.style.transform='scale(1.5)'" onmouseout="this.style.transform='scale(1)'">
+![Process return inbound shipment line](/docs/replenishment/images/return-inbound-shipment-line.png)
 
 #### Select quantity to return
 
