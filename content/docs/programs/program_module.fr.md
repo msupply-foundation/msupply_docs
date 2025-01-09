@@ -9,206 +9,206 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "View and Manage Patient Programs"
+lead = "Afficher et gérer les programmes des patients"
 toc = true
 top = false
 +++
 
-You can manage Patients by programs in Open mSupply. This involves some special settings. Please see [Patients](/docs/dispensary/patients) for more information on how to view and create patients.
+Vous pouvez gérer les patients par programmes dans Open mSupply. Cela implique certains paramètres spéciaux. Veuillez consulter [Patients](/docs/dispensary/patients) pour plus d’informations sur la façon de visualiser et de créer des patients.
 
-To use Patient Programs, ensure that your store is set to `Dispensary` mode (see the [virtual stores](https://docs.msupply.org.nz/other_stuff:virtual_stores#store_type) documentation for how to do this).
+Pour utiliser les programmes pour patients, assurez-vous que votre dépot est réglé sur le mode `Dispensaire` (Voir la documentation [virtual stores](https://docs.msupply.org.nz/other_stuff:virtual_stores#store_type) pour savoir comment procéder).
 
-You will also need to enable the store preference for `Open mSupply: Uses program module`.
-This preference is compatible with Open mSupply `v1.2.0+` and mSupply `v7-07-00-beta9+`.
+Vous devrez également activer la préférence de dépot pour le module de programme `Open mSupply: Uses program module`.
+Cette préférence est compatible avec Open mSupply `v1.2.0+` et mSupply `v7-07-00-beta9+`.
 
 ![Store preference](/docs/programs/images/program_pref.png)
 
-You will also need to enable the user permissions shown below on the central server:
+Vous devrez également activer les autorisations d’utilisateur indiquées ci-dessous sur le serveur central :
 
-<div class="note">This is an example of the permissions required for a user to view and manage program specific features. The permissions required may vary depending on your configurations.</div>
+<div class="note">Voici un exemple des autorisations requises pour qu’un utilisateur puisse afficher et gérer les fonctionnalités spécifiques d’un programme. Les autorisations requises peuvent varier en fonction de vos configurations.</div>
 
 ![User permissions](/docs/programs/images/program_user_permissions.png)
 
-<div class="note">The Patient Programs module is highly customisable and may look different depending on your configurations. Please contact your administrator for customisations.</div>
+<div class="note">Le module Patient Programs est hautement personnalisable et peut avoir un aspect différent selon vos configurations. Veuillez contacter votre administrateur pour les personnalisations.</div>
 
-### Patients List
+### liste de patients
 
-A new column named `Program Enrolments` will be added to the patient list to show the programs that the patient is enrolled in if the patient programs module has been enabled. 
+Une nouvelle colonne intitulée `Inscriptions au Programme` sera ajoutée à la liste des patients pour indiquer les programmes auxquels le patient est inscrit si le module Programmes pour patients a été activé. 
 
 ![Program Enrolments](/docs/programs/images/patient_enrolment_column.png)
 
-#### Viewing a Patient
+#### Consultation d’un patient
 
-There are four tabs on the patient detail page:
+Il y a quatre onglets sur la page informations du patient :
 
-1. **Patient Details**: This tab contains the patient details.
+1. **informations du patient**: Cet onglet renferme les informations du patient.
 
-The patient detail page will look very different from the standard patient detail page. This view is highly customisable and can be tailored to specific needs. Please contact your administrator if you would like to customise this view.
+La page d'information du patient sera très différente de la page d'information du patient standard. Cette vue est hautement personnalisable et peut être adaptée à des besoins spécifiques. Veuillez contacter votre administrateur si vous souhaitez personnaliser cette vue.
 
 ![Patient detail](/docs/programs/images/patient_detail_view.gif)
 
-2. **Programs**: This tab contains the programs that the patient is enrolled in.
+2. **Programmes**: Cet onglet contient les programmes auxquels le patient est inscrit.
 
-Clicking on a program will take you to the patient's program enrolment details. See [Program Enrolment](/docs/programs/program-module/#program) for more information.
+Cliquer sur un programme vous mènera aux détails de l’inscription au programme du patient. Voir [Program Enrolment](/docs/programs/program-module/#program) pour plus de renseignements.
 
-This program tab will display 5 columns: 
+Cet onglet de programme affichera 5 colonnes : 
 
-| Column      | Description                         |
+| colonne      | Description                         |
 | :---------- | :---------------------------------- |
-| **Program**    | The name of the program                |
-| **Enrolment Patient ID**  | The patient's program ID  |
-| **Additional Info**  | Displays program specific information. E.g. _LTFU_ lost to follow up |
-| **Program Status**  | The status of the program  |
-| **Enrolment Date** | The date the patient was enrolled in the program |
+| **Programme**    | Le nom du programme                |
+| **Identifiation Patient ID**  | L'identification du programme du patient ID  |
+| **Informations complémentaires**  | Affiche les renseignements propres au programme. Par ex., _LTFU_ perdu pour le suivi |
+| **Statut du programme**  | Le statut du programme  |
+| **Date d'inscription** | La date à laquelle le patient a été inscrit au programme |
 
 ![Programs](/docs/programs/images/patient_program_tab.png)
 
-3. **Encounters**: This tab contains the encounters that the patient has had.
+3. **Rencontres**: Cet onglet contient les rencontres que le patient a eues.
 
-Clicking on an encounter will take you to the encounter details. See [Encounter](/docs/programs/program-module/#encounter) for more information.
+Cliquer sur une rencontre pour accéder aux détails de la rencontre. Voir [Encounter](/docs/programs/program-module/#encounter) pour plus d’information.
 
-This encounters tab will display 6 columns:
+Cet onglet des rencontres affichera 6 colonnes :
 
-| Column      | Description                         |
+| Colonne      | Description                         |
 | :---------- | :---------------------------------- |
-| **Type**    | The encounter type                |
-| **Program** | The program the encounter is associated with  |
-| **Date**  | The date of the encounter appointment |
-| **Start** | The start time of the encounter appointment  |
-| **End** | The end time of the encounter appointment |
-| **Additional Info** | Displays additional information about the encounter. E.g. _Encounter Scheduled_ means that the appointment for this encounter has been scheduled. |
+| **Type**    | Le type de rencontre                |
+| **Programme** | Le programme auquel la rencontre est associée  |
+| **Date**  | La date du rendez-vous |
+| **Début** | Le moment de début du rendez-vous  |
+| **Fin** | La fin du rendez-vous |
+| **Informations complémentaires** | Affiche des renseignements supplémentaires sur la rencontre. _Rencontre prévue_ signifie que le rendez-vous pour cette rencontre a été fixé. |
 
 ![Encounters](/docs/programs/images/patient_encounter_tab.png)
 
-4. **Contact Tracing**: This tab contains the contact tracing information for the patient.
+4. **recherche de contacts**: Cet onglet contient les informations de suivi des contacts pour le patient.
 
-Clicking on a contact will take you to the contact details. See [Contact Tracing](/docs/programs/program-module/#contact-tracing) for more information.
+Cliquer sur un contact vous mènera aux coordonnées. Voir [Contact Tracing](/docs/programs/program-module/#contact-tracing) pour plus d’informations.
 
-This contact tracing tab will display 7 columns:
+Cet onglet de suivi des contacts affichera 7 colonnes :
 
-| Column      | Description                         |
+| Colonnes      | Description                         |
 | :---------- | :---------------------------------- |
-| **Program**    | The name of the program this contact is associated with               |
-| **Date Created**  | The date the contact was created  |
-| **First name**  | First name of the contact  |
-| **Last name**  | Last name of the contact  |
-| **Gender** | Gender of the contact | 
-| **Relationship** | The relationship of the contact to the patient  |
-| **Age** | The age of the contact  |
+| **Programme**    | Le nom du programme auquel ce contact est associé               |
+| **Date de création**  | La date de création du contact  |
+| **Prénom**  | Prénom du contact  |
+| **Nom de famille**  | Nom de famille du contact  |
+| **Genre** | Sexe du contact | 
+| **Relation** | La relation du contact avec le patient  |
+| **Âge** | L’âge du contact  |
 
 ![Contact Tracing](/docs/programs/images/patient_contact_tracing_tab.png)
 
-There is also a `History` button on the bottom left corner of the patient detail page. Clicking on this button will show you a simple history of changes made to the patient record.
+Il y a aussi un bouton `Historique` dans le coin inférieur gauche de la page des informations du patient. Cliquer sur ce bouton vous montrera un historique simple des modifications apportées au dossier du patient.
 
 ![Patient History](/docs/programs/images/patient_history.png)
 
-### Program
+### Programme
 
-Patients can be enrolled in a program that is relevant to their health condition. A patient can be enrolled in multiple programs.
+Les patients peuvent être inscrits à un programme qui est pertinent pour leur état de santé. Un patient peut être inscrit à plusieurs programmes.
 
-#### Enrolling a Patient in a Program
+#### Inscription d’un patient à un programme
 
-To enrol a patient in a program, click on the `Add Program` button in the top right corner of the screen or click the down arrow next to the button and select `Add Program` if the button does not say `Add Program`. A new window will appear for you to select the program you want to enrol the patient in. Programs that the patient is already enrolled in will be greyed out. 
+Pour inscrire un patient à un programme, cliquez sur le bouton  `Ajouter Programme` dans le coin supérieur droit de l’écran ou cliquez sur la flèche vers le bas à côté du bouton et sélectionnez `Ajouter Programme` si le bouton ne dit pas `Ajouter Programme`. Une nouvelle fenêtre s’affiche pour sélectionner le programme dans lequel vous souhaitez inscrire le patient. Les programmes auxquels le patient est déjà inscrit seront grisés. 
 
 ![Add Program](/docs/programs/images/add_program_button.png)
 
 ![Add Program](/docs/programs/images/select_program_enrolment.png)
 
-After selecting the program, another window will appear for you to enter program specific information. 
+Après avoir sélectionné le programme, une autre fenêtre s’affiche pour que vous puissiez saisir des renseignements spécifiques au programme. 
 
 <div class="imagetitle">
-In this example, we are enrolling the patient into the HIV Care and Treatment Program.
+Dans cet exemple, nous inscrivons le patient au programme de soins et de traitement du VIH.
 </div>
 
 ![Program Enrolment](/docs/programs/images/hiv_enrolment_form.gif)
 
-### Encounter
+### Rencontre
 
-An Encounter is a recorded visit of the patient and their treatment under a specific program. 
+Une rencontre est une visite enregistrée du patient et de son traitement dans le cadre d’un programme spécifique. 
 
-#### Viewing the Encounter List
+#### Affichage de la liste des rencontres
 
-Go to `Dispensary` > `Encounters` to view the list of encounters.
+Allez à la section `Dispensaire` > `Rencontres` pour voir la liste des rencontres.
 
 ![Encounter Navigation](/docs/programs/images/dispensary_gotoencounters.png)
 
-The list of encounters is divided into 8 columns: 
+La liste des rencontres est divisée en 8 colonnes : 
 
-| Column      | Description                         |
+| Colonnes      | Description                         |
 | :---------- | :---------------------------------- |
-| **Type**    | The encounter type                |
-| **Program** | The program the encounter is associated with  |
-| **Date** | The date of the encounter appointment |
-| **Start** | The start time of the encounter appointment  |
-| **End** | The end time of the encounter appointment |
-| **Patient** | The patient the encounter is associated with |
-| **Additional Info** | Displays additional information about the encounter. E.g. _Encounter Scheduled_ means that the appointment for this encounter has been scheduled. |
-| **Status** | The status of the encounter |
+| **Type**    | Le type de rencontre                |
+| **Programme** | Le programme auquel la rencontre est associée  |
+| **Date** | La date du rendez-vous |
+| **Début** | Le moment de début du rendez-vous  |
+| **Fin** | La fin du rendez-vous |
+| **Patient** | Le patient à qui la rencontre est associée |
+| **Informations complémentaires** | Affiche des renseignements supplémentaires sur la rencontre. _Rencontre Prévue_ signifie que le rendez-vous pour cette rencontre a été fixé. |
+| **Statut** | Le statut de la rencontre |
 
-Clicking on an encounter will take you to the encounter details.
+Cliquer sur une rencontre vous mènera aux détails de la rencontre.
 
 ![Encounter List](/docs/programs/images/encounter_list.png)
 
-#### Add an Encounter
+#### Ajouter une rencontre
 
-To add an Encounter for the patient, click the `Add Encounter` button on the top right corner of the screen. Click on the down arrow next to the button and select `Add Encounter` if the button does not say `Add Encounter`.
+Pour ajouter une rencontre pour le patient, cliquez sur le bouton `Ajouter rencontre` dans le coin supérieur droit de l’écran. Cliquez sur la flèche vers le bas à côté du bouton et sélectionnez `Ajouter rencontre` si le bouton ne dit pas `Ajouter rencontre`.
 
 ![Add Encounter](/docs/programs/images/add_encounter_button.gif)
 
-A window will open for you to select the encounter (this selection will vary depending on what programs the patient is enrolled in), visit date, clinician and add notes for this encounter.
+Une fenêtre s’ouvrira pour que vous puissiez sélectionner la rencontre (cette sélection varie selon les programmes auxquels le patient est inscrit), la date de visite, le prescripteur et ajouter des notes pour cette rencontre.
 
-<div class="imagetitle">In the below example, we are creating a HIV Care Encounter</div>
+<div class="imagetitle">Dans l’exemple ci-dessous, nous créons une rencontre de soins sur le VIH</div>
 
 ![Add Encounter](/docs/programs/images/add_encounter.gif)
 
-If the encounter is within the last hour, then you will be re-directed to the encounter page, otherwise, you will be re-directed to the encounter tab in the patient detail view.
+Si la rencontre a lieu dans l’heure précédente, vous serez redirigé vers la page de rencontre ; sinon, vous serez redirigé vers l’onglet de rencontre dans la vue détaillée du patient.
 
-Every encounter document will look differently, however there are some common features:
-- The top of every encounter will contain common encounter details. Some of these details may be editable like _Clinician_ and _Visit Date and Time_.
+Chaque document de rencontre aura une apparence différente, mais il y a des caractéristiques communes :
+- Le haut de chaque rencontre contient les détails communs de la rencontre, dont certains peuvent être modifiés comme _Prescripteur_ et _Date et heure de la visite.
 
-An encounter can have three statuses:
-- **Pending**: The encounter has been scheduled but not yet completed.
-- **Visited**: The encounter has been completed.
-- **Cancelled**: The encounter has been cancelled.
+Une rencontre peut avoir trois statuts :
+- **En cours**: La rencontre est prévue, mais n’est pas encore terminée.
+- **Consulté**: La rencontre est terminée.
+- **Annulé**: La rencontre a été annulée.
 
 ![Encounter](/docs/programs/images/encounter_header.png)
 
-- The side panel (opened by clicking `More` on the top right corner) will contain additional information such as previous encounters.
+- Le panneau latéral (ouvert en cliquant sur `Plus` dans le coin supérieur droit) contient des renseignements supplémentaires, comme les rencontres précédentes.
 
 ![Encounter](/docs/programs/images/encounter_side_panel.png)
 
-<div class="imagetitle">In this example, we are viewing the HIV Care Encounter</div>
+<div class="imagetitle">Dans cet exemple, nous regardons la rencontre de soins sur le VIH</div>
 
 ![Encounter](/docs/programs/images/encounter_detail_view.png)
 
-### Contact tracing
+### Traçage des contacts
 
-Contact tracing is the process of identifying people who might have been exposed to a disease through the patient. The contact can then be contacted, registered and enrolled into a matching program if needed.
+Le traçage des contacts est le processus d’identification de personnes qui ont pu être exposées à une maladie par l’intermédiaire du patient. Le contact peut ensuite être contacté, inscrit et inscrit dans un programme de jumelage si nécessaire.
 
-#### Add a Contact
+#### Ajouter un contact
 
-To add a contact for a patient, click the `Add Contact` button on the top right corner of the screen. Click on the down arrow next to the button and select `Add Contact` if the button does not say `Add Contact`.
+Pour ajouter un contact pour un patient, cliquez sur le bouton `Ajouter Contact` dans le coin supérieur droit de l’écran. Cliquez sur la flèche vers le bas à côté du bouton et sélectionnez `Ajouter Contact` si le bouton ne dit pas `Ajouter Contact`.
 
 ![Add Contact](/docs/programs/images/add_contact_button.png)
 
-A window will open, inviting you to select the type of contact you want to add. Currently, only HIV Partner Testing is available. Click Ok to proceed.
+Une fenêtre s’ouvrira, vous invitant à sélectionner le type de contact que vous voulez ajouter. À l’heure actuelle, seul le test de dépistage du VIH par les partenaires est disponible. Cliquez sur OK pour continuer.
 
 ![Add Contact](/docs/programs/images/contact_tracing_modal.png)
 
-#### Edit a Contact
+#### Modifier un contact
 
 ![Edit Contact](/docs/programs/images/contact_trace.gif)
 
-#### Linking a Contact to a Patient
+#### Liaison d’un contact à un patient
 
-Once a contact has been added to mSupply, they can then be linked to patient who came into contact with them. Do this by clicking the `Link to Patient` button on the top right of the screen.
+Une fois qu’un contact a été ajouté à mSupply, il peut être lié au patient qui est entré en contact avec lui. Cliquez sur le bouton `Lien vers Patient` en haut à droite de l’écran.
 
 ![Link to Patient](/docs/programs/images/link_to_patient_button.png)
 
-This will open a search window where you can search for the patient you want by their first name, last name or patient ID. Once you have found the patient, click on the patient to link them to the contact.
+Cela ouvrira une fenêtre de recherche où vous pourrez rechercher le patient souhaité par son prénom, son nom ou son ID. Une fois le patient trouvé, cliquez sur le patient pour le lier au contact.
 
 ![Link to Patient](/docs/programs/images/link_to_patient.gif)
 
-If the patient is already linked to the contact, but you want to change the patient because you linked the wrong patient, click the `Unlink Patient` button on the top right of the screen.
+Si le patient est déjà lié au contact, mais que vous voulez changer de patient parce que vous avez lié le mauvais patient, cliquez sur le bouton `Délier Patient` en haut à droite de l’écran.
 
 ![Unlink Patient](/docs/programs/images/unlink_patient.png)

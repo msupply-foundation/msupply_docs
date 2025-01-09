@@ -59,15 +59,12 @@ To add a filter to the page, choose the required filter from the drop down. Mult
 
 ![Asset filter](/docs/catalogue/images/assets_filter.png)
 
-#### Delete Assets
-
-Assets can be selected and deleted using the toolbar action:
-
-![Assets delete](/docs/catalogue/images/assets_delete.png)
-
 ### Importing And Exporting
 
+Importing and deleting of asset catalogue items can only be done on the [Open mSupply Central Server](/docs/getting_started/central).
+
 #### Import
+
 Assets can be imported from a comma-separated-file (csv) file using the `Import` button.
 
 ![Import assets](/docs/catalogue/images/assets_import.png)
@@ -90,9 +87,15 @@ A list of assets can be exported as a csv file using the `Export` button.
 
 ![Assets nav](/docs/catalogue/images/asset_export_button.png)
 
+#### Delete
+
+On the Open mSupply Central Server, there is the option to select and delete asset catalogue items using the toolbar action:
+
+![Assets delete](/docs/catalogue/images/assets_delete.png)
+
 ### Managing status log reasons
 
-<div class="note">Status log reasons are managed from the Open mSupply central server. <a href="/docs/getting_started/central">Click here to find out out more</a>.</div>
+<div class="note">Status log reasons are managed from the <a href="/docs/getting_started/central">Open mSupply central server</a>.</div>
 
 When users add a new status log against a particular asset, more detail can be provided with a reason associated with the new status. For example, an asset which has been labled `NON_FUNCTIONING` could be assigned a reason of `power supply broken`. These reasons are customisable, and associated with a particular status.
 
@@ -107,13 +110,13 @@ Reasons can be managed on a new page accessible from the `Manage Log Reasons` bu
 On this page you can:
 
 - Create new log reasons through the `Create log reason` button
-![New reason button](/docs/catalogue/images/reasons_create_button.png)
+  ![New reason button](/docs/catalogue/images/reasons_create_button.png)
 
 This will open a create new reason modal
 ![New reason modal](/docs/catalogue/images/reasons_create_modal.png)
 
 - Select and delete existing reasons with the `Actions` dropdown
-![Delete reason button](/docs/catalogue/images/reasons_delete.png)
+  ![Delete reason button](/docs/catalogue/images/reasons_delete.png)
 
 - Filter existing reasons by status using the filter dropdown
-![Filter reasons](/docs/catalogue/images/reasons_filter.png)
+  ![Filter reasons](/docs/catalogue/images/reasons_filter.png)

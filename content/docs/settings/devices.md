@@ -29,7 +29,9 @@ Click on the `Devices` section to begin.
 
 ## Label Printing
 
-The label printing functionality is in an experimental state currently. You can configure a single, network-enabled, label printer which supports the ZPL printer language.
+<div class="note">Label printing support is very limited at this time! Label printers are used only for printing QR codes to identify cold chain equipment. There are plans to implement the printing of labels in the dispensary though. Check the <a href="/docs/introduction/roadmap/">roadmap</a> for details.</div>
+
+The label printing functionality is in an experimental state currently. There is limited support for label printers in that you can configure only a single, network-enabled, label printer which supports the ZPL printer language.
 
 ![Label Printing](/docs/settings/images/devices_label_printing.png)
 
