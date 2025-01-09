@@ -88,8 +88,7 @@ You can delete a requisition from the Requisition list.
 1. Select the requisition that you want to delete by checking the box on the
    left end of the list. You can select more than one requisition to be deleted.
    You can even select them all by using the master checkbox in the header.
-2. Open the `Actions` dropdown menu at the top right corner (above the list) and
-   select `Delete selected lines`.
+2. The `Actions` footer will display at the bottom of the screen when a requisition is selected. It will display the number of requisitions selected and the actions which can be taken. Click `Delete`.
 3. A confirmation window will appear, asking you to confirm the number of
    requisitions to be deleted.
 4. After clicking `OK`, a notification will appear in the bottom left corner, confirming that the selected requisitions were deleted.
@@ -97,6 +96,8 @@ You can delete a requisition from the Requisition list.
 <div class="note">
 You cannot delete requisitions that have been created from an Internal Order, or have had a shipment created from them.
 </div>
+
+![Delete Requesition Actions Footer](/docs/distribution/images/delete-response-requisition.png)
 
 ### Viewing a Requisition
 
