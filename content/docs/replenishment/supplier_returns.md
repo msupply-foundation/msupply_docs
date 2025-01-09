@@ -346,9 +346,8 @@ If you set all return quantities to `0`, and click `Next step` you will see this
 ### Delete a Return Line
 
 1. Open the Supplier Return you want to edit.
-2. Select the line(s) you want to delete by checking the box(es) on the right of the list.
-3. The `Actions` footer will display at the bottom of the screen when a return line is selected. It will display the number of return lines selected and the actions which can be taken.
-4. Click `Delete`
+2. Select the line(s) you want to delete by checking the box(es) on the left of the list.
+3. Click the `Delete` button which appears at the bottom of the page.
 
 <div class="imagetitle">
 In the below example, we are deleting 2 items, with the item codes 030063 and 037020

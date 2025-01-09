@@ -89,7 +89,7 @@ A list of assets can be exported as a csv file using the `Export` button.
 
 #### Delete
 
-On the Open mSupply Central Server, there is the option to select and delete asset catalogue items using the footer action. The `Actions` footer will display at the bottom of the screen when an asset row is selected:
+On the Open mSupply Central Server, there is the option to select and delete asset catalogue items. The `Actions` footer will display at the bottom of the screen when an asset row is selected:
 
 ![Assets delete](/docs/catalogue/images/actions-footer-assets.png)
 
