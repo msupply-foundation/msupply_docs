@@ -83,7 +83,7 @@ You can delete a prescription from the Prescription list.
 
 1. Select the prescription that you want to delete by checking the box on the left end of the list. You can select more than one prescription to be deleted. You can even select them all using the master checkbox in the list headers.
 
-2. Open the `Select` dropdown (top right corner, above the list) and select `Delete selected lines`.
+2. The `Actions` footer will display at the bottom of the screen when a prescription is selected. It will display the number of prescriptions selected and the actions which can be taken. Click `Delete`.
 
 3. A notification confirms how many prescriptions were deleted (bottom left corner).
 
@@ -91,7 +91,7 @@ You can delete a prescription from the Prescription list.
 You can only delete Prescriptions with a status <code>NEW</code>.
 </div>
 
-![Prescription list: delete](/docs/dispensary/images/prescription_list_deleteline.gif)
+![Prescription list: delete](/docs/dispensary/images/delete-prescription.gif)
 
 ## Creating a Prescription
 
@@ -386,17 +386,15 @@ To edit a prescription line, tap on it. You will be presented with the `Edit Ite
 ### Delete a Prescription line
 
 1. Open the Prescription you want to edit.
-2. Select the line(s) you want to delete by checking the box(es) on the right of the list.
-3. Go to the `Actions` dropdown menu (top right corner, above the list)
-4. Select the action `Delete selected lines`
-
-![Alt Text](/docs/distribution/images/os_actions_deleteselectedlines.png)
+2. Select the line(s) you want to delete by checking the box(es) on the left hand side of the list.
+3. The `Actions` footer will display at the bottom of the screen when a prescription line is selected. It will display the number of prescription lines selected and the actions which can be taken.
+4. Click `Delete`.
 
 <div class="imagetitle">
 In the below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100mg tabs</i>
 </div>
 
-![Alt Text](/docs/dispensary/images/prescription_deleteselectedlines.gif)
+![Alt Text](/docs/dispensary/images/delete-prescription-line.gif)
 
 <div class="tip">
 You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
