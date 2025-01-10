@@ -82,16 +82,16 @@ and the file will be downloaded. The export function will download all Prescript
 You can delete a prescription from the Prescription list.
 
 1. Select the prescription that you want to delete by checking the box on the left end of the list. You can select more than one prescription to be deleted. You can even select them all using the master checkbox in the list headers.
-
 2. The `Actions` footer will display at the bottom of the screen when a prescription is selected. It will display the number of prescriptions selected and the actions which can be taken. Click `Delete`.
-
 3. A notification confirms how many prescriptions were deleted (bottom left corner).
 
 <div class="note">
 You can only delete Prescriptions with a status <code>NEW</code>.
 </div>
 
-![Prescription list: delete](/docs/dispensary/images/delete-prescription.gif)
+![Prescription list: delete](/docs/dispensary/images/prescription_delete_step_1.png)
+![Prescription list: delete](/docs/dispensary/images/prescription_delete_step_2.png)
+![Prescription list: delete](/docs/dispensary/images/prescription_delete_step_3.png)
 
 ## Creating a Prescription
 
@@ -105,13 +105,14 @@ You can only delete Prescriptions with a status <code>NEW</code>.
 
 #### Select a Patient
 
-1. In the `Patients` window, you will be presented with a list of available patients. The patients list will load the first 100 patients and prompt you to refine your search by typing as much of the patient's name or code as you can.
+1. In the `Patients` window, you will be presented with a form to search for available patients. The patients list will load when you start typing - you can enter as much of the patient's name or code as you need.
 
 <div class="imagetitle">
-In the below example, we are prescribing medicine to <b>Luna Lovegood</b>. 
+In the below example, we are prescribing medicine to <b>Ginny Weasley</b>. 
 </div>
 
-![gif](/docs/dispensary/images/prescription_select_patient.gif)
+![gif](/docs/dispensary/images/prescription_select_patient_step_1.png)
+![gif](/docs/dispensary/images/prescription_select_patient_step_2.png)
 
 2. Your Prescription is automatically created once you click on the patient in the dropdown list.
 
@@ -123,16 +124,19 @@ If everything went well, you should see the name of your patient in the top left
 
 ### Edit the Patient Name
 
-If you have selected the wrong patient, you can change the patient name in the `Patient Name` field or select one the dropdown list:
+If you have selected the wrong patient, you can change the patient name in the `Patient` field by typing some characters to search and then selecting from the dropdown list:
 
-![Change patient](/docs/dispensary/images/prescription_change_patient.gif)
+![Change patient](/docs/dispensary/images/prescription_change_patient_step_1.png)
+![Change patient](/docs/dispensary/images/prescription_change_patient_step_2.png)
+![Change patient](/docs/dispensary/images/prescription_change_patient_step_3.png)
 
 You may need to type more of the patient's name or code if you have more than 100 patients for the patient's name to show on the dropdown list.
 
 ### Select the Clinician
 
 Once your Prescription has been created, you can select a clinician from the `Clinician` dropdown list.
-![Select Clinician](/docs/dispensary/images/prescription_clinician.gif)
+![Select Clinician](/docs/dispensary/images/prescription_clinician_step_1.png)
+![Select Clinician](/docs/dispensary/images/prescription_clinician_step_2.png)
 
 ### View or edit the Prescription Information Panel
 
@@ -150,9 +154,11 @@ If you are using a large screen, the information panel will be automatically ope
 
 To open the Information Panel, you can tap on the `More` button, located in the top right corner of the Prescription view.
 
+![Open and close the Information Panel](/docs/dispensary/images/prescription_infopanel_more.png)
+
 You can close by tapping on the `X Close` button, on the top right corner of the information panel.
 
-![Open and close the Information Panel](/docs/dispensary/images/prescription_infopanel_openclose.gif)
+![Open and close the Information Panel](/docs/dispensary/images/prescription_infopanel_open.png)
 
 #### Information Panel
 
@@ -174,16 +180,16 @@ In the **Patient Details** section, you can:
 
 The status sequence is located at the bottom left corner of the Prescription screen.
 
-Passed statuses are hightlighted in blue, next statuses appear in grey.
+Passed statuses are highlighted in blue, next statuses appear in grey.
 
 <figure>
-<center><img src="/docs/dispensary/images/prescription_statussequence1.png" style="width:40%"></center>
-<figcaption align = "center">Status Sequence: current status is <code>NEW</code>.</figcaption>
+<center><img src="/docs/dispensary/images/prescription_statussequence1.png" style="width:40%"/></center>
+<figcaption align="center">Status Sequence: current status is <code>NEW</code>.</figcaption>
 </figure>
 
 <figure>
-<center><img src="/docs/dispensary/images/prescription_statussequence2.png" alt="Trulli" style="width:40%"></center>
-<figcaption align = "center">Status Sequence: current status is </i><code>VERIFIED</code>.</figcaption>
+<center><img src="/docs/dispensary/images/prescription_statussequence2.png" alt="Trulli" style="width:40%"/></center>
+<figcaption align="center">Status Sequence: current status is </i><code>VERIFIED</code>.</figcaption>
 </figure>
 
 There are 3 status for a Prescription:
@@ -212,18 +218,12 @@ Tap on the `Close` button to quit the Prescription view and return to the Prescr
 
 The `Confirm` button updates the status of the prescription. The status which you can confirm depends on the current status of the prescription and follows the sequence shown below.
 
-When managing an Prescription, you can only confirm the Picked and Verified statuses.
+When managing an Prescription, you can only confirm the Picked and Verified statuses. Once you have added an item to a prescription, the status will change to `Picked` automatically.
 
 | Confirm...           | Current Status | Next Status |
 | :------------------- | :------------- | :---------- |
 | **Confirm Picked**   | New            | Picked      |
 | **Confirm Verified** | Picked         | Verified    |
-
-You don't have to update a prescription to the next status in the sequence. You can choose to skip `Confirm Verified` and go directly to `Confirm Shipped` for example.
-
-As demonstrated below, tap on the down arrow of the `Confirm` button and select the status you want the prescription to be updated to.
-
-![Skip Status](/docs/dispensary/images/prescription_confirmbutton_skipstatus.gif)
 
 ## Adding lines to a Prescription
 
@@ -245,7 +245,9 @@ In the `Add Item` window, you can look up an item by:
 
 Once your item is highlighted, tap on the name or press `Enter`.
 
-![Adding an item to a prescription](/docs/dispensary/images/prescription_additem.gif)
+![Adding an item to a prescription](/docs/dispensary/images/prescription_additem_step_1.png)
+![Adding an item to a prescription](/docs/dispensary/images/prescription_additem_step_2.png)
+![Adding an item to a prescription](/docs/dispensary/images/prescription_additem_step_3.png)
 
 Once the item is selected, you can see information about the item broken down into different sections
 
@@ -321,7 +323,8 @@ This method also allows you to select expired batches, but not on hold batches.
 To select or adjust the selected batches, enter or edit the quantity in the `Units Issued` column.
 
 <figure>
-<img src="/docs/dispensary/images/prescription_additem_manualallocation.gif" style="width:100%">
+<img src="/docs/dispensary/images/prescription_additem_manual_step_1.png">
+<img src="/docs/dispensary/images/prescription_additem_manual_step_2.png">
 <figcaption align = "center"><i>Manual allocation at the batch number level.</i></figcaption>
 </figure>
 
@@ -352,16 +355,20 @@ To edit a prescription line, tap on it. You will be presented with the `Edit Ite
 
 ### Delete a Prescription line
 
-1. Open the Prescription you want to edit.
-2. Select the line(s) you want to delete by checking the box(es) on the left hand side of the list.
+1. Open the Prescription you want to edit
+2. Select the line(s) you want to delete by checking the box(es) on the left hand side of the list
 3. The `Actions` footer will display at the bottom of the screen when a prescription line is selected. It will display the number of prescription lines selected and the actions which can be taken.
-4. Click `Delete`.
+4. Click `Delete`
+5. Accept the confirmation
+6. A success notification will be shown on the bottom left of the screen
 
 <div class="imagetitle">
-In the below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100mg tabs</i>
+In the below example, we are deleting <i>item 088882 - Ibuprofen 200mg tablets</i>
 </div>
 
-![Alt Text](/docs/dispensary/images/delete-prescription-line.gif)
+![Alt Text](/docs/dispensary/images/prescription_delete_lines_step_1.png)
+![Alt Text](/docs/dispensary/images/prescription_delete_lines_step_2.png)
+![Alt Text](/docs/dispensary/images/prescription_delete_lines_step_3.png)
 
 <div class="tip">
 You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
@@ -418,15 +425,21 @@ Once the prescription has been confirmed:
 - You can no longer edit prescription lines
 - You can no longer delete the prescription
 
-## Viewing Prescription
+## Viewing a Prescription
 
-Batches are automatically grouped by item when viewing a specific prescription. Use the expand in the table header to expand
-all grouped rows.
+Batches are automatically grouped by item when viewing a specific prescription. Use the expand button for a specific row in order to see the details for each batch of the item.
 
-![Group by Item](/docs/dispensary/images/prescription_group_by_item.gif)
+For example, the Paracetamol 500mg tabs shown here, has three batches allocated. Click the expand icon in the row to see the details:
+
+![Group by Item](/docs/dispensary/images/prescription_group_by_item_step_1.png)
+![Group by Item](/docs/dispensary/images/prescription_group_by_item_step_2.png)
 
 If you do not have enough room on your screen, or simply aren't interested in some of the columns shown, you have the option of hiding which columns are shown in this view.
 
 Click on the `Show / hide columns` button which is at the top right of the table. This gives a list of the columns available - you can check the columns you want to see. The options chosen are stored for the current browser, so next time you view a Prescription, you will see the selected columns only. If you have chosen which columns to show, then the button is shown in blue to remind you that there are more columns available.
 
-![Hide columns](/docs/dispensary/images/prescription_show_hide_columns.gif)
+![Hide columns](/docs/dispensary/images/prescription_columns_step_1.png)
+![Hide columns](/docs/dispensary/images/prescription_columns_step_2.png)
+![Hide columns](/docs/dispensary/images/prescription_columns_step_3.png)
+
+If some columns are hidden, you can click `Show all` to show all of the columns again.
