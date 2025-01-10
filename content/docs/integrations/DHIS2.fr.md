@@ -14,9 +14,8 @@ toc = true
 +++
 
 ## A propos de DHIS2
-
-DHIS2 est devenu le système d'information sanitaire par défaut utilisé dans les pays à revenu moyen et faible.
-C'est un excellent logiciel qui permet l'intégration de données et la création de tableaux de bors pour la prise de décision au niveau national. Il est important de rappeler que DHIS2 n'est pas un logiciel de gestion des stocks, un aspect essentiel de la logistique.
+DHIS2 est devenu le système de rapportage des informations sanitaires par défaut utilisé dans les pays à revenu moyen et faible.
+C'est un excellent logiciel qui permet l'intégration de données et la création de tableaux de bors pour la prise de décision au niveau national. Il est important de rappeler que DHIS2 n'est pas un logiciel de gestion des stocks, un aspect essentiel de la logistique. 
 
 Nous intégrons avec DHIS2 de 2 manières.
 
