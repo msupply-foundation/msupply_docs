@@ -18,7 +18,39 @@ The term 'Program Indicators' refers to a set of configurable survey questions w
 
 ## Enabling Program Indicators
 
-Program Indicators are configured on the mSupply central server, following the documentation [here](https://docs.msupply.org.nz/items:programs#adding_indicators_to_a_program).
+Program Indicators are configured on the mSupply central server. See
+documentation
+[here](https://docs.msupply.org.nz/items:programs#adding_indicators_to_a_program).
+
+## Internal Orders
+
+1. Create a [program Internal
+   Order](/docs/programs/requisitions/#creating-a-program-internal-order).
+2. Click on the Indicators tab
+
+![Indicators tab](/docs/programs/images/internal_order_indicator_tab.png)
+
+<div class='note'>
+HIV is only available on Programs where "HIV" has been enabled.
+</div>
+
+3. Click on one of the Program Indicator buttons (if more than one is available)
+
+![Indicators edit](/docs/programs/images/internal_order_indicator_edit.png)
+
+From here you can enter in the data, as configured for each indicator of this
+program.
+
+If your store is a supplying store and the store preference `Use consumption &
+stock from customers for internal orders` is enabled
+
+![Use consumption & stock from customers for internal orders](/docs/programs/images/consumption_data_pref.png)
+
+then you will also see a table showing summarised indicator data from your customer stores for the period.
+![Indicator info](/docs/programs/images/indicator_info_table.png)
+
+The previous and next buttons at the bottom allows you to navigate between the
+indicators.
 
 ## Manual Customer Requisitions
 
@@ -31,10 +63,6 @@ The process of entering program indicators is as follows:
 2. Click on the Indicators tab
 
 ![Indicators tab](/docs/programs/images/indicators.png)
-
-<div class='note'>
-HIV is only available on Programs where "HIV" has been enabled.
-</div>
 
 3. Click on one of the Program Indicator buttons
 

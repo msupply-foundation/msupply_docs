@@ -82,9 +82,7 @@ and the file will be downloaded. The export function will download all Prescript
 You can delete a prescription from the Prescription list.
 
 1. Select the prescription that you want to delete by checking the box on the left end of the list. You can select more than one prescription to be deleted. You can even select them all using the master checkbox in the list headers.
-
-2. Click the `Delete` button which appears at the bottom of the page.
-
+2. The `Actions` footer will display at the bottom of the screen when a prescription is selected. It will display the number of prescriptions selected and the actions which can be taken. Click `Delete`.
 3. A notification confirms how many prescriptions were deleted (bottom left corner).
 
 <div class="note">
@@ -182,16 +180,16 @@ In the **Patient Details** section, you can:
 
 The status sequence is located at the bottom left corner of the Prescription screen.
 
-Passed statuses are hightlighted in blue, next statuses appear in grey.
+Passed statuses are highlighted in blue, next statuses appear in grey.
 
 <figure>
-<center><img src="/docs/dispensary/images/prescription_statussequence1.png" style="width:40%"></center>
-<figcaption align = "center">Status Sequence: current status is <code>NEW</code>.</figcaption>
+<center><img src="/docs/dispensary/images/prescription_statussequence1.png" style="width:40%"/></center>
+<figcaption align="center">Status Sequence: current status is <code>NEW</code>.</figcaption>
 </figure>
 
 <figure>
-<center><img src="/docs/dispensary/images/prescription_statussequence2.png" alt="Trulli" style="width:40%"></center>
-<figcaption align = "center">Status Sequence: current status is </i><code>VERIFIED</code>.</figcaption>
+<center><img src="/docs/dispensary/images/prescription_statussequence2.png" alt="Trulli" style="width:40%"/></center>
+<figcaption align="center">Status Sequence: current status is </i><code>VERIFIED</code>.</figcaption>
 </figure>
 
 There are 3 status for a Prescription:
@@ -358,10 +356,11 @@ To edit a prescription line, tap on it. You will be presented with the `Edit Ite
 ### Delete a Prescription line
 
 1. Open the Prescription you want to edit
-2. Select the line(s) you want to delete by checking the box(es) on the left of the list
-3. Click the `Delete` button which appears on the bottom of the screen
-4. Accept the confirmation
-5. A success notification will be shown on the bottom left of the screen
+2. Select the line(s) you want to delete by checking the box(es) on the left hand side of the list
+3. The `Actions` footer will display at the bottom of the screen when a prescription line is selected. It will display the number of prescription lines selected and the actions which can be taken.
+4. Click `Delete`
+5. Accept the confirmation
+6. A success notification will be shown on the bottom left of the screen
 
 <div class="imagetitle">
 In the below example, we are deleting <i>item 088882 - Ibuprofen 200mg tablets</i>

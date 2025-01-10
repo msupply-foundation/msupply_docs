@@ -65,5 +65,7 @@ To edit a location, simply tap on one in the location list.
 
 To delete a location:
 
-1. Check the box of the location that you want to delete in the location list
-2. Click on the `Select` dropdown menu and select `Delete selected line`
+1. Select location that you want to delete using the checkbox on the left hand side of the list
+2. The `Actions` footer will display at the bottom of the screen when a location is selected. It will display the number of locations selected and the actions which can be taken. Click `Delete`
+
+![Delete location](/docs/inventory/images/delete-location.png)
