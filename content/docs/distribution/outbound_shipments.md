@@ -341,18 +341,18 @@ Default value is `Any` when you are issuing units.
 
 This is a list of batch numbers that you have in store for this item:
 
-| Column                | Description                                                                                                   |
-| :-------------------- | :------------------------------------------------------------------------------------------------------------ |
-| **Batch**             | Batch number. It is a designation given to products made in the same manufacturing run.                       |
-| **Expiry**            | Expiry date of the batch (format: MM/YYYY)                                                                    |
-| **Location**          | This is the code of the location where the item is stored if your inventory is managed with storage locations |
-| **Pack Sell Price**   | Selling unit price of the item                                                                                |
-| **Pack Size**         | Quantity of units per pack                                                                                    |
-| **In Store (packs)**  | Total number of packs in your store                                                                           |
-| **Available (packs)** | Number of packs available (not already allocated to other shipments)                                          |
-| **[Pack] Qty Issued** | Total quantity of packs to be issued                                                                          |
-| **[Unit] Qty Issued** | Number of units to be issued                                                                                  |
-| **On Hold**           | Indicates whether a batch is on hold or not. You cannot issue a batch that is on hold.                        |
+| Column                | Description                                                                                                        |
+| :-------------------- | :----------------------------------------------------------------------------------------------------------------- |
+| **Batch**             | Batch number. It is a designation given to products made in the same manufacturing run.                            |
+| **Expiry**            | Expiry date of the batch (format: MM/YYYY). Note: the date shows in red if the expiry is within the next 3 months. |
+| **Location**          | This is the code of the location where the item is stored if your inventory is managed with storage locations      |
+| **Pack Sell Price**   | Selling unit price of the item                                                                                     |
+| **Pack Size**         | Quantity of units per pack                                                                                         |
+| **In Store (packs)**  | Total number of packs in your store                                                                                |
+| **Available (packs)** | Number of packs available (not already allocated to other shipments)                                               |
+| **[Pack] Qty Issued** | Total quantity of packs to be issued                                                                               |
+| **[Unit] Qty Issued** | Number of units to be issued                                                                                       |
+| **On Hold**           | Indicates whether a batch is on hold or not. You cannot issue a batch that is on hold.                             |
 
 There is also a final row in the table which is a placeholder line, if the status of the Outbound Shipment is `NEW`.
 The placeholder line is used when the quantity you are issuing is higher than your available stock.
