@@ -98,6 +98,33 @@ There are two tabs in the bottom part of the screen:
 This tab lists the Master Lists associated with this item.
 ![Item detail headers](/docs/catalogue/images/cat_itemmasterlists.png)
 
+### Ledger
+
+The item ledger tab shows a history of transactions in this store for the item.
+
+![](/docs/catalogue/images/item_ledger.png)
+
+The ledger is divided into 16 columns:
+
+| Column               | Description                                                      |
+| :------------------- | :--------------------------------------------------------------- |
+| **Type**             | The type of the transaction                                      |
+| **Date**             | The date of the transaction was confirmed                        |
+| **Time**             | The time of the transaction was confirmed                        |
+| **Invoice Number**   | The invoice (shipment) number of the transaction                 |
+| **Name**             | The name of the customer or supplier                             |
+| **Status**           | The status of the transaction                                    |
+| **Expiry**           | The expiry date of the stock line                                |
+| **Batch**            | The batch number of the stock line                               |
+| **Pack Size**        | The pack size                                                    |
+| **Number of packs**  | The number of packs in the transaction                           |
+| **Unit Qty**         | The quantity that was assigned to the transaction in units       |
+| **Balance**          | The balance of the stock line                                    |
+| **Pack cost price**  | The cost price of the pack                                       |
+| **Pack sell price**  | The sell price of the pack                                       |
+| **Total before tax** | The total cost of the transaction before tax (in local currency) |
+| **Reason**           | The reason for the adjustment (if required)                      |
+
 ## Item Variants
 
 On the [Open mSupply Central Server](/docs/getting_started/central), a third tab, Item Variants, is available. This tab allows you to configure variations of the item, such as different manufacturers or packaging sizes.

@@ -65,9 +65,9 @@ To add a filter to the page, choose the required filter from the drop down. Mult
 
 #### Delete Equipment
 
-Assets can be selected and deleted using the toolbar action:
+Select assets to delete them:
 
-![](/docs/coldchain/images/delete_rows.png)
+![Delete coldchain equipment](/docs/coldchain/images/delete-coldchain-equipment.png)
 
 ### Importing And Exporting
 

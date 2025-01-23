@@ -83,7 +83,7 @@ You can delete a return from the Supplier Return list.
 
 1. Select the return that you want to delete by checking the box on the left end of the list. You can select more than one return to be deleted. You can even select them all using the master checkbox in the list headers.
 
-2. Open the `Select` dropdown (top right corner, above the list) and select `Delete selected lines`.
+2. The `Actions` footer will display at the bottom of the screen when a return is selected. It will display the number of returns selected and the actions which can be taken. Click `Delete`.
 
 3. A notification confirms how many returns were deleted (bottom left corner).
 
@@ -91,7 +91,7 @@ You can delete a return from the Supplier Return list.
 You can only delete Supplier Returns if they have not been <code>SHIPPED</code>.
 </div>
 
-![Outbound list: delete](/docs/replenishment/images/or_delete.gif)
+![Outbound list: delete](/docs/replenishment/images/delete-supplier-return.gif)
 
 ## Creating a Supplier Return
 
@@ -346,17 +346,14 @@ If you set all return quantities to `0`, and click `Next step` you will see this
 ### Delete a Return Line
 
 1. Open the Supplier Return you want to edit.
-2. Select the line(s) you want to delete by checking the box(es) on the right of the list.
-3. Go to the `Actions` dropdown menu (top right corner, above the list)
-4. Select the action `Delete selected lines`
-
-![Supplier Return actions dropdown](/docs/replenishment/images/or_actions_deletelines.png)
+2. Select the line(s) you want to delete by checking the box(es) on the left of the list.
+3. Click the `Delete` button which appears at the bottom of the page.
 
 <div class="imagetitle">
-In the below example, we are deleting 2 items, with the item codes 030453 and 201116
+In the below example, we are deleting 2 items, with the item codes 030063 and 037020
 </div>
 
-![Alt Text](/docs/replenishment/images/or_deleteselectedlines.gif)
+![Deleting supplier return lines](/docs/replenishment/images/delete-supplier-return-line.gif)
 
 <div class="tip">
  <b></b> You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 

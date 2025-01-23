@@ -86,7 +86,7 @@ You can delete a shipment from the Inbound Shipment list.
 
 1. Select the shipment that you want to delete by checking the box on the left end of the list. You can select more than one shipments to be deleted. You can even select them all using the master checkbox in the list headers.
 
-1. Open the Select dropdown (top right corner, above the list) and select `Delete selected lines`.
+2. The `Actions` footer will display at the bottom of the screen when a shipment is selected. It will display the number of shipments selected and the actions which can be taken. Click `Delete`.
 
 A notification confirms how many shipments were deleted (bottom left corner).
 
@@ -428,11 +428,10 @@ To edit an Inbound Shipment line, simply tap on it. You will be presented with t
 
 1. Open the Inbound Shipment that you would like to edit
 2. Make sure that status is not yet `VERIFIED`
-3. Select the line(s) you want to delete by checking the box(es) on the right of the list
-4. Go to the `Actions` dropdown menu (top right corner, above the list)
-5. Select the action `Delete selected lines`
+3. Select the line(s) you want to delete by checking the box(es) on the left of the list
+4. Click the `Delete` button which appears at the bottom of the page.
 
-![Alt Text](/docs/replenishment/images/is_deleteselectedlines.gif)
+![Alt Text](/docs/replenishment/images/delete-inbound-shipment-line.gif)
 
 <div class="tip">
 You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
@@ -487,14 +486,10 @@ Sometimes, you might need to return stock that you received via an Inbound Shipm
 
 1. Open the Inbound Shipment for which you would like to return some or all of the stock
 2. Make sure that status is at least `DELIVERED`
-3. Select the line(s) you want to return by checking the box(es) on the right of the list
+3. Select the line(s) you want to return by checking the box(es) on the left of the list
+4. Click the `Return selected lines` button which appears at the bottom of the page.
 
-![Alt Text](/docs/replenishment/images/is_select_to_return.png)
-
-4. Go to the `Actions` dropdown menu (top right corner, above the list)
-5. Select the action `Return selected lines`
-
-![Alt Text](/docs/replenishment/images/is_actions_returnlines.png)
+![Process return inbound shipment line](/docs/replenishment/images/return-inbound-shipment-line.png)
 
 #### Select quantity to return
 

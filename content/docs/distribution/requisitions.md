@@ -88,8 +88,7 @@ You can delete a requisition from the Requisition list.
 1. Select the requisition that you want to delete by checking the box on the
    left end of the list. You can select more than one requisition to be deleted.
    You can even select them all by using the master checkbox in the header.
-2. Open the `Actions` dropdown menu at the top right corner (above the list) and
-   select `Delete selected lines`.
+2. The `Actions` footer will display at the bottom of the screen when a requisition is selected. It will display the number of requisitions selected and the actions which can be taken. Click `Delete`.
 3. A confirmation window will appear, asking you to confirm the number of
    requisitions to be deleted.
 4. After clicking `OK`, a notification will appear in the bottom left corner, confirming that the selected requisitions were deleted.
@@ -97,6 +96,8 @@ You can delete a requisition from the Requisition list.
 <div class="note">
 You cannot delete requisitions that have been created from an Internal Order, or have had a shipment created from them.
 </div>
+
+![Delete Requesition Actions Footer](/docs/distribution/images/delete-response-requisition.png)
 
 ### Viewing a Requisition
 
@@ -290,7 +291,7 @@ You cannot change the customer name after the requisition has been created. If y
 
 Tap on the `Add Item` button (top right corner).
 
-A new `Add Item` window will open. You can look up an item by:
+You will be redirected to the edit page. You can look up an item by:
 
 - Reading through the list of available items
 - or by typing some or all of the item name
@@ -298,10 +299,7 @@ A new `Add Item` window will open. You can look up an item by:
 
 Once your item is highlighted, tap on the name or press `Enter`.
 
-![Add Item](/docs/distribution/images/requisition_add_item.gif)
-
-Once the item has been selected, you will be redirected to the line edit page.
-Here you can enter the customer's stock on hand, average monthly consumption and
+Once an item has been selected, you will be redirected to the item edit page. Here you can enter the customer's stock on hand, average monthly consumption and
 requested quantity. You can also enter how much you are going to supply to the
 customer and any comments. The values are saved automatically.
 
