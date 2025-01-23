@@ -160,7 +160,7 @@ You can create Internal Orders from multiple master lists by repeating above act
 
 When you add items (using a master list or not), the item is added to the order's table. The following information is provided for each order line:
 
-| Status                   | Description                                                                                                                                        |
+| Column                   | Description                                                                                                                                        |
 | :----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Code**                 | Code of the item                                                                                                                                   |
 | **Name**                 | Name of the item                                                                                                                                   |
