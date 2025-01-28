@@ -82,24 +82,29 @@ This can be done before or after adding items to your order.
 
 ### Adding a single item
 
-Tap on `Add Item` to add a single item to your order. A new window opens:
+Tap on `Add Item` to add a single item to your order. You will be redirected to
+a new page.
 
 ![Internal Order: add item](/docs/replenishment/images/intord_additem2.png)
 
 First select the item you want to add to your order. You can also type some or all of an item name (or code) to look for a specific item.
 
-Once item is selected, you should see the following information on the window:
+Once item is selected, you should see the following information on the page:
 
-- **Item Code** and **Item Name**
-- **Units/Packs toggle**: this allows you to switch between ordering in units or packs
-- **Unit**: the default unit used for this item (_eg. Tablet, Vial_)
-- **AMC**: Average Monthly Consumption. How much stock your store uses each month on average (based on a configurable number of months, default is set to 3 months)
+- **Item Name**
 - **SOH**: Stock on Hand. How much stock the store currently has available
+- **AMC**: Average Monthly Consumption. How much stock your store uses each month on average (based on a configurable number of months, default is set to 3 months)
+- **Units/Packs toggle**: this allows you to switch between ordering in units or packs
+- **Default pack size**: the default pack size of the item
+- **Requested quantity**: the quantity of units that you request from your supplier
 - **Default pack size**: the default pack size of the item
 - **Suggested Quantity**: how much stock mSupply suggests that your order to reach your stock target quantity
-- **Requested quantity**: the quantity of units that you request from your supplier
+- **Comments**: any comments you want to add to the order
 
-You should also see the following charts:
+You should also see the following charts if you click the bar graph icon next to
+requested quantity:
+
+![](/docs/replenishment/images/io_bar_graph_icon.png)
 
 - **Target Quantity**: In this chart, you will see the following information:
   - The _Target Quantity_ for the item. This is calculated as: Target MOS x AMC.
@@ -160,7 +165,7 @@ You can create Internal Orders from multiple master lists by repeating above act
 
 When you add items (using a master list or not), the item is added to the order's table. The following information is provided for each order line:
 
-| Status                   | Description                                                                                                                                        |
+| Column                   | Description                                                                                                                                        |
 | :----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Code**                 | Code of the item                                                                                                                                   |
 | **Name**                 | Name of the item                                                                                                                                   |

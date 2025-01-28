@@ -112,11 +112,9 @@ You can delete Vaccine Course from the list.
 
 Select the Vaccine Course that you wish to delete by checking the box on the right end of the list. You can select more than one Vaccine Course to be deleted at once. You can even select them all using the master checkbox in the table header.
 
-![vaccine courses: select to delete](/docs/programs/images/vaccine_courses_select.png)
+![vaccine courses: select to delete](/docs/programs/images/master-checkbox-immunisations.png)
 
-Open the `Actions` dropdown in the top right corner, above the list, and select `Delete selected lines`.
-
-![vaccine courses: actions](/docs/programs/images/immunizations_actions.png)
+The `Actions` footer will display at the bottom of the screen when an immunization line is selected. It will display the number of immunization lines selected and the actions which can be taken. Click `Delete`.
 
 You will be asked to confirm that you wish to delete the selected Vaccine Courses. Press `Cancel` to prevent deleting, or `Ok` to confirm.
 

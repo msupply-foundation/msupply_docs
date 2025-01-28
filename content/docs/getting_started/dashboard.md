@@ -20,7 +20,7 @@ Open mSupply has a landing page which gives an overview of some statistics, and 
 
 ## What's on display?
 
-![The dashboard!](/docs/introduction/images/dashboard.png)
+![The dashboard!](/docs/getting_started/images/dashboard.png)
 
 You can see some statistics for shipments and stock:
 

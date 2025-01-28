@@ -89,9 +89,9 @@ A list of assets can be exported as a csv file using the `Export` button.
 
 #### Delete
 
-On the Open mSupply Central Server, there is the option to select and delete asset catalogue items using the toolbar action:
+On the Open mSupply Central Server, there is the option to select and delete asset catalogue items. The `Actions` footer will display at the bottom of the screen when an asset row is selected:
 
-![Assets delete](/docs/catalogue/images/assets_delete.png)
+![Assets delete](/docs/catalogue/images/delete-assets.png)
 
 ### Managing status log reasons
 
@@ -115,8 +115,8 @@ On this page you can:
 This will open a create new reason modal
 ![New reason modal](/docs/catalogue/images/reasons_create_modal.png)
 
-- Select and delete existing reasons with the `Actions` dropdown
-  ![Delete reason button](/docs/catalogue/images/reasons_delete.png)
+- Select reasons to delete them. Action buttons will display at the bottom of the screen when an asset log reason is selected
+  ![Delete reason button](/docs/catalogue/images/delete-asset-log-reasons.png)
 
 - Filter existing reasons by status using the filter dropdown
   ![Filter reasons](/docs/catalogue/images/reasons_filter.png)

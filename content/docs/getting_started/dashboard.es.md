@@ -19,7 +19,7 @@ Sí, el término _tablero de control_ se utiliza para más de una cosa. En el ca
 
 ## ¿Qué se muestra?
 
-![The dashboard!](/docs/introduction/images/dashboard.png)
+![The dashboard!](/docs/getting_started/images/dashboard.png)
 
 Puedes ver algunas estadísticas para envíos e inventario:
 
@@ -27,7 +27,7 @@ Puedes ver algunas estadísticas para envíos e inventario:
   - **Hoy** Muestra el número de entradas creadas el día de hoy
   - **Esta semana** El número de entradas creadas esta semana.
 - Salidas
-  - **Hoy** El número de envíos a recoger el día de hoy, es decir, los envíos en el estado de `Asignado` 
+  - **Hoy** El número de envíos a recoger el día de hoy, es decir, los envíos en el estado de `Asignado`
 - Inventario
   - **Caducado** El número de líneas de inventario en el almacén actual que han caducado
   - **Próximos a caducar** El número de líneas de inventario en el almacén actual que caducarán en los próximos tres meses
@@ -36,4 +36,3 @@ Puedes ver algunas estadísticas para envíos e inventario:
   - **Menos de 3 meses de inventario** Basado en el consumo mensual promedio (AMC) para este artículo en el almacén actual
 
 Además, hay botones hacia la parte inferior de la página que te permiten crear envíos y requisiciones.
-
