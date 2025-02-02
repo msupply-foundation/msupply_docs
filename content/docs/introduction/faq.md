@@ -2,7 +2,7 @@
 title = "Frequently Asked Questions"
 description = "aka FAQ."
 date = 2023-02-01
-updated = 2023-02-01
+updated = 2024-12-01
 draft = false
 weight = 40
 sort_by = "weight"

@@ -140,7 +140,7 @@ Ensure that access to passwords which allow exceptions to the above two measures
 
 ## Database
 
-Open mSupply supports both SQLite and postgreSQL as database servers, with the selection made at time of installation.
+Open mSupply supports both SQLite and PostgreSQL as database servers, with the selection made at time of installation.
 We recommend using PostgreSQL when running a centralised or high-use server as it can provide greater performance than SQLite does. PostgreSQL does require a separate installation - you can use an existing installation, install separately to Open mSupply, or select the checkbox which is part of the server installation.
 
 There is a minimum version for PostgreSQL of version 12.

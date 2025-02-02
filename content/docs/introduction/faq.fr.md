@@ -2,7 +2,7 @@
 title = "Foire Aux Questions"
 description = "la FAQ."
 date = 2023-02-01
-updated = 2023-02-01
+updated = 2024-11-01
 draft = false
 weight = 40
 sort_by = "weight"

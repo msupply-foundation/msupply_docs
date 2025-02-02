@@ -1,4 +1,4 @@
-{#- This macro outputs a list of pages in English that is used to pass into PrincePDF for PDF generation -#}
+{#- This macro outputs a list of pages in French that is used to pass into PrincePDF for PDF generation -#}
 {%- macro pdf_export(current_section) -%}
 {%- set index_path = current_section ~ "/_index.fr.md"  | trim_start_matches(pat="/") -%}
 {%- set index = get_section(path=index_path) -%}
