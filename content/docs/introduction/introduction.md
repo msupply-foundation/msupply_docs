@@ -87,19 +87,28 @@ To get some insight into the full breadth of Open mSupply's functionality, have 
 
 The following table outlines some of the common terms used in Open mSupply, and also guides users of legacy mSupply regarding terminology improvements we have made.
 
-| Open mSupply Term |  Legacy mSupply term  | Definition                                                               |
-| :---------------: | :-------------------: | :----------------------------------------------------------------------- |
-| Outbound Shipment |   Customer Invoice    | The creation of a supply of goods to a particular customer (facility)    |
-| Inbound Shipment  |   Supplier Invoice    | The receiving of a supply of goods from a particular supplier            |
-| Inbound Shipment  |   Supplier Invoice    | The receiving of a supply of goods from a particular supplier            |
-|    Requisition    | Customer Requisitions | An order for supply of goods made by a particular customer (facility)    |
-|  Internal Orders  | Supplier Requisitions | A request for stock made to a particular supplier (facility)             |
-|  Supplier Return  |    Supplier Credit    | The return of supplied goods to a particular supplier (facility)         |
-|  Customer Return  |    Customer Credit    | The receiving of a return of goods from a particular customer (facility) |
+| Open mSupply Term | Legacy mSupply term   | Definition                                                               |
+|:-----------------:|:---------------------:|:------------------------------------------------------------------------ |
+| Outbound Shipment | Customer Invoice      | The creation of a supply of goods to a particular customer (facility)    |
+| Inbound Shipment  | Supplier Invoice      | The receiving of a supply of goods from a particular supplier            |
+| Inbound Shipment  | Supplier Invoice      | The receiving of a supply of goods from a particular supplier            |
+| Requisition       | Customer Requisitions | An order for supply of goods made by a particular customer (facility)    |
+| Internal Orders   | Supplier Requisitions | A request for stock made to a particular supplier (facility)             |
+| Supplier Return   | Supplier Credit       | The return of supplied goods to a particular supplier (facility)         |
+| Customer Return   | Customer Credit       | The receiving of a return of goods from a particular customer (facility) |
+
+Other terms used in Open mSupply (and original mSupply):
+
+| Term      | Definition                                                                                                                                                                                                                                                                                                 |
+| --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Items     | Products managed in mSupply (includes medicines, consumables, equipment, laboratory/radiology items and larger assets such as vehicles and furniture).                                                                                                                                                     |
+| Stores    | Departments within a facility who may or may not manage inventory independently from a larger entity. For example, there may be two stores in a hospital - one inpatient pharmacy store and one outpatient pharmacy store.                                                                                 |
+| Locations | Specific place inside a store where items are kept. For example, a large central warehouse may have many locations (e.g. A.02.04, B.01.03), while small stores may have less (e.g. Room 1, Room 2). Items may also be stored without assigning a location (i.e.,  just stored alphabetically).             |
+| Suppliers | Suppliers are facilities that a store orders or receives stock from. Suppliers may be external (e.g. private drug companies or wholesalers) or internal (e.g. central medical store, provincial warehouses).                                                                                               |
+| Donors    | External entities who pay for donated stock (e.g. UNICEF, USAID). No donor is entered when the government or medical store is paying in a normal financial transaction. When the donor is recorded, you can track donated items through the supply chain and run donor transaction reports and stocktakes. |
+| Customers | Recipients of items, excluding patients. This includes health centres, hospitals, wards, private clinics and pharmacies, outreach services and any other entity that an mSupply store issues stock to.                                                                                                     |
 
 ## Getting Started
-
-To run Open mSupply you will require an mSupply server to operate as a central server. While we are planning to create a new open source central server, that is not yet available.
 
 Note that we are also currently working through testing the migration process and the integration of Open mSupply with an existing mSupply system. As such, we aren't recommending that you upgrade without talking to us first.
 
@@ -107,8 +116,8 @@ Note that we are also currently working through testing the migration process an
 
 #### Preconditions
 
-1.  You need an existing mSupply system with a Legacy mSupply server with web and sync server modules. You can read more about the hardware requirements for Legacy mSupply server [here](https://docs.msupply.org.nz/setting_up_msupply:requirements#requirements)
-2.  As of December 2023, it is not possible to migrate an existing Legacy (or Mobile) mSupply store to an Open mSupply store; only new stores can be created in Open mSupply
+1. You need an existing mSupply system with a Legacy mSupply server with web and sync server modules. You can read more about the hardware requirements for Legacy mSupply server [here](https://docs.msupply.org.nz/setting_up_msupply:requirements#requirements)
+2. As of December 2023, it is not possible to migrate an existing Legacy (or Mobile) mSupply store to an Open mSupply store; only new stores can be created in Open mSupply
 
 #### Procedure:
 
@@ -123,3 +132,5 @@ Note that we are also currently working through testing the migration process an
    - Password: As entered in [Creating New Sync Sites](https://docs.msupply.org.nz/synchronisation:sync_sites#creating_new_sync_sites)
 
 ![Initialisation](/docs/introduction/images/initialisation.png)
+
+-     

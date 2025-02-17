@@ -46,7 +46,6 @@ La version Android est distribuée sous forme de fichier `.apk` que vous pouvez 
 
 Pour la version de bureau Mac, nous fournissons un fichier `.dmg` qui porte le nom `Open_mSupply_[version].dmg`.
 
-
 ## Open mSupply en bref
 
 Open mSupply gère votre inventaire, génère une commande, enregistre chaque entrée et sortie de produits, et fournit ainsi un aperçu actualisé de votre stock disponible pour chaque produit.
@@ -72,7 +71,7 @@ Mais Open mSupply fait bien plus que cela. Les fonctionnalités incluent:
   - Accéder aux enregistrements de température
   - Téléchargement des données depuis un capteur de température USB
   - Être alerté en cas d'excursions ou de rupture de températures 
-  -  Associer un capteur de température à un article grâce aux emplacements de stock
+  - Associer un capteur de température à un article grâce aux emplacements de stock
 - Les fonctionnalités système de base peuvent être améliorées grâce aux plugins front-end. Ils permettent de personnaliser des tâches simples telles que l'ajout de champs à certains enregistrements. Ces derniers pourront être accessibles via des listes ou des formulaires modifiables. Pour plus de détails, merci de consulter la documentation [readme plugin](https://github.com/msupply-foundation/open-msupply/blob/main/client/packages/plugins/README.md).
 
 ## Les spécificités d'Open mSupply
@@ -82,21 +81,21 @@ Open mSupply possède des fonctionnalités uniques qui le rendent idéal pour un
 - **Hors ligne avant tout** Open mSupply est conçu pour fonctionner sans internet. Notre expérience nous a montré que même les connexions internet les plus fiables peuvent se montrer instables voire s'interrompre. Open mSupply vous permet de travailler sans avoir à vous soucier de la qualité ou de la continuité d'Internet. A noter que vous aurez besoin d'internet pendant quelques minutes pour placer vos commandes ou recevoir des mises à jour.
 
 - **Evolutif** Nous avons conçu Open mSupply non seulement pour gérer des milliards de transactions par an, mais aussi pouvoir travailler sur une simple tablette Android! Vous pouvez mettre en place Open mSupply sur un site, et ensuite le déployer sur des milliers de sites si vous le souhaitez.
-
- Pour avoir un aperçu de l'étendue des fonctionnalités d'Open mSupply, regardez la documentation du logiciel mSupply historique [https://www.msupply.org.nz](https://www.msupply.org.nz) - Avec presque 1000 pages à imprimer, n’essayez pas… ☺️
+  
+  Pour avoir un aperçu de l'étendue des fonctionnalités d'Open mSupply, regardez la documentation du logiciel mSupply historique [https://www.msupply.org.nz](https://www.msupply.org.nz) - Avec presque 1000 pages à imprimer, n’essayez pas… ☺️
 
 ### Terminologie
 
 Le tableau suivant décrit certains des termes couramment utilisés dans Open mSupply, et aide également les utilisateurs de l'ancien logiciel mSupply sur les changements de terminologie.
 
-| Terme Open mSupply | Terme mSupply (ancien logiciel)   | Définition                                                               |
-| :---------------:  | :-------------------:    | :---------------------------------------------------------------------   |
-| Expédition | Facture Client           | La création d'une livraison de produits à un client           |
-| Livraison      | Facture Fournisseur      | La réception d'une livraison de produits d'un fournisseur    |
-| Réquisition        | Réquisitions Client      | Une commande de produits effectuée par un client             |
-| Commandes Internes | Réquisitions Fournisseur | Une demande de stock faite pour un fournisseur               |  
-| Retour Fournisseur| Crédit Fournisseur | Renvoyer des produits à un fournisseur spécifique               |  
-| Retour Client| Crédit Client | Recevoir des retours produits de la part d'un client spécifique               |  
+| Terme Open mSupply | Terme mSupply (ancien logiciel) | Définition                                                      |
+|:------------------:|:-------------------------------:|:--------------------------------------------------------------- |
+| Expédition         | Facture Client                  | La création d'une livraison de produits à un client             |
+| Livraison          | Facture Fournisseur             | La réception d'une livraison de produits d'un fournisseur       |
+| Réquisition        | Réquisitions Client             | Une commande de produits effectuée par un client                |
+| Commandes Internes | Réquisitions Fournisseur        | Une demande de stock faite pour un fournisseur                  |
+| Retour Fournisseur | Crédit Fournisseur              | Renvoyer des produits à un fournisseur spécifique               |
+| Retour Client      | Crédit Client                   | Recevoir des retours produits de la part d'un client spécifique |
 
 ## Démarrer
 
@@ -109,7 +108,7 @@ Notons également que nous sommes en cours de test du processus de migration et 
 
 #### Notes préalables
 
-1.  Il est nécessaire d'avoir un système mSupply existant comprenant un serveur mSupply classique avec les modules de serveur sync et serveur web. Pour en savoir plus, vous pouvez consulter la documentation sur la configuration requise d'un serveur mSupply classique [ici](https://docs.msupply.org.nz/setting_up_msupply:requirements#requirements).
+1. Il est nécessaire d'avoir un système mSupply existant comprenant un serveur mSupply classique avec les modules de serveur sync et serveur web. Pour en savoir plus, vous pouvez consulter la documentation sur la configuration requise d'un serveur mSupply classique [ici](https://docs.msupply.org.nz/setting_up_msupply:requirements#requirements).
 2. Depuis Decembre 2023, il n'est pas possible de migrer un dépot mSupply existant (qu'il soit sur mSupply Desktop ou mobile) vers Open mSupply. Seuls de nouveaux dépôts peuvent être crées dans Open mSupply.
 
 #### Déroulement
