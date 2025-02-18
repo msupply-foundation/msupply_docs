@@ -29,13 +29,13 @@ flowchart LR
         n3(Receive Shipment as **Inbound Shipment**)
     end
     subgraph s2["Supplying Store"]
-        n2 --- d1(Receive as **Internal Requisition**)
+        n2 --- d1(Receive as **Requisition**)
         d1 --- d2
-        d2(Process Internal Requisition)
-        d2 --- d3(Create Shipment)
+        d2(Process Requisition)
+        d2 --- d3(Create and Send Outbound Shipment)
         d3 --- n3
     end
-
+    style s1 fill:#FFBD59
 {%end%}
 
 
