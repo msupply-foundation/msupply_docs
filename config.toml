@@ -5,6 +5,7 @@ base_url = "https://docs.msupply.foundation/"
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 build_search_index = true
+index_format = "fuse_json"
 
 theme = "adidoks"
 
@@ -16,7 +17,7 @@ description = "Documentation and user guides for the mSupply foundation suite of
 [languages.en.translations]
 flag = "en.svg"
 TOCtitle = "On this page"
-search_placeholder = "Search docs..."
+search_placeholder = "Search docs (whole words)..."
 
 [languages.fr]
 generate_feeds = true     # there will be a feed for French content

@@ -21,6 +21,8 @@ We've changed the names in Open mSupply to align with industry best practice - w
 
 ### Overall workflow
 
+For an overview of supply chain processes, remember to review ![the introduction chapter](docs/introduction/introduction/)
+
 {%mermaid ()%}
 
 flowchart LR

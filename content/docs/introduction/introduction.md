@@ -2,7 +2,7 @@
 title = "Introduction"
 description = "Open mSupply Introduction."
 date = 2024-10-17T18:20:00+00:00
-updated = 2024-12-17
+updated = 2025-02-19
 draft = false
 weight = 1
 sort_by = "weight"
@@ -100,7 +100,7 @@ The following table outlines some of the common terms used in Open mSupply, and 
 Other terms used in Open mSupply (and original mSupply):
 
 | Term      | Definition                                                                                                                                                                                                                                                                                                 |
-| --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| --------- |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Items     | Products managed in mSupply (includes medicines, consumables, equipment, laboratory/radiology items and larger assets such as vehicles and furniture).                                                                                                                                                     |
 | Stores    | Departments within a facility who may or may not manage inventory independently from a larger entity. For example, there may be two stores in a hospital - one inpatient pharmacy store and one outpatient pharmacy store.                                                                                 |
 | Locations | Specific place inside a store where items are kept. For example, a large central warehouse may have many locations (e.g. A.02.04, B.01.03), while small stores may have less (e.g. Room 1, Room 2). Items may also be stored without assigning a location (i.e.,  just stored alphabetically).             |
@@ -131,7 +131,6 @@ Note that we are also currently working through testing the migration process an
    - Site name: As entered in [Creating New Sync Sites](https://docs.msupply.org.nz/synchronisation:sync_sites#creating_new_sync_sites)
    - Password: As entered in [Creating New Sync Sites](https://docs.msupply.org.nz/synchronisation:sync_sites#creating_new_sync_sites)
 
-![Initialisation](/docs/introduction/images/initialisation.png)
+![Initialisation](../images/initialisation.png)
 
-
--     
+  - 
