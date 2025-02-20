@@ -2,7 +2,7 @@
 title = "Equipment"
 description = "Management of Cold Chain Equipment"
 date = 2023-11-08T15:20:00+00:00
-updated = 2023-11-08T15:20:00+00:00
+updated = 2025-02-20
 draft = false
 weight = 10
 sort_by = "weight"
@@ -14,6 +14,14 @@ top = false
 +++
 
 Cold Chain Equipment is a digital registry and inventory for the management of cold chain assets such as fridges, freezers and remote temperature monitoring devices. It allows health departments to track their cold chain assets including their location and functional status.
+
+There are three main ways for users to interact with asset management in Open mSupply
+* For managers:
+    * Log on to the Open mSupply central server for an overview of assets in all facilities, to add and edit assets
+    * Use the mSupply Dashboard to view customised data about assets
+* For users at a facility
+    * Log on to Open mSupply in their facility to update asset status (and occasionally add an asset, but usally this will be done by central managers)
+
 
 From the `Equipment` menu, all assets available in the current store can be viewed.
 

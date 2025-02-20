@@ -5,7 +5,6 @@ base_url = "https://docs.msupply.foundation/"
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 build_search_index = true
-index_format = "fuse_json"
 
 theme = "adidoks"
 
