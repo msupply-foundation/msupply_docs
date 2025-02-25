@@ -1,8 +1,8 @@
 +++
 title = "Introduction"
 description = "AdiDoks is a Zola theme helping you build modern documentation websites, which is a port of the Hugo theme Doks for Zola."
-date = 2021-05-01T08:00:00+00:00
-updated = 2021-05-01T08:00:00+00:00
+date = 2021-05-01
+updated = 2021-05-01
 draft = false
 weight = 10
 sort_by = "weight"

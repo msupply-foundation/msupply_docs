@@ -1,8 +1,8 @@
 +++
 title = "Reviewing the Setup"
 description = "Reviewing the setup."
-date = 2025-05-01T08:00:00+00:00
-updated = 2021-05-01T08:00:00+00:00
+date = 2025-05-01
+updated = 2021-05-01
 sort_by = "weight"
 weight = 315
 template = "mobile/page.html"

@@ -1,8 +1,8 @@
 +++
 title = "Internal Orders"
 description = "Requesting stock from your suppliers."
-date = 2022-03-19T18:20:00+00:00
-updated = 2022-03-19T18:20:00+00:00
+date = 2022-03-19
+updated = 2022-03-19
 draft = false
 weight = 42
 sort_by = "weight"

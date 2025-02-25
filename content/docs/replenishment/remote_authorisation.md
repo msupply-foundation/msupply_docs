@@ -1,8 +1,8 @@
 +++
 title = "Remote Authorisation"
 description = "Authorisation / approval process"
-date = 2023-05-05T18:20:00+00:00
-updated = 2023-05-05T18:20:00+00:00
+date = 2023-05-05
+updated = 2023-05-05
 draft = false
 weight = 43
 sort_by = "weight"

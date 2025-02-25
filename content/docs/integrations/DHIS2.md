@@ -1,8 +1,8 @@
 +++
 title = "DHIS2 Integration"
 description = "Open mSupply Integrations with DHIS2."
-date = 2022-03-17T18:20:00+00:00
-updated = 2022-03-17T18:20:00+00:00
+date = 2022-03-17
+updated = 2022-03-17
 draft = false
 weight = 5
 sort_by = "weight"

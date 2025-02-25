@@ -1,8 +1,8 @@
 +++
 title = "Target Software Standards"
 description = "Conformité d'Open mSupply avec les Target Software Standards"
-date = 2022-03-17T18:20:00+00:00
-updated = 2022-03-17T18:20:00+00:00
+date = 2022-03-17
+updated = 2022-03-17
 draft = false
 weight = 1
 sort_by = "weight"

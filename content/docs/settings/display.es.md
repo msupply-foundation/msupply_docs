@@ -1,8 +1,8 @@
 +++
 title = "Configuración de visualización"
 description = "Customise how the site looks for you"
-date = 2022-05-17T16:20:00+00:00
-updated = 2022-05-17T16:20:00+00:00
+date = 2022-05-17
+updated = 2022-05-17
 draft = false
 weight = 71
 sort_by = "weight"

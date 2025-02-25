@@ -1,8 +1,8 @@
 +++
 title = "Managing Users"
 description = "Health Supply Hub - Managing users"
-date = 2025-05-01T08:00:00+00:00
-updated = 2021-05-01T08:00:00+00:00
+date = 2025-05-01
+updated = 2021-05-01
 sort_by = "weight"
 weight = 3
 template = "health-supply-hub/page.html"

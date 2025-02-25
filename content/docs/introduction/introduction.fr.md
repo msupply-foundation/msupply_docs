@@ -1,7 +1,7 @@
 +++
 title = "Mieux connaître  Open mSupply"
 description = "Open mSupply Introduction."
-date = 2022-03-17T18:20:00+00:00
+date = 2022-03-17
 updated = 2024-01-17
 draft = false
 weight = 1

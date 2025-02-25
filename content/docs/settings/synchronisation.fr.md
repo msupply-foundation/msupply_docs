@@ -1,8 +1,8 @@
 +++
 title = "Synchronisation"
 description = "Configurer les paramètres de synchronisation du serveur"
-date = 2022-05-17T16:20:00+00:00
-updated = 2022-05-17T16:20:00+00:00
+date = 2022-05-17
+updated = 2022-05-17
 draft = false
 weight = 72
 sort_by = "weight"

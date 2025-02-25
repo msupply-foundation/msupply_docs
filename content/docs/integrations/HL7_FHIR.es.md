@@ -1,8 +1,8 @@
 +++
 title = "Integración con HL7 (FHIR)"
 description = "Integraciones de Open mSupply con sistemas que soportan el estándar HL7 FHIR."
-date = 2022-03-17T18:20:00+00:00
-updated = 2022-03-17T18:20:00+00:00
+date = 2022-03-17
+updated = 2022-03-17
 draft = false
 weight = 5
 sort_by = "weight"

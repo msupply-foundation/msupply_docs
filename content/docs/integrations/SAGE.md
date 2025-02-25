@@ -1,7 +1,7 @@
 +++
 title = "SAGE Integration"
 description = "Open mSupply Integrations with SAGE."
-date = 2022-03-17T18:20:00+00:00
+date = 2022-03-17
 updated = 2025-02-20
 draft = false
 weight = 5

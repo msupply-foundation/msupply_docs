@@ -1,8 +1,8 @@
 +++
 title = "Permisos"
 description = "Configurar los permisos de usuario"
-date = 2023-05-05T16:20:00+00:00
-updated = 2023-05-05T16:20:00+00:00
+date = 2023-05-05
+updated = 2023-05-05
 draft = false
 weight = 4
 sort_by = "weight"

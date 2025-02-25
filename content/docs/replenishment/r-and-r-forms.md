@@ -1,8 +1,8 @@
 +++
 title = "R&R Forms"
 description = "Introduction to R&R Forms"
-date = 2024-08-06T00:00:00+00:00
-updated = 2024-08-06T00:00:00+00:00
+date = 2024-08-06
+updated = 2024-08-06
 draft = false
 weight = 46
 sort_by = "weight"
