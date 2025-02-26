@@ -26,7 +26,7 @@ Cliquez simplement sur le bouton de l'option que vous préférez. Ne vous inqui�
 
 ![Mobile settings](/docs/introduction/images/mobile_settings.png)
 
-## Client mode
+## Mode Client
 Après avoir sélectionné le mode client, vous verrez une liste des serveurs disponibles. Il s'agit des serveurs de votre réseau local. 
 
 Vous pouvez voir `[ Non configuré ]` à côté de certains serveurs - cela indique que le serveur n'a pas encore été configuré pour se synchroniser avec un serveur central.
@@ -37,15 +37,15 @@ Cliquez sur le nom du serveur pour le sélectionner. Si vous souhaitez changer d
 
 ![Mobile login](/docs/introduction/images/mobile_login.png)
 
-## Server mode
+## Mode Serveur
 
-En mode serveur, vous configurerez le serveur pour qu'il fonctionne sur l'appareil mobile et se synchronise avec un serveur central. L'écran d'initialisation est le même que pour les versions desktop et web, avec l'ajout des détails du serveur en bas à droite :
+En mode serveur, veuillez configurer le serveur pour qu'il fonctionne sur l'appareil mobile et se synchronise avec un serveur central. L'écran d'initialisation est le même que pour les versions desktop et web, avec l'ajout des détails du serveur en bas à droite :
 
 ![Mobile initialisation](/docs/introduction/images/mobile_initialisation.png)
 
-## Viewing logs
+## Accéder au journal des logs
 
-Dans l'application Android, vous verrez une section supplémentaire. Elle vous permet de changer le mode entre le client et le serveur, et de visualiser le fichier journal:
+Dans l'application Android, vous verrez une section supplémentaire. Elle vous permet de changer le mode entre le client et le serveur, et de visualiser le fichier journal `Server log`:
 
 ![Mobile settings](/docs/introduction/images/mobile_settings.png)
 
@@ -53,4 +53,4 @@ Cliquez sur l'icône `View` pour ouvrir une fenêtre qui affiche le journal du s
 
 ![Mobile log viewer](/docs/introduction/images/mobile_view_log.png)
 
-À partir de là, vous pouvez enregistrer le journal sous la forme d'un fichier texte sur votre appareil : il vous suffit de cliquer sur `Enregistrer` et choisissez un emplacement pour enregistrer le fichier.
+À partir de là, vous pouvez enregistrer le journal sous la forme d'un fichier texte sur votre appareil : il vous suffit de cliquer sur `Enregistrer` et de choisir un emplacement pour enregistrer le fichier.
