@@ -68,7 +68,7 @@ Prescriptions can be filtered by Status, Reference, Invoice Number, Dispensing D
 ![Prescription Filters](/docs/dispensary/images/prescription_filters.png)
 
 <div class="note">
-The invoice number filter requires an exact match so searching for `1` will not return invoices 10, 11, 12 etc.
+The invoice number filter requires an exact match so searching for "1" will not return invoices 10, 11, 12 etc.
 </div>
 
 ### Exporting Prescriptions
