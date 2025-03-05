@@ -425,6 +425,61 @@ Once the prescription has been confirmed:
 - You can no longer edit prescription lines
 - You can no longer delete the prescription
 
+## Printing Labels
+
+Open mSupply has basic label printing that will be built upon with more flexibility in the future.
+
+![Prescription label](/docs/dispensary/images/prescription_label.jpg)
+![Prescription abbreviation](/docs/dispensary/images/prescription_abbreviation.png)
+
+First ensure that you have configured a printer in [Settings](/docs/settings/devices/). Note that at the moment we use the ZPL printing language under the hood, which covers about half the hardware on the market. You'll need to tweak the printer configuration (directly on the device) to get it just right for our label printing.
+
+### Directions
+
+For each item in the prescription you'll need to define item directions to be printed on the labels. These can be entered manually, with abbreviations or default item directions.
+
+The fastest way to do entry is to have abbreviations configured that allow fast entry of common directions. These are [configured on the mSupply Primary Server](https://docs.msupply.org.nz/dispensing:abbreviations). With some abbreviations configured, you should be able to enter them in the first text field "Abbreviation" as below. Once you click outside the input field, the abbreviations will be translated to the expanded text in the "Directions" box. Further modifications may be made from there.
+
+![Prescription abbreviation](/docs/dispensary/images/prescription_abbreviation.png)
+
+There are also default directions, [also configured on the mSupply Primary Server](https://docs.msupply.org.nz/items:item_basics:tab_dispensing), that can speed up this process for common directions
+
+![Prescription select direction](/docs/dispensary/images/prescription_select_direction.png)
+
+### Printing All
+
+When viewing the overall prescription, you'll see that lines that have directions will have a comment bubble icon.Once all the directions are entered on all the lines, this is a good time to print all your labels! Press the "Print Labels" button at the top of the page.
+
+![Prescription label print all](/docs/dispensary/images/prescription_page.png)
+
+Note: If you have multiple batches of the same item, only 1 label will be printed with the total number of units across the batches noted in the top line of the label.
+
+### Printing Selected Rows
+
+You can select individual rows in the prescription to print labels for by ticking the column on the left, then pressing "Print Labels" in the action bar at the bottom of the screen.
+
+![Prescription label row action](/docs/dispensary/images/prescription_print_label_row.png)
+
+### Troubleshooting
+
+In any case, [support@msupply.foundation](mailto:support@msupply.foundation) will be happy to help figure out your printer setup.
+
+#### My labels are badly cut off on the top/bottom/left/right
+
+This is likely due to incompatible configuration of the label printer. The easiest solution is to get mSupply OG to print a label with _good_ configuration as it has some magic that reconfigures the printer based on the printing settings that we don't quite do in Open mSupply!
+
+#### The Clinician details are missing
+
+This is likely due to not having set the Clinician for the prescription.
+
+#### Not all my directions are showing
+
+Unfortunately at this time we only support up to 5 lines of directions per prescription. In the future we'll seek to have some size adjustment to allow more as well as multiple labels printed if there is too much text.
+
+#### The item name has printed over itself
+
+The item names in the system are too long for this label format! Please contact [support@msupply.foundation](mailto:support@msupply.foundation).
+
 ## Viewing a Prescription
 
 Batches are automatically grouped by item when viewing a specific prescription. Use the expand button for a specific row in order to see the details for each batch of the item.
