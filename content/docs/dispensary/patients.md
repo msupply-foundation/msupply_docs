@@ -101,7 +101,7 @@ If you have followed the process above, you may see a different icon to the righ
 
 ![Fetch patient button](/docs/dispensary/images/fetch_patient_button.png)
 
-Sometimes the record for the patient you are searching for has already be created at another site. This 'download' icon indicates that a patient matches your current search criteria, and you can download all their existing patient data to your site. 
+Sometimes the record for the patient you are searching for has already be created at another site. This 'download' icon indicates that a patient matches your current search criteria, and you can download all their existing patient data to your site.
 
 To use this patient record, you must first fetch the patient details. Click the patient row (which has a tooltip message as shown below):
 
@@ -122,3 +122,51 @@ Clicking the `View patient` button here will take you to the screen which displa
 To edit a patient, click on the patient's name in the list of patients.
 
 If there is more data in your Patient view, it's likely due to Patient Programs being configured. You can find out more in the [Patient Programs](/docs/programs/program-module) documentation.
+
+## Insurances
+
+Insurances can be added to a patient. You can edit the insurance information and use it for payments.
+
+To view existing insurance, ensure that your store has insurance providers.
+
+### Insurance List
+
+Select any patient and navigate to the insurance tab. Here you can see the list of insurances available to a patient.
+
+![Insurance List View](/docs/dispensary/images/insurance_list_view.png)
+
+### Adding Insurance to a Patient
+
+1. Click the `Add Insurance` button in the top right corner.
+
+   ![Add Insurance](/docs/dispensary/images/insurance_add_button.png)
+
+2. A new window will appear for you to enter the insurance details for a patient. Fill out all the fields in the form to enable the save button.
+
+   ![Insurance Empty Modal](/docs/dispensary/images/insurance_empty_modal.png)
+
+3. After filling out the form, click the `Save` button. Your newly created insurance will show in the list, and a confirmation message will appear.
+
+   ![Insurance Success](/docs/dispensary/images/insurance_success.png)
+
+4. If you forget to fill out a section of the form, it won't let you save.
+
+   ![Insurance Failed To Save](/docs/dispensary/images/insurance_failed_to_save.png)
+
+### Editing Insurance Information
+
+1. To edit an existing insurance, ensure that you are on the insurance tab of a patient. Click on one of the available insurances.
+
+   ![Insurance Row Select](/docs/dispensary/images/insurance_row_select.png)
+
+2. A familiar window will appear, allowing you to edit the insurance details of a patient.
+
+   ![Insurance Filled Modal](/docs/dispensary/images/insurance_filled_modal.png)
+
+3. Update the insurance information as needed.
+
+   ![Insurance Edit Modal](/docs/dispensary/images/insurance_edit_modal.png)
+
+4. Once done with the updates, click the `Save` button. When successful, a confirmation message will appear, and your changes will be reflected immediately.
+
+   ![Insurance Success](/docs/dispensary/images/insurance_success.png)

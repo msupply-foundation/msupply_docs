@@ -443,3 +443,25 @@ Click on the `Show / hide columns` button which is at the top right of the table
 ![Hide columns](/docs/dispensary/images/prescription_columns_step_3.png)
 
 If some columns are hidden, you can click `Show all` to show all of the columns again.
+
+## Using Insurance During Payment
+
+If there are available insurances for your patients, you can indicate that the payment was partially covered by insurance.
+
+1. If there are available items for the prescription, click the `Confirm Verified` button.
+
+   ![Insurance Confirm Verified](/docs/dispensary/images/insurance_confirm_verified.png)
+
+2. A new window will appear for you to enter the payment details for the patient's prescription.
+
+   ![Insurance Payment Modal](/docs/dispensary/images/insurance_payment_modal.png)
+
+3. Click the dropdown for the Insurance Policy and select the insurance to be used.
+
+   ![Insurance Select Scheme](/docs/dispensary/images/insurance_select_provider_modal.png)
+
+4. The discount amount and amount paid by the insurance will automatically display after selecting an insurance.
+
+   ![Insurance Covered](/docs/dispensary/images/insurance_covered.png)
+
+5. Click the `Save` button once everything is done.
