@@ -543,8 +543,6 @@ Once a prescription is cancelled, it will still show in the list of prescription
 
 ## Payment
 
-If there are available insurances policies for your patients, you can indicate that the payment was partially covered by insurance.
-
 1. Once you're finished entering the items for the Prescription, click the `Confirm Verified` button.
 
    ![Insurance Confirm Verified](/docs/dispensary/images/insurance_confirm_verified.png)
@@ -553,12 +551,22 @@ If there are available insurances policies for your patients, you can indicate t
 
    ![Insurance Payment Modal](/docs/dispensary/images/insurance_payment_modal.png)
 
-3. Click the dropdown for the Insurance Policy and select the insurance to be used.
+3. Click the `Save` button once everything is done.
+
+### Insurance
+
+If there are available insurances policies for your patients, you can indicate that the payment was partially covered by insurance.
+
+1. Once you're finished entering the items for the Prescription, click the `Confirm Verified` button.
+
+   ![Insurance Confirm Verified](/docs/dispensary/images/insurance_confirm_verified.png)
+
+2. Click the dropdown for the Insurance Policy and select the insurance to be used.
 
    ![Insurance Select Scheme](/docs/dispensary/images/insurance_select_provider_modal.png)
 
-4. The discount amount and amount paid by the insurance will automatically display after selecting an insurance.
+3. The discount amount and amount paid by the insurance will automatically display after selecting an insurance.
 
    ![Insurance Covered](/docs/dispensary/images/insurance_covered.png)
 
-5. Click the `Save` button once everything is done.
+4. Click the `Save` button once everything is done.
