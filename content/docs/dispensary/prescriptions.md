@@ -107,14 +107,14 @@ You can only delete Prescriptions with a status <code>NEW</code> or <code>PICKED
 
 3. A new window `Patients` opens, inviting you to select a patient and other details for the prescription.
 
-![New Prescription Window](/docs/dispensary/images/image.png)
+![New Prescription Window](/docs/dispensary/images/prescriptions_new_prescription_name.png)
 
 #### Select a Patient
 
 In the `New Prescription` window, you will be presented with a form to search for available patients. The patients list will load when you start typing - you can enter as much of the patient's name or code as you need.
 
 If no match is found a `Create new patient` button will appear. Clicking this will open a new window to create a new patient, before returning you to the Prescription window.
-![Create new patient pop up](/docs/dispensary/images/image-1.png)
+![Create new patient pop up](/docs/dispensary/images/prescriptions_new_prescription_no_match.png)
 
 <div class="note">
 If you have found a matching patient, but it's not the correct one, you can just press space a few times, to see the New Patient button.
@@ -147,7 +147,7 @@ You may need to type more of the patient's name or code if you have more than 10
 
 ### View or edit the Prescription Information Panel
 
-The Information Panel allows you to see or edit information about the Prescription. It is divided into multiple sections:
+The Information Panel allows you to see or edit information about the Prescription. It is divided into the following sections:
 
 - Prescription Details
 - Additional Info
@@ -155,7 +155,7 @@ The Information Panel allows you to see or edit information about the Prescripti
 - Patient Details
 - Actions
 
-We are planning to add more sections in the future as Open mSupply grows.
+More sections will be added as Open mSupply grows.
 
 #### How to open and close the Information Panel?
 
@@ -284,7 +284,7 @@ This shows the item name and code.
 In the `Issue` field, you can enter the quantity that you want to issue to your patient.
 
 If you're recording [prescribed quantities](https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab), you can enter the prescribed quantity first, which will automatically populate the `Issue` field for you.
-![Prescribed Quantity](/docs/dispensary/images/image-2.png)
+![Prescribed Quantity](/docs/dispensary/images/prescriptions_prescribed_qty.png)
 
 The system will then attempt to automatically allocate the stock for the prescription.
 
@@ -354,16 +354,16 @@ There are 3 ways to enter directions
 
 1. You can select default item directions from the dropdown list [(See mSupply Docs for item directions configuration)](https://docs.msupply.org.nz/items:item_basics:tab_dispensing?#default_directions)
 
-![Default Item Directions](/docs/dispensary/images/image-4.png)
+![Default Item Directions](/docs/dispensary/images/prescriptions_default_item_directions.png)
 
 2. You can enter a set or abbreviated directions in the text box which will be expanded to the full directions field
    [(See mSupply Docs for abbreviation configuration)](https://docs.msupply.org.nz/dispensing:abbreviations)
 
-![Abbreviation Expansion](/docs/dispensary/images/image-3.png)
+![Abbreviation Expansion](/docs/dispensary/images/prescriptions_abbr_expansion.png)
 
 3. You can enter or modify the directions in the text box
 
-![Manually entering directions](/docs/dispensary/images/image-5.png)
+![Manually entering directions](/docs/dispensary/images/prescription_manual_directions.png)
 
 ### Confirm Item, Quantity and other details
 
@@ -486,8 +486,8 @@ If some columns are hidden, you can click `Show all` to show all of the columns 
 If a prescription has already been verified it can't be deleted, but it can be cancelled.
 
 This is done in the Side panel actions section.
-![Cancel Prescription](/docs/dispensary/images/image-6.png)
+![Cancel Prescription](/docs/dispensary/images/prescriptions_cancel_button.png)
 
 Once a prescription is cancelled, it will still show in the list of prescriptions, but with a status of `CANCELLED`.
 
-![Example Canceled Prescription](/docs/dispensary/images/image-7.png)
+![Example Canceled Prescription](/docs/dispensary/images/prescription-cancelled.png)
