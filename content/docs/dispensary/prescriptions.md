@@ -475,13 +475,7 @@ First ensure that you have configured a printer in [Settings](/docs/settings/dev
 
 For each item in the prescription you'll need to define item directions to be printed on the labels. These can be entered manually, with abbreviations or default item directions.
 
-The fastest way to do entry is to have abbreviations configured that allow fast entry of common directions. These are [configured on the mSupply Primary Server](https://docs.msupply.org.nz/dispensing:abbreviations). With some abbreviations configured, you should be able to enter them in the first text field "Abbreviation" as below. Once you click outside the input field, the abbreviations will be translated to the expanded text in the "Directions" box. Further modifications may be made from there.
-
-![Prescription abbreviation](/docs/dispensary/images/prescription_abbreviation.png)
-
-There are also default directions, [also configured on the mSupply Primary Server](https://docs.msupply.org.nz/items:item_basics:tab_dispensing), that can speed up this process for common directions
-
-![Prescription select direction](/docs/dispensary/images/prescription_select_direction.png)
+See the [Directions](/dispensary/prescriptions/#directions) section for more information.
 
 ### Printing All
 
