@@ -123,15 +123,15 @@ To edit a patient, click on the patient's name in the list of patients.
 
 If there is more data in your Patient view, it's likely due to Patient Programs being configured. You can find out more in the [Patient Programs](/docs/programs/program-module) documentation.
 
-## Insurances
+## Insurance
 
 Insurances can be added to a patient. You can edit the insurance information and use it for payments.
 
-To view existing insurance, ensure that your store has insurance providers.
+The Insurance tab is only available if you've setup [Insurance Providers in mSupply](https://docs.msupply.org.nz/dispensing:patient_insurance#insurance_providers)
 
 ### Insurance List
 
-Select any patient and navigate to the insurance tab. Here you can see the list of insurances available to a patient.
+Select any patient and navigate to the insurance tab. Here you can see the list of insurance policies available to a patient.
 
 ![Insurance List View](/docs/dispensary/images/insurance_list_view.png)
 

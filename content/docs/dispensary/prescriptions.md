@@ -444,15 +444,15 @@ Click on the `Show / hide columns` button which is at the top right of the table
 
 If some columns are hidden, you can click `Show all` to show all of the columns again.
 
-## Using Insurance During Payment
+## Payment
 
-If there are available insurances for your patients, you can indicate that the payment was partially covered by insurance.
+If there are available insurances policies for your patients, you can indicate that the payment was partially covered by insurance.
 
-1. If there are available items for the prescription, click the `Confirm Verified` button.
+1. Once you're finished entering the items for the Prescription, click the `Confirm Verified` button.
 
    ![Insurance Confirm Verified](/docs/dispensary/images/insurance_confirm_verified.png)
 
-2. A new window will appear for you to enter the payment details for the patient's prescription.
+2. If there is a non-zero sell price for the items in the prescription, A new window will appear for you to enter the payment details for the patient's prescription.
 
    ![Insurance Payment Modal](/docs/dispensary/images/insurance_payment_modal.png)
 
