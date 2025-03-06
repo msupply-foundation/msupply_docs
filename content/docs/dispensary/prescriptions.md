@@ -61,21 +61,25 @@ From this screen you can:
 
 ![Rows per page](/docs/introduction/images/rows-per-page-select.png)
 
-### Search by Patient Name
+### Searching for a prescription
 
-You can filter the list of prescriptions by patient name. This can be useful if you're looking for one particular prescription!
+Prescriptions can be filtered by Status, Reference, Invoice Number, Dispensing Date, and Patient Name
 
-Type the name of a patient in the `Search by name` field (on the left, just above the list headers). All the prescriptions for this patient will appear in the list.
+![Prescription Filters](/docs/dispensary/images/prescription_filters.png)
 
-![Search by name](/docs/dispensary/images/search_by_name.png)
+<div class="note">
+The invoice number filter requires an exact match so searching for "1" will not return invoices 10, 11, 12 etc.
+</div>
 
 ### Exporting Prescriptions
 
-The list of Prescriptions can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page)
-
+The list of Prescriptions can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page) and the file will be downloaded.
+The export function will download all Prescriptions, not just the current page, if you have more than 20 of them. Prescriptions are exported using sort order selected in the table, though of course you could easily sort the list in Excel or whatever you open the .csv file with.
 ![Export button](/docs/distribution/images/export.png)
 
-and the file will be downloaded. The export function will download all Prescriptions, not just the current page, if you have more than 20 of them. Prescriptions are exported using sort order selected in the table, though of course you could easily sort the list in Excel or whatever you open the .csv file with!
+<div class="note">
+Export functionality is not available on Android devices.
+</div>
 
 ### Delete a Prescription
 
@@ -86,7 +90,7 @@ You can delete a prescription from the Prescription list.
 3. A notification confirms how many prescriptions were deleted (bottom left corner).
 
 <div class="note">
-You can only delete Prescriptions with a status <code>NEW</code>.
+You can only delete Prescriptions with a status <code>NEW</code> or <code>PICKED</code>. Verified prescriptions can be Cancelled, but not deleted.
 </div>
 
 ![Prescription list: delete](/docs/dispensary/images/prescription_delete_step_1.png)
@@ -99,24 +103,33 @@ You can only delete Prescriptions with a status <code>NEW</code>.
 
 2. Press the `New Prescription` button, in the top right corner
 
-![New Prescription](/docs/dispensary/images/click_new_prescription.png)
+![New Prescription Button](/docs/dispensary/images/click_new_prescription.png)
 
-3. A new window `Patients` opens, inviting you to select a patient.
+3. A new window `Patients` opens, inviting you to select a patient and other details for the prescription.
+
+![New Prescription Window](/docs/dispensary/images/prescriptions_new_prescription_name.png)
 
 #### Select a Patient
 
-1. In the `Patients` window, you will be presented with a form to search for available patients. The patients list will load when you start typing - you can enter as much of the patient's name or code as you need.
+In the `New Prescription` window, you will be presented with a form to search for available patients. The patients list will load when you start typing - you can enter as much of the patient's name or code as you need.
 
-<div class="imagetitle">
-In the below example, we are prescribing medicine to <b>Ginny Weasley</b>. 
+If no match is found a `Create new patient` button will appear. Clicking this will open a new window to create a new patient, before returning you to the Prescription window.
+![Create new patient pop up](/docs/dispensary/images/prescriptions_new_prescription_no_match.png)
+
+<div class="note">
+If you have found a matching patient, but it's not the correct one, you can just press space a few times, to see the New Patient button.
 </div>
 
-![gif](/docs/dispensary/images/prescription_select_patient_step_1.png)
-![gif](/docs/dispensary/images/prescription_select_patient_step_2.png)
+#### Set other Prescription Fields
 
-2. Your Prescription is automatically created once you click on the patient in the dropdown list.
+- **Date**: The dispensing date. This defaults to the current date, but can be changed to a past date if you're entering a backdated prescription.
+- **Reference**: This is a free text field that can be used to store a reference number or other information about the prescription.
+- **Clinician**: The clinician who prescribed the medicine.
+- **Program**: The program that this prescription is associated with. If selected, only items from this program will be available to add to the prescription.
 
-<div class=imagetitle>
+After selecting a patient, and filling in any other relevant details, press the `Create` button.
+
+<div class="imagetitle">
 If everything went well, you should see the name of your patient in the top left corner and the status should be <code>NEW</code> 
 </div>
 
@@ -132,21 +145,17 @@ If you have selected the wrong patient, you can change the patient name in the `
 
 You may need to type more of the patient's name or code if you have more than 100 patients for the patient's name to show on the dropdown list.
 
-### Select the Clinician
-
-Once your Prescription has been created, you can select a clinician from the `Clinician` dropdown list.
-![Select Clinician](/docs/dispensary/images/prescription_clinician_step_1.png)
-![Select Clinician](/docs/dispensary/images/prescription_clinician_step_2.png)
-
 ### View or edit the Prescription Information Panel
 
-The Information Panel allows you to see or edit information about the Prescription. It is divided into multiple sections:
+The Information Panel allows you to see or edit information about the Prescription. It is divided into the following sections:
 
+- Prescription Details
 - Additional Info
 - Pricing
 - Patient Details
+- Actions
 
-We are planning to add more sections in the future as Open mSupply grows.
+More sections will be added as Open mSupply grows.
 
 #### How to open and close the Information Panel?
 
@@ -171,10 +180,16 @@ In the **Additional Info** section, you can:
 In the **Pricing** section, you can:
 
 - See the total selling price of the items listed in the Prescription.
+- Any insurance information related to this prescription.
 
 In the **Patient Details** section, you can:
 
+- See the patient's name, code, gender, and Date of Birth
 - Select a Diagnosis related to the prescription
+
+In the **Actions** section, you can:
+
+- Delete or Cancel the Prescription
 
 ### Prescription Status Sequence
 
@@ -200,7 +215,7 @@ There are 3 status for a Prescription:
 | **Picked**   | Prescription is picked and is now ready to give to the patient. Goods are still part of your inventory and prescription can still be edited. |
 | **Verified** | The patient has received their medicine.                                                                                                     |
 
-If you hover over the status sequence, a prescription history window appears. You can see the date when a perscription was updated from one status to another.
+If you hover over the status sequence, a prescription history window appears. You can see the date when a prescription was updated from one status to another.
 
 <div class="imagetitle">
 This prescription has been created, picked and verified on 18/08/2023
@@ -208,9 +223,9 @@ This prescription has been created, picked and verified on 18/08/2023
 
 ![Prescription status: hover](/docs/dispensary/images/prescription_statussequence_hover.png)
 
-### Cancel and Confirm button
+### Close and Confirm button
 
-#### Cancel Button
+#### Close Button
 
 Tap on the `Close` button to quit the Prescription view and return to the Prescriptions list.
 
@@ -218,7 +233,7 @@ Tap on the `Close` button to quit the Prescription view and return to the Prescr
 
 The `Confirm` button updates the status of the prescription. The status which you can confirm depends on the current status of the prescription and follows the sequence shown below.
 
-When managing an Prescription, you can only confirm the Picked and Verified statuses. Once you have added an item to a prescription, the status will change to `Picked` automatically.
+When managing a Prescription, you can only confirm the Picked and Verified statuses. Once you have added an item to a prescription, the status will change to `Picked` automatically.
 
 | Confirm...           | Current Status | Next Status |
 | :------------------- | :------------- | :---------- |
@@ -267,6 +282,10 @@ This shows the item name and code.
 ##### Issuing stock
 
 In the `Issue` field, you can enter the quantity that you want to issue to your patient.
+
+If you're recording [prescribed quantities](https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab), you can enter the prescribed quantity first, which will automatically populate the `Issue` field for you.
+![Prescribed Quantity](/docs/dispensary/images/prescriptions_prescribed_qty.png)
+
 The system will then attempt to automatically allocate the stock for the prescription.
 
 #### List of available batches:
@@ -328,7 +347,25 @@ To select or adjust the selected batches, enter or edit the quantity in the `Uni
 <figcaption align = "center"><i>Manual allocation at the batch number level.</i></figcaption>
 </figure>
 
-### Confirm Item and Quantity
+### Directions
+
+This section allows you to enter or select directions for patient use of the current item. These directions will be printed on labels if label printing is in use.
+There are 3 ways to enter directions
+
+1. You can select default item directions from the dropdown list [(See mSupply Docs for item directions configuration)](https://docs.msupply.org.nz/items:item_basics:tab_dispensing?#default_directions)
+
+![Default Item Directions](/docs/dispensary/images/prescriptions_default_item_directions.png)
+
+2. You can enter a set or abbreviated directions in the text box which will be expanded to the full directions field
+   [(See mSupply Docs for abbreviation configuration)](https://docs.msupply.org.nz/dispensing:abbreviations)
+
+![Abbreviation Expansion](/docs/dispensary/images/prescriptions_abbr_expansion.png)
+
+3. You can enter or modify the directions in the text box
+
+![Manually entering directions](/docs/dispensary/images/prescription_manual_directions.png)
+
+### Confirm Item, Quantity and other details
 
 When you are happy with the quantity, you can either press on:
 
@@ -438,13 +475,7 @@ First ensure that you have configured a printer in [Settings](/docs/settings/dev
 
 For each item in the prescription you'll need to define item directions to be printed on the labels. These can be entered manually, with abbreviations or default item directions.
 
-The fastest way to do entry is to have abbreviations configured that allow fast entry of common directions. These are [configured on the mSupply Primary Server](https://docs.msupply.org.nz/dispensing:abbreviations). With some abbreviations configured, you should be able to enter them in the first text field "Abbreviation" as below. Once you click outside the input field, the abbreviations will be translated to the expanded text in the "Directions" box. Further modifications may be made from there.
-
-![Prescription abbreviation](/docs/dispensary/images/prescription_abbreviation.png)
-
-There are also default directions, [also configured on the mSupply Primary Server](https://docs.msupply.org.nz/items:item_basics:tab_dispensing), that can speed up this process for common directions
-
-![Prescription select direction](/docs/dispensary/images/prescription_select_direction.png)
+See the [Directions](/dispensary/prescriptions/#directions) section for more information.
 
 ### Printing All
 
@@ -498,3 +529,14 @@ Click on the `Show / hide columns` button which is at the top right of the table
 ![Hide columns](/docs/dispensary/images/prescription_columns_step_3.png)
 
 If some columns are hidden, you can click `Show all` to show all of the columns again.
+
+## Cancelling a Prescription
+
+If a prescription has already been verified it can't be deleted, but it can be cancelled.
+
+This is done in the Side panel actions section.
+![Cancel Prescription](/docs/dispensary/images/prescriptions_cancel_button.png)
+
+Once a prescription is cancelled, it will still show in the list of prescriptions, but with a status of `CANCELLED`.
+
+![Example Canceled Prescription](/docs/dispensary/images/prescription-cancelled.png)
