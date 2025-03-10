@@ -466,7 +466,7 @@ Once the prescription has been confirmed:
 
 ## Printing Labels
 
-Open mSupply has basic label printing that will improved with more flexibility in the future.
+Open mSupply has basic label printing that will be improved with more flexibility in the future.
 
 ![Prescription label](/docs/dispensary/images/prescription_label.jpg)
 ![Prescription abbreviation](/docs/dispensary/images/prescription_abbreviation.png)
