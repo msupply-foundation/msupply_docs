@@ -90,7 +90,7 @@ You can delete a prescription from the Prescription list.
 3. A notification confirms how many prescriptions were deleted (bottom left corner).
 
 <div class="note">
-You can only delete Prescriptions with a status <code>NEW</code> or <code>PICKED</code>. Verified prescriptions can be Cancelled, but not deleted.
+You can only delete Prescriptions with a status <code>NEW</code> or <code>PICKED</code>. Verified prescriptions can be cancelled, but not deleted.
 </div>
 
 ![Prescription list: delete](/docs/dispensary/images/prescription_delete_step_1.png)
@@ -99,13 +99,13 @@ You can only delete Prescriptions with a status <code>NEW</code> or <code>PICKED
 
 ## Creating a Prescription
 
-1. Go to `Dispensary` > `Prescriptions`.
+1. Go to `Dispensary` > `Prescriptions`
 
 2. Press the `New Prescription` button, in the top right corner
 
 ![New Prescription Button](/docs/dispensary/images/click_new_prescription.png)
 
-3. A new window `Patients` opens, inviting you to select a patient and other details for the prescription.
+3. A new window opens, in which you can select a patient and other details for the prescription
 
 ![New Prescription Window](/docs/dispensary/images/prescriptions_new_prescription_name.png)
 
@@ -121,6 +121,8 @@ If you have found a matching patient, but it's not the correct one, you can just
 </div>
 
 #### Set other Prescription Fields
+
+The following fields are optional - if none of these are useful for you, simply click `Create` to create the prescription after selecting the patient.
 
 - **Date**: The dispensing date. This defaults to the current date, but can be changed to a past date if you're entering a backdated prescription.
 - **Reference**: This is a free text field that can be used to store a reference number or other information about the prescription.
@@ -464,12 +466,16 @@ Once the prescription has been confirmed:
 
 ## Printing Labels
 
-Open mSupply has basic label printing that will be built upon with more flexibility in the future.
+Open mSupply has basic label printing that will improved with more flexibility in the future.
 
 ![Prescription label](/docs/dispensary/images/prescription_label.jpg)
 ![Prescription abbreviation](/docs/dispensary/images/prescription_abbreviation.png)
 
-First ensure that you have configured a printer in [Settings](/docs/settings/devices/). Note that at the moment we use the ZPL printing language under the hood, which covers about half the hardware on the market. You'll need to tweak the printer configuration (directly on the device) to get it just right for our label printing.
+### Getting started
+
+To begin printing labels, first ensure that you have configured a printer in [Settings](/docs/settings/devices/).
+
+<div class="note">A technical note: at the moment we use the ZPL printing language under the hood, which covers about half the label printer hardware on the market. You'll need to tweak the printer configuration (directly on the device) to get it just right for our label printing. The support for more printers and label formats is coming in future releases of Open mSupply.</div>
 
 ### Directions
 
@@ -479,7 +485,7 @@ See the [Directions](/dispensary/prescriptions/#directions) section for more inf
 
 ### Printing All
 
-When viewing the overall prescription, you'll see that lines that have directions will have a comment bubble icon.Once all the directions are entered on all the lines, this is a good time to print all your labels! Press the "Print Labels" button at the top of the page.
+When viewing the overall prescription, you'll see that lines that have directions will have a comment bubble icon. Once all the directions are entered on all the lines, this is a good time to print all your labels! Press the `Print Labels` button at the top of the page.
 
 ![Prescription label print all](/docs/dispensary/images/prescription_page.png)
 
@@ -487,17 +493,19 @@ Note: If you have multiple batches of the same item, only 1 label will be printe
 
 ### Printing Selected Rows
 
-You can select individual rows in the prescription to print labels for by ticking the column on the left, then pressing "Print Labels" in the action bar at the bottom of the screen.
+You can select individual rows in the prescription to print labels for by ticking the column on the left, then pressing `Print Labels` in the action bar at the bottom of the screen.
 
 ![Prescription label row action](/docs/dispensary/images/prescription_print_label_row.png)
 
 ### Troubleshooting
 
-In any case, [support@msupply.foundation](mailto:support@msupply.foundation) will be happy to help figure out your printer setup.
+If something isn't working correctly, [support@msupply.foundation](mailto:support@msupply.foundation) will be happy to help figure out your printer setup.
+
+Here are some common problems that you may be having:
 
 #### My labels are badly cut off on the top/bottom/left/right
 
-This is likely due to incompatible configuration of the label printer. The easiest solution is to get mSupply OG to print a label with _good_ configuration as it has some magic that reconfigures the printer based on the printing settings that we don't quite do in Open mSupply!
+This is likely due to incompatible configuration of the label printer. The easiest solution is to use mSupply to print a label with a _good_ configuration as it has some magic that reconfigures the printer based on the printing settings that we don't quite do in Open mSupply!
 
 #### The Clinician details are missing
 
