@@ -50,3 +50,29 @@ You will see a number of property inputs in this window. If you don't, there may
 <div class='note'>
 GAPS configuration is a one way process that cannot be undone! Please be sure you wish to use the GAPS feature before initialising.
 </div>
+
+## Store preferences
+
+Open mSupply is using some of the mSupply central server [store preferences](https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab).
+
+Here's the list of preferences which are currently in use:
+
+| Preference                                                                      | Used by                                                                                                  |
+| ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| Can manually link requisition to supplier invoice                               | [Internal Orders](/docs/replenishment/internal-orders/)                                                  |
+| Edit prescribed quantity on prescription                                        | [Prescriptions](/docs/dispensary/prescriptions/)                                                         |
+| Expiring items period                                                           | Used for some [Reports](/docs/getting_started/report/)                                                   |
+| Include requisitions from this store in suppliers' remote authorisation process | Used in [Internal Orders](/docs/replenishment/internal-orders/) if using the remote authorisation module |
+| Keep requisition lines with zero requested quantity on finalise                 | [Requisitions](/docs/distribution/requisitions/)                                                         |
+| Monthly consumption look back period                                            | Used for some [Reports](/docs/getting_started/report/)                                                   |
+| Months lead time                                                                | Used for some [Reports](/docs/getting_started/report/)                                                   |
+| Open mSupply: Uses program module                                               | If using [Patient Programs](/docs/programs/program-module/)                                              |
+| Set pack to one for all visible items in this store                             | Will enable the 'pack to one' feature when receiving stock                                               |
+| Show extra fields in requisition                                                | Displays additional fields for internal orders and requisitions                                          |
+| Stocktake frequency                                                             | Used for some [Reports](/docs/getting_started/report/)                                                   |
+| Store: Able to issue in foreign currency                                        | If using multiple currencies, this setting is used in multiple places                                    |
+| Threshold for overstock                                                         | Used for some [Reports](/docs/getting_started/report/)                                                   |
+| Threshold for understock                                                        | Used for some [Reports](/docs/getting_started/report/)                                                   |
+| Use consumption & stock from customers for internal orders                      | [Internal Orders](/docs/replenishment/internal-orders/)                                                  |
+| Use remote authorisation for response requisitions                              | If using authorisation for [Requisitions](/docs/distribution/requisitions/)                              |
+| mobile: Uses Vaccine Module                                                     | [Cold chain](/docs/coldchain/introduction/#getting-started)                                              |
