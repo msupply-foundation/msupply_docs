@@ -553,6 +553,8 @@ Once a prescription is cancelled, it will still show in the list of prescription
 
 3. Click the `Save` button once everything is done.
 
+4. Clicking the `Cancel` button will stop the saving process.
+
 ### Insurance
 
 If there are available insurances policies for your patients, you can indicate that the payment was partially covered by insurance.

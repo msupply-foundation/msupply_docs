@@ -101,7 +101,7 @@ If you have followed the process above, you may see a different icon to the righ
 
 ![Fetch patient button](/docs/dispensary/images/fetch_patient_button.png)
 
-Sometimes the record for the patient you are searching for has already be created at another site. This 'download' icon indicates that a patient matches your current search criteria, and you can download all their existing patient data to your site.
+Sometimes the record for the patient you are searching for has already been created at another site. This 'download' icon indicates that a patient matches your current search criteria, and you can download all their existing patient data to your site.
 
 To use this patient record, you must first fetch the patient details. Click the patient row (which has a tooltip message as shown below):
 
@@ -125,13 +125,13 @@ If there is more data in your Patient view, it's likely due to Patient Programs 
 
 ## Insurance
 
-Insurances can be added to a patient. You can edit the insurance information and use it for payments.
+Insurance policies can be added to a patient. You can edit the insurance information and use it for payments.
 
-The Insurance tab is only available if you've setup [Insurance Providers in mSupply](https://docs.msupply.org.nz/dispensing:patient_insurance#insurance_providers)
+<div class="tip">The Insurance tab is only available if you've setup <a href="https://docs.msupply.org.nz/dispensing:patient_insurance#insurance_providers">Insurance Providers in mSupply</a></div>
 
 ### Insurance List
 
-Select any patient and navigate to the insurance tab. Here you can see the list of insurance policies available to a patient.
+Select any patient and click on the `Insurance` tab. Here you can see the list of insurance policies available to a patient.
 
 ![Insurance List View](/docs/dispensary/images/insurance_list_view.png)
 
@@ -149,7 +149,7 @@ Select any patient and navigate to the insurance tab. Here you can see the list 
 
    ![Insurance Success](/docs/dispensary/images/insurance_success.png)
 
-4. If you forget to fill out a section of the form, it won't let you save.
+4. If you forget to fill out a section of the form, the system will alert you and the details won't be saved.
 
    ![Insurance Failed To Save](/docs/dispensary/images/insurance_failed_to_save.png)
 
