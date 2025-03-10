@@ -346,7 +346,7 @@ To select or adjust the selected batches, enter or edit the quantity in the `Uni
 <figure>
 <img src="/docs/dispensary/images/prescription_additem_manual_step_1.png">
 <img src="/docs/dispensary/images/prescription_additem_manual_step_2.png">
-<figcaption align = "center"><i>Manual allocation at the batch number level.</i></figcaption>
+<figcaption align="center"><i>Manual allocation at the batch number level.</i></figcaption>
 </figure>
 
 ### Directions
