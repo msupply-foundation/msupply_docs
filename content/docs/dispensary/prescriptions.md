@@ -27,7 +27,7 @@ To use prescriptions, ensure that your store is set to `Dispensary` mode (see th
 
 Choose `Dispensary` > `Prescription` in the navigation panel.
 
-![Go to Prescriptions](/docs/dispensary/images/goto_prescriptions.png)
+![Go to Prescriptions](../images/goto_prescriptions.png)
 
 You will be presented with a list of Prescriptions (if you don't see any, you are probably just starting!).
 
