@@ -27,7 +27,7 @@ Para usar las prescripciones, asegúrate de que tu almacén esté configurado en
 
 Selecciona `Dispensario` > `Prescripción` en el panel de navegación.
 
-![Go to Prescriptions](../images/goto_prescriptions.png)
+![Go to Prescriptions](/docs/dispensary/images/goto_prescriptions.png)
 
 Se mostrará una lista de prescripciones (si no ves ninguna, probablemente estés comenzando).
 
