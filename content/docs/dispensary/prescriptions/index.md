@@ -1,7 +1,7 @@
 +++
 title = "Prescriptions"
 description = "Prescribing stock to patients."
-date = 2022-03-19T18:20:00+00:00
+date = 2022-03-19
 updated = 2024-10-03T17:40:00+00:00
 draft = false
 weight = 2
@@ -27,7 +27,7 @@ To use prescriptions, ensure that your store is set to `Dispensary` mode (see th
 
 Choose `Dispensary` > `Prescription` in the navigation panel.
 
-![Go to Prescriptions](../images/goto_prescriptions.png)
+<img src="goto_prescriptions.png" title="" alt="Go to Prescriptions" data-align="center">
 
 You will be presented with a list of Prescriptions (if you don't see any, you are probably just starting!).
 
@@ -42,7 +42,7 @@ From this screen you can:
 1. The list of Prescriptions is divided into 5 columns:
 
 | Column      | Description                         |
-| :---------- | :---------------------------------- |
+|:----------- |:----------------------------------- |
 | **Name**    | Name of the Patient                 |
 | **Status**  | Current Status of the prescription  |
 | **Number**  | Reference Number of the precription |
@@ -51,15 +51,15 @@ From this screen you can:
 
 2. The list can display a fixed number of prescriptions per page. On the bottom left corner, you can see how many prescriptions are currently displayed on your screen.
 
-![Page](/docs/distribution/images/os_list_showing.png)
+![Page](os_list_showing.png)
 
 3. If you have more prescriptions than the current limit, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner).
 
-![Page](/docs/distribution/images/os_list_pagenumbers.png)
+![Page](os_list_pagenumbers.png)
 
 4. You can also select a different number of rows to show per page using the option at the bottom right of the page.
 
-![Rows per page](/docs/introduction/images/rows-per-page-select.png)
+![Rows per page](rows-per-page-select.png)
 
 ### Search by Patient Name
 
@@ -67,13 +67,13 @@ You can filter the list of prescriptions by patient name. This can be useful if 
 
 Type the name of a patient in the `Search by name` field (on the left, just above the list headers). All the prescriptions for this patient will appear in the list.
 
-![Search by name](/docs/dispensary/images/search_by_name.png)
+![Search by name](search_by_name.png)
 
 ### Exporting Prescriptions
 
 The list of Prescriptions can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page)
 
-![Export button](/docs/distribution/images/export.png)
+![Export button](export.png)
 
 and the file will be downloaded. The export function will download all Prescriptions, not just the current page, if you have more than 20 of them. Prescriptions are exported using sort order selected in the table, though of course you could easily sort the list in Excel or whatever you open the .csv file with!
 
@@ -89,9 +89,9 @@ You can delete a prescription from the Prescription list.
 You can only delete Prescriptions with a status <code>NEW</code>.
 </div>
 
-![Prescription list: delete](/docs/dispensary/images/prescription_delete_step_1.png)
-![Prescription list: delete](/docs/dispensary/images/prescription_delete_step_2.png)
-![Prescription list: delete](/docs/dispensary/images/prescription_delete_step_3.png)
+![Prescription list: delete](prescription_delete_step_1.png)
+![Prescription list: delete](prescription_delete_step_2.png)
+![Prescription list: delete](prescription_delete_step_3.png)
 
 ## Creating a Prescription
 
@@ -99,7 +99,7 @@ You can only delete Prescriptions with a status <code>NEW</code>.
 
 2. Press the `New Prescription` button, in the top right corner
 
-![New Prescription](/docs/dispensary/images/click_new_prescription.png)
+![New Prescription](click_new_prescription.png)
 
 3. A new window `Patients` opens, inviting you to select a patient.
 
@@ -111,8 +111,8 @@ You can only delete Prescriptions with a status <code>NEW</code>.
 In the below example, we are prescribing medicine to <b>Ginny Weasley</b>. 
 </div>
 
-![gif](/docs/dispensary/images/prescription_select_patient_step_1.png)
-![gif](/docs/dispensary/images/prescription_select_patient_step_2.png)
+![gif](prescription_select_patient_step_1.png)
+![gif](prescription_select_patient_step_2.png)
 
 2. Your Prescription is automatically created once you click on the patient in the dropdown list.
 
@@ -120,23 +120,23 @@ In the below example, we are prescribing medicine to <b>Ginny Weasley</b>.
 If everything went well, you should see the name of your patient in the top left corner and the status should be <code>NEW</code> 
 </div>
 
-![Prescription: created](/docs/dispensary/images/prescription_created.png)
+![Prescription: created](prescription_created.png)
 
 ### Edit the Patient Name
 
 If you have selected the wrong patient, you can change the patient name in the `Patient` field by typing some characters to search and then selecting from the dropdown list:
 
-![Change patient](/docs/dispensary/images/prescription_change_patient_step_1.png)
-![Change patient](/docs/dispensary/images/prescription_change_patient_step_2.png)
-![Change patient](/docs/dispensary/images/prescription_change_patient_step_3.png)
+![Change patient](prescription_change_patient_step_1.png)
+![Change patient](prescription_change_patient_step_2.png)
+![Change patient](prescription_change_patient_step_3.png)
 
 You may need to type more of the patient's name or code if you have more than 100 patients for the patient's name to show on the dropdown list.
 
 ### Select the Clinician
 
 Once your Prescription has been created, you can select a clinician from the `Clinician` dropdown list.
-![Select Clinician](/docs/dispensary/images/prescription_clinician_step_1.png)
-![Select Clinician](/docs/dispensary/images/prescription_clinician_step_2.png)
+![Select Clinician](prescription_clinician_step_1.png)
+![Select Clinician](prescription_clinician_step_2.png)
 
 ### View or edit the Prescription Information Panel
 
@@ -154,11 +154,11 @@ If you are using a large screen, the information panel will be automatically ope
 
 To open the Information Panel, you can tap on the `More` button, located in the top right corner of the Prescription view.
 
-![Open and close the Information Panel](/docs/dispensary/images/prescription_infopanel_more.png)
+![Open and close the Information Panel](prescription_infopanel_more.png)
 
 You can close by tapping on the `X Close` button, on the top right corner of the information panel.
 
-![Open and close the Information Panel](/docs/dispensary/images/prescription_infopanel_open.png)
+![Open and close the Information Panel](prescription_infopanel_open.png)
 
 #### Information Panel
 
@@ -183,19 +183,19 @@ The status sequence is located at the bottom left corner of the Prescription scr
 Passed statuses are highlighted in blue, next statuses appear in grey.
 
 <figure>
-<center><img src="/docs/dispensary/images/prescription_statussequence1.png" style="width:40%"/></center>
+<center><img src="prescription_statussequence1.png" style="width:40%"/></center>
 <figcaption align="center">Status Sequence: current status is <code>NEW</code>.</figcaption>
 </figure>
 
 <figure>
-<center><img src="/docs/dispensary/images/prescription_statussequence2.png" alt="Trulli" style="width:40%"/></center>
+<center><img src="prescription_statussequence2.png" alt="Trulli" style="width:40%"/></center>
 <figcaption align="center">Status Sequence: current status is </i><code>VERIFIED</code>.</figcaption>
 </figure>
 
 There are 3 status for a Prescription:
 
 | Status       | Description                                                                                                                                  |
-| :----------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+|:------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | **New**      | This is the first status when you create a prescription.                                                                                     |
 | **Picked**   | Prescription is picked and is now ready to give to the patient. Goods are still part of your inventory and prescription can still be edited. |
 | **Verified** | The patient has received their medicine.                                                                                                     |
@@ -206,7 +206,7 @@ If you hover over the status sequence, a prescription history window appears. Yo
 This prescription has been created, picked and verified on 18/08/2023
 </div>
 
-![Prescription status: hover](/docs/dispensary/images/prescription_statussequence_hover.png)
+![Prescription status: hover](prescription_statussequence_hover.png)
 
 ### Cancel and Confirm button
 
@@ -221,7 +221,7 @@ The `Confirm` button updates the status of the prescription. The status which yo
 When managing an Prescription, you can only confirm the Picked and Verified statuses. Once you have added an item to a prescription, the status will change to `Picked` automatically.
 
 | Confirm...           | Current Status | Next Status |
-| :------------------- | :------------- | :---------- |
+|:-------------------- |:-------------- |:----------- |
 | **Confirm Picked**   | New            | Picked      |
 | **Confirm Verified** | Picked         | Verified    |
 
@@ -229,11 +229,11 @@ When managing an Prescription, you can only confirm the Picked and Verified stat
 
 Tap on the `Add Item` button (top right corner) of the prescription window to begin adding items to the prescription.
 
-![Add Item button](/docs/dispensary/images/prescription_add_item_button.png)
+![Add Item button](prescription_add_item_button.png)
 
 Once an item has been added to the prescription, you can also use the `New Item` button in the left hand panel to add an additional item.
 
-![New Item Button](/docs/dispensary/images/prescription_new_item_button.png)
+![New Item Button](prescription_new_item_button.png)
 
 ### Select an Item
 
@@ -245,9 +245,9 @@ In the `Add Item` window, you can look up an item by:
 
 Once your item is highlighted, tap on the name or press `Enter`.
 
-![Adding an item to a prescription](/docs/dispensary/images/prescription_additem_step_1.png)
-![Adding an item to a prescription](/docs/dispensary/images/prescription_additem_step_2.png)
-![Adding an item to a prescription](/docs/dispensary/images/prescription_additem_step_3.png)
+![Adding an item to a prescription](prescription_additem_step_1.png)
+![Adding an item to a prescription](prescription_additem_step_2.png)
+![Adding an item to a prescription](prescription_additem_step_3.png)
 
 Once the item is selected, you can see information about the item broken down into different sections
 
@@ -255,14 +255,14 @@ Once the item is selected, you can see information about the item broken down in
 
 This shows the item name and code.
 
-![alt text](/docs/dispensary/images/prescription_item_section.png)
+![alt text](prescription_item_section.png)
 
 #### Quantity Section
 
 - the available batches for this item
 - the item's unit (eg. _Tablets_)
 
-![Quantity Section](/docs/dispensary/images/prescription_qty_section.png)
+![Quantity Section](prescription_qty_section.png)
 
 ##### Issuing stock
 
@@ -274,7 +274,7 @@ The system will then attempt to automatically allocate the stock for the prescri
 This is a list of batch numbers that you have in store for this item:
 
 | Column                | Description                                                                             |
-| :-------------------- | :-------------------------------------------------------------------------------------- |
+|:--------------------- |:--------------------------------------------------------------------------------------- |
 | **Expiry**            | Expiry date of the batch (format: MM/YYYY)                                              |
 | **Batch**             | Batch number. It is a designation given to products made in the same manufacturing run. |
 | **Pack Size**         | Quantity of units per pack                                                              |
@@ -282,7 +282,7 @@ This is a list of batch numbers that you have in store for this item:
 | **Available (units)** | Number of units available (not already allocated to other invoices)                     |
 | **Units Issued**      | Total quantity of units to be issued                                                    |
 
-![List of available batch numbers](/docs/dispensary/images/prescription_additem_listofbatches.png)
+![List of available batch numbers](prescription_additem_listofbatches.png)
 
 ### Issue a quantity
 
@@ -290,28 +290,28 @@ This is a list of batch numbers that you have in store for this item:
 In the below example, we are issuing 1000 units of the item. All 1000 units will be taken from the same batch (first row). The other two batches was not selected because they are expired or on hold.
 </div>
 
-![Auto allocate 1000 units from single batch](/docs/dispensary/images/prescription_additem_1.png)
-![Auto allocate 1000 units from single batch (Collapsed View)](/docs/dispensary/images/prescription_additem_1_collapsed.png)
+![Auto allocate 1000 units from single batch](prescription_additem_1.png)
+![Auto allocate 1000 units from single batch (Collapsed View)](prescription_additem_1_collapsed.png)
 
 <div class="imagetitle">
 In this other example, we are issuing 11 units. System selects two batches with different pack sizes. 
 </div>
 
-![Allocated Item 2 Batches selected](/docs/dispensary/images/prescription_additem_issueunitstwobatches.png)
-![Allocated Item 2 Batches selected (Collapsed View)](/docs/dispensary/images/prescription_additem_issueunitstwobatches_collapsed.png)
+![Allocated Item 2 Batches selected](prescription_additem_issueunitstwobatches.png)
+![Allocated Item 2 Batches selected (Collapsed View)](prescription_additem_issueunitstwobatches_collapsed.png)
 
 #### Warnings
 
 You may see one or more warning messages on this screen:
 
-![Warning: can't allocate that many](/docs/dispensary/images/prescription_warning_cant_allocate_more_than_we_have.png)
+![Warning: can't allocate that many](prescription_warning_cant_allocate_more_than_we_have.png)
 This warning tells you that you are trying to issue more units than you have in stock. You will need to reduce the quantity you are trying to issue, or add more stock to the system.
 
-![Warning: Partial Pack](/docs/dispensary/images/prescription_warning_non-whole-packs.png)
+![Warning: Partial Pack](prescription_warning_non-whole-packs.png)
 
 This warning tells you that because of the available pack sizes, the quantity you are trying to issue would result in an a partial pack being issued. If do not want to split a pack, you'll need to enter a quantity that is a multiple of the pack size(s) available.
 
-![Warning: Expired stock](/docs/dispensary/images/prescription_warning_on-hold.png)
+![Warning: Expired stock](prescription_warning_on-hold.png)
 
 This warning tells you that some of your stock is on hold and/or expired cannot be auto allocated.
 
@@ -323,8 +323,8 @@ This method also allows you to select expired batches, but not on hold batches.
 To select or adjust the selected batches, enter or edit the quantity in the `Units Issued` column.
 
 <figure>
-<img src="/docs/dispensary/images/prescription_additem_manual_step_1.png">
-<img src="/docs/dispensary/images/prescription_additem_manual_step_2.png">
+<img src="prescription_additem_manual_step_1.png" width="100%>
+<img src="prescription_additem_manual_step_2.png" width="100%">
 <figcaption align = "center"><i>Manual allocation at the batch number level.</i></figcaption>
 </figure>
 
@@ -332,7 +332,7 @@ To select or adjust the selected batches, enter or edit the quantity in the `Uni
 
 When you are happy with the quantity, you can either press on:
 
-- the `Save` button.
+- the `Save` button.m
 
 - the `Cancel` button if you do not want to add the item to the Prescription any more
 
@@ -366,9 +366,9 @@ To edit a prescription line, tap on it. You will be presented with the `Edit Ite
 In the below example, we are deleting <i>item 088882 - Ibuprofen 200mg tablets</i>
 </div>
 
-![Alt Text](/docs/dispensary/images/prescription_delete_lines_step_1.png)
-![Alt Text](/docs/dispensary/images/prescription_delete_lines_step_2.png)
-![Alt Text](/docs/dispensary/images/prescription_delete_lines_step_3.png)
+![Alt Text](prescription_delete_lines_step_1.png)
+![Alt Text](prescription_delete_lines_step_2.png)
+![Alt Text](prescription_delete_lines_step_3.png)
 
 <div class="tip">
 You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
@@ -378,14 +378,14 @@ You can delete multiple lines at once. Be sure to review what is selected before
 
 A prescription can be backdated by changing the Date field in the header. This must be done before adding items to the prescription.
 
-![Prescription Date UI Control](/docs/dispensary/images/prescription_backdate_highlight.png)
+![Prescription Date UI Control](prescription_backdate_highlight.png)
 
 #### Stock Levels
 
 When adding items to a backdated prescription, the available stock will be adjusted to what was available at that date (and hasn't been used since).
 The other fields still show the current state of the system.
 
-![Backdating a Prescription, stock levels](/docs/dispensary/images/prescription_backdate_stock_levels.png)
+![Backdating a Prescription, stock levels](prescription_backdate_stock_levels.png)
 
 <div class="tip">
 If some stock you are expecting to see doesn't show as available, use the <a href="/docs/inventory/stock-view/#ledger-tab">Ledger</a> in Inventory -> Stock to see when that stock was received.
@@ -395,7 +395,7 @@ If some stock you are expecting to see doesn't show as available, use the <a hre
 
 If you have already assigned stock to a prescription, and then you change the date of the prescription, you will see this warning:
 
-![Backdating a Prescription - Delete lines](/docs/dispensary/images/prescription_backdate_delete_lines.png)
+![Backdating a Prescription - Delete lines](prescription_backdate_delete_lines.png)
 
 The system needs to recalculate the available stock levels based on the new date, so existing lines will be removed and you'll need to add them again. Therefore, it is recommended to set the date before adding items to the prescription!
 
@@ -431,15 +431,15 @@ Batches are automatically grouped by item when viewing a specific prescription. 
 
 For example, the Paracetamol 500mg tabs shown here, has three batches allocated. Click the expand icon in the row to see the details:
 
-![Group by Item](/docs/dispensary/images/prescription_group_by_item_step_1.png)
-![Group by Item](/docs/dispensary/images/prescription_group_by_item_step_2.png)
+![Group by Item](prescription_group_by_item_step_1.png)
+![Group by Item](prescription_group_by_item_step_2.png)
 
 If you do not have enough room on your screen, or simply aren't interested in some of the columns shown, you have the option of hiding which columns are shown in this view.
 
 Click on the `Show / hide columns` button which is at the top right of the table. This gives a list of the columns available - you can check the columns you want to see. The options chosen are stored for the current browser, so next time you view a Prescription, you will see the selected columns only. If you have chosen which columns to show, then the button is shown in blue to remind you that there are more columns available.
 
-![Hide columns](/docs/dispensary/images/prescription_columns_step_1.png)
-![Hide columns](/docs/dispensary/images/prescription_columns_step_2.png)
-![Hide columns](/docs/dispensary/images/prescription_columns_step_3.png)
+![Hide columns](prescription_columns_step_1.png)
+![Hide columns](prescription_columns_step_2.png)
+![Hide columns](prescription_columns_step_3.png)
 
 If some columns are hidden, you can click `Show all` to show all of the columns again.

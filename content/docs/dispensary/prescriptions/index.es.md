@@ -27,7 +27,7 @@ Para usar las prescripciones, asegúrate de que tu almacén esté configurado en
 
 Selecciona `Dispensario` > `Prescripción` en el panel de navegación.
 
-![Go to Prescriptions](/docs/dispensary/images/goto_prescriptions.png)
+![Go to Prescriptions](goto_prescriptions.png)
 
 Se mostrará una lista de prescripciones (si no ves ninguna, probablemente estés comenzando).
 
@@ -51,15 +51,15 @@ Desde esta pantalla puedes:
 
 2. La lista puede mostrar un número fijo de prescripciones por página. En la esquina inferior izquierda, puedes ver cuántas prescripciones se están mostrando actualmente en tu pantalla.
 
-![Page](/docs/distribution/images/os_list_showing.png)
+![Page](os_list_showing.png)
 
 3. Si tienes más prescripciones que el límite actual, puedes navegar a las otras páginas tocando el número de página o usando las flechas izquierda o derecha (esquina inferior derecha).
 
-![Page](/docs/distribution/images/os_list_pagenumbers.png)
+![Page](os_list_pagenumbers.png)
 
 4. También puedes seleccionar un número diferente de filas para mostrar por página utilizando la opción en la esquina inferior derecha de la página.
 
-![Rows per page](/docs/introduction/images/rows-per-page-select.png)
+![Rows per page](rows-per-page-select.png)
 
 ### Buscar por nombre del paciente 
 
@@ -67,13 +67,13 @@ Puedes filtrar la lista de prescripciones por el nombre del paciente. Esto puede
 
 Escribe el nombre de un paciente en el campo `Buscar por nombre` (a la izquierda, justo encima de los encabezados de la lista). Todas las prescripciones para este paciente aparecerán en la lista.
 
-![Search by name](/docs/dispensary/images/search_by_name.png)
+![Search by name](search_by_name.png)
 
 ### Exportar Prescripciones
 
 La lista de prescripciones se puede exportar a un archivo separado por comas (CSV). Simplemente haz clic en el botón de Exportar (a la derecha, en la parte superior de la página).
 
-![Export button](/docs/distribution/images/export.png)
+![Export button](images/export.png)
 
 y el archivo se descargará. La función de exportar descargará todas las prescripciones, no solo la página actual, si tienes más de 20. Las prescripciones se exportan utilizando el orden de clasificación seleccionado en la tabla, aunque, por supuesto, puedes ordenar fácilmente la lista en Excel o cualquier programa con el que abras el archivo CSV.
 
@@ -91,7 +91,7 @@ Puedes eliminar una prescripción de la lista de prescripciones.
 Solo puedes eliminar prescripciones con el estado <code>NUEVO</code>.
 </div>
 
-![Prescription list: delete](/docs/dispensary/images/prescription_list_deleteline.gif)
+![Prescription list: delete](prescription_list_deleteline.gif)
 
 ## Crear una prescripción
 
@@ -99,7 +99,7 @@ Solo puedes eliminar prescripciones con el estado <code>NUEVO</code>.
 
 2. Haz clic en `Nueva Prescripción`, en la esquina superior derecha.
 
-![New Prescription](/docs/dispensary/images/click_new_prescription.png)
+![New Prescription](click_new_prescription.png)
 
 3. Se abrirá una nueva ventana llamada `Pacientes`, invitándote a seleccionar un paciente.
 
@@ -111,7 +111,7 @@ Solo puedes eliminar prescripciones con el estado <code>NUEVO</code>.
 En el siguiente ejemplo, estamos prescribiendo medicamentos a <b>Luna Lovegood</b>. 
 </div>
 
-![gif](/docs/dispensary/images/prescription_select_patient.gif)
+![gif](prescription_select_patient.gif)
 
 2. Tu prescripción se crea automáticamente al hacer clic en el paciente en la lista desplegable.
 
@@ -119,20 +119,20 @@ En el siguiente ejemplo, estamos prescribiendo medicamentos a <b>Luna Lovegood</
 Si todo salió bien, deberías ver el nombre de tu paciente en la esquina superior izquierda y el estado debería ser  <code>NUEVO</code> 
 </div>
 
-![Prescription: created](/docs/dispensary/images/prescription_created.png)
+![Prescription: created](prescription_created.png)
 
 ### Editar el nombre del paciente
 
 Si seleccionaste al paciente incorrecto, puedes cambiar el nombre en el campo `Nombre del Paciente` o seleccionar uno de la lista desplegable:
 
-![Change patient](/docs/dispensary/images/prescription_change_patient.gif)
+![Change patient](prescription_change_patient.gif)
 
 Es posible que necesites escribir más del nombre o código del paciente si tienes más de 100 pacientes para que el nombre aparezca en la lista desplegable.
 
 ### Seleccionar al médico
 
 Una vez creada la prescripción, puedes seleccionar un médico en la lista desplegable `Médico`.
-![Select Clinician](/docs/dispensary/images/prescription_clinician.gif)
+![Select Clinician](prescription_clinician.gif)
 
 ### Ver o editar el panel de información de Prescripción
 
@@ -151,7 +151,7 @@ Para abrir el panel de información, puedes tocar el botón `Más`, ubicado en l
 
 Puedes cerrarlo tocando el botón `X Cerrar`, que se encuentra en la esquina superior derecha del panel de información.
 
-![Open and close the Information Panel](/docs/dispensary/images/prescription_infopanel_openclose.gif)
+![Open and close the Information Panel](prescription_infopanel_openclose.gif)
 
 #### Información Adicional
 
@@ -172,12 +172,12 @@ La secuencia de estados se encuentra en la esquina inferior izquierda de la pant
 Los estados completados se destacan en azul, mientras que los próximos estados aparecen en gris.
 
 <figure>
-<center><img src="/docs/dispensary/images/prescription_statussequence1.png" style="width:40%"></center>
+<center><img src="prescription_statussequence1.png" style="width:40%"></center>
 <figcaption align = "center">Secuencia de estados: el estado actual es <code>NUEVO</code>.</figcaption>
 </figure>
 
 <figure>
-<center><img src="/docs/dispensary/images/prescription_statussequence2.png" alt="Trulli" style="width:40%"></center>
+<center><img src="prescription_statussequence2.png" alt="Trulli" style="width:40%"></center>
 <figcaption align = "center">Secuencia de estados: el estado actual es </i><code>VERIFICADO</code>.</figcaption>
 </figure>
 
@@ -195,7 +195,7 @@ Si pasas el cursor sobre la secuencia de estados, aparecerá una ventana de hist
 Esta prescripción fue creada, recogida y verificada el 18/08/2023.
 </div>
 
-![Prescription status: hover](/docs/dispensary/images/prescription_statussequence_hover.png)
+![Prescription status: hover](prescription_statussequence_hover.png)
 
 ### Botón de Cancelar y Confirmar
 
@@ -218,7 +218,7 @@ No es obligatorio actualizar una prescripción al siguiente estado en la secuenc
 
 Como se muestra a continuación, toca la flecha hacia abajo del botón `Confirmar` y selecciona el estado al que deseas actualizar la prescripción.
 
-![Skip Status](/docs/dispensary/images/prescription_confirmbutton_skipstatus.gif)
+![Skip Status](prescription_confirmbutton_skipstatus.gif)
 
 ## Agregar líneas a una prescripción
 
@@ -226,7 +226,7 @@ Toca el botón `Agregar Artículo` (en la esquina superior derecha).
 
 Se abrirá una nueva ventana llamada`Agregar Artículo`.
 
-![Add Item button](/docs/dispensary/images/add_item_button.png)
+![Add Item button](add_item_button.png)
 
 ### Seleccionar un artículo
 
@@ -238,7 +238,7 @@ En la ventana `Agregar Artículo`, puedes buscar un artículo de las siguientes 
 
 Una vez que el artículo esté resaltado, haz clic en el nombre o presiona `Enter`.
 
-![Alt Text](/docs/dispensary/images/prescription_additem.gif)
+![Alt Text](prescription_additem.gif)
 
 Después de seleccionar el artículo, podrás ver la siguiente información:
 
@@ -253,7 +253,7 @@ Después de seleccionar el artículo, podrás ver la siguiente información:
 <b>Ejemplo:</b> Para el artículo *030063 Ácido Acetilsalicílico 100mg tabletas*, hay 20,976 tabletas disponibles.
 </div>
 
-![add item headers](/docs/dispensary/images/additem_headers.png)
+![add item headers](additem_headers.png)
 
 #### Emitir [Cantidad] de unidades en paquetes de [Tamaño del paquete]
 
@@ -263,7 +263,7 @@ Por defecto, se te invita a emitir una cantidad en **unidades**. . Sin embargo, 
 
 El valor predeterminado es `Cualquiera` cuando emites en unidades.
 
-![Prescription Issue quantity](/docs/dispensary/images/prescription_issuequantityunits.png)
+![Prescription Issue quantity](prescription_issuequantityunits.png)
 
 #### Lista de lotes disponibles:
 
@@ -281,7 +281,7 @@ Esta es una lista de los números de lote que tienes en el almacén para este ar
 | **[Unidad] Cant. Emitida**    | Cantidad total de unidades que se emitirán.                                                                          |
 | **Cant. Paquetes Emitidos**   | Número de paquetes que se emitirán.                                                                                  |
 
-![List of available batch numbers](/docs/dispensary/images/prescription_additem_listofbatches.png)
+![List of available batch numbers](prescription_additem_listofbatches.png)
 
 Los lotes disponibles para selección se muestran primero, mientras que los lotes que no están disponibles (en retención o sin stock disponible) se muestran debajo y en una fuente de color gris.
 
@@ -293,13 +293,13 @@ De forma predeterminada, se te invita a emitir una cantidad de **unidades**, ind
 En el siguiente ejemplo, estamos emitiendo 1000 unidades del artículo. Todas las 1000 unidades serán tomadas del mismo lote (tercera fila). Los primeros dos lotes no se seleccionaron porque están vencidos.
 </div>
 
-![additem!](/docs/dispensary/images/prescription_additem_issueunits.png)
+![additem!](prescription_additem_issueunits.png)
 
 <div class="imagetitle">
  En este otro ejemplo, estamos emitiendo 82 unidades. El sistema selecciona dos lotes con diferentes tamaños de paquete. 
 </div>
 
-![additem!](/docs/dispensary/images/prescription_additem_issueunitstwobatches.png)
+![additem!](prescription_additem_issueunitstwobatches.png)
 
 #### Advertencias
 
@@ -329,7 +329,7 @@ Puedes decidir emitir una cantidad de **paquetes**. Para hacerlo, puedes cambiar
  Imaginemos que solo quieres dispensar en un tamaño de paquete de 100 unidades. Puedes cambiar el valor del menú desplegable de `Cualquiera` a `100`.
 </div>
 
-![Alt Text](/docs/dispensary/images/prescription_additem_switchtopack.gif)
+![Alt Text](prescription_additem_switchtopack.gif)
 
 Ahora se te ofrece emitir un número de paquetes de 10 unidades. Solo se pueden emitir automáticamente los números de lote con un tamaño de paquete de 10 unidades.
 
@@ -352,7 +352,7 @@ Los valores en la fila **Total** se actualizarán automáticamente con la nueva 
 </div>
 
 <figure>
-<img src="/docs/dispensary/images/prescription_additem_manualallocation.gif" style="width:100%">
+<img src="prescription_additem_manualallocation.gif" style="width:100%">
 <figcaption align = "center"><i>Asignación manual a nivel de número de lote</i></figcaption>
 </figure>
 
@@ -397,7 +397,7 @@ Para editar una línea de prescripción, toca sobre ella. Se te presentará la v
 En el siguiente ejemplo, estamos eliminando el <i>artículo 030063 - Acetilsalicílico Ácido 100mg tabletas</i>
 </div>
 
-![Alt Text](/docs/dispensary/images/prescription_deleteselectedlines.gif)
+![Alt Text](prescription_deleteselectedlines.gif)
 
 <div class="tip">
  <b></b> Puedes eliminar múltiples líneas a la vez. Asegúrate de revisar lo que está seleccionado antes de realizar la acción de eliminar. 
@@ -407,14 +407,14 @@ En el siguiente ejemplo, estamos eliminando el <i>artículo 030063 - Acetilsalic
 
 Una prescripción puede retrocederse cambiando el campo de la fecha en el encabezado. Esto debe hacerse antes de agregar los artículos a la prescripción.
 
-![Prescription Date UI Control](/docs/dispensary/images/prescription_backdate_highlight.png)
+![Prescription Date UI Control](prescription_backdate_highlight.png)
 
 #### Niveles de Inventario
 
 Al agregar artículos a una prescripción retrocedida, el inventario disponible se ajustará a lo que estaba disponible en esa fecha (y no se ha utilizado desde entonces). 
 Los demás campos siguen mostrando el estado actual del sistema.
 
-![Backdating a Prescription, stock levels](/docs/dispensary/images/prescription_backdate_stock_levels.png)
+![Backdating a Prescription, stock levels](prescription_backdate_stock_levels.png)
 
 <div class="tip">
 Si no ves un inventario que esperabas ver, usa el <a href="/docs/inventory/stock-view/#ledger-tab">Libro mayor</a> Inventario para ver cuándo se recibió ese inventario..
@@ -424,7 +424,7 @@ Si no ves un inventario que esperabas ver, usa el <a href="/docs/inventory/stock
 
 Si ya has asignado inventario a una prescripción y luego cambias la fecha de la prescripción, verás esta advertencia:
 
-![Backdating a Prescription - Delete lines](/docs/dispensary/images/prescription_backdate_delete_lines.png)
+![Backdating a Prescription - Delete lines](prescription_backdate_delete_lines.png)
 
 El sistema necesita recalcular los niveles de inventario disponibles según la nueva fecha, por lo que las líneas existentes se eliminarán y deberás agregarlas nuevamente. ¡Por lo tanto, se recomienda establecer la fecha antes de agregar artículos a la prescripción!
 
@@ -458,10 +458,10 @@ Una vez que la prescripción ha sido confirmada:
 
 Los lotes se agrupan automáticamente por artículo al ver una prescripción específica. Usa la opción de expandir en el encabezado de la tabla para desplegar todas las filas agrupadas.
 
-![Group by Item](/docs/dispensary/images/prescription_group_by_item.gif)
+![Group by Item](prescription_group_by_item.gif)
 
 Si no tienes suficiente espacio en tu pantalla o simplemente no te interesan algunas de las columnas mostradas, tienes la opción de ocultar las columnas visibles en esta vista.
 
 Haz clic en el botón `Mostrar / ocultar columnas`,ubicado en la esquina superior derecha de la tabla. Esto mostrará una lista de las columnas disponibles; puedes marcar las columnas que deseas ver. Las opciones seleccionadas se guardan para el navegador actual, por lo que la próxima vez que veas una prescripción, solo se mostrarán las columnas seleccionadas. Si has elegido qué columnas mostrar, el botón aparecerá en azul como recordatorio de que hay más columnas disponibles.
 
-![Hide columns](/docs/dispensary/images/prescription_show_hide_columns.gif)
+![Hide columns](prescription_show_hide_columns.gif)
