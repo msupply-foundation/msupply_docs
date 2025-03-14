@@ -15,7 +15,7 @@ toc = true
 Este mapa de ruta se actualizará aproximadamente cada seis semanas y solo cubre nuestro flujo de trabajo comprometido inmediato. Nuestra lista de funciones planificadas es mucho más extensa.
 
 ### Plan de trabajo
-![Plan de trabajo](/docs/introduction/images/roadmap_es.png)
+![Plan de trabajo](images-es/roadmap_es.png)
 
 
 ### Características planificadas

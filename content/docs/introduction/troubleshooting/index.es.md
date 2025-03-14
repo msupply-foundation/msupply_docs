@@ -34,11 +34,11 @@ Cualquier error que ocurra mientras el servicio se está iniciando se registrar�
 
 **Visor de eventos de Windows:**
 
-![Event viewer](/docs/introduction/images/event_viewer.png)
+![Event viewer](images-en/event_viewer.png)
 
 Otra posible causa es que el servicio no pueda iniciarse por falta de permisos. Intenta cambiar los detalles de inicio de sesión del servicio a una cuenta que tenga derechos de administrador.
 
-![Service login](/docs/introduction/images/service_login.png)
+![Service login](images-en/service_login.png)
 
 Si estás utilizando la versión con PostgreSQL, es posible que el servicio no pueda encontrar los archivos binarios de PostgreSQL. Asegúrate de que la ruta de PostgreSQL esté añadida a la variable de entorno `path` , por ejemplo:
 ```

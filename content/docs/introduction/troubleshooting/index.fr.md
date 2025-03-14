@@ -38,11 +38,11 @@ Toutes les erreurs rencontrées lors du démarrage du service sont enregistrées
 
 **Observateur d'événements Windows :**
 
-![Observateur d'événements](/docs/introduction/images/event_viewer.png)
+![Observateur d'événements](images-en/event_viewer.png)
 
 Une autre possibilité est que le service ne puisse pas démarrer en raison des autorisations. Vous pouvez essayer de définir les informations de connexion au service sur un compte disposant de droits d'administrateur.
 
-![Connexion au service](/docs/introduction/images/service_login.png)
+![Connexion au service](images-en/service_login.png)
 
 Si vous exécutez la version postgreSQL, il se peut que le service ne parvienne pas à trouver les fichiers binaires postgreSQL. Assurez-vous que le chemin postgreSQL est ajouté à la variable d'environnement `path`, comme par exemple
 

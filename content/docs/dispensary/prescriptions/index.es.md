@@ -458,10 +458,15 @@ Una vez que la prescripción ha sido confirmada:
 
 Los lotes se agrupan automáticamente por artículo al ver una prescripción específica. Usa la opción de expandir en el encabezado de la tabla para desplegar todas las filas agrupadas.
 
-![Group by Item](images-en/prescription_group_by_item.gif)
+
+![Group by Item](images-en/prescription_group_by_item_step_1.png)
+![Group by Item](images-en/prescription_group_by_item_step_2.png)
+
 
 Si no tienes suficiente espacio en tu pantalla o simplemente no te interesan algunas de las columnas mostradas, tienes la opción de ocultar las columnas visibles en esta vista.
 
 Haz clic en el botón `Mostrar / ocultar columnas`,ubicado en la esquina superior derecha de la tabla. Esto mostrará una lista de las columnas disponibles; puedes marcar las columnas que deseas ver. Las opciones seleccionadas se guardan para el navegador actual, por lo que la próxima vez que veas una prescripción, solo se mostrarán las columnas seleccionadas. Si has elegido qué columnas mostrar, el botón aparecerá en azul como recordatorio de que hay más columnas disponibles.
 
-![Hide columns](images-en/prescription_show_hide_columns.gif)
+![Hide columns](images-en/prescription_columns_step_1.png)
+![Hide columns](images-en/prescription_columns_step_2.png)
+![Hide columns](images-en/prescription_columns_step_3.png)

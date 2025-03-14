@@ -18,7 +18,7 @@ Elle couvre uniquement les chantiers validés en cours. La liste complète de fo
 
 ### Feuille de route
 
-![Feuille de route](/docs/introduction/images/roadmap_fr.png)
+![Feuille de route](images-fr/roadmap_fr.png)
 
 ### Fonctionnalités prévues
 

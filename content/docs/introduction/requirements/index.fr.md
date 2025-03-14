@@ -148,7 +148,7 @@ A partir de v2.0.00, le serveur central Open mSupply est aussi requis pour une s
 
 Vous obtiendrez le message suivant si le serveur central n'est pas configuré :
 
-![v6 not configured!](/docs/introduction/images/v6_not_configured.png)
+![v6 not configured!](images-en/v6_not_configured.png)
 
 Les versions du serveur central mSupply et Open mSupply sont importantes, car toutes les versions ne sont pas compatibles entre elles.
 
@@ -165,4 +165,4 @@ Le tableau ci-dessous indique la version de mSupply dont vous aurez besoin pour 
 
 Si vous essayez de vous connecter a un serveur incompatible, vous obtiendrez le message suivant:
 
-![server version mismatch!](/docs/introduction/images/version_mismatch.png)
+![server version mismatch!](images-en/version_mismatch.png)

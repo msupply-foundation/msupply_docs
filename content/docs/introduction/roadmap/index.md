@@ -17,7 +17,7 @@ It only covers our immediate committed work stream. Our planned feature list is 
 
 ### Road map
 
-![Road map](/docs/introduction/images/roadmap.png)
+![Road map](images-en/roadmap.png)
 
 ### Planned features
 

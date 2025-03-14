@@ -131,6 +131,6 @@ Note that we are also currently working through testing the migration process an
    - Site name: As entered in [Creating New Sync Sites](https://docs.msupply.org.nz/synchronisation:sync_sites#creating_new_sync_sites)
    - Password: As entered in [Creating New Sync Sites](https://docs.msupply.org.nz/synchronisation:sync_sites#creating_new_sync_sites)
 
-![Initialisation](../images/initialisation.png)
+![Initialisation](images-en/initialisation.png)
 
   - 

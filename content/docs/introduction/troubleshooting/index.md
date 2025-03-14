@@ -35,11 +35,11 @@ Any errors encountered while the service is starting are logged to the windows e
 
 **Windows event viewer:**
 
-![Event viewer](/docs/introduction/images/event_viewer.png)
+![Event viewer](images-en/event_viewer.png)
 
 Another possibility is that the service cannot start due to permissions. You could try to set the login details for the service to an account which has administrative rights.
 
-![Service login](/docs/introduction/images/service_login.png)
+![Service login](images-en/service_login.png)
 
 If you are running the postgreSQL version, there may be an issue with the service not being able to find the postgreSQL binary files. Ensure that you have the postgreSQL path added to the `path` environment variable: e.g.
 
