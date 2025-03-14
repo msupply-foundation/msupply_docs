@@ -1,8 +1,8 @@
 +++
 title = "FAQ"
 description = "Answers to frequently asked questions."
-date = 2021-05-01T19:30:00+00:00
-updated = 2021-05-01T19:30:00+00:00
+date = 2021-05-01
+updated = 2021-05-01
 draft = false
 weight = 30
 sort_by = "weight"

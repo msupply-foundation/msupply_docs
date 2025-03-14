@@ -1,8 +1,8 @@
 +++
 title = "Introducción"
 description = "Open mSupply Introduction."
-date = 2022-03-17T18:20:00+00:00
-updated = 2022-03-17T18:20:00+00:00
+date = 2022-03-17
+updated = 2022-03-17
 draft = false
 weight = 1
 sort_by = "weight"
@@ -64,6 +64,6 @@ La siguiente tabla describe algunos de los términos comunes utilizados en mSupp
 
 Si estás ejecutando el servidor por primera vez, es posible que veas esta pantalla:
 
-![Initialisation](/docs/introduction/images/initialisation.png)
+![Initialisation](images-en/initialisation.png)
 
 ¡No te preocupes! Esto simplemente significa que el servidor necesita saber cómo conectarse al servidor central de mSupply. Si no sabes qué ingresar, ponte en contacto con el soporte y te ayudarán.

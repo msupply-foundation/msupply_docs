@@ -2,7 +2,7 @@
 title = "Frequently Asked Questions"
 description = "aka FAQ."
 date = 2023-02-01
-updated = 2023-02-01
+updated = 2024-12-01
 draft = false
 weight = 40
 sort_by = "weight"
@@ -91,7 +91,7 @@ There aren't any restrictions on the number of users connected to a server.
 
 You can configure the currency symbol shown when displaying prices. You can also configure foreign currencies which allows you to send and receive shipments in a currency different to your main currency. To configure foreign currencies follow [these instructions](https://docs.msupply.org.nz/other_stuff:currencies) in the central server documentation. You will also need to enable the store preference `Store: Able to issue in foreign currency`. This preference is compatible with Open mSupply `v1.7.0+`.
 
-![Store preference](/docs/distribution/images/store-pref-issue-in-foreign-currencies.png)
+![Store preference](images-en/store-pref-issue-in-foreign-currencies.png)
 
 The following currency codes and symbols are supported:
 

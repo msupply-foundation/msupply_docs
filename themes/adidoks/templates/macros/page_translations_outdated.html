@@ -1,0 +1,37 @@
+{#- This macro outputs a list of pages in each language with a comparison in days that it was last updated cf the English page -#}
+<html>
+<body>
+{%- macro pdf_export(current_section) -%}
+{%- set index_path = current_section ~ "/_index.md"  | trim_start_matches(pat="/") -%}
+{%- set index = get_section(path=index_path) -%}
+
+{%- if index.subsections -%}
+  {% for a in ["fr","es","pt"] %}
+  <h3>Pages Dates for {{a}}</h3>
+		{% for s in index.subsections -%}
+			{%- set subsection = get_section(path=s) -%}
+			{%- if subsection.translations %}
+				{%- for page in subsection.pages -%}
+				{% set_global trans_page_date = "2001-01-01" %}
+				{% set_global english_page_date = "2001-01-01" %}
+					{%- for this_translation in page.translations -%}
+						{%- if this_translation.lang == a %}
+								{% set translated_page = get_page(path = this_translation.path) %}
+  							{% set_global trans_page_date = translated_page.updated %}
+  						{%- elif this_translation.lang == "en" -%}
+  						  {% set_global english_page_date = page.updated %}
+						{%- endif -%}
+					{%- endfor -%}		{#end page.translations loop#}
+										{% set en_updated = english_page_date | date(format="%Y%m%d") %}
+										{% set trans_updated = trans_page_date | date(format="%Y%m%d") %} 
+										{% set difference = en_updated | int - trans_updated | int  %}
+										{% set difference = difference / 100 %}
+											<p>{{ page.permalink | safe}} <strong> Updated: </strong>{{trans_updated}}<strong> EN updated: </strong>{{en_updated}}<strong> Outdated Months: </strong> {{difference}} </p>
+										
+				{%- endfor -%}		{#end subsection pages loop#}
+			{%- endif -%}
+		{%- endfor %}
+	{% endfor %}
+{%- endif -%}
+{%- endmacro -%}
+</body></html>

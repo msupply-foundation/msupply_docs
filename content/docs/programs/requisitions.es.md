@@ -1,8 +1,8 @@
 +++
 title = "Requisiciones"
 description = "Requisiciones basadas en programas"
-date = 2023-05-19T00:00:00+00:00
-updated = 2023-05-19T00:00:00+00:00
+date = 2023-05-19
+updated = 2023-05-19
 draft = false
 weight = 61
 sort_by = "weight"

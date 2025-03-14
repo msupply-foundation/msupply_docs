@@ -15,14 +15,14 @@ top = true
 
 ## Configuration requise pour Open mSupply
 
-Open mSupply fonctionne sur un certain nombre de plateformes et a des besoins matériels très simpels pour une installation de base. Le client peut être un navigateur web, une tablette Android ou un PC sous Windows ou macOS. Le serveur nécessite un peu plus de mémoire et de capacité de traitement, selon le nombre d'utilisateurs. Il peut fonctionner sur les systèmes d'exploitation Windows, Mac ou Linux.
+Open mSupply fonctionne sur un certain nombre de plateformes et a des besoins matériels très simples pour une installation de base. Le client peut être un navigateur web, une tablette Android ou un PC sous Windows, linux ou macOS. Le serveur nécessite un peu plus de mémoire et de capacité de traitement, selon le nombre d'utilisateurs. 
 
 ## Configuration matérielle requise
 
 ### Recommandations générales relatives au matériel
 
 - Dans les environnements où les coupures de courant sont fréquentes, il est fortement recommandé de se procurer des ordinateurs portables plutôt que des ordinateurs de bureau. Les ordinateurs portables seront presque toujours la meilleure solution en termes de coût et d'efficacité pour les raisons suivantes :
-  - Dans les environnements où l'alimentation électrique est de mauvaise qualité, les ordinateurs portables seront généralement plus fiables que les ordinateurs de bureau avec protection par onduleur (UPS). Dans de tels environnements, les batteries d'UPS tombent en panne en général sous 2 ans. Les batteries d'ordinateur portable ont une meilleure gestion de l'énergie et durent plus longtemps.
+  - Dans les environnements où l'alimentation électrique est de mauvaise qualité, les ordinateurs portables seront généralement plus fiables que les ordinateurs de bureau avec protection par onduleur (UPS). Dans ces conditions, les batteries d'UPS tombent en panne en général sous 2 ans. Les batteries d'ordinateur portable ont une meilleure gestion de l'énergie et durent plus longtemps.
   - Même lorsque la batterie d'un ordinateur portable est épuisée, la gestion de l'alimentation provoque normalement l'arrêt de la machine en douceur.
   - Les ordinateurs portables ont un microphone et une caméra intégrés pour la prise en charge technique.
   - Les ordinateurs portables ont un adaptateur Wi-Fi intégré pour la connexion réseau.
@@ -31,30 +31,28 @@ Open mSupply fonctionne sur un certain nombre de plateformes et a des besoins ma
 - Achetez du matériel pour lequel un bon service après-vente est disponible.
 - Achetez des marques réputées pour leur qualité (même si cela signifie acheter une machine plus lente/ancienne).
 
-### Configuration requise pour Windows, Mac et Linux
+### Configuration requise pour ordinateurs (portables ou de bureaux)
 
-La configuration matérielle requise varie considérablement en fonction de l'utilisation prévue d'Open mSupply. Voici un guide approximatif (en anglais)
+La configuration matérielle requise varie considérablement en fonction de l'utilisation prévue d'Open mSupply. Voici un guide approximatif :
 
-| Machine                                    | Technical Minimum                                                                                                                                              | Recommended                                                                                                                                                                                                                              |
+| Ordinateur                                    | Minimum Technique                                                                                                                                              | Recommandations                                                                                                                                                                                                                              |
 | :----------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Windows Client machine for use with server | 64 bit processor<br/>Windows 10<br/>4 Gb RAM, 300Mb of disk space                                                                                              | 64 bit processor<br/>Windows 10<br/>8 Gb RAM, 500Mb of disk space                                                                                                                                                                        |
-| Mac Client machine for use with server     | 64 bit processor<br/>macOS Mojave (10.14) – macOS Big Sur (11)(Latest release of major version is required, such as 10.14.6)<br/>4 Gb RAM, 300Mb of disk space | 64 bit processor<br/>Mac OS 10.14.6 or later<br/>8 Gb RAM, 500Mb of disk space                                                                                                                                                           |
-| Windows server                             | 64 bit processor<br/>Windows 10 Pro or Win server 2019<br/>8 Gb RAM<br/>50 GB HDD/SDD volume with daily backups to an external volume                          | 64 bit processor<br/>Windows Server 2019+<br/>8 Gb RAM<br/>4 x HDD/SDD volumes, 3 configured as RAID1 or RAID5 with hot spare<br/>Daily backups to the fourth volume plus daily off-site backups<br/>Attached to a Smart UPS (see below) |
-| Linux client or server                     | 64 bit processor<br/>Ubuntu 20+ or similar<br/>4 Gb RAM<br/>256 Gb storage                                                                                     | 64 bit processor<br/>Ubuntu 20+ or similar<br/>8 Gb RAM<br/>256 Gb storage                                                                                                                                                               |
-| Android client or server                   | 64 bit processor<br/>Android 10 or later<br/>4 Gb RAM<br/>64 Gb storage                                                                                        | 64 bit processor<br/>Android 10 or later<br/>4 Gb RAM<br/>64 Gb storage                                                                                                                                                                  |
-
+| Client Windows à utiliser avec serveur | Processeur 64 bit <br/>Windows 10<br/>4 Gb RAM, 300Mb d'espace disque                                                                                               | Processeur 64 bit<br/>Windows 10<br/>8 Gb RAM, 500Mb d'espace disque                                                                                                                                                                          |
+| Client Mac à utiliser avec serveur | Processeur 64 bit <br/>macOS Mojave (10.14) – macOS Big Sur (11)<br/><i/>(La dernière version de chaque mise à jour importante est nécessaire, par ex, 10.14.6)</i><br/> 4 Gb RAM, 300Mb d'espace disque | Processeur 64 bit<br/>Mac OS 10.14.6 ou version plus récente <br/>8 Gb RAM, 500Mb d'espace disque                                                                                                                                                           |
+| Serveur Windows                             | Processeur 64 bit<br/>Windows 10 Pro ou serveur Windows 2019<br/>16 Gb RAM<br/> Volume 100 GB HDD/SDD avec des backups journaliers vers un volume externe                          | Processeur 64 bit<br/>Serveur Windows 2019+<br/>32 Gb RAM<br/>4 volumes HDD/SSD, 3 configurés comme RAID1 ou RAID5 avec hot spare<br/>Backups journaliers vers le quatrième volume + backups journaliers hors site<br/>Attaché à un onduleur intelligent |
+| Client ou serveur Linux                     | Processeur 64 bit<br/>Ubuntu 20+ ou similaire<br/>4 Gb RAM<br/>256 Gb de stockage                                                                                     | Processeur 64 bit<br/>Ubuntu 20+ ou similaire<br/>8 Gb RAM<br/>512 Gb de stockage                                                                                                                                                               |                                                                                                  
 <div class="note">
 L'enregistrement des transactions de stocks est une activité centrale d'Open mSupply. La plupart des données sur les transactions de stocks sont numériques. Un clavier numérique est souvent utile pour les machines sur lesquelles on saisit beaucoup de données.
 </div>
 
 ### Configuration requise pour mobile/tablette
 
-`Connexion à un serveur Open mSupply`: Vous pouvez utiliser un navigateur sur une tablette pour vous connecter à un serveur Open mSupply. La seule exigence est une tablette suffisamment rapide dotée d'un navigateur tel que Chrome ou Firefox.
+Il est possible d'utiliser un navigateur web sur une tablette pour se connecter à un serveur Open mSupply et la seule configuration requise dans ce cas est une tablette suffisamment rapide ayant un navigateur tel que chrome ou firefox.
 
-`Solution hors ligne autonome`: Une application mobile est également disponible pour les appareils Android pour une solution hors ligne autonome.
+Pour la solution autonome, hors ligne, une application mobile et aussi disponbile pour les appareils android. 
 
 Spécifications recommandées:
-En résumé, Open mSupply mobile fonctionne sur les tablettes Android (pas sur les téléphones car les écrans de téléphone sont trop petits pour une utilisation efficace avec une grande quantité de données).
+En résumé, Open mSupply mobile fonctionne sur tablette Android (pas sur les téléphones car les écrans de téléphone sont trop petits pour une utilisation efficace avec une grande quantité de données).
 L'application nécessite au moins Android 10.
 
 |                 | Minimum           | Recommandé       |
@@ -82,7 +80,22 @@ Selon notre expérience, la principale cause de défaillance matérielle des ord
   - Le logiciel ne démarre pas.
 - Les batteries de l'onduleur se dégradent (généralement dans les 2 ans suivant l'installation dans des environnements sujets aux coupures de courant) et leur capacité est insuffisante pour permettre à l'ordinateur de s'arrêter correctement après avoir reçu la notification de l'onduleur.
 
-Étant donné qu'Open mSupply utilise beaucoup de chiffres (quantités de stock), il est fortement recommandé d'avoir un clavier avec un pavé numérique. Les ordinateurs portables plus petits (écran de 14 pouces ou moins) n'en auront pas. Les ordinateurs portables plus petits ont généralement un écran trop petit et peu pratique. Il est donc recommandé de se procurer un ordinateur portable avec un clavier comprenant un pavé numérique, ce qui nécessitera nécessairement un écran plus grand.
+Les ordinateurs portables ont tendance à être plus résistants aux coupures de courant :
+- Les UPS intégrés aux ordinateurs portables sont reconnus comme fiables
+- Les batteries d'ordinateurs portables durent plus longtemps que celles des onduleurs intelligents autonomes
+- Même si la batterie d'un ordinateur portable se dégrade, la fonction onduleur intelligent reste plus efficace qu'un UPS connecté à un ordinateur de bureau.
+
+Voici quelques avantages supplémentaires des ordinateurs portable sur les ordinateurs de bureau : 
+
+- Frais de transport inférieurs:
+  - Pour envoyer l'ordinateur sur site
+  - Pour envoyer sur site des pièces détachées en cas de réparation
+  - Pour rapatrier l'appareil en cas de grosse reparations qui ne peuvent pas se faire sur place
+- Les ordinateurs portables ont la plupart du temps certaines fonctionnalités par défaut comme une caméra, une carte WiFi ou le Bluetooth contrairement aux ordinateurs de bureau (type tour).
+
+Un des sujets d'inquiétude autour des ordinateurs portables reste la sécurité. Il est plus facile de voler un ordinateur portable dans un bureau que de voler un ordinateur type tour. C'est pour cette raison qu'une fonctionnalité antivol telle que [l'encoche de sécurité Kensington](https://fr.wikipedia.org/wiki/Encoche_de_s%C3%A9curit%C3%A9_Kensington) est généralement installée par défaut. 
+
+Étant donné qu'Open mSupply utilise beaucoup de chiffres (quantités de stock), <b/>il est fortement recommandé d'avoir un clavier avec un pavé numérique</b>. Les ordinateurs portables plus petits (écran de 14 pouces ou moins) n'en auront pas. Ces derniers ont généralement un écran trop petit et peu pratique. Il est donc recommandé de se procurer un ordinateur portable avec un clavier comprenant un pavé numérique, ce qui permettra d'avoir un écran suffisamment grand.
 
 Voici quelques accessoires de productivité utiles pour les ordinateurs portables :
 
@@ -98,12 +111,12 @@ Avant de parler de bande passante et de latence, il convient de mentionner notre
 
 - Bande passante : 128 kbps
 - Latence : élevée (par exemple, satellite) acceptable. Les utilisateurs ne la remarqueront pas dans les opérations quotidiennes, car la synchronisation s'effectue en arrière-plan et les demandes de données sont satisfaites à partir de la base de données locale, et non par internet.
-- Connectivité : intermittente (une fois par semaine par exemple) acceptable.
+- Connectivité : intermittente (une fois par semaine par exemple est un rythme acceptable).
 
 #### Mode hébergé dans le cloud (en ligne)
 
-- Téléchargement initial : environ 1 Mo de code Javascript, une connexion de 512 kbps ou plus est donc recommandée (chargement en 10 secondes environ).
-- Connexion internet requise : nécessaire pour utiliser Open mSupply dans ce mode.
+- Téléchargement initial du code Javascript est d'environ 1 Mo, donc une connexion de 512 kbps ou plus est recommandée (chargement en 10 secondes environ).
+- Connexion internet : nécessaire pour utiliser Open mSupply dans ce mode.
 - Latence : une latence élevée (par exemple, satellite ou connexion surchargée) se traduira par des performances plus lentes.
 
 ## Système de sauvegarde
@@ -121,17 +134,25 @@ Les systèmes d'exploitation basés sur Windows sont particulièrement vulnérab
 
 Assurez-vous que l'accès aux mots de passe permettant des exceptions aux deux mesures ci-dessus est sécurisé.
 
+## Base de données
+
+Open mSupply peut prendre en charge SQLite et postgreSQL en tant que serveur de bases de données. Le choix se fait lors de l'installation. Nous conseillons PostgreSQL dans le cas d'un serveur centralisé ou à usage élevé car ce dernier s'est avéré être plus performant que SQLite. PostgreSQL nécessite une installation à part - il est possible d'utiliser une version existante, installer Open mSupply à part, ou cocher la case correspondante lors de l'installation du serveur.
+
+La version minimum de PostgreSQL est la version 12.
+
 ## Serveur Central
 
-Une installation de mSupply est actuellement requise pour exécuter Open mSupply (elle permet de gérer un certain nombre d'aspects centralisés du système). La version d'mSupply et d'Open mSupply est importante, car toutes les versions ne sont pas compatibles entre elles.
+Une installation de mSupply est actuellement requise pour exécuter Open mSupply (elle permet de gérer un certain nombre d'aspects centralisés du système). 
 
 A partir de v2.0.00, le serveur central Open mSupply est aussi requis pour une synchronisation réussie. Voir en anglais [Open mSupply central server](/docs/getting_started/central/) et [Open mSupply central server site configuration in mSupply](https://docs.msupply.org.nz/synchronisation:sync_sites#open_msupply_central_server_settings) pour plus de détails.
 
-Vous obtiendrez le message suivant si la configuration n'est pas adéquate
+Vous obtiendrez le message suivant si le serveur central n'est pas configuré :
 
-![v6 not configured!](/docs/introduction/images/v6_not_configured.png)
+![v6 not configured!](images-en/v6_not_configured.png)
 
-Le tableau ci-dessous indique la version d'mSupply dont vous aurez besoin pour exécuter Open mSupply :
+Les versions du serveur central mSupply et Open mSupply sont importantes, car toutes les versions ne sont pas compatibles entre elles.
+
+Le tableau ci-dessous indique la version de mSupply dont vous aurez besoin pour exécuter Open mSupply :
 
 | Open mSupply Remote | mSupply Central | Open mSupply Central |
 | :------------------ | :-------------- | -------------------- |
@@ -144,6 +165,4 @@ Le tableau ci-dessous indique la version d'mSupply dont vous aurez besoin pour e
 
 Si vous essayez de vous connecter a un serveur incompatible, vous obtiendrez le message suivant:
 
-![server version mismatch!](/docs/introduction/images/version_mismatch.png)
-
-Vous pouvez télécharger les dernières versions d'mSupply et d'Open mSupply à partir du site Web d'Open mSupply : https://docs.msupply.foundation/.
+![server version mismatch!](images-en/version_mismatch.png)

@@ -1,8 +1,8 @@
 +++
 title = "Support"
 description = "Is something wrong? Here are some tools to help."
-date = 2022-05-17T16:20:00+00:00
-updated = 2022-05-17T16:20:00+00:00
+date = 2022-05-17
+updated = 2022-05-17
 draft = false
 weight = 5
 sort_by = "weight"

@@ -1,8 +1,8 @@
 +++
 title = "Patient Programs"
 description = "Introduction to Patient Programs"
-date = 2023-01-27T00:00:00+00:00
-updated = 2023-01-27T00:00:00+00:00
+date = 2023-01-27
+updated = 2023-01-27
 draft = false
 weight = 60
 sort_by = "weight"

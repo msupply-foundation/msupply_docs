@@ -1,8 +1,8 @@
 +++
 title = "Commandes Internes"
 description = "Commander chez des fournisseurs utilisant mSupply."
-date = 2022-03-19T18:20:00+00:00
-updated = 2022-03-19T18:20:00+00:00
+date = 2022-03-19
+updated = 2022-03-19
 draft = false
 weight = 2
 sort_by = "weight"
@@ -144,7 +144,8 @@ Vous pouvez créer des commandes internes à partir de plusieurs listes de base 
 ### Lecture de la liste de l'ordre interne
 
 Lorsque vous ajoutez des articles (à l'aide d'une liste de base ou non), l'article est ajouté au tableau de la commande. Les informations suivantes sont fournies pour chaque ligne de commande :
-| Status                   | Description                                                                                                                                        |
+
+| Colonne                   | Description                                                                                                                                        |
 | :----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Code**                 | Code de l'article                                                                                                                                   |
 | **Nom**                 | Nom de l'article                                                                                                                                   |

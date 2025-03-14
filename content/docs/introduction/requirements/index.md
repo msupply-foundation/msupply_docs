@@ -38,11 +38,11 @@ The server requires a little more memory and processing capability, depending on
 Hardware requirements vary widely depending on what you want to use Open mSupply for. Here's a rough guide:
 
 | Machine                                    | Technical Minimum                                                                                                                                              | Recommended                                                                                                                                                                                                                              |
-| :----------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :------ | :------------ | :-------- |
 | Windows Client machine for use with server | 64 bit processor<br/>Windows 10<br/>4 Gb RAM, 300Mb of disk space                                                                                              | 64 bit processor<br/>Windows 10<br/>8 Gb RAM, 500Mb of disk space                                                                                                                                                                        |
 | Mac Client machine for use with server     | 64 bit processor<br/>macOS Mojave (10.14) – macOS Big Sur (11)(Latest release of major version is required, such as 10.14.6)<br/>4 Gb RAM, 300Mb of disk space | 64 bit processor<br/>Mac OS 10.14.6 or later<br/>8 Gb RAM, 500Mb of disk space                                                                                                                                                           |
-| Windows server                             | 64 bit processor<br/>Windows 10 Pro or Win server 2019<br/>8 Gb RAM<br/>50 GB HDD/SDD volume with daily backups to an external volume                          | 64 bit processor<br/>Windows Server 2019+<br/>8 Gb RAM<br/>4 x HDD/SDD volumes, 3 configured as RAID1 or RAID5 with hot spare<br/>Daily backups to the fourth volume plus daily off-site backups<br/>Attached to a Smart UPS (see below) |
-| Linux client or server                     | 64 bit processor<br/>Ubuntu 20+ or similar<br/>4 Gb RAM<br/>256 Gb storage                                                                                     | 64 bit processor<br/>Ubuntu 20+ or similar<br/>8 Gb RAM<br/>256 Gb storage                                                                                                                                                               |
+| Windows server                             | 64 bit processor<br/>Windows 10 Pro or Win server 2019<br/>16 Gb RAM<br/>100 GB HDD/SDD volume with daily backups to an external volume                          | 64 bit processor<br/>Windows Server 2019+<br/>32 Gb RAM<br/>4 x HDD/SDD volumes, 3 configured as RAID1 or RAID5 with hot spare<br/>Daily backups to the fourth volume plus daily off-site backups<br/>Attached to a Smart UPS (see below) |
+| Linux client or server                     | 64 bit processor<br/>Ubuntu 20+ or similar<br/>4 Gb RAM<br/>256 Gb storage                                                                                     | 64 bit processor<br/>Ubuntu 20+ or similar<br/>8 Gb RAM<br/>512 Gb storage                                                                                                                                                               |
 
 <div class="note">
 Recording stock transactions is a core Open mSupply activity. Most stock transaction data is numeric. A numeric keypad is often helpful for machines that have a lot of data entry done on them.
@@ -140,7 +140,7 @@ Ensure that access to passwords which allow exceptions to the above two measures
 
 ## Database
 
-Open mSupply supports both SQLite and postgreSQL as database servers, with the selection made at time of installation.
+Open mSupply supports both SQLite and PostgreSQL as database servers, with the selection made at time of installation.
 We recommend using PostgreSQL when running a centralised or high-use server as it can provide greater performance than SQLite does. PostgreSQL does require a separate installation - you can use an existing installation, install separately to Open mSupply, or select the checkbox which is part of the server installation.
 
 There is a minimum version for PostgreSQL of version 12.
@@ -153,7 +153,7 @@ From v2.0.00, the Open mSupply central server is also required for successful sy
 
 You will get the following error message if the Open mSupply central server is not configured:
 
-![v6 not configured!](/docs/introduction/images/v6_not_configured.png)
+![v6 not configured!](images-en/v6_not_configured.png)
 
 The versions of both central servers and your Open mSupply remote site are important, as not all versions of each are compatible with each other.
 
@@ -171,4 +171,4 @@ The table below shows which versions of mSupply and Open mSupply Central you wil
 
 If you attempt to connect to an incompatible server you'll get an error message like this:
 
-![server version mismatch!](/docs/introduction/images/version_mismatch.png)
+![server version mismatch!](images-en/version_mismatch.png)

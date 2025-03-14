@@ -1,8 +1,8 @@
 +++
 title = "Help"
 description = "Contact mSupply Foundation"
-date = 2025-01-06T11:45:00+00:00
-updated = 2025-01-06T11:45:00+00:00
+date = 2025-01-06
+updated = 2025-01-06
 template = "docs/page.html"
 sort_by = "weight"
 weight = 1
