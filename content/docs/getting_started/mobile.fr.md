@@ -38,15 +38,15 @@ Cliquez sur le nom du serveur pour le sélectionner. Si vous souhaitez changer d
 
 ![Mobile login](/docs/introduction/images/mobile_login.png)
 
-## Server mode
+## Mode Serveur
 
-En mode serveur, vous configurerez le serveur pour qu'il fonctionne sur l'appareil mobile et se synchronise avec un serveur central. L'écran d'initialisation est le même que pour les versions desktop et web, avec l'ajout des détails du serveur en bas à droite :
+En mode serveur, veuillez configurer le serveur pour qu'il fonctionne sur l'appareil mobile et se synchronise avec un serveur central. L'écran d'initialisation est le même que pour les versions desktop et web, avec l'ajout des détails du serveur en bas à droite :
 
 ![Mobile initialisation](/docs/introduction/images/mobile_initialisation.png)
 
-## Viewing logs
+## Accéder au journal des logs
 
-Dans l'application Android, vous verrez une section supplémentaire. Elle vous permet de changer le mode entre le client et le serveur, et de visualiser le fichier journal:
+Dans l'application Android, vous verrez une section supplémentaire. Elle vous permet de changer le mode entre le client et le serveur, et de visualiser le fichier journal `Server log`:
 
 ![Mobile settings](/docs/introduction/images/mobile_settings.png)
 

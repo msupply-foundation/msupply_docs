@@ -13,9 +13,11 @@ toc = true
 top = true
 +++
 
-<div class="tip">Voir la section <a href="#configuration-and-synchronisation">configuration</a> pour savoir comment configurer le serveur central.</div>
+<div class="tip">Voir la section <a href="#configuration-and-synchronisation">configuration</a> pour apprendre comment configurer le serveur central.</div>
 
-Le serveur central d'Open mSupply est un site spécial qui permet de configurer des sous-ensembles de données centrales. Veuillez consulter la section [prérequis](/docs/introduction/requirements/#open-msupply-requirements) pour plus de détails sur comment faire fonctionner open mSupply, et la section [serveur central Open mSupply](/docs/introduction/requirements/#open-msupply-central-server) du serveur central d'Open mSupply pour plus de détails sur les conditions requises pour le serveur central en particulier.
+Le serveur central d'Open mSupply est un site spécial qui permet de configurer des sous-ensembles de données centrales. Veuillez consulter la section [Configuration requise](/fr/docs/introduction/requirements/#open-msupply-requirements) pour plus de détails sur comment faire fonctionner open mSupply, et spécifiquement la section [Serveur central](/fr/docs/introduction/requirements/#open-msupply-central-server) pour plus de détails sur la configuration requise pour le serveur central Open mSupply.
+
+Le serveur central d'Open mSupply est un site spécial qui permet de configurer des sous-ensembles de données centrales. Veuillez consulter la section [Configuration requise](/fr/docs/introduction/requirements/#open-msupply-requirements) pour plus de détails sur comment faire fonctionner open mSupply, et spécifiquement la section [Serveur central](/fr/docs/introduction/requirements/#open-msupply-central-server) pour plus de détails sur la configuration requise pour le serveur central Open mSupply.
 
 ## Qu'est-ce que le serveur central Open mSupply ?
 
@@ -53,6 +55,14 @@ Open mSupply est configuré comme un autre site sur le serveur central mSupply a
 Pour configurer votre site Open mSupply afin qu'il utilise un serveur central, vous avez plusieurs possibilités.
 
 #### Utilisation d'un serveur central Open mSupply à part et d'un serveur distant
+
+- Dans mSupply, créez un nouveau site auquel vous attribuerez un dépôt (il peut s'agir d'un dépôt fictif).
+- Cochez la case (comme indiqué dans le lien "quelques réglages supplémentaires" ci-dessus).
+- Saisissez l'URL du serveur. Notez que cette URL est celle de votre nouveau serveur central Open mSupply. Il sera différent du serveur Open mSupply habituel et du serveur mSupply!
+
+<div class="warning">Le serveur central Open mSupply peut être configuré et se synchroniser parfaitement même si cette URL est fausse. Ce champs n'est utilisé que par les sites distants pour savoir ou se trouve le serveur central Open mSupply.</div>
+
+#### Configurer un site Open mSupply existant en tant que serveur central
 
 - Dans mSupply, créez un nouveau site auquel vous attribuerez un dépôt (il peut s'agir d'un dépôt fictif).
 - Cochez la case (comme indiqué dans le lien "quelques réglages supplémentaires" ci-dessus).
