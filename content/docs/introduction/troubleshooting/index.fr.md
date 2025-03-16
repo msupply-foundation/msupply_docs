@@ -14,20 +14,19 @@ toc = true
 top = false
 +++
 
-
 ## Vous n'arrivez pas à vous connecter au serveur sur votre appareil
 
-Si vous avez installé le client Open mSupply ou une version autonome sur votre machine, mais que vous ne parvenez pas à vous connecter au serveur, essayez les étapes suivantes : 
+Si vous avez installé le client Open mSupply ou une version autonome sur votre machine, mais que vous ne parvenez pas à vous connecter au serveur, essayez les étapes suivantes :
 
-1. Vérifiez le nom de l'ordinateur. Si vous utilisez un ordinateur Windows, vous pouvez généralement le trouver via Panneau de configuration > Système et sécurité > Système. Modifiez le nom de l'ordinateur pour vous assurer qu'il ne contient pas de caractères spéciaux et qu'il n'est pas trop long. Redémarrez l'ordinateur et essayez de vous connecter à nouveau. 
+1. Vérifiez le nom de l'ordinateur. Si vous utilisez un ordinateur Windows, vous pouvez généralement le trouver via Panneau de configuration > Système et sécurité > Système. Modifiez le nom de l'ordinateur pour vous assurer qu'il ne contient pas de caractères spéciaux et qu'il n'est pas trop long. Redémarrez l'ordinateur et essayez de vous connecter à nouveau.
 
-2. Si l'étape ci-dessus ne fonctionne pas, vous devrez peut-être installer un adaptateur de bouclage réseau sur votre ordinateur à l'aide de [ces instructions](https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/install-microsoft-loopback-adapter#method-2) en anglais. 
+2. Si l'étape ci-dessus ne fonctionne pas, vous devrez peut-être installer un adaptateur de bouclage réseau sur votre ordinateur à l'aide de [ces instructions](https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/install-microsoft-loopback-adapter#method-2) en anglais.
 
 ## le service ne démarre pas dans Windows
 
-Que c'est frustrant quand le service ne démarre pas ! Il est difficile de savoir quoi changer si le service échoue sans plus de détails. 
+Que c'est frustrant quand le service ne démarre pas ! Il est difficile de savoir quoi changer si le service échoue sans plus de détails.
 
-Voici quelques astuces à essayer :
+Voici quelques astuces à essayer :
 
 1. Vérifiez le journal des applications des événements Windows
 2. Assurez-vous que la journalisation est activée et vérifiez le fichier journal Open mSupply
@@ -36,7 +35,7 @@ Voici quelques astuces à essayer :
 
 Toutes les erreurs rencontrées lors du démarrage du service sont enregistrées dans le journal des événements Windows. Vérifiez dans le journal des applications si des entrées proviennent d'Open mSupply. Après cela, la journalisation standard est démarrée. Configurez la journalisation au niveau des fichiers, comme indiqué dans le fichier `example.yaml` et essayez de démarrer le service. Toutes les erreurs y seront enregistrées.
 
-**Observateur d'événements Windows :**
+**Observateur d'événements Windows :**
 
 ![Observateur d'événements](images-en/event_viewer.png)
 
@@ -52,12 +51,12 @@ C:\Program Files\PostgreSQL\14\lib;
 
 ## Impossible de se connecter
 
-Si vous avez créé un utilisateur, configuré des autorisations et que vous recevez toujours une erreur lorsque vous essayez de vous connecter, voici quelques étapes à essayer :
+Si vous avez créé un utilisateur, configuré des autorisations et que vous recevez toujours une erreur lorsque vous essayez de vous connecter, voici quelques étapes à essayer :
 
-* Assurez-vous que l'utilisateur a un dépôt coché comme « dépôt par défaut » dans l'[écran administrateur](https://docs.msupply.org.nz/admin:managing_users#login_rights_tab) mSupply
-* Vérifiez que l'utilisateur a également coché `Connexion en tant qu'utilisateur de bureau`
-* Vérifiez que l'utilisateur a [l'autorisation](https://docs.msupply.org.nz/admin:managing_users#permissions_tabs) pour se connecter à un dépôt qui fait partie du site de synchronisation
-* Modifiez l'utilisateur dans mSupply et vérifiez que l'utilisateur n'est pas bloqué (vous verrez une erreur spécifique à ce sujet dans Open mSupply)
-* Essayez d'actualiser la page si vous utilisez la version Web
+- Assurez-vous que l'utilisateur a un dépôt coché comme « dépôt par défaut » dans l'[écran administrateur](https://docs.msupply.org.nz/admin:managing_users#login_rights_tab) mSupply
+- Vérifiez que l'utilisateur a également coché `Connexion en tant qu'utilisateur de bureau`
+- Vérifiez que l'utilisateur a [l'autorisation](https://docs.msupply.org.nz/admin:managing_users#permissions_tabs) pour se connecter à un dépôt qui fait partie du site de synchronisation
+- Modifiez l'utilisateur dans mSupply et vérifiez que l'utilisateur n'est pas bloqué (vous verrez une erreur spécifique à ce sujet dans Open mSupply)
+- Essayez d'actualiser la page si vous utilisez la version Web
 
-<div class="note">Les noms d’utilisateur ne sont pas sensibles aux majuscules et minuscules, mais les mots de passe le sont !</div>
+<div class="note">Les noms d’utilisateur ne sont pas sensibles aux majuscules et minuscules, mais les mots de passe le sont !</div>

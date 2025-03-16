@@ -26,8 +26,9 @@ Cliquez simplement sur le bouton de l'option que vous préférez. Ne vous inqui�
 
 ![Mobile settings](/docs/introduction/images/mobile_settings.png)
 
-## Client mode
-Après avoir sélectionné le mode client, vous verrez une liste des serveurs disponibles. Il s'agit des serveurs de votre réseau local. 
+## Mode Client
+
+Après avoir sélectionné le mode client, vous verrez une liste des serveurs disponibles. Il s'agit des serveurs de votre réseau local.
 
 Vous pouvez voir `[ Non configuré ]` à côté de certains serveurs - cela indique que le serveur n'a pas encore été configuré pour se synchroniser avec un serveur central.
 
@@ -53,4 +54,4 @@ Cliquez sur l'icône `View` pour ouvrir une fenêtre qui affiche le journal du s
 
 ![Mobile log viewer](/docs/introduction/images/mobile_view_log.png)
 
-À partir de là, vous pouvez enregistrer le journal sous la forme d'un fichier texte sur votre appareil : il vous suffit de cliquer sur `Enregistrer` et choisissez un emplacement pour enregistrer le fichier.
+À partir de là, vous pouvez enregistrer le journal sous la forme d'un fichier texte sur votre appareil : il vous suffit de cliquer sur `Enregistrer` et de choisir un emplacement pour enregistrer le fichier.

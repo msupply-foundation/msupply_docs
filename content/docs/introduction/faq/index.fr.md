@@ -2,7 +2,7 @@
 title = "Foire Aux Questions"
 description = "la FAQ."
 date = 2023-02-01
-updated = 2024-11-01
+updated = 2023-02-01
 draft = false
 weight = 40
 sort_by = "weight"
@@ -22,35 +22,38 @@ Oui. Open mSupply a été créé pour une utilisation <i/>hors ligne</i> ce qui 
 
 Avec Open mSupply, il y a 3 niveaux à considérer :
 
-* Les **Sites distants** ou l'utilisateur fait ses tâches quotidiennes.
-* Les **Sites distants hébergés sur le Cloud** qui peuvent être utilisés avec une connection internet de qualité et continue.
-* Le **Serveur Central** est l'endroit où les données centrales ainsi que les données des sites distants sont agregées pour le reporting.
+- Les **Sites distants** ou l'utilisateur fait ses tâches quotidiennes.
+- Les **Sites distants hébergés sur le Cloud** qui peuvent être utilisés avec une connection internet de qualité et continue.
+- Le **Serveur Central** est l'endroit où les données centrales ainsi que les données des sites distants sont agregées pour le reporting.
 
 ##### Sites distants
+
 Pour un site distant spécifique, la base de données sera SQLite si elle est exécutée sur Android, ou dans la plupart des cas Postgres si elle est exécutée sur un ordinateur de bureau. Nous partons du principe que sur un site très fréquenté, une mise à niveau rapide vers la version Desktop est à faire pour être moins impacté par les limites d'Android.
 
-|  Type de contenu   |  Limite des données   |
-|-------|-------:|
-| Produits   | > 1,000,000   |
-| Articles    | > 1,000,000,000   |
-| Utilisateurs   | configuration centrale - pas de limite pratique par site  |
-| Fournisseurs   | configuration centrale - pas de limite pratique par site  |
-| Transactions   | > 1,000,000,000    |
+| Type de contenu |                                       Limite des données |
+| --------------- | -------------------------------------------------------: |
+| Produits        |                                              > 1,000,000 |
+| Articles        |                                          > 1,000,000,000 |
+| Utilisateurs    | configuration centrale - pas de limite pratique par site |
+| Fournisseurs    | configuration centrale - pas de limite pratique par site |
+| Transactions    |                                          > 1,000,000,000 |
 
 ##### Sites distants hébergés dans le cloud
+
 Si un site distant est hebergé dans le cloud, il peut accueillir des milliers d'utilisateurs connectés en même temps. Les limites des données sont les mêmes que ci-dessus, mais les performances seront déterminées par la bande passante disponible à la fois pour le serveur et pour la connexion internet de chaque utilisateur.
 
 ##### Le Serveur Central
+
 Le serveur central utilise Postgres et regroupe toutes les données de tous les sites, tout en étant le serveur de données principales pour les sites, les produits (articles), les dépots, les fournisseurs et les utilisateurs.
 
-|  Type de contenu   |  Limite des données   |
-|-------|-------:|
-| Produits   | > 1,000,000   |
-| Articles   | > 1,000,000,000   |
-| Utilisateurs   | > 100,000   |
-| Forunisseurs   | > 100,000  |
-| Sites  | > 100,000   |
-| Transactions   | > 1,000,000,000    |
+| Type de contenu | Limite des données |
+| --------------- | -----------------: |
+| Produits        |        > 1,000,000 |
+| Articles        |    > 1,000,000,000 |
+| Utilisateurs    |          > 100,000 |
+| Forunisseurs    |          > 100,000 |
+| Sites           |          > 100,000 |
+| Transactions    |    > 1,000,000,000 |
 
 (Depuis 2023, nous travaillons en priorité à rendre le serveur central open source, en attendant il est important de noter que le serveur central de la version commerciale mSupply a des limites plus basses. Bien que certains sites en constante croissance ont déjà des dizaines de millions de transactions, nous sommes très loin d'arriver aux limites du serveur central avant de passer à sa version open source).
 
