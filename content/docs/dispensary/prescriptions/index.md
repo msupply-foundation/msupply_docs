@@ -206,7 +206,7 @@ If you hover over the status sequence, a prescription history window appears. Yo
 This prescription has been created, picked and verified on 18/08/2023
 </div>
 
-![Prescription status: hover](images-en/prescription_statussequence_hover.png)
+<img src="images-en/prescription_statussequence_hover.png" title="" alt="Prescription status: hover" width="301">
 
 ### Cancel and Confirm button
 
@@ -323,7 +323,7 @@ This method also allows you to select expired batches, but not on hold batches.
 To select or adjust the selected batches, enter or edit the quantity in the `Units Issued` column.
 
 <figure>
-<img src="prescription_additem_manual_step_1.png" width="100%>
+<img src="images-en/prescription_additem_manual_step_1.png" width="100%>
 <img src="prescription_additem_manual_step_2.png" width="100%">
 <figcaption align = "center"><i>Manual allocation at the batch number level.</i></figcaption>
 </figure>
