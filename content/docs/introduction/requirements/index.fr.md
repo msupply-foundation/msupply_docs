@@ -15,7 +15,7 @@ top = true
 
 ## Configuration requise pour Open mSupply
 
-Open mSupply fonctionne sur un certain nombre de plateformes et a des besoins matériels très simples pour une installation de base. Le client peut être un navigateur web, une tablette Android ou un PC sous Windows, linux ou macOS. Le serveur nécessite un peu plus de mémoire et de capacité de traitement, selon le nombre d'utilisateurs. 
+Open mSupply fonctionne sur un certain nombre de plateformes et a des besoins matériels très simples pour une installation de base. Le client peut être un navigateur web, une tablette Android ou un PC sous Windows, linux ou macOS. Le serveur nécessite un peu plus de mémoire et de capacité de traitement, selon le nombre d'utilisateurs.
 
 ## Configuration matérielle requise
 
@@ -35,12 +35,13 @@ Open mSupply fonctionne sur un certain nombre de plateformes et a des besoins ma
 
 La configuration matérielle requise varie considérablement en fonction de l'utilisation prévue d'Open mSupply. Voici un guide approximatif :
 
-| Ordinateur                                    | Minimum Technique                                                                                                                                              | Recommandations                                                                                                                                                                                                                              |
-| :----------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Client Windows à utiliser avec serveur | Processeur 64 bit <br/>Windows 10<br/>4 Gb RAM, 300Mb d'espace disque                                                                                               | Processeur 64 bit<br/>Windows 10<br/>8 Gb RAM, 500Mb d'espace disque                                                                                                                                                                          |
-| Client Mac à utiliser avec serveur | Processeur 64 bit <br/>macOS Mojave (10.14) – macOS Big Sur (11)<br/><i/>(La dernière version de chaque mise à jour importante est nécessaire, par ex, 10.14.6)</i><br/> 4 Gb RAM, 300Mb d'espace disque | Processeur 64 bit<br/>Mac OS 10.14.6 ou version plus récente <br/>8 Gb RAM, 500Mb d'espace disque                                                                                                                                                           |
-| Serveur Windows                             | Processeur 64 bit<br/>Windows 10 Pro ou serveur Windows 2019<br/>16 Gb RAM<br/> Volume 100 GB HDD/SDD avec des backups journaliers vers un volume externe                          | Processeur 64 bit<br/>Serveur Windows 2019+<br/>32 Gb RAM<br/>4 volumes HDD/SSD, 3 configurés comme RAID1 ou RAID5 avec hot spare<br/>Backups journaliers vers le quatrième volume + backups journaliers hors site<br/>Attaché à un onduleur intelligent |
-| Client ou serveur Linux                     | Processeur 64 bit<br/>Ubuntu 20+ ou similaire<br/>4 Gb RAM<br/>256 Gb de stockage                                                                                     | Processeur 64 bit<br/>Ubuntu 20+ ou similaire<br/>8 Gb RAM<br/>512 Gb de stockage                                                                                                                                                               |                                                                                                  
+| Ordinateur                             | Minimum Technique                                                                                                                                                                                        | Recommandations                                                                                                                                                                                                                                         |
+| :------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Client Windows à utiliser avec serveur | Processeur 64 bit <br/>Windows 10<br/>4 Gb RAM, 300Mb d'espace disque                                                                                                                                    | Processeur 64 bit<br/>Windows 10<br/>8 Gb RAM, 500Mb d'espace disque                                                                                                                                                                                    |
+| Client Mac à utiliser avec serveur     | Processeur 64 bit <br/>macOS Mojave (10.14) – macOS Big Sur (11)<br/><i/>(La dernière version de chaque mise à jour importante est nécessaire, par ex, 10.14.6)</i><br/> 4 Gb RAM, 300Mb d'espace disque | Processeur 64 bit<br/>Mac OS 10.14.6 ou version plus récente <br/>8 Gb RAM, 500Mb d'espace disque                                                                                                                                                       |
+| Serveur Windows                        | Processeur 64 bit<br/>Windows 10 Pro ou serveur Windows 2019<br/>8 Gb RAM<br/> Volume 50 GB HDD/SDD avec des backups journaliers vers un volume externe                                                  | Processeur 64 bit<br/>Serveur Windows 2019+<br/>8 Gb RAM<br/>4 volumes HDD/SDD, 3 configurés comme RAID1 ou RAID5 avec hot spare<br/>Backups journaliers vers le quatrième volume + backups journaliers hors site<br/>Attaché à un onduleur intelligent |
+| Client ou serveur Linux                | Processeur 64 bit<br/>Ubuntu 20+ ou similaire<br/>4 Gb RAM<br/>256 Gb de stockage                                                                                                                        | Processeur 64 bit<br/>Ubuntu 20+ ou similaire<br/>8 Gb RAM<br/>256 Gb de stockage                                                                                                                                                                       |
+
 <div class="note">
 L'enregistrement des transactions de stocks est une activité centrale d'Open mSupply. La plupart des données sur les transactions de stocks sont numériques. Un clavier numérique est souvent utile pour les machines sur lesquelles on saisit beaucoup de données.
 </div>
@@ -49,13 +50,13 @@ L'enregistrement des transactions de stocks est une activité centrale d'Open mS
 
 Il est possible d'utiliser un navigateur web sur une tablette pour se connecter à un serveur Open mSupply et la seule configuration requise dans ce cas est une tablette suffisamment rapide ayant un navigateur tel que chrome ou firefox.
 
-Pour la solution autonome, hors ligne, une application mobile et aussi disponbile pour les appareils android. 
+Pour la solution autonome, hors ligne, une application mobile et aussi disponbile pour les appareils android.
 
 Spécifications recommandées:
 En résumé, Open mSupply mobile fonctionne sur tablette Android (pas sur les téléphones car les écrans de téléphone sont trop petits pour une utilisation efficace avec une grande quantité de données).
 L'application nécessite au moins Android 10.
 
-|                 | Minimum           | Recommandé       |
+|                 | Minimum           | Recommandé        |
 | :-------------- | :---------------- | :---------------- |
 | Taille écran    | 9.8 inches        | 10.1 inches       |
 | Résolution      | 768 x 1024 pixels | 800 x 1200 pixels |
@@ -64,7 +65,7 @@ L'application nécessite au moins Android 10.
 | RAM             | 2 Gb              | 4 Gb              |
 | Stockage        | 32 Gb             | 64 Gb             |
 
-Pour que nous puissions fournir une assistance, l'appareil doit également être compatible avec le logiciel de gestion des appareils mobiles (MDM) et prendre en charge les services Google. Veuillez contacter [la Fondation mSupply](https://msupply.foundation/#contact)  pour plus de détails.
+Pour que nous puissions fournir une assistance, l'appareil doit également être compatible avec le logiciel de gestion des appareils mobiles (MDM) et prendre en charge les services Google. Veuillez contacter [la Fondation mSupply](https://msupply.foundation/#contact) pour plus de détails.
 
 Recommandation avant achat: N'hésitez pas à nous contacter pour des tests et/ou des conseils avant de faire un achat important de matériel.
 
@@ -81,11 +82,12 @@ Selon notre expérience, la principale cause de défaillance matérielle des ord
 - Les batteries de l'onduleur se dégradent (généralement dans les 2 ans suivant l'installation dans des environnements sujets aux coupures de courant) et leur capacité est insuffisante pour permettre à l'ordinateur de s'arrêter correctement après avoir reçu la notification de l'onduleur.
 
 Les ordinateurs portables ont tendance à être plus résistants aux coupures de courant :
+
 - Les UPS intégrés aux ordinateurs portables sont reconnus comme fiables
 - Les batteries d'ordinateurs portables durent plus longtemps que celles des onduleurs intelligents autonomes
 - Même si la batterie d'un ordinateur portable se dégrade, la fonction onduleur intelligent reste plus efficace qu'un UPS connecté à un ordinateur de bureau.
 
-Voici quelques avantages supplémentaires des ordinateurs portable sur les ordinateurs de bureau : 
+Voici quelques avantages supplémentaires des ordinateurs portable sur les ordinateurs de bureau :
 
 - Frais de transport inférieurs:
   - Pour envoyer l'ordinateur sur site
@@ -93,7 +95,7 @@ Voici quelques avantages supplémentaires des ordinateurs portable sur les ordin
   - Pour rapatrier l'appareil en cas de grosse reparations qui ne peuvent pas se faire sur place
 - Les ordinateurs portables ont la plupart du temps certaines fonctionnalités par défaut comme une caméra, une carte WiFi ou le Bluetooth contrairement aux ordinateurs de bureau (type tour).
 
-Un des sujets d'inquiétude autour des ordinateurs portables reste la sécurité. Il est plus facile de voler un ordinateur portable dans un bureau que de voler un ordinateur type tour. C'est pour cette raison qu'une fonctionnalité antivol telle que [l'encoche de sécurité Kensington](https://fr.wikipedia.org/wiki/Encoche_de_s%C3%A9curit%C3%A9_Kensington) est généralement installée par défaut. 
+Un des sujets d'inquiétude autour des ordinateurs portables reste la sécurité. Il est plus facile de voler un ordinateur portable dans un bureau que de voler un ordinateur type tour. C'est pour cette raison qu'une fonctionnalité antivol telle que [l'encoche de sécurité Kensington](https://fr.wikipedia.org/wiki/Encoche_de_s%C3%A9curit%C3%A9_Kensington) est généralement installée par défaut.
 
 Étant donné qu'Open mSupply utilise beaucoup de chiffres (quantités de stock), <b/>il est fortement recommandé d'avoir un clavier avec un pavé numérique</b>. Les ordinateurs portables plus petits (écran de 14 pouces ou moins) n'en auront pas. Ces derniers ont généralement un écran trop petit et peu pratique. Il est donc recommandé de se procurer un ordinateur portable avec un clavier comprenant un pavé numérique, ce qui permettra d'avoir un écran suffisamment grand.
 
@@ -130,7 +132,7 @@ Une fois que vous commencez à utiliser Open mSupply, il est important d'avoir u
 Les systèmes d'exploitation basés sur Windows sont particulièrement vulnérables aux logiciels malveillants si des précautions ne sont pas prises. Nous recommandons les précautions suivantes :
 
 - Installez un antivirus réputé, y compris une protection Web si l'ordinateur a accès à Internet.
-- Désactivez les ports USB - reportez-vous à  [ce site](http://https://sospc.name/desactiver-ports-usb/) pour les méthodes suggérées
+- Désactivez les ports USB - reportez-vous à [ce site](http://https://sospc.name/desactiver-ports-usb/) pour les méthodes suggérées
 
 Assurez-vous que l'accès aux mots de passe permettant des exceptions aux deux mesures ci-dessus est sécurisé.
 
@@ -142,7 +144,7 @@ La version minimum de PostgreSQL est la version 12.
 
 ## Serveur Central
 
-Une installation de mSupply est actuellement requise pour exécuter Open mSupply (elle permet de gérer un certain nombre d'aspects centralisés du système). 
+Une installation de mSupply est actuellement requise pour exécuter Open mSupply (elle permet de gérer un certain nombre d'aspects centralisés du système).
 
 A partir de v2.0.00, le serveur central Open mSupply est aussi requis pour une synchronisation réussie. Voir en anglais [Open mSupply central server](/docs/getting_started/central/) et [Open mSupply central server site configuration in mSupply](https://docs.msupply.org.nz/synchronisation:sync_sites#open_msupply_central_server_settings) pour plus de détails.
 
