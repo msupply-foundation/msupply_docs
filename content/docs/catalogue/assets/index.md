@@ -21,9 +21,9 @@ From the **Assets** menu, you can view all of the assets currently in your store
 
 ### Viewing Asset List
 
-In the navigation panel, tap on `Catalogue` > `Assets` to show the asset list
+In the navigation panel, tap on `Catalogue` > `Assets` to show the asset list 
 
-![Assets nav](/docs/catalogue/images/assets.png)
+![Assets nav](images-en/assets.png)
 
 Here you can see all the assets which are available in your store.
 
