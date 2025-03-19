@@ -23,7 +23,7 @@ Desde el menú **Activos**, puedes ver todos los activos que actualmente tienes 
 
 En el panel de navegación, selecciona `Catálogo` > `Activos` para mostrar la lista de activos
 
-![Assets nav](/docs/catalogue/images/assets.png)
+![Assets nav](images-en/assets.png)
 
 Aquí puedes ver todos los activos disponibles en tu almacén.
 
