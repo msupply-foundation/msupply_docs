@@ -17,11 +17,9 @@ top = false
 
 We've changed the names in Open mSupply to align with industry best practice - we agree that this can take a bit of getting used to!
 
-![](introduction/images/718a9a8a37f700ca67885cef12ac6767a7a9c5c5.png)
-
 ### Overall workflow
 
-For an overview of supply chain processes, remember to review ![the introduction chapter](docs/introduction/introduction/)
+For an overview of supply chain processes, remember to review [the introduction chapter](/docs/introduction/introduction/)
 
 {%mermaid ()%}
 
