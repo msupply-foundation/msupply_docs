@@ -42,7 +42,7 @@ Desde esta pantalla puedes:
 1. La lista de prescripciones se divide en 5 columnas:
 
 | Columna        | Descripción                             |
-| :------------- | :-------------------------------------- |
+|:-------------- |:--------------------------------------- |
 | **Nombre**     | Nombre del paciente                     |
 | **Estado**     | Estado actual de la prescripción        |
 | **Número**     | Número de referencia de la prescripción |
@@ -61,7 +61,7 @@ Desde esta pantalla puedes:
 
 ![Rows per page](images-en/rows-per-page-select.png)
 
-### Buscar por nombre del paciente 
+### Buscar por nombre del paciente
 
 Puedes filtrar la lista de prescripciones por el nombre del paciente. Esto puede ser útil si estás buscando una prescripción en particular.
 
@@ -184,7 +184,7 @@ Los estados completados se destacan en azul, mientras que los próximos estados 
 Hay 3 estados para una prescripción:
 
 | Estado         | Descripción                                                                                                                                                                |
-| :------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|:-------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Nuevo**      | Este es el primer estado cuando creas una prescripción.                                                                                                                    |
 | **Recogido**   | La prescripción ha sido recogida y ahora está lista para entregar al paciente. Los productos siguen siendo parte de tu inventario y la prescripción aún puede ser editada. |
 | **Verificado** | El paciente ha recibido su medicamento.                                                                                                                                    |
@@ -209,10 +209,10 @@ El botón `Confirmar` actualiza el estado de la prescripción. El estado que pue
 
 Al gestionar una prescripción, solo puedes confirmar los estados Recogida y Verificada.
 
-| Confirmar...             | Estado actual  | Próximo Estado |
-| :----------------------- | :------------- | :------------- |
-| **Confirmar Recogida**   | Nuevo          | Recogida       |
-| **Confirmar verificada** | Recogida       | Verificada     |
+| Confirmar...             | Estado actual | Próximo Estado |
+|:------------------------ |:------------- |:-------------- |
+| **Confirmar Recogida**   | Nuevo         | Recogida       |
+| **Confirmar verificada** | Recogida      | Verificada     |
 
 No es obligatorio actualizar una prescripción al siguiente estado en la secuencia. Puedes optar por omitir `Confirmar Verificada` e ir directamente a  `Confirmar Enviada`, por ejemplo.
 
@@ -226,7 +226,7 @@ Toca el botón `Agregar Artículo` (en la esquina superior derecha).
 
 Se abrirá una nueva ventana llamada`Agregar Artículo`.
 
-![Add Item button](images-en/add_item_button.png)
+![Add Item button](images-en/prescription_add_item_button.png)
 
 ### Seleccionar un artículo
 
@@ -269,17 +269,17 @@ El valor predeterminado es `Cualquiera` cuando emites en unidades.
 
 Esta es una lista de los números de lote que tienes en el almacén para este artículo:
 
-| Columna                       | Descripción                                                                                                          |
-| :---------------------------- | :------------------------------------------------------------------------------------------------------------------- |
-| **Lote**                      | Número de lote. Es una designación asignada a productos fabricados en la misma tanda de producción.                  |
-| **Vencimiento**               | Fecha de vencimiento del lote (formato: MM/AAAA).                                                                    |
-| **Ubicación**                 | Nombre de la ubicación donde se almacena el artículo, si tu inventario se gestiona con ubicaciones de almacenamiento.|         
-| **En Retención**              | Indica si un lote está retenido o no. No puedes emitir un lote que esté en retención.                                |
-| **En almacén (paquetes)**     | Número total de paquetes en tu almacén.                                                                              |
-| **Disponible (paquetes)**     | Número de paquetes disponibles (no asignados a otros envíos).                                                        |
-| **Tamaño del paquete**        | Cantidad de unidades por paquete.                                                                                    |
-| **[Unidad] Cant. Emitida**    | Cantidad total de unidades que se emitirán.                                                                          |
-| **Cant. Paquetes Emitidos**   | Número de paquetes que se emitirán.                                                                                  |
+| Columna                     | Descripción                                                                                                           |
+|:--------------------------- |:--------------------------------------------------------------------------------------------------------------------- |
+| **Lote**                    | Número de lote. Es una designación asignada a productos fabricados en la misma tanda de producción.                   |
+| **Vencimiento**             | Fecha de vencimiento del lote (formato: MM/AAAA).                                                                     |
+| **Ubicación**               | Nombre de la ubicación donde se almacena el artículo, si tu inventario se gestiona con ubicaciones de almacenamiento. |
+| **En Retención**            | Indica si un lote está retenido o no. No puedes emitir un lote que esté en retención.                                 |
+| **En almacén (paquetes)**   | Número total de paquetes en tu almacén.                                                                               |
+| **Disponible (paquetes)**   | Número de paquetes disponibles (no asignados a otros envíos).                                                         |
+| **Tamaño del paquete**      | Cantidad de unidades por paquete.                                                                                     |
+| **[Unidad] Cant. Emitida**  | Cantidad total de unidades que se emitirán.                                                                           |
+| **Cant. Paquetes Emitidos** | Número de paquetes que se emitirán.                                                                                   |
 
 ![List of available batch numbers](images-en/prescription_additem_listofbatches.png)
 
@@ -305,19 +305,18 @@ En el siguiente ejemplo, estamos emitiendo 1000 unidades del artículo. Todas la
 
 Puedes ver uno o más mensajes de advertencia en esta pantalla:
 
-![placeholder warning!](images-en//docs/distribution/images/os_warning_placeholder.png)
+![placeholder warning!](../../images-es/74c44351aa146ecbb194c46da8d7fc3528d0ed0b.png)
 
 La advertencia se muestra para informarte que no hay suficiente stock disponible para cumplir con tu solicitud. Se agrega automáticamente una cantidad de marcador de posición para que puedas realizar un seguimiento de la cantidad solicitada mientras se añade más stock (por ejemplo, utilizando una orden interna o una entrada).
 
 Esta imagen también muestra una advertencia que te informa que algunas líneas de stock están vencidas; esto puede ser la razón por la cual el sistema no asignó automáticamente ciertas líneas de stock.
 Sin embargo, ¡todavía puedes elegir manualmente esas líneas y emitir el stock vencido!
 
-![pack sizes warning!](images-en//docs/distribution/images/os_warning_pack_sizes.png)
+![pack sizes warning!](images-en/os_warning_pack_sizes.png)
 
 Esta advertencia te indica que, debido a los tamaños de paquete disponibles, el sistema ha redondeado hacia arriba la cantidad solicitada. En este ejemplo, no hay ningún tamaño de paquete menor que  `12`. Sin embargo, hay paquetes de `20` disponibles, por lo que cuando se solicitan 12 tabletas, el sistema ha redondeado la solicitud a `2` paquetes de `20`.
 
-
-![pack sizes warning!](images-en//docs/distribution/images/os_warning_no_quantity.png)
+![pack sizes warning!](images-en/os_warning_no_quantity.png)
 
 Si añades un artículo, olvidas ingresar una cantidad para emitir y haces clic en `OK` verás este mensaje de advertencia. Te informa que no se ingresó una cantidad para emitir; desde aquí puedes hacer clic en `OK` nuevamente para confirmar que pretendías ingresar `0`, n cuyo caso la ventana se cerrará y se añadirá una fila de marcador de posición al envío. Más adelante puedes editar la fila y añadir una cantidad. Sin embargo, si olvidas agregar una cantidad y confirmas el envío como asignado, ¡esta fila será eliminada!
 
@@ -329,7 +328,7 @@ Puedes decidir emitir una cantidad de **paquetes**. Para hacerlo, puedes cambiar
  Imaginemos que solo quieres dispensar en un tamaño de paquete de 100 unidades. Puedes cambiar el valor del menú desplegable de `Cualquiera` a `100`.
 </div>
 
-![Alt Text](images-en/prescription_additem_switchtopack.gif)
+![Alt Text](images-en/prescription_additem_1.png)
 
 Ahora se te ofrece emitir un número de paquetes de 10 unidades. Solo se pueden emitir automáticamente los números de lote con un tamaño de paquete de 10 unidades.
 
@@ -351,10 +350,9 @@ Los valores en la fila **Total** se actualizarán automáticamente con la nueva 
  <b></b> Al asignar cantidades a nivel de número de lote, la cantidad que ingreses siempre será una cantidad de paquetes.
 </div>
 
-<figure>
-<img src="prescription_additem_manualallocation.gif" style="width:100%">
-<figcaption align = "center"><i>Asignación manual a nivel de número de lote</i></figcaption>
-</figure>
+![Manual allocation at the batch number level- step 1](images-en/prescription_additem_manual_step_1.png)
+
+   ![Manual allocation at the batch number level- step 1](images-en/prescription_additem_manual_step_2.png)
 
 ### Confirmar artículo y cantidad
 
@@ -375,8 +373,9 @@ Para editar una línea de prescripción, toca sobre ella. Se te presentará la v
 </div>
 
 1. Abre la prescripción que deseas editar.
-2. Toca sobre la línea que deseas editar. Aparecerá una ventana idéntica a la de `Añadir Artículo`. En esta etapa:
 
+2. Toca sobre la línea que deseas editar. Aparecerá una ventana idéntica a la de `Añadir Artículo`. En esta etapa:
+   
    - Edita el campo principal `Emitir`
    - o cambia el valor del número de paquetes a nivel de lote
 
@@ -391,13 +390,13 @@ Para editar una línea de prescripción, toca sobre ella. Se te presentará la v
 3. Dirígete al menú desplegable `Acciones` (esquina superior derecha, sobre la lista).
 4. Selecciona la acción`Eliminar líneas seleccionadas`
 
-![Alt Text](images-en//docs/distribution/images/os_actions_deleteselectedlines.png)
+![Alt Text](images-en/os_actions_deleteselectedlines.png)
 
 <div class="imagetitle">
 En el siguiente ejemplo, estamos eliminando el <i>artículo 030063 - Acetilsalicílico Ácido 100mg tabletas</i>
 </div>
 
-![Alt Text](images-en/prescription_deleteselectedlines.gif)
+![Alt Text](images-en/prescription_delete_lines_step_1.png)
 
 <div class="tip">
  <b></b> Puedes eliminar múltiples líneas a la vez. Asegúrate de revisar lo que está seleccionado antes de realizar la acción de eliminar. 
@@ -458,10 +457,8 @@ Una vez que la prescripción ha sido confirmada:
 
 Los lotes se agrupan automáticamente por artículo al ver una prescripción específica. Usa la opción de expandir en el encabezado de la tabla para desplegar todas las filas agrupadas.
 
-
 ![Group by Item](images-en/prescription_group_by_item_step_1.png)
 ![Group by Item](images-en/prescription_group_by_item_step_2.png)
-
 
 Si no tienes suficiente espacio en tu pantalla o simplemente no te interesan algunas de las columnas mostradas, tienes la opción de ocultar las columnas visibles en esta vista.
 
