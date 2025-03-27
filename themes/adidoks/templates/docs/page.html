@@ -1,10 +1,7 @@
-{% extends "page.html" %} 
-{% block body %} {% set page_class = "docs single" %} {% endblock body %}
-{% block header %} {# This value is matched by the config.extra.menu.main~url #} 
-{% set
+{% extends "page.html" %} {% block body %} {% set page_class = "docs single" %} {% endblock body %}
+{% block header %} {# This value is matched by the config.extra.menu.main~url #} {% set
 current_section = "docs" %} {{ macros_header::header(current_section=current_section)}} {% endblock
-header %} 
-{% block content %}
+header %} {% block content %}
 <div class="wrap container" role="document">
   <div class="content">
     <div class="row flex-xl-nowrap">
@@ -13,8 +10,11 @@ header %}
       <main class="docs-content col-lg-11 col-xl-9">
         {% for Translation in page.translations %}
         <div class="flagster" style="float: right; padding: 5px">
-          <a href="{{Translation.permalink}}" title="Change language to {{Translation.lang}}"
-            ><img src="/icons/{{trans(key="flag", lang=Translation.lang)}}" width="28"> </a>
+          <a
+            href="javascript:location.href='/{{Translation.permalink}}'.replace('{{config.base_url}}', '')"
+            title="Change language to {{Translation.lang}}"
+            ><img src="/icons/{{trans(key="flag", lang=Translation.lang)}}" width="28">
+          </a>
         </div>
         {% endfor %}
 
