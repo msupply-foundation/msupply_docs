@@ -5,11 +5,12 @@
 title = "Open mSupply"
 
 [extra]
-lead = '<b>Open mSupply</b> consiste en un ambiente de software y servicios que ayuda a gestionar las cadenas de suministro en el área de la salud</br>Estás en el sitio en español: Passer au <a href="/fr"> Français</a> / Change to <a href="/">English</a>'
+lead = '<b>Open mSupply</b> consiste em um ambiente de software e serviços que ajuda a gerenciar as cadeias de abastecimento na área de saúde</br>Estás em um site em português : Passer au <a href="/fr"> Français</a> / Change to <a href="/">English</a>' 
+
 url = "es/docs/introduction/introduction"
 url_button = "👉 Documentos Open mSupply Desktop"
 repo_version = "GitHub v1 beta"
-repo_license = "Licencia AGPL de código abierto."
+repo_license = "Licença AGPL de código aberto."
 repo_url = "https://github.com/openmsupply/remote-server"
 
 
@@ -17,30 +18,30 @@ repo_url = "https://github.com/openmsupply/remote-server"
 icon = "mSupplymobile.png"
 title = "mSupply mobile"
 url = "pt/docs/mobile/introduction/"
-content = 'La <a href="content/mobile/introduction/introduction.es.md">Guía de usuario</a> de mSupply mobile!'
+content = ' <a href="content/mobile/introduction/introduction.pt.md">Guia de utilizador</a> de mSupply mobile!'
 
 [[extra.list]]
 icon = "mSupplyTorso.svg"
-title = "El Original mSupply Desktop"
+title = "O Original mSupply Desktop"
 url = "https://docs.msupply.org.nz/"
-content = 'La <a href="https://docs.msupply.org.nz/"> biblioteca de documentos de usuario</a> para mSupply Desktop - ahora con más de 20 años'
+content = ' <a href="https://docs.msupply.org.nz/"> biblioteca de documentos de utilizador </a> para mSupply Desktop - agora com mais de 20 anos'
 
 [[extra.list]]
 icon = "dashboard.png"
 title = "Tablero de Control mSupply"
 url = "pt/docs/dashboard/introduction/"
-content = 'La <a href="/dashboard/introduction">Guía de usuario</a> del tablero de control de mSupply!'
+content = 'La <a href="/dashboard/introduction">Guía de utilizador</a> del tablero de control de mSupply!'
 
 [[extra.list]]
 icon = "coldchain.png"
 title = "mSupply Cadena de frío"
 url = "pt/docs/coldchain/introduction/"
-content = 'Los <a href="/coldchain/introduction">Documentos de usuario</a> de la aplicación Android para mSupply Cadena de Frío'
+content = 'Los <a href="/coldchain/introduction">Documentos de utilizador</a> de la aplicación Android para mSupply Cadena de Frío'
 
 [[extra.list]]
 icon = "conforma.png"
 title = "Conforma"
 url = "pt/docs/conforma/introduction/"
-content = 'La <a href="https://docs.conforma.nz/es">Documentación de Usuario</a> para la plataforma de gestión de flujos de trabajo Conforma'
+content = 'La <a href="https://docs.conforma.nz/es">Documentos de utilizador</a> para la plataforma de gestión de flujos de trabajo Conforma'
 
 +++

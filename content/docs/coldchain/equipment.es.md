@@ -1,6 +1,6 @@
 +++
-title = "Equipos"
-description = "Management of Cold Chain Equipment"
+title = "Equipamento"
+description = "Gerenciamento de Equipamento de Cadeia de Frios"
 date = 2023-11-08T15:20:00+00:00
 updated = 2023-11-08T15:20:00+00:00
 draft = false
