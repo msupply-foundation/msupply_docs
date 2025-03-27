@@ -19,7 +19,6 @@ Il est important de pouvoir recevoir des articles d’un client sans qu’elles 
 
 Si vous avez déjà utilisé mSupply, vous connaissez peut-être le terme **Crédit Client** au lieu de « retour client ».
 
-
 Tous les produits retournés par un client doivent être enregistrés dans mSupply avec un retour client. Ils sont créés automatiquement, à la suite d’un retour fournisseur créé par un autre dépot dans Open mSupply, et peuvent également être entrés manuellement.
 
 ## Affichage des retours clients
@@ -42,14 +41,14 @@ De cet écran, vous pouvez :
 
 1. La liste des retours clients est divisée en 6 colonnes :
 
-| Colonne        | Description                    |
-| :------------ | :----------------------------- |
-| **Nom**      | nom du client          |
-| **Statut**    | Statut actuel du retour   |
-| **Numéro**    | Numéro de référence du retour |
-| **Créé**   | Date de création du retour    |
-| **Commentaire**   | Commentaire pour le retour         |
-| **Référence** | Référence client             |
+| Colonne         | Description                   |
+| :-------------- | :---------------------------- |
+| **Nom**         | nom du client                 |
+| **Statut**      | Statut actuel du retour       |
+| **Numéro**      | Numéro de référence du retour |
+| **Créé**        | Date de création du retour    |
+| **Commentaire** | Commentaire pour le retour    |
+| **Référence**   | Référence client              |
 
 2. La liste peut afficher un nombre fixe de retours par page. Dans le coin inférieur gauche, vous pouvez voir combien de retours sont actuellement affichés sur votre écran.
 
@@ -175,7 +174,6 @@ Si votre retour client a été créé à partir d’un **Livraison**, le numéro
 
 Si votre retour client a été créé automatiquement, via un retour fournisseur à partir d’un autre dépot, vous verrez une section Détails de transport. Ici, vous pouvez voir une référence de transport (p. ex., un numéro de réservation ou de suivi)
 
-
 #### Actions
 
 1. **Supprimer:** Vous pouvez cliquer sur le bouton `Supprimer` pour supprimer le retour. Vous ne pouvez supprimer les retours de clients que lorsqu’ils sont dans le statut <code>NOUVEAU</code>.
@@ -189,23 +187,23 @@ Les statuts passés sont surlignés en bleu, les états suivants apparaissent en
 
 <figure>
 <img src="/docs/distribution/images/ir_statussequence.png" alt="Customer Return Status Sequence (New)" style="width:100%">
-<figcaption align = "center">Status Sequence: Le statut actuel est <code>NOUVEAU</code>.</figcaption>
+<figcaption align="center">Status Sequence: Le statut actuel est <code>NOUVEAU</code>.</figcaption>
 </figure>
 
 <figure>
 <img src="/docs/distribution/images/ir_statussequence2.png" alt="Customer Return Status Sequence (Shipped)" style="width:100%">
-<figcaption align = "center">Status Sequence: Le statut actuel est </i><code>EXPEDIE</code>.</figcaption>
+<figcaption align="center">Status Sequence: Le statut actuel est </i><code>EXPEDIE</code>.</figcaption>
 </figure>
 
 Il y a 5 statuts pour le retour client :
 
-| Status        | Description                                                                                                           |
-| :------------ | --------------------------------------------------------------------------------------------------------------------- |
-| **Nouveau**       | Il s’agit du premier état lorsque vous créez un nouveau retour client manuel                                                 |
-| **Sélectionné**    | Le client a confirmé que le retour est sélectionné et prêt à être expédié (s’applique uniquement aux retours créés automatiquement). |
-| **Expédié**   | Le retour a été expédié et les marchandises sont en transit (s’applique uniquement aux retours créés automatiquement)                  |
-| **Livré** | Lorsque vous confirmez que le retour a été livré                                                                   |
-| **Vérifié**  | Lorsque vous avez vérifié le retour du client                                                                            |
+| Status          | Description                                                                                                                          |
+| :-------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| **Nouveau**     | Il s’agit du premier état lorsque vous créez un nouveau retour client manuel                                                         |
+| **Sélectionné** | Le client a confirmé que le retour est sélectionné et prêt à être expédié (s’applique uniquement aux retours créés automatiquement). |
+| **Expédié**     | Le retour a été expédié et les marchandises sont en transit (s’applique uniquement aux retours créés automatiquement)                |
+| **Livré**       | Lorsque vous confirmez que le retour a été livré                                                                                     |
+| **Vérifié**     | Lorsque vous avez vérifié le retour du client                                                                                        |
 
 Vous avez probablement remarqué que deux des valeurs de statut ne s’appliquent qu’aux envois créés automatiquement. Ces données sont créées par le système lorsqu’un autre magasin du système crée un retour de fournisseur pour retourner les stocks à votre dépot. Si c’est le cas, vous verrez un message en haut de la page :
 
@@ -260,10 +258,10 @@ Le bouton `Confirmer` met à jour le statut d’un retour. Le statut que vous po
 
 Lorsque vous gérez un retour de client, vous ne pouvez le confirmer que comme étant livré ou vérifié.
 
-| Confirm...            | Current Status | Next Status |
-| :-------------------- | :------------- | :---------- |
-| **Confirmer la livraison** | expédié        | livré   |
-| **Confirmer la vérification**  | livré      | vérifié    |
+| Confirm...                    | Current Status | Next Status |
+| :---------------------------- | :------------- | :---------- |
+| **Confirmer la livraison**    | expédié        | livré       |
+| **Confirmer la vérification** | livré          | vérifié     |
 
 Pour les retours clients manuels, vous n’avez pas besoin de passer au statut suivant dans la séquence. Vous pouvez choisir de sauter `Livré` pour passer directement à `Confirmer Verifier`.
 
@@ -321,7 +319,7 @@ Les raisons de retour sont configurées sur le serveur central mSupply via **[op
 
 </div>
 
-Lorsque vous êtes satisfait des informations sur le lot et les quantités à retourner, vous pouvez appuyer sur le bouton `Etape suivante`.  La liste des lots sera filtrée pour inclure uniquement les lots pour lesquels vous avez défini une quantité de retour. Dans cette vue, vous pouvez entrer une raison pour le retour de chaque lot, et un commentaire supplémentaire.
+Lorsque vous êtes satisfait des informations sur le lot et les quantités à retourner, vous pouvez appuyer sur le bouton `Etape suivante`. La liste des lots sera filtrée pour inclure uniquement les lots pour lesquels vous avez défini une quantité de retour. Dans cette vue, vous pouvez entrer une raison pour le retour de chaque lot, et un commentaire supplémentaire.
 
 ![Provide return reasons](/docs/distribution/images/ir_additem_returnstep.png)
 
@@ -331,11 +329,11 @@ Lorsque vous êtes satisfait des quantités et des motifs, vous pouvez appuyer s
 
 - Le bouton `OK` Votre article sera ajouté au formulaire de retour du client.
 - le bouton `OK & suivant` pour ajouter un autre article immédiatement
-- le bouton `Retour`, pour revenir à l’étape `Selectionner quantité` 
+- le bouton `Retour`, pour revenir à l’étape `Selectionner quantité`
 
 ## Modification d’une ligne de retour du client
 
-Pour modifier une ligne de retour, appuyez dessus. Vous verrez la fenêtre `Modifier article`, qui est identique à la fenêtre  `Ajouter article`,  except that the item is already chosen.
+Pour modifier une ligne de retour, appuyez dessus. Vous verrez la fenêtre `Modifier article`, qui est identique à la fenêtre `Ajouter article`, except that the item is already chosen.
 
 ### Modifier une ligne de retour
 

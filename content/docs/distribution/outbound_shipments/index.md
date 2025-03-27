@@ -230,12 +230,12 @@ Passed statuses are hightlighted in blue, next statuses appear in grey.
 
 <figure>
 <img src="/docs/distribution/images/os_statussequence2.png" style="width:100%">
-<figcaption align = "center">Status Sequence: current status is <code>NEW</code>.</figcaption>
+<figcaption align="center">Status Sequence: current status is <code>NEW</code>.</figcaption>
 </figure>
 
 <figure>
 <img src="/docs/distribution/images/os_statussequence3.png" alt="Trulli" style="width:100%">
-<figcaption align = "center">Status Sequence: current status is </i><code>PICKED</code>.</figcaption>
+<figcaption align="center">Status Sequence: current status is </i><code>PICKED</code>.</figcaption>
 </figure>
 
 There are 6 status for the Outbound Shipment:
@@ -438,7 +438,7 @@ The values in the **Total quantity** row will be automatically updated with the 
 
 <figure>
 <img src="/docs/distribution/images/os_additem_manualallocation.gif" style="width:100%">
-<figcaption align = "center"><i>Manual allocation at the batch number level.</i></figcaption>
+<figcaption align="center"><i>Manual allocation at the batch number level.</i></figcaption>
 </figure>
 
 ### Issuing when there is not enough stock (Placeholder Line)

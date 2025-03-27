@@ -187,12 +187,12 @@ Passed statuses are hightlighted in blue, next statuses appear in grey.
 
 <figure>
 <img src="/docs/distribution/images/ir_statussequence.png" alt="Customer Return Status Sequence (New)" style="width:100%">
-<figcaption align = "center">Status Sequence: current status is <code>NEW</code>.</figcaption>
+<figcaption align="center">Status Sequence: current status is <code>NEW</code>.</figcaption>
 </figure>
 
 <figure>
 <img src="/docs/distribution/images/ir_statussequence2.png" alt="Customer Return Status Sequence (Shipped)" style="width:100%">
-<figcaption align = "center">Status Sequence: current status is </i><code>SHIPPED</code>.</figcaption>
+<figcaption align="center">Status Sequence: current status is </i><code>SHIPPED</code>.</figcaption>
 </figure>
 
 There are 5 status for the Customer Return:

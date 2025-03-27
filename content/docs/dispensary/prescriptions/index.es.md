@@ -42,7 +42,7 @@ Desde esta pantalla puedes:
 1. La lista de prescripciones se divide en 5 columnas:
 
 | Columna        | Descripción                             |
-|:-------------- |:--------------------------------------- |
+| :------------- | :-------------------------------------- |
 | **Nombre**     | Nombre del paciente                     |
 | **Estado**     | Estado actual de la prescripción        |
 | **Número**     | Número de referencia de la prescripción |
@@ -173,18 +173,18 @@ Los estados completados se destacan en azul, mientras que los próximos estados 
 
 <figure>
 <center><img src="prescription_statussequence1.png" style="width:40%"></center>
-<figcaption align = "center">Secuencia de estados: el estado actual es <code>NUEVO</code>.</figcaption>
+<figcaption align="center">Secuencia de estados: el estado actual es <code>NUEVO</code>.</figcaption>
 </figure>
 
 <figure>
 <center><img src="prescription_statussequence2.png" alt="Trulli" style="width:40%"></center>
-<figcaption align = "center">Secuencia de estados: el estado actual es </i><code>VERIFICADO</code>.</figcaption>
+<figcaption align="center">Secuencia de estados: el estado actual es </i><code>VERIFICADO</code>.</figcaption>
 </figure>
 
 Hay 3 estados para una prescripción:
 
 | Estado         | Descripción                                                                                                                                                                |
-|:-------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Nuevo**      | Este es el primer estado cuando creas una prescripción.                                                                                                                    |
 | **Recogido**   | La prescripción ha sido recogida y ahora está lista para entregar al paciente. Los productos siguen siendo parte de tu inventario y la prescripción aún puede ser editada. |
 | **Verificado** | El paciente ha recibido su medicamento.                                                                                                                                    |
@@ -210,11 +210,11 @@ El botón `Confirmar` actualiza el estado de la prescripción. El estado que pue
 Al gestionar una prescripción, solo puedes confirmar los estados Recogida y Verificada.
 
 | Confirmar...             | Estado actual | Próximo Estado |
-|:------------------------ |:------------- |:-------------- |
+| :----------------------- | :------------ | :------------- |
 | **Confirmar Recogida**   | Nuevo         | Recogida       |
 | **Confirmar verificada** | Recogida      | Verificada     |
 
-No es obligatorio actualizar una prescripción al siguiente estado en la secuencia. Puedes optar por omitir `Confirmar Verificada` e ir directamente a  `Confirmar Enviada`, por ejemplo.
+No es obligatorio actualizar una prescripción al siguiente estado en la secuencia. Puedes optar por omitir `Confirmar Verificada` e ir directamente a `Confirmar Enviada`, por ejemplo.
 
 Como se muestra a continuación, toca la flecha hacia abajo del botón `Confirmar` y selecciona el estado al que deseas actualizar la prescripción.
 
@@ -270,7 +270,7 @@ El valor predeterminado es `Cualquiera` cuando emites en unidades.
 Esta es una lista de los números de lote que tienes en el almacén para este artículo:
 
 | Columna                     | Descripción                                                                                                           |
-|:--------------------------- |:--------------------------------------------------------------------------------------------------------------------- |
+| :-------------------------- | :-------------------------------------------------------------------------------------------------------------------- |
 | **Lote**                    | Número de lote. Es una designación asignada a productos fabricados en la misma tanda de producción.                   |
 | **Vencimiento**             | Fecha de vencimiento del lote (formato: MM/AAAA).                                                                     |
 | **Ubicación**               | Nombre de la ubicación donde se almacena el artículo, si tu inventario se gestiona con ubicaciones de almacenamiento. |
@@ -314,7 +314,7 @@ Sin embargo, ¡todavía puedes elegir manualmente esas líneas y emitir el stock
 
 ![pack sizes warning!](images-en/os_warning_pack_sizes.png)
 
-Esta advertencia te indica que, debido a los tamaños de paquete disponibles, el sistema ha redondeado hacia arriba la cantidad solicitada. En este ejemplo, no hay ningún tamaño de paquete menor que  `12`. Sin embargo, hay paquetes de `20` disponibles, por lo que cuando se solicitan 12 tabletas, el sistema ha redondeado la solicitud a `2` paquetes de `20`.
+Esta advertencia te indica que, debido a los tamaños de paquete disponibles, el sistema ha redondeado hacia arriba la cantidad solicitada. En este ejemplo, no hay ningún tamaño de paquete menor que `12`. Sin embargo, hay paquetes de `20` disponibles, por lo que cuando se solicitan 12 tabletas, el sistema ha redondeado la solicitud a `2` paquetes de `20`.
 
 ![pack sizes warning!](images-en/os_warning_no_quantity.png)
 
@@ -352,7 +352,7 @@ Los valores en la fila **Total** se actualizarán automáticamente con la nueva 
 
 ![Manual allocation at the batch number level- step 1](images-en/prescription_additem_manual_step_1.png)
 
-   ![Manual allocation at the batch number level- step 1](images-en/prescription_additem_manual_step_2.png)
+![Manual allocation at the batch number level- step 1](images-en/prescription_additem_manual_step_2.png)
 
 ### Confirmar artículo y cantidad
 
@@ -375,7 +375,7 @@ Para editar una línea de prescripción, toca sobre ella. Se te presentará la v
 1. Abre la prescripción que deseas editar.
 
 2. Toca sobre la línea que deseas editar. Aparecerá una ventana idéntica a la de `Añadir Artículo`. En esta etapa:
-   
+
    - Edita el campo principal `Emitir`
    - o cambia el valor del número de paquetes a nivel de lote
 
@@ -410,7 +410,7 @@ Una prescripción puede retrocederse cambiando el campo de la fecha en el encabe
 
 #### Niveles de Inventario
 
-Al agregar artículos a una prescripción retrocedida, el inventario disponible se ajustará a lo que estaba disponible en esa fecha (y no se ha utilizado desde entonces). 
+Al agregar artículos a una prescripción retrocedida, el inventario disponible se ajustará a lo que estaba disponible en esa fecha (y no se ha utilizado desde entonces).
 Los demás campos siguen mostrando el estado actual del sistema.
 
 ![Backdating a Prescription, stock levels](images-en/prescription_backdate_stock_levels.png)
