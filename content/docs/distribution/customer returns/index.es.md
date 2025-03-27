@@ -52,15 +52,15 @@ Desde esta pantalla puedes:
 
 1. La lista puede mostrar un número fijo de devolcuiones por página. En la esquina inferior izquierda, podrás ver cuántas devolucionesse están mostrando actualmente en la pantalla.
 
-![Page](/docs/distribution/images/os_list_showing.png)
+![Page](../../images/list_showing.png)
 
 2. Si tienes más devoluciones que el límite actual, puedes navegar a otras páginas oprimiendo en el número de la página o usando las fechas izquierda o derecha (esquina inferior izquierda).
 
-![Page](/docs/distribution/images/os_list_pagenumbers.png)
+![Page](../../images/list_pagenumbers.png)
 
 3. También puedes seleccionar un número diferente de filas para mostrar por página usando la opciónn en la esquina inferior derecha de la página.
 
-![Rows per page](/docs/introduction/images/rows-per-page-select.png)
+![Rows per page](../../images/rows-per-page-select.png)
 
 ### Buscar por Nombre de Cliente
 

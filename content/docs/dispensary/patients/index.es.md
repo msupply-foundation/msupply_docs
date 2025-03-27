@@ -18,7 +18,7 @@ Desde esta página los pacientes pueden ser agregados y editar su nformación
 
 ### Pacientes
 
-Para utilizar pacientes, asegúrate de que tu almacén esté configurado en el modo `Dispensario` (consulta la documentación de  [almacenes virtuales](https://docs.msupply.org.nz/other_stuff:virtual_stores#store_type) para saber como hacerlo).
+Para utilizar pacientes, asegúrate de que tu almacén esté configurado en el modo `Dispensario` (consulta la documentación de [almacenes virtuales](https://docs.msupply.org.nz/other_stuff:virtual_stores#store_type) para saber como hacerlo).
 
 ### Abrir el Menú de Pacientes
 
@@ -34,28 +34,28 @@ Se mostrará una lista de pacientes visibles para tu almacén.
 
 1. La lista de pacientes está dividida en 8 columnas:
 
-| Columna                 | Descripción                                 |
-| :---------------------- | :------------------------------------------ |
-| **ID del Pacientes**    | El documento de identificación del cliente  |
-| **NUIC**                | Código único de identificación nacional     |
-| **Creado**              | Fecha de creación del paciente              |
-| **Nombre**              | Nombre                                      |
-| **Apellido**            | Apellido                                    | 
-| **Género**              | Género                                      |
-| **Fecha de NAcimiento** | Fecha de nacimiento del paciente            |
-| **Fallecido**           | Indica si el paciente está fallecido        |
+| Columna                 | Descripción                                |
+| :---------------------- | :----------------------------------------- |
+| **ID del Pacientes**    | El documento de identificación del cliente |
+| **NUIC**                | Código único de identificación nacional    |
+| **Creado**              | Fecha de creación del paciente             |
+| **Nombre**              | Nombre                                     |
+| **Apellido**            | Apellido                                   |
+| **Género**              | Género                                     |
+| **Fecha de NAcimiento** | Fecha de nacimiento del paciente           |
+| **Fallecido**           | Indica si el paciente está fallecido       |
 
 2. La lista puede mostrar un número fijo de pacientes por página. En la esquina inferior izquierda, puedes ver cuántos pacientes se están mostrando actualmente en tu pantalla.
 
-![Page](/docs/distribution/images/os_list_showing.png)
+![Page](../../images/list_showing.png)
 
 3. Si tienes más pacientes que el límite actual, puedes navegar a las otras páginas tocando el número de página o usando las flechas derecha o izquierda (esquina inferior derecha).
 
-![Page](/docs/distribution/images/os_list_pagenumbers.png)
+![Page](../../images/list_pagenumbers.png)
 
 4. También puedes seleccionar una cantidad diferente de filas para mostrar por página utilizando la opción en la esquina inferior derecha de la página.
 
-![Rows per page](/docs/introduction/images/rows-per-page-select.png)
+![Rows per page](../../images/rows-per-page-select.png)
 
 ### Filtrar pacientes
 

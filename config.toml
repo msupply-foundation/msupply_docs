@@ -41,16 +41,16 @@ generate_feeds = true     # there will be a feed for Spanish content
 build_search_index = true
 title = "mSupply 🇪🇸"
 
+[languages.pt]
+generate_feeds = true     # there will be a feed for Portuguese content
+build_search_index = true
+title = "mSupply 🇵🇹"
+
 [languages.pt.translations]
 title = "mSupply.pt"
 flag = "pt.svg"
 TOCtitle = "Nesta página"
 search_placeholder = "Pesquisar documentos..."
-
-[languages.pt]
-generate_feeds = true     # there will be a feed for Portuguese content
-build_search_index = true
-title = "mSupply 🇵🇹"
 
 [markdown]
 # Whether to do syntax highlighting

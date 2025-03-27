@@ -16,12 +16,12 @@ top = false
 Cold Chain Equipment is a digital registry and inventory for the management of cold chain assets such as fridges, freezers and remote temperature monitoring devices. It allows health departments to track their cold chain assets including their location and functional status.
 
 There are three main ways for users to interact with asset management in Open mSupply
-* For managers:
-    * Log on to the Open mSupply central server for an overview of assets in all facilities, to add and edit assets
-    * Use the mSupply Dashboard to view customised data about assets
-* For users at a facility
-    * Log on to Open mSupply in their facility to update asset status (and occasionally add an asset, but usally this will be done by central managers)
 
+- For managers:
+  - Log on to the Open mSupply central server for an overview of assets in all facilities, to add and edit assets
+  - Use the mSupply Dashboard to view customised data about assets
+- For users at a facility
+  - Log on to Open mSupply in their facility to update asset status (and occasionally add an asset, but usally this will be done by central managers)
 
 From the `Equipment` menu, all assets available in the current store can be viewed.
 
@@ -55,15 +55,15 @@ The equipment list is divided into 6 columns:
 
 The list can display a fixed number of assets per page. On the bottom left corner, you can see how many assets are currently displayed on your screen.
 
-![Page](/docs/distribution/images/os_list_showing.png)
+![Page](../../images/list_showing.png)
 
 If you have more assets than the current limit, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner).
 
-![Page](/docs/distribution/images/os_list_pagenumbers.png)
+![Page](../../images/list_pagenumbers.png)
 
 You can also select a different number of rows to show per page using the option at the bottom right of the page.
 
-![Rows per page](/docs/introduction/images/rows-per-page-select.png)
+![Rows per page](../../images/rows-per-page-select.png)
 
 #### Filter Equipment
 

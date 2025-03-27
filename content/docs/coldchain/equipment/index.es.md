@@ -1,6 +1,6 @@
 +++
-title = "Equipos"
-description = "Management of Cold Chain Equipment"
+title = "Equipamento"
+description = "Gerenciamento de Equipamento de Cadeia de Frios"
 date = 2023-11-08T15:20:00+00:00
 updated = 2023-11-08T15:20:00+00:00
 draft = false
@@ -29,17 +29,17 @@ Aquí puedes ver todos los equipos de cadena de frío disponibles en tu almacén
 
 La lista de equipos se divide en 6 columnas:
 
-| Columna                | Descripción                                                                                                       |
-| :-------------------- | :---------------------------------------------------------------------------------------------------------------- |
-| **Número de activo**     | El número asignado al activo                                                                                                  |
-| **Tipo**                 | El tipo de activo                                                                                                 |
-| **Fabricante**           | El fabricante del activo                                                                                    |
-| **Modelo**               | El número de modelo del activo                                                                                     |
-| **Estado funcional**     | El estado funcional del activo, por ejemplo: `FUNCIONANDO`                                                              |
-| **Número de serie**      | El número de serie del activo                                                                                   |
+| Columna                  | Descripción                                                                                                                |
+| :----------------------- | :------------------------------------------------------------------------------------------------------------------------- |
+| **Número de activo**     | El número asignado al activo                                                                                               |
+| **Tipo**                 | El tipo de activo                                                                                                          |
+| **Fabricante**           | El fabricante del activo                                                                                                   |
+| **Modelo**               | El número de modelo del activo                                                                                             |
+| **Estado funcional**     | El estado funcional del activo, por ejemplo: `FUNCIONANDO`                                                                 |
+| **Número de serie**      | El número de serie del activo                                                                                              |
 | **Fuera de catálogo**    | Indica si el activo no fue creado a partir de un artículo del catálogo (ver [Catálogo > Activos](/docs/catalogue/assets/)) |
-| **Fecha de instalación** | La fecha en que se instaló el activ                                                                                  |
-| **Notas**                | Notas ingresadas sobre el activo                                                                                     |
+| **Fecha de instalación** | La fecha en que se instaló el activ                                                                                        |
+| **Notas**                | Notas ingresadas sobre el activo                                                                                           |
 
 ![Equipment nav](/docs/coldchain/images/equipment_list.png)
 
@@ -47,15 +47,15 @@ La lista de equipos se divide en 6 columnas:
 
 La lista puede mostrar un número fijo de activos por página. En la esquina inferior izquierda, puedes ver cuántos activos se están mostrando actualmente en tu pantalla.
 
-![Page](/docs/distribution/images/os_list_showing.png)
+![Page](../../images/list_showing.png)
 
 Si tienes más activos que el límite actual, puedes navegar a las otras páginas tocando el número de página o utilizando las flechas derecha o izquierda (esquina inferior derecha).
 
-![Page](/docs/distribution/images/os_list_pagenumbers.png)
+![Page](../../images/list_pagenumbers.png)
 
 También puedes seleccionar un número diferente de filas para mostrar por página usando la opción en la esquina inferior derecha de la página.
 
-![Rows per page](/docs/introduction/images/rows-per-page-select.png)
+![Rows per page](../../images/rows-per-page-select.png)
 
 #### Filtrar equipos
 
@@ -91,14 +91,14 @@ Al importar activos en el servidor central, se requerirá un campo adicional de 
 
 La información deberá ingresarse en el formato proporcionado por la plantilla csv para que Open mSupply pueda procesar y cargar estos datos.
 
-| Columna                 | Descripción                                                      |  Ejemplo            | Obligatorio         |
-| :---------------------- | :--------------------------------------------------------------- | :----------------- | :---------------- |
-| **Número de activo**        | El número de activo asignado por la organización del usuario             | 1                  | \*                |
-| **Código del artículo del catálogo** | El código del catálogo de activos, es decir, el tipo de activo a importar | E003/002           | \*                |
-| **Almacén**               | El código del almacén al que se asignará el activo       | CMS                | \* (solo central) |
-| **Notas**               | Notas generales sobre el activo                                    | Guardado en oficina EPI |                   |
-| **Número de serie**       | El número de serie de ese activo en particular                       | 123456789ABC       |                   |
-| **Fecha de instalación**   | La fecha en que se instaló el activo en el almacén               | 2024-01-14         |                   |
+| Columna                              | Descripción                                                               | Ejemplo                 | Obligatorio       |
+| :----------------------------------- | :------------------------------------------------------------------------ | :---------------------- | :---------------- |
+| **Número de activo**                 | El número de activo asignado por la organización del usuario              | 1                       | \*                |
+| **Código del artículo del catálogo** | El código del catálogo de activos, es decir, el tipo de activo a importar | E003/002                | \*                |
+| **Almacén**                          | El código del almacén al que se asignará el activo                        | CMS                     | \* (solo central) |
+| **Notas**                            | Notas generales sobre el activo                                           | Guardado en oficina EPI |                   |
+| **Número de serie**                  | El número de serie de ese activo en particular                            | 123456789ABC            |                   |
+| **Fecha de instalación**             | La fecha en que se instaló el activo en el almacén                        | 2024-01-14              |                   |
 
 Se puede cargar un archivo csv una vez que haya sido creado en el formato de ejemplo.
 
