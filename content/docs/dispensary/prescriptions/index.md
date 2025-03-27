@@ -21,13 +21,13 @@ A Prescription can be used to:
 
 ## Viewing Prescriptions
 
-To use prescriptions, ensure that your store is set to `Dispensary` mode (see the [virtual stores](images-en/https://docs.msupply.org.nz/other_stuff:virtual_stores#store_type) documentation for how to do this).
+To use prescriptions, ensure that your store is set to `Dispensary` mode (see the [virtual stores](https://docs.msupply.org.nz/other_stuff:virtual_stores#store_type) documentation for how to do this).
 
 ### Open the Prescriptions Menu
 
 Choose `Dispensary` > `Prescription` in the navigation panel.
 
-<img src="goto_prescriptions.png" title="" alt="Go to Prescriptions" data-align="center">
+![Go to Prescriptions](images-en/goto_prescriptions.png)
 
 You will be presented with a list of Prescriptions (if you don't see any, you are probably just starting!).
 
@@ -41,13 +41,13 @@ From this screen you can:
 
 1. The list of Prescriptions is divided into 5 columns:
 
-| Column      | Description                         |
-|:----------- |:----------------------------------- |
-| **Name**    | Name of the Patient                 |
-| **Status**  | Current Status of the prescription  |
-| **Number**  | Reference Number of the precription |
-| **Created** | Creation date of the prescription   |
-| **Comment** | Comment for the prescription        |
+| Column      | Description                          |
+| :---------- | :----------------------------------- |
+| **Name**    | Name of the Patient                  |
+| **Status**  | Current Status of the prescription   |
+| **Number**  | Reference Number of the prescription |
+| **Created** | Creation date of the prescription    |
+| **Comment** | Comment for the prescription         |
 
 2. The list can display a fixed number of prescriptions per page. On the bottom left corner, you can see how many prescriptions are currently displayed on your screen.
 
@@ -61,21 +61,25 @@ From this screen you can:
 
 ![Rows per page](images-en/rows-per-page-select.png)
 
-### Search by Patient Name
+### Searching for a prescription
 
-You can filter the list of prescriptions by patient name. This can be useful if you're looking for one particular prescription!
+Prescriptions can be filtered by Status, Reference, Invoice Number, Dispensing Date, and Patient Name
 
-Type the name of a patient in the `Search by name` field (on the left, just above the list headers). All the prescriptions for this patient will appear in the list.
+![Prescription Filters](images-en/prescription_filters.png)
 
-![Search by name](images-en/search_by_name.png)
+<div class="note">
+The invoice number filter requires an exact match so searching for "1" will not return invoices 10, 11, 12 etc.
+</div>
 
 ### Exporting Prescriptions
 
-The list of Prescriptions can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page)
-
+The list of Prescriptions can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page) and the file will be downloaded.
+The export function will download all Prescriptions, not just the current page, if you have more than 20 of them. Prescriptions are exported using sort order selected in the table, though of course you could easily sort the list in Excel or whatever you open the .csv file with.
 ![Export button](images-en/export.png)
 
-and the file will be downloaded. The export function will download all Prescriptions, not just the current page, if you have more than 20 of them. Prescriptions are exported using sort order selected in the table, though of course you could easily sort the list in Excel or whatever you open the .csv file with!
+<div class="note">
+Export functionality is not available on Android devices.
+</div>
 
 ### Delete a Prescription
 
@@ -86,7 +90,7 @@ You can delete a prescription from the Prescription list.
 3. A notification confirms how many prescriptions were deleted (bottom left corner).
 
 <div class="note">
-You can only delete Prescriptions with a status <code>NEW</code>.
+You can only delete Prescriptions with a status <code>NEW</code> or <code>PICKED</code>. Verified prescriptions can be Cancelled, but not deleted.
 </div>
 
 ![Prescription list: delete](images-en/prescription_delete_step_1.png)
@@ -99,24 +103,33 @@ You can only delete Prescriptions with a status <code>NEW</code>.
 
 2. Press the `New Prescription` button, in the top right corner
 
-![New Prescription](images-en/click_new_prescription.png)
+![New Prescription Button](images-en/click_new_prescription.png)
 
-3. A new window `Patients` opens, inviting you to select a patient.
+3. A new window `Patients` opens, inviting you to select a patient and other details for the prescription.
+
+![New Prescription Window](images-en/prescriptions_new_prescription_name.png)
 
 #### Select a Patient
 
-1. In the `Patients` window, you will be presented with a form to search for available patients. The patients list will load when you start typing - you can enter as much of the patient's name or code as you need.
+In the `New Prescription` window, you will be presented with a form to search for available patients. The patients list will load when you start typing - you can enter as much of the patient's name or code as you need.
 
-<div class="imagetitle">
-In the below example, we are prescribing medicine to <b>Ginny Weasley</b>. 
+If no match is found a `Create new patient` button will appear. Clicking this will open a new window to create a new patient, before returning you to the Prescription window.
+![Create new patient pop up](images-en/prescriptions_new_prescription_no_match.png)
+
+<div class="note">
+If you have found a matching patient, but it's not the correct one, you can just press space a few times, to see the New Patient button.
 </div>
 
-![gif](images-en/prescription_select_patient_step_1.png)
-![gif](images-en/prescription_select_patient_step_2.png)
+#### Set other Prescription Fields
 
-2. Your Prescription is automatically created once you click on the patient in the dropdown list.
+- **Date**: The dispensing date. This defaults to the current date, but can be changed to a past date if you're entering a backdated prescription.
+- **Reference**: This is a free text field that can be used to store a reference number or other information about the prescription.
+- **Clinician**: The clinician who prescribed the medicine.
+- **Program**: The program that this prescription is associated with. If selected, only items from this program will be available to add to the prescription.
 
-<div class=imagetitle>
+After selecting a patient, and filling in any other relevant details, press the `Create` button.
+
+<div class="imagetitle">
 If everything went well, you should see the name of your patient in the top left corner and the status should be <code>NEW</code> 
 </div>
 
@@ -132,21 +145,17 @@ If you have selected the wrong patient, you can change the patient name in the `
 
 You may need to type more of the patient's name or code if you have more than 100 patients for the patient's name to show on the dropdown list.
 
-### Select the Clinician
-
-Once your Prescription has been created, you can select a clinician from the `Clinician` dropdown list.
-![Select Clinician](images-en/prescription_clinician_step_1.png)
-![Select Clinician](images-en/prescription_clinician_step_2.png)
-
 ### View or edit the Prescription Information Panel
 
-The Information Panel allows you to see or edit information about the Prescription. It is divided into multiple sections:
+The Information Panel allows you to see or edit information about the Prescription. It is divided into the following sections:
 
+- Prescription Details
 - Additional Info
 - Pricing
 - Patient Details
+- Actions
 
-We are planning to add more sections in the future as Open mSupply grows.
+More sections will be added as Open mSupply grows.
 
 #### How to open and close the Information Panel?
 
@@ -171,10 +180,16 @@ In the **Additional Info** section, you can:
 In the **Pricing** section, you can:
 
 - See the total selling price of the items listed in the Prescription.
+- Any insurance information related to this prescription.
 
 In the **Patient Details** section, you can:
 
+- See the patient's name, code, gender, and Date of Birth
 - Select a Diagnosis related to the prescription
+
+In the **Actions** section, you can:
+
+- Delete or Cancel the Prescription
 
 ### Prescription Status Sequence
 
@@ -183,34 +198,34 @@ The status sequence is located at the bottom left corner of the Prescription scr
 Passed statuses are highlighted in blue, next statuses appear in grey.
 
 <figure>
-<center><img src="prescription_statussequence1.png" style="width:40%"/></center>
+<center><img src="images-en/prescription_statussequence1.png" style="width:40%"/></center>
 <figcaption align="center">Status Sequence: current status is <code>NEW</code>.</figcaption>
 </figure>
 
 <figure>
-<center><img src="prescription_statussequence2.png" alt="Trulli" style="width:40%"/></center>
+<center><img src="images-en/prescription_statussequence2.png" alt="Trulli" style="width:40%"/></center>
 <figcaption align="center">Status Sequence: current status is </i><code>VERIFIED</code>.</figcaption>
 </figure>
 
 There are 3 status for a Prescription:
 
 | Status       | Description                                                                                                                                  |
-|:------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| :----------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | **New**      | This is the first status when you create a prescription.                                                                                     |
 | **Picked**   | Prescription is picked and is now ready to give to the patient. Goods are still part of your inventory and prescription can still be edited. |
 | **Verified** | The patient has received their medicine.                                                                                                     |
 
-If you hover over the status sequence, a prescription history window appears. You can see the date when a perscription was updated from one status to another.
+If you hover over the status sequence, a prescription history window appears. You can see the date when a prescription was updated from one status to another.
 
 <div class="imagetitle">
 This prescription has been created, picked and verified on 18/08/2023
 </div>
 
-<img src="images-en/prescription_statussequence_hover.png" title="" alt="Prescription status: hover" width="301">
+![Prescription status: hover](images-en/prescription_statussequence_hover.png)
 
-### Cancel and Confirm button
+### Close and Confirm button
 
-#### Cancel Button
+#### Close Button
 
 Tap on the `Close` button to quit the Prescription view and return to the Prescriptions list.
 
@@ -218,10 +233,10 @@ Tap on the `Close` button to quit the Prescription view and return to the Prescr
 
 The `Confirm` button updates the status of the prescription. The status which you can confirm depends on the current status of the prescription and follows the sequence shown below.
 
-When managing an Prescription, you can only confirm the Picked and Verified statuses. Once you have added an item to a prescription, the status will change to `Picked` automatically.
+When managing a Prescription, you can only confirm the Picked and Verified statuses. Once you have added an item to a prescription, the status will change to `Picked` automatically.
 
 | Confirm...           | Current Status | Next Status |
-|:-------------------- |:-------------- |:----------- |
+| :------------------- | :------------- | :---------- |
 | **Confirm Picked**   | New            | Picked      |
 | **Confirm Verified** | Picked         | Verified    |
 
@@ -267,6 +282,10 @@ This shows the item name and code.
 ##### Issuing stock
 
 In the `Issue` field, you can enter the quantity that you want to issue to your patient.
+
+If you're recording [prescribed quantities](https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab), you can enter the prescribed quantity first, which will automatically populate the `Issue` field for you.
+![Prescribed Quantity](images-en/prescriptions_prescribed_qty.png)
+
 The system will then attempt to automatically allocate the stock for the prescription.
 
 #### List of available batches:
@@ -274,7 +293,7 @@ The system will then attempt to automatically allocate the stock for the prescri
 This is a list of batch numbers that you have in store for this item:
 
 | Column                | Description                                                                             |
-|:--------------------- |:--------------------------------------------------------------------------------------- |
+| :-------------------- | :-------------------------------------------------------------------------------------- |
 | **Expiry**            | Expiry date of the batch (format: MM/YYYY)                                              |
 | **Batch**             | Batch number. It is a designation given to products made in the same manufacturing run. |
 | **Pack Size**         | Quantity of units per pack                                                              |
@@ -323,16 +342,34 @@ This method also allows you to select expired batches, but not on hold batches.
 To select or adjust the selected batches, enter or edit the quantity in the `Units Issued` column.
 
 <figure>
-<img src="images-en/prescription_additem_manual_step_1.png" width="100%>
-<img src="prescription_additem_manual_step_2.png" width="100%">
+<img src="images-en/prescription_additem_manual_step_1.png">
+<img src="images-en/prescription_additem_manual_step_2.png">
 <figcaption align = "center"><i>Manual allocation at the batch number level.</i></figcaption>
 </figure>
 
-### Confirm Item and Quantity
+### Directions
+
+This section allows you to enter or select directions for patient use of the current item. These directions will be printed on labels if label printing is in use.
+There are 3 ways to enter directions
+
+1. You can select default item directions from the dropdown list [(See mSupply Docs for item directions configuration)](https://docs.msupply.org.nz/items:item_basics:tab_dispensing?#default_directions)
+
+![Default Item Directions](images-en/prescriptions_default_item_directions.png)
+
+2. You can enter a set or abbreviated directions in the text box which will be expanded to the full directions field
+   [(See mSupply Docs for abbreviation configuration)](https://docs.msupply.org.nz/dispensing:abbreviations)
+
+![Abbreviation Expansion](images-en/prescriptions_abbr_expansion.png)
+
+3. You can enter or modify the directions in the text box
+
+![Manually entering directions](images-en/prescription_manual_directions.png)
+
+### Confirm Item, Quantity and other details
 
 When you are happy with the quantity, you can either press on:
 
-- the `Save` button.m
+- the `Save` button.
 
 - the `Cancel` button if you do not want to add the item to the Prescription any more
 
@@ -425,6 +462,55 @@ Once the prescription has been confirmed:
 - You can no longer edit prescription lines
 - You can no longer delete the prescription
 
+## Printing Labels
+
+Open mSupply has basic label printing that will be built upon with more flexibility in the future.
+
+![Prescription label](images-en/prescription_label.jpg)
+![Prescription abbreviation](images-en/prescription_abbreviation.png)
+
+First ensure that you have configured a printer in [Settings](/docs/settings/devices/). Note that at the moment we use the ZPL printing language under the hood, which covers about half the hardware on the market. You'll need to tweak the printer configuration (directly on the device) to get it just right for our label printing.
+
+### Directions
+
+For each item in the prescription you'll need to define item directions to be printed on the labels. These can be entered manually, with abbreviations or default item directions.
+
+See the [Directions](/dispensary/prescriptions/#directions) section for more information.
+
+### Printing All
+
+When viewing the overall prescription, you'll see that lines that have directions will have a comment bubble icon.Once all the directions are entered on all the lines, this is a good time to print all your labels! Press the "Print Labels" button at the top of the page.
+
+![Prescription label print all](images-en/prescription_page.png)
+
+Note: If you have multiple batches of the same item, only 1 label will be printed with the total number of units across the batches noted in the top line of the label.
+
+### Printing Selected Rows
+
+You can select individual rows in the prescription to print labels for by ticking the column on the left, then pressing "Print Labels" in the action bar at the bottom of the screen.
+
+![Prescription label row action](images-en/prescription_print_label_row.png)
+
+### Troubleshooting
+
+In any case, [support@msupply.foundation](mailto:support@msupply.foundation) will be happy to help figure out your printer setup.
+
+#### My labels are badly cut off on the top/bottom/left/right
+
+This is likely due to incompatible configuration of the label printer. The easiest solution is to get mSupply OG to print a label with _good_ configuration as it has some magic that reconfigures the printer based on the printing settings that we don't quite do in Open mSupply!
+
+#### The Clinician details are missing
+
+This is likely due to not having set the Clinician for the prescription.
+
+#### Not all my directions are showing
+
+Unfortunately at this time we only support up to 5 lines of directions per prescription. In the future we'll seek to have some size adjustment to allow more as well as multiple labels printed if there is too much text.
+
+#### The item name has printed over itself
+
+The item names in the system are too long for this label format! Please contact [support@msupply.foundation](mailto:support@msupply.foundation).
+
 ## Viewing a Prescription
 
 Batches are automatically grouped by item when viewing a specific prescription. Use the expand button for a specific row in order to see the details for each batch of the item.
@@ -443,3 +529,14 @@ Click on the `Show / hide columns` button which is at the top right of the table
 ![Hide columns](images-en/prescription_columns_step_3.png)
 
 If some columns are hidden, you can click `Show all` to show all of the columns again.
+
+## Cancelling a Prescription
+
+If a prescription has already been verified it can't be deleted, but it can be cancelled.
+
+This is done in the Side panel actions section.
+![Cancel Prescription](images-en/prescriptions_cancel_button.png)
+
+Once a prescription is cancelled, it will still show in the list of prescriptions, but with a status of `CANCELLED`.
+
+![Example Canceled Prescription](images-en/prescription-cancelled.png)
