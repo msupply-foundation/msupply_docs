@@ -18,7 +18,6 @@ The following table outlines some of the common terms used in Open mSupply, and 
 |:-----------------:|:---------------------:|:------------------------------------------------------------------------ |
 | Outbound Shipment | Customer Invoice      | The creation of a supply of goods to a particular customer (facility)    |
 | Inbound Shipment  | Supplier Invoice      | The receiving of a supply of goods from a particular supplier            |
-| Inbound Shipment  | Supplier Invoice      | The receiving of a supply of goods from a particular supplier            |
 | Requisition       | Customer Requisitions | An order for supply of goods made by a particular customer (facility)    |
 | Internal Orders   | Supplier Requisitions | A request for stock made to a particular supplier (facility)             |
 | Supplier Return   | Supplier Credit       | The return of supplied goods to a particular supplier (facility)         |
