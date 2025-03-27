@@ -111,7 +111,7 @@ Nesta página podes:
 - Isso irá habilitar a criac1ão de um novo motivo.
   ![New reason modal](images-en/reasons_create_modal.png)
 
-- Selecione os motivos para os eliminar. Os botões de ação serão apresentados na parte inferior do ecrã quando for selecionado um motivo do registo de activos
+- Selecione os motivos a serem excluidos. Os botões de ação serão apresentados na parte inferior do ecrã quando for selecionado um motivo do registo de activos
   ![Delete reason button](images-en/delete-asset-log-reasons.png)
 
 - Filtrar razões existentes por estado utilizando o menu suspenso de filtros.
