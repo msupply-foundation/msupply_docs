@@ -9,22 +9,20 @@ sort_by = "weight"
 template = "docs/page.html"
 +++
 
-Les listes Maîtresse sont des listes standard, des regroupements d'articles qui ne peuvent être définies qu'au niveau du serveur central. 
+Les listes Maîtresse sont des listes standard, des regroupements d'articles qui ne peuvent être définies qu'au niveau du serveur central.
 
 ## Consulter les Listes Maîtresse
 
-Allez à `Catalogue` > `Listes Maîtresse` dans le panneau de navigation à gauche: 
+Allez à `Catalogue` > `Listes Maîtresse` dans le panneau de navigation à gauche:
 
-![](/docs/catalogue/images/cat_gotoml.png)
+![](images-en/cat_gotoml.png)
 
-Vous verrez une fenêtre comme celle-ci : 
+Vous verrez une fenêtre comme celle-ci :
 
-![](/docs/catalogue/images/cat_mllist.png)
+![](images-en/cat_mllist.png)
 
-Pour afficher tous les éléments d'une liste, cliquez simplement sur l'une des listes qui s'affichent à l'écran. 
+Pour afficher tous les éléments d'une liste, cliquez simplement sur l'une des listes qui s'affichent à l'écran.
 
 Le contenu de la liste s'affichera comme ci-après:
 
-![](/docs/catalogue/images/cat_mldetail.png)
-
-
+![](images-en/cat_mldetail.png)

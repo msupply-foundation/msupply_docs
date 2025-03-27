@@ -12,6 +12,7 @@ template = "docs/page.html"
 toc = true
 top = false
 +++
+
 Una Devolución de Cliente se utiliza para registrar el stock que un cliente devuelve.
 
 Es importante poder recibir mercancía de un cliente sin que se cuente como mercancía que proviene de un proveedor. Si tu cliente te envía los productos en una Salida y luego los recibes a través de una Entrada, esos productos se contarán como parte del 'suministro' de tu tienda de los proveedores, lo cual no es correcto. Una Devolución de Cliente es la manera adecuada de recibir mercancía de un cliente.
@@ -41,7 +42,7 @@ Desde esta pantalla puedes:
 1. La lisya de Devoluciones de Cliente se divide en 6 columnas:
 
 | Columna        | Descripción                           |
-| :------------  | :-----------------------------------  |
+| :------------- | :------------------------------------ |
 | **Nombre**     | Nombre del Cliente                    |
 | **Estado**     | Estado actual de la devolución        |
 | **Número**     | Número de referencia de la devolución |
@@ -51,19 +52,19 @@ Desde esta pantalla puedes:
 
 1. La lista puede mostrar un número fijo de devolcuiones por página. En la esquina inferior izquierda, podrás ver cuántas devolucionesse están mostrando actualmente en la pantalla.
 
-![Page](/docs/distribution/images/os_list_showing.png)
+![Page](../../images/list_showing.png)
 
 2. Si tienes más devoluciones que el límite actual, puedes navegar a otras páginas oprimiendo en el número de la página o usando las fechas izquierda o derecha (esquina inferior izquierda).
 
-![Page](/docs/distribution/images/os_list_pagenumbers.png)
+![Page](../../images/list_pagenumbers.png)
 
 3. También puedes seleccionar un número diferente de filas para mostrar por página usando la opciónn en la esquina inferior derecha de la página.
 
-![Rows per page](/docs/introduction/images/rows-per-page-select.png)
+![Rows per page](../../images/rows-per-page-select.png)
 
 ### Buscar por Nombre de Cliente
 
-Puedes filtrar la lista de Devoluciones de Cliente por nombre o por estado. ¡Esto puede ser útil si estás buscando por una Devolución en particular! 
+Puedes filtrar la lista de Devoluciones de Cliente por nombre o por estado. ¡Esto puede ser útil si estás buscando por una Devolución en particular!
 
 Por ejemplo: Selecciona el filtro de `Nombre` desde la lista para poder filtrar por el nombre del cliente. Escribe el nombre del cliente en el campo de `Nombre`. Todas las devoluciones de este cliente aparecerán en la lista.
 
@@ -176,7 +177,7 @@ Si tu Devolución de Cliente fue creada automáticamente, a través de una Devol
 #### Acciones
 
 1. **Eliminar:** Puedes hacer clic en el botón `Eliminar`. Solamente puedes eliminar las Devoluciones de Cliente mientras estén con el estado de <code>NUEVO</code>.
-2. **Copiar al Portapapeles**: Puedes hacer clic en el botón  `Copiar al Portapapeles` para copiar los detalles de la factura al portapapeles.
+2. **Copiar al Portapapeles**: Puedes hacer clic en el botón `Copiar al Portapapeles` para copiar los detalles de la factura al portapapeles.
 
 ### Secuencia de Estados de la Devolución de Cliente
 
@@ -223,7 +224,6 @@ y verás que la barra de estado tiene solo los valores de estado que se aplican 
     <figcaption align="center">Secuencia de Estado: el estado actual es </i><code>Nuevo</code>.</figcaption>
 </figure>
 
-
 Si pasas el cursor sobre la secuencia de estados, aparecerá una ventana de historial de devoluciones. Podrás ver la fecha en que una devolución se actualizó de un estado a otro.
 
 <div class="imagetitle">
@@ -258,10 +258,10 @@ El botón `Confirmar` actualiza el estado de una devolución. El estado que pued
 
 Al gestionar una Devolución de Cliente, solo puedes confirmarla como Entregada o Verificada.
 
-| Confirmar...               | Estado Actual   | Siguiente Estado |
-| :------------------------- | :-------------- | :--------------- |
-| **Confirmar Entregado**    | Enviado         | Entregado        |
-| **Confirmar Verrificado**  | Entregado       | Verificado       |
+| Confirmar...              | Estado Actual | Siguiente Estado |
+| :------------------------ | :------------ | :--------------- |
+| **Confirmar Entregado**   | Enviado       | Entregado        |
+| **Confirmar Verrificado** | Entregado     | Verificado       |
 
 Para las Devoluciones de Cliente manuales, no es necesario actualizar al siguiente estado en la secuencia. Puedes optar por omitir `Entregado` para ir directamente a `Confirmar Verificado`.
 
@@ -299,7 +299,7 @@ En el paso `Selectar Cantidades`, puedes ingresar los siguientes campos:
 - **Cantidad de Paquetes Emitidos**: Número de paquetes emitidos en la Salida
 - **Cantidad Devuelta**: Número de paquetes a devolver
 
-Si estás recibiendo más de un número de lote para el mismo artículo, puedes agregar líneas con el botón  `Agregar Lote`.
+Si estás recibiendo más de un número de lote para el mismo artículo, puedes agregar líneas con el botón `Agregar Lote`.
 
 ![List of batches](/docs/distribution/images/ir_list_of_batches.png)
 

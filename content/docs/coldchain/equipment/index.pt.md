@@ -21,7 +21,7 @@ No menu `Equipamentos` é possível ver todos os ativos disponíveis na unidade 
 TODO: Add link to central server docs when they are created
 -->
 
-Os ativos de cadeia de frios de **todas**  as unidades de saúde são visíveis ao clicar no menu `Equipamentos` através do servidor central do Open mSupply.
+Os ativos de cadeia de frios de **todas** as unidades de saúde são visíveis ao clicar no menu `Equipamentos` através do servidor central do Open mSupply.
 
 ![goto equipment](/docs/coldchain/images/equipment.png)
 
@@ -29,17 +29,17 @@ Aqui é possível ver os equipamentos de cadeia de frio disponíveis em sua unid
 
 A lista de equipamentos se divide em 6 colunas:
 
-| Columna                | Descripción                                                                                                       |
-| :-------------------- | :---------------------------------------------------------------------------------------------------------------- |
-| **Número do ativo**     | O número atrelado ao ativo                                                                                                  |
-| **Tipo**                 | O tipo de ativo                                                                                                 |
-| **Fabricante**           | O fabricante do ativo                                                                                    |
-| **Modelo**               | O número de modelo do activo                                                                                     |
-| **Estado funcional**     | O estado funcional do activo, por exemplo: `FUNCIONANDO`                                                              |
-| **Número de série**      | O número de série do ativo                                                                                   |
-| **Fora do catálogo**    | Indica se o ativo não foi criado a partir de um artigo do catálogo (ver [Catálogo > Ativos](/docs/catalogue/assets/)) |
-| **Data de instalação** | A data em que o ativo foi instalado                                                                                  |
-| **Notas**                | Notas sobre esse ativo                                                                                     |
+| Columna                | Descripción                                                                                                           |
+| :--------------------- | :-------------------------------------------------------------------------------------------------------------------- |
+| **Número do ativo**    | O número atrelado ao ativo                                                                                            |
+| **Tipo**               | O tipo de ativo                                                                                                       |
+| **Fabricante**         | O fabricante do ativo                                                                                                 |
+| **Modelo**             | O número de modelo do activo                                                                                          |
+| **Estado funcional**   | O estado funcional do activo, por exemplo: `FUNCIONANDO`                                                              |
+| **Número de série**    | O número de série do ativo                                                                                            |
+| **Fora do catálogo**   | Indica se o ativo não foi criado a partir de um artigo do catálogo (ver [Catálogo > Ativos](/docs/catalogue/assets/)) |
+| **Data de instalação** | A data em que o ativo foi instalado                                                                                   |
+| **Notas**              | Notas sobre esse ativo                                                                                                |
 
 ![Equipment nav](/docs/coldchain/images/equipment_list.png)
 
@@ -47,15 +47,15 @@ A lista de equipamentos se divide em 6 colunas:
 
 A lista mostra um número fixo de ativos por página. Do lado inferior esquerdo, podes ver quantos ativos estão a aparecer na por página.
 
-![Page](/docs/distribution/images/os_list_showing.png)
+![Page](../../images/list_showing.png)
 
-Caso possua mais ativos do que o número atual, podes navegar até as outras páginas ao clicar no número de página desejado, ou ao utilizar as setas para direita/esquerda. 
+Caso possua mais ativos do que o número atual, podes navegar até as outras páginas ao clicar no número de página desejado, ou ao utilizar as setas para direita/esquerda.
 
-![Page](/docs/distribution/images/os_list_pagenumbers.png)
+![Page](../../images/list_pagenumbers.png)
 
 También puedes seleccionar un número diferente de filas para mostrar por página usando la opción en la esquina inferior derecha de la página.
 
-![Rows per page](/docs/introduction/images/rows-per-page-select.png)
+![Rows per page](../../images/rows-per-page-select.png)
 
 #### Filtrar equipamentos
 
@@ -82,24 +82,23 @@ Isto abrirá uuma janela de importação. Clique em `Fazer download de uma plani
 ![](/docs/coldchain/images/equipment_import_modal.png)
 
 Ao importar ativos numa unidade de saúde, estás a designa1-los automaticamente à esta unidade.
+
 <!--
 TODO: Add link to central server docs when they are created
 -->
 
-Ao importar ativos no servidor central, um campo adicional será requerido, chamado  `unidade de saúde` que alocará os ativos às suas respectivas unidades de saúde.
+Ao importar ativos no servidor central, um campo adicional será requerido, chamado `unidade de saúde` que alocará os ativos às suas respectivas unidades de saúde.
 
-O Open mSupply apenas aceitará ficheiros no formato CSV para carregar os dados. 
+O Open mSupply apenas aceitará ficheiros no formato CSV para carregar os dados.
 
-| Columna                 | Descripción                                                      |  Ejemplo            | Obligatorio         |
-| :---------------------- | :--------------------------------------------------------------- | :----------------- | :---------------- |
-| **Número do ativo**        | O número atrelado ao ativo, escolhido pelo utilizador            | 1                  | \*                |
-| **Código do artigo do catálogo** | O código do catálogo de ativos, ou o tipo de artigo a importar | E003/002           | \*                |
-| **Unidade de Saúde**               | O código da unidade de saúde na qual será alocado o ativo       | CMS                | \* (solo central) |
-| **Notas**               | Notas generais sobre o ativo                                    | Guardado en oficina EPI |                   |
-| **Número de série**       | O número de série desse ativo em particular                       | 123456789ABC       |                   |
-| **Data de instalação**   | A data em que o ativo foi instalado na unidade de saúde              | 2024-01-14         |                   |
-
-
+| Columna                          | Descripción                                                    | Ejemplo                 | Obligatorio       |
+| :------------------------------- | :------------------------------------------------------------- | :---------------------- | :---------------- |
+| **Número do ativo**              | O número atrelado ao ativo, escolhido pelo utilizador          | 1                       | \*                |
+| **Código do artigo do catálogo** | O código do catálogo de ativos, ou o tipo de artigo a importar | E003/002                | \*                |
+| **Unidade de Saúde**             | O código da unidade de saúde na qual será alocado o ativo      | CMS                     | \* (solo central) |
+| **Notas**                        | Notas generais sobre o ativo                                   | Guardado en oficina EPI |                   |
+| **Número de série**              | O número de série desse ativo em particular                    | 123456789ABC            |                   |
+| **Data de instalação**           | A data em que o ativo foi instalado na unidade de saúde        | 2024-01-14              |                   |
 
 <p align="center">
     <img src="/docs/coldchain/images/equipment_import_upload.png" width="750" height="420">
@@ -126,7 +125,7 @@ Caso esteja utilizando o Open mSupply em um tablet ou na versão desktop , terá
 Vá até a seção [Escáneres de códigos de barras](/docs/settings/devices/#barcode-scanners) da documentação de `Configuração` e configure um scaner antes de continuar.
 
 Uma vez que tenha un escaner conectado, o botão `Escanear` estará disponi2vel e habilitado para escanear um código QR.
-Caso encontre encuentre uma duplicata ao escanear, serás dirigido à página de detalhes do equipamento de cadeia de frio. Caso não encontre nenhuma correspondência, verás uma notificação que informa que nenhum resultado foi encontrado. 
+Caso encontre encuentre uma duplicata ao escanear, serás dirigido à página de detalhes do equipamento de cadeia de frio. Caso não encontre nenhuma correspondência, verás uma notificação que informa que nenhum resultado foi encontrado.
 
 <div class="nota">Podes imprimir uma etiqueta com um código QR para um equipamento. Consulte a seção <a href="/docs/coldchain/equipment/#printing-a-qr-code">Imprimir código QR</a> para mais detalhes</div>
 
@@ -176,6 +175,7 @@ Em `Resumo`, pode-se:
 Também é possível visualizar o estado funcional e editar notas.
 
 #### Detalhes
+
 A aba `Detalhes` mostra as propiedades do ativo.
 
 ![](/docs/coldchain/images/equipment_detail.png)
@@ -210,7 +210,6 @@ Aquí se registram todas as ações realizadas pelos utilizadores para esse ativ
 
 #### Atualizar estado
 
-
 ao clicarn o botão `Atualizar estado`, spode-se criar uma nova entrada para o estado funcional.
 
 ![](/docs/coldchain/images/update_status_button.png)
@@ -239,7 +238,7 @@ Para ajudar a identificar ativos, é possível imprimir uma etiqueta com un cód
 
 Simplemente clique no botão `Imprimir código QR`, caso tehha configurada uma impressora de etiquetas.
 
-Para configurar una impresora de etiquetas, consulte a seção [Impressão de etiquetas](/docs/settings/devices/#label-printing)  nas páginas de configuração.
+Para configurar una impresora de etiquetas, consulte a seção [Impressão de etiquetas](/docs/settings/devices/#label-printing) nas páginas de configuração.
 
 A etiqueta mostrará o código e o número de série, por exemplo:
 

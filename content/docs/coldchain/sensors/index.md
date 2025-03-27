@@ -15,7 +15,7 @@ top = false
 
 ### Connecting Sensors
 
-Open mSupply supports multiple types of temperature sensors. 
+Open mSupply supports multiple types of temperature sensors.
 
 The methods for connecting each are described below.
 
@@ -69,7 +69,6 @@ The following Berlinger devices are compatible with Open mSupply:
 
 \*Logger device does not capture individual temperature logs
 
-
 ### Viewing Sensors
 
 Choose `Cold chain` > `Sensors` in the navigation panel.
@@ -86,17 +85,17 @@ From this screen you can view a list of Sensors and edit a Sensor.
 
 1. The list of Sensors is divided into 9 columns:
 
-| Column            | Description                                                                                         |
-| :---------------- | :-------------------------------------------------------------------------------------------------- |
-| **Name**          | Name of the Sensor                                                                                  |
-| **CCE**           | Asset number of the cold chain equipment item which the sensor is associated with                   |
-| **Location**      | Current stock storage `Location` of the sensor                                                                      |
-| **Serial Number** | A unique identifier for the sensor                                                                  |
-| **Battery Level** | Most recent battery reading, in percentage                                                          |
-| **Last reading**  | The most recent temperature reported by the sensor                                                  |
-| **Date time**     | Date and time of the most recent activity for this sensor                                           |
+| Column            | Description                                                                           |
+| :---------------- | :------------------------------------------------------------------------------------ |
+| **Name**          | Name of the Sensor                                                                    |
+| **CCE**           | Asset number of the cold chain equipment item which the sensor is associated with     |
+| **Location**      | Current stock storage `Location` of the sensor                                        |
+| **Serial Number** | A unique identifier for the sensor                                                    |
+| **Battery Level** | Most recent battery reading, in percentage                                            |
+| **Last reading**  | The most recent temperature reported by the sensor                                    |
+| **Date time**     | Date and time of the most recent activity for this sensor                             |
 | **Sensor type**   | The manufacturer of the sensor, currently support options are `mSupply` & `Berlinger` |
-| **Breach type**   | If the sensor has had a breach, this shows the type of the most recent breach                       |
+| **Breach type**   | If the sensor has had a breach, this shows the type of the most recent breach         |
 
 1. The list can display a fixed number of sensors per page. On the bottom left corner, you can see how many sensors are currently displayed on your screen.
 
@@ -108,7 +107,7 @@ From this screen you can view a list of Sensors and edit a Sensor.
 
 3. You can also select a different number of rows to show per page using the option at the bottom right of the page.
 
-![Rows per page](/docs/introduction/images/rows-per-page-select.png)
+![Rows per page](../../images/rows-per-page-select.png)
 
 ### Editing a sensor
 

@@ -21,17 +21,17 @@ Dans le menu **Articles**, vous pouvez consulter tous les articles qui sont actu
 
 Dans le panneau de navigation à gauche, sélectionnez `Catalogue` > `Articles` pour voir afficher la liste des produits:
 
-![Items nav](/docs/catalogue/images/cat_gotoitems.png)
+![Items nav](images-en/cat_gotoitems.png)
 
 Vous pouvez voir tous les articles disponibles et visibles pour votre dépôt :
 
-![Items list](/docs/catalogue/images/cat_itemslist.png)
+![Items list](images-en/cat_itemslist.png)
 
 ## Consulter les détails d'un article
 
 Pour consulter les détails d'un article, un seul clique sur la ligne de l'article suffit. Une nouvelle fenêtre apparaît:
 
-![Item detail](/docs/catalogue/images/cat_itemdetail.png)
+![Item detail](images-en/cat_itemdetail.png)
 
 En haut de l'écran, vous pouvez lire les informations suivantes:
 
@@ -43,7 +43,7 @@ En haut de l'écran, vous pouvez lire les informations suivantes:
 Dans l'exemple ci-dessous, nous avons 1542 unités d'amoxicilline disponibles. La consommation moyenne est de 53,3 unités par mois ce qui signifie qu'il y a l'équivalent de 28,9 mois de stock dans le dépôt. 
 </div>
 
-![Item detail headers](/docs/catalogue/images/cat_itemdetailsheaders.png)
+![Item detail headers](images-en/cat_itemdetailsheaders.png)
 
 Dans la partie inférieure, les détails de l'article sont divisés en plusieurs sections :
 

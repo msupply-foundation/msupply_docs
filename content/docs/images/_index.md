@@ -1,8 +1,8 @@
 +++
-title = "Catalogue"
-description = "Manage your items"
+title = "Documentation"
+description = "Common images"
 template = "docs/section.html"
 sort_by = "weight"
-weight = 6
+weight = 1
 draft = false
 +++

@@ -50,15 +50,15 @@ From this screen you can:
 
 1. The list can display a fixed number of returns per page. On the bottom left corner, you can see how many returns are currently displayed on your screen.
 
-![Page](/docs/distribution/images/os_list_showing.png)
+![Page](../../images/list_showing.png)
 
 3. If you have more returns than the current limit, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner).
 
-![Page](/docs/distribution/images/os_list_pagenumbers.png)
+![Page](../../images/list_pagenumbers.png)
 
 4. You can also select a different number of rows to show per page using the option at the bottom right of the page.
 
-![Rows per page](/docs/introduction/images/rows-per-page-select.png)
+![Rows per page](../../images/rows-per-page-select.png)
 
 ### Search by Supplier Name
 

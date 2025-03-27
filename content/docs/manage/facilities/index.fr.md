@@ -27,13 +27,13 @@ Une liste des dépôts de votre système s'affiche.
 
 La liste des dépôts est divisée en 5 colonnes:
 
-| Colonne           | Description                      |
-| :---------------- | :------------------------------- |
-| **Code**          | Code du dépôt                    |
-| **Nom**           | Nom du dépôt                     |
-| **Fournisseur**   | Si ce dépôt est un fournisseur   |
-| **Client**        | Si ce dépôt est un client        |
-| **Donateur**      | Si ce dépôt est un donateur      |
+| Colonne         | Description                    |
+| :-------------- | :----------------------------- |
+| **Code**        | Code du dépôt                  |
+| **Nom**         | Nom du dépôt                   |
+| **Fournisseur** | Si ce dépôt est un fournisseur |
+| **Client**      | Si ce dépôt est un client      |
+| **Donateur**    | Si ce dépôt est un donateur    |
 
 <div class="tip">
 Vous pouvez savoir si un client utilise également Open mSupply dans son entrepôt s'il a une icône comme celle-ci <img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto"> à côté du code. 
@@ -41,15 +41,15 @@ Vous pouvez savoir si un client utilise également Open mSupply dans son entrep�
 
 La liste peut afficher un nombre fixe de dépôts par page. Dans le coin inférieur gauche, vous pouvez voir combien de magasins sont actuellement affichés sur votre écran.
 
-![Pagination: showing](/docs/distribution/images/os_list_showing.png)
+![Pagination: showing](../../images/list_showing.png)
 
 Si vous avez plus de dépôts que la limite actuelle, vous pouvez naviguer vers les autres pages en cliquant sur le numéro de la page ou en utilisant les flèches droite ou gauche (en bas à droite).
 
-![Pagination: navigating](/docs/distribution/images/os_list_pagenumbers.png)
+![Pagination: navigating](../../images/list_pagenumbers.png)
 
 Vous pouvez également sélectionner un nombre différent de lignes à afficher par page en utilisant l'option située en bas à droite de la page.
 
-![Rows per page](/docs/introduction/images/rows-per-page-select.png)
+![Rows per page](../../images/rows-per-page-select.png)
 
 ### Searching facilities
 

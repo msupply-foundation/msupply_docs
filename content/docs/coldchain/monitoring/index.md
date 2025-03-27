@@ -42,7 +42,7 @@ The chart tab displays a chart plot for all configured sensors. You can filter t
 - Date/Time Range
 - Breach type
 
-To add a filter to the page, choose the required filter from the drop down. 
+To add a filter to the page, choose the required filter from the drop down.
 
 <div class="note">By default, data from the last 24 hours is shown. Use the <code>From date/time</code> and <code>To date/time</code> fields to look at a longer period of time.
 </br></br>
@@ -77,7 +77,7 @@ The `Breaches` tab displays a list of all recorded breaches.
 The list of breaches is divided into 10 columns:
 
 | Column           | Description                                                                                                                    |
-|:---------------- |:------------------------------------------------------------------------------------------------------------------------------ |
+| :--------------- | :----------------------------------------------------------------------------------------------------------------------------- |
 |                  | An icon showing an alert if this breach is unacknowledged                                                                      |
 | **Status**       | The breach status can be `Acknowledged` or `Unacknowledged`                                                                    |
 | **Sensor name**  | Name of the Sensor                                                                                                             |
@@ -114,7 +114,7 @@ To add a filter to the page, choose the required filter from the drop down. To r
 
 3. You can also select a different number of rows to show per page using the option at the bottom right of the page.
 
-![Rows per page](/docs/introduction/images/rows-per-page-select.png)
+![Rows per page](../../images/rows-per-page-select.png)
 
 #### Acknowledging breaches
 
@@ -144,7 +144,7 @@ The `Log` tab shows a list of all temperature logs.
 The list of temperature logs is divided into 6 columns:
 
 | Column          | Description                                                                                                                                                                            |
-|:--------------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :-------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Date time**   | Date and time of the most recent activity for this sensor                                                                                                                              |
 | **Sensor name** | Name of the Sensor                                                                                                                                                                     |
 | **Location**    | Current location linked to the sensor                                                                                                                                                  |
@@ -173,4 +173,4 @@ To add a filter to the page, choose the required filter from the drop down.
 
 3. You can also select a different number of rows to show per page using the option at the bottom right of the page.
 
-![Rows per page](/docs/introduction/images/rows-per-page-select.png)
+![Rows per page](../../images/rows-per-page-select.png)

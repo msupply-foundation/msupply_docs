@@ -15,7 +15,7 @@ top = false
 
 Le logiciel de gestion de la chaîne du froid est un registre numérique permettant la création et la gestion des actifs de la chaîne du froid. Il permet aux services de santé de gérer, d'enregistrer les historiques de fonctionnement et de mettre à jour la localisation des équipements de la chaîne du froid.
 
-A partir du menu **Equipements**,  l'ensemble des actifs tangibles ou équipements d'un site sont visibles.
+A partir du menu **Equipements**, l'ensemble des actifs tangibles ou équipements d'un site sont visibles.
 
 <!--
 TODO: Add link to central server docs when they are created
@@ -29,16 +29,16 @@ Ici, vous pouvez consulter tous les équipements de la chaîne du froid disponib
 
 La liste des équipements est divisée en 6 colonnes:
 
-| Column                | Description                                                                                                       |
-| :-------------------- | :---------------------------------------------------------------------------------------------------------------- |
-| **Numéro d'Actif**      | Le numéro d'actif                                                                                                  |
-| **Type**              | Le type d'actif                                                                                                 |
-| **Fabricant**      | Le fabricant de votre actif                                                                                    |
-| **Modele**             | Le numéro de modele de votre actif                                                                                     |
-| **Etat de fonctionnement** | L'état de fonctionnement de votre actif, par exemple: `Opérationnel`                                                              |
-| **Numéro de série**     | Le numéro de série de l'actif                                                                                    |
-| **Hors-catalogue**     | Désigne si l'actif a ete créé hors actif catalogue (voir [Catalogue > Assets](/docs/catalogue/assets/)) |
-| **Notes**             | Notes entrées au sujet de l'actif                                                                                     |
+| Column                     | Description                                                                                             |
+| :------------------------- | :------------------------------------------------------------------------------------------------------ |
+| **Numéro d'Actif**         | Le numéro d'actif                                                                                       |
+| **Type**                   | Le type d'actif                                                                                         |
+| **Fabricant**              | Le fabricant de votre actif                                                                             |
+| **Modele**                 | Le numéro de modele de votre actif                                                                      |
+| **Etat de fonctionnement** | L'état de fonctionnement de votre actif, par exemple: `Opérationnel`                                    |
+| **Numéro de série**        | Le numéro de série de l'actif                                                                           |
+| **Hors-catalogue**         | Désigne si l'actif a ete créé hors actif catalogue (voir [Catalogue > Assets](/docs/catalogue/assets/)) |
+| **Notes**                  | Notes entrées au sujet de l'actif                                                                       |
 
 ![Equipment nav](/docs/coldchain/images/equipment_list.png)
 
@@ -46,15 +46,15 @@ La liste des équipements est divisée en 6 colonnes:
 
 La liste peut afficher un nombre fixe d'actifs par page. Dans le coin inférieur gauche, vous pouvez voir combien d'actifs sont actuellement affichés sur votre écran.
 
-![Page](/docs/distribution/images/os_list_showing.png)
+![Page](../../images/list_showing.png)
 
 Si vous disposez de plus d'actifs que la limite actuelle, vous pouvez accéder aux autres pages en appuyant sur le numéro de page ou en utilisant la droite ou la gauche des flèches (coin inférieur droit).
 
-![Page](/docs/distribution/images/os_list_pagenumbers.png)
+![Page](../../images/list_pagenumbers.png)
 
 Vous pouvez également sélectionner un nombre différent de lignes à afficher par page en utilisant l'option en bas à droite de la page.
 
-![Colonnes par page](/docs/introduction/images/rows-per-page-select.png)
+![Colonnes par page](../../images/rows-per-page-select.png)
 
 #### Filtrer les équipements
 
@@ -98,15 +98,14 @@ Lors de l'importation d'actifs sur le serveur central, un champ supplémentaire 
 
 Les informations devront être saisies dans le format fourni par le modèle csv pour qu'Open mSupply puisse traiter et télécharger ces données.
 
-| Colonne                       | Description                                                       | Exemple               | Obligatoire                 |
-| :---------------------------- | :----------------------------                                     | :-------------------- | :---------                 |
-| **Numéro de série**              | Le numéro d'actif attribué par l'organisation de l'utilisateur              | 1                     | *                          |
-| **Code Article Catalogue**       | Le code du catalogue d'actifs - le type d'actif à importer  | E003/002              | *                          |
-| **Dépôt**                     | Le code du dépôt auquel l'actif' doit être affecté        | CMS                   | * (seulement central)           |
-| **Notes**                     | Note générales sur l'équipement                                     | Bureau du PEV    |                            |
-| **Numéro de série**             | Le numéro de série de cet actif particulier                       | 123456789ABC          |                            |
-| **Date d'insytallation**         | Date d'installation de l'actif dans le dépôt                | 2024-01-14            |                            |
-
+| Colonne                    | Description                                                    | Exemple       | Obligatoire            |
+| :------------------------- | :------------------------------------------------------------- | :------------ | :--------------------- |
+| **Numéro de série**        | Le numéro d'actif attribué par l'organisation de l'utilisateur | 1             | \*                     |
+| **Code Article Catalogue** | Le code du catalogue d'actifs - le type d'actif à importer     | E003/002      | \*                     |
+| **Dépôt**                  | Le code du dépôt auquel l'actif' doit être affecté             | CMS           | \* (seulement central) |
+| **Notes**                  | Note générales sur l'équipement                                | Bureau du PEV |                        |
+| **Numéro de série**        | Le numéro de série de cet actif particulier                    | 123456789ABC  |                        |
+| **Date d'insytallation**   | Date d'installation de l'actif dans le dépôt                   | 2024-01-14    |                        |
 
 Un fichier csv peut être téléchargé une fois créé dans le format exemple.
 
@@ -132,7 +131,7 @@ Vous pouvez voir cette notification lorsque vous cliquez sur le bouton :
 
 ![Bouton Scan](/docs/coldchain/images/equipment_scan_error.png)
 
-Dans ce cas, référez-vous à la section  [Scanners de code barre](/docs/administration/devices/#barcode-scanners) de la documentatiom `Administrateur` et configurez un sacnner avant de continuer.
+Dans ce cas, référez-vous à la section [Scanners de code barre](/docs/administration/devices/#barcode-scanners) de la documentatiom `Administrateur` et configurez un sacnner avant de continuer.
 
 Une fois que vous avez connecté un scanner, vous pouvez cliquer sur le bouton `Scan` et scanner un code QR.
 Si une correspondance est trouvée lors de la numérisation, vous serez redirigé vers la page de détails de cet élément d'équipement de la chaîne du froid. Sinon, vous verrez une notification indiquant qu'aucune correspondance n'a été trouvée.
@@ -229,16 +228,17 @@ Ceci ouvre un nouveau journal.
 </p>
 
 Ici, vous pouvez saisir :
+
 - Un nouveau statut fonctionnel
 - Une raison pour le nouveau statut fonctionnel
 - Toutes observations ou notes
-Des documents supplémentaires, notamment des photos, peuvent également être téléchargés pour ce journal d'état.
+  Des documents supplémentaires, notamment des photos, peuvent également être téléchargés pour ce journal d'état.
 
 <p align="center">
     <img src="/docs/coldchain/images/status_log_document_upload.png" width="700" height="420">
 </p>
 
-Ces documents peuvent etre consultés dans l'onglet `Journaux d'état`. 
+Ces documents peuvent etre consultés dans l'onglet `Journaux d'état`.
 
 ![Document de journal d'état](/docs/coldchain/images/status_log_document.png)
 

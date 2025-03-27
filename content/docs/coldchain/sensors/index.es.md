@@ -15,7 +15,7 @@ top = false
 
 ### Conectar Sensores
 
-Open mSupply admite varios tipos de sensores de temperatura. 
+Open mSupply admite varios tipos de sensores de temperatura.
 
 Los métodos para conectar cada uno se describen a continuación.
 
@@ -69,7 +69,6 @@ Los siguientes dispositivos de Berlinger son compatibles con Open mSupply:
 
 \*El dispositivo registrador no captura registros individuales de temperatura
 
-
 ### Visualización de los Sensores
 
 Selecciona `Cold chain` > `Sensores` en el panel de navegación.
@@ -86,17 +85,17 @@ Desde esta pantalla puedes ver una lista de sensores y editar un sensor.
 
 1. La lista de sensores está dividida en 9 columnas:
 
-| Columna                      | Descripción                                                                                         |
-| :---------------- | :-------------------------------------------------------------------------------------------------- |
-| **Nombre**                   | Nombre del sensor                                                                                  |
-| **CCE**                      | Número de activo del equipo de cadena de frío al que está asociado el sensor                   |
-| **Ubicación**                |  `Ubicación` actual de almacenamiento de inventario del sensor                                                                      |
-| **Número de serie**          | Identificador único del sensor                                                                  |
-| **Nivel de batería**         | Lectura más reciente de la batería, en porcentaje                                                          |
-| **Última lectura**           | La temperatura más reciente reportada por el sensor                                                  |
-| **Fecha y Hora**             | Fecha y hora de la actividad más reciente del sensor                                           |
-| **Tipo de sensor**           | Fabricante del sensor; las opciones compatibles actualmente son `mSupply` & `Berlinger` |
-| **Tipo de incumplimiento**   | Si el sensor ha registrado un incumplimiento, muestra el tipo del incumplimiento más reciente                       |
+| Columna                    | Descripción                                                                                   |
+| :------------------------- | :-------------------------------------------------------------------------------------------- |
+| **Nombre**                 | Nombre del sensor                                                                             |
+| **CCE**                    | Número de activo del equipo de cadena de frío al que está asociado el sensor                  |
+| **Ubicación**              | `Ubicación` actual de almacenamiento de inventario del sensor                                 |
+| **Número de serie**        | Identificador único del sensor                                                                |
+| **Nivel de batería**       | Lectura más reciente de la batería, en porcentaje                                             |
+| **Última lectura**         | La temperatura más reciente reportada por el sensor                                           |
+| **Fecha y Hora**           | Fecha y hora de la actividad más reciente del sensor                                          |
+| **Tipo de sensor**         | Fabricante del sensor; las opciones compatibles actualmente son `mSupply` & `Berlinger`       |
+| **Tipo de incumplimiento** | Si el sensor ha registrado un incumplimiento, muestra el tipo del incumplimiento más reciente |
 
 1. La lista puede mostrar un número fijo de sensores por página. En la esquina inferior izquierda, puedes ver cuántos sensores se están mostrando actualmente en tu pantalla.
 
@@ -108,7 +107,7 @@ Desde esta pantalla puedes ver una lista de sensores y editar un sensor.
 
 3. También puedes seleccionar un número diferente de filas para mostrar por página usando la opción en la esquina inferior derecha de la página.
 
-![Rows per page](/docs/introduction/images/rows-per-page-select.png)
+![Rows per page](../../images/rows-per-page-select.png)
 
 ### Editar un sensor
 

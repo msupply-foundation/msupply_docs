@@ -50,15 +50,15 @@ Desde esta pantalla puedes:
 
 2. La lista puede mostrar un número fijo de devoluciones por página. En la esquina inferior izquierda, puedes ver cuántas devoluciones se muestran actualmente en tu pantalla.
 
-![Page](/docs/distribution/images/os_list_showing.png)
+![Page](../../images/list_showing.png)
 
 3. Si tienes más devoluciones que el límite actual, puedes navegar a otras páginas tocando el número de página o usando las flechas derecha o izquierda (esquina inferior derecha).
 
-![Page](/docs/distribution/images/os_list_pagenumbers.png)
+![Page](../../images/list_pagenumbers.png)
 
 4. También puedes seleccionar un número diferente de filas para mostrar por página utilizando la opción en la esquina inferior derecha de la página.
 
-![Rows per page](/docs/introduction/images/rows-per-page-select.png)
+![Rows per page](../../images/rows-per-page-select.png)
 
 ### Buscar por Nombre del Proveedor
 
@@ -69,7 +69,7 @@ Selecciona el filtro `Nombre` de la lista para filtrar por el nombre del proveed
 
 Escribe el nombre de un proveedor en el campo `Nombre`. Todas las devoluciones asociadas a este proveedor aparecerán en la lista.
 
-### Exportar Devoluciones al Proveedor 
+### Exportar Devoluciones al Proveedor
 
 La lista de devoluciones al proveedor se puede exportar a un archivo separado por comas (csv). Simplemente haz clic en el botón de exportar (ubicado a la derecha, en la parte superior de la página)
 
@@ -198,13 +198,13 @@ Los estados completados están resaltados en azul, mientras que los próximos es
 
 Hay 5 estados para la Devolución de Proveedor:
 
-| Estado      | Descripción                                                                                                                                           |
-| :------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Nuevo**       | Este es el primer estado cuando se crea una devolución. Los productos se reservan (ya no están disponibles para otros envíos), pero aún forman parte de tu inventario. |
-| **Recogido**    | La devolución ha sido recogida y ahora está lista para enviarse. Los productos ya no forman parte de tu inventario.                                                                |
-| **Enviado**   | La devolución ha sido enviada.                                                                                                                              |
-| **Entregado** | Tu proveedor ha recibido la devolución.                                                                                                                |
-| **Verificado**  | Tu proveedor ha verificado la cantidad de la devolución. Los productos ahora forman parte de su inventario.                                                      |
+| Estado         | Descripción                                                                                                                                                            |
+| :------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nuevo**      | Este es el primer estado cuando se crea una devolución. Los productos se reservan (ya no están disponibles para otros envíos), pero aún forman parte de tu inventario. |
+| **Recogido**   | La devolución ha sido recogida y ahora está lista para enviarse. Los productos ya no forman parte de tu inventario.                                                    |
+| **Enviado**    | La devolución ha sido enviada.                                                                                                                                         |
+| **Entregado**  | Tu proveedor ha recibido la devolución.                                                                                                                                |
+| **Verificado** | Tu proveedor ha verificado la cantidad de la devolución. Los productos ahora forman parte de su inventario.                                                            |
 
 Si colocas el cursor sobre la secuencia de estados, aparece una ventana con el historial de la devolución. Podrás ver la fecha en que se actualizó la devolución de un estado a otro.
 
@@ -234,10 +234,10 @@ El botón `Confirmar` actualiza el estado de una devolución. El estado que pued
 
 Cuando gestionas una Devolución de Proveedor, solo puedes confirmar los estados Recogido y Enviado.
 
-| Confirmar...           | Estado Actual  | Estado Siguiente |
-| :--------------------- | :------------- | :--------------- |
-| **Confirmar Recogido** | Nuevo          | Recogido         |
-| **Confirmar Enviado**  | Recogido       | Enviado          |
+| Confirmar...           | Estado Actual | Estado Siguiente |
+| :--------------------- | :------------ | :--------------- |
+| **Confirmar Recogido** | Nuevo         | Recogido         |
+| **Confirmar Enviado**  | Recogido      | Enviado          |
 
 No es necesario actualizar una devolución al siguiente estado en la secuencia. Puedes optar por saltarte el estado `Recogido` y pasar directamente a `Enviado` por ejemplo.
 
@@ -295,7 +295,7 @@ Es posible que veas uno o más mensajes de advertencia en esta pantalla:
 
 ![return quantity warning!](/docs/replenishment/images/or_addquantities_warning.png)
 
-Si olvidas ingresar una cantidad a devolver para algún lote y haces clic en `Siguiente paso`, verás este mensaje de advertencia. Necesitarás agregar una cantidad a devolver de al menos un lote. Puedes hacer clic en  `Cancelar`  si ya no deseas devolver ninguno de estos productos.
+Si olvidas ingresar una cantidad a devolver para algún lote y haces clic en `Siguiente paso`, verás este mensaje de advertencia. Necesitarás agregar una cantidad a devolver de al menos un lote. Puedes hacer clic en `Cancelar` si ya no deseas devolver ninguno de estos productos.
 
 ### Proveer razones
 
@@ -319,7 +319,7 @@ Cuando estés satisfecho con las cantidades y las razones, puedes presionar:
 
 ## Editar una línea de devolución de proveedor
 
-Para editar una línea de devolución, tócala. Se abrirá la ventana  `Editar Artículo`, que es idéntica a la ventana  `Añadir Artículo`, excepto que el artículo ya está seleccionado.
+Para editar una línea de devolución, tócala. Se abrirá la ventana `Editar Artículo`, que es idéntica a la ventana `Añadir Artículo`, excepto que el artículo ya está seleccionado.
 
 ### Editar una línea de devolución
 

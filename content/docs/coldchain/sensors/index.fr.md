@@ -13,7 +13,6 @@ toc = true
 top = false
 +++
 
-
 ### Visualisation des capteurs
 
 Sélectionnez `Chaîne du froid > Capteurs` dans le panneau de navigation.
@@ -30,17 +29,17 @@ Une liste de capteurs s'affiche (si vous n'en voyez aucun, c'est peut-être que 
 
 1. La liste des capteurs est divisée en 9 colonnes
 
-| Column                 | Description                      |
-| :----------------------| :------------------------------- |
-| **Nom**                | Nom du capteur               |
-| **CCE**                | Nom de l'équipement de la chaîne du froid auquel le capteur est associé   |
-| **Emplacement**        | Emplacement actuel du capteur |
-| **Numéro de série**    | Identifiant unique du capteur    |
-| **Niveau de batterie** | Niveau de batterie le plus récent, en pourcentage              |
-| **Dernière lecture**   | Température la plus récente rapportée par le capteur         |
-| **Date/heure**         | Date et heure de l'activité la plus récente pour ce capteu     |
-| **Type de capteur**    | Fabricant du capteur. Les options actuellement prises en charge sont `mSupply` & `Berlinger` |
-| **Type de dépassement**| Si le capteur a enregistré un dépassement, cette colonne indique le type du dépassement le plus récent |
+| Column                  | Description                                                                                            |
+| :---------------------- | :----------------------------------------------------------------------------------------------------- |
+| **Nom**                 | Nom du capteur                                                                                         |
+| **CCE**                 | Nom de l'équipement de la chaîne du froid auquel le capteur est associé                                |
+| **Emplacement**         | Emplacement actuel du capteur                                                                          |
+| **Numéro de série**     | Identifiant unique du capteur                                                                          |
+| **Niveau de batterie**  | Niveau de batterie le plus récent, en pourcentage                                                      |
+| **Dernière lecture**    | Température la plus récente rapportée par le capteur                                                   |
+| **Date/heure**          | Date et heure de l'activité la plus récente pour ce capteu                                             |
+| **Type de capteur**     | Fabricant du capteur. Les options actuellement prises en charge sont `mSupply` & `Berlinger`           |
+| **Type de dépassement** | Si le capteur a enregistré un dépassement, cette colonne indique le type du dépassement le plus récent |
 
 1. Le nombre de capteurs affichés par page est limité. Vous pouvez voir en bas à gauche le nombre de capteurs actuellement affichés sur votre écran.
 
@@ -52,7 +51,7 @@ Une liste de capteurs s'affiche (si vous n'en voyez aucun, c'est peut-être que 
 
 3. YVous pouvez également sélectionner un nombre différent de lignes à afficher par page en utilisant l'option en bas à droite de la page.
 
-![Rows per page](/docs/introduction/images/rows-per-page-select.png)
+![Rows per page](../../images/rows-per-page-select.png)
 
 ### Modification d'un capteur
 
@@ -61,12 +60,10 @@ En cliquant sur une ligne de la liste, vous accédez aux détails de ce capteur
 ![Sensor details](/docs/coldchain/images/sensor_details.png)
 
 Sur cet écran, vous pouvez :
+
 - Modifier le nom du capteur
 - Attribuer le capteur à un emplacement
-
 
 <div class="note">Si le capteur est synchronisé avec l'application de la chaîne du froid son nom doit être modifié dans l'application de la chaîne du froid.</div>
 
 Les autres détails du capteur, tels que le niveau de batterie et la dernière température enregistrée, sont également indiqués sur cet écran.
-
-

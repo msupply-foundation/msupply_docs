@@ -41,26 +41,26 @@ Neste ecrã pode:
 
 1. A lista de Devoluções de Clientes está dividida em 6 colunas:
 
-| Coluna | Descrição |
-| :------------ | :---------------------------- |
-| **Nome** | Nome do Cliente |
-| **Estado** | Situação atual da declaração |
-| **Número** | Número de referência da declaração |
-| **Criado** | Data de criação da declaração |
-| **Comentário** | Comentário para o retorno |
-| **Referência** | Referência do cliente |
+| Coluna         | Descrição                          |
+| :------------- | :--------------------------------- |
+| **Nome**       | Nome do Cliente                    |
+| **Estado**     | Situação atual da declaração       |
+| **Número**     | Número de referência da declaração |
+| **Criado**     | Data de criação da declaração      |
+| **Comentário** | Comentário para o retorno          |
+| **Referência** | Referência do cliente              |
 
 1. A lista pode apresentar um número fixo de retornos por página. No canto inferior esquerdo pode ver quantas devoluções estão atualmente apresentadas no ecrã.
 
-![Página](/docs/distribution/images/os_list_showing.png)
+![Página](../../images/list_showing.png)
 
 3.Se tiver mais devoluções do que o limite atual, pode navegar para as outras páginas tocando no número da página ou utilizando as setas direita ou esquerda (canto inferior direito).
 
-![Página](/docs/distribution/images/os_list_pagenumbers.png)
+![Página](../../images/list_pagenumbers.png)
 
 4.º Também pode selecionar um número diferente de linhas para mostrar por página, utilizando a opção no canto inferior direito da página.
 
-![Linhas por página](/docs/introduction/images/rows-per-page-select.png)
+![Linhas por página](../../images/rows-per-page-select.png)
 
 ### Pesquisar por nome do cliente
 
@@ -197,13 +197,13 @@ Os estados passados ​​estão destacados a azul, os próximos estados aparece
 
 Existem 5 estados para a Devolução do Cliente:
 
-| Situação | Descrição |
-| :------------ | --------------------------------------------------------------------------------------------------------------------- |
-| **Novo** | Este é o primeiro estado quando cria um novo manual de Devolução do Cliente |
-| **Recolhido** | O cliente confirmou que a devolução foi recolhida e está pronta para envio (aplica-se apenas a devoluções criadas automaticamente) |
-| **Enviado** | A devolução foi enviada e as mercadorias estão em trânsito (aplica-se apenas a devoluções criadas automaticamente) |
-| **Entregue** | Quando confirma que a devolução foi entregue |
-| **Verificado** | Quando tiver verificado a Devolução do Cliente |
+| Situação       | Descrição                                                                                                                          |
+| :------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| **Novo**       | Este é o primeiro estado quando cria um novo manual de Devolução do Cliente                                                        |
+| **Recolhido**  | O cliente confirmou que a devolução foi recolhida e está pronta para envio (aplica-se apenas a devoluções criadas automaticamente) |
+| **Enviado**    | A devolução foi enviada e as mercadorias estão em trânsito (aplica-se apenas a devoluções criadas automaticamente)                 |
+| **Entregue**   | Quando confirma que a devolução foi entregue                                                                                       |
+| **Verificado** | Quando tiver verificado a Devolução do Cliente                                                                                     |
 
 ### Caixa de seleção Segurar
 
@@ -225,10 +225,10 @@ O botão `Confirmar` atualiza o estado de uma devolução. O estado que pode con
 
 Ao gerir uma Devolução de Cliente, só pode confirmá-la como Entregue ou Verificada.
 
-| Confirmar... | Situação atual | Próximo estado |
-| :-------------------- | :------------ | :---------- |
-| **Confirmar entrega** | Enviado | Entregue |
-| **Confirmar verificado** | Entregue | Verificado |
+| Confirmar...             | Situação atual | Próximo estado |
+| :----------------------- | :------------- | :------------- |
+| **Confirmar entrega**    | Enviado        | Entregue       |
+| **Confirmar verificado** | Entregue       | Verificado     |
 
 Para devoluções manuais de clientes, não precisa de atualizar para o próximo estado na sequência. Pode optar por saltar `Entregue` para ir diretamente para `Confirmar verificado`.
 
@@ -311,9 +311,9 @@ Para editar uma linha de retorno, toque sobre ela. Verá a janela `Editar Item`,
 1.º Abra a devolução do cliente que pretende editar.
 2.º Toque na linha que pretende editar. Aparece uma janela idêntica à `Adicionar Item`. Nesta fase pode:
 
- - Editar informação do lote
- - Editar quantidade devolvida para cada lote
- - Clique em `Próximo passo` para visualizar/ajustar os motivos e comentários
+- Editar informação do lote
+- Editar quantidade devolvida para cada lote
+- Clique em `Próximo passo` para visualizar/ajustar os motivos e comentários
 
 Se definir a Quantidade Devolvida para `0`, essa linha será removida da declaração.
 

@@ -41,15 +41,15 @@ Puedes identificar si un cliente también usa Open mSupply en su almacén si tie
 
 La lista puede mostrar un número fijo de almacenes por página. En la esquina inferior izquierda, puedes ver cuántos almacenes se están mostrando actualmente en tu pantalla.
 
-![Pagination: showing](/docs/distribution/images/os_list_showing.png)
+![Pagination: showing](../../images/list_showing.png)
 
 Si tienes más almacenes de los que el límite actual permite, puedes navegar entre páginas haciendo clic en el número de página o utilizando las flechas izquierda y derecha (esquina inferior derecha).
 
-![Pagination: navigating](/docs/distribution/images/os_list_pagenumbers.png)
+![Pagination: navigating](../../images/list_pagenumbers.png)
 
 También puedes seleccionar un número diferente de filas para mostrar por página usando la opción en la esquina inferior derecha de la página.
 
-![Rows per page](/docs/introduction/images/rows-per-page-select.png)
+![Rows per page](../../images/rows-per-page-select.png)
 
 ### Buscar almacenes
 

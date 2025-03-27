@@ -42,7 +42,7 @@ La pestaña de gráficos muestra un gráfico para todos los sensores configurado
 - Rango de temperatura
 - Tipo de incumplimiento
 
-Para agregar un filtro a la página, selecciona el filtro necesario del menú desplegable. 
+Para agregar un filtro a la página, selecciona el filtro necesario del menú desplegable.
 
 <div class="nota">Por defecto, se muestran los datos de las últimas 24 horas. Usa los campos  <code>Desde fecha/hora</code> y <code>Hasta fecha/hora</code> para analizar un período más largo.
 </br></br>
@@ -76,18 +76,18 @@ La pestaña `Incumplimientos` muestra una lista de todos los incumlplimientos re
 
 La lista de incumplimientos está dividida en 10 columnas:
 
-| Columna                       | Descripción                                                                                                                                 |
-|:----------------------------- |:------------------------------------------------------------------------------------------------------------------------------------------ |
-|                               | Un ícono que muestra una alerta si este incumplimiento no ha sido reconocido                                                                      |
-| **Estado**                    | El estado del incumplimiento puede ser  `Reconocido` o `No reconocido`                                                                    |
-| **Nombre del sensor**         | Nombre del sensor                                                                                                             |
-| **Ubicación**                 | Ubicación actual asociada al sensor                                                                                         |
-| **CCE**                       | Nombre del equipo de la cadena de frío con el que está asociado el sensor                                                      |
-| **Inicio del incumplimiento** | Fecha y hora en que comenzó el incumplimiento                                                                                      |
-| **Fin del incumplimiento**    | Fecha y hora en que terminó el incumplimiento, si aplica                                                                         |
-| **Duración**     | La duración del incumplimiento, si ha terminado. Si el incumplimiento no ha terminado, se muestra `En curso`                               |
-| **Tipo**         | El tipo de incumplimiento: es una combinación de Caliente o Frío (mostrado por el ícono y el color del texto) y Consecutivo o Acumulativo |
-| **Máx / Mín**    | La temperatura registrada cuando el incumplimiento se actualizó, que corresponde al inicio o al final del incumplimiento (si el incumplimiento ha terminado)        |
+| Columna                       | Descripción                                                                                                                                                  |
+| :---------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|                               | Un ícono que muestra una alerta si este incumplimiento no ha sido reconocido                                                                                 |
+| **Estado**                    | El estado del incumplimiento puede ser `Reconocido` o `No reconocido`                                                                                        |
+| **Nombre del sensor**         | Nombre del sensor                                                                                                                                            |
+| **Ubicación**                 | Ubicación actual asociada al sensor                                                                                                                          |
+| **CCE**                       | Nombre del equipo de la cadena de frío con el que está asociado el sensor                                                                                    |
+| **Inicio del incumplimiento** | Fecha y hora en que comenzó el incumplimiento                                                                                                                |
+| **Fin del incumplimiento**    | Fecha y hora en que terminó el incumplimiento, si aplica                                                                                                     |
+| **Duración**                  | La duración del incumplimiento, si ha terminado. Si el incumplimiento no ha terminado, se muestra `En curso`                                                 |
+| **Tipo**                      | El tipo de incumplimiento: es una combinación de Caliente o Frío (mostrado por el ícono y el color del texto) y Consecutivo o Acumulativo                    |
+| **Máx / Mín**                 | La temperatura registrada cuando el incumplimiento se actualizó, que corresponde al inicio o al final del incumplimiento (si el incumplimiento ha terminado) |
 
 Puedes filtrar los datos mostrados por:
 
@@ -114,7 +114,7 @@ Para agregar un filtro a la página, selecciona el filtro requerido desde el men
 
 3. También puedes seleccionar un número diferente de filas para mostrar por página utilizando la opción en la esquina inferior derecha de la página.
 
-![Rows per page](/docs/introduction/images/rows-per-page-select.png)
+![Rows per page](../../images/rows-per-page-select.png)
 
 #### Reconocer incumplimientos
 
@@ -143,13 +143,13 @@ La pestaña `Registro` muestra una lista de todos los registros de temperatura
 
 La lista de registros de temperatura está dividida en 6 columnas:
 
-| Columna         | Descripción                                                                                                                                                                            |
-|:--------------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Fecha y hora**           | Fecha y hora de la actividad más reciente para este sensor                                                                                                                              |
-| **Nombre del sensor**      | Nombre del sensor                                                                                                                                                                     |
-| **Ubicación**              | Ubicación actual asociada al sensor                                                                                                                                                 |
-| **CCE**                    | Nombre del equipo de la cadena de frío con el que está asociado el sensor                                                                                                              |
-| **Temperatura**            | La temperatura más reciente reportada por el sensor                                                                                                                                     |
+| Columna                    | Descripción                                                                                                                                                                                                        |
+| :------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Fecha y hora**           | Fecha y hora de la actividad más reciente para este sensor                                                                                                                                                         |
+| **Nombre del sensor**      | Nombre del sensor                                                                                                                                                                                                  |
+| **Ubicación**              | Ubicación actual asociada al sensor                                                                                                                                                                                |
+| **CCE**                    | Nombre del equipo de la cadena de frío con el que está asociado el sensor                                                                                                                                          |
+| **Temperatura**            | La temperatura más reciente reportada por el sensor                                                                                                                                                                |
 | **Tipo de incumplimiento** | Si el sensor ha tenido un incumplimiento, se muestra el tipo del incumplimiento más reciente. Esto es una combinación de Caliente o Frío (mostrado por el ícono y el color del texto) y Consecutivo o Acumulativo. |
 
 Puedes filtrar los datos mostrados por:
@@ -173,4 +173,4 @@ Para agregar un filtro a la página, selecciona el filtro requerido desde el men
 
 3. También puedes seleccionar un número diferente de filas para mostrar por página utilizando la opción en la esquina inferior derecha de la página.
 
-![Rows per page](/docs/introduction/images/rows-per-page-select.png)
+![Rows per page](../../images/rows-per-page-select.png)
