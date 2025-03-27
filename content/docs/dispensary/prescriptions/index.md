@@ -547,4 +547,36 @@ This is done in the Side panel actions section.
 
 Once a prescription is cancelled, it will still show in the list of prescriptions, but with a status of `CANCELLED`.
 
-![Example Canceled Prescription](images-en/prescription-cancelled.png)
+![Example Canceled Prescription](images-en/prescription_cancelled.png)
+
+## Payment
+
+1. Once you're finished entering the items for the Prescription, click the `Confirm Verified` button.
+
+   ![Prescription Confirm Verified](images-en/prescription_confirm_verified.png)
+
+2. If there is a non-zero sell price for the items in the prescription, A new window will appear for you to enter the payment details for the patient's prescription.
+
+   ![Prescription Payment Modal](images-en/prescription_payment_modal.png)
+
+3. Click the `Save` button once everything is done.
+
+4. Clicking the `Cancel` button will stop the saving process.
+
+### Insurance
+
+If there are available insurances policies for your patients, you can indicate that the payment was partially covered by insurance.
+
+1. Once you're finished entering the items for the Prescription, click the `Confirm Verified` button.
+
+   ![Insurance Confirm Verified](images-en/prescription_confirm_verified.png)
+
+2. Click the dropdown for the Insurance Policy and select the insurance to be used.
+
+   ![Insurance Select Scheme](images-en/insurance_select_provider_modal.png)
+
+3. The discount amount and amount paid by the insurance will automatically display after selecting an insurance.
+
+   ![Insurance Covered](images-en/insurance_covered.png)
+
+4. Click the `Save` button once everything is done.
