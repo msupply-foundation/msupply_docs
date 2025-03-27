@@ -41,15 +41,15 @@ You can tell if a customer is also using Open mSupply in their store if they hav
 
 The list can display a fixed number of stores per page. On the bottom left corner, you can see how many stores are currently displayed on your screen.
 
-![Pagination: showing](/docs/distribution/images/os_list_showing.png)
+![Pagination: showing](../../images/list_showing.png)
 
 If you have more stores than the current limit, you can navigate to the other pages by clicking on the page number or using the right of left arrows (bottom right corner).
 
-![Pagination: navigating](/docs/distribution/images/os_list_pagenumbers.png)
+![Pagination: navigating](../../images/list_pagenumbers.png)
 
 You can also select a different number of rows to show per page using the option at the bottom right of the page.
 
-![Rows per page](/docs/introduction/images/rows-per-page-select.png)
+![Rows per page](../../images/rows-per-page-select.png)
 
 ### Searching facilities
 

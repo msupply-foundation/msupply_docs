@@ -9,21 +9,18 @@ sort_by = "weight"
 template = "docs/page.html"
 +++
 
-Las listas maestras son listas estándar de elementos que solo se pueden definir en el nivel del servidor central. 
+Las listas maestras son listas estándar de elementos que solo se pueden definir en el nivel del servidor central.
 
 ## Visualizar listas maestras
 
-Ir a `Catálogo` > `Listas Maestras` en el panel de navegación: 
+Ir a `Catálogo` > `Listas Maestras` en el panel de navegación:
 
-![](/docs/catalogue/images/cat_gotoml.png)
+![](images-en/cat_gotoml.png)
 
-Verás una ventana como esta: 
+Verás una ventana como esta:
 
-![](/docs/catalogue/images/cat_mllist.png)
+![](images-en/cat_mllist.png)
 
+Para ver todos los elementos de una lista maestra, simplemente haga clic en uno:
 
-Para ver todos los elementos de una lista maestra, simplemente haga clic en uno: 
-
-![](/docs/catalogue/images/cat_mldetail.png)
-
-
+![](images-en/cat_mldetail.png)

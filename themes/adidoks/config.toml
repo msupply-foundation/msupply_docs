@@ -34,6 +34,10 @@ build_search_index = true
 title = "Open mSupply (ES)"
 build_search_index = true
 
+[languages.pt]
+title = "Open mSupply (PT)"
+build_search_index = true
+
 
 [search]
 # Whether to include the title of the page/section in the index

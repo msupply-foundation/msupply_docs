@@ -21,7 +21,7 @@ From the **Items** menu, you can view all of the items that are currently visibl
 
 In the navigation panel, tap on `Catalogue` > `Items` to show the items list:
 
-![Items nav](/docs/catalogue/images/cat_gotoitems.png)
+![Items nav](images-en/cat_gotoitems.png)
 
 You can see all the items which are available for use by your store:
 
@@ -36,13 +36,13 @@ The Items list is divided into 6 columns:
 | **AMC**  | Average Monthly Consumption. This is how much stock your store uses each month on average (based on a configurable number of months, defaults to 3 months). |
 | **MOS**  | Number of months of consumption left with current stock. This is calculated as: `Stock on Hand / AMC`.                                                      |
 
-![Items list](/docs/catalogue/images/cat_itemslist.png)
+![Items list](images-en/cat_itemslist.png)
 
 ## Viewing an item's details
 
 To view the details of an item, simply tap on one. A new window opens:
 
-![Item detail](/docs/catalogue/images/cat_itemdetail.png)
+![Item detail](images-en/cat_itemdetail.png)
 
 On top of the screen, you can the following information:
 
@@ -54,7 +54,7 @@ On top of the screen, you can the following information:
 In the below example, we have 20,219 units of Acetylsalicylic Acid available in our store. The average consumption is 3,443.67 units per month which means that there is the equivalent of 5.87 months of stock in the inventory. 
 </div>
 
-![Item detail headers](/docs/catalogue/images/cat_itemdetailsheaders.png)
+![Item detail headers](images-en/cat_itemdetailsheaders.png)
 
 There are two tabs in the bottom part of the screen:
 
@@ -96,13 +96,13 @@ There are two tabs in the bottom part of the screen:
 ### Master Lists
 
 This tab lists the Master Lists associated with this item.
-![Item detail headers](/docs/catalogue/images/cat_itemmasterlists.png)
+![Item detail headers](images-en/cat_itemmasterlists.png)
 
 ### Ledger
 
 The item ledger tab shows a history of transactions in this store for the item.
 
-![](/docs/catalogue/images/item_ledger.png)
+![](images-en/item_ledger.png)
 
 The ledger is divided into 16 columns:
 
@@ -131,17 +131,17 @@ On the [Open mSupply Central Server](/docs/getting_started/central), a third tab
 
 Currently, Item Variants are only used for GAPS functionality.
 
-![variants tab](/docs/catalogue/images/variants_tab.png)
+![variants tab](images-en/variants_tab.png)
 
 ### Adding an Item Variant
 
 To create a new Item Variant, click the `Add Variant` button in the top right corner.
 
-![add variant button](/docs/catalogue/images/add_variant_button.png)
+![add variant button](images-en/add_variant_button.png)
 
 This will open a new window, where you can enter a name for the variant, and its details:
 
-![add variant window](/docs/catalogue/images/add_item_variant_modal.png)
+![add variant window](images-en/add_item_variant_modal.png)
 
 Temperature options are configured as [Location Types](https://docs.msupply.org.nz/items:item_locations?s[]=location&s[]=type#location_types) on the mSupply Central Server. [Manufacturers](https://docs.msupply.org.nz/names:adding_and_editing?s[]=manufacturers#adding_a_customer_supplier_manufacturer_donor_or_benchmark) are also managed in mSupply.
 
@@ -159,22 +159,22 @@ The pack sizes defined in Item Variants are used for GAPS calculations ONLY, to 
 
 To edit an Item Variant, click the `Edit` button next to the variant you wish to update.
 
-![edit variant button](/docs/catalogue/images/item_variant_edit_button.png)
+![edit variant button](images-en/item_variant_edit_button.png)
 
 This will open the same window as when adding a new variant, with the existing details pre-filled. Make any changes you need, and click `OK` to update the variant.
 
-![edit variant window](/docs/catalogue/images/edit_item_variant_modal.png)
+![edit variant window](images-en/edit_item_variant_modal.png)
 
 ### Deleting an Item Variant
 
 To delete an Item Variant, click the `Delete` button next to the variant you wish to remove.
 
-![delete variant button](/docs/catalogue/images/item_variant_delete_button.png)
+![delete variant button](images-en/item_variant_delete_button.png)
 
 You will be asked to confirm the deletion. Click `OK` to confirm, or `Cancel` if you no longer wish to delete the variant.
 
 <p align="center">
-    <img src="/docs/catalogue/images/item_variant_confirm_delete.png" width="450">
+    <img src="images-en/item_variant_confirm_delete.png" width="450">
 </p>
 
 ### Bundling items
@@ -192,13 +192,13 @@ Bundling is done at the Item Variant level, giving you fine-grained control over
 To bundle an item with the current variant, click the `Add bundled item` button under the `Bundled with` section.
 
 <p align="center">
-    <img src="/docs/catalogue/images/add_bundled_item.png" width="300">
+    <img src="images-en/add_bundled_item.png" width="300">
 </p>
 
 This will open a new window, where you can search for the item you wish to bundle with the current variant.
 
 <p align="center">
-    <img src="/docs/catalogue/images/add_bundled_item_select_item.png" width="700">
+    <img src="images-en/add_bundled_item_select_item.png" width="700">
 </p>
 
 After selecting the item, you will be prompted to select the specific variant of that item, along with the ratio at which it should be bundled.
@@ -208,31 +208,31 @@ In this example, 0.2 units of Silverfern Normal Saline should be bundled with ev
 </div>
 
 <p align="center">
-    <img src="/docs/catalogue/images/add_bundled_item_modal.png" width="700">
+    <img src="images-en/add_bundled_item_modal.png" width="700">
 </p>
 
 Click OK to add the bundled item. It will then appear in the `Bundled with` section.
 
-![item variant with bundled item](/docs/catalogue/images/item_variant_with_bundled_item.png)
+![item variant with bundled item](images-en/item_variant_with_bundled_item.png)
 
 #### Editing bundled items
 
 To edit a bundled item, click the row in the `Bundled with` section. This will open the same window as when adding a new bundled item, with the existing details pre-filled. Make any changes you need, and click `OK` to update the bundle.
 
 <p align="center">
-    <img src="/docs/catalogue/images/add_bundled_item_modal.png" width="700">
+    <img src="images-en/add_bundled_item_modal.png" width="700">
 </p>
 
 #### Removing bundled items
 
 To remove a bundled item, click the Delete icon next to the item you wish to remove.
 
-![remove bundled item button](/docs/catalogue/images/remove_bundled_item.png)
+![remove bundled item button](images-en/remove_bundled_item.png)
 
 You will be asked to confirm the removal of the bundled item. Click `OK` to confirm, or `Cancel` if you no longer wish to remove it.
 
 <p align="center">
-    <img src="/docs/catalogue/images/confirm_remove_from_bundle.png" width="450">
+    <img src="images-en/confirm_remove_from_bundle.png" width="450">
 </p>
 
 #### Item variants that are a part of bundles
@@ -241,4 +241,4 @@ You aren't able to bundle items for an item variant that is already part of anot
 
 The `Add bundled item` button will be disabled, and you will instead see a list of the item variants that this variant is already bundled with.
 
-![item variant part of another bundle](/docs/catalogue/images/item_variant_is_bundled.png)
+![item variant part of another bundle](images-en/item_variant_is_bundled.png)

@@ -50,7 +50,7 @@ Si le capteur a enregistré une breche ou une anomalie - une icone apparaitra su
 
 ![Graphique des anomalies](/docs/coldchain/images/chart_breach.png)
 
-S'affichent également sur le graphique les depassements de seuil de temperature de 2°C (zone rouge)  et 8°C (zone bleue).
+S'affichent également sur le graphique les depassements de seuil de temperature de 2°C (zone rouge) et 8°C (zone bleue).
 
 <div class="note">Si vous avez configuré différentes valeurs de seuil, il est possible que vous voyiez des anomalies en dehors de l'éventail standard.</div>
 
@@ -67,18 +67,18 @@ L'onglet `Anomalies` montre les enregistrements de toutes les breches
 
 La liste est divisée en 10 colonnes:
 
-| Colonne           | Description                                                                                                                    |
-| :--------------- | :----------------------------------------------------------------------------------------------------------------------------- |
-|                   | Une icone montrant une alerte si la breche est ignorée                                                                      |
-| **Statut**        | Le statut de la breche peut etre `Pris en compte` ou `Ignoré`                                                                    |
-| **Nom du capteur**| Nom du capteur                                                                                                             |
-| **Emplacement**    | Emplacment actuel assigné au capteur                                                                                        |
-| **CCE**           | Nom de l'actif de la chaîne du froid auquel est rattaché le capteur                                                      |
-| **Début**         | Date et heure de début de l'anomalie                                                                                      |
-| **Fin**           | Date et heure de début de l'anomalie', si applicable                                                                         |
-| **Durée**         | La durée de l'anomalie, si elle s'est terminée. `En cours` s'affiche si la breche n'est pas terminée.                               |
-| **Type**          | Le type d'anomalie: ceci est une combinaison de Chaud ou Froid (voir la couleur du text et de l'icone) et  Consécutif ou Cumulé |
-| **Max / Min**     | La température enregistrée quand l'anomalie a été mise a jour, c'est a dire le debut ou la fin de l'anomalie.        |
+| Colonne            | Description                                                                                                                    |
+| :----------------- | :----------------------------------------------------------------------------------------------------------------------------- |
+|                    | Une icone montrant une alerte si la breche est ignorée                                                                         |
+| **Statut**         | Le statut de la breche peut etre `Pris en compte` ou `Ignoré`                                                                  |
+| **Nom du capteur** | Nom du capteur                                                                                                                 |
+| **Emplacement**    | Emplacment actuel assigné au capteur                                                                                           |
+| **CCE**            | Nom de l'actif de la chaîne du froid auquel est rattaché le capteur                                                            |
+| **Début**          | Date et heure de début de l'anomalie                                                                                           |
+| **Fin**            | Date et heure de début de l'anomalie', si applicable                                                                           |
+| **Durée**          | La durée de l'anomalie, si elle s'est terminée. `En cours` s'affiche si la breche n'est pas terminée.                          |
+| **Type**           | Le type d'anomalie: ceci est une combinaison de Chaud ou Froid (voir la couleur du text et de l'icone) et Consécutif ou Cumulé |
+| **Max / Min**      | La température enregistrée quand l'anomalie a été mise a jour, c'est a dire le debut ou la fin de l'anomalie.                  |
 
 You can filter the data displayed by:
 
@@ -103,7 +103,7 @@ To add a filter to the page, choose the required filter from the drop down. To r
 
 3. You can also select a different number of rows to show per page using the option at the bottom right of the page.
 
-![Rows per page](/docs/introduction/images/rows-per-page-select.png)
+![Rows per page](../../images/rows-per-page-select.png)
 
 #### Acknowledging breaches
 
@@ -162,7 +162,7 @@ To add a filter to the page, choose the required filter from the drop down.
 
 3. You can also select a different number of rows to show per page using the option at the bottom right of the page.
 
-![Rows per page](/docs/introduction/images/rows-per-page-select.png)
+![Rows per page](../../images/rows-per-page-select.png)
 
 ### Importing Fridge-tags
 
