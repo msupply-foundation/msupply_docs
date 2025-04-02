@@ -55,3 +55,20 @@ Once you have done this:
 - Shipment status is now `VERIFIED`
 - You can no longer edit shipment lines
 - You can no longer delete the shipment
+
+### Partial Inbound Shipment
+
+If only part of a shipment has arrived (e.g., 60 out of 100 boxes), you can still receive it.
+
+To process a partial shipment:
+
+1. Select `Confirm Delivered` to acknowledge receipt.
+2. Select the items that were **not** delivered by marking the checkbox.
+3. Select `Set Quantities to 0` to exclude them from this delivery.
+4. Select `Confirm Verified` to complete the receipt.
+
+Once completed:
+
+- Only the received items are added to inventory.
+- Shipment status is set to `DELIVERED`.
+- Remaining items must be handled in a separate delivery if they arrive later.
