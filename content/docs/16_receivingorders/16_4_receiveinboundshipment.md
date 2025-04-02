@@ -56,7 +56,7 @@ Once you have done this:
 - You can no longer edit shipment lines
 - You can no longer delete the shipment
 
-### Receiving Partial Inbound Shipments
+## Receiving Partial Inbound Shipments
 
 If only part of a shipment has arrived (e.g., 60 out of 100 boxes), you can still receive it.
 
