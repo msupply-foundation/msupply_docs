@@ -20,13 +20,37 @@ It is recommended to set the scanner to 'continuous scan' mode if it supports th
 
 We have been using Zebra USB scanners, model DS2208. Any hand held barcode scanner should work for this, though we may need to update to support different models. If you have another model of scanner, please get in touch.
 
+## Using the android camera for barcode scanning
+
+If you are managing your store via an android tablet then you do not need a Zebra USB scanner or any other scanner hardware. Instead you can use the inbuilt camera to scan the barcode.
+
+On the Open mSupply app setting, ensure that Open mSupply has the permission to use the camera.
+
+![Give openmSupply the permission for the camera](images-en/App_camera_Permission_controller.jpg)
+
+
 The scanners support 1D and 2D barcodes, and can parse the information from a GS1 barcode in order to read the GTIN-14 code, batch number and expiry date.
 As an example, barcodes could look like this:
 
 ![GS1 128 barcode](images-en/GS1-128.png)
 ![GS1 QR barcode](images-en/GS1-QR.png)
 
-### Starting the scanner
+### Introducing barcode to stock
+You may find that sometimes the stock that you have lacks the barcode when a suitable GTIN-14 code already exists. If this is the case then you can view the stock and either via the android tablet (inbuilt camaera) or via the windows exe (scanner hardware), you can then assign the missing barcode. 
+
+on OpenmSupply : 
+* Navigate and expand the Inventory section
+* Click on `View Stock`
+* View a stock in detail
+* Click the `[-]` button
+* Either using the android camaera or the scanner, scan the barcode
+* See that the `Barcode` field now has the code.
+
+
+![Introdicing barcode to stock](images-en/view_stock_adding_barcode.jpg)
+
+
+### Issuing stock out using the barcode
 
 To begin, open the Outbound Shipment. If the status is `New`, `Allocated` or `Picked` you can start and stop the scanner using the `Scan` button:
 
