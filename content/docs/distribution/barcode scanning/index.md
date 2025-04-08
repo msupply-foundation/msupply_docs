@@ -24,7 +24,7 @@ We have been using Zebra USB scanners, model DS2208. Any hand held barcode scann
 
 If you are managing your store via an android tablet then you do not need a Zebra USB scanner or any other scanner hardware. Instead you can use the inbuilt camera to scan the barcode.
 
-On the openmSupply app setting, ensure that openmSupply has the permission to use the camera.
+On the Open mSupply app setting, ensure that Open mSupply has the permission to use the camera.
 
 ![Give openmSupply the permission for the camera](images-en/App_camera_Permission_controller.jpg)
 
