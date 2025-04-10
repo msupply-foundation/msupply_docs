@@ -27,7 +27,7 @@ Simply click the button of the option you prefer. Don't worry though! this can b
 ![Mobile settings](/docs/introduction/images/mobile_settings.png)
 
 ## Client mode
-mo
+
 After selecting the client mode, you'll see a list of available servers. These are the servers on your local network. 
 
 You may see `[ Not configured ]` next to some of the servers - this indicates that the server hasn't yet been configured to synchronise with a central server yet.
