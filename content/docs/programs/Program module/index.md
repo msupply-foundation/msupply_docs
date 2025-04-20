@@ -238,10 +238,6 @@ If the patient is already linked to the contact, but you want to change the pati
 
 If the patient is enrolled in an Immunization Program, you can view their progress through the program by viewing their Vaccination Card.
 
-<div class='note'>
-  The Vaccination Card can only be viewed from the facility where the patient was enrolled in the program. If the patient was enrolled in the program at a different facility, you will not be able to view their Vaccination Card.
-</div>
-
 From the `Vaccinations` tab in the patient detail view, select the Immunization Program you want to view the Vaccination Card for.
 
 ![Vaccinations Tab](/docs/programs/images/patient_vaccinations_tab.png)
@@ -286,6 +282,10 @@ Immunization Program Encounters will have an additional `Vaccinations` tab, whic
 
 #### Adding Vaccination Records
 
+<div class='warning'>
+  Patient vaccination records from other facilities may out of date. Ensure you have synced recently, and always confirm against the patient's physical vaccination card first. If in doubt, we recommend phoning the other facility to validate given doses.
+</div>
+
 To add a new vaccination record, click the row in the Vaccination Card that corresponds to the dose you want to administer. You can only add vaccination records for a dose if the previous dose in that Vaccine Course has been `Given`. Rows for future doses will be disabled.
 
 Clicking the dose row will open a new window where you can enter the details of the vaccination.
@@ -298,25 +298,27 @@ Let's step through each section.
 
 ![Vaccination Modal - other facility](/docs/programs/images/vaccination_other_facility.png)
 
-- `Clinician`: will be pre-populated with the clinician for the encounter, if selected. Can be changed if the vaccination was administered by a different clinician. This field is not available for vaccinations recorded at `Other` facilities.
+- `Clinician`: only available if clinicians are configured for your store - will be pre-populated with the clinician for the encounter, if selected. Can be changed if the vaccination was administered by a different clinician. This field is not available for vaccinations recorded at `Other` facilities.
 
 - `Date`: defaults to today's date, but can be changed to add historic vaccination records as needed.
 
-- `Given`/`Not given`: based on whether you select `Vaccine given` or `Vaccine not given`, some more fields will appear.
+- `Given`/`Not given`: based on whether you select `Vaccine given` or `Vaccine not given`, more fields will appear.
 
 - `Vaccine item` and `Batch`: If you select `Vaccine given`, you will be able to select the `Item` and `Batch` of the vaccine administered. If there is only one item/batch available, these fields will be pre-populated. Otherwise they can be selected from a dropdown.
 
 ![Vaccination Modal - given batch select](/docs/programs/images/vaccination_given_batch_select.png)
 
-Note that if you selected an `Other facility`, you will not receive the option to select an item and batch.
+Note that if you selected an `Other facility`, you will not receive the option to select a batch.
 
-![Vaccination Modal - given other facility](/docs/programs/images/vaccination_given_other_facility.png)
+<p align="center">
+    <img src="/docs/programs/images/vaccination_given_other_facility.png" width="500">
+</p>
 
 If you selected a `Date` in the past, a switch will appear to `Record stock transaction for past vaccination`.
 
 ![Vaccination Modal - given historic](/docs/programs/images/past_vaccination_switch.png)
 
-Switch this on if you want to record a stock transaction for this vaccination (see more below). This will enable the item and batch inputs.
+Switch this on if you want to record a stock transaction for this vaccination (see more below). This will enable the batch selector.
 
 ![Vaccination Modal - given historic with transaction](/docs/programs/images/past_vaccination_switch_on.png)
 
@@ -340,7 +342,12 @@ You can view the created prescription by clicking on the dose row again in the v
 
 #### Editing Vaccination Records
 
-Vaccination records should be entered at the time of vaccination, so there shouldn't be a need to edit them. However, if you need to correct a mistake, you can do so by clicking on the row in the Vaccination Card that corresponds to the dose you want to edit, to open the edit window.
+Vaccination records should be entered at the time of vaccination, so there shouldn't be a need to edit them. However, you may need to edit a vaccination if:
+
+- You need to correct a mistake
+- A vaccination was originally recorded as `Not given` (e.g. out of stock) but is now being `given`
+
+You can do so by clicking on the row in the Vaccination Card that corresponds to the dose you want to edit, to open the edit window.
 
 ![Vaccination Modal - edit](/docs/programs/images/edit_vaccination.png)
 
@@ -358,3 +365,9 @@ All fields are editable. Some things to note:
   - Note that the previous prescription will continue to exist - finalised prescriptions cannot be deleted
 
 ![Vaccination Modal - update transaction](/docs/programs/images/vaccination_update_transactions.png)
+
+Note that vaccinations that are marked as `Given` at another facility won't be editable to you, except for the comment field:
+
+<p align="center">
+    <img src="/docs/programs/images/vaccination_given_other_sync_facility.png" width="600">
+</p>
