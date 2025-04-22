@@ -283,7 +283,7 @@ Immunization Program Encounters will have an additional `Vaccinations` tab, whic
 #### Adding Vaccination Records
 
 <div class='warning'>
-  Patient vaccination records from other facilities may out of date. Ensure you have synced recently, and always confirm against the patient's physical vaccination card first. If in doubt, we recommend phoning the other facility to validate given doses.
+  Patient vaccination records from other facilities may be out of date. Ensure that you have synced recently, and always confirm against the patient's physical vaccination card first. If in doubt, we recommend phoning the other facility to validate given doses.
 </div>
 
 To add a new vaccination record, click the row in the Vaccination Card that corresponds to the dose you want to administer. You can only add vaccination records for a dose if the previous dose in that Vaccine Course has been `Given`. Rows for future doses will be disabled.
