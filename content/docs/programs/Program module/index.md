@@ -308,7 +308,7 @@ Let's step through each section.
 
 ![Vaccination Modal - given batch select](/docs/programs/images/vaccination_given_batch_select.png)
 
-Note that if you selected an `Other facility`, you will not receive the option to select a batch.
+Note that if you selected an `Other facility`, you will not receive the option to select a batch. A stock transaction will not be recorded.
 
 <p align="center">
     <img src="/docs/programs/images/vaccination_given_other_facility.png" width="500">
