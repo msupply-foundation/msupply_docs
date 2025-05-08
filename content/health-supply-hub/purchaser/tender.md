@@ -133,7 +133,7 @@ Select your tender to view from the tender list to open the detail view.
 <img src="/health-supply-hub/purchaser/images/purchaser_tender_detail_view.png" width="750"  >
 </p>
 
-#### Tenderline Items
+#### Tender Line Items
 
 This is your tender item line details that you have uploaded to HSH. Here we can see where the details have been pulled from on the mSupply Tender module.
 
@@ -164,8 +164,6 @@ If a supplier has submitted an inquiry regarding your tender, you can access it 
 | 3   | Asking Organisation                                                                                                                                                                                                                                                                                   |
 | 4   | Private Answer that is only shared with the supplier that asked the question                                                                                                                                                                                                                          |
 | 5   | Notices allow you to create a public message so that all suppliers can see. This can help to clear confusion about your tender and prevent other suppliers from asking the same question. Type in your “Title” for your notice. Type in your message you would like to attach for your public notice. |
-
-|
 
 #### Notices
 
@@ -198,7 +196,7 @@ An email will be sent to the registered suppliers notifying them of your tender 
 Tender logs detail all changes that have occured to your tender. This includes the time of change, the user in your organisation who made the changes, and what the change was.
 
 <p align="center">
-<img src="/health-supply-hub/purchaser/images/customer-tender-logs.png" width="750"  >
+<img src="/health-supply-hub/purchaser/images/purchaser-tender-logs.png" width="750"  >
 </p>
 
 Clicking on a log will open up a view of what changes the log details.
