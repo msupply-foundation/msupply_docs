@@ -13,7 +13,7 @@ toc = true
 top = false
 +++
 
-The Global preferences list is available only on the [Open mSupply Central Server](/docs/getting_started/central). They are preferences which apply to all Open mSupply sites.
+The Global preferences list is available only on the [Open mSupply Central Server](/docs/getting_started/central-server). They are preferences which apply to all Open mSupply sites.
 
 ## Viewing global preferences
 

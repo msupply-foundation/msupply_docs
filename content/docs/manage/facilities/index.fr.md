@@ -13,7 +13,7 @@ toc = true
 top = false
 +++
 
-La liste des installations n'est disponible que sur le [Serveur Central Open mSupply](/docs/getting_started/central). C'est ici que vous pouvez voir tous les dépôts et gérer leurs propriétés.
+La liste des installations n'est disponible que sur le [Serveur Central Open mSupply](/docs/getting_started/central-server). C'est ici que vous pouvez voir tous les dépôts et gérer leurs propriétés.
 
 ## Viewing Facilities
 
@@ -98,7 +98,7 @@ Cliquez sur `annuler` à tout moment pour annuler vos modifications et fermer la
 
 ## Permissions & Restrictions
 
-Les installations ne sont visibles que sur le [Serveur Central Open mSupply](/docs/getting_started/central).
+Les installations ne sont visibles que sur le [Serveur Central Open mSupply](/docs/getting_started/central-server).
 
 Pour modifier les installations de manière centralisée, vous devez disposer de l'autorisation `Peut modifier les données centrales`, activée dans la section [omSupply Permissions Tab](https://docs.msupply.org.nz/admin:managing_users?s[]=permission#omsupply_permissions_tab) sur le dépôt.
 ![Can Modify Central Data Permission](/docs/programs/images/can_modify_central.png)
