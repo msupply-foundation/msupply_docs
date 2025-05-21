@@ -283,7 +283,7 @@ This shows the item name and code.
 
 ##### Issuing stock
 
-In the `Issue` field, you can enter the quantity that you want to issue to your patient.
+In the `Issue` field, you can enter the quantity that you want to issue to your patient. You can issue or prescribe vaccine quantities in doses when the `Display vaccine in doses` store preference is turned on in [Manage Facilities](/docs/manage/facilities/#editing-store-preferences).
 
 If you're recording [prescribed quantities](https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab), you can enter the prescribed quantity first, which will automatically populate the `Issue` field for you.
 ![Prescribed Quantity](images-en/prescriptions_prescribed_qty.png)
@@ -304,6 +304,17 @@ This is a list of batch numbers that you have in store for this item:
 | **Units Issued**      | Total quantity of units to be issued                                                    |
 
 ![List of available batch numbers](images-en/prescription_additem_listofbatches.png)
+
+If `Display vaccine in doses` is enabled, the following quantity columns will be displayed instead when issuing a vaccine item:
+
+| Column              | Description                                   |
+| :------------------ | :-------------------------------------------- |
+| **Doses per unit**  | The number of doses per unit                  |
+| **Units in stock**  | Total number of units at your store           |
+| **Doses Available** | Total number of doses available at your store |
+| **Doses Issued**    | Total number of doses to be administered      |
+
+![List of available batch numbers with doses](images-en/prescription_additem_listofbatches_with_doses.png)
 
 ### Issue a quantity
 

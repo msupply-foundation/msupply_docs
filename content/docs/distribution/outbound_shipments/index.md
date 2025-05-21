@@ -311,7 +311,7 @@ In the `Add Item` window, you can look up an item by:
 
 Once your item is highlighted, tap on the name or press `Enter`.
 
-![Alt Text](/docs/distribution/images/os_additem.gif)
+![Add item](/docs/distribution/images/os_additem.gif)
 
 Once the item is selected, you can see the following information:
 
@@ -358,6 +358,17 @@ There is also a final row in the table which is a placeholder line, if the statu
 The placeholder line is used when the quantity you are issuing is higher than your available stock.
 
 ![List of available batch numbers](/docs/distribution/images/os_additem_listofbatches.png)
+
+You can issue Vaccine Items in doses when the `Display vaccines in doses` store preference is turned on in [Manage Facilities](/docs/manage/facilities/#editing-store-preferences). If this is enabled, the following quantity columns will be displayed instead when issuing a vaccine item:
+
+| Column                | Description                                 |
+| :-------------------- | :------------------------------------------ |
+| **Doses per unit**    | The number of doses per unit                |
+| **In store (doses)**  | Total number of units at your store         |
+| **Available (doses)** | Total number of doses available for issuing |
+| **Doses Issued**      | Total number of doses to be administered    |
+
+![List of available batch numbers with doses](images-en/os_additem_listofbatches_with_doses.png)
 
 ### Issue a quantity of units
 
