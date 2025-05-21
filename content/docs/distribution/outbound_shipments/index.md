@@ -368,7 +368,7 @@ You can issue Vaccine Items in doses when the `Display vaccines in doses` store 
 | **Available (doses)** | Total number of doses available for issuing |
 | **Doses Issued**      | Total number of doses to be administered    |
 
-![List of available batch numbers with doses](images-en/os_additem_listofbatches_with_doses.png)
+![List of available batch numbers with doses](/docs/distribution/images/os_additem_listofbatches_with_doses.png)
 
 ### Issue a quantity of units
 
