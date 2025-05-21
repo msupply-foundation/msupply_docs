@@ -22,27 +22,27 @@ Locations in mSupply are the places you store stock.
 
 To view the storage locations of your store, go to `Inventory` > `Locations` in the navigation panel:
 
-![Location: nav](/docs/inventory/images/loc_gotoloc.png)
+![Location: nav](../images/loc_gotoloc.png)
 
 You will see a list of your storage locations:
 
-![Location: list](/docs/inventory/images/loc_loclist.png)
+![Location: list](../images/loc_loclist.png)
 
 ## Looking for a specific location
 
 You can filter the list by location name or on hold status.
 
-![Location: filter](/docs/inventory/images/location_filter.png)
+![Location: filter](../images/location_filter.png)
 
 ## Creating a new location
 
 To create a new location, tap on the `New Location` button in the top right corner of the screen:
 
-![Location: new location button](/docs/inventory/images/loc_newlocbutton.png)
+![Location: new location button](../images/loc_newlocbutton.png)
 
 A window like this opens:
 
-![Location: create location](/docs/inventory/images/loc_createloc.png)
+![Location: create location](../images/loc_createloc.png)
 
 1. **Name**: Enter the name of the new location
 2. **Code**: Enter a code for the new location
@@ -68,4 +68,4 @@ To delete a location:
 1. Select location that you want to delete using the checkbox on the left hand side of the list
 2. The `Actions` footer will display at the bottom of the screen when a location is selected. It will display the number of locations selected and the actions which can be taken. Click `Delete`
 
-![Delete location](/docs/inventory/images/delete-location.png)
+![Delete location](../images/delete-location.png)
