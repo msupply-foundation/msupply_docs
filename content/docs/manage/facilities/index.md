@@ -59,9 +59,37 @@ In the search bar in the top left of your screen, type some (or all) of a store 
 
 ![Facilities filter](/docs/manage/images/facilities_filter.png)
 
+## Editing store preferences
+
+Store Preferences are used to configure functionality for a particular Open mSupply store.
+
+To edit a store’s properties, click that store in the list. This will open a new `Edit Facility` window.
+
+From this window, you can edit the store properties.
+
+![Edit facility](/docs/manage/images/edit_facility_preferences.png)
+
+You will see the list of available store preferences. Any changes will be saved automatically.
+
+### Available store preferences
+
+- Manage VVM status for stock
+- Sort available batches by VVM status then expiry
+- Use simplified mobile UI
+
+- Click `OK` to save your changes and close the window
+- Click `OK & Next` to save your changes and start editing the next store
+
+<div class='note'>
+Note that some facilities are not stores (they do not use mSupply). You can only configure preferences for stores.
+Most store preferences are still managed through Legacy central server. Only new store preferences for Open mSupply systems are configured on Open mSupply central server for now. These will be consolidated in a future version.
+</div>
+
 ## Editing store properties
 
 To edit the properties of a store in the list, click on it. This will open a new `Edit Facility` window.
+
+Select the tab `Properties` to see the store properties.
 
 <div class='tip'>
 If you see a message like this when you open the Edit Facility window, that means you have no store properties configured! To set these up, please contact support or <a href='/docs/settings/configuration/#gaps-store-properties'>enable GAPS Properties</a>.
@@ -72,7 +100,7 @@ If you see a message like this when you open the Edit Facility window, that mean
 
 From this window, you can edit the store properties.
 
-![Edit facility](/docs/manage/images/edit_facility.png)
+![Edit facility](/docs/manage/images/edit_facility_properties.png)
 
 - Click `OK` to save your changes and close the window
 - Click `OK & Next` to save your changes and start editing the next store
@@ -84,10 +112,11 @@ Any store can view and edit their own properties. If properties have been config
 
 ![Footer: store edit](/docs/manage/images/footer_store_edit.png)
 
-Click the `Edit` button to open a new window, where you can edit the properties for your store.
+Click the `Edit` button to open a new window, and select the tab `Properties` where you can edit the properties for your store.
 
 <div class='note'>
 Some properties can be disabled here. This means they are only editable on the Open mSupply Central Server.
+The `Preferences` tab is visible on Remote Sites, but is only editable form the Open mSupply Central Server.
 </div>
 
 ![Edit own store](/docs/manage/images/edit_remote_store.png)
