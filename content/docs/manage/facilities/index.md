@@ -71,14 +71,14 @@ From this window, you can edit the store properties.
 
 You will see the list of available store preferences. Any changes will be saved automatically.
 
+- Click `OK` to save your changes and close the window
+- Click `OK & Next` to save your changes and start editing the next store
+
 ### Available store preferences
 
 - Manage VVM status for stock
 - Sort available batches by VVM status then expiry
 - Use simplified mobile UI
-
-- Click `OK` to save your changes and close the window
-- Click `OK & Next` to save your changes and start editing the next store
 
 <div class='note'>
 Note that some facilities are not stores (they do not use mSupply). You can only configure preferences for stores.
