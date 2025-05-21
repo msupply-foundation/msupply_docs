@@ -13,7 +13,7 @@ toc = true
 top = false
 +++
 
-Remarque : Les programmes vaccins ne sont visibles que sur le [Serveur Central Open mSupply](/docs/getting_started/central).
+Remarque : Les programmes vaccins ne sont visibles que sur le [Serveur Central Open mSupply](/docs/getting_started/central-server).
 
 Choisir `Programmes` > `Vaccins` dans le panneau de navigation.
 
@@ -26,8 +26,8 @@ Une liste de programmes de vaccin vous sera présentée :
 La liste des programmes de vaccin est divisée en 2 colonnes :
 
 | Colonne              | Description                                                      |
-| :------------------ | :--------------------------------------------------------------- |
-| **Nom du programme**    | Le nom du Programme vaccin                             |
+| :------------------- | :--------------------------------------------------------------- |
+| **Nom du programme** | Le nom du Programme vaccin                                       |
 | **Vaccines courses** | The Vaccine Courses that are a part of that Immunization Program |
 
 ## Ajout d’un nouveau programme de vaccin
@@ -82,11 +82,11 @@ La vue détaillée du programme de vaccination vous présente une liste des cour
 
 La liste des cours de vaccination est divisée en 3 colonnes :
 
-| Column                 | Description                                           |
-| :--------------------- | :---------------------------------------------------- |
-| **Nom**               | Le nom du cours de vaccination                        |
+| Column                  | Description                                           |
+| :---------------------- | :---------------------------------------------------- |
+| **Nom**                 | Le nom du cours de vaccination                        |
 | **Cible démographique** | The demographic to receive the vaccine Vaccine Course |
-| **Doses**              | The number of doses included in the course            |
+| **Doses**               | The number of doses included in the course            |
 
 ### Adding a new Vaccine Course
 
@@ -134,7 +134,7 @@ Once you are happy with your changes, you can use the `Save` button in the botto
 
 ## Autorisations et restrictions
 
-Les programmes de vaccination ne sont visibles que sur le [Serveur Central Open mSupply](/docs/getting_started/central) et nécessite la préférence du dépot [`mobile: Uses vaccine module`](https://docs.msupply.org.nz/cold_chain_equipment:mobile?s[]=vaccine#enable_the_vaccine_module_for_the_mobile_store).
+Les programmes de vaccination ne sont visibles que sur le [Serveur Central Open mSupply](/docs/getting_started/central-server) et nécessite la préférence du dépot [`mobile: Uses vaccine module`](https://docs.msupply.org.nz/cold_chain_equipment:mobile?s[]=vaccine#enable_the_vaccine_module_for_the_mobile_store).
 
 ![mSupply Store Preference Vaccine Module](/docs/programs/images/vaccine_module.png)
 

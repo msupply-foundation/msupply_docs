@@ -328,10 +328,36 @@ In the `Quantities` tab, you can update the following fields:
 
 1. **Batch**: Type here the batch number. Leave blank if item is not managed with batch number.
 2. **Expiry**: The expiry date of the batch number. Leave blank is not applicable
-3. **Pack Qty**: The quantity of packs you are receiving
-4. **Pack Size**: The quantity of units per pack (by default, pack size is 1)
-5. **Unit Qty** (read-only): Automatically calculated based on # Packs and Pack Size (`[# Packs] x [Pack Size]`)
-6. If you are receiving more than one batch number for the same item, you can tap on the `Add Batch` button
+3. **Pack Size**: The quantity of units per pack (by default, pack size is 1)
+4. **Packs Received**: The quantity of packs you are receiving. This can be entered manually or calculated based on Unit Received / Pack Size
+5. **Unit Received** The quantity of units you are receiving. This can be entered manually or calculated based on Packs x Pack Size (`[# Packs] x [Pack Size]`)
+
+**Additional vaccine columns**
+
+The Quantities tab will have extra columns available with certain preferences on. These preferences are controlled in [Manage Facilities](/docs/manage/facilities/#editing-store-preferences).
+
+The additional columns available with the `Display vaccine in doses` preference on are:
+
+6. **Doses per unit**: The number of doses per unit.
+7. **Doses Received**: The number of doses you are receiving. This can be entered manually or calculated based on Pack Size x Packs x Doses
+
+![Doses columns](/docs/replenishment/images/is_doses_columns.png)
+
+The additional column available with the `Manage Vvm Status For Stock` preference on is:
+
+8. **VVM Status**: The current VVM Status for the batch.
+
+![Doses columns](/docs/replenishment/images/is_doses_columns.png)
+
+<div class="note">
+VVM Statuses must also be configured in mSupply by adding a status to the [Vaccine vial monitor list](https://docs.msupply.org.nz/cold_chain_equipment:configure). 
+</div>
+
+Selecting a VVM Status in an inbound shipment will generate a VVM Status log. One log will be recorded per batch for the inbound shipment (at shipment status Delivered). Logs can be viewed and edited by selecting the item in `View Stock` and selecting the `Status History` tab.
+
+#### Adding Batches
+
+If you are receiving more than one batch number for the same item, you can tap on the `Add Batch` button
 
 <div class="imagetitle">
 In the below example, we are receiving 2 batch numbers for item <i>030063 - Acetylsalicylic Acid 100mg tabs</i> with a different pack size. 

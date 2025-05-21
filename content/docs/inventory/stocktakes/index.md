@@ -49,6 +49,20 @@ For each stocktake you can see:
 There is little point in keeping old stocktakes with status = <code>NEW</code>, and it can even be quite dangerous, especially if you are about to create a new stocktake containing the same items. If time has passed since the stocktake was created, then the snapshot and actual quantities are almost certainly incorrect. For good housekeeping reasons, it is good practice to delete old <code>NEW</code> stocktakes.
 </div>
 
+## Initial stocktake
+
+The first stocktake recorded on a facility should be an initial stocktake. This is designed for ease of use entering stock into your store in Open mSupply for the first time.
+
+To create an initial stocktake click in the Initial Stocktakes button in the stocktake page.
+
+![Stocktake: initial](/docs/inventory/images/stocktake_initial_stocktake.png)
+
+<div class="tip">
+You can only create an initial stocktake if there are no stocktakes previously created for your store.
+</div>
+
+An initial stocktake will have placeholder lines for all items visible to your store. As all items counted are being added for the first time, reasons are not available to be selected on this stocktake.
+
 ## Creating a New Stocktake
 
 Let's start a new stocktake. To do so, tap on the `New Stocktake` button in the right corner of the screen.
@@ -83,7 +97,7 @@ You can use the `Add batch (+)` button to add more batches of a particular item 
 
 ### Entering reasons
 
-If you have [inventory adjustment options](https://docs.msupply.org.nz/preferences:options?s[]=reasons) configured in your central server, then you are required to enter a reason when the `counted packs` specified does not match the snapshot packs.
+If you have [inventory adjustment options](https://docs.msupply.org.nz/preferences:options?s[]=reasons) configured in your central server, and are not doing an initial stocktake, then you are required to enter a reason when the `counted packs` specified does not match the snapshot packs.
 
 For example, after entering `95` for the counted quantity for Amoxicillin 250mg tabs - batch 166893, a red \* will appear to the right of the `Reason` input, and you will need to select one of the negative inventory adjustment reasons:
 
@@ -96,6 +110,22 @@ If you try to save the stocktake row without entering a reason you will see an e
 and the stocktake row that requires a reason to be entered will be highlighted in red as shown below.
 
 ![Stocktake reasons error highlight](/docs/inventory/images/stocktake_reasons_error_highlight.png)
+
+#### Reason Types
+
+There are several [reason types](https://docs.msupply.org.nz/preferences:options?s[]=reasons) configurable in mSupply. The types available to use in Open mSupply are:
+
+- Positive Inventory Adjustment
+- Negative Inventory Adjustment
+- Open Vial Wastage
+
+When entering a stocktake row that has a change in the number of packs, the relevant reasons available to choose from will be displayed:
+
+| Adjustment type         | Item Type              | Reasons types available                             |
+| :---------------------- | :--------------------- | :-------------------------------------------------- |
+| **Inventory addition**  | Vaccine or non-vaccine | Positive Inventory Adjustment                       |
+| **Inventory reduction** | Non-vaccine            | Negative Inventory adjustment                       |
+| **Inventory reduction** | Vaccine                | Negative Inventory adjustment and Open Vial Wastage |
 
 ### Adding items
 

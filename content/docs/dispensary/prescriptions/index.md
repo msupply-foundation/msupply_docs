@@ -281,10 +281,9 @@ This shows the item name and code.
 
 ![Quantity Section](images-en/prescription_qty_section.png)
 
-##### Issuing stock
+### Issuing stock
 
 In the `Issue` field, you can enter the quantity that you want to issue to your patient.
-
 If you're recording [prescribed quantities](https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab), you can enter the prescribed quantity first, which will automatically populate the `Issue` field for you.
 ![Prescribed Quantity](images-en/prescriptions_prescribed_qty.png)
 
@@ -305,7 +304,7 @@ This is a list of batch numbers that you have in store for this item:
 
 ![List of available batch numbers](images-en/prescription_additem_listofbatches.png)
 
-### Issue a quantity
+#### Issue a quantity
 
 <div class="imagetitle">
 In the below example, we are issuing 1000 units of the item. All 1000 units will be taken from the same batch (first row). The other two batches was not selected because they are expired or on hold.
@@ -335,6 +334,21 @@ This warning tells you that because of the available pack sizes, the quantity yo
 ![Warning: Expired stock](images-en/prescription_warning_on-hold.png)
 
 This warning tells you that some of your stock is on hold and/or expired cannot be auto allocated.
+
+#### Issuing in doses
+
+Vaccine items can be dispensed in doses rather than units, if the [Manage vaccines in doses](/docs/manage/facilities/#editing-store-preferences) store preference is enabled.
+
+The following quantity columns will be displayed instead when issuing a vaccine item:
+
+| Column              | Description                                   |
+| :------------------ | :-------------------------------------------- |
+| **Doses per unit**  | The number of doses per unit                  |
+| **Units in stock**  | Total number of units at your store           |
+| **Doses Available** | Total number of doses available at your store |
+| **Doses Issued**    | Total number of doses to be administered      |
+
+![List of available batch numbers with doses](images-en/prescription_additem_listofbatches_with_doses.png)
 
 ### Manual Allocation
 

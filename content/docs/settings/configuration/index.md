@@ -13,7 +13,7 @@ toc = true
 top = false
 +++
 
-The configuration settings section allows you to configure custom data for the system. It is only available on the [Open mSupply Central Server](/docs/getting_started/central).
+The configuration settings section allows you to configure custom data for the system. It is only available on the [Open mSupply Central Server](/docs/getting_started/central-server).
 
 ## Viewing the configuration settings
 

@@ -13,7 +13,7 @@ toc = true
 top = false
 +++
 
-La lista de instalaciones está disponible únicamente en el [Servidor Central de Open mSupply](/docs/getting_started/central). Aquí puedes ver todos los almacenes y gestionar sus propiedades.
+La lista de instalaciones está disponible únicamente en el [Servidor Central de Open mSupply](/docs/getting_started/central-server). Aquí puedes ver todos los almacenes y gestionar sus propiedades.
 
 ## Ver las Instalaciones
 
@@ -72,7 +72,7 @@ Si ves un mensaje como este al abrir la ventana de Editar instalación, signific
 
 Desde esta ventana, puedes editar las propiedades del almacén
 
-![Edit facility](/docs/manage/images/edit_facility.png)
+![Edit facility](/docs/manage/images/edit_properties.png)
 
 - Haz clic en `OK` para guardar los cambios y cerrar la ventana
 - Haz clic en `OK & Siguiente` para guardar los cambios y comenzar a editar el siguiente almacén
@@ -98,7 +98,7 @@ Haz clic en `Cancelar` en cualquier momento para revertir tus cambios y cerrar l
 
 ## Permisos y restricciones
 
-Los almacenes solo son visibles en el [Servidor Central de Open mSupply](/docs/getting_started/central).
+Los almacenes solo son visibles en el [Servidor Central de Open mSupply](/docs/getting_started/central-server).
 
 Para editar almacenes de forma centralizada, necesitas el permiso Puedes `modificar datos centrales` habilitado en la [Pestaña de permisos de omSupply](https://docs.msupply.org.nz/admin:managing_users?s[]=permission#omsupply_permissions_tab) en tu almacén central.
 

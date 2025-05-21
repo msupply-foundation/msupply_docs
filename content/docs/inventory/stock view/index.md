@@ -194,3 +194,17 @@ If this is the case, the reason input will be enabled as below:
 When you are ready to adjust the stock level, click the `OK` button. You will then see your updated pack quantity in the [Details tab](#details-tab), and can review the adjustment in the [Ledger tab](#ledger-tab).
 
 Click the `Cancel` button at any time to close the adjust modal.
+
+### Reason Types
+
+There are several [reason types](https://docs.msupply.org.nz/preferences:options?s[]=reasons) configurable in mSupply. The types used when adjusting stock in Open mSupply are:
+
+- Positive Inventory Adjustment
+- Negative Inventory Adjustment
+- Open Vial Wastage
+
+| Adjustment type         | Item Type              | Reasons types available                             |
+| :---------------------- | :--------------------- | :-------------------------------------------------- |
+| **Inventory addition**  | Vaccine or non-vaccine | Positive Inventory Adjustment                       |
+| **Inventory reduction** | Non-vaccine            | Negative Inventory adjustment                       |
+| **Inventory reduction** | Vaccine                | Negative Inventory adjustment and Open Vial Wastage |

@@ -24,7 +24,7 @@ La page affiche le nombre d'enregistrements en attente d'être envoyés vers les
 
 ![sync: status](/docs/sync/images/sync_status.png)
 
-Depuis la version 2.0.0, votre serveur Open mSupply se synchronise avec deux serveurs centraux ! Les étapes `Push V6` et `Pull V6` transfèrent les données vers et depuis le serveur central Open mSupply, dont vous pouvez en savoir plus [ici](../../getting_started/central). Les étapes `Push`, `Pull Central` et `Pull Remote` se synchronisent avec un serveur central mSupply.
+Depuis la version 2.0.0, votre serveur Open mSupply se synchronise avec deux serveurs centraux ! Les étapes `Push V6` et `Pull V6` transfèrent les données vers et depuis le serveur central Open mSupply, dont vous pouvez en savoir plus [ici](../../getting_started/central-server). Les étapes `Push`, `Pull Central` et `Pull Remote` se synchronisent avec un serveur central mSupply.
 
 ## Synchronisation manuelle
 
