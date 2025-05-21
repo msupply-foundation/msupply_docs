@@ -72,7 +72,7 @@ Si ves un mensaje como este al abrir la ventana de Editar instalación, signific
 
 Desde esta ventana, puedes editar las propiedades del almacén
 
-![Edit facility](/docs/manage/images/edit_facility_properties.png)
+![Edit facility](/docs/manage/images/edit_properties.png)
 
 - Haz clic en `OK` para guardar los cambios y cerrar la ventana
 - Haz clic en `OK & Siguiente` para guardar los cambios y comenzar a editar el siguiente almacén

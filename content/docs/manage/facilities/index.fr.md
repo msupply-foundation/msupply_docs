@@ -72,7 +72,7 @@ Si vous voyez un message de ce type lorsque vous ouvrez la fenêtre Modifier le 
 
 Dans cette fenêtre, vous pouvez modifier les propriétés du dépôt.
 
-![Edit facility](/docs/manage/images/edit_facility_properties.png)
+![Edit facility](/docs/manage/images/edit_properties.png)
 
 - Cliquez sur `OK` pour enregistrer vos modifications et fermer la fenêtre.
 - Cliquez sur `OK & Next` pour enregistrer vos modifications et commencer à éditer le prochain dépôt.
