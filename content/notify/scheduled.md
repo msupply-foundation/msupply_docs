@@ -96,7 +96,7 @@ To configure a query, click the `Select Queries` button, and then choose the que
 
 ![Configuring Queries](/notify/images/image-8.png)
 
-To create new queries, you need to go the `Queries` page, and click `New Query`. This process is described in more detail in the [Queries](/notify/queries) section.
+To create new queries, you need to go the `Queries` page, and click `New Query`. <!-- This process is described in more detail in the [Queries](/notify/queries) section. -->
 
 In this example, we have a query with a `reference_name` : `out_of_stock_items` that has a parameter called `store_id`.
 

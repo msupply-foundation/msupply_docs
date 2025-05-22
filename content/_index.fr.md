@@ -14,8 +14,8 @@ repo_url = "https://github.com/openmsupply/open-msupply"
 [[extra.list]]
 icon = "mSupplymobile.png"
 title = "mSupply mobile"
-url = "fr/docs/mobile/introduction/"
-content = '<a href="https://docs.msupply.foundation/fr:mobile">Wiki de la documentation utilisateur</a> utilisateur pour mSupply mobile!'
+url = "/mobile/introduction/introduction"
+content = '<a href="/mobile/introduction/introduction">Wiki de la documentation utilisateur</a> utilisateur pour mSupply mobile!'
 
 [[extra.list]]
 icon = "mSupplyTorso.svg"
@@ -26,15 +26,15 @@ content = '<a href="https://docs.msupply.org.nz/">Wiki de la documentation utili
 [[extra.list]]
 icon = "dashboard.png"
 title = "Tableau de bord mSupply"
-url = "fr/docs/dashboard/introduction/"
-content = '<a href="https://wiki.msupply.foundation/fr:dashboard">Wiki de la documentation utilisateur</a> pour le tableau de bord mSupply!'
+url = "/dashboard/introduction/"
+content = '<a href="/dashboard/introduction">Wiki de la documentation utilisateur</a> pour le tableau de bord mSupply!'
 
 
 [[extra.list]]
 icon = "coldchain.png"
 title = "mSupply Chaîne de froid"
-url = "fr/docs/coldchain/introduction/"
-content = '<a href="https://docs.msupply.org.nz/fr/coldchain">Wiki de la documentation utilisateur</a> pour mSupply Chaîne de froid!'
+url = "/coldchain/introduction/"
+content = '<a href="/coldchain/introduction">Wiki de la documentation utilisateur</a> pour mSupply Chaîne de froid!'
 
 
 +++
