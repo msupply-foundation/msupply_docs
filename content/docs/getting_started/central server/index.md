@@ -74,6 +74,10 @@ Synchronisation to Open mSupply central server is performed via the V6 API, and 
 
 ![sync steps v6!](/docs/introduction/images/sync_steps_v6.png)
 
+### Requirements
+
+- As of v2.7.0, all stores on the Open mSupply Central Server must run in dispensary mode. This ensures all record types sync correctly.
+
 ## Open mSupply central server data types
 
 <div class="note">As of <code>v2.0.00</code></div>
