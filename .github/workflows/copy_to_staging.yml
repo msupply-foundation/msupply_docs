@@ -43,11 +43,10 @@ jobs:
           git status
           # github.actor is the name of the login that checked in the commit in the source repository       
           git config --global user.name ${{ github.actor }}
-          # add all the copied files to the destination repo for a commit
-          git add .
           # rewrite the base_url in the config.toml file to point to the staging server
           sed -i 's/\(base_url = \).*$/\1"https:\/\/docs-staging.msupply.foundation\/"/' config.toml
-          cat config.toml
+          # add all the copied files to the destination repo for a commit
+          git add .
           # check if any files actually changed, if files are different them commit them 
           # include the sha commit from the source repository as the commit in the destination commit.
           git diff --quiet && git diff --staged --quiet || git commit -m "from ${{ github.sha }}" 
