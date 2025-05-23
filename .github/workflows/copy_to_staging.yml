@@ -47,6 +47,7 @@ jobs:
           git add .
           # rewrite the base_url in the config.toml file to point to the staging server
           sed -i 's/\(base_url = \).*$/\1"https:\/\/docs-staging.msupply.foundation\/"/' config.toml
+          cat config.toml
           # check if any files actually changed, if files are different them commit them 
           # include the sha commit from the source repository as the commit in the destination commit.
           git diff --quiet && git diff --staged --quiet || git commit -m "from ${{ github.sha }}" 
