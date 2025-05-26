@@ -24,7 +24,9 @@ You'll also need a program configured and visible in your store, and the program
 
 Start with configuring [periods and schedules](https://docs.msupply.org.nz/admin:schedules_periods), then create a program and associate the schedule.
 
-See the [mSupply docs](https://docs.msupply.org.nz/items:programs) for configuring programs - note though that you'll only need the start of this process, which is to create a program and associate a schedule. For R&R forms, the other program configuration aspects aren't used yet.
+See the [mSupply docs](https://docs.msupply.org.nz/items:programs) for configuring programs - note though that you'll only need the start of this process, which is to create a program and associate a schedule. For R&R forms, the other program configuration aspects aren't used yet. You will also need to [connect a program to a store](https://docs.msupply.org.nz/items:programs#connecting_a_program_to_a_store).
+
+Also note that programs marked as an `Immunization program` will not be shown in the list of available programs when creating an R&R form.
 
 Make sure you have the correct thresholds set up for understock and overstock in your [store preferences](https://docs.msupply.org.nz/other_stuff:virtual_stores?s%5B%5D=threshold&s%5B%5D=overstock#notification_preferences). These are used to calculate the minimum and maximum stock levels for each item.
 
