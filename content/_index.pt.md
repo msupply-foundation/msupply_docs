@@ -11,7 +11,7 @@ url = "pt/docs/introduction/introduction"
 url_button = "👉 Documentos Open mSupply Desktop"
 repo_version = "GitHub v1 beta"
 repo_license = "Licença AGPL de código aberto."
-repo_url = "https://github.com/openmsupply/remote-server"
+repo_url = "https://github.com/msupply-foundation/open-msupply"
 
 
 [[extra.list]]
