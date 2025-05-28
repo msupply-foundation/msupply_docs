@@ -26,7 +26,7 @@ For GAPS functionality, you will only need to configure a new Master List, and m
 
 For Immunization [Patient Programs](/docs/programs/program-module), contact your administrator to get set up.
 
-Once the base Immunization Program is created, it can be further configured in the <a href='/docs/getting_started/central'>Open mSupply Central Server<a>. See the <a href="#permissions-restrictions">Permissions & Restrictions</a> section for more details.
+Once the base Immunization Program is created, it can be further configured in the <a href='/docs/getting_started/central-server'>Open mSupply Central Server<a>. See the <a href="#permissions-restrictions">Permissions & Restrictions</a> section for more details.
 
 ## Viewing Immunization Programs
 

@@ -26,7 +26,7 @@ Para a funcionalidade GAPS, apenas terá de configurar uma nova Lista Mestre e m
 
 Para a imunização [Programas de doentes](/docs/programs/program-module), contacte o seu administrador para fazer a configuração.
 
-Depois de o Programa de Imunização base ser criado, pode ser ainda mais configurado no <a href='/docs/getting_started/central'>Open mSupply Central Server<a>. Consulte a secção <a href="#permissions-restrictions">Permissões e restrições</a> para mais detalhes.
+Depois de o Programa de Imunização base ser criado, pode ser ainda mais configurado no <a href='/docs/getting_started/central-server'>Open mSupply Central Server<a>. Consulte a secção <a href="#permissions-restrictions">Permissões e restrições</a> para mais detalhes.
 
 ## Visualização de programas de imunização
 

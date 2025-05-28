@@ -32,7 +32,7 @@ Pour adresser une commande à un fournisseur:
 
 Une liste de commandes internes s'affiche à l'écran:
 
-![Internal Order: list](/docs/replenishment/images/intord_list_fr.png)
+![Internal Order: list](/docs/replenishment/images/intord_list.png)
 
 Vous pouvez utiliser le champs `Search by comment` pour filter la liste par commentaire:
 
@@ -111,7 +111,7 @@ Dans l'exemple ci-dessous, la quantité cible est de 62 unités. Comme nous avon
 ![Stock Distribution 2](/docs/replenishment/images/intord_charts_stockdistri2.png)
 
 - **Historique de la consommation (mensuel)**: ce graphique montre la consommation mensuelle jusqu'à 12 mois dans le passé (en gris) et la CMM actuel (en orange) :
-![Consumption](/docs/replenishment/images/intord_charts_consumption.png)
+  ![Consumption](/docs/replenishment/images/intord_charts_consumption.png)
 
 - **Évolution des stocks**: ce graphique vous montre votre niveau de stock pour les 30 derniers jours et votre stock prévisionnel pour les 30 prochains jours. Le stock prévisionnel sera mis à jour en fonction des données que vous aurez saisies dans le champ `Quantité commandée`:
 
@@ -145,18 +145,19 @@ Vous pouvez créer des commandes internes à partir de plusieurs listes de base 
 
 Lorsque vous ajoutez des articles (à l'aide d'une liste de base ou non), l'article est ajouté au tableau de la commande. Les informations suivantes sont fournies pour chaque ligne de commande :
 
-| Colonne                   | Description                                                                                                                                        |
-| :----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Code**                 | Code de l'article                                                                                                                                   |
-| **Nom**                 | Nom de l'article                                                                                                                                   |
-| **SDU (Est. restant)** | Quantité de stock actuellement disponible dans votre magasin                                                                                     |
-| **CMM**                  | Consommation mensuelle moyenne : la quantité de stock que votre magasin utilise en moyenne chaque mois (sur la base d'un nombre de mois configurable, la valeur par défaut étant de 3 mois). |
-| **Stock cible**         | C'est le stock que vous visez. Calculé comme suit : CMM x MOS maximum                                                                             |
-| **Quantité suggérée**   | La quantité de stock que mSupply suggère pour votre commande. Cette quantité est calculée comme suit : CMM x MOS maximum - SDU                                                    |
-| **Demandé**            | Cette valeur est fixée par défaut à zéro. Il s'agit de la quantité d'unités que vous commandez à votre fournisseur.                                                 |
-| **Commentaire**              | Un commentaire pour la ligne de commande. Les commentaires seront visibles par votre fournisseur.                                                                           |
+| Colonne                | Description                                                                                                                                                                                  |
+| :--------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Code**               | Code de l'article                                                                                                                                                                            |
+| **Nom**                | Nom de l'article                                                                                                                                                                             |
+| **SDU (Est. restant)** | Quantité de stock actuellement disponible dans votre magasin                                                                                                                                 |
+| **CMM**                | Consommation mensuelle moyenne : la quantité de stock que votre magasin utilise en moyenne chaque mois (sur la base d'un nombre de mois configurable, la valeur par défaut étant de 3 mois). |
+| **Stock cible**        | C'est le stock que vous visez. Calculé comme suit : CMM x MOS maximum                                                                                                                        |
+| **Quantité suggérée**  | La quantité de stock que mSupply suggère pour votre commande. Cette quantité est calculée comme suit : CMM x MOS maximum - SDU                                                               |
+| **Demandé**            | Cette valeur est fixée par défaut à zéro. Il s'agit de la quantité d'unités que vous commandez à votre fournisseur.                                                                          |
+| **Commentaire**        | Un commentaire pour la ligne de commande. Les commentaires seront visibles par votre fournisseur.                                                                                            |
 
 ### Utilisation des quantités suggérées
+
 Si vous tapez sur le bouton `Quantités suggérées pour l'utilisation` dans l'en-tête de la demande d'achat, mSupply copiera automatiquement les valeurs de l'élément **Quantité suggérée** dans la colonne **Quantité demandée** colonne.
 
 Vous pouvez toujours modifier manuellement la quantité commandée pour chaque ligne de commande en cliquant sur celle-ci.

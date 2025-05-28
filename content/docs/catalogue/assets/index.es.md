@@ -93,7 +93,7 @@ Se puede exportar una lista de activos como un archivo CSV utilizando el botón 
 
 ### Gestionar razones del reistro de eestado
 
-<div class="nota">Las razones del registro de estado se gestionan desde el servidor central de Open mSupply. <a href="/docs/getting_started/central">Haz clic aquí para obtener más información</a>.</div>
+<div class="nota">Las razones del registro de estado se gestionan desde el servidor central de Open mSupply. <a href="/docs/getting_started/central-server">Haz clic aquí para obtener más información</a>.</div>
 
 Cuando los usuarios añaden un nuevo registro de estado a un activo en particular, se puede proporcionar más detalle asociando una razón al nuevo estado. Por ejemplo, un activo etiquetado como `NO FUNCIONA` podría tener como razón `fallo en el suministro eléctrico`. Estas razones son personalizables y están asociados a un estado específico.
 

@@ -508,7 +508,7 @@ Once you have done this:
 
 ## Returning stock from an Inbound Shipment
 
-Sometimes, you might need to return stock that you received via an Inbound Shipment. You can do this by creating an [Supplier Return](../outbound-returns).
+Sometimes, you might need to return stock that you received via an Inbound Shipment. You can do this by creating an [Supplier Return](../supplier-returns).
 
 1. Open the Inbound Shipment for which you would like to return some or all of the stock
 2. Make sure that status is at least `DELIVERED`

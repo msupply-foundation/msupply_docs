@@ -42,7 +42,7 @@ Some operations are only allowed in the Open mSupply central server, if an opera
 
 Throughout this documentation you will see sections that refer to open mSupply central server functionality. To indicate this, they will have this image on the page:
 
-[![central server only](/docs/introduction/images/central_server.png "🔗 Available on central server only ")](/docs/getting_started/central/#remote-site-vs-central-server)
+[![central server only](/docs/introduction/images/central_server.png '🔗 Available on central server only ')](/docs/getting_started/central-server/#remote-site-vs-central-server)
 
 Clicking on the image will take you to this page.
 

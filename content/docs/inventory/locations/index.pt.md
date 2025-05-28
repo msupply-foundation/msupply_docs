@@ -22,27 +22,27 @@ Os locais no mSupply são os locais onde armazena stock.
 
 Para visualizar os locais de armazenamento da sua loja, aceda a `Inventário` > `Locais` no painel de navegação:
 
-![Localização: nav](/docs/inventory/images/loc_gotoloc.png)
+![Localização: nav](../images/loc_gotoloc.png)
 
 Verá uma lista dos seus locais de armazenamento:
 
-![Localização: lista](/docs/inventory/images/loc_loclist.png)
+![Localização: lista](../images/loc_loclist.png)
 
 ## Procurar um local específico
 
 Pode filtrar a lista por nome do local ou estado de espera.
 
-![Localização: filtro](/docs/inventory/images/location_filter.png)
+![Localização: filtro](../images/location_filter.png)
 
 ## Criação de um novo local
 
 Para criar um novo local, toque no botão `Novo local' no canto superior direito do ecrã:
 
-![Localização: novo botão de localização](/docs/inventory/images/loc_newlocbutton.png)
+![Localização: novo botão de localização](../images/loc_newlocbutton.png)
 
 Uma janela como esta é aberta:
 
-![Localização: criar local](/docs/inventory/images/loc_createloc.png)
+![Localização: criar local](../images/loc_createloc.png)
 
 1. **Nome**: Introduza o nome do novo local
 2. **Código**: Introduza um código para o novo local
@@ -68,4 +68,4 @@ Para eliminar um local:
 1. Selecione o local que pretende eliminar utilizando a caixa de seleção do lado esquerdo da lista
 2. O rodapé `Ações` será apresentado na parte inferior do ecrã quando um local for selecionado. Irá exibir o número de locais selecionados e as ações que podem ser tomadas. Clique em `Apagar`
 
-![Apagar local](/docs/inventory/images/delete-location.png)
+![Apagar local](../images/delete-location.png)

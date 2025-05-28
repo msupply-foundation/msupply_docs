@@ -26,7 +26,7 @@ Para la funcionalidad de GAPS, solo necesitas configurar una nueva Lista Maestra
 
 Para los [Programas de Pacientes de Inmunización](/docs/programs/program-module), contacta a tu administrador para realizar la configuración.
 
-Una vez creado el Programa Básico de Inmunización, se puede configurar más detalladamente en el <a href='/docs/getting_started/central'>Servidor Central de Open mSupply<<a>. Consulta la sección de <a href="#permissions-restrictions">Permisos y Restricciones</a> para más detalles.
+Una vez creado el Programa Básico de Inmunización, se puede configurar más detalladamente en el <a href='/docs/getting_started/central-server'>Servidor Central de Open mSupply<<a>. Consulta la sección de <a href="#permissions-restrictions">Permisos y Restricciones</a> para más detalles.
 
 ## Ver los Programas de Inmunización
 

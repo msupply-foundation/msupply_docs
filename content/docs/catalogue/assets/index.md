@@ -95,7 +95,7 @@ On the Open mSupply Central Server, there is the option to select and delete ass
 
 ### Managing status log reasons
 
-<div class="note">Status log reasons are managed from the <a href="/docs/getting_started/central">Open mSupply central server</a>.</div>
+<div class="note">Status log reasons are managed from the <a href="/docs/getting_started/central-server">Open mSupply central server</a>.</div>
 
 When users add a new status log against a particular asset, more detail can be provided with a reason associated with the new status. For example, an asset which has been labled `NON_FUNCTIONING` could be assigned a reason of `power supply broken`. These reasons are customisable, and associated with a particular status.
 

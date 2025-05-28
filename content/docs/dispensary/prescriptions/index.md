@@ -495,7 +495,7 @@ To begin printing labels, first ensure that you have configured a printer in [Se
 
 For each item in the prescription you'll need to define item directions to be printed on the labels. These can be entered manually, with abbreviations or default item directions.
 
-See the [Directions](/dispensary/prescriptions/#directions) section for more information.
+See the [Directions](#directions) section for more information.
 
 ### Printing All
 
