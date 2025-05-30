@@ -19,7 +19,7 @@ It integrates with mSupply Desktop and the mSupply Dashboard to provide a compre
 
 ## What's on display?
 
-![Explainer!](/coldchain/images/coldchain_frontpage_basic.png)
+![Explainer!](images/coldchain_frontpage_basic.png)
 
 ## And in more detail...
-![Explainer!](/coldchain/images/coldchain_frontpage_advanced.png)
+![Explainer!](images/coldchain_frontpage_advanced.png)

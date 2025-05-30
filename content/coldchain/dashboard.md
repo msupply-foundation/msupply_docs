@@ -24,7 +24,7 @@ These queries generally need to be set up by an administrator but have been incl
 
 ### Sensor Graph
 
-![Dashboard Sensor Graph!](/coldchain/images/dashboard_sensor_graph.png)
+![Dashboard Sensor Graph!](images/dashboard_sensor_graph.png)
 
 **Query:**
 
@@ -49,7 +49,7 @@ ORDER BY log_datetime
 
 ### Unacknowledged Breaches
 
-![Unacknowledged Breaches!](/coldchain/images/unacknowledged_breaches_dashboard.png)
+![Unacknowledged Breaches!](images/unacknowledged_breaches_dashboard.png)
 
 **Query:**
 
@@ -73,7 +73,7 @@ SELECT COUNT(*) FROM breaches
 
 ### Batches affected
 
-![Batches affected!](/coldchain/images/batches_affected_dashboard.png)
+![Batches affected!](images/batches_affected_dashboard.png)
 
 **Query:**
 
@@ -126,4 +126,4 @@ You can test if the alternate server process is really running by checking port 
 netstat -ano | findstr :8081 In this case process with ID 2188 is running ok. 
 ```
 
-![Hey mSupply Desktop- you serving today?!](/coldchain/images/alternate_server_test.png)
+![Hey mSupply Desktop- you serving today?!](images/alternate_server_test.png)

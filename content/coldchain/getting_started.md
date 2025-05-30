@@ -36,16 +36,16 @@ If devices are managed through a Mobile Device Management (MDM) system, then the
 
 1. Allow the application to access photos, media and files on your device: this will allow the export of log data to the device for report and email purposes.
 
-![Android Access!](/coldchain/images/allow_coldchain_access.png)
+![Android Access!](allow_coldchain_access.png)
 
 2. Allow the application to access this device’s location: this will allow the Android’s low energy Bluetooth to work.
 3. Pressing OK will take you to the Location to ensure that it is turned on.
 
-![Android Access- again!](/coldchain/images/allow_coldchain_access_more.png)
+![Android Access- again!](images/allow_coldchain_access_more.png)
 
 4. You will be prompted to confirm Bluetooth permission. Select Allow.
 
-![Bluetooth On!](/coldchain/images/bluetooth_on.png)
+![Bluetooth On!](images/bluetooth_on.png)
 
 Once a sensor is linked to mSupply Cold Chain, it will be automatically synchronised via Bluetooth according to the user-programmable schedule. mSupply Cold Chain requires Bluetooth to be enabled in order to receive temperature logs. If Bluetooth is disabled when the application is operating, the user will be prompted to reconnect.
 

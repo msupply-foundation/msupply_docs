@@ -37,18 +37,18 @@ The Swagger API used for communicating with mSupply desktop is described [here](
 
 Navigate to **SETTINGS** (located at the bottom of the main screen): 
 
-![Settings Here!](/coldchain/images/settings_tab.png)
+![Settings Here!](images/settings_tab.png)
 
 Navigate to **SYNC SETTINGS**
 
-![Settings Here!](/coldchain/images/sync_settings.png)
+![Settings Here!](images/sync_settings.png)
 
 
 * Put in your store credentials under USERNAME and PASSWORD
 * Add the sync url and port 
     * Example: http://192.168.4.3:8080
 
-![Sync Settings!](/coldchain/images/sync_settings_detail.png)
+![Sync Settings!](images/sync_settings_detail.png)
 
 Press the 'Start Integration' button to start sending data to the server. 
 
@@ -59,11 +59,11 @@ mSupply Cold Chain will send data to the server every 1-2 minutes.
 
 Navigate to **SETTINGS** (located at the bottom of the main screen): 
 
-![Settings Here!](/coldchain/images/settings_tab.png)
+![Settings Here!](images/settings_tab.png)
 
 Navigate to **SYNC SETTINGS**
 
-![Settings Here!](/coldchain/images/sync_settings.png)
+![Settings Here!](images/sync_settings.png)
 
 
 * Put in your store credentials under USERNAME and PASSWORD
@@ -73,7 +73,7 @@ Navigate to **SYNC SETTINGS**
     * Temperature-log - example: http://192.168.4.3:8080/coldchain/v1/temperature-log
     * Temperature-breach - example: http://192.168.4.3:8080/coldchain/v1/temperature-breach
 
-![Integration Settings!](/coldchain/images/integration_settings.png)
+![Integration Settings!](images/integration_settings.png)
 
 Press the 'Start Integration' button to start sending data to the server. 
 
@@ -81,6 +81,6 @@ mSupply Cold Chain will send data to the server every 1-2 minutes.
 
 On desktop computers running mSupply, a new floating cold chain monitoring window is shown to users: 
 
-![Fridge down, Fridge down!](/coldchain/images/desktop_notifications.png)
+![Fridge down, Fridge down!](images/desktop_notifications.png)
 
 

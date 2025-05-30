@@ -44,7 +44,7 @@ This configuration allows for notifications for all CCE at all facilities to be 
 
 All users in this scenario have subscribed to this single channel and so all users will see all notifications from all CCE at all facilities. 
 
-![Telegram - Multi-facility, multi-CCE](/coldchain/images/multi-facility-telegram.png)
+![Telegram - Multi-facility, multi-CCE](images/multi-facility-telegram.png)
 
 #### Multiple Telegram channels receiving notifications from all CCE at a single facility each. 
 
@@ -52,7 +52,7 @@ This configuration allows for separate Telegram channels for each facility. User
 
 Here User 3 has subscribed to two channels. 
 
-![Telegram - Single-facility, multi-CCE](/coldchain/images/single-facility-telegram.png)
+![Telegram - Single-facility, multi-CCE](images/single-facility-telegram.png)
 
 ### Setting up Telegram Messenger
 

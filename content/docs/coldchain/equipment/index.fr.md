@@ -23,7 +23,7 @@ TODO: Add link to central server docs when they are created
 
 En accédant au menu **Équipements** via le serveur central Open mSupply, vous pouvez consulter l'ensemble des équipements de la chaîne du froid de tous les sites.
 
-![goto equipment](/docs/coldchain/images/equipment.png)
+![goto equipment](images/equipment.png)
 
 Ici, vous pouvez consulter tous les équipements de la chaîne du froid disponibles sur votre site.
 

@@ -21,7 +21,7 @@ Selecting the Settings tab at the bottom right of the screen will take you to th
 * Sensors
 * Temperature breach settings
 
-![Settings!](/coldchain/images/settings.png)
+![Settings!](images/settings.png)
 
 ### Sensor settings
 
@@ -36,7 +36,7 @@ Please refer to the mSupply Cold Chain Getting Started for information about the
 
 Logging interval: Sets the default number of minutes between logs on sensors. Using the slider, you can set the default log interval to any length between 1 and 100 minutes. 
 
-![Default Logging Interval!](/coldchain/images/log_interval_setting.png)
+![Default Logging Interval!](images/log_interval_setting.png)
 
 The logging interval applies for all sensors when they are first linked to the mSupply Cold Chain application. Different log intervals can be set for each sensor in Available Sensors/Log interval (see below).
 
@@ -53,7 +53,7 @@ Start logging from: Using the date/time options, you can set the schedule for th
 
 Once a sensor has been linked to the mSupply Cold Chain application, it will be displayed as an Available Sensor at the top of the screen. You can select a linked sensor by double-tapping on the sensor name/row or by pressing on “>” in the device’s row.
 
-![Sensor Detail Settings!](/coldchain/images/sensor_detail_settings.png)
+![Sensor Detail Settings!](images/sensor_detail_settings.png)
 
 **Blink**: Pressing here will cause the sensor light to flash. You can use this feature to ensure that you are working with the correct sensor.
 
@@ -68,7 +68,7 @@ We recommend you avoid the use special characters (e.g. -, +, \*) in the sensor 
 
 **Log interval**: The log interval will initially be set to the default log interval. Using the slider, you can change the interval between logs to any length between 1 and 30 minutes. When you press OK, the sensor will be reprogrammed with the new log interval.
 
-![Log Interval Setting!](/coldchain/images/log_interval__individual_setting.png)
+![Log Interval Setting!](images/log_interval__individual_setting.png)
 
 ### Temperature breach settings
 
@@ -79,7 +79,7 @@ There are two breach categories:
 
 Temperature breach settings apply to all sensors.
 
-![Temperature Breach Detail!](/coldchain/images/temperature_breach_detail.png)
+![Temperature Breach Detail!](images/temperature_breach_detail.png)
 
 ### Single exposure breach configurations
 
@@ -92,13 +92,13 @@ Description: The default names for the two single exposure breach configuration 
 
 However, you can enter a custom name for each temperature breach category if required.
 
-![Once more into the breach!](/coldchain/images/breach_naming.png)
+![Once more into the breach!](images/breach_naming.png)
 
 We recommend you avoid the use special characters (e.g. -, +, \*) when naming breach categories.
 
 Duration: Using the slider, you can determine how long the temperature must continuously remain outside of the required temperature range for it to be considered a breach. You can set the duration to any length between 1 and 600 minutes.
 
-![It Was This Long!](/coldchain/images/breach_duration.png)
+![It Was This Long!](images/breach_duration.png)
 
 The duration should be equal or greater to the log interval. The duration should also be a multiple of the log interval to ensure breaches are captured accurately.
 
@@ -107,7 +107,7 @@ Temperature: Using the slider, you can set the temperature outside of which will
 * below which will be a breach for the cold breach category, and
 * above which will be a breach for the hot breach category.
 
-![Don't take me higher than this!](/coldchain/images/upper_breach_threshold.png)
+![Don't take me higher than this!](images/upper_breach_threshold.png)
 
 The temperature selected can be between -30 and +50 degrees Celsius.
 
@@ -122,13 +122,13 @@ Description: The default names for the two single exposure breach configuration 
 
 You can enter a name for each temperature breach category.
 
-![Breach Name!](/coldchain/images/breach_name.png)
+![Breach Name!](images/breach_name.png)
 
 We recommend you avoid the use special characters (e.g. -, +, \*) when naming breach categories.
 
 Duration: Using the slider, you can determine the total time (sum) the temperature must remain outside of the required temperature range for it to be considered a cumulative breach. You can set the duration to any length between 1 and 600 minutes. 
 
-![It Was This Long!](/coldchain/images/breach_duration.png)
+![It Was This Long!](images/breach_duration.png)
 
 Temperature: Using the slider, you can set the temperature outside of which will result in a breach:
 
@@ -137,7 +137,7 @@ Temperature: Using the slider, you can set the temperature outside of which will
 
 The temperature selected can be between -30 and +50 degrees Celsius. 
 
-![Don't take me higher than this!](/coldchain/images/upper_breach_threshold.png)
+![Don't take me higher than this!](images/upper_breach_threshold.png)
 
 Period: The time period used for cumulative temperature configuration (and hence alerts) on the Sensor tab is set at 72 hours.
 
