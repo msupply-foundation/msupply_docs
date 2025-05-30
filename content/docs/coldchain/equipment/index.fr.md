@@ -40,7 +40,7 @@ La liste des équipements est divisée en 6 colonnes:
 | **Hors-catalogue**         | Désigne si l'actif a ete créé hors actif catalogue (voir [Catalogue > Assets](/docs/catalogue/assets/)) |
 | **Notes**                  | Notes entrées au sujet de l'actif                                                                       |
 
-![Equipment nav](/docs/coldchain/images/equipment_list.png)
+![Equipment nav](images/equipment_list.png)
 
 #### Paginer les équipements
 
