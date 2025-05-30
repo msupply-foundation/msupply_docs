@@ -77,7 +77,7 @@ Para ver los detalles de una requisición en particular, simplemente haz clic en
 
 Al hacer clic en un elemento individual en esta vista, se mostrarán los detalles del artículo en particular. Aquí puedes ajustar la cantidad a suministrar:
 
-![Requisition Detail](/docs/distribution/images/requisition-item-detail.png)
+![Requisition Detail](/docs/distribution/images/requisition_line_edit_page.png)
 
 La cantidad solicitada también se muestra, junto con los detalles del artículo en inventario.
 

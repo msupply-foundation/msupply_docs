@@ -1,5 +1,5 @@
 +++
-title = "Facilities"
+title = "Stores"
 description = "Manage all stores"
 date = 2022-05-17T16:20:00+00:00
 updated = 2022-05-17T16:20:00+00:00
@@ -13,17 +13,15 @@ toc = true
 top = false
 +++
 
-The Facilities list is available only on the [Open mSupply Central Server](/docs/getting_started/central). This is where you can view all stores, and manage their properties.
+The Stores list is available only on the [Open mSupply Central Server](/docs/getting_started/central-server). This is where you can view all stores, and manage their properties.
 
-## Viewing Facilities
+## Viewing Stores
 
-Choose `Manage` > `Facilities` in the navigation panel.
-
-![goto: facilities](/docs/manage/images/goto_facilities.png)
+Choose `Manage` > `Stores` in the navigation panel.
 
 You will be presented with a list of stores in your system.
 
-![facility list](/docs/manage/images/facilities.png)
+![store list](/docs/manage/images/facilities.png)
 
 The list of Stores is divided into 5 columns:
 
@@ -51,20 +49,43 @@ You can also select a different number of rows to show per page using the option
 
 ![Rows per page](../../images/rows-per-page-select.png)
 
-### Searching facilities
+### Searching stores
 
-You can filter the list of facilities by name or by code. This can be useful if you're looking for one particular store!
+You can filter the list of stores by name or by code. This can be useful if you're looking for one particular store!
 
-In the search bar in the top left of your screen, type some (or all) of a store name or store code. The list will now contain all matching facilities:
+In the search bar in the top left of your screen, type some (or all) of a store name or store code. The list will now contain all matching stores:
 
-![Facilities filter](/docs/manage/images/facilities_filter.png)
+![Stores filter](/docs/manage/images/facilities_filter.png)
 
-## Editing store properties
+## Store Preferences
 
-To edit the properties of a store in the list, click on it. This will open a new `Edit Facility` window.
+Store preferences allow the configuration of Open mSupply for a specific store. A short description of each preference is given below, with further detail in their related areas of the documentation.
+
+To configure preferences for a store, select that store from the list - a new window will open.
+
+![Store preferences](/docs/manage/images/store_preferences.png)
+
+Toggle the preferences on or off as required, and close when you are finished.
+
+### Available Preferences
+
+| Preference Name                                      | Description                                                                                                                                                                                           |
+| :--------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Manage vaccines in doses**                         | View stock levels and transactions for vaccine items in doses, rather than units or packs                                                                                                             |
+| **Manage VVM status for stock**                      | Enables a `VVM status` field on stock                                                                                                                                                                 |
+| **Sort available batches by VVM status then expiry** | Auto-allocation in Outbound Shipments and Prescriptions uses VVM status first, then FEFO                                                                                                              |
+| **Use simplified mobile UI**                         | On by default. Reduces number of fields and elements visible when using Open mSupply on a tablet. Requires the `Set pack to one for all visible items in this store` Legacy mSupply store preference. |
+
+<div class='note'>
+Most store preferences are still managed through the Legacy mSupply central server. Only new store preferences for Open mSupply are configured on Open mSupply central server for now. All store preferences will be migrated to Open mSupply in a future version.
+</div>
+
+## Store Properties
+
+To edit the properties of a store in the list, click on it. This will open a new `Edit Store` window.
 
 <div class='tip'>
-If you see a message like this when you open the Edit Facility window, that means you have no store properties configured! To set these up, please contact support or <a href='/docs/settings/configuration/#gaps-store-properties'>enable GAPS Properties</a>.
+If you see a message like this when you open the Edit Store window, that means you have no store properties configured! To set these up, please contact support or <a href='/docs/settings/configuration/#gaps-store-properties'>enable GAPS Properties</a>.
 
 ![Facilities: no properties](/docs/manage/images/facilities-no-properties-defined.png)
 
@@ -72,7 +93,7 @@ If you see a message like this when you open the Edit Facility window, that mean
 
 From this window, you can edit the store properties.
 
-![Edit facility](/docs/manage/images/edit_facility.png)
+![Edit facility](/docs/manage/images/edit_properties.png)
 
 - Click `OK` to save your changes and close the window
 - Click `OK & Next` to save your changes and start editing the next store
@@ -98,8 +119,8 @@ Click `Cancel` at any time to revert your changes and close the window.
 
 ## Permissions & Restrictions
 
-Facilities are only visible on the [Open mSupply Central Server](/docs/getting_started/central).
+Stores are only visible on the [Open mSupply Central Server](/docs/getting_started/central-server).
 
-To Edit facilities centrally you need the `Can modify central data` permission, enabled in the [omSupply Permissions Tab](https://docs.msupply.org.nz/admin:managing_users?s[]=permission#omsupply_permissions_tab) on your Central Store.
+To Edit stores centrally you need the `Can modify central data` permission, enabled in the [omSupply Permissions Tab](https://docs.msupply.org.nz/admin:managing_users?s[]=permission#omsupply_permissions_tab) on your Central Store.
 
 ![Can Modify Central Data Permission](/docs/programs/images/can_modify_central.png)

@@ -226,7 +226,7 @@ If, however, you've created an Inbound Shipment manually, then the following mes
 and you'll see that the status bar has only the status values which apply to this type of shipment.
 
 <figure align="center">
-    <img src="/docs/replenishment/is_statussequence4.png" alt="Inbound Shipment Status Sequence (New & manual)" style="width:60%">
+    <img src="/docs/replenishment/images/is_statussequence4.png" alt="Inbound Shipment Status Sequence (New & manual)" style="width:60%">
     <figcaption align="center">Status Sequence: current status is </i><code>New</code>.</figcaption>
 </figure>
 
@@ -281,7 +281,7 @@ To add a line, tap on the `Add Item` button located in the top left corner of yo
 
 A new `Add Item` window opens.
 
-![Inbound: add item button](/docs/replenishment/is_additem_button.png)
+![Inbound: add item button](/docs/replenishment/images/is_additem_button.png)
 
 ### Select an Item
 
@@ -293,7 +293,7 @@ In the `Add Item` window, you can look up an item by:
 
 Once your item is highlighted, tap on the name or press `Enter`.
 
-![Add Item](/docs/distribution/os_additem.gif)
+![Add Item](/docs/distribution/images/os_additem.gif)
 
 ### Quantities tab
 
@@ -310,7 +310,7 @@ In the `Quantities` tab, you can update the following fields:
 In the below example, we are receiving 2 batch numbers for item <i>030453 - Amoxicillin 250mg tabs</i> with a different pack size. 
 </div>
 
-![Add Item quantities](/docs/replenishment/is_additem_quantities.png)
+![Add Item quantities](/docs/replenishment/images/is_additem_quantities.png)
 
 ### Pricing tab
 
@@ -329,7 +329,7 @@ Sell & Cost prices are per units and not per pack.
 In the below example, sell price $12 per unit and cost price is $10 per unit. 
 </div>
 
-![Add Item pricing](/docs/replenishment/is_additem_pricing.png)
+![Add Item pricing](/docs/replenishment/images/is_additem_pricing.png)
 
 ### Location tab
 
@@ -337,7 +337,7 @@ In the third tab, `Location`, you can select a storage location to assign the ba
 
 Simply select a storage location from the `Location` dropdown menu.
 
-![Add Item location](/docs/replenishment/is_additem_location.png)
+![Add Item location](/docs/replenishment/images/is_additem_location.png)
 
 <div class="remarque">
 Don't know the storage location yet ? You don't have to capture it right away. You can update the storage location at any time if you haven't confirmed the verification yet. 
@@ -380,13 +380,13 @@ To edit an Inbound Shipment line, simply tap on it. You will be presented with t
 4. Go to the `Actions` dropdown menu (top right corner, above the list)
 5. Select the action `Delete selected lines`
 
-![Alt Text](/docs/distribution/os_actions_deleteselectedlines.png)
+![Alt Text](/docs/distribution/images/os_actions_deleteselectedlines.png)
 
 <div class="imagetitle">
 In the below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100mg tabs</i>
 </div>
 
-![Alt Text](/docs/distribution/os_deleteselectedlines.gif)
+![Alt Text](/docs/distribution/images/os_deleteselectedlines.gif)
 
 <div class="conseil">
 You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
@@ -434,4 +434,4 @@ To change the view mode, click the `Group by item` switch.
 
 When grouped by item, you can expand the item to see individual batches, or use the expand in the table header to expand all grouped rows. If you click on an item you will also see all selected batches, as shown in this example:
 
-![Group by Item](/docs/replenishment/is_group_by_item.gif)
+![Group by Item](/docs/replenishment/images/is_group_by_item.gif)

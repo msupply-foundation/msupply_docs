@@ -24,7 +24,7 @@ The window shows the number of records waiting to be pushed to the central serve
 
 ![sync: status](/docs/sync/images/sync_status.png)
 
-As of v2.0.0, your Open mSupply server actually syncs to two central servers! The `Push V6` and `Pull V6` steps transfer data to and from the Open mSupply central server, which you can read more about [here](../../getting_started/central). The `Push`, `Pull Central` and `Pull Remote` steps are syncing with an mSupply central server.
+As of v2.0.0, your Open mSupply server actually syncs to two central servers! The `Push V6` and `Pull V6` steps transfer data to and from the Open mSupply central server, which you can read more about [here](../../getting_started/central-server). The `Push`, `Pull Central` and `Pull Remote` steps are syncing with an mSupply central server.
 
 To close the window you can press `Esc` on your keyboard or click the close button which is at the top right:
 

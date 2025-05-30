@@ -19,17 +19,16 @@ Este tutorial foi criado para o orientar sobre os conceitos básicos de utiliza�
 ## Efetuando login
 
 1.º Para começar, terá de abrir o seu navegador da Web. Gostamos do Firefox, mas o Chrome e os seus inúmeros descendentes também serão suficientes.
-2.º Introduza o endereço web (URL) do seu servidor mSupply. No nosso caso, estamos a utilizar o https://demo-open.msupply.org - o nosso site de teste.
-3. Após premir `enter` no seu teclado, será apresentada a página de login
+2.º Introduza o endereço web (URL) do seu servidor mSupply. No nosso caso, estamos a utilizar o https://demo-open.msupply.org - o nosso site de teste. 3. Após premir `enter` no seu teclado, será apresentada a página de login
 
-![login!](/docs/introdução/images/log_in.png)
+![login!](/docs/introduction/images/log_in.png)
 
 4.º Introduza o seu nome de utilizador e palavra-passe e prima `enter` no seu teclado ou clique no botão [Login]
 
 Se tudo estiver a correr bem, será redirecionado para a página do painel.
 MAS se houver um problema, verá uma mensagem de erro, como esta:
 
-![login!](/docs/introdução/images/log_in_error.png)
+![login!](/docs/introduction/images/log_in_error.png)
 
 Tente introduzir novamente o nome de utilizador e a palavra-passe (note que ambos são sensíveis a maiúsculas e minúsculas).
 Ao efetuar login, a loja predefinida do seu utilizador é selecionada como a loja atual. Se tiver acesso a outras lojas, pode trocá-las após fazer login (ver abaixo).
@@ -52,13 +51,13 @@ Existem atalhos de teclado utilizados em todo o Open mSupply. Em vez de se lembr
 
 Isto abrirá a seguinte janela, independentemente da página em que se encontra:
 
-![CommandK](/docs/introdução/images/cmd_k.png)
+![CommandK](/docs/introduction/images/cmd_k.png)
 
 Isto mostra a lista de atalhos disponíveis globalmente, por exemplo, premir `d` no seu teclado irá levá-lo ao painel (a menos que esteja a introduzir texto num campo de entrada!).
 
 No entanto, também pode clicar num item da lista ou pesquisar os comandos disponíveis:
 
-![CommandK](/docs/introdução/images/cmd_k.gif)
+![CommandK](/docs/introduction/images/cmd_k.gif)
 
 Além disso, existem vários locais onde estão disponíveis atalhos de teclado específicos. Um exemplo é o controlo de separadores utilizado em Inventários e Remessas de Entrada. Aqui pode usar `control`+`1` para navegar até ao primeiro separador (Quantidades) ou `control`+`2` para o segundo separador (Preços) etc. Se premir `+` no seu teclado, pode adicionar um novo lote.
 
@@ -68,7 +67,7 @@ Além disso, existem vários locais onde estão disponíveis atalhos de teclado 
 
 A parte inferior do ecrã contém algumas informações úteis e é apresentada em todos os ecrãs
 
-![Rodapé](/docs/introdução/images/footer.png)
+![Rodapé](/docs/introduction/images/footer.png)
 
 Alguns utilizadores têm acesso a mais do que uma loja. Para alterar a loja atualmente selecionada, basta clicar no nome da loja no rodapé:
 

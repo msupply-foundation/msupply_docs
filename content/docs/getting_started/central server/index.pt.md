@@ -42,7 +42,7 @@ Algumas operações só são permitidas no servidor central do Open mSupply. Se 
 
 Ao longo desta documentação, verá secções que se referem à funcionalidade do servidor central aberto mSupply. Para indicar isso, terão esta imagem na página:
 
-[![apenas servidor central](/docs/introduction/images/central_server.png "🔗 Apenas disponível no servidor central ")](/docs/getting_started/central/#remote-site-vs-central-server)
+[![apenas servidor central](/docs/introduction/images/central_server.png '🔗 Apenas disponível no servidor central ')](/docs/getting_started/central-server/#remote-site-vs-central-server)
 
 Clicar na imagem levá-lo-á para esta página.
 
@@ -57,8 +57,8 @@ Para configurar o seu site Open mSupply para utilizar um servidor central, exist
 - No mSupply, crie um novo site com uma loja atribuída (pode ser uma loja fictícia)
 - Marque a caixa de seleção (conforme indicado no link 'definições extra' acima)
 - Introduza o URL do servidor do seu novo Open mSupply
- servidor central. Isto será diferente do servidor Open mSupply habitual e
- o servidor mSupply!
+  servidor central. Isto será diferente do servidor Open mSupply habitual e
+  o servidor mSupply!
 
 <div class="warning">O servidor central aberto do mSupply pode ser configurado e sincronizado com sucesso, mesmo que este URL esteja errado. Este campo é apenas utilizado por sites remotos para saber onde encontrar o servidor central do Open mSupply.
 

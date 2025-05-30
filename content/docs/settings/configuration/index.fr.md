@@ -13,7 +13,7 @@ toc = true
 top = false
 +++
 
-La section des paramètres de configuration vous permet de configurer des données personnalisées pour le système. Il est uniquement disponible sur le [Serveur Central Open mSupply](https://docs.msupply.foundation/fr/docs/getting_started/central/).
+La section des paramètres de configuration vous permet de configurer des données personnalisées pour le système. Il est uniquement disponible sur le [Serveur Central Open mSupply](https://docs.msupply.foundation/fr/docs/getting_started/central-server/).
 
 ## Affichage des paramètres de configuration
 
@@ -26,5 +26,3 @@ Si vous êtes sur le serveur central Open mSupply, vous verrez cette liste de se
 ![Settings: collapsed](/docs/settings/images/settings_collapsed_central.png)
 
 Cliquez sur le menu `Configuration` pour commencer.
-
-

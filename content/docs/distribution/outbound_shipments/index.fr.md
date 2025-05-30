@@ -112,7 +112,7 @@ Dans l'exemple ci-dessous, du stock sera livré au client <b>Kamo Regional Wareh
 ![gif](/docs/distribution/images/os_select_customer.gif)
 
 <div class="conseil">
-Vous pouvez savoir si un client utilise également mSupply dans son dépôt. Si c'est le cas, vous verrez cette icône (<img src="/docs/replenishment/is_msupplystoreicon.png" alt="Store" style="width:auto">) près du code du fournisseur. 
+Vous pouvez savoir si un client utilise également mSupply dans son dépôt. Si c'est le cas, vous verrez cette icône (<img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto">) près du code du fournisseur. 
 </div>
 
 2. Une fois que vous pressez la touche `Entrer`, votre Expédition est automatiquement créée.
@@ -198,12 +198,12 @@ Le status de la séquence se trouve dans le coin inférieur gauche de l'écran e
 Les statuts passés sont mis en évidence en bleu, les statuts suivants apparaissent en gris.
 
 <figure>
-<img src="/docs/distribution/os_statussequence2.png" style="width:100%">
+<img src="/docs/distribution/images/os_statussequence2.png" style="width:100%">
 <figcaption align="center">Status Sequence: status actuel est <code>NEW</code>.</figcaption>
 </figure>
 
 <figure>
-<img src="/docs/distribution/os_statussequence3.png" alt="Trulli" style="width:100%">
+<img src="/docs/distribution/images/os_statussequence3.png" alt="Trulli" style="width:100%">
 <figcaption align="center">Status Sequence: status actuel est </i><code>PICKED</code>.</figcaption>
 </figure>
 
@@ -335,7 +335,7 @@ Dans l'exemple ci-dessous, nous émettons 100 unités de l'article. Les 100 unit
 Dans cet autre exemple, nous émettons 1200 unités. Le système sélectionne deux lots avec des tailles d'emballage différentes. 
 </div>
 
-![additem!](/docs/distribution/images/os_additem_issueunitstwobatches.png)
+![additem!](/docs/distribution/images/os_additem_issueunitsthreebatches.png)
 
 Notez que dans cette liste, les lots qui sont disponibles pour la sélection sont affichés en premier et les lots qui ne le sont pas (en attente ou pas de stock disponible) sont affichés en dessous et dans une police grise.
 
@@ -378,7 +378,7 @@ Le champ principal `Quantité à délivrer` sera automatiquement mis à jour ave
 </div>
 
 <figure>
-<img src="/docs/distribution/os_additem_manualallocation.gif" alt="Trulli" style="width:100%">
+<img src="/docs/distribution/images/os_additem_manualallocation.gif" alt="Trulli" style="width:100%">
 <figcaption align="center"><i>Allocation manuelle au niveau du numéro de lot.</i></figcaption>
 </figure>
 
@@ -472,7 +472,7 @@ Once you all your shipments lines have been allocated, you can **confirm the all
 
 To confirm the allocation, press the `Confirm Allocated` button.
 
-![Alt Text](/docs/distribution/os_confirmallocated.gif)
+![Alt Text](/docs/distribution/images/os_confirmallocated.gif)
 
 Once the allocation is confirmed:
 
@@ -533,4 +533,4 @@ To change the view mode, click the `Group by item` switch.
 
 When grouped by item, you can expand the item to see individual batches, or use the expand in the table header to expand all grouped rows. If you click on an item you will also see all selected batches, as shown in this example:
 
-![Group by Item](/docs/distribution/os_group_by_item.gif)
+![Group by Item](/docs/distribution/images/os_group_by_item.gif)

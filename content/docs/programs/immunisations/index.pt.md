@@ -26,7 +26,7 @@ Para a funcionalidade GAPS, apenas terá de configurar uma nova Lista Mestre e m
 
 Para a imunização [Programas de doentes](/docs/programs/program-module), contacte o seu administrador para fazer a configuração.
 
-Depois de o Programa de Imunização base ser criado, pode ser ainda mais configurado no <a href='/docs/getting_started/central'>Open mSupply Central Server<a>. Consulte a secção <a href="#permissions-restrictions">Permissões e restrições</a> para mais detalhes.
+Depois de o Programa de Imunização base ser criado, pode ser ainda mais configurado no <a href='/docs/getting_started/central-server'>Open mSupply Central Server<a>. Consulte a secção <a href="#permissions-restrictions">Permissões e restrições</a> para mais detalhes.
 
 ## Visualização de programas de imunização
 
@@ -40,9 +40,9 @@ Será apresentada uma lista de Programas de Vacinação:
 
 A lista de Programas de Imunização está dividida em 2 colunas:
 
-| Coluna | Descrição |
-| :------------------ | :--------------------------------------------------------------- |
-| **Nome do programa** | O nome do Programa de Vacinação |
+| Coluna                | Descrição                                                      |
+| :-------------------- | :------------------------------------------------------------- |
+| **Nome do programa**  | O nome do Programa de Vacinação                                |
 | **Cursos de Vacinas** | Os Cursos de Vacinação que integram este Programa de Vacinação |
 
 ## Visualização de detalhes do programa de imunização
@@ -59,11 +59,11 @@ A visualização detalhada do Programa de Vacinação apresenta uma lista dos Cu
 
 A lista dos Cursos de Vacinação está dividida em 3 colunas:
 
-| Coluna | Descrição |
-| :--------------------- | :---------------------------------------------------- |
-| **Nome** | O nome do Curso de Vacinação |
+| Coluna           | Descrição                                                       |
+| :--------------- | :-------------------------------------------------------------- |
+| **Nome**         | O nome do Curso de Vacinação                                    |
 | **Público-alvo** | O grupo demográfico que vai receber a vacina Curso de Vacinação |
-| **Doses** | O número de doses incluídas no curso |
+| **Doses**        | O número de doses incluídas no curso                            |
 
 ### Adicionar um novo curso de vacinas
 
@@ -83,14 +83,14 @@ Para adicionar doses ao Curso de Vacinação, clique no botão `(+) Dose`. Isto 
 
 A tabela do esquema posológico está dividida em 6 colunas:
 
-| Coluna | Descrição |
-| :---------------------- | :---------------------------------------------------------------------------------------------------------------------------------------- |
-| **Dose #** | O número da dose no esquema |
-| **Etiqueta** | O rótulo da dose, a apresentar no [Cartão de Vacinação](/docs/programs/program-module#vaccination-cards) |
-| **Idade mínima** | Idade mínima recomendada para receber a dose (em anos e meses) |
-| **Idade màxima** | Idade máxima recomendada para receber a dose (em anos e meses) |
+| Coluna                            | Descrição                                                                                                                                                      |
+| :-------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Dose #**                        | O número da dose no esquema                                                                                                                                    |
+| **Etiqueta**                      | O rótulo da dose, a apresentar no [Cartão de Vacinação](/docs/programs/program-module#vaccination-cards)                                                       |
+| **Idade mínima**                  | Idade mínima recomendada para receber a dose (em anos e meses)                                                                                                 |
+| **Idade màxima**                  | Idade máxima recomendada para receber a dose (em anos e meses)                                                                                                 |
 | **Rótulo de idade personalizada** | Etiqueta de idade personalizada para ser exibida no Boletim de Vacinação. Se não estiver definido, o predefinido é `A partir da idade` (por exemplo, `6 anos`) |
-| **Intervalo mínimo (dias)** | Número mínimo de dias antes de o doente receber a dose seguinte |
+| **Intervalo mínimo (dias)**       | Número mínimo de dias antes de o doente receber a dose seguinte                                                                                                |
 
 <div class="nota">
  Se forem utilizados rótulos de idade personalizados, certifique-se de que o rótulo é o mesmo em todas as doses do Programa de Vacinação com a mesma <code>Idade inicial</code>. Por exemplo, se pretender substituir "0 meses" por "Nascimento", todas as doses em todos os Ciclos de Vacinação com <code>Idade a partir de</code> dos 0 meses necessitarão do rótulo de idade personalizado "Nascimento". Isto garante o agrupamento correto das doses no Boletim de Vacinas.
@@ -124,7 +124,7 @@ Uma notificação no canto inferior esquerdo confirmará quantos cursos foram el
 
 ## Permissões e Restrições
 
-Os programas de imunização só podem ser geridos no [Open mSupply Central Server](/docs/getting_started/central) e requerem a preferência de loja [`mobile: Usa o módulo de vacinas`](https://docs.msupply.org.nz/cold_chain_equipment:mobile?s[]=vaccine#enable_the_vaccine_module_for_the_mobile_store).
+Os programas de imunização só podem ser geridos no [Open mSupply Central Server](/docs/getting_started/central-server) e requerem a preferência de loja [`mobile: Usa o módulo de vacinas`](https://docs.msupply.org.nz/cold_chain_equipment:mobile?s[]=vaccine#enable_the_vaccine_module_for_the_mobile_store).
 
 ![Módulo de vacinas de preferência da unidade de saúde mSupply](/docs/programs/images/vaccine_module.png)
 

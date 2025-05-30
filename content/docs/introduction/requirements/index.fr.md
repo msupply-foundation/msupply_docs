@@ -132,7 +132,7 @@ Une fois que vous commencez à utiliser Open mSupply, il est important d'avoir u
 Les systèmes d'exploitation basés sur Windows sont particulièrement vulnérables aux logiciels malveillants si des précautions ne sont pas prises. Nous recommandons les précautions suivantes :
 
 - Installez un antivirus réputé, y compris une protection Web si l'ordinateur a accès à Internet.
-- Désactivez les ports USB - reportez-vous à [ce site](http://https://sospc.name/desactiver-ports-usb/) pour les méthodes suggérées
+- Désactivez les ports USB - reportez-vous à [ce site](https://sospc.name/desactiver-ports-usb/) pour les méthodes suggérées
 
 Assurez-vous que l'accès aux mots de passe permettant des exceptions aux deux mesures ci-dessus est sécurisé.
 
@@ -146,7 +146,7 @@ La version minimum de PostgreSQL est la version 12.
 
 Une installation de mSupply est actuellement requise pour exécuter Open mSupply (elle permet de gérer un certain nombre d'aspects centralisés du système).
 
-A partir de v2.0.00, le serveur central Open mSupply est aussi requis pour une synchronisation réussie. Voir en anglais [Open mSupply central server](/docs/getting_started/central/) et [Open mSupply central server site configuration in mSupply](https://docs.msupply.org.nz/synchronisation:sync_sites#open_msupply_central_server_settings) pour plus de détails.
+A partir de v2.0.00, le serveur central Open mSupply est aussi requis pour une synchronisation réussie. Voir en anglais [Open mSupply central server](/docs/getting_started/central-server/) et [Open mSupply central server site configuration in mSupply](https://docs.msupply.org.nz/synchronisation:sync_sites#open_msupply_central_server_settings) pour plus de détails.
 
 Vous obtiendrez le message suivant si le serveur central n'est pas configuré :
 

@@ -299,7 +299,7 @@ A new `Add Item` window opens.
 
 ### Adding using a barcode scanner
 
-For another way to add items, if you are using the desktop client or android app, you can make use of [barcode scanning](../outbound_shipments/barcode-scanning) to add items.
+For another way to add items, if you are using the desktop client or android app, you can make use of [barcode scanning](../barcode-scanning) to add items.
 
 ### Select an Item
 
@@ -604,7 +604,7 @@ If your customer is also using mSupply, you will be able to see when they'll rec
 
 ## Process return of stock from an Outbound Shipment
 
-Sometimes, stock sent via an Outbound Shipment will need to be returned. You can do this by creating an [Customer Return](../inbound-returns).
+Sometimes, stock sent via an Outbound Shipment will need to be returned. You can do this by creating an [Customer Return](../customer-returns).
 
 1. Open the Outbound Shipment for which you would like to process the return of some or all of the stock
 2. Make sure that status is at least `SHIPPED`

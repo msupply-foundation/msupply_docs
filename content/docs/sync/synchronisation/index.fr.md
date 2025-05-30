@@ -24,7 +24,7 @@ La page affiche le nombre d'enregistrements en attente d'être envoyés vers les
 
 ![sync: status](/docs/sync/images/sync_status.png)
 
-Depuis la version 2.0.0, votre serveur Open mSupply se synchronise avec deux serveurs centraux ! Les étapes `Push V6` et `Pull V6` transfèrent les données vers et depuis le serveur central Open mSupply, dont vous pouvez en savoir plus [ici](../../getting_started/central). Les étapes `Push`, `Pull Central` et `Pull Remote` se synchronisent avec un serveur central mSupply.
+Depuis la version 2.0.0, votre serveur Open mSupply se synchronise avec deux serveurs centraux ! Les étapes `Push V6` et `Pull V6` transfèrent les données vers et depuis le serveur central Open mSupply, dont vous pouvez en savoir plus [ici](../../getting_started/central-server). Les étapes `Push`, `Pull Central` et `Pull Remote` se synchronisent avec un serveur central mSupply.
 
 ## Synchronisation manuelle
 
@@ -42,7 +42,7 @@ Ainsi, dans l’exemple ci-dessus, 4 enregistrements de synchronisation sont env
 
 Voici le processus complet en action. Vous remarquerez que la plupart des étapes de synchronisation sont très rapides, même si cela dépend du nombre d'enregistrements que vous devez synchroniser :
 
-<p><img src="/docs/sync/images/sync.gif" alt=:"sync: manual" width="800" /></p>
+<p><img src="/docs/sync/images/sync_in_progress.png" alt="sync: manual" width="800" /></p>
 
 Si des erreurs surviennent pendant la synchronisation, vous les verrez également sur cet écran. Passez la souris sur l'icône « i » pour voir des détails supplémentaires.
 
@@ -52,4 +52,4 @@ Si des erreurs surviennent pendant la synchronisation, vous les verrez égalemen
 
 En haut à droite de la page `Synchronisation`, l'URL du serveur actuel est affichée, ainsi qu'un code QR. Le code contient l'URL du serveur et peut être utilisé pour configurer facilement [la chaîne du froid mSupply](https://docs.msupply.foundation/fr/docs/coldchain/introduction/) lors de la synchronisation avec Open mSupply. Si vous rencontrez des difficultés pour scanner le code, vous pouvez cliquer (ou appuyer, si vous utilisez une tablette) sur le code pour afficher une version plus grande.
 
-![Synchronisation manuelle](/docs/sync/images/expand_qr.gif)
+![Synchronisation manuelle](/docs/sync/images/qr_expanded.png)

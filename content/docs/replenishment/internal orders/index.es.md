@@ -171,7 +171,7 @@ Siempre puedes editar manualmente la cantidad de cada línea de pedido pulsando 
 Al ver una Orden Interna específica, simplemente haz clic en el botón `Imprimir` que está en la parte superior derecha de la página.
 Al imprimir, se generará un archivo PDF que se abrirá en una nueva pestaña de tu navegador. Luego puedes imprimirlo usando tu navegador haciendo clic en imprimir o usando las teclas `control`+`P` (si usas windows) o `cmd`+`P` en tu teclado (si usas una Mac).
 
-![Print button](//docs/introduction/images//print_button.png)
+![Print button](/docs/introduction/images/print_button.png)
 
 Esto hará que
 

@@ -116,7 +116,7 @@ En el siguiente ejemplo, estamos emitiendo inventario al <b>Almacén Regional de
 ![gif](/docs/distribution/images/os_select_customer.gif)
 
 <div class="consejo">
-Puede saber si un cliente también está usando mSupply en su almacén. Si lo está haciendo, verá un ícono como este (<img src="/docs/replenishment/is_msupplystoreicon.png" alt="Store" style="width:auto">) junto al código del proveedor. 
+Puede saber si un cliente también está usando mSupply en su almacén. Si lo está haciendo, verá un ícono como este (<img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto">) junto al código del proveedor. 
 </div>
 
 2. Una vez que toque o presion `Enter`, su Salida se creará automáticamente

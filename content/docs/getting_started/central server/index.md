@@ -42,7 +42,7 @@ Some operations are only allowed in the Open mSupply central server, if an opera
 
 Throughout this documentation you will see sections that refer to open mSupply central server functionality. To indicate this, they will have this image on the page:
 
-[![central server only](/docs/introduction/images/central_server.png "🔗 Available on central server only ")](/docs/getting_started/central/#remote-site-vs-central-server)
+[![central server only](/docs/introduction/images/central_server.png '🔗 Available on central server only ')](/docs/getting_started/central-server/#remote-site-vs-central-server)
 
 Clicking on the image will take you to this page.
 
@@ -73,6 +73,10 @@ When the Open mSupply site goes through the synchronisation cycle, it will query
 Synchronisation to Open mSupply central server is performed via the V6 API, and requires a couple of extra steps, as per the V6 push and pull steps in the sync stepper
 
 ![sync steps v6!](/docs/introduction/images/sync_steps_v6.png)
+
+### Requirements
+
+- As of v2.7.0, all stores on the Open mSupply Central Server must run in dispensary mode. This ensures all record types sync correctly.
 
 ## Open mSupply central server data types
 

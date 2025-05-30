@@ -13,7 +13,7 @@ toc = true
 top = false
 +++
 
-La sección de configuración permite configurar datos personalizados para el sistema. Solo está disponible en el [Servidor Central de Open mSupply](/docs/getting_started/central).
+La sección de configuración permite configurar datos personalizados para el sistema. Solo está disponible en el [Servidor Central de Open mSupply](/docs/getting_started/central-server).
 
 ## Ver la configuración de los ajustes
 
@@ -25,7 +25,7 @@ Si estás en el Servidor Central de Open mSupply, verás esta lista de secciones
 
 ![Settings: collapsed](/docs/settings/images/settings_collapsed_central.png)
 
-Haz clic en la sección `Configuración`  para comenzar.
+Haz clic en la sección `Configuración` para comenzar.
 
 ## Propiedades de la tienda GAPS
 

@@ -15,7 +15,7 @@ top = false
 
 The Demographics section is where you can view and manage future projections for different Demographic Indicators. This population data can then be used to estimate the required cold storage capacity for upcoming immunization programs.
 
-Demographics management is only available on the [Open mSupply Central Server](/docs/getting_started/central).
+Demographics management is only available on the [Open mSupply Central Server](/docs/getting_started/central-server).
 
 ## Configuration
 
@@ -70,7 +70,7 @@ This will add a new row to the table. You can now enter a name for the demograph
 
 ## Permissions & Restrictions
 
-Demographics are only visible on the [Open mSupply Central Server](/docs/getting_started/central) and requires the [`mobile: Uses vaccine module`](https://docs.msupply.org.nz/cold_chain_equipment:mobile?s[]=vaccine#enable_the_vaccine_module_for_the_mobile_store) store preference.
+Demographics are only visible on the [Open mSupply Central Server](/docs/getting_started/central-server) and requires the [`mobile: Uses vaccine module`](https://docs.msupply.org.nz/cold_chain_equipment:mobile?s[]=vaccine#enable_the_vaccine_module_for_the_mobile_store) store preference.
 
 ![mSupply Store Preference Vaccine Module](/docs/programs/images/vaccine_module.png)
 

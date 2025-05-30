@@ -139,8 +139,8 @@ In the **Additional Info** section you can:
 
 - See who created the Requisition (name of the user)
 - See when the Requisition was created
-- View and edit the Requisition color. To edit the color, tap on the colored
-  circle and select a color from the pop-up
+- View and edit the Requisition colour. To edit the colour, tap on the coloured
+  circle and select a colour from the pop-up
 - Write or edit a comment
 
 ##### Related Documents

@@ -52,15 +52,15 @@ Neste ecrã pode:
 
 1. A lista pode apresentar um número fixo de retornos por página. No canto inferior esquerdo pode ver quantas devoluções estão atualmente apresentadas no ecrã.
 
-![Página](../../images/list_showing.png)
+![Página](/docs/images/list_showing.png)
 
 3.Se tiver mais devoluções do que o limite atual, pode navegar para as outras páginas tocando no número da página ou utilizando as setas direita ou esquerda (canto inferior direito).
 
-![Página](../../images/list_pagenumbers.png)
+![Página](/docs/images/list_pagenumbers.png)
 
 4.º Também pode selecionar um número diferente de linhas para mostrar por página, utilizando a opção no canto inferior direito da página.
 
-![Linhas por página](../../images/rows-per-page-select.png)
+![Linhas por página](/docs/images/rows-per-page-select.png)
 
 ### Pesquisar por nome do cliente
 
