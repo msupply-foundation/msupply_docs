@@ -64,16 +64,9 @@ Puedes filtrar la lista de pacientes utilizando la barra de búsqueda en la part
 ![Patient filter](/docs/dispensary/images/patient_filter.png)
 
 Por ejemplo, para filtrar por género, haz clic en `Filtros`, selecciona `Género`, y luego elige el género por el que deseas filtrar.
-
-![Patient filter gender](/docs/dispensary/images/patient_filter.gif)
-
 ### Exportar pacientes
 
-La lista de pacientes puede exportarse a un archivo separado por comas (CSV). Simplemente haz clic en el botón de exportar (ubicado en la parte superior derecha de la página)
-
-![Export button](/docs/distribution/images/export.png)
-
-El archivo se descargará automáticamente. La función de exportación descargará todos los pacientes, no solo los de la página actual, en caso de que tengas más de 20.
+La lista de pacientes puede exportarse a un archivo separado por comas (CSV). Simplemente haz clic en el botón de exportar (ubicado en la parte superior derecha de la página). El archivo se descargará automáticamente. La función de exportación descargará todos los pacientes, no solo los de la página actual, en caso de que tengas más de 20.
 
 ### Crear un nuevo paciente
 
