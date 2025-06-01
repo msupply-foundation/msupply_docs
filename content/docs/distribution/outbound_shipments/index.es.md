@@ -28,7 +28,7 @@ Una salida se puede utilizar para:
 
 Selecciona `Distribución` > `Salida` en el panel de navegación.
 
-![gotooos](/docs/distribution/images/gotoos2.png)
+![gotooos](images/gotoos2.png)
 
 Se mostrará una lista de sakidas(si no ves ninguna, es probable que estés comenzando).
 
@@ -55,15 +55,15 @@ Desde esta pantalla puedes:
 
 2. La lista puede mostrar un número fijo de envíos por página. En la esquina inferior izquierda, puedes ver cuántos envíos se muestran actualmente en tu pantalla.
 
-![Page](../../images/list_showing.png)
+![Page](images/list_showing.png)
 
 3. Si tienes más envíos que el límite actual, puedes navegar a otras páginas haciendo clic en el número de página o utilizando las flechas izquierda o derecha (esquina inferior derecha).
 
-![Page](../../images/list_pagenumbers.png)
+![Page](images/list_pagenumbers.png)
 
 4. También puedes seleccionar un número diferente de filas para mostrar por página utilizando la opción en la esquina inferior derecha de la página.
 
-![Rows per page](../../images/rows-per-page-select.png)
+![Rows per page](images/rows-per-page-select.png)
 
 ### Búsqueda por nombre de cliente
 
@@ -75,7 +75,7 @@ Escribe el nombre de un cliente en el campo `Buscar por nombre` (a la izquierda,
 
 La lista de salias se puede exportar a un archivo separado por comas (CSV). Simplemente haz clic en el botón de exportación (a la derecha, en la parte superior de la página).
 
-![Export button](/docs/distribution/images/export.png)
+![Export button](images/export.png)
 
 y el archivo será descargado. La función de exportación descargará todos los envíos salientes, no sólo la página actual, si tienes más de 20 de ellos. Los envíos se exportan utilizando el orden de clasificación seleccionado en la tabla, aunque por supuesto puedes ordenar fácilmente la lista en Excel o en cualquier programa con el que abras el archivo CSV.
 
@@ -93,7 +93,7 @@ Puedes eliminar una salida del listado de salidas.
 Solo puedes eliminar salidas cuyo estado sea <code>NUEVO</code>.
 </div>
 
-![Outbound list: delete](/docs/distribution/images/os_list_deleteshipment.gif)
+![Outbound list: delete](images/os_list_deleteshipment.gif)
 
 ## Crear una salida
 
@@ -101,7 +101,7 @@ Solo puedes eliminar salidas cuyo estado sea <code>NUEVO</code>.
 
 2. Presionar el botón `Nueva salida`, en la esquina superior derecha.
 
-![New Shipment](/docs/distribution/images/os_click_new_shipment.png)
+![New Shipment](images/os_click_new_shipment.png)
 
 3. Se abrirá una nueva ventana llamada `Clientes`, la cual le invita a seleccionar un cliente.
 
@@ -113,10 +113,10 @@ Solo puedes eliminar salidas cuyo estado sea <code>NUEVO</code>.
 En el siguiente ejemplo, estamos emitiendo inventario al <b>Almacén Regional de Kamo</b>. 
 </div>
 
-![gif](/docs/distribution/images/os_select_customer.gif)
+![gif](images/os_select_customer.gif)
 
 <div class="consejo">
-Puede saber si un cliente también está usando mSupply en su almacén. Si lo está haciendo, verá un ícono como este (<img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto">) junto al código del proveedor. 
+Puede saber si un cliente también está usando mSupply en su almacén. Si lo está haciendo, verá un ícono como este (images/is_msupplystoreicon.png" alt="Store" style="width:auto">) junto al código del proveedor. 
 </div>
 
 2. Una vez que toque o presion `Enter`, su Salida se creará automáticamente
@@ -125,13 +125,13 @@ Puede saber si un cliente también está usando mSupply en su almacén. Si lo es
 Si todo salió bien, debería ver el nombre de su cliente en la esquina superior izquierda y el estado debería ser: <code>NUEVO</code> 
 </div>
 
-![Outbound shipment: created](/docs/distribution/images/os_created.png)
+![Outbound shipment: created](images/os_created.png)
 
 ### Editar el nombre del cliente
 
 Si ha seleccionado el cliente equivocado, puede cambiar el nombre del cliente en el campo `Nombre del cliente` o seleccionar uno de la lista desplegable:
 
-![gif](/docs/distribution/images/os_change_customer.gif)
+![gif](images/os_change_customer.gif)
 
 ### Ingresar una referencia de client
 
@@ -156,7 +156,7 @@ Para abrir el Panel de información, puede tocar el botón `Más`, ubicado en la
 
 Puede cerrarlo tocando el botón `X Cerrar`, en la esquina superior derecha del panel de información.
 
-![Open and close the Information Panel](/docs/distribution/images/os_infopanel_openclose.gif)
+![Open and close the Information Panel](images/os_infopanel_openclose.gif)
 
 #### Información adicional
 
@@ -228,7 +228,7 @@ Si pasas el cursor sobre la secuencia de estados, aparecerá una ventana de hist
 Este envío ha sido creado, asignado y recogido el 29/03/2022
 </div>
 
-![Outbound status: hover](/docs/distribution/images/os_statussequence_hover.png)
+![Outbound status: hover](images/os_statussequence_hover.png)
 
 ### Casilla de retención
 
@@ -236,7 +236,7 @@ Se encuentra en la esquina inferior izquierda, a la izquierda de la secuencia de
 
 Seleccionar la casilla `Retener` evita que la salida se actualice al siguiente estado.
 
-![Outbound checkbox](/docs/distribution/images/os_holdcheckbox.png)
+![Outbound checkbox](images/os_holdcheckbox.png)
 
 ### Botones de Cancelar y Confirmar
 
@@ -260,7 +260,7 @@ No es necesario actualizar un envío al siguiente estado en la secuencia. Puedes
 
 Como se muestra a continuación, toca la flecha hacia abajo del botón `Confirmar` y selecciona el estado al que deseas que se actualice el envío.
 
-![Skip Status](/docs/distribution/images/os_confirmbutton_skipstatuses.gif)
+![Skip Status](images/os_confirmbutton_skipstatuses.gif)
 
 ## Agregar líneas a una salida
 
@@ -268,7 +268,7 @@ Toca el botón `Agregar artículo` (esquina superior derecha).
 
 Se abrirá una nueva ventana llamada `Agregar artículo`.
 
-![Add Item button](/docs/distribution/images/additembutton.png)
+![Add Item button](images/additembutton.png)
 
 ### Seleccionar un ítem
 
@@ -280,7 +280,7 @@ En la ventana de `Agregar ítem`, puedes buscar un ítem de las siguientes maner
 
 Una vez que hayas resaltado el ítem, toca su nombre o presiona `Enter`.
 
-![Alt Text](/docs/distribution/images/os_additem.gif)
+![Alt Text](images/os_additem.gif)
 
 Una vez que se selecciona el artículo, se pueden ver las siguientes información:
 
@@ -294,7 +294,7 @@ Una vez que se selecciona el artículo, se pueden ver las siguientes informació
 <b>Ejemplo:</b> Para el artículo *030453 - Amoxicillina 250mg tabletas*, hay 3527 pestañas disponibles. 
 </div>
 
-![add item headers](/docs/distribution/images/additem_headers.png)
+![add item headers](images/additem_headers.png)
 
 #### Emitir [Cantidad] de unidades en paquetes de [Tamaño del paquete]
 
@@ -304,7 +304,7 @@ Por defecto, se te invita a emitir una cantidad de **unidades**. Sin embargo, ti
 
 El valor predeterminado es `Cualquiera` cuando emites unidades.
 
-![Outbound Issue quantity](/docs/distribution/images/os_issuequantityinunits.png)
+![Outbound Issue quantity](images/os_issuequantityinunits.png)
 
 #### Lista de lotes disponibles:
 
@@ -324,7 +324,7 @@ Esta es una lista de números de lote que tienes en tu inventario para este art�
 También hay una última fila en la tabla que es una línea de marcador de posición, si el estado del envío de salida es`NUEVO`.
 La línea de marcador de posición se utiliza cuando la cantidad que se emite es mayor que tu inventario disponible.
 
-![List of available batch numbers](/docs/distribution/images/os_additem_listofbatches.png)
+![List of available batch numbers](images/os_additem_listofbatches.png)
 
 ### Emitir una cantidad de unidades
 
@@ -336,13 +336,13 @@ Al ingresar un número en el campo `Emitir`, después de hacer clic en el botón
 En el siguiente ejemplo, emitiremos 10 unidades del artículo. Las 10 unidades se tomarán de la misma partida (tercera fila). Las dos primeras partidas no fueron seleccionadas porque han caducado.
 </div>
 
-![additem!](/docs/distribution/images/os_additem_issueunits.png)
+![additem!](images/os_additem_issueunits.png)
 
 <div class="imagetitle">
 En este otro ejemplo, emitiremos 100 unidades. El sistema selecciona tres lotes con diferentes tamaños de paquete.
 </div>
 
-![additem!](/docs/distribution/images/os_additem_issueunitsthreebatches.png)
+![additem!](images/os_additem_issueunitsthreebatches.png)
 
 Ten en cuenta que en esta lista, las partidas que están disponibles para su selección se muestran primero y las partidas que no lo están (en espera o sin stock disponible) se muestran abajo y en fuente gris.
 
@@ -354,7 +354,7 @@ Puedes decidir emitir una cantidad de **paquetes**. Para hacerlo, puedes cambiar
 Imaginemos que tu cliente solo quiere un tamaño de paquete de 25 unidades. Puedes cambiar el valor del menú desplegable de  `Cualquier` a `25`. 
 </div>
 
-![Alt Text](/docs/distribution/images/os_additem_switchtopack.gif)
+![Alt Text](images/os_additem_switchtopack.gif)
 
 Ahora se te ofrece la posibilidad de emitir un número de paquetes de 25 unidades. Solo se pueden emitir automáticamente los números de lote que tengan un tamaño de paquete de 25 unidades.
 
@@ -362,13 +362,13 @@ Ahora se te ofrece la posibilidad de emitir un número de paquetes de 25 unidade
 En el siguiente ejemplo, estamos emitiendo 5 paquetes de 25 unidades:
 </div>
 
-![additem!](/docs/distribution/images/os_additem_issuepacks.png)
+![additem!](images/os_additem_issuepacks.png)
 
 <div class="nota">
 <b></b> si previamente has ingresado una cantidad de unidades y cambias a una cantidad de paquetes, la cantidad de unidades se convertirá automáticamente en la cantidad correcta de paquetes.  
 </div>
 
-![Alt Text](/docs/distribution/images/os_issuepacks.gif)
+![Alt Text](images/os_issuepacks.gif)
 
 Cuando se selecciona un tamaño de paquete, las líneas de stock que tienen un tamaño de paquete diferente no están disponibles para seleccionar. Por lo tanto, esas filas se enumeran más abajo en la tabla y se muestran en una fuente gris, de la misma manera que otras filas no disponibles.
 
@@ -399,11 +399,11 @@ Las líneas de reserva se pueden asignar más tarde cuando llegue nuevo stock. S
 Dado que no hay stock disponible para <i>042744-Diazepam Injection 5mg/ml Amp/2ml</i>,  el sistema emitirá 100 unidades en el campo de reserva. 
 </div>
 
-![Alt Text](/docs/distribution/images/os_additem_placeholder.png)
+![Alt Text](images/os_additem_placeholder.png)
 
 Cuando revisas una salida, puedes ver si una línea de envío no ha sido asignada o ha sido parcialmente asignada cuando se resalta en azul.
 
-![Alt Text](/docs/distribution/images/os_placeholderlines.png)
+![Alt Text](images/os_placeholderlines.png)
 
 ### Confirmar artículo y cantidad
 
@@ -417,19 +417,19 @@ Cuando estés satisfecho con la cantidad, puedes presionar:
 
 Haga clic en el botón `Agregar desde la lista maestra` (esquina superior derecha).
 
-![Add Item button](/docs/distribution/images/os-add-from-master-list-button.png)
+![Add Item button](images/os-add-from-master-list-button.png)
 
 Se abre una nueva ventana de `Listas Maestras`. Esto le permite seleccionar la lista maestra requerida. Simplemente haga clic en una de las listas (si tiene alguna disponible).
 Tenga en cuenta que las listas que se muestran son aquellas que son visibles para el cliente del envío.
 
-![Add Item button](/docs/distribution/images/os-add-item-master-lists.png)
+![Add Item button](images/os-add-item-master-lists.png)
 
 Haga clic en `OK` en la ventana emergente:
-![Add Item button](/docs/distribution/images/os-add-item-master-list-prompt.png)
+![Add Item button](images/os-add-item-master-list-prompt.png)
 
 Luego se agregarán líneas no asignadas (reserva) a su envío, que se verán así:
 
-![Add Item button](/docs/distribution/images/os-after-master-list.png)
+![Add Item button](images/os-after-master-list.png)
 
 Como puede ver, todas las cantidades son cero. Puede seguir los pasos para editar estas líneas, como se detalla arriba.
 
@@ -460,13 +460,13 @@ Para editar una línea de envío, selecciónela. Se abrirá la ventana`Editar Ar
 3. Ve al menú desplegable `Acciones` (esquina superior derecha, encima de la lista).
 4. Selecciona la acción `Eliminar las líneas seleccionadas`
 
-![Alt Text](/docs/distribution/images/os_actions_deleteselectedlines.png)
+![Alt Text](images/os_actions_deleteselectedlines.png)
 
 <div class="imagetitle">
 En el siguiente ejemplo, estamos eliminando e <i>artículo 030063 - Tabletas de ácido acetilsalicílico de 100 mg</i>
 </div>
 
-![Alt Text](/docs/distribution/images/os_deleteselectedlines.gif)
+![Alt Text](images/os_deleteselectedlines.gif)
 
 <div class="consejo">
  <b></b> Puedes eliminar varias líneas a la vez. Asegúrate de revisar lo que está seleccionado antes de realizar la acción de eliminación. 
@@ -499,7 +499,7 @@ Una vez que todas las líneas de envío han sido asignadas, puedes **confirmar l
 
 Para confirmar la asignación, presiona el botón `Confirmar asignado`.
 
-![Alt Text](/docs/distribution/images/os_confirmallocated.gif)
+![Alt Text](images/os_confirmallocated.gif)
 
 Una vez confirmada la asignación:
 
@@ -522,7 +522,7 @@ Una vez que se han recogido y empacado todos los artículos, puede confirmar la 
 
 Para confirmar que se ha preparado un envío, haga clic en el botón `Confirmar Recogido`.
 
-![Alt Text](/docs/distribution/images/os_confirmpicked.gif)
+![Alt Text](images/os_confirmpicked.gif)
 
 Una vez confirmado el alistamiento:
 
@@ -560,10 +560,10 @@ Para cambiar el modo de vista, haz clic en el botón `Agrupar por artículo`.
 
 Cuando se agrupa por árticulo, se puede expandir el artículo para ver lotes individuales, o utilizar la expansión en el encabezado de la tabla para expandir todas las filas agrupadas. Si haces clic en un artículo, también verás todos los lotes seleccionados, como se muestra en este ejemplo:
 
-![Group by Item](/docs/distribution/images/os_group_by_item.gif)
+![Group by Item](images/os_group_by_item.gif)
 
 Si no tienes suficiente espacio en la pantalla, o simplemente no estás interesado en algunas de las columnas mostradas, tienes la opción de ocultar qué columnas se muestran en esta vista.
 
 Haz clic en el botón `Mostrar / ocultar columnas`, que está en la parte superior derecha de la tabla. Esto da una lista de las columnas disponibles; puedes marcar las columnas que deseas ver. Las opciones elegidas se almacenan para el navegador actual, por lo que la próxima vez que veas una salida, solo verás las columnas seleccionadas. Si has elegido qué columnas mostrar, entonces el botón se muestra en azul para recordarte que hay más columnas disponibles.
 
-![Hide columns](/docs/distribution/images/os_show_hide_columns.gif)
+![Hide columns](images/os_show_hide_columns.gif)
