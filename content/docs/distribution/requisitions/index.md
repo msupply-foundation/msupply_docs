@@ -20,7 +20,7 @@ When a customer orders stock from you, they create an **Internal Order** in thei
 
 To know if you have received requisitions from your customers, go to `Distribution` > `Requisition`
 
-![Requisition nav](/docs/distribution/images/req_gotoreq2.png)
+![Requisition nav](images/req_gotoreq2.png)
 
 You should see a list of all requisitions sent by your customers.
 
@@ -29,7 +29,7 @@ From this screen you can:
 - View a list of Requisitions
 - Export Requisitions to a `.csv` file
 
-![Requisition list](/docs/distribution/images/req_list.png)
+![Requisition list](images/req_list.png)
 
 ### Requisition list
 
@@ -48,21 +48,21 @@ The list of Requisitions is divided into 6 columns:
 
 The list can display a fixed number of requisitions per page. On the bottom left corner, you can see how many requisitions are currently displayed on your screen.
 
-![Page](../../images/list_showing.png)
+![Page](images/list_showing.png)
 
 If you have more requisitions than the current limit, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner).
 
-![Page](../../images/list_pagenumbers.png)
+![Page](images/list_pagenumbers.png)
 
 You can also select a different number of rows to show per page using the option at the bottom right of the page.
 
-![Rows per page](../../images/rows-per-page-select.png)
+![Rows per page](images/rows-per-page-select.png)
 
 ### Filter Requisitions
 
 You can filter the list of requisitions by name, status or whether shipments have been created. This can be useful if you're looking for one particular requisition!
 
-![Requisition filter](/docs/distribution/images/req_filter.png)
+![Requisition filter](images/req_filter.png)
 
 Select the desired filter(s) from the list:
 
@@ -76,7 +76,7 @@ All the requisitions which match the filters will appear in the list.
 
 The list of Requisitions can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page)
 
-![Export button](/docs/distribution/images/export.png)
+![Export button](images/export.png)
 
 and the file will be downloaded. The export function will download all
 Requisitions, not just the current page.
@@ -97,14 +97,14 @@ You can delete a requisition from the Requisition list.
 You cannot delete requisitions that have been created from an Internal Order, or have had a shipment created from them.
 </div>
 
-![Delete Requesition Actions Footer](/docs/distribution/images/delete-response-requisition.png)
+![Delete Requesition Actions Footer](images/delete-response-requisition.png)
 
 ### Viewing a Requisition
 
 To view the detail of a particular requisition, simply click on it in the list view.
 You will then see the detail view of the requisition:
 
-![Requisition Detail](/docs/distribution/images/requisition-detail.png)
+![Requisition Detail](images/requisition-detail.png)
 
 #### Enter a Customer Reference
 
@@ -131,7 +131,7 @@ You can close the Information Panel by tapping on the `X Close` button on the
 top right corner of the information panel.
 
 ![Open and close the Information
-Panel](/docs/distribution/images/requisition_infopanel_openclose.gif)
+Panel](images/requisition_infopanel_openclose.gif)
 
 ##### Additional Info
 
@@ -158,7 +158,7 @@ the Requisition details to the clipboard.
 
 #### Requisition Detail
 
-![Requisition Detail](/docs/distribution/images/requisition-detail.png)
+![Requisition Detail](images/requisition-detail.png)
 
 | Column        | Description                                                                                                                                                                     |
 | :------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -176,23 +176,23 @@ One way to adjust the supply quantity, is to click the button `Supply requested`
 at the top of the page. This will automatically set the supply quantity to be
 that of the quantity requested for each item.
 
-![Supply Requested button](/docs/distribution/images/requisition_supply_requested_button.png)
+![Supply Requested button](images/requisition_supply_requested_button.png)
 
 Click the button and you are asked
 for confirmation before the adjustment happens:
 
 ![Supply Requested
-Prompt](/docs/distribution/images/requisition-supply-to-requested.png)
+Prompt](images/requisition-supply-to-requested.png)
 
 The other way to adjust the supply quantity is to click on the item line in the
 table. This will open the line details page where you will see information about
 the item such as your stock on hand, and the requested quantity.
 
-![Requisition Detail](/docs/distribution/images/requisition_line_edit_page.png)
+![Requisition Detail](images/requisition_line_edit_page.png)
 
 Once the `Quantity to supply` field is entered, a green tick will appear next to the item name, to help you track your progress.
 
-![Tick](/docs/distribution/images/requisition_line_tick.png)
+![Tick](images/requisition_line_tick.png)
 
 You can navigate between different items by:
 
@@ -200,7 +200,7 @@ You can navigate between different items by:
 - Using the `Previous` and `Next` buttons at the bottom of the screen
 
 ![Requisition
-Navigation](/docs/distribution/images/requisition_line_navigation.gif)
+Navigation](images/requisition_line_navigation.gif)
 
 ##### Customer Store Stats
 
@@ -212,7 +212,7 @@ graph showing you the details of the stock at the customer's store.
 - The customer's _Target Quantity_ for this item. This is calculated as: Target MOS x AMC
 - The customer's stock on hand for this item
 
-![Requisition Customer Stats](/docs/distribution/images/customer_store_stats.png)
+![Requisition Customer Stats](images/customer_store_stats.png)
 
 ##### Your Store Stats
 
@@ -223,7 +223,7 @@ graph showing you the details of the stock at your store.
 This message will be displayed if your store currently doesn't have any stock available.
 </div>
 
-![](/docs/distribution/images/req-no-available-stock-message.png)
+![](images/req-no-available-stock-message.png)
 
 _The first bar:_
 
@@ -236,13 +236,13 @@ _The second bar:_
 - The quantity being requested for this item in this Requisition
 - The quantity being requested in other Requisitions
 
-![Requisition Store Stats](/docs/distribution/images/response_store_stats.png)
+![Requisition Store Stats](images/response_store_stats.png)
 
 To go back to the Requisition view, tap on the `Close` button at the top right
 corner of the screen or click on the `Requisition Number` at the top left of the
 screen.
 ![Close Requisition
-Line](/docs/distribution/images/close_requisition_line_edit.png)
+Line](images/close_requisition_line_edit.png)
 
 #### Creating an Outbound Shipment from a Requisition
 
@@ -252,11 +252,11 @@ Detail page.
 
 Click on the `Create Shipment` button. This will create a shipment, add all of the items which are not fully supplied, and then, open that shipment in a new tab. Before doing so, you are prompted to confirm:
 
-![Create Shipment Prompt](/docs/distribution/images/requisition-create-shipment.png)
+![Create Shipment Prompt](images/requisition-create-shipment.png)
 
 If the supply quantity is changed for any item/s in the requisition after a shipment has been made for it and a new shipment is created through clicking the `Create Shipment` button, then a new shipment will be created with the remaining supply amount (supply quantity minus any linked Outbound Shipment quantity).
 
-![Create Shipment Detail](/docs/distribution/images/requisition-create-shipment.gif)
+![Create Shipment Detail](images/requisition-create-shipment.gif)
 
 After creating the shipment, you will see the shipment number, along with a link to view it, in the `Related documents` section of the additional details panel on the right of the screen.
 
@@ -272,13 +272,13 @@ Usually, Requisitions will be sent to you by your Customers. However, if they ar
 1. Go to `Distribution` > `Requisition`
 2. Press the `Create Requisition` button at the top right of the page
 
-![New Requisition](/docs/distribution/images/click_new_requisition.png)
+![New Requisition](images/click_new_requisition.png)
 
 3. A new window will appear where you can select the customer for whom you want
    to create the requisition. You can search for the customer by typing their
    name or code in the search bar or by scrolling through the list of customers.
 
-![Select Customer](/docs/distribution/images/requisition_customer_modal.png)
+![Select Customer](images/requisition_customer_modal.png)
 
 4. Once you have selected the customer, you will be taken to the requisition
    detail page where you can add items to the requisition.
@@ -303,7 +303,7 @@ Once an item has been selected, you will be redirected to the item edit page. He
 requested quantity. You can also enter how much you are going to supply to the
 customer and any comments. The values are saved automatically.
 
-![Requisition Line Edit](/docs/distribution/images/requisition_line_edit_page.png)
+![Requisition Line Edit](images/requisition_line_edit_page.png)
 
 After this, the workflow will follow the [same steps](#viewing-a-requisition)
 as for a requisition created from an Internal Order.

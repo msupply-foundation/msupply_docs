@@ -20,7 +20,7 @@ Lorsqu'un client qui utilise Open mSupply souhaite vous transmettre une commande
 
 Pour savoir si vous avez reçu des commandes de vos clients, allez à `Distribution` > `Réquisitions clients`
 
-![Requistion nav](/docs/distribution/images/req_gotoreq2_fr.png)
+![Requistion nav](images/req_gotoreq2_fr.png)
 
 Vous devriez voir une liste de toutes les commandes envoyées par vos clients.
 
@@ -29,7 +29,7 @@ Depuis cet écran, vous pouvez :
 - Voir une liste de réquisitions
 - Exporter les commandes dans un fichier `.csv`
 
-![Requisition list](/docs/distribution/images/req_list.png)
+![Requisition list](images/req_list.png)
 
 ### Liste des réquisitions
 
@@ -45,11 +45,11 @@ Depuis cet écran, vous pouvez :
 
 2. La liste peut afficher un nombre fixe de commandes par page. Dans le coin inférieur gauche, vous pouvez voir combien de commandes sont actuellement affichées sur votre écran.
 
-![Page](../../images/list_showing.png)
+![Page](images/list_showing.png)
 
 3. Si vous avez plus de 20 lignes de commandes, vous pouvez naviguer vers les autres pages en appuyant sur le numéro de page ou en utilisant les flèches droite ou gauche (Le coin inférieur droit)..
 
-![Page](../../images/list_pagenumbers.png)
+![Page](images/list_pagenumbers.png)
 
 ### Rechercher par commentaire
 
@@ -61,6 +61,6 @@ Commencez à saisir dans le champ `Search by comment` (à gauche, juste au-dessu
 
 La liste des demandes peut être exportée dans un fichier séparé par des virgules (csv). Cliquez simplement sur le bouton d'exportation (à droite, en haut de la page).
 
-![Export button](/docs/distribution/images/export_fr.png)
+![Export button](images/export_fr.png)
 
 et le fichier sera téléchargé. La fonction d'exportation téléchargera toutes les commandes, même si vous en avez plus de 20 lignes.
