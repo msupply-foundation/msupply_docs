@@ -1,6 +1,6 @@
 +++
 title = "Equipment"
-description = "Management of Cold Chain Equipment"
+description = "Management of cold chain equipment"
 date = 2023-11-08T15:20:00+00:00
 updated = 2025-02-20
 draft = false
@@ -13,7 +13,7 @@ toc = true
 top = false
 +++
 
-Cold Chain Equipment is a digital registry and inventory for the management of cold chain assets such as fridges, freezers and remote temperature monitoring devices. It allows health departments to track their cold chain assets including their location and functional status.
+The cold chain equipment inventory module (CCEI) is a digital registry and inventory for the management of cold chain assets such as fridges, freezers and remote temperature monitoring devices. It allows health departments to track their cold chain assets including their location and functional status.
 
 There are three main ways for users to interact with asset management in Open mSupply
 
