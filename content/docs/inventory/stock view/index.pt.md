@@ -19,11 +19,11 @@ Uma das tarefas mais importantes – mas mais fáceis – no mSupply é verifica
 
 No painel de navegação, aceda a `Inventário` e toque no submenu `Stock`:
 
-![Stock: nav](/docs/inventory/images/stock_gotostock.png)
+![Stock: nav](images/stock_gotostock.png)
 
 Uma lista detalhada do seu inventário aparece:
 
-![Stock: lista](/docs/inventory/images/stock_viewstock.png)
+![Stock: lista](images/stock_viewstock.png)
 
 A lista está dividida em 9 colunas:
 
@@ -44,17 +44,17 @@ A lista está dividida em 9 colunas:
 
 Pode filtrar a lista por nome ou código do artigo, localização ou validade. Isto pode ser útil se estiver à procura de um item específico.
 
-![Stock: filtro](/docs/inventory/images/stock_filter.png)
+![Stock: filtro](images/stock_filter.png)
 
 Clique em `Filtros` para mostrar os filtros disponíveis, seleccione uma opção, por exemplo `Código ou Nome`, e introduza o máximo de um nome de artigo ou código no campo `Código ou Nome`:
 
-![Stock: pesquisa](/docs/inventory/images/stock_search.gif)
+![Stock: pesquisa](images/stock_search.gif)
 
 ### Exportação de stock
 
 A lista de ações pode ser exportada para um ficheiro separado por vírgulas (csv). Basta clicar no botão exportar (à direita, no topo da página) para descarregar o ficheiro:
 
-![Botão Exportar](/docs/inventory/images/export.png)
+![Botão Exportar](images/export.png)
 
 A função de exportação irá descarregar todas as linhas de stock, e não apenas a página atual, se tiver mais de 20 delas.
 
@@ -66,11 +66,11 @@ A função de exportação irá descarregar todas as linhas de stock, e não ape
 
 Para criar uma nova linha de stock, clique no botão `Novo stock' no canto superior direito do ecrã.
 
-![Stock: novo](/docs/inventory/images/stock_new.png)
+![Stock: novo](images/stock_new.png)
 
 Aparecerá a janela `Detalhes da linha de stock`, onde poderá selecionar o artigo para o qual está a criar esta nova linha de stock.
 
-![Nova linha de stock: select item](/docs/inventory/images/stock_new_item.png)
+![Nova linha de stock: select item](images/stock_new_item.png)
 
 Pode procurar um item por:
 
@@ -82,13 +82,13 @@ Clique no nome ou utilize as teclas de seta para navegar até ao item pretendido
 
 Depois de selecionar um artigo, pode introduzir as informações para esta nova linha de stock. Deve fornecer pelo menos a quantidade e o tamanho do pacote.
 
-![Nova linha de stock: inserir detalhes](/docs/inventory/images/stock_new_details.png)
+![Nova linha de stock: inserir detalhes](images/stock_new_details.png)
 
 Se tiver [motivos de ajuste de stock](https://docs.msupply.org.nz/preferences:options?s[]=reasons) configurados no seu servidor central, também terá de introduzir um motivo ao criar uma nova linha de stock.
 
 Se este for o caso, a introdução do motivo será ativada conforme abaixo:
 
-![Nova linha de stock: inserir o motivo](/docs/inventory/images/stock_new_reason.png)
+![Nova linha de stock: inserir o motivo](images/stock_new_reason.png)
 
 Quando estiver satisfeito com a informação do lote, clique em `OK`. Isto irá guardar a sua nova linha de stock criando um `Ajuste de stock'. Será redirecionado para a página de detalhes da linha de stock.
 
@@ -100,7 +100,7 @@ Para visualizar os detalhes de um lote específico, clique nessa linha na lista 
 
 Na sessão `Detalhes`, pode visualizar e alterar as propriedades deste lote.
 
-![Guia de detalhes do stock](/docs/inventory/images/stock_detail_tab.png)
+![Guia de detalhes do stock](images/stock_detail_tab.png)
 
 Quando estiver satisfeito com as suas alterações, prima o botão "Guardar" no canto inferior direito. Também pode utilizar o botão `Cancelar` para repor as suas alterações.
 
@@ -111,7 +111,7 @@ Irá reparar que não é possível editar `Quantidade do pacote` ou `Tamanho do 
 Esta funcionalidade está disponível ao executar as versões Android ou desktop do Open mSupply.
 Existe um botão adicional apresentado ao editar uma linha de stock:
 
-![Botão Digitalizar](/docs/inventory/images/stock-line-edit-scan.png)
+![Botão Digitalizar](images/stock-line-edit-scan.png)
 
 Clicar aqui irá iniciar o leitor de código de barras, se houver um ligado, ao executar o ambiente de trabalho. Se estiver a ser executado no Android, a câmara do dispositivo será utilizada.
 Se um código de barras for digitalizado com sucesso, o campo do código de barras será preenchido com o valor digitalizado. Se for digitalizado um código QR com informações de lote e validade, estes campos na janela de edição de stock também serão preenchidos com o código digitalizado.
@@ -128,7 +128,7 @@ Para ver as alterações efetuadas nesta linha de stock, pode clicar no separado
 
 <div class="imagetitle" style="margin-bottom: 40px;">Registo, mostrando as alterações efectuadas neste lote</div>
 
-![Registo de linha de stock](/docs/inventory/images/stock_line_edit_log.png)
+![Registo de linha de stock](images/stock_line_edit_log.png)
 
 ### Auditar registos
 
@@ -136,7 +136,7 @@ O separador `Log` mostra as alterações relacionadas com o lote, como alteraç�
 
 <div class="imagetitle" style="margin-bottom: 40px;">Razão, mostrando os movimentos de stock deste lote</div>
 
-![Razão de linha de stock](/docs/inventory/images/stock_ledger.png)
+![Razão de linha de stock](images/stock_ledger.png)
 
 ## Reempacotamento
 
@@ -144,15 +144,15 @@ A funcionalidade de reembalamento dá-nos a capacidade de dividir o stock em emb
 
 No canto superior direito da página de detalhes da linha de stock, clique no botão `Reembalar`.
 
-![Botão de reembalagem de stock](/docs/inventory/images/stock_repack.png)
+![Botão de reembalagem de stock](images/stock_repack.png)
 
 Para começar, a linha de stock não terá qualquer reembalagem apresentada, pelo que verá uma janela como esta:
 
-![Janela de reempacotamento sem reembalagens](/docs/inventory/images/repack-no-repacks.png)
+![Janela de reempacotamento sem reembalagens](images/repack-no-repacks.png)
 
 Clique no botão `Novo` para iniciar um reempacotamento:
 
-![Formulário de entrada de reempacotamento](/docs/inventory/images/repack-enter.png)
+![Formulário de entrada de reempacotamento](images/repack-enter.png)
 
 A partir daqui, pode introduzir o número de embalagens que pretende reembalar, até ao máximo do número atual de embalagens em stock (representado pelo número ao lado de "Pacotes disponíveis") - neste caso, existem 5.779 embalagens disponíveis.
 
@@ -161,11 +161,11 @@ Clique em `Guardar` para guardar as alterações. Clicar em `Imprimir` permitir�
 
 As embalagens feitas a partir deste artigo de stock são apresentadas numa lista:
 
-![Lista de reempacotamento](/docs/inventory/images/repack-list.png)
+![Lista de reempacotamento](images/repack-list.png)
 
 Clicar numa das linhas mostrará detalhes do reembalamento e permitirá a sua impressão:
 
-![Ver um repack existente](/docs/inventory/images/repack-view.png)
+![Ver um repack existente](images/repack-view.png)
 
 Clique no botão `Cancelar` a qualquer momento para fechar o modal de reembalamento.
 
@@ -179,17 +179,17 @@ A funcionalidade `Ajustar' dá-nos a capacidade de aumentar ou diminuir o nível
 
 No canto superior direito da página de detalhes da linha de stock, clique no botão `Ajustar'.
 
-![Botão de ajuste de stock](/docs/inventory/images/stock_adjust.png)
+![Botão de ajuste de stock](images/stock_adjust.png)
 
 Será aberta uma nova janela, onde poderá informar se pretende aumentar ou diminuir a quantidade de pacotes e em quantos.
 
-![Formulário de ajuste de stock](/docs/inventory/images/stock_adjust_form.png)
+![Formulário de ajuste de stock](images/stock_adjust_form.png)
 
 Se tiver [motivos de ajuste de inventário](https://docs.msupply.org.nz/preferences:options?s[]=reasons) configurados no seu servidor central, também terá de introduzir um motivo ao ajustar a quantidade do pacote.
 
 Se este for o caso, a introdução do motivo será ativada conforme abaixo:
 
-![Nova linha de stock: inserir o motivo](/docs/inventory/images/stock_new_reason.png)
+![Nova linha de stock: inserir o motivo](images/stock_new_reason.png)
 
 Quando estiver pronto para ajustar o nível de stock, clique no botão `OK`. Verá então a quantidade atualizada do seu pacote no [separador Detalhes](#Mais-detalhes) e poderá rever o ajuste no [Auditar registos](#auditar-registos).
 

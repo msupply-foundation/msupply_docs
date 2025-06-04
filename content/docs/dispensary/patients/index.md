@@ -47,15 +47,15 @@ You will be presented with a list of patients visible to your store.
 
 2. The list can display a fixed number of patients per page. On the bottom left corner, you can see how many patients are currently displayed on your screen.
 
-![Page](../../images/list_showing.png)
+![Page](images/list_showing.png)
 
 3. If you have more patients than the current limit, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner).
 
-![Page](../../images/list_pagenumbers.png)
+![Page](images/list_pagenumbers.png)
 
 4. You can also select a different number of rows to show per page using the option at the bottom right of the page.
 
-![Rows per page](../../images/rows-per-page-select.png)
+![Rows per page](images/rows-per-page-select.png)
 
 ### Filter Patients
 

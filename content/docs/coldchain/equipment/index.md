@@ -155,7 +155,7 @@ This usually happens when you have an asset in your import file which has the sa
 
 A list of existing assets can be exported as a csv using the `Export` button.
 
-![](images/export.png)
+![](../../../../public/docs/inventory/images/export.png)
 
 ### QR code scanning
 

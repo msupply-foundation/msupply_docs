@@ -19,11 +19,11 @@ One of the most important - but easiest - tasks in mSupply is to check how much 
 
 In the navigation panel, Go to `Inventory` and tap on the `Stock` submenu:
 
-![Stock: nav](/docs/inventory/images/stock_gotostock.png)
+![Stock: nav](images/stock_gotostock.png)
 
 A detailed list of your inventory appears:
 
-![Stock: list](/docs/inventory/images/stock_viewstock.png)
+![Stock: list](images/stock_viewstock.png)
 
 The list is divided into 9 columns:
 
@@ -44,17 +44,17 @@ The list is divided into 9 columns:
 
 You can filter the list by item name or code, location or by expiry. This can be useful if you're looking for one particular item.
 
-![Stock: filter](/docs/inventory/images/stock_filter.png)
+![Stock: filter](images/stock_filter.png)
 
 Click on the `Filters` to show the available filters, select an option, for example `Code or Name`, and type as much of an item name or code in the `Code or Name` field:
 
-![Stock: search](/docs/inventory/images/stock_search.gif)
+![Stock: search](images/stock_search.gif)
 
 ### Exporting Stock
 
 The list of Stock can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page) to download the file:
 
-![Export button](/docs/inventory/images/export.png)
+![Export button](images/export.png)
 
 The export function will download all stock lines, not just the current page, if you have more than 20 of them.
 
@@ -66,11 +66,11 @@ It's rare that you should need to create a new Stock line in this way. Your stoc
 
 To create a new stock line, click the `New Stock` button in the top right of your screen.
 
-![Stock: new](/docs/inventory/images/stock_new.png)
+![Stock: new](images/stock_new.png)
 
 The `Stock Line Details` window will appear, where you can select the item you are creating this new stock line for.
 
-![New stock line: select item](/docs/inventory/images/stock_new_item.png)
+![New stock line: select item](images/stock_new_item.png)
 
 You can look up an item by:
 
@@ -82,13 +82,13 @@ Click on the name, or use the arrow keys to navigate to your desired item and pr
 
 After selecting an item, you can enter the information for this new stock line. You must at least provide a pack quantity and pack size.
 
-![New stock line: enter details](/docs/inventory/images/stock_new_details.png)
+![New stock line: enter details](images/stock_new_details.png)
 
 If you have [inventory adjustment reasons](https://docs.msupply.org.nz/preferences:options?s[]=reasons) configured in your central server, then you are also required to enter a reason when creating a new stock line.
 
 If this is the case, the reason input will be enabled as below:
 
-![New stock line: enter reason](/docs/inventory/images/stock_new_reason.png)
+![New stock line: enter reason](images/stock_new_reason.png)
 
 Once you are happy with the batch information, click `OK`. This will save your new stock line by creating an `Inventory Adjustment`. You will be redirected to the Stock line details page.
 
@@ -100,7 +100,7 @@ To view the details on a specific batch, click that line from the `View Stock` l
 
 On the main `Details` tab, you can view and change the properties of this batch.
 
-![Stock detail tab](/docs/inventory/images/stock_detail_tab.png)
+![Stock detail tab](images/stock_detail_tab.png)
 
 Once you are happy with your changes, press the `Save` button in the bottom right. You can also use the `Cancel` button to reset your changes.
 
@@ -111,7 +111,7 @@ You'll note that you can't edit `Pack Qty` or `Pack Size` from this view. You ca
 This feature is available when running either the android or desktop versions of Open mSupply.
 There is an additional button shown when editing a stock line:
 
-![Scan button](/docs/inventory/images/stock-line-edit-scan.png)
+![Scan button](images/stock-line-edit-scan.png)
 
 Clicking this will start the barcode scanner - if one is attached, when running desktop. If running on android, the camera on the device is used.
 If a barcode is scanned successfully, then the barcode field is populated with the scanned value. If a QR code which has a batch and expiry information is scanned, then these fields on the stock edit window are also populated from the scanned code.
@@ -128,7 +128,7 @@ To see changes made to this stock line, you can click the `Log` tab. The list sh
 
 <div class="imagetitle" style="margin-bottom: 40px;">Log, showing changes made to this batch</div>
 
-![Stock line log](/docs/inventory/images/stock_line_edit_log.png)
+![Stock line log](images/stock_line_edit_log.png)
 
 ### Ledger tab
 
@@ -136,7 +136,7 @@ The `Log` tab shows changes relating to the batch, such as changes in location o
 
 <div class="imagetitle" style="margin-bottom: 40px;">Ledger, showing stock movements of this batch</div>
 
-![Stock line ledger](/docs/inventory/images/stock_ledger.png)
+![Stock line ledger](images/stock_ledger.png)
 
 ## Repacking stock
 
@@ -144,15 +144,15 @@ The repack feature gives us the ability to break down stock into smaller pack si
 
 In the top right corner of the stock line detail page, click the `Repack` button.
 
-![Stock repack button](/docs/inventory/images/stock_repack.png)
+![Stock repack button](images/stock_repack.png)
 
 To begin with, the stock line won't have any repacks showing, so you'll see a window like this:
 
-![Repack window with no repacks](/docs/inventory/images/repack-no-repacks.png)
+![Repack window with no repacks](images/repack-no-repacks.png)
 
 Click the `New` button to start a repack:
 
-![Repack entry form](/docs/inventory/images/repack-enter.png)
+![Repack entry form](images/repack-enter.png)
 
 From here, you can enter the number of packs which you'd like to repack, up to a maximum of the current number of packs in stock (represented by the number next to `Packs available`) - in this case there are 5779 packs available.
 
@@ -161,11 +161,11 @@ Click `Save` to save the changes. Clicking `Print` will allow you to print detai
 
 The repacks made from this stock item are shown in a list:
 
-![Repack list](/docs/inventory/images/repack-list.png)
+![Repack list](images/repack-list.png)
 
 Clicking on one of the lines will show details of the repack, and allow printing of it:
 
-![View an existing repack](/docs/inventory/images/repack-view.png)
+![View an existing repack](images/repack-view.png)
 
 Click the `Cancel` button at any time to close the repack modal.
 
@@ -179,17 +179,17 @@ The `Adjust` feature gives us the ability to increase or decrease the stock leve
 
 In the top right corner of the stock line detail page, click the `Adjust` button.
 
-![Stock adjust button](/docs/inventory/images/stock_adjust.png)
+![Stock adjust button](images/stock_adjust.png)
 
 A new window will open, where you can enter whether you would like to increase or decrease the quantity of packs, and by how many.
 
-![Stock adjust form](/docs/inventory/images/stock_adjust_form.png)
+![Stock adjust form](images/stock_adjust_form.png)
 
 If you have [inventory adjustment reasons](https://docs.msupply.org.nz/preferences:options?s[]=reasons) configured in your central server, then you are also required to enter a reason when adjusting the pack quantity.
 
 If this is the case, the reason input will be enabled as below:
 
-![New stock line: enter reason](/docs/inventory/images/stock_new_reason.png)
+![New stock line: enter reason](images/stock_new_reason.png)
 
 When you are ready to adjust the stock level, click the `OK` button. You will then see your updated pack quantity in the [Details tab](#details-tab), and can review the adjustment in the [Ledger tab](#ledger-tab).
 
