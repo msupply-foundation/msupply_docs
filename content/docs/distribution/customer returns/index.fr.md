@@ -51,16 +51,8 @@ De cet écran, vous pouvez :
 | **Référence**   | Référence client              |
 
 2. La liste peut afficher un nombre fixe de retours par page. Dans le coin inférieur gauche, vous pouvez voir combien de retours sont actuellement affichés sur votre écran.
-
-![Page](images/list_showing.png)
-
 3. Si vous avez plus de retours que la limite actuelle, vous pouvez naviguer vers les autres pages en appuyant sur le numéro de page ou en utilisant la droite des flèches gauche (coin inférieur droit).
-
-![Page](images/list_pagenumbers.png)
-
 4. Vous pouvez également sélectionner un nombre différent de lignes à afficher par page en utilisant l’option située dans le coin inférieur droit de la page.
-
-![Rows per page](images/rows-per-page-select.png)
 
 ### Recherche par nom de client
 

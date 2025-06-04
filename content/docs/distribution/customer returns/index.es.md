@@ -51,16 +51,8 @@ Desde esta pantalla puedes:
 | **Referencia** | Referencia del Cliente                |
 
 1. La lista puede mostrar un número fijo de devolcuiones por página. En la esquina inferior izquierda, podrás ver cuántas devolucionesse están mostrando actualmente en la pantalla.
-
-![Page](images/list_showing.png)
-
 2. Si tienes más devoluciones que el límite actual, puedes navegar a otras páginas oprimiendo en el número de la página o usando las fechas izquierda o derecha (esquina inferior izquierda).
-
-![Page](images/list_pagenumbers.png)
-
 3. También puedes seleccionar un número diferente de filas para mostrar por página usando la opciónn en la esquina inferior derecha de la página.
-
-![Rows per page](images/rows-per-page-select.png)
 
 ### Buscar por Nombre de Cliente
 
