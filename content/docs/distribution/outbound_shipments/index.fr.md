@@ -28,7 +28,7 @@ La fonction Expédition est utilisée pour:
 
 Choisir `Distribution` > `Expédition` dans le panneau de navigation.
 
-![gotooos](images/gotoos2_fr.png)
+![gotooos](../../../../public/docs/distribution/images/gotoos2_fr.png)
 
 La liste des Expéditions s'affichera (Si vous ne voyez aucune ligne, rassurez-vous. Vous venez probablement de commencer!).
 

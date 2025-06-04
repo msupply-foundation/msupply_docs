@@ -96,7 +96,7 @@ You can delete a shipment from the Outbound Shipment list.
 You can only delete Outbound Shipments if they have not been <code>SHIPPED</code>.
 </div>
 
-![Outbound list: delete](images/delete-outbound-shipment.png)
+![Outbound list: delete](../../../../public/docs/distribution/images/Delete-outbound-shipment.png)
 
 ## Creating an Outbound Shipment
 
@@ -520,7 +520,7 @@ To edit a shipment line, tap on it. You will be presented with the `Edit Item` w
 In the below example, we are deleting <i>three placeholder lines</i>.
 </div>
 
-![Alt Text](images/delete-outbound-shipment-line.gif)
+![Alt Text](../../../../public/docs/distribution/images/delete-outbound-shipment-line.gif)
 
 <div class="tip">
  <b></b> You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
@@ -575,8 +575,6 @@ Once a shipment has been allocated, the next step is to go get the items to prep
 Once all items are picked and packed. You can then confirm the picking of the shipment to indicate that it is ready to be dispatched. Goods are no longer part of your inventory and cannot be allocated to other shipments once the status has been changed to `PICKED`.
 
 To confirm that a shipment has been picked, tap on the `Confirm Picked` button.
-
-![Alt Text](images/confirm-picked-outbound-shipment-line.gif)
 
 Once picking is confirmed:
 

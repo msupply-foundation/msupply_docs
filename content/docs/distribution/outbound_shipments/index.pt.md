@@ -96,7 +96,7 @@ You can delete a shipment from the Outbound Shipment list.
 You can only delete Outbound Shipments if they have not been <code>SHIPPED</code>.
 </div>
 
-![Outbound list: delete](images/delete-outbound-shipment.png)
+![Outbound list: delete](../../../../public/docs/distribution/images/Delete-outbound-shipment.png)
 
 ## Creating an Outbound Shipment
 
@@ -515,7 +515,7 @@ To edit a shipment line, tap on it. You will be presented with the `Edit Item` w
 In the below example, we are deleting <i>three placeholder lines</i>.
 </div>
 
-![Alt Text](images/delete-outbound-shipment-line.gif)
+![Alt Text](../../../../public/docs/distribution/images/delete-outbound-shipment-line.gif)
 
 <div class="tip">
  <b></b> You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
@@ -611,7 +611,7 @@ Sometimes, stock sent via an Outbound Shipment will need to be returned. You can
 3. Select the line(s) you want to process the return of by checking the box(es) on the right of the list
 4. Click the `Return selected lines` button which appears at the bottom of the page.
 
-![OS return lines](images/return-selected-outbound-shipment-line.gif)
+![OS return lines](../../../../public/docs/distribution/images/return-selected-outbound-shipment-line.gif)
 
 ### Select quantity returned
 
