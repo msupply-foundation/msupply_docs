@@ -64,6 +64,6 @@ La siguiente tabla describe algunos de los términos comunes utilizados en mSupp
 
 Si estás ejecutando el servidor por primera vez, es posible que veas esta pantalla:
 
-![Initialisation](images-en/initialisation.png)
+![Initialisation](images/initialisation.png)
 
 ¡No te preocupes! Esto simplemente significa que el servidor necesita saber cómo conectarse al servidor central de mSupply. Si no sabes qué ingresar, ponte en contacto con el soporte y te ayudarán.

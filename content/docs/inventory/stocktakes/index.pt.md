@@ -120,7 +120,7 @@ Se não existirem lotes em stock para esse artigo, a sua lista de lotes ficará 
 Ao visualizar um inventário específico, basta clicar no botão `Imprimir` que se encontra no canto superior direito da página.
 Ao imprimir, é-lhe gerado um ficheiro PDF, que será aberto numa nova aba do navegador. Este pode ser impresso utilizando o seu browser clicando em imprimir ou utilizando as teclas `control`+`P` (se estiver a utilizar o Windows) ou `cmd`+`P` no seu teclado (se estiver a utilizar um Mac).
 
-![Botão Imprimir](images/print_button.png)
+![Botão Imprimir](../../../../public/docs/introduction/images/print_button.png)
 
 Isto irá:
 

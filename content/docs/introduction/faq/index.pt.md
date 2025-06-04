@@ -92,7 +92,7 @@ Não existem restrições quanto ao número de utilizadores ligados a um servido
 
 É possível configurar o símbolo da moeda apresentado aquando da visualização dos preços. Também pode configurar moedas estrangeiras, o que lhe permite enviar e receber envios numa moeda diferente da sua moeda principal. Para configurar moedas estrangeiras, siga [estas instruções] (https://docs.msupply.org.nz/other_stuff:currencies) na documentação do servidor central. Terá também de ativar a preferência de loja `Store: Capaz de emitir em moeda estrangeira`. Esta preferência é compatível com o Open mSupply `v1.7.0+`.
 
-![SPreferências da unidade de saúde](images-en/store-pref-issue-in-foreign-currencies.png)
+![SPreferências da unidade de saúde](images/store-pref-issue-in-foreign-currencies.png)
 
 São suportados os seguintes códigos e símbolos de moeda:
 

@@ -19,11 +19,11 @@ The configuration settings section allows you to configure custom data for the s
 
 To view the configuration settings, go to `Settings` in the lower section of the navigation panel:
 
-![Settings: nav](/docs/settings/images/admin_nav.png)
+![Settings: nav](images/admin_nav.png)
 
 If you are on the Open mSupply Central Server, you will see this list of settings sections:
 
-![Settings: collapsed](/docs/settings/images/settings_collapsed_central.png)
+![Settings: collapsed](images/settings_collapsed_central.png)
 
 Click on the `Configuration` section to begin.
 
@@ -33,15 +33,15 @@ To operate fully, the GAPS feature requires a number of configuration changes an
 
 In order to add the GAPS configuration changes, simply click the `Initialise` button, shown below:
 
-![GAPS: uninitialised](/docs/settings/images/gaps_unconfigured.png)
+![GAPS: uninitialised](images/gaps_unconfigured.png)
 
 Once configured, the `Initialise` button will become disabled:
 
-![GAPS: initialised](/docs/settings/images/gaps_configured.png)
+![GAPS: initialised](images/gaps_configured.png)
 
 An `Edit` button will also appear in the footer, where you can edit the store properties for the store you are currently logged into:
 
-![Store properties edit](/docs/settings/images/store_properties_edit_footer.png)
+![Store properties edit](images/store_properties_edit_footer.png)
 
 Clicking that `Edit` button will open a new window, where you can [view and edit your store properties](/docs/manage/facilities/#editing-your-store-properties).
 

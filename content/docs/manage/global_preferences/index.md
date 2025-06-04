@@ -18,11 +18,11 @@ The Global preferences list is available only on the [Open mSupply Central Serve
 ## Viewing Global Preferences
 
 To configure Global Preferences, go to the Global Preferences page under the Manage menu:
-![goto: global preferences](/docs/manage/images/goto_global_preferences.png)
+![goto: global preferences](images/goto_global_preferences.png)
 
 You will be presented with the set of currently available Global Preferences:
 
-![facility list](/docs/manage/images/edit_global_preferences.png)
+![facility list](images/edit_global_preferences.png)
 
 Global Preferences can be configured by turning these options on or off. Any updates will be saved automatically.
 

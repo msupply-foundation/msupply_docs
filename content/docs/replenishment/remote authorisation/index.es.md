@@ -50,11 +50,11 @@ Además, es necesario que los almacenes estén configurados para el uso normal e
 
 Sigue el proceso de creación de una Orden Interna basada en un programa. Si tienes la configuración de preferencias del almacén correctamente establecida, verás una columna adicional en la vista de lista de Órdenes Internas, que muestra el estado de aprobación de la orden recién creada:
 
-![Internal Order list](/docs/replenishment/images/authorisation-internal-order-list.png)
+![Internal Order list](images/authorisation-internal-order-list.png)
 
 Además, al ver los detalles de la Orden Interna, aparecerán dos columnas nuevas y el estado de aprobación de la orden:
 
-![Internal Order list](/docs/replenishment/images/authorisation-internal-order-detail.png)
+![Internal Order list](images/authorisation-internal-order-detail.png)
 
 La **Cantidad Aprobada** es la cantidad aprobada por el autorizador, que puede ser diferente de la cantidad solicitada. Si es así, el autorizador tiene la opción de ingresar un comentario explicativo, que se muestra en la columna **Comentario de aprobación**.
 
@@ -66,15 +66,15 @@ El proceso de autorización se detalla en la [documentación del servidor centra
 
 En el almacén proveedor, también verás algunos cambios. La lista de Requisiciones tiene una columna adicional:
 
-![Requisition list](/docs/replenishment/images/authorisation-requisition-list.png)
+![Requisition list](images/authorisation-requisition-list.png)
 
 Al ver los detalles, puedes ver el estado de aprobación y nuevas columnas, igual que en la Orden Interna. Cuando la Requisición está en estado de aprobación `Pendiente`, tampoco puedes confirmarla como finalizada ni crear un envío:
 
-![Requisition list](/docs/replenishment/images/authorisation-requisition-detail-pending.png)
+![Requisition list](images/authorisation-requisition-detail-pending.png)
 
 Sin embargo, una vez que ha sido aprobada por el proceso de autorización remota, el estado se actualiza y puedes editar la requisición:
 
-![Requisition list](/docs/replenishment/images/authorisation-requisition-detail-approved.png)
+![Requisition list](images/authorisation-requisition-detail-approved.png)
 
 El estado de autorización puede tener varios valores:
 

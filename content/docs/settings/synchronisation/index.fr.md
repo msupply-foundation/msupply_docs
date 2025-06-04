@@ -18,11 +18,11 @@ top = false
 
 Pour accéder aux paramètres de synchronisation, allez à `Administration` dans la partie inférieure du panneau de navigation :
 
-![Location: nav](/docs/settings/images/admin_nav_fr.png)
+![Location: nav](images/admin_nav_fr.png)
 
 Vous verrez la section de synchronisation sous les paramètres d'affichage :
 
-![Location: list](/docs/settings/images/administration_fr.png)
+![Location: list](images/administration_fr.png)
 
 ## Modifier les paramètres
 

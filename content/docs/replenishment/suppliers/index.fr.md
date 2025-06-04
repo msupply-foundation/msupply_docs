@@ -24,18 +24,18 @@ Pour le moment, vous ne pouvez que voir votre fournisseur et ses coordonnées. �
 
 Pour voir les Fournisseurs de votre dépôt, allez dans le menu `Approvisionnement` > `Fournisseurs`: 
 
-![Suppliers Nav](/docs/replenishment/images/sup_gotosup_fr.png)
+![Suppliers Nav](images/sup_gotosup_fr.png)
 
 Une liste des fournisseurs de votre magasin apparaît : 
 
-![Suppliers List](/docs/replenishment/images/sup_suplist_fr.png)
+![Suppliers List](images/sup_suplist_fr.png)
 
 
 ## Voir détails fournisseurs
 
 Pour voir les détails d'un fournisseur, cliquez simplement sur son nom : 
 
-![Supplier Details](/docs/replenishment/images/sup_supdetails_fr.png)
+![Supplier Details](images/sup_supdetails_fr.png)
 
 * **Adresse**: Adresse du fournisseur
 * **Code**: Ceci est le code attribué à ce fournisseur dans mSupply

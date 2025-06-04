@@ -29,7 +29,7 @@ El proceso para ingresar los indicadores del programa es el siguiente:
 1. Crea una requisición manual a otro almacén como se describe [aquí](/docs/distribution/requisitions/#manual-requisition)
 2. Haz clic en la pestaña Indicadores
 
-![Indicators tab](/docs/programs/images/indicators.png)
+![Indicators tab](images/indicators.png)
 
 <div class='nota'>
 El indicador "VIH" solo está disponible en programas donde se haya habilitado la opción "VIH".
@@ -37,6 +37,6 @@ El indicador "VIH" solo está disponible en programas donde se haya habilitado l
 
 3. Haz clic en uno de los botones de Indicadores de Programa
 
-![Indicators edit](/docs/programs/images/indicators_edit.png)
+![Indicators edit](images/indicators_edit.png)
 
 Desde aquí puedes ingresar los datos configurados para cada indicador de este programa.

@@ -19,10 +19,10 @@ La section des paramètres de configuration vous permet de configurer des donné
 
 Pour afficher les paramètres de configuration, accédez à `Paramètres` dans la section inférieure du panneau de navigation :
 
-![Settings: nav](/docs/settings/images/admin_nav.png)
+![Settings: nav](images/admin_nav.png)
 
 Si vous êtes sur le serveur central Open mSupply, vous verrez cette liste de sections de paramètres :
 
-![Settings: collapsed](/docs/settings/images/settings_collapsed_central.png)
+![Settings: collapsed](images/settings_collapsed_central.png)
 
 Cliquez sur le menu `Configuration` pour commencer.

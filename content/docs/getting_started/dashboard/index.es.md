@@ -19,7 +19,7 @@ Sí, el término _tablero de control_ se utiliza para más de una cosa. En el ca
 
 ## ¿Qué se muestra?
 
-![The dashboard!](/docs/getting_started/images/dashboard.png)
+![The dashboard!](images/dashboard.png)
 
 Puedes ver algunas estadísticas para envíos e inventario:
 

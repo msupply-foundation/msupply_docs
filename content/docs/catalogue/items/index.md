@@ -127,7 +127,7 @@ The ledger is divided into 16 columns:
 
 ## Item Variants
 
-On the [Open mSupply Central Server](/docs/getting_started/central-server), a third tab, Item Variants, is available. This tab allows you to configure variations of the item, such as different manufacturers or packaging sizes.
+On the , [Open mSupply Central Server](../../getting_started/central-server/) a third tab, Item Variants, is available. This tab allows you to configure variations of the item, such as different manufacturers or packaging sizes.
 
 Currently, Item Variants are only used for GAPS functionality.
 

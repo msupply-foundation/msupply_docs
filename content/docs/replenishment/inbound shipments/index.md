@@ -26,7 +26,7 @@ All received goods should be recorded in mSupply either by:
 
 ### Go to the Inbound Shipments Menu
 
-![Go to Inbound Shipments](/docs/replenishment/images/is_gotois.png)
+![Go to Inbound Shipments](images/is_gotois.png)
 
 To access the **Inbound Shipment** menu:
 
@@ -52,31 +52,31 @@ The Inbound Shipments list is divided into 7 columns:
 
 2. The list can display a fixed number of shipments per page. On the bottom left corner, you can see how many shipments are currently displayed on your screen.
 
-![Page](../../images/list_showing.png)
+![Page](images/list_showing.png)
 
 3. If you have more shipments than the current limit, you can navigate to the other pages by clicking on the page number or using the right of left arrows (bottom right corner).
 
-![Page](../../images/list_pagenumbers.png)
+![Page](images/list_pagenumbers.png)
 
 4. You can also select a different number of rows to show per page using the option at the bottom right of the page.
 
-![Rows per page](../../images/rows-per-page-select.png)
+![Rows per page](images/rows-per-page-select.png)
 
 ### Filter Inbound Shipments
 
 You can filter the list of shipments by supplier name, created date or status. This can be useful if you're looking for one particular shipment!
 
-![Inbound Shipments filter](/docs/replenishment/images/is_filter.png)
+![Inbound Shipments filter](images/is_filter.png)
 
 For example, to filter by supplier name, click on `Filters`, select `Name` and start typing some or all of a supplier name in the `Name` field. All the shipments for this supplier will appear in the list.
 
-![Inbound shipment name filter](/docs/replenishment/images/is_name_filter.gif)
+![Inbound shipment name filter](images/is_name_filter.gif)
 
 ### Exporting Inbound Shipments
 
 The list of Inbound Shipments can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page)
 
-![Export button](/docs/distribution/images/export.png)
+![Export button](images/export.png)
 
 and the file will be downloaded. The export function will download all Inbound Shipments, not just the current page, if you have more than 20 of them.
 
@@ -112,7 +112,7 @@ You can tell if a supplier is also using Open mSupply in their store. If they do
 In the below example, we are receiving stock from <b>Tamaki Central Medical Store</b>. 
 </div>
 
-![Select a Supplier](/docs/replenishment/images/is_selectsupplier.gif)
+![Select a Supplier](images/is_selectsupplier.gif)
 
 2. Once you have selected a supplier, your Inbound Shipment is created.
 
@@ -120,7 +120,7 @@ In the below example, we are receiving stock from <b>Tamaki Central Medical Stor
 If everything went well, you should see the name of your supplier in the top left corner and current status should be <code>New</code>.
 </div>
 
-![New manual Inbound Shipment](/docs/replenishment/images/is_newinboundshipment.png)
+![New manual Inbound Shipment](images/is_newinboundshipment.png)
 
 ### Edit the Supplier Name
 
@@ -130,7 +130,7 @@ If you have selected the wrong supplier, you can change the supplier name in the
 In the below example, we are replacing <b>Tamaki Central Medical Store</b> by <b>Waikato District Store</b>. 
 </div>
 
-![gif](/docs/replenishment/images/is_editsuppliername.gif)
+![gif](images/is_editsuppliername.gif)
 
 ### Enter a Supplier Reference
 
@@ -155,7 +155,7 @@ To open the Information Panel, you can tap on the `More` button, located in the 
 
 You can close by tapping on the `X Close` button, on the top right corner of the information panel.
 
-![Open and close the Information Panel](/docs/replenishment/images/is_infopanel_openclose.gif)
+![Open and close the Information Panel](images/is_infopanel_openclose.gif)
 
 #### Additonal Info
 
@@ -194,12 +194,12 @@ The tax rate (%) for service charges and the items sell price can also be edited
 
 If your store is issuing in foreign currencies follow [these instructions](https://docs.msupply.org.nz/other_stuff:currencies) in the central server documentation to set it up. You will also need to enable the store preference `Store: Able to issue in foreign currency`. This preference is compatible with Open mSupply `v1.7.0+`.
 
-![Store preference](/docs/distribution/images/store-pref-issue-in-foreign-currencies.png)
+![Store preference](images/store-pref-issue-in-foreign-currencies.png)
 
 The pen icon will become active once the above instructions have been followed and only if the customer is an external customer. Click on this icon and change to a currency that you would like to issue the shipment in. The currency rate can also be edited if you and the customer have agreed on a different rate.
-![gif](/docs/replenishment/images/is-change-foreign-currency.gif)
+![gif](images/is-change-foreign-currency.gif)
 You can also see the foreign currency totals in the invoice line details as well.
-![Line with Foreign Currency Pricing](/docs/replenishment/images/is-line-with-foreign-currency.png)
+![Line with Foreign Currency Pricing](images/is-line-with-foreign-currency.png)
 
 <div class="tip">See the <a href="/docs/introduction/faq/#is-there-support-for-my-currency">currency support question</a> for the list of codes supported</div>
 
@@ -240,15 +240,15 @@ There are 5 status for the Inbound Shipment:
 
 You probably noticed that two of the status values only apply to automatically created shipments. These are created by the system when another store in the system creates an Outbound Shipment to deliver stock to your store. If this is the case you'll see a message near the top of the page:
 
-![Automatic IS message](/docs/replenishment/images/is_message_automatic.png)
+![Automatic IS message](images/is_message_automatic.png)
 
 Note that this message appears differently if the status is `Delivered` or `Verified`
 
-![Automatic IS message: delivered](/docs/replenishment/images/is_message_automatic_delivered.png)
+![Automatic IS message: delivered](images/is_message_automatic_delivered.png)
 
 If, however, you've created an Inbound Shipment manually, then the following message shows:
 
-![Manual IS message](/docs/replenishment/images/is_message_manual.png)
+![Manual IS message](images/is_message_manual.png)
 
 and you'll see that the status bar has only the status values which apply to this type of shipment.
 
@@ -263,13 +263,13 @@ If you hover over the status sequence, a shipment history window appears. You ca
 This manual shipment has been created on 03/03/2022
 </div>
 
-![Inbound status: hover 2](/docs/replenishment/images/is_statussequence_hover2.png)
+![Inbound status: hover 2](images/is_statussequence_hover2.png)
 
 <div class="imagetitle">
 This automatic shipment has been created on 03/03/2022, allocated on 04/03/2022 and picked on 07/03/2022
 </div>
 
-![Inbound status: hover](/docs/replenishment/images/is_statussequence_hover.png)
+![Inbound status: hover](images/is_statussequence_hover.png)
 
 ### Hold checkbox
 
@@ -277,7 +277,7 @@ Located on the bottom left corner, on the left of the status sequence.
 
 Check the `Hold` checkbox prevents the Inbound Shipment from being updated to the next status.
 
-![Inbound hold checkbox](/docs/distribution/images/os_holdcheckbox.png)
+![Inbound hold checkbox](images/os_holdcheckbox.png)
 
 ### Close and Confirm button
 
@@ -300,7 +300,7 @@ You don't have to update a shipment to next status in the sequence. You can choo
 
 As demonstrated below, tap on the down arrow of the `Confirm` button and select the status you want the shipment to be updated to.
 
-![Skip Status](/docs/replenishment/images/is_skipstatus.gif)
+![Skip Status](images/is_skipstatus.gif)
 
 ## Adding lines to an Inbound Shipment
 
@@ -308,7 +308,7 @@ To add a line, tap on the `Add Item` button located in the top left corner of yo
 
 A new `Add Item` window opens.
 
-![Inbound: add item button](/docs/replenishment/images/is_additem_button.png)
+![Inbound: add item button](images/is_additem_button.png)
 
 ### Select an Item
 
@@ -320,7 +320,7 @@ In the `Add Item` window, you can look up an item by:
 
 Once your item is highlighted, tap on the name or press `Enter`.
 
-![Add Item](/docs/distribution/images/os_additem.gif)
+![Add Item](images/os_additem.gif)
 
 ### Quantities tab
 
@@ -341,13 +341,13 @@ The additional columns available with the `Display vaccine in doses` preference 
 6. **Doses per unit**: The number of doses per unit.
 7. **Doses Received**: The number of doses you are receiving. This can be entered manually or calculated based on Pack Size x Packs x Doses
 
-![Doses columns](/docs/replenishment/images/is_doses_columns.png)
+![Doses columns](images/is_doses_columns.png)
 
 The additional column available with the `Manage Vvm Status For Stock` preference on is:
 
 8. **VVM Status**: The current VVM Status for the batch.
 
-![Doses columns](/docs/replenishment/images/is_doses_columns.png)
+![Doses columns](images/is_doses_columns.png)
 
 <div class="note">
 VVM Statuses must also be configured in mSupply by adding a status to the [Vaccine vial monitor list](https://docs.msupply.org.nz/cold_chain_equipment:configure). 
@@ -363,7 +363,7 @@ If you are receiving more than one batch number for the same item, you can tap o
 In the below example, we are receiving 2 batch numbers for item <i>030063 - Acetylsalicylic Acid 100mg tabs</i> with a different pack size. 
 </div>
 
-![Add Item quantities](/docs/replenishment/images/is_additem_quantities.png)
+![Add Item quantities](images/is_additem_quantities.png)
 
 ### Pricing tab
 
@@ -384,7 +384,7 @@ Sell & Cost prices are per units and not per pack.
 In the below example, the first line's cost price is $0.01 per unit and the sell price $0.10 per unit. 
 </div>
 
-![Add Item pricing](/docs/replenishment/images/is_additem_pricing.png)
+![Add Item pricing](images/is_additem_pricing.png)
 
 ### Location tab
 
@@ -392,7 +392,7 @@ In the third tab, `Location`, you can select a storage location to assign the ba
 
 Simply select a storage location from the `Location` dropdown menu.
 
-![Add Item location](/docs/replenishment/images/is_additem_location.png)
+![Add Item location](images/is_additem_location.png)
 
 <div class="note">
 Don't know the storage location yet? You don't have to capture it right away. You can update the storage location at any time if you haven't confirmed the verification yet. 
@@ -415,18 +415,18 @@ Tap on the `Add from master list` button (top right corner).
 The button will be disabled if the status of the Inbound Shipment is anything other than <code>New</code>
 </div>
 
-![Add Item button](/docs/distribution/images/os-add-from-master-list-button.png)
+![Add Item button](images/os-add-from-master-list-button.png)
 
 A new `Master Lists` window opens. This allows you to select the required master list. Simply click on one of the lists (if you have some available).
 
-![Add Item button](/docs/distribution/images/os-add-item-master-lists.png)
+![Add Item button](images/os-add-item-master-lists.png)
 
 Click `OK` on the prompt:
-![Add Item button](/docs/distribution/images/os-add-item-master-list-prompt.png)
+![Add Item button](images/os-add-item-master-list-prompt.png)
 
 You will then have placeholder lines added to your shipment, which will then look like this:
 
-![Add Item button](/docs/replenishment/images/is-after-master-list.png)
+![Add Item button](images/is-after-master-list.png)
 
 The imported rows will have zero for the number of packs value, and are therefore shown in a blue font with the batch, expiry, location etc not shown. You can follow the steps for editing these lines, as detailed above.
 
@@ -457,7 +457,7 @@ To edit an Inbound Shipment line, simply tap on it. You will be presented with t
 3. Select the line(s) you want to delete by checking the box(es) on the left of the list
 4. Click the `Delete` button which appears at the bottom of the page.
 
-![Alt Text](/docs/replenishment/images/delete-inbound-shipment-line.gif)
+![Alt Text](images/delete-inbound-shipment-line.gif)
 
 <div class="tip">
 You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
@@ -515,7 +515,7 @@ Sometimes, you might need to return stock that you received via an Inbound Shipm
 3. Select the line(s) you want to return by checking the box(es) on the left of the list
 4. Click the `Return selected lines` button which appears at the bottom of the page.
 
-![Process return inbound shipment line](/docs/replenishment/images/return-inbound-shipment-line.png)
+![Process return inbound shipment line](images/return-inbound-shipment-line.png)
 
 #### Select quantity to return
 
@@ -530,20 +530,20 @@ A modal will open, containing each line you selected to return:
 | **Quantity Available for Return** | Number of packs available. This means the number of packs not already allocated to other shipments or returns, so the quantity could be less than the quantity received in the Inbound Shipment. |
 |      **Quantity to Return**       | Number of packs to be returned                                                                                                                                                                   |
 
-![Alt Text](/docs/replenishment/images/is_return_select_quantity.png)
+![Alt Text](images/is_return_select_quantity.png)
 
 The `Quantity to Return` values will initially be `0` - you can adjust this to return some or all of the available stock.
 
 #### Warnings
 
 If you forget to enter a quantity to return for any batch and click `Next step`, you will see this warning message. You'll need to add a quantity to return from at least one batch. You can click `Cancel` if you no longer want to return any of this stock.
-![Alt Text](/docs/replenishment/images/is_selectquantity_warning.png)
+![Alt Text](images/is_selectquantity_warning.png)
 
 #### Provide reasons
 
 Once you are happy with your quantities to return, you can click `Next step`. The list of batches will be filtered to only include the batches you provided a return quantity for. In this view, you can provide a reason for returning each batch, and an additional comment.
 
-![Alt Text](/docs/replenishment/images/is_return_lines.gif)
+![Alt Text](images/is_return_lines.gif)
 
 #### Confirm
 
@@ -559,10 +559,10 @@ To change the view mode, click the `Group by item` switch.
 
 When grouped by item, you can expand the item to see individual batches, or use the expand in the table header to expand all grouped rows. If you click on an item you will also see all selected batches, as shown in this example:
 
-![Group by Item](/docs/replenishment/images/is_group_by_item.gif)
+![Group by Item](images/is_group_by_item.gif)
 
 If you do not have enough room on your screen, or simply aren't interested in some of the columns shown, you have the option of hiding which columns are shown in this view.
 
 Click on the `Show / hide columns` button which is at the top right of the table. This gives a list of the columns available - you can check the columns you want to see. The options chosen are stored for the current browser, so next time you view an inbound shipment, you will see the selected columns only. If you have chosen which columns to show, then the button is shown in blue to remind you that there are more columns available.
 
-![Hide columns](/docs/replenishment/images/is_show_hide_columns.gif)
+![Hide columns](images/is_show_hide_columns.gif)

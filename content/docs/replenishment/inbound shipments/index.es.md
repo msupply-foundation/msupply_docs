@@ -26,7 +26,7 @@ Todos los productos recibidos deben registrarse en mSupply ya sea:
 
 ### Ir al Menú de entradas
 
-![Go to Inbound Shipments](/docs/replenishment/images/is_gotois.png)
+![Go to Inbound Shipments](images/is_gotois.png)
 
 Para acceder al menú de **Entradas**:
 
@@ -50,15 +50,15 @@ La lista de Entradas se divide en 7 columnas:
 
 2. La lista puede mostrar un número fijo de envíos por página. En la esquina inferior izquierda, puedes ver cuántos envíos se están mostrando actualmente en tu pantalla.
 
-![Page](../../images/list_showing.png)
+![Page](images/list_showing.png)
 
 3. Si tiene más envíos que el límite actual, puede navegar a las otras páginas haciendo clic en el número de página o utilizando las flechas izquierda o derecha (en la esquina inferior derecha).
 
-![Page](../../images/list_pagenumbers.png)
+![Page](images/list_pagenumbers.png)
 
 4. También puedes seleccionar un número diferente de filas para mostrar por página usando la opción en la parte inferior derecha de la página.
 
-![Rows per page](../../images/rows-per-page-select.png)
+![Rows per page](images/rows-per-page-select.png)
 
 ### Buscar por nombre de proveedor
 
@@ -70,7 +70,7 @@ Escriba el nombre del proveedor en el campo `Buscar por nombre` (a la izquierda,
 
 La lista de entradas puede ser exportada a un archivo separado por comas (CSV). Simplemente haga clic en el botón de exportación (a la derecha, en la parte superior de la página)
 
-![Export button](/docs/distribution/images/export.png)
+![Export button](images/export.png)
 
 y el archivo se descargará. La función de exportación descargará todas las entradas, no solo la página actual, si tiene más de 20 de ellas.
 
@@ -99,14 +99,14 @@ Solo puedes eliminar Entradas con estado <code>NUEVO</code>.
 1. En la proveedores `Proveedores`, se te presentará una lista de proveedores. Puedes seleccionar a tu proveedor de la lista o escribir parte del nombre del proveedor.
 
 <div class="consejo">
-Puedes saber si un proveedor también utiliza mSupply en su tienda. Si es así, verás un ícono como este (<img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto">) junto al código del proveedor. 
+Puedes saber si un proveedor también utiliza mSupply en su tienda. Si es así, verás un ícono como este (images/is_msupplystoreicon.png" alt="Store" style="width:auto">) junto al código del proveedor. 
 </div>
 
 <div class="imagetitle">
 En el siguiente ejemplo, estamos recibiendo stock de <b>Tamaki Central Medical Store</b>. 
 </div>
 
-![Select a Supplier](/docs/replenishment/images/is_selectsupplier.gif)
+![Select a Supplier](images/is_selectsupplier.gif)
 
 2. Una vez que hayas seleccionado un proveedor, se creará tu entrada
 
@@ -114,7 +114,7 @@ En el siguiente ejemplo, estamos recibiendo stock de <b>Tamaki Central Medical S
 Si todo salió bien, deberías ver el nombre de tu proveedor en la esquina superior izquierda y el estado actual debería ser  <code>Nuevo</code>.
 </div>
 
-![New manual Inbound Shipment](/docs/replenishment/images/is_newinboundshipment.png)
+![New manual Inbound Shipment](images/is_newinboundshipment.png)
 
 ### Editar el nombre del proveedor
 
@@ -124,7 +124,7 @@ Si ha seleccionado el proveedor equivocado, puede cambiar el nombre del proveedo
 En el siguiente ejemplo, estamos reemplazando <b>Tamaki Central Medical Store</b> by <b>Waikato District Store</b>. 
 </div>
 
-![gif](/docs/replenishment/images/is_editsuppliername.gif)
+![gif](images/is_editsuppliername.gif)
 
 ### Ingresar una referencia de proveedor
 
@@ -149,7 +149,7 @@ Para abrir el Panel de Información, puede hacer clic en el botón `Más`, ubica
 
 Puede cerrar haciendo clic en el botón `X Cerrar`, en la esquina superior derecha del panel de información.
 
-![Open and close the Information Panel](/docs/replenishment/images/is_infopanel_openclose.gif)
+![Open and close the Information Panel](images/is_infopanel_openclose.gif)
 
 #### Información Adicional
 
@@ -216,11 +216,11 @@ Hay 5 estados posibles para una entrada:
 
 Probablemente hayas notado que dos de los valores de estado solo se aplican a los envíos creados automáticamente. Estos se crean automáticamente por el sistema cuando otro almacén en el sistema crea un envío saliente para entregar existencias a tu almacén. Si este es el caso, verás un mensaje cerca de la parte superior de la página:
 
-![Automatic IS message](/docs/replenishment/images/is_message_automatic.png)
+![Automatic IS message](images/is_message_automatic.png)
 
 Si, sin embargo, ha creado un envío de entrada manualmente, entonces se muestra el siguiente mensaje:
 
-![Manual IS message](/docs/replenishment/images/is_message_manual.png)
+![Manual IS message](images/is_message_manual.png)
 
 y verá que la barra de estado tiene solo los valores de estado que corresponden a este tipo de envío.
 
@@ -235,13 +235,13 @@ Si colocas el cursor sobre la secuencia de estados, aparecerá una ventana de hi
 Este envío manual se ha creado el 03/03/2022
 </div>
 
-![Inbound status: hover 2](/docs/replenishment/images/is_statussequence_hover2.png)
+![Inbound status: hover 2](images/is_statussequence_hover2.png)
 
 <div class="imagetitle">
 Este envío automático se ha creado el 03/03/2022, se ha asignado el 04/03/2022 y se ha recogido el 07/03/2022
 </div>
 
-![Inbound status: hover](/docs/replenishment/images/is_statussequence_hover.png)
+![Inbound status: hover](images/is_statussequence_hover.png)
 
 ### Casilla de verificación de Retener
 
@@ -249,7 +249,7 @@ Ubicada en la esquina inferior izquierda, a la izquierda de la secuencia de esta
 
 Marcar la casilla `Retener` evita que la entrada de envío entre en el siguiente estado.
 
-![Inbound hold checkbox](/docs/distribution/images/os_holdcheckbox.png)
+![Inbound hold checkbox](images/os_holdcheckbox.png)
 
 ### Botón de confirmar y cerrar
 
@@ -272,7 +272,7 @@ No es necesario que actualices un envío al siguiente estado de la secuencia. Pu
 
 Como se muestra a continuación, haz clic en la flecha hacia abajo del botón `Confirmar` y selecciona el estado al que deseas actualizar el envío.
 
-![Skip Status](/docs/replenishment/images/is_skipstatus.gif)
+![Skip Status](images/is_skipstatus.gif)
 
 ## Agregar líneas a una entrada
 
@@ -280,7 +280,7 @@ Para agregar una línea, haz clic en el botón `Agregar artículo` ubicado en la
 
 Se abrirá una nueva ventana `Agregar Artículo`.
 
-![Inbound: add item button](/docs/replenishment/images/is_additem_button.png)
+![Inbound: add item button](images/is_additem_button.png)
 
 ### Seleccionar un artículo
 
@@ -292,7 +292,7 @@ En la ventana `Agrgear Artículo`, puedes buscar un artículo de las siguientes 
 
 Una vez que el artículo esté resaltado, haz clic en el nombre o presiona `Enter`.
 
-![Add Item](/docs/distribution/images/os_additem.gif)
+![Add Item](images/os_additem.gif)
 
 ### Pestaña de cantidades
 
@@ -309,7 +309,7 @@ En la pestaña `Cantidades`, Puedes actualizar los siguientes cambios:
 En el siguiente ejemplo, estamos recibiendo 2 números de lote para el artículo <i>030453 - Amoxicillina 250mg tabs</i> con un tamaño de paquete diferente. 
 </div>
 
-![Add Item quantities](/docs/replenishment/images/is_additem_quantities.png)
+![Add Item quantities](images/is_additem_quantities.png)
 
 ### Pestaña de precios
 
@@ -328,7 +328,7 @@ Los precios de venta y costo son por unidad y no por paquete.
 En el siguiente ejemplo, el precio de venta es de $12 por unidad y el precio de costo es de $10 por unidad. 
 </div>
 
-![Add Item pricing](/docs/replenishment/images/is_additem_pricing.png)
+![Add Item pricing](images/is_additem_pricing.png)
 
 ### Pestaña de ubicación
 
@@ -336,7 +336,7 @@ En la tercera pestaña, `Ubicación`, puedes seleccionar una ubicación de almac
 
 Simplemente selecciona una ubicación de almacenamiento en el menú desplegable `Ubicación`.
 
-![Add Item location](/docs/replenishment/images/is_additem_location.png)
+![Add Item location](images/is_additem_location.png)
 
 <div class="nota">
 ¿No conoces la ubicación de almacenamiento todavía? No es necesario que la captures de inmediato. Puedes actualizar la ubicación de almacenamiento en cualquier momento si aún no has confirmado la verificación. 
@@ -359,18 +359,18 @@ Haz clic en el botón `Añadir desde lista maestra` (esquina superior derecha).
 El botón estará desactivado si el estado de la entrada es cualquier cosa que no sea <code>Nuevo</code>
 </div>
 
-![Add Item button](/docs/distribution/images/os-add-from-master-list-button.png)
+![Add Item button](images/os-add-from-master-list-button.png)
 
 Se abrirá una nueva ventana de `Listas Maestras`. Esto te permite seleccionar la lista maestra requerida. Simplemente haz clic en una de las listas (si tienes alguna disponible)
 
-![Add Item button](/docs/distribution/images/os-add-item-master-lists.png)
+![Add Item button](images/os-add-item-master-lists.png)
 
 Haz clic en `Aceptar` en el cuadro de diálogo:
-![Add Item button](/docs/distribution/images/os-add-item-master-list-prompt.png)
+![Add Item button](images/os-add-item-master-list-prompt.png)
 
 Luego se agregarán líneas de marcador de posición a tu envío, que se verán así:
 
-![Add Item button](/docs/replenishment/images/is-after-master-list.png)
+![Add Item button](images/is-after-master-list.png)
 
 Las filas importadas tendrán cero para el valor de número de paquetes y, por lo tanto, se mostrarán en una fuente azul sin mostrar el lote, la caducidad, la ubicación, etc. Puedes seguir los pasos para editar estas líneas, como se detalla arriba.
 
@@ -402,13 +402,13 @@ Para editar una línea de una entrada, simplemente toca en ella. Se abrirá la v
 4. Ve al menú desplegable `Acciones` (esquina superior derecha, encima de la lista)
 5. Selecciona la acción `Eliminar líneas seleccionadas`
 
-![Alt Text](/docs/replenishment/images/delete-inbound-shipment-line.gif)
+![Alt Text](images/delete-inbound-shipment-line.gif)
 
 <div class="imagetitle">
 En el siguiente ejemplo, estamos eliminando <i>item 030453 - Amoxicillina 250mg tabs</i>
 </div>
 
-![Alt Text](/docs/replenishment/images/is_deleteselectedlines.gif)
+![Alt Text](images/is_deleteselectedlines.gif)
 
 <div class="consejo">
 Puedes eliminar varias líneas a la vez. Asegúrate de revisar lo que está seleccionado antes de realizar la acción de Eliminar. 
@@ -460,10 +460,10 @@ Para cambiar el modo de vista, haga clic en el botón `Agrupar por artículo`.
 
 Cuando se agrupa por artículo, puede expandir el artículo para ver los lotes individuales o utilizar la expansión en el encabezado de la tabla para expandir todas las filas agrupadas. Si hace clic en un artículo, también verá todos los lotes seleccionados, como se muestra en este ejemplo:
 
-![Group by Item](/docs/replenishment/images/is_group_by_item.gif)
+![Group by Item](images/is_group_by_item.gif)
 
 Si no tiene suficiente espacio en su pantalla, o simplemente no está interesado en algunas de las columnas mostradas, tiene la opción de ocultar las columnas que se muestran en esta vista.
 
 Haga clic en el botón `Mostrar / ocultar columnas` que se encuentra en la parte superior derecha de la tabla. Esto muestra una lista de las columnas disponibles: puede marcar las columnas que desea ver. Las opciones elegidas se almacenan para el navegador actual, por lo que la próxima vez que vea una entrada, verá solo las columnas seleccionadas. Si ha elegido qué columnas mostrar, entonces el botón se muestra en azul para recordarle que hay más columnas disponibles.
 
-![Hide columns](/docs/replenishment/images/is_show_hide_columns.gif)
+![Hide columns](images/is_show_hide_columns.gif)

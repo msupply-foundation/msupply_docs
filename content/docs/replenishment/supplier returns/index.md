@@ -25,7 +25,7 @@ If you have used mSupply in the past, you may be familiar with the term **Suppli
 
 Choose `Replenishment` > `Supplier Returns` in the navigation panel.
 
-![gotooor](/docs/replenishment/images/gotoor.png)
+![gotooor](images/gotoor.png)
 
 You will be presented with a list of Supplier Returns (if you don't see any, you are probably just starting!).
 
@@ -50,22 +50,22 @@ From this screen you can:
 
 1. The list can display a fixed number of returns per page. On the bottom left corner, you can see how many returns are currently displayed on your screen.
 
-![Page](../../images/list_showing.png)
+![Page](images/list_showing.png)
 
 3. If you have more returns than the current limit, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner).
 
-![Page](../../images/list_pagenumbers.png)
+![Page](images/list_pagenumbers.png)
 
 4. You can also select a different number of rows to show per page using the option at the bottom right of the page.
 
-![Rows per page](../../images/rows-per-page-select.png)
+![Rows per page](images/rows-per-page-select.png)
 
 ### Search by Supplier Name
 
 You can filter the list of returns by supplier name or by status. This can be useful if you're looking for one particular return!
 Select the `Name` filter from the list to filter by the supplier name:
 
-![Supplier Return filter](/docs/replenishment/images/or_filter.png)
+![Supplier Return filter](images/or_filter.png)
 
 Type the name of a supplier in the `Name` field. All the returns for this supplier will appear in the list.
 
@@ -73,7 +73,7 @@ Type the name of a supplier in the `Name` field. All the returns for this suppli
 
 The list of Supplier Returns can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page)
 
-![Export button](/docs/distribution/images/export.png)
+![Export button](images/export.png)
 
 and the file will be downloaded. The export function will download all Supplier Returns, not just the current page, if you have more than 20 of them.
 
@@ -91,7 +91,7 @@ You can delete a return from the Supplier Return list.
 You can only delete Supplier Returns if they have not been <code>SHIPPED</code>.
 </div>
 
-![Outbound list: delete](/docs/replenishment/images/delete-supplier-return.gif)
+![Outbound list: delete](images/delete-supplier-return.gif)
 
 ## Creating a Supplier Return
 
@@ -105,7 +105,7 @@ Often, you will be returning goods that you received via an Inbound Shipment. In
 
 2. Press the `New Return` button, in the top right corner
 
-![New Return](/docs/replenishment/images/clicknewreturn.png)
+![New Return](images/clicknewreturn.png)
 
 3. A new window `Suppliers` opens, inviting you to select a supplier.
 
@@ -117,7 +117,7 @@ Often, you will be returning goods that you received via an Inbound Shipment. In
 In the below example, we are wanting to return stock to <b>Kamo Regional Warehouse</b>. 
 </div>
 
-![Search supplier list](/docs/replenishment/images/or_select_supplier.png)
+![Search supplier list](images/or_select_supplier.png)
 
 <div class="tip">
 You can tell if a supplier is also using Open mSupply in their store. If they do, you will see icon like this <img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto"> next to the supplier code. 
@@ -129,7 +129,7 @@ You can tell if a supplier is also using Open mSupply in their store. If they do
 If everything went well, you should see the name of your supplier in the top left corner and the status should be <code>NEW</code> 
 </div>
 
-![Supplier Return: created](/docs/replenishment/images/or_created.png)
+![Supplier Return: created](images/or_created.png)
 
 ### Enter a Supplier Reference
 
@@ -153,7 +153,7 @@ To open the Information Panel, you can tap on the `More` button, located in the 
 
 You can close by tapping on the `X Close` button, on the top right corner of the information panel.
 
-![Open and close the Information Panel](/docs/replenishment/images/or_sidepanel.gif)
+![Open and close the Information Panel](images/or_sidepanel.gif)
 
 #### Additional Info
 
@@ -212,7 +212,7 @@ If you hover over the status sequence, a return history window appears. You can 
 This return has been created on 03/03/2022, picked on 04/03/2022 and shipped on 07/03/2022
 </div>
 
-![Outbound status: hover](/docs/replenishment/images/is_statussequence_hover.png)
+![Outbound status: hover](images/is_statussequence_hover.png)
 
 ### Hold checkbox
 
@@ -220,7 +220,7 @@ Located on the bottom left corner, on the left of the status sequence.
 
 Checking the `Hold` checkbox prevents the Supplier Return from being updated to the next status.
 
-![Outbound checkbox](/docs/distribution/images/os_holdcheckbox.png)
+![Outbound checkbox](images/os_holdcheckbox.png)
 
 ### Close and Confirm button
 
@@ -243,7 +243,7 @@ You don't have to update a return to the next status in the sequence. You can ch
 
 As demonstrated below, tap on the down arrow of the `Confirm` button and select the status you want the return to be updated to.
 
-![Skip Status](/docs/replenishment/images/or_confirm_skip_status.gif)
+![Skip Status](images/or_confirm_skip_status.gif)
 
 ## Adding lines to a Supplier Return
 
@@ -251,7 +251,7 @@ Tap on the `Add Item` button (top right corner).
 
 A new `Add Item` window opens.
 
-![Add Item button](/docs/replenishment/images/or_additembutton.png)
+![Add Item button](images/or_additembutton.png)
 
 ### Select an Item
 
@@ -263,7 +263,7 @@ In the `Add Item` window, you can look up an item by:
 
 Once your item is highlighted, tap on the name or press `Enter`.
 
-![Select an item](/docs/replenishment/images/or_additem.gif)
+![Select an item](images/or_additem.gif)
 
 #### List of available batches:
 
@@ -277,7 +277,7 @@ This is a list of batch numbers that you have in store for this item:
 - **Quantity Available for Return**: Number of packs available (not already allocated to other shipments or returns)
 - **Quantity to Return**: Number of packs to be returned
 
-![List of available batch numbers](/docs/replenishment/images/or_additem_listofbatches.png)
+![List of available batch numbers](images/or_additem_listofbatches.png)
 
 ### Return a quantity of packs
 
@@ -287,13 +287,13 @@ As you can see above, initially the quantity of packs to return from each batch 
 In the example below, we are returning all 17 packs of the first batch in the list, and just 5 packs from the second batch.
 </div>
 
-![Set quantities to return](/docs/replenishment/images/or_addquantities.png)
+![Set quantities to return](images/or_addquantities.png)
 
 #### Warnings
 
 You may see one or more warning messages on this screen:
 
-![return quantity warning!](/docs/replenishment/images/or_addquantities_warning.png)
+![return quantity warning!](images/or_addquantities_warning.png)
 
 If you forget to enter a quantity to return for any batch and click `Next step`, you will see this warning message. You'll need to add a quantity to return from at least one batch. You can click `Cancel` if you no longer want to return any of this stock.
 
@@ -307,7 +307,7 @@ Return reasons are configured on the mSupply central server via **[options](http
 
 When you are happy with the quantities, you can press the `Next step` button. The list of batches will be filtered to only include the batches you set a return quantity for. In this view, you can provide a reason for returning each batch, and an additional comment.
 
-![Provide return reasons](/docs/replenishment/images/or_additem_returnstep.png)
+![Provide return reasons](images/or_additem_returnstep.png)
 
 ### Confirm
 
@@ -337,7 +337,7 @@ If you set the Quantity to Return to `0`, that line will be removed from the ret
 
 If you set all return quantities to `0`, and click `Next step` you will see this warning message. It is informing you that no return quantities were provided; from here you can click `OK` again to confirm, in which case the window will close and all lines for that item will be removed.
 
-![no quantities warning!](/docs/replenishment/images/or_edit_noquantities.png)
+![no quantities warning!](images/or_edit_noquantities.png)
 
 <div class="note">
  <b></b> When editing a return line, you cannot change the item. You would need to delete the return line and create a new one. 
@@ -353,7 +353,7 @@ If you set all return quantities to `0`, and click `Next step` you will see this
 In the below example, we are deleting 2 items, with the item codes 030063 and 037020
 </div>
 
-![Deleting supplier return lines](/docs/replenishment/images/delete-supplier-return-line.gif)
+![Deleting supplier return lines](images/delete-supplier-return-line.gif)
 
 <div class="tip">
  <b></b> You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
@@ -375,7 +375,7 @@ Once all items are picked and packed. You can then confirm the picking of the re
 
 To confirm that a return has been picked, tap on the `Confirm Picked` button.
 
-![Alt Text](/docs/replenishment/images/or_confirmpicked.gif)
+![Alt Text](images/or_confirmpicked.gif)
 
 Once picking is confirmed:
 
@@ -413,7 +413,7 @@ To change the view mode, click the `Group by item` switch.
 
 When grouped by item, you can expand the item to see individual batches, or use the expand in the table header to expand all grouped rows. If you click on an item you will also see all selected batches, as shown in this example:
 
-![Group by Item](/docs/replenishment/images/or_group_by_item.gif)
+![Group by Item](images/or_group_by_item.gif)
 
 If you do not have enough room on your screen, or simply aren't interested in some of the columns shown, you have the option of hiding which columns are shown in this view.
 
@@ -423,4 +423,4 @@ Click on the `Show / hide columns` button which is at the top right of the table
 In the below example, we are hiding the pricing columns
 </div>
 
-![Hide columns](/docs/replenishment/images/or_filter_columns.gif)
+![Hide columns](images/or_filter_columns.gif)

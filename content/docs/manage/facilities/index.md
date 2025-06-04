@@ -21,7 +21,7 @@ Choose `Manage` > `Stores` in the navigation panel.
 
 You will be presented with a list of stores in your system.
 
-![store list](/docs/manage/images/facilities.png)
+![store list](images/facilities.png)
 
 The list of Stores is divided into 5 columns:
 
@@ -37,17 +37,9 @@ The list of Stores is divided into 5 columns:
 You can tell if a customer is also using Open mSupply in their store if they have an icon like this <img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto"> next to the code. 
 </div>
 
-The list can display a fixed number of stores per page. On the bottom left corner, you can see how many stores are currently displayed on your screen.
-
-![Pagination: showing](../../images/list_showing.png)
-
-If you have more stores than the current limit, you can navigate to the other pages by clicking on the page number or using the right of left arrows (bottom right corner).
-
-![Pagination: navigating](../../images/list_pagenumbers.png)
-
-You can also select a different number of rows to show per page using the option at the bottom right of the page.
-
-![Rows per page](../../images/rows-per-page-select.png)
+1. The list can display a fixed number of stores per page. On the bottom left corner, you can see how many stores are currently displayed on your screen.
+2. If you have more stores than the current limit, you can navigate to the other pages by clicking on the page number or using the right of left arrows (bottom right corner).
+3. You can also select a different number of rows to show per page using the option at the bottom right of the page.
 
 ### Searching stores
 
@@ -55,7 +47,7 @@ You can filter the list of stores by name or by code. This can be useful if you'
 
 In the search bar in the top left of your screen, type some (or all) of a store name or store code. The list will now contain all matching stores:
 
-![Stores filter](/docs/manage/images/facilities_filter.png)
+![Stores filter](images/facilities_filter.png)
 
 ## Store Preferences
 
@@ -63,7 +55,7 @@ Store preferences allow the configuration of Open mSupply for a specific store. 
 
 To configure preferences for a store, select that store from the list - a new window will open.
 
-![Store preferences](/docs/manage/images/store_preferences.png)
+![Store preferences](images/store_preferences.png)
 
 Toggle the preferences on or off as required, and close when you are finished.
 
@@ -84,16 +76,11 @@ Most store preferences are still managed through the Legacy mSupply central serv
 
 To edit the properties of a store in the list, click on it. This will open a new `Edit Store` window.
 
-<div class='tip'>
-If you see a message like this when you open the Edit Store window, that means you have no store properties configured! To set these up, please contact support or <a href='/docs/settings/configuration/#gaps-store-properties'>enable GAPS Properties</a>.
-
-![Facilities: no properties](/docs/manage/images/facilities-no-properties-defined.png)
-
-</div>
+![](images/facilities-no-properties-defined.png)
 
 From this window, you can edit the store properties.
 
-![Edit facility](/docs/manage/images/edit_properties.png)
+![Edit facility](images/edit_properties.png)
 
 - Click `OK` to save your changes and close the window
 - Click `OK & Next` to save your changes and start editing the next store
@@ -103,7 +90,7 @@ From this window, you can edit the store properties.
 
 Any store can view and edit their own properties. If properties have been configured, an additional `Edit` button will be visible in the app footer, next to your store name:
 
-![Footer: store edit](/docs/manage/images/footer_store_edit.png)
+![Footer: store edit](images/footer_store_edit.png)
 
 Click the `Edit` button to open a new window, where you can edit the properties for your store.
 
@@ -111,7 +98,7 @@ Click the `Edit` button to open a new window, where you can edit the properties 
 Some properties can be disabled here. This means they are only editable on the Open mSupply Central Server.
 </div>
 
-![Edit own store](/docs/manage/images/edit_remote_store.png)
+![Edit own store](images/edit_remote_store.png)
 
 Once you are happy with your changes, click `OK` to save and close the window.
 
@@ -123,4 +110,4 @@ Stores are only visible on the [Open mSupply Central Server](/docs/getting_start
 
 To Edit stores centrally you need the `Can modify central data` permission, enabled in the [omSupply Permissions Tab](https://docs.msupply.org.nz/admin:managing_users?s[]=permission#omsupply_permissions_tab) on your Central Store.
 
-![Can Modify Central Data Permission](/docs/programs/images/can_modify_central.png)
+![Can Modify Central Data Permission](images/can_modify_central.png)
