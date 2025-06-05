@@ -19,7 +19,7 @@ Open mSupply offers the following cold chain functionality:
 
 - **Remote temperature monitoring** 
 - **Cold chain equipment inventory management** 
-- **Gap analysis planning system for cold chain equipment**
+- **Gap analysis for cold chain equipment**
 - **Compromised stock identification** 
 
 #### Remote temperature monitoring (RTM)
@@ -55,11 +55,9 @@ Central health authorities can:
 Open mSupply includes a comprehensive CCE gap analysis module. 
 
 This provides EPI teams with the tools to: 
-- Capture current CCE volume capacity for the country
-- Forecast the expected demand for CCE volume capacity over the next 5 years
-- Compare the current CCE volume capacity to the expected demand
+- Compare current cold storage volume capacity to expected demand over the next 5 years
 - Identify facilities that will need intervention due to increased demand
-- Identify facilities that will need intervention due to CCE reaching end-of-life
+- Identify CCE that will need replacing due to reaching end-of-life
 #### Compromised stock identification
 
 Open mSupply allows health facilities to: 
