@@ -18,15 +18,15 @@ top = false
 The gap analysis planning system (GAPS) is a tool designed to help EPI teams to assess whether their CCE infrastructure is sufficient to meet expected demand.
 
 The GAPS module allows EPI teams to: 
-- Capture CCE volume capacity for the country
+- Assess CCE volume capacity for the country
 - Forecast the expected demand for CCE volume capacity over the next 5 years
 - Compare the current CCE volume capacity to the expected demand
 - Identify facilities that will need intervention due to increased demand
 - Identify facilities that will need intervention due to CCE reaching end-of-life
 
-## Capturing CCE volume capacity
+## Assessing CCE volume capacity
 
-The CCE volume capacity for the country can be captured by:
+The CCE volume capacity for the country can be assessed by:
 1. Registering all CCE for all facilities in the [CCEI module](/docs/coldchain/equipment/). 
 2. Implementing a robust SOP for facilities to regularly report the functional status of their CCE 
 ### 1. Registering CCE
