@@ -54,7 +54,7 @@ This will bring up the following window, no matter which page you are on:
 
 ![CommandK](/docs/introduction/images/cmd_k.png)
 
-This shows you the list of globally available shortcuts, for example pressing `d` on your keyboard will take you to the dashboard (unless you are entering text into an input field!).
+This shows you the list of globally available shortcuts, for example pressing `Alt +D` on your keyboard will take you to the dashboard (unless you are entering text into an input field!).
 
 However, you can also click on an item in the list, or search available commands:
 
