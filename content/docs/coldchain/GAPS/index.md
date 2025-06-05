@@ -28,7 +28,10 @@ The GAPS module allows EPI teams to:
 
 The current CCE volume capacity for the country can be captured by:
 1. Registering all CCE for all facilities in the [CCEI module](/docs/coldchain/equipment/). 
-2. 
+2. Implementing a robust SOP for facilities to report the functional status of their CCE
+#### 1. Registering CCE
+
+#### 2. Reporting CCE functional status
 ### Forecasting expected demand for CCE volume capacity
 
 ### Comparing current CCE volume capacity to expected demand
