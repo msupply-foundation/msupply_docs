@@ -1,5 +1,5 @@
 +++
-title = "Synchronisation"
+title = "About Synchronisation"
 description = "Configure the server sync settings"
 date = 2022-05-17
 updated = 2022-05-17
