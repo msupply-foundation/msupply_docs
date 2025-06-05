@@ -71,7 +71,7 @@ To add a filter to the page, choose the required filter from the drop down. Mult
 
 Select assets to delete them:
 
-![Delete coldchain equipment](/docs/coldchain/images/delete-coldchain-equipment.png)
+![Delete coldchain equipment](images/delete-coldchain-equipment.png)
 
 ### Importing And Exporting
 
@@ -79,12 +79,12 @@ Select assets to delete them:
 
 Cold chain assets can be imported from a comma-separated-value (csv) file using the `Import` button
 
-![](../../../../public/docs/coldchain/images/equipment_import_button.png)
+![](images/equipment_import_button.png)
 
 This will open an import modal. Click on `Download a template` to download a csv
 template which can be used to import assets.
 
-![](/docs/coldchain/images/equipment_import_modal.png)
+![](images/equipment_import_modal.png)
 
 Assets are automatically assigned to the logged in store.
 
@@ -109,7 +109,7 @@ Information will need to be entered in the format provided by the csv template i
 
 When you are ready, drag and drop the csv file into the modal or click on the `Browse files` button to select the file from your computer.
 
-![](docs/coldchain/images/equipment_import_upload.png)
+![](images/equipment_import_upload.png)
 
 #### If things go wrong
 
@@ -149,7 +149,7 @@ This usually happens when you have an asset in your import file which has the sa
 
 A list of existing assets can be exported as a csv using the `Export` button.
 
-![](../../../../docs/inventory/images/export.png)
+![](images/export.png)
 
 ### QR code scanning
 

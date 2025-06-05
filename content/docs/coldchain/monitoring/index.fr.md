@@ -25,13 +25,13 @@ Pour toutes ces options, vous pouvez importer les données d'un fridge tag. Pour
 
 Choisissez `Chaîne du froid` > `MSurveillance` dans le panneau de navigation.
 
-![goto monitoring](/docs/coldchain/images/goto_monitoring.png)
+![goto monitoring](images/goto_monitoring.png)
 
 Cette page contient trois onglets, affichant différents apercus des données de controle des températures. L'onglet `Graphique` sera celui affiché par défaut.
 
 ### Graphique
 
-![Apercu du graphique](/docs/coldchain/images/chart_view.png)
+![Apercu du graphique](images/chart_view.png)
 
 L'onglet Graphique montre un graphique avec tous les capteurs configurés. Vous pouvez filtrer les données par:
 
@@ -44,18 +44,18 @@ Pour ajouter un filtre à la page, choisissez le filtre désiré dans le menu d�
 
 <div class="note">Par défaut, les données des dernieres 24 heures sont affichées. Utilisez les champs date/heure pour observer une période de temps plus longue.</div>
 
-![Filtre](/docs/coldchain/images/chart_filter.png)
+![Filtre](images/chart_filter.png)
 
 Si le capteur a enregistré une breche ou une anomalie - une icone apparaitra sur le tableau. Cliquez sur l'icone pour faire apparaitre l'information sur l'anomalie avec un bouton vous amenant vers la liste de toutes les breches.
 
-![Graphique des anomalies](/docs/coldchain/images/chart_breach.png)
+![Graphique des anomalies](images/chart_breach.png)
 
 S'affichent également sur le graphique les depassements de seuil de temperature de 2°C (zone rouge) et 8°C (zone bleue).
 
 <div class="note">Si vous avez configuré différentes valeurs de seuil, il est possible que vous voyiez des anomalies en dehors de l'éventail standard.</div>
 
 Si vous sélectionnez une période de temps longue, il est possible que s'affiche le message d'alerte suivant:
-![Alerte de graphique de chaîne du froid contenant trop de données](/docs/coldchain/images/chart_view_too_much_data.png)
+![Alerte de graphique de chaîne du froid contenant trop de données](images/chart_view_too_much_data.png)
 Pour éviter cela, sélectionnez une période plus courte ou choisissez un nombre de capteurs réduit.
 Seuls les premiers 8640 points de donnée s'affichent sur le graphique.
 
@@ -63,7 +63,7 @@ Seuls les premiers 8640 points de donnée s'affichent sur le graphique.
 
 L'onglet `Anomalies` montre les enregistrements de toutes les breches
 
-![Anomalies](/docs/coldchain/images/breaches_list.png)
+![Anomalies](images/breaches_list.png)
 
 La liste est divisée en 10 colonnes:
 
@@ -91,44 +91,44 @@ You can filter the data displayed by:
 By default, the `Unacknowledged` filter is shown on this page.
 To add a filter to the page, choose the required filter from the drop down. To remove any applied filters, click the `Remove all filters` option.
 
-![Filter](/docs/coldchain/images/breach_filter.png)
+![Filter](images/breach_filter.png)
 
 1. The list can display a fixed number of breaches per page. On the bottom left corner, you can see how many breaches are currently displayed on your screen.
 
-![Page](/docs/introduction/images/list_showing.png)
+![Page](images/list_showing.png)
 
 2. If you have more logs than the current limit, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner).
 
-![Page](/docs/introduction/images/list_pagenumbers.png)
+![Page](images/list_pagenumbers.png)
 
 3. You can also select a different number of rows to show per page using the option at the bottom right of the page.
 
-![Rows per page](../../images/rows-per-page-select.png)
+![Rows per page](images/rows-per-page-select.png)
 
 #### Acknowledging breaches
 
 From this list, you can choose to acknowledge a breach which then will stop the breach showing as a notification at the top of the page.
 If a breach has been unacknowledged you will see a red alert icon on the left of the row, like this:
 
-![Breach acknowledge button](/docs/coldchain/images/breach_acknowledge_button.png)
+![Breach acknowledge button](images/breach_acknowledge_button.png)
 
 Clicking the button will show a window, in this you can enter a comment to acknowledge the breach:
 
-![Breach acknowledge dialog](/docs/coldchain/images/breach_acknowledge.png)
+![Breach acknowledge dialog](images/breach_acknowledge.png)
 
 If a breach is ongoing, i.e. it has not ended yet, then you are unable to acknowledge it yet, and the window is disabled:
 
-![Breach acknowledge ongoing](/docs/coldchain/images/breach_acknowledge_ongoing.png)
+![Breach acknowledge ongoing](images/breach_acknowledge_ongoing.png)
 
 Once a breach is acknowledged, the red alert icon is no longer shown for that breach row. Instead, a speech bubble icon is shown. Hovering over this (on the desktop / web version) or pressing it for a second (on tablets) will show the comment:
 
-![Breach comment](/docs/coldchain/images/breach_comment.png)
+![Breach comment](images/breach_comment.png)
 
 ### Journal
 
 The log view shows a list of all temperature logs.
 
-![Logs](/docs/coldchain/images/log_list.png)
+![Logs](../../../../public/docs/coldchain/images/log_list.png)
 
 The list of temperature logs is divided into 6 columns:
 
@@ -150,26 +150,26 @@ You can filter the data displayed by:
 
 To add a filter to the page, choose the required filter from the drop down.
 
-![Filter](/docs/coldchain/images/log_filter.png)
+![Filter](images/log_filter.png)
 
 1. The list can display a fixed number of logs per page. On the bottom left corner, you can see how many logs are currently displayed on your screen.
 
-![Page](/docs/introduction/images/list_showing.png)
+![Page](images/list_showing.png)
 
 2. If you have more logs than the current limit, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner).
 
-![Page](/docs/introduction/images/list_pagenumbers.png)
+![Page](images/list_pagenumbers.png)
 
 3. You can also select a different number of rows to show per page using the option at the bottom right of the page.
 
-![Rows per page](../../images/rows-per-page-select.png)
+![Rows per page](images/rows-per-page-select.png)
 
 ### Importing Fridge-tags
 
 If you are using Berlinger Fridge-tags, you can import the data directly into Open mSupply. To do this, insert the USB of the Fridge-tag into your computer.
 Then click the `Import Fridge-tag` button:
 
-![Import fridge tag](/docs/coldchain/images/import_fridge_tag.png)
+![Import fridge tag](../../../../public/docs/coldchain/images/import_fridge_tag.png)
 
 This will open a file browsing window, allowing you to select the `.txt` file of the Fridge-tag data. Simply click on the file and wait for the import to complete.
 
@@ -177,7 +177,7 @@ This will open a file browsing window, allowing you to select the `.txt` file of
 
 Here's how the process looks (this is the mac desktop version):
 
-![Import fridge tag](/docs/coldchain/images/import_fridge_tag.gif)
+![Import fridge tag](../../../../public/docs/coldchain/images/import_fridge_tag.gif)
 
 <div class="note">You may need to wait for the text file to be generated after connecting the Fridge-tag to your computer.</div>
 

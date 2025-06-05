@@ -27,13 +27,13 @@ Los datos de temperatura pueden importarse a Open mSupply a través de Bluetooth
 
 Selecciona `Cadena de frío` > `Monitoreo` en el panel de navegación.
 
-![goto monitoring](/docs/coldchain/images/goto_monitoring.png)
+![goto monitoring](images/goto_monitoring.png)
 
 Esta página contiene tres pestañas que muestran diferentes vistas de los datos de monitoreo de temperatura. La pestaña que se mostrará por defecto es la pestaña `Gráfico`.
 
 ### Gráfico
 
-![Chart view](/docs/coldchain/images/chart_view.png)
+![Chart view](images/chart_view.png)
 
 La pestaña de gráficos muestra un gráfico para todos los sensores configurados. Puedes filtrar los datos mostrados por:
 
@@ -51,11 +51,11 @@ Los filtros también conservan sus valores cuando cambias entre las pestañas.
 El filtro de fecha y hora se aplicará a todas las pestañas de la sección de monitoreo.
 </div>
 
-![Filter](/docs/coldchain/images/chart_filter.png)
+![Filter](images/chart_filter.png)
 
 Si el sensor ha registrado un incumplimiento, se mostrará un ícono en el gráfico. Al hacer clic en el ícono, se mostrará información sobre el incumplimiento, junto con un botón que te llevará a la lista de todos los incumplimientos:
 
-![Chart Breach](/docs/coldchain/images/chart_breach.png)
+![Chart Breach](images/chart_breach.png)
 
 Para cerrar la ventana emergente, haz clic en la "x" roja en la esquina superior derecha.
 
@@ -64,7 +64,7 @@ En el gráfico también se muestran áreas sombreadas en rojo (superior) y azul 
 <div class="nota">Si has utilizado valores de umbral diferentes en tu configuración, podrías ver incumplimientos fuera del rango estándar.</div>
 
 Si seleccionas un período de tiempo largo, podrías ver un mensaje de advertencia como este:
-![Cold chain graph with too much data warning](/docs/coldchain/images/chart_view_too_much_data.png)
+![Cold chain graph with too much data warning](images/chart_view_too_much_data.png)
 Para evitar esto, es posible que necesites seleccionar un período de tiempo más corto o filtrar los datos para mostrar solo los sensores que te interesan.
 Solo se muestran los primeros 8640 puntos de datos en el gráfico.
 
@@ -72,7 +72,7 @@ Solo se muestran los primeros 8640 puntos de datos en el gráfico.
 
 La pestaña `Incumplimientos` muestra una lista de todos los incumlplimientos registrados
 
-![Breaches](/docs/coldchain/images/breaches_list.png)
+![Breaches](images/breaches_list.png)
 
 La lista de incumplimientos está dividida en 10 columnas:
 
@@ -102,44 +102,44 @@ Para agregar un filtro a la página, selecciona el filtro requerido desde el men
 <div class="nota">Por defecto, el filtro `No reconocido` se muestra en la página de vista de la lista de incumplimientos.
 </div>
 
-![Filter](/docs/coldchain/images/breach_filter.png)
+![Filter](images/breach_filter.png)
 
 1. La lista puede mostrar un número fijo de incumplimientos por página. En la esquina inferior izquierda, puedes ver cuántos incumplimientos se están mostrando actualmente en tu pantalla.
 
-![Page](/docs/introduction/images/list_showing.png)
+![Page](images/list_showing.png)
 
 2. Si tienes más registros que el límite actual, puedes navegar a otras páginas tocando el número de la página o usando las flechas de derecha o izquierda (en la esquina inferior derecha).
 
-![Page](/docs/introduction/images/list_pagenumbers.png)
+![Page](images/list_pagenumbers.png)
 
 3. También puedes seleccionar un número diferente de filas para mostrar por página utilizando la opción en la esquina inferior derecha de la página.
 
-![Rows per page](../../images/rows-per-page-select.png)
+![Rows per page](images/rows-per-page-select.png)
 
 #### Reconocer incumplimientos
 
 Desde esta lista, puedes elegir reconocer un incumplimiento, lo que hará que deje de mostrarse como una notificación en la parte superior de la página.
 Si un incumplimiento no ha sido reconocido, verás un ícono de alerta roja a la izquierda de la fila, como este:
 
-![Breach acknowledge button](/docs/coldchain/images/breach_acknowledge_button.png)
+![Breach acknowledge button](images/breach_acknowledge_button.png)
 
 Al hacer clic en el ícono, se abrirá una ventana en la que podrás ingresar un comentario para reconocer el incumplimiento:
 
-![Breach acknowledge dialog](/docs/coldchain/images/breach_acknowledge.png)
+![Breach acknowledge dialog](images/breach_acknowledge.png)
 
 Si un incumplimiento está en curso, es decir, aún no ha terminado, no podrás reconocerlo aún, y la ventana estará deshabilitada:
 
-![Breach acknowledge ongoing](/docs/coldchain/images/breach_acknowledge_ongoing.png)
+![Breach acknowledge ongoing](images/breach_acknowledge_ongoing.png)
 
 Una vez que un incumplimiento ha sido reconocido, el ícono de alerta roja ya no se muestra para esa fila del incumplimiento. En su lugar, se muestra un ícono de burbuja de diálogo. Al pasar el cursor sobre este ícono (en la versión de escritorio / web) o presionarlo durante un segundo (en tabletas), se mostrará el comentario:
 
-![Breach comment](/docs/coldchain/images/breach_comment.png)
+![Breach comment](images/breach_comment.png)
 
 ### Registro
 
 La pestaña `Registro` muestra una lista de todos los registros de temperatura
 
-![Logs](/docs/coldchain/images/log_list.png)
+![Logs](../../../../public/docs/coldchain/images/log_list.png)
 
 La lista de registros de temperatura está dividida en 6 columnas:
 
@@ -161,16 +161,9 @@ Puedes filtrar los datos mostrados por:
 
 Para agregar un filtro a la página, selecciona el filtro requerido desde el menú desplegable.
 
-![Filter](/docs/coldchain/images/log_filter.png)
-
 1. La lista puede mostrar un número fijo de registros por página. En la esquina inferior izquierda, puedes ver cuántos registros se están mostrando actualmente en tu pantalla.
-
-![Page](/docs/introduction/images/list_showing.png)
 
 2. Si tienes más registros que el límite actual, puedes navegar a otras páginas tocando el número de la página o usando las flechas de derecha o izquierda (en la esquina inferior derecha).
 
-![Page](/docs/introduction/images/list_pagenumbers.png)
-
 3. También puedes seleccionar un número diferente de filas para mostrar por página utilizando la opción en la esquina inferior derecha de la página.
 
-![Rows per page](../../images/rows-per-page-select.png)

@@ -23,7 +23,7 @@ TODO: Add link to central server docs when they are created
 
 En accédant au menu **Équipements** via le serveur central Open mSupply, vous pouvez consulter l'ensemble des équipements de la chaîne du froid de tous les sites.
 
-![goto equipment](../../../../public/docs/coldchain/images/equipment.png)
+![goto equipment](images/equipment.png)
 
 Ici, vous pouvez consulter tous les équipements de la chaîne du froid disponibles sur votre site.
 
@@ -40,33 +40,27 @@ La liste des équipements est divisée en 6 colonnes:
 | **Hors-catalogue**         | Désigne si l'actif a ete créé hors actif catalogue (voir [Catalogue > Assets](/docs/catalogue/assets/)) |
 | **Notes**                  | Notes entrées au sujet de l'actif                                                                       |
 
-![Equipment nav](../../../../public/docs/coldchain/images/equipment_list.png)
+![Equipment nav](images/equipment_list.png)
 
 #### Paginer les équipements
 
 La liste peut afficher un nombre fixe d'actifs par page. Dans le coin inférieur gauche, vous pouvez voir combien d'actifs sont actuellement affichés sur votre écran.
 
-![Page](../../images/list_showing.png)
-
 Si vous disposez de plus d'actifs que la limite actuelle, vous pouvez accéder aux autres pages en appuyant sur le numéro de page ou en utilisant la droite ou la gauche des flèches (coin inférieur droit).
 
-![Page](../../images/list_pagenumbers.png)
-
 Vous pouvez également sélectionner un nombre différent de lignes à afficher par page en utilisant l'option en bas à droite de la page.
-
-![Colonnes par page](../../images/rows-per-page-select.png)
 
 #### Filtrer les équipements
 
 Pour ajouter un filtre à la page, choisissez le filtre requis dans la liste déroulante. Plusieurs filtres peuvent être combinés.
 
-![Filtrer les actifs](/docs/coldchain/images/equipment_filter.png)
+![Filtrer les actifs](images/equipment_filter.png)
 
 #### Supprimer des actifs
 
 Les actifs peuvent être sélectionnés et supprimés à l'aide de l'action de la barre d'outils :
 
-![](/docs/coldchain/images/delete_rows.png)
+![](../../../../public/docs/coldchain/images/delete_rows.png)
 
 ### Importer et exporter
 
@@ -74,19 +68,15 @@ Les actifs peuvent être sélectionnés et supprimés à l'aide de l'action de l
 
 Les actifs de la chaîne du froid peuvent être importés à partir d'un fichier de valeurs séparées par des virgules (csv) à l'aide du bouton `Importer`
 
-![](/docs/coldchain/images/equipment_import_button.png)
+![](images/equipment_import_button.png)
 
 Cette action ouvre un modèle d'import.
 
-<p align="center">
-    <img src="/docs/coldchain/images/equipment_import_modal.png" width="750" height="420">
-</p>
+![](mages/equipment_import_modal.png)
 
 Un exemple de modèle CSV est disponible en téléchargement ici :
 
-<p align="center">
-    <img src="/docs/coldchain/images/equipment_import_template_download.png" width="750" height="420">
-</p>
+![](images/equipment_import_modal.png)
 
 Lors de l’importation d’actifs depuis un dépôt, ils seront attribués à ce dépôt.
 
@@ -109,27 +99,26 @@ Les informations devront être saisies dans le format fourni par le modèle csv 
 
 Un fichier csv peut être téléchargé une fois créé dans le format exemple.
 
-<p align="center">
-    <img src="/docs/coldchain/images/equipment_import_upload.png" width="750" height="420">
-</p>
+![](mages/equipment_import_upload.png)
 
 #### Export
 
 Une liste d'actifs peut être exportée au format CSV à l'aide du bouton `Exporter`.
 
-<p align="center">
-    <img src="/docs/distribution/images/export.png" width="150" height="67">
-</p>
+
+
+
+![](images/export.png)
 
 ### Scanner un code QR
 
 Si vous exécutez Open mSupply sur une tablette ou si vous exécutez la version de bureau, vous obtiendrez un bouton supplémentaire dans la barre de menu qui permet de scanner les codes QR. Voici le bouton `Scan`
 
-![Bouton Scan](/docs/coldchain/images/equipment_scan.png)
+![Bouton Scan](images/equipment_scan.png)
 
 Vous pouvez voir cette notification lorsque vous cliquez sur le bouton :
 
-![Bouton Scan](/docs/coldchain/images/equipment_scan_error.png)
+![Bouton Scan](images/equipment_scan_error.png)
 
 Dans ce cas, référez-vous à la section [Scanners de code barre](/docs/administration/devices/#barcode-scanners) de la documentatiom `Administrateur` et configurez un sacnner avant de continuer.
 
@@ -141,10 +130,7 @@ Si une correspondance est trouvée lors de la numérisation, vous serez redirig�
 ### Créer un nouvel actif
 
 Les actifs de la chaîne du froid peuvent être créés manuellement avec le bouton `Nouvel actif`.
-
-<p align="center">
-    <img src="/docs/coldchain/images/create_asset_button.png" width="150" height="55">
-</p>
+![](images/create_asset_button.png)
 
 En cliquant, ce bouton ouvre le mode `Créer un Actif`
 
@@ -158,17 +144,17 @@ Vous pouvez allouer:
 
 Si l'actif que vous créez ne fait partie ni du catalogue `OMS PQS` ni du catalogue `Général`, vous pouvez utiliser la bascule pour créer un actif qui n'est pas basé sur un élément du catalogue.
 
-![Créer un modele d'actif](/docs/coldchain/images/create_asset_modal.png)
+![Créer un modele d'actif](images/create_asset_modal.png)
 
 ### Gérer les équipements de la chaîne du froid
 
 Cliquer sur une ligne de la liste affichera les détails de cet actif. Si votre actif appartient à la catégorie « Réfrigérateurs et congélateurs », vous verrez alors des informations supplémentaires telles que la source d'énergie et le volume de stockage (capacité du réfrigérateur ou du congélateur classée en fonction de la température de l'article).
 
-![Détails de l'équipement](/docs/coldchain/images/asset_detail_view.png)
+![Détails de l'équipement](images/asset_detail_view.png)
 
 Il y a 4 onglets disponibles pour gérer l'actif :
 
-![Onlets vue détaillée](/docs/coldchain/images/asset_detail_view_tabs.png)
+![Onlets vue détaillée](images/asset_detail_view_tabs.png)
 
 #### Onglet Résumé
 
@@ -183,13 +169,13 @@ Depuis l'onglet `Résumé`, vous pouvez:
 
 Vous pouvez également afficher l'état fonctionnel et modifier les notes du journal d'état.
 
-![Notes récapitulatives détaillées des actifs](/docs/coldchain/images/asset_detail_summary_notes.png)
+![Notes récapitulatives détaillées des actifs](images/asset_detail_summary_notes.png)
 
 #### Journal d'état
 
 L'onglet `JOurnal d'état` montre le journal d'état de tous les équipements
 
-![Onglet Journal des états](/docs/coldchain/images/status_logs_tab.png)
+![Onglet Journal des états](images/status_logs_tab.png)
 
 #### Documents
 
@@ -197,7 +183,7 @@ L'onglet `Documents` affiche les documents qui ont été téléchargés pour l'�
 
 Des documents supplémentaires peuvent être téléchargés pour cet actif.
 
-![Onglet des documents des actifs](/docs/coldchain/images/documents_tab.png)
+![Onglet des documents des actifs](images/documents_tab.png)
 
 <!--
 TODO: Add link to central server docs when they are created
@@ -217,15 +203,11 @@ Ceci enregistre toutes les actions de l'utilisateur qui ont été entreprises po
 
 Cliquer sur le bouton `État de mise à jour` permet la création d'un nouveau journal d'activité
 
-<p align="center">
-    <img src="/docs/coldchain/images/update_status_button.png" width="200" height="62">
-</p>
+![](images/update_status_button.png)
 
 Ceci ouvre un nouveau journal.
 
-<p align="center">
-    <img src="/docs/coldchain/images/status_log_modal.png" width="700" height="420">
-</p>
+![](images/status_log_modal.png)
 
 Ici, vous pouvez saisir :
 
@@ -234,13 +216,11 @@ Ici, vous pouvez saisir :
 - Toutes observations ou notes
   Des documents supplémentaires, notamment des photos, peuvent également être téléchargés pour ce journal d'état.
 
-<p align="center">
-    <img src="/docs/coldchain/images/status_log_document_upload.png" width="700" height="420">
-</p>
+![](images/status_log_document_upload.png)
 
 Ces documents peuvent etre consultés dans l'onglet `Journaux d'état`.
 
-![Document de journal d'état](/docs/coldchain/images/status_log_document.png)
+![Document de journal d'état](images/status_log_document.png)
 
 #### Imprimer un code QR
 
@@ -252,4 +232,4 @@ Pour configurer une imprimante d'étiquette, référez-vous a la section [Impres
 
 L'étiquette indiquera le code et le numéro de série, par exemple :
 
-![Echantillon QR](/docs/coldchain/images/sample_qr_label.jpg)
+![Echantillon QR](images/sample_qr_label.jpg)

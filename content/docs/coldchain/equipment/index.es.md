@@ -23,7 +23,7 @@ TODO: Add link to central server docs when they are created
 
 Los activos de cadena de frío de **todos** los almacenes son visibles al acceder al menú `Equipos` a través del servidor central de Open mSupply.
 
-![goto equipment](/docs/coldchain/images/equipment.png)
+![goto equipment](images/equipment.png)
 
 Aquí puedes ver todos los equipos de cadena de frío disponibles en tu almacén.
 
@@ -41,33 +41,33 @@ La lista de equipos se divide en 6 columnas:
 | **Fecha de instalación** | La fecha en que se instaló el activ                                                                                        |
 | **Notas**                | Notas ingresadas sobre el activo                                                                                           |
 
-![Equipment nav](/docs/coldchain/images/equipment_list.png)
+![Equipment nav](images/equipment_list.png)
 
 #### Paginación de equipos
 
 La lista puede mostrar un número fijo de activos por página. En la esquina inferior izquierda, puedes ver cuántos activos se están mostrando actualmente en tu pantalla.
 
-![Page](../../images/list_showing.png)
+![Page](images/list_showing.png)
 
 Si tienes más activos que el límite actual, puedes navegar a las otras páginas tocando el número de página o utilizando las flechas derecha o izquierda (esquina inferior derecha).
 
-![Page](../../images/list_pagenumbers.png)
+![Page](images/list_pagenumbers.png)
 
 También puedes seleccionar un número diferente de filas para mostrar por página usando la opción en la esquina inferior derecha de la página.
 
-![Rows per page](../../images/rows-per-page-select.png)
+![Rows per page](images/rows-per-page-select.png)
 
 #### Filtrar equipos
 
 Para agregar un filtro a la página, selecciona el filtro requerido del menú desplegable. Se pueden combinar varios filtros.
 
-![Equipment filters](/docs/coldchain/images/equipment_filter.png)
+![Equipment filters](images/equipment_filter.png)
 
 #### Eliminar equipos
 
 Los activos pueden ser seleccionados y eliminados utilizando la acción de la barra de herramientas:
 
-![](/docs/coldchain/images/delete_rows.png)
+![](../../../../public/docs/coldchain/images/delete_rows.png)
 
 ### Importación y exportación
 
@@ -75,11 +75,11 @@ Los activos pueden ser seleccionados y eliminados utilizando la acción de la ba
 
 Los activos de la cadena de frío se pueden importar desde un archivo de valores separados por comas (csv) utilizando el botón `Importar`
 
-![](/docs/coldchain/images/equipment_import_button.png)
+![](images/equipment_import_button.png)
 
 Esto abrirá una ventana emergente de importación. Haz clic en `Descargar una plantilla ` para descargar una plantilla csv que se puede usar para importar activos.
 
-![](/docs/coldchain/images/equipment_import_modal.png)
+![](images/equipment_import_modal.png)
 
 Al importar activos desde un almacén, se asignarán a ese almacén.
 
@@ -118,11 +118,11 @@ Se puede exportar una lista de activos como un archivo csv utilizando el botón 
 
 Si estás utilizando Open mSupply en una tableta o en la versión de escritorio, tendrás un botón adicional en la barra de menú que permite escanear códigos QR. Este es el botón `Escanear`:
 
-![Scan button](/docs/coldchain/images/equipment_scan.png)
+![Scan button](images/equipment_scan.png)
 
 Es posible que veas esta notificación al hacer clic en el botón:
 
-![Scan button](/docs/coldchain/images/equipment_scan_error.png)
+![Scan button](images/equipment_scan_error.png)
 
 ¡No te preocupes! Ve a la sección [Escáneres de códigos de barras](/docs/settings/devices/#barcode-scanners) de la documentación de `Configuración` y configura un escáner antes de continuar.
 
@@ -151,17 +151,17 @@ En esta ventana, puedes asignar:
 
 Si el activo que estás creando no forma parte de los catálogos `OMS PQS` o `General`, puedes usar el botón para crear un activo que no esté basado en un artículo de catálogo.
 
-![Create asset modal](/docs/coldchain/images/create_asset_modal.png)
+![Create asset modal](images/create_asset_modal.png)
 
 ### Gestión de activos de cadena de frío
 
 Al hacer clic en una fila de la lista, se mostrarán los detalles de ese activo. Si el activo pertenece a la categoría `Refrigeradores y congeladores`, verás información adicional como la fuente de energía y el volumen de almacenamiento (capacidad del refrigerador o congelador, clasificada por la temperatura del artículo).
 
-![Asset detail view](/docs/coldchain/images/asset_detail_view.png)
+![Asset detail view](images/asset_detail_view.png)
 
 Hay 5 pestañas disponibles para gestionar el activo:
 
-![Detail view tabs](/docs/coldchain/images/asset_detail_view_tabs.png)
+![Detail view tabs](images/asset_detail_view_tabs.png)
 
 #### Pestaña Resumen
 
@@ -180,13 +180,13 @@ También puedes visualizar el estado funcional y editar las notas sobre dicho es
 
 La pestaña de `Detalles` muestra las propiedades del activo.
 
-![](/docs/coldchain/images/equipment_detail.png)
+![](images/equipment_detail.png)
 
 #### Historial de Estado
 
 La pestaña `Historial de Estado` muestra el historial del estado funcional del activo.
 
-![Asset logs tab](/docs/coldchain/images/status_logs_tab.png)
+![Asset logs tab](images/status_logs_tab.png)
 
 #### Documentos
 
@@ -194,7 +194,7 @@ La pestaña `Documentos` muestra los documentos que se han subido para el artíc
 
 Se pueden subir documentos adicionales para este activo.
 
-![Asset documents tab](/docs/coldchain/images/documents_tab.png)
+![Asset documents tab](images/documents_tab.png)
 
 <!--
 TODO: Add link to central server docs when they are created
@@ -214,11 +214,11 @@ Aquí se registran todas las acciones realizadas por los usuarios para este acti
 
 Al hacer clic en el botón `Actualizar estado`, se puede crear una nueva entrada de estado funcional.
 
-![](/docs/coldchain/images/update_status_button.png)
+![](images/update_status_button.png)
 
 Esto abrirá el modal de estado funcional.
 
-![](/docs/coldchain/images/status_log_modal.png)
+![](images/status_log_modal.png)
 
 Aquí puedes ingresar:
 
@@ -228,11 +228,11 @@ Aquí puedes ingresar:
 
 También se pueden cargar documentos adicionales, incluidas fotos, para esta entrada de estado funcional.
 
-![](/docs/coldchain/images/status_log_document_upload.png)
+![](images/status_log_document_upload.png)
 
 Estos documentos se pueden visualizar en la pestaña `Historial de estados`
 
-![Status History document](/docs/coldchain/images/status_log_document.png)
+![Status History document](images/status_log_document.png)
 
 #### Imprimir un código QR
 
@@ -244,4 +244,4 @@ Para configurar una impresora de etiquetas, consulta la sección [Impresión de 
 
 La etiqueta mostrará el código y el número de serie, por ejemplo:
 
-![Sample QR](/docs/coldchain/images/sample_qr_label.jpg)
+![Sample QR](images/sample_qr_label.jpg)

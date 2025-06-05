@@ -34,11 +34,14 @@ Si se cumplen las siguientes condiciones, aparecerá una barra de notificación 
 
 Así es como se ve la barra, mostrada en la parte superior de la página principal:
 
-![notification bar](/docs/coldchain/images/notification_bar.png)
+![notification bar](images/notification_bar.png)
 
-<div class="tip">Si el almacén tiene habilitado el módulo de vacunas y el usuario no tiene permiso para ver los registros, o si ocurre algún otro error, verás una notificación al iniciar sesión o cambiar de almacén: <p><img src="/docs/coldchain/images/notification_warning.png" alt="Advertencia de permiso de notificación" /></p>Esto solo es para informarte que este usuario no será notificado si ocurre un incumplimiento.</div>
+<div class="tip">Si el almacén tiene habilitado el módulo de vacunas y el usuario no tiene permiso para ver los registros, o si ocurre algún otro error, verás una notificación al iniciar sesión o cambiar de almacén: </div>
 
-<br/>
+![Advertencia de permiso de notificación](images/notification_warning.png)
+
+Esto solo es para informarte que este usuario no será notificado si ocurre un incumplimiento.
+
 
 El panel de notificaciones muestra:
 1. Hace cuánto tiempo se registró el incumplimiento

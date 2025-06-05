@@ -33,11 +33,17 @@ If the following conditions have all been met, then a notification bar will appe
 
 Here's how the bar appears, shown at the top of the dashboard page:
 
-![notification bar](/docs/coldchain/images/notification_bar.png)
+![notification bar](images/notification_bar.png)
 
-<div class="tip">If the store has the vaccine module enabled, and the user does not have permission to view logs, or some other error occurs, then you will see a notification when you first login or change stores: <p><img src="/docs/coldchain/images/notification_warning.png" alt="Notification permission warning" /></p>This is just to let you know that this user won't be notified if a breach occurs.</div>
+<div class="tip">If the store has the vaccine module enabled, and the user does not have permission to view logs, or some other error occurs, then you will see a notification when you first login or change stores: 
+</div>
 
-<br/>
+
+![](images/notification_warning.png)
+
+This is just to let you know that this user won't be notified if a breach occurs.
+
+
 
 The notification panel shows:
 1. How long ago the breach was recorded
