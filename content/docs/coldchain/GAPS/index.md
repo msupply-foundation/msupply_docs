@@ -39,7 +39,7 @@ Each registered CCE captures data about its cold storage volume capacity:
 
 The aggregation of these cold storage volumes from all CCE across all facilities therefore gives you the `Installed CCE volume capacity` for the country. 
 
-The `Installed CCE volume capacity` can be viewed in the mSupply Dashboard and can be filtered by metrics such as supply level (Primary, Sub-National, Lowest Distribution etc) or temperature range (+ 5°C, -20 °C, -70°C)
+The `Installed CCE volume capacity` can be viewed in the [mSupply Dashboard](/dashboard/introduction) and can be filtered by metrics such as supply level (Primary, Sub-National, Lowest Distribution etc) or temperature range (+ 5°C, -20 °C, -70°C)
 
 ![](images/CCE_installed_volume_capacity.png)
 ### 2. Reporting CCE functional status
