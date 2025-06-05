@@ -23,7 +23,7 @@ TODO: Add link to central server docs when they are created
 
 En accédant au menu **Équipements** via le serveur central Open mSupply, vous pouvez consulter l'ensemble des équipements de la chaîne du froid de tous les sites.
 
-![goto equipment](images/equipment.png)
+![goto equipment](../../../../public/docs/coldchain/images/equipment.png)
 
 Ici, vous pouvez consulter tous les équipements de la chaîne du froid disponibles sur votre site.
 
@@ -40,7 +40,7 @@ La liste des équipements est divisée en 6 colonnes:
 | **Hors-catalogue**         | Désigne si l'actif a ete créé hors actif catalogue (voir [Catalogue > Assets](/docs/catalogue/assets/)) |
 | **Notes**                  | Notes entrées au sujet de l'actif                                                                       |
 
-![Equipment nav](images/equipment_list.png)
+![Equipment nav](../../../../public/docs/coldchain/images/equipment_list.png)
 
 #### Paginer les équipements
 
