@@ -31,7 +31,7 @@ TODO: Add link to central server docs when they are created
 
 Cold chain assets from **all** stores are visible when accessing the `Equipment` menu via Open mSupply central server.
 
-![goto equipment](images/equipment.png)
+![goto equipment](../images/equipment.png)
 
 Here you can see all cold chain equipment available in your store.
 
@@ -49,7 +49,7 @@ The equipment list is divided into 6 columns:
 | **Installation date** | The date the asset was installed                                                                                  |
 | **Notes**             | Notes entered about the asset                                                                                     |
 
-![Equipment nav](images/equipment_list.png)
+![Equipment nav](../images/equipment_list.png)
 
 #### Paginate Equipment
 
@@ -69,7 +69,7 @@ You can also select a different number of rows to show per page using the option
 
 To add a filter to the page, choose the required filter from the drop down. Multiple filters can be combined.
 
-![Equipment filters](images/equipment_filter.png)
+![Equipment filters](../images/equipment_filter.png)
 
 #### Delete Equipment
 
@@ -125,7 +125,7 @@ Sometimes errors occur when importing CCE assets. Here are some common errors yo
 
 After uploading your CSV file, your data will be validated and displayed to you to review. At this step, if the data in your uploaded file is not valid, you will see an error message and won't be able to continue to the import step.
 
-![](images/cce_import_error.png)
+![](../images/cce_import_error.png)
 
 Common mistakes here are uploading a file type other than CSV, or if you included some duplicate asset numbers in your file. You'll see these errors in the `Error message` column.
 
@@ -137,7 +137,7 @@ Once you have corrected the errors, you can go back to the `Upload` tab to uploa
 
 If certain data is missing or incorrect (such as the installation date and other date columns) you'll see a warning message rather than an error. This is because the asset can still be created without these date fields, but it's recommended to include them.
 
-![](images/cce_import_warning.png)
+![](../images/cce_import_warning.png)
 
 There will be a `Warning` column, which will alert you to which fields are missing or incorrect. You can still proceed with the import with this missing data if you wish.
 
@@ -147,7 +147,7 @@ There will be a `Warning` column, which will alert you to which fields are missi
 
 The import step is where the new cold chain assets are actually created in the system. If there are any errors at this step, you'll see a message like this:
 
-![](images/cce_failed_to_import.png)
+![](../images/cce_failed_to_import.png)
 
 This usually happens when you have an asset in your import file which has the same asset number as an existing asset. You'll see the error message in the `Error message` column. Again, you can export a CSV file with the error messages to investigate what went wrong.
 
@@ -155,17 +155,17 @@ This usually happens when you have an asset in your import file which has the sa
 
 A list of existing assets can be exported as a csv using the `Export` button.
 
-![](../../../../public/docs/inventory/images/export.png)
+![](../../../../docs/inventory/images/export.png)
 
 ### QR code scanning
 
 If you are running Open mSupply on a tablet, or are running the desktop version, you will get an extra button on the menu bar which allows scanning QR codes. This is the `Scan` button:
 
-![Scan button](images/equipment_scan.png)
+![Scan button](../images/equipment_scan.png)
 
 You may see this notification when you click the button:
 
-![Scan button](images/equipment_scan_error.png)
+![Scan button](../images/equipment_scan_error.png)
 
 If you do, don't panic! Head over to the [Barcode Scanners](/docs/settings/devices/#barcode-scanners) section of the `Settings` documentation and configure a scanner before continuing.
 
@@ -178,7 +178,7 @@ If a match is found when you scan, you'll be taken to the detail page for that c
 
 Cold chain assets can be created manually with the `New Asset` button.
 
-![](images/create_asset_button.png)
+![](../images/create_asset_button.png)
 
 Clicking this button will open the `Create Asset` modal
 
@@ -192,17 +192,17 @@ With this modal you can assign:
 
 If the asset you are creating is not part of either the `WHO PQS` or `General` catalogue, you can use the toggle to create an asset which is not based on a catalogue item.
 
-![Create asset modal](images/create_asset_modal.png)
+![Create asset modal](../images/create_asset_modal.png)
 
 ### Managing cold chain assets
 
 Clicking on a row in the list will show the details of that asset. If your asset is under the `Refrigerators and freezers` category, then you will see extra information such as the energy source and storage volume (capacity of the fridge or freezer catagorised by the temperature of the item).
 
-![Asset detail view](images/asset_detail_view.png)
+![Asset detail view](../images/asset_detail_view.png)
 
 There are 5 tabs available to manage the asset:
 
-![Detail view tabs](images/asset_detail_view_tabs.png)
+![Detail view tabs](../images/asset_detail_view_tabs.png)
 
 #### Summary tab
 
@@ -221,7 +221,7 @@ You can also view the functional status and edit notes on the status.
 
 The `Details` tab shows the asset properties.
 
-![](images/equipment_detail.png)
+![](../images/equipment_detail.png)
 
 #### Status History
 
@@ -236,7 +236,7 @@ Available functional statuses are:
 - Unserviceable
 - Decommissioned
 
-![Asset logs tab](images/status_logs_tab.png)
+![Asset logs tab](../images/status_logs_tab.png)
 
 #### Documents
 
@@ -244,7 +244,7 @@ The `Documents` tab shows documents which have been uploaded for the asset catal
 
 Additional documents can be uploaded for this asset.
 
-![Asset documents tab](images/documents_tab.png)
+![Asset documents tab](../images/documents_tab.png)
 
 <!--
 TODO: Add link to central server docs when they are created
@@ -264,11 +264,11 @@ This records all user actions which have been taken for this asset using the Ope
 
 Clicking on the `Update Status` button allows the creation of a new functional status entry.
 
-![](images/update_status_button.png)
+![](../images/update_status_button.png)
 
 This will open the functional status modal.
 
-![](images/status_log_modal.png)
+![](../images/status_log_modal.png)
 
 Here you can enter:
 
@@ -278,11 +278,11 @@ Here you can enter:
 
 Additional documents including photos can also be uploaded for this functional status entry
 
-![](images/status_log_document_upload.png)
+![](../images/status_log_document_upload.png)
 
 These documents can be viewed in the `Status History` tab
 
-![Status History document](images/status_log_document.png)
+![Status History document](../images/status_log_document.png)
 
 #### Printing a QR code
 
@@ -294,4 +294,4 @@ To configure a label printer, refer to the [Label Printing](/docs/settings/devic
 
 The label will show the code and serial number, for example:
 
-![Sample QR](images/sample_qr_label.jpg)
+![Sample QR](../images/sample_qr_label.jpg)
