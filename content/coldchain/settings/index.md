@@ -47,7 +47,7 @@ Any new sensors, not yet paired, will appear below this title. You can open new 
 Blink: Pressing the blink button will cause the sensor light to flash. You can use this feature to ensure that you are connecting to the correct sensor.
 Start logging from: Using the date/time options, you can set the schedule for the first log. The sensor can be configured to start a maximum of 30 days from the link date. When you select OK, the application will link the sensor and move it to the Available Sensors section at the top of the Sensor Settings screen.
 
-![Logging Starts... Later!](/coldchain/images/logging_start_date_time.png)
+![Logging Starts... Later!](images/logging_start_date_time.png)
 
 ### Available sensors
 
@@ -62,7 +62,7 @@ Sensor Details: This provides the MAC address for the sensor (this is found on t
 
 **Sensor name**: Double-tap on sensor name/row or select the > in the row to enter a new name for the sensor. This is the name that will appear on the Sensors tab. You should choose a name that makes it easy to identify (of course!).
 
-![Sensor Naming In Progress!](/coldchain/images/sensor_name_entry.png)
+![Sensor Naming In Progress!](images/sensor_name_entry.png)
 
 We recommend you avoid the use special characters (e.g. -, +, \*) in the sensor name.
 

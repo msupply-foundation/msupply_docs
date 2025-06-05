@@ -36,7 +36,7 @@ If devices are managed through a Mobile Device Management (MDM) system, then the
 
 1. Allow the application to access photos, media and files on your device: this will allow the export of log data to the device for report and email purposes.
 
-![Android Access!](allow_coldchain_access.png)
+![Android Access!](images/allow_coldchain_access.png)
 
 2. Allow the application to access this device’s location: this will allow the Android’s low energy Bluetooth to work.
 3. Pressing OK will take you to the Location to ensure that it is turned on.

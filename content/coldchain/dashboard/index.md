@@ -99,7 +99,7 @@ SELECT COUNT(*) FROM batch_count
 
 ### Sensor battery life
 
-![Sensor battery life!](/coldchain/images/sensor_batter_life_dashboard.png)
+![Sensor battery life!](images/sensor_batter_life_dashboard.png)
 
 **Query:**
 
