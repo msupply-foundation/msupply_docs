@@ -55,7 +55,7 @@ Central health authorities can:
 Open mSupply includes a comprehensive CCE gap analysis module. 
 
 This provides EPI teams with the tools to: 
-- Capture current CCE volume capacity for the country
+- Capture CCE volume capacity for the country
 - Forecast the expected demand for CCE volume capacity over the next 5 years
 - Compare the current CCE volume capacity to the expected demand
 - Identify facilities that will need intervention due to increased demand
