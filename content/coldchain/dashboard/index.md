@@ -122,6 +122,7 @@ But note that you need to invite your bot, not the bot father to the channel
 Temperature logs rely on the using mSupply Desktop to transfer mSupply Cold Chain records from the tablet to the server. If the mSupply Desktop (alternate) web server is not running then no logs will be synced (and hence nothing will show on the Dashboard).
 
 You can test if the alternate server process is really running by checking port 8081 in Windows cmd with 
+
 ```
 netstat -ano | findstr :8081 In this case process with ID 2188 is running ok. 
 ```
