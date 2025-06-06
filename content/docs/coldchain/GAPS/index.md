@@ -29,20 +29,25 @@ The GAPS module allows EPI teams to:
 The CCE volume capacity for the country can be assessed by:
 1. Registering all CCE for all facilities in the [CCEI module](/docs/coldchain/equipment/). 
 2. Implementing a robust SOP for facilities to regularly report the functional status of their CCE 
+3. Reviewing the aggregated data
 ### 1. Registering CCE
 
 CCE can be registered for every facility in the country by following the documentation for the [CCEI module](/docs/coldchain/equipment/). 
 
-Each registered CCE captures data about its cold storage volume capacity:  
+Each registered CCE provides data about its cold storage volume capacity:  
 
 ![](images/CCE_storage_capacity.png)
 
-The aggregation of these cold storage volumes from all CCE across all facilities therefore gives you the `Installed CCE volume capacity` for the country. 
+The aggregation of these cold storage volumes from all CCE across all facilities therefore gives you the `Installed CCE volume capacity` for the country (see [3 Reviewing aggregated CCE data](#3-reviewing-aggregated-cce-data)). 
+
+### 2. Reporting CCE functional status
+
+### 3. Reviewing aggregated CCE data
 
 The `Installed CCE volume capacity` can be viewed in the [mSupply Dashboard](/dashboard/introduction) and can be filtered by metrics such as supply level (Primary, Sub-National, Lowest Distribution etc) or temperature range (+ 5°C, -20 °C, -70°C)
 
 ![](images/CCE_installed_volume_capacity.png)
-### 2. Reporting CCE functional status
+
 ## Forecasting expected demand for CCE volume capacity
 
 ## Comparing CCE volume capacity to expected demand
