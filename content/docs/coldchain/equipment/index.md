@@ -256,11 +256,11 @@ This records all user actions which have been taken for this asset using the Ope
 
 #### Update Status
 
-Clicking on the `Update Status` button allows the creation of a new functional status entry.
+Clicking on the `Update Status` button allows the user to submit a new `functional status report` for the CCE.
 
 ![](images/update_status_button.png)
 
-This will open the functional status modal.
+This will open the functional status report modal.
 
 ![](images/status_log_modal.png)
 
@@ -270,7 +270,7 @@ Here you can enter:
 - A reason for the new functional status
 - Any observations or notes
 
-Additional documents including photos can also be uploaded for this functional status entry
+Additional documents including photos can also be uploaded for this functional status report
 
 ![](images/status_log_document_upload.png)
 
