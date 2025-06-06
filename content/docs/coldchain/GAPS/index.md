@@ -28,7 +28,7 @@ The GAPS module allows EPI teams to:
 
 The CCE capacity for the country can be assessed by:
 1. Registering all CCE for all facilities in the [CCEI module](/docs/coldchain/equipment/). 
-2. Implementing a robust SOP for facilities to regularly report the functional status of their CCE 
+2. Obtaining recent updates about the functional status of each CCE
 3. Reviewing the aggregated data
 ### 1. Registering CCE
 
@@ -40,8 +40,20 @@ Each registered CCE provides data about its cold storage volume capacity:
 
 The aggregation of these cold storage volumes from all CCE across all facilities therefore gives you the `Installed CCE capacity` for the country (see [Installed CCE capacity](#installed-cce-capacity)). 
 
-### 2. Reporting CCE functional status
+### 2. Updating CCE functional status
 
+The `Functioning CCE capacity` is the percentage of the `Installed CCE capacity` that is currently working as expected. 
+
+To determine an accurate `Functioning CCE capacity` it is necessary to obtain recent data about the functional status of each CCE in the country. 
+
+![](images/CCE_functional_status.png)
+This data can be obtained in two ways: 
+1. Manually - each facility user submits a [functional status report](/docs/coldchain/equipment/#update-status) for each of their CCE
+2. Automatically - each CCE directly reports its own functional status (**future feature*)
+
+As of version 2.7, only the manual option is available. 
+
+Therefore, to obtain an accurate `Functioning CCE capacity` it is vitally important to implement a robust SOP for facilities to regularly report the functional status of their CCE (for example, on a weekly basis)
 ### 3. Reviewing aggregated CCE data
 
 #### Installed CCE capacity
@@ -51,6 +63,10 @@ The `Installed CCE capacity` can be viewed in the [mSupply Dashboard](/dashboard
 ![](images/CCE_installed_volume_capacity.png)
 
 #### Functioning CCE capacity
+
+The `Functioning CCE capacity` can be viewed in the [mSupply Dashboard](/dashboard/introduction) and can be filtered by metrics such as supply level (Primary, Sub-National, Lowest Distribution etc) or temperature range (+ 5°C, -20 °C, -70°C)
+
+![](images/CCE_functioning_cacpacity.png)
 ## Forecasting expected demand for CCE capacity
 
 ## Comparing CCE capacity to expected demand
