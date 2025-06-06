@@ -70,7 +70,7 @@ The `Functioning CCE capacity` is the aggregation of the data collected in [2. U
 
 The dashboard can be filtered by metrics such as supply level (Primary, Sub-National, Lowest Distribution etc) or temperature range (+ 5°C, -20 °C, -70°C)
 
-![](images/CCE_functioning_cacpacity.png)
+![](images/CCE_functioning_capacity.png)
 ## Forecasting expected demand for CCE capacity
 
 ## Comparing CCE capacity to expected demand
