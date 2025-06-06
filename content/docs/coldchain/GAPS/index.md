@@ -53,18 +53,22 @@ This data can be obtained in two ways:
 
 As of version 2.7, only the manual option is available. 
 
-Therefore, to obtain an accurate `Functioning CCE capacity` it is vitally important to implement a robust SOP for facilities to regularly report the functional status of their CCE by submitting a  [functional status report](/docs/coldchain/equipment/#update-status) (for example, on a weekly basis)
+Therefore, to obtain an accurate `Functioning CCE capacity` it is vitally important to implement a robust SOP for facilities to regularly report the functional status of their CCE by submitting a [functional status report](/docs/coldchain/equipment/#update-status) (for example, on a weekly basis)
 ### 3. Reviewing aggregated CCE data
 
 #### Installed CCE capacity
 
-The `Installed CCE capacity` can be viewed in the [mSupply Dashboard](/dashboard/introduction) and can be filtered by metrics such as supply level (Primary, Sub-National, Lowest Distribution etc) or temperature range (+ 5°C, -20 °C, -70°C)
+The `Installed CCE capacity` is the aggregation of the data collected in [1. Registering CCE](#1-registering-cce) and can be viewed in the [mSupply Dashboard](/dashboard/introduction).  
+
+The dashboard can be filtered by metrics such as supply level (Primary, Sub-National, Lowest Distribution etc) or temperature range (+ 5°C, -20 °C, -70°C)
 
 ![](images/CCE_installed_volume_capacity.png)
 
 #### Functioning CCE capacity
 
-The `Functioning CCE capacity` can be viewed in the [mSupply Dashboard](/dashboard/introduction) and can be filtered by metrics such as supply level (Primary, Sub-National, Lowest Distribution etc) or temperature range (+ 5°C, -20 °C, -70°C)
+The `Functioning CCE capacity` is the aggregation of the data collected in [2. Updating CCE functional status](#2-updating-cce-functional-status) and can be viewed in the [mSupply Dashboard](/dashboard/introduction).
+
+The dashboard can be filtered by metrics such as supply level (Primary, Sub-National, Lowest Distribution etc) or temperature range (+ 5°C, -20 °C, -70°C)
 
 ![](images/CCE_functioning_cacpacity.png)
 ## Forecasting expected demand for CCE capacity
