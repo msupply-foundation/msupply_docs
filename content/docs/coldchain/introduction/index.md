@@ -55,11 +55,11 @@ Central health authorities can:
 Open mSupply includes a comprehensive CCE gap analysis module. 
 
 This provides EPI teams with the tools to: 
-- Assess CCE capacity for the country
-- Forecast the expected demand for CCE capacity over the next 5 years
-- Compare the current CCE capacity to the expected demand
-- Identify facilities that will need intervention due to increased demand
-- Identify facilities that will need intervention due to CCE reaching end-of-life
+- [Assess CCE capacity for the country](/docs/coldchain/gaps/#assessing-cce-capacity)
+- [Forecast the expected demand for CCE capacity over the next 5 years](/docs/coldchain/gaps/#forecasting-expected-demand-for-cce-capacity)
+- [Compare the current CCE capacity to the expected demand](/docs/coldchain/gaps/#comparing-cce-capacity-to-expected-demand)
+- [Identify facilities that will need intervention due to increased demand](/docs/coldchain/gaps/#identifying-facilities-that-need-intervention)
+- [Identify facilities that will need intervention due to CCE reaching end-of-life](/docs/coldchain/gaps/#identifying-facilities-that-need-intervention)
 #### Compromised stock identification
 
 Open mSupply allows health facilities to: 
