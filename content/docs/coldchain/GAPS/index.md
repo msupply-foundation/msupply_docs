@@ -38,7 +38,7 @@ Each registered CCE provides data about its cold storage volume capacity:
 
 ![](images/CCE_storage_capacity.png)
 
-The aggregation of these cold storage volumes from all CCE across all facilities therefore gives you the `Installed CCE capacity` for the country (see [Installed CCE capacity](#installed-cce-capacity)). 
+The aggregation of these cold storage volumes from all CCE across all facilities therefore gives the `Installed CCE capacity` for the country (see [Installed CCE capacity](#installed-cce-capacity)). 
 
 ### 2. Updating CCE functional status
 
@@ -53,7 +53,7 @@ This data can be obtained in two ways:
 
 As of version 2.7, only the manual option is available. 
 
-Therefore, to obtain an accurate `Functioning CCE capacity` it is vitally important to implement a robust SOP for facilities to regularly report the functional status of their CCE by submitting a [functional status report](/docs/coldchain/equipment/#update-status) (for example, on a weekly basis)
+Therefore, to obtain an accurate `Functioning CCE capacity` it is vitally important to implement a robust SOP for facilities so that they regularly report the functional status of their CCE by submitting a [functional status report](/docs/coldchain/equipment/#update-status) (for example, on a weekly basis)
 ### 3. Reviewing aggregated CCE data
 
 #### Installed CCE capacity
