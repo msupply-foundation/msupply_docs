@@ -304,11 +304,11 @@ Let's step through each section.
 
 - `Vaccine item` and `Batch`: If you select `Vaccine given`, you will be able to select the `Item` and `Batch` of the vaccine administered. If there is only one item/batch available, these fields will be pre-populated. Otherwise they can be selected from a dropdown.
 
-![Vaccination Modal - given batch select](../../../../public/docs/programs/images/vaccination_given_batch_select.png)
+![Vaccination - given batch select](images/vaccination_given_batch_select.png)
 
 Note that if you selected an `Other facility`, you will not receive the option to select a batch. A stock transaction will not be recorded.
 
-![](../../../../public/docs/programs/images/vaccination_given_other_facility.png)
+![Vaccination - given other facility](images/vaccination_given_other_facility.png)
 If you selected a `Date` in the past, a switch will appear to `Record stock transaction for past vaccination`.
 
 ![Vaccination Modal - given historic](images/past_vaccination_switch.png)
@@ -363,6 +363,4 @@ All fields are editable. Some things to note:
 
 Note that vaccinations that are marked as `Given` at another facility won't be editable to you, except for the comment field:
 
-<p align="center">
-    <img src="/docs/programs/images/vaccination_given_other_sync_facility.png" width="600">
-</p>
+![Vaccination - given other sync facility](images/vaccination_given_other_sync_facility.png)
