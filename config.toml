@@ -5,7 +5,6 @@ base_url = "https://docs.msupply.foundation/"
 compile_sass = true
 
 theme = "adidoks"
-build_search_index = true
 
 [languages.en]
 title = "mSupply documentation + user guides"
