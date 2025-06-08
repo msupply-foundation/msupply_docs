@@ -5,20 +5,21 @@ base_url = "https://docs.msupply.foundation/"
 compile_sass = true
 
 theme = "adidoks"
+default_language = "en"
+build_search_index = true
 
 [languages.en]
 title = "mSupply documentation + user guides"
-build_search_index = true
 description = "Documentation and user guides for the mSupply foundation suite of software products. Here you'll find the user guide for notify, mSupply dashboard, health supply hub and mSupply mobile. There is also the user documentation for Open mSupply, Conforma, mSupply and mSupply cold chain."
 
 [languages.en.translations]
 flag = "en.svg"
 TOCtitle = "On this page"
 search_placeholder = "Search docs (whole words)..."
+feed_filename = "atom.xml"
 
 [languages.fr]
-generate_feeds = true     # there will be a feed for French content
-build_search_index = true
+generate_feeds = true # there will be a feed for French content
 title = "mSupply 🇫🇷"
 
 [languages.fr.translations]
@@ -28,6 +29,10 @@ flag = "fr.svg"
 TOCtitle = "Sur cette page"
 search_placeholder = "Rechercher des documents..."
 
+[languages.es]
+generate_feeds = true # there will be a feed for Spanish content
+title = "mSupply 🇪🇸"
+
 [languages.es.translations]
 summary = "Mi blog"
 title = "mSupply.es"
@@ -35,14 +40,8 @@ flag = "es.svg"
 TOCtitle = "En esta pagina"
 search_placeholder = "Buscar documentos..."
 
-[languages.es]
-generate_feeds = true     # there will be a feed for Spanish content
-build_search_index = true
-title = "mSupply 🇪🇸"
-
 [languages.pt]
-generate_feeds = true     # there will be a feed for Portuguese content
-build_search_index = true
+generate_feeds = true # there will be a feed for Portuguese content
 title = "mSupply 🇵🇹"
 
 [languages.pt.translations]
