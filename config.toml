@@ -5,9 +5,7 @@ base_url = "https://docs.msupply.foundation/"
 compile_sass = true
 
 theme = "adidoks"
-
 default_language = "en"
-# Whether to build a search index
 
 [languages.en]
 title = "mSupply documentation + user guides"
@@ -31,17 +29,17 @@ flag = "fr.svg"
 TOCtitle = "Sur cette page"
 search_placeholder = "Rechercher des documents..."
 
+[languages.es]
+generate_feeds = true     # there will be a feed for Spanish content
+title = "mSupply 🇪🇸"
+build_search_index = true
+
 [languages.es.translations]
 summary = "Mi blog"
 title = "mSupply.es"
 flag = "es.svg"
 TOCtitle = "En esta pagina"
 search_placeholder = "Buscar documentos..."
-
-[languages.es]
-generate_feeds = true     # there will be a feed for Spanish content
-title = "mSupply 🇪🇸"
-build_search_index = true
 
 [languages.pt]
 generate_feeds = true     # there will be a feed for Portuguese content
