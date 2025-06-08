@@ -120,7 +120,7 @@ In the below example, we are wanting to return stock to <b>Kamo Regional Warehou
 ![Search supplier list](images/or_select_supplier.png)
 
 <div class="tip">
-You can tell if a supplier is also using Open mSupply in their store. If they do, you will see icon like this <img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto"> next to the supplier code. 
+You can tell if a supplier is also using Open mSupply in their store. If they do, you will see icon like this <img src="images/is_msupplystoreicon.png" alt="Store" style="width:auto"> next to the supplier code. 
 </div>
 
 2. Once you tap or press `Enter`, or click on a supplier, your Supplier Return is automatically created
