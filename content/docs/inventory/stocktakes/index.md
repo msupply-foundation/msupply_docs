@@ -150,7 +150,7 @@ If there are no batches with stock for that item, your batch list will be blank.
 When viewing a specific stocktake, simply click the `Print` button which is on the top right of the page.
 When printing, a PDF file is generated for you, which will then open in a new browser tab. This can then be printed using your browser by clicking print or using `control`+`P` (if using windows) or `cmd`+`P` keys on your keyboard (if using a mac).
 
-![Print button](../../../../public/docs/introduction/images/print_button.png)
+![Print button](images/print_button.png)
 
 This will either:
 

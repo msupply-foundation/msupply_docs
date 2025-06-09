@@ -46,18 +46,6 @@ The list of Requisitions is divided into 6 columns:
 
 <div class="note">If you have program requisitions enabled, you may have additional columns in this table!</div>
 
-The list can display a fixed number of requisitions per page. On the bottom left corner, you can see how many requisitions are currently displayed on your screen.
-
-![Page](images/list_showing.png)
-
-If you have more requisitions than the current limit, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner).
-
-![Page](images/list_pagenumbers.png)
-
-You can also select a different number of rows to show per page using the option at the bottom right of the page.
-
-![Rows per page](images/rows-per-page-select.png)
-
 ### Filter Requisitions
 
 You can filter the list of requisitions by name, status or whether shipments have been created. This can be useful if you're looking for one particular requisition!
