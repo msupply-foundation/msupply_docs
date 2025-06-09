@@ -36,14 +36,14 @@ Este apresenta uma lista de todos os seus inventários:
 
 Para cada inventário pode ver:
 
-| Coluna | Descrição |
-| :-------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Número** | O número de inventário |
-| **Estado** | O estado do inventário. _Novo_: um inventário ativo no momento. _Finalizado_: O inventário já foi realizado. Já não pode editá-lo |
-| **Descrição** | A descrição do inventário (por exemplo, inventário de março) |
-| **Criado** | A data em que o inventário foi criado |
-| **Data** | A data em que o inventário foi feito |
-| **Como** | Comentário sobre o inventário, se existir |
+| Coluna        | Descrição                                                                                                                         |
+| :------------ | :-------------------------------------------------------------------------------------------------------------------------------- |
+| **Número**    | O número de inventário                                                                                                            |
+| **Estado**    | O estado do inventário. _Novo_: um inventário ativo no momento. _Finalizado_: O inventário já foi realizado. Já não pode editá-lo |
+| **Descrição** | A descrição do inventário (por exemplo, inventário de março)                                                                      |
+| **Criado**    | A data em que o inventário foi criado                                                                                             |
+| **Data**      | A data em que o inventário foi feito                                                                                              |
+| **Como**      | Comentário sobre o inventário, se existir                                                                                         |
 
 <div class="aviso">
 Não faz muito sentido manter inventários antigos com status = <code>NOVO</code>, e isso até pode ser bastante perigoso, especialmente se estiver prestes a criar um novo inventário contendo os mesmos itens. Se já passou algum tempo desde que o inventário foi criado, então o instantâneo e as quantidades reais estão quase certamente incorretos. Por razões de boa administração, é uma boa prática eliminar os inventários <code>NOVOS</code> antigos.
@@ -120,7 +120,7 @@ Se não existirem lotes em stock para esse artigo, a sua lista de lotes ficará 
 Ao visualizar um inventário específico, basta clicar no botão `Imprimir` que se encontra no canto superior direito da página.
 Ao imprimir, é-lhe gerado um ficheiro PDF, que será aberto numa nova aba do navegador. Este pode ser impresso utilizando o seu browser clicando em imprimir ou utilizando as teclas `control`+`P` (se estiver a utilizar o Windows) ou `cmd`+`P` no seu teclado (se estiver a utilizar um Mac).
 
-![Botão Imprimir](../../../../public/docs/introduction/images/print_button.png)
+![Print button](../../images/print_button.png)
 
 Isto irá:
 
