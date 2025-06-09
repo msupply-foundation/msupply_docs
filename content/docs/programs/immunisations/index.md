@@ -19,9 +19,7 @@ Base Immunization Programs are configured in the mSupply central server.
 
 For GAPS functionality, you will only need to configure a new Master List, and mark it as an Immunization Program.
 
-<div align="center">
-    <img src="/docs/programs/images/og_immunisation_program.png" width="620">
-</div>
+![OG immunisation program](images/og_immunisation_program.png)
 
 For Immunization [Patient Programs](/docs/programs/program-module), contact your administrator to get set up.
 

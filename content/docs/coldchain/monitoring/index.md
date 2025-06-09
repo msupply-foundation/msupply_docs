@@ -104,18 +104,6 @@ To add a filter to the page, choose the required filter from the drop down. To r
 
 ![Filter](images/breach_filter.png)
 
-1. The list can display a fixed number of breaches per page. On the bottom left corner, you can see how many breaches are currently displayed on your screen.
-
-![Page](images/list_showing.png)
-
-2. If you have more logs than the current limit, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner).
-
-![Page](images/list_pagenumbers.png)
-
-3. You can also select a different number of rows to show per page using the option at the bottom right of the page.
-
-![Rows per page](images/rows-per-page-select.png)
-
 #### Acknowledging breaches
 
 From this list, you can choose to acknowledge a breach which then will stop the breach showing as a notification at the top of the page.
