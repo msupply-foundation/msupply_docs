@@ -53,18 +53,6 @@ From this screen you can:
 | **Comment**   | Comment for the shipment         |
 | **Total**     | Total value of the shipment      |
 
-1. The list can display a fixed number of shipments per page. On the bottom left corner, you can see how many shipments are currently displayed on your screen.
-
-![Page](images/list_showing.png)
-
-3. If you have more shipments than the current limit, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner).
-
-![Page](images/list_pagenumbers.png)
-
-4. You can also select a different number of rows to show per page using the option at the bottom right of the page.
-
-![Rows per page](images/rows-per-page-select.png)
-
 ### Search by Customer Name
 
 You can filter the list of shipments by customer name or by status. This can be useful if you're looking for one particular shipment!
@@ -96,7 +84,7 @@ You can delete a shipment from the Outbound Shipment list.
 You can only delete Outbound Shipments if they have not been <code>SHIPPED</code>.
 </div>
 
-![Outbound list: delete](../../../../public/docs/distribution/images/Delete-outbound-shipment.png)
+![Outbound list: delete](images/delete-outbound-shipment.png)
 
 ## Creating an Outbound Shipment
 
@@ -204,7 +192,7 @@ The tax rate (%) for service charges and the item's sell price can also be edite
 
 If your store is issuing in foreign currencies follow [these instructions](https://docs.msupply.org.nz/other_stuff:currencies) in the central server documentation to set it up. You will also need to enable the store preference `Store: Able to issue in foreign currency`. This preference is compatible with Open mSupply `v1.7.0+`.
 
-![Store preference](../../../../public/docs/distribution/images/store-pref-issue-in-foreign-currencies.png)
+![Store preference](images/store-pref-issue-in-foreign-currencies.png)
 
 The pen icon will become active once the above instructions have been followed and only if the customer is an external customer. Click on this icon and change to a currency that you would like to issue the shipment in. The currency rate can also be edited if you and the customer have agreed on a different rate.
 ![gif](images/os-change-foreign-currency.gif)
@@ -442,7 +430,7 @@ The values in the **Total quantity** row will be automatically updated with the 
 </div>
 
 <figure>
-<img src="/docs/distribution/images/os_additem_manualallocation.gif" style="width:100%">
+<img src="images/os_additem_manualallocation.gif" style="width:100%">
 <figcaption align="center"><i>Manual allocation at the batch number level.</i></figcaption>
 </figure>
 
@@ -520,7 +508,7 @@ To edit a shipment line, tap on it. You will be presented with the `Edit Item` w
 In the below example, we are deleting <i>three placeholder lines</i>.
 </div>
 
-![Alt Text](../../../../public/docs/distribution/images/delete-outbound-shipment-line.gif)
+![Alt Text](images/delete-outbound-shipment-line.gif)
 
 <div class="tip">
  <b></b> You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
