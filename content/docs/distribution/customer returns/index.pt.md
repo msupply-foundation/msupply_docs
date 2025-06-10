@@ -115,7 +115,7 @@ No exemplo abaixo, queremos receber stock devolvido da <b>Clínica Sonserina</b>
 ![Criar devolução do cliente](images/ir_create.gif)
 
 <div class="dica">
-Pode saber se um cliente também está a utilizar o Open mSupply na sua loja. Se o fizerem, verá um ícone como este <img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto"> ao lado do código do cliente.
+Pode saber se um cliente também está a utilizar o Open mSupply na sua loja. Se o fizerem, verá um ícone como este <img src="images/is_msupplystoreicon.png" alt="Store" style="width:auto"> ao lado do código do cliente.
 </div>
 
 2. Depois de tocar ou premir `Enter`, ou clicar num cliente, a sua devolução de cliente é automaticamente criada
@@ -193,7 +193,7 @@ Localizado no canto inferior esquerdo, à esquerda da sequência de estado.
 
 Marcar a caixa de seleção `Manter` impede que a devolução do cliente seja atualizada para o próximo estado.
 
-![Caixa de seleção de entrada](images/os_holdcheckbox.png)
+![Caixa de seleção de entrada](../../images/holdcheckbox.png)
 
 ### Botão Fechar e Confirmar
 

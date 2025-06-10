@@ -196,12 +196,12 @@ La secuencia de estado se encuentra en la esquina inferior izquierda de la panta
 Los estados pasados se resaltan en azul, los próximos estados aparecen en gris.
 
 <figure>
-<img src="/docs/distribution/images/os_statussequence2.png" style="width:100%">
+<img src="images/os_statussequence2.png" style="width:100%">
 <figcaption align="center">Secuencia de estado: el estado actual es <code>NUEVO</code>.</figcaption>
 </figure>
 
 <figure>
-<img src="/docs/distribution/images/os_statussequence3.png" alt="Trulli" style="width:100%">
+<img src="images/os_statussequence3.png" alt="Trulli" style="width:100%">
 <figcaption align="center">Secuencia de estado: el estado actual es </i><code>RECOGIDO</code>.</figcaption>
 </figure>
 
@@ -230,7 +230,7 @@ Se encuentra en la esquina inferior izquierda, a la izquierda de la secuencia de
 
 Seleccionar la casilla `Retener` evita que la salida se actualice al siguiente estado.
 
-![Outbound checkbox](images/os_holdcheckbox.png)
+![Outbound checkbox](../../images/holdcheckbox.png)
 
 ### Botones de Cancelar y Confirmar
 
@@ -379,7 +379,7 @@ Los valores en la fila **Total** se actualizarán automáticamente con la nueva 
 </div>
 
 <figure>
-<img src="/docs/distribution/images/os_additem_manualallocation.gif" style="width:100%">
+<img src="images/os_additem_manualallocation.gif" style="width:100%">
 <figcaption align="center"><i>Asignación manual a nivel del número de lote.</i></figcaption>
 </figure>
 

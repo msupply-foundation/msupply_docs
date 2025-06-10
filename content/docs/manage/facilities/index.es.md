@@ -36,7 +36,7 @@ La lista de almacenes se divide en 5 columnas:
 | **Donante**   | Indica si este almacén es un donante   |
 
 <div class="tip">
-Puedes identificar si un cliente también usa Open mSupply en su almacén si tienen un ícono como este <img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto"> junto al código. 
+Puedes identificar si un cliente también usa Open mSupply en su almacén si tienen un ícono como este <img src="images/is_msupplystoreicon.png" alt="Store" style="width:auto"> junto al código. 
 </div>
 
 La lista puede mostrar un número fijo de almacenes por página. En la esquina inferior izquierda, puedes ver cuántos almacenes se están mostrando actualmente en tu pantalla.
@@ -63,12 +63,9 @@ En la barra de búsqueda ubicada en la esquina superior izquierda de tu pantalla
 
 Para editar las propiedades de un almacén en la lista, haz clic en él. Esto abrirá una nueva ventana llamada `Editar instalación`.
 
-
-Si ves un mensaje como este al abrir la ventana de Editar instalación, significa que no tienes configuradas propiedades de almacén. Para configurarlas, contacta al soporte técnico o 
+Si ves un mensaje como este al abrir la ventana de Editar instalación, significa que no tienes configuradas propiedades de almacén. Para configurarlas, contacta al soporte técnico o
 
 ![Facilities: no properties](images/facilities-no-properties-defined.png)
-
-
 
 Desde esta ventana, puedes editar las propiedades del almacén
 

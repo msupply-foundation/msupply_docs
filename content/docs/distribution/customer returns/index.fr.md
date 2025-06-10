@@ -115,7 +115,7 @@ Dans l’exemple ci-dessous, nous souhaitons recevoir des articles retournés du
 ![Create Customer Return](images/ir_create.gif)
 
 <div class="tip">
-Vous pouvez savoir si un client utilise également Open mSupply dans son dépot. Si c’est le cas, vous verrez une icône comme celle-ci <img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto"> à côté du code client.
+Vous pouvez savoir si un client utilise également Open mSupply dans son dépot. Si c’est le cas, vous verrez une icône comme celle-ci <img src="images/is_msupplystoreicon.png" alt="Store" style="width:auto"> à côté du code client.
 </div>
 
 2. Une fois que vous appuyez sur `Entrée`, ou cliquez sur un client, votre retour de client est automatiquement créé.
@@ -202,7 +202,7 @@ Si, toutefois, vous avez créé un envoi entrant manuellement, le message suivan
 et vous verrez que la barre de statut ne contient que les valeurs du statut qui s’appliquent à ce type d’envoi.
 
 <figure align="center">
-    <img src="/docs/distribution/images/ir_statussequence_manual.png" alt="Inbound Shipment Status Sequence (New & manual)" style="width:60%">
+    <img src="images/ir_statussequence_manual.png" alt="Inbound Shipment Status Sequence (New & manual)" style="width:60%">
     <figcaption align="center">Status Sequence: Le statut actuel est </i><code>Nouveau</code>.</figcaption>
 </figure>
 
@@ -226,7 +226,7 @@ Situé dans le coin inférieur gauche, à gauche de la séquence de statut.
 
 Cocher la case `En attente` empêche le retour du client d’être mis à jour au prochain statut.
 
-![Inbound checkbox](images/os_holdcheckbox.png)
+![Inbound checkbox](../../images/holdcheckbox.png)
 
 ### Bouton de fermer et de confirmer
 

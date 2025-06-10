@@ -103,7 +103,7 @@ La información deberá ingresarse en el formato proporcionado por la plantilla 
 Se puede cargar un archivo csv una vez que haya sido creado en el formato de ejemplo.
 
 <p align="center">
-    <img src="/docs/coldchain/images/equipment_import_upload.png" width="750" height="420">
+    <img src="images/equipment_import_upload.png" width="750" height="420">
 </p>
 
 #### Exportar
@@ -111,7 +111,7 @@ Se puede cargar un archivo csv una vez que haya sido creado en el formato de eje
 Se puede exportar una lista de activos como un archivo csv utilizando el botón `Exportar`.
 
 <p align="center">
-    <img src="/docs/distribution/images/export.png" width="150" height="67">
+    <img src="images/export.png" width="150" height="67">
 </p>
 
 ### Escaneo de códigos QR
@@ -136,7 +136,7 @@ Si se encuentra una coincidencia al escanear, serás dirigido a la página de de
 Los equipos de cadena de frío pueden crearse manualmente usando el botón `Nuevo Activo`.
 
 <p align="center">
-    <img src="/docs/coldchain/images/create_asset_button.png" width="150" height="55">
+    <img src="images/create_asset_button.png" width="150" height="55">
 </p>
 
 Al hacer clic en este botón, se abrirá la ventana modal `Crear Activo`

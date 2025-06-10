@@ -107,7 +107,7 @@ In the below example, we are issuing stock to <b>Kamo Regional Warehouse</b>.
 ![gif](images/os_select_customer.gif)
 
 <div class="tip">
-You can tell if a customer is also using Open mSupply in their store if they have an icon like this <img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto"> next to the customer code. 
+You can tell if a customer is also using Open mSupply in their store if they have an icon like this <img src="images/is_msupplystoreicon.png" alt="Store" style="width:auto"> next to the customer code. 
 </div>
 
 2. Once you tap or press `Enter`, or click on a customer, your Outbound Shipment is automatically created
@@ -245,7 +245,7 @@ Located on the bottom left corner, on the left of the status sequence.
 
 Checking the `Hold` checkbox prevents the Outbound Shipment from being updated to the next status.
 
-![Outbound checkbox](images/os_holdcheckbox.png)
+![Outbound checkbox](../../images/holdcheckbox.png)
 
 ### Cancel and Confirm button
 

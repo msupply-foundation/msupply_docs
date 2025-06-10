@@ -196,12 +196,12 @@ The status sequence is located at the bottom left corner of the Inbound Shipment
 Passed statuses are hightlighted in blue, next statuses appear in grey.
 
 <figure>
-    <img src="/docs/replenishment/images/is_statussequence2.png" alt="Inbound Shipment Status Sequence (New)" style="width:100%">
+    <img src="images/is_statussequence2.png" alt="Inbound Shipment Status Sequence (New)" style="width:100%">
     <figcaption align="center">Status Sequence: current status is <code>New</code>.</figcaption>
 </figure>
 
 <figure>
-    <img src="/docs/replenishment/images/is_statussequence3.png" alt="Inbound Shipment Status Sequence (Shipped)" style="width:100%">
+    <img src="images/is_statussequence3.png" alt="Inbound Shipment Status Sequence (Shipped)" style="width:100%">
     <figcaption align="center">Status Sequence: current status is </i><code>Shipped</code>.</figcaption>
 </figure>
 
@@ -226,7 +226,7 @@ If, however, you've created an Inbound Shipment manually, then the following mes
 and you'll see that the status bar has only the status values which apply to this type of shipment.
 
 <figure align="center">
-    <img src="/docs/replenishment/images/is_statussequence4.png" alt="Inbound Shipment Status Sequence (New & manual)" style="width:60%">
+    <img src="images/is_statussequence4.png" alt="Inbound Shipment Status Sequence (New & manual)" style="width:60%">
     <figcaption align="center">Status Sequence: current status is </i><code>New</code>.</figcaption>
 </figure>
 
@@ -250,7 +250,7 @@ Located on the bottom left corner, on the left of the status sequence.
 
 Check the `Hold` checkbox prevents the Inbound Shipment from being updated to the next status.
 
-![Outbound hold checkbox](images/os_holdcheckbox.png)
+![Outbound hold checkbox](../../images/holdcheckbox.png)
 
 ### Cancel and Confirm button
 

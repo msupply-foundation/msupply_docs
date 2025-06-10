@@ -42,7 +42,7 @@ Ainsi, dans l’exemple ci-dessus, 4 enregistrements de synchronisation sont env
 
 Voici le processus complet en action. Vous remarquerez que la plupart des étapes de synchronisation sont très rapides, même si cela dépend du nombre d'enregistrements que vous devez synchroniser :
 
-<p><img src="/docs/sync/images/sync_in_progress.png" alt="sync: manual" width="800" /></p>
+<p><img src="images/sync_in_progress.png" alt="sync: manual" width="800" /></p>
 
 Si des erreurs surviennent pendant la synchronisation, vous les verrez également sur cet écran. Passez la souris sur l'icône « i » pour voir des détails supplémentaires.
 

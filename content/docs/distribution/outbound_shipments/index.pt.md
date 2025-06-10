@@ -119,7 +119,7 @@ In the below example, we are issuing stock to <b>Kamo Regional Warehouse</b>.
 ![gif](images/os_select_customer.gif)
 
 <div class="tip">
-You can tell if a customer is also using Open mSupply in their store if they have an icon like this <img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto"> next to the customer code. 
+You can tell if a customer is also using Open mSupply in their store if they have an icon like this <img src="images/is_msupplystoreicon.png" alt="Store" style="width:auto"> next to the customer code. 
 </div>
 
 2. Once you tap or press `Enter`, or click on a customer, your Outbound Shipment is automatically created
@@ -229,12 +229,12 @@ The status sequence is located at the bottom left corner of the Outbound Shipmen
 Passed statuses are hightlighted in blue, next statuses appear in grey.
 
 <figure>
-<img src="/docs/distribution/images/os_statussequence2.png" style="width:100%">
+<img src="images/os_statussequence2.png" style="width:100%">
 <figcaption align = "center">Status Sequence: current status is <code>NEW</code>.</figcaption>
 </figure>
 
 <figure>
-<img src="/docs/distribution/images/os_statussequence3.png" alt="Trulli" style="width:100%">
+<img src="images/os_statussequence3.png" alt="Trulli" style="width:100%">
 <figcaption align = "center">Status Sequence: current status is </i><code>PICKED</code>.</figcaption>
 </figure>
 
@@ -263,7 +263,7 @@ Located on the bottom left corner, on the left of the status sequence.
 
 Checking the `Hold` checkbox prevents the Outbound Shipment from being updated to the next status.
 
-![Outbound checkbox](images/os_holdcheckbox.png)
+![Outbound checkbox](../../images/holdcheckbox.png)
 
 ### Cancel and Confirm button
 
@@ -437,7 +437,7 @@ The values in the **Total quantity** row will be automatically updated with the 
 </div>
 
 <figure>
-<img src="/docs/distribution/images/os_additem_manualallocation.gif" style="width:100%">
+<img src="images/os_additem_manualallocation.gif" style="width:100%">
 <figcaption align = "center"><i>Manual allocation at the batch number level.</i></figcaption>
 </figure>
 

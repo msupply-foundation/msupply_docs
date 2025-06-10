@@ -105,7 +105,7 @@ You can only delete Inbound Shipments with a status <code>NEW</code>.
 1. In the `Suppliers` window, you will be presented with a list of suppliers. You can select your supplier from the list or you can type as much of a supplier name as you want.
 
 <div class="tip">
-You can tell if a supplier is also using Open mSupply in their store. If they do, you will see icon like this <img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto"> next to the supplier code. 
+You can tell if a supplier is also using Open mSupply in their store. If they do, you will see icon like this <img src="images/is_msupplystoreicon.png" alt="Store" style="width:auto"> next to the supplier code. 
 </div>
 
 <div class="imagetitle">
@@ -219,12 +219,12 @@ The status sequence is located at the bottom left corner of the Inbound Shipment
 Passed statuses are hightlighted in blue, next statuses appear in grey.
 
 <figure>
-    <img src="/docs/replenishment/images/is_statussequence2.png" alt="Inbound Shipment Status Sequence (New)" style="width:100%">
+    <img src="images/is_statussequence2.png" alt="Inbound Shipment Status Sequence (New)" style="width:100%">
     <figcaption align="center">Status Sequence: current status is <code>New</code>.</figcaption>
 </figure>
 
 <figure>
-    <img src="/docs/replenishment/images/is_statussequence3.png" alt="Inbound Shipment Status Sequence (Shipped)" style="width:100%">
+    <img src="images/is_statussequence3.png" alt="Inbound Shipment Status Sequence (Shipped)" style="width:100%">
     <figcaption align="center">Status Sequence: current status is </i><code>Shipped</code>.</figcaption>
 </figure>
 
@@ -253,7 +253,7 @@ If, however, you've created an Inbound Shipment manually, then the following mes
 and you'll see that the status bar has only the status values which apply to this type of shipment.
 
 <figure align="center">
-    <img src="/docs/replenishment/images/is_statussequence4.png" alt="Inbound Shipment Status Sequence (New & manual)" style="width:60%">
+    <img src="images/is_statussequence4.png" alt="Inbound Shipment Status Sequence (New & manual)" style="width:60%">
     <figcaption align="center">Status Sequence: current status is </i><code>New</code>.</figcaption>
 </figure>
 
@@ -277,7 +277,7 @@ Located on the bottom left corner, on the left of the status sequence.
 
 Check the `Hold` checkbox prevents the Inbound Shipment from being updated to the next status.
 
-![Inbound hold checkbox](images/os_holdcheckbox.png)
+![Inbound hold checkbox](../../images/holdcheckbox.png)
 
 ### Close and Confirm button
 

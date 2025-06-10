@@ -115,7 +115,7 @@ En el siguiente ejemplo, queremos recibir stock devuelto de <b>Tamaki Central Me
 ![Create Customer Return](images/ir_create.gif)
 
 <div class="tip">
-Puedes saber si un cliente también está utilizando Open mSupply en su almacén. Si lo hacen, verás un ícono como este <img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto"> junto al código del cliente. 
+Puedes saber si un cliente también está utilizando Open mSupply en su almacén. Si lo hacen, verás un ícono como este <img src="images/is_msupplystoreicon.png" alt="Store" style="width:auto"> junto al código del cliente. 
 </div>
 
 2. Una vez que presiones `Enter`, o hagas clic en un cliente, tu Devolución de Cliente se creará automáticamente.
@@ -202,7 +202,7 @@ Sin embargo, si has creado una Entrada manualmente, entonces se mostrará el sig
 y verás que la barra de estado tiene solo los valores de estado que se aplican a este tipo de envío.
 
 <figure align="center">
-    <img src="/docs/distribution/images/ir_statussequence_manual.png" alt="Inbound Shipment Status Sequence (New & manual)" style="width:60%">
+    <img src="images/ir_statussequence_manual.png" alt="Inbound Shipment Status Sequence (New & manual)" style="width:60%">
     <figcaption align="center">Secuencia de Estado: el estado actual es </i><code>Nuevo</code>.</figcaption>
 </figure>
 
@@ -226,7 +226,7 @@ Ubicada en la esquina inferior izquierda, a la izquierda de la secuencia de esta
 
 Marcar la casilla de `Retención` evita que la Devolución de Cliente se actualice al siguiente estado..
 
-![Inbound checkbox](images/os_holdcheckbox.png)
+![Inbound checkbox](../../images/holdcheckbox.png)
 
 ### Botón de Cerrar y Confirmar
 

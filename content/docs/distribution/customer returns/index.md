@@ -205,7 +205,6 @@ and you'll see that the status bar has only the status values which apply to thi
 
 If you hover over the status sequence, a return history window appears. You can see the date when a return was updated from one status to another.
 
-
 <div class="imagetitle">This manual return has been created on 28/03/2024</div>
 
 ![Inbound status: new](images/ir_status_sequence_hover_manual.png)
@@ -222,7 +221,7 @@ Located on the bottom left corner, on the left of the status sequence.
 
 Checking the `Hold` checkbox prevents the Customer Return from being updated to the next status.
 
-![Inbound checkbox](images/os_holdcheckbox.png)
+![Inbound checkbox](../../images/holdcheckbox.png)
 
 ### Close and Confirm button
 
