@@ -293,7 +293,9 @@ In the `Add Item` window, you can look up an item by:
 
 Once your item is highlighted, tap on the name or press `Enter`.
 
-![Add Item](images/os_additem.gif)
+![Add Item list](../../images/adding-an-item-all.png)
+![Add Item by name](../../images/adding-an-item-name.png)
+![Add Item by code](../../images/adding-an-item-code.png)
 
 ### Quantities tab
 

@@ -320,7 +320,9 @@ In the `Add Item` window, you can look up an item by:
 
 Once your item is highlighted, tap on the name or press `Enter`.
 
-![Add Item](images/os_additem.gif)
+![Add Item list](../../images/adding-an-item-all.png)
+![Add Item by name](../../images/adding-an-item-name.png)
+![Add Item by code](../../images/adding-an-item-code.png)
 
 ### Quantities tab
 
@@ -415,14 +417,14 @@ Tap on the `Add from master list` button (top right corner).
 The button will be disabled if the status of the Inbound Shipment is anything other than <code>New</code>
 </div>
 
-![Add Item button](images/os-add-from-master-list-button.png)
+![Add Item button](images/is_add_from_master_list_button.png)
 
 A new `Master Lists` window opens. This allows you to select the required master list. Simply click on one of the lists (if you have some available).
 
-![Add Item button](images/os-add-item-master-lists.png)
+![Add Item button](../../images/add-item-master-lists.png)
 
 Click `OK` on the prompt:
-![Add Item button](images/os-add-item-master-list-prompt.png)
+![Add Item button](../../images/add-item-master-list-prompt.png)
 
 You will then have placeholder lines added to your shipment, which will then look like this:
 

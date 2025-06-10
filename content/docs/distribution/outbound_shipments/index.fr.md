@@ -276,7 +276,9 @@ Dans la fenêtre `Add Item` vous pouvez rechercher un élément par :
 
 Une fois que votre article est mis en évidence, tapez sur le nom ou appuyez sur `Enter`.
 
-![Alt Text](images/os_additem.gif)
+![Add Item list](../../images/adding-an-item-all.png)
+![Add Item by name](../../images/adding-an-item-name.png)
+![Add Item by code](../../images/adding-an-item-code.png)
 
 Une fois l'élément sélectionné, les informations suivantes s'affichent :
 

@@ -274,7 +274,9 @@ En la ventana de `Agregar ítem`, puedes buscar un ítem de las siguientes maner
 
 Una vez que hayas resaltado el ítem, toca su nombre o presiona `Enter`.
 
-![Alt Text](images/os_additem.gif)
+![Add Item list](../../images/adding-an-item-all.png)
+![Add Item by name](../../images/adding-an-item-name.png)
+![Add Item by code](../../images/adding-an-item-code.png)
 
 Una vez que se selecciona el artículo, se pueden ver las siguientes información:
 
@@ -416,10 +418,10 @@ Haga clic en el botón `Agregar desde la lista maestra` (esquina superior derech
 Se abre una nueva ventana de `Listas Maestras`. Esto le permite seleccionar la lista maestra requerida. Simplemente haga clic en una de las listas (si tiene alguna disponible).
 Tenga en cuenta que las listas que se muestran son aquellas que son visibles para el cliente del envío.
 
-![Add Item button](images/os-add-item-master-lists.png)
+![Add Item button](../../images/add-item-master-lists.png)
 
 Haga clic en `OK` en la ventana emergente:
-![Add Item button](images/os-add-item-master-list-prompt.png)
+![Add Item button](../../images/add-item-master-list-prompt.png)
 
 Luego se agregarán líneas no asignadas (reserva) a su envío, que se verán así:
 

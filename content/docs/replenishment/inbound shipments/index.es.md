@@ -292,7 +292,9 @@ En la ventana `Agrgear Artículo`, puedes buscar un artículo de las siguientes 
 
 Una vez que el artículo esté resaltado, haz clic en el nombre o presiona `Enter`.
 
-![Add Item](images/os_additem.gif)
+![Add Item list](../../images/adding-an-item-all.png)
+![Add Item by name](../../images/adding-an-item-name.png)
+![Add Item by code](../../images/adding-an-item-code.png)
 
 ### Pestaña de cantidades
 
@@ -363,10 +365,10 @@ El botón estará desactivado si el estado de la entrada es cualquier cosa que n
 
 Se abrirá una nueva ventana de `Listas Maestras`. Esto te permite seleccionar la lista maestra requerida. Simplemente haz clic en una de las listas (si tienes alguna disponible)
 
-![Add Item button](images/os-add-item-master-lists.png)
+![Add Item button](../../images/add-item-master-lists.png)
 
 Haz clic en `Aceptar` en el cuadro de diálogo:
-![Add Item button](images/os-add-item-master-list-prompt.png)
+![Add Item button](../../images/add-item-master-list-prompt.png)
 
 Luego se agregarán líneas de marcador de posición a tu envío, que se verán así:
 
