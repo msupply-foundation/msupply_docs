@@ -28,7 +28,7 @@ La fonction Expédition est utilisée pour:
 
 Choisir `Distribution` > `Expédition` dans le panneau de navigation.
 
-![gotooos](../../../../public/docs/distribution/images/gotoos2_fr.png)
+![gotooos](images/gotoos2_fr.png)
 
 La liste des Expéditions s'affichera (Si vous ne voyez aucune ligne, rassurez-vous. Vous venez probablement de commencer!).
 
@@ -55,11 +55,11 @@ De cet écran, vous pouvez:
 
 2. La liste peut afficher un nombre fixe d'expéditions par page. Au bas de liste, à gauche, on peut voir le nombre d'expéditons actuellement affiché à l'écran.
 
-![Page](images/list_showing.png)
+![Page](../../images/list_showing.png)
 
 3. S'il y a plus de 20 expéditions, vous pouvez vous déplacer vers une autre page en cliquant sur le numéro de la page ou en utilisant les flèches droite ou gauche (coin inférieur droit).
 
-![Page](images/list_pagenumbers.png)
+![Page](../../images/list_pagenumbers.png)
 
 ### Recherche par nom de client
 

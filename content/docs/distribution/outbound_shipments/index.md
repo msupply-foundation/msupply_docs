@@ -192,7 +192,7 @@ The tax rate (%) for service charges and the item's sell price can also be edite
 
 If your store is issuing in foreign currencies follow [these instructions](https://docs.msupply.org.nz/other_stuff:currencies) in the central server documentation to set it up. You will also need to enable the store preference `Store: Able to issue in foreign currency`. This preference is compatible with Open mSupply `v1.7.0+`.
 
-![Store preference](images/store-pref-issue-in-foreign-currencies.png)
+![Store preference](../../images/store-pref-issue-in-foreign-currencies.png)
 
 The pen icon will become active once the above instructions have been followed and only if the customer is an external customer. Click on this icon and change to a currency that you would like to issue the shipment in. The currency rate can also be edited if you and the customer have agreed on a different rate.
 ![gif](images/os-change-foreign-currency.gif)

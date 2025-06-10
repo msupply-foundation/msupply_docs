@@ -26,18 +26,17 @@ Com o Open mSupply, esta questão tem três aspectos:
 - Os **Sites remotos alojados na nuvem** podem ser utilizados quando se dispõe de Internet de alta qualidade a tempo inteiro.
 - O **Servidor Central** é o local onde os dados principais são geridos e onde todos os dados dos locais remotos são agregados para a elaboração de relatórios.
 
-
 ##### Sites Remotos
 
 Num determinado local remoto, a base de dados será SQLite se estiver a correr no Android, ou normalmente Postgres se estiver a correr num servidor de secretária. Partimos do princípio de que, se tiver um sítio ocupado, actualizará para o ambiente de trabalho (que é um processo simples), pelo que os limites do Android são menos relevantes.
 
-| Tipo of dado             |                                     Limite de dados |
-| -------------------------| --------------------------------------------------: |
-| Produtos                 |                                         > 1,000,000 |
-| Artigos comercializados  |                                     > 1,000,000,000 |
-| Utilizadores             | configured centrally - no practical limit at a site |
-| Fornecedores             | configured centrally - no practical limit at a site |
-| Transações               |                                     > 1,000,000,000 |
+| Tipo of dado            |                                     Limite de dados |
+| ----------------------- | --------------------------------------------------: |
+| Produtos                |                                         > 1,000,000 |
+| Artigos comercializados |                                     > 1,000,000,000 |
+| Utilizadores            | configured centrally - no practical limit at a site |
+| Fornecedores            | configured centrally - no practical limit at a site |
+| Transações              |                                     > 1,000,000,000 |
 
 ##### Sites remotos hospedados na nuvem
 
@@ -92,20 +91,20 @@ Não existem restrições quanto ao número de utilizadores ligados a um servido
 
 É possível configurar o símbolo da moeda apresentado aquando da visualização dos preços. Também pode configurar moedas estrangeiras, o que lhe permite enviar e receber envios numa moeda diferente da sua moeda principal. Para configurar moedas estrangeiras, siga [estas instruções] (https://docs.msupply.org.nz/other_stuff:currencies) na documentação do servidor central. Terá também de ativar a preferência de loja `Store: Capaz de emitir em moeda estrangeira`. Esta preferência é compatível com o Open mSupply `v1.7.0+`.
 
-![SPreferências da unidade de saúde](images/store-pref-issue-in-foreign-currencies.png)
+![SPreferências da unidade de saúde](../../images/store-pref-issue-in-foreign-currencies.png)
 
 São suportados os seguintes códigos e símbolos de moeda:
 
-| Código | Símbolo|
-| ----   | ------ |
-| COP    | $      |
-| DJF    | DJF    |
-| EUR    | €      |
-| KMF    | FC     |
-| NZD    | $      |
-| PGK    | K      |
-| QAR    | ر.ق.   |
-| RUB    | ₽      |
-| SBD    | SI$    |
-| SSP    | SSP    |
-| USD    | $      |
+| Código | Símbolo |
+| ------ | ------- |
+| COP    | $       |
+| DJF    | DJF     |
+| EUR    | €       |
+| KMF    | FC      |
+| NZD    | $       |
+| PGK    | K       |
+| QAR    | ر.ق.    |
+| RUB    | ₽       |
+| SBD    | SI$     |
+| SSP    | SSP     |
+| USD    | $       |

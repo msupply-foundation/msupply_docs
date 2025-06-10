@@ -52,15 +52,15 @@ The Inbound Shipments list is divided into 7 columns:
 
 2. The list can display a fixed number of shipments per page. On the bottom left corner, you can see how many shipments are currently displayed on your screen.
 
-![Page](images/list_showing.png)
+![Page](../../images/list_showing.png)
 
 3. If you have more shipments than the current limit, you can navigate to the other pages by clicking on the page number or using the right of left arrows (bottom right corner).
 
-![Page](images/list_pagenumbers.png)
+![Page](../../images/list_pagenumbers.png)
 
 4. You can also select a different number of rows to show per page using the option at the bottom right of the page.
 
-![Rows per page](images/rows-per-page-select.png)
+![Rows per page](../../images/rows-per-page-select.png)
 
 ### Filter Inbound Shipments
 
@@ -194,7 +194,7 @@ The tax rate (%) for service charges and the items sell price can also be edited
 
 If your store is issuing in foreign currencies follow [these instructions](https://docs.msupply.org.nz/other_stuff:currencies) in the central server documentation to set it up. You will also need to enable the store preference `Store: Able to issue in foreign currency`. This preference is compatible with Open mSupply `v1.7.0+`.
 
-![Store preference](images/store-pref-issue-in-foreign-currencies.png)
+![Store preference](../../images/store-pref-issue-in-foreign-currencies.png)
 
 The pen icon will become active once the above instructions have been followed and only if the customer is an external customer. Click on this icon and change to a currency that you would like to issue the shipment in. The currency rate can also be edited if you and the customer have agreed on a different rate.
 ![gif](images/is-change-foreign-currency.gif)
