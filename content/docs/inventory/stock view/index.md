@@ -84,11 +84,21 @@ After selecting an item, you can enter the information for this new stock line. 
 
 ![New stock line: enter details](images/stock_new_details.png)
 
+See the [Campaigns](/docs/manage/campaigns/) page for details of how to configure campaigns.
+
+There are some fields which only show if enabled:
+
+### Reasons
+
 If you have [inventory adjustment reasons](https://docs.msupply.org.nz/preferences:options?s[]=reasons) configured in your central server, then you are also required to enter a reason when creating a new stock line.
 
 If this is the case, the reason input will be enabled as below:
 
 ![New stock line: enter reason](images/stock_new_reason.png)
+
+### Donor
+
+If the [Allow tracking of stock by donor](/docs/manage/global-preferences/) global preference is enabled then you can allocate a donor to this stock line.
 
 Once you are happy with the batch information, click `OK`. This will save your new stock line by creating an `Inventory Adjustment`. You will be redirected to the Stock line details page.
 

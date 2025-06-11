@@ -287,7 +287,9 @@ In the `Issue` field, you can enter the quantity that you want to issue to your 
 If you're recording [prescribed quantities](https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab), you can enter the prescribed quantity first, which will automatically populate the `Issue` field for you.
 ![Prescribed Quantity](images/prescriptions_prescribed_qty.png)
 
-The system will then attempt to automatically allocate the stock for the prescription.
+The system will then automatically allocate the stock for the prescription, with the stock expiring first being preferred.
+
+<div class="note">If you are issuing a vaccine item and the <a href="/docs/manage/facilities/#store-preferences">Sort available batches by VVM status then expiry</a> preference is enabled, then the stock lines are allocated in numerical order of the VVM status levels (level 1 lines are issued first). If there is more than one line with the same VVM status level, then of those lines the first line to expiry is selected (normal FEFO rules).</div>
 
 #### List of available batches:
 
@@ -337,16 +339,17 @@ This warning tells you that some of your stock is on hold and/or expired cannot 
 
 #### Issuing in doses
 
-Vaccine items can be dispensed in doses rather than units, if the [Manage vaccines in doses](/docs/manage/facilities/#editing-store-preferences) store preference is enabled.
+Vaccine items can be dispensed in doses rather than units, if the [Manage vaccines in doses](/docs/manage/facilities/#store-preferences) store preference is enabled.
 
 The following quantity columns will be displayed instead when issuing a vaccine item:
 
-| Column              | Description                                   |
-| :------------------ | :-------------------------------------------- |
-| **Doses per unit**  | The number of doses per unit                  |
-| **Units in stock**  | Total number of units at your store           |
-| **Doses Available** | Total number of doses available at your store |
-| **Doses Issued**    | Total number of doses to be administered      |
+| Column               | Description                                                                                                                                                                  |
+| :------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **VVM Status**       | If the [Manage VVM status for stock](/docs/manage/facilities/#store-preferences) store preference is enabled, a column displaying the VVM status of this stock line is shown |
+| **Doses per [unit]** | The number of doses per unit (the label shown for unit will vary, as this comes from the item. An example is `Vial`)                                                         |
+| **[Unit]s in stock** | Total number of units (e.g. `Vials`) which are in stock at your store                                                                                                        |
+| **Doses Available**  | Total number of doses available in your store                                                                                                                                |
+| **Doses Issued**     | Total number of doses to be issued                                                                                                                                           |
 
 ![List of available batch numbers with doses](images/prescription_additem_listofbatches_with_doses.png)
 

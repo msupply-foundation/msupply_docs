@@ -325,32 +325,34 @@ Default value is `Any` when you are issuing units.
 
 This is a list of batch numbers that you have in store for this item:
 
-| Column                | Description                                                                                                        |
-| :-------------------- | :----------------------------------------------------------------------------------------------------------------- |
-| **Batch**             | Batch number. It is a designation given to products made in the same manufacturing run.                            |
-| **Expiry**            | Expiry date of the batch (format: MM/YYYY). Note: the date shows in red if the expiry is within the next 3 months. |
-| **Location**          | This is the code of the location where the item is stored if your inventory is managed with storage locations      |
-| **Pack Sell Price**   | Selling unit price of the item                                                                                     |
-| **Pack Size**         | Quantity of units per pack                                                                                         |
-| **In Store (packs)**  | Total number of packs in your store                                                                                |
-| **Available (packs)** | Number of packs available (not already allocated to other shipments)                                               |
-| **[Pack] Qty Issued** | Total quantity of packs to be issued                                                                               |
-| **[Unit] Qty Issued** | Number of units to be issued                                                                                       |
-| **On Hold**           | Indicates whether a batch is on hold or not. You cannot issue a batch that is on hold.                             |
+| Column                | Description                                                                                                                                                                                                           |
+| :-------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Batch**             | Batch number. It is a designation given to products made in the same manufacturing run.                                                                                                                               |
+| **Expiry**            | Expiry date of the batch (format: MM/YYYY). Note: the date shows in red if the expiry is within the next 3 months.                                                                                                    |
+| **Campaign**          | Shows the name of the campaign which this stock line is associated with, if any. The columns will only be shown if some campaigns are configured. See [Campaigns](/docs/manage/campaigns/) for configuration details. |
+| **Location**          | This is the code of the location where the item is stored if your inventory is managed with storage locations                                                                                                         |
+| **Donor**             | Only shown if the [Global preference](/docs/manage/global-preferences/) for `Allow tracking of stock by donor` is enabled. This shows the name of the donor linked to the stock line if there is one.                 |
+| **Pack Sell Price**   | Selling unit price of the item                                                                                                                                                                                        |
+| **Pack Size**         | Quantity of units per pack                                                                                                                                                                                            |
+| **In Store (packs)**  | Total number of packs in your store                                                                                                                                                                                   |
+| **Available (packs)** | Number of packs available (not already allocated to other shipments)                                                                                                                                                  |
+| **[Pack]s Issued**    | Total number of packs to be issued                                                                                                                                                                                    |
+| **[Unit]s Issued**    | Number of units to be issued                                                                                                                                                                                          |
+| **On Hold**           | Indicates whether a batch is on hold or not. You cannot issue a batch that is on hold.                                                                                                                                |
 
 There is also a final row in the table which is a placeholder line, if the status of the Outbound Shipment is `NEW`.
 The placeholder line is used when the quantity you are issuing is higher than your available stock.
 
 ![List of available batch numbers](images/os_additem_listofbatches.png)
 
-You can issue Vaccine Items in doses when the `Display vaccines in doses` store preference is turned on in [Manage Facilities](/docs/manage/facilities/#editing-store-preferences). If this is enabled, the following quantity columns will be displayed instead when issuing a vaccine item:
+You can issue Vaccine Items in doses when the [Display vaccines in doses](/docs/manage/facilities/#store-preferences) store preference is turned on. If this is enabled, the following quantity columns will be displayed instead when issuing a vaccine item:
 
-| Column                | Description                                 |
-| :-------------------- | :------------------------------------------ |
-| **Doses per unit**    | The number of doses per unit                |
-| **In store (doses)**  | Total number of units at your store         |
-| **Available (doses)** | Total number of doses available for issuing |
-| **Doses Issued**      | Total number of doses to be administered    |
+| Column                | Description                                                                                                               |
+| :-------------------- | :------------------------------------------------------------------------------------------------------------------------ |
+| **Doses per [unit]**  | The number of doses per unit                                                                                              |
+| **In Store (doses)**  | Total number of doses which are in stock at your store                                                                    |
+| **Available (doses)** | Total number of doses available for issuing (some may be allocated to other shipments and not yet shipped from the store) |
+| **Doses Issued**      | Total number of doses to be issued                                                                                        |
 
 ![List of available batch numbers with doses](images/os_additem_listofbatches_with_doses.png)
 
