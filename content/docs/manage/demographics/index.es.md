@@ -33,7 +33,7 @@ Se te presentará una lista de Indicadores Demográficos:
 
 ![indicators](images/indicators.png)
 
-La lista de Indicadores Demográficos está dividida en 8 columnas:
+La lista de Indicadores Demográficos está dividida en 4 columnas:
 
 | Columna             | Descripción                                                                                   |
 | :------------------ | :-------------------------------------------------------------------------------------------- |

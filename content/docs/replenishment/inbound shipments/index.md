@@ -337,7 +337,7 @@ In the `Quantities` tab, you can update the following fields:
 
 **Additional vaccine columns**
 
-The Quantities tab will have extra columns shown when certain preferences are enabled. These preferences are controlled in [Manage Facilities](/docs/manage/facilities/#editing-store-preferences).
+The Quantities tab will have extra columns shown when certain preferences are enabled. These preferences are controlled in [Manage > Stores](/docs/manage/facilities/#editing-store-preferences).
 
 The additional columns available with the `Display vaccine in doses` preference on are:
 
@@ -389,9 +389,15 @@ In the below example, the first line's cost price is $0.01 per unit and the sell
 
 ![Add Item pricing](images/is_additem_pricing.png)
 
-### Location tab
+### Other tab
 
-In the third tab, `Location`, you can select a storage location to assign the batch number to a location in your storage facility.
+In the third tab, `Other`, you can select the following:
+
+- **Location**: A storage location to assign the batch number to a location in your storage facility.
+- **Donor**: A donor, if configured to track donors. See [Track stock by donor](#track-stock-by-donor) for details.
+- **Campaign**: If you have a campaign configured (see [Campaigns](/docs/manage/campaigns/)) then this column allows you to associate the stock line with a campaign
+
+#### Location
 
 Simply select a storage location from the `Location` dropdown menu.
 
@@ -400,6 +406,8 @@ Simply select a storage location from the `Location` dropdown menu.
 <div class="note">
 Don't know the storage location yet? You don't have to capture it right away. You can update the storage location at any time if you haven't confirmed the verification yet. 
 </div>
+
+When editing a line on the shipment, the `Other` tab will have a `Donor` selection if you have the preference enabled:
 
 ### Confirm item and quantities
 
