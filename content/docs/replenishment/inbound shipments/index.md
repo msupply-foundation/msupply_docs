@@ -157,7 +157,7 @@ You can close by tapping on the `X Close` button, on the top right corner of the
 
 ![Open and close the Information Panel](images/is_infopanel_openclose.gif)
 
-#### Additonal Info
+#### Additional Info
 
 In the **Additional Info** section, you can:
 
