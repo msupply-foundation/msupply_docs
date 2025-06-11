@@ -29,15 +29,15 @@ If you would like to order some stock from your supplier:
 1. Navigate to the `Replenishment` menu
 2. Tap on `Internal Orders`
 
-![Internal Order: nav](/docs/replenishment/images/intord_access.png)
+![Internal Order: nav](images/intord_access.png)
 
 You will see a list of all existing Internal Orders:
 
-![Internal Order: list](/docs/replenishment/images/intord_list.png)
+![Internal Order: list](images/intord_list.png)
 
 You can use the filters to filter the list by the name or status of the Internal Orders:
 
-![Internal Order: filter](/docs/replenishment/images/intord_filter.png)
+![Internal Order: filter](images/intord_filter.png)
 
 You can sort the list using the column headers:
 
@@ -50,21 +50,21 @@ You can sort the list using the column headers:
 
 1. Click on the `New Order` button (top right corner):
 
-![Internal Order: new order](/docs/replenishment/images/intord_newreqbutton.png)
+![Internal Order: new order](images/intord_newreqbutton.png)
 
 2. A new window opens, inviting your to select a supplier:
 
-![Internal Order: select supplier](/docs/replenishment/images/intord_selectsupplier2.png)
+![Internal Order: select supplier](images/intord_selectsupplier2.png)
 
 3. Select a Supplier by pressing on their name. You will be redirected to a window like this:
 
-![Internal Order: newly created order](/docs/replenishment/images/intord_newintord.png)
+![Internal Order: newly created order](images/intord_newintord.png)
 
 ### Defining Target MOS (Maximum MOS)
 
 Additional information and configuration for the Internal Order can be found in the detail panel, which you can access by clicking the `More` button in the top right:
 
-![MaxMOS](/docs/replenishment/images/intord_moreinfo.png)
+![MaxMOS](images/intord_moreinfo.png)
 
 Defining the Target MOS (Month of Stock) is critical to the calculation of the **Suggested Quantity**:
 
@@ -76,7 +76,7 @@ Defining the Target MOS (Month of Stock) is critical to the calculation of the *
 In the below example, we are setting our Target MOS to 3 Months.  
 </div>
 
-![MaxMOS](/docs/replenishment/images/intord_maxmos.png)
+![MaxMOS](images/intord_maxmos.png)
 
 This can be done before or after adding items to your order.
 
@@ -85,26 +85,35 @@ This can be done before or after adding items to your order.
 Tap on `Add Item` to add a single item to your order. You will be redirected to
 a new page.
 
-![Internal Order: add item](/docs/replenishment/images/intord_additem2.png)
+![Internal Order: add item](images/intord_additem2.png)
 
 First select the item you want to add to your order. You can also type some or all of an item name (or code) to look for a specific item.
 
 Once item is selected, you should see the following information on the page:
 
 - **Item Name**
-- **SOH**: Stock on Hand. How much stock the store currently has available
-- **AMC**: Average Monthly Consumption. How much stock your store uses each month on average (based on a configurable number of months, default is set to 3 months)
-- **Units/Packs toggle**: this allows you to switch between ordering in units or packs
+- **Unit**: the unit which is defined on the item (e.g. Tablet, Vial)
 - **Default pack size**: the default pack size of the item
-- **Requested quantity**: the quantity of units that you request from your supplier
-- **Default pack size**: the default pack size of the item
-- **Suggested Quantity**: how much stock mSupply suggests that your order to reach your stock target quantity
-- **Comments**: any comments you want to add to the order
+- **Doses per unit**: (shown only if this item is a vaccine) this is the number of doses per unit e.g. per Vial
+- **Our SOH**: Stock on Hand. How much stock the store currently has available
+- **AMC/AMD**: Average Monthly Consumption/Average Monthly Distribution. How much stock your store uses each month on average (based on a configurable number of months, default is set to 3 months)
+- **MOS**: Months of Stock - how many months the current stock will last, if used at the average monthly rate (AMC)
 
-You should also see the following charts if you click the bar graph icon next to
-requested quantity:
+- **Suggested**: the number of units which mSupply suggests that your order to reach your stock target quantity
+- **Requested**: the number of units that you request from your supplier
+- **Packs or units**: a drop down selector which allows you to choose between a pack/unit
+- **Comment**: any comments you want to add to the order
 
-![](/docs/replenishment/images/io_bar_graph_icon.png)
+Additionally, if you have are viewing a program order, and have the store preference `Use consumption & stock from customers for internal orders` enabled in your store then you will see some additional fields:
+
+- **Short expiry**: how many units of this item have an expiry date within the next 3 months
+- **Stock arriving**: how much stock has been added by shipments within the period of this internal order
+- **Outgoing**: how much has been taken out of stock by shipments within the period of this internal order
+- **Losses**: how much has been taken out of stock by stocktakes or inventory adjustments within the period of this internal order
+- **Additions**: how much has been added to stock by stocktakes or inventory adjustments within the period of this internal order
+- **Days out of stock**: the number of days within the period in which the store had no stock of this item
+
+You can also see the following charts:
 
 - **Target Quantity**: In this chart, you will see the following information:
   - The _Target Quantity_ for the item. This is calculated as: Target MOS x AMC.
@@ -115,21 +124,21 @@ requested quantity:
 In the below example, our target quantity is 609 units which is the equivalent of 3 months of stock (3 x 203 = 609 units). Our stock on hand (in grey) is 269 so in order to reach my target, mSupply suggests to order 342 units (609 - 269). 
 </div>
 
-![Stock Distribution](/docs/replenishment/images/intord_charts_stockdistri.png)
+![Stock Distribution](images/intord_charts_stockdistri.png)
 
 <div class="imagetitle">
 In the below example, the target quantity is 408 units. Since we already have 467 units in stock (in grey), the suggested quantity is zero. 
 </div>
 
-![Stock Distribution 2](/docs/replenishment/images/intord_charts_stockdistri2.png)
+![Stock Distribution 2](images/intord_charts_stockdistri2.png)
 
 - **Consumption History (monthly)**: this chart shows the monthly consumption up to 12 months in the past (in grey), the current AMC (in dark grey), the projected consumption (in orange) and the moving average (blue line):
 
-![Consumption](/docs/replenishment/images/intord_charts_consumption.png)
+![Consumption](images/intord_charts_consumption.png)
 
 - **Stock Evolution**: this chart shows you your stock level for the last 30 days and your projected inventory for the next 30 days. The projected stock will be updated based on your inputs in the `Requested quantity` field:
 
-![Stock Evolution](/docs/replenishment/images/intord_charts_stockevolution.png)
+![Stock Evolution](images/intord_charts_stockevolution.png)
 
 ### Requesting a quantity in packs
 
@@ -148,7 +157,7 @@ All the items of the master list are now listed in your order. If you had previo
 Tap on an order line to change the **Requested Quantity** or tap on the `Use
 Suggested Quantities` button to automatically copy the values in the **Suggested Quantity** column into the **Requested Quantity** column.
 
-![Internal Order: add from master list](/docs/replenishment/images/intord_addfromml.gif)
+![Internal Order: add from master list](images/intord_addfromml.gif)
 
 <div class="note"> 
 Master Lists are defined and assigned to stores at the central server level. You can only see the master lists that are visible to your store. 
@@ -165,31 +174,36 @@ You can create Internal Orders from multiple master lists by repeating above act
 
 When you add items (using a master list or not), the item is added to the order's table. The following information is provided for each order line:
 
-| Column                   | Description                                                                                                                                        |
-| :----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Code**                 | Code of the item                                                                                                                                   |
-| **Name**                 | Name of the item                                                                                                                                   |
-| **Unit**                 | Unit of the item e.g. Tablet, Capsule, Vial                                                                                                        |
-| **DPS**                  | Default pack size of the item                                                                                                                      |
-| **SoH (Est. remaining)** | Stock on Hand: how much stock is currently available in your store for this store                                                                  |
-| **AMC**                  | Average Monthly Consumption: how much stock your store uses each month on average (based on a configurable number of months, defaults to 3 months) |
-| **Target Stock**         | This is the stock you are aiming for. Calculated as: AMC x Target MOS MOS                                                                          |
-| **Suggested Quantity**   | How much stock mSupply suggests that your order. This is calculated as: (AMC x Target MOS) - SoH                                                   |
-| **Requested**            | This is set to zero by default. This is the quantity of units you are ordering from your supplier.                                                 |
+| Column                   | Description                                                                                                                                                                                                    |
+| :----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Code**                 | Code of the item                                                                                                                                                                                               |
+| **Name**                 | Name of the item                                                                                                                                                                                               |
+| **Unit**                 | Unit of the item e.g. Tablet, Capsule, Vial                                                                                                                                                                    |
+| **Doses per unit**       | If the store preference `Manage vaccines in doses` is enabled for your store, this column is added. It shows the number of doses per unit e.g. Vial, if the item in this row is a vaccine and `-` if it isn't. |
+| **DPS**                  | Default pack size of the item                                                                                                                                                                                  |
+| **SoH (Est. remaining)** | Stock on Hand: how much stock is currently available in your store for this store                                                                                                                              |
+| **AMC**                  | Average Monthly Consumption: how much stock your store uses each month on average (based on a configurable number of months, defaults to 3 months)                                                             |
+| **Target Stock (AMC)**   | This is the stock you are aiming for. Calculated as: AMC x Target MOS                                                                                                                                          |
+| **Suggested Quantity**   | How much stock mSupply suggests that your order. This is calculated as: (AMC x Target MOS) - SoH                                                                                                               |
+| **Requested**            | This is set to zero by default. This is the quantity of units you are ordering from your supplier.                                                                                                             |
+
+<div class="note">If you are using population based forecasting then you will see an additional column of **Target Stock (population)** which shows the target which is calculated using the population served by this store.</div>
+
+<div class="tip">You can also use population based forecasting for vaccine items. This requires the installation of a plugin, please contact support for details.</div>
 
 ### Printing an Internal Order
 
 When viewing a specific Internal Order, simply click the `Print` button which is on the top right of the page.
 When printing, a PDF file is generated for you, which will then open in a new browser tab. This can then be printed using your browser by clicking print or using `control`+`P` (if using windows) or `cmd`+`P` keys on your keyboard (if using a mac).
 
-![Print button](/docs/introduction/images/print_button.png)
+![Print button](../../images/print_button.png)
 
 This will either
 
 - Show a menu of possible reports for you to select from before creating a PDF. This will happen if there are more than one report defined for the `Requisition` report type.
 - Create a PDF immediately, if there is only one report to select from
 
-![Print menu](/docs/replenishment/images/intord_print_menu.png)
+![Print menu](images/intord_print_menu.png)
 
 ### Sending an Internal Order
 
@@ -218,19 +232,19 @@ For further detail on configuring store preferences, refer to the [mSupply docum
 
 When configured in this way, the requesting store will see an additional column in the Internal Order list, showing the approval status:
 
-![Internal Order: approval status columns](/docs/replenishment/images/internal_order_list_with_approval.png)
+![Internal Order: approval status columns](images/internal_order_list_with_approval.png)
 
 And when viewing a specific Internal Order, there are columns showing the approved quantity, approved number of packs and a comment entered by the approver, if there is one:
 
-![Internal Order detail with approval columns](/docs/replenishment/images/internal_order_detail_approval.png)
+![Internal Order detail with approval columns](images/internal_order_detail_approval.png)
 
 Similarly, the supplying store will have an additional column in the requisition list view showing the approval status :
 
-![Internal Order detail with approval columns](/docs/distribution/images/requisition_list_approval.png)
+![Internal Order detail with approval columns](images/intord_list_approval.png)
 
 And finally, a specific requisition will also have new columns, for the approved quantity and an approval comment, if one has been entered by the approver:
 
-![Internal Order detail with approval columns](/docs/distribution/images/requisition_detail_approval.png)
+![Internal Order detail with approval columns](images/intord_detail_approval.png)
 
 ### Local approval process
 
@@ -238,13 +252,13 @@ Another option for implementing an approval step for Internal Orders is to enabl
 
 To set the permission, edit the user within mSupply and change to the `Open mSupply permissions` tab, shown below:
 
-![Internal Order detail with approval comment](/docs/replenishment/images/mSupply_intord_permission.png)
+![Internal Order detail with approval comment](images/mSupply_intord_permission.png)
 
 Without this option checked, the user will not be able to update the Internal Order status to `Sent` and the order is unable to be processed.
 
 On changing the status to `Sent`, the user's details are added to the comment field; this can be seen when viewing the Internal Order, in the detail panel:
 
-![Internal Order detail with approval comment](/docs/replenishment/images/intord_approval_comment.png)
+![Internal Order detail with approval comment](images/intord_approval_comment.png)
 
 and is also shown to the approver in the remote authorisation web application if that is being used.
 

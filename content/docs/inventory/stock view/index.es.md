@@ -19,11 +19,11 @@ Una de las tareas más importantes pero más fáciles en mSupply es verificar cu
 
 En el panel de navegación, ve a `Inventario` y toca en el submenú `Stock`:
 
-![Stock: nav](/docs/inventory/images/stock_gotostock.png)
+![Stock: nav](images/stock_gotostock.png)
 
 Se muestra una lista de tu inventario:
 
-![Stock: list](/docs/inventory/images/stock_viewstock.png)
+![Stock: list](images/stock_viewstock.png)
 
 La lista se divide en 8 columnas:
 
@@ -44,4 +44,4 @@ Puedes filtrar la lista por nombre o código del artículo. Esto puede ser útil
 
 Escribe parte del nombre o código del artículo en el campo `Ingresar código o nombre del artículo`:
 
-![Stock: search](/docs/inventory/images/stock_search.gif)
+![Stock: search](images/stock_search.gif)

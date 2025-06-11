@@ -17,11 +17,12 @@ top = false
 
 Open mSupply offers the following cold chain functionality: 
 
-- **Remote temperature monitoring**
-- **Cold Chain Equipment (CCE) inventory management**
+- **Remote temperature monitoring** 
+- **Cold chain equipment inventory management** 
+- **Gap analysis planning system for cold chain equipment**
 - **Compromised stock identification** 
 
-#### Remote temperature monitoring
+#### Remote temperature monitoring (RTM)
 
 Open mSupply allows health facilities to:
 - View temperature logs from fridges and freezers 
@@ -37,10 +38,10 @@ The methods currently supported are:
 - Connect [mSupply temperature sensors](https://msupply.foundation/open-msupply/cold-chain/#mSupplySensor) to Open mSupply via Bluetooth
 - Import data from Berlinger [Fridge-tags](https://www.berlinger.com/cold-chain-management/refrigerator-temperature-logger-solution-1) and [Q-tags](https://www.berlinger.com/shipment-monitoring-solutions) via USB (you can read more [here](https://www.berlinger.com/partnership-msupply)).
 
-#### Cold Chain Equipment inventory management
+#### Cold chain equipment inventory management (CCEI)
 
 Open mSupply allows health facilities to:
-- Capture details of CCE assets such as fridges, freezers and remote temperature monitoring devices
+- Capture details of cold chain equipment (CCE) such as fridges, freezers and remote temperature monitoring devices
 - View operation and maintenance manuals for CCE
 - Update CCE functional status
 - Record CCE maintenance logs
@@ -49,7 +50,16 @@ Central health authorities can:
 - View the location of CCE assets for all health facilities
 - Distribute CCE between health facilities
 - View aggregated CCE data, such as functional status, in a centralised web portal
+#### Gap analysis planning system (GAPS)
 
+Open mSupply includes a comprehensive CCE gap analysis module. 
+
+This provides EPI teams with the tools to: 
+- [Assess CCE capacity for the country](/docs/coldchain/gaps/#assessing-cce-capacity)
+- [Forecast the expected demand for CCE capacity over the next 5 years](/docs/coldchain/gaps/#forecasting-expected-demand-for-cce-capacity)
+- [Compare the current CCE capacity to the expected demand](/docs/coldchain/gaps/#comparing-cce-capacity-to-expected-demand)
+- [Identify facilities that will need intervention due to increased demand](/docs/coldchain/gaps/#identifying-facilities-that-need-intervention)
+- [Identify facilities that will need intervention due to CCE reaching end-of-life](/docs/coldchain/gaps/#identifying-facilities-that-need-intervention)
 #### Compromised stock identification
 
 Open mSupply allows health facilities to: 

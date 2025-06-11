@@ -18,11 +18,11 @@ top = false
 
 Para ver las configuraciones de sincronización, ve a `Admin` en la sección inferior del panel de navegación:
 
-![admin: nav](/docs/settings/images/admin_nav.png)
+![admin: nav](images/admin_nav.png)
 
 Verás la sección de sincronización debajo de las opciones de visualización:
 
-![admin: page](/docs/settings/images/administration.png)
+![admin: page](images/administration.png)
 
 ## Actualización de la configuración
 

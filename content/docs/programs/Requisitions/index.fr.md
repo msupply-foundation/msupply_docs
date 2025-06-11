@@ -32,11 +32,11 @@ Créons une commande interne par programme.
 
 1. Cliquez sur le bouton `Nouvelle commande` (en haut à droite) :
 
-![Internal Order: Nouvelle commande](/docs/replenishment/images/intord_newreqbutton.png)
+![Internal Order: Nouvelle commande](images/intord_newreqbutton.png)
 
 2. Si vous avez des programmes configurés, vous verrez un modèle différent de l’habituel :
 
-![Internal Order: new program order](/docs/programs/images/new_internal_order.png)
+![Internal Order: new program order](images/new_internal_order.png)
 
 Vous pouvez sélectionner ici :
 
@@ -57,7 +57,7 @@ Les programmes et la période de commande que vous voyez seront affectés par le
 
 Il y a plusieurs zones où vous verrez des informations supplémentaires lorsque vous utilisez une commande interne par programme.
 
-![Internal Order: program order](/docs/programs/images/internal_order_detail.png)
+![Internal Order: program order](images/internal_order_detail.png)
 
 1. Les boutons `Ajouter article` et `Ajouter article depuis une liste maître` sont désactivés. Les articles dans une commande interne par programme sont configurés dans le programme.
 2. Un message expliquant que vous ne pouvez pas modifier les valeurs MDS de la cible et du seuil de réordonnancement sur une commande interne par programme. Ces valeurs sont configurées par le programme.
@@ -67,7 +67,7 @@ Il y a plusieurs zones où vous verrez des informations supplémentaires lorsque
 
 La vue de liste a gagné quelques colonnes supplémentaires, montrant les données liées au programme :
 
-![Requisition: list](/docs/programs/images/requisition-list.png)
+![Requisition: list](images/requisition-list.png)
 
 - **Programmes**: le nom du programme pour lequel cette commande interne a été crééé
 - **Type de commande**: le nom du type de commande (généralement, une commande normale ou commande urgente)
@@ -75,4 +75,4 @@ La vue de liste a gagné quelques colonnes supplémentaires, montrant les donné
 
 Et la vue détaillée affiche également les renseignements sur le programme :
 
-![Requisition: detail](/docs/programs/images/requisition-detail.png)
+![Requisition: detail](images/requisition-detail.png)

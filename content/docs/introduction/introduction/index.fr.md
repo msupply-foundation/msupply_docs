@@ -123,4 +123,4 @@ Notons également que nous sommes en cours de test du processus de migration et 
    - Nom du site : tel que saisi lors de la [Creation de nouveaux Sync Sites](https://docs.msupply.org.nz/synchronisation:sync_sites#creating_new_sync_sites)
    - Mot de passe : tel que saisi lors de la [Creation de nouveaux Sync Sites](https://docs.msupply.org.nz/synchronisation:sync_sites#creating_new_sync_sites)
 
-![Initialisation](images-en/initialisation.png)
+![Initialisation](images/initialisation.png)

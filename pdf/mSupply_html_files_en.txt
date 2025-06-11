@@ -5,7 +5,7 @@ https://docs.msupply.foundation/docs/introduction/requirements/
 https://docs.msupply.foundation/docs/introduction/faq/
 https://docs.msupply.foundation/docs/introduction/troubleshooting/
 https://docs.msupply.foundation/docs/getting_started/mobile/
-https://docs.msupply.foundation/docs/getting_started/central/
+https://docs.msupply.foundation/docs/getting_started/central-server/
 https://docs.msupply.foundation/docs/getting_started/dashboard/
 https://docs.msupply.foundation/docs/getting_started/report/
 https://docs.msupply.foundation/docs/getting_started/tutorial/

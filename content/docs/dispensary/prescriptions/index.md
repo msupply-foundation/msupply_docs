@@ -27,7 +27,7 @@ To use prescriptions, ensure that your store is set to `Dispensary` mode (see th
 
 Choose `Dispensary` > `Prescription` in the navigation panel.
 
-![Go to Prescriptions](images-en/goto_prescriptions.png)
+![Go to Prescriptions](images/goto_prescriptions.png)
 
 You will be presented with a list of Prescriptions (if you don't see any, you are probably just starting!).
 
@@ -51,21 +51,21 @@ From this screen you can:
 
 2. The list can display a fixed number of prescriptions per page. On the bottom left corner, you can see how many prescriptions are currently displayed on your screen.
 
-![Page](images-en/os_list_showing.png)
+![Page](images/os_list_showing.png)
 
 3. If you have more prescriptions than the current limit, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner).
 
-![Page](images-en/os_list_pagenumbers.png)
+![Page](images/os_list_pagenumbers.png)
 
 4. You can also select a different number of rows to show per page using the option at the bottom right of the page.
 
-![Rows per page](images-en/rows-per-page-select.png)
+![Rows per page](images/rows-per-page-select.png)
 
 ### Searching for a prescription
 
 Prescriptions can be filtered by Status, Reference, Invoice Number, Dispensing Date, and Patient Name
 
-![Prescription Filters](images-en/prescription_filters.png)
+![Prescription Filters](images/prescription_filters.png)
 
 <div class="note">
 The invoice number filter requires an exact match so searching for "1" will not return invoices 10, 11, 12 etc.
@@ -75,7 +75,7 @@ The invoice number filter requires an exact match so searching for "1" will not 
 
 The list of Prescriptions can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page) and the file will be downloaded.
 The export function will download all Prescriptions, not just the current page, if you have more than 20 of them. Prescriptions are exported using sort order selected in the table, though of course you could easily sort the list in Excel or whatever you open the .csv file with.
-![Export button](images-en/export.png)
+![Export button](images/export.png)
 
 <div class="note">
 Export functionality is not available on Android devices.
@@ -93,9 +93,9 @@ You can delete a prescription from the Prescription list.
 You can only delete Prescriptions with a status <code>NEW</code> or <code>PICKED</code>. Verified prescriptions can be cancelled, but not deleted.
 </div>
 
-![Prescription list: delete](images-en/prescription_delete_step_1.png)
-![Prescription list: delete](images-en/prescription_delete_step_2.png)
-![Prescription list: delete](images-en/prescription_delete_step_3.png)
+![Prescription list: delete](images/prescription_delete_step_1.png)
+![Prescription list: delete](images/prescription_delete_step_2.png)
+![Prescription list: delete](images/prescription_delete_step_3.png)
 
 ## Creating a Prescription
 
@@ -103,18 +103,18 @@ You can only delete Prescriptions with a status <code>NEW</code> or <code>PICKED
 
 2. Press the `New Prescription` button, in the top right corner
 
-![New Prescription Button](images-en/click_new_prescription.png)
+![New Prescription Button](images/click_new_prescription.png)
 
 3. A new window opens, in which you can select a patient and other details for the prescription
 
-![New Prescription Window](images-en/prescriptions_new_prescription_name.png)
+![New Prescription Window](images/prescriptions_new_prescription_name.png)
 
 #### Select a Patient
 
 In the `New Prescription` window, you will be presented with a form to search for available patients. The patients list will load when you start typing - you can enter as much of the patient's name or code as you need.
 
 If no match is found a `Create new patient` button will appear. Clicking this will open a new window to create a new patient, before returning you to the Prescription window.
-![Create new patient pop up](images-en/prescriptions_new_prescription_no_match.png)
+![Create new patient pop up](images/prescriptions_new_prescription_no_match.png)
 
 <div class="note">
 If you have found a matching patient, but it's not the correct one, you can just press space a few times, to see the New Patient button.
@@ -135,15 +135,15 @@ After selecting a patient, and filling in any other relevant details, press the 
 If everything went well, you should see the name of your patient in the top left corner and the status should be <code>NEW</code> 
 </div>
 
-![Prescription: created](images-en/prescription_created.png)
+![Prescription: created](images/prescription_created.png)
 
 ### Edit the Patient Name
 
 If you have selected the wrong patient, you can change the patient name in the `Patient` field by typing some characters to search and then selecting from the dropdown list:
 
-![Change patient](images-en/prescription_change_patient_step_1.png)
-![Change patient](images-en/prescription_change_patient_step_2.png)
-![Change patient](images-en/prescription_change_patient_step_3.png)
+![Change patient](images/prescription_change_patient_step_1.png)
+![Change patient](images/prescription_change_patient_step_2.png)
+![Change patient](images/prescription_change_patient_step_3.png)
 
 You may need to type more of the patient's name or code if you have more than 100 patients for the patient's name to show on the dropdown list.
 
@@ -165,11 +165,11 @@ If you are using a large screen, the information panel will be automatically ope
 
 To open the Information Panel, you can tap on the `More` button, located in the top right corner of the Prescription view.
 
-![Open and close the Information Panel](images-en/prescription_infopanel_more.png)
+![Open and close the Information Panel](images/prescription_infopanel_more.png)
 
 You can close by tapping on the `X Close` button, on the top right corner of the information panel.
 
-![Open and close the Information Panel](images-en/prescription_infopanel_open.png)
+![Open and close the Information Panel](images/prescription_infopanel_open.png)
 
 #### Information Panel
 
@@ -200,12 +200,12 @@ The status sequence is located at the bottom left corner of the Prescription scr
 Passed statuses are highlighted in blue, next statuses appear in grey.
 
 <figure>
-<center><img src="images-en/prescription_statussequence1.png" style="width:40%"/></center>
+<center><img src="images/prescription_statussequence1.png" style="width:40%"/></center>
 <figcaption align="center">Status Sequence: current status is <code>NEW</code>.</figcaption>
 </figure>
 
 <figure>
-<center><img src="images-en/prescription_statussequence2.png" alt="Trulli" style="width:40%"/></center>
+<center><img src="images/prescription_statussequence2.png" alt="Trulli" style="width:40%"/></center>
 <figcaption align="center">Status Sequence: current status is </i><code>VERIFIED</code>.</figcaption>
 </figure>
 
@@ -223,7 +223,7 @@ If you hover over the status sequence, a prescription history window appears. Yo
 This prescription has been created, picked and verified on 18/08/2023
 </div>
 
-![Prescription status: hover](images-en/prescription_statussequence_hover.png)
+![Prescription status: hover](images/prescription_statussequence_hover.png)
 
 ### Close and Confirm button
 
@@ -246,11 +246,11 @@ When managing a Prescription, you can only confirm the Picked and Verified statu
 
 Tap on the `Add Item` button (top right corner) of the prescription window to begin adding items to the prescription.
 
-![Add Item button](images-en/prescription_add_item_button.png)
+![Add Item button](images/prescription_add_item_button.png)
 
 Once an item has been added to the prescription, you can also use the `New Item` button in the left hand panel to add an additional item.
 
-![New Item Button](images-en/prescription_new_item_button.png)
+![New Item Button](images/prescription_new_item_button.png)
 
 ### Select an Item
 
@@ -262,9 +262,9 @@ In the `Add Item` window, you can look up an item by:
 
 Once your item is highlighted, tap on the name or press `Enter`.
 
-![Adding an item to a prescription](images-en/prescription_additem_step_1.png)
-![Adding an item to a prescription](images-en/prescription_additem_step_2.png)
-![Adding an item to a prescription](images-en/prescription_additem_step_3.png)
+![Adding an item to a prescription](images/prescription_additem_step_1.png)
+![Adding an item to a prescription](images/prescription_additem_step_2.png)
+![Adding an item to a prescription](images/prescription_additem_step_3.png)
 
 Once the item is selected, you can see information about the item broken down into different sections
 
@@ -272,23 +272,24 @@ Once the item is selected, you can see information about the item broken down in
 
 This shows the item name and code.
 
-![alt text](images-en/prescription_item_section.png)
+![alt text](images/prescription_item_section.png)
 
 #### Quantity Section
 
 - the available batches for this item
 - the item's unit (eg. _Tablets_)
 
-![Quantity Section](images-en/prescription_qty_section.png)
+![Quantity Section](images/prescription_qty_section.png)
 
-##### Issuing stock
+### Issuing stock
 
 In the `Issue` field, you can enter the quantity that you want to issue to your patient.
-
 If you're recording [prescribed quantities](https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab), you can enter the prescribed quantity first, which will automatically populate the `Issue` field for you.
-![Prescribed Quantity](images-en/prescriptions_prescribed_qty.png)
+![Prescribed Quantity](images/prescriptions_prescribed_qty.png)
 
-The system will then attempt to automatically allocate the stock for the prescription.
+The system will then automatically allocate the stock for the prescription, with the stock expiring first being preferred.
+
+<div class="note">If you are issuing a vaccine item and the <a href="/docs/manage/facilities/#store-preferences">Sort available batches by VVM status then expiry</a> preference is enabled, then the stock lines are allocated in numerical order of the VVM status levels (level 1 lines are issued first). If there is more than one line with the same VVM status level, then of those lines the first line to expiry is selected (normal FEFO rules).</div>
 
 #### List of available batches:
 
@@ -303,38 +304,54 @@ This is a list of batch numbers that you have in store for this item:
 | **Available (units)** | Number of units available (not already allocated to other invoices)                     |
 | **Units Issued**      | Total quantity of units to be issued                                                    |
 
-![List of available batch numbers](images-en/prescription_additem_listofbatches.png)
+![List of available batch numbers](images/prescription_additem_listofbatches.png)
 
-### Issue a quantity
+#### Issue a quantity
 
 <div class="imagetitle">
 In the below example, we are issuing 1000 units of the item. All 1000 units will be taken from the same batch (first row). The other two batches was not selected because they are expired or on hold.
 </div>
 
-![Auto allocate 1000 units from single batch](images-en/prescription_additem_1.png)
-![Auto allocate 1000 units from single batch (Collapsed View)](images-en/prescription_additem_1_collapsed.png)
+![Auto allocate 1000 units from single batch](images/prescription_additem_1.png)
+![Auto allocate 1000 units from single batch (Collapsed View)](images/prescription_additem_1_collapsed.png)
 
 <div class="imagetitle">
 In this other example, we are issuing 11 units. System selects two batches with different pack sizes. 
 </div>
 
-![Allocated Item 2 Batches selected](images-en/prescription_additem_issueunitstwobatches.png)
-![Allocated Item 2 Batches selected (Collapsed View)](images-en/prescription_additem_issueunitstwobatches_collapsed.png)
+![Allocated Item 2 Batches selected](images/prescription_additem_issueunitstwobatches.png)
+![Allocated Item 2 Batches selected (Collapsed View)](images/prescription_additem_issueunitstwobatches_collapsed.png)
 
 #### Warnings
 
 You may see one or more warning messages on this screen:
 
-![Warning: can't allocate that many](images-en/prescription_warning_cant_allocate_more_than_we_have.png)
+![Warning: can't allocate that many](images/prescription_warning_cant_allocate_more_than_we_have.png)
 This warning tells you that you are trying to issue more units than you have in stock. You will need to reduce the quantity you are trying to issue, or add more stock to the system.
 
-![Warning: Partial Pack](images-en/prescription_warning_non-whole-packs.png)
+![Warning: Partial Pack](images/prescription_warning_non-whole-packs.png)
 
 This warning tells you that because of the available pack sizes, the quantity you are trying to issue would result in an a partial pack being issued. If do not want to split a pack, you'll need to enter a quantity that is a multiple of the pack size(s) available.
 
-![Warning: Expired stock](images-en/prescription_warning_on-hold.png)
+![Warning: Expired stock](images/prescription_warning_on-hold.png)
 
 This warning tells you that some of your stock is on hold and/or expired cannot be auto allocated.
+
+#### Issuing in doses
+
+Vaccine items can be dispensed in doses rather than units, if the [Manage vaccines in doses](/docs/manage/facilities/#store-preferences) store preference is enabled.
+
+The following quantity columns will be displayed instead when issuing a vaccine item:
+
+| Column               | Description                                                                                                                                                                  |
+| :------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **VVM Status**       | If the [Manage VVM status for stock](/docs/manage/facilities/#store-preferences) store preference is enabled, a column displaying the VVM status of this stock line is shown |
+| **Doses per [unit]** | The number of doses per unit (the label shown for unit will vary, as this comes from the item. An example is `Vial`)                                                         |
+| **[Unit]s in stock** | Total number of units (e.g. `Vials`) which are in stock at your store                                                                                                        |
+| **Doses Available**  | Total number of doses available in your store                                                                                                                                |
+| **Doses Issued**     | Total number of doses to be issued                                                                                                                                           |
+
+![List of available batch numbers with doses](images/prescription_additem_listofbatches_with_doses.png)
 
 ### Manual Allocation
 
@@ -344,8 +361,8 @@ This method also allows you to select expired batches, but not on hold batches.
 To select or adjust the selected batches, enter or edit the quantity in the `Units Issued` column.
 
 <figure>
-<img src="images-en/prescription_additem_manual_step_1.png">
-<img src="images-en/prescription_additem_manual_step_2.png">
+<img src="images/prescription_additem_manual_step_1.png">
+<img src="images/prescription_additem_manual_step_2.png">
 <figcaption align="center"><i>Manual allocation at the batch number level.</i></figcaption>
 </figure>
 
@@ -356,16 +373,16 @@ There are 3 ways to enter directions
 
 1. You can select default item directions from the dropdown list [(See mSupply Docs for item directions configuration)](https://docs.msupply.org.nz/items:item_basics:tab_dispensing?#default_directions)
 
-![Default Item Directions](images-en/prescriptions_default_item_directions.png)
+![Default Item Directions](images/prescriptions_default_item_directions.png)
 
 2. You can enter a set or abbreviated directions in the text box which will be expanded to the full directions field
    [(See mSupply Docs for abbreviation configuration)](https://docs.msupply.org.nz/dispensing:abbreviations)
 
-![Abbreviation Expansion](images-en/prescriptions_abbr_expansion.png)
+![Abbreviation Expansion](images/prescriptions_abbr_expansion.png)
 
 3. You can enter or modify the directions in the text box
 
-![Manually entering directions](images-en/prescription_manual_directions.png)
+![Manually entering directions](images/prescription_manual_directions.png)
 
 ### Confirm Item, Quantity and other details
 
@@ -405,9 +422,9 @@ To edit a prescription line, tap on it. You will be presented with the `Edit Ite
 In the below example, we are deleting <i>item 088882 - Ibuprofen 200mg tablets</i>
 </div>
 
-![Alt Text](images-en/prescription_delete_lines_step_1.png)
-![Alt Text](images-en/prescription_delete_lines_step_2.png)
-![Alt Text](images-en/prescription_delete_lines_step_3.png)
+![Alt Text](images/prescription_delete_lines_step_1.png)
+![Alt Text](images/prescription_delete_lines_step_2.png)
+![Alt Text](images/prescription_delete_lines_step_3.png)
 
 <div class="tip">
 You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
@@ -417,14 +434,14 @@ You can delete multiple lines at once. Be sure to review what is selected before
 
 A prescription can be backdated by changing the Date field in the header. This must be done before adding items to the prescription.
 
-![Prescription Date UI Control](images-en/prescription_backdate_highlight.png)
+![Prescription Date UI Control](images/prescription_backdate_highlight.png)
 
 #### Stock Levels
 
 When adding items to a backdated prescription, the available stock will be adjusted to what was available at that date (and hasn't been used since).
 The other fields still show the current state of the system.
 
-![Backdating a Prescription, stock levels](images-en/prescription_backdate_stock_levels.png)
+![Backdating a Prescription, stock levels](images/prescription_backdate_stock_levels.png)
 
 <div class="tip">
 If some stock you are expecting to see doesn't show as available, use the <a href="/docs/inventory/stock-view/#ledger-tab">Ledger</a> in Inventory -> Stock to see when that stock was received.
@@ -434,7 +451,7 @@ If some stock you are expecting to see doesn't show as available, use the <a hre
 
 If you have already assigned stock to a prescription, and then you change the date of the prescription, you will see this warning:
 
-![Backdating a Prescription - Delete lines](images-en/prescription_backdate_delete_lines.png)
+![Backdating a Prescription - Delete lines](images/prescription_backdate_delete_lines.png)
 
 The system needs to recalculate the available stock levels based on the new date, so existing lines will be removed and you'll need to add them again. Therefore, it is recommended to set the date before adding items to the prescription!
 
@@ -468,8 +485,8 @@ Once the prescription has been confirmed:
 
 Open mSupply has basic label printing that will be improved with more flexibility in the future.
 
-![Prescription label](images-en/prescription_label.jpg)
-![Prescription abbreviation](images-en/prescription_abbreviation.png)
+![Prescription label](images/prescription_label.jpg)
+![Prescription abbreviation](images/prescription_abbreviation.png)
 
 ### Getting started
 
@@ -481,13 +498,13 @@ To begin printing labels, first ensure that you have configured a printer in [Se
 
 For each item in the prescription you'll need to define item directions to be printed on the labels. These can be entered manually, with abbreviations or default item directions.
 
-See the [Directions](/dispensary/prescriptions/#directions) section for more information.
+See the [Directions](#directions) section for more information.
 
 ### Printing All
 
 When viewing the overall prescription, you'll see that lines that have directions will have a comment bubble icon. Once all the directions are entered on all the lines, this is a good time to print all your labels! Press the `Print Labels` button at the top of the page.
 
-![Prescription label print all](images-en/prescription_page.png)
+![Prescription label print all](images/prescription_page.png)
 
 Note: If you have multiple batches of the same item, only 1 label will be printed with the total number of units across the batches noted in the top line of the label.
 
@@ -495,7 +512,7 @@ Note: If you have multiple batches of the same item, only 1 label will be printe
 
 You can select individual rows in the prescription to print labels for by ticking the column on the left, then pressing `Print Labels` in the action bar at the bottom of the screen.
 
-![Prescription label row action](images-en/prescription_print_label_row.png)
+![Prescription label row action](images/prescription_print_label_row.png)
 
 ### Troubleshooting
 
@@ -525,16 +542,16 @@ Batches are automatically grouped by item when viewing a specific prescription. 
 
 For example, the Paracetamol 500mg tabs shown here, has three batches allocated. Click the expand icon in the row to see the details:
 
-![Group by Item](images-en/prescription_group_by_item_step_1.png)
-![Group by Item](images-en/prescription_group_by_item_step_2.png)
+![Group by Item](images/prescription_group_by_item_step_1.png)
+![Group by Item](images/prescription_group_by_item_step_2.png)
 
 If you do not have enough room on your screen, or simply aren't interested in some of the columns shown, you have the option of hiding which columns are shown in this view.
 
 Click on the `Show / hide columns` button which is at the top right of the table. This gives a list of the columns available - you can check the columns you want to see. The options chosen are stored for the current browser, so next time you view a Prescription, you will see the selected columns only. If you have chosen which columns to show, then the button is shown in blue to remind you that there are more columns available.
 
-![Hide columns](images-en/prescription_columns_step_1.png)
-![Hide columns](images-en/prescription_columns_step_2.png)
-![Hide columns](images-en/prescription_columns_step_3.png)
+![Hide columns](images/prescription_columns_step_1.png)
+![Hide columns](images/prescription_columns_step_2.png)
+![Hide columns](images/prescription_columns_step_3.png)
 
 If some columns are hidden, you can click `Show all` to show all of the columns again.
 
@@ -543,21 +560,21 @@ If some columns are hidden, you can click `Show all` to show all of the columns 
 If a prescription has already been verified it can't be deleted, but it can be cancelled.
 
 This is done in the Side panel actions section.
-![Cancel Prescription](images-en/prescriptions_cancel_button.png)
+![Cancel Prescription](images/prescriptions_cancel_button.png)
 
 Once a prescription is cancelled, it will still show in the list of prescriptions, but with a status of `CANCELLED`.
 
-![Example Canceled Prescription](images-en/prescription_cancelled.png)
+![Example Canceled Prescription](images/prescription_cancelled.png)
 
 ## Payment
 
 1. Once you're finished entering the items for the Prescription, click the `Confirm Verified` button.
 
-   ![Prescription Confirm Verified](images-en/prescription_confirm_verified.png)
+   ![Prescription Confirm Verified](images/prescription_confirm_verified.png)
 
 2. If there is a non-zero sell price for the items in the prescription, A new window will appear for you to enter the payment details for the patient's prescription.
 
-   ![Prescription Payment Modal](images-en/prescription_payment_modal.png)
+   ![Prescription Payment Modal](images/prescription_payment_modal.png)
 
 3. Click the `Save` button once everything is done.
 
@@ -569,14 +586,14 @@ If there are available insurances policies for your patients, you can indicate t
 
 1. Once you're finished entering the items for the Prescription, click the `Confirm Verified` button.
 
-   ![Insurance Confirm Verified](images-en/prescription_confirm_verified.png)
+   ![Insurance Confirm Verified](images/prescription_confirm_verified.png)
 
 2. Click the dropdown for the Insurance Policy and select the insurance to be used.
 
-   ![Insurance Select Scheme](images-en/insurance_select_provider_modal.png)
+   ![Insurance Select Scheme](images/insurance_select_provider_modal.png)
 
 3. The discount amount and amount paid by the insurance will automatically display after selecting an insurance.
 
-   ![Insurance Covered](images-en/insurance_covered.png)
+   ![Insurance Covered](images/insurance_covered.png)
 
 4. Click the `Save` button once everything is done.

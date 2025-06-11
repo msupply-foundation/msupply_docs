@@ -27,7 +27,7 @@ All goods returned by a customer should be recorded in mSupply with a Customer R
 
 Choose `Distribution` > `Customer Returns` in the navigation panel.
 
-![go to Customer Return](/docs/distribution/images/gotoir.png)
+![go to Customer Return](images/gotoir.png)
 
 You will be presented with a list of Customer Returns if some have been created already.
 
@@ -51,16 +51,8 @@ From this screen you can:
 | **Reference** | Customer reference             |
 
 1. The list can display a fixed number of returns per page. On the bottom left corner, you can see how many returns are currently displayed on your screen.
-
-![Page](../../images/list_showing.png)
-
-3. If you have more returns than the current limit, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner).
-
-![Page](../../images/list_pagenumbers.png)
-
-4. You can also select a different number of rows to show per page using the option at the bottom right of the page.
-
-![Rows per page](../../images/rows-per-page-select.png)
+2. If you have more returns than the current limit, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner).
+3. You can also select a different number of rows to show per page using the option at the bottom right of the page.
 
 ### Search by Customer Name
 
@@ -68,13 +60,13 @@ You can filter the list of returns by customer name or by status. This can be us
 
 For example: Select the `Name` filter from the list to filter by the customer name. Type the name of a customer in the `Name` field. All the returns for this customer will appear in the list.
 
-![Customer Return filter](/docs/distribution/images/ir_filter.gif)
+![Customer Return filter](images/ir_filter.gif)
 
 ### Exporting Customer Returns
 
 The list of Customer Returns can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page)
 
-![Export button](/docs/distribution/images/export.png)
+![Export button](images/export.png)
 
 and the file will be downloaded. The export function will download all Customer Returns, not just the current page, if you have more returns than the current page limit.
 
@@ -92,7 +84,7 @@ You can delete a return from the Customer Return list.
 You can only delete Customer Returns if they have a status of <code>NEW</code>.
 </div>
 
-![Inbound list: delete](/docs/distribution/images/delete-customer-return.gif)
+![Inbound list: delete](images/delete-customer-return.gif)
 
 ## Creating a Customer Return
 
@@ -108,7 +100,7 @@ Often, you will be processing the return of goods that you sent via an Outbound 
 
 2. Press the `New Return` button, in the top right corner
 
-![New Return](/docs/distribution/images/ir_newreturn.png)
+![New Return](images/ir_newreturn.png)
 
 3. A new window `Customers` opens, inviting you to select a customer.
 
@@ -120,10 +112,10 @@ Often, you will be processing the return of goods that you sent via an Outbound 
 In the below example, we are wanting to receive returned stock from <b>Slytherin Clinic</b>. 
 </div>
 
-![Create Customer Return](/docs/distribution/images/ir_create.gif)
+![Create Customer Return](images/ir_create.gif)
 
 <div class="tip">
-You can tell if a customer is also using Open mSupply in their store. If they do, you will see an icon like this <img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto"> next to the customer code. 
+You can tell if a customer is also using Open mSupply in their store. If they do, you will see an icon like this <img src="images/is_msupplystoreicon.png" alt="Store" style="width:auto"> next to the customer code. 
 </div>
 
 2. Once you tap or press `Enter`, or click on a customer, your Customer Return is automatically created
@@ -152,7 +144,7 @@ To open the Information Panel, you can tap on the `More` button, located in the 
 
 You can close by tapping on the `X Close` button, on the top right corner of the information panel.
 
-![Open and close the Information Panel](/docs/distribution/images/ir_sidepanel.gif)
+![Open and close the Information Panel](images/ir_sidepanel.gif)
 
 #### Additional Info
 
@@ -185,16 +177,6 @@ The status sequence is located at the bottom left corner of the Customer Return 
 
 Passed statuses are hightlighted in blue, next statuses appear in grey.
 
-<figure>
-<img src="/docs/distribution/images/ir_statussequence.png" alt="Customer Return Status Sequence (New)" style="width:100%">
-<figcaption align="center">Status Sequence: current status is <code>NEW</code>.</figcaption>
-</figure>
-
-<figure>
-<img src="/docs/distribution/images/ir_statussequence2.png" alt="Customer Return Status Sequence (Shipped)" style="width:100%">
-<figcaption align="center">Status Sequence: current status is </i><code>SHIPPED</code>.</figcaption>
-</figure>
-
 There are 5 status for the Customer Return:
 
 | Status        | Description                                                                                                           |
@@ -207,36 +189,31 @@ There are 5 status for the Customer Return:
 
 You probably noticed that two of the status values only apply to automatically created returns. These are created by the system when another store in the system creates a Supplier Return to return stock to your store. If this is the case you'll see a message near the top of the page:
 
-![Automatic IS message](/docs/distribution/images/ir_message_automatic.png)
+![Automatic IS message](images/ir_message_automatic.png)
 
 Note that this message appears differently if the status is `Delivered` or `Verified`
 
-![Automatic IS message: delivered](/docs/distribution/images/ir_message_automatic_delivered.png)
+![Automatic IS message: delivered](images/ir_message_automatic_delivered.png)
 
 If, however, you've created an Customer Return manually, then the following message shows:
 
-![Manual IS message](/docs/distribution/images/ir_message_manual.png)
+![Manual IS message](images/ir_message_manual.png)
 
 and you'll see that the status bar has only the status values which apply to this Customer Return.
 
-<figure align="center">
-    <img src="/docs/distribution/images/ir_statussequence_manual.png" alt="Inbound Shipment Status Sequence (New & manual)" style="width:60%">
-    <figcaption align="center">Status Sequence: current status is </i><code>New</code>.</figcaption>
-</figure>
+!()[images/ir_statussequence_manual.png]
 
 If you hover over the status sequence, a return history window appears. You can see the date when a return was updated from one status to another.
 
-<div class="imagetitle">
-This manual return has been created on 28/03/2024
-</div>
+<div class="imagetitle">This manual return has been created on 28/03/2024</div>
 
-![Inbound status: hover 2](/docs/distribution/images/ir_status_sequence_hover_manual.png)
+![Inbound status: new](images/ir_status_sequence_hover_manual.png)
 
 <div class="imagetitle">
 This automatic return has been created, picked and shipped on the 26/03/24
 </div>
 
-![Inbound status: hover](/docs/distribution/images/ir_status_sequence_hover_auto.png)
+![Inbound status: hover](images/ir_status_sequence_hover_auto.png)
 
 ### Hold checkbox
 
@@ -244,7 +221,7 @@ Located on the bottom left corner, on the left of the status sequence.
 
 Checking the `Hold` checkbox prevents the Customer Return from being updated to the next status.
 
-![Inbound checkbox](/docs/distribution/images/os_holdcheckbox.png)
+![Inbound checkbox](../../images/holdcheckbox.png)
 
 ### Close and Confirm button
 
@@ -267,13 +244,13 @@ For manual Customer Returns, you don't have to update to the next status in the 
 
 As demonstrated below, tap on the down arrow of the `Confirm` button and select the status you want the return to be updated to.
 
-![Skip Status](/docs/distribution/images/ir_confirm_skip_status.gif)
+![Skip Status](images/ir_confirm_skip_status.gif)
 
 ## Adding lines to a Customer Return
 
 Tap on the `Add Item` button (top right corner).
 
-![Add Item button](/docs/distribution/images/ir_additembutton.png)
+![Add Item button](images/ir_additembutton.png)
 
 ### Select an Item
 
@@ -285,7 +262,7 @@ A new `Add Item` window opens. In the `Add Item` window, you can look up an item
 
 Once your item is highlighted, tap on the name or press `Enter`.
 
-![Select an item](/docs/distribution/images/ir_additem.gif)
+![Select an item](images/ir_additem.gif)
 
 #### Select quantities step
 
@@ -301,7 +278,7 @@ In the `Select Quantities` step, you can enter the following fields:
 
 If you are receiving more than one batch number for the same item, you can add lines with the `Add Batch` button.
 
-![List of batches](/docs/distribution/images/ir_list_of_batches.png)
+![List of batches](images/ir_list_of_batches.png)
 
 #### Warnings
 
@@ -309,7 +286,7 @@ You may see one or more warning messages on this screen.
 
 If you forget to enter a `Quantity Returned` for any batch and click `Next step`, you will see this warning message. You'll need to add a returned quantity for at least one batch. You can click `Cancel` if you no longer want to process the return of any of this stock.
 
-![return quantity warning!](/docs/distribution/images/ir_addquantities_warning.png)
+![return quantity warning!](images/ir_addquantities_warning.png)
 
 ### Provide Reasons
 
@@ -321,7 +298,7 @@ Return reasons are configured on the mSupply central server via **[options](http
 
 When you are happy with the batch info and return quantities, you can press the `Next step` button. The list of batches will be filtered to only include the batches you set a return quantity for. In this view, you can enter a reason for the return of each batch, and an additional comment.
 
-![Provide return reasons](/docs/distribution/images/ir_additem_returnstep.png)
+![Provide return reasons](images/ir_additem_returnstep.png)
 
 ### Confirm
 
@@ -352,7 +329,7 @@ If you set the Quantity Returned to `0`, that line will be removed from the retu
 
 If you set all return quantities to `0`, and click `Next step` you will see this warning message. It is informing you that no return quantities were provided; from here you can click `OK` again to confirm, in which case the window will close and all lines for that item will be removed.
 
-![no quantities warning!](/docs/distribution/images/ir_edit_noquantities.png)
+![no quantities warning!](images/ir_edit_noquantities.png)
 
 <div class="note">
  <b></b> When editing a return line, you cannot change the item. You would need to delete the return line and create a new one. 
@@ -368,7 +345,7 @@ If you set all return quantities to `0`, and click `Next step` you will see this
 In the below example, we are deleting two lines
 </div>
 
-![Deleting customer return lines](/docs/distribution/images/delete-customer-return-line.gif)
+![Deleting customer return lines](images/delete-customer-return-line.gif)
 
 <div class="tip">
  <b></b> You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
@@ -393,7 +370,7 @@ Once you have done this:
 In case your Customer Return is <b>automatic</b>, you cannot confirm its delivery unless the customer has confirmed its shipment. In other words, your return status has to be <code>SHIPPED</code> before you can confirm that you have received the returned goods. 
 </div>
 
-![Alt Text](/docs/distribution/images/ir_confirmdelivered.gif)
+![Alt Text](images/ir_confirmdelivered.gif)
 
 ### Verify your Customer Return
 
@@ -420,7 +397,7 @@ To change the view mode, click the `Group by item` switch.
 
 When grouped by item, you can expand the item to see individual batches, or use the expand in the table header to expand all grouped rows.
 
-![Group by Item](/docs/distribution/images/ir_group_by_item.gif)
+![Group by Item](images/ir_group_by_item.gif)
 
 If you do not have enough room on your screen, or simply aren't interested in some of the columns shown, you have the option of hiding which columns are shown in this view.
 
@@ -430,4 +407,4 @@ Click on the `Show / hide columns` button which is at the top right of the table
 In the below example, we hide the batch, expiry and unit quantity columns
 </div>
 
-![Hide columns](/docs/distribution/images/ir_filter_columns.gif)
+![Hide columns](images/ir_filter_columns.gif)

@@ -17,7 +17,7 @@ top = false
 
 Sélectionnez `Chaîne du froid > Capteurs` dans le panneau de navigation.
 
-![goto sensors](/docs/coldchain/images/goto_sensors.png)
+![goto sensors](images/goto_sensors.png)
 
 Une liste de capteurs s'affiche (si vous n'en voyez aucun, c'est peut-être que vous n'avez pas importé de données ou intégré l'application de la chaîne du froid).
 
@@ -25,7 +25,7 @@ Une liste de capteurs s'affiche (si vous n'en voyez aucun, c'est peut-être que 
 
 ### Liste des capteurs
 
-![Sensor list](/docs/coldchain/images/sensor_list.png)
+![Sensor list](images/sensor_list.png)
 
 1. La liste des capteurs est divisée en 9 colonnes
 
@@ -43,21 +43,21 @@ Une liste de capteurs s'affiche (si vous n'en voyez aucun, c'est peut-être que 
 
 1. Le nombre de capteurs affichés par page est limité. Vous pouvez voir en bas à gauche le nombre de capteurs actuellement affichés sur votre écran.
 
-![Page](/docs/introduction/images/list_showing.png)
+![Page](images/list_showing.png)
 
 2. Si vous avez plus de capteurs que la limite actuelle, vous pouvez naviguer vers les autres pages en appuyant sur le numéro de page ou en utilisant les flèches droite et gauche (coin inférieur droit).
 
-![Page](/docs/introduction/images/list_pagenumbers.png)
+![Page](images/list_pagenumbers.png)
 
 3. YVous pouvez également sélectionner un nombre différent de lignes à afficher par page en utilisant l'option en bas à droite de la page.
 
-![Rows per page](../../images/rows-per-page-select.png)
+![Rows per page](images/rows-per-page-select.png)
 
 ### Modification d'un capteur
 
 En cliquant sur une ligne de la liste, vous accédez aux détails de ce capteur
 
-![Sensor details](/docs/coldchain/images/sensor_details.png)
+![Sensor details](images/sensor_details.png)
 
 Sur cet écran, vous pouvez :
 

@@ -21,13 +21,13 @@ Pour utiliser les programmes pour patients, assurez-vous que votre dépot est r�
 Vous devrez également activer la préférence de dépot pour le module de programme `Open mSupply: Uses program module`.
 Cette préférence est compatible avec Open mSupply `v1.2.0+` et mSupply `v7-07-00-beta9+`.
 
-![Store preference](/docs/programs/images/program_pref.png)
+![Store preference](images/program_pref.png)
 
 Vous devrez également activer les autorisations d’utilisateur indiquées ci-dessous sur le serveur central :
 
 <div class="note">Voici un exemple des autorisations requises pour qu’un utilisateur puisse afficher et gérer les fonctionnalités spécifiques d’un programme. Les autorisations requises peuvent varier en fonction de vos configurations.</div>
 
-![User permissions](/docs/programs/images/program_user_permissions.png)
+![User permissions](images/program_user_permissions.png)
 
 <div class="note">Le module Patient Programs est hautement personnalisable et peut avoir un aspect différent selon vos configurations. Veuillez contacter votre administrateur pour les personnalisations.</div>
 
@@ -35,7 +35,7 @@ Vous devrez également activer les autorisations d’utilisateur indiquées ci-d
 
 Une nouvelle colonne intitulée `Inscriptions au Programme` sera ajoutée à la liste des patients pour indiquer les programmes auxquels le patient est inscrit si le module Programmes pour patients a été activé. 
 
-![Program Enrolments](/docs/programs/images/patient_enrolment_column.png)
+![Program Enrolments](images/patient_enrolment_column.png)
 
 #### Consultation d’un patient
 
@@ -45,7 +45,7 @@ Il y a quatre onglets sur la page informations du patient :
 
 La page d'information du patient sera très différente de la page d'information du patient standard. Cette vue est hautement personnalisable et peut être adaptée à des besoins spécifiques. Veuillez contacter votre administrateur si vous souhaitez personnaliser cette vue.
 
-![Patient detail](/docs/programs/images/patient_detail_view.gif)
+![Patient detail](images/patient_detail_view.gif)
 
 2. **Programmes**: Cet onglet contient les programmes auxquels le patient est inscrit.
 
@@ -61,7 +61,7 @@ Cet onglet de programme affichera 5 colonnes :
 | **Statut du programme**  | Le statut du programme  |
 | **Date d'inscription** | La date à laquelle le patient a été inscrit au programme |
 
-![Programs](/docs/programs/images/patient_program_tab.png)
+![Programs](images/patient_program_tab.png)
 
 3. **Rencontres**: Cet onglet contient les rencontres que le patient a eues.
 
@@ -78,7 +78,7 @@ Cet onglet des rencontres affichera 6 colonnes :
 | **Fin** | La fin du rendez-vous |
 | **Informations complémentaires** | Affiche des renseignements supplémentaires sur la rencontre. _Rencontre prévue_ signifie que le rendez-vous pour cette rencontre a été fixé. |
 
-![Encounters](/docs/programs/images/patient_encounter_tab.png)
+![Encounters](images/patient_encounter_tab.png)
 
 4. **recherche de contacts**: Cet onglet contient les informations de suivi des contacts pour le patient.
 
@@ -96,11 +96,11 @@ Cet onglet de suivi des contacts affichera 7 colonnes :
 | **Relation** | La relation du contact avec le patient  |
 | **Âge** | L’âge du contact  |
 
-![Contact Tracing](/docs/programs/images/patient_contact_tracing_tab.png)
+![Contact Tracing](images/patient_contact_tracing_tab.png)
 
 Il y a aussi un bouton `Historique` dans le coin inférieur gauche de la page des informations du patient. Cliquer sur ce bouton vous montrera un historique simple des modifications apportées au dossier du patient.
 
-![Patient History](/docs/programs/images/patient_history.png)
+![Patient History](images/patient_history.png)
 
 ### Programme
 
@@ -110,9 +110,9 @@ Les patients peuvent être inscrits à un programme qui est pertinent pour leur 
 
 Pour inscrire un patient à un programme, cliquez sur le bouton  `Ajouter Programme` dans le coin supérieur droit de l’écran ou cliquez sur la flèche vers le bas à côté du bouton et sélectionnez `Ajouter Programme` si le bouton ne dit pas `Ajouter Programme`. Une nouvelle fenêtre s’affiche pour sélectionner le programme dans lequel vous souhaitez inscrire le patient. Les programmes auxquels le patient est déjà inscrit seront grisés. 
 
-![Add Program](/docs/programs/images/add_program_button.png)
+![Add Program](images/add_program_button.png)
 
-![Add Program](/docs/programs/images/select_program_enrolment.png)
+![Add Program](images/select_program_enrolment.png)
 
 Après avoir sélectionné le programme, une autre fenêtre s’affiche pour que vous puissiez saisir des renseignements spécifiques au programme. 
 
@@ -120,7 +120,7 @@ Après avoir sélectionné le programme, une autre fenêtre s’affiche pour que
 Dans cet exemple, nous inscrivons le patient au programme de soins et de traitement du VIH.
 </div>
 
-![Program Enrolment](/docs/programs/images/hiv_enrolment_form.gif)
+![Program Enrolment](images/hiv_enrolment_form.gif)
 
 ### Rencontre
 
@@ -130,7 +130,7 @@ Une rencontre est une visite enregistrée du patient et de son traitement dans l
 
 Allez à la section `Dispensaire` > `Rencontres` pour voir la liste des rencontres.
 
-![Encounter Navigation](/docs/programs/images/dispensary_gotoencounters.png)
+![Encounter Navigation](images/dispensary_gotoencounters.png)
 
 La liste des rencontres est divisée en 8 colonnes : 
 
@@ -147,19 +147,19 @@ La liste des rencontres est divisée en 8 colonnes :
 
 Cliquer sur une rencontre vous mènera aux détails de la rencontre.
 
-![Encounter List](/docs/programs/images/encounter_list.png)
+![Encounter List](images/encounter_list.png)
 
 #### Ajouter une rencontre
 
 Pour ajouter une rencontre pour le patient, cliquez sur le bouton `Ajouter rencontre` dans le coin supérieur droit de l’écran. Cliquez sur la flèche vers le bas à côté du bouton et sélectionnez `Ajouter rencontre` si le bouton ne dit pas `Ajouter rencontre`.
 
-![Add Encounter](/docs/programs/images/add_encounter_button.gif)
+![Add Encounter](images/add_encounter_button.gif)
 
 Une fenêtre s’ouvrira pour que vous puissiez sélectionner la rencontre (cette sélection varie selon les programmes auxquels le patient est inscrit), la date de visite, le prescripteur et ajouter des notes pour cette rencontre.
 
 <div class="imagetitle">Dans l’exemple ci-dessous, nous créons une rencontre de soins sur le VIH</div>
 
-![Add Encounter](/docs/programs/images/add_encounter.gif)
+![Add Encounter](images/add_encounter.gif)
 
 Si la rencontre a lieu dans l’heure précédente, vous serez redirigé vers la page de rencontre ; sinon, vous serez redirigé vers l’onglet de rencontre dans la vue détaillée du patient.
 
@@ -171,15 +171,15 @@ Une rencontre peut avoir trois statuts :
 - **Consulté**: La rencontre est terminée.
 - **Annulé**: La rencontre a été annulée.
 
-![Encounter](/docs/programs/images/encounter_header.png)
+![Encounter](images/encounter_header.png)
 
 - Le panneau latéral (ouvert en cliquant sur `Plus` dans le coin supérieur droit) contient des renseignements supplémentaires, comme les rencontres précédentes.
 
-![Encounter](/docs/programs/images/encounter_side_panel.png)
+![Encounter](images/encounter_side_panel.png)
 
 <div class="imagetitle">Dans cet exemple, nous regardons la rencontre de soins sur le VIH</div>
 
-![Encounter](/docs/programs/images/encounter_detail_view.png)
+![Encounter](images/encounter_detail_view.png)
 
 ### Traçage des contacts
 
@@ -189,26 +189,26 @@ Le traçage des contacts est le processus d’identification de personnes qui on
 
 Pour ajouter un contact pour un patient, cliquez sur le bouton `Ajouter Contact` dans le coin supérieur droit de l’écran. Cliquez sur la flèche vers le bas à côté du bouton et sélectionnez `Ajouter Contact` si le bouton ne dit pas `Ajouter Contact`.
 
-![Add Contact](/docs/programs/images/add_contact_button.png)
+![Add Contact](images/add_contact_button.png)
 
 Une fenêtre s’ouvrira, vous invitant à sélectionner le type de contact que vous voulez ajouter. À l’heure actuelle, seul le test de dépistage du VIH par les partenaires est disponible. Cliquez sur OK pour continuer.
 
-![Add Contact](/docs/programs/images/contact_tracing_modal.png)
+![Add Contact](images/contact_tracing_modal.png)
 
 #### Modifier un contact
 
-![Edit Contact](/docs/programs/images/contact_trace.gif)
+![Edit Contact](images/contact_trace.gif)
 
 #### Liaison d’un contact à un patient
 
 Une fois qu’un contact a été ajouté à mSupply, il peut être lié au patient qui est entré en contact avec lui. Cliquez sur le bouton `Lien vers Patient` en haut à droite de l’écran.
 
-![Link to Patient](/docs/programs/images/link_to_patient_button.png)
+![Link to Patient](images/link_to_patient_button.png)
 
 Cela ouvrira une fenêtre de recherche où vous pourrez rechercher le patient souhaité par son prénom, son nom ou son ID. Une fois le patient trouvé, cliquez sur le patient pour le lier au contact.
 
-![Link to Patient](/docs/programs/images/link_to_patient.gif)
+![Link to Patient](images/link_to_patient.gif)
 
 Si le patient est déjà lié au contact, mais que vous voulez changer de patient parce que vous avez lié le mauvais patient, cliquez sur le bouton `Délier Patient` en haut à droite de l’écran.
 
-![Unlink Patient](/docs/programs/images/unlink_patient.png)
+![Unlink Patient](images/unlink_patient.png)

@@ -25,7 +25,7 @@ Si has usado mSupply en el pasado, es posible que estés familiarizado con el t�
 
 Selecciona `Reabastecimiento` > `Devoluciones al Proveedor` en el panel de navegación.
 
-![gotooor](/docs/replenishment/images/gotoor.png)
+![gotooor](images/gotoor.png)
 
 Se mostrará una lista de Devoluciones al Proveedor (si no ves ninguna, ¡probablemente apenas estés comenzando!)
 
@@ -50,22 +50,22 @@ Desde esta pantalla puedes:
 
 2. La lista puede mostrar un número fijo de devoluciones por página. En la esquina inferior izquierda, puedes ver cuántas devoluciones se muestran actualmente en tu pantalla.
 
-![Page](../../images/list_showing.png)
+![Page](images/list_showing.png)
 
 3. Si tienes más devoluciones que el límite actual, puedes navegar a otras páginas tocando el número de página o usando las flechas derecha o izquierda (esquina inferior derecha).
 
-![Page](../../images/list_pagenumbers.png)
+![Page](images/list_pagenumbers.png)
 
 4. También puedes seleccionar un número diferente de filas para mostrar por página utilizando la opción en la esquina inferior derecha de la página.
 
-![Rows per page](../../images/rows-per-page-select.png)
+![Rows per page](images/rows-per-page-select.png)
 
 ### Buscar por Nombre del Proveedor
 
 Puedes filtrar la lista de devoluciones por nombre del proveedor o por estado. ¡Esto puede ser útil si buscas una devolución en particular!
 Selecciona el filtro `Nombre` de la lista para filtrar por el nombre del proveedor:
 
-![Supplier Return filter](/docs/replenishment/images/or_filter.png)
+![Supplier Return filter](images/or_filter.png)
 
 Escribe el nombre de un proveedor en el campo `Nombre`. Todas las devoluciones asociadas a este proveedor aparecerán en la lista.
 
@@ -73,7 +73,7 @@ Escribe el nombre de un proveedor en el campo `Nombre`. Todas las devoluciones a
 
 La lista de devoluciones al proveedor se puede exportar a un archivo separado por comas (csv). Simplemente haz clic en el botón de exportar (ubicado a la derecha, en la parte superior de la página)
 
-![Export button](/docs/distribution/images/export.png)
+![Export button](images/export.png)
 
 y el archivo se descargará. La función de exportación descargará todas las devoluciones al proveedor, no solo la página actual, si tienes más de 20 devoluciones.
 
@@ -91,7 +91,7 @@ Puedes eliminar una devolución desde la lista de devoluciones al proveedor.
 Solo puedes eliminar devoluciones al proveedor si no han sido marcadas como <code>ENVIADAS</code>.
 </div>
 
-![Outbound list: delete](/docs/replenishment/images/or_delete.gif)
+![Outbound list: delete](images/or_delete.gif)
 
 ## Crear una devolución al proveedor
 
@@ -105,7 +105,7 @@ A menudo, devolverás mercancías que recibiste mediante una entrada. En este ca
 
 2. Pulsa el botón `Nueva Devolución`, en la esquina superior derecha
 
-![New Return](/docs/replenishment/images/clicknewreturn.png)
+![New Return](images/clicknewreturn.png)
 
 3. Se abrirá una nueva ventana `Proveedores`, invitándote a seleccionar un proveedor.
 
@@ -117,10 +117,10 @@ A menudo, devolverás mercancías que recibiste mediante una entrada. En este ca
 En el siguiente ejemplo, queremos devolver inventario al  <b>Almacén Regional de Kamo</b>. 
 </div>
 
-![Search supplier list](/docs/replenishment/images/or_select_supplier.png)
+![Search supplier list](images/or_select_supplier.png)
 
 <div class="tip">
-Puedes saber si un proveedor también utiliza Open mSupply en su almacén. Si lo hace, verás un ícono como este  <img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="ALmacén" style="width:auto"> junto al código del proveedor. 
+Puedes saber si un proveedor también utiliza Open mSupply en su almacén. Si lo hace, verás un ícono como este  <img src="images/is_msupplystoreicon.png" alt="ALmacén" style="width:auto"> junto al código del proveedor. 
 </div>
 
 2. Una vez que toques, presiones `Enter`, o hagas clic en un proveedor, tu Devolución al Proveedor se creará automáticamente.
@@ -129,7 +129,7 @@ Puedes saber si un proveedor también utiliza Open mSupply en su almacén. Si lo
 Si todo salió bien, deberías ver el nombre de tu proveedor en la esquina superior izquierda y el estado debería ser <code>NUEVO</code> 
 </div>
 
-![Supplier Return: created](/docs/replenishment/images/or_created.png)
+![Supplier Return: created](images/or_created.png)
 
 ### Ingresa una referencia del proveedor
 
@@ -153,7 +153,7 @@ Puedes cerrarlo haciendo clic en el botón `Más`, ubicado en la esquina superio
 
 You can close by tapping on the `X Cerrar`, en la esquina superior derecha del panel de información.
 
-![Open and close the Information Panel](/docs/replenishment/images/or_sidepanel.gif)
+![Open and close the Information Panel](images/or_sidepanel.gif)
 
 #### Información adiciona
 
@@ -187,12 +187,12 @@ La secuencia de estados se encuentra en la esquina inferior izquierda de la pant
 Los estados completados están resaltados en azul, mientras que los próximos estados aparecen en gris.
 
 <figure>
-<img src="/docs/replenishment/images/or_statussequence2.png" alt="Supplier Return Status Sequence (New)" style="width:100%">
+<img src="images/or_statussequence2.png" alt="Supplier Return Status Sequence (New)" style="width:100%">
 <figcaption align="center">Secuencia de Estado: el estado actual es <code>NUEVO</code>.</figcaption>
 </figure>
 
 <figure>
-<img src="/docs/replenishment/images/or_statussequence.png" alt="Supplier Return Status Sequence (Shipped)" style="width:100%">
+<img src="images/or_statussequence.png" alt="Supplier Return Status Sequence (Shipped)" style="width:100%">
 <figcaption align="center">Secuencia de Estado: el estado actual es </i><code>ENVIADO</code>.</figcaption>
 </figure>
 
@@ -212,7 +212,7 @@ Si colocas el cursor sobre la secuencia de estados, aparece una ventana con el h
 Esta devolución fue creada el 03/03/2022, recogida el 04/03/2022 y enviada el 07/03/2022.
 </div>
 
-![Outbound status: hover](/docs/replenishment/images/is_statussequence_hover.png)
+![Outbound status: hover](images/is_statussequence_hover.png)
 
 ### Casilla de verificación "En espera"
 
@@ -220,7 +220,7 @@ Ubicada en la esquina inferior izquierda, a la izquierda de la secuencia de esta
 
 Marcar la casilla de verificación `En espera` impide que la Devolución de Proveedor se actualice al siguiente estado.
 
-![Outbound checkbox](/docs/distribution/images/os_holdcheckbox.png)
+![Outbound checkbox](../../images/holdcheckbox.png)
 
 ### Botón Cerrar y Confirmar
 
@@ -243,7 +243,7 @@ No es necesario actualizar una devolución al siguiente estado en la secuencia. 
 
 Como se muestra a continuación, toca la flecha hacia abajo del botón `Confirmar` y selecciona el estado al que deseas actualizar la devolución.
 
-![Skip Status](/docs/replenishment/images/or_confirm_skip_status.gif)
+![Skip Status](images/or_confirm_skip_status.gif)
 
 ## Agregar líneas a una devolución de proveedor
 
@@ -251,7 +251,7 @@ Toca el botón `Agregar Artículo` (en la esquina superior derecha).
 
 Se abrirá una nueva ventana de `Agregar Artículo`.
 
-![Add Item button](/docs/replenishment/images/or_additembutton.png)
+![Add Item button](images/or_additembutton.png)
 
 ### Seleccionar un artículo
 
@@ -263,7 +263,7 @@ En la ventana de `Agregar un artículo`, puedes buscar un artículo de las sigui
 
 Una vez que el artículo esté resaltado, toca el nombre o presiona `Enter`.
 
-![Select an item](/docs/replenishment/images/or_additem.gif)
+![Select an item](images/or_additem.gif)
 
 #### Lista de lotes disponibles:
 
@@ -277,7 +277,7 @@ Esta es una lista de números de lote que tienes en inventario para este artícu
 - **Cantidad Disponible para Devolución**: Número de empaques disponibles (que no han sido asignados a otros envíos o devoluciones)
 - **Cantidad a Devolver**: Número de empaques a devolver
 
-![List of available batch numbers](/docs/replenishment/images/or_additem_listofbatches.png)
+![List of available batch numbers](images/or_additem_listofbatches.png)
 
 ### Devolver una cantidad de empaques
 
@@ -287,13 +287,13 @@ Como se puede ver arriba, inicialmente la cantidad de empaques a devolver de cad
 En el ejemplo a continuación, estamos devolviendo todos los 17 empaques del primer lote en la lista, y solo 5 empaques del segundo lote. 
 </div>
 
-![Set quantities to return](/docs/replenishment/images/or_addquantities.png)
+![Set quantities to return](images/or_addquantities.png)
 
 #### Advertencias
 
 Es posible que veas uno o más mensajes de advertencia en esta pantalla:
 
-![return quantity warning!](/docs/replenishment/images/or_addquantities_warning.png)
+![return quantity warning!](images/or_addquantities_warning.png)
 
 Si olvidas ingresar una cantidad a devolver para algún lote y haces clic en `Siguiente paso`, verás este mensaje de advertencia. Necesitarás agregar una cantidad a devolver de al menos un lote. Puedes hacer clic en `Cancelar` si ya no deseas devolver ninguno de estos productos.
 
@@ -307,7 +307,7 @@ Las razones de devolución se configuran en el servidor central de mSupply a tra
 
 Cuando estés satisfecho con las cantidades, puedes presionar el botón `Siguiente paso`. La lista de lotes se filtrará para incluir solo aquellos lotes a los que hayas asignado una cantidad a devolver. En esta vista, puedes proporcionar una razón para devolver cada lote, así como un comentario adicional.
 
-![Provide return reasons](/docs/replenishment/images/or_additem_returnstep.png)
+![Provide return reasons](images/or_additem_returnstep.png)
 
 ### Confirmar
 
@@ -337,7 +337,7 @@ Si estableces la cantidad a devolver en `0`, esa línea será eliminada de la de
 
 Si configuras todas las cantidades de devolución `0`, y haces clic en `Sguiente paso` aparecerá este mensaje de advertencia. Informa que no se han proporcionado cantidades para la devolución; desde aquí, puedes hacer clic en `OK` nuevamente para confirmar. En ese caso, la ventana se cerrará y todas las líneas para ese artículo serán eliminadas.
 
-![no quantities warning!](/docs/replenishment/images/or_edit_noquantities.png)
+![no quantities warning!](images/or_edit_noquantities.png)
 
 <div class="nota">
  <b></b> Al editar una línea de devolución, no puedes cambiar el artículo. Necesitarías eliminar la línea de devolución y crear una nueva. 
@@ -350,13 +350,13 @@ Si configuras todas las cantidades de devolución `0`, y haces clic en `Sguiente
 3. Ve al menú desplegable `Acciones` (esquina superior derecha, encima de la lista).
 4. Selecciona la acción `Eliminar líneas seleccionadas`
 
-![Supplier Return actions dropdown](/docs/replenishment/images/or_actions_deletelines.png)
+![Supplier Return actions dropdown](images/or_actions_deletelines.png)
 
 <div class="imagetitle">
 En el ejemplo a continuación, estamos eliminando 2 artículos, con los códigos 030453 y 201116
 </div>
 
-![Alt Text](/docs/replenishment/images/or_deleteselectedlines.gif)
+![Alt Text](images/or_deleteselectedlines.gif)
 
 <div class="tip">
  <b></b> Puedes eliminar varias líneas a la vez. Asegúrate de revisar qué líneas están seleccionadas antes de proceder con la eliminación.  
@@ -378,7 +378,7 @@ Una vez que todos los artículos están recogidos y embalados, puedes confirmar 
 
 Para confirmar que una devolución ha sido alistada, pulsa el botón `Confirmar recogida`.
 
-![Alt Text](/docs/replenishment/images/or_confirmpicked.gif)
+![Alt Text](images/or_confirmpicked.gif)
 
 Una vez que se confirma el alistamiento:
 
@@ -416,7 +416,7 @@ Para cambiar el modo de vista, haz clic en el switch `Agrupar por artículo`.
 
 Cuando se agrupa por artículo, puedes expandir el artículo para ver los lotes individuales o usar la opción de expansión en el encabezado de la tabla para expandir todas las filas agrupadas. Si haces clic en un artículo, también verás todos los lotes seleccionados, como se muestra en este ejemplo:
 
-![Group by Item](/docs/replenishment/images/or_group_by_item.gif)
+![Group by Item](images/or_group_by_item.gif)
 
 Si no tienes suficiente espacio en tu pantalla, o simplemente no estás interesado en algunas de las columnas mostradas, tienes la opción de ocultar las columnas que deseas no mostrar en esta vista.
 
@@ -426,4 +426,4 @@ Haz clic en el botón `Mostrar / ocultar columnas` que está en la parte superio
 En el siguiente ejemplo, estamos ocultando las columnas de precios
 </div>
 
-![Hide columns](/docs/replenishment/images/or_filter_columns.gif)
+![Hide columns](images/or_filter_columns.gif)

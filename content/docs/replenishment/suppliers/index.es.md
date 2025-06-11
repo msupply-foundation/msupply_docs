@@ -24,18 +24,18 @@ En este momento, solo puedes ver tu proveedor y sus detalles. En el futuro, podr
 
 Para ver los proveedores de tu almacén, ve a `Reabastacimiento` > `Proveedor` en el panel de navegación: 
 
-![Suppliers Nav](/docs/replenishment/images/sup_gotosup.png)
+![Suppliers Nav](images/sup_gotosup.png)
 
 Aparece una lista de los proveedores de tu almacén: 
 
-![Suppliers List](/docs/replenishment/images/sup_suplist.png)
+![Suppliers List](images/sup_suplist.png)
 
 
 ## Ver detalles de proveedores 
 
 Para ver los detalles de un proveedor, simplemente haz clic en su nombre:
 
-![Supplier Details](/docs/replenishment/images/sup_supdetails.png)
+![Supplier Details](images/sup_supdetails.png)
 
 * **Dirección**: Dirección del proveedor
 * **Código**: Este es el código asignado a este proveedor en mSupply
