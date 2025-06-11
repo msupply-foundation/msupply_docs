@@ -33,7 +33,7 @@ You will be presented with a list of Demographic Indicators:
 
 ![indicators](images/indicators.png)
 
-The list of Demographic Indicators is divided into 8 columns:
+The following columns are shown:
 
 | Column              | Description                                                                    |
 | :------------------ | :----------------------------------------------------------------------------- |

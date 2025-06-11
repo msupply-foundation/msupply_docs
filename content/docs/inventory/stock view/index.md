@@ -96,6 +96,10 @@ If this is the case, the reason input will be enabled as below:
 
 ![New stock line: enter reason](images/stock_new_reason.png)
 
+### Donor
+
+If the [Allow tracking of stock by donor](/docs/manage/global-preferences/) global preference is enabled then you can allocate a donor to this stock line.
+
 Once you are happy with the batch information, click `OK`. This will save your new stock line by creating an `Inventory Adjustment`. You will be redirected to the Stock line details page.
 
 ## Viewing stock line details

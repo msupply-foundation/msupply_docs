@@ -83,6 +83,12 @@ The stocktake will then be created, and existing stock lines will be used to pop
 Don't worry if an item is missing from your newly created stocktake. You will have the possibility to add more items to your stocktake afterwards. 
 </div>
 
+#### Vaccines
+
+If you have the [Manage vaccines in doses](/docs/manage/facilities/#store-preferences) store preference enabled you will see a column of `Doses per unit`. For stocktake lines of vaccine items, the number of doses per unit (e.g. `Vial`) is shown in this column. The `Difference` column will also show the difference in doses as well as packs:
+
+![Vaccine line](images/stocktake-vaccine-table.png)
+
 ### Entering counted packs
 
 To start entering stocktake data for an item, click on the stocktake row you would like to edit. A window appears, where you can enter the counted number of packs. You can also update other data from this window, like the expiry date, pricing or location information for a particular batch.

@@ -157,10 +157,11 @@ You can close by tapping on the `X Close` button, on the top right corner of the
 
 ![Open and close the Information Panel](images/is_infopanel_openclose.gif)
 
-#### Additonal Info
+#### Additional Info
 
 In the **Additional Info** section, you can:
 
+- Donor name (if you have [donor tracking](#track-stock-by-donor) enabled)
 - See who created the Inbound Shipment (name of the user)
 - View and edit the Inbound Shipment color. To edit the color, tap on the colored circle and select a color from the pop-up
 - Write or edit a comment
@@ -336,7 +337,7 @@ In the `Quantities` tab, you can update the following fields:
 
 **Additional vaccine columns**
 
-The Quantities tab will have extra columns available with certain preferences on. These preferences are controlled in [Manage Facilities](/docs/manage/facilities/#editing-store-preferences).
+The Quantities tab will have extra columns shown when certain preferences are enabled. These preferences are controlled in [Manage > Stores](/docs/manage/facilities/#editing-store-preferences).
 
 The additional columns available with the `Display vaccine in doses` preference on are:
 
@@ -349,10 +350,10 @@ The additional column available with the `Manage Vvm Status For Stock` preferenc
 
 8. **VVM Status**: The current VVM Status for the batch.
 
-![Doses columns](images/is_doses_columns.png)
+![VVM status column](images/is_vvm_status_column.png)
 
 <div class="note">
-VVM Statuses must also be configured in mSupply by adding a status to the [Vaccine vial monitor list](https://docs.msupply.org.nz/cold_chain_equipment:configure). 
+VVM Statuses must also be configured in mSupply by adding a status to the <a href="https://docs.msupply.org.nz/cold_chain_equipment:configure">Vaccine vial monitor list</a>. 
 </div>
 
 Selecting a VVM Status in an inbound shipment will generate a VVM Status log. One log will be recorded per batch for the inbound shipment (at shipment status Delivered). Logs can be viewed and edited by selecting the item in `View Stock` and selecting the `Status History` tab.
@@ -388,9 +389,15 @@ In the below example, the first line's cost price is $0.01 per unit and the sell
 
 ![Add Item pricing](images/is_additem_pricing.png)
 
-### Location tab
+### Other tab
 
-In the third tab, `Location`, you can select a storage location to assign the batch number to a location in your storage facility.
+In the third tab, `Other`, you can select the following:
+
+- **Location**: A storage location to assign the batch number to a location in your storage facility.
+- **Donor**: A donor, if configured to track donors. See [Track stock by donor](#track-stock-by-donor) for details.
+- **Campaign**: If you have a campaign configured (see [Campaigns](/docs/manage/campaigns/)) then this column allows you to associate the stock line with a campaign
+
+#### Location
 
 Simply select a storage location from the `Location` dropdown menu.
 
@@ -399,6 +406,8 @@ Simply select a storage location from the `Location` dropdown menu.
 <div class="note">
 Don't know the storage location yet? You don't have to capture it right away. You can update the storage location at any time if you haven't confirmed the verification yet. 
 </div>
+
+When editing a line on the shipment, the `Other` tab will have a `Donor` selection if you have the preference enabled:
 
 ### Confirm item and quantities
 
@@ -568,3 +577,28 @@ If you do not have enough room on your screen, or simply aren't interested in so
 Click on the `Show / hide columns` button which is at the top right of the table. This gives a list of the columns available - you can check the columns you want to see. The options chosen are stored for the current browser, so next time you view an inbound shipment, you will see the selected columns only. If you have chosen which columns to show, then the button is shown in blue to remind you that there are more columns available.
 
 ![Hide columns](images/is_show_hide_columns.gif)
+
+## Track stock by donor
+
+You can track stock by donor throughout the system. A donor can be linked to an inbound shipment and you can also specify the donor for each line on the shipment.
+
+To begin, enable the [Global preference](/docs/manage/global-preferences/) for `Allow tracking of stock by donor`. Then configure some donors in the mSupply central server. This [documentation page](https://docs.msupply.org.nz/receiving_goods:donors?s[]=donor#adding_or_editing_donors) will tell you how.
+
+Once you have enabled the preference and have some donors configured, open the [information panel](#view-or-edit-the-inbound-shipment-information-panel) of your inbound shipment
+
+Here you can view the currently allocated donor and add or change a donor. Click the pencil icon to show the edit window:
+
+![Edit donor](images/edit_donor.png)
+
+When selecting a donor you have the option to specify how this will affect lines on the shipment:
+
+- All lines - the selected donor is linked to every line on the shipment
+- Lines with existing donor - the selected donor replaces the existing donor if one is assigned to a line
+- Lines without a donor - only lines with no donor will be linked to this donor
+- None
+
+When editing a line on the shipment, the `Other` tab will have a `Donor` selection if you have the preference enabled:
+
+![Donor per line](images/edit_line_donor.png)
+
+Simply select the donor for that stock line.
