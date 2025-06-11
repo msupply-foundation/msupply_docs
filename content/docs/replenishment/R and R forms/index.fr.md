@@ -18,7 +18,7 @@ top = false
 
 Pour utiliser les formulaires R&R, assurez-vous d'activer la préférence du site pour 'Ouvrir mSupply : utilisez le module du programme' au niveau de l'administration du serveur.
 
-![Store preference](/docs/programs/images/program_pref.png)
+![Store preference](images/program_pref.png)
 
 Vous aurez également besoin d'un programme configuré et visible dans votre site, et le programme aura besoin d'un calendrier périodique qui lui sera associé.
 
@@ -30,11 +30,11 @@ Voir [mSupply docs](https://docs.msupply.org.nz/items:programs) pour configurer 
 
 Aller sur `Approvisionnement` > `Formulaires R&R` pour voir la liste des formulaires R&R.
 
-![R&R Navigation](/docs/replenishment/images/goto_rnr.png)
+![R&R Navigation](images/goto_rnr.png)
 
 Vous pouvez cliquer sur les en-têtes de colonne pour trier la liste par cette colonne.
 
-![R&R List](/docs/replenishment/images/rnr_list.png)
+![R&R List](images/rnr_list.png)
 
 En cliquant sur un formulaire R&R, vous accéderez à la page de détails.
 
@@ -42,33 +42,33 @@ En cliquant sur un formulaire R&R, vous accéderez à la page de détails.
 
 Pour ajouter un formulaire R&R, cliquez sur le bouton « Ajouter un formulaire » dans le coin supérieur droit de l'écran.
 
-![Add Button](/docs/replenishment/images/rnr_add_button.png)
+![Add Button](images/rnr_add_button.png)
 
 Une fenêtre s'ouvrira pour vous permettre de sélectionner le programme, l'horaire, la période et le fournisseur pour le formulaire R&R.
 
-![Add R&R: empty](/docs/replenishment/images/add_rnr_empty.png)
+![Add R&R: empty](images/add_rnr_empty.png)
 
 La première fois que vous créez un formulaire R&R, vous devrez sélectionner chacune de ces options. Après cela, les entrées seront pré-remplies avec les données de la période précédente.
 
 <div class="imagetitle">ONotre formulaire R&R le plus récent date d'avril 2024, pour le programme de la Tuberculose (Tb). Le même programme, le même calendrier et le même fournisseur sont sélectionnés, et la période suivante est choisie automatiquement.</div>
 
-![Add R&R: pre-filled](/docs/replenishment/images/add_rnr.png)
+![Add R&R: pre-filled](images/add_rnr.png)
 
 La première fois que vous créez un formulaire R&R, vous pouvez sélectionner n'importe quelle période disponible. Après cela, vous ne pourrez sélectionner que la période suivante de la séquence.
 
 <div class="imagetitle">Le formulaire R&R précédent concernait la période du 24 avril</div>
 
-![Add R&R: pre-selected period](/docs/replenishment/images/add_rnr_selected_period.png)
+![Add R&R: pre-selected period](images/add_rnr_selected_period.png)
 
 Notez que vous ne pouvez pas créer le formulaire R&R suivant tant que le précédent n'est pas finalisé :
 
-![Warning: need to finalise previous](/docs/replenishment/images/add_rnr_error_finalise.png)
+![Warning: need to finalise previous](images/add_rnr_error_finalise.png)
 
 Une fois que vous êtes satisfait de vos saisies, cliquez sur `OK` pour générer le formulaire. Vous serez redirigé vers la page de détails du formulaire R&R.
 
 ## Vue détaillée
 
-![R&R Detail view](/docs/replenishment/images/rnr_detail.png)
+![R&R Detail view](images/rnr_detail.png)
 
 Le formulaire R&R contient les colonnes suivantes. Les colonnes calculées/non modifiables sont grisées. Les colonnes marquées d'un astérisque (\*) ci-dessous sont modifiables.
 
@@ -101,13 +101,13 @@ Vous pouvez modifier les données d'utilisation de chaque article dans le formul
 
 Une fois que vous êtes satisfait des informations relatives à un article, cochez la case « Confirmé » pour enregistrer les données.
 
-![Edit line](/docs/replenishment/images/rnr_edit_line.gif)
+![Edit line](images/rnr_edit_line.gif)
 
 ### Imprimer et exporter
 
 Vous pouvez imprimer ou exporter le formulaire R&R en cliquant sur les boutons `Imprimer` ou `Exporter` dans le coin supérieur droit de l'écran.
 
-![Print and export buttons](/docs/replenishment/images/rnr_print_and_export.png)
+![Print and export buttons](images/rnr_print_and_export.png)
 
 - Le bouton `Imprimer` ouvrira la fenêtre d'impression de votre navigateur. Vous pouvez également enregistrer le rapport au format PDF à partir d'ici.
 - Le bouton `Exporter` téléchargera le formulaire R&R sous forme de fichier Excel.
@@ -118,7 +118,7 @@ Pour imprimer ou exporter, vous aurez besoin d'un rapport de formulaire R&R conf
 
 ### Finaliser un formulaire R&R
 
-![Finalise](/docs/replenishment/images/rnr_finalise.png)
+![Finalise](images/rnr_finalise.png)
 
 Lorsque vous êtes prêt à finaliser le formulaire R&R, cliquez sur le bouton `Finaliser` en bas à droite de l'écran. À ce stade :
 

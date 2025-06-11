@@ -20,7 +20,7 @@ Plugins allow you to add functionality to Open mSupply without having to modify 
 
 ## Documentation
 
-Our Github repository has a full explanation of how to make front-end plugins [here](https://github.com/msupply-foundation/open-mfoundsupply/blob/develop/client/packages/plugins/README.md)
+Our Github repository has a full explanation of how to make front-end plugins [here](https://github.com/msupply-foundation/open-msupply/blob/develop/client/packages/plugins/README.md)
 
 ## Examples
 

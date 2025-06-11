@@ -32,11 +32,11 @@ Vamos a crear una Orden Interna basada en un programa.
 
 1. Haz clic en el botón `Nueva Orden` (esquina superior derecha):
 
-![Internal Order: new order](/docs/replenishment/images/intord_newreqbutton.png)
+![Internal Order: new order](images/intord_newreqbutton.png)
 
 2. Si tienes programas configurados, verás un cuadro de diálogo diferente al habitual:
 
-![Internal Order: new program order](/docs/programs/images/new_internal_order.png)
+![Internal Order: new program order](images/new_internal_order.png)
 
 Aquí puedes seleccionar:
 
@@ -57,7 +57,7 @@ Los programas y períodos de orden que veas estarán afectados por las etiquetas
 
 Existen varias áreas donde verás información adicional al usar una Orden Interna basada en un programa.
 
-![Internal Order: program order](/docs/programs/images/internal_order_detail.png)
+![Internal Order: program order](images/internal_order_detail.png)
 
 1. Los botones `Agregar artículo` y `Agregar desde la lista maestra` están deshabilitados. Los artículos en una Orden Interna basada en un programa están configurados por el programa.
 2. Un mensaje que explica que tampoco puedes editar los valores de MOS objetivo y umbral de reorden en una Orden Interna basada en un programa. Estos valores están configurados por el programa.
@@ -67,7 +67,7 @@ Existen varias áreas donde verás información adicional al usar una Orden Inte
 
 La vista de lista ha añadido algunas columnas adicionales que muestran datos relacionados con el programa:
 
-![Requisition: list](/docs/programs/images/requisition-list.png)
+![Requisition: list](images/requisition-list.png)
 
 - **Programa**: el nombre del programa para el cual se creó esta Orden Interna
 - **Tipo de orden**: el nombre del tipo de orden (típicamente, una orden normal o de emergencia)
@@ -82,11 +82,11 @@ para aprender cómo configurar programas y agregar etiquetas a los clientes.
 
 En la página de Requisiciones, haz clic en el botón `Nueva Requisición`  (en la esquina superior derecha).
 
-![New Requisition](/docs/programs/images/add_requisition_button.png)
+![New Requisition](images/add_requisition_button.png)
 
 Si tienes programas configurados, verás un modal diferente al habitual:
 
-![New Program Requisition](/docs/programs/images/add_program_requisition.png)
+![New Program Requisition](images/add_program_requisition.png)
 
 Desde la pestaña `Programa`, puedes crear una Requisición de Programa seleccionando:
 
@@ -104,12 +104,12 @@ Serás redirigido a la página de detalles de la requisición. Las líneas estar
 En las requisiciones manuales es posible recopilar muchas columnas adicionales de datos para fines de reporte y pronóstico. Para habilitar estas columnas, necesitas configurar las preferencias del almacén para activar estos campos adicionales, como se describe en la [documentación de mSupply Desktop](https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab).
 
 Para referencia rápida, esta es la preferencia que requiere tu almacén conectado:
-![Show extra fields on requisitions preference](/docs/programs/images/show_extra_fields_on_requisitions.png)
+![Show extra fields on requisitions preference](images/show_extra_fields_on_requisitions.png)
 
 Así es como se ven las columnas adicionales dentro de una requisición:
 
 ![Program Requisition Detail
-View](/docs/programs/images/program_requisition_detail_view.gif)
+View](images/program_requisition_detail_view.gif)
 
 La página de edición de líneas también incluirá estas columnas adicionales:
 
@@ -128,8 +128,8 @@ La página de edición de líneas también incluirá estas columnas adicionales:
 | **Razón**                    | Se proporcionará una razón si hay una diferencia entre la cantidad sugerida y la cantidad solicitada |
 
 ![Program Requisition Line
-Edit](/docs/programs/images/program_requisition_line_edit.png)
+Edit](images/program_requisition_line_edit.png)
 
 Una sección adicional será visible en el panel lateral mostrando la información del programa.
 
-![Requisition: detail](/docs/programs/images/requisition-detail.png)
+![Requisition: detail](images/requisition-detail.png)

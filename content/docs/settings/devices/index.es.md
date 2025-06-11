@@ -19,11 +19,11 @@ La sección de configuración de dispositivos te permite configurar los disposit
 
 Para ver la configuración de dispositivos, ve a `Ajustes` en la sección inferior del panel de navegación:
 
-![Admin: nav](/docs/settings/images/admin_nav.png)
+![Admin: nav](images/admin_nav.png)
 
 Verás la lista de secciones de configuración:
 
-![Admin: collapsed](/docs/settings/images/admin_collapsed.png)
+![Admin: collapsed](images/admin_collapsed.png)
 
 Haz clic en la sección `Dispositivos` para comenzar.
 
@@ -33,7 +33,7 @@ Haz clic en la sección `Dispositivos` para comenzar.
 
 La funcionalidad de impresión de etiquetas se encuentra actualmente en una fase experimental. Hay soporte limitado para impresoras de etiquetas, ya que solo se puede configurar una impresora de etiquetas habilitada para red que sea compatible con el lenguaje de impresora ZPL.
 
-![Label Printing](/docs/settings/images/devices_label_printing.png)
+![Label Printing](images/devices_label_printing.png)
 
 Introduce la dirección IP y otros detalles de la impresora. Para probar tu configuración, puedes hacer clic en el botó `Probar`.Esto intentará conectar con la impresora y obtener los detalles de configuración de la misma.
 
@@ -45,20 +45,20 @@ Esta sección te permite configurar un escáner de códigos de barras USB para s
 
 Al abrir la sección de escáneres de códigos de barras, es posible que veas el mensaje `No conectado`:
 
-![Barcode scanner](/docs/settings/images/devices_scanner_not_connected.png)
+![Barcode scanner](images/devices_scanner_not_connected.png)
 
 aunque tengas un escáner conectado. El sistema necesita ser informado de que hay un escáner disponible, y esto se hace de la siguiente manera:
 
 Haz clic en el botón `Detectar`. Aparecerá un código de barras:
 
-![Barcode scanner](/docs/settings/images/devices_scanner_barcode.png)
+![Barcode scanner](images/devices_scanner_barcode.png)
 
 Escanea el código de barras con tu escáner (¡esto puede tomar varios intentos!). Verás la siguiente notificación cuando sea exitoso:
 
-![Barcode scanner](/docs/settings/images/devices_scanner_found.png)
+![Barcode scanner](images/devices_scanner_found.png)
 
 y luego el mensaje cambiará a lo siguiente:
 
-![Barcode scanner](/docs/settings/images/devices_scanner_connected.png)
+![Barcode scanner](images/devices_scanner_connected.png)
 
 ¡Ahora puedes usar el escáner de códigos de barras!

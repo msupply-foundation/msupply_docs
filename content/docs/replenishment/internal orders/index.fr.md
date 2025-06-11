@@ -28,15 +28,15 @@ Pour adresser une commande à un fournisseur:
 1. Allez dans le menu `Approvisionnement`
 2. Cliquez sur `Commandes internes`
 
-![Internal Order: nav](/docs/replenishment/images/intord_access_fr.png)
+![Internal Order: nav](images/intord_access_fr.png)
 
 Une liste de commandes internes s'affiche à l'écran:
 
-![Internal Order: list](/docs/replenishment/images/intord_list_fr.png)
+![Internal Order: list](images/intord_list.png)
 
 Vous pouvez utiliser le champs `Search by comment` pour filter la liste par commentaire:
 
-![Internal Order: filter by comment](/docs/replenishment/images/intord_filterlistbycomment.gif)
+![Internal Order: filter by comment](images/intord_filterlistbycomment.gif)
 
 Vous pouvez trier la liste à l'aide des en-têtes de colonne :
 
@@ -49,15 +49,15 @@ Vous pouvez trier la liste à l'aide des en-têtes de colonne :
 
 1. Cliquez sur le bouton `Nouvelle Commande` (dans le coin supérieur droit):
 
-![Internal Order: new order](/docs/replenishment/images/intord_newreqbutton_fr.png)
+![Internal Order: new order](images/intord_newreqbutton_fr.png)
 
 2. Une nouvelle fenêtre vous invitant à choisir un fournisseur s'ouvre:
 
-![Internal Order: select supplier](/docs/replenishment/images/intord_selectsupplier2_fr.png)
+![Internal Order: select supplier](images/intord_selectsupplier2_fr.png)
 
 3. Sélectionnez un fournisseur en cliquant sur son nom. Vous verrez une fenêtre comme celle-ci :
 
-![Internal Order: newly created order](/docs/replenishment/images/intord_newintord_fr.png)
+![Internal Order: newly created order](images/intord_newintord_fr.png)
 
 ### Defining Maximum Month of Stock (Maximum MOS)
 
@@ -71,7 +71,7 @@ La définition du MOS (mois de stock) maximum est essentielle pour le calcul de 
 Dans l'exemple ci-dessous, nous fixons notre MOS maximale à 3 mois.  
 </div>
 
-![MaxMOS](/docs/replenishment/images/intord_maxmos.png)
+![MaxMOS](images/intord_maxmos.png)
 
 Cette opération peut être effectuée avant ou après l'ajout d'articles à votre commande.
 
@@ -79,7 +79,7 @@ Cette opération peut être effectuée avant ou après l'ajout d'articles à vot
 
 Cliquez sur `Ajouter un article` pour ajouter un seul article à votre commande. Une nouvelle fenêtre s'ouvre :
 
-![Internal Order: add item](/docs/replenishment/images/intord_additem2.png)
+![Internal Order: add item](images/intord_additem2.png)
 
 Sélectionnez d'abord l'article que vous souhaitez ajouter à votre commande. Ouvrez la fenêtre `Détails du stock` et sélectionnez votre article dans la liste. Vous pouvez également taper tout ou une partie du nom d'un article (ou d'un code) pour rechercher un article spécifique.
 
@@ -102,20 +102,20 @@ Vous devriez également voir les graphiques suivants :
 Dans l'exemple ci-dessous, notre quantité cible est de 600 unités, ce qui équivaut à 3 mois de stock (3 x 200 = 600 unités). Notre stock disponible (en gris) est de 50 unités. Pour atteindre mon objectif, mSupply me suggère de commander 550 unités (600 - 50). 
 </div>
 
-![Stock Distribution](/docs/replenishment/images/intord_charts_stockdistri.png)
+![Stock Distribution](images/intord_charts_stockdistri.png)
 
 <div class="imagetitle">
 Dans l'exemple ci-dessous, la quantité cible est de 62 unités. Comme nous avons déjà 250 unités en stock (en gris), la quantité suggérée est de zéro. 
 </div>
 
-![Stock Distribution 2](/docs/replenishment/images/intord_charts_stockdistri2.png)
+![Stock Distribution 2](images/intord_charts_stockdistri2.png)
 
 - **Historique de la consommation (mensuel)**: ce graphique montre la consommation mensuelle jusqu'à 12 mois dans le passé (en gris) et la CMM actuel (en orange) :
-![Consumption](/docs/replenishment/images/intord_charts_consumption.png)
+  ![Consumption](images/intord_charts_consumption.png)
 
 - **Évolution des stocks**: ce graphique vous montre votre niveau de stock pour les 30 derniers jours et votre stock prévisionnel pour les 30 prochains jours. Le stock prévisionnel sera mis à jour en fonction des données que vous aurez saisies dans le champ `Quantité commandée`:
 
-![Stock Evolution](/docs/replenishment/images/intord_charts_stockevolution.png)
+![Stock Evolution](images/intord_charts_stockevolution.png)
 
 ### Ajout d'éléments à l'aide d'une liste de base
 
@@ -129,7 +129,7 @@ Tous les articles de la liste principale figurent désormais dans votre commande
 
 Tapez sur une ligne de commande pour modifier la **Quantité commandée** ou tapez sur le bouton `Demandé à Suggéré`
 
-![Internal Order: add from master list](/docs/replenishment/images/intord_addfromml.gif)
+![Internal Order: add from master list](images/intord_addfromml.gif)
 
 <div class="remarque"> 
 Les listes de base sont définies et attribuées aux points de vente au niveau du serveur central. Vous ne pouvez voir que les listes maîtresses visibles par votre point de vente. 
@@ -145,37 +145,38 @@ Vous pouvez créer des commandes internes à partir de plusieurs listes de base 
 
 Lorsque vous ajoutez des articles (à l'aide d'une liste de base ou non), l'article est ajouté au tableau de la commande. Les informations suivantes sont fournies pour chaque ligne de commande :
 
-| Colonne                   | Description                                                                                                                                        |
-| :----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Code**                 | Code de l'article                                                                                                                                   |
-| **Nom**                 | Nom de l'article                                                                                                                                   |
-| **SDU (Est. restant)** | Quantité de stock actuellement disponible dans votre magasin                                                                                     |
-| **CMM**                  | Consommation mensuelle moyenne : la quantité de stock que votre magasin utilise en moyenne chaque mois (sur la base d'un nombre de mois configurable, la valeur par défaut étant de 3 mois). |
-| **Stock cible**         | C'est le stock que vous visez. Calculé comme suit : CMM x MOS maximum                                                                             |
-| **Quantité suggérée**   | La quantité de stock que mSupply suggère pour votre commande. Cette quantité est calculée comme suit : CMM x MOS maximum - SDU                                                    |
-| **Demandé**            | Cette valeur est fixée par défaut à zéro. Il s'agit de la quantité d'unités que vous commandez à votre fournisseur.                                                 |
-| **Commentaire**              | Un commentaire pour la ligne de commande. Les commentaires seront visibles par votre fournisseur.                                                                           |
+| Colonne                | Description                                                                                                                                                                                  |
+| :--------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Code**               | Code de l'article                                                                                                                                                                            |
+| **Nom**                | Nom de l'article                                                                                                                                                                             |
+| **SDU (Est. restant)** | Quantité de stock actuellement disponible dans votre magasin                                                                                                                                 |
+| **CMM**                | Consommation mensuelle moyenne : la quantité de stock que votre magasin utilise en moyenne chaque mois (sur la base d'un nombre de mois configurable, la valeur par défaut étant de 3 mois). |
+| **Stock cible**        | C'est le stock que vous visez. Calculé comme suit : CMM x MOS maximum                                                                                                                        |
+| **Quantité suggérée**  | La quantité de stock que mSupply suggère pour votre commande. Cette quantité est calculée comme suit : CMM x MOS maximum - SDU                                                               |
+| **Demandé**            | Cette valeur est fixée par défaut à zéro. Il s'agit de la quantité d'unités que vous commandez à votre fournisseur.                                                                          |
+| **Commentaire**        | Un commentaire pour la ligne de commande. Les commentaires seront visibles par votre fournisseur.                                                                                            |
 
 ### Utilisation des quantités suggérées
+
 Si vous tapez sur le bouton `Quantités suggérées pour l'utilisation` dans l'en-tête de la demande d'achat, mSupply copiera automatiquement les valeurs de l'élément **Quantité suggérée** dans la colonne **Quantité demandée** colonne.
 
 Vous pouvez toujours modifier manuellement la quantité commandée pour chaque ligne de commande en cliquant sur celle-ci.
 
-![Use Suggested Quantities](/docs/replenishment/images/intord_reqtosug.png)
+![Use Suggested Quantities](images/intord_reqtosug.png)
 
 ### Impression d'une commande interne
 
 Pour consulter un ordre interne spécifique, il suffit de cliquer sur le bouton `Imprimer` qui se trouve en haut à droite de la page.
 Lors de l'impression, un fichier PDF est généré pour vous, qui s'ouvre alors dans un nouvel onglet du navigateur. Vous pouvez ensuite l'imprimer à l'aide de votre navigateur en cliquant sur "Imprimer" ou en utilisant le bouton "Imprimer". `contrôle`+`P` (si vous utilisez Windows) ou `cmd`+`P` de votre clavier (si vous utilisez un Mac).
 
-![Print button](/docs/introduction/images/print_button.png)
+![Print button](../../images/print_button.png)
 
 Il s'agit soit
 
 - Affiche un menu de rapports possibles à sélectionner avant de créer un PDF. Cela se produira si plusieurs rapports sont définis pour le fichier `Demande d'information` type de rapport.
 - Créer un PDF immédiatement, s'il n'y a qu'un seul rapport à sélectionner
 
-![Print menu](/docs/distribution/images/os_print_menu.png)
+![Print menu](images/os_print_menu.png)
 
 ### Envoi d'un ordre interne
 

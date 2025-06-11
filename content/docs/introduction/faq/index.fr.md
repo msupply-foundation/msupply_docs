@@ -89,7 +89,7 @@ Il n'y a aucune restriction sur le nombre d'utilisateurs connectés à un serveu
 
 Lorsqu'un prix est affiché, il est possible de modifier le symbole monétaire pour celui de son choix. Il est également possible de configurer des monnaies étrangères afin d'envoyer et de recevoir des livraisons dans des monnaies différentes de votre devise principale. Pour configurer les devises étrangères, merci de suivre [ces instructions](https://docs.msupply.org.nz/other_stuff:currencies) dans la documentation du serveur central. Il vous faudra également actionner au niveau du dépôt la préférence `Dépôt: Capacité d'émettre en devises étrangères`. Cette préference est compatible avec Open mSupply `v1.7.0+`.
 
-![Store preference](images-en/store-pref-issue-in-foreign-currencies.png)
+![Store preference](../../images/store-pref-issue-in-foreign-currencies.png)
 
 Voici les codes et symboles des monnaies supportées par Open mSupply:
 

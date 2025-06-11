@@ -27,7 +27,7 @@ Tous les produits retournés par un client doivent être enregistrés dans mSupp
 
 Choisissez `Distribution` > `Retours Client` dans le panneau de navigation.
 
-![go to Customer Return](/docs/distribution/images/gotoir.png)
+![go to Customer Return](images/gotoir.png)
 
 Vous recevrez une liste des retours clients si certains ont déjà été créés.
 
@@ -51,16 +51,8 @@ De cet écran, vous pouvez :
 | **Référence**   | Référence client              |
 
 2. La liste peut afficher un nombre fixe de retours par page. Dans le coin inférieur gauche, vous pouvez voir combien de retours sont actuellement affichés sur votre écran.
-
-![Page](../../images/list_showing.png)
-
 3. Si vous avez plus de retours que la limite actuelle, vous pouvez naviguer vers les autres pages en appuyant sur le numéro de page ou en utilisant la droite des flèches gauche (coin inférieur droit).
-
-![Page](../../images/list_pagenumbers.png)
-
 4. Vous pouvez également sélectionner un nombre différent de lignes à afficher par page en utilisant l’option située dans le coin inférieur droit de la page.
-
-![Rows per page](../../images/rows-per-page-select.png)
 
 ### Recherche par nom de client
 
@@ -68,13 +60,13 @@ Vous pouvez filtrer la liste des retours par nom de client ou par statut. Cela p
 
 Par exemple : Sélectionnez le filtre `Nom` dans la liste pour filtrer par nom de client. Tapez le nom d’un client dans le champ `Nom`. Tous les retours pour ce client apparaîtront dans la liste.
 
-![Customer Return filter](/docs/distribution/images/ir_filter.gif)
+![Customer Return filter](images/ir_filter.gif)
 
 ### Exportation des retours clients
 
 La liste des retours clients peut être exportée dans un fichier séparé par des virgules (csv). Il suffit de cliquer sur le bouton d’exportation (à droite, en haut de la page)
 
-![Export button](/docs/distribution/images/export.png)
+![Export button](images/export.png)
 
 et le fichier sera téléchargé. La fonction d’exportation téléchargera tous les retours clients, et non seulement la page actuelle, si vous avez plus de retours que la limite de page actuelle.
 
@@ -92,7 +84,7 @@ Vous pouvez supprimer un retour de la liste des retours clients.
 Vous ne pouvez supprimer les retours de clients que s’ils ont un statut <code>NOUVEAU</code>.
 </div>
 
-![Inbound list: delete](/docs/distribution/images/ir_delete.gif)
+![Inbound list: delete](images/ir_delete.gif)
 
 ## Création d’un retour client
 
@@ -108,7 +100,7 @@ Souvent, vous traiterez le retour de marchandises que vous avez envoyées par l�
 
 2. Appuyez sur le bouton `Nouveau Retour` dans le coin supérieur droit.
 
-![New Return](/docs/distribution/images/ir_newreturn.png)
+![New Return](images/ir_newreturn.png)
 
 3. Une nouvelle fenêtre `Clients` s'ouvre, vous invitant à sélectionner un client.
 
@@ -120,10 +112,10 @@ Souvent, vous traiterez le retour de marchandises que vous avez envoyées par l�
 Dans l’exemple ci-dessous, nous souhaitons recevoir des articles retournés du <b>Dépot Médical Central de Tamaki</b>. 
 </div>
 
-![Create Customer Return](/docs/distribution/images/ir_create.gif)
+![Create Customer Return](images/ir_create.gif)
 
 <div class="tip">
-Vous pouvez savoir si un client utilise également Open mSupply dans son dépot. Si c’est le cas, vous verrez une icône comme celle-ci <img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto"> à côté du code client.
+Vous pouvez savoir si un client utilise également Open mSupply dans son dépot. Si c’est le cas, vous verrez une icône comme celle-ci <img src="images/is_msupplystoreicon.png" alt="Store" style="width:auto"> à côté du code client.
 </div>
 
 2. Une fois que vous appuyez sur `Entrée`, ou cliquez sur un client, votre retour de client est automatiquement créé.
@@ -152,7 +144,7 @@ Pour ouvrir le panneau d’information, vous pouvez appuyer sur le bouton `Plus`
 
 Vous pouvez fermer en appuyant sur le bouton `X Fermer` dans le coin supérieur droit du panneau d’information.
 
-![Open and close the Information Panel](/docs/distribution/images/ir_sidepanel.gif)
+![Open and close the Information Panel](images/ir_sidepanel.gif)
 
 #### Informations complémentaires
 
@@ -185,16 +177,6 @@ La séquence de statut se trouve dans le coin inférieur gauche de l’écran Re
 
 Les statuts passés sont surlignés en bleu, les états suivants apparaissent en gris.
 
-<figure>
-<img src="/docs/distribution/images/ir_statussequence.png" alt="Customer Return Status Sequence (New)" style="width:100%">
-<figcaption align="center">Status Sequence: Le statut actuel est <code>NOUVEAU</code>.</figcaption>
-</figure>
-
-<figure>
-<img src="/docs/distribution/images/ir_statussequence2.png" alt="Customer Return Status Sequence (Shipped)" style="width:100%">
-<figcaption align="center">Status Sequence: Le statut actuel est </i><code>EXPEDIE</code>.</figcaption>
-</figure>
-
 Il y a 5 statuts pour le retour client :
 
 | Status          | Description                                                                                                                          |
@@ -207,20 +189,20 @@ Il y a 5 statuts pour le retour client :
 
 Vous avez probablement remarqué que deux des valeurs de statut ne s’appliquent qu’aux envois créés automatiquement. Ces données sont créées par le système lorsqu’un autre magasin du système crée un retour de fournisseur pour retourner les stocks à votre dépot. Si c’est le cas, vous verrez un message en haut de la page :
 
-![Automatic IS message](/docs/distribution/images/ir_message_automatic.png)
+![Automatic IS message](images/ir_message_automatic.png)
 
 Notez que ce message apparaît différemment si le statut est `Livré` ou `Vérifié`
 
-![Automatic IS message: delivered](/docs/distribution/images/ir_message_automatic_delivered.png)
+![Automatic IS message: delivered](images/ir_message_automatic_delivered.png)
 
 Si, toutefois, vous avez créé un envoi entrant manuellement, le message suivant s’affiche :
 
-![Manual IS message](/docs/distribution/images/ir_message_manual.png)
+![Manual IS message](images/ir_message_manual.png)
 
 et vous verrez que la barre de statut ne contient que les valeurs du statut qui s’appliquent à ce type d’envoi.
 
 <figure align="center">
-    <img src="/docs/distribution/images/ir_statussequence_manual.png" alt="Inbound Shipment Status Sequence (New & manual)" style="width:60%">
+    <img src="images/ir_statussequence_manual.png" alt="Inbound Shipment Status Sequence (New & manual)" style="width:60%">
     <figcaption align="center">Status Sequence: Le statut actuel est </i><code>Nouveau</code>.</figcaption>
 </figure>
 
@@ -230,13 +212,13 @@ Si vous passez le curseur de la souris sur la séquence de statut, une fenêtre 
 Ce retour manuel a été créé le 28/03/2024
 </div>
 
-![Inbound status: hover 2](/docs/distribution/images/ir_status_sequence_hover_manual.png)
+![Inbound status: hover 2](images/ir_status_sequence_hover_manual.png)
 
 <div class="imagetitle">
 Ce retour automatique a été créé, sélectionné et expédié le 26/03/24
 </div>
 
-![Inbound status: hover](/docs/distribution/images/ir_status_sequence_hover_auto.png)
+![Inbound status: hover](images/ir_status_sequence_hover_auto.png)
 
 ### Case à cocher En attente
 
@@ -244,7 +226,7 @@ Situé dans le coin inférieur gauche, à gauche de la séquence de statut.
 
 Cocher la case `En attente` empêche le retour du client d’être mis à jour au prochain statut.
 
-![Inbound checkbox](/docs/distribution/images/os_holdcheckbox.png)
+![Inbound checkbox](../../images/holdcheckbox.png)
 
 ### Bouton de fermer et de confirmer
 
@@ -267,13 +249,13 @@ Pour les retours clients manuels, vous n’avez pas besoin de passer au statut s
 
 Comme indiqué ci-dessous, appuyez sur la flèche vers le bas du bouton `Confirmer` et sélectionnez le statut auquel vous voulez que le retour soit mis à jour.
 
-![Skip Status](/docs/distribution/images/ir_confirm_skip_status.gif)
+![Skip Status](images/ir_confirm_skip_status.gif)
 
 ## Ajout de lignes à un retour client
 
 Appuyez sur le bouton `Ajouter Article` (en haut à droite).
 
-![Add Item button](/docs/distribution/images/ir_additembutton.png)
+![Add Item button](images/ir_additembutton.png)
 
 ### Sélectionner un article
 
@@ -285,7 +267,7 @@ Une nouvelle fenêtre `Ajouter article` s’ouvre. Dans la fenêtre `Ajouter art
 
 Une fois que votre article est en surbrillance, appuyez sur le nom ou appuyez sur `Entrer`.
 
-![Select an item](/docs/distribution/images/ir_additem.gif)
+![Select an item](images/ir_additem.gif)
 
 #### Étape de sélection des quantités
 
@@ -301,7 +283,7 @@ Dans l’étape `Selectionner Quantitiés`, vous pouvez entrer les champs suivan
 
 Si vous recevez plus d’un numéro de lot pour le même article, vous pouvez ajouter des lignes avec le bouton `Ajouter lot`.
 
-![List of batches](/docs/distribution/images/ir_list_of_batches.png)
+![List of batches](images/ir_list_of_batches.png)
 
 #### Avertissements
 
@@ -309,7 +291,7 @@ Vous pouvez voir un ou plusieurs messages d’avertissement sur cet écran.
 
 Si vous oubliez d’entrer une `Quantité Retournée` pour un lot et que vous cliquez sur `Etape suivante`, vous verrez ce message d’avertissement. Vous devrez ajouter une quantité retournée pour au moins un lot. Vous pouvez cliquer sur `Annuler` si vous ne voulez plus traiter le retour de ce stock.
 
-![return quantity warning!](/docs/distribution/images/ir_addquantities_warning.png)
+![return quantity warning!](images/ir_addquantities_warning.png)
 
 ### Donner les raisons
 
@@ -321,7 +303,7 @@ Les raisons de retour sont configurées sur le serveur central mSupply via **[op
 
 Lorsque vous êtes satisfait des informations sur le lot et les quantités à retourner, vous pouvez appuyer sur le bouton `Etape suivante`. La liste des lots sera filtrée pour inclure uniquement les lots pour lesquels vous avez défini une quantité de retour. Dans cette vue, vous pouvez entrer une raison pour le retour de chaque lot, et un commentaire supplémentaire.
 
-![Provide return reasons](/docs/distribution/images/ir_additem_returnstep.png)
+![Provide return reasons](images/ir_additem_returnstep.png)
 
 ### Confirmer
 
@@ -352,7 +334,7 @@ Si vous définissez la quantité retournée à `0`, cette ligne sera supprimée 
 
 Si vous définissez toutes les quantités de retour à `0`, et cliquez sur `Prochaine étape` vous verrez ce message d’avertissement. Il vous informe qu’aucune quantité de retour n’a été fournie; à partir de là, vous pouvez cliquer sur `OK` à nouveau pour confirmer, auquel cas la fenêtre se fermera et toutes les lignes pour cet article seront supprimées.
 
-![no quantities warning!](/docs/distribution/images/ir_edit_noquantities.png)
+![no quantities warning!](images/ir_edit_noquantities.png)
 
 <div class="note">
  <b></b> Lorsque vous modifiez une ligne de retour, vous ne pouvez pas modifier l’article. Vous devez supprimer la ligne de retour et en créer une nouvelle. 
@@ -365,13 +347,13 @@ Si vous définissez toutes les quantités de retour à `0`, et cliquez sur `Proc
 3. Allez au menu déroulant `Actions` (en haut à droite, au-dessus de la liste)
 4. Sélectionnez l’action `Supprimer les lignes sélectionnées`
 
-![Delete lines actions dropdown](/docs/replenishment/images/or_actions_deletelines.png)
+![Delete lines actions dropdown](images/or_actions_deletelines.png)
 
 <div class="imagetitle">
 Dans l’exemple ci-dessous, nous supprimons <i>article 030063 - Acetylsalicylic Acid 100mg tabs</i>
 </div>
 
-![Alt Text](/docs/distribution/images/ir_deleteselectedlines.gif)
+![Alt Text](images/ir_deleteselectedlines.gif)
 
 <div class="tip">
  <b></b> Vous pouvez supprimer plusieurs lignes à la fois. N’oubliez pas de vérifier ce qui est sélectionné avant d’effectuer l’action Supprimer. 
@@ -396,7 +378,7 @@ Une fois que vous avez fait ceci :
 Si votre retour client est <b>automatique</b>, vous ne pouvez pas confirmer sa livraison à moins que le client n’ait confirmé son envoi. En d’autres termes, votre statut de livraison doit être <code>EXPÉDIÉ</code> avant que vous puissiez confirmer que vous avez reçu les articles retournées. 
 </div>
 
-![Alt Text](/docs/distribution/images/ir_confirmdelivered.gif)
+![Alt Text](images/ir_confirmdelivered.gif)
 
 ### Vérifier le retour client
 
@@ -422,7 +404,7 @@ Lorsque vous affichez un retour spécifique, vous pouvez afficher les lots de ce
 
 Lorsque vous regroupez par article, vous pouvez développer l’élément pour afficher les lots individuels ou utiliser le bouton développer dans l’en-tête de la table pour développer toutes les lignes groupées.
 
-![Group by Item](/docs/distribution/images/ir_group_by_item.gif)
+![Group by Item](images/ir_group_by_item.gif)
 
 Si vous n’avez pas assez de place sur votre écran, ou si certaines des colonnes affichées ne vous intéressent tout simplement pas, vous avez la possibilité de masquer les colonnes qui sont affichées dans cette vue.
 
@@ -432,4 +414,4 @@ Cliquez sur le bouton `Afficher / masquer les colonnes` qui se trouve en haut à
 Dans l’exemple ci-dessous, nous cachons les colonnes de lot, d’expiration et de quantité unitaire
 </div>
 
-![Hide columns](/docs/distribution/images/ir_filter_columns.gif)
+![Hide columns](images/ir_filter_columns.gif)

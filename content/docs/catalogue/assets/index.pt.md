@@ -91,7 +91,7 @@ Os datos deverão ser convertidos para o formato da planilha CSV para que Open m
 
 ### Gerenciar razões para o registo de Estado
 
-<div class="nota"> As razões do registo de estado são gerenciadas a partir do servidor central de Open mSupply. <a href="/docs/getting_started/central"> Clique aqui para obter mais informações </a>.</div>
+<div class="nota"> As razões do registo de estado são gerenciadas a partir do servidor central de Open mSupply. <a href="/docs/getting_started/central-server"> Clique aqui para obter mais informações </a>.</div>
 
 Quando os utilizadores associam um novo registo de estado à um ativo em particular, pode-se adicionar mais detalhes ao associar uma razão ao novo estado. Por exemplo, um ativo marcado como `NÃO FUNCIONA` podería estar associado a uma razão `falha no sistema elétrico`. Estas razo8es podem ser personalizadas e estão associadas a un estado específico.
 

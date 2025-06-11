@@ -20,7 +20,7 @@ O Open mSupply tem uma landing page que fornece uma visão geral de algumas esta
 
 ## O que está em exposição?
 
-![O painel!](/docs/getting_started/images/dashboard.png)
+![O painel!](images/dashboard.png)
 
 Pode ver algumas estatísticas de remessas e stock:
 

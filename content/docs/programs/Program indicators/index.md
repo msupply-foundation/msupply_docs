@@ -28,7 +28,7 @@ documentation
    Order](/docs/programs/requisitions/#creating-a-program-internal-order).
 2. Click on the Indicators tab
 
-![Indicators tab](/docs/programs/images/internal_order_indicator_tab.png)
+![Indicators tab](images/internal_order_indicator_tab.png)
 
 <div class='note'>
 HIV is only available on Programs where "HIV" has been enabled.
@@ -36,7 +36,7 @@ HIV is only available on Programs where "HIV" has been enabled.
 
 3. Click on one of the Program Indicator buttons (if more than one is available)
 
-![Indicators edit](/docs/programs/images/internal_order_indicator_edit.png)
+![Indicators edit](images/internal_order_indicator_edit.png)
 
 From here you can enter in the data, as configured for each indicator of this
 program.
@@ -44,10 +44,10 @@ program.
 If your store is a supplying store and the store preference `Use consumption &
 stock from customers for internal orders` is enabled
 
-![Use consumption & stock from customers for internal orders](/docs/programs/images/consumption_data_pref.png)
+![Use consumption & stock from customers for internal orders](images/consumption_data_pref.png)
 
 then you will also see a table showing summarised indicator data from your customer stores for the period.
-![Indicator info](/docs/programs/images/indicator_info_table.png)
+![Indicator info](images/indicator_info_table.png)
 
 The previous and next buttons at the bottom allows you to navigate between the
 indicators.
@@ -62,11 +62,11 @@ The process of entering program indicators is as follows:
 1. Create a manual requisition to another store as described [here](/docs/distribution/requisitions/#manual-requisition)
 2. Click on the Indicators tab
 
-![Indicators tab](/docs/programs/images/indicators.png)
+![Indicators tab](images/indicators.png)
 
 3. Click on one of the Program Indicator buttons
 
-![Indicators edit](/docs/programs/images/indicators_edit.png)
+![Indicators edit](images/indicators_edit.png)
 
 From here you can enter in the data, as configured for each indicator of this program.
 

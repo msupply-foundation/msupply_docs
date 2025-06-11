@@ -51,11 +51,11 @@ In addition, you'll need to have the stores configured for normal usage in Open 
 Follow the process of creating a program based Internal Order.
 If you have the store preferences configured correctly, you will see an additional column in the list view of Internal Orders, which shows the approval status of the newly created order:
 
-![Internal Order list](/docs/replenishment/images/authorisation-internal-order-list.png)
+![Internal Order list](images/authorisation-internal-order-list.png)
 
 In addition, when viewing the details of the Internal Order, you'll see two new columns and the approval status of the order:
 
-![Internal Order list](/docs/replenishment/images/authorisation-internal-order-detail.png)
+![Internal Order list](images/authorisation-internal-order-detail.png)
 
 The **Approved Quantity** is the quantity approved by the authoriser. This may be different to the requested quantity. If so, the authoriser has the option of entering an explanatory comment, which is shown in the **Approval Comment** column.
 
@@ -67,15 +67,15 @@ The authorisation process is detailed in the [central server documentation](http
 
 In the supplying store, you'll see a few changes too. The Requisition list has gained an additional column:
 
-![Requisition list](/docs/replenishment/images/authorisation-requisition-list.png)
+![Requisition list](images/authorisation-requisition-list.png)
 
 And when viewing details, you can see the approval status and new columns, just as in the Internal Order. When the Requisition is in the `Pending` approval state, you also cannot confirm finalised or create a shipment:
 
-![Requisition list](/docs/replenishment/images/authorisation-requisition-detail-pending.png)
+![Requisition list](images/authorisation-requisition-detail-pending.png)
 
 Once approved by the remote authorisation process though, the status is updated, and you can edit the requisition:
 
-![Requisition list](/docs/replenishment/images/authorisation-requisition-detail-approved.png)
+![Requisition list](images/authorisation-requisition-detail-approved.png)
 
 The authorisation status can have a few different values:
 

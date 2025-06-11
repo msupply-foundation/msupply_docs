@@ -26,7 +26,7 @@ Toutes les articles reçus doivent être enregistrés dans mSupply soit par :
 
 ### Ouvrir le Menu Livraison
 
-![Go to Inbound Shipments](/docs/replenishment/images/is_gotois_fr.png)
+![Go to Inbound Shipments](images/is_gotois_fr.png)
 
 Pour accéder au menu **Livraison** :
 
@@ -67,7 +67,7 @@ Saisissez le nom du fournisseur dans le champ `Search by name` (à gauche, juste
 
 La liste des livraisons peut être exportée dans un fichier CSV. Cliquez simplement sur le bouton _Exporter_ (à droite, en haut de la page).
 
-![Export button](/docs/distribution/images/export_fr.png)
+![Export button](images/export_fr.png)
 
 et le fichier sera téléchargé. La fonction d'exportation téléchargera toutes les livraisons, pas seulement la page actuelle, si vous en avez plus de 20.
 
@@ -96,14 +96,14 @@ Vous ne pouvez supprimer que les expéditions avec un statut <code>NOUVEAU</code
 1. Dans la fenêtre `Fournisseurs`, vous verrez afficher une liste de fournisseurs. Vous pouvez sélectionner directement ou saisir le nom d'un fournisseur.
 
 <div class="conseil">
-Vous pouvez savoir si un fournisseur utilise également mSupply dans son dépôt. Si c'est le cas, vous verrez une icône comme celle-ci (<img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto">) à côté du code fournisseur. 
+Vous pouvez savoir si un fournisseur utilise également mSupply dans son dépôt. Si c'est le cas, vous verrez une icône comme celle-ci (images/is_msupplystoreicon.png" alt="Store" style="width:auto">) à côté du code fournisseur. 
 </div>
 
 <div class="imagetitle">
 Dans l'exemple ci-dessous, nous recevons du stock de <b>Tamaki Central Medical Store</b>. 
 </div>
 
-![Select a Supplier](/docs/replenishment/images/is_selectsupplier.gif)
+![Select a Supplier](images/is_selectsupplier.gif)
 
 2. Une fois que vous avez sélection un Fournisseur, la livraison est créée.
 
@@ -111,7 +111,7 @@ Dans l'exemple ci-dessous, nous recevons du stock de <b>Tamaki Central Medical S
 Si tout s'est bien passé, vous devriez voir le nom de votre fournisseur dans le coin supérieur gauche et le statut actuel devrait être <code>LIVRE</code>.
 </div>
 
-![New manual Inbound Shipment](/docs/replenishment/images/is_newinboundshipment_fr.png)
+![New manual Inbound Shipment](images/is_newinboundshipment_fr.png)
 
 <div class="remarque">
 Lorsque vous créez une <b>nouvelle</b> livraison manuelle, mSupply admet que la livraison a été exécutée par le fournisseur et que vous êtes sur le point de réceptionner les articles. <br /> Raison pour laquelle le statut d'une livraison manuelle a toujours la valeur <code>LIVRE</code>.
@@ -125,7 +125,7 @@ Si vous n'avez pas sélectionné le bon fournisseur, vous pouvez toujours modifi
 Dans l'exemple ci-dessous, nous remplaçons <b>Tamaki Central Medical Store</b> par <b>Waikato District Store</b>. 
 </div>
 
-![gif](/docs/replenishment/images/is_editsuppliername.gif)
+![gif](images/is_editsuppliername.gif)
 
 ### Saisir une référence fournisseur
 
@@ -150,7 +150,7 @@ To open the Information Panel, you can tap on the `More` button, located in the 
 
 You can close by tapping on the `X Close` button, on the top right corner of the information panel.
 
-![Open and close the Information Panel](/docs/replenishment/images/is_infopanel_openclose.gif)
+![Open and close the Information Panel](images/is_infopanel_openclose.gif)
 
 #### Additonal Info
 
@@ -196,12 +196,12 @@ The status sequence is located at the bottom left corner of the Inbound Shipment
 Passed statuses are hightlighted in blue, next statuses appear in grey.
 
 <figure>
-    <img src="/docs/replenishment/images/is_statussequence2.png" alt="Inbound Shipment Status Sequence (New)" style="width:100%">
+    <img src="images/is_statussequence2.png" alt="Inbound Shipment Status Sequence (New)" style="width:100%">
     <figcaption align="center">Status Sequence: current status is <code>New</code>.</figcaption>
 </figure>
 
 <figure>
-    <img src="/docs/replenishment/images/is_statussequence3.png" alt="Inbound Shipment Status Sequence (Shipped)" style="width:100%">
+    <img src="images/is_statussequence3.png" alt="Inbound Shipment Status Sequence (Shipped)" style="width:100%">
     <figcaption align="center">Status Sequence: current status is </i><code>Shipped</code>.</figcaption>
 </figure>
 
@@ -217,16 +217,16 @@ There are 5 status for the Inbound Shipment:
 
 You probably noticed that two of the status values only apply to automatically created shipments. These are created by the system when another store in the system creates an Outbound Shipment to deliver stock to your store. If this is the case you'll see a message near the top of the page:
 
-![Automatic IS message](/docs/replenishment/images/is_message_automatic.png)
+![Automatic IS message](images/is_message_automatic.png)
 
 If, however, you've created an Inbound Shipment manually, then the following message shows:
 
-![Manual IS message](/docs/replenishment/images/is_message_manual.png)
+![Manual IS message](images/is_message_manual.png)
 
 and you'll see that the status bar has only the status values which apply to this type of shipment.
 
 <figure align="center">
-    <img src="/docs/replenishment/is_statussequence4.png" alt="Inbound Shipment Status Sequence (New & manual)" style="width:60%">
+    <img src="images/is_statussequence4.png" alt="Inbound Shipment Status Sequence (New & manual)" style="width:60%">
     <figcaption align="center">Status Sequence: current status is </i><code>New</code>.</figcaption>
 </figure>
 
@@ -236,13 +236,13 @@ If you hover over the status sequence, a shipment history window appears. You ca
 This manual shipment has been created on 03/03/2022
 </div>
 
-![Inbound status: hover 2](/docs/replenishment/images/is_statussequence_hover2.png)
+![Inbound status: hover 2](images/is_statussequence_hover2.png)
 
 <div class="imagetitle">
 This automatic shipment has been created on 03/03/2022, allocated on 04/03/2022 and picked on 07/03/2022
 </div>
 
-![Inbound status: hover](/docs/replenishment/images/is_statussequence_hover.png)
+![Inbound status: hover](images/is_statussequence_hover.png)
 
 ### Hold checkbox
 
@@ -250,7 +250,7 @@ Located on the bottom left corner, on the left of the status sequence.
 
 Check the `Hold` checkbox prevents the Inbound Shipment from being updated to the next status.
 
-![Outbound hold checkbox](/docs/distribution/images/os_holdcheckbox.png)
+![Outbound hold checkbox](../../images/holdcheckbox.png)
 
 ### Cancel and Confirm button
 
@@ -273,7 +273,7 @@ You don't have to update a shipment to next status in the sequence. You can choo
 
 As demonstrated below, tap on the down arrow of the `Confirm` button and select the status you want the shipment to be updated to.
 
-![Skip Status](/docs/replenishment/images/is_skipstatus.gif)
+![Skip Status](images/is_skipstatus.gif)
 
 ## Adding lines to an Inbound Shipment
 
@@ -281,7 +281,7 @@ To add a line, tap on the `Add Item` button located in the top left corner of yo
 
 A new `Add Item` window opens.
 
-![Inbound: add item button](/docs/replenishment/is_additem_button.png)
+![Inbound: add item button](images/is_additem_button.png)
 
 ### Select an Item
 
@@ -293,7 +293,9 @@ In the `Add Item` window, you can look up an item by:
 
 Once your item is highlighted, tap on the name or press `Enter`.
 
-![Add Item](/docs/distribution/os_additem.gif)
+![Add Item list](../../images/adding-an-item-all.png)
+![Add Item by name](../../images/adding-an-item-name.png)
+![Add Item by code](../../images/adding-an-item-code.png)
 
 ### Quantities tab
 
@@ -310,7 +312,7 @@ In the `Quantities` tab, you can update the following fields:
 In the below example, we are receiving 2 batch numbers for item <i>030453 - Amoxicillin 250mg tabs</i> with a different pack size. 
 </div>
 
-![Add Item quantities](/docs/replenishment/is_additem_quantities.png)
+![Add Item quantities](images/is_additem_quantities.png)
 
 ### Pricing tab
 
@@ -329,15 +331,21 @@ Sell & Cost prices are per units and not per pack.
 In the below example, sell price $12 per unit and cost price is $10 per unit. 
 </div>
 
-![Add Item pricing](/docs/replenishment/is_additem_pricing.png)
+![Add Item pricing](images/is_additem_pricing.png)
 
-### Location tab
+### Other tab
 
-In the third tab, `Location`, you can select a storage location to assign the batch number to a location in your storage facility.
+In the third tab, `Other`, you can select the following:
+
+- **Location**: A storage location to assign the batch number to a location in your storage facility.
+- **Donor**: A donor, if configured to track donors. See [Track stock by donor](#track-stock-by-donor) for details.
+- **Campaign**: If you have a campaign configured (see [Campaigns](/docs/manage/campaigns/)) then this column allows you to associate the stock line with a campaign
+
+#### Location
 
 Simply select a storage location from the `Location` dropdown menu.
 
-![Add Item location](/docs/replenishment/is_additem_location.png)
+![Add Item location](images/is_additem_location.png)
 
 <div class="remarque">
 Don't know the storage location yet ? You don't have to capture it right away. You can update the storage location at any time if you haven't confirmed the verification yet. 
@@ -380,13 +388,13 @@ To edit an Inbound Shipment line, simply tap on it. You will be presented with t
 4. Go to the `Actions` dropdown menu (top right corner, above the list)
 5. Select the action `Delete selected lines`
 
-![Alt Text](/docs/distribution/os_actions_deleteselectedlines.png)
+![Alt Text](images/os_actions_deleteselectedlines.png)
 
 <div class="imagetitle">
 In the below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100mg tabs</i>
 </div>
 
-![Alt Text](/docs/distribution/os_deleteselectedlines.gif)
+![Alt Text](images/os_deleteselectedlines.gif)
 
 <div class="conseil">
 You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
@@ -434,4 +442,29 @@ To change the view mode, click the `Group by item` switch.
 
 When grouped by item, you can expand the item to see individual batches, or use the expand in the table header to expand all grouped rows. If you click on an item you will also see all selected batches, as shown in this example:
 
-![Group by Item](/docs/replenishment/is_group_by_item.gif)
+![Group by Item](images/is_group_by_item.gif)
+
+## Track stock by donor
+
+You can track stock by donor throughout the system. A donor can be linked to an inbound shipment and you can also specify the donor for each line on the shipment.
+
+To begin, enable the [Global preference](/docs/manage/global-preferences/) for `Allow tracking of stock by donor`. Then configure some donors in the mSupply central server. This [documentation page](https://docs.msupply.org.nz/receiving_goods:donors?s[]=donor#adding_or_editing_donors) will tell you how.
+
+Once you have enabled the preference and have some donors configured, open the [information panel](#afficher-ou-modifier-le-panneau-d-informations-sur-les-livraisons) of your inbound shipment
+
+Here you can view the currently allocated donor and add or change a donor. Click the pencil icon to show the edit window:
+
+![Edit donor](images/edit_donor.png)
+
+When selecting a donor you have the option to specify how this will affect lines on the shipment:
+
+- All lines - the selected donor is linked to every line on the shipment
+- Lines with existing donor - the selected donor replaces the existing donor if one is assigned to a line
+- Lines without a donor - only lines with no donor will be linked to this donor
+- None
+
+When editing a line on the shipment, the `Other` tab will have a `Donor` selection if you have the preference enabled:
+
+![Donor per line](images/edit_line_donor.png)
+
+Simply select the donor for that stock line.

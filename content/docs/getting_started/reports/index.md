@@ -14,13 +14,13 @@ toc = true
 
 The reports page gives you an overview of the reports available in Open mSupply.
 You can access the reports page by clicking on the `Reports` menu item.
-![goto_report](/docs/getting_started/images/goto_report.png)
+![goto_report](images/goto_report.png)
 
 You will be presented with a list of reports that you can generate. The reports
 listed below are the standard reports and will already be set up for you. If
 you need a custom report, please contact mSupply support at [support@msupply.foundation](mailto:support@msupply.foundation).
 
-![report list](/docs/getting_started/images/report_list_view.png)
+![report list](images/report_list_view.png)
 
 The reports are generated based on preferences which are set up in the mSupply
 central server. See [report
@@ -29,7 +29,7 @@ for more information about what these preferences are and how to set them up.
 
 You can view these preferences by clicking on the `More` button.
 
-![report preferences](/docs/getting_started/images/report_preferences.gif)
+![report preferences](images/report_preferences.gif)
 
 ## Generating reports
 
@@ -37,7 +37,7 @@ Click on the report you want to generate. For this example, we will generate the
 `Stock Status` report.
 
 Click on the `Stock Status` report.
-![stock status](/docs/getting_started/images/goto_stock_status.png)
+![stock status](images/goto_stock_status.png)
 
 You will be presented with a form where you can edit the filter criteria used by the report. Leave unchanged to display all items for the report.
 
@@ -50,22 +50,20 @@ If you enter values for both the code and name, the items shown would have to ma
 
 The form also display which preferences the report is based on.
 
-<p align="center">
-    <img src="/docs/getting_started/images/report_filter.png" alt="stock status filter" width="560" height="486">
-</p>
+![](images/report_filter.png)
 
 Click `Ok` to generate the report. If you find that you would like to narrow
 down the report while viewing it, you can click on the `Filter` button on the
 top right corner of the report which will open up the filter form again.
 
-![report detail](/docs/getting_started/images/report_detail.gif)
+![report detail](images/report_detail.gif)
 
 ### Printing a report
 
 To print a report, click on the `Print` button on the top right corner of the
 report.
 
-![print button](/docs/getting_started/images/print_button.png)
+![print button](images/print_button.png)
 
 A print preview window will open showing you what will be printed and allowing
 you to select the printer. This can then be printed using your browser by clicking print or
@@ -76,7 +74,7 @@ using a mac).
 
 To export a report to excel, click on the `Export` button on the top right corner of the report.
 
-![export button](/docs/getting_started/images/export_button.png)
+![export button](images/export_button.png)
 
 The report will be downloaded as an excel file.
 

@@ -14,13 +14,13 @@ toc = true
 
 A página de relatórios fornece uma visão geral dos relatórios disponíveis no Open mSupply.
 Pode aceder à página de relatórios clicando no item de menu `Relatórios`.
-![goto_report](/docs/getting_started/images/goto_report.png)
+![goto_report](images/goto_report.png)
 
 Será apresentada uma lista de relatórios que pode gerar. Os relatórios
 Abaixo estão listados os relatórios padrão que já estarão configurados para si. Se
 Se precisar de um relatório personalizado, contacte o suporte da mSupply através do e-mail [support@msupply.foundation](mailto:support@msupply.foundation).
 
-![lista de relatórios](/docs/getting_started/images/report_list_view.png)
+![lista de relatórios](images/report_list_view.png)
 
 Os relatórios são gerados com base nas preferências configuradas no mSupply
 servidor central. Ver [relatório
@@ -29,7 +29,7 @@ para obter mais informações sobre o que são estas preferências e como config
 
 Pode visualizar estas preferências clicando no botão `Mais`.
 
-![preferências de relatório](/docs/getting_started/images/report_preferences.gif)
+![preferências de relatório](images/report_preferences.gif)
 
 ## Gerando relatórios
 
@@ -37,7 +37,7 @@ Clique no relatório que pretende gerar. Para este exemplo, iremos gerar o
 Relatório `Estado do stock`.
 
 Clique no relatório `Estado do stock`.
-![stock_state](/docs/getting_started/images/goto_stock_status.png)
+![stock_state](images/goto_stock_status.png)
 
 Será apresentado um formulário onde poderá editar os critérios de filtro utilizados pelo relatório. Deixe inalterado para apresentar todos os itens do relatório.
 
@@ -51,21 +51,21 @@ Se introduzir valores para o código e o nome, os itens apresentados terão de c
 O formulário também apresenta em que preferências se baseia o relatório.
 
 <p alinhar="centro">
- <img src="/docs/getting_started/images/report_filter.png" alt="filtro de estado de stock" width="560" height="486">
+ <img src="images/report_filter.png" alt="filtro de estado de stock" width="560" height="486">
 </p>
 
 Clique em `Ok` para gerar o relatório. Se achar que gostaria de restringir
 para baixo no relatório enquanto o visualiza, pode clicar no botão `Filtrar` na
 canto superior direito do relatório, que abrirá novamente o formulário de filtro.
 
-![detalhe do relatório](/docs/getting_started/images/report_detail.gif)
+![detalhe do relatório](images/report_detail.gif)
 
 ### Imprimir um relatório
 
 Para imprimir um relatório, clique no botão `Imprimir` no canto superior direito do ecrã.
 relatório.
 
-![botão de impressão](/docs/getting_started/images/print_button.png)
+![botão de impressão](images/print_button.png)
 
 Será aberta uma janela de pré-visualização de impressão, mostrando o que será impresso e permitindo
 que selecione a impressora. Este pode ser impresso utilizando o seu navegador clicando em imprimir ou
@@ -76,7 +76,7 @@ utilizando um Mac).
 
 Para exportar um relatório para Excel, clique no botão `Exportar` no canto superior direito do relatório.
 
-![botão de exportação](/docs/getting_started/images/export_button.png)
+![botão de exportação](images/export_button.png)
 
 O relatório será descarregado como um ficheiro Excel.
 

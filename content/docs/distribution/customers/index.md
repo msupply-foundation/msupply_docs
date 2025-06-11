@@ -22,7 +22,7 @@ At the moment, you are only able to view your customers and their information. I
 
 To view the customers of your store, go to the `Distribution` menu and click on `Customers`. 
 
-![Page](/docs/distribution/images/cust_gotocust2.png)
+![Page](images/cust_gotocust2.png)
 
 You will be presented with a list of customers visible to your store. 
 
@@ -38,4 +38,4 @@ If you don't find the customer you are looking for, contact your administrator.
 
 Tap on one of your customers to see their details.
 
-![Name Detailed View](/docs/distribution/images/cust_detailedview.png)
+![Name Detailed View](images/cust_detailedview.png)

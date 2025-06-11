@@ -15,7 +15,7 @@ top = false
 
 The Demographics section is where you can view and manage future projections for different Demographic Indicators. This population data can then be used to estimate the required cold storage capacity for upcoming immunization programs.
 
-Demographics management is only available on the [Open mSupply Central Server](/docs/getting_started/central).
+Demographics management is only available on the [Open mSupply Central Server](/docs/getting_started/central-server).
 
 ## Configuration
 
@@ -27,13 +27,13 @@ To begin, enable the store preference for `mobile: Uses Vaccine Module` (see the
 
 Choose `Manage` > `Demographics` in the navigation panel.
 
-![goto: demographics](/docs/manage/images/goto_demographics.png)
+![goto: demographics](images/goto_demographics.png)
 
 You will be presented with a list of Demographic Indicators:
 
-![indicators](/docs/manage/images/indicators.png)
+![indicators](images/indicators.png)
 
-The list of Demographic Indicators is divided into 8 columns:
+The following columns are shown:
 
 | Column              | Description                                                                    |
 | :------------------ | :----------------------------------------------------------------------------- |
@@ -46,7 +46,7 @@ The list of Demographic Indicators is divided into 8 columns:
 
 For each year, you can enter the predicted population growth percentage. This can be a positive or negative number. As you edit the growth percentage, you will notice the population projections update.
 
-![edit growth](/docs/manage/images/percentage_growth.gif)
+![edit growth](images/percentage_growth.gif)
 
 - Click `Save` once you are happy with your changes
 - OR: Click `Cancel` at any time to revert your changes
@@ -55,7 +55,7 @@ For each year, you can enter the predicted population growth percentage. This ca
 
 All calculations are based on the current `General Population`. To begin, enter the current population:
 
-![population](/docs/manage/images/population.png)
+![population](images/population.png)
 
 ## Adding a new indicator
 
@@ -66,14 +66,14 @@ This will add a new row to the table. You can now enter a name for the demograph
 - Click `Save` once you are happy with your changes
 - OR: Click `Cancel` at any time to revert your changes
 
-![add new indicator](/docs/manage/images/add_indicator.gif)
+![add new indicator](images/add_indicator.gif)
 
 ## Permissions & Restrictions
 
-Demographics are only visible on the [Open mSupply Central Server](/docs/getting_started/central) and requires the [`mobile: Uses vaccine module`](https://docs.msupply.org.nz/cold_chain_equipment:mobile?s[]=vaccine#enable_the_vaccine_module_for_the_mobile_store) store preference.
+Demographics are only visible on the [Open mSupply Central Server](/docs/getting_started/central-server) and requires the [`mobile: Uses vaccine module`](https://docs.msupply.org.nz/cold_chain_equipment:mobile?s[]=vaccine#enable_the_vaccine_module_for_the_mobile_store) store preference.
 
-![mSupply Store Preference Vaccine Module](/docs/programs/images/vaccine_module.png)
+![mSupply Store Preference Vaccine Module](images/vaccine_module.png)
 
 To Create, Edit or Delete Demographics you need the `Can modify central data` permission, enabled in the [omSupply Permissions Tab](https://docs.msupply.org.nz/admin:managing_users?s[]=permission#omsupply_permissions_tab) on your Central Store.
 
-![Can Modify Central Data Permission](/docs/programs/images/can_modify_central.png)
+![Can Modify Central Data Permission](images/can_modify_central.png)
