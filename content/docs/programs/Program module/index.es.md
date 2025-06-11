@@ -306,11 +306,11 @@ A continuación, repasemos cada sección:
 
 - `Item de vacuna` y `Lote`: si seleccionas `Vacuna administrada`, podrás seleccionar el `Item` y `Lote` de la vacuna administrada. Si solo hay un ítem/lote disponible, estos campos estarán pre-rellenados. De lo contrario, podrás seleccionarlos de un menú desplegable.
 
-![Vaccination Modal - given batch select](../../../../public/docs/programs/images/vaccination_given_batch_select.png)
+![Vaccination Modal - given batch select](images/vaccination_given_batch_select.png)
 
 Ten en cuenta que si seleccionas una instalación marcada como `Otra instalación`, no tendrás la opción de seleccionar un ítem y un lote.
 
-![Vaccination Modal - given other facility](../../../../public/docs/programs/images/vaccination_given_other_facility.png)
+![Vaccination Modal - given other facility](images/vaccination_given_other_facility.png)
 
 Si seleccionas una `Fecha` en el pasado, aparecerá un interruptor para `Registrar transacción de stock para vacunación pasada`.
 

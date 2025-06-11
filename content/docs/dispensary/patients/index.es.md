@@ -30,7 +30,7 @@ Se mostrará una lista de pacientes visibles para tu almacén.
 
 ### Lista de Pacientes
 
-![](/docs/dispensary/images/patient-list-view.png)
+![](images/patient_list_view.png)
 
 1. La lista de pacientes está dividida en 8 columnas:
 
@@ -64,6 +64,7 @@ Puedes filtrar la lista de pacientes utilizando la barra de búsqueda en la part
 ![Patient filter](images/patient_filter.png)
 
 Por ejemplo, para filtrar por género, haz clic en `Filtros`, selecciona `Género`, y luego elige el género por el que deseas filtrar.
+
 ### Exportar pacientes
 
 La lista de pacientes puede exportarse a un archivo separado por comas (CSV). Simplemente haz clic en el botón de exportar (ubicado en la parte superior derecha de la página). El archivo se descargará automáticamente. La función de exportación descargará todos los pacientes, no solo los de la página actual, en caso de que tengas más de 20.

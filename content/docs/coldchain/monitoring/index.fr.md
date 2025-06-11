@@ -128,7 +128,7 @@ Once a breach is acknowledged, the red alert icon is no longer shown for that br
 
 The log view shows a list of all temperature logs.
 
-![Logs](../../../../public/docs/coldchain/images/log_list.png)
+![Logs](images/log_list.png)
 
 The list of temperature logs is divided into 6 columns:
 
@@ -169,7 +169,7 @@ To add a filter to the page, choose the required filter from the drop down.
 If you are using Berlinger Fridge-tags, you can import the data directly into Open mSupply. To do this, insert the USB of the Fridge-tag into your computer.
 Then click the `Import Fridge-tag` button:
 
-![Import fridge tag](../../../../public/docs/coldchain/images/import_fridge_tag.png)
+![Import fridge tag](images/import_fridge_tag.png)
 
 This will open a file browsing window, allowing you to select the `.txt` file of the Fridge-tag data. Simply click on the file and wait for the import to complete.
 
@@ -177,7 +177,7 @@ This will open a file browsing window, allowing you to select the `.txt` file of
 
 Here's how the process looks (this is the mac desktop version):
 
-![Import fridge tag](../../../../public/docs/coldchain/images/import_fridge_tag.gif)
+![Import fridge tag](images/import_fridge_tag.gif)
 
 <div class="note">You may need to wait for the text file to be generated after connecting the Fridge-tag to your computer.</div>
 

@@ -67,7 +67,7 @@ Para agregar un filtro a la página, selecciona el filtro requerido del menú de
 
 Los activos pueden ser seleccionados y eliminados utilizando la acción de la barra de herramientas:
 
-![](../../../../public/docs/coldchain/images/delete_rows.png)
+![eliminar equipos](images/delete_rows.png)
 
 ### Importación y exportación
 

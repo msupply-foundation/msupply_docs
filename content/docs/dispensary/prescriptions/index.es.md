@@ -91,7 +91,9 @@ Puedes eliminar una prescripción de la lista de prescripciones.
 Solo puedes eliminar prescripciones con el estado <code>NUEVO</code>.
 </div>
 
-![Prescription list: delete](images/prescription_list_deleteline.gif)
+![Prescription list: delete](images/prescription_delete_step_1.png)
+![Prescription list: delete](images/prescription_delete_step_2.png)
+![Prescription list: delete](images/prescription_delete_step_3.png)
 
 ## Crear una prescripción
 
@@ -105,15 +107,15 @@ Solo puedes eliminar prescripciones con el estado <code>NUEVO</code>.
 
 #### Seleccionar un paciente
 
-1. En la ventana de `Pacientes`, se mostrará una lista de pacientes disponibles. La lista cargará los primeros 100 pacientes y te pedirá que refines tu búsqueda escribiendo la mayor cantidad posible del nombre o código del paciente.
+En la ventana "Nueva receta", se le presentará un formulario para buscar pacientes disponibles. La lista de pacientes se cargará al empezar a escribir; puede introducir el nombre o el código del paciente según sus necesidades.
 
-<div class="imagetitle">
-En el siguiente ejemplo, estamos prescribiendo medicamentos a <b>Luna Lovegood</b>. 
+Si no se encuentra ninguna coincidencia, aparecerá el botón "Crear nuevo paciente". Al hacer clic en él, se abrirá una nueva ventana para crear un nuevo paciente, antes de volver a la ventana "Receta".
+
+<div class="note">
+Si ha encontrado un paciente que coincida con la búsqueda, pero no es el correcto, puede pulsar la barra espaciadora varias veces para ver el botón "Nuevo paciente".
 </div>
 
-![gif](images/prescription_select_patient.gif)
-
-2. Tu prescripción se crea automáticamente al hacer clic en el paciente en la lista desplegable.
+Tu prescripción se crea automáticamente al hacer clic en el paciente en la lista desplegable.
 
 <div class=imagetitle>
 Si todo salió bien, deberías ver el nombre de tu paciente en la esquina superior izquierda y el estado debería ser  <code>NUEVO</code> 
@@ -125,14 +127,11 @@ Si todo salió bien, deberías ver el nombre de tu paciente en la esquina superi
 
 Si seleccionaste al paciente incorrecto, puedes cambiar el nombre en el campo `Nombre del Paciente` o seleccionar uno de la lista desplegable:
 
-![Change patient](images/prescription_change_patient.gif)
+![Change patient](images/prescription_change_patient_step_1.png)
+![Change patient](images/prescription_change_patient_step_2.png)
+![Change patient](images/prescription_change_patient_step_3.png)
 
 Es posible que necesites escribir más del nombre o código del paciente si tienes más de 100 pacientes para que el nombre aparezca en la lista desplegable.
-
-### Seleccionar al médico
-
-Una vez creada la prescripción, puedes seleccionar un médico en la lista desplegable `Médico`.
-![Select Clinician](images/prescription_clinician.gif)
 
 ### Ver o editar el panel de información de Prescripción
 
@@ -149,9 +148,11 @@ Si estás usando una pantalla grande, el panel de información se abrirá autom�
 
 Para abrir el panel de información, puedes tocar el botón `Más`, ubicado en la esquina superior derecha de la vista de prescripción.
 
+![Open and close the Information Panel](images/prescription_infopanel_more.png)
+
 Puedes cerrarlo tocando el botón `X Cerrar`, que se encuentra en la esquina superior derecha del panel de información.
 
-![Open and close the Information Panel](images/prescription_infopanel_openclose.gif)
+![Open and close the Information Panel](images/prescription_infopanel_open.png)
 
 #### Información Adicional
 
@@ -218,8 +219,6 @@ No es obligatorio actualizar una prescripción al siguiente estado en la secuenc
 
 Como se muestra a continuación, toca la flecha hacia abajo del botón `Confirmar` y selecciona el estado al que deseas actualizar la prescripción.
 
-![Skip Status](images/prescription_confirmbutton_skipstatus.gif)
-
 ## Agregar líneas a una prescripción
 
 Toca el botón `Agregar Artículo` (en la esquina superior derecha).
@@ -238,7 +237,9 @@ En la ventana `Agregar Artículo`, puedes buscar un artículo de las siguientes 
 
 Una vez que el artículo esté resaltado, haz clic en el nombre o presiona `Enter`.
 
-![Alt Text](images/prescription_additem.gif)
+![Adding an item to a prescription](images/prescription_additem_step_1.png)
+![Adding an item to a prescription](images/prescription_additem_step_2.png)
+![Adding an item to a prescription](images/prescription_additem_step_3.png)
 
 Después de seleccionar el artículo, podrás ver la siguiente información:
 
@@ -305,7 +306,7 @@ En el siguiente ejemplo, estamos emitiendo 1000 unidades del artículo. Todas la
 
 Puedes ver uno o más mensajes de advertencia en esta pantalla:
 
-![placeholder warning!](../../images-es/74c44351aa146ecbb194c46da8d7fc3528d0ed0b.png)
+![Warning: can't allocate that many](images/prescription_warning_cant_allocate_more_than_we_have.png)
 
 La advertencia se muestra para informarte que no hay suficiente stock disponible para cumplir con tu solicitud. Se agrega automáticamente una cantidad de marcador de posición para que puedas realizar un seguimiento de la cantidad solicitada mientras se añade más stock (por ejemplo, utilizando una orden interna o una entrada).
 

@@ -347,7 +347,7 @@ Si estableces todas las cantidades de devolución en `0`, y haces clic en `Sigui
 3. Ve al menú desplegable `Acciones` (en la esquina superior derecha, sobre la lista).
 4. Selecciona la acción `Eliminar líneas seleccionadas`
 
-![Delete lines actions dropdown](../../../../public/docs/replenishment/images/or_actions_deletelines.png)
+![Delete lines actions dropdown](images/or_actions_deletelines.png)
 
 <div class="imagetitle">
 En el ejemplo a continuación, estamos eliminando <i>artículo 030063 - Ácido Acetilsalicílico 100 mg tabletas</i>

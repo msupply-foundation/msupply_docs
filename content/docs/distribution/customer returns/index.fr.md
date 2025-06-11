@@ -347,7 +347,7 @@ Si vous définissez toutes les quantités de retour à `0`, et cliquez sur `Proc
 3. Allez au menu déroulant `Actions` (en haut à droite, au-dessus de la liste)
 4. Sélectionnez l’action `Supprimer les lignes sélectionnées`
 
-![Delete lines actions dropdown](../../../../public/docs/replenishment/images/or_actions_deletelines.png)
+![Delete lines actions dropdown](images/or_actions_deletelines.png)
 
 <div class="imagetitle">
 Dans l’exemple ci-dessous, nous supprimons <i>article 030063 - Acetylsalicylic Acid 100mg tabs</i>

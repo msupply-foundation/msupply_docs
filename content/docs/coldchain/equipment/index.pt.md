@@ -61,7 +61,7 @@ Para adicionar um filtro à página, selecioneo filtro desejado no menu colapsad
 
 Os ativos pdoem ser selecionados e excluídos ao clicar nas ações disponíveis na barra de ferramentas.
 
-![](../../../../public/docs/coldchain/images/delete_rows.png)
+![](images/delete_rows.png)
 
 ### Importar y exportacexportar
 

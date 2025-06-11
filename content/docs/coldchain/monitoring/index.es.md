@@ -139,7 +139,7 @@ Una vez que un incumplimiento ha sido reconocido, el ícono de alerta roja ya no
 
 La pestaña `Registro` muestra una lista de todos los registros de temperatura
 
-![Logs](../../../../public/docs/coldchain/images/log_list.png)
+![Logs](images/log_list.png)
 
 La lista de registros de temperatura está dividida en 6 columnas:
 
@@ -166,4 +166,3 @@ Para agregar un filtro a la página, selecciona el filtro requerido desde el men
 2. Si tienes más registros que el límite actual, puedes navegar a otras páginas tocando el número de la página o usando las flechas de derecha o izquierda (en la esquina inferior derecha).
 
 3. También puedes seleccionar un número diferente de filas para mostrar por página utilizando la opción en la esquina inferior derecha de la página.
-

@@ -56,7 +56,7 @@ Empecemos una toma de inventario. Para esto, da clic en el botón `Nueva Toma de
 
 Aparecerá una ventana, donde puedes optar por crear una toma de inventario basada en elementos de una lista maestra, inventario en una ubicación particula o una toma de inventario vacía:
 
-![Stocktake: Add item](images/stocktake_additem2.png)
+![Stocktake: New modal](images/stocktake_newmodal.png)
 
 Haz clic en aceptar cuando hayas seleccionado la opción que deseas.
 

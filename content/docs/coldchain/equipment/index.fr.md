@@ -60,7 +60,7 @@ Pour ajouter un filtre à la page, choisissez le filtre requis dans la liste dé
 
 Les actifs peuvent être sélectionnés et supprimés à l'aide de l'action de la barre d'outils :
 
-![](../../../../public/docs/coldchain/images/delete_rows.png)
+![Supprimer](images/delete_rows.png)
 
 ### Importer et exporter
 
@@ -104,9 +104,6 @@ Un fichier csv peut être téléchargé une fois créé dans le format exemple.
 #### Export
 
 Une liste d'actifs peut être exportée au format CSV à l'aide du bouton `Exporter`.
-
-
-
 
 ![](images/export.png)
 
@@ -168,8 +165,6 @@ Depuis l'onglet `Résumé`, vous pouvez:
 <div class="Astuce">Plusieurs emplacements peuvent être attribués à un seul actif</div>
 
 Vous pouvez également afficher l'état fonctionnel et modifier les notes du journal d'état.
-
-![Notes récapitulatives détaillées des actifs](images/asset_detail_summary_notes.png)
 
 #### Journal d'état
 
