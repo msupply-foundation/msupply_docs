@@ -55,15 +55,15 @@ From this screen you can:
 
 1. The list can display a fixed number of shipments per page. On the bottom left corner, you can see how many shipments are currently displayed on your screen.
 
-![Page](images/list_showing.png)
+![Page](../../images/list_showing.png)
 
 3. If you have more shipments than the current limit, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner).
 
-![Page](images/list_pagenumbers.png)
+![Page](../../images/list_pagenumbers.png)
 
 4. You can also select a different number of rows to show per page using the option at the bottom right of the page.
 
-![Rows per page](images/rows-per-page-select.png)
+![Rows per page](../../images/rows-per-page-select.png)
 
 ### Search by Customer Name
 
@@ -119,7 +119,7 @@ In the below example, we are issuing stock to <b>Kamo Regional Warehouse</b>.
 ![gif](images/os_select_customer.gif)
 
 <div class="tip">
-You can tell if a customer is also using Open mSupply in their store if they have an icon like this <img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto"> next to the customer code. 
+You can tell if a customer is also using Open mSupply in their store if they have an icon like this <img src="images/is_msupplystoreicon.png" alt="Store" style="width:auto"> next to the customer code. 
 </div>
 
 2. Once you tap or press `Enter`, or click on a customer, your Outbound Shipment is automatically created
@@ -204,7 +204,7 @@ The tax rate (%) for service charges and the item's sell price can also be edite
 
 If your store is issuing in foreign currencies follow [these instructions](https://docs.msupply.org.nz/other_stuff:currencies) in the central server documentation to set it up. You will also need to enable the store preference `Store: Able to issue in foreign currency`. This preference is compatible with Open mSupply `v1.7.0+`.
 
-![Store preference](../../../../public/docs/distribution/images/store-pref-issue-in-foreign-currencies.png)
+![Store preference](../../images/store-pref-issue-in-foreign-currencies.png)
 
 The pen icon will become active once the above instructions have been followed and only if the customer is an external customer. Click on this icon and change to a currency that you would like to issue the shipment in. The currency rate can also be edited if you and the customer have agreed on a different rate.
 ![gif](images/os-change-foreign-currency.gif)
@@ -229,12 +229,12 @@ The status sequence is located at the bottom left corner of the Outbound Shipmen
 Passed statuses are hightlighted in blue, next statuses appear in grey.
 
 <figure>
-<img src="/docs/distribution/images/os_statussequence2.png" style="width:100%">
+<img src="images/os_statussequence2.png" style="width:100%">
 <figcaption align = "center">Status Sequence: current status is <code>NEW</code>.</figcaption>
 </figure>
 
 <figure>
-<img src="/docs/distribution/images/os_statussequence3.png" alt="Trulli" style="width:100%">
+<img src="images/os_statussequence3.png" alt="Trulli" style="width:100%">
 <figcaption align = "center">Status Sequence: current status is </i><code>PICKED</code>.</figcaption>
 </figure>
 
@@ -263,7 +263,7 @@ Located on the bottom left corner, on the left of the status sequence.
 
 Checking the `Hold` checkbox prevents the Outbound Shipment from being updated to the next status.
 
-![Outbound checkbox](images/os_holdcheckbox.png)
+![Outbound checkbox](../../images/holdcheckbox.png)
 
 ### Cancel and Confirm button
 
@@ -311,7 +311,9 @@ In the `Add Item` window, you can look up an item by:
 
 Once your item is highlighted, tap on the name or press `Enter`.
 
-![Alt Text](images/os_additem.gif)
+![Add Item list](../../images/adding-an-item-all.png)
+![Add Item by name](../../images/adding-an-item-name.png)
+![Add Item by code](../../images/adding-an-item-code.png)
 
 Once the item is selected, you can see the following information:
 
@@ -437,7 +439,7 @@ The values in the **Total quantity** row will be automatically updated with the 
 </div>
 
 <figure>
-<img src="/docs/distribution/images/os_additem_manualallocation.gif" style="width:100%">
+<img src="images/os_additem_manualallocation.gif" style="width:100%">
 <figcaption align = "center"><i>Manual allocation at the batch number level.</i></figcaption>
 </figure>
 
@@ -474,10 +476,10 @@ Tap on the `Add from master list` button (top right corner).
 A new `Master Lists` window opens. This allows you to select the required master list. Simply click on one of the lists (if you have some available).
 Note that the lists shown are those which are visible to the customer of the shipment.
 
-![Add Item button](images/os-add-item-master-lists.png)
+![Add Item button](../../images/add-item-master-lists.png)
 
 Click `OK` on the prompt:
-![Add Item button](images/os-add-item-master-list-prompt.png)
+![Add Item button](../../images/add-item-master-list-prompt.png)
 
 You will then have unallocated (placeholder) lines added to your shipment, which will then look like this:
 

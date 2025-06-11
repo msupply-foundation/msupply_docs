@@ -195,12 +195,12 @@ La secuencia de estados se encuentra en la esquina inferior izquierda de la pant
 Los estados pasados están resaltados en azul, los próximos estados aparecen en gris.
 
 <figure>
-    <img src="/docs/replenishment/images/is_statussequence2.png" alt="Inbound Shipment Status Sequence (New)" style="width:100%">
+    <img src="images/is_statussequence2.png" alt="Inbound Shipment Status Sequence (New)" style="width:100%">
     <figcaption align="center">Secuencia de estado: el estado actual es <code>Nuevo</code>.</figcaption>
 </figure>
 
 <figure>
-    <img src="/docs/replenishment/images/is_statussequence3.png" alt="Inbound Shipment Status Sequence (Shipped)" style="width:100%">
+    <img src="images/is_statussequence3.png" alt="Inbound Shipment Status Sequence (Shipped)" style="width:100%">
     <figcaption align="center">Secuencia de estado: el estado actual es </i><code>Enviado</code>.</figcaption>
 </figure>
 
@@ -225,7 +225,7 @@ Si, sin embargo, ha creado un envío de entrada manualmente, entonces se muestra
 y verá que la barra de estado tiene solo los valores de estado que corresponden a este tipo de envío.
 
 <figure align="center">
-    <img src="/docs/replenishment/images/is_statussequence4.png" alt="Inbound Shipment Status Sequence (New & manual)" style="width:60%">
+    <img src="images/is_statussequence4.png" alt="Inbound Shipment Status Sequence (New & manual)" style="width:60%">
     <figcaption align="center">Secuencia de estado: el estado actual es </i><code>Nuevo</code>.</figcaption>
 </figure>
 
@@ -249,7 +249,7 @@ Ubicada en la esquina inferior izquierda, a la izquierda de la secuencia de esta
 
 Marcar la casilla `Retener` evita que la entrada de envío entre en el siguiente estado.
 
-![Inbound hold checkbox](images/os_holdcheckbox.png)
+![Inbound hold checkbox](../../images/holdcheckbox.png)
 
 ### Botón de confirmar y cerrar
 
@@ -292,7 +292,9 @@ En la ventana `Agrgear Artículo`, puedes buscar un artículo de las siguientes 
 
 Una vez que el artículo esté resaltado, haz clic en el nombre o presiona `Enter`.
 
-![Add Item](images/os_additem.gif)
+![Add Item list](../../images/adding-an-item-all.png)
+![Add Item by name](../../images/adding-an-item-name.png)
+![Add Item by code](../../images/adding-an-item-code.png)
 
 ### Pestaña de cantidades
 
@@ -363,10 +365,10 @@ El botón estará desactivado si el estado de la entrada es cualquier cosa que n
 
 Se abrirá una nueva ventana de `Listas Maestras`. Esto te permite seleccionar la lista maestra requerida. Simplemente haz clic en una de las listas (si tienes alguna disponible)
 
-![Add Item button](images/os-add-item-master-lists.png)
+![Add Item button](../../images/add-item-master-lists.png)
 
 Haz clic en `Aceptar` en el cuadro de diálogo:
-![Add Item button](images/os-add-item-master-list-prompt.png)
+![Add Item button](../../images/add-item-master-list-prompt.png)
 
 Luego se agregarán líneas de marcador de posición a tu envío, que se verán así:
 

@@ -169,7 +169,7 @@ Vous pouvez toujours modifier manuellement la quantité commandée pour chaque l
 Pour consulter un ordre interne spécifique, il suffit de cliquer sur le bouton `Imprimer` qui se trouve en haut à droite de la page.
 Lors de l'impression, un fichier PDF est généré pour vous, qui s'ouvre alors dans un nouvel onglet du navigateur. Vous pouvez ensuite l'imprimer à l'aide de votre navigateur en cliquant sur "Imprimer" ou en utilisant le bouton "Imprimer". `contrôle`+`P` (si vous utilisez Windows) ou `cmd`+`P` de votre clavier (si vous utilisez un Mac).
 
-![Print button](images/print_button.png)
+![Print button](../../images/print_button.png)
 
 Il s'agit soit
 

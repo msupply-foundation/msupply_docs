@@ -36,7 +36,7 @@ La liste des dépôts est divisée en 5 colonnes:
 | **Donateur**    | Si ce dépôt est un donateur    |
 
 <div class="tip">
-Vous pouvez savoir si un client utilise également Open mSupply dans son entrepôt s'il a une icône comme celle-ci <img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto"> à côté du code. 
+Vous pouvez savoir si un client utilise également Open mSupply dans son entrepôt s'il a une icône comme celle-ci <img src="images/is_msupplystoreicon.png" alt="Store" style="width:auto"> à côté du code. 
 </div>
 
 La liste peut afficher un nombre fixe de dépôts par page. Dans le coin inférieur gauche, vous pouvez voir combien de magasins sont actuellement affichés sur votre écran.
@@ -63,11 +63,8 @@ Dans la barre de recherche située en haut à gauche de votre écran, tapez une 
 
 Pour modifier les propriétés d'un dépôt dans la liste, cliquez dessus. Cela ouvrira une nouvelle fenêtre `Modifier dépôt`.
 
-
-Si vous voyez un message de ce type lorsque vous ouvrez la fenêtre Modifier le dépôt, cela signifie que vous n'avez pas configuré les propriétés du dépôt ! Pour les configurer, veuillez contacter le service d'assistance ou 
+Si vous voyez un message de ce type lorsque vous ouvrez la fenêtre Modifier le dépôt, cela signifie que vous n'avez pas configuré les propriétés du dépôt ! Pour les configurer, veuillez contacter le service d'assistance ou
 ![Facilities: no properties](images/facilities-no-properties-defined.png)
-
-
 
 Dans cette fenêtre, vous pouvez modifier les propriétés du dépôt.
 

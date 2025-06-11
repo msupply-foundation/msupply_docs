@@ -107,7 +107,7 @@ In the below example, we are issuing stock to <b>Kamo Regional Warehouse</b>.
 ![gif](images/os_select_customer.gif)
 
 <div class="tip">
-You can tell if a customer is also using Open mSupply in their store if they have an icon like this <img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto"> next to the customer code. 
+You can tell if a customer is also using Open mSupply in their store if they have an icon like this <img src="images/is_msupplystoreicon.png" alt="Store" style="width:auto"> next to the customer code. 
 </div>
 
 2. Once you tap or press `Enter`, or click on a customer, your Outbound Shipment is automatically created
@@ -192,7 +192,7 @@ The tax rate (%) for service charges and the item's sell price can also be edite
 
 If your store is issuing in foreign currencies follow [these instructions](https://docs.msupply.org.nz/other_stuff:currencies) in the central server documentation to set it up. You will also need to enable the store preference `Store: Able to issue in foreign currency`. This preference is compatible with Open mSupply `v1.7.0+`.
 
-![Store preference](images/store-pref-issue-in-foreign-currencies.png)
+![Store preference](../../images/store-pref-issue-in-foreign-currencies.png)
 
 The pen icon will become active once the above instructions have been followed and only if the customer is an external customer. Click on this icon and change to a currency that you would like to issue the shipment in. The currency rate can also be edited if you and the customer have agreed on a different rate.
 ![gif](images/os-change-foreign-currency.gif)
@@ -245,7 +245,7 @@ Located on the bottom left corner, on the left of the status sequence.
 
 Checking the `Hold` checkbox prevents the Outbound Shipment from being updated to the next status.
 
-![Outbound checkbox](images/os_holdcheckbox.png)
+![Outbound checkbox](../../images/holdcheckbox.png)
 
 ### Cancel and Confirm button
 
@@ -293,7 +293,9 @@ In the `Add Item` window, you can look up an item by:
 
 Once your item is highlighted, tap on the name or press `Enter`.
 
-![Add item](images/os_additem.gif)
+![Add Item list](../../images/adding-an-item-all.png)
+![Add Item by name](../../images/adding-an-item-name.png)
+![Add Item by code](../../images/adding-an-item-code.png)
 
 Once the item is selected, you can see the following information:
 
@@ -467,10 +469,10 @@ Tap on the `Add from master list` button (top right corner).
 A new `Master Lists` window opens. This allows you to select the required master list. Simply click on one of the lists (if you have some available).
 Note that the lists shown are those which are visible to the customer of the shipment.
 
-![Add Item button](images/os-add-item-master-lists.png)
+![Add Item button](../../images/add-item-master-lists.png)
 
 Click `OK` on the prompt:
-![Add Item button](images/os-add-item-master-list-prompt.png)
+![Add Item button](../../images/add-item-master-list-prompt.png)
 
 You will then have unallocated (placeholder) lines added to your shipment, which will then look like this:
 

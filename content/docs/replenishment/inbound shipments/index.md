@@ -52,15 +52,15 @@ The Inbound Shipments list is divided into 7 columns:
 
 2. The list can display a fixed number of shipments per page. On the bottom left corner, you can see how many shipments are currently displayed on your screen.
 
-![Page](images/list_showing.png)
+![Page](../../images/list_showing.png)
 
 3. If you have more shipments than the current limit, you can navigate to the other pages by clicking on the page number or using the right of left arrows (bottom right corner).
 
-![Page](images/list_pagenumbers.png)
+![Page](../../images/list_pagenumbers.png)
 
 4. You can also select a different number of rows to show per page using the option at the bottom right of the page.
 
-![Rows per page](images/rows-per-page-select.png)
+![Rows per page](../../images/rows-per-page-select.png)
 
 ### Filter Inbound Shipments
 
@@ -105,7 +105,7 @@ You can only delete Inbound Shipments with a status <code>NEW</code>.
 1. In the `Suppliers` window, you will be presented with a list of suppliers. You can select your supplier from the list or you can type as much of a supplier name as you want.
 
 <div class="tip">
-You can tell if a supplier is also using Open mSupply in their store. If they do, you will see icon like this <img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto"> next to the supplier code. 
+You can tell if a supplier is also using Open mSupply in their store. If they do, you will see icon like this <img src="images/is_msupplystoreicon.png" alt="Store" style="width:auto"> next to the supplier code. 
 </div>
 
 <div class="imagetitle">
@@ -194,7 +194,7 @@ The tax rate (%) for service charges and the items sell price can also be edited
 
 If your store is issuing in foreign currencies follow [these instructions](https://docs.msupply.org.nz/other_stuff:currencies) in the central server documentation to set it up. You will also need to enable the store preference `Store: Able to issue in foreign currency`. This preference is compatible with Open mSupply `v1.7.0+`.
 
-![Store preference](images/store-pref-issue-in-foreign-currencies.png)
+![Store preference](../../images/store-pref-issue-in-foreign-currencies.png)
 
 The pen icon will become active once the above instructions have been followed and only if the customer is an external customer. Click on this icon and change to a currency that you would like to issue the shipment in. The currency rate can also be edited if you and the customer have agreed on a different rate.
 ![gif](images/is-change-foreign-currency.gif)
@@ -219,12 +219,12 @@ The status sequence is located at the bottom left corner of the Inbound Shipment
 Passed statuses are hightlighted in blue, next statuses appear in grey.
 
 <figure>
-    <img src="/docs/replenishment/images/is_statussequence2.png" alt="Inbound Shipment Status Sequence (New)" style="width:100%">
+    <img src="images/is_statussequence2.png" alt="Inbound Shipment Status Sequence (New)" style="width:100%">
     <figcaption align="center">Status Sequence: current status is <code>New</code>.</figcaption>
 </figure>
 
 <figure>
-    <img src="/docs/replenishment/images/is_statussequence3.png" alt="Inbound Shipment Status Sequence (Shipped)" style="width:100%">
+    <img src="images/is_statussequence3.png" alt="Inbound Shipment Status Sequence (Shipped)" style="width:100%">
     <figcaption align="center">Status Sequence: current status is </i><code>Shipped</code>.</figcaption>
 </figure>
 
@@ -253,7 +253,7 @@ If, however, you've created an Inbound Shipment manually, then the following mes
 and you'll see that the status bar has only the status values which apply to this type of shipment.
 
 <figure align="center">
-    <img src="/docs/replenishment/images/is_statussequence4.png" alt="Inbound Shipment Status Sequence (New & manual)" style="width:60%">
+    <img src="images/is_statussequence4.png" alt="Inbound Shipment Status Sequence (New & manual)" style="width:60%">
     <figcaption align="center">Status Sequence: current status is </i><code>New</code>.</figcaption>
 </figure>
 
@@ -277,7 +277,7 @@ Located on the bottom left corner, on the left of the status sequence.
 
 Check the `Hold` checkbox prevents the Inbound Shipment from being updated to the next status.
 
-![Inbound hold checkbox](images/os_holdcheckbox.png)
+![Inbound hold checkbox](../../images/holdcheckbox.png)
 
 ### Close and Confirm button
 
@@ -320,7 +320,9 @@ In the `Add Item` window, you can look up an item by:
 
 Once your item is highlighted, tap on the name or press `Enter`.
 
-![Add Item](images/os_additem.gif)
+![Add Item list](../../images/adding-an-item-all.png)
+![Add Item by name](../../images/adding-an-item-name.png)
+![Add Item by code](../../images/adding-an-item-code.png)
 
 ### Quantities tab
 
@@ -415,14 +417,14 @@ Tap on the `Add from master list` button (top right corner).
 The button will be disabled if the status of the Inbound Shipment is anything other than <code>New</code>
 </div>
 
-![Add Item button](images/os-add-from-master-list-button.png)
+![Add Item button](images/is_add_from_master_list_button.png)
 
 A new `Master Lists` window opens. This allows you to select the required master list. Simply click on one of the lists (if you have some available).
 
-![Add Item button](images/os-add-item-master-lists.png)
+![Add Item button](../../images/add-item-master-lists.png)
 
 Click `OK` on the prompt:
-![Add Item button](images/os-add-item-master-list-prompt.png)
+![Add Item button](../../images/add-item-master-list-prompt.png)
 
 You will then have placeholder lines added to your shipment, which will then look like this:
 

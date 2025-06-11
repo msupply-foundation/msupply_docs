@@ -196,12 +196,12 @@ La secuencia de estado se encuentra en la esquina inferior izquierda de la panta
 Los estados pasados se resaltan en azul, los próximos estados aparecen en gris.
 
 <figure>
-<img src="/docs/distribution/images/os_statussequence2.png" style="width:100%">
+<img src="images/os_statussequence2.png" style="width:100%">
 <figcaption align="center">Secuencia de estado: el estado actual es <code>NUEVO</code>.</figcaption>
 </figure>
 
 <figure>
-<img src="/docs/distribution/images/os_statussequence3.png" alt="Trulli" style="width:100%">
+<img src="images/os_statussequence3.png" alt="Trulli" style="width:100%">
 <figcaption align="center">Secuencia de estado: el estado actual es </i><code>RECOGIDO</code>.</figcaption>
 </figure>
 
@@ -230,7 +230,7 @@ Se encuentra en la esquina inferior izquierda, a la izquierda de la secuencia de
 
 Seleccionar la casilla `Retener` evita que la salida se actualice al siguiente estado.
 
-![Outbound checkbox](images/os_holdcheckbox.png)
+![Outbound checkbox](../../images/holdcheckbox.png)
 
 ### Botones de Cancelar y Confirmar
 
@@ -274,7 +274,9 @@ En la ventana de `Agregar ítem`, puedes buscar un ítem de las siguientes maner
 
 Una vez que hayas resaltado el ítem, toca su nombre o presiona `Enter`.
 
-![Alt Text](images/os_additem.gif)
+![Add Item list](../../images/adding-an-item-all.png)
+![Add Item by name](../../images/adding-an-item-name.png)
+![Add Item by code](../../images/adding-an-item-code.png)
 
 Una vez que se selecciona el artículo, se pueden ver las siguientes información:
 
@@ -379,7 +381,7 @@ Los valores en la fila **Total** se actualizarán automáticamente con la nueva 
 </div>
 
 <figure>
-<img src="/docs/distribution/images/os_additem_manualallocation.gif" style="width:100%">
+<img src="images/os_additem_manualallocation.gif" style="width:100%">
 <figcaption align="center"><i>Asignación manual a nivel del número de lote.</i></figcaption>
 </figure>
 
@@ -416,10 +418,10 @@ Haga clic en el botón `Agregar desde la lista maestra` (esquina superior derech
 Se abre una nueva ventana de `Listas Maestras`. Esto le permite seleccionar la lista maestra requerida. Simplemente haga clic en una de las listas (si tiene alguna disponible).
 Tenga en cuenta que las listas que se muestran son aquellas que son visibles para el cliente del envío.
 
-![Add Item button](images/os-add-item-master-lists.png)
+![Add Item button](../../images/add-item-master-lists.png)
 
 Haga clic en `OK` en la ventana emergente:
-![Add Item button](images/os-add-item-master-list-prompt.png)
+![Add Item button](../../images/add-item-master-list-prompt.png)
 
 Luego se agregarán líneas no asignadas (reserva) a su envío, que se verán así:
 

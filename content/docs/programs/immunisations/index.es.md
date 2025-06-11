@@ -20,7 +20,7 @@ Los Programas Básicos de Inmunización se configuran en el servidor central de 
 Para la funcionalidad de GAPS, solo necesitas configurar una nueva Lista Maestra y marcarla como un Programa de Inmunización.
 
 <div align="center">
-    <img src="/docs/programs/images/og_immunisation_program.png" width="620">
+    <img src="images/og_immunisation_program.png" width="620">
 </div>
 <br />
 

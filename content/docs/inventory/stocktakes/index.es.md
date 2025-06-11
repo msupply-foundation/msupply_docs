@@ -87,7 +87,7 @@ Si intenta guardar la fila del inventario sin ingresar una razón, se mostrará 
 Al ver una toma de inventario específica, simplemente haz clic en el botón `Imprimir` que se encuentra en la parte superior derecha de la página.
 Al imprimir, se genera un archivo PDF para ti, que se abrirá en una nueva pestaña del navegador. Luego, esto se puede imprimir usando tu navegador haciendo clic en imprimir o utilizando las teclas `control`+`P` (si usas Windows) o`cmd`+`P` en tu teclado (si usas un Mac).
 
-![Print button](../../../../public/docs/introduction/images/print_button.png)
+![Print button](../../images/print_button.png)
 
 Esto mostrará
 

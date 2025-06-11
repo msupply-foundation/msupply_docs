@@ -51,7 +51,7 @@ Se introduzir valores para o código e o nome, os itens apresentados terão de c
 O formulário também apresenta em que preferências se baseia o relatório.
 
 <p alinhar="centro">
- <img src="/docs/getting_started/images/report_filter.png" alt="filtro de estado de stock" width="560" height="486">
+ <img src="images/report_filter.png" alt="filtro de estado de stock" width="560" height="486">
 </p>
 
 Clique em `Ok` para gerar o relatório. Se achar que gostaria de restringir

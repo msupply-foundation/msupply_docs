@@ -20,7 +20,7 @@ Os Programas Básicos de Imunização são configurados no servidor central mSup
 Para a funcionalidade GAPS, apenas terá de configurar uma nova Lista Mestre e marcá-la como um Programa de Imunização.
 
 <div alinhar="centro">
- <img src="/docs/programs/images/og_immunisation_program.png" width="620">
+ <img src="images/og_immunisation_program.png" width="620">
 </div>
 <br />
 

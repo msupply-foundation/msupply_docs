@@ -187,12 +187,12 @@ The status sequence is located at the bottom left corner of the Supplier Return 
 Passed statuses are hightlighted in blue, next statuses appear in grey.
 
 <figure>
-<img src="/docs/replenishment/images/or_statussequence2.png" alt="Supplier Return Status Sequence (New)" style="width:100%">
+<img src="images/or_statussequence2.png" alt="Supplier Return Status Sequence (New)" style="width:100%">
 <figcaption align="center">Status Sequence: current status is <code>NEW</code>.</figcaption>
 </figure>
 
 <figure>
-<img src="/docs/replenishment/images/or_statussequence.png" alt="Supplier Return Status Sequence (Shipped)" style="width:100%">
+<img src="images/or_statussequence.png" alt="Supplier Return Status Sequence (Shipped)" style="width:100%">
 <figcaption align="center">Status Sequence: current status is </i><code>SHIPPED</code>.</figcaption>
 </figure>
 
@@ -220,7 +220,7 @@ Located on the bottom left corner, on the left of the status sequence.
 
 Checking the `Hold` checkbox prevents the Supplier Return from being updated to the next status.
 
-![Outbound checkbox](images/os_holdcheckbox.png)
+![Outbound checkbox](../../images/holdcheckbox.png)
 
 ### Close and Confirm button
 

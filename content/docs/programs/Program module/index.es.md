@@ -57,13 +57,13 @@ Hacer clic en un programa llevará a los detalles de la inscripción del pacient
 
 Esta pestaña muestra cinco columnas:
 
-| Columna                   | Descripción                                                          |
-| :------------------------ | :------------------------------------------------------------------- |
-| **Programa**              | El nombre del programa                                               |
-| **ID de inscripción**     | El ID del paciente en el programa                                    |
+| Columna                   | Descripción                                                                        |
+| :------------------------ | :--------------------------------------------------------------------------------- |
+| **Programa**              | El nombre del programa                                                             |
+| **ID de inscripción**     | El ID del paciente en el programa                                                  |
 | **Información Adicional** | Información específica del programa, por ejemplo, LTFU (Perdido en el seguimiento) |
-| **Estado del Programa**   | El estado del programa                                               |
-| **Fecha de Inscripción**  | La fecha en que el paciente se inscribió en el programa              |
+| **Estado del Programa**   | El estado del programa                                                             |
+| **Fecha de Inscripción**  | La fecha en que el paciente se inscribió en el programa                            |
 
 ![Programs](images/patient_program_tab.png)
 
@@ -73,13 +73,13 @@ Hacer clic en un encuentro llevará a los detalles de dicho encuentro. Consulta 
 
 Esta pestaña muestra seis columnas:
 
-| Columna                   | Descripción                                                                                                                                       |
-| :------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Tipo**                  | El tipo de encuentro                                                                                                                                |
-| **Programa**              | El programa asociado al encuentro                                                                                                      |
-| **Fecha**                 | La fecha de la cita del encuentro                                                                                                            |
-| **Inicio**                | La hora de inicio de la cita del encuentro                                                                                                       |
-| **Fin**                   | La hora de finalización de la cita del encuentro                                                                                                         |
+| Columna                   | Descripción                                                                                                             |
+| :------------------------ | :---------------------------------------------------------------------------------------------------------------------- |
+| **Tipo**                  | El tipo de encuentro                                                                                                    |
+| **Programa**              | El programa asociado al encuentro                                                                                       |
+| **Fecha**                 | La fecha de la cita del encuentro                                                                                       |
+| **Inicio**                | La hora de inicio de la cita del encuentro                                                                              |
+| **Fin**                   | La hora de finalización de la cita del encuentro                                                                        |
 | **Información Adicional** | Información adicional sobre el encuentro, por ejemplo, _Encuentro Programado_ significa que la cita ha sido programada. |
 
 ![Encounters](images/patient_encounter_tab.png)
@@ -90,15 +90,15 @@ Hacer clic en un contacto llevará a los detalles de dicho contacto. Consulta [R
 
 Esta pestaña muestra siete columnas:
 
-| Columna               | Descripción                                             |
-| :-------------------- | :------------------------------------------------------ |
-| **Programa**          | El nombre del programa asociado al contacto             |
-| **Fecha de Creación** | La fecha en que se creó el contacto                     |
-| **Nombre**            | Nombre del contacto                                     |
-| **Apellido**          | Apellido del contacto                                   |
-| **Género**            | Género del contacto                                     |
-| **Relación**          | Relación del contacto con el paciente                   | 
-| **Edad**              | Edad del contacto                                       |
+| Columna               | Descripción                                 |
+| :-------------------- | :------------------------------------------ |
+| **Programa**          | El nombre del programa asociado al contacto |
+| **Fecha de Creación** | La fecha en que se creó el contacto         |
+| **Nombre**            | Nombre del contacto                         |
+| **Apellido**          | Apellido del contacto                       |
+| **Género**            | Género del contacto                         |
+| **Relación**          | Relación del contacto con el paciente       |
+| **Edad**              | Edad del contacto                           |
 
 ![Contact Tracing](images/patient_contact_tracing_tab.png)
 
@@ -149,16 +149,16 @@ Ve a `Dispensario` > `Encuentros` para ver la lista de encuentros.
 
 La lista de encuentros se divide en 8 columnas:
 
-| Columna                   | Descripción                                                                                                                                       |
-| :------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Columna                   | Descripción                                                                                                                                         |
+| :------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Tipo**                  | El tipo de encuentro                                                                                                                                |
-| **Programa**              | El programa al que está asociado el encuentro                                                                                                  |
-| **Fecha**                 | La fecha de la cita del encuentro                                                                                                  |
-| **Inicio**                | La hora de inicio de la cita del encuentro                                                                                                  |
-| **Fin**                   | La hora de finalización de la cita del encuentro                                                                                                  |
-| **Paciente**              | El paciente al que está asociado el encuentro                                                                                                  |
-| **Información adicional** | Muestra información adicional sobre el encuentro. Por ejemplo, _Encuentro Programado_ significa que la cita para este encuentro ha sido programada.                                  |
-| **Estado**                | El estado del encuentro                                                                                                  |
+| **Programa**              | El programa al que está asociado el encuentro                                                                                                       |
+| **Fecha**                 | La fecha de la cita del encuentro                                                                                                                   |
+| **Inicio**                | La hora de inicio de la cita del encuentro                                                                                                          |
+| **Fin**                   | La hora de finalización de la cita del encuentro                                                                                                    |
+| **Paciente**              | El paciente al que está asociado el encuentro                                                                                                       |
+| **Información adicional** | Muestra información adicional sobre el encuentro. Por ejemplo, _Encuentro Programado_ significa que la cita para este encuentro ha sido programada. |
+| **Estado**                | El estado del encuentro                                                                                                                             |
 
 Al hacer clic en un encuentro, serás dirigido a los detalles del mismo.
 
@@ -252,27 +252,27 @@ Serás redirigido a la Tarjeta de Vacunación del paciente para ese programa.
 
 La Tarjeta de Vacunación incluye las siguientes columnas:
 
-| Columna            | Descripción                                                                                                                 |
-| :----------------- | :-------------------------------------------------------------------------------------------------------------------------- |
-| **Edad**            | La edad mínima que debe tener el paciente para recibir la dosis                                                                  |
-| **Dosis**           | El nombre de la dosis                                                                                                        |
-| **Estado**         | El estado de la vacuna (ver abajo)                                                                                          |
-| **Fecha sugerida** | La fecha recomendada más temprana para administrar la dosis (basada en la edad del paciente y el intervalo mínimo desde su última dosis)|
-| **Fecha aplicada**     | La fecha en que se registró la vacuna                                                                                        |
-| **Lote**          | El lote del artículo de vacuna administrado al paciente                                                                          |
-| **Instalación**       | La Ubicación donde se administró la vacunación                                                                         |
+| Columna            | Descripción                                                                                                                              |
+| :----------------- | :--------------------------------------------------------------------------------------------------------------------------------------- |
+| **Edad**           | La edad mínima que debe tener el paciente para recibir la dosis                                                                          |
+| **Dosis**          | El nombre de la dosis                                                                                                                    |
+| **Estado**         | El estado de la vacuna (ver abajo)                                                                                                       |
+| **Fecha sugerida** | La fecha recomendada más temprana para administrar la dosis (basada en la edad del paciente y el intervalo mínimo desde su última dosis) |
+| **Fecha aplicada** | La fecha en que se registró la vacuna                                                                                                    |
+| **Lote**           | El lote del artículo de vacuna administrado al paciente                                                                                  |
+| **Instalación**    | La Ubicación donde se administró la vacunación                                                                                           |
 
 **Estados de vacunación:**
 
-- **Administrada**:  El paciente ha recibido la vacuna
+- **Administrada**: El paciente ha recibido la vacuna
 - **No administrada**: El paciente no ha recibido la vacuna (por ejemplo, la rechazó o no había stock disponible)
 - **Pendiente**: El paciente es elegible para esta dosis; ha recibido la dosis anterior y supera la edad mínima
-- **Atrasada**:  El paciente supera la edad máxima recomendada para esta dosis
+- **Atrasada**: El paciente supera la edad máxima recomendada para esta dosis
 
 Para ver los detalles de una vacunación específica, haz clic en esa fila de la tarjeta. Esto abrirá una nueva ventana con toda la información de la vacunación.
 
 <div align="center">
-    <img src="/docs/programs/images/vaccination_edit.png" width="520">
+    <img src="images/vaccination_edit.png" width="520">
 </div>
 <br/>
 
@@ -298,7 +298,7 @@ A continuación, repasemos cada sección:
 
 ![Vaccination Modal - other facility](images/vaccination_other_facility.png)
 
-- `Médico`: estará pre-rellenado con el médico asociado al encuentro, si se seleccionó. Puede cambiarse si la vacunación fue administrada por otro médico. Este campo no estará disponible para vacunaciones registradas en instalaciones marcadas como  `Otras`.
+- `Médico`: estará pre-rellenado con el médico asociado al encuentro, si se seleccionó. Puede cambiarse si la vacunación fue administrada por otro médico. Este campo no estará disponible para vacunaciones registradas en instalaciones marcadas como `Otras`.
 
 - `Fecha`: por defecto será la fecha de hoy, pero puede modificarse para agregar registros históricos de vacunación según sea necesario.
 
@@ -334,7 +334,7 @@ Si se seleccionaron un ítem y un lote de vacuna, el sistema creará y finalizar
 
 Ten en cuenta que la prescripción siempre se creará con la fecha de hoy, independientemente de la fecha seleccionada para la vacunación.
 
-Puedes ver la prescripción creada haciendo clic nuevamente en la fila de la dosis en el registro de vacunación. Si se generó una prescripción, verás un enlace  `Ver prescripción` en el cuadro de información en la parte superior de la ventana.
+Puedes ver la prescripción creada haciendo clic nuevamente en la fila de la dosis en el registro de vacunación. Si se generó una prescripción, verás un enlace `Ver prescripción` en el cuadro de información en la parte superior de la ventana.
 
 ![Vaccination Modal - view prescription](images/vaccination_view_prescription.png)
 

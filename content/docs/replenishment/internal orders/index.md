@@ -92,19 +92,28 @@ First select the item you want to add to your order. You can also type some or a
 Once item is selected, you should see the following information on the page:
 
 - **Item Name**
-- **SOH**: Stock on Hand. How much stock the store currently has available
-- **AMC**: Average Monthly Consumption. How much stock your store uses each month on average (based on a configurable number of months, default is set to 3 months)
-- **Units/Packs toggle**: this allows you to switch between ordering in units or packs
+- **Unit**: the unit which is defined on the item (e.g. Tablet, Vial)
 - **Default pack size**: the default pack size of the item
-- **Requested quantity**: the quantity of units that you request from your supplier
-- **Default pack size**: the default pack size of the item
-- **Suggested Quantity**: how much stock mSupply suggests that your order to reach your stock target quantity
-- **Comments**: any comments you want to add to the order
+- **Doses per unit**: (shown only if this item is a vaccine) this is the number of doses per unit e.g. per Vial
+- **Our SOH**: Stock on Hand. How much stock the store currently has available
+- **AMC/AMD**: Average Monthly Consumption/Average Monthly Distribution. How much stock your store uses each month on average (based on a configurable number of months, default is set to 3 months)
+- **MOS**: Months of Stock - how many months the current stock will last, if used at the average monthly rate (AMC)
 
-You should also see the following charts if you click the bar graph icon next to
-requested quantity:
+- **Suggested**: the number of units which mSupply suggests that your order to reach your stock target quantity
+- **Requested**: the number of units that you request from your supplier
+- **Packs or units**: a drop down selector which allows you to choose between a pack/unit
+- **Comment**: any comments you want to add to the order
 
-![](images/io_bar_graph_icon.png)
+Additionally, if you have are viewing a program order, and have the store preference `Use consumption & stock from customers for internal orders` enabled in your store then you will see some additional fields:
+
+- **Short expiry**: how many units of this item have an expiry date within the next 3 months
+- **Stock arriving**: how much stock has been added by shipments within the period of this internal order
+- **Outgoing**: how much has been taken out of stock by shipments within the period of this internal order
+- **Losses**: how much has been taken out of stock by stocktakes or inventory adjustments within the period of this internal order
+- **Additions**: how much has been added to stock by stocktakes or inventory adjustments within the period of this internal order
+- **Days out of stock**: the number of days within the period in which the store had no stock of this item
+
+You can also see the following charts:
 
 - **Target Quantity**: In this chart, you will see the following information:
   - The _Target Quantity_ for the item. This is calculated as: Target MOS x AMC.
@@ -165,24 +174,27 @@ You can create Internal Orders from multiple master lists by repeating above act
 
 When you add items (using a master list or not), the item is added to the order's table. The following information is provided for each order line:
 
-| Column                   | Description                                                                                                                                        |
-| :----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Code**                 | Code of the item                                                                                                                                   |
-| **Name**                 | Name of the item                                                                                                                                   |
-| **Unit**                 | Unit of the item e.g. Tablet, Capsule, Vial                                                                                                        |
-| **DPS**                  | Default pack size of the item                                                                                                                      |
-| **SoH (Est. remaining)** | Stock on Hand: how much stock is currently available in your store for this store                                                                  |
-| **AMC**                  | Average Monthly Consumption: how much stock your store uses each month on average (based on a configurable number of months, defaults to 3 months) |
-| **Target Stock**         | This is the stock you are aiming for. Calculated as: AMC x Target MOS MOS                                                                          |
-| **Suggested Quantity**   | How much stock mSupply suggests that your order. This is calculated as: (AMC x Target MOS) - SoH                                                   |
-| **Requested**            | This is set to zero by default. This is the quantity of units you are ordering from your supplier.                                                 |
+| Column                   | Description                                                                                                                                                                                                    |
+| :----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Code**                 | Code of the item                                                                                                                                                                                               |
+| **Name**                 | Name of the item                                                                                                                                                                                               |
+| **Unit**                 | Unit of the item e.g. Tablet, Capsule, Vial                                                                                                                                                                    |
+| **Doses per unit**       | If the store preference `Manage vaccines in doses` is enabled for your store, this column is added. It shows the number of doses per unit e.g. Vial, if the item in this row is a vaccine and `-` if it isn't. |
+| **DPS**                  | Default pack size of the item                                                                                                                                                                                  |
+| **SoH (Est. remaining)** | Stock on Hand: how much stock is currently available in your store for this store                                                                                                                              |
+| **AMC**                  | Average Monthly Consumption: how much stock your store uses each month on average (based on a configurable number of months, defaults to 3 months)                                                             |
+| **Target Stock (AMC)**   | This is the stock you are aiming for. Calculated as: AMC x Target MOS                                                                                                                                          |
+| **Suggested Quantity**   | How much stock mSupply suggests that your order. This is calculated as: (AMC x Target MOS) - SoH                                                                                                               |
+| **Requested**            | This is set to zero by default. This is the quantity of units you are ordering from your supplier.                                                                                                             |
+
+Note: If you are using population based forecasting then you will see an additional column of **Target Stock (population)** which shows the target which is calculated using the population served by this store.
 
 ### Printing an Internal Order
 
 When viewing a specific Internal Order, simply click the `Print` button which is on the top right of the page.
 When printing, a PDF file is generated for you, which will then open in a new browser tab. This can then be printed using your browser by clicking print or using `control`+`P` (if using windows) or `cmd`+`P` keys on your keyboard (if using a mac).
 
-![Print button](images/print_button.png)
+![Print button](../../images/print_button.png)
 
 This will either
 
@@ -226,11 +238,11 @@ And when viewing a specific Internal Order, there are columns showing the approv
 
 Similarly, the supplying store will have an additional column in the requisition list view showing the approval status :
 
-![Internal Order detail with approval columns](images/requisition_list_approval.png)
+![Internal Order detail with approval columns](images/intord_list_approval.png)
 
 And finally, a specific requisition will also have new columns, for the approved quantity and an approval comment, if one has been entered by the approver:
 
-![Internal Order detail with approval columns](images/requisition_detail_approval.png)
+![Internal Order detail with approval columns](images/intord_detail_approval.png)
 
 ### Local approval process
 

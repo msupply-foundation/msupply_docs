@@ -28,7 +28,7 @@ La fonction Expédition est utilisée pour:
 
 Choisir `Distribution` > `Expédition` dans le panneau de navigation.
 
-![gotooos](../../../../public/docs/distribution/images/gotoos2_fr.png)
+![gotooos](images/gotoos2_fr.png)
 
 La liste des Expéditions s'affichera (Si vous ne voyez aucune ligne, rassurez-vous. Vous venez probablement de commencer!).
 
@@ -55,11 +55,11 @@ De cet écran, vous pouvez:
 
 2. La liste peut afficher un nombre fixe d'expéditions par page. Au bas de liste, à gauche, on peut voir le nombre d'expéditons actuellement affiché à l'écran.
 
-![Page](images/list_showing.png)
+![Page](../../images/list_showing.png)
 
 3. S'il y a plus de 20 expéditions, vous pouvez vous déplacer vers une autre page en cliquant sur le numéro de la page ou en utilisant les flèches droite ou gauche (coin inférieur droit).
 
-![Page](images/list_pagenumbers.png)
+![Page](../../images/list_pagenumbers.png)
 
 ### Recherche par nom de client
 
@@ -198,12 +198,12 @@ Le status de la séquence se trouve dans le coin inférieur gauche de l'écran e
 Les statuts passés sont mis en évidence en bleu, les statuts suivants apparaissent en gris.
 
 <figure>
-<img src="/docs/distribution/images/os_statussequence2.png" style="width:100%">
+<img src="images/os_statussequence2.png" style="width:100%">
 <figcaption align="center">Status Sequence: status actuel est <code>NEW</code>.</figcaption>
 </figure>
 
 <figure>
-<img src="/docs/distribution/images/os_statussequence3.png" alt="Trulli" style="width:100%">
+<img src="images/os_statussequence3.png" alt="Trulli" style="width:100%">
 <figcaption align="center">Status Sequence: status actuel est </i><code>PICKED</code>.</figcaption>
 </figure>
 
@@ -232,7 +232,7 @@ Situé dans le coin inférieur gauche, à gauche du statuts de la séquence.
 
 Le fait de cocher la case `Hold` empêche la mise à jour du transfert sortant vers le statut suivant.
 
-![Outbound checkbox](images/os_holdcheckbox.png)
+![Outbound checkbox](../../images/holdcheckbox.png)
 
 ### Bouton d'annulation et de confirmation
 
@@ -276,7 +276,9 @@ Dans la fenêtre `Add Item` vous pouvez rechercher un élément par :
 
 Une fois que votre article est mis en évidence, tapez sur le nom ou appuyez sur `Enter`.
 
-![Alt Text](images/os_additem.gif)
+![Add Item list](../../images/adding-an-item-all.png)
+![Add Item by name](../../images/adding-an-item-name.png)
+![Add Item by code](../../images/adding-an-item-code.png)
 
 Une fois l'élément sélectionné, les informations suivantes s'affichent :
 
@@ -378,7 +380,7 @@ Le champ principal `Quantité à délivrer` sera automatiquement mis à jour ave
 </div>
 
 <figure>
-<img src="/docs/distribution/images/os_additem_manualallocation.gif" alt="Trulli" style="width:100%">
+<img src="images/os_additem_manualallocation.gif" alt="Trulli" style="width:100%">
 <figcaption align="center"><i>Allocation manuelle au niveau du numéro de lot.</i></figcaption>
 </figure>
 

@@ -120,7 +120,7 @@ En el siguiente ejemplo, queremos devolver inventario al  <b>Almacén Regional d
 ![Search supplier list](images/or_select_supplier.png)
 
 <div class="tip">
-Puedes saber si un proveedor también utiliza Open mSupply en su almacén. Si lo hace, verás un ícono como este  <img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="ALmacén" style="width:auto"> junto al código del proveedor. 
+Puedes saber si un proveedor también utiliza Open mSupply en su almacén. Si lo hace, verás un ícono como este  <img src="images/is_msupplystoreicon.png" alt="ALmacén" style="width:auto"> junto al código del proveedor. 
 </div>
 
 2. Una vez que toques, presiones `Enter`, o hagas clic en un proveedor, tu Devolución al Proveedor se creará automáticamente.
@@ -187,12 +187,12 @@ La secuencia de estados se encuentra en la esquina inferior izquierda de la pant
 Los estados completados están resaltados en azul, mientras que los próximos estados aparecen en gris.
 
 <figure>
-<img src="/docs/replenishment/images/or_statussequence2.png" alt="Supplier Return Status Sequence (New)" style="width:100%">
+<img src="images/or_statussequence2.png" alt="Supplier Return Status Sequence (New)" style="width:100%">
 <figcaption align="center">Secuencia de Estado: el estado actual es <code>NUEVO</code>.</figcaption>
 </figure>
 
 <figure>
-<img src="/docs/replenishment/images/or_statussequence.png" alt="Supplier Return Status Sequence (Shipped)" style="width:100%">
+<img src="images/or_statussequence.png" alt="Supplier Return Status Sequence (Shipped)" style="width:100%">
 <figcaption align="center">Secuencia de Estado: el estado actual es </i><code>ENVIADO</code>.</figcaption>
 </figure>
 
@@ -220,7 +220,7 @@ Ubicada en la esquina inferior izquierda, a la izquierda de la secuencia de esta
 
 Marcar la casilla de verificación `En espera` impide que la Devolución de Proveedor se actualice al siguiente estado.
 
-![Outbound checkbox](images/os_holdcheckbox.png)
+![Outbound checkbox](../../images/holdcheckbox.png)
 
 ### Botón Cerrar y Confirmar
 
