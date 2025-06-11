@@ -187,7 +187,9 @@ When you add items (using a master list or not), the item is added to the order'
 | **Suggested Quantity**   | How much stock mSupply suggests that your order. This is calculated as: (AMC x Target MOS) - SoH                                                                                                               |
 | **Requested**            | This is set to zero by default. This is the quantity of units you are ordering from your supplier.                                                                                                             |
 
-Note: If you are using population based forecasting then you will see an additional column of **Target Stock (population)** which shows the target which is calculated using the population served by this store.
+<div class="note">If you are using population based forecasting then you will see an additional column of **Target Stock (population)** which shows the target which is calculated using the population served by this store.</div>
+
+<div class="tip">You can also use population based forecasting for vaccine items. This requires the installation of a plugin, please contact support for details.</div>
 
 ### Printing an Internal Order
 

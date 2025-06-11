@@ -84,7 +84,13 @@ After selecting an item, you can enter the information for this new stock line. 
 
 ![New stock line: enter details](images/stock_new_details.png)
 
-If you have [inventory adjustment reasons](https://docs.msupply.org.nz/preferences:options?s[]=reasons) configured in your central server, then you are also required to enter a reason when creating a new stock line.
+See the [Campaigns](/docs/manage/campaigns/) page for details of how to configure campaigns.
+
+There are some fields which only show if enabled:
+
+### Reasons
+
+If you have [inventory adjustment reasons](https://docs.msupply.org.nz/preferences:options?s[]=reasons) configured in your central server, then you are also required to enter a reason when creating a new stock line. When reducing stock levels for vaccine items, the options configured for `Open vial wastage` and `Closed vial wastage` can be selected here also.
 
 If this is the case, the reason input will be enabled as below:
 

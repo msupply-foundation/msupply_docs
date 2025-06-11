@@ -32,8 +32,7 @@ Global Preferences can be configured by turning these options on or off. Any upd
 - Display Population Based Forecasting
 - Show Contact Tracing
 
-| Preference Name                          | Description                                                                                                          |
-| :--------------------------------------- | :------------------------------------------------------------------------------------------------------------------- |
-| **Allow tracking of stock by donor**     | Adds a donor column to stock management screens. This allows you to track which donor a stock item is from.          |
-| **Display Population Based Forecasting** | Affects suggested quantity of Requisitions when using a plugin. See plugins for further details. TODO: update this?? |
-| **Show Contact Tracing**                 | Enables the [Contact Tracing](/docs/programs/program-module/#contact-tracing) feature for Patients                   |
+| Preference Name                      | Description                                                                                                 |
+| :----------------------------------- | :---------------------------------------------------------------------------------------------------------- |
+| **Allow tracking of stock by donor** | Adds a donor column to stock management screens. This allows you to track which donor a stock item is from. |
+| **Show Contact Tracing**             | Enables the [Contact Tracing](/docs/programs/program-module/#contact-tracing) feature for Patients          |

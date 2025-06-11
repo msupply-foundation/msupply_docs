@@ -97,7 +97,7 @@ You can use the `Add batch (+)` button to add more batches of a particular item 
 
 ### Entering reasons
 
-If you have [inventory adjustment options](https://docs.msupply.org.nz/preferences:options?s[]=reasons) configured in your central server, and are not doing an initial stocktake, then you are required to enter a reason when the `counted packs` specified does not match the snapshot packs.
+If you have [inventory adjustment options](https://docs.msupply.org.nz/preferences:options?s[]=reasons) configured in your central server, and are not doing an initial stocktake, then you are required to enter a reason when the `counted packs` specified does not match the snapshot packs. When reducing stock levels for vaccine items, the options configured for `Open vial wastage` and `Closed vial wastage` can be selected here also.
 
 For example, after entering `95` for the counted quantity for Amoxicillin 250mg tabs - batch 166893, a red \* will appear to the right of the `Reason` input, and you will need to select one of the negative inventory adjustment reasons:
 
