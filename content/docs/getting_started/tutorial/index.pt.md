@@ -53,11 +53,11 @@ Isto abrirá a seguinte janela, independentemente da página em que se encontra:
 
 ![CommandK](images/cmd_k.png)
 
-Isto mostra a lista de atalhos disponíveis globalmente, por exemplo, premir `d` no seu teclado irá levá-lo ao painel (a menos que esteja a introduzir texto num campo de entrada!).
+Isto mostra a lista de atalhos disponíveis globalmente, por exemplo, pressionando `Alt+D` (ou `Option+D` em um mac) no seu teclado irá levá-lo ao painel (a menos que esteja a introduzir texto num campo de entrada!).
 
 No entanto, também pode clicar num item da lista ou pesquisar os comandos disponíveis:
 
-![CommandK](images/cmd_k.gif)
+![CommandK](images/cmd_k_filtered.png)
 
 Além disso, existem vários locais onde estão disponíveis atalhos de teclado específicos. Um exemplo é o controlo de separadores utilizado em Inventários e Remessas de Entrada. Aqui pode usar `control`+`1` para navegar até ao primeiro separador (Quantidades) ou `control`+`2` para o segundo separador (Preços) etc. Se premir `+` no seu teclado, pode adicionar um novo lote.
 

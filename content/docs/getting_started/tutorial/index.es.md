@@ -12,10 +12,9 @@ template = "docs/page.html"
 toc = true
 +++
 
-## Tutorial Open mSupply 
+## Tutorial Open mSupply
 
 Este tutorial está diseñado para guiarte a través de los conceptos básicos del uso de Open mSupply.
-
 
 ## Inicio de sesión
 
@@ -27,12 +26,12 @@ Este tutorial está diseñado para guiarte a través de los conceptos básicos d
 
 4. Ingresa tu nombre de usuario y contraseña y presiona <enter> en tu teclado o haz clic en el botón [Iniciar sesión].
 
-Si todo va bien, serás redirigido a la página del tablero de control. 
+Si todo va bien, serás redirigido a la página del tablero de control.
 Si hubo un problema, verás un mensaje de error como este:
 
 ![login!](images/log_in_error.png)
 
- Intenta volver a escribir tu nombre de usuario y contraseña. Recuerda que ambos son sensibles a las mayúsculas y minúsculas. Una vez que hayas iniciado sesión, se seleccionará automáticamente el almacén predeterminado de tu usuario. Si tienes acceso a otros almacenes, podrás cambiar entre ellos después de iniciar sesión (ver más abajo).Si ya has iniciado sesión antes y has cambiado de almacén, se seleccionará automáticamente el almacén más reciente cuando inicies sesión de nuevo.
+Intenta volver a escribir tu nombre de usuario y contraseña. Recuerda que ambos son sensibles a las mayúsculas y minúsculas. Una vez que hayas iniciado sesión, se seleccionará automáticamente el almacén predeterminado de tu usuario. Si tienes acceso a otros almacenes, podrás cambiar entre ellos después de iniciar sesión (ver más abajo).Si ya has iniciado sesión antes y has cambiado de almacén, se seleccionará automáticamente el almacén más reciente cuando inicies sesión de nuevo.
 
 ## Navegación
 
@@ -53,13 +52,13 @@ Esto te mostrará la siguiente ventana, sin importar en qué página te encuentr
 
 ![CommandK](images/cmd_k.png)
 
-Esto te muestra la lista de atajos disponibles globalmente, por ejemplo, presionar `d` en tu teclado te llevará al tablero de control (¡a menos que estés escribiendo texto en un campo de entrada!).
+Esto te muestra la lista de atajos disponibles globalmente, por ejemplo, pulsando `Alt+D` (u `Opción+D` en un mac) en tu teclado te llevará al tablero de control (¡a menos que estés escribiendo texto en un campo de entrada!).
 
 Sin embargo, también puedes hacer clic en un elemento de la lista o buscar comandos disponibles:
 
-![CommandK](images/cmd_k.gif)
+![CommandK](images/cmd_k_filtered.png)
 
-Además, hay varios lugares donde están disponibles los atajos de teclado específicos. Un ejemplo es el control de pestañas utilizado tanto en Inventario como en Entradas. Aquí puedes usar `control`+`1` para navegar a la primera pestaña (Cantidades) o`control`+`2`  para la segunda pestaña (Precios), etc. Si presionas`+` en tu teclado, puedes agregar un nuevo lote.
+Además, hay varios lugares donde están disponibles los atajos de teclado específicos. Un ejemplo es el control de pestañas utilizado tanto en Inventario como en Entradas. Aquí puedes usar `control`+`1` para navegar a la primera pestaña (Cantidades) o`control`+`2` para la segunda pestaña (Precios), etc. Si presionas`+` en tu teclado, puedes agregar un nuevo lote.
 
 ![Inbound tabs](images/is_edit_keyboard_shortcuts.png)
 
@@ -78,7 +77,6 @@ Verás la notificación y el nombre del almacén en el pie de página se actuali
 De manera similar, puedes seleccionar otro idioma haciendo clic en el idioma actual en el pie de página:
 
 ![Footer](images/footer_select_language.png)
-
 
 ## ¡Ayuda!
 
