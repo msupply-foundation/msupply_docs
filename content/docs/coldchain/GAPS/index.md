@@ -93,12 +93,12 @@ Volumes for primary, secondary and tertiary packaging can be recorded so that th
 
 ### 2. Capturing population data for facilities
 
-To calculate how many doses of vaccines require storing in CCE it is necessary to know how many people are served by each facility and what percentage of those people will require vaccines. 
+To calculate how many doses of vaccines will be required in a given year it is necessary to know how many people are served by each facility and what percentage of those people will require vaccines in that year. 
 
 To do this requires: 
-- A snapshot of the current population
-- Specification of population indicators
-- An estimation of population growth rate
+- [A snapshot of the current population](#population-snapshot)
+- [Specification of population indicators](#population-indicators)
+- [An estimation of population growth rate](#population-growth-rate)
 
 #### Population snapshot
 
@@ -108,6 +108,9 @@ This population data is then aggregated centrally to build a national population
 
 ![](images/store_population_served.png)
 
+Note: for demand calculations to stay relevant it is necessary for the `Population served` data to be renewed on a periodic basis, e.g. annually. 
+
+This requires the introduction of a robust SOP to ensure facilities maintain up-to-date data. 
 #### Population indicators
 
 `Population indicators` are used to determine what percentage of the population snapshot will require vaccinating.  For example, what percentage of the population snapshot are newborn children.
@@ -117,6 +120,12 @@ The `Population indicators` are set at the central level in the [Demographics](/
 ![](images/demographics_population_indicators.png)
 
 #### Population growth rate
+
+To forecast beyond the current year it is necessary to estimate the annual population growth. 
+
+The `Population growth` may be specified for the next 5 years in the [Demographics](/docs/manage/demographics/#yearly-growth-percentage) section.
+
+![](images/demographics_population_growth.png)
 ### 3. Specifying the national immunization program
 
 ### 4. Reviewing expected demand forecasts
