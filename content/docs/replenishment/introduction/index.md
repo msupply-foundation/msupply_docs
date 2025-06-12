@@ -24,8 +24,8 @@ For an overview of supply chain processes, remember to review [the introduction 
 {%mermaid ()%}
 
 flowchart LR
-    subgraph s1["Ordering Store"]
-        n1(Create Internal Order) --- n2(Finalise Order)
+    subgraph s1["Receiving Store"]
+        n1(Create Internal Order) --- n2(Send Order)
         n3(Receive Shipment as **Inbound Shipment**)
     end
     subgraph s2["Supplying Store"]
@@ -43,6 +43,7 @@ flowchart LR
 
 {%mermaid ()%}
 flowchart TD
+  subgraph s1["Supplying Store"]
   A[Customer Requisition Received] --> B[Review Requisition using Authorization module]
   B -->|Approved| C[Generate Shipment]
   B -->|Rejected| X[Notify Customer & End Process]
@@ -55,12 +56,15 @@ flowchart TD
    Physical Stock?| Y[Resolve Issues & Retry]
   Y -->E
   F --> G[Mark shipment with status _Shipped_]
+  end
   G --> H[Inspect Shipment]
+  
 subgraph s2["Receiving Store"]
   H -->|Accepted| I[Update Inventory & Notify Customer]
   H -->|Rejected| Z[Report Issue & Return to Supplier]
   I --> J[Process Inbound Shipment Completion]
   J --> K[End Process]
   end
+  style s2 fill:#FFBD59
 
 {%end%}
