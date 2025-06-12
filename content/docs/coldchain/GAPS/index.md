@@ -108,9 +108,12 @@ This population data is then aggregated centrally to build a national population
 
 ![](images/store_population_served.png)
 
-Note: for demand calculations to stay relevant it is necessary for the `Population served` data to be renewed on a periodic basis, e.g. annually. 
 
-This requires the introduction of a robust SOP to ensure facilities maintain up-to-date data. 
+<div class="note">For demand calculations to stay relevant it is necessary for the <span style="font-family: monospace;color: #e05434; background-color: #fafafa;">Population served</span> data to be renewed on a periodic basis, e.g. annually. 
+<br>
+<br>
+This requires the introduction of a robust SOP to ensure facilities maintain up-to-date data. </div>
+
 #### Population indicators
 
 `Population indicators` are used to determine what percentage of the population snapshot will require vaccinating.  For example, what percentage of the population snapshot are newborn children.
