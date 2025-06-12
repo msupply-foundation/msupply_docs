@@ -36,7 +36,7 @@ CCE can be registered for every facility in the country by following the documen
 
 Each registered CCE provides data about its cold storage volume capacity:  
 
-![](images/CCE_storage_capacity.png)
+![](images/cce_storage_capacity.png)
 
 The aggregation of these cold storage volumes from all CCE across all facilities therefore gives the `Installed CCE capacity` for the country (see [Installed CCE capacity](#installed-cce-capacity)). 
 
@@ -46,7 +46,7 @@ The `Functioning CCE capacity` is the percentage of the `Installed CCE capacity`
 
 To determine an accurate `Functioning CCE capacity` it is necessary to obtain recent data about the functional status of each CCE in the country. 
 
-![](images/CCE_functional_status.png)
+![](images/cce_functional_status.png)
 This data can be obtained in two ways: 
 1. Manually - each facility user submits a [functional status report](/docs/coldchain/equipment/#update-status) for each of their CCE
 2. Automatically - each CCE directly reports its own functional status (**future feature*)
@@ -62,7 +62,7 @@ The `Installed CCE capacity` is the aggregation of the data collected in [1. Reg
 
 The dashboard can be filtered by metrics such as supply level (Primary, Sub-National, Lowest Distribution etc) or temperature range (+ 5°C, -20 °C, -70°C)
 
-![](images/CCE_installed_volume_capacity.png)
+![](images/cce_installed_volume_capacity.png)
 
 #### Functioning CCE capacity
 
@@ -70,7 +70,7 @@ The `Functioning CCE capacity` is the aggregation of the data collected in [2. U
 
 The dashboard can be filtered by metrics such as supply level (Primary, Sub-National, Lowest Distribution etc) or temperature range (+ 5°C, -20 °C, -70°C)
 
-![](images/CCE_functioning_capacity.png)
+![](images/cce_functioning_capacity.png)
 ## Forecasting expected demand for CCE capacity
 
 The expected demand for CCE capacity for the country can be forecast by:
@@ -87,7 +87,7 @@ The volume required to store each type of vaccine can be recorded in the [Item C
 
 Volumes for primary, secondary and tertiary packaging can be recorded so that the appropriate packaging level for each facility is used when calculating their storage volume requirements.
 
-![](images/Item_variant_packaging_volume.png)
+![](images/item_variant_packaging_volume.png)
 
 <div class="note">Open mSupply comes with the <a target="_blank" href=https://extranet.who.int/prequal/vaccines/prequalified-vaccines>list of WHO PQS prequalified vaccines</a>, including their respective packaging volumes, built into the system by default. </div>
 
@@ -106,9 +106,15 @@ Each facility can submit a snapshot of their own `Population served` data in the
 
 This population data is then aggregated centrally to build a national population snapshot. 
 
-![](images/Store_population_served.png)
+![](images/store_population_served.png)
 
 #### Population indicators
+
+`Population indicators` are used to determine what percentage of the population snapshot will require vaccinating.  For example, what percentage of the population snapshot are newborn children.
+
+The `Population indicators` are set at the central level in the [Demographics](/docs/manage/demographics/#adding-a-new-indicator) section.
+
+![](images/demographics_population_indicators.png)
 
 #### Population growth rate
 ### 3. Specifying the national immunization program
