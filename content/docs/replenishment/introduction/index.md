@@ -31,7 +31,7 @@ flowchart LR
         n3(Receive Shipment as **Inbound Shipment**)
     end
     subgraph s2["**Supplying Store**"]
-        n2 --- d1(Receive as **Requisition**)
+        n2 --- d1(Receive as Requisition)
         d1 --- d2
         d2(Process Requisition)
         d2 --- d3(Create and Send Outbound Shipment)
