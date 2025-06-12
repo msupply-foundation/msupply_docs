@@ -55,8 +55,8 @@ flowchart TD
    Physical Stock?| Y[Resolve Issues & Retry]
   Y -->E
   F --> G[Mark shipment with status _Shipped_]
-subgraph s2["Receiving Store"]
   G --> H[Inspect Shipment]
+subgraph s2["Receiving Store"]
   H -->|Accepted| I[Update Inventory & Notify Customer]
   H -->|Rejected| Z[Report Issue & Return to Supplier]
   I --> J[Process Inbound Shipment Completion]
