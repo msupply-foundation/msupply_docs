@@ -54,13 +54,15 @@ This will bring up the following window, no matter which page you are on:
 
 ![CommandK](images/cmd_k.png)
 
-This shows you the list of globally available shortcuts, for example pressing `d` on your keyboard will take you to the dashboard (unless you are entering text into an input field!).
+This shows you the list of globally available shortcuts, for example pressing `Alt+D` (or `Option+D` on a mac) on your keyboard will take you to the dashboard (unless you are entering text into an input field!).
 
-However, you can also click on an item in the list, or search available commands:
+However, you can also click on an item in the list using your mouse, or search available commands:
 
-![CommandK](images/cmd_k.gif)
+![CommandK](images/cmd_k_filtered.png)
 
-In addition - there are various places where specific keyboard shortcuts are available. An example is the tab control used in both Stocktakes and Inbound Shipments. Here you can use `control`+`1` to navigate to the first tab (Quantities) or `control`+`2` for the second tab (Pricing) etc. If you press `+` on your keyboard, you can add a new batch.
+You can then use the arrow keys on the keyboard to move up and down the list and click Enter/Return on the line highlighted in grey.
+
+There are also various places where specific keyboard shortcuts are available. An example is the tab control used in both Stocktakes and Inbound Shipments. Here you can use `control`+`1` to navigate to the first tab (Quantities) or `control`+`2` for the second tab (Pricing) etc. If you press `+` on your keyboard, you can add a new batch.
 
 ![Inbound tabs](images/is_edit_keyboard_shortcuts.png)
 
