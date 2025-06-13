@@ -89,7 +89,11 @@ Volumes for primary, secondary and tertiary packaging can be recorded so that th
 
 ![](images/item_variant_packaging_volume.png)
 
-<div class="note">Open mSupply comes with the <a target="_blank" href=https://extranet.who.int/prequal/vaccines/prequalified-vaccines>list of WHO PQS prequalified vaccines</a>, including their respective packaging volumes, built into the system by default. </div>
+Additionally the Item Catalogue captures which diluents are bundled with vaccines and this data is also used to calculate the total storage volume requirements for vaccines. 
+
+![](images/item_variant_bundled_item.png)
+
+<div class="note">Open mSupply comes with the <a target="_blank" href=https://extranet.who.int/prequal/vaccines/prequalified-vaccines>list of WHO PQS prequalified vaccines</a>, including their respective packaging volumes and diluent bundling ratios, built into the system by default. </div>
 
 ### 2. Capturing population data for facilities
 
@@ -156,7 +160,25 @@ The variables that must be specified include:
 ![](images/program_vaccine_courses_detail.png)
 ### 4. Reviewing expected demand forecasts
 
+The total `Expected CCE demand` for each facility is determined by calculating the expected demand for each vaccine course and then summing the results. 
 
+The expected demand for each each vaccine course is calculated by applying an algorithm to the data points collected in the previous sections.
+
+The output can be viewed in the [mSupply Dashboard](/dashboard/introduction).  
+
+![](images/forecast_expected_demand.png)
 ## Comparing CCE capacity to expected demand
 
+The [Installed CCE capacity](#installed-cce-capacity) and [Expected CCE demand](#4-reviewing-expected-demand-forecasts) can be reviewed in the [mSupply Dashboard](/dashboard/introduction). 
+
+The `CCE surplus / deficit` (in litres) is displayed for each facility for the current year. 
+Additionally a forecast is provided for the next 5 years to account for population growth. 
+
+- Facilities with sufficient `CCE surplus` are shown in green. 
+- Facilities with low `CCE surplus` are shown in yellow
+- Facilities with critically low `CCE surplus` are shown in red
+
+The 5 year forecast allows for the identification of trends which help to highlight whether intervention will be required in the near future. 
+
+![](images/forecast_surplus.png)
 ## Identifying facilities that need intervention
