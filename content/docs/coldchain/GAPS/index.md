@@ -77,7 +77,7 @@ The expected demand for CCE capacity for the country can be forecast by:
 1. [Recording packaging volumes for each type of vaccine](#1-recording-packaging-volumes-for-vaccines)
 2. [Capturing population data for each facility](#2-capturing-population-data-for-facilities)
 3. [Specifying the national immunization program](#3-specifying-the-national-immunization-program)
-4. [Reviewing the calculated forecasts](#4-reviewing-expected-demand-forecasts)
+4. [Reviewing the calculated forecast](#4-reviewing-expected-demand-forecasts)
 
 ### 1. Recording packaging volumes for vaccines
 
@@ -112,7 +112,7 @@ This population data is then aggregated centrally to build a national population
 <div class="note">For demand calculations to stay relevant it is necessary for the <span style="font-family: monospace;color: #e05434; background-color: #fafafa;">Population served</span> data to be renewed on a periodic basis, e.g. annually. 
 <br>
 <br>
-This requires the introduction of a robust SOP to ensure facilities maintain up-to-date data. </div>
+This requires the introduction of a robust SOP to ensure facilities maintain up-to-date population data. </div>
 
 #### Population indicators
 
@@ -131,7 +131,32 @@ The `Population growth` may be specified for the next 5 years in the [Demographi
 ![](images/demographics_population_growth.png)
 ### 3. Specifying the national immunization program
 
+To accurately calculate the expected demand it is necessary to specify the national immunization program that the population are expected to adhere to. 
+
+To do this requires: 
+- [Specifying which vaccine courses form part of the national immunization program](#specifying-vaccine-courses)
+- [Specifying the details of each vaccine course](#specifying-vaccine-course-variables)
+
+#### Specifying vaccine courses
+
+The different vaccine courses that form part of the national immunization program are specified at the central level in the [Programs > Immunizations](/docs/programs/immunisations/#vaccine-courses) section. 
+
+![](images/program_vaccine_courses.png)
+
+#### Specifying vaccine course variables
+
+The variables of each vaccine course must be specified to provide an accurate demand forecast. 
+
+The variables that must be specified include: 
+- The [target demographic](#population-indicators)
+- The coverage rate
+- The wastage rate
+- The number of doses required to complete the vaccine course
+
+![](images/program_vaccine_courses_detail.png)
 ### 4. Reviewing expected demand forecasts
+
+
 ## Comparing CCE capacity to expected demand
 
 ## Identifying facilities that need intervention
