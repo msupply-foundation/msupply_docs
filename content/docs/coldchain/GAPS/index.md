@@ -160,16 +160,34 @@ The variables that must be specified include:
 ![](images/program_vaccine_courses_detail.png)
 ### 4. Reviewing expected demand forecasts
 
-The total `Expected CCE demand` for each facility is determined by calculating the expected demand for each vaccine course and then summing the results. 
+The total `Expected CCE demand` for each supply level (e.g. Primary, Sub-National, Lowest Distribution and Service Points) is determined by calculating the expected demand for each vaccine course and then summing the results. 
 
 The expected demand for each each vaccine course is calculated by applying an algorithm to the data points collected in the previous sections.
 
-The output can be viewed in the [mSupply Dashboard](/dashboard/introduction).  
+The output values (in litres) can be viewed in the [mSupply Dashboard](/dashboard/introduction).  
 
-![](images/forecast_expected_demand.png)
+![](images/forecast_expected_demand_sl.png)
 ## Comparing CCE capacity to expected demand
 
 The [Installed CCE capacity](#installed-cce-capacity) and [Expected CCE demand](#4-reviewing-expected-demand-forecasts) can be reviewed in the [mSupply Dashboard](/dashboard/introduction). 
+
+The `CCE surplus / deficit` (in litres) is displayed for each supply level for the current year. 
+Additionally a forecast is provided for the next 5 years to account for population growth. 
+
+- Supply levels with sufficient `CCE surplus` are shown in green. 
+- Supply levels with low `CCE surplus` are shown in yellow
+- Supply levels with critically low `CCE surplus` are shown in red
+
+The 5 year forecast allows for the identification of trends which help to highlight whether intervention will be required in the near future. 
+
+![](images/forecast_surplus_sl.png)
+## Identifying facilities that need intervention
+
+In addition to the aggregated supply level comparison it is possible to do a comparison at the individual facility level. 
+
+This allows for identification of individual facilities that require attention. 
+
+![](images/forecast_facilities.png)
 
 The `CCE surplus / deficit` (in litres) is displayed for each facility for the current year. 
 Additionally a forecast is provided for the next 5 years to account for population growth. 
@@ -180,5 +198,4 @@ Additionally a forecast is provided for the next 5 years to account for populati
 
 The 5 year forecast allows for the identification of trends which help to highlight whether intervention will be required in the near future. 
 
-![](images/forecast_surplus.png)
-## Identifying facilities that need intervention
+![](images/forecast_surplus_facilities.png)
