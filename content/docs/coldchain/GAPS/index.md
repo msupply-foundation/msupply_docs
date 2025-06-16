@@ -22,7 +22,6 @@ The GAPS module allows EPI teams to:
 - [Forecast the expected demand for CCE capacity over the next 5 years](#forecasting-expected-demand-for-cce-capacity)
 - [Compare the current CCE capacity to the expected demand](#comparing-cce-capacity-to-expected-demand)
 - [Identify facilities that will need intervention due to increased demand](#identifying-facilities-that-need-intervention)
-- [Identify facilities that will need intervention due to CCE reaching end-of-life](#identifying-facilities-that-need-intervention)
 
 ## Assessing CCE capacity
 
