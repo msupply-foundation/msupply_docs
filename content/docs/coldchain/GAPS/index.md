@@ -163,6 +163,10 @@ The total `Expected CCE demand` for each supply level (e.g. Primary, Sub-Nationa
 
 The expected demand for each each vaccine course is calculated by applying an algorithm to the data points collected in the previous sections.
 
+The algorithm applied is: `Target population` x `Number of doses` x `Coverage rate` x `Loss factor`
+
+More details on how each of the components of the algorithm are derived can be viewed on our GitHub repository <a href="https://github.com/msupply-foundation/open-msupply-forecasting-plugins?tab=readme-ov-file#forecasting-calculation" target="_blank">here</a>. 
+
 The output values (in litres) can be viewed in the [mSupply Dashboard](/dashboard/introduction).  
 
 ![](images/forecast_expected_demand_sl.png)
