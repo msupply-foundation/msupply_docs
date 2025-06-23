@@ -236,7 +236,7 @@ There are 5 status for the Inbound Shipment:
 | **New**       | This is the first status when you create a new manual Inbound Shipment                                             |
 | **Picked**    | Supplier has confirmed that shipment is picked and ready to ship (applies only to automatically created shipments) |
 | **Shipped**   | Shipment has been shipped and goods are now in transit (applies only to automatically created shipments)           |
-| **Delivered** | When you confirm that the shipment has been delivered                                                              |
+| **Delivered** | When you confirm that the shipment has been delivered. Goods are now part of your inventory.                       |
 | **Verified**  | When you have verified the Inbound Shipment                                                                        |
 
 You probably noticed that two of the status values only apply to automatically created shipments. These are created by the system when another store in the system creates an Outbound Shipment to deliver stock to your store. If this is the case you'll see a message near the top of the page:
