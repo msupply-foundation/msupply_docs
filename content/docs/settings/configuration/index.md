@@ -19,7 +19,7 @@ The configuration settings section allows you to configure custom data for the s
 
 To view the configuration settings, go to `Settings` in the lower section of the navigation panel:
 
-![Settings: nav](images/admin_nav.png)
+![Settings: nav](../images/admin_nav.png)
 
 If you are on the Open mSupply Central Server, you will see this list of settings sections:
 

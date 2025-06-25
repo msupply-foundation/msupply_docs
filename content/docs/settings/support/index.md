@@ -19,9 +19,11 @@ The support section provides some tools for troubleshooting and supporting an Op
 
 To view the server log, go to `Settings` in the lower section of the navigation panel:
 
-![Admin: nav](images/admin_nav.png)
+![Admin: nav](../images/admin_nav.png)
 
 You will see the `Support` section below the Synchronisation settings, click on this to view the options.
+
+<div class="note">You will require the <code>Access server administration</code> permission, as noted in the <a href="../permissions/">Permissions</a> page</div>
 
 ![Support: server log](images/support_server_log.png)
 

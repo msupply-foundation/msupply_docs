@@ -46,7 +46,7 @@ A window like this opens:
 
 1. **Name**: Enter the name of the new location
 2. **Code**: Enter a code for the new location
-3. **Temperature** (optional): Select the storage temperature range. These options are configured as [Location Types](https://docs.msupply.org.nz/items:item_locations?s[]=location&s[]=type#location_types) on the mSupply Central Server.
+3. **Cold storage type** (optional): Select the cold storage type. These options are configured as [Location Types](https://docs.msupply.org.nz/items:item_locations?s[]=location&s[]=type#location_types) on the mSupply Central Server.
 4. **On Hold** (checkbox): If you check this box, then goods in this location cannot be selected for issue to customers. Goods can be moved in to, and out, of the location but they cannot be issued from that location.
 
 <div class="tip">

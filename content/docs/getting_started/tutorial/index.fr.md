@@ -54,11 +54,11 @@ Cela fera apparaître la fenêtre suivante, quelle que soit la page sur laquelle
 
 ![CommandK](images/cmd_k_fr.png)
 
-Vous verrez afficher la liste des raccourcis globalement disponibles. Par exemple en tapant la lettre `d` de votre clavier, cela vous amènera au tableau de bord (sauf si vous saisissez du texte!).
+Vous verrez afficher la liste des raccourcis globalement disponibles. Par exemple en appuyant sur `Alt+D` (ou `Option+D` sur un mac) de votre clavier, cela vous amènera au tableau de bord (sauf si vous saisissez du texte!).
 
 Cependant, vous pouvez également cliquer sur un élément de la liste ou rechercher les commandes disponibles :
 
-![CommandK](images/cmd_k.gif)
+![CommandK](images/cmd_k_filtered.png)
 
 De plus, il existe divers endroits où des raccourcis clavier spécifiques sont disponibles. Un exemple est l'onglet de contrôle utilisé aussi bien pour Les Inventaires que pour Les Livraisons. Ici, vous pouvez utiliser `control`+`1` pour accéder au premier onglet (Quantités) ou `control`+`2` pour le second onglet (Tarification) etc. Vous pouvez ajouter un nouveau lot en tapant la touche `+` de votre clavier.
 

@@ -21,7 +21,7 @@ Let's explore what's possible...
 
 To view the display settings, go to `Settings` in the lower section of the navigation panel:
 
-![Location: nav](images/admin_nav.png)
+![Location: nav](../images/admin_nav.png)
 
 You will see the list of settings sections:
 

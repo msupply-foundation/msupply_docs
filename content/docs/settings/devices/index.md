@@ -19,13 +19,15 @@ The devices settings section allows you to configure devices that you may have c
 
 To view the display settings, go to `Settings` in the lower section of the navigation panel:
 
-![Admin: nav](images/admin_nav.png)
+![Admin: nav](../images/admin_nav.png)
 
 You will see the list of settings sections:
 
 ![Admin: collapsed](images/admin_collapsed.png)
 
 Click on the `Devices` section to begin.
+
+<div class="note">You will require the <code>Access server administration</code> permission, as noted in the <a href="../permissions/">Permissions</a> page</div>
 
 ## Label Printing
 
