@@ -21,7 +21,7 @@ Explorons ce qui est possible...
 
 Pour accéder aux paramètres d'affichage, allez à `Administration` dans la partie inférieure du panneau de navigation :
 
-![Location: nav](images/admin_nav_fr.png)
+![Location: nav](../images/admin_nav_fr.png)
 
 Vous verrez la section des paramètres d'affichage en haut de la page :
 

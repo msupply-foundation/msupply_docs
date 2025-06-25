@@ -18,9 +18,11 @@ top = false
 
 To view the synchronisation settings, go to `Settings` in the lower section of the navigation panel:
 
-![admin: nav](images/admin_nav.png)
+![admin: nav](../images/admin_nav.png)
 
 You will see the synchronisation section below the display settings, click on this to view the options.
+
+<div class="note">You will require the <code>Access server administration</code> permission, as noted in the <a href="../permissions/">Permissions</a> page</div>
 
 ![admin: page](images/administration.png)
 
