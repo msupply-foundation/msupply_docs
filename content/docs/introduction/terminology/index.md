@@ -36,7 +36,7 @@ The following are examples of how Open mSupply expects items to be structured fo
 
 **Bold** text indicates the property that separates the item from the one above. 
 
-**Medicines**
+**Medicine items**
 
 | Item | Active ingredient | Strength  | Unit        |
 | ---- | ----------------- | --------- | ----------- |
@@ -44,7 +44,7 @@ The following are examples of how Open mSupply expects items to be structured fo
 | 2    | Paracetamol       | 500mg     | **Capsule** |
 | 3    | Paracetamol       | **250mg** | Capsule     |
 
-**Vaccines**
+**Vaccine items**
 
 | Item | **Type**          | Form                | **Unit**     | **Doses / unit** | **Dosage** | Administration route |
 | ---- | ----------------- | ------------------- | ------------ | ---------------- | ---------- | -------------------- |
@@ -61,7 +61,7 @@ The following are examples of how Open mSupply expects items to be structured fo
 
 The following are examples of item variants, using items from each of the medicines and vaccines tables above.
 
-**Medicines**
+**Medicine item variants**
 
 | **Item**                    | **Variant** | **Commercial name**  | **Manufacturer**                         | Container          | Pack size   |
 | --------------------------- | ----------- | -------------------- | ---------------------------------------- | ------------------ | ----------- |
@@ -69,12 +69,12 @@ The following are examples of item variants, using items from each of the medici
 | 1. Paracetamol 500mg tablet | B           | Medreich Paracetamol | Sri Krishna Pharmaceuticals Limited      | Blister, carton of | 100 tablets |
 | 1. Paracetamol 500mg tablet | C           | Palmol               | Fine Chemicals Corporation (Pty) Limited | Blister, carton of | 20 tablets  |
 
-**Vaccines**
+**Vaccine item variants**
 
-| **Item**                                                                      | **Variant** | **Commercial name** | **Manufacturer**                   | Storage temperature | Container | Pack size     |
-| ----------------------------------------------------------------------------- | ----------- | ------------------- | ---------------------------------- | ------------------- | --------- | ------------- |
-| 10. Rotavirus vaccine (lyophilised) - 1 dose - two vial set - dosage 3 - oral | A           | Rotasiil            | Serum Institute of India Pvt. Ltd. | 2-8°C               | Carton    | 50 vial sets  |
-| 10. Rotavirus vaccine (lyophilised) - 1 dose - two vial set - dosage 3 - oral | B           | Rotasiil Thermo     | Serum Institute of India Pvt. Ltd. | +25°C               | Carton    | 100 vial sets |
+| **Item**                                                                      | **Variant** | **Commercial name** | **Manufacturer**                   | Storage temperature | VVM type | Container | Pack size     |
+| ----------------------------------------------------------------------------- | ----------- | ------------------- | ---------------------------------- | ------------------- | -------- | --------- | ------------- |
+| 10. Rotavirus vaccine (lyophilised) - 1 dose - two vial set - dosage 3 - oral | A           | Rotasiil            | Serum Institute of India Pvt. Ltd. | 2-8°C               | 30       | Carton    | 50 vial sets  |
+| 10. Rotavirus vaccine (lyophilised) - 1 dose - two vial set - dosage 3 - oral | B           | Rotasiil Thermo     | Serum Institute of India Pvt. Ltd. | +25°C               | 250      | Carton    | 100 vial sets |
 
 #### Facilities, Warehouses, Stores, Sites, Organisational Units
 The major ERP systems all use different terminology for site-level organizational units that manage inventory.
