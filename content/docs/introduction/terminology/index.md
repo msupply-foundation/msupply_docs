@@ -30,6 +30,51 @@ Open mSupply is different to other inventory management systems in that the core
 
 **Item variants** in Open mSupply are the equivalent of an SKU - they have a brand, barcode, pack size, etc.
 
+##### Item examples
+
+The following are examples of how Open mSupply expects items to be structured. 
+
+**Bold** text indicates the property that indicates the item should be separated from the item above. 
+
+**Medicines**
+
+| Item | Type        | Strength  | Unit        |
+| ---- | ----------- | --------- | ----------- |
+| 1    | Paracetamol | 500mg     | Tablet      |
+| 2    | Paracetamol | 500mg     | **Capsule** |
+| 3    | Paracetamol | **250mg** | Capsule     |
+
+**Vaccines**
+
+| Item | **Type**          | Form                | **Unit**     | **Doses / unit** | **Dosage** | Administrative route |
+| ---- | ----------------- | ------------------- | ------------ | ---------------- | ---------- | -------------------- |
+| 4    | Rotavirus vaccine | Liquid              | Plastic tube | 1                | 2          | Oral                 |
+| 5    | Rotavirus vaccine | Liquid              | Plastic tube | 1                | **3**      | Oral                 |
+| 6    | Rotavirus vaccine | Liquid              | **Vial**     | 1                | 3          | Oral                 |
+| 7    | Rotavirus vaccine | Liquid              | Vial         | **5**            | 3          | Oral                 |
+| 8    | Rotavirus vaccine | **Liquid (frozen)** | Vial         | 5                | 3          | Oral                 |
+| 9    | Rotavirus vaccine | Liquid (frozen)     | Vial         | 5                | 3          | **Intramuscular**    |
+| 10   | Rotavirus vaccine | Lyophilised         | Two vial set | 1                | 3          | Oral                 |
+|      |                   |                     |              |                  |            |                      |
+
+##### Variant examples
+
+The following are examples of item variants, using items from each of the medicines and vaccines tables above.
+
+**Medicines**
+
+| **Item**                    | **Variant** | **Commercial name**  | **Manufacturer**                         |
+| --------------------------- | ----------- | -------------------- | ---------------------------------------- |
+| 1. Paracetamol 500mg tablet | A           | Medreich Paracetamol | Sri Krishna Pharmaceuticals Limited      |
+| 1. Paracetamol 500mg tablet | B           | Palmol               | Fine Chemicals Corporation (Pty) Limited |
+
+**Vaccines**
+
+| **Item**                                                                      | **Variant** | **Commercial name** | **Manufacturer**                   | Storage temperature |
+| ----------------------------------------------------------------------------- | ----------- | ------------------- | ---------------------------------- | ------------------- |
+| 10. Rotavirus vaccine (lyophilised) - 1 dose - two vial set - dosage 3 - oral | A           | Rotasiil            | Serum Institute of India Pvt. Ltd. | 2-8°C               |
+| 10. Rotavirus vaccine (lyophilised) - 1 dose - two vial set - dosage 3 - oral | B           | Rotasiil Thermo     | Serum Institute of India Pvt. Ltd. | +25°C               |
+
 #### Facilities, Warehouses, Stores, Sites, Organisational Units
 Each of major ERP systems uses different terminology for site-level organizational units that manage inventory:
 
