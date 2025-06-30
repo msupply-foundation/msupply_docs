@@ -46,7 +46,7 @@ The following are examples of how Open mSupply expects items to be structured.
 
 **Vaccines**
 
-| Item | **Type**          | Form                | **Unit**     | **Doses / unit** | **Dosage** | Administrative route |
+| Item | **Type**          | Form                | **Unit**     | **Doses / unit** | **Dosage** | Administration route |
 | ---- | ----------------- | ------------------- | ------------ | ---------------- | ---------- | -------------------- |
 | 4    | Rotavirus vaccine | Liquid              | Plastic tube | 1                | 2          | Oral                 |
 | 5    | Rotavirus vaccine | Liquid              | Plastic tube | 1                | **3**      | Oral                 |
