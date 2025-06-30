@@ -38,11 +38,11 @@ The following are examples of how Open mSupply expects items to be structured fo
 
 **Medicines**
 
-| Item | Type        | Strength  | Unit        |
-| ---- | ----------- | --------- | ----------- |
-| 1    | Paracetamol | 500mg     | Tablet      |
-| 2    | Paracetamol | 500mg     | **Capsule** |
-| 3    | Paracetamol | **250mg** | Capsule     |
+| Item | Active ingredient | Strength  | Unit        |
+| ---- | ----------------- | --------- | ----------- |
+| 1    | Paracetamol       | 500mg     | Tablet      |
+| 2    | Paracetamol       | 500mg     | **Capsule** |
+| 3    | Paracetamol       | **250mg** | Capsule     |
 
 **Vaccines**
 
@@ -76,9 +76,9 @@ The following are examples of item variants, using items from each of the medici
 | 10. Rotavirus vaccine (lyophilised) - 1 dose - two vial set - dosage 3 - oral | B           | Rotasiil Thermo     | Serum Institute of India Pvt. Ltd. | +25°C               |
 
 #### Facilities, Warehouses, Stores, Sites, Organisational Units
-Each of major ERP systems uses different terminology for site-level organizational units that manage inventory:
+The major ERP systems all use different terminology for site-level organizational units that manage inventory.
 
-In mSupply, we have the following concepts
+In mSupply, we have the following concepts:
 
 | Concept      | Explanation                                                                                                                                                                                                                                                                                                                                                   |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
