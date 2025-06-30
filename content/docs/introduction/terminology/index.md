@@ -34,7 +34,7 @@ Open mSupply is different to other inventory management systems in that the core
 
 The following are examples of how Open mSupply expects items to be structured for stock handling.
 
-**Bold** text indicates the property that indicates the item should be separated from the item above. 
+**Bold** text indicates the property that separates the item from the one above. 
 
 **Medicines**
 
@@ -86,10 +86,10 @@ In mSupply, we have the following concepts:
 | **Site**     | A (remote) site has an Open mSupply server that synchronises with the Open mSupply central server.<br>A site can contain 1 or more stores (for example, it might have one essential medicines store, a laboratory items store, and an EPI store, all managed by different users, but all logging in \[usually on the local wifi network\] to the same server) |
 | **Facility** | The physical complex at a particular geographical location. Usually a facility will have a single Open mSupply site, even if it has lots of physical stores. The only reason to have more than one site at a facility is if the stores can't all connect to the same local network.                                                                           |
 ##### Comparison with other ERP systems:
-In **Odoo**, this concept is typically referred to as a "Warehouse." Each warehouse represents a physical location where inventory is stored and managed, while still being part of the broader company structure.
+In **Odoo**, an organizational unit is typically referred to as a "Warehouse." Each warehouse represents a physical location where inventory is stored and managed, while still being part of the broader company structure.
 
-In **SAP**, this would be called a "Plant" or "Storage Location" depending on the exact context. A Plant represents a separate facility or manufacturing site that manages its own inventory.
+In **SAP**, an organizational unit is called a "Plant" or "Storage Location" depending on the exact context. A Plant represents a separate facility or manufacturing site that manages its own inventory.
 
-In **Microsoft Dynamics**, this concept is called a "Site" or "Warehouse" depending on which Dynamics product you're using (Dynamics 365 Business Central vs. Dynamics 365 Supply Chain Management).
+In **Microsoft Dynamics**, an organizational unit is called a "Site" or "Warehouse" depending on which Dynamics product you're using (Dynamics 365 Business Central vs. Dynamics 365 Supply Chain Management).
 
 [^1]: SKU = Stock Keeping Unit - a particular brand, pack size (and maybe packging variation) of an item.
