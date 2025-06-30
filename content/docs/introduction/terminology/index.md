@@ -32,7 +32,7 @@ Open mSupply is different to other inventory management systems in that the core
 
 ##### Item examples
 
-The following are examples of how Open mSupply expects items to be structured. 
+The following are examples of how Open mSupply expects items to be structured for stock handling.
 
 **Bold** text indicates the property that indicates the item should be separated from the item above. 
 
