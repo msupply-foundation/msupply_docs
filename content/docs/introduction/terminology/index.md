@@ -24,11 +24,11 @@ Our approach is to try and combine industry standard naming, what is customary i
 It's clearly impossible to find names that will satisfy all those criteria, so this user guide page will hopefully ease the pain.
 
 #### Items, Products, SKUs
-Open mSupply is different to other inventory management systems in that the core concept for inventory is an **item** - which is usually a generic medicine or product with the unit of measurement specified, but no pack size. There's a good reason for this:
+Open mSupply is different to other inventory management systems in that the core concept for inventory is an `Item` - which is usually a generic medicine or product with the unit of measurement specified, but no pack size. There's a good reason for this:
 * Most public health systems operate on generic names
 * Reporting usually wants to know the total amount of generic item, not just of a particular product/SKU[^1] that was used
 
-**Item variants** in Open mSupply are the equivalent of an SKU - they have a brand, barcode, pack size, etc.
+`Item variants` in Open mSupply are the equivalent of an SKU - they have a brand, barcode, pack size, etc.
 
 ##### Item examples
 
