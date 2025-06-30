@@ -38,24 +38,24 @@ The following are examples of how Open mSupply expects items to be structured fo
 
 **Medicine items**
 
-| Item | Active ingredient | Strength  | Unit        |
-| ---- | ----------------- | --------- | ----------- |
-| 1    | Paracetamol       | 500mg     | Tablet      |
-| 2    | Paracetamol       | 500mg     | **Capsule** |
-| 3    | Paracetamol       | **250mg** | Capsule     |
+| Item     | Active ingredient | Strength  | Unit        |
+| -------- | ----------------- | --------- | ----------- |
+| PARA500T | Paracetamol       | 500mg     | Tablet      |
+| PARA500C | Paracetamol       | 500mg     | **Capsule** |
+| PARA250T | Paracetamol       | **250mg** | Capsule     |
 
 **Vaccine items**
 
-| Item | **Type**          | Form                | **Unit**     | **Doses / unit** | **Dosage** | Administration route |
-| ---- | ----------------- | ------------------- | ------------ | ---------------- | ---------- | -------------------- |
-| 4    | Rotavirus vaccine | Liquid              | Plastic tube | 1                | 2          | Oral                 |
-| 5    | Rotavirus vaccine | Liquid              | Plastic tube | 1                | **3**      | Oral                 |
-| 6    | Rotavirus vaccine | Liquid              | **Vial**     | 1                | 3          | Oral                 |
-| 7    | Rotavirus vaccine | Liquid              | Vial         | **5**            | 3          | Oral                 |
-| 8    | Rotavirus vaccine | **Liquid (frozen)** | Vial         | 5                | 3          | Oral                 |
-| 9    | Rotavirus vaccine | Liquid (frozen)     | Vial         | 5                | 3          | **Intramuscular**    |
-| 10   | Rotavirus vaccine | Lyophilised         | Two vial set | 1                | 3          | Oral                 |
-|      |                   |                     |              |                  |            |                      |
+| Item        | **Type**          | Form                | **Unit**     | **Doses / unit** | **Dosage** | Administration route |     |
+| ----------- | ----------------- | ------------------- | ------------ | ---------------- | ---------- | -------------------- | --- |
+| ROTALP12O   | Rotavirus vaccine | Liquid              | Plastic tube | 1                | 2          | Oral                 |     |
+| ROTALP13O   | Rotavirus vaccine | Liquid              | Plastic tube | 1                | **3**      | Oral                 |     |
+| ROTALV13O   | Rotavirus vaccine | Liquid              | **Vial**     | 1                | 3          | Oral                 |     |
+| ROTALV53O   | Rotavirus vaccine | Liquid              | Vial         | **5**            | 3          | Oral                 |     |
+| ROTALFV53O  | Rotavirus vaccine | **Liquid (frozen)** | Vial         | 5                | 3          | Oral                 |     |
+| ROTALFV53M  | Rotavirus vaccine | Liquid (frozen)     | Vial         | 5                | 3          | **Intramuscular**    |     |
+| ROTALY2V13O | Rotavirus vaccine | Lyophilised         | Two vial set | 1                | 3          | Oral                 |     |
+|             |                   |                     |              |                  |            |                      |     |
 
 ##### Variant examples
 
@@ -63,18 +63,19 @@ The following are examples of item variants, using items from each of the medici
 
 **Medicine item variants**
 
-| **Item**                    | **Variant** | **Commercial name**  | **Manufacturer**                         | Container          | Pack size   |
-| --------------------------- | ----------- | -------------------- | ---------------------------------------- | ------------------ | ----------- |
-| 1. Paracetamol 500mg tablet | A           | Medreich Paracetamol | Sri Krishna Pharmaceuticals Limited      | Blister, carton of | 50 tablets  |
-| 1. Paracetamol 500mg tablet | B           | Medreich Paracetamol | Sri Krishna Pharmaceuticals Limited      | Blister, carton of | 100 tablets |
-| 1. Paracetamol 500mg tablet | C           | Palmol               | Fine Chemicals Corporation (Pty) Limited | Blister, carton of | 20 tablets  |
+| **Item** | **Variant** | **Commercial name**  | **Manufacturer**                         | Container          | Pack size   |
+| -------- | ----------- | -------------------- | ---------------------------------------- | ------------------ | ----------- |
+| PARA500T | A           | Medreich Paracetamol | Sri Krishna Pharmaceuticals Limited      | Blister, carton of | 50 tablets  |
+| PARA500T | B           | Medreich Paracetamol | Sri Krishna Pharmaceuticals Limited      | Blister, carton of | 100 tablets |
+| PARA500T | C           | Palmol               | Fine Chemicals Corporation (Pty) Limited | Blister, carton of | 20 tablets  |
+| PARA500T | D           | Palmol               | Fine Chemicals Corporation (Pty) Limited | Bottle             | 500 tablets |
 
 **Vaccine item variants**
 
-| **Item**                                                                      | **Variant** | **Commercial name** | **Manufacturer**                   | Storage temperature | VVM type | Container | Pack size     |
-| ----------------------------------------------------------------------------- | ----------- | ------------------- | ---------------------------------- | ------------------- | -------- | --------- | ------------- |
-| 10. Rotavirus vaccine (lyophilised) - 1 dose - two vial set - dosage 3 - oral | A           | Rotasiil            | Serum Institute of India Pvt. Ltd. | 2-8°C               | 30       | Carton    | 50 vial sets  |
-| 10. Rotavirus vaccine (lyophilised) - 1 dose - two vial set - dosage 3 - oral | B           | Rotasiil Thermo     | Serum Institute of India Pvt. Ltd. | +25°C               | 250      | Carton    | 100 vial sets |
+| **Item**    | **Variant** | **Commercial name** | **Manufacturer**                   | Storage temperature | VVM type | Container | Pack size     |
+| ----------- | ----------- | ------------------- | ---------------------------------- | ------------------- | -------- | --------- | ------------- |
+| ROTALY2V13O | A           | Rotasiil            | Serum Institute of India Pvt. Ltd. | 2-8°C               | 30       | Carton    | 50 vial sets  |
+| ROTALY2V13O | B           | Rotasiil Thermo     | Serum Institute of India Pvt. Ltd. | +25°C               | 250      | Carton    | 100 vial sets |
 
 #### Facilities, Warehouses, Stores, Sites, Organisational Units
 The major ERP systems all use different terminology for site-level organizational units that manage inventory.
