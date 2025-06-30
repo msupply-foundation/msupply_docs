@@ -63,17 +63,18 @@ The following are examples of item variants, using items from each of the medici
 
 **Medicines**
 
-| **Item**                    | **Variant** | **Commercial name**  | **Manufacturer**                         |
-| --------------------------- | ----------- | -------------------- | ---------------------------------------- |
-| 1. Paracetamol 500mg tablet | A           | Medreich Paracetamol | Sri Krishna Pharmaceuticals Limited      |
-| 1. Paracetamol 500mg tablet | B           | Palmol               | Fine Chemicals Corporation (Pty) Limited |
+| **Item**                    | **Variant** | **Commercial name**  | **Manufacturer**                         | Container          | Pack size   |
+| --------------------------- | ----------- | -------------------- | ---------------------------------------- | ------------------ | ----------- |
+| 1. Paracetamol 500mg tablet | A           | Medreich Paracetamol | Sri Krishna Pharmaceuticals Limited      | Blister, carton of | 50 tablets  |
+| 1. Paracetamol 500mg tablet | B           | Medreich Paracetamol | Sri Krishna Pharmaceuticals Limited      | Blister, carton of | 100 tablets |
+| 1. Paracetamol 500mg tablet | C           | Palmol               | Fine Chemicals Corporation (Pty) Limited | Blister, carton of | 20 tablets  |
 
 **Vaccines**
 
-| **Item**                                                                      | **Variant** | **Commercial name** | **Manufacturer**                   | Storage temperature |
-| ----------------------------------------------------------------------------- | ----------- | ------------------- | ---------------------------------- | ------------------- |
-| 10. Rotavirus vaccine (lyophilised) - 1 dose - two vial set - dosage 3 - oral | A           | Rotasiil            | Serum Institute of India Pvt. Ltd. | 2-8°C               |
-| 10. Rotavirus vaccine (lyophilised) - 1 dose - two vial set - dosage 3 - oral | B           | Rotasiil Thermo     | Serum Institute of India Pvt. Ltd. | +25°C               |
+| **Item**                                                                      | **Variant** | **Commercial name** | **Manufacturer**                   | Storage temperature | Container | Pack size     |
+| ----------------------------------------------------------------------------- | ----------- | ------------------- | ---------------------------------- | ------------------- | --------- | ------------- |
+| 10. Rotavirus vaccine (lyophilised) - 1 dose - two vial set - dosage 3 - oral | A           | Rotasiil            | Serum Institute of India Pvt. Ltd. | 2-8°C               | Carton    | 50 vial sets  |
+| 10. Rotavirus vaccine (lyophilised) - 1 dose - two vial set - dosage 3 - oral | B           | Rotasiil Thermo     | Serum Institute of India Pvt. Ltd. | +25°C               | Carton    | 100 vial sets |
 
 #### Facilities, Warehouses, Stores, Sites, Organisational Units
 The major ERP systems all use different terminology for site-level organizational units that manage inventory.
