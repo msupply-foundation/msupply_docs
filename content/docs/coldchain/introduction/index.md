@@ -56,8 +56,8 @@ Open mSupply includes a comprehensive CCE gap analysis module.
 
 This provides EPI teams with the tools to: 
 - [Assess CCE capacity for the country](/docs/coldchain/gaps/#assessing-cce-capacity)
-- [Forecast the expected demand for CCE capacity over the next 5 years](/docs/coldchain/gaps/#forecasting-expected-demand-for-cce-capacity)
-- [Compare the current CCE capacity to the expected demand](/docs/coldchain/gaps/#comparing-cce-capacity-to-expected-demand)
+- [Forecast the demand for CCE capacity over the next 5 years](/docs/coldchain/gaps/#forecasting-demand-for-cce-capacity)
+- [Compare the current CCE capacity to the forecast demand](/docs/coldchain/gaps/#comparing-cce-capacity-to-forecast-demand)
 - [Identify facilities that will need intervention due to increased demand](/docs/coldchain/gaps/#identifying-facilities-that-need-intervention)
 #### Compromised stock identification
 

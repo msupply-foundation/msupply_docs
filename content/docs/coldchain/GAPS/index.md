@@ -15,12 +15,12 @@ top = false
 
 ## Gap analysis planning system (GAPS)
 
-The gap analysis planning system (GAPS) is a tool designed to help EPI teams to assess whether their CCE infrastructure is sufficient to meet expected demand.
+The gap analysis planning system (GAPS) is a tool designed to help EPI teams to assess whether their CCE infrastructure is sufficient to meet the forecast demand.
 
 The GAPS module allows EPI teams to: 
 - [Assess CCE capacity for the country](#assessing-cce-capacity)
-- [Forecast the expected demand for CCE capacity over the next 5 years](#forecasting-expected-demand-for-cce-capacity)
-- [Compare the current CCE capacity to the expected demand](#comparing-cce-capacity-to-expected-demand)
+- [Forecast the demand for CCE capacity over the next 5 years](#forecasting-demand-for-cce-capacity)
+- [Compare the current CCE capacity to the forecast demand](#comparing-cce-capacity-to-forecast-demand)
 - [Identify facilities that will need intervention due to increased demand](#identifying-facilities-that-need-intervention)
 
 ## Assessing CCE capacity
@@ -70,13 +70,13 @@ The `Functioning CCE capacity` is the aggregation of the data collected in [2. U
 The dashboard can be filtered by metrics such as supply level (Primary, Sub-National, Lowest Distribution etc) or temperature range (+ 5°C, -20 °C, -70°C)
 
 ![](images/cce_functioning_capacity.png)
-## Forecasting expected demand for CCE capacity
+## Forecasting demand for CCE capacity
 
-The expected demand for CCE capacity for the country can be forecast by:
+The forecast demand for CCE capacity for the country can be determined by:
 1. [Recording packaging volumes for each type of vaccine](#1-recording-packaging-volumes-for-vaccines)
 2. [Capturing population data for each facility](#2-capturing-population-data-for-facilities)
 3. [Specifying the national immunization program](#3-specifying-the-national-immunization-program)
-4. [Reviewing the calculated forecast](#4-reviewing-expected-demand-forecasts)
+4. [Reviewing the calculated forecast](#4-reviewing-the-forecast-demand)
 
 ### 1. Recording packaging volumes for vaccines
 
@@ -134,7 +134,7 @@ The `Population growth` may be specified for the next 5 years in the [Demographi
 ![](images/demographics_population_growth.png)
 ### 3. Specifying the national immunization program
 
-To accurately calculate the expected demand it is necessary to specify the national immunization program that the population are expected to adhere to. 
+To accurately calculate the forecast demand it is necessary to specify the national immunization program that the population are expected to adhere to. 
 
 To do this requires: 
 - [Specifying which vaccine courses form part of the national immunization program](#specifying-vaccine-courses)
@@ -157,11 +157,11 @@ The variables that must be specified include:
 - The number of doses required to complete the vaccine course
 
 ![](images/program_vaccine_courses_detail.png)
-### 4. Reviewing expected demand forecasts
+### 4. Reviewing the forecast demand
 
-The total `Expected CCE demand` for each supply level (e.g. Primary, Sub-National, Lowest Distribution and Service Points) is determined by calculating the expected demand for each vaccine course and then summing the results. 
+The total `CCE forecast demand` for each supply level (e.g. Primary, Sub-National, Lowest Distribution and Service Points) is determined by calculating the forecast demand for each vaccine course and then summing the results. 
 
-The expected demand for each each vaccine course is calculated by applying an algorithm to the data points collected in the previous sections.
+The forecast demand for each each vaccine course is calculated by applying an algorithm to the data points collected in the previous sections.
 
 The algorithm applied is: `Target population` x `Number of doses` x `Coverage rate` x `Loss factor`
 
@@ -170,9 +170,9 @@ More details on how each of the components of the algorithm are derived can be v
 The output values (in litres) can be viewed in the [mSupply Dashboard](/dashboard/introduction).  
 
 ![](images/forecast_expected_demand_sl.png)
-## Comparing CCE capacity to expected demand
+## Comparing CCE capacity to forecast demand
 
-The [Installed CCE capacity](#installed-cce-capacity) and [Expected CCE demand](#4-reviewing-expected-demand-forecasts) can be reviewed in the [mSupply Dashboard](/dashboard/introduction). 
+The [Installed CCE capacity](#installed-cce-capacity) and [Forecast CCE demand](#4-reviewing-the-forecast-demand) can be reviewed in the [mSupply Dashboard](/dashboard/introduction). 
 
 The `CCE surplus / deficit` (in litres) is displayed for each supply level for the current year. 
 Additionally a forecast is provided for the next 5 years to account for population growth. 
