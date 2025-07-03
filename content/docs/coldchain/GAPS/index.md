@@ -37,13 +37,13 @@ Each registered CCE provides data about its cold storage volume capacity:
 
 ![](images/cce_storage_capacity.png)
 
-The aggregation of these cold storage volumes from all CCE across all facilities therefore gives the `Installed CCE capacity` for the country (see [Installed CCE capacity](#installed-cce-capacity)). 
+The aggregation of these cold storage volumes from all CCE across all facilities therefore gives the `CCE installed capacity` for the country (see [Installed CCE capacity](#installed-cce-capacity)). 
 
 ### 2. Updating CCE functional status
 
-The `Functioning CCE capacity` is the percentage of the `Installed CCE capacity` that is currently working as expected. 
+The `CCE functioning capacity` is the percentage of the `CCE installed capacity` that is currently working as expected. 
 
-To determine an accurate `Functioning CCE capacity` it is necessary to obtain recent data about the functional status of each CCE in the country. 
+To determine an accurate `CCE functioning capacity` it is necessary to obtain recent data about the functional status of each CCE in the country. 
 
 ![](images/cce_functional_status.png)
 This data can be obtained in two ways: 
@@ -52,12 +52,12 @@ This data can be obtained in two ways:
 
 As of version 2.7, only the manual option is available. 
 
-Therefore, to obtain an accurate `Functioning CCE capacity` it is **vitally important to implement a robust SOP** for facilities so that they regularly report the functional status of their CCE by submitting a [functional status report](/docs/coldchain/equipment/#update-status) (for example, on a weekly basis)
+Therefore, to obtain an accurate `CCE functioning capacity` it is **vitally important to implement a robust SOP** for facilities so that they regularly report the functional status of their CCE by submitting a [functional status report](/docs/coldchain/equipment/#update-status) (for example, on a weekly basis)
 ### 3. Reviewing aggregated CCE data
 
 #### Installed CCE capacity
 
-The `Installed CCE capacity` is the aggregation of the data collected in [1. Registering CCE](#1-registering-cce) and can be viewed in the [mSupply Dashboard](/dashboard/introduction).  
+The `CCE installed capacity` is the aggregation of the data collected in [1. Registering CCE](#1-registering-cce) and can be viewed in the [mSupply Dashboard](/dashboard/introduction).  
 
 The dashboard can be filtered by metrics such as supply level (Primary, Sub-National, Lowest Distribution etc) or temperature range (+ 5°C, -20 °C, -70°C)
 
@@ -65,7 +65,7 @@ The dashboard can be filtered by metrics such as supply level (Primary, Sub-Nati
 
 #### Functioning CCE capacity
 
-The `Functioning CCE capacity` is the aggregation of the data collected in [2. Updating CCE functional status](#2-updating-cce-functional-status) and can be viewed in the [mSupply Dashboard](/dashboard/introduction).
+The `CCE functioning capacity` is the aggregation of the data collected in [2. Updating CCE functional status](#2-updating-cce-functional-status) and can be viewed in the [mSupply Dashboard](/dashboard/introduction).
 
 The dashboard can be filtered by metrics such as supply level (Primary, Sub-National, Lowest Distribution etc) or temperature range (+ 5°C, -20 °C, -70°C)
 
