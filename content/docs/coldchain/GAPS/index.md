@@ -172,7 +172,7 @@ The output values (in litres) can be viewed in the [mSupply Dashboard](/dashboar
 ![](images/forecast_expected_demand_sl.png)
 ## Comparing CCE capacity to forecast demand
 
-The [Installed CCE capacity](#installed-cce-capacity) and [Forecast CCE demand](#4-reviewing-the-forecast-demand) can be reviewed in the [mSupply Dashboard](/dashboard/introduction). 
+The [CCE installed capacity](#installed-cce-capacity) and [CCE forecast demand](#4-reviewing-the-forecast-demand) can be reviewed in the [mSupply Dashboard](/dashboard/introduction). 
 
 The `CCE surplus / deficit` (in litres) is displayed for each supply level for the current year. 
 Additionally a forecast is provided for the next 5 years to account for population growth. 
