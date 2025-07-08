@@ -120,6 +120,16 @@ If no match is found a `Create new patient` button will appear. Clicking this wi
 If you have found a matching patient, but it's not the correct one, you can just press space a few times, to see the New Patient button.
 </div>
 
+#### Select a Clinician
+
+Optional field for the clinician who prescribed the medicine. You can search for an existing clinician by code or name. If the clinician is not in the search results you can click `Create Clinician` to enter a new clinician.
+
+![New clinician](images-en/clinicians_search_new_prescription.png)
+
+Complete the details for the clinician. Clicking `Create` will save the clinician and add them to the new prescription.
+
+![New clinician](images-en/clinicians_create_from_new_prescription.png)
+
 #### Set other Prescription Fields
 
 The following fields are optional - if none of these are useful for you, simply click `Create` to create the prescription after selecting the patient.
