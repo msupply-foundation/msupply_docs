@@ -37,4 +37,4 @@ Global Preferences can be configured by turning these options on or off. Any upd
 | :----------------------------------- | :---------------------------------------------------------------------------------------------------------- |
 | **Allow tracking of stock by donor** | Adds a donor column to stock management screens. This allows you to track which donor a stock item is from. |
 | **Show Contact Tracing**             | Enables the [Contact Tracing](/docs/programs/program-module/#contact-tracing) feature for Patients          |
-| **Gender Options**                   | Select the combination of genders available for Clinicians and Patients                                     |
+| **Gender Options**                   | Choose the gender options available for clinicians and patients                                             |

@@ -395,7 +395,7 @@ In the below example, the first line's cost price is $0.01 per unit and the sell
 In the third tab, `Other`, you can select the following:
 
 - **Location**: A storage location to assign the batch number to a location in your storage facility.
-- **Comment**: This is a free text field that can be used to add a comment about the shipement line.
+- **Comment**: This is a free text field that can be used to add a comment about the shipment line.
 - **Donor**: A donor, if configured to track donors. See [Track stock by donor](#track-stock-by-donor) for details.
 - **Campaign**: If you have a campaign configured (see [Campaigns](/docs/manage/campaigns/)) then this column allows you to associate the stock line with a campaign
 
