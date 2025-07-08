@@ -125,6 +125,20 @@ The ledger is divided into 16 columns:
 | **Total before tax** | The total cost of the transaction before tax (in local currency) |
 | **Reason**           | The reason for the adjustment (if required)                      |
 
+### Filter Transactions
+
+You can filter the list of transactions by Type, Status or Date range. This can be useful if you're looking for one particular transaction!
+
+![Requisition filter](images-en/ledger_filter.png)
+
+Select the desired filter(s) from the list:
+
+- **Type**: Select a status from the dropdown list
+- **Status**: Select a status from the dropdown list
+- **Date Range**: Enter a date range to filter results by. You can choose a `From Date`, a `To Date`, or filter by both
+
+All of the ledger transactions which match the filters will appear in the list.
+
 ## Item Variants
 
 On the , [Open mSupply Central Server](../../getting_started/central-server/) a third tab, Item Variants, is available. This tab allows you to configure variations of the item, such as different manufacturers or packaging sizes.
