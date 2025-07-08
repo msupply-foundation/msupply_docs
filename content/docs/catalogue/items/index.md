@@ -125,19 +125,13 @@ The ledger is divided into 16 columns:
 | **Total before tax** | The total cost of the transaction before tax (in local currency) |
 | **Reason**           | The reason for the adjustment (if required)                      |
 
-### Filter Transactions
+### Filter ledger by transactions
 
-You can filter the list of transactions by Type, Status or Date range. This can be useful if you're looking for one particular transaction!
+You can filter the ledgers by the transaction: Type, Status or Date range. This is useful when you need to review a specific set of transactions that meet certain criteria!
 
-![Requisition filter](images-en/ledger_filter.png)
+![Item filter](images-en/ledger_filter.png)
 
-Select the desired filter(s) from the list:
-
-- **Type**: Select a status from the dropdown list
-- **Status**: Select a status from the dropdown list
-- **Date Range**: Enter a date range to filter results by. You can choose a `From Date`, a `To Date`, or filter by both
-
-All of the ledger transactions which match the filters will appear in the list.
+Select one or more filters to narrow down the results. The list will update to show all ledger transactions that match the selected criteria.
 
 ## Item Variants
 
