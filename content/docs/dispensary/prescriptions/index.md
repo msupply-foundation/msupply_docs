@@ -109,27 +109,62 @@ You can only delete Prescriptions with a status <code>NEW</code> or <code>PICKED
 
 In the `New Prescription` window, you will be presented with a form to search for available patients. The patients list will load when you start typing - you can enter as much of the patient's name or code as you need.
 
-If no match is found a `New patient` button will show. Clicking this will open a section to enter the patient's details.
+If no match is found, a `New patient` button will appear. Click this to open a section where you can enter the patient's details.  
 ![Create new patient pop up](images/prescription_new_prescription_no_match.png)
 
 Enter the patient's first name and last name to enable the `Search` button. This will show any matching patients even if they were created on a different mSupply site.
 
 ![Create new patient window](images/prescription_new_prescription_create_patient.png)
 
-Click on a patient here to select them for for the prescription, or select `Create new patient` to continue to the next stage and add the remaining details for the new patient. Select `Save` to save the patient and continue creating the new prescription.
+Click on a patient to select them for the prescription, or choose `Create new patient` to proceed and enter the remaining details for a new patient. Once complete, select Save to add the patient and continue creating the prescription.
 
 <div class="note">
 If you have found a matching patient, but it's not the correct one, you can just press space a few times to see the New Patient button.</div>
 
-#### Select a Clinician
+### Patient
 
-Optional field for the clinician who prescribed the medicine. You can search for an existing clinician by code or name. If the clinician is not in the search results you can click `Create Clinician` to enter a new clinician.
+If you’ve selected the wrong patient, you can change the patient by typing in the `Patient` field to search and select the correct one from the dropdown list. If no match is found, you can also create a new patient from here.
+
+If you have selected the wrong patient, you can change the patient name in the `Patient` field by typing some characters to search and then selecting from the dropdown list:
+
+![Change patient](images/prescription_change_patient_step_1.png)
+![Change patient](images/prescription_change_patient_step_2.png)
+![Change patient](images/prescription_change_patient_step_3.png)
+
+You may need to type more of the patient's name or code if you have more than 100 patients for the patient's name to show on the dropdown list.
+
+### Edit the Patient Details
+
+To edit the details of the selected patient, click the pencil icon next to the patient’s name. After making changes, click Save to update the information, or select `View Patient` to open the patient’s file.
+
+![Edit patient](images/prescription_edit_patient_step_1.png)
+![Edit patient](images/prescription_edit_patient_step_2.png)
+
+Insurance details can be viewed in the Insurance tab if you have setup [Insurance Providers](/docs/dispensary/patients/#insurance) in mSupply</a>
+
+#### Clinician
+
+This is an optional field for the clinician who prescribed the medicine. You can search for an existing clinician by code or name. If no match is found, click `Create clinician` to add a new one.
 
 ![New clinician](images/clinicians_search_new_prescription.png)
 
-Complete the details for the clinician. Clicking `Create` will save the clinician and add them to the new prescription.
+Enter the clinician’s details, then click `Create` to save the clinician and add them to the prescription.
 
 ![New clinician](images/clinicians_create_from_new_prescription.png)
+
+### Changing the Clinician
+
+If you’ve selected the wrong clinician, you can change the clinician by typing in the `Clinician` field to search and select the correct one from the dropdown list. If no match is found, you can also create a new clinician from here.
+
+![Change clinician](images/prescription_change_clinician_step_1.png)
+![Change clinician](images/prescription_change_clinician_step_2.png)
+![Change clinician](images/prescription_change_clinician_step_3.png)
+
+<div class="note">
+
+Support for Editing clinicians will be available in future versions of Open mSupply
+
+</div>
 
 #### Set other Prescription Fields
 
@@ -147,41 +182,6 @@ If everything went well, you should see the name of your patient in the top left
 </div>
 
 ![Prescription: created](images/prescription_created.png)
-
-### Changing the Patient
-
-If you have selected the wrong patient, you can change the patient name in the `Patient` field by typing some characters to search and then selecting from the dropdown list. You can also create a new patient here if no match is found.
-
-If you have selected the wrong patient, you can change the patient name in the `Patient` field by typing some characters to search and then selecting from the dropdown list:
-
-![Change patient](images/prescription_change_patient_step_1.png)
-![Change patient](images/prescription_change_patient_step_2.png)
-![Change patient](images/prescription_change_patient_step_3.png)
-
-You may need to type more of the patient's name or code if you have more than 100 patients for the patient's name to show on the dropdown list.
-
-### Edit the Patient Details
-
-You can add or edit the details of the selected patient by clicking on the pencil icon next to the patients name. Click `Save` to save any changes or `View Patient` to go to the patients file.
-
-![Edit patient](images/prescription_edit_patient_step_1.png)
-![Edit patient](images/prescription_edit_patient_step_2.png)
-
-Insurance details can be viewed in the Insurance tab if you have setup <a href="https://docs.msupply.org.nz/dispensing:patient_insurance#insurance_providers">Insurance Providers in mSupply</a>
-
-### Changing the Clinician
-
-If you have selected the wrong clinician, you can change the clinician name in the `Clinician` field by typing some characters to search and then selecting from the dropdown list. You can also create a new clinician here if no match is found.
-
-![Change clinician](images/prescription_change_clinician_step_1.png)
-![Change clinician](images/prescription_change_clinician_step_2.png)
-![Change clinician](images/prescription_change_clinician_step_3.png)
-
-<div class="note">
-
-Support for Editing clinicians will be available in future versions of Open mSupply
-
-</div>
 
 ### View or edit the Prescription Information Panel
 
