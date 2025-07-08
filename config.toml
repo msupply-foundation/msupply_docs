@@ -19,8 +19,9 @@ search_placeholder = "Search docs (whole words)..."
 feed_filename = "atom.xml"
 
 [languages.fr]
-generate_feeds = true # there will be a feed for French content
+generate_feeds = true     # there will be a feed for French content
 title = "mSupply 🇫🇷"
+build_search_index = true
 
 [languages.fr.translations]
 summary = "Mon blog"
@@ -30,8 +31,9 @@ TOCtitle = "Sur cette page"
 search_placeholder = "Rechercher des documents..."
 
 [languages.es]
-generate_feeds = true # there will be a feed for Spanish content
+generate_feeds = true     # there will be a feed for Spanish content
 title = "mSupply 🇪🇸"
+build_search_index = true
 
 [languages.es.translations]
 summary = "Mi blog"
@@ -41,8 +43,9 @@ TOCtitle = "En esta pagina"
 search_placeholder = "Buscar documentos..."
 
 [languages.pt]
-generate_feeds = true # there will be a feed for Portuguese content
+generate_feeds = true     # there will be a feed for Portuguese content
 title = "mSupply 🇵🇹"
+build_search_index = true
 
 [languages.pt.translations]
 title = "mSupply.pt"
