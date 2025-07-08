@@ -77,10 +77,6 @@ The list of Prescriptions can be exported to a comma separated file (csv). Simpl
 The export function will download all Prescriptions, not just the current page, if you have more than 20 of them. Prescriptions are exported using sort order selected in the table, though of course you could easily sort the list in Excel or whatever you open the .csv file with.
 ![Export button](images/export.png)
 
-<div class="note">
-Export functionality is not available on Android devices.
-</div>
-
 ### Delete a Prescription
 
 You can delete a prescription from the Prescription list.
@@ -118,7 +114,7 @@ If no match is found a `New patient` button will show. Clicking this will open a
 
 Enter the patient's first name and last name to enable the `Search` button. This will show any matching patients even if they were created on a different mSupply site.
 
-![Create new patient window](images/prescriptions_new_prescription_create_patient.png)
+![Create new patient window](images/prescription_new_prescription_create_patient.png)
 
 Click on a patient here to select them for for the prescription, or select `Create new patient` to continue to the next stage and add the remaining details for the new patient. Select `Save` to save the patient and continue creating the new prescription.
 
