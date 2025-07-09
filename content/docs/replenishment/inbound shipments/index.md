@@ -333,7 +333,8 @@ In the `Quantities` tab, you can update the following fields:
 2. **Expiry**: The expiry date of the batch number. Leave blank is not applicable
 3. **Pack Size**: The quantity of units per pack (by default, pack size is 1)
 4. **Packs Received**: The quantity of packs you are receiving. This can be entered manually or calculated based on Unit Received / Pack Size
-5. **Unit Received** The quantity of units you are receiving. This can be entered manually or calculated based on Packs x Pack Size (`[# Packs] x [Pack Size]`)
+5. **Packs Shipped** The quantity of packs sent by the supplier.
+6. **Units Received** The quantity of units you are receiving. This can be entered manually or calculated based on Packs x Pack Size (`[# Packs] x [Pack Size]`)
 
 **Additional vaccine columns**
 
@@ -394,6 +395,7 @@ In the below example, the first line's cost price is $0.01 per unit and the sell
 In the third tab, `Other`, you can select the following:
 
 - **Location**: A storage location to assign the batch number to a location in your storage facility.
+- **Comment**: This is a free text field that can be used to add a comment about the shipment line.
 - **Donor**: A donor, if configured to track donors. See [Track stock by donor](#track-stock-by-donor) for details.
 - **Campaign**: If you have a campaign configured (see [Campaigns](/docs/manage/campaigns/)) then this column allows you to associate the stock line with a campaign
 
