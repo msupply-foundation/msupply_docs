@@ -16,7 +16,7 @@ top = false
 
 When a customer orders stock from you, they create an **Internal Order** in their store. This will appear as a **Requisition** in your store.
 
-## Viewing Customers' Requisition
+## Viewing Customers' Requisitions
 
 To know if you have received requisitions from your customers, go to `Distribution` > `Requisition`
 
@@ -108,19 +108,6 @@ Requisition. It is divided into three sections:
 - Related documents
 - Actions
 
-We are planning to add more sections in the future as Open mSupply grows.
-
-##### How to Open and Close the Information Panel?
-
-To open the Information Panel, you can tap on the `More` button, located in the
-top right corner of the Requisition page.
-
-You can close the Information Panel by tapping on the `X Close` button on the
-top right corner of the information panel.
-
-![Open and close the Information
-Panel](images/requisition_infopanel_openclose.gif)
-
 ##### Additional Info
 
 In the **Additional Info** section you can:
@@ -160,58 +147,40 @@ the Requisition details to the clipboard.
 | **Issued**    | The quantity that has already been issued in `Outbound Shipments`                                                                                                               |
 | **Remaining** | The quantity remaining to be supplied to the customer. The calculation is 'Supply - Issued'. This quantity will be re-calculated after an `Outbound Shipment` has been created. |
 
-One way to adjust the supply quantity, is to click the button `Supply requested`
-at the top of the page. This will automatically set the supply quantity to be
-that of the quantity requested for each item.
+#### Supply Requested
+
+To quickly accept all the requested quantities by the customer you may click the `Supply requested` button
+at the top of the page. This will automatically set the supply quantity to be that of the quantity requested for each item.
 
 ![Supply Requested button](images/requisition_supply_requested_button.png)
 
 Click the button and you are asked
 for confirmation before the adjustment happens:
 
-![Supply Requested
-Prompt](images/requisition-supply-to-requested.png)
+![Supply Requested Prompt](images/requisition-supply-to-requested.png)
 
-The other way to adjust the supply quantity is to click on the item line in the
-table. This will open the line details page where you will see information about
+#### Adding items
+
+To add additional items to the requisition that the customer did not request, you may press the "Add item" button to search for and add an item.
+
+#### Editing items
+
+Click on an item row in the table will open the line details page where you will see information about
 the item such as your stock on hand, and the requested quantity.
 
-![Requisition Detail](images/requisition_line_edit_page.png)
+![Requisition line detail](images/requisition-line-edit.png)
 
-Once the `Quantity to supply` field is entered, a green tick will appear next to the item name, to help you track your progress.
+Here you can set how much you wish to supply the customer. The dropdown next to the supply quantity will allow you select whether you want to show the calculations in units ("Tablets" in this case) or packs according to the default pack size of this item.
 
-![Tick](images/requisition_line_tick.png)
+- AMC/AMD: The "Average Monthly Consumption" of the customer, also known as "Average Monthly Distribution".
+- MOS: The "Months of Stock" the customer has. This is "Their SOH" divided by "AMC/AMD".
+- Comment: you may leave a comment on the line, perhaps explaining decisions on why to supply more or less than what the customer requested.
 
-You can navigate between different items by:
+##### My Store Tab
 
-- Clicking on the item name in the list to the left of the screen
-- Using the `Previous` and `Next` buttons at the bottom of the screen
+This shows information about your store's stock levels and whats on order along side your customers' requests
 
-![Requisition
-Navigation](images/requisition_line_navigation.gif)
-
-##### Customer Store Stats
-
-Clicking on the `Graph Icon` next to the `Requested quantity` field will open a
-graph showing you the details of the stock at the customer's store.
-
-<div class="note">The request quantity charts will only show if the Requisition was created from an Internal Order.</div>
-
-- The customer's _Target Quantity_ for this item. This is calculated as: Target MOS x AMC
-- The customer's stock on hand for this item
-
-![Requisition Customer Stats](images/customer_store_stats.png)
-
-##### Your Store Stats
-
-Clicking on the `Graph Icon` next to the `Quantity to Supply` field will open a
-graph showing you the details of the stock at your store.
-
-<div class="imagetitle">
-This message will be displayed if your store currently doesn't have any stock available.
-</div>
-
-![](images/req-no-available-stock-message.png)
+![Requisition Store Stats](images/response_store_stats.png)
 
 _The first bar:_
 
@@ -221,16 +190,24 @@ _The first bar:_
 
 _The second bar:_
 
-- The quantity being requested for this item in this Requisition
-- The quantity being requested in other Requisitions
+- Requested: The quantity being requested for this item in this Requisition
+- Other requested: The quantity being requested in other pending Requisitions from all customers to your store.
 
-![Requisition Store Stats](images/response_store_stats.png)
+<div class="note">
+This message will be displayed if your store currently doesn't have any stock available.
+<br>
+<br>
 
-To go back to the Requisition view, tap on the `Close` button at the top right
-corner of the screen or click on the `Requisition Number` at the top left of the
-screen.
-![Close Requisition
-Line](images/close_requisition_line_edit.png)
+![No Available Stock](images/req-no-available-stock-message.png)
+
+</div>
+
+##### Customer Tab
+
+![Requisition Customer Stats](images/customer_store_stats.png)
+
+- The customer's _Target Quantity_ for this item. This is calculated as: Target MOS x AMC
+- The customer's stock on hand for this item
 
 #### Creating an Outbound Shipment from a Requisition
 
@@ -242,14 +219,13 @@ Click on the `Create Shipment` button. This will create a shipment, add all of t
 
 ![Create Shipment Prompt](images/requisition-create-shipment.png)
 
-If the supply quantity is changed for any item/s in the requisition after a shipment has been made for it and a new shipment is created through clicking the `Create Shipment` button, then a new shipment will be created with the remaining supply amount (supply quantity minus any linked Outbound Shipment quantity).
+If either the supply quantity is changed for any items in the requisition, or quantities in the outbound shipments are adjusted in the shipment, there may be some remaining to supply left for lines in the requisition. Subsequent new shipments created through clicking the `Create Shipment` button will be created with the remaining supply amount (supply quantity minus any linked Outbound Shipment quantity).
 
-![Create Shipment Detail](images/requisition-create-shipment.gif)
+![Remaining Quantity](images/remaining.png)
 
 After creating the shipment, you will see the shipment number, along with a link to view it, in the `Related documents` section of the additional details panel on the right of the screen.
 
-Clicking an item line in the table will redirect you to the line details page. Here you can adjust the
-quantity to supply and add a comment:
+![Related Documents](images/related-documents.png)
 
 ### Manual Requisition
 
@@ -275,23 +251,10 @@ Usually, Requisitions will be sent to you by your Customers. However, if they ar
 You cannot change the customer name after the requisition has been created. If you have made a mistake in selecting the customer, you will need to delete the requisition and create a new one.
 </div>
 
-#### Adding Lines to a Requisition
+#### Adding items
 
-Tap on the `Add Item` button (top right corner).
+Similar to normal requisitions from customers, you can add items to the requisition and then edit them:
 
-You will be redirected to the edit page. You can look up an item by:
+![alt text](images/manual-requisition-line-edit.png)
 
-- Reading through the list of available items
-- or by typing some or all of the item name
-- or by typing some or all of an item code
-
-Once your item is highlighted, tap on the name or press `Enter`.
-
-Once an item has been selected, you will be redirected to the item edit page. Here you can enter the customer's stock on hand, average monthly consumption and
-requested quantity. You can also enter how much you are going to supply to the
-customer and any comments. The values are saved automatically.
-
-![Requisition Line Edit](images/requisition_line_edit_page.png)
-
-After this, the workflow will follow the [same steps](#viewing-a-requisition)
-as for a requisition created from an Internal Order.
+The key difference in a manual requisition being entered on behalf of a customer is that you need to enter the "Requested" and "Their SOH" (Stock On Hand) fields for them. Often users of this functionality will have received a paper requisition form from the customer that captures this data either through their own stock keeping, or a quick stock take they did to provide accurate an SOH value.
