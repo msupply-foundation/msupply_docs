@@ -104,6 +104,10 @@ To add a filter to the page, choose the required filter from the drop down. To r
 
 ![Filter](images/breach_filter.png)
 
+**Berlinger Fridge-tags and breach events**
+
+<div class="note"> Berlinger Fridge-tags record a separate breach event for each 24 hour period. If a breach event lasts longer than 24 hours these are reflected accordingly in Open mSupply as multiple, separate 24 hour breach events rather than one long breach event.  </div>
+
 #### Acknowledging breaches
 
 From this list, you can choose to acknowledge a breach which then will stop the breach showing as a notification at the top of the page.

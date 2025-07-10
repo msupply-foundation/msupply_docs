@@ -52,6 +52,8 @@ Here's how the process looks (this is the mac desktop version):
 
 <div class="note">You may need to wait for the text file to be generated after connecting the Fridge-tag to your computer.</div>
 
+##### Compatible Berlinger devices 
+
 The following Berlinger devices are compatible with Open mSupply:
 
 | Device                  | Breach data displayed | Temperature graph plotted |
