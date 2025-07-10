@@ -218,7 +218,7 @@ Click on the `Create Shipment` button. This will create a shipment, add all of t
 
 ![Create Shipment Prompt](images/requisition-create-shipment.png)
 
-If either the supply quantity is changed for any items in the requisition, or quantities in the outbound shipments are adjusted in the shipment, there may be some remaining to supply left for lines in the requisition. Subsequent new shipments created through clicking the `Create Shipment` button will be created with the remaining supply amount (supply quantity minus any linked Outbound Shipment quantity).
+If either the supply quantity has been changed in the requisition or the outbound shipments quantities are changed, there might be some quantities remaining to be supplied. Any new shipments created using the `Create Shipment` button will automatically include these remaining quantities (calculated as the supply quantity minus the quantity already included in any linked outbound shipments).
 
 ![Remaining Quantity](images/remaining.png)
 
