@@ -92,7 +92,6 @@ Once an item is selected, you should see the following information on the page.
 
 ![Internal Order: edit item](images/edit-item.png)
 
-- **Item Name**
 - **Unit**: the unit which is defined on the item (e.g. Tablet, Vial)
 - **Default pack size**: the default pack size of the item
 - **Doses per unit**: (shown only if this item is a vaccine) this is the number of doses per unit e.g. per Vial
