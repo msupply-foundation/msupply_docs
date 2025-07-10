@@ -69,7 +69,7 @@ Let's start a new stocktake. To do so, tap on the `New Stocktake` button in the 
 
 ![Stocktake: new](images/stocktake_newstocktake.png)
 
-A window appears, where you can opt to create a stocktake based on items in a master list, items in a particular location, items that are in stock, expiring items, or an empty stocktake:
+A "New Stocktake" modal appears. You can either create a blank stocktake or filter existing stock lines based on their master list, location and expiry date. Stock lines found will be included in your new stocktake.
 
 ![Stocktake: New modal](images/stocktake_newmodal.png)
 
