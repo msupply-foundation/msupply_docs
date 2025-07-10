@@ -82,16 +82,16 @@ This can be done before or after adding items to your order.
 
 ### Adding a single item
 
-Tap on `Add Item` to add a single item to your order. You will be redirected to
-a new page.
+Tap on `Add Item` to add a single item to your order.
 
-![Internal Order: add item](images/intord_additem2.png)
+![Internal Order: add item](images/add-item.png)
 
 First select the item you want to add to your order. You can also type some or all of an item name (or code) to look for a specific item.
 
-Once item is selected, you should see the following information on the page:
+Once an item is selected, you should see the following information on the page.
 
-- **Item Name**
+![Internal Order: edit item](images/edit-item.png)
+
 - **Unit**: the unit which is defined on the item (e.g. Tablet, Vial)
 - **Default pack size**: the default pack size of the item
 - **Doses per unit**: (shown only if this item is a vaccine) this is the number of doses per unit e.g. per Vial
