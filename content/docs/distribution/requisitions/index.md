@@ -256,4 +256,4 @@ Similar to normal requisitions from customers, you can add items to the requisit
 
 ![alt text](images/manual-requisition-line-edit.png)
 
-The key difference in a manual requisition being entered on behalf of a customer is that you need to enter the "Requested" and "Their SOH" (Stock On Hand) fields for them. Often users of this functionality will have received a paper requisition form from the customer that captures this data either through their own stock keeping, or a quick stock take they did to provide accurate an SOH value.
+The key difference when entering a manual requisition on behalf of a customer is that you must enter the "Requested" and "Their SOH" (Stock On Hand) fields for them. Typically, users of this feature have received a paper requisition form from the customer, which includes this information, either based on the customer’s own stock records or a quick stock take they performed to provide an accurate SOH value.
