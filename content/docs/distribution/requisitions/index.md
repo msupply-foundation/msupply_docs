@@ -149,8 +149,7 @@ the Requisition details to the clipboard.
 
 #### Supply Requested
 
-To quickly accept all the requested quantities by the customer you may click the `Supply requested` button
-at the top of the page. This will automatically set the supply quantity to be that of the quantity requested for each item.
+To quickly fulfil all quantities requested by the customer, simply click the `Supply Requested` button at the top of the page. This will automatically match the supply quantity to the requested quantity for each item.
 
 ![Supply Requested button](images/requisition_supply_requested_button.png)
 
