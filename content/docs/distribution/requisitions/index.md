@@ -177,7 +177,7 @@ Here, you can set how much you wish to supply the customer. The dropdown next to
 
 ##### My Store Tab
 
-This shows information about your store's stock levels and whats on order along side your customers' requests
+This displays information about your store's stock levels and outstanding orders, alongside your customers' requested quantities.
 
 ![Requisition Store Stats](images/response_store_stats.png)
 
