@@ -69,13 +69,16 @@ Let's start a new stocktake. To do so, tap on the `New Stocktake` button in the 
 
 ![Stocktake: new](images/stocktake_newstocktake.png)
 
-A window appears, where you can opt to create a stocktake based on items in a master list, items in a particular location, items that are in stock, expiring items, or an empty stocktake:
+A "New Stocktake" modal appears.
+
+- Selecting no options will include all stock lines with remaining stock in the system. You may filter the stock lines with remaining stock in the system by master list, location or their expiry date
+- Selecting "Create blank stocktake" will create a stocktake with no lines. You will still be able to manually add individual items in the created stocktake.
 
 ![Stocktake: New modal](images/stocktake_newmodal.png)
 
 Click on OK when you have selected the option you would like.
 
-The stocktake will then be created, and existing stock lines will be used to populate the values for batch, expiry, pack size and snapshot number of packs. The lines show as light blue, and will change to black when a value is entered for the counted quantity.
+The stocktake will then be created and stock lines will be used to populate the values for batch, expiry, pack size and snapshot number of packs. The lines show as light blue, and will change to black when a value is entered for the counted quantity.
 
 ![Stocktake with placeholders](images/stocktake-placeholders.png)
 
