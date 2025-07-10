@@ -164,7 +164,7 @@ To add additional items to the requisition that the customer did not request, yo
 
 #### Editing items
 
-Click on an item row in the table will open the line details page where you will see information about
+Clicking on an item row in the table will open the line details where you will see information about
 the item such as your stock on hand, and the requested quantity.
 
 ![Requisition line detail](images/requisition-line-edit.png)
