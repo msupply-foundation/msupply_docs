@@ -169,7 +169,7 @@ the item such as your stock on hand, and the requested quantity.
 
 ![Requisition line detail](images/requisition-line-edit.png)
 
-Here you can set how much you wish to supply the customer. The dropdown next to the supply quantity will allow you select whether you want to show the calculations in units ("Tablets" in this case) or packs according to the default pack size of this item.
+Here, you can set how much you wish to supply the customer. The dropdown next to the supply quantity allows you to choose whether you want the display the amounts in units (e.g. "Tablets" in this case) or in packs, based on the item's default pack size.
 
 - AMC/AMD: The "Average Monthly Consumption" of the customer, also known as "Average Monthly Distribution".
 - MOS: The "Months of Stock" the customer has. This is "Their SOH" divided by "AMC/AMD".
