@@ -349,7 +349,9 @@ Vous pouvez décider de délivrer une quantité d'**emballages**. Pour ce faire,
 Imaginons que votre client ne veuille que des emballages de 12 unités. Vous pouvez changer la valeur de la liste déroulante de `Any` à `12`. 
 </div>
 
-![Alt Text](images/os_additem_switchtopack.gif)
+![Alt Text](images/os_additem_switchtopack_1.png)
+
+![Alt Text](images/os_additem_switchtopack_2.png)
 
 Il vous est maintenant proposé d'émettre un certain nombre d'emballages de 12 unités. Seul(s) le(s) numéro(s) de lot avec une taille d'emballage de 12 unités peut(vent) être automatiquement délivré(s).
 
@@ -357,7 +359,15 @@ Il vous est maintenant proposé d'émettre un certain nombre d'emballages de 12 
 Dans l'exemple ci-dessous, nous délivrons 10 emballages de 12 unités :
 </div>
 
-![additem!](images/os_additem_issuepacks.png)
+![Alt Text](images/os_issuepacks_1.png)
+
+Puis passer aux paquets
+
+![Alt Text](images/os_issuepacks_2.png)
+
+Ce qui change la valeur `Émettre` tout en gardant la quantité totale :
+
+![Alt Text](images/os_issuepacks_3.png)
 
 <div class="remarque">
 <b></b> si vous avez déjà introduit une quantité d'unités et que vous passez à une quantité d'emballages, la quantité d'unités sera automatiquement convertie en la quantité correcte d'emballages.  
@@ -465,74 +475,205 @@ There are 2 main ways to allocate a shipment line:
 You won't be able to process your Outbound Shipment if you have unallocated lines (shipment lines without batch number(s) assigned to it). You can wait for more stock to arrive or you can delete the placeholder lines. 
 </div>
 
-### Confirming an Outbound Shipment's allocation
+### Confirmer l'article et la quantité
 
-Once you all your shipments lines have been allocated, you can **confirm the allocation**:
+Quand vous êtes satisfait de la quantité, vous pouvez appuyer sur :
 
-- Current status of the shipment has to be `NEW`
-- Lines must be assigned with one or several batch numbers. You won't be able to confirm the allocation if your shipment contains lines without batch numbers assigned to it (placeholder lines).
+- le bouton `OK`. Vous êtes redirigé vers la vue Expédition sortante et votre article a été ajouté à la liste
+- le bouton `OK & Suivant` pour ajouter un autre article tout de suite
+- le bouton `Annuler` si vous ne voulez plus ajouter l'article à l'expédition sortante
 
-To confirm the allocation, press the `Confirm Allocated` button.
+## Ajouter des lignes à une expédition sortante en utilisant une liste principale
 
-![Alt Text](images/os_confirmallocated.gif)
+Appuyez sur le bouton `Ajouter depuis la liste principale` (coin supérieur droit).
 
-Once the allocation is confirmed:
+![Bouton Ajouter un article](images/os-add-from-master-list-button.png)
 
-- Shipment status is `ALLOCATED`
-- You are now invited to confirm the picking via the `Confirm Picked` button
-- All the items and their quantities will be reserved, meaning that they are no longer available for allocation
-- You can print a **pick slip** to be sent to your warehouse so they can start preparing the shipment
+Une nouvelle fenêtre `Listes principales` s'ouvre. Cela vous permet de sélectionner la liste principale requise. Cliquez simplement sur une des listes (si vous en avez de disponibles).
+Notez que les listes montrées sont celles qui sont visibles pour le client de l'expédition.
 
-### Confirming Outbound Shipment picking
+![Bouton Ajouter un article](../../images/add-item-master-lists.png)
 
-Picking refers to the process where individual items are picked from a fulfillment facility (usually a warehouse or a pharmacy store).
+Cliquez sur `OK` sur l'invite :
+![Bouton Ajouter un article](../../images/add-item-master-list-prompt.png)
 
-Once a shipment has been allocated, next step is to go get the items to prepare the actual shipment. To help with that, you are able to generate a **pick slip** document. A pickslip indicates:
+Vous aurez alors des lignes non allouées (espace réservé) ajoutées à votre expédition, qui ressemblera alors à ceci :
 
-- What are the items to be picked
-- The quantity and batch numbers for each item
-- If you manage your inventory with storage locations, where the items are located
+![Bouton Ajouter un article](images/os-after-master-list.png)
 
-Once all items are picked and packed. You can then confirm the picking of the shipment to indicate to indicate that it is ready to be dispatched.
+Comme vous pouvez le voir - toutes les quantités sont zéro. Vous pouvez suivre les étapes pour modifier ces lignes, comme détaillé ci-dessus.
 
-To confirm that a shipment has been picked, tap on the `Confirm Picked` button.
+## Modifier une ligne d'expédition sortante
 
-![Alt Text](images/os_confirmpicked.gif)
+Pour modifier une ligne d'expédition, appuyez dessus. La fenêtre `Modifier l'article` vous sera présentée, qui est identique à la fenêtre `Ajouter un article`, sauf que l'article est déjà choisi.
 
-Once picking is confirmed:
+### Modifier une ligne d'expédition
 
-- Shipment status is now `PICKED`
-- You are now invited to confirm the shipping via the `Confirm Shipped` button
-- An **Inbound Shipment** has been generated and is now visible to your customer
+<div class="note">
+ <b></b> Vous pouvez modifier une ligne d'expédition si l'expédition a un statut inférieur à <code>Expédié</code>. 
+</div>
 
-At this stage, you are still able to edit shipment lines, to add items or to delete existing lines. However, if picking has been confirmed, you need to make sure to inform your fulfillment facility of any change so they can make sure that the shipment is still correct.
+1. Ouvrez l'expédition sortante que vous voulez modifier.
+2. Appuyez sur la ligne que vous voulez modifier. Une fenêtre identique à `Ajouter un article` apparaît. À cette étape :
 
-### Confirming the Outbound Shipment shipping
+   - Modifiez le champ principal `Émettre`
+   - ou changez la valeur du nombre de paquets au niveau du numéro de lot
 
-The last step to issue stock with an Outbound Shipment is to confirm that stock has been shipped. This a critical step cause when goods are confirmed as shipped, they are no longer part of your inventory records.
+<div class="note">
+ <b></b> Lors de la modification d'une ligne d'expédition, vous ne pouvez pas changer l'article. Vous devriez supprimer la ligne d'expédition et en créer une nouvelle. 
+</div>
 
-To confirm that an Outbound Shipment has been shipped, tap on the `Confirm Shipped` button.
+### Supprimer une ligne d'expédition
 
-Once shipping has been confirmed:
+1. Ouvrez l'expédition sortante que vous voulez modifier.
+2. Sélectionnez la/les ligne(s) que vous voulez supprimer en cochant la/les case(s) sur le côté gauche de la liste.
+3. Cliquez sur le bouton `Supprimer` qui apparaît en bas de la page.
 
-- Shipment status is now `SHIPPED`
-- Goods are no longer part of your inventory
-- You can no longer edit shipment lines
-- You can no longer delete the shipment
-- You can print a **delivery note** or an **invoice**
+<div class="imagetitle">
+Dans l'exemple ci-dessous, nous supprimons <i>trois lignes d'espace réservé</i>.
+</div>
 
-### Tracking Progress of Outbound Shipments
+![Alt Text](images/delete-outbound-shipment-line.gif)
 
-If your customer is also using mSupply, you wil be able to see when they'll receive your shipments:
+<div class="tip">
+ <b></b> Vous pouvez supprimer plusieurs lignes à la fois. Assurez-vous de vérifier ce qui est sélectionné avant d'effectuer l'action Supprimer. 
+</div>
 
-- status will become `DELIVERED` when goods are received: your customer confirmed that they received your goods
-- status will become `VERIFIED` when shipment has been verified by your customer. Goods are now part of their inventory
+## Traiter une expédition sortante
 
-## Viewing an Outbound Shipment
+### Allouer une expédition sortante
 
-When viewing a specific shipment, you can view the batches on that shipment grouped by item or with each batch listed separately.
-To change the view mode, click the `Group by item` switch.
+L'allocation est le processus d'assignation d'un ou plusieurs numéros de lot de l'inventaire à une ligne d'expédition. En d'autres termes, vous assignez du stock à votre expédition. Une fois alloué, le stock est réservé pour l'expédition et donc pour votre client.
 
-When grouped by item, you can expand the item to see individual batches, or use the expand in the table header to expand all grouped rows. If you click on an item you will also see all selected batches, as shown in this example:
+Il y a 2 façons principales d'allouer une ligne d'expédition :
 
-![Group by Item](images/os_group_by_item.gif)
+1. Lors de l'ajout d'articles, le système assignera automatiquement du stock à la nouvelle ligne d'expédition quand vous entrez une quantité. Si vous n'avez pas assez de stock, le système ajoutera des lignes d'espace réservé (lignes non allouées).
+
+2. Action en lot `Allouer les lignes d'espace réservé` : Sélectionnez les lignes que vous voulez allouer en cochant les cases sur le côté gauche de la liste
+
+3. Cliquez sur le bouton `Allouer les lignes d'espace réservé` qui apparaît en bas de la page. Le système vérifiera s'il y a du stock disponible pour chaque ligne sélectionnée et les allouera en utilisant la logique Premier à expirer, Premier sorti (FEFO). Une notification vous fera savoir si l'opération est réussie ou non.
+
+<div class="note">
+Vous ne pourrez pas traiter votre expédition sortante si vous avez des lignes non allouées (lignes d'expédition sans numéro(s) de lot assigné(s)) avec une quantité supérieure à 0. Vous pouvez attendre que plus de stock arrive ou vous pouvez supprimer les lignes d'espace réservé. Toutes les lignes non allouées avec une quantité de 0 seront automatiquement supprimées pour vous quand vous allouez.
+</div>
+
+### Confirmer l'allocation d'une expédition sortante
+
+Une fois que toutes vos lignes d'expédition ont été allouées, vous pouvez **confirmer l'allocation** :
+
+- Le statut actuel de l'expédition doit être `NOUVEAU`
+- Les lignes doivent être assignées avec un ou plusieurs numéros de lot. Vous ne pourrez pas confirmer l'allocation si votre expédition contient des lignes sans numéros de lot assignés (lignes d'espace réservé).
+
+Pour confirmer l'allocation, appuyez sur le bouton `Confirmer alloué`.
+
+![Alt Text](images/confirm-allocated-outbound-shipment-line.gif)
+
+Une fois l'allocation confirmée :
+
+- Le statut de l'expédition est `ALLOUÉ`
+- Vous êtes maintenant invité à confirmer le prélèvement via le bouton `Confirmer prélevé`
+- Tous les articles et leurs quantités seront réservés, ce qui signifie qu'ils ne sont plus disponibles pour allocation
+- Vous pouvez imprimer un **bordereau de prélèvement** à envoyer à votre entrepôt pour qu'ils puissent commencer à préparer l'expédition
+
+### Confirmer le prélèvement d'expédition sortante
+
+Le prélèvement fait référence au processus où les articles individuels sont prélevés d'une installation de réalisation (habituellement un entrepôt ou un magasin de pharmacie).
+
+Une fois qu'une expédition a été allouée, l'étape suivante est d'aller chercher les articles pour préparer l'expédition actuelle. Pour aider avec cela, vous êtes capable de générer un **bordereau de prélèvement**. Un bordereau de prélèvement indique :
+
+- Les articles à prélever
+- La quantité et les numéros de lot pour chaque article
+- Si vous gérez votre inventaire avec des emplacements de stockage, où les articles sont situés
+
+Une fois que tous les articles sont prélevés et emballés. Vous pouvez alors confirmer le prélèvement de l'expédition pour indiquer qu'elle est prête à être expédiée. Les marchandises ne font plus partie de votre inventaire et ne peuvent pas être allouées à d'autres expéditions une fois que le statut a été changé à `PRÉLEVÉ`.
+
+Pour confirmer qu'une expédition a été prélevée, appuyez sur le bouton `Confirmer prélevé`.
+
+Une fois le prélèvement confirmé :
+
+- Le statut de l'expédition est maintenant `PRÉLEVÉ`
+- Vous êtes maintenant invité à confirmer l'expédition via le bouton `Confirmer expédié`
+- Si votre client utilise également mSupply, alors une **expédition entrante** a été générée et est maintenant visible pour votre client
+
+À cette étape, vous êtes encore capable de modifier les lignes d'expédition, d'ajouter des articles ou de supprimer des lignes existantes. Cependant, si le prélèvement a été confirmé, vous devez vous assurer d'informer votre installation de réalisation de tout changement pour qu'ils puissent s'assurer que l'expédition est encore correcte.
+
+### Confirmer l'expédition sortante
+
+La dernière étape pour émettre du stock avec une expédition sortante est de confirmer que le stock a été expédié. C'est une étape critique car quand les marchandises sont confirmées comme expédiées, elles ne font plus partie de vos enregistrements d'inventaire.
+
+Pour confirmer qu'une expédition sortante a été expédiée, appuyez sur le bouton `Confirmer expédié`.
+
+Une fois l'expédition confirmée :
+
+- Le statut de l'expédition est maintenant `EXPÉDIÉ`
+- Les marchandises ne font plus partie de votre inventaire
+- Vous ne pouvez plus modifier les lignes d'expédition
+- Vous ne pouvez plus supprimer l'expédition
+- Vous pouvez imprimer un **bon de livraison** ou une **facture**
+
+### Suivre le progrès des expéditions sortantes
+
+Si votre client utilise également mSupply, vous serez capable de voir quand ils recevront vos expéditions :
+
+- le statut deviendra `LIVRÉ` quand les marchandises sont reçues : votre client a confirmé qu'il a reçu vos marchandises
+- le statut deviendra `VÉRIFIÉ` quand l'expédition a été vérifiée par votre client. Les marchandises font maintenant partie de leur inventaire.
+
+## Traiter le retour de stock d'une expédition sortante
+
+Parfois, le stock envoyé via une expédition sortante devra être retourné. Vous pouvez faire cela en créant un [Retour client](../customer-returns).
+
+1. Ouvrez l'expédition sortante pour laquelle vous aimeriez traiter le retour d'une partie ou de tout le stock
+2. Assurez-vous que le statut est au moins `EXPÉDIÉ`
+3. Sélectionnez la/les ligne(s) pour laquelle vous voulez traiter le retour en cochant la/les case(s) à droite de la liste
+4. Cliquez sur le bouton `Retourner les lignes sélectionnées` qui apparaît en bas de la page.
+
+![Lignes de retour OS](images/return-selected-outbound-shipment-line.gif)
+
+### Sélectionner la quantité retournée
+
+Une modale s'ouvrira, contenant chaque ligne que vous avez sélectionnée pour le retour :
+
+| Colonne                | Description                                                                                           |
+| :--------------------- | :---------------------------------------------------------------------------------------------------- |
+| **Code**               | Code de l'article                                                                                     |
+| **Nom**                | Nom de l'article                                                                                      |
+| **Lot**                | Numéro de lot. C'est une désignation donnée aux produits fabriqués dans la même série de fabrication. |
+| **Expiration**         | Date d'expiration du lot (format : MM/AAAA)                                                           |
+| **Taille de paquet**   | Quantité d'unités par paquet                                                                          |
+| **Qté paquet émise**   | Nombre de paquets qui ont été émis dans l'expédition sortante                                         |
+| **Quantité retournée** | Nombre de paquets à retourner                                                                         |
+
+Les valeurs de `Quantité retournée` seront initialement `0` - vous pouvez ajuster cela pour retourner une partie ou tout le stock disponible.
+
+#### Avertissements
+
+Si vous oubliez d'entrer une `Quantité retournée` pour une ligne et cliquez sur `Étape suivante`, vous verrez ce message d'avertissement. Vous devrez ajouter une quantité retournée d'au moins une ligne. Vous pouvez cliquer sur `Annuler` si vous ne voulez plus traiter le retour de ce stock.
+![Alt Text](images/os_selectquantity_warning.png)
+
+### Fournir des raisons
+
+Une fois que vous êtes satisfait de vos quantités retournées, vous pouvez cliquer sur `Étape suivante`. La liste des lignes sera filtrée pour inclure seulement les lignes pour lesquelles vous avez fourni une quantité de retour. Dans cette vue, vous pouvez entrer une raison pour le retour de chaque ligne, et un commentaire supplémentaire.
+
+![Alt Text](images/os_return_lines_modal.gif)
+
+### Confirmer
+
+Quand vous êtes satisfait des quantités et des raisons, vous pouvez appuyer sur :
+
+- le bouton `OK`. un Retour client sera créé, et vous serez redirigé pour le voir.
+- le bouton `Retour`, pour retourner à l'étape `Sélectionner la quantité`
+
+## Visualiser une expédition sortante
+
+Lors de la visualisation d'une expédition spécifique, vous pouvez voir les lots sur cette expédition groupés par article ou avec chaque lot listé séparément.
+Pour changer le mode de vue, cliquez sur l'interrupteur `Grouper par article`.
+
+Quand groupé par article, vous pouvez développer l'article pour voir les lots individuels, ou utiliser le développement dans l'en-tête du tableau pour développer toutes les lignes groupées. Si vous cliquez sur un article vous verrez aussi tous les lots sélectionnés, comme montré dans cet exemple :
+
+![Grouper par article](images/os_group_by_item.gif)
+
+Si vous n'avez pas assez de place sur votre écran, ou simplement n'êtes pas intéressé par certaines des colonnes montrées, vous avez l'option de cacher quelles colonnes sont montrées dans cette vue.
+
+Cliquez sur le bouton `Montrer / cacher les colonnes` qui est en haut à droite du tableau. Cela donne une liste des colonnes disponibles - vous pouvez cocher les colonnes que vous voulez voir. Les options choisies sont stockées pour le navigateur actuel, donc la prochaine fois que vous visualisez une expédition sortante, vous verrez seulement les colonnes sélectionnées. Si vous avez choisi quelles colonnes montrer, alors le bouton est montré en bleu pour vous rappeler qu'il y a plus de colonnes disponibles.
+
+![Cacher les colonnes](images/os_show_hide_columns.gif)
