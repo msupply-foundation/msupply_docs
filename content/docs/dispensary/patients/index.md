@@ -138,6 +138,8 @@ Select any patient and click on the `Insurance` tab. Here you can see the list o
 
    ![Insurance Empty Modal](images/insurance_empty_modal.png)
 
+<div class="note">Policies will be considered expired from the start of the day specified in the <b>Expiry date</b> field</div>
+
 3. After filling out the form, click the `Save` button. Your newly created insurance will show in the list, and a confirmation message will appear.
 
    ![Insurance Success](images/insurance_success.png)
