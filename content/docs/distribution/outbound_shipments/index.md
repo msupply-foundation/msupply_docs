@@ -362,8 +362,10 @@ By default, you are invited to issue a quantity of **units**, regardless of the 
 
 When entering a number in the `Issue` field, the system automatically chooses the batch number(s) with the closest expiry date (First to Expire, First Out or FEFO logic).
 
+<div class="note">If you are issuing a vaccine item and the <a href="/docs/manage/facilities/#store-preferences">Sort available batches by VVM status then expiry</a> preference is enabled, then the stock lines are allocated in numerical order of the VVM status levels (level 1 lines are issued first). If there is more than one line with the same VVM status level, then of those lines the first line to expiry is selected (normal FEFO rules).</div>
+
 <div class="imagetitle">
-In the example below, we are issuing 11 units of the item. All 11 units will be taken from the same batch (second row). The first batches was not selected because it is expired. 
+In the example below, we are issuing 11 units of the item. All 11 units will be taken from the same batch (third row). The first two batches were not selected because they have expired. There is a check mark in the left hand column which indicates which rows will be available for auto allocation.
 </div>
 
 ![additem!](images/os_additem_issueunits.png)
@@ -389,7 +391,7 @@ However you can still manually choose those lines and issue the expired stock!
 
 ![pack sizes warning!](images/os_warning_pack_sizes.png)
 
-This warning tells you that because of the available pack sizes, the system has rounded up the quantity requested. In this example, there is no pack size that is less than `5`. There are packs of `10` available though, so when 5 tablets are requested, the system has rounded up the request to `1` pack of `10`.
+This warning tells you that because of the available pack sizes, the system has rounded up the quantity requested. In this example, there is no pack size that is less than `5`. There are packs of `12` available though, so when `3` tablets are requested, the system has rounded up the request to `1` pack of `12`.
 
 ![pack sizes warning!](images/os_warning_no_quantity.png)
 
@@ -397,35 +399,39 @@ If you add an item, forget to enter a quantity to issue, and click `OK` you will
 
 ### Issue a quantity of packs
 
-You can decide to issue a quantity of **packs**. To do this, you can change the value in the `Pack Size` dropdown.
+You can decide to issue a quantity of **packs**. To do this, you can change the value in the dropdown.
 
 <div class="imagetitle">
-Let's imagine that your customer only wants pack size of 10 units. You can change the dropdown value from `Any` to `10`. 
+Let's imagine that your customer only wants pack size of 12 units. You can change the dropdown value from `Units` to `12`. 
 </div>
 
-![Alt Text](images/os_additem_switchtopack.gif)
+![Alt Text](images/os_additem_switchtopack_1.png)
 
-You are now offered to issue a number of packs of 100 units. Only batch number(s) with a pack size of 100 units can be automatically issued.
+![Alt Text](images/os_additem_switchtopack_2.png)
 
-<div class="imagetitle">
-In the example below, we are issuing 5 packs of 100 units:
-</div>
-
-![additem!](images/os_additem_issuepacks.png)
+You are now offered to issue a number of packs of 12 units. Only batch number(s) with a pack size of 12 units will be automatically issued. You can see that the check mark in the first column has changed to indicate which rows are to be automatically allocated ( you can however still manually request a number of packs for the other rows if you need to! ).
 
 <div class="note">
 If you had previously entered a quantity of units and you switch to a quantity of packs, the quantity of units will automatically be converted into the correct quantity of packs.  
 </div>
 
-![Alt Text](images/os_issuepacks.gif)
+![Alt Text](images/os_issuepacks_1.png)
 
-When a pack size is selected, stock lines which have a different pack size from the one selected are not available for selection. As such, those rows are listed lower down in the table and are shown in a grey font, in the same way as other unavailable rows.
+Then change to packs
+
+![Alt Text](images/os_issuepacks_2.png)
+
+Which changes the `Issue` value while keeping the total quantity:
+
+![Alt Text](images/os_issuepacks_3.png)
+
+When a pack size is selected, stock lines which have a different pack size from the one selected are not automatically allocated.
 
 ### Manual Allocation
 
 Regardless of if you chose to issue a quantity of units or packs, you can always manually change the quantity at the batch number level directly before pressing on OK.
 
-You simply have to enter or edit the quantity in the `Packs Qty Issued` column.
+You simply have to enter or edit the quantity in the `Packs Issued` column.
 
 The values in the **Total quantity** row will be automatically updated with the new quantity.
 
@@ -433,9 +439,11 @@ The values in the **Total quantity** row will be automatically updated with the 
  <b></b> When allocating quantities at the batch number level, the quantity you enter is always a quantity of packs. 
 </div>
 
+![Alt Text](images/os_additem_manualallocation_1.png)
+
 <figure>
-<img src="images/os_additem_manualallocation.gif" style="width:100%">
-<figcaption align="center"><i>Manual allocation at the batch number level.</i></figcaption>
+<img src="images/os_additem_manualallocation_2.png" style="width:100%">
+<figcaption align="center"><i>Manually allocating 5 packs of batch B_EXP_01</i></figcaption>
 </figure>
 
 ### Issuing when there is not enough stock (Placeholder Line)
@@ -445,7 +453,7 @@ If the amount to be issued is greater than the total stock available from all of
 Placeholder lines can be allocated later when new stock arrives. However, all shipment lines must be allocated before confirming the allocation.
 
 <div class="imagetitle">
-Since there is no stock available for <i>358b04bf Abacavir Oral Solution 20mg per mL 240mL</i>, the system is issuing 120 units in the placeholder field. 
+Since there is no stock available for <i>050457 Amoxicillin Dry Powder for Suspension 125mg/5ml Bot/100ml</i>, the system is issuing 120 bottles in the placeholder field. 
 </div>
 
 ![Alt Text](images/os_additem_placeholder.png)
@@ -495,7 +503,7 @@ To edit a shipment line, tap on it. You will be presented with the `Edit Item` w
 1. Open the Outbound Shipment you want to edit.
 2. Tap on the line you want to edit. An identical window to `Add Item` appears. At this stage:
 
-   - Edit the main `Issue Quantity` field
+   - Edit the main `Issue` field
    - or change the number of packs value at the batch number level
 
 <div class="note">

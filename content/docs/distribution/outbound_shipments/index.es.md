@@ -347,10 +347,12 @@ Ten en cuenta que en esta lista, las partidas que están disponibles para su sel
 Puedes decidir emitir una cantidad de **paquetes**. Para hacerlo, puedes cambiar el valor en el menú desplegable `Tamaño del paquete`.
 
 <div class="imagetitle">
-Imaginemos que tu cliente solo quiere un tamaño de paquete de 25 unidades. Puedes cambiar el valor del menú desplegable de  `Cualquier` a `25`. 
+Imaginemos que tu cliente solo quiere un tamaño de paquete de 12 unidades. Puedes cambiar el valor del menú desplegable de  `Units` a `12`. 
 </div>
 
-![Alt Text](images/os_additem_switchtopack.gif)
+![Alt Text](images/os_additem_switchtopack_1.png)
+
+![Alt Text](images/os_additem_switchtopack_2.png)
 
 Ahora se te ofrece la posibilidad de emitir un número de paquetes de 25 unidades. Solo se pueden emitir automáticamente los números de lote que tengan un tamaño de paquete de 25 unidades.
 
@@ -364,7 +366,15 @@ En el siguiente ejemplo, estamos emitiendo 5 paquetes de 25 unidades:
 <b></b> si previamente has ingresado una cantidad de unidades y cambias a una cantidad de paquetes, la cantidad de unidades se convertirá automáticamente en la cantidad correcta de paquetes.  
 </div>
 
-![Alt Text](images/os_issuepacks.gif)
+![Alt Text](images/os_issuepacks_1.png)
+
+A continuación, cambie a los packs
+
+![Alt Text](images/os_issuepacks_2.png)
+
+Lo que cambia el valor `Issue` manteniendo la cantidad total:
+
+![Alt Text](images/os_issuepacks_3.png)
 
 Cuando se selecciona un tamaño de paquete, las líneas de stock que tienen un tamaño de paquete diferente no están disponibles para seleccionar. Por lo tanto, esas filas se enumeran más abajo en la tabla y se muestran en una fuente gris, de la misma manera que otras filas no disponibles.
 
@@ -380,9 +390,11 @@ Los valores en la fila **Total** se actualizarán automáticamente con la nueva 
  <b></b> cuando asignas cantidades en el nivel del número de partida, la cantidad que ingreses siempre será una cantidad de paquetes. 
 </div>
 
+[Alt Text](images/os_additem_manualallocation_1.png)
+
 <figure>
-<img src="images/os_additem_manualallocation.gif" style="width:100%">
-<figcaption align="center"><i>Asignación manual a nivel del número de lote.</i></figcaption>
+<img src="images/os_additem_manualallocation_2.png" style="width:100%">
+<figcaption align="center"><i>Asignación manual de 5 paquetes del lote B_EXP_01</i></figcaption>
 </figure>
 
 ### Emisión cuando no hay suficiente stock (Línea de reserva)

@@ -405,10 +405,12 @@ If you add an item, forget to enter a quantity to issue, and click `OK` you will
 You can decide to issue a quantity of **packs**. To do this, you can change the value in the `Pack Size` dropdown.
 
 <div class="imagetitle">
-Let's imagine that your customer only wants pack size of 10 units. You can change the dropdown value from `Any` to `10`. 
+Let's imagine that your customer only wants pack size of 12 units. You can change the dropdown value from `Units` to `12`. 
 </div>
 
-![Alt Text](images/os_additem_switchtopack.gif)
+![Alt Text](images/os_additem_switchtopack_1.png)
+
+![Alt Text](images/os_additem_switchtopack_2.png)
 
 You are now offered to issue a number of packs of 100 units. Only batch number(s) with a pack size of 100 units can be automatically issued.
 
@@ -422,7 +424,15 @@ In the example below, we are issuing 5 packs of 100 units:
 If you had previously entered a quantity of units and you switch to a quantity of packs, the quantity of units will automatically be converted into the correct quantity of packs.  
 </div>
 
-![Alt Text](images/os_issuepacks.gif)
+![Alt Text](images/os_issuepacks_1.png)
+
+Em seguida, mude para os pacotes
+
+![Alt Text](images/os_issuepacks_2.png)
+
+O que altera o valor de `Issue` mantendo a quantidade total:
+
+![Alt Text](images/os_issuepacks_3.png)
 
 When a pack size is selected, stock lines which have a different pack size from the one selected are not available for selection. As such, those rows are listed lower down in the table and are shown in a grey font, in the same way as other unavailable rows.
 
@@ -438,9 +448,11 @@ The values in the **Total quantity** row will be automatically updated with the 
  <b></b> When allocating quantities at the batch number level, the quantity you enter is always a quantity of packs. 
 </div>
 
+[Alt Text](images/os_additem_manualallocation_1.png)
+
 <figure>
-<img src="images/os_additem_manualallocation.gif" style="width:100%">
-<figcaption align = "center"><i>Manual allocation at the batch number level.</i></figcaption>
+<img src="images/os_additem_manualallocation_2.png" style="width:100%">
+<figcaption align="center"><i>Atribuição manual de 5 embalagens do lote B_EXP_01</i></figcaption>
 </figure>
 
 ### Issuing when there is not enough stock (Placeholder Line)

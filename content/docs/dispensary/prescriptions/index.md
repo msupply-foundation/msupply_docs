@@ -118,8 +118,9 @@ Enter the patient's first name and last name to enable the `Search` button. This
 
 Click on a patient to select them for the prescription, or choose `Create new patient` to proceed and enter the remaining details for a new patient. Once complete, select Save to add the patient and continue creating the prescription.
 
-<div class="note">
-If you have found a matching patient, but it's not the correct one, you can just press space a few times to see the New Patient button.</div>
+<div class="tip">
+If you have found a matching patient, but it's not the correct one, click the <b>New Patient</b> option which shows at the bottom of the list
+</div>
 
 ### Patient
 
