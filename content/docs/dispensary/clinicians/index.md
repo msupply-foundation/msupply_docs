@@ -33,14 +33,14 @@ You will be presented with a list of clinicians visible to your store.
 
 1. The list of clinicians is divided into 8 columns:
 
-| Column         | Description                  |
-| :------------- | :--------------------------- |
-| **Code**       | The ID of the clinician      |
-| **First name** | First name                   |
-| **Last name**  | Last name                    |
-| **Initials**   | The clinicians initials      |
-| **Mobile**     | The clinicians mobile number |
-| **Gender**     | Gender                       |
+| Column         | Description                   |
+| :------------- | :---------------------------- |
+| **Code**       | The code of the clinician     |
+| **First name** | First name                    |
+| **Last name**  | Last name                     |
+| **Initials**   | The clinician's initials      |
+| **Mobile**     | The clinician's mobile number |
+| **Gender**     | Gender                        |
 
 2. The list can display a fixed number of clinicians per page. On the bottom left corner, you can see how many clinicians are currently displayed on your screen.
 

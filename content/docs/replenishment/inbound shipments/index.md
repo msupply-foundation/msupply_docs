@@ -331,10 +331,12 @@ In the `Quantities` tab, you can update the following fields:
 
 1. **Batch**: Type here the batch number. Leave blank if item is not managed with batch number.
 2. **Expiry**: The expiry date of the batch number. Leave blank is not applicable
-3. **Pack Size**: The quantity of units per pack (by default, pack size is 1)
-4. **Packs Received**: The quantity of packs you are receiving. This can be entered manually or calculated based on Unit Received / Pack Size
-5. **Packs Shipped** The quantity of packs sent by the supplier.
-6. **Units Received** The quantity of units you are receiving. This can be entered manually or calculated based on Packs x Pack Size (`[# Packs] x [Pack Size]`)
+3. **Pack Size**: The number of units per pack (by default, pack size is 1)
+4. **Packs Received**: The number of packs you are receiving. This can be entered manually or calculated based on Unit Received / Pack Size
+5. **Packs Shipped** The number of packs sent by the supplier.
+6. **Units Received** The number of units you are receiving. This can be entered manually or calculated based on Packs x Pack Size (`[# Packs] x [Pack Size]`)
+
+<div class="note">The 'Units' heading above will be replaced with the name of the unit, as defined for this item. For example, if the unit is 'Tablet' then the heading will show 'Tablets Received'</div>
 
 **Additional vaccine columns**
 
@@ -342,8 +344,8 @@ The Quantities tab will have extra columns shown when certain preferences are en
 
 The additional columns available with the `Display vaccine in doses` preference on are:
 
-6. **Doses per unit**: The number of doses per unit.
-7. **Doses Received**: The number of doses you are receiving. This can be entered manually or calculated based on Pack Size x Packs x Doses
+1. **Doses per unit**: The number of doses per unit.
+2. **Doses Received**: The number of doses you are receiving. This can be entered manually or calculated based on Pack Size x Packs x Doses
 
 ![Doses columns](images/is_doses_columns.png)
 
