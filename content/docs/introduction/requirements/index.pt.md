@@ -7,6 +7,7 @@ draft = false
 weight = 30
 sort_by = "weight"
 template = "docs/page.html"
+ai_generated = true
 
 [extra]
 toc = true
@@ -24,31 +25,31 @@ O servidor requer um pouco mais de memória e capacidade de processamento, depen
 ### Recomendações gerais de hardware
 
 - Em ambientes com falhas de energia regulares, é altamente recomendável adquirir máquinas portáteis em vez de desktops. Os portáteis serão quase sempre a melhor solução em termos de custo e eficácia pelas seguintes razões:
-- Em ambientes com um fornecimento de energia elétrica de baixa qualidade, os computadores portáteis serão geralmente mais fiáveis ​​do que os computadores de secretária com proteção UPS. Em tais ambientes, as baterias do UPS morrem normalmente em 2 anos. As baterias dos portáteis têm uma melhor gestão de energia e duram mais
-- Mesmo quando a bateria de um portátil se esgota, a gestão de energia normalmente fará com que a máquina se desligue normalmente
-- Microfone e câmara integrados para fornecimento de suporte
-- Adaptador Wi-Fi integrado para ligação de rede
-- Os computadores portáteis são mais pequenos e mais leves do que os computadores de secretária e, por isso, são mais baratos de enviar
-- Uma impressora ligada não é absolutamente necessária em todas as situações, mas na maioria delas é um requisito. É preferível um jato de tinta ou laser
-- Adquira hardware para o qual exista um bom suporte pós-venda disponível
-- Compre marcas com reputação de qualidade (mesmo que isso implique comprar uma máquina mais antiga/lenta)
+  - Em ambientes com um fornecimento de energia elétrica de baixa qualidade, os computadores portáteis serão geralmente mais fiáveis do que os computadores de secretária com proteção UPS. Em tais ambientes, as baterias do UPS morrem normalmente em 2 anos. As baterias dos portáteis têm uma melhor gestão de energia e duram mais.
+  - Mesmo quando a bateria de um portátil se esgota, a gestão de energia normalmente fará com que a máquina se desligue normalmente.
+  - Microfone e câmara integrados para fornecimento de suporte.
+  - Adaptador Wi-Fi integrado para ligação de rede.
+  - Os computadores portáteis são mais pequenos e mais leves do que os computadores de secretária e, por isso, são mais baratos de enviar.
+- Uma impressora ligada não é absolutamente necessária em todas as situações, mas na maioria delas é um requisito. É preferível um jato de tinta ou laser.
+- Adquira hardware para o qual exista um bom suporte pós-venda disponível.
+- Compre marcas com reputação de qualidade (mesmo que isso implique comprar uma máquina mais antiga/lenta).
 
 ### Requisitos de desktop/portátil
 
 Os requisitos de hardware variam muito dependendo do objetivo da utilização do Open mSupply. Aqui está um guia aproximado:
 
-| Máquina                                    | Especificação técnica mínima                                                                                                                                   | Recommendada                                                                                                                                                                                                                              |
+| Máquina                                    | Especificação técnica mínima                                                                                                                                   | Recomendado                                                                                                                                                                                                                              |
 | :----------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Windows Client machine for use with server | 64 bit processor<br/>Windows 10<br/>4 Gb RAM, 300Mb of disk space                                                                                              | 64 bit processor<br/>Windows 10<br/>8 Gb RAM, 500Mb of disk space                                                                                                                                                                         |
-| Mac Client machine for use with server     | 64 bit processor<br/>macOS Mojave (10.14) – macOS Big Sur (11)(Latest release of major version is required, such as 10.14.6)<br/>4 Gb RAM, 300Mb of disk space | 64 bit processor<br/>Mac OS 10.14.6 or later<br/>8 Gb RAM, 500Mb of disk space                                                                                                                                                            |
-| Windows server                             | 64 bit processor<br/>Windows 10 Pro or Win server 2019<br/>16 Gb RAM<br/>100 GB HDD/SDD volume with daily backups to an external volume                        | 64 bit processor<br/>Windows Server 2019+<br/>32 Gb RAM<br/>4 x HDD/SDD volumes, 3 configured as RAID1 or RAID5 with hot spare<br/>Daily backups to the fourth volume plus daily off-site backups<br/>Attached to a Smart UPS (see below) |
-| Linux client or server                     | 64 bit processor<br/>Ubuntu 20+ or similar<br/>4 Gb RAM<br/>256 Gb storage                                                                                     | 64 bit processor<br/>Ubuntu 20+ or similar<br/>8 Gb RAM<br/>512 Gb storage                                                                                                                                                                |
+| Máquina cliente Windows para usar com servidor | Processador de 64 bits<br/>Windows 10<br/>4 Gb de RAM, 300Mb de espaço em disco                                                                                              | Processador de 64 bits<br/>Windows 10<br/>8 Gb de RAM, 500Mb de espaço em disco                                                                                                                                                                         |
+| Máquina cliente Mac para usar com servidor     | Processador de 64 bits<br/>macOS Mojave (10.14) – macOS Big Sur (11)(É necessária a última versão da versão principal, como 10.14.6)<br/>4 Gb de RAM, 300Mb de espaço em disco | Processador de 64 bits<br/>Mac OS 10.14.6 ou posterior<br/>8 Gb de RAM, 500Mb de espaço em disco                                                                                                                                                            |
+| Servidor Windows                             | Processador de 64 bits<br/>Windows 10 Pro ou Win server 2019<br/>16 Gb de RAM<br/>100 GB de volume HDD/SDD com backups diários para um volume externo                        | Processador de 64 bits<br/>Windows Server 2019+<br/>32 Gb de RAM<br/>4 x volumes HDD/SDD, 3 configurados como RAID1 ou RAID5 com hot spare<br/>Backups diários para o quarto volume mais backups diários fora do local<br/>Ligado a um Smart UPS (ver abaixo) |
+| Cliente ou servidor Linux                     | Processador de 64 bits<br/>Ubuntu 20+ ou similar<br/>4 Gb de RAM<br/>256 Gb de armazenamento                                                                                     | Processador de 64 bits<br/>Ubuntu 20+ ou similar<br/>8 Gb de RAM<br/>512 Gb de armazenamento                                                                                                                                                                |
 
 <div class="note">
 O registo de transações de stock é uma atividade essencial do Open mSupply. A maioria dos dados de transações de ações são numéricos. Um teclado numérico é geralmente útil para máquinas que exigem muita introdução de dados.
 </div>
 
-### Requisitos Mobile / tablet
+### Requisitos Mobile/tablet
 
 Pode utilizar um browser num tablet para se ligar a um servidor Open mSupply, e o único requisito aqui é um tablet suficientemente rápido com um browser como o Chrome ou o Firefox.
 
@@ -56,18 +57,23 @@ Para uma solução autónoma e offline, também está disponível uma aplicaçã
 
 Especificações recomendadas:
 Em suma, o Open mSupply mobile corre em tablets Android (não em telemóveis, pois há muitos dados para serem bem utilizados em ecrãs pequenos).
-A aplicação requer pelo menos Android 10
+A aplicação requer pelo menos Android 10.
 
 |                    | Mínimo            | Recomendado       |
 | :----------------- | :---------------- | :---------------- |
 | Tamanho do Display | 9.8 inches        | 10.1 inches       |
 | Resolução          | 768 x 1024 pixels | 800 x 1200 pixels |
 | Versão Android     | 10                | 14                |
-| Processor          | 64 bit            | 64 bit            |
+| Processador        | 64 bits           | 64 bits           |
 | Memória RAM        | 2 Gb              | 4 Gb              |
 | Armazenamento      | 32 Gb             | 64 Gb             |
+| Chrome Browser     | 138.0.7204.63     | Latest Version    |
 
-Para fornecer suporte, o dispositivo também deve ser compatível com o software MDM (Mobile Device Management) e suportar os serviços da Google. Contacte a [mSupply Foundation](https://msupply.foundation/#contact) para mais detalhes.
+<div class="note">
+Para fornecer suporte, o dispositivo também deve ser compatível com o software MDM (Mobile Device Management) e suportar os serviços da Google.<br><br>
+Recomendamos vivamente tablets <strong>Samsung</strong> mais recentes, pois é o que as nossas equipas de desenvolvimento e testes utilizam.<br><br>
+Contacte a <a href="https://msupply.foundation/#contact">mSupply Foundation</a> para requisitos específicos e detalhes de compatibilidade antes de comprar grandes quantidades de dispositivos.
+</div>
 
 Contacte-nos para testes e/ou aconselhamento antes de fazer uma grande compra de hardware.
 
@@ -78,9 +84,9 @@ Um UPS ([Fonte de Alimentação Ininterrupta](https://en.wikipedia.org/wiki/Unin
 Na nossa experiência, a principal causa de falha de hardware de computador é a corrupção de dados devido a encerramentos inadequados. Isto acontece quando a energia do computador é cortada instantaneamente, sem qualquer notificação para que se desligue normalmente. Se a máquina estiver "protegida" por um UPS normal, isto ainda poderá acontecer quando a bateria estiver descarregada. Mesmo que a máquina esteja teoricamente protegida por um UPS "inteligente", há uma série de circunstâncias em que esta proteção do UPS falha:
 
 - A ligação do cabo e o software podem falhar.
-- O cabo fica desligado
-- O software não está configurado corretamente
-- O software não arranca
+  - O cabo fica desligado
+  - O software não está configurado corretamente
+  - O software não arranca
 - As baterias do UPS degradam-se (normalmente dentro de 2 anos de instalação em ambientes com cortes regulares de energia) e há muito pouca capacidade para funcionar o suficiente para que o computador se desligue normalmente após receber a notificação do UPS
 
 Os portáteis tendem a ser muito mais resistentes a falhas de energia:
@@ -89,19 +95,19 @@ Os portáteis tendem a ser muito mais resistentes a falhas de energia:
 - As baterias internas duram muito mais tempo que as baterias UPS
 - Mesmo que a bateria interna do portátil se degrade, a função "inteligente" parece funcionar de forma muito mais fiável do que um UPS autónomo a comunicar com um computador "torre".
 
-Aqui estão algumas vantagens adicionais dos portáteis em relação a: máquinas de mesa:
+Aqui estão algumas vantagens adicionais dos portáteis em relação às máquinas de mesa:
 
 - Menor custo de frete:
-- Para enviar a máquina para o local
-- Enviar peças de substituição para reparação no local
-- Para recuperar a máquina do local para quaisquer reparações que não possam ser realizadas no local
+  - Para enviar a máquina para o local
+  - Enviar peças de substituição para reparação no local
+  - Para recuperar a máquina do local para quaisquer reparações que não possam ser realizadas no local
 - É padrão ter características como Wi-Fi, Bluetooth e câmara incluídas por defeito e isso pode não ser o caso com os desktops
 
 Uma preocupação com os portáteis é a segurança. É mais fácil roubar um portátil de um escritório do que roubar um computador de secretária. Por este motivo, os portáteis são normalmente configurados com uma funcionalidade de bloqueio físico, como [slot para bloqueio Kensington](https://en.wikipedia.org/wiki/Kensington_Security_Slot).
 
 Uma vez que o Open mSupply lida com muitos números (quantidades de stock), <strong>é altamente recomendável ter um teclado com teclado numérico</strong>. Os computadores portáteis mais pequenos (ecrã de 14" ou menos) não terão isto. Os computadores portáteis mais pequenos têm normalmente um ecrã impraticavelmente pequeno. Por conseguinte, é recomendado adquirir um computador portátil com um teclado que inclua um teclado numérico - o que implicará necessariamente um ecrã maior.
 
-Os acessórios de produtividade úteis para portáteis incluem
+Os acessórios de produtividade úteis para portáteis incluem:
 
 - Rato externo (não sem fios - a substituição da bateria é dispendiosa e problemática para o ambiente)
 - Teclado externo (não sem fios - a substituição da bateria é dispendiosa e problemática para o ambiente)
@@ -168,6 +174,8 @@ A tabela abaixo mostra quais as versões do mSupply e do Open mSupply Central de
 | 2.1.00+             | 7.14.04+        | 2.1.00+              |
 | 2.2.00+             | 7.14.04+        | 2.2.00+              |
 | 2.3.00+             | 7.17.01+        | 2.3.00+              |
+| 2.7.00+             | 8.01.03+        | 2.7.00+              |
+| 2.8.00+             | 8.02.00+        | 2.7.00+              |
 
 Caso tente se conectar com um servidor incompatível, verás uma mensagem de erro como a seguinte:
 

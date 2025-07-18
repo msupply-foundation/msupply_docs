@@ -66,8 +66,13 @@ The application requires at least Android 10
 | Processor       | 64 bit            | 64 bit            |
 | RAM             | 2 Gb              | 4 Gb              |
 | Storage         | 32 Gb             | 64 Gb             |
+| Chrome Browser  | 138.0.7204.63     | Latest Version    |
 
-In order to provide support, the device must also be compatible with MDM (Mobile Device Management) software and support google services. Please contact [mSupply Foundation](https://msupply.foundation/#contact) for details.
+<div class="note">
+For technical support and device management, your Android device must be compatible with MDM (Mobile Device Management) software and support Google services.<br><br>
+We strongly suggest newer <strong>Samsung</strong> tablets, as this is what our development and testing teams use.<br><br>
+Please contact <a href="https://msupply.foundation/#contact">mSupply Foundation</a> for specific requirements and compatibility details before purchasing large quantities of devices.
+</div>
 
 Please contact us for testing and/or advice before making a large hardware purchase.
 

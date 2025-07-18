@@ -7,6 +7,7 @@ draft = false
 weight = 30
 sort_by = "weight"
 template = "docs/page.html"
+ai_generated = true
 
 [extra]
 toc = true
@@ -15,7 +16,9 @@ top = true
 
 ## Configuration requise pour Open mSupply
 
-Open mSupply fonctionne sur un certain nombre de plateformes et a des besoins matériels très simples pour une installation de base. Le client peut être un navigateur web, une tablette Android ou un PC sous Windows, linux ou macOS. Le serveur nécessite un peu plus de mémoire et de capacité de traitement, selon le nombre d'utilisateurs.
+Open mSupply fonctionne sur un certain nombre de plateformes et a des besoins matériels très simples pour une installation de base.
+Le client peut être un navigateur web, une tablette Android ou un PC sous Windows, Linux ou macOS.
+Le serveur nécessite un peu plus de mémoire et de capacité de traitement, selon le nombre d'utilisateurs.
 
 ## Configuration matérielle requise
 
@@ -31,16 +34,16 @@ Open mSupply fonctionne sur un certain nombre de plateformes et a des besoins ma
 - Achetez du matériel pour lequel un bon service après-vente est disponible.
 - Achetez des marques réputées pour leur qualité (même si cela signifie acheter une machine plus lente/ancienne).
 
-### Configuration requise pour ordinateurs (portables ou de bureaux)
+### Configuration requise pour desktop/portable
 
 La configuration matérielle requise varie considérablement en fonction de l'utilisation prévue d'Open mSupply. Voici un guide approximatif :
 
-| Ordinateur                             | Minimum Technique                                                                                                                                                                                        | Recommandations                                                                                                                                                                                                                                         |
-| :------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Client Windows à utiliser avec serveur | Processeur 64 bit <br/>Windows 10<br/>4 Gb RAM, 300Mb d'espace disque                                                                                                                                    | Processeur 64 bit<br/>Windows 10<br/>8 Gb RAM, 500Mb d'espace disque                                                                                                                                                                                    |
-| Client Mac à utiliser avec serveur     | Processeur 64 bit <br/>macOS Mojave (10.14) – macOS Big Sur (11)<br/><i/>(La dernière version de chaque mise à jour importante est nécessaire, par ex, 10.14.6)</i><br/> 4 Gb RAM, 300Mb d'espace disque | Processeur 64 bit<br/>Mac OS 10.14.6 ou version plus récente <br/>8 Gb RAM, 500Mb d'espace disque                                                                                                                                                       |
-| Serveur Windows                        | Processeur 64 bit<br/>Windows 10 Pro ou serveur Windows 2019<br/>8 Gb RAM<br/> Volume 50 GB HDD/SDD avec des backups journaliers vers un volume externe                                                  | Processeur 64 bit<br/>Serveur Windows 2019+<br/>8 Gb RAM<br/>4 volumes HDD/SDD, 3 configurés comme RAID1 ou RAID5 avec hot spare<br/>Backups journaliers vers le quatrième volume + backups journaliers hors site<br/>Attaché à un onduleur intelligent |
-| Client ou serveur Linux                | Processeur 64 bit<br/>Ubuntu 20+ ou similaire<br/>4 Gb RAM<br/>256 Gb de stockage                                                                                                                        | Processeur 64 bit<br/>Ubuntu 20+ ou similaire<br/>8 Gb RAM<br/>256 Gb de stockage                                                                                                                                                                       |
+| Machine                                    | Minimum Technique                                                                                                                                              | Recommandé                                                                                                                                                                                                                               |
+| :----------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Client Windows à utiliser avec serveur | Processeur 64 bit<br/>Windows 10<br/>4 Gb RAM, 300Mb d'espace disque                                                                                              | Processeur 64 bit<br/>Windows 10<br/>8 Gb RAM, 500Mb d'espace disque                                                                                                                                                                         |
+| Client Mac à utiliser avec serveur     | Processeur 64 bit<br/>macOS Mojave (10.14) – macOS Big Sur (11)<br/>(La dernière version de chaque mise à jour importante est nécessaire, par ex, 10.14.6)<br/>4 Gb RAM, 300Mb d'espace disque | Processeur 64 bit<br/>Mac OS 10.14.6 ou version plus récente<br/>8 Gb RAM, 500Mb d'espace disque                                                                                                                                                            |
+| Serveur Windows                             | Processeur 64 bit<br/>Windows 10 Pro ou serveur Windows 2019<br/>16 Gb RAM<br/>100 GB volume HDD/SDD avec des backups journaliers vers un volume externe                        | Processeur 64 bit<br/>Serveur Windows 2019+<br/>32 Gb RAM<br/>4 volumes HDD/SDD, 3 configurés comme RAID1 ou RAID5 avec hot spare<br/>Backups journaliers vers le quatrième volume + backups journaliers hors site<br/>Attaché à un onduleur intelligent |
+| Client ou serveur Linux                     | Processeur 64 bit<br/>Ubuntu 20+ ou similaire<br/>4 Gb RAM<br/>256 Gb de stockage                                                                                     | Processeur 64 bit<br/>Ubuntu 20+ ou similaire<br/>8 Gb RAM<br/>512 Gb de stockage                                                                                                                                                                |
 
 <div class="note">
 L'enregistrement des transactions de stocks est une activité centrale d'Open mSupply. La plupart des données sur les transactions de stocks sont numériques. Un clavier numérique est souvent utile pour les machines sur lesquelles on saisit beaucoup de données.
@@ -50,7 +53,7 @@ L'enregistrement des transactions de stocks est une activité centrale d'Open mS
 
 Il est possible d'utiliser un navigateur web sur une tablette pour se connecter à un serveur Open mSupply et la seule configuration requise dans ce cas est une tablette suffisamment rapide ayant un navigateur tel que chrome ou firefox.
 
-Pour la solution autonome, hors ligne, une application mobile et aussi disponbile pour les appareils android.
+Pour la solution autonome, hors ligne, une application mobile est aussi disponible pour les appareils android.
 
 Spécifications recommandées:
 En résumé, Open mSupply mobile fonctionne sur tablette Android (pas sur les téléphones car les écrans de téléphone sont trop petits pour une utilisation efficace avec une grande quantité de données).
@@ -64,10 +67,15 @@ L'application nécessite au moins Android 10.
 | Processeur      | 64 bit            | 64 bit            |
 | RAM             | 2 Gb              | 4 Gb              |
 | Stockage        | 32 Gb             | 64 Gb             |
+| Chrome Browser  | 138.0.7204.63     | Latest Version    |
 
-Pour que nous puissions fournir une assistance, l'appareil doit également être compatible avec le logiciel de gestion des appareils mobiles (MDM) et prendre en charge les services Google. Veuillez contacter [la Fondation mSupply](https://msupply.foundation/#contact) pour plus de détails.
+<div class="note">
+Pour que nous puissions fournir une assistance, l'appareil doit également être compatible avec le logiciel de gestion des appareils mobiles (MDM) et prendre en charge les services Google.<br><br>
+Nous recommandons fortement les tablettes <strong>Samsung</strong> plus récentes, car c'est ce que nos équipes de développement et de test utilisent.<br><br>
+Veuillez contacter <a href="https://msupply.foundation/#contact">la Fondation mSupply</a> pour des exigences spécifiques et des détails de compatibilité avant d'acheter de grandes quantités d'appareils.
+</div>
 
-Recommandation avant achat: N'hésitez pas à nous contacter pour des tests et/ou des conseils avant de faire un achat important de matériel.
+Veuillez nous contacter pour des tests et/ou des conseils avant de faire un achat important de matériel.
 
 ### Onduleur intelligent (UPS)
 
@@ -97,7 +105,7 @@ Voici quelques avantages supplémentaires des ordinateurs portable sur les ordin
 
 Un des sujets d'inquiétude autour des ordinateurs portables reste la sécurité. Il est plus facile de voler un ordinateur portable dans un bureau que de voler un ordinateur type tour. C'est pour cette raison qu'une fonctionnalité antivol telle que [l'encoche de sécurité Kensington](https://fr.wikipedia.org/wiki/Encoche_de_s%C3%A9curit%C3%A9_Kensington) est généralement installée par défaut.
 
-Étant donné qu'Open mSupply utilise beaucoup de chiffres (quantités de stock), <b/>il est fortement recommandé d'avoir un clavier avec un pavé numérique</b>. Les ordinateurs portables plus petits (écran de 14 pouces ou moins) n'en auront pas. Ces derniers ont généralement un écran trop petit et peu pratique. Il est donc recommandé de se procurer un ordinateur portable avec un clavier comprenant un pavé numérique, ce qui permettra d'avoir un écran suffisamment grand.
+Étant donné qu'Open mSupply utilise beaucoup de chiffres (quantités de stock), <strong>il est fortement recommandé d'avoir un clavier avec un pavé numérique</strong>. Les ordinateurs portables plus petits (écran de 14 pouces ou moins) n'en auront pas. Ces derniers ont généralement un écran trop petit et peu pratique. Il est donc recommandé de se procurer un ordinateur portable avec un clavier comprenant un pavé numérique, ce qui permettra d'avoir un écran suffisamment grand.
 
 Voici quelques accessoires de productivité utiles pour les ordinateurs portables :
 
@@ -144,7 +152,7 @@ La version minimum de PostgreSQL est la version 12.
 
 ## Serveur Central
 
-Une installation de mSupply est actuellement requise pour exécuter Open mSupply (elle permet de gérer un certain nombre d'aspects centralisés du système).
+Une installation de mSupply est actuellement requise pour exécuter Open mSupply. Ceci est utilisé pour gérer un certain nombre d'aspects centralisés du système.
 
 A partir de v2.0.00, le serveur central Open mSupply est aussi requis pour une synchronisation réussie. Voir en anglais [Open mSupply central server](/docs/getting_started/central-server/) et [Open mSupply central server site configuration in mSupply](https://docs.msupply.org.nz/synchronisation:sync_sites#open_msupply_central_server_settings) pour plus de détails.
 
@@ -164,6 +172,9 @@ Le tableau ci-dessous indique la version de mSupply dont vous aurez besoin pour 
 | 2.0.00+             | 7.14.04+        | 2.0.00+              |
 | 2.1.00+             | 7.14.04+        | 2.1.00+              |
 | 2.2.00+             | 7.14.04+        | 2.2.00+              |
+| 2.3.00+             | 7.17.01+        | 2.3.00+              |
+| 2.7.00+             | 8.01.03+        | 2.7.00+              |
+| 2.8.00+             | 8.02.00+        | 2.7.00+              |
 
 Si vous essayez de vous connecter a un serveur incompatible, vous obtiendrez le message suivant:
 
