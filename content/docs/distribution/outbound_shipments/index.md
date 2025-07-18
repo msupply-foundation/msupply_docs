@@ -362,7 +362,9 @@ By default, you are invited to issue a quantity of **units**, regardless of the 
 
 When entering a number in the `Issue` field, the system automatically chooses the batch number(s) with the closest expiry date (First to Expire, First Out or FEFO logic).
 
-<div class="note">If you are issuing a vaccine item and the <a href="/docs/manage/facilities/#store-preferences">Sort available batches by VVM status then expiry</a> preference is enabled, then the stock lines are allocated in numerical order of the VVM status levels (level 1 lines are issued first). If there is more than one line with the same VVM status level, then of those lines the first line to expiry is selected (normal FEFO rules).</div>
+<div class="note">There is a special case when issuing a vaccine item and the <a href="/docs/manage/facilities/#store-preferences">Sort available batches by VVM status then expiry</a> preference is enabled.<br/><br/>
+
+In this case the stock lines are allocated in numerical order of the VVM status 'Level' property (this is separate to the VVM stage, see the <a href="https://docs.msupply.org.nz/cold_chain_equipment:configure?s[]=vvm&s[]=status#priority_of_vvm_status">documentation</a> for details). If there is more than one line with the same VVM status level, then of those lines the first line to expiry is selected (normal FEFO rules).</div>
 
 <div class="imagetitle">
 In the example below, we are issuing 11 units of the item. All 11 units will be taken from the same batch (third row). The first two batches were not selected because they have expired. There is a check mark in the left hand column which indicates which rows will be available for auto allocation.

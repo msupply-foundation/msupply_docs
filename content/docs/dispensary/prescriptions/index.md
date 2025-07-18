@@ -326,7 +326,9 @@ If you're recording [prescribed quantities](https://docs.msupply.org.nz/other_st
 
 The system will then automatically allocate the stock for the prescription, with the stock expiring first being preferred.
 
-<div class="note">If you are issuing a vaccine item and the <a href="/docs/manage/facilities/#store-preferences">Sort available batches by VVM status then expiry</a> preference is enabled, then the stock lines are allocated in numerical order of the VVM status levels (level 1 lines are issued first). If there is more than one line with the same VVM status level, then of those lines the first line to expiry is selected (normal FEFO rules).</div>
+<div class="note">There is a special case when issuing a vaccine item and the <a href="/docs/manage/facilities/#store-preferences">Sort available batches by VVM status then expiry</a> preference is enabled.<br/><br/>
+
+In this case the stock lines are allocated in numerical order of the VVM status 'Level' property (this is separate to the VVM stage, see the <a href="https://docs.msupply.org.nz/cold_chain_equipment:configure?s[]=vvm&s[]=status#priority_of_vvm_status">documentation</a> for details). If there is more than one line with the same VVM status level, then of those lines the first line to expiry is selected (normal FEFO rules).</div>
 
 #### List of available batches:
 
