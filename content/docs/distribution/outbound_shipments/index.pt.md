@@ -96,7 +96,7 @@ You can delete a shipment from the Outbound Shipment list.
 You can only delete Outbound Shipments if they have not been <code>SHIPPED</code>.
 </div>
 
-![Outbound list: delete](images/Delete-outbound-shipment.png)
+![Outbound list: delete](images/delete-outbound-shipment.png)
 
 ## Creating an Outbound Shipment
 
