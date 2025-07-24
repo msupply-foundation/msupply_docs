@@ -217,27 +217,23 @@ In this section, you can see or edit a transport reference number (eg. a booking
 
 The status sequence is located at the bottom left corner of the Inbound Shipment screen.
 
-Passed statuses are hightlighted in blue, next statuses appear in grey.
+Passed statuses are highlighted in blue, next statuses appear in grey.
 
 <figure>
-    <img src="images/is_statussequence2.png" alt="Inbound Shipment Status Sequence (New)" style="width:100%">
-    <figcaption align="center">Status Sequence: current status is <code>New</code>.</figcaption>
+    <img src="images/is_statussequence1.png" alt="Inbound Shipment Status Sequence (New)" style="width:100%">
+    <figcaption align="center">Status Sequence: current status is <code>Received</code>.</figcaption>
 </figure>
 
-<figure>
-    <img src="images/is_statussequence3.png" alt="Inbound Shipment Status Sequence (Shipped)" style="width:100%">
-    <figcaption align="center">Status Sequence: current status is </i><code>Shipped</code>.</figcaption>
-</figure>
+There are 6 status for the Inbound Shipment:
 
-There are 5 status for the Inbound Shipment:
-
-| Status        | Description                                                                                                        |
-| :------------ | ------------------------------------------------------------------------------------------------------------------ |
-| **New**       | This is the first status when you create a new manual Inbound Shipment                                             |
-| **Picked**    | Supplier has confirmed that shipment is picked and ready to ship (applies only to automatically created shipments) |
-| **Shipped**   | Shipment has been shipped and goods are now in transit (applies only to automatically created shipments)           |
-| **Delivered** | When you confirm that the shipment has been delivered. Goods are now part of your inventory.                       |
-| **Verified**  | When you have verified the Inbound Shipment                                                                        |
+| Status        | Description                                                                                                        | mSupply | Editable |
+| :------------ | ------------------------------------------------------------------------------------------------------------------ | :-----: | :------: |
+| **New**       | This is the first status when you create a new manual Inbound Shipment                                             |   nw    |          |
+| **Picked**    | Supplier has confirmed that shipment is picked and ready to ship (applies only to automatically created shipments) |   nw    |    ✓     |
+| **Shipped**   | Shipment has been shipped and goods are now in transit (applies only to automatically created shipments)           |   nw    |          |
+| **Delivered** | When you confirm that the shipment has been delivered.                                                             |   sg    |    ✓     |
+| **Received**  | When you confirm that the shipment has been validated. Goods are now part of your inventory.                       |   cn    |    ✓     |
+| **Verified**  | When you have verified the Inbound Shipment                                                                        |   fn    |          |
 
 You probably noticed that two of the status values only apply to automatically created shipments. These are created by the system when another store in the system creates an Outbound Shipment to deliver stock to your store. If this is the case you'll see a message near the top of the page:
 
@@ -254,23 +250,23 @@ If, however, you've created an Inbound Shipment manually, then the following mes
 and you'll see that the status bar has only the status values which apply to this type of shipment.
 
 <figure align="center">
-    <img src="images/is_statussequence4.png" alt="Inbound Shipment Status Sequence (New & manual)" style="width:60%">
+    <img src="images/is_statussequence2.png" alt="Inbound Shipment Status Sequence (New & manual)" style="width:60%">
     <figcaption align="center">Status Sequence: current status is </i><code>New</code>.</figcaption>
 </figure>
 
 If you hover over the status sequence, a shipment history window appears. You can see the date when a shipment was updated from one status to another.
 
 <div class="imagetitle">
-This manual shipment has been created on 03/03/2022
+This manual shipment has been created on 24/04/2025
 </div>
 
-![Inbound status: hover 2](images/is_statussequence_hover2.png)
+![Inbound status: hover 2](images/is_statussequence_hover1.png)
 
 <div class="imagetitle">
-This automatic shipment has been created on 03/03/2022, allocated on 04/03/2022 and picked on 07/03/2022
+This automatic shipment has been created on 10/04/2025, picked on 11/04/2025 and shipped on 12/04/2025
 </div>
 
-![Inbound status: hover](images/is_statussequence_hover.png)
+![Inbound status: hover](images/is_statussequence_hover2.png)
 
 ### Hold checkbox
 

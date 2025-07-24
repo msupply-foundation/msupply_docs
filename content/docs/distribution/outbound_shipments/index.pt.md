@@ -226,7 +226,7 @@ In this section, you can see or edit a transport reference number (eg. a booking
 
 The status sequence is located at the bottom left corner of the Outbound Shipment screen.
 
-Passed statuses are hightlighted in blue, next statuses appear in grey.
+Passed statuses are highlighted in blue, next statuses appear in grey.
 
 <figure>
 <img src="images/os_statussequence2.png" style="width:100%">
@@ -240,14 +240,14 @@ Passed statuses are hightlighted in blue, next statuses appear in grey.
 
 There are 6 status for the Outbound Shipment:
 
-| Status        | Description                                                                                                     |
-| :------------ | --------------------------------------------------------------------------------------------------------------- |
-| **New**       | This is the first status when you create a shipment                                                             |
-| **Allocated** | Allocation is confirmed. Goods are no longer available for other shipments but are still part of your inventory |
-| **Picked**    | Shipment is picked and is now ready to ship. Goods are no longer part of your inventory                         |
-| **Shipped**   | Shipment has been shipped.                                                                                      |
-| **Delivered** | Your customer has received the shipment. Goods are now part of their inventory                                  |
-| **Verified**  | Your customer has verified the quantity of the shipment.                                                        |
+| Status        | Description                                                                                                     | mSupply | Editable |
+| :------------ | --------------------------------------------------------------------------------------------------------------- | :-----: | :------: |
+| **New**       | This is the first status when you create a shipment                                                             |   sg    |    ✓     |
+| **Allocated** | Allocation is confirmed. Goods are no longer available for other shipments but are still part of your inventory |   sg    |    ✓     |
+| **Picked**    | Shipment is picked and is now ready to ship. Goods are no longer part of your inventory                         |   cn    |    ✓     |
+| **Shipped**   | Shipment has been shipped.                                                                                      |   fn    |          |
+| **Delivered** | Your customer has received the shipment. Goods are now part of their inventory                                  |   fn    |          |
+| **Verified**  | Your customer has verified the quantity of the shipment.                                                        |   fn    |          |
 
 If you hover over the status sequence, a shipment history window appears. You can see the date when a shipment was updated from one status to another.
 

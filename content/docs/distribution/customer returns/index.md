@@ -175,7 +175,7 @@ If your Customer Return was created automatically, via a Supplier Return from an
 
 The status sequence is located at the bottom left corner of the Customer Return screen.
 
-Passed statuses are hightlighted in blue, next statuses appear in grey.
+Passed statuses are highlighted in blue, next statuses appear in grey.
 
 There are 5 status for the Customer Return:
 

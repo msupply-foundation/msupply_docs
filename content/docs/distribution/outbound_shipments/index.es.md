@@ -207,14 +207,14 @@ Los estados pasados se resaltan en azul, los próximos estados aparecen en gris.
 
 There are 6 status for the Outbound Shipment:
 
-| Estado         | Descripción                                                                                                                     |
-| :------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| **Nuevo**      | Este es el primer estado cuando se crea un envío.                                                                               |
-| **Asignado**   | La asignación está confirmada. Los bienes ya no están disponibles para otros envíos pero todavía forman parte de su inventario. |
-| **Recogido**   | El envío está recogido y listo para ser enviado. Los bienes todavía forman parte de su inventario.                              |
-| **Enviado**    | El envío ha sido enviado y los bienes ya no forman parte de su inventario.                                                      |
-| **Entregado**  | Su cliente ha recibido el envío.                                                                                                |
-| **Verificado** | Su cliente ha verificado la cantidad del envío. Los bienes ahora forman parte de su inventario.                                 |
+| Estado         | Descripción                                                                                                                     | mSupply | Editable |
+| :------------- | ------------------------------------------------------------------------------------------------------------------------------- | :-----: | :------: |
+| **Nuevo**      | Este es el primer estado cuando se crea un envío.                                                                               |   sg    |    ✓     |
+| **Asignado**   | La asignación está confirmada. Los bienes ya no están disponibles para otros envíos pero todavía forman parte de su inventario. |   sg    |    ✓     |
+| **Recogido**   | El envío está recogido y listo para ser enviado. Los bienes todavía forman parte de su inventario.                              |   cn    |    ✓     |
+| **Enviado**    | El envío ha sido enviado y los bienes ya no forman parte de su inventario.                                                      |   fn    |          |
+| **Entregado**  | Su cliente ha recibido el envío.                                                                                                |   fn    |          |
+| **Verificado** | Su cliente ha verificado la cantidad del envío. Los bienes ahora forman parte de su inventario.                                 |   fn    |          |
 
 Si pasas el cursor sobre la secuencia de estados, aparecerá una ventana de historial de envío. Podrás ver la fecha en que un envío se actualizó de un estado a otro.
 
