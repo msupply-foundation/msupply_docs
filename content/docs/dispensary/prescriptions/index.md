@@ -111,13 +111,13 @@ You can only delete Prescriptions with a status <code>NEW</code> or <code>PICKED
 
 #### Select a Patient
 
-In the `New Prescription` window, you will be presented with a form to search for available patients. The patients list will load when you start typing - you can enter as much of the patient's name or code as you need.
+In the `New Prescription` window, you will be presented with a form to search for available patients. The patients list will load when you start typing - once you see the correct patient on your screen you can select it (you do not need the enter the full name or code)
 
 If no match is found a `Create new patient` button will appear. Clicking this will open a new window to create a new patient, before returning you to the Prescription window.
 ![Create new patient pop up](images-en/prescriptions_new_prescription_no_match.png)
 
 <div class="note">
-If you have found a matching patient, but it's not the correct one, you can just press space a few times, to see the New Patient button.
+If you have found a matching patient, but it's not the one you are looking for, you can just press space a few times, to make the New Patient button appear.
 </div>
 
 #### Set other Prescription Fields
@@ -192,21 +192,22 @@ In the **Patient Details** section, you can:
 In the **Actions** section, you can:
 
 - Delete or Cancel the Prescription
+- Copy the Prescription
 
-### Prescription Status Sequence
+### Prescription Status Tracking
 
-The status sequence is located at the bottom left corner of the Prescription screen.
+The status tracking is located at the bottom left corner of the Prescription screen.
 
 Passed statuses are highlighted in blue, next statuses appear in grey.
 
 <figure>
 <center><img src="images-en/prescription_statussequence1.png" style="width:40%"/></center>
-<figcaption align="center">Status Sequence: current status is <code>NEW</code>.</figcaption>
+<figcaption align="center">Status Tracking: current status is <code>NEW</code>.</figcaption>
 </figure>
 
 <figure>
 <center><img src="images-en/prescription_statussequence2.png" alt="Trulli" style="width:40%"/></center>
-<figcaption align="center">Status Sequence: current status is </i><code>VERIFIED</code>.</figcaption>
+<figcaption align="center">Status Tracking: current status is </i><code>VERIFIED</code>.</figcaption>
 </figure>
 
 There are 3 status for a Prescription:
@@ -217,7 +218,7 @@ There are 3 status for a Prescription:
 | **Picked**   | Prescription is picked and is now ready to give to the patient. Goods are still part of your inventory and prescription can still be edited. |
 | **Verified** | The patient has received their medicine.                                                                                                     |
 
-If you hover over the status sequence, a prescription history window appears. You can see the date when a prescription was updated from one status to another.
+If you hover over the status tracking, a prescription history window appears. You can see the date when a prescription was updated from one status to another.
 
 <div class="imagetitle">
 This prescription has been created, picked and verified on 18/08/2023
@@ -233,7 +234,7 @@ Tap on the `Close` button to quit the Prescription view and return to the Prescr
 
 #### Confirm Button
 
-The `Confirm` button updates the status of the prescription. The status which you can confirm depends on the current status of the prescription and follows the sequence shown below.
+The `Confirm` button updates the status of the prescription. The status which you can confirm depends on the current status of the prescription and follows the order shown below.
 
 When managing a Prescription, you can only confirm the Picked and Verified statuses. Once you have added an item to a prescription, the status will change to `Picked` automatically.
 
@@ -276,6 +277,7 @@ This shows the item name and code.
 
 #### Quantity Section
 
+This section shows the following:
 - the available batches for this item
 - the item's unit (eg. _Tablets_)
 
@@ -314,7 +316,7 @@ In the below example, we are issuing 1000 units of the item. All 1000 units will
 ![Auto allocate 1000 units from single batch (Collapsed View)](images-en/prescription_additem_1_collapsed.png)
 
 <div class="imagetitle">
-In this other example, we are issuing 11 units. System selects two batches with different pack sizes. 
+In this other example, we are issuing 11 units. The system selects two batches with different pack sizes. 
 </div>
 
 ![Allocated Item 2 Batches selected](images-en/prescription_additem_issueunitstwobatches.png)
