@@ -15,9 +15,9 @@ top = true
 
 ## Introduction
 
-There's an old computer science joke: "There are 2 things that are hard in computer science: cache invalidation, off-by-1 errors, and naming things"
+There's an old computer science joke: "There are 3 things that are hard in computer science: cache invalidation, off-by-1 errors, and naming things"
 
-Putting aside the cheesy off-by-1 part of the joke, the "naming things" part is very true. 
+Putting aside the cheesy part of the joke, the "naming things" part is very true. 
 We could spend all our time arguing about naming things, and never deliver any useful system at all!
 
 Our approach is to try and combine industry standard naming, what is customary in health supply chains in different countries, all with a nod to mSupply's historical names for things. 
@@ -47,4 +47,4 @@ In **SAP**, this would be called a "Plant" or "Storage Location" depending on th
 
 In **Microsoft Dynamics**, this concept is called a "Site" or "Warehouse" depending on which Dynamics product you're using (Dynamics 365 Business Central vs. Dynamics 365 Supply Chain Management).
 
-[^1]: SKU = Stock Keeping Unit - a particular brand, pack size (and maybe packging variation) of an item.
+[^1]: SKU = Stock Keeping Unit - a particular brand, pack size (and maybe packaging variation) of an item.
