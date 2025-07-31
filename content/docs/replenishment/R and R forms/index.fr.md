@@ -34,11 +34,11 @@ Assurez-vous que les seuils corrects pour les ruptures de stock et les excédent
 
 Allez dans `Approvisionnement` > `Formulaires R&R` pour voir la liste des formulaires R&R.
 
-![R&R Navigation](images-en/goto_rnr.png)
+![R&R Navigation](images/goto_rnr.png)
 
 Vous pouvez cliquer sur les en-têtes de colonne pour trier la liste par cette colonne.
 
-![R&R List](images-en/rnr_list.png)
+![R&R List](images/rnr_list.png)
 
 En cliquant sur un formulaire R&R, vous accéderez à la page de détails.
 
@@ -46,35 +46,35 @@ En cliquant sur un formulaire R&R, vous accéderez à la page de détails.
 
 Pour ajouter un formulaire R&R, cliquez sur le bouton « Ajouter un formulaire » dans le coin supérieur droit de l'écran.
 
-![Add Button](images-en/rnr_add_button.png)
+![Add Button](images/rnr_add_button.png)
 
 Une fenêtre s'ouvrira pour vous permettre de sélectionner le programme, le calendrier, la période et le fournisseur pour le formulaire R&R.
 
 Notre dernier formulaire R&R date d'avril 2024 et concerne le programme Tb. Les mêmes programme, calendrier et fournisseur sont sélectionnés, et la période suivante est choisie automatiquement.
 
-![Add R&R: empty](images-en/add_rnr_empty.png)
+![Add R&R: empty](images/add_rnr_empty.png)
 
 La première fois que vous créez un formulaire R&R, vous devrez sélectionner chacune de ces options. Après cela, les entrées seront pré-remplies avec les données de la période précédente.
 
 <div class="imagetitle">Notre formulaire R&R le plus récent date d'avril 2024, pour le programme de la Tuberculose (Tb). Le même programme, le même calendrier et le même fournisseur sont sélectionnés, et la période suivante est choisie automatiquement.</div>
 
-![Add R&R: pre-filled](images-en/add_rnr.png)
+![Add R&R: pre-filled](images/add_rnr.png)
 
 La première fois que vous créez un formulaire R&R, vous pouvez sélectionner n'importe quelle période disponible. Après cela, vous ne pourrez sélectionner que la période suivante de la séquence.
 
 <div class="imagetitle">Le formulaire R&R précédent concernait la période du 24 avril</div>
 
-![Add R&R: pre-selected period](images-en/add_rnr_selected_period.png)
+![Add R&R: pre-selected period](images/add_rnr_selected_period.png)
 
 Notez que vous ne pouvez pas créer le formulaire R&R suivant tant que le précédent n'est pas finalisé :
 
-![Warning: need to finalise previous](images-en/add_rnr_error_finalise.png)
+![Warning: need to finalise previous](images/add_rnr_error_finalise.png)
 
 Une fois que vous êtes satisfait de votre saisie, cliquez sur `OK` pour générer le formulaire. Vous serez redirigés vers la page de détails du formulaire R&R.
 
 ## Vue Détaillée
 
-![R&R Detail view](images-en/rnr_detail.png)
+![R&R Detail view](images/rnr_detail.png)
 
 Le formulaire R&R contient les colonnes suivantes. Les colonnes calculées/non modifiables sont grisées. Les colonnes marquées d'un astérisque (\*) ci-dessous sont modifiables.
 
@@ -109,13 +109,13 @@ Vous pouvez modifier les données d'utilisation de chaque article dans le formul
 
 Une fois que vous êtes satisfaits des informations relatives à un article, cochez la case « Confirmé » pour enregistrer les données.
 
-![Edit line](images-en/rnr_edit_line.gif)
+![Edit line](images/rnr_edit_line.gif)
 
 ### Imprimer et exporter
 
 Vous pouvez imprimer ou exporter le formulaire R&R en cliquant sur les boutons `Imprimer` ou `Exporter` dans le coin supérieur droit de l'écran.
 
-![Print and export buttons](images-en/rnr_print_and_export.png)
+![Print and export buttons](images/rnr_print_and_export.png)
 
 - Le bouton `Imprimer` ouvrira la fenêtre d'impression de votre navigateur. Vous pouvez également enregistrer le rapport en format PDF à partir d'ici.
 - Le bouton `Exporter` téléchargera le formulaire R&R sous forme de fichier Excel.
@@ -128,7 +128,7 @@ Pour imprimer ou exporter, vous aurez besoin d'un rapport de formulaire R&R conf
 
 Le bouton `Plus` dans le coin supérieur droit de l'écran ouvrira le volet de détails. Ici, vous pouvez voir des informations supplémentaires sur le formulaire R&R, telles que le nom du programme et le fournisseur.
 
-![R&R detail panel](images-en/rnr_more_info.png)
+![R&R detail panel](images/rnr_more_info.png)
 
 Vous pouvez également définir une référence, qui sera incluse dans la commande interne envoyée au fournisseur.
 
@@ -136,13 +136,13 @@ Vous pouvez également définir une référence, qui sera incluse dans la comman
 
 Il y a beaucoup d'informations sur les formulaires R&R, et parfois il peut être difficile de tout voir en même temps. Cliquez sur le bouton `Plein Écran` dans le coin supérieur droit de l'écran pour agrandir la fenêtre.
 
-![R&R full screen](images-en/rnr_full_screen.gif)
+![R&R full screen](images/rnr_full_screen.gif)
 
 Cliquez sur le bouton `Quitter` dans le coin supérieur droit de l'écran pour revenir à la fenêtre normale, ou vous pouvez utiliser la touche `Échap` si vous utilisez un clavier.
 
 ### Finaliser un formulaire R&R
 
-![Finalise](images-en/rnr_finalise.png)
+![Finalise](images/rnr_finalise.png)
 
 Lorsque vous êtes prêt à finaliser le formulaire R&R, cliquez sur le bouton `Finaliser` en bas à droite de l'écran. À ce stade :
 

@@ -30,11 +30,11 @@ Consulta la [documentación de mSupply](https://docs.msupply.org.nz/items:progra
 
 Ve a `Reabastecimiento` > `Formularios R&R` para ver la lista de formularios R&R.
 
-![R&R Navigation](images-en/goto_rnr.png)
+![R&R Navigation](images/goto_rnr.png)
 
 Puedes hacer clic en los encabezados de las columnas para ordenar la lista por esa columna.
 
-![R&R List](images-en/rnr_list.png)
+![R&R List](images/rnr_list.png)
 
 Al hacer clic en un formulario R&R, serás dirigido a la página de detalles.
 
@@ -42,33 +42,33 @@ Al hacer clic en un formulario R&R, serás dirigido a la página de detalles.
 
 Para agregar un formulario R&R, haz clic en el botón `Agregar Formulario` en la esquina superior derecha de la pantalla.
 
-![Add Button](images-en/rnr_add_button.png)
+![Add Button](images/rnr_add_button.png)
 
 Se abrirá una ventana para que selecciones el programa, el horario, el período y el proveedor para el formulario R&R.
 
-![Add R&R: empty](images-en/add_rnr_empty.png)
+![Add R&R: empty](images/add_rnr_empty.png)
 
 La primera vez que crees un formulario R&R, deberás seleccionar cada una de estas opciones. Después de eso, los campos se rellenarán automáticamente con los datos del período anterior.
 
 <div class="imagetitle">Nuestro formulario R&R más reciente fue de abril de 2024, para el programa Tb. El mismo programa, horario y proveedor están seleccionados, y el siguiente período se elige automáticamente.</div>
 
-![Add R&R: pre-filled](images-en/add_rnr.png)
+![Add R&R: pre-filled](images/add_rnr.png)
 
 La primera vez que crees un formulario R&R, puedes seleccionar cualquier período disponible. Después de eso, solo podrás seleccionar el siguiente período en la secuencia.
 
 <div class="imagetitle">El formulario R&R anterior fue para el período de ABR 24/div>
 
-![Add R&R: pre-selected period](images-en/add_rnr_selected_period.png)
+![Add R&R: pre-selected period](images/add_rnr_selected_period.png)
 
 Ten en cuenta que no podrás crear el siguiente formulario R&R hasta que el anterior esté finalizado:
 
-![Warning: need to finalise previous](images-en/add_rnr_error_finalise.png)
+![Warning: need to finalise previous](images/add_rnr_error_finalise.png)
 
 Una vez que estés satisfecho con tus opciones, haz clic en `OK` para generar el formulario. Serás redirigido a la página de detalles del formulario R&R.
 
 ## Vista de Detalle
 
-![R&R Detail view](images-en/rnr_detail.png)
+![R&R Detail view](images/rnr_detail.png)
 
 El formulario R&R contiene las siguientes columnas. Las columnas calculadas/no editables están en gris. Las columnas marcadas con un asterisco (\*) son editables.
 
@@ -101,13 +101,13 @@ Puedes realizar cambios en los datos de uso de cada artículo en el formulario R
 
 Una vez que estés satisfecho con la información de un artículo, marca la casilla `Confirmado` para guardar los datos.
 
-![Edit line](images-en/rnr_edit_line.gif)
+![Edit line](images/rnr_edit_line.gif)
 
 ### Imprimir y Exportar
 
 Puedes imprimir o exportar el formulario R&R haciendo clic en los botones `Imprimir` o `Exportar` en la esquina superior derecha de la pantalla.
 
-![Print and export buttons](images-en/rnr_print_and_export.png)
+![Print and export buttons](images/rnr_print_and_export.png)
 
 - EL botón `Imprimir` abrirá la ventana de impresión de tu navegador. Desde allí también puedes guardar el informe como un archivo PDF.
 - El botón `Exportar` descargará el formulario R&R como un archivo de Exce
@@ -118,7 +118,7 @@ Para imprimir o exportar, necesitas tener configurado un informe de formulario R
 
 ### Finalizar un formulario R&R
 
-![Finalise](images-en/rnr_finalise.png)
+![Finalise](images/rnr_finalise.png)
 
 Cuando estés listo para finalizar el formulario R&R, haz clic en el botón `Finalizar` en la esquina inferior derecha de la pantalla. En este punto:
 
