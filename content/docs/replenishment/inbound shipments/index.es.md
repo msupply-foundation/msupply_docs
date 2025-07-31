@@ -195,24 +195,20 @@ La secuencia de estados se encuentra en la esquina inferior izquierda de la pant
 Los estados pasados están resaltados en azul, los próximos estados aparecen en gris.
 
 <figure>
-    <img src="images/is_statussequence2.png" alt="Inbound Shipment Status Sequence (New)" style="width:100%">
-    <figcaption align="center">Secuencia de estado: el estado actual es <code>Nuevo</code>.</figcaption>
+    <img src="images/is_statussequence1.png" alt="Inbound Shipment Status Sequence (New)" style="width:100%">
+    <figcaption align="center">Secuencia de estado: el estado actual es <code>Recibido</code>.</figcaption>
 </figure>
 
-<figure>
-    <img src="images/is_statussequence3.png" alt="Inbound Shipment Status Sequence (Shipped)" style="width:100%">
-    <figcaption align="center">Secuencia de estado: el estado actual es </i><code>Enviado</code>.</figcaption>
-</figure>
+Hay 6 estados posibles para una entrada:
 
-Hay 5 estados posibles para una entrada:
-
-| Estado         | Descripción                                                                                                                     |
-| :------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| **Nuevo**      | Este es el primer estado cuando se crea una nueva entrada manual                                                                |
-| **Recogido**   | El proveedor ha confirmado que el envío está recogido y listo para enviar (solo se aplica a los envíos creados automáticamente) |
-| **Enviado**    | El envío ha sido enviado y los bienes están en tránsito (solo se aplica a los envíos creados automáticamente)                   |
-| **Entregado**  | Cuando se confirma que el envío ha sido entregado                                                                               |
-| **Verificado** | Cuando se ha verificado la entrada                                                                                              |
+| Estado         | Descripción                                                                                                                     | mSupply | Editable |
+| :------------- | ------------------------------------------------------------------------------------------------------------------------------- | :-----: | :------: |
+| **Nuevo**      | Este es el primer estado cuando se crea una nueva entrada manual                                                                |   nw    |          |
+| **Recogido**   | El proveedor ha confirmado que el envío está recogido y listo para enviar (solo se aplica a los envíos creados automáticamente) |   nw    |    ✓     |
+| **Enviado**    | El envío ha sido enviado y los bienes están en tránsito (solo se aplica a los envíos creados automáticamente)                   |   nw    |          |
+| **Entregado**  | Cuando se confirma que el envío ha sido entregado                                                                               |   sg    |    ✓     |
+| **Recibido**   | Cuando confirme que el envío ha sido validado. La mercancía pasa a formar parte de su inventario.                               |   cn    |    ✓     |
+| **Verificado** | Cuando se ha verificado la entrada                                                                                              |   fn    |          |
 
 Probablemente hayas notado que dos de los valores de estado solo se aplican a los envíos creados automáticamente. Estos se crean automáticamente por el sistema cuando otro almacén en el sistema crea un envío saliente para entregar existencias a tu almacén. Si este es el caso, verás un mensaje cerca de la parte superior de la página:
 
@@ -225,23 +221,23 @@ Si, sin embargo, ha creado un envío de entrada manualmente, entonces se muestra
 y verá que la barra de estado tiene solo los valores de estado que corresponden a este tipo de envío.
 
 <figure align="center">
-    <img src="images/is_statussequence4.png" alt="Inbound Shipment Status Sequence (New & manual)" style="width:60%">
+    <img src="images/is_statussequence2.png" alt="Inbound Shipment Status Sequence (New & manual)" style="width:60%">
     <figcaption align="center">Secuencia de estado: el estado actual es </i><code>Nuevo</code>.</figcaption>
 </figure>
 
 Si colocas el cursor sobre la secuencia de estados, aparecerá una ventana de historial de envíos. Podrás ver la fecha en que se actualizó un envío de un estado a otro.
 
 <div class="imagetitle">
-Este envío manual se ha creado el 03/03/2022
+Este envío manual se ha creado el 24/04/2025
 </div>
 
-![Inbound status: hover 2](images/is_statussequence_hover2.png)
+![Inbound status: hover 2](images/is_statussequence_hover1.png)
 
 <div class="imagetitle">
-Este envío automático se ha creado el 03/03/2022, se ha asignado el 04/03/2022 y se ha recogido el 07/03/2022
+Este envío automático se ha creado el 10/04/2025, se ha asignado el 11/04/2025 y se ha recogido el 12/04/2025
 </div>
 
-![Inbound status: hover](images/is_statussequence_hover.png)
+![Inbound status: hover](images/is_statussequence_hover2.png)
 
 ### Casilla de verificación de Retener
 

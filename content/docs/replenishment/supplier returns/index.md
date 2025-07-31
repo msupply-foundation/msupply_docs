@@ -184,7 +184,7 @@ In this section, you can see or edit a transport reference number (eg. a booking
 
 The status sequence is located at the bottom left corner of the Supplier Return screen.
 
-Passed statuses are hightlighted in blue, next statuses appear in grey.
+Passed statuses are highlighted in blue, next statuses appear in grey.
 
 <figure>
 <img src="images/or_statussequence2.png" alt="Supplier Return Status Sequence (New)" style="width:100%">

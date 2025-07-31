@@ -209,14 +209,14 @@ Les statuts passés sont mis en évidence en bleu, les statuts suivants apparais
 
 Il y a 6 statuts pour l'expédition :
 
-| Status        | Description                                                                                                                               |
-| :------------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| **New**       | Il s'agit du premier status lorsque vous créez un transfert.                                                                              |
-| **Allocated** | L'allocation est confirmée. Les produits ne sont plus disponibles pour d'autres transferts mais font toujours partie de votre inventaire. |
-| **Picked**    | Le transfert est prélevé et prêt à être expédié. Les produits font toujours partie de votre inventaire.                                   |
-| **Shipped**   | Le transfert a été effectué et les produits ne font plus partie de votre inventaire.                                                      |
-| **Delivered** | Votre client a reçu le transfert                                                                                                          |
-| **Verified**  | Votre client a vérifié la quantité du transfert. Les produits font désormais partie de son inventaire.                                    |
+| Status        | Description                                                                                                                               | mSupply | Editable |
+| :------------ | ----------------------------------------------------------------------------------------------------------------------------------------- | :-----: | :------: |
+| **New**       | Il s'agit du premier status lorsque vous créez un transfert.                                                                              |   sg    |    ✓     |
+| **Allocated** | L'allocation est confirmée. Les produits ne sont plus disponibles pour d'autres transferts mais font toujours partie de votre inventaire. |   sg    |    ✓     |
+| **Picked**    | Le transfert est prélevé et prêt à être expédié. Les produits font toujours partie de votre inventaire.                                   |   cn    |    ✓     |
+| **Shipped**   | Le transfert a été effectué et les produits ne font plus partie de votre inventaire.                                                      |   fn    |    ✓     |
+| **Delivered** | Votre client a reçu le transfert                                                                                                          |   fn    |          |
+| **Verified**  | Votre client a vérifié la quantité du transfert. Les produits font désormais partie de son inventaire.                                    |   fn    |          |
 
 Si vous survolez le statut des séquences, une fenêtre d'historique des transferts s'affiche. Vous pouvez voir la date à laquelle un transfert est passé d'un statut à un autre.
 
