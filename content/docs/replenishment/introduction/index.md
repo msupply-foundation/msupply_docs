@@ -74,3 +74,31 @@ subgraph s2["**Receiving Store**"]
 
 
 {%end%}
+
+
+### If a Store is procuring from local suppliers without using Purchase Orders
+
+Small sites often don't want the formal procurement processes that purchase orders and goods receipts require, and order from local suppliers. For them, the workflow can be:
+
+{%mermaid ()%}
+
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#FF9a00', 'primaryTextColor': '#000', 'primaryBorderColor': '#00008B', 'secondaryColor': '#FFFFFF', 'secondaryTextColor': '#000', 'secondaryBorderColor': '#FFD7BE', 'lineColor': '#000',  'clusterBkg': '#e1f1fd','tertiaryTextColor':'#000'}}
+}%%
+
+flowchart TB
+    subgraph s1["**Ordering Store**"]
+        n2(Send Order via email/phone/message)
+        n3(Receive Physical Goods and Supplier's Invoice) --- n4(Check quantities against supplier's invoice and ordered quantities)
+        n4 --- n5(Enter Inbound Shipment items, quantities, etc)
+        n5 --- n6(Change shipment status to Received or Verified to receive goods into stock ready for issuing)
+    end
+    subgraph s2["**Supplier**"]
+        n2 --- d1(Receive Order)
+        d1 --- d2
+        d2(Process Order)
+        d2 --- d3(Send Goods)
+        d3 --- n3
+    end
+    style s1 fill:#fffacd
+
+{%end%}

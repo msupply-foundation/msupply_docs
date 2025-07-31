@@ -53,7 +53,7 @@ From this screen you can:
 | **Comment**   | Comment for the shipment         |
 | **Total**     | Total value of the shipment      |
 
-### Search by Customer Name
+### Search by Name or Status
 
 You can filter the list of shipments by customer name or by status. This can be useful if you're looking for one particular shipment!
 Select the `Name` filter from the list to filter by the customer name:
