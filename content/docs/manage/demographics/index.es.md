@@ -27,13 +27,13 @@ Para comenzar, activa la preferencia del almacén móvil: `Usa el módulo de vac
 
 Selecciona `Gestionar` > `Demografía` en el panel de navegación.
 
-![goto: demographics](/docs/manage/images/goto_demographics.png)
+![goto: demographics](images/goto_demographics.png)
 
 Se te presentará una lista de Indicadores Demográficos:
 
-![indicators](/docs/manage/images/indicators.png)
+![indicators](images/indicators.png)
 
-La lista de Indicadores Demográficos está dividida en 8 columnas:
+La lista de Indicadores Demográficos está dividida en 4 columnas:
 
 | Columna             | Descripción                                                                                   |
 | :------------------ | :-------------------------------------------------------------------------------------------- |
@@ -46,7 +46,7 @@ La lista de Indicadores Demográficos está dividida en 8 columnas:
 
 Para cada año, puedes ingresar el porcentaje de crecimiento poblacional previsto. Este puede ser un número positivo o negativo. Al editar el porcentaje de crecimiento, notarás que las proyecciones de población se actualizan.
 
-![edit growth](/docs/manage/images/percentage_growth.gif)
+![edit growth](images/percentage_growth.gif)
 
 - Haz clic en `Guardar` una vez que estés conforme con tus cambios
 - O: Haz clic en `Cancelar` en cualquier momento para revertir tus cambios.
@@ -55,7 +55,7 @@ Para cada año, puedes ingresar el porcentaje de crecimiento poblacional previst
 
 Todos los cálculos se basan en la `Población General` actual. Para comenzar, ingresa la población actual:
 
-![population](/docs/manage/images/population.png)
+![population](images/population.png)
 
 ## Agregar un nuevo indicador
 
@@ -66,14 +66,14 @@ Esto agregará una nueva fila a la tabla. Ahora puedes ingresar un nombre para e
 - Haz clic en `Guardar` una vez que estés satisfecho con los cambios
 - O: Haz clic en `Cancelar` en cualquier momento para revertir los cambios
 
-![add new indicator](/docs/manage/images/add_indicator.gif)
+![add new indicator](images/add_indicator.gif)
 
 ## Permisos y restricciones
 
 Los indicadores demográficos solo son visibles en el [Servidor Central de Open mSupply](/docs/getting_started/central-server) y requieren la preferencia de almacén [`mobile: Usa módulo de vacunas`](https://docs.msupply.org.nz/cold_chain_equipment:mobile?s[]=vaccine#enable_the_vaccine_module_for_the_mobile_store).
 
-![mSupply Store Preference Vaccine Module](/docs/programs/images/vaccine_module.png)
+![mSupply Store Preference Vaccine Module](images/vaccine_module.png)
 
 Para crear, editar o eliminar datos demográficos, necesitas el permiso `Puedes modificar datos centrales` habilitado en la [omSupply Permissions Tab](https://docs.msupply.org.nz/admin:managing_users?s[]=permission#omsupply_permissions_tab) en tu Almacén Central.
 
-![Can Modify Central Data Permission](/docs/programs/images/can_modify_central.png)
+![Can Modify Central Data Permission](images/can_modify_central.png)

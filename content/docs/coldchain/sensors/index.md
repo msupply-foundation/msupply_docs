@@ -33,7 +33,7 @@ The user is a standard mSupply user, with the following configuration:
 - The store will need to be part of the site that Open mSupply is synchronising with. Have a look at the [Settings](/docs/settings/synchronisation/#viewing-the-synchronisation-settings) section to see which site omSupply is syncing with, and then the [Synchronisation](https://docs.msupply.org.nz/synchronisation:sync_sites#viewing_sync_sites) screen to check that your site includes the correct store.
 - The user must have the Open Supply permission of `Cold chain API access` (see below)
 
-![Cold chain API permission](/docs/coldchain/images/coldchain_permission.png)
+![Cold chain API permission](images/coldchain_permission.png)
 
 From here, follow the steps in the mSupply Cold Chain application documentation for [Integrating with mSupply Desktop](/coldchain/desktop-integration/#msupply-desktop-setup-steps) using the new mSupply user credentials created above in place of the store credentials.
 
@@ -42,13 +42,13 @@ From here, follow the steps in the mSupply Cold Chain application documentation 
 If you are using Berlinger Fridge-tags, you can import the data directly into Open mSupply. To do this, insert the USB of the Fridge-tag into your computer.
 Then click the `Import Fridge-tag` button:
 
-![Import fridge tag](/docs/coldchain/images/import_fridge_tag.png)
+![Import fridge tag](images/import_fridge_tag.png)
 
 This will open a file browsing window, allowing you to select the `.txt` file of the Fridge-tag data. Simply click on the file and wait for the import to complete.
 
 Here's how the process looks (this is the mac desktop version):
 
-![Import fridge tag](/docs/coldchain/images/import_fridge_tag.gif)
+![Import fridge tag](images/import_fridge_tag.gif)
 
 <div class="note">You may need to wait for the text file to be generated after connecting the Fridge-tag to your computer.</div>
 
@@ -73,7 +73,7 @@ The following Berlinger devices are compatible with Open mSupply:
 
 Choose `Cold chain` > `Sensors` in the navigation panel.
 
-![goto sensors](/docs/coldchain/images/goto_sensors.png)
+![goto sensors](images/goto_sensors.png)
 
 You will be presented with a list of Sensors (if you don't see any, you may not have imported data yet or integrated with the mSupply Cold Chain app!).
 
@@ -81,7 +81,7 @@ From this screen you can view a list of Sensors and edit a Sensor.
 
 ### Sensor list
 
-![Sensor list](/docs/coldchain/images/sensor_list.png)
+![Sensor list](images/sensor_list.png)
 
 1. The list of Sensors is divided into 9 columns:
 
@@ -99,21 +99,15 @@ From this screen you can view a list of Sensors and edit a Sensor.
 
 1. The list can display a fixed number of sensors per page. On the bottom left corner, you can see how many sensors are currently displayed on your screen.
 
-![Page](/docs/introduction/images/list_showing.png)
-
 2. If you have more sensors than the current limit, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner).
 
-![Page](/docs/introduction/images/list_pagenumbers.png)
-
 3. You can also select a different number of rows to show per page using the option at the bottom right of the page.
-
-![Rows per page](../../images/rows-per-page-select.png)
 
 ### Editing a sensor
 
 Clicking on a row in the list will show you the details of that sensor
 
-![Sensor details](/docs/coldchain/images/sensor_details.png)
+![Sensor details](images/sensor_details.png)
 
 On this screen you can
 

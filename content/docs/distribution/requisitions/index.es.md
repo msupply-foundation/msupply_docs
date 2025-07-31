@@ -20,7 +20,7 @@ Cuando un cliente te hace un pedido de inventario, ellos crean una **Oden Intern
 
 Para saber si has recibido requisiciones de tus clientes, ve a `Distribución` > `Requisición`
 
-![Requistion nav](/docs/distribution/images/req_gotoreq2.png)
+![Requistion nav](images/req_gotoreq2.png)
 
 Deberías ver una lista de todas las requisiciones enviadas por tus clientes.
 
@@ -29,7 +29,7 @@ Desde esta pantalla puedes:
 - Ver la lista de requisiciones
 - Exportar requisiciones a un archivo`.csv`
 
-![Requisition list](/docs/distribution/images/req_list.png)
+![Requisition list](images/req_list.png)
 
 ### Lista de Requisiciones
 
@@ -45,15 +45,15 @@ Desde esta pantalla puedes:
 
 2. La lista puede mostrar un número fijo de requisiciones por página. En la esquina inferior izquierda, puedes ver cuántas requisiciones se están mostrando actualmente en tu pantalla.
 
-![Page](../../images/list_showing.png)
+![Page](images/list_showing.png)
 
 3. Si tienes más requisiciones que el límite actual, puedes navegar a las otras páginas tocando el número de página o utilizando las flechas derecha o izquierda (esquina inferior derecha).
 
-![Page](../../images/list_pagenumbers.png)
+![Page](images/list_pagenumbers.png)
 
 4. También puedes seleccionar un número diferente de filas para mostrar por página utilizando la opción en la esquina inferior derecha de la página.
 
-![Rows per page](../../images/rows-per-page-select.png)
+![Rows per page](images/rows-per-page-select.png)
 
 ### Búsqueda por comentario
 
@@ -65,7 +65,7 @@ Comienza a escribir en el campo `Buscar por comentario` (a la izquierda, justo e
 
 La lista de Requisiciones se puede exportar a un archivo separado por comas (csv). Simplemente haz clic en el botón de exportación (a la derecha, en la parte superior de la página)
 
-![Export button](/docs/distribution/images/export.png)
+![Export button](images/export.png)
 
 y el archivo se descargará automáticamente. La función de exportación descargará todas las Requisiciones, no solo las de la página actual, si tienes más de 20 de ellas.
 
@@ -73,20 +73,20 @@ y el archivo se descargará automáticamente. La función de exportación descar
 
 Para ver los detalles de una requisición en particular, simplemente haz clic en ella en la vista de lista. Luego podrás ver la vista detallada de la requisición:
 
-![Requisition Detail](/docs/distribution/images/requisition-detail.png)
+![Requisition Detail](images/requisition-detail.png)
 
 Al hacer clic en un elemento individual en esta vista, se mostrarán los detalles del artículo en particular. Aquí puedes ajustar la cantidad a suministrar:
 
-![Requisition Detail](/docs/distribution/images/requisition_line_edit_page.png)
+![Requisition Detail](images/requisition_line_edit_page.png)
 
 La cantidad solicitada también se muestra, junto con los detalles del artículo en inventario.
 
 Otra forma de ajustar la cantidad de suministro es hacer clic en el botón "Suministrar solicitado" en la parte superior de la página. Esto establecerá automáticamente la cantidad de suministro como la cantidad solicitada para ese artículo. Haz clic en el botón y se te pedirá confirmación antes de que se realice el ajuste:
 
-![Supply Requested Prompt](/docs/distribution/images/requisition-supply-to-requested.png)
+![Supply Requested Prompt](images/requisition-supply-to-requested.png)
 
 Para crear una salida que suministre los artículos solicitados, haz clic en el botón "Crear envío". Esto creará un envío, agregará todos los artículos que no estén completamente suministrados, y luego abrirá ese envío en una nueva pestaña. Antes de hacerlo, se te pedirá confirmación:
 
-![Create Shipment Prompt](/docs/distribution/images/requisition-create-shipment.png)
+![Create Shipment Prompt](images/requisition-create-shipment.png)
 
 Después de crear dicho envío, verás el número de envío, junto con un enlace para verlo, en la sección "Documentos relacionados" del panel de detalles adicionales en el lado derecho de la pantalla.

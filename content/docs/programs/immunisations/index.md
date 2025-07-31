@@ -19,24 +19,21 @@ Base Immunization Programs are configured in the mSupply central server.
 
 For GAPS functionality, you will only need to configure a new Master List, and mark it as an Immunization Program.
 
-<div align="center">
-    <img src="/docs/programs/images/og_immunisation_program.png" width="620">
-</div>
-<br />
+![OG immunisation program](images/og_immunisation_program.png)
 
 For Immunization [Patient Programs](/docs/programs/program-module), contact your administrator to get set up.
 
-Once the base Immunization Program is created, it can be further configured in the <a href='/docs/getting_started/central-server'>Open mSupply Central Server<a>. See the <a href="#permissions-restrictions">Permissions & Restrictions</a> section for more details.
+Once the base Immunization Program is created, it can be further configured in the [Open mSupply Central Server](docs/getting_started/central-server). See the <a href="#permissions-restrictions">Permissions & Restrictions</a> section for more details.
 
 ## Viewing Immunization Programs
 
 Choose `Programs` > `Immunizations` in the navigation panel.
 
-![goto: immunizations](/docs/programs/images/goto_immunizations.png)
+![goto: immunizations](images/goto_immunizations.png)
 
 You will be presented with a list of Immunization Programs:
 
-![immunizations list](/docs/programs/images/immunizations.png)
+![immunizations list](images/immunizations.png)
 
 The list of Immunization Programs is divided into 2 columns:
 
@@ -49,7 +46,7 @@ The list of Immunization Programs is divided into 2 columns:
 
 To view an Immunization Program in more detail, click on it. This will take you to the detail page for that program.
 
-![immunizations: detail](/docs/programs/images/immunizations_detail.png)
+![immunizations: detail](images/immunizations_detail.png)
 
 You can use the `Close` button in the bottom right to close the detail view, and go back to the list of Immunization Programs.
 
@@ -69,17 +66,17 @@ The list of Vaccine Courses is divided into 3 columns:
 
 To add a new Vaccine Course, click the `Add vaccine course` button in the top right.
 
-![vaccine course: add button](/docs/programs/images/vaccine_course_add_button.png)
+![vaccine course: add button](images/vaccine_course_add_button.png)
 
 This will open a new window, where you can enter the details of the new Vaccine Course, e.g. Vaccine course name, wastage rate, dose schedule.
 
-![vaccine course: create modal](/docs/programs/images/vaccine_course_add.png)
+![vaccine course: create modal](images/vaccine_course_add.png)
 
 #### Doses
 
 To add doses to the Vaccine Course, click the `(+) Dose` button. This will add a new row to the `dose schedule` table, where the details of the dose can be entered, including when the dose can administered.
 
-![vaccine course: dose edit table](/docs/programs/images/vaccine_course_dose_edit.png)
+![vaccine course: dose edit table](images/vaccine_course_dose_edit.png)
 
 The Dose Schedule table is divided into 6 columns:
 
@@ -104,7 +101,7 @@ Click `Cancel` at any time to close the window and discard your changes.
 
 To view or edit the details of a Vaccine Course, click on the row in the list. This will re-open the editing window, for you to view or change any details.
 
-![vaccine course: edit modal](/docs/programs/images/vaccine_course_detail.png)
+![vaccine course: edit modal](images/vaccine_course_detail.png)
 
 ### Deleting a Vaccine Course
 
@@ -112,13 +109,13 @@ You can delete Vaccine Course from the list.
 
 Select the Vaccine Course that you wish to delete by checking the box on the right end of the list. You can select more than one Vaccine Course to be deleted at once. You can even select them all using the master checkbox in the table header.
 
-![vaccine courses: select to delete](/docs/programs/images/master-checkbox-immunisations.png)
+![vaccine courses: select to delete](images/master-checkbox-immunisations.png)
 
 The `Actions` footer will display at the bottom of the screen when an immunization line is selected. It will display the number of immunization lines selected and the actions which can be taken. Click `Delete`.
 
 You will be asked to confirm that you wish to delete the selected Vaccine Courses. Press `Cancel` to prevent deleting, or `Ok` to confirm.
 
-![vaccine courses: confirm delete](/docs/programs/images/vaccine_courses_confirm_delete.png)
+![vaccine courses: confirm delete](images/vaccine_courses_confirm_delete.png)
 
 A notification in the bottom left corner will confirm how many courses were deleted.
 
@@ -126,8 +123,8 @@ A notification in the bottom left corner will confirm how many courses were dele
 
 Immunization Programs can only be managed on the [Open mSupply Central Server](/docs/getting_started/central-server) and requires the [`mobile: Uses vaccine module`](https://docs.msupply.org.nz/cold_chain_equipment:mobile?s[]=vaccine#enable_the_vaccine_module_for_the_mobile_store) store preference.
 
-![mSupply Store Preference Vaccine Module](/docs/programs/images/vaccine_module.png)
+![mSupply Store Preference Vaccine Module](images/vaccine_module.png)
 
 To configure Immunization Programs or Vaccine Courses, you need the `Can modify central data` permission enabled in the [Open mSupply Permissions Tab](https://docs.msupply.org.nz/admin:managing_users?s[]=permission#open_msupply_permissions_tab) on your Central Store.
 
-![Can Modify Central Data Permission](/docs/programs/images/can_modify_central.png)
+![Can Modify Central Data Permission](images/can_modify_central.png)

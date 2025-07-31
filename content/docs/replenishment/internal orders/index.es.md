@@ -29,15 +29,15 @@ Si deseas pedir inventario a tu proveedor:
 1. Ve al menú `Reabastecimiento`
 2. Selecciona `Ordenes Internas`
 
-![Internal Order: nav](/docs/replenishment/images/intord_access.png)
+![Internal Order: nav](images/intord_access.png)
 
 Verás una lista de todas las órdenes internas existentes:
 
-![Internal Order: list](/docs/replenishment/images/intord_list.png)
+![Internal Order: list](images/intord_list.png)
 
 Puedes usar el campo `Buscar por comentario` para filtrar la lista por los comentarios de las órdenes internas:
 
-![Internal Order: filter by comment](/docs/replenishment/images/intord_filterlistbycomment.gif)
+![Internal Order: filter by comment](images/intord_filterlistbycomment.gif)
 
 Puedes ordenar la lista utilizando los encabezados de las columnas:
 
@@ -50,15 +50,15 @@ Puedes ordenar la lista utilizando los encabezados de las columnas:
 
 1. Haz clic en el botón `Nuevo Pedido` (esquina superior derecha):
 
-![Internal Order: new order](/docs/replenishment/images/intord_newreqbutton.png)
+![Internal Order: new order](images/intord_newreqbutton.png)
 
 2. Se abrirá una nueva ventana que te invita a seleccionar un proveedor:
 
-![Internal Order: select supplier](/docs/replenishment/images/intord_selectsupplier2.png)
+![Internal Order: select supplier](images/intord_selectsupplier2.png)
 
 3. Selecciona un proveedor haciendo clic en su nombre. Verás una ventana como esta:
 
-![Internal Order: newly created order](/docs/replenishment/images/intord_newintord.png)
+![Internal Order: newly created order](images/intord_newintord.png)
 
 ### Definir mes máximo de inventario (MOS Máximo)
 
@@ -72,7 +72,7 @@ Definir el MOS Máximo (Mes de Inventario) es crítico para el cálculo de la **
 En el siguiente ejemplo, estableceremos nuestro MOS Máximo en 3 meses.  
 </div>
 
-![MaxMOS](/docs/replenishment/images/intord_maxmos.png)
+![MaxMOS](images/intord_maxmos.png)
 
 Esto se puede hacer antes o después de agregar elementos a tu orden.
 
@@ -80,7 +80,7 @@ Esto se puede hacer antes o después de agregar elementos a tu orden.
 
 Selecciona `Agregar artículo` para añadir un solo artículo a tu pedido. Se abrirá una nueva ventana:
 
-![Internal Order: add item](/docs/replenishment/images/intord_additem2.png)
+![Internal Order: add item](images/intord_additem2.png)
 
 Primero, selecciona el artículo que deseas agregar a tu pedido. Abre el menú desplegable `Detalles de inventario` y selecciona tu artículo de la lista. También puedes escribir parte o todo el nombre (o código) del artículo para buscar un artículo específico.
 
@@ -103,21 +103,21 @@ También deberías ver los siguientes gráficos:
 En el ejemplo siguiente, nuestra cantidad objetivo es de 600 unidades, lo que equivale a 3 meses de inventario (3 x 200 = 600 unidades). Nuestro inventario a la mano (en gris) es de 50, por lo que para alcanzar nuestra meta, mSupply sugiere pedir 550 unidades (600 - 50). 
 </div>
 
-![Stock Distribution](/docs/replenishment/images/intord_charts_stockdistri.png)
+![Stock Distribution](images/intord_charts_stockdistri.png)
 
 <div class="imagetitle">
 En el ejemplo siguiente, la cantidad objetivo es de 62 unidades. Dado que ya tenemos 250 unidades en stock (en gris), la cantidad sugerida es cero. 
 </div>
 
-![Stock Distribution 2](/docs/replenishment/images/intord_charts_stockdistri2.png)
+![Stock Distribution 2](images/intord_charts_stockdistri2.png)
 
 - **Historial de consumo (mensual)**: este gráfico muestra el consumo mensual hasta 12 meses en el pasado (en gris) y el AMC actual (en naranja):
 
-![Consumption](/docs/replenishment/images/intord_charts_consumption.png)
+![Consumption](images/intord_charts_consumption.png)
 
 - **Evolución de inventario**: este gráfico muestra el nivel de tu stock durante los últimos 30 días y tu inventario proyectado para los próximos 30 días. El inventario proyectado se actualizará en función de tus entradas en el campo `Cantidad de pedido`:
 
-![Stock Evolution](/docs/replenishment/images/intord_charts_stockevolution.png)
+![Stock Evolution](images/intord_charts_stockevolution.png)
 
 ### Añade artículos usando listas maestras
 
@@ -131,7 +131,7 @@ Ahora todos los artículos de la lista maestra aparecerán en tu pedido. Si hab�
 
 Para cambiar la **Cantidad del pedido** toca en la línea del pedido correspondiente o toca en el botón `Sugerido a Pedido`
 
-![Internal Order: add from master list](/docs/replenishment/images/intord_addfromml.gif)
+![Internal Order: add from master list](images/intord_addfromml.gif)
 
 <div class="nota"> 
 Las listas maestras se definen y asignan a los almacenes a nivel del servidor central. Solo podrás ver las listas maestras que son visibles para tu almacén. 
@@ -164,21 +164,21 @@ Si pulsas `Usar Cantidades Sugeridas` en la cabecera de la requisición, mSupply
 
 Siempre puedes editar manualmente la cantidad de cada línea de pedido pulsando en ella.
 
-![Use Suggested Quantities](/docs/replenishment/images/intord_reqtosug.png)
+![Use Suggested Quantities](images/intord_reqtosug.png)
 
 ### Imprimir una Orden Interna
 
 Al ver una Orden Interna específica, simplemente haz clic en el botón `Imprimir` que está en la parte superior derecha de la página.
 Al imprimir, se generará un archivo PDF que se abrirá en una nueva pestaña de tu navegador. Luego puedes imprimirlo usando tu navegador haciendo clic en imprimir o usando las teclas `control`+`P` (si usas windows) o `cmd`+`P` en tu teclado (si usas una Mac).
 
-![Print button](/docs/introduction/images/print_button.png)
+![Print button](../../images/print_button.png)
 
 Esto hará que
 
 - Muestre un menú de posibles informes para que seleccione antes de crear un PDF. Esto sucederá si hay más de un informe definido para el tipo de informe `Requisición`.
 - Cree un PDF de inmediato, si solo hay un informe para seleccionar.
 
-![Print menu](/docs/distribution/images/os_print_menu.png)
+![Print menu](images/os_print_menu.png)
 
 ### Enviar una Orden Interna
 

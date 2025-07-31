@@ -28,7 +28,7 @@ La fonction Expédition est utilisée pour:
 
 Choisir `Distribution` > `Expédition` dans le panneau de navigation.
 
-![gotooos](/docs/distribution/images/gotoos2_fr.png)
+![gotooos](images/gotoos2_fr.png)
 
 La liste des Expéditions s'affichera (Si vous ne voyez aucune ligne, rassurez-vous. Vous venez probablement de commencer!).
 
@@ -71,7 +71,7 @@ Entrez le nom du client dans le champs `Search by name` (à gauche, juste au-des
 
 La liste des expéditions peut être exportée dans un fichier (csv). Cliquez simplement sur le bouton _**Exporter**_ (à droite, en haut de la page)
 
-![Export button](/docs/distribution/images/export_fr.png)
+![Export button](images/export_fr.png)
 
 et le fichier sera téléchargé. La fonction d'exportation téléchargera toutes les expéditions, pas seulement la page actuelle, si vous en avez plus de 20. Les expéditions sont exportées en utilisant l'ordre de tri sélectionné dans la liste, bien que vous puissiez facilement trier la liste dans Excel ou tout autre outil avec lequel vous ouvrez le fichier .csv !
 
@@ -89,7 +89,7 @@ Vous pouvez, à partir de la liste, supprimer une expédition.
 Vous ne pouvez supprimer que les expéditions avec un statut <code>NOUVEAU</code>.
 </div>
 
-![Outbound list: delete](/docs/distribution/images/os_list_deleteshipment.gif)
+![Outbound list: delete](images/os_list_deleteshipment.gif)
 
 ## Créer une expédition
 
@@ -97,7 +97,7 @@ Vous ne pouvez supprimer que les expéditions avec un statut <code>NOUVEAU</code
 
 2. Cliquez sur le bouton `Nouveau` en haut à dorite de l'écran
 
-![New Shipment](/docs/distribution/images/clicknewshipment_fr.png)
+![New Shipment](images/clicknewshipment_fr.png)
 
 3. Une nouvelle fenêtre `Clients` s'affiche pour vous inviter à sélctionner un client.
 
@@ -109,10 +109,10 @@ Vous ne pouvez supprimer que les expéditions avec un statut <code>NOUVEAU</code
 Dans l'exemple ci-dessous, du stock sera livré au client <b>Kamo Regional Warehouse</b>. 
 </div>
 
-![gif](/docs/distribution/images/os_select_customer.gif)
+![gif](images/os_select_customer.gif)
 
 <div class="conseil">
-Vous pouvez savoir si un client utilise également mSupply dans son dépôt. Si c'est le cas, vous verrez cette icône (<img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto">) près du code du fournisseur. 
+Vous pouvez savoir si un client utilise également mSupply dans son dépôt. Si c'est le cas, vous verrez cette icône (images/is_msupplystoreicon.png" alt="Store" style="width:auto">) près du code du fournisseur. 
 </div>
 
 2. Une fois que vous pressez la touche `Entrer`, votre Expédition est automatiquement créée.
@@ -121,13 +121,13 @@ Vous pouvez savoir si un client utilise également mSupply dans son dépôt. Si 
 Si tout s'est bien passé, vous devriez voir le nom de votre client dans le coin supérieur gauche et le statut devrait être <code>NOUVEAU</code> 
 </div>
 
-![Outbound shipment: created](/docs/distribution/images/os_created_fr.png)
+![Outbound shipment: created](images/os_created_fr.png)
 
 ### Modifier le nom du client
 
 Si vous avez sélectionné le mauvais client, vous pouvez modifier le nom du client dans le champ `Customer Name` ou le sélectionner dans la liste déroulante :
 
-![gif](/docs/distribution/images/os_change_customer.gif)
+![gif](images/os_change_customer.gif)
 
 ### Saisir une référence client
 
@@ -152,7 +152,7 @@ Pour ouvrir le panneau d'information, vous pouvez cliquer sur le bouton `More`, 
 
 Vous pouvez fermer la fenêtre en cliquant sur le bouton `X Close`, situé dans le coin supérieur droit de la fenêtre d'information.
 
-![Open and close the Information Panel](/docs/distribution/images/os_infopanel_openclose.gif)
+![Open and close the Information Panel](images/os_infopanel_openclose.gif)
 
 #### Informations complémentaires
 
@@ -198,12 +198,12 @@ Le status de la séquence se trouve dans le coin inférieur gauche de l'écran e
 Les statuts passés sont mis en évidence en bleu, les statuts suivants apparaissent en gris.
 
 <figure>
-<img src="/docs/distribution/images/os_statussequence2.png" style="width:100%">
+<img src="images/os_statussequence2.png" style="width:100%">
 <figcaption align="center">Status Sequence: status actuel est <code>NEW</code>.</figcaption>
 </figure>
 
 <figure>
-<img src="/docs/distribution/images/os_statussequence3.png" alt="Trulli" style="width:100%">
+<img src="images/os_statussequence3.png" alt="Trulli" style="width:100%">
 <figcaption align="center">Status Sequence: status actuel est </i><code>PICKED</code>.</figcaption>
 </figure>
 
@@ -224,7 +224,7 @@ Si vous survolez le statut des séquences, une fenêtre d'historique des transfe
 Ce transfert a été créé, attribué et prélevé le 29/03/2022.
 </div>
 
-![Outbound status: hover](/docs/distribution/images/os_statussequence_hover.png)
+![Outbound status: hover](images/os_statussequence_hover.png)
 
 ### Case à cocher Hold
 
@@ -232,7 +232,7 @@ Situé dans le coin inférieur gauche, à gauche du statuts de la séquence.
 
 Le fait de cocher la case `Hold` empêche la mise à jour du transfert sortant vers le statut suivant.
 
-![Outbound checkbox](/docs/distribution/images/os_holdcheckbox.png)
+![Outbound checkbox](../../images/holdcheckbox.png)
 
 ### Bouton d'annulation et de confirmation
 
@@ -256,7 +256,7 @@ Il n'est pas nécessaire de mettre à jour un transfert pour qu'il passe au stat
 
 Comme indiqué ci-dessous, appuyez sur la flèche vers le bas du bouton `Confirm` et sélectionnez le statut dans lequel vous souhaitez que le transfert soit mis à jour.
 
-![Skip Status](/docs/distribution/images/os_confirmbutton_skipstatuses.gif)
+![Skip Status](images/os_confirmbutton_skipstatuses.gif)
 
 ## Ajout de lignes à une expédition
 
@@ -264,7 +264,7 @@ Bouton de réapprovisionnement `Add Item` (en haut à droite).
 
 Une nouvelle fenêtre `Add Item` s'ouvre.
 
-![Add Item button](/docs/distribution/images/additembutton.png)
+![Add Item button](images/additembutton.png)
 
 ### Sélectionner un article
 
@@ -276,7 +276,9 @@ Dans la fenêtre `Add Item` vous pouvez rechercher un élément par :
 
 Une fois que votre article est mis en évidence, tapez sur le nom ou appuyez sur `Enter`.
 
-![Alt Text](/docs/distribution/images/os_additem.gif)
+![Add Item list](../../images/adding-an-item-all.png)
+![Add Item by name](../../images/adding-an-item-name.png)
+![Add Item by code](../../images/adding-an-item-code.png)
 
 Une fois l'élément sélectionné, les informations suivantes s'affichent :
 
@@ -290,7 +292,7 @@ Une fois l'élément sélectionné, les informations suivantes s'affichent :
 <b>Example:</b> For the item *030453 - Amoxicillin 250mg tabs*, there are 3527 tabs available. 
 </div>
 
-![add item headers](/docs/distribution/images/additem_headers.png)
+![add item headers](images/additem_headers.png)
 
 #### [Quantité] d'unités à délivrer en paquets de [Taille de l'emballage].
 
@@ -300,7 +302,7 @@ Par défaut, vous êtes invité à délivrer une quantité de **units**. Cependa
 
 La valeur par défaut est `Any` lorsque vous délivrez des unités.
 
-![Outbound Issue quantity](/docs/distribution/images/os_issuequantityinunits.png)
+![Outbound Issue quantity](images/os_issuequantityinunits.png)
 
 #### Liste des lots disponibles :
 
@@ -318,7 +320,7 @@ Il s'agit d'une liste de numéros de lots que vous avez en stock pour cet articl
 - **En attente**: Indiquer si un lot est en attente ou non. Il n'est pas possible d'émettre un lot en attente.
 - **Espace reservé**: La ligne de remplacement est utilisée lorsque la quantité à délivrer est supérieure au stock disponible.
 
-![List of available batch numbers](/docs/distribution/images/os_additem_listofbatches.png)
+![List of available batch numbers](images/os_additem_listofbatches.png)
 
 ### Délivrer une quantité d'unités
 
@@ -329,13 +331,13 @@ Lors de la saisie d'un nombre dans le champ `Issue Quantity`, le système choisi
 Dans l'exemple ci-dessous, nous émettons 100 unités de l'article. Les 100 unités seront prélevées dans le même lot (deuxième ligne). Le premier lot n'a pas été sélectionné car il est périmé. 
 </div>
 
-![additem!](/docs/distribution/images/os_additem_issueunits.png)
+![additem!](images/os_additem_issueunits.png)
 
 <div class="imagetitle">
 Dans cet autre exemple, nous émettons 1200 unités. Le système sélectionne deux lots avec des tailles d'emballage différentes. 
 </div>
 
-![additem!](/docs/distribution/images/os_additem_issueunitsthreebatches.png)
+![additem!](images/os_additem_issueunitsthreebatches.png)
 
 Notez que dans cette liste, les lots qui sont disponibles pour la sélection sont affichés en premier et les lots qui ne le sont pas (en attente ou pas de stock disponible) sont affichés en dessous et dans une police grise.
 
@@ -347,7 +349,7 @@ Vous pouvez décider de délivrer une quantité d'**emballages**. Pour ce faire,
 Imaginons que votre client ne veuille que des emballages de 12 unités. Vous pouvez changer la valeur de la liste déroulante de `Any` à `12`. 
 </div>
 
-![Alt Text](/docs/distribution/images/os_additem_switchtopack.gif)
+![Alt Text](images/os_additem_switchtopack.gif)
 
 Il vous est maintenant proposé d'émettre un certain nombre d'emballages de 12 unités. Seul(s) le(s) numéro(s) de lot avec une taille d'emballage de 12 unités peut(vent) être automatiquement délivré(s).
 
@@ -355,13 +357,13 @@ Il vous est maintenant proposé d'émettre un certain nombre d'emballages de 12 
 Dans l'exemple ci-dessous, nous délivrons 10 emballages de 12 unités :
 </div>
 
-![additem!](/docs/distribution/images/os_additem_issuepacks.png)
+![additem!](images/os_additem_issuepacks.png)
 
 <div class="remarque">
 <b></b> si vous avez déjà introduit une quantité d'unités et que vous passez à une quantité d'emballages, la quantité d'unités sera automatiquement convertie en la quantité correcte d'emballages.  
 </div>
 
-![Alt Text](/docs/distribution/images/os_issuepacks.gif)
+![Alt Text](images/os_issuepacks.gif)
 
 Lorsqu'une taille d'emballage est sélectionnée, les lignes de stock qui ont une taille d'emballage différente ne sont pas disponibles pour la sélection. Ces lignes sont donc répertoriées plus bas dans le tableau et apparaissent en caractères gris, comme les autres lignes non disponibles.
 
@@ -378,7 +380,7 @@ Le champ principal `Quantité à délivrer` sera automatiquement mis à jour ave
 </div>
 
 <figure>
-<img src="/docs/distribution/images/os_additem_manualallocation.gif" alt="Trulli" style="width:100%">
+<img src="images/os_additem_manualallocation.gif" alt="Trulli" style="width:100%">
 <figcaption align="center"><i>Allocation manuelle au niveau du numéro de lot.</i></figcaption>
 </figure>
 
@@ -392,11 +394,11 @@ Les lignes de remplacement peuvent être attribuées ultérieurement lorsque de 
 Étant donné qu'il n'y a pas de stock disponible pour les <i>042744-Diazepam Injection 5mg/ml Amp/2ml</i>, Le système délivre 100 unités dans le champ réservé. 
 </div>
 
-![Alt Text](/docs/distribution/images/os_additem_placeholder.png)
+![Alt Text](images/os_additem_placeholder.png)
 
 Lorsque vous examinez une expédition, vous pouvez voir si une ligne d'expédition n'a pas été allouée ou a été partiellement allouée lorsqu'elle est surlignée en bleu.
 
-![Alt Text](/docs/distribution/images/os_placeholderlines.png)
+![Alt Text](images/os_placeholderlines.png)
 
 ### Confirm Item and Quantity
 
@@ -433,13 +435,13 @@ To edit an shipment line, tap on it. You will be presented with the `Edit Item` 
 3. Go to the `Actions` dropdown menu (top right corner, above the list)
 4. Select the action `Delete selected lines`
 
-![Alt Text](/docs/distribution/images/os_actions_deleteselectedlines.png)
+![Alt Text](images/os_actions_deleteselectedlines.png)
 
 <div class="imagetitle">
 In the below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100mg tabs</i>
 </div>
 
-![Alt Text](/docs/distribution/images/os_deleteselectedlines.gif)
+![Alt Text](images/os_deleteselectedlines.gif)
 
 <div class="conseil">
  <b></b> You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
@@ -472,7 +474,7 @@ Once you all your shipments lines have been allocated, you can **confirm the all
 
 To confirm the allocation, press the `Confirm Allocated` button.
 
-![Alt Text](/docs/distribution/images/os_confirmallocated.gif)
+![Alt Text](images/os_confirmallocated.gif)
 
 Once the allocation is confirmed:
 
@@ -495,7 +497,7 @@ Once all items are picked and packed. You can then confirm the picking of the sh
 
 To confirm that a shipment has been picked, tap on the `Confirm Picked` button.
 
-![Alt Text](/docs/distribution/images/os_confirmpicked.gif)
+![Alt Text](images/os_confirmpicked.gif)
 
 Once picking is confirmed:
 
@@ -533,4 +535,4 @@ To change the view mode, click the `Group by item` switch.
 
 When grouped by item, you can expand the item to see individual batches, or use the expand in the table header to expand all grouped rows. If you click on an item you will also see all selected batches, as shown in this example:
 
-![Group by Item](/docs/distribution/images/os_group_by_item.gif)
+![Group by Item](images/os_group_by_item.gif)

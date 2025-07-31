@@ -19,11 +19,11 @@ La sección de configuración permite configurar datos personalizados para el si
 
 Para ver la configuración de los ajustes, ve a `Ajustes` en la sección inferior del panel de navegación:
 
-![Settings: nav](/docs/settings/images/admin_nav.png)
+![Settings: nav](images/admin_nav.png)
 
 Si estás en el Servidor Central de Open mSupply, verás esta lista de secciones de ajustes:
 
-![Settings: collapsed](/docs/settings/images/settings_collapsed_central.png)
+![Settings: collapsed](images/settings_collapsed_central.png)
 
 Haz clic en la sección `Configuración` para comenzar.
 
@@ -33,15 +33,15 @@ Para operar completamente, la función GAPS requiere una serie de cambios de con
 
 Para añadir los cambios de configuración de GAPS, simplemente haz clic en el botón `Inicializar`, que se muestra a continuación:
 
-![GAPS: uninitialised](/docs/settings/images/gaps_unconfigured.png)
+![GAPS: uninitialised](images/gaps_unconfigured.png)
 
 Una vez configurado, el botón `Inicializar` se desactivará:
 
-![GAPS: initialised](/docs/settings/images/gaps_configured.png)
+![GAPS: initialised](images/gaps_configured.png)
 
 También aparecerá un botón `Editar` en el pie de página, donde podrás editar las propiedades del almacén para el almacén en la que estés registrado:
 
-![Store properties edit](/docs/settings/images/store_properties_edit_footer.png)
+![Store properties edit](images/store_properties_edit_footer.png)
 
 Al hacer clic en ese botón `Editar` se abrirá una nueva ventana, donde podrás [ver y editar las propiedades de tu almacén](/docs/manage/facilities/#editing-your-store-properties).
 

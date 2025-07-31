@@ -20,7 +20,7 @@ Os Programas Básicos de Imunização são configurados no servidor central mSup
 Para a funcionalidade GAPS, apenas terá de configurar uma nova Lista Mestre e marcá-la como um Programa de Imunização.
 
 <div alinhar="centro">
- <img src="/docs/programs/images/og_immunisation_program.png" width="620">
+ <img src="images/og_immunisation_program.png" width="620">
 </div>
 <br />
 
@@ -32,11 +32,11 @@ Depois de o Programa de Imunização base ser criado, pode ser ainda mais config
 
 Selecione `Programas` > `Imunizações` no painel de navegação.
 
-![goto: imunizações](/docs/programs/images/goto_immunizations.png)
+![goto: imunizações](images/goto_immunizations.png)
 
 Será apresentada uma lista de Programas de Vacinação:
 
-![lista de imunizações](/docs/programs/images/immunizations.png)
+![lista de imunizações](images/immunizations.png)
 
 A lista de Programas de Imunização está dividida em 2 colunas:
 
@@ -49,7 +49,7 @@ A lista de Programas de Imunização está dividida em 2 colunas:
 
 Para ver um Programa de Vacinação com mais detalhe, clique sobre ele. Isto levá-lo-á para a página de detalhes desse programa.
 
-![imunizações: detalhe](/docs/programs/images/immunizations_detail.png)
+![imunizações: detalhe](images/immunizations_detail.png)
 
 Pode utilizar o botão "Fechar" no canto inferior direito para fechar a vista de detalhes e voltar à lista de Programas de Imunização.
 
@@ -69,17 +69,17 @@ A lista dos Cursos de Vacinação está dividida em 3 colunas:
 
 Para adicionar um novo curso de vacinação, clique no botão `Adicionar curso de vacinação' no canto superior direito.
 
-![curso de vacinação: botão adicionar](/docs/programs/images/vaccine_course_add_button.png)
+![curso de vacinação: botão adicionar](images/vaccine_course_add_button.png)
 
 Isto abrirá uma nova janela, onde poderá introduzir os detalhes do novo curso de vacinação, por exemplo, nome do curso de vacinação, taxa de desperdício, esquema de dosagem.
 
-![curso de vacinação: criar modal](/docs/programs/images/vaccine_course_add.png)
+![curso de vacinação: criar modal](images/vaccine_course_add.png)
 
 #### Doses
 
 Para adicionar doses ao Curso de Vacinação, clique no botão `(+) Dose`. Isto irá adicionar uma nova linha à tabela `cronograma de dosagem`, onde os detalhes da dose podem ser introduzidos, incluindo quando a dose pode ser administrada.
 
-![curso de vacinação: tabela de edição de doses](/docs/programs/images/vaccine_course_dose_edit.png)
+![curso de vacinação: tabela de edição de doses](images/vaccine_course_dose_edit.png)
 
 A tabela do esquema posológico está dividida em 6 colunas:
 
@@ -104,7 +104,7 @@ Clique em `Cancelar` a qualquer momento para fechar a janela e descartar as suas
 
 To view or edit the details of a Vaccine Course, click on the row in the list. This will re-open the editing window, for you to view or change any details.
 
-![vaccine course: edit modal](/docs/programs/images/vaccine_course_detail.png)
+![vaccine course: edit modal](images/vaccine_course_detail.png)
 
 ### Excluir um curso de vacina
 
@@ -112,13 +112,13 @@ Pode eliminar o Curso de Vacinação da lista.
 
 Selecione o Ciclo de Vacinação que pretende eliminar, assinalando a caixa no canto direito da lista. Pode selecionar mais do que um ciclo de vacinação para ser excluído de uma só vez. Pode até selecioná-los todos utilizando a caixa de seleção principal no cabeçalho da tabela.
 
-![cursos de vacinação: select to delete](/docs/programs/images/master-checkbox-immunisations.png)
+![cursos de vacinação: select to delete](images/master-checkbox-immunisations.png)
 
 O rodapé `Ações` será apresentado na parte inferior do ecrã quando uma linha de imunização for selecionada. Irá exibir o número de linhas de imunização selecionadas e as ações que podem ser tomadas. Clique em `Apagar`.
 
 Ser-lhe-á pedido que confirme que deseja excluir os Cursos de Vacinação selecionados. Prima `Cancelar` para impedir a eliminação ou `Ok` para confirmar.
 
-![cursos de vacinação: confirmar apagar](/docs/programs/images/vaccine_courses_confirm_delete.png)
+![cursos de vacinação: confirmar apagar](images/vaccine_courses_confirm_delete.png)
 
 Uma notificação no canto inferior esquerdo confirmará quantos cursos foram eliminados.
 
@@ -126,8 +126,8 @@ Uma notificação no canto inferior esquerdo confirmará quantos cursos foram el
 
 Os programas de imunização só podem ser geridos no [Open mSupply Central Server](/docs/getting_started/central-server) e requerem a preferência de loja [`mobile: Usa o módulo de vacinas`](https://docs.msupply.org.nz/cold_chain_equipment:mobile?s[]=vaccine#enable_the_vaccine_module_for_the_mobile_store).
 
-![Módulo de vacinas de preferência da unidade de saúde mSupply](/docs/programs/images/vaccine_module.png)
+![Módulo de vacinas de preferência da unidade de saúde mSupply](images/vaccine_module.png)
 
 Para configurar Programas de Imunização ou Cursos de Vacinação, precisa de ter a permissão `Pode modificar dados centrais` ativada no [Abrir separador Permissões do mSupply](https://docs.msupply.org.nz/admin:managing_users?s[]=permission#open_msupply_permissions_tab) no seu Armazenamento Central.
 
-![Pode modificar a permissão de dados central](/docs/programs/images/can_modify_central.png)
+![Pode modificar a permissão de dados central](images/can_modify_central.png)

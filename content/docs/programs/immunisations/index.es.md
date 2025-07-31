@@ -20,7 +20,7 @@ Los Programas Básicos de Inmunización se configuran en el servidor central de 
 Para la funcionalidad de GAPS, solo necesitas configurar una nueva Lista Maestra y marcarla como un Programa de Inmunización.
 
 <div align="center">
-    <img src="/docs/programs/images/og_immunisation_program.png" width="620">
+    <img src="images/og_immunisation_program.png" width="620">
 </div>
 <br />
 
@@ -32,11 +32,11 @@ Una vez creado el Programa Básico de Inmunización, se puede configurar más de
 
 Selecciona `Programas` > `Inmunizaciones` en el panel de navegación.
 
-![goto: immunizations](/docs/programs/images/goto_immunizations.png)
+![goto: immunizations](images/goto_immunizations.png)
 
 Se te mostrará una lista de Programas de Inmunización:
 
-![immunizations list](/docs/programs/images/immunizations.png)
+![immunizations list](images/immunizations.png)
 
 La lista de Programas de Inmunización está dividida en dos columnas:
 
@@ -49,7 +49,7 @@ La lista de Programas de Inmunización está dividida en dos columnas:
 
 Para ver un Programa de Inmunización en detalle, haz clic sobre él. Esto te llevará a la página de detalles de ese programa.
 
-![immunizations: detail](/docs/programs/images/immunizations_detail.png)
+![immunizations: detail](images/immunizations_detail.png)
 
 Puedes usar el botón `Cerrar` en la esquina inferior derecha para cerrar la vista de detalles y regresar a la lista de Programas de Inmunización.
 
@@ -69,17 +69,17 @@ La lista de Programas de Vacunación está dividida en 3 columnas:
 
 Para añadir un nuevo Programa de Vacunación, haz clic en el botón `Añadir programa de vacunación` en la esquina superior derecha
 
-![vaccine course: add button](/docs/programs/images/vaccine_course_add_button.png)
+![vaccine course: add button](images/vaccine_course_add_button.png)
 
 Esto abrirá una nueva ventana, donde podrás ingresar los detalles del nuevo Programa de Vacunación, por ejemplo, nombre del programa de vacunación, tasa de desperdicio, horario de dosis.
 
-![vaccine course: create modal](/docs/programs/images/vaccine_course_add.png)
+![vaccine course: create modal](images/vaccine_course_add.png)
 
 #### Dosis
 
 Para agregar dosis al Programa de Vacunación, haz clic en el botón `(+) Dosis`. Esto añadirá una nueva fila a la tabla de `cronograma de dosis`, donde se pueden ingresar los detalles de la dosis, incluyendo cuándo se puede administrar la dosis.
 
-![vaccine course: dose edit table](/docs/programs/images/vaccine_course_dose_edit.png)
+![vaccine course: dose edit table](images/vaccine_course_dose_edit.png)
 
 La tabla de Cronograma de Dosis está dividida en 6 columnas:
 
@@ -104,7 +104,7 @@ Haz clic en `Cancelar` en cualquier momento para cerrar la ventana y descartar l
 
 Para ver o editar los detalles de un Programa de Vacunación, haz clic en la fila de la lista. Esto abrirá nuevamente la ventana de edición, donde podrás ver o cambiar cualquier detalle.
 
-![vaccine course: edit modal](/docs/programs/images/vaccine_course_detail.png)
+![vaccine course: edit modal](images/vaccine_course_detail.png)
 
 ### Eliminar un Programa de Vacunación
 
@@ -112,15 +112,15 @@ Puedes eliminar Programas de Vacunación de la lista.
 
 Selecciona el Programa de Vacunación que deseas eliminar marcando la casilla en el extremo derecho de la lista. Puedes seleccionar más de un Programa de Vacunación para eliminar a la vez. Incluso puedes seleccionarlos todos utilizando la casilla maestra en el encabezado de la tabla.
 
-![vaccine courses: select to delete](/docs/programs/images/vaccine_courses_select.png)
+![vaccine courses: select to delete](images/vaccine_courses_select.png)
 
 Abre el menú desplegable de `Acciones` en la esquina superior derecha, sobre la lista, y selecciona `Eliminar las líneas seleccionadas`.
 
-![vaccine courses: actions](/docs/programs/images/immunizations_actions.png)
+![vaccine courses: actions](images/immunizations_actions.png)
 
 Se te pedirá que confirmes si deseas eliminar los Programas de Vacunación seleccionados. Presiona `Cancelar` para evitar la eliminación, o `Ok` para confirmar.
 
-![vaccine courses: confirm delete](/docs/programs/images/vaccine_courses_confirm_delete.png)
+![vaccine courses: confirm delete](images/vaccine_courses_confirm_delete.png)
 
 Una notificación en la esquina inferior izquierda confirmará cuántos programas fueron eliminados.
 
@@ -128,8 +128,8 @@ Una notificación en la esquina inferior izquierda confirmará cuántos programa
 
 Los Programas de Vacunación solo pueden ser gestionados en el [Servidor Central de Open mSupply](/docs/getting_started/central-server) y requieren la preferencia de almacén [`mobile: Usa el módulo de vacunas`](https://docs.msupply.org.nz/cold_chain_equipment:mobile?s[]=vaccine#enable_the_vaccine_module_for_the_mobile_store).
 
-![mSupply Store Preference Vaccine Module](/docs/programs/images/vaccine_module.png)
+![mSupply Store Preference Vaccine Module](images/vaccine_module.png)
 
 Para configurar Programas de Vacunación o Programas de Vacunas, necesitas tener habilitado el permiso `Puede modificar datos centrales` en la [Pestaña de Permisos de Open mSupply](https://docs.msupply.org.nz/admin:managing_users?s[]=permission#open_msupply_permissions_tab) en tu Tienda Central.
 
-![Can Modify Central Data Permission](/docs/programs/images/can_modify_central.png)
+![Can Modify Central Data Permission](images/can_modify_central.png)

@@ -1,9 +1,8 @@
 +++
 title = "Documentation"
-description = "Common images"
-template = "docs/section.fr.html"
+description = "The documents of the AdiDoks theme."
 sort_by = "weight"
-weight = 6
-draft = false
+weight = 1
+template = "docs/section.fr.html"
 insert_anchor_links = "right"
 +++

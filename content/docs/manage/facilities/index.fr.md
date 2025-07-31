@@ -19,11 +19,11 @@ La liste des installations n'est disponible que sur le [Serveur Central Open mSu
 
 Choisissez `Manage` > `Facilities` dans le panneau de navigation.
 
-![goto: facilities](/docs/manage/images/goto_facilities.png)
+![goto: facilities](images/goto_facilities.png)
 
 Une liste des dépôts de votre système s'affiche.
 
-![facility list](/docs/manage/images/facilities.png)
+![facility list](images/facilities.png)
 
 La liste des dépôts est divisée en 5 colonnes:
 
@@ -36,20 +36,20 @@ La liste des dépôts est divisée en 5 colonnes:
 | **Donateur**    | Si ce dépôt est un donateur    |
 
 <div class="tip">
-Vous pouvez savoir si un client utilise également Open mSupply dans son entrepôt s'il a une icône comme celle-ci <img src="/docs/replenishment/images/is_msupplystoreicon.png" alt="Store" style="width:auto"> à côté du code. 
+Vous pouvez savoir si un client utilise également Open mSupply dans son entrepôt s'il a une icône comme celle-ci <img src="images/is_msupplystoreicon.png" alt="Store" style="width:auto"> à côté du code. 
 </div>
 
 La liste peut afficher un nombre fixe de dépôts par page. Dans le coin inférieur gauche, vous pouvez voir combien de magasins sont actuellement affichés sur votre écran.
 
-![Pagination: showing](../../images/list_showing.png)
+![Pagination: showing](images/list_showing.png)
 
 Si vous avez plus de dépôts que la limite actuelle, vous pouvez naviguer vers les autres pages en cliquant sur le numéro de la page ou en utilisant les flèches droite ou gauche (en bas à droite).
 
-![Pagination: navigating](../../images/list_pagenumbers.png)
+![Pagination: navigating](images/list_pagenumbers.png)
 
 Vous pouvez également sélectionner un nombre différent de lignes à afficher par page en utilisant l'option située en bas à droite de la page.
 
-![Rows per page](../../images/rows-per-page-select.png)
+![Rows per page](images/rows-per-page-select.png)
 
 ### Searching facilities
 
@@ -57,22 +57,18 @@ Vous pouvez filtrer la liste des établissements par nom ou par code. Cela peut 
 
 Dans la barre de recherche située en haut à gauche de votre écran, tapez une partie (ou la totalité) du nom ou du code d'un magasin. La liste contiendra alors tous les établissements correspondants :
 
-![Facilities filter](/docs/manage/images/facilities_filter.png)
+![Facilities filter](images/facilities_filter.png)
 
 ## Odifier les propriétés d'un dépôt
 
 Pour modifier les propriétés d'un dépôt dans la liste, cliquez dessus. Cela ouvrira une nouvelle fenêtre `Modifier dépôt`.
 
-<div class='tip'>
-Si vous voyez un message de ce type lorsque vous ouvrez la fenêtre Modifier le dépôt, cela signifie que vous n'avez pas configuré les propriétés du dépôt ! Pour les configurer, veuillez contacter le service d'assistance ou <a href='/docs/settings/configuration/#gaps-store-properties'>activer les propriétés GAPS</a>.
-
-![Facilities: no properties](/docs/manage/images/facilities-no-properties-defined.png)
-
-</div>
+Si vous voyez un message de ce type lorsque vous ouvrez la fenêtre Modifier le dépôt, cela signifie que vous n'avez pas configuré les propriétés du dépôt ! Pour les configurer, veuillez contacter le service d'assistance ou
+![Facilities: no properties](images/facilities-no-properties-defined.png)
 
 Dans cette fenêtre, vous pouvez modifier les propriétés du dépôt.
 
-![Edit facility](/docs/manage/images/edit_properties.png)
+![Edit facility](images/edit_properties.png)
 
 - Cliquez sur `OK` pour enregistrer vos modifications et fermer la fenêtre.
 - Cliquez sur `OK & Next` pour enregistrer vos modifications et commencer à éditer le prochain dépôt.
@@ -82,7 +78,7 @@ Dans cette fenêtre, vous pouvez modifier les propriétés du dépôt.
 
 Any store can view and edit their own properties. If properties have been configured, an additional `Edit` button will be visible in the app footer, next to your store name:
 
-![Footer: store edit](/docs/manage/images/footer_store_edit.png)
+![Footer: store edit](images/footer_store_edit.png)
 
 Cliquez sur le bouton `Modifier` pour ouvrir une nouvelle fenêtre, dans laquelle vous pouvez modifier les propriétés de votre dépôt.
 
@@ -90,7 +86,7 @@ Cliquez sur le bouton `Modifier` pour ouvrir une nouvelle fenêtre, dans laquell
 Certaines propriétés peuvent être désactivées ici. Cela signifie qu'elles ne peuvent être modifiées que sur le serveur central d'Open mSupply.
 </div>
 
-![Edit own store](/docs/manage/images/edit_remote_store.png)
+![Edit own store](images/edit_remote_store.png)
 
 Une fois que vous êtes satisfait de vos modifications, cliquez sur `OK` pour enregistrer et fermer la fenêtre.
 
@@ -101,4 +97,4 @@ Cliquez sur `annuler` à tout moment pour annuler vos modifications et fermer la
 Les installations ne sont visibles que sur le [Serveur Central Open mSupply](/docs/getting_started/central-server).
 
 Pour modifier les installations de manière centralisée, vous devez disposer de l'autorisation `Peut modifier les données centrales`, activée dans la section [omSupply Permissions Tab](https://docs.msupply.org.nz/admin:managing_users?s[]=permission#omsupply_permissions_tab) sur le dépôt.
-![Can Modify Central Data Permission](/docs/programs/images/can_modify_central.png)
+![Can Modify Central Data Permission](images/can_modify_central.png)

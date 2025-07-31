@@ -24,18 +24,18 @@ At the moment, you are only able to view your supplier and their details. In the
 
 To view the suppliers of your store, go to `Replenishment` > `Supplier` in the navigation panel: 
 
-![Suppliers Nav](/docs/replenishment/images/sup_gotosup.png)
+![Suppliers Nav](images/sup_gotosup.png)
 
 A list of your store's suppliers appears: 
 
-![Suppliers List](/docs/replenishment/images/sup_suplist.png)
+![Suppliers List](images/sup_suplist.png)
 
 
 ## Viewing Suppliers Details
 
 To see the details of one supplier, simply tap on its name: 
 
-![Supplier Details](/docs/replenishment/images/sup_supdetails.png)
+![Supplier Details](images/sup_supdetails.png)
 
 * **Address**: Address of the supplier
 * **Code**: This is the code assigned to this supplier in mSupply

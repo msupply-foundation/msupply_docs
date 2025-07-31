@@ -18,11 +18,11 @@ The Global preferences list is available only on the [Open mSupply Central Serve
 ## Viewing Global Preferences
 
 To configure Global Preferences, go to the Global Preferences page under the Manage menu:
-![goto: global preferences](/docs/manage/images/goto_global_preferences.png)
+![goto: global preferences](images/goto_global_preferences.png)
 
 You will be presented with the set of currently available Global Preferences:
 
-![facility list](/docs/manage/images/edit_global_preferences.png)
+![facility list](images/edit_global_preferences.png)
 
 Global Preferences can be configured by turning these options on or off. Any updates will be saved automatically.
 
@@ -32,8 +32,7 @@ Global Preferences can be configured by turning these options on or off. Any upd
 - Display Population Based Forecasting
 - Show Contact Tracing
 
-| Preference Name                          | Description                                                                                                          |
-| :--------------------------------------- | :------------------------------------------------------------------------------------------------------------------- |
-| **Allow tracking of stock by donor**     | Adds a donor column to stock management screens. This allows you to track which donor a stock item is from.          |
-| **Display Population Based Forecasting** | Affects suggested quantity of Requisitions when using a plugin. See plugins for further details. TODO: update this?? |
-| **Show Contact Tracing**                 | Enables the [Contact Tracing](/docs/programs/program-module/#contact-tracing) feature for Patients                   |
+| Preference Name                      | Description                                                                                                 |
+| :----------------------------------- | :---------------------------------------------------------------------------------------------------------- |
+| **Allow tracking of stock by donor** | Adds a donor column to stock management screens. This allows you to track which donor a stock item is from. |
+| **Show Contact Tracing**             | Enables the [Contact Tracing](/docs/programs/program-module/#contact-tracing) feature for Patients          |

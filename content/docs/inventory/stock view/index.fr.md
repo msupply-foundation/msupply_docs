@@ -19,11 +19,11 @@ L'une des plus importantes, mais la plus simple des tâches dans mSupply est de 
 
 Dans le menu de navigation, allez dans `Inventaire` et cliquez sur le sous-menu `Stock`:
 
-![Stock: nav](/docs/inventory/images/stock_gotostock.png)
+![Stock: nav](images/stock_gotostock.png)
 
 Une liste détaillée contenant la liste de vos produits apparaît:
 
-![Stock: list](/docs/inventory/images/stock_viewstock_fr.png)
+![Stock: list](images/stock_viewstock_fr.png)
 
 La liste est divisée en 8 colonnes:
 
@@ -42,4 +42,4 @@ Vous pouvez filtrer la liste par le nom ou le code du produit. Cela peut être u
 
 Tapez le nom du produit ou le code dans le champs `Entrez le code ou le nom du produit`:
 
-![Stock: search](/docs/inventory/images/stock_search.gif)
+![Stock: search](images/stock_search.gif)

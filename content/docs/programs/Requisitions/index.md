@@ -32,11 +32,11 @@ Let's create a program based Internal Order.
 
 1. Click on the `New Order` button (top right corner):
 
-![Internal Order: new order](/docs/replenishment/images/intord_newreqbutton.png)
+![Internal Order: new order](images/intord_newreqbutton.png)
 
 2. If you have programs configured, you'll see a different modal to the usual one:
 
-![Internal Order: new program order](/docs/programs/images/new_internal_order.png)
+![Internal Order: new program order](images/new_internal_order.png)
 
 Here, you can select the:
 
@@ -57,7 +57,7 @@ The programs and order period you see will be affected by the store tags and pro
 
 There are several areas where you'll see additional information when using a program based Internal Order.
 
-![Internal Order: program order](/docs/programs/images/internal_order_detail.png)
+![Internal Order: program order](images/internal_order_detail.png)
 
 1. The `Add item` and `Add from master list` buttons are disabled. Items in a program based Internal Order are configured by the program.
 2. A message explaining that you also cannot edit the target and reorder threshold MOS values on a program based Internal Order. These values are configured by the program.
@@ -73,7 +73,7 @@ editable. To enable these columns you need to configure store preferences to
 enable these extra columns as described in the [mSupply Desktop
 documentation](https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab).
 
-![Show extra fields on requisitions preference](/docs/programs/images/show_extra_fields_on_requisitions.png)
+![Show extra fields on requisitions preference](images/show_extra_fields_on_requisitions.png)
 
 Enabling the preference will show the extra columns on the requisition list page:
 
@@ -96,18 +96,18 @@ Enabling the preference will show the extra columns on the requisition list page
 The line edit page will also contain the extra columns.
 
 ![Program Requisition Line
-Edit](/docs/programs/images/internal_order_extra_fields_edit.png)
+Edit](images/internal_order_extra_fields_edit.png)
 
 If your store has the store preference `Use consumption &
 stock from customers for internal orders` enabled
 
 ![Use consumption & stock from customers for internal
-orders](/docs/programs/images/consumption_data_pref.png)
+orders](images/consumption_data_pref.png)
 
 Then you will see an extra table underneath the input fields which shows the
 customer's data based on their program requisitions for that period.
 
-![](/docs/programs/images/internal_order_item_info.png)
+![](images/internal_order_item_info.png)
 
 The table has 6 columns:
 
@@ -124,7 +124,7 @@ The table has 6 columns:
 
 The list view has gained some additional columns, showing the program related data:
 
-![Requisition: list](/docs/programs/images/requisition-list.png)
+![Requisition: list](images/requisition-list.png)
 
 - **Program**: the name of the program this Internal Order was created for
 - **Order type**: the name of the order type ( typically, a normal or emergency order )
@@ -141,11 +141,11 @@ documentation to find out how to set up programs and add tags to customers.
 On the Requisitions page, click on the `New Requisition` button (top right
 corner).
 
-![New Requisition](/docs/programs/images/add_requisition_button.png)
+![New Requisition](images/add_requisition_button.png)
 
 If you have programs set up, you'll see a different modal to the usual one:
 
-![New Program Requisition](/docs/programs/images/add_program_requisition.png)
+![New Program Requisition](images/add_program_requisition.png)
 
 From the `Program` tab, you can create a Program Requisition by selecting the:
 
@@ -185,9 +185,9 @@ Enabling the preference will show the extra columns on the requisition list page
 The line edit page will also contain the extra columns as well.
 
 ![Program Requisition Line
-Edit](/docs/programs/images/program_requisition_line_edit.png)
+Edit](images/program_requisition_line_edit.png)
 
 An additional section will be visible in the side panel showing the program
 information.
 
-![Requisition: detail](/docs/programs/images/requisition-detail.png)
+![Requisition: detail](images/requisition-detail.png)

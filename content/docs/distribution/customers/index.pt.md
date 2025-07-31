@@ -22,7 +22,7 @@ Neste momento, só pode visualizar os seus clientes e as suas informações. No 
 
 Para visualizar os clientes da sua loja, aceda ao menu `Distribuição` e clique em `Clientes`.
 
-![Página](/docs/distribution/images/cust_gotocust2.png)
+![Página](images/cust_gotocust2.png)
 
 Será apresentada uma lista de clientes visíveis na sua loja.
 
@@ -38,4 +38,4 @@ Se não encontrar o cliente que procura, contacte o seu administrador.
 
 Toque num dos seus clientes para ver os seus detalhes.
 
-![Nome Visualização detalhada](/docs/distribution/images/cust_detailedview.png)
+![Nome Visualização detalhada](images/cust_detailedview.png)

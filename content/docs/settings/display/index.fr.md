@@ -21,17 +21,17 @@ Explorons ce qui est possible...
 
 Pour accéder aux paramètres d'affichage, allez à `Administration` dans la partie inférieure du panneau de navigation :
 
-![Location: nav](/docs/settings/images/admin_nav_fr.png)
+![Location: nav](../images/admin_nav_fr.png)
 
 Vous verrez la section des paramètres d'affichage en haut de la page :
 
-![Location: list](/docs/settings/images/display_settings_fr.png)
+![Location: list](images/display_settings_fr.png)
 
 ## La Langue
 
 Pour changer de langue, il vous suffit de sélectionner dans la liste déroulante
 
-![Language](/docs/settings/images/change_language_fr.png)
+![Language](images/change_language_fr.png)
 
 La langue sélectionnée sera utilisée pour tout ce que vous faites sur l'application. Si vous rechargez la page ou ouvrez un nouvel onglet, cette langue sera utilisée. Cependant si vous visualisez l'application dans un autre navigateur (par exemple Firefox après avoir changé la langue dans Chrome) vous devrez sélectionner à nouveau la langue.
 
@@ -39,9 +39,9 @@ La langue sélectionnée sera utilisée pour tout ce que vous faites sur l'appli
 
 Il est possible d'utiliser un logo personnalisé pour l'application. Cela s'affiche dans la navigation de gauche et sur l'écran de connexion. Par exemple:
 
-![Custom logo login](/docs/settings/images/custom_logo_login.png)
+![Custom logo login](images/custom_logo_login.png)
 
-![Custom logo login](/docs/settings/images/custom_logo_nav.png)
+![Custom logo login](images/custom_logo_nav.png)
 
 Le logo devra être dans le format `svg`. Pour mettre à jour, il suffit de
 
@@ -49,7 +49,7 @@ Le logo devra être dans le format `svg`. Pour mettre à jour, il suffit de
 - copier le texte du fichier .svg et collez-le dans la zone de texte
 - cliquer sur le bouton _Enregistrer_
 
-![Edit custom logo](/docs/settings/images/edit_logo.png)
+![Edit custom logo](images/edit_logo.png)
 
 ## Thème personnalisé
 
@@ -59,4 +59,4 @@ Vous pouvez également configurer un look personnalisé en utilisant un thème p
 - vous verrez un échantillon du thème actuel dans la zone de texte - cela vous montre ce qui peut être mis à jour
 - modifier le thème et cliquer sur _Enregistrer_ pour afficher les résultats
 
-![Edit custom logo](/docs/settings/images/edit_theme.png)
+![Edit custom logo](images/edit_theme.png)

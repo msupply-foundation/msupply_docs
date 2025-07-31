@@ -21,21 +21,21 @@ Let's explore what's possible...
 
 To view the display settings, go to `Settings` in the lower section of the navigation panel:
 
-![Location: nav](/docs/settings/images/admin_nav.png)
+![Location: nav](../images/admin_nav.png)
 
 You will see the list of settings sections:
 
-![Admin: collapsed](/docs/settings/images/admin_collapsed.png)
+![Admin: collapsed](images/admin_collapsed.png)
 
 You will see the `Display settings` at the top, click on this to view the options:
 
-![Location: list](/docs/settings/images/display_settings.png)
+![Location: list](images/display_settings.png)
 
 ## Language
 
 To change the language, you simply have to select from the drop down list. The language selected will only affect you - each user can select the language which they want to view.
 
-![Language](/docs/settings/images/change_language.png)
+![Language](images/change_language.png)
 
 The selected language will be used for everything you do on the site. If you reload the page, open a new tab, or come back to the site at a later date, then this language will be used. However if you view the site in a different browser (for example Firefox after changing the language in Chrome) you will need to select the language again.
 
@@ -43,9 +43,9 @@ The selected language will be used for everything you do on the site. If you rel
 
 It is possible to use a custom logo for the site. The new logo will be shown for all users of the site, so take care! The logo shows in the left navigation and on the login screen. For example:
 
-![Custom logo login](/docs/settings/images/custom_logo_login.png)
+![Custom logo login](images/custom_logo_login.png)
 
-![Custom logo login](/docs/settings/images/custom_logo_nav.png)
+![Custom logo login](images/custom_logo_nav.png)
 
 The logo will need to be in the `svg` format. To update, simply
 
@@ -53,7 +53,7 @@ The logo will need to be in the `svg` format. To update, simply
 - copy the text of the .svg file and paste it into the text area
 - click save
 
-![Edit custom logo](/docs/settings/images/edit_logo.png)
+![Edit custom logo](images/edit_logo.png)
 
 ## Custom theme
 
@@ -64,4 +64,4 @@ To update the theme:
 - you'll see a sample of the current theme in the text area - this shows you what can be updated
 - edit the theme and click save to view the results
 
-![Edit custom logo](/docs/settings/images/edit_theme.png)
+![Edit custom logo](images/edit_theme.png)

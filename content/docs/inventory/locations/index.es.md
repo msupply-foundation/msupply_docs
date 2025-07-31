@@ -22,28 +22,28 @@ Las ubicaciones en mSupply son los lugares donde almacenas el inventario.
 
 Para ver las ubicaciones de almacenamiento de tu almacén, ve a `Invenario` > `Ubicaciones` en el panel de navegación:
 
-![Location: nav](../images/loc_gotoloc.png)
+![Location: nav](images/loc_gotoloc.png)
 
 Verás una lista de tus ubicaciones de almacenamiento:
 
-![Location: list](../images/loc_loclist.png)
+![Location: list](images/loc_loclist.png)
 
 ## Buscar una ubicación específica
 
 Puedes filtrar la lista por nombre de ubicación o por estado de espera.
 
-![Location: filter](../images/location_filter.png)
+![Location: filter](images/location_filter.png)
 
 
 ## Crear una nueva ubicación
 
 Para crear una nueva ubicación, haz clic en el botón `Nueva Ubicación` en la esquina superior derecha de la pantalla:
 
-![Location: new location button](../images/loc_newlocbutton.png)
+![Location: new location button](images/loc_newlocbutton.png)
 
 Se abrirá una ventana como esta:
 
-![Location: create location](../images/loc_createloc.png)
+![Location: create location](images/loc_createloc.png)
 
 1. **Nombre**: Ingresa el nombre de la nueva ubicación.
 2. **Código**: Código: Ingresa un código para la nueva ubicación

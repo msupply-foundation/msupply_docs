@@ -27,9 +27,13 @@ Une barre de notification apparaîtra en haut de toutes les pages si toutes les 
 
 Voici à quoi ressemble la barre de notification, affichée en haut de la page du tableau de bord :
 
-![notification bar](/docs/coldchain/images/notification_bar.png)
+![notification bar](images/notification_bar.png)
 
-<div class="tip">ISi le module Vaccin est activé pour le site et que l'utilisateur n'est pas autorisé à consulter les enregistrements de température, ou si une autre erreur se produit, une notification s'affiche lors de la première connexion ou du changement de msite : <p><img src="/docs/coldchain/images/notification_warning.png" alt="Notification permission warning" /></p>Cette notification a pour seul but d'informer l'utilisateur qu'il ne sera pas averti en cas de dépassement de température.</div>
+<div class="tip">ISi le module Vaccin est activé pour le site et que l'utilisateur n'est pas autorisé à consulter les enregistrements de température, ou si une autre erreur se produit, une notification s'affiche lors de la première connexion ou du changement de msite :</div>
+
+![Notification permission warning](images/notification_warning.png)
+
+Cette notification a pour seul but d'informer l'utilisateur qu'il ne sera pas averti en cas de dépassement de température.
 
 <br/>
 

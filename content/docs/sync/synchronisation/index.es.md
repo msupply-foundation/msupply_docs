@@ -18,11 +18,11 @@ top = false
 
 Para ver el estado de sincronización, ve a `Sincronización` en la sección inferior del panel de navegación:
 
-![sync: nav](/docs/sync/images/sync_nav.png)
+![sync: nav](images/sync_nav.png)
 
 La página muestra el número de registros que esperan ser enviados al servidor central y la hora en que se realizó la última sincronización.
 
-![sync: status](/docs/sync/images/sync_status.png)
+![sync: status](images/sync_status.png)
 
 ## Sincronización Manual
 
@@ -30,10 +30,14 @@ En esta pantalla de sincronización también se puede iniciar una sincronizació
 
 Para iniciar una sincronización manualmente, simplemente haga clic en el botón `¡Sincronizar ahora!`. Cuando lo hagas, verás que el botón cambia a un spinner y el progreso se indica con los iconos de los pasos que cambian para mostrar cuál está activo en ese momento. Por ejemplo, en la imagen siguiente se muestra que `Obtener Remotamente` está activo.
 
-![sync: manual](/docs/sync/images/sync_in_progress.png)
+![sync: manual](images/sync_in_progress.png)
 
-Aquí está el proceso completo en acción, con los pasos ralentizados. Notará que al intentar esto, la sincronización suele ser muy rápida, aunque depende de la cantidad de elementos que tenga que sincronizar:
+Notará los totales debajo de los pasos `Push V6` y `Push` - este es el número de cambios a ser _procesados_ por cada paso.
 
-![sync: manual](/docs/sync/images/sync.gif)
+Los registros serán enviados al servidor central de Open mSupply (V6) o al servidor central de mSupply, pero necesitan ser procesados antes de saber a dónde ir.
 
-Si se encuentran errores durante el progreso de sincronización, estos también se mostrarán en esta pantalla. Pasa el cursor sobre el icono `i` para ver detalles adicionales.
+Por lo tanto, en el ejemplo anterior, se envían 4 registros de sincronización en total, no 8.
+
+Si se produce algún error durante el proceso de sincronización, también lo verá en esta pantalla. Pasa el ratón por encima del icono `i` para ver más detalles.
+
+![sync: error](images/sync_error.png)

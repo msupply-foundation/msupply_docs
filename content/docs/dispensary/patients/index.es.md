@@ -24,13 +24,13 @@ Para utilizar pacientes, asegúrate de que tu almacén esté configurado en el m
 
 Haz clic en `Dispensario` > `Pacientes` en el panel de navegación.
 
-![dispensary menu](/docs/dispensary/images/dispensary_menu.png)
+![dispensary menu](images/dispensary_menu.png)
 
 Se mostrará una lista de pacientes visibles para tu almacén.
 
 ### Lista de Pacientes
 
-![](/docs/dispensary/images/patient-list-view.png)
+![](images/patient_list_view.png)
 
 1. La lista de pacientes está dividida en 8 columnas:
 
@@ -61,19 +61,13 @@ Se mostrará una lista de pacientes visibles para tu almacén.
 
 Puedes filtrar la lista de pacientes utilizando la barra de búsqueda en la parte superior de la página. Esto puede ser útil si estás buscando a un paciente específico. Por defecto, la barra de búsqueda incluirá los filtros para: Nombre, Apellido e ID del Paciente.
 
-![Patient filter](/docs/dispensary/images/patient_filter.png)
+![Patient filter](images/patient_filter.png)
 
 Por ejemplo, para filtrar por género, haz clic en `Filtros`, selecciona `Género`, y luego elige el género por el que deseas filtrar.
 
-![Patient filter gender](/docs/dispensary/images/patient_filter.gif)
-
 ### Exportar pacientes
 
-La lista de pacientes puede exportarse a un archivo separado por comas (CSV). Simplemente haz clic en el botón de exportar (ubicado en la parte superior derecha de la página)
-
-![Export button](/docs/distribution/images/export.png)
-
-El archivo se descargará automáticamente. La función de exportación descargará todos los pacientes, no solo los de la página actual, en caso de que tengas más de 20.
+La lista de pacientes puede exportarse a un archivo separado por comas (CSV). Simplemente haz clic en el botón de exportar (ubicado en la parte superior derecha de la página). El archivo se descargará automáticamente. La función de exportación descargará todos los pacientes, no solo los de la página actual, en caso de que tengas más de 20.
 
 ### Crear un nuevo paciente
 
@@ -81,11 +75,11 @@ Haz clic en el botón `Nuevo Paciente` en la esquina superior derecha.
 
 Se abrirá una ventana para ingresar los datos del paciente. Debes completar el código, el nombre y el apellido del paciente para habilitar el botón `Ok & siguiente`. Si no deseas ingresar el nombre real del paciente, puedes usar un seudónimo.
 
-![New Patient](/docs/dispensary/images/patient_new.png)
+![New Patient](images/patient_new.png)
 
 Si ya existe un paciente o pacientes con un nombre coincidente, aparecerá una ventana para seleccionarlo.
 
-![New Patient](/docs/dispensary/images/patient_search.png)
+![New Patient](images/patient_search.png)
 
 Al hacer clic en el paciente coincidente, serás redirigido a la página de detalles de ese paciente.
 
@@ -93,27 +87,27 @@ Sin embargo, si no hay pacientes coincidentes o deseas crear un nuevo paciente c
 
 Luego, haz clic en el botón `Crear` en la parte inferior derecha de la página para finalizar la creación del paciente.
 
-![New Patient](/docs/dispensary/images/patient_creation_detail.png)
+![New Patient](images/patient_creation_detail.png)
 
 ### Buscar un Paciente
 
 Si seguiste el proceso anterior, podrías ver un ícono diferente a la derecha de los detalles del paciente en la pantalla de resultados de búsqueda:
 
-![Fetch patient button](/docs/dispensary/images/fetch_patient_button.png)
+![Fetch patient button](images/fetch_patient_button.png)
 
 A veces, el registro del paciente que estás buscando ya ha sido creado en otro sitio. Este ícono de "descarga" indica que hay un paciente que coincide con tus criterios de búsqueda actuales, y puedes descargar todos sus datos existentes de paciente a tu sitio.
 
 Para usar este registro de paciente, primero debes obtener los detalles del paciente. Haz clic en la fila del paciente (la cual tiene un mensaje emergente como se muestra a continuación):
 
-![Fetch patient row](/docs/dispensary/images/fetch_patient_row.png)
+![Fetch patient row](images/fetch_patient_row.png)
 
 Luego, se te pedirá confirmar la acción:
 
-![Fetch patient confirmation](/docs/dispensary/images/fetch_patient_confirmation.png)
+![Fetch patient confirmation](images/fetch_patient_confirmation.png)
 
 Si la operación es exitosa, recibirás un mensaje adicional:
 
-![Fetch patient done](/docs/dispensary/images/fetch_patient_done.png)
+![Fetch patient done](images/fetch_patient_done.png)
 
 Haciendo clic en el botón `Ver Paciente` te llevará a la pantalla que muestra los detalles del paciente. El paciente ya está disponible para ser prescrito, inscrito en un programa y para crear encuentros. Puedes actualizar los detalles del paciente y sincronizarlos de vuelta al sitio que originalmente creó el registro del paciente.
 

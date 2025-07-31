@@ -26,14 +26,14 @@ If you are managing your store via an android tablet then you do not need a Zebr
 
 On the Open mSupply app setting, ensure that Open mSupply has the permission to use the camera.
 
-![Give openmSupply the permission for the camera](images-en/App_camera_Permission_controller.jpg)
+![Give openmSupply the permission for the camera](images/App_camera_Permission_controller.jpg)
 
 
 The scanners support 1D and 2D barcodes, and can parse the information from a GS1 barcode in order to read the GTIN-14 code, batch number and expiry date.
 As an example, barcodes could look like this:
 
-![GS1 128 barcode](images-en/GS1-128.png)
-![GS1 QR barcode](images-en/GS1-QR.png)
+![GS1 128 barcode](images/GS1-128.png)
+![GS1 QR barcode](images/GS1-QR.png)
 
 ### Introducing barcode to stock
 You may find that sometimes the stock that you have lacks the barcode when a suitable GTIN-14 code already exists. If this is the case then you can view the stock and either via the android tablet (inbuilt camaera) or via the windows exe (scanner hardware), you can then assign the missing barcode. 
@@ -47,14 +47,14 @@ on OpenmSupply :
 * See that the `Barcode` field now has the code.
 
 
-![Introdicing barcode to stock](images-en/view_stock_adding_barcode.jpg)
+![Introdicing barcode to stock](images/view_stock_adding_barcode.jpg)
 
 
 ### Issuing stock out using the barcode
 
 To begin, open the Outbound Shipment. If the status is `New`, `Allocated` or `Picked` you can start and stop the scanner using the `Scan` button:
 
-![Scan button](/docs/distribution/images/os_scan_button.png)
+![Scan button](images/os_scan_button.png)
 
 <div class="tip">You can also press the 'control (ctrl)' and 's' keys at the same time to start (and stop) scanning</div>
 
@@ -64,7 +64,7 @@ Once the scanner is started you can scan items. Each time a barcode is detected 
 
 In addition, if the scanned barcode provides batch information and a match exists in your database, then all other batch lines are disabled, and the matching line is focused.
 
-![Adding items by scanning](/docs/distribution/images/add-item-by-barcode.gif)
+![Adding items by scanning](images/add-item-by-barcode.gif)
 
 After entering a quantity of the item, click `Ok` as usual.
 
