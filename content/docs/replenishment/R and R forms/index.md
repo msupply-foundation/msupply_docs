@@ -18,7 +18,7 @@ top = false
 
 To use R&R Forms, ensure that you enable the store preference for `Open mSupply: Uses program module`.
 
-![Store preference](images/program_pref.png)
+![Store preference](../../programs/Program-module/images/program_pref.png)
 
 You'll also need a program configured and visible in your store, and the program will need a period schedule associated with it.
 

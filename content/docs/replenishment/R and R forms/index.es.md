@@ -18,7 +18,7 @@ top = false
 
 Para utilizar los Formularios R&R, asegúrate de habilitar la preferencia del almacén para `Open mSupply: Utiliza el módulo del programa`.
 
-![Store preference](images/program_pref.png)
+![Store preference](../../programs/Program-module/images/program_pref.png)
 
 También necesitarás un programa configurado y visible en tu tienda, y dicho programa deberá tener un calendario de períodos asociado.
 
@@ -70,30 +70,30 @@ Una vez que estés satisfecho con tus opciones, haz clic en `OK` para generar el
 
 ![R&R Detail view](images/rnr_detail.png)
 
-El formulario R&R contiene las siguientes columnas. Las columnas calculadas/no editables están en gris. Las columnas marcadas con un asterisco (*) son editables.
+El formulario R&R contiene las siguientes columnas. Las columnas calculadas/no editables están en gris. Las columnas marcadas con un asterisco (\*) son editables.
 
-| Columna                                | Descripción                                                                                                                                                                                                   |
-| :------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Código**                              | Código del artículo                                                                                                                                                                                                     |
-| **Nombre**                              | Nombre del artículo                                                                                                                                                                                                     |
-| **Fuerza**                          | Fuerza del artículo                                                                                                                                                                                          |
-| **Unidad**                              | Unidad de medida del artículo                                                                                                                                                                                  |
-| **VEN**                               | Categoría VEN del artículo: Vital (V), Esencial (E), No esencial (N)                                                                                                                                                |
-| **Saldo Inicial\***                 | Stock disponible de este artículo al inicio del período. Utiliza el saldo final del formulario R&R anterior (si existe) o intenta calcular el saldo basado en cualquier dato de transacción en Open mSupply. |
-| **Recibido\***                        | Cantidad de este artículo recibida durante el período. Poblada por las cantidades recibidas a través de Entradas.                                                                                                 |
-| **Consumido/distribuido\***            | Cantidad de este artículo consumido durante el período. Poblada por las cantidades distribuidas a través de Salidas o Prescripciones                                                                           |
-| **Consumo/distribución ajustada** | Consumo, ajustado por los días sin stock. El cálculo es <code>Consumido x Días en el período / Días en stock</code>                                                                                  |
-| **Ajustes +/-\***                 | Pérdidas/ajustes realizados para este artículo durante el período. Pueden ser positivos o negativos. Poblada por datos de Inventarios o Ajustes de Inventario.                                                            |
-| **Duración sin Stock\***              | Número de días en el período donde el stock disponible del artículo fue 0.                                                                                                                                         |
-| **Saldo Inicial**                     | Stock disponible del artículo al final del período. El cálculo es <code>Saldo inicial + Recibido - Consumido + Ajustes</code>                                                                         |
-| **AMC/AMD**                           | Consumo promedio mensual (distribución) durante los últimos 3 períodos                                                                                                                                         |
-| **Máximo**                           | Cantidad ideal de stock disponible, la cantidad solicitada podría ser cualquier valor hasta este valor. Calculado como <code>AMC x 2</code>                                                                          |
-| **Vencimiento\***                          | Fecha de vencimiento del lote disponible con la fecha de caducidad más cercana de este artículo                                                                                                                                             |
-| **Solicitado\***                       | Cantidad a solicitar en la requisición. Calculado como <code>Máximo - Saldo final</code>                                                                                                              |
-| **Inventario bajo**                         | Indicador de advertencia si tu saldo final es bajo en comparación con el nivel ideal de stock. Mostrará  `!` cuando el `Saldo final` sea menos de la mitad de `Máximo`, y `!!` uando sea menos de un cuarto                     |
-| **Comentario\***                         | Puedes agregar cualquier comentario a la línea según sea necesario                                                                                                                                                               |
-| **Confirmado\***                       | Utiliza esta columna para hacer un seguimiento de qué líneas están completas. Actúa como el botón de guardar para los cambios en una línea.                                                                                                    |
-| **Cantidad aprobada**                 | Una vez que el formulario R&R esté finalizado, esta columna mostrará la cantidad aprobada por el autorizador (si la autorización está configurada)                                                                                |
+| Columna                           | Descripción                                                                                                                                                                                                  |
+| :-------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Código**                        | Código del artículo                                                                                                                                                                                          |
+| **Nombre**                        | Nombre del artículo                                                                                                                                                                                          |
+| **Fuerza**                        | Fuerza del artículo                                                                                                                                                                                          |
+| **Unidad**                        | Unidad de medida del artículo                                                                                                                                                                                |
+| **VEN**                           | Categoría VEN del artículo: Vital (V), Esencial (E), No esencial (N)                                                                                                                                         |
+| **Saldo Inicial\***               | Stock disponible de este artículo al inicio del período. Utiliza el saldo final del formulario R&R anterior (si existe) o intenta calcular el saldo basado en cualquier dato de transacción en Open mSupply. |
+| **Recibido\***                    | Cantidad de este artículo recibida durante el período. Poblada por las cantidades recibidas a través de Entradas.                                                                                            |
+| **Consumido/distribuido\***       | Cantidad de este artículo consumido durante el período. Poblada por las cantidades distribuidas a través de Salidas o Prescripciones                                                                         |
+| **Consumo/distribución ajustada** | Consumo, ajustado por los días sin stock. El cálculo es <code>Consumido x Días en el período / Días en stock</code>                                                                                          |
+| **Ajustes +/-\***                 | Pérdidas/ajustes realizados para este artículo durante el período. Pueden ser positivos o negativos. Poblada por datos de Inventarios o Ajustes de Inventario.                                               |
+| **Duración sin Stock\***          | Número de días en el período donde el stock disponible del artículo fue 0.                                                                                                                                   |
+| **Saldo Inicial**                 | Stock disponible del artículo al final del período. El cálculo es <code>Saldo inicial + Recibido - Consumido + Ajustes</code>                                                                                |
+| **AMC/AMD**                       | Consumo promedio mensual (distribución) durante los últimos 3 períodos                                                                                                                                       |
+| **Máximo**                        | Cantidad ideal de stock disponible, la cantidad solicitada podría ser cualquier valor hasta este valor. Calculado como <code>AMC x 2</code>                                                                  |
+| **Vencimiento\***                 | Fecha de vencimiento del lote disponible con la fecha de caducidad más cercana de este artículo                                                                                                              |
+| **Solicitado\***                  | Cantidad a solicitar en la requisición. Calculado como <code>Máximo - Saldo final</code>                                                                                                                     |
+| **Inventario bajo**               | Indicador de advertencia si tu saldo final es bajo en comparación con el nivel ideal de stock. Mostrará `!` cuando el `Saldo final` sea menos de la mitad de `Máximo`, y `!!` uando sea menos de un cuarto   |
+| **Comentario\***                  | Puedes agregar cualquier comentario a la línea según sea necesario                                                                                                                                           |
+| **Confirmado\***                  | Utiliza esta columna para hacer un seguimiento de qué líneas están completas. Actúa como el botón de guardar para los cambios en una línea.                                                                  |
+| **Cantidad aprobada**             | Una vez que el formulario R&R esté finalizado, esta columna mostrará la cantidad aprobada por el autorizador (si la autorización está configurada)                                                           |
 
 ### Editar el formulario R&R
 
