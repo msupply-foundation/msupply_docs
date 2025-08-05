@@ -51,23 +51,18 @@ La liste des livraisons comprend 7 colonnes:
 
 1. La liste peut afficher **20 livraisons par page**. Dans le coin inférieur gauche, vous pouvez voir combien de livraisons sont actuellement affichées sur votre écran.
 
-![Page](../../images/list_showing.png)
 
 2. S'il y a plus de 20 livraisons, vous pouvez vous déplacer vers une autre page en cliquant sur le numéro de la page ou en utilisant les flèches droite ou gauche (coin inférieur droit).
-
-![Page](../../images/list_pagenumbers.png)
 
 ### Recherche par nom de Fournisseur
 
 Vous pouvez filtrer la liste des livraisons par nom de fournisseur. Cela peut être utile si vous recherchez une livraison en particulier !
 
 Saisissez le nom du fournisseur dans le champ `Search by name` (à gauche, juste au-dessus des en-têtes de liste). Toutes les livraisons de ce fournisseur apparaîtront dans la liste.
-
+![](images/is_filter_list.png)
 ### Exporter la liste des livraisons
 
-La liste des livraisons peut être exportée dans un fichier CSV. Cliquez simplement sur le bouton _Exporter_ (à droite, en haut de la page).
-
-![Export button](images/export_fr.png)
+La liste des livraisons peut être exportée dans un fichier CSV. Cliquez simplement sur le bouton **Exporter** (à droite, en haut de la page).
 
 et le fichier sera téléchargé. La fonction d'exportation téléchargera toutes les livraisons, pas seulement la page actuelle, si vous en avez plus de 20.
 
@@ -103,7 +98,7 @@ Vous pouvez savoir si un fournisseur utilise également mSupply dans son dépôt
 Dans l'exemple ci-dessous, nous recevons du stock de <b>Tamaki Central Medical Store</b>. 
 </div>
 
-![Select a Supplier](images/is_selectsupplier.gif)
+![](images/is_select_supplier.png)
 
 2. Une fois que vous avez sélection un Fournisseur, la livraison est créée.
 
@@ -149,8 +144,6 @@ Nous prévoyons d'ajouter d'autres sections à l'avenir au fur et à mesure de l
 To open the Information Panel, you can tap on the `More` button, located in the top right corner of the Inbound Shipment view.
 
 You can close by tapping on the `X Close` button, on the top right corner of the information panel.
-
-![Open and close the Information Panel](images/is_infopanel_openclose.gif)
 
 #### Additonal Info
 
@@ -269,7 +262,7 @@ You don't have to update a shipment to next status in the sequence. You can choo
 
 As demonstrated below, tap on the down arrow of the `Confirm` button and select the status you want the shipment to be updated to.
 
-![Skip Status](images/is_skipstatus.gif)
+![Skip Status](images/is_skipstatus.png)
 
 ## Adding lines to an Inbound Shipment
 
