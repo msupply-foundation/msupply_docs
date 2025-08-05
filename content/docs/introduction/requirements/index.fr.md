@@ -168,6 +168,7 @@ Le tableau ci-dessous indique la version de mSupply dont vous aurez besoin pour 
 | 2.7.00+             | 8.01.03+        | 2.7.00+              |
 | 2.8.00+             | 8.02.00+        | 2.7.00+              |
 | 2.9.00+             | 8.03.04+        | 2.7.00+              |
+| 2.9.02+             | 8.03.12+        | 2.9.02+              |
 
 Si vous essayez de vous connecter a un serveur incompatible, vous obtiendrez le message suivant:
 
