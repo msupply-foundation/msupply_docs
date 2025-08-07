@@ -67,6 +67,8 @@ The application requires at least Android 10
 | RAM             | 2 Gb              | 4 Gb              |
 | Storage         | 32 Gb             | 64 Gb             |
 
+<div class="note">If importing Fridge-tags you will require at least Android 12</div>
+
 In order to provide support, the device must also be compatible with MDM (Mobile Device Management) software and support google services. Please contact [mSupply Foundation](https://msupply.foundation/#contact) for details.
 
 Please contact us for testing and/or advice before making a large hardware purchase.

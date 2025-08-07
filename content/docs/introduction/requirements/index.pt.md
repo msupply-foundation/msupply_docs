@@ -67,6 +67,8 @@ A aplicação requer pelo menos Android 10
 | Memória RAM        | 2 Gb              | 4 Gb              |
 | Armazenamento      | 32 Gb             | 64 Gb             |
 
+<div class="note">Se importar etiquetas de frigorífico, é necessário ter, pelo menos, o Android 12</div>
+
 Para fornecer suporte, o dispositivo também deve ser compatível com o software MDM (Mobile Device Management) e suportar os serviços da Google. Contacte a [mSupply Foundation](https://msupply.foundation/#contact) para mais detalhes.
 
 Contacte-nos para testes e/ou aconselhamento antes de fazer uma grande compra de hardware.

@@ -39,6 +39,8 @@ From here, follow the steps in the mSupply Cold Chain application documentation 
 
 #### Fridge-tags and Q-tags
 
+<div class="warning">When importing Fridge-tags on a tablet, Android 12 or later is required</div>
+
 If you are using Berlinger Fridge-tags, you can import the data directly into Open mSupply. To do this, insert the USB of the Fridge-tag into your computer.
 Then click the `Import Fridge-tag` button:
 
@@ -48,11 +50,27 @@ This will open a file browsing window, allowing you to select the `.txt` file of
 
 Here's how the process looks (this is the mac desktop version):
 
-![Import fridge tag](images/import_fridge_tag.gif)
+![Import fridge tag: select file](images/import_fridge_tag_1_select.png)
+
+You should then see a success message on the bottom left of the screen:
+
+![Import fridge tag: success](images/import_fridge_tag_2_success.png)
+
+If the sensor has not already been added to your system you'll be asked if you'd like to add it now:
+
+![Import fridge tag: new sensor](images/import_fridge_tag_3_new_sensor.png)
+
+From this window, select a location for the sensor, click `OK`
+
+![Import fridge tag: sensor detail](images/import_fridge_tag_4_sensor_detail.png)
+
+and finally, confirm the changes:
+
+![Import fridge tag: confirm](images/import_fridge_tag_5_confirm.png)
 
 <div class="note">You may need to wait for the text file to be generated after connecting the Fridge-tag to your computer.</div>
 
-##### Compatible Berlinger devices 
+##### Compatible Berlinger devices
 
 The following Berlinger devices are compatible with Open mSupply:
 
