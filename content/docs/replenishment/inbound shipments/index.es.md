@@ -50,21 +50,17 @@ La lista de Entradas se divide en 7 columnas:
 
 2. La lista puede mostrar un número fijo de envíos por página. En la esquina inferior izquierda, puedes ver cuántos envíos se están mostrando actualmente en tu pantalla.
 
-![Page](images/list_showing.png)
-
 3. Si tiene más envíos que el límite actual, puede navegar a las otras páginas haciendo clic en el número de página o utilizando las flechas izquierda o derecha (en la esquina inferior derecha).
 
-![Page](images/list_pagenumbers.png)
-
 4. También puedes seleccionar un número diferente de filas para mostrar por página usando la opción en la parte inferior derecha de la página.
-
-![Rows per page](images/rows-per-page-select.png)
 
 ### Buscar por nombre de proveedor
 
 Puede filtrar la lista de envíos por el nombre del proveedor. ¡Esto puede ser útil si está buscando un envío en particular!
 
 Escriba el nombre del proveedor en el campo `Buscar por nombre` (a la izquierda, justo encima de los encabezados de la lista). Todos los envíos para este proveedor aparecerán en la lista.
+
+![](images/is_filter_list.png)
 
 ### Exportar entradas
 
@@ -106,7 +102,7 @@ Puedes saber si un proveedor también utiliza mSupply en su tienda. Si es así, 
 En el siguiente ejemplo, estamos recibiendo stock de <b>Tamaki Central Medical Store</b>. 
 </div>
 
-![Select a Supplier](images/is_selectsupplier.gif)
+![](images/is_select_supplier.png)
 
 2. Una vez que hayas seleccionado un proveedor, se creará tu entrada
 
@@ -120,11 +116,7 @@ Si todo salió bien, deberías ver el nombre de tu proveedor en la esquina super
 
 Si ha seleccionado el proveedor equivocado, puede cambiar el nombre del proveedor en el campo `Nombre del proveedor` o seleccionar uno de la lista desplegable:
 
-<div class="imagetitle">
-En el siguiente ejemplo, estamos reemplazando <b>Tamaki Central Medical Store</b> by <b>Waikato District Store</b>. 
-</div>
-
-![gif](images/is_editsuppliername.gif)
+![](images/is_choose_supplier.png)
 
 ### Ingresar una referencia de proveedor
 
@@ -148,8 +140,6 @@ Estamos planeando agregar más secciones en el futuro a medida que Open mSupply 
 Para abrir el Panel de Información, puede hacer clic en el botón `Más`, ubicado en la esquina superior derecha de la vista de entrada.
 
 Puede cerrar haciendo clic en el botón `X Cerrar`, en la esquina superior derecha del panel de información.
-
-![Open and close the Information Panel](images/is_infopanel_openclose.gif)
 
 #### Información Adicional
 
@@ -268,7 +258,7 @@ No es necesario que actualices un envío al siguiente estado de la secuencia. Pu
 
 Como se muestra a continuación, haz clic en la flecha hacia abajo del botón `Confirmar` y selecciona el estado al que deseas actualizar el envío.
 
-![Skip Status](images/is_skipstatus.gif)
+![Skip Status](images/is_skipstatus.png)
 
 ## Agregar líneas a una entrada
 

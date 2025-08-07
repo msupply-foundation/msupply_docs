@@ -52,15 +52,9 @@ The Inbound Shipments list is divided into 7 columns:
 
 2. The list can display a fixed number of shipments per page. On the bottom left corner, you can see how many shipments are currently displayed on your screen.
 
-![Page](../../images/list_showing.png)
-
 3. If you have more shipments than the current limit, you can navigate to the other pages by clicking on the page number or using the right of left arrows (bottom right corner).
 
-![Page](../../images/list_pagenumbers.png)
-
 4. You can also select a different number of rows to show per page using the option at the bottom right of the page.
-
-![Rows per page](../../images/rows-per-page-select.png)
 
 ### Filter Inbound Shipments
 
@@ -70,7 +64,7 @@ You can filter the list of shipments by supplier name, created date or status. T
 
 For example, to filter by supplier name, click on `Filters`, select `Name` and start typing some or all of a supplier name in the `Name` field. All the shipments for this supplier will appear in the list.
 
-![Inbound shipment name filter](images/is_name_filter.gif)
+![](images/is_filter_list.png)
 
 ### Exporting Inbound Shipments
 
@@ -112,7 +106,7 @@ You can tell if a supplier is also using Open mSupply in their store. If they do
 In the below example, we are receiving stock from <b>Tamaki Central Medical Store</b>. 
 </div>
 
-![Select a Supplier](images/is_selectsupplier.gif)
+![](images/is_select_supplier.png)
 
 2. Once you have selected a supplier, your Inbound Shipment is created.
 
@@ -126,15 +120,11 @@ If everything went well, you should see the name of your supplier in the top lef
 
 If you have selected the wrong supplier, you can change the supplier name in the `Supplier Name` field or select one the dropdown list:
 
-<div class="imagetitle">
-In the below example, we are replacing <b>Tamaki Central Medical Store</b> by <b>Waikato District Store</b>. 
-</div>
-
-![gif](images/is_editsuppliername.gif)
+![](images/is_choose_supplier.png)
 
 ### Enter a Supplier Reference
 
-Once your Inbound Shipment has been created, you can capture a supplier reference in the `Supplier Ref` field, if they have one (eg. _ PO#1234567 _)
+Once your Inbound Shipment has been created, you can capture a supplier reference in the `Supplier Ref` field, if they have one (eg. PO#1234567 _)
 
 ### View or edit the Inbound Shipment Information Panel
 
@@ -154,8 +144,6 @@ We are planning to add more sections in the future as Open mSupply grows.
 To open the Information Panel, you can tap on the `More` button, located in the top right corner of the Inbound Shipment view.
 
 You can close by tapping on the `X Close` button, on the top right corner of the information panel.
-
-![Open and close the Information Panel](images/is_infopanel_openclose.gif)
 
 #### Additional Info
 
@@ -198,9 +186,11 @@ If your store is issuing in foreign currencies follow [these instructions](https
 ![Store preference](../../images/store-pref-issue-in-foreign-currencies.png)
 
 The pen icon will become active once the above instructions have been followed and only if the customer is an external customer. Click on this icon and change to a currency that you would like to issue the shipment in. The currency rate can also be edited if you and the customer have agreed on a different rate.
-![gif](images/is-change-foreign-currency.gif)
+![](images/is_change_foreign_currency.png)
+
+
 You can also see the foreign currency totals in the invoice line details as well.
-![Line with Foreign Currency Pricing](images/is-line-with-foreign-currency.png)
+![Line with Foreign Currency Pricing](images/is_line_with_foreign_currency.png)
 
 <div class="tip">See the <a href="/docs/introduction/faq/#is-there-support-for-my-currency">currency support question</a> for the list of codes supported</div>
 
@@ -297,7 +287,8 @@ You don't have to update a shipment to next status in the sequence. You can choo
 
 As demonstrated below, tap on the down arrow of the `Confirm` button and select the status you want the shipment to be updated to.
 
-![Skip Status](images/is_skipstatus.gif)
+![](images/is_skipstatus.png)
+
 
 ## Adding lines to an Inbound Shipment
 
