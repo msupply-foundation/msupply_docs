@@ -68,11 +68,11 @@ For example, to filter by supplier name, click on `Filters`, select `Name` and s
 
 ### Exporting Inbound Shipments
 
-The list of Inbound Shipments can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page)
+The list of Inbound Shipments can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page) and the file will be downloaded. 
 
 ![Export button](images/export.png)
 
-and the file will be downloaded. The export function will download all Inbound Shipments, not just the current page, if you have more than 20 of them.
+The export function will download all Inbound Shipments, not just the current page, if you have more than 20 of them.
 
 ### Delete an Inbound Shipment
 
@@ -439,7 +439,7 @@ To edit an Inbound Shipment line, simply tap on it. You will be presented with t
 ### Edit a Shipment Line
 
 <div class="note">
- <b></b> you can edit a shipment line if the shipment has a status higher lower than <code>Verified</code>. 
+ <b></b> you can edit a shipment line if the shipment has a status lower than <code>Verified</code>. 
 </div>
 
 1. Open the Inbound Shipment you want to edit
