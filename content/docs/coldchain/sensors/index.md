@@ -30,7 +30,7 @@ To configure the integration, you will need to configure a new mSupply user.
 The user is a standard mSupply user, with the following configuration:
 
 - The default store assigned to the user is the store with which the temperature data will be associated.
-- The store will need to be part of the site that Open mSupply is synchronising with. Have a look at the [Settings](/docs/settings/synchronisation/#viewing-the-synchronisation-settings) section to see which site omSupply is syncing with, and then the [Synchronisation](https://docs.msupply.org.nz/synchronisation:sync_sites#viewing_sync_sites) screen to check that your site includes the correct store.
+- The store will need to be part of the site that Open mSupply is synchronising with. Have a look at the [Settings](/docs/settings/synchronisation/#viewing-the-synchronisation-settings) section to see which site Open Supply is syncing with, and then the [Synchronisation](https://docs.msupply.org.nz/synchronisation:sync_sites#viewing_sync_sites) screen to check that your site includes the correct store.
 - The user must have the Open Supply permission of `Cold chain API access` (see below)
 
 ![Cold chain API permission](images/coldchain_permission.png)
