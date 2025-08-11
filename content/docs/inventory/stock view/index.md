@@ -96,6 +96,12 @@ If this is the case, the reason input will be enabled as below:
 
 ![New stock line: enter reason](images/stock_new_reason.png)
 
+### Item Variant
+
+[Item Variants](/docs/catalogue/item_variants/) will be available for selection if they are configured in your system.
+
+Item variants include packaging information - if your new stock line has a matching pack size, the `Volume per pack` field will be automatically populated.
+
 ### Donor
 
 If the [Allow tracking of stock by donor](/docs/manage/global-preferences/) global preference is enabled then you can allocate a donor to this stock line.
