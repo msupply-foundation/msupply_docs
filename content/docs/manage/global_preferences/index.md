@@ -28,13 +28,10 @@ Global Preferences can be configured by turning these options on or off. Any upd
 
 ## Available Preferences
 
-- Allow tracking of stock by donor
-- Display Population Based Forecasting
-- Show Contact Tracing
-- Gender Options
-
 | Preference Name                      | Description                                                                                                                                                      |
 | :----------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Allow tracking of stock by donor** | Adds a donor column to stock management screens. This allows you to track which donor a stock item is from.                                                      |
-| **Show Contact Tracing**             | Enables the [Contact Tracing](/docs/programs/program-module/#contact-tracing) feature for Patients                                                               |
+| **Show Contact Tracing**             | Enables the [Contact Tracing](/docs/programs/program-module/#contact-tracing) feature for Patients.                                                              |
 | **Gender Options**                   | The gender options available for clinicians and patients. This defines the options shown in gender filters and which can be assigned to clinicians and patients. |
+| **Custom Translations**              | Configure overrides for terms used throughout the application.                                                                                                   |
+| **Sync records display threshold**   | Number of sync records that can be pending before showing an alert over the Sync button.                                                                         |
