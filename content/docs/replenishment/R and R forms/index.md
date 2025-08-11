@@ -18,7 +18,7 @@ top = false
 
 To use R&R Forms, ensure that you enable the store preference for `Open mSupply: Uses program module`.
 
-![Store preference](../../programs/Program-module/images/program_pref.png)
+![Store preference](images/program_pref.png)
 
 You'll also need a program configured and visible in your store, and the program will need a period schedule associated with it.
 
@@ -57,12 +57,6 @@ The first time you create an R&R form, you will need to select each of these opt
 <div class="imagetitle">Our most recent R&R form was from April 2024, for Program Tb. The same program, schedule and supplier are selected, and the next period is chosen automatically.</div>
 
 ![Add R&R: pre-filled](images/add_rnr.png)
-
-The first time you create an R&R form, you can select any available period. After that, you will only be able to select the next period in the sequence.
-
-<div class="imagetitle">The previous R&R form was for the APR 24 period</div>
-
-![Add R&R: pre-selected period](images/add_rnr_selected_period.png)
 
 Note that you cannot create the next R&R form until the previous one is finalised:
 
@@ -119,7 +113,7 @@ You can print or export the R&R form by clicking the `Print` or `Export` buttons
 - The `Export` button will download the R&R form as an Excel file.
 
 <div class="note">
-In order to print or export, you will need an R&R Form report configured. Please contact support for assistance.
+Print or export of R&R Forms requires a custom printable form, configured on your Open mSupply Central Server. Please contact support for assistance.
 </div>
 
 ### Detail Panel
@@ -129,6 +123,14 @@ The `More` button in the top right corner of the screen will open the detail pan
 ![R&R detail panel](images/rnr_more_info.png)
 
 You can also set a reference, which will be included in the Internal Order sent to the supplier.
+
+### Delete R&R Form
+
+At the bottom of the detail panel, there is an `Actions` section:
+
+![R&R actions](images/actions.png)
+
+You can delete an R&R form while it is still in `Draft` status. This action will delete the R&R Form and all associated data.
 
 ### Full Screen Mode
 
