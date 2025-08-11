@@ -76,7 +76,11 @@ A "New Stocktake" modal appears.
 
 ![Stocktake: New modal](images/stocktake_newmodal.png)
 
-Click on OK when you have selected the option you would like.
+<div class="note">
+If the <code>Manage VVM status for stock</code> store preference is enabled, a VVM status filter will also be available.
+</div>
+
+Click on OK when you have selected the filters you would like.
 
 The stocktake will then be created and stock lines will be used to populate the values for batch, expiry, pack size and snapshot number of packs. The lines show as light blue, and will change to black when a value is entered for the counted quantity.
 
@@ -190,6 +194,10 @@ Use the checkbox column to select the lines you wish to change the location for.
 This will bring up a window where you can select which location you would like to move the stock lines to:
 
 ![Stocktake change location](images/stocktake_change_location.png)
+
+Note that if the selected items have restricted location types, only the locations of the matching type will be available for selection. If that is the case, you will see a warning message at the top of the window:
+
+![Some locations missing](images/restricted_locations_warning.png)
 
 Select a location and press OK. All selected stock lines will now have an updated location.
 
