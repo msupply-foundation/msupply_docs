@@ -46,8 +46,9 @@ A window like this opens:
 
 1. **Name**: Enter the name of the new location
 2. **Code**: Enter a code for the new location
-3. **Cold storage type** (optional): Select the cold storage type. These options are configured as [Location Types](https://docs.msupply.org.nz/items:item_locations?s[]=location&s[]=type#location_types) on the mSupply Central Server.
-4. **On Hold** (checkbox): If you check this box, then goods in this location cannot be selected for issue to customers. Goods can be moved in to, and out, of the location but they cannot be issued from that location.
+3. **Location type** (optional): Select the location type. These [Location Types](https://docs.msupply.org.nz/items:item_locations?s[]=location&s[]=type#location_types) are configured on the mSupply Central Server.
+4. **Volume** (optional): Storage volume of the location in m³. `Volume used` shows the total volume of stock currently in the location.
+5. **On Hold** (checkbox): If you check this box, then goods in this location cannot be selected for issue to customers. Goods can be moved in to, and out, of the location but they cannot be issued from that location.
 
 <div class="tip">
 Putting a location on hold can be useful if:
@@ -69,3 +70,13 @@ To delete a location:
 2. The `Actions` footer will display at the bottom of the screen when a location is selected. It will display the number of locations selected and the actions which can be taken. Click `Delete`
 
 ![Delete location](images/delete-location.png)
+
+## Assigning locations to stock
+
+Stock can be assigned to a location when receiving or adjusting stock (i.e. during an Inbound Shipment, or during a Stocktake).
+
+When doing so, you'll be able to filter the locations based on available volume, so you can easily find a location that has enough space for your stock:
+
+![Location picker](images/location_picker.png)
+
+Also note that items can have a [restricted location type](https://docs.msupply.org.nz/items:item_basics:tab_storage?s[]=restricted&s[]=location&s[]=type#restricted_to) configured. When selecting a location for these items, only locations with the same type will be shown in the picker.
