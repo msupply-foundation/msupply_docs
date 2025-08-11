@@ -578,12 +578,7 @@ The item names in the system are too long for this label format! Please contact 
 
 ## Viewing a Prescription
 
-Batches are automatically grouped by item when viewing a specific prescription. Use the expand button for a specific row in order to see the details for each batch of the item.
-
-For example, the Paracetamol 500mg tabs shown here, has three batches allocated. Click the expand icon in the row to see the details:
-
-![Group by Item](images/prescription_group_by_item_step_1.png)
-![Group by Item](images/prescription_group_by_item_step_2.png)
+The prescription detail view shows each item in the prescription, along with the quantity issued and lots of other useful information.
 
 If you do not have enough room on your screen, or simply aren't interested in some of the columns shown, you have the option of hiding which columns are shown in this view.
 
