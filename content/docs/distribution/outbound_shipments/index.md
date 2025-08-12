@@ -518,11 +518,7 @@ To edit a shipment line, tap on it. You will be presented with the `Edit Item` w
 2. Select the line(s) you want to delete by checking the box(es) on the left hand side of the list.
 3. Click the `Delete` button which appears at the bottom of the page.
 
-<div class="imagetitle">
-In the below example, we are deleting <i>three placeholder lines</i>.
-</div>
-
-![Alt Text](images/delete-outbound-shipment-line.gif)
+![Outbound Shipment: delete line](images/delete_os_line.png)
 
 <div class="tip">
  <b></b> You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
