@@ -54,6 +54,8 @@ A window will open for you to select the program, schedule, period and supplier 
 
 The first time you create an R&R form, you will need to select each of these options. After that, the inputs will be pre-filled with the previous period's data.
 
+The next period will be selected automatically. You are able to change the period if needed - but note that if you skip a period, the new R&R form will not use the previous R&R form for its initial balances.
+
 <div class="imagetitle">Our most recent R&R form was from April 2024, for Program Tb. The same program, schedule and supplier are selected, and the next period is chosen automatically.</div>
 
 ![Add R&R: pre-filled](images/add_rnr.png)
