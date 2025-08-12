@@ -90,7 +90,7 @@ There are some fields which only show if enabled:
 
 ### Reasons
 
-If you have [inventory adjustment reasons](https://docs.msupply.org.nz/preferences:options?s[]=reasons) configured in your central server, then you are also required to enter a reason when creating a new stock line.
+If you have [inventory adjustment reasons](https://docs.msupply.org.nz/preferences:options?s[]=reasons) configured on your Legacy mSupply central server, then you are also required to enter a reason when creating a new stock line.
 
 If this is the case, the reason input will be enabled as below:
 
