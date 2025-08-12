@@ -56,13 +56,11 @@ In the below example, we have 20,219 units of Acetylsalicylic Acid available in 
 
 ![Item detail headers](images-en/cat_itemdetailsheaders.png)
 
-There are two tabs in the bottom part of the screen:
-
-- **General**: The item's basic information
-- **Master Lists**: Master lists associated with the item
-<!-- - **Pack Variants**: Customisable pack sizes for the item. Can only be configured in Open mSupply's new central server. -->
+There are several tabs in the bottom part of the screen:
 
 ### General
+
+The general tab includes basic information about the item, including:
 
 #### Details
 
@@ -96,6 +94,12 @@ There are two tabs in the bottom part of the screen:
 #### Pricing
 
 - **Margin**: This is the default margin that will be applied to this item on Inbound Shipments to calculate the selling price
+
+### Store
+
+The Store tab shows any configurations for this item that are specific to your current store.
+
+![Item detail store tab](images-en/item_store_properties.png)
 
 ### Master Lists
 
@@ -139,9 +143,7 @@ Select one or more filters to narrow down the results. The list will update to s
 
 ## Item Variants
 
-On the , [Open mSupply Central Server](../../getting_started/central-server/) a third tab, Item Variants, is available. This tab allows you to configure variations of the item, such as different manufacturers or packaging sizes.
-
-Currently, Item Variants are only used for GAPS functionality.
+On the [Open mSupply Central Server](../../getting_started/central-server/) an Item Variants tab is available. This tab allows you to configure variations of the item, such as different manufacturers or packaging sizes.
 
 ![variants tab](images-en/variants_tab.png)
 
@@ -161,11 +163,7 @@ Temperature options are configured as [Location Types](https://docs.msupply.org.
 
 Different facilities work in different levels of packaging, e.g. a warehouse may work in cartons, while a clinic works in boxes or individual units. In the Packaging section, you can define the pack size (units per pack) and packaging volume for the different packaging levels of an item variant.
 
-This allows GAPS calculations to accurately account for the cold storage requirements for this item variant, at the packaging level used by a particular facility.
-
-<div class="note">
-The pack sizes defined in Item Variants are used for GAPS calculations ONLY, to provide greater accuracy across item variations. It does not affect the pack sizes used in your usual ordering workflows in Open mSupply.
-</div>
+When introducing a new stock line, users will select the relevant Item Variant (e.g. based on manufacturer). If you have configured a Packaging level for that variant, with a pack size that matches the pack size of the stock line, Open mSupply will automatically set the `Volume per pack` for the stock line, based on the `Volume per unit` defined here.
 
 ### Editing an Item Variant
 
