@@ -135,6 +135,14 @@ There are several [reason types](https://docs.msupply.org.nz/preferences:options
 |                         | Vaccine                | Store               | Closed Vial Wastage                       |
 |                         |                        | Dispensary          | Closed Vial Wastage and Open Vial Wastage |
 
+### VVM Status
+
+You can update lots of information about the stock line as you do your stocktake, such as the batch number, expiry date, and location. If you are using the `Manage VVM status for stock` store preference, you will also be able to update the VVM status of vaccine items.
+
+![Stocktake VVM status](images/stocktake_change_vvm.png)
+
+VVM status changes will be applied when you finalise the stocktake. You can view the status change in the stock line VVM status history.
+
 ### Adding items
 
 If an item was not included in the generated stocktake rows when you created your stocktake, you can add it manually by clicking the `Add Item` button in the top right of your screen.
