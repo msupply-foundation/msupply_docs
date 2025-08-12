@@ -81,6 +81,10 @@ There are two tabs in the bottom part of the screen:
 - **Universal Name**: if the item is linked to the [universal drug code database](https://codes.msupply.foundation/), this shows the universal, or generic name for the given item
 - **Universal Code**: similarly, the code allocated to the universal drug code item
 
+#### Storage
+
+- **Location type**: The location type that this item is restricted to. Used for items that need to be stored in a specific type of location, such as cold storage.
+
 #### Packaging
 
 - **Default pack size**: This is the default pack size that will be assigned to incoming stock as it is received
