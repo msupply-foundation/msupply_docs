@@ -24,17 +24,16 @@ You will be presented with the set of currently available Global Preferences:
 
 ![facility list](images/edit_global_preferences.png)
 
-Global Preferences can be configured by turning these options on or off. Any updates will be saved automatically.
-
 ## Available Preferences
 
-| Preference Name                      | Description                                                                                                                                                      |
-| :----------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Allow tracking of stock by donor** | Adds a donor column to stock management screens. This allows you to track which donor a stock item is from.                                                      |
-| **Show Contact Tracing**             | Enables the [Contact Tracing](/docs/programs/program-module/#contact-tracing) feature for Patients.                                                              |
-| **Gender Options**                   | The gender options available for clinicians and patients. This defines the options shown in gender filters and which can be assigned to clinicians and patients. |
-| **Custom Translations**              | Configure overrides for terms used throughout the application.                                                                                                   |
-| **Sync records display threshold**   | Number of sync records that can be pending before showing an alert over the Sync button.                                                                         |
+| Preference Name                                     | Description                                                                                                                                                      |
+| :-------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Allow tracking of stock by donor**                | Adds a donor column to stock management screens. This allows you to track which donor a stock item is from.                                                      |
+| **Custom Translations**                             | Configure overrides for terms used throughout the application.                                                                                                   |
+| **Gender options**                                  | The gender options available for clinicians and patients. This defines the options shown in gender filters and which can be assigned to clinicians and patients. |
+| **Prevent transfers from this many months before initialisation** | When migrating older mSupply Desktop & mobile sites to Open mSupply this preference can prevent the generation of hundreds of locked inbound shipments. Open mSupply will not create `Picked` status inbound shipments corresponding to outbound shipments from supplier's stores that were picked this many months before the date the site was initialised. Similarly, it will not make customer requisitions for internal orders finalised this many months before initialisation.                                                                                                                                       |
+| **Show contact tracing**                            | Enables the [Contact Tracing](/docs/programs/program-module/#contact-tracing) feature for Patients                                                               |
+| **Sync records display threshold**                  | The number of sync records that will need to be pending before showing an indicator over the Sync menu item                                                      |
 
 ### Custom Translations
 
