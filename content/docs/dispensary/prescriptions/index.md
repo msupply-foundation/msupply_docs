@@ -280,7 +280,7 @@ When managing a Prescription, you can only confirm the Picked and Verified statu
 
 ## Adding lines to a Prescription
 
-Tap on the `Add Item` button (top right corner) of the prescription window to begin adding items to the prescription.
+Tap on the `Add Item` button (top right corner) of the prescription window or press `Alt`+`N` on the keyboard to begin adding items to the prescription.
 
 ![Add Item button](images/prescription_add_item_button.png)
 
@@ -428,9 +428,9 @@ There are 3 ways to enter directions
 
 When you are happy with the quantity, you can either press on:
 
-- the `Save` button.
+- the `Save` button (or press `Alt`+`S` on the keyboard)
 
-- the `Cancel` button if you do not want to add the item to the Prescription any more
+- the `Cancel` button (or `Esc` key) if you do not want to add the item to the Prescription any more
 
 ## Editing a Prescription Line
 
