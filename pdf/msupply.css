@@ -1,5 +1,24 @@
-nav.docs-toc, nav.docs-links, footer.footer.text-muted, div.docs-navigation, header.navbar, header,navbar-expand-md, header.fixed-top, div.flagster {
+:root {
+  --docs-orange: #f2913d;
+  --docs-orange-light: #fff5ed;
+}
+
+/* @font-face {
+  font-family: "Jost";
+  src: url('fonts/jost-v4-latin-700.woff2');
+} */
+/* @font-face {
+  font-family: "Jost";
+  src: url('fonts/jost-v4-latin-regular.woff2');
+} */
+
+nav.docs-toc, nav.docs-links, footer.footer.text-muted, div.docs-navigation, header.navbar, header,navbar-expand-md, header.fixed-top, div.flagster, .zola-anchor{
   display:none;
+}
+
+h1 {
+  color: var(--docs-orange);
+  column-span: all;
 }
 
 p img, p svg {
@@ -18,8 +37,44 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #1d2d35;
+  color: #282828;
   -webkit-text-size-adjust: 100%;
+  column-count: 2;
+  column-gap: 100px;
+  column-fill: auto;
+  column-rule: thin solid var(--docs-orange);
+  widows: 2;
+  orphans: 2;
 }
 
-@page { @bottom-right { content: counter(page) }}
+img {
+  max-width: 100%;
+}
+
+tr:nth-child(odd) {
+  background-color: var(--docs-orange-light);
+}
+
+th {
+  background-color: var(--docs-orange);
+  color: #fff;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 5px 10px;
+}
+
+
+
+@page {
+  size: 1920px 1080px;
+}
+
+@page { 
+  @bottom-right { 
+    content: counter(page) ;
+    font-family: "Jost",-apple-system,blinkmacsystemfont,"Segoe UI",roboto,"Helvetica Neue",arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  }
+}

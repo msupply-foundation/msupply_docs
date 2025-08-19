@@ -67,6 +67,8 @@ A aplicação requer pelo menos Android 10
 | Memória RAM        | 2 Gb              | 4 Gb              |
 | Armazenamento      | 32 Gb             | 64 Gb             |
 
+<div class="note">Se importar etiquetas de frigorífico, é necessário ter, pelo menos, o Android 12</div>
+
 Para fornecer suporte, o dispositivo também deve ser compatível com o software MDM (Mobile Device Management) e suportar os serviços da Google. Contacte a [mSupply Foundation](https://msupply.foundation/#contact) para mais detalhes.
 
 Contacte-nos para testes e/ou aconselhamento antes de fazer uma grande compra de hardware.
@@ -171,6 +173,7 @@ A tabela abaixo mostra quais as versões do mSupply e do Open mSupply Central de
 | 2.7.00+             | 8.01.03+        | 2.7.00+              |
 | 2.8.00+             | 8.02.00+        | 2.7.00+              |
 | 2.9.00+             | 8.03.04+        | 2.7.00+              |
+| 2.9.02+             | 8.03.12+        | 2.9.02+              |
 
 Caso tente se conectar com um servidor incompatível, verás uma mensagem de erro como a seguinte:
 

@@ -65,6 +65,8 @@ L'application nécessite au moins Android 10.
 | RAM             | 2 Gb              | 4 Gb              |
 | Stockage        | 32 Gb             | 64 Gb             |
 
+<div class="note">Si vous importez Fridge-tags, vous aurez besoin d'au moins Android 12</div>
+
 Pour que nous puissions fournir une assistance, l'appareil doit également être compatible avec le logiciel de gestion des appareils mobiles (MDM) et prendre en charge les services Google. Veuillez contacter [la Fondation mSupply](https://msupply.foundation/#contact) pour plus de détails.
 
 Recommandation avant achat: N'hésitez pas à nous contacter pour des tests et/ou des conseils avant de faire un achat important de matériel.
@@ -168,6 +170,7 @@ Le tableau ci-dessous indique la version de mSupply dont vous aurez besoin pour 
 | 2.7.00+             | 8.01.03+        | 2.7.00+              |
 | 2.8.00+             | 8.02.00+        | 2.7.00+              |
 | 2.9.00+             | 8.03.04+        | 2.7.00+              |
+| 2.9.02+             | 8.03.12+        | 2.9.02+              |
 
 Si vous essayez de vous connecter a un serveur incompatible, vous obtiendrez le message suivant:
 

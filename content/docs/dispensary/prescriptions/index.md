@@ -280,7 +280,7 @@ When managing a Prescription, you can only confirm the Picked and Verified statu
 
 ## Adding lines to a Prescription
 
-Tap on the `Add Item` button (top right corner) of the prescription window to begin adding items to the prescription.
+Tap on the `Add Item` button (top right corner) of the prescription window or press `Alt`+`N` on the keyboard to begin adding items to the prescription.
 
 ![Add Item button](images/prescription_add_item_button.png)
 
@@ -428,9 +428,9 @@ There are 3 ways to enter directions
 
 When you are happy with the quantity, you can either press on:
 
-- the `Save` button.
+- the `Save` button (or press `Alt`+`S` on the keyboard)
 
-- the `Cancel` button if you do not want to add the item to the Prescription any more
+- the `Cancel` button (or `Esc` key) if you do not want to add the item to the Prescription any more
 
 ## Editing a Prescription Line
 
@@ -578,12 +578,7 @@ The item names in the system are too long for this label format! Please contact 
 
 ## Viewing a Prescription
 
-Batches are automatically grouped by item when viewing a specific prescription. Use the expand button for a specific row in order to see the details for each batch of the item.
-
-For example, the Paracetamol 500mg tabs shown here, has three batches allocated. Click the expand icon in the row to see the details:
-
-![Group by Item](images/prescription_group_by_item_step_1.png)
-![Group by Item](images/prescription_group_by_item_step_2.png)
+The prescription detail view shows each item in the prescription, along with the quantity issued and lots of other useful information.
 
 If you do not have enough room on your screen, or simply aren't interested in some of the columns shown, you have the option of hiding which columns are shown in this view.
 

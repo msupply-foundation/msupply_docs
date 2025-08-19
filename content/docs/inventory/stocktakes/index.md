@@ -61,7 +61,7 @@ To create an initial stocktake click in the Initial Stocktakes button in the sto
 You can only create an initial stocktake if there are no stocktakes previously created for your store.
 </div>
 
-An initial stocktake will have placeholder lines for all items visible to your store. As all items counted are being added for the first time, reasons are not available to be selected on this stocktake.
+An initial stocktake will have placeholder lines for all items visible to your store. As all items counted are being added for the first time, [entering reasons](#entering-reasons) is not required of you on this stocktake.
 
 ## Creating a New Stocktake
 
@@ -76,7 +76,11 @@ A "New Stocktake" modal appears.
 
 ![Stocktake: New modal](images/stocktake_newmodal.png)
 
-Click on OK when you have selected the option you would like.
+<div class="note">
+If the <code>Manage VVM status for stock</code> store preference is enabled, a VVM status filter will also be available.
+</div>
+
+Click on OK when you have selected the filters you would like.
 
 The stocktake will then be created and stock lines will be used to populate the values for batch, expiry, pack size and snapshot number of packs. The lines show as light blue, and will change to black when a value is entered for the counted quantity.
 
@@ -106,7 +110,7 @@ You can use the `Add batch (+)` button to add more batches of a particular item 
 
 ### Entering reasons
 
-If you have [inventory adjustment options](https://docs.msupply.org.nz/preferences:options?s[]=reasons) configured in your central server, and are not doing an initial stocktake, then you are required to enter a reason when the `counted packs` specified does not match the snapshot packs. When reducing stock levels for vaccine items, the options configured for `Open vial wastage` and `Closed vial wastage` can be selected here also.
+If you have [inventory adjustment options](https://docs.msupply.org.nz/preferences:options?s[]=reasons) configured on your Legacy mSupply central server, then you are required to enter a reason when the `counted packs` specified does not match the snapshot packs.
 
 For example, after entering `95` for the counted quantity for Amoxicillin 250mg tabs - batch 166893, a red \* will appear to the right of the `Reason` input, and you will need to select one of the negative inventory adjustment reasons:
 
@@ -120,21 +124,24 @@ and the stocktake row that requires a reason to be entered will be highlighted i
 
 ![Stocktake reasons error highlight](images/stocktake_reasons_error_highlight.png)
 
-#### Reason Types
+### Reason Types
 
-There are several [reason types](https://docs.msupply.org.nz/preferences:options?s[]=reasons) configurable in mSupply. The types available to use in Open mSupply are:
+There are several [reason types](https://docs.msupply.org.nz/preferences:options?s[]=reasons) configurable in mSupply. You'll have different options available depending on the type of adjustment you are making, and the type of item.
 
-- Positive Inventory Adjustment
-- Negative Inventory Adjustment
-- Open Vial Wastage
+| Adjustment              | Item                   | Facility Type       | Reason types                              |
+| :---------------------- | :--------------------- | :------------------ | :---------------------------------------- |
+| **Inventory addition**  | Vaccine or non-vaccine | Store or Dispensary | Positive Inventory Adjustment             |
+| **Inventory reduction** | Non-vaccine            | Store or Dispensary | Negative Inventory adjustment             |
+|                         | Vaccine                | Store               | Closed Vial Wastage                       |
+|                         |                        | Dispensary          | Closed Vial Wastage and Open Vial Wastage |
 
-When entering a stocktake row that has a change in the number of packs, the relevant reasons available to choose from will be displayed:
+### VVM Status
 
-| Adjustment type         | Item Type              | Reasons types available                             |
-| :---------------------- | :--------------------- | :-------------------------------------------------- |
-| **Inventory addition**  | Vaccine or non-vaccine | Positive Inventory Adjustment                       |
-| **Inventory reduction** | Non-vaccine            | Negative Inventory adjustment                       |
-| **Inventory reduction** | Vaccine                | Negative Inventory adjustment and Open Vial Wastage |
+You can update lots of information about the stock line as you do your stocktake, such as the batch number, expiry date, and location. If you are using the `Manage VVM status for stock` store preference, you will also be able to update the VVM status of vaccine items.
+
+![Stocktake VVM status](images/stocktake_change_vvm.png)
+
+VVM status changes will be applied when you finalise the stocktake. You can view the status change in the stock line VVM status history.
 
 ### Adding items
 
@@ -195,6 +202,10 @@ Use the checkbox column to select the lines you wish to change the location for.
 This will bring up a window where you can select which location you would like to move the stock lines to:
 
 ![Stocktake change location](images/stocktake_change_location.png)
+
+Note that if the selected items have restricted location types, only the locations of the matching type will be available for selection. If that is the case, you will see a warning message at the top of the window:
+
+![Some locations missing](images/restricted_locations_warning.png)
 
 Select a location and press OK. All selected stock lines will now have an updated location.
 

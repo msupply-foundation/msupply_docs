@@ -28,7 +28,7 @@ Simply click the button of the option you prefer. Don't worry though! this can b
 
 ## Client mode
 
-After selecting the client mode, you'll see a list of available servers. These are the servers on your local network. 
+After selecting the client mode, you'll see a list of available servers. These are the servers on your local network.
 
 You may see `[ Not configured ]` next to some of the servers - this indicates that the server hasn't yet been configured to synchronise with a central server yet.
 
@@ -44,6 +44,8 @@ If you wish to change server later, you can do this from the login screen. When 
 In server mode, you will configure the server to run on the mobile device, and synchronise with a central server. The initialisation screen is the same as for the desktop and web versions, with the addition of the server details in the bottom right:
 
 ![Mobile initialisation](images/mobile_initialisation.png)
+
+See step 6 in the [initialisation procedure](/docs/introduction/introduction/#procedure) for details about which values to enter here.
 
 ## Viewing logs
 
