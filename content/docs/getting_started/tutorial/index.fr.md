@@ -1,4 +1,4 @@
-+++
+main_n+++
 title = "Didacticiel"
 description = "Tutoriel d'intriduction à Open mSupply."
 date = 2022-03-19
@@ -42,7 +42,7 @@ Le menu principal se trouve sur le côté gauche de l'écran. Si vous avez un pe
 
 Si le menu est fermé, il suffit de survoler les éléments du menu pour l'ouvrir, dans ce cas, cliquer sur un élément laissera le menu se refermer. Si vous êtes sur tablette, cliquer sur un élément du menu aura le même effet.
 
-![Main navigation](images/main_nav.gif)
+![Main navigation](images/main_nav.png)
 
 Sur certains écrans, vous verrez afficher un libellé en en-tête, tel que **Expédition** dans l'exemple ci-avant. En cliquant sur une expédition spécifique de la liste, vous changez cet en-tête en **Expédition/ #[le numéro d'expédition]**. Vous pouvez cliquer sur **Expédition** pour retourner à la liste - ou utiliser le menu de navigation à gauche.
 

@@ -235,15 +235,9 @@ The status tracking is located at the bottom left corner of the Prescription scr
 
 Passed statuses are highlighted in blue, next statuses appear in grey.
 
-<figure>
-<center><img src="images-en/prescription_statussequence1.png" style="width:40%"/></center>
-<figcaption align="center">Status Tracking: current status is <code>NEW</code>.</figcaption>
-</figure>
+![](images/prescription_statussequence1.png)
 
-<figure>
-<center><img src="images-en/prescription_statussequence2.png" alt="Trulli" style="width:40%"/></center>
-<figcaption align="center">Status Tracking: current status is </i><code>VERIFIED</code>.</figcaption>
-</figure>
+![](images/prescription_statussequence2.png)
 
 There are 3 status for a Prescription:
 

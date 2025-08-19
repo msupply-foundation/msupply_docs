@@ -42,7 +42,7 @@ To open and close you can click on the logo at the top, as shown below. The menu
 
 If the menu is closed, simply hovering over the menu items will open it, in which case clicking on an item will close the menu again. If you are on a tablet, clicking on a menu item will have the same effect.
 
-![Main navigation](images/main_nav.gif)
+![Main navigation](images/main_nav.png)
 
 On some screens you'll see that the header shows a heading, such as **Outbound Shipment** in the example above. Clicking on a specific shipment then changes that heading to **Outbound Shipment / #[the shipment number]**. You are able to click on the **Outbound Shipment** part to return to the list - or use the main navigation on the left.
 

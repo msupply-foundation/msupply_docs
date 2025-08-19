@@ -172,15 +172,11 @@ La secuencia de estados se encuentra en la esquina inferior izquierda de la pant
 
 Los estados completados se destacan en azul, mientras que los próximos estados aparecen en gris.
 
-<figure>
-<center><img src="prescription_statussequence1.png" style="width:40%"></center>
-<figcaption align="center">Secuencia de estados: el estado actual es <code>NUEVO</code>.</figcaption>
-</figure>
 
-<figure>
-<center><img src="prescription_statussequence2.png" alt="Trulli" style="width:40%"></center>
-<figcaption align="center">Secuencia de estados: el estado actual es </i><code>VERIFICADO</code>.</figcaption>
-</figure>
+
+![](images/prescription_statussequence1.png)
+
+![](prescription_statussequence2.png)
 
 Hay 3 estados para una prescripción:
 
