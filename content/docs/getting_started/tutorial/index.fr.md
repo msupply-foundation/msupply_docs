@@ -1,4 +1,4 @@
-main_n+++
++++
 title = "Didacticiel"
 description = "Tutoriel d'intriduction à Open mSupply."
 date = 2022-03-19
