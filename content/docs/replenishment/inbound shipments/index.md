@@ -214,12 +214,12 @@ Passed statuses are highlighted in blue, next statuses appear in grey.
     <figcaption align="center">Status Sequence: current status is <code>Received</code>.</figcaption>
 </figure>
 
-There are 6 status for the Inbound Shipment:
+There are 6 statuses for the Inbound Shipments (although you might see a smaller number, depending on the type of shipment ):
 
 | Status        | Description                                                                                                        | mSupply | Editable |
 | :------------ | ------------------------------------------------------------------------------------------------------------------ | :-----: | :------: |
 | **New**       | This is the first status when you create a new manual Inbound Shipment                                             |   nw    |          |
-| **Picked**    | Supplier has confirmed that shipment is picked and ready to ship (applies only to automatically created shipments) |   nw    |    ✓     |
+| **Picked**    | Supplier has confirmed that shipment is picked and ready to ship (applies only to automatically created shipments) |   nw    |          |
 | **Shipped**   | Shipment has been shipped and goods are now in transit (applies only to automatically created shipments)           |   nw    |          |
 | **Delivered** | When you confirm that the shipment has been delivered.                                                             |   sg    |    ✓     |
 | **Received**  | When you confirm that the shipment has been validated. Goods are now part of your inventory.                       |   cn    |    ✓     |
@@ -414,7 +414,7 @@ Otherwise, you can tap on `Cancel` and your changes won't be saved.
 Tap on the `Add from master list` button (top right corner).
 
 <div class="note">
-The button will be disabled if the status of the Inbound Shipment is anything other than <code>New</code>
+The button will be disabled if the status of the Inbound Shipment is anything other than <strong>New</strong>
 </div>
 
 ![Add Item button](images/is_add_from_master_list_button.png)
@@ -458,8 +458,8 @@ To edit an Inbound Shipment line, simply tap on it. You will be presented with t
 2. Make sure that status is not yet `VERIFIED`
 3. Select the line(s) you want to delete by checking the box(es) on the left of the list
 4. Click the `Delete` button which appears at the bottom of the page.
+![](images/is_delete_inbound_shipment.png)
 
-![Alt Text](images/delete-inbound-shipment-line.gif)
 
 <div class="tip">
 You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
