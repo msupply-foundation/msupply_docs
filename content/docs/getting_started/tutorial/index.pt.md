@@ -41,7 +41,7 @@ Para abrir e fechar, pode clicar no logótipo na parte superior, como mostrado a
 
 Se o menu estiver fechado, basta passar o rato sobre os itens do menu para o abrir. Nesse caso, clicar num item fechará o menu novamente. Se estiver num tablet, clicar num item de menu terá o mesmo efeito.
 
-![Navegação principal](images/main_nav.gif)
+![Navegação principal](images/main_nav.png)
 
 Em alguns ecrãs, verá que o cabeçalho mostra um título, como **Remessa de saída** no exemplo acima. Clicar numa remessa específica altera o título para **Remessa de saída / #[número da remessa]**. Pode clicar na parte **Envio de saída** para voltar à lista ou utilizar a navegação principal à esquerda.
 

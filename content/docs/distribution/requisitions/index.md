@@ -85,7 +85,7 @@ You can delete a requisition from the Requisition list.
 You cannot delete requisitions that have been created from an Internal Order, or have had a shipment created from them.
 </div>
 
-![Delete Requesition Actions Footer](images/delete-response-requisition.png)
+![Delete Requesition Actions Footer](images/delete_response_requisition.png)
 
 ### Viewing a Requisition
 

@@ -11,8 +11,8 @@
 {%- if index.subsections -%}
 	{%- for s in index.subsections -%}
 		{%- set subsection = get_section(path=s) -%}
-		{%- if subsection.translations %}
-			{%- for page in subsection.translations -%}
+		{%- if subsection.pages %}
+			{%- for page in subsection.pages -%}
 					{%- if page.lang == "fr" %}
 					{#- Leave the next line not indented the missing "-" at the end of this comment means whitespace is not being removed so we get a line break #}
 {{ page.permalink | safe}}

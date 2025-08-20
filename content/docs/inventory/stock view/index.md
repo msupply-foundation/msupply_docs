@@ -90,11 +90,17 @@ There are some fields which only show if enabled:
 
 ### Reasons
 
-If you have [inventory adjustment reasons](https://docs.msupply.org.nz/preferences:options?s[]=reasons) configured in your central server, then you are also required to enter a reason when creating a new stock line. When reducing stock levels for vaccine items, the options configured for `Open vial wastage` and `Closed vial wastage` can be selected here also.
+If you have [inventory adjustment reasons](https://docs.msupply.org.nz/preferences:options?s[]=reasons) configured on your Legacy mSupply central server, then you are also required to enter a reason when creating a new stock line.
 
 If this is the case, the reason input will be enabled as below:
 
 ![New stock line: enter reason](images/stock_new_reason.png)
+
+### Item Variant
+
+[Item Variants](/docs/catalogue/item_variants/) will be available for selection if they are configured in your system.
+
+Item variants include packaging information - if your new stock line has a matching pack size, the `Volume per pack` field will be automatically populated.
 
 ### Donor
 
@@ -207,14 +213,11 @@ Click the `Cancel` button at any time to close the adjust modal.
 
 ### Reason Types
 
-There are several [reason types](https://docs.msupply.org.nz/preferences:options?s[]=reasons) configurable in mSupply. The types used when adjusting stock in Open mSupply are:
+There are several [reason types](https://docs.msupply.org.nz/preferences:options?s[]=reasons) configurable in mSupply. You'll have different options available depending on the type of adjustment you are making, and the type of item.
 
-- Positive Inventory Adjustment
-- Negative Inventory Adjustment
-- Open Vial Wastage
-
-| Adjustment type         | Item Type              | Reasons types available                             |
-| :---------------------- | :--------------------- | :-------------------------------------------------- |
-| **Inventory addition**  | Vaccine or non-vaccine | Positive Inventory Adjustment                       |
-| **Inventory reduction** | Non-vaccine            | Negative Inventory adjustment                       |
-| **Inventory reduction** | Vaccine                | Negative Inventory adjustment and Open Vial Wastage |
+| Adjustment              | Item                   | Facility Type       | Reason types                              |
+| :---------------------- | :--------------------- | :------------------ | :---------------------------------------- |
+| **Inventory addition**  | Vaccine or non-vaccine | Store or Dispensary | Positive Inventory Adjustment             |
+| **Inventory reduction** | Non-vaccine            | Store or Dispensary | Negative Inventory adjustment             |
+|                         | Vaccine                | Store               | Closed Vial Wastage                       |
+|                         |                        | Dispensary          | Closed Vial Wastage and Open Vial Wastage |

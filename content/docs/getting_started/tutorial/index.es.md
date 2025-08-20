@@ -40,7 +40,7 @@ Para abrir y cerrar el menú puedes hacer clic en el logo en la parte superior, 
 
 Si el menú está cerrado, simplemente pasar el cursor sobre los elementos del menú lo abrirá, en cuyo caso al hacer clic en un elemento, el menú se cerrará de nuevo. Si estás en una tablet, hacer clic en un elemento del menú tendrá el mismo efecto.
 
-![Main navigation](images/main_nav.gif)
+![Main navigation](images/main_nav.png)
 
 En algunas pantallas verás que el encabezado muestra un título, como **Salida** in the example above. en el ejemplo anterior. Al hacer clic en un envío específico, el título cambiará a **Salida/ #[número de envío]**. Puedes hacer clic en la parte **Salida** para volver a la lista o utilizar la navegación principal a la izquierda.
 

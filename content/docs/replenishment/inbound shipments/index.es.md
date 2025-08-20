@@ -390,7 +390,7 @@ Para editar una línea de una entrada, simplemente toca en ella. Se abrirá la v
 4. Ve al menú desplegable `Acciones` (esquina superior derecha, encima de la lista)
 5. Selecciona la acción `Eliminar líneas seleccionadas`
 
-![Alt Text](images/delete-inbound-shipment-line.gif)
+![](images/is_delete_inbound_shipment.png)
 
 <div class="imagetitle">
 En el siguiente ejemplo, estamos eliminando <i>item 030453 - Amoxicillina 250mg tabs</i>
