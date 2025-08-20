@@ -1,8 +1,8 @@
 +++
-title = "Mobile"
-description = "Open mSupply Introduction."
+title = "Application Open mSupply Mobile"
+description = "Open mSupply Introduction"
 date = 2023-02-24T18:20:00+00:00
-updated = 2023-02-24T18:20:00+00:00
+updated = 2024-08-20T18:20:00+00:00
 draft = false
 weight = 10
 sort_by = "weight"
@@ -44,6 +44,7 @@ En mode serveur, veuillez configurer le serveur pour qu'il fonctionne sur l'appa
 
 ![Mobile initialisation](images/mobile_initialisation.png)
 
+Voir l'étape 6 dans la [procédure d'initialisation](/docs/introduction/introduction/#procedure) pour plus de détails sur les valeurs à saisir ici.
 ## Accéder au journal des logs
 
 Dans l'application Android, vous verrez une section supplémentaire. Elle vous permet de changer le mode entre le client et le serveur, et de visualiser le fichier journal `Server log`:

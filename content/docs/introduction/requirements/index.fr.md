@@ -2,7 +2,7 @@
 title = "Configuration requise"
 description = "Configuration requise pour Open mSupply"
 date = 2024-06-10T11:38:00+00:00
-updated = 2024-06-10T11:38:00+00:00
+updated = 2025-08-20T11:38:00+00:00
 draft = false
 weight = 30
 sort_by = "weight"
@@ -36,12 +36,13 @@ Le client peut être un navigateur web, une tablette Android ou un PC sous Windo
 
 Les exigences matérielles requises varient considérablement en fonction de l'utilisation prévue d'Open mSupply. Voici un guide approximatif :
 
-| Ordinateur                             | Minimum Technique                                                                                                                                                                                        | Recommandations                                                                                                                                                                                                                                                           |
-| :------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Client Windows à utiliser avec serveur | Processeur 64 bit <br/>Windows 10<br/>4 Gb RAM, 300Mb d'espace disque                                                                                                                                    | Processeur 64 bit<br/>Windows 10<br/>8 Gb RAM, 500Mb d'espace disque                                                                                                                                                                                                      |
-| Client Mac à utiliser avec serveur     | Processeur 64 bit <br/>macOS Mojave (10.14) – macOS Big Sur (11)<br/><i/>(La dernière version de chaque mise à jour importante est nécessaire, par ex, 10.14.6)</i><br/> 4 Gb RAM, 300Mb d'espace disque | Processeur 64 bit<br/>Mac OS 10.14.6 ou version plus récente <br/>8 Gb RAM, 500Mb d'espace disque                                                                                                                                                                         |
-| Serveur Windows                        | Processeur 64 bit<br/>Windows 10 Pro ou serveur Windows 2019<br/>8 Gb RAM<br/> Volume 50 GB HDD/SDD avec des backups journaliers vers un volume externe                                                  | Processeur 64 bit<br/>Serveur Windows 2019+<br/>8 Gb RAM<br/>4 volumes HDD/SDD, 3 configurés comme RAID1 ou RAID5 avec hot spare<br/>Backups journaliers vers le quatrième volume + backups journaliers hors site<br/>Branché à un onduleur intelligent (voir ci-dessous) |
-| Client ou serveur Linux                | Processeur 64 bit<br/>Ubuntu 20+ ou similaire<br/>4 Gb RAM<br/>256 Gb de stockage                                                                                                                        | Processeur 64 bit<br/>Ubuntu 20+ ou similaire<br/>8 Gb RAM<br/>256 Gb de stockage                                                                                                                                                                                         |
+| Ordinateur                             | Minimum Technique                                                                                                                                                                                        | Recommandations                                                                                                                                                                                                                                                              |
+| :------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Client Windows à utiliser avec serveur | Processeur 64 bit <br/>Windows 10<br/>4 Gb RAM, 300Mb d'espace disque                                                                                                                                    | Processeur 64 bit<br/>Windows 10<br/>8 Gb RAM, 500Mb d'espace disque                                                                                                                                                                                                         |
+| Client Mac à utiliser avec serveur     | Processeur 64 bit <br/>macOS Mojave (10.14) – macOS Big Sur (11)<br/><i/>(La dernière version de chaque mise à jour importante est nécessaire, par ex, 10.14.6)</i><br/> 4 Gb RAM, 300Mb d'espace disque | Processeur 64 bit<br/>Mac OS 10.14.6 ou version plus récente <br/>8 Gb RAM, 500Mb d'espace disque                                                                                                                                                                            |
+| Serveur Windows                        | Processeur 64 bit<br/>Windows 10 Pro ou serveur Windows 2019<br/>16 Go RAM<br/>Volume 100 Go HDD/SDD avec des sauvegardes journalières vers un volume externe                                            | Processeur 64 bit<br/>Serveur Windows 2019+<br/>8 32 Gb RAM<br/>4 volumes HDD/SDD, 3 configurés comme RAID1 ou RAID5 avec hot spare<br/>Backups journaliers vers le quatrième volume + backups journaliers hors site<br/>Branché à un onduleur intelligent (voir ci-dessous) |
+| Client ou serveur Linux                | Processeur 64 bit<br/>Ubuntu 20+ ou similaire<br/>4 Gb RAM<br/>256 Gb de stockage                                                                                                                        | Processeur 64 bit<br/>Ubuntu 20+ ou similaire<br/>8 Gb RAM<br/>512 Gb de stockage                                                                                                                                                                                            |
+| Windows utilisateur unique             | Processeur 64 bit<br/>Windows 10<br/>8 Go RAM<br/>Volume 1 Go HDD/SDD avec sauvegardes journalières vers un volume externe                                                                               | Processeur 64 bit<br/>Windows 10<br/>16 Go RAM<br/>Volume 1 Go HDD/SDD avec sauvegardes journalières vers un volume externe                                                                                                                                                  |
 
 <div class="note">
 L'enregistrement des transactions de stocks est une activité centrale d'Open mSupply. La plupart des données sur les transactions de stocks sont numériques. Un clavier numérique est souvent utile pour les machines sur lesquelles on saisit beaucoup de données.
@@ -115,14 +116,14 @@ Avant de parler de bande passante et de latence, il convient de mentionner notre
 #### Mode hors ligne (synchronisation)
 
 - Bande passante : 128 kbps
-- Latence : élevée (par exemple, satellite) acceptable. Les utilisateurs ne la remarqueront pas dans les opérations quotidiennes, car la synchronisation s'effectue en arrière-plan et les demandes de données sont satisfaites à partir de la base de données locale, et non par internet.
-- Connectivité : intermittente (une fois par semaine par exemple est un rythme acceptable).
+- Latence élevée (par exemple, satellite) acceptable. Les utilisateurs ne la remarqueront pas dans les opérations quotidiennes, car la synchronisation s'effectue en arrière-plan et les demandes de données sont satisfaites à partir de la base de données locale, et non par internet.
+- Connectivité intermittente (par exemple, une fois par semaine) acceptable
 
 #### Mode hébergé dans le cloud (en ligne)
 
-- Téléchargement initial du code Javascript est d'environ 1 Mb, donc une connexion de 512 kbps ou plus est recommandée (chargement en 10 secondes environ).
-- Connexion internet : nécessaire pour utiliser Open mSupply dans ce mode.
-- Latence : une latence élevée (par exemple, satellite ou connexion surchargée) se traduira par des performances plus lentes.
+- Le téléchargement initial du code Javascript est d'environ 1 Mo, donc une connexion de 512 kbps ou plus est recommandée (chargement en 10 secondes environ).
+- Vous avez besoin d'une connexion internet pour utiliser Open mSupply dans ce mode.
+- Une latence élevée (par exemple, satellite ou connexion surchargée) se traduira par des performances plus lentes
 
 ## Système de sauvegarde
 
