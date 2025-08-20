@@ -18,7 +18,7 @@ top = false
 
 To view the synchronisation status, click `Sync` in the lower section of the navigation panel or press CTRL+ALT+S (CTRL+OPT+S if using a mac) on your keyboard:
 
-![sync: nav](../images/sync_nav.png)
+![sync: nav](images/sync_nav.png)
 
 The window shows the number of records waiting to be pushed to the central servers, and the time that the last sync happened.
 

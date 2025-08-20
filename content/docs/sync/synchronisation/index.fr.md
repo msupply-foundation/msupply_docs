@@ -18,7 +18,7 @@ top = false
 
 Pour afficher l'état de synchronisation, accédez à `Synchronisation` dans la partie inférieure du panneau de navigation :
 
-![sync: nav](../images/sync_nav_fr.png)
+![sync: nav](images/sync_nav.png)
 
 La page affiche le nombre d'enregistrements en attente d'être envoyés vers les serveurs centraux et l'heure à laquelle la dernière synchronisation a eu lieu.
 
