@@ -95,14 +95,12 @@ Enabling the preference will show the extra columns on the requisition list page
 
 The line edit page will also contain the extra columns.
 
-![Program Requisition Line
-Edit](images/internal_order_extra_fields_edit.png)
+![Program Requisition Line Edit](images/internal_order_extra_fields_edit.png)
 
 If your store has the store preference `Use consumption &
 stock from customers for internal orders` enabled
 
-![Use consumption & stock from customers for internal
-orders](images/consumption_data_pref.png)
+![Use consumption & stock from customers for internal orders](images/consumption_data_pref.png)
 
 Then you will see an extra table underneath the input fields which shows the
 customer's data based on their program requisitions for that period.
@@ -184,8 +182,7 @@ Enabling the preference will show the extra columns on the requisition list page
 
 The line edit page will also contain the extra columns as well.
 
-![Program Requisition Line
-Edit](images/program_requisition_line_edit.png)
+![Program Requisition Line Edit](images/program_requisition_line_edit.png)
 
 An additional section will be visible in the side panel showing the program
 information.

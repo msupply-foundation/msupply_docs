@@ -72,7 +72,7 @@ Esto agregará una nueva fila a la tabla. Ahora puedes ingresar un nombre para e
 
 Los indicadores demográficos solo son visibles en el [Servidor Central de Open mSupply](/docs/getting_started/central-server) y requieren la preferencia de almacén [`mobile: Usa módulo de vacunas`](https://docs.msupply.org.nz/cold_chain_equipment:mobile?s[]=vaccine#enable_the_vaccine_module_for_the_mobile_store).
 
-![mSupply Store Preference Vaccine Module](images/vaccine_module.png)
+![mSupply Store Preference Vaccine Module](vaccine_module.png)
 
 Para crear, editar o eliminar datos demográficos, necesitas el permiso `Puedes modificar datos centrales` habilitado en la [omSupply Permissions Tab](https://docs.msupply.org.nz/admin:managing_users?s[]=permission#omsupply_permissions_tab) en tu Almacén Central.
 
