@@ -214,7 +214,7 @@ This will open a new window, where you can search for the item you wish to bundl
 After selecting the item, you will be prompted to select the specific variant of that item, along with the ratio at which it should be bundled.
 
 <div class="imagetitle">
-In this example, 0.2 units of Silverfern Normal Saline should be bundled with every 1 unit of Silverfern Adsorbed (Paediatric) DPT Vaccine.
+In this example, 0.2 units of Silverfern saline 0.22% should be bundled with every 1 unit of Qdenga.
 </div>
 
 <p align="center">
