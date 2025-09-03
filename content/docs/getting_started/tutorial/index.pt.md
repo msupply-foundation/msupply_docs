@@ -71,7 +71,7 @@ A parte inferior do ecrã contém algumas informações úteis e é apresentada 
 
 Alguns utilizadores têm acesso a mais do que uma loja. Para alterar a loja atualmente selecionada, basta clicar no nome da loja no rodapé:
 
-![Alternador de lojas](images/store_switcher.gif)
+![Alternador de lojas](images/store_switcher.png)
 
 Verá a notificação e o nome da loja no rodapé será atualizado. A partir de agora, todas as ações serão na loja recém-selecionada.
 

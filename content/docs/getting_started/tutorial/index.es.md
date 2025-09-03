@@ -70,7 +70,7 @@ El fondo de la pantalla contiene información útil y se muestra en todas las pa
 
 Algunos usuarios tienen acceso a más de un almacén. Para cambiar el almacén que está actualmente seleccionado, simplemente haz clic en el nombre del almacén en el pie de página:
 
-![Store switcher](images/store_switcher.gif)
+![Store switcher](images/store_switcher.png)
 
 Verás la notificación y el nombre del almacén en el pie de página se actualizará. A partir de ahora, todas las acciones se realizarán en el almacén recién seleccionado.
 

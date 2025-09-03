@@ -72,7 +72,7 @@ Le bas de l'écran contient des informations utiles et s'affiche sur chaque écr
 
 Certains utilisateurs ont accès à plus d'un dépôt. Pour changer le dépôt actuellement sélectionné, cliquez simplement sur le nom du dépôt au pied de la page:
 
-![Store switcher](images/store_switcher.gif)
+![Store switcher](images/store_switcher.png)
 
 Vous verrez la notification et le nom du dépôt dans le pied de page sera mis à jour. À partir de maintenant, toutes les actions seront dans le dépôt nouvellement sélectionné.
 
