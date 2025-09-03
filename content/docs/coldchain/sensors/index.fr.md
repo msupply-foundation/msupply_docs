@@ -29,13 +29,13 @@ Pour configurer l'intégration, vous devrez configurer un nouvel utilisateur mSu
 
 L'utilisateur est un utilisateur mSupply standard, avec la configuration suivante :
 
-- Le magasin par défaut assigné à l'utilisateur est le magasin auquel les données de température seront associées.
-- Le magasin devra faire partie du site avec lequel Open mSupply se synchronise. Consultez la section [Paramètres](/docs/settings/synchronisation/#viewing-the-synchronisation-settings) pour voir avec quel site omSupply se synchronise, puis l'écran [Synchronisation](https://docs.msupply.org.nz/synchronisation:sync_sites#viewing_sync_sites) pour vérifier que votre site inclut le bon magasin.
+- Le dépôt par défaut assigné à l'utilisateur est celui auquel les données de température seront associées.
+- Le dépôt devra faire partie du site avec lequel Open mSupply se synchronise. Consultez la section [Paramètres](/docs/settings/synchronisation/#viewing-the-synchronisation-settings) pour voir avec quel site Open Supply se synchronise, puis l'écran [Synchronisation](https://docs.msupply.org.nz/synchronisation:sync_sites#viewing_sync_sites) pour vérifier que votre site inclut le bon dépôt.
 - L'utilisateur doit avoir la permission Open Supply de `Accès API chaîne du froid` (voir ci-dessous)
 
 ![Permission API chaîne du froid](images/coldchain_permission.png)
 
-À partir de là, suivez les étapes de la documentation de l'application mSupply Cold Chain pour [Intégration avec mSupply Desktop](/coldchain/desktop-integration/#msupply-desktop-setup-steps) en utilisant les nouvelles informations d'identification utilisateur mSupply créées ci-dessus à la place des informations d'identification du magasin.
+À partir de là, suivez les étapes de la documentation de l'application mSupply Cold Chain pour [Intégration avec mSupply Desktop](/coldchain/desktop-integration/#msupply-desktop-setup-steps) en utilisant les nouveaux détails d'identification utilisateur mSupply créés ci-dessus à la place des détails d'identification du dépôt.
 
 #### Fridge-tags et Q-tags
 
@@ -52,7 +52,7 @@ Voici comment se déroule le processus (il s'agit de la version de bureau mac) :
 
 ![Importer fridge tag : sélectionner fichier](images/import_fridge_tag_1_select.png)
 
-Vous devriez ensuite voir un message de succès en bas à gauche de l'écran :
+Vous devriez ensuite voir un message de confirmation en bas à gauche de l'écran indiquant que l'importation a réussi:
 
 ![Importer fridge tag : succès](images/import_fridge_tag_2_success.png)
 
@@ -68,26 +68,26 @@ et enfin, confirmez les modifications :
 
 ![Importer fridge tag : confirmer](images/import_fridge_tag_5_confirm.png)
 
-<div class="note">Vous pourriez devoir attendre que le fichier texte soit généré après avoir connecté le Fridge-tag à votre ordinateur.</div>
+<div class="note">Il se peut que vous deviez attendre que le fichier texte soit généré après avoir connecté le Fridge-tag à votre ordinateur.</div>
 
-##### Appareils Berlinger compatibles
+##### Dispositifs Berlinger compatibles
 
-Les appareils Berlinger suivants sont compatibles avec Open mSupply :
+Les dispositifs Berlinger suivants sont compatibles avec Open mSupply :
 
-| Appareil                | Données de rupture affichées | Graphique de température tracé |
-| :---------------------- | :--------------------------- | :----------------------------- |
-| **Q-tag CLm doc**       | Oui                          | Oui                            |
-| **Q-tag CLm doc D**     | Oui                          | Oui                            |
-| **Q-tag CLm doc Ice**   | Oui                          | Oui                            |
-| **Q-tag CLm doc Ice R** | Oui                          | Oui                            |
-| **Q-tag CLm doc L**     | Oui                          | Oui                            |
-| **Q-tag CLm doc LR**    | Oui                          | Oui                            |
-| **Fridge-tag 2**        | Oui                          | Non\*                          |
-| **Fridge-tag 2E**       | Oui                          | Non\*                          |
-| **Fridge-tag 2L**       | Oui                          | Oui                            |
-| **Fridge-tag UL**       | Oui                          | Oui                            |
+| Dispositifs             | Données d'anomalies affichées | Graphique de température affiché |
+| :---------------------- | :---------------------------- | :------------------------------- |
+| **Q-tag CLm doc**       | Oui                           | Oui                              |
+| **Q-tag CLm doc D**     | Oui                           | Oui                              |
+| **Q-tag CLm doc Ice**   | Oui                           | Oui                              |
+| **Q-tag CLm doc Ice R** | Oui                           | Oui                              |
+| **Q-tag CLm doc L**     | Oui                           | Oui                              |
+| **Q-tag CLm doc LR**    | Oui                           | Oui                              |
+| **Fridge-tag 2**        | Oui                           | Non\*                            |
+| **Fridge-tag 2E**       | Oui                           | Non\*                            |
+| **Fridge-tag 2L**       | Oui                           | Oui                              |
+| **Fridge-tag UL**       | Oui                           | Oui                              |
 
-\*L'appareil enregistreur ne capture pas les journaux de température individuels
+\*Le dispositif enregistreur ne capture pas les journaux de température individuels
 
 ### Visualisation des capteurs
 
@@ -95,9 +95,9 @@ Choisissez `Chaîne du froid` > `Capteurs` dans le panneau de navigation.
 
 ![aller aux capteurs](images/goto_sensors.png)
 
-Une liste de capteurs vous sera présentée (si vous n'en voyez aucun, vous n'avez peut-être pas encore importé de données ou intégré l'application mSupply Cold Chain !).
+Vous verrez s'afficher une liste de capteurs (si vous n'en voyez aucun, vous n'avez peut-être pas encore importé de données ou intégré l'application mSupply Cold Chain !).
 
-Depuis cet écran, vous pouvez voir une liste de capteurs et modifier un capteur.
+Depuis cet écran, vous pouvez voir une liste de capteurs et vous pouvez modifier un capteur.
 
 ### Liste des capteurs
 
@@ -108,14 +108,14 @@ Depuis cet écran, vous pouvez voir une liste de capteurs et modifier un capteur
 | Colonne                | Description                                                                                      |
 | :--------------------- | :----------------------------------------------------------------------------------------------- |
 | **Nom**                | Nom du capteur                                                                                   |
-| **CCE**                | Numéro d'inventaire de l'équipement de chaîne du froid auquel le capteur est associé             |
+| **ECF**                | Numéro d'inventaire de l'équipement de chaîne du froid auquel le capteur est associé             |
 | **Emplacement**        | `Emplacement` de stockage de stock actuel du capteur                                             |
 | **Numéro de série**    | Un identifiant unique pour le capteur                                                            |
 | **Niveau de batterie** | Lecture de batterie la plus récente, en pourcentage                                              |
-| **Dernière lecture**   | La température la plus récente rapportée par le capteur                                          |
+| **Dernier relevé**     | La température la plus récente rapportée par le capteur                                          |
 | **Date heure**         | Date et heure de la activité la plus récente pour ce capteur                                     |
 | **Type de capteur**    | Le fabricant du capteur, les options actuellement prises en charge sont `mSupply` et `Berlinger` |
-| **Type de rupture**    | Si le capteur a eu une rupture, cela montre le type de la rupture la plus récente                |
+| **Type d'anomalie**    | Si le capteur a eu une anomalie, cela montre le type de la anomalie la plus récente              |
 
 1. La liste peut afficher un nombre fixe de capteurs par page. Dans le coin inférieur gauche, vous pouvez voir combien de capteurs sont actuellement affichés sur votre écran.
 
