@@ -46,7 +46,7 @@ A window like this opens:
 
 1. **Name**: Enter the name of the new location
 2. **Code**: Enter a code for the new location
-3. **Location type** (optional): Select the location type. These [Location Types](https://docs.msupply.org.nz/items:item_locations?s[]=location&s[]=type#location_types) are configured on the mSupply Central Server.
+3. **Location type** (optional): Select the location type. These [location types](https://docs.msupply.org.nz/items:item_locations?s[]=location&s[]=type#location_types) are configured on the mSupply Central Server.
 4. **Volume** (optional): Storage volume of the location in m³. `Volume used` shows the total volume of stock currently in the location.
 5. **On Hold** (checkbox): If you check this box, then goods in this location cannot be selected for issue to customers. Goods can be moved in to, and out, of the location but they cannot be issued from that location.
 
@@ -78,5 +78,16 @@ Stock can be assigned to a location when receiving or adjusting stock (i.e. duri
 When doing so, you'll be able to filter the locations based on available volume, so you can easily find a location that has enough space for your stock:
 
 ![Location picker](images/location_picker.png)
+
+You can filter the list of locations displayed by typing into the input at the top of this window; this will filter the locations by name and/or code.
+The three buttons across the top allow you to easily filter by volume:
+
+| Button    | Action                                                             |
+| --------- | ------------------------------------------------------------------ |
+| ALL       | Shows all locations                                                |
+| EMPTY     | Will only show locations which have no stock in them               |
+| AVAILABLE | Shows locations which have enough capacity to store the stock line |
+
+<div class="note">The calculation of the available space requires the correct volume of the location to be specified and that all of the stock in that location has a volume recorded</div>
 
 Also note that items can have a [restricted location type](https://docs.msupply.org.nz/items:item_basics:tab_storage?s[]=restricted&s[]=location&s[]=type#restricted_to) configured. When selecting a location for these items, only locations with the same type will be shown in the picker.

@@ -172,8 +172,6 @@ La secuencia de estados se encuentra en la esquina inferior izquierda de la pant
 
 Los estados completados se destacan en azul, mientras que los próximos estados aparecen en gris.
 
-
-
 ![](images/prescription_statussequence1.png)
 
 ![](prescription_statussequence2.png)
@@ -452,10 +450,7 @@ Una vez que la prescripción ha sido confirmada:
 
 ## Ver la Prescripción
 
-Los lotes se agrupan automáticamente por artículo al ver una prescripción específica. Usa la opción de expandir en el encabezado de la tabla para desplegar todas las filas agrupadas.
-
-![Group by Item](images/prescription_group_by_item_step_1.png)
-![Group by Item](images/prescription_group_by_item_step_2.png)
+La vista detallada de la prescripción muestra cada artículo de la prescripción, junto con la cantidad expedida y mucha otra información útil.
 
 Si no tienes suficiente espacio en tu pantalla o simplemente no te interesan algunas de las columnas mostradas, tienes la opción de ocultar las columnas visibles en esta vista.
 

@@ -272,6 +272,7 @@ Ceci montre le nom et le code de l'article.
 #### Partie Quantité
 
 Cette partie affiche les sélections suivantes:
+
 - les lots disponibles pour cet article
 - l'unité de l'article (ex. _Comprimés_)
 
@@ -532,12 +533,7 @@ Les noms d'articles dans le système sont trop longs pour ce format d'étiquette
 
 ## Consulter une Prescription
 
-Les lots sont automatiquement groupés par article lors de la consultation d'une prescription spécifique. Utilisez le bouton d'agrandissement pour une ligne spécifique afin de voir les détails pour chaque lot de l'article.
-
-Par exemple, les comprimés de Paracétamol 500mg montrés ici, ont trois lots alloués. Cliquez sur l'icône d'agrandissement dans la ligne pour voir les détails :
-
-![Grouper par Article](images/prescription_group_by_item_step_1.png)
-![Grouper par Article](images/prescription_group_by_item_step_2.png)
+La vue détaillée de la prescription montre chaque élément de la prescription, ainsi que la quantité délivrée et de nombreuses autres informations utiles.
 
 Si vous n'avez pas assez de place sur votre écran, ou si vous n'êtes simplement pas intéressé par certaines des colonnes montrées, vous avez l'option de masquer ou afficher certaines colonnes.
 

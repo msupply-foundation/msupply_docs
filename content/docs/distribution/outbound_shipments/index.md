@@ -356,6 +356,12 @@ You can issue Vaccine Items in doses when the [Display vaccines in doses](/docs/
 
 ![List of available batch numbers with doses](images/os_additem_listofbatches_with_doses.png)
 
+When the <a href="/docs/manage/facilities/#store-preferences">Manage VVM status for stock</a> store preference is turned on you will be able to edit the VVM status of a stock line directly:
+
+![Edit VVM status](images/os_edit_vvm_status.png)
+
+<div class="note">The status will only be saved if you are distributing some stock for that particular stock line</div>
+
 ### Issue a quantity of units
 
 By default, you are invited to issue a quantity of **units**, regardless of the pack size (number of units in a pack).
