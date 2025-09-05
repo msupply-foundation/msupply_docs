@@ -68,7 +68,7 @@ For example, to filter by supplier name, click on `Filters`, select `Name` and s
 
 ### Exporting Inbound Shipments
 
-The list of Inbound Shipments can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page) and the file will be downloaded. 
+The list of Inbound Shipments can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page) and the file will be downloaded.
 
 ![Export button](images/export.png)
 
@@ -124,7 +124,7 @@ If you have selected the wrong supplier, you can change the supplier name in the
 
 ### Enter a Supplier Reference
 
-Once your Inbound Shipment has been created, you can capture a supplier reference in the `Supplier Ref` field, if they have one (eg. PO#1234567 _)
+Once your Inbound Shipment has been created, you can capture a supplier reference in the `Supplier Ref` field, if they have one (eg. PO#1234567 \_)
 
 ### View or edit the Inbound Shipment Information Panel
 
@@ -187,7 +187,6 @@ If your store is issuing in foreign currencies follow [these instructions](https
 
 The pen icon will become active once the above instructions have been followed and only if the customer is an external customer. Click on this icon and change to a currency that you would like to issue the shipment in. The currency rate can also be edited if you and the customer have agreed on a different rate.
 ![](images/is_change_foreign_currency.png)
-
 
 You can also see the foreign currency totals in the invoice line details as well.
 ![Line with Foreign Currency Pricing](images/is_line_with_foreign_currency.png)
@@ -289,7 +288,6 @@ As demonstrated below, tap on the down arrow of the `Confirm` button and select 
 
 ![](images/is_skipstatus.png)
 
-
 ## Adding lines to an Inbound Shipment
 
 To add a line, tap on the `Add Item` button located in the top left corner of your screen.
@@ -365,19 +363,17 @@ On the second tab, `Pricing`, you can update the following fields (all are optio
 - **Batch** (read-only): Batch number
 - **Pack Size** (read-only): The quantity of units per pack
 - **Pack Qty** (read-only): The quantity of packs you are receiving
-- **Cost**: The purchasing unit price of the item (default value is 0)
-- **Pack Sell Price**: The selling unit price of the item (default value is 0)
-- **Line Total** (read-only): Total purchasing value for the batch number (`[Pack Qty] x [Cost]`)
-
-<div class="warning">
-Sell & Cost prices are per units and not per pack. 
-</div>
+- **Pack cost price**: The purchasing price per pack of the item (default value is 0)
+- **Pack sell price**: The selling price per pack of the item (default value is 0)
+- **Line Total** (read-only): Total purchasing value for the batch number (`[Pack Qty] x [Pack cost price]`)
 
 <div class="imagetitle">
 In the below example, the first line's cost price is $0.01 per unit and the sell price $0.10 per unit. 
 </div>
 
 ![Add Item pricing](images/is_additem_pricing.png)
+
+<div class="tip">The <code>Received pack size</code> and <code>Pack sell price</code> will default to the values specified as <a href="https://docs.msupply.org.nz/items:item_basics:tab_storage?s%5B%5D=preferred&s%5B%5D=pack&s%5B%5D=size#preferred_pack_size">Preferred pack size</a> and <a href="https://docs.msupply.org.nz/items:item_basics:tab_general#default_sell_price_of_preferred_pack_size">Default sell price of preferred pack size</a> if these have been specified for the current item.</div>
 
 ### Other tab
 
@@ -386,7 +382,7 @@ In the third tab, `Other`, you can select the following:
 - **Location**: A storage location to assign the batch number to a location in your storage facility.
 - **Comment**: This is a free text field that can be used to add a comment about the shipment line.
 - **Donor**: A donor, if configured to track donors. See [Track stock by donor](#track-stock-by-donor) for details.
-- **Campaign**: If you have a campaign configured (see [Campaigns](/docs/manage/campaigns/)) then this column allows you to associate the stock line with a campaign
+- **Campaign / Program**: If you have a campaign configured (see [Campaigns](/docs/manage/campaigns/)) or if the item is part of a program which is visible in this store then this column allows you to associate the stock line with a campaign or program.
 
 #### Location
 
@@ -458,12 +454,24 @@ To edit an Inbound Shipment line, simply tap on it. You will be presented with t
 2. Make sure that status is not yet `VERIFIED`
 3. Select the line(s) you want to delete by checking the box(es) on the left of the list
 4. Click the `Delete` button which appears at the bottom of the page.
-![](images/is_delete_inbound_shipment.png)
 
+![Delete inbound shipment line](images/is_delete_inbound_shipment.png)
 
 <div class="tip">
 You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
 </div>
+
+### Other line actions
+
+If you have selected some lines by checking the box on the left of the list there are several actions which are possible. These affect the selected lines only.
+
+| Action                     | Effect                                                                                                                                             |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Delete                     | As described above, this deletes the selected line(s)                                                                                              |
+| Change Campaign or Program | Opens a window which allows you to choose a program or campaign. This will be associated with all the selected lines                               |
+| Set quantities to 0        | This will set the `Packs received` value for all the selected lines to zero                                                                        |
+| Return selected lines      | Opens a window which lets you return some or all of the selected lines. This is only possible if the status of the shipment is `Received` or later |
+| Clear selection            | Will clear the selection checkboxes                                                                                                                |
 
 ## Receiving stock with an Inbound Shipment
 

@@ -86,11 +86,13 @@ After selecting an item, you can enter the information for this new stock line. 
 
 See the [Campaigns](/docs/manage/campaigns/) page for details of how to configure campaigns.
 
+<div class="tip">When adding a batch the <code>Pack size</code> and <code>Sell price</code> will default to the value specified by the <a href="https://docs.msupply.org.nz/items:item_basics:tab_storage?s%5B%5D=preferred&s%5B%5D=pack&s%5B%5D=size#preferred_pack_size">Preferred pack size</a> and <a href="https://docs.msupply.org.nz/items:item_basics:tab_general#default_sell_price_of_preferred_pack_size">Default sell price of preferred pack size</a> if they have been specified for the current item.</div>
+
 There are some fields which only show if enabled:
 
 ### Reasons
 
-If you have [inventory adjustment reasons](https://docs.msupply.org.nz/preferences:options?s[]=reasons) configured on your Legacy mSupply central server, then you are also required to enter a reason when creating a new stock line.
+If you have [inventory adjustment reasons](https://docs.msupply.org.nz/preferences:options?s[]=reasons) configured on your mSupply central server, then you are also required to enter a reason when creating a new stock line.
 
 If this is the case, the reason input will be enabled as below:
 
