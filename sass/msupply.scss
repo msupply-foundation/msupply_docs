@@ -332,3 +332,13 @@ a.homepage-link:hover {
   color: #f2913d;
   text-decoration: underline;
 }
+
+p.search_snippet {
+  font-size: 0.9em;
+  color: #555;
+}
+
+#search-results > li {
+  
+  list-style-type: none;
+}
