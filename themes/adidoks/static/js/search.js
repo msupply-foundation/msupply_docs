@@ -4,61 +4,30 @@ var userinput = document.getElementById('userinput');
 document.addEventListener('keydown', inputFocus);
 
 function inputFocus(e) {
-
-  if (e.keyCode === 191
-      && document.activeElement.tagName !== "INPUT"
-      && document.activeElement.tagName !== "TEXTAREA") {
+  if (
+    e.keyCode === 191 &&
+    document.activeElement.tagName !== 'INPUT' &&
+    document.activeElement.tagName !== 'TEXTAREA'
+  ) {
     e.preventDefault();
     userinput.focus();
   }
 
-  if (e.keyCode === 27 ) {
-    userinput.blur();
-    suggestions.classList.add('d-none');
-  }
-
+  // if (e.keyCode === 27 ) {
+  //   userinput.blur();
+  //   suggestions.classList.add('d-none');
+  // }
 }
 
-document.addEventListener('click', function(event) {
+// document.addEventListener('click', function(event) {
 
-  var isClickInsideElement = suggestions.contains(event.target);
+//   var isClickInsideElement = suggestions.contains(event.target);
 
-  if (!isClickInsideElement) {
-    suggestions.classList.add('d-none');
-  }
+//   if (!isClickInsideElement) {
+//     suggestions.classList.add('d-none');
+//   }
 
-});
-
-/*
-Source:
-  - https://dev.to/shubhamprakash/trap-focus-using-javascript-6a3
-*/
-
-document.addEventListener('keydown',suggestionFocus);
-
-function suggestionFocus(e){
-  const focusableSuggestions= suggestions.querySelectorAll('a');
-  if (suggestions.classList.contains('d-none')
-      || focusableSuggestions.length === 0) {
-    return;
-  }
-  const focusable= [...focusableSuggestions];
-  const index = focusable.indexOf(document.activeElement);
-
-  let nextIndex = 0;
-
-  if (e.keyCode === 38) {
-    e.preventDefault();
-    nextIndex= index > 0 ? index-1 : 0;
-    focusableSuggestions[nextIndex].focus();
-  }
-  else if (e.keyCode === 40) {
-    e.preventDefault();
-    nextIndex= index+1 < focusable.length ? index+1 : index;
-    focusableSuggestions[nextIndex].focus();
-  }
-
-}
+// });
 
 /*
 Source:
@@ -67,6 +36,7 @@ Source:
   - http://elasticlunr.com/
   - https://github.com/getzola/zola/blob/master/docs/static/search.js
 */
+/*
 (function(){
   var index = elasticlunr.Index.load(window.searchIndex);
   userinput.addEventListener('input', show_results, true);
@@ -315,3 +285,4 @@ function getByteByBinary(binaryCode) {
 function getByteByHex(hexCode) {
   return getByteByBinary(parseInt(hexCode, 16).toString(2));
 }
+*/
