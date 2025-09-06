@@ -7,11 +7,13 @@ index = get_section(path=index_path) -%}
     var searchDocuments = [
     {%- if index.pages %}
       {%- for page in index.pages  -%}
+        {%- if page.slug != "search" %}
         {
           id: {{ page.permalink  | json_encode | safe }},
           title: {{ page.title | json_encode  | safe}},
           permalink: {{ page.permalink | json_encode | safe }}
         },
+        {%- endif -%}
       {%- endfor %}
     {%- endif -%}
 
@@ -41,9 +43,9 @@ index = get_section(path=index_path) -%}
     return text.replace(regex, '<mark>$1</mark>');
   }
 
-  const getSnippet = (text, query, length = 30) => {
+  const getSnippet = (text, query, length) => {
     const index = text.toLowerCase().indexOf(query.toLowerCase());
-    if (index === -1) return text.slice(0, length) + '...';
+    if (index === -1) return '';
 
     const start = Math.max(0, index - length / 2);
     const end = Math.min(text.length, index + length / 2);
@@ -51,7 +53,25 @@ index = get_section(path=index_path) -%}
     return `...${text.slice(start, end)}...`;
   }
 
-      window.addEventListener('DOMContentLoaded', () => {
+  const getSnippets = (text, query, length = 100, limit = 5) => {
+    const snippets = [];
+    let remainingText = text;
+    let count = 0;
+
+    while (count < limit) {
+      const snippet = getSnippet(remainingText, query, length);
+      if (!snippet) break;
+
+      snippets.push(`<p class="search_snippet">${snippet}</p>`);
+      const nextIndex = remainingText.toLowerCase().indexOf(query.toLowerCase()) + query.length;
+      remainingText = remainingText.slice(nextIndex);
+      count += 1;
+    }
+
+    return snippets.join('');
+  }
+
+  window.addEventListener('DOMContentLoaded', () => {
         const params = new URLSearchParams(window.location.search);
         const query = params.get('q');
         document.getElementById('userinput').value = query;
@@ -64,16 +84,27 @@ index = get_section(path=index_path) -%}
           const index = elasticlunr.Index.load(window.searchIndex);
           const results = index.search(query);
 
+          if (results.length === 0) {
+            resultsContainer.innerHTML = '<p>No results found</p>';
+            return;
+          }
+
+          const resultCount = document.createElement('p');
+          let pageCount = 0;
+          resultsContainer.appendChild(resultCount);
+
           results.forEach((result) => {
             // console.log(`finding doc for id: ${result.ref}`, result);
             const doc = searchDocuments.find((d) => d.id === result.ref);
             if (!doc) return;
 
             const li = document.createElement('li');
-            const snippet = highlight(getSnippet(result.doc.body, query, 500), query);
-            li.innerHTML = `<a href="${doc.permalink}">${doc.title}</a><p class="search_snippet">${snippet}</p>`;
+            const snippet = highlight(getSnippets(result.doc.body, query), query);
+            li.innerHTML = `<a href="${doc.permalink}">${doc.title}</a><p>${snippet}</p>`;
             resultsContainer.appendChild(li);
+            pageCount += 1;
           });
+          resultCount.innerHTML = `<b>${results.length}</b> results found for "<i>${query}</i>" in ${pageCount} pages`;
         }
 
         runSearch();
