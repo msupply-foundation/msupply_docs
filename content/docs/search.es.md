@@ -5,6 +5,6 @@ weight = 1
 slug = "search"
 
 [extra]
-results = "{results} resultados encontrados para \"{query}\" en {pages} páginas"
+results = "{results} resultados encontrados para \"{query}\""
 teaser = "Introduzca un término de búsqueda para empezar"
 +++

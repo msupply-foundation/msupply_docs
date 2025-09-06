@@ -1,8 +1,17 @@
 {% extends "base.html" %} {% block content %}
 
-<h1>Search results</h1>
-<ul id="search-results"></ul>
+<div style="padding: 2rem">
+  <h1>Search results</h1>
+  <ul id="search-results"></ul>
+</div>
 
-{% set current_section ="docs" %}
+{% set current_section ="" %}
 <script src="/search_index.en.js"></script>
-{{ macros_search::search_script(current_section=current_section) }} {% endblock %}
+{{ macros_search::search_script(current_section=current_section) }} 
+{{ macros_search::search_documents(current_section="coldchain") }} 
+{{ macros_search::search_documents(current_section="docs") }} 
+{{ macros_search::search_documents(current_section="dashboard") }} 
+{{ macros_search::search_documents(current_section="health-supply-hub") }} 
+{{ macros_search::search_documents(current_section="notify") }} 
+{{ macros_search::search_documents(current_section="mobile") }} 
+{% endblock %}
