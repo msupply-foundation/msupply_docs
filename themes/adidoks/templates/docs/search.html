@@ -1,0 +1,27 @@
+{% extends "docs/page.html" %} {% block content %}
+
+<script src="/search_index.en.js"></script>
+{{ macros_search::search_script(current_section=current_section) }}
+
+<div class="wrap container" role="document">
+  <div class="content">
+    <div class="row flex-xl-nowrap">
+      {{ macros_sidebar::docs_sidebar(current_section=current_section) }} {{
+      macros_toc::docs_toc(page=page) }}
+      <main class="docs-content col-lg-11 col-xl-9">
+        {% for Translation in page.translations %}
+        <div class="flagster" style="float: right; padding: 5px">
+          <a href="{{Translation.permalink}}" title="Change language to {{Translation.lang}}"
+            ><img src="/icons/{{trans(key="flag", lang=Translation.lang)}}" width="28">
+          </a>
+        </div>
+        {% endfor %}
+
+        <h1>{{ page.title }}</h1>
+        <ul id="search-results"></ul>
+      </main>
+    </div>
+  </div>
+</div>
+
+{% endblock content %}

@@ -1,0 +1,82 @@
+{% macro search_script(current_section) %} {%- if lang == "en" -%} {%- set index_path =
+current_section ~ "/_index.md" | trim_start_matches(pat="/") -%} {%- else -%} {%- set index_path =
+current_section ~ "/_index." ~ lang ~ ".md" | trim_start_matches(pat="/") -%} {%- endif %} {%- set
+index = get_section(path=index_path) -%}
+
+<script>
+    var searchDocuments = [
+    {%- if index.pages %}
+      {%- for page in index.pages  -%}
+        {
+          id: {{ page.permalink  | json_encode | safe }},
+          title: {{ page.title | json_encode  | safe}},
+          permalink: {{ page.permalink | json_encode | safe }}
+        },
+      {%- endfor %}
+    {%- endif -%}
+
+    {%- if index.subsections -%}
+    	{%- for s in index.subsections -%}
+    		{%- set subsection = get_section(path=s) -%}
+    		{%- if subsection.pages %}
+    			{%- for page in subsection.pages -%}
+        {
+          id: {{ page.permalink  | json_encode | safe }},
+          title: {{ page.title | json_encode  | safe}},
+          permalink: {{ page.permalink | json_encode | safe }}
+        },
+    			{%- endfor -%}
+    	{%- endif -%}
+    	{%- endfor %}
+    {%- endif -%}
+    {
+      id: "dummy-id",
+      title: "Dummy Title",
+      permalink: "/dummy-permalink/"
+    }
+    ];
+
+  const highlight = (text, term) => {
+    const regex = new RegExp(`(${term})`, 'gi');
+    return text.replace(regex, '<mark>$1</mark>');
+  }
+
+  const getSnippet = (text, query, length = 30) => {
+    const index = text.toLowerCase().indexOf(query.toLowerCase());
+    if (index === -1) return text.slice(0, length) + '...';
+
+    const start = Math.max(0, index - length / 2);
+    const end = Math.min(text.length, index + length / 2);
+
+    return `...${text.slice(start, end)}...`;
+  }
+
+      window.addEventListener('DOMContentLoaded', () => {
+        const params = new URLSearchParams(window.location.search);
+        const query = params.get('q');
+        document.getElementById('userinput').value = query;
+
+        const resultsContainer = document.getElementById('search-results');
+
+        async function runSearch() {
+          if (!query) return;
+
+          const index = elasticlunr.Index.load(window.searchIndex);
+          const results = index.search(query);
+
+          results.forEach((result) => {
+            // console.log(`finding doc for id: ${result.ref}`, result);
+            const doc = searchDocuments.find((d) => d.id === result.ref);
+            if (!doc) return;
+
+            const li = document.createElement('li');
+            const snippet = highlight(getSnippet(result.doc.body, query, 500), query);
+            li.innerHTML = `<a href="${doc.permalink}">${doc.title}</a><p class="search_snippet">${snippet}</p>`;
+            resultsContainer.appendChild(li);
+          });
+        }
+
+        runSearch();
+      });
+</script>
+{% endmacro %}

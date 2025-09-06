@@ -4,6 +4,12 @@
 {% else %}
     {% set url_suffix = "/"~lang %}
 {% endif %}
+
+{% set search_results = "/search" %}
+{% if current_section != "/" %}
+	{% set search_results = "/" ~ current_section ~ search_results %}
+{% endif %}
+
 <div class="header-bar fixed-top"></div>
 <header class="navbar fixed-top navbar-expand-lg navbar-light">
 	<div class="container">
@@ -61,11 +67,8 @@
 			</ul>
 			<div class="break order-6 d-md-none"></div>
 			{% if config.build_search_index or lang == config.default_language %}
-			<form action="/search" method="get" style="width: 100%;">
+			<form action="{{ search_results | safe }}" method="get" style="width: 100%;">
 				<div class="navbar-form flex-grow-1 order-7 order-md-3" style="display: inline-block; width: calc(100% - 6.5rem);">
-					<!--<input id="userinput" class="form-control is-search" type="search" placeholder="{{trans(key="search_placeholder", lang=lang)}}"
-						aria-label="Search docs..." autocomplete="off">
-					<div id="suggestions" class="shadow bg-white rounded"></div>-->
 					<input  name="q" id="userinput" class="form-control is-search" type="search" placeholder="{{trans(key="search_placeholder", lang=lang)}}" aria-label="Search docs..." autocomplete="off" style="display: inline-block;"/>
 				</div>
 				<button type="submit" class="btn" aria-label="Submit search">

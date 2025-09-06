@@ -1,6 +1,4 @@
 +++
-title = "Search"
+title = "Search results"
 template = "search.html"
 +++
-
-Search page.
