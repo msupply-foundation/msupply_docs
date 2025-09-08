@@ -10,7 +10,6 @@ template = "dashboard/page.html"
 [extra]
 lead = "Regular Excel Reports via Email"
 toc = true
-top = true
 +++
 
 Excel report e-mail scheduler
@@ -26,8 +25,6 @@ Initial Plugin Setup
     Select the Plugins tab.
     Search for “mSupply”.
     Click on Excel report e-mail scheduler.
-
-
 
 The App Configuration window will open and you will need to complete this form before you start to use the reporting functionality.
 
@@ -54,9 +51,6 @@ Once completed, please select Save settings.
     If the form is incomplete or the information provided is incorrect, you will receive an error message on submission. Please follow the instructions given in the error message.
     On successful submission, you will receive the following message:
 
-
-
-
 Selecting Disable will deactivate the mSupply plugin and you will need to repeat the above in order to enable it again.
 
 You are now ready to get started creating Reporting Groups!
@@ -64,15 +58,9 @@ Setting Up a Report Group
 
 To access report groups, select the mSupply icon from the sidebar menu and select Report Groups from the drop-down menu.
 
-
 In the following window select Add report group. This will create a New report group as seen below – click on this row to edit the report group details.
 
-
-
 Edit report group details page:
-
-
-
 
 In the Edit details section there are free-text boxes for:
 
@@ -96,21 +84,13 @@ When you hover your mouse over the group, Edit and DELETE buttons appear.
 
 Delete will remove the report group. You will receive a prompt to confirm deletion.
 
-
-
 Setting Up a Report Schedule
 
 To access Report schedules, select the mSupply icon from the sidebar menu and select Schedules from the drop-down menu.
 
-
-
 In the following window select Create new schedule. This will create a New report schedule as below – click on this row to edit the schedule details.
 
-
-
 Edit report schedule details page:
-
-
 
 In the Edit details section:
 
@@ -127,8 +107,6 @@ Then select from the Available Panels to be displayed in the report:
     Only “table” panels are supported.
 
 For each panel selected, you will also need to specify the Variables to be displayed in the emailed report. This is done via the drop-down boxes that will be displayed once a panel is selected as shown in the below example for Expiry Items.
-
-
 
 Using the drop-down boxes, you can choose the variables (in this case Store and Item) that you want displayed in the emailed report. Only the variables displayed within the Report Schedule screen are available for each panel.
 
@@ -148,8 +126,6 @@ Once you saved the scheduler, you can press Send Test button (top right corner) 
 
 DELETE will remove the report schedule. You will receive a prompt to confirm deletion.
 
-
-
 Report Template
 
 The panels selected in a report schedule will be sent via email in an Excel workbook:
@@ -158,5 +134,3 @@ The panels selected in a report schedule will be sent via email in an Excel work
     Each worksheet will display in the title:
         Date of Creation
         Name of the Panel
-
-

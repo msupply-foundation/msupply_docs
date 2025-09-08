@@ -10,11 +10,12 @@ template = "dashboard/page.html"
 [extra]
 lead = "Welcome to the mSupply Dashboard"
 toc = true
-top = true
 +++
 
 ### Getting Started
+
 #### Introduction
+
 Grafana
 
 Your mSupply Dashboard uses Grafana, an open source visualisation tool that is linked to your mSupply data. This User Guide contains external links to Grafana information pages to explain various concepts and how to edit your current dashboard and create new dashboards.
@@ -32,7 +33,6 @@ You can view and share data from your dashboard, change the appearance and type 
 
 For a detailed overview refer to Grafana Dashboard Concepts
 
-
 #### Setting up Users
 
 You can login to the dashboard using your current mSupply login. An account is created for you automatically in the grafana system with standard viewer-level permissions. If you are to have an editor or administrator role, then Sustainable Solutions, or another administrative user, can set that up for you after you have logged in for the first time.
@@ -47,12 +47,10 @@ To use the dashboard, an mSupply user must be configured to:
 
 ![User must be set to Active!](images/active_user_permission.png)
 
+3.  If your dashboard is filtering store data according to the user's permission to log in to the store (recommendethen you will need to: \* Enter an email address for the user.
+    ![User email address entered!](images/email_user_entered.png)
 
-3. If your dashboard is filtering store data according to the user's permission to log in to the store (recommendethen you will need to:
-     * Enter an email address for the user.
-![User email address entered!](images/email_user_entered.png)
-
-     * Configure the user to be able to log in to the stores for which you want them to have access.
+         * Configure the user to be able to log in to the stores for which you want them to have access.
 
 ![Logging into stores permission!](images/permission_can_log_in.png)
 
@@ -80,12 +78,12 @@ This example is showing the 'Overview' Dashboard.
 It is set to a Time Range of 'Previous year'
 This Dashboard example contains six Panels:
 
-* Total stock value
-* Stock status
-* Stock value by store
-* Transactions per store
-* Months of stock by region
-* Stock history over time by store
+- Total stock value
+- Stock status
+- Stock value by store
+- Transactions per store
+- Months of stock by region
+- Stock history over time by store
 
 ![Top Right Controls!](images/example_dashboard.png)
 
@@ -105,7 +103,6 @@ Let's walk through the navigation menus
 
 ![Top Right Controls!](images/dashboard_top_right_controls.png)
 
-
 5. Mark as Favourite
 
 6. Share Dashboard - via snapshot or link
@@ -117,4 +114,3 @@ Let's walk through the navigation menus
 9. Search
 
 10. Refresh
-
