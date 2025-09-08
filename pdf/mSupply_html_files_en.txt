@@ -56,7 +56,6 @@ https://docs.msupply.foundation/docs/settings/support/
 https://docs.msupply.foundation/docs/settings/synchronisation/
 https://docs.msupply.foundation/docs/help/help/
 https://docs.msupply.foundation/docs/sync/synchronisation/
-https://docs.msupply.foundation/docs/TSS/target-software-standards/
 https://docs.msupply.foundation/docs/integrations/dhis2/
 https://docs.msupply.foundation/docs/integrations/hl7-fhir/
 https://docs.msupply.foundation/docs/integrations/sage/
