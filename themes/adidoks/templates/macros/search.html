@@ -1,66 +1,94 @@
-{% macro search_documents(current_section) %} 
-{%- if lang == "en" -%} 
-{%- set index_path = current_section ~ "/_index.md" | trim_start_matches(pat="/") -%} 
+<!-- prettier-ignore-start -->
+<!-- prettier-ignore -->
+{% macro search_documents(current_section) %}
+{%- if lang == "en" -%}
+  {%- set index_path = current_section ~ "/_index.md" | trim_start_matches(pat="/") -%}
 {%- else -%} 
-{%- set index_path = current_section ~ "/_index." ~ lang ~ ".md" | trim_start_matches(pat="/") -%} 
+  {%- set index_path = current_section ~ "/_index." ~ lang ~ ".md" | trim_start_matches(pat="/") -%} 
 {%- endif %} 
 {%- set index = get_section(path=index_path) -%}
+<!-- prettier-ignore-end -->
 
 <script>
-    {%- if index.pages %}
-      {%- for page in index.pages  -%}
-        {%- if page.slug != "search" %}
-        searchDocuments.push({
-          id: {{ page.permalink  | json_encode | safe }},
-          title: {{ page.title | json_encode  | safe}},
-          permalink: {{ page.permalink | json_encode | safe }}
-        });
-        {%- endif -%}
-      {%- endfor %}
-    {%- endif -%}
+  {%- if index.pages %}
+    {%- for page in index.pages  -%}
+      {%- if page.slug != "search" %}
+      searchDocuments.push({
+        id: {{ page.permalink  | json_encode | safe }},
+        title: {{ page.title | json_encode  | safe}},
+        permalink: {{ page.permalink | json_encode | safe }}
+      });
+      {%- endif -%}
+    {%- endfor %}
+  {%- endif -%}
 
-    {%- if index.subsections -%}
-    	{%- for s in index.subsections -%}
-    		{%- set subsection = get_section(path=s) -%}
-    		{%- if subsection.pages %}
-    			{%- for page in subsection.pages -%}
-        searchDocuments.push({
-          id: {{ page.permalink  | json_encode | safe }},
-          title: {{ page.title | json_encode  | safe}},
-          permalink: {{ page.permalink | json_encode | safe }}
-        });
-    			{%- endfor -%}
-    	{%- endif -%}
-    	{%- endfor %}
-    {%- endif -%}
+  {%- if index.subsections -%}
+  	{%- for s in index.subsections -%}
+  		{%- set subsection = get_section(path=s) -%}
+  		{%- if subsection.pages %}
+  			{%- for page in subsection.pages -%}
+      searchDocuments.push({
+        id: {{ page.permalink  | json_encode | safe }},
+        title: {{ page.title | json_encode  | safe}},
+        permalink: {{ page.permalink | json_encode | safe }}
+      });
+  			{%- endfor -%}
+  	{%- endif -%}
+  	{%- endfor %}
+  {%- endif -%}
 </script>
 {% endmacro %}
 
-{% macro search_script(current_section) %} 
+<!-- prettier-ignore -->
+{% macro search_script(current_section) %}
 <script>
   const searchDocuments = [];
-  const highlight = (text, term) => {
-    const regex = new RegExp(`(${term})`, 'gi');
-    return text.replace(regex, '<mark>$1</mark>');
-  }
 
-  const getSnippet = (text, query, length) => {
+  const toSafeString = (words) => {
+    return encodeURIComponent(words.join(' ')).replace(/-/g, '%2D');
+  };
+
+  const extractTextFragment = (text, query, index) => {
+    // extract visible text i.e. between HTML tags
+    const i = text.slice(0, index).lastIndexOf('>');
+    const start = i === -1 ? 0 : i + 1;
+    const j = text.slice(index).indexOf('<');
+    const end = j === -1 ? text.length : j + query.length;
+    // extract prefix and suffix
+    const prefixText = text.slice(start, index);
+    const suffixText = text.slice(index + query.length, end);
+    // Split the text into words
+    const prefixWords = prefixText.trim().split(/\s+/);
+    const suffixWords = suffixText.trim().split(/\s+/);
+
+    // Combine prefix and suffix words
+    const prefix = toSafeString(prefixWords.slice(Math.max(0, prefixWords.length - 3)));
+    const suffix = toSafeString(suffixWords.slice(0, 3));
+
+    return `#:~:text=${prefix}-,${query},-${suffix}`;
+  };
+
+  const getSnippet = (text, query, url, length) => {
     const index = text.toLowerCase().indexOf(query.toLowerCase());
     if (index === -1) return '';
 
     const start = Math.max(0, index - length / 2);
     const end = Math.min(text.length, index + length / 2);
 
-    return `...${text.slice(start, end)}...`;
-  }
+    const href = `${url}${extractTextFragment(text, query, index)}`;
+    const link = `<a href="${href}"><mark>${query}</mark></a>`;
+    const snippet = `${text.slice(start, index)}${link}${text.slice(index + query.length, end)}`;
 
-  const getSnippets = (text, query, length = 100, limit = 5) => {
+    return `...${snippet}...`;
+  };
+
+  const getSnippets = (text, query, url, length = 100, limit = 5) => {
     const snippets = [];
     let remainingText = text;
     let count = 0;
 
     while (count < limit) {
-      const snippet = getSnippet(remainingText, query, length);
+      const snippet = getSnippet(remainingText, query, url, length);
       if (!snippet) break;
 
       snippets.push(`<p class="search_snippet">${snippet}</p>`);
@@ -70,55 +98,55 @@
     }
 
     return snippets.join('');
-  }
+  };
 
   window.addEventListener('DOMContentLoaded', () => {
-        const params = new URLSearchParams(window.location.search);
-        const query = params.get('q');
-        document.getElementById('userinput').value = query;
+    const params = new URLSearchParams(window.location.search);
+    const query = params.get('q');
+    document.getElementById('userinput').value = query;
 
-        const resultsContainer = document.getElementById('search-results');
+    const resultsContainer = document.getElementById('search-results');
 
-        async function runSearch() {
-          if (!query) return;
+    async function runSearch() {
+      if (!query) return;
 
-          const index = elasticlunr.Index.load(window.searchIndex);
-          const results = index.search(query);
+      const index = elasticlunr.Index.load(window.searchIndex);
+      const results = index.search(query);
 
-          if (results.length === 0) {
-            resultsContainer.innerHTML = '<p>No results found</p>';
-            return;
-          }
+      if (results.length === 0) {
+        resultsContainer.innerHTML = '<p>No results found</p>';
+        return;
+      }
 
-          resultsContainer.innerHTML = '';
-          const resultCount = document.createElement('p');
-          let count = 0;
-          resultsContainer.appendChild(resultCount);
+      resultsContainer.innerHTML = '';
+      const resultCount = document.createElement('p');
+      let count = 0;
+      resultsContainer.appendChild(resultCount);
 
-          // original teaser
-          // var items = value.split(/\s+/);
-          // then for a result:
-            // d.innerHTML = makeTeaser(page.doc.body, items);
+      // original teaser
+      // var items = value.split(/\s+/);
+      // then for a result:
+      // d.innerHTML = makeTeaser(page.doc.body, items);
 
-          results.forEach((result) => {
-            // console.log(`finding doc for id: ${result.ref}`, result);
-            const doc = searchDocuments.find((d) => d.id === result.ref);
-            if (!doc) return;
+      results.forEach((result) => {
+        // console.log(`finding doc for id: ${result.ref}`, result);
+        const doc = searchDocuments.find((d) => d.id === result.ref);
+        if (!doc) return;
 
-            const li = document.createElement('li');
-            const snippet = highlight(getSnippets(result.doc.body, query), query);
-            li.innerHTML = `<a href="${doc.permalink}">${doc.title}</a><p>${snippet}</p>`;
-            resultsContainer.appendChild(li);
-            count += 1;
-          });
-          const resultText = "{{ page.extra.results }}"
-            .replace("{results}", "<b>" + count + "</b>")
-            .replace("{query}", "<i>" + query + "</i>");
-          resultCount.innerHTML = resultText;
-        }
-
-        runSearch();
+        const li = document.createElement('li');
+        const snippets = getSnippets(result.doc.body, query, doc.permalink);
+        li.innerHTML = `<a href="${doc.permalink}">${doc.title}</a><p>${snippets}</p>`;
+        resultsContainer.appendChild(li);
+        count += 1;
       });
+      const resultText = '{{ page.extra.results }}'
+        .replace('{results}', '<b>' + count + '</b>')
+        .replace('{query}', '<i>' + query + '</i>');
+      resultCount.innerHTML = resultText;
+    }
+
+    runSearch();
+  });
 </script>
 {% endmacro %} {% macro search_content(current_section) %}
 
