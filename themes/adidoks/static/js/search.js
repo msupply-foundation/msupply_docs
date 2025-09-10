@@ -115,7 +115,10 @@ Source:
     if (count > 0) {
       entry = document.createElement('div');
       entry.className = 'suggestion-footer';
-      entry.onclick = () => (window.location.href = `/search?q=${encodeURIComponent(value)}`);
+      entry.onclick = () =>
+        (window.location.href = `${
+          currentSection ? '/' : ''
+        }${currentSection}/search?q=${encodeURIComponent(value)}`);
 
       entry.innerHTML = `<div style="flex: 1;">Showing first ${Math.min(
         count,
