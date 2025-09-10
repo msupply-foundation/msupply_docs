@@ -68,6 +68,9 @@ Source:
   suggestions.addEventListener('click', accept_suggestion, true);
 
   function show_results() {
+    let count = 0;
+    let total = 0;
+    const limit = 5;
     var value = this.value.trim();
     var options = {
       bool: 'OR',
@@ -84,10 +87,13 @@ Source:
       len = results.length;
     var items = value.split(/\s+/);
     suggestions.classList.remove('d-none');
+    suggestions.innerHTML = '';
 
     results.forEach(function (page) {
       // this is just to filter out any results that are not in this section
       if (!!currentSection && !searchDocuments.find((d) => d.id === page.ref)) return;
+      total++;
+      if (count >= limit) return;
 
       if (page.doc.body !== '') {
         entry = document.createElement('div');
@@ -102,8 +108,21 @@ Source:
         d.innerHTML = makeTeaser(page.doc.body, items);
 
         suggestions.appendChild(entry);
+        count++;
       }
     });
+
+    if (count > 0) {
+      entry = document.createElement('div');
+      entry.className = 'suggestion-footer';
+      entry.onclick = () => (window.location.href = `/search?q=${encodeURIComponent(value)}`);
+
+      entry.innerHTML = `<div style="flex: 1;">Showing first ${Math.min(
+        count,
+        limit
+      )} of ${total} results</div><div>↵ All results</div>`;
+      suggestions.appendChild(entry);
+    }
 
     while (childs.length > len) {
       suggestions.removeChild(childs[i]);
