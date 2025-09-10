@@ -42,8 +42,6 @@
 <!-- prettier-ignore -->
 {% macro search_script(current_section) %}
 <script>
-  const searchDocuments = [];
-
   const toSafeString = (words) => {
     return encodeURIComponent(words.join(' ')).replace(/-/g, '%2D');
   };
@@ -129,13 +127,16 @@
       // d.innerHTML = makeTeaser(page.doc.body, items);
 
       results.forEach((result) => {
-        // console.log(`finding doc for id: ${result.ref}`, result);
-        const doc = searchDocuments.find((d) => d.id === result.ref);
-        if (!doc) return;
+        // this is just to filter out any results that are not in this section
+        {% if current_section != ""%}
+        if (!searchDocuments.find((d) => d.id === result.ref)) return;
+        {% endif %}
 
+        const { doc } = result;
         const li = document.createElement('li');
-        const snippets = getSnippets(result.doc.body, query, doc.permalink);
-        li.innerHTML = `<a href="${doc.permalink}">${doc.title}</a><p>${snippets}</p>`;
+        const snippets = getSnippets(doc.body, query, result.ref);
+
+        li.innerHTML = `<a href="${result.ref}">${doc.title}</a><p>${snippets}</p>`;
         resultsContainer.appendChild(li);
         count += 1;
       });
