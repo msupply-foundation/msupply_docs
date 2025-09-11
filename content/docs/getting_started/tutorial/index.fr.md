@@ -78,8 +78,8 @@ Vous verrez la notification et le nom du dépôt dans le pied de page sera mis �
 
 ## Aide!
 
-Si vous avez besoin d'aide à tout moment lors de l'utilisation du site, cliquez sur `Aide` qui se trouve en bas dans le menu à gauche.
+Si vous rencontrez des difficultés lors de l'utilisation du site, cliquez sur l'élément de menu « Aide ».
 
-![Docs](images/docs_nav_fr.png)
+![Docs](images/help_nav.png)
 
-Cela vous amènera à la page de documentation qui se rapporte à la page actuelle que vous consultez.
+Utilisez la page [Aide](/docs/help/help) pour accéder au guide d'utilisation d'Open mSupply (où vous vous trouvez actuellement !). La page Aide vous permet également de nous faire part de vos commentaires ou de nous envoyer vos demandes d'assistance.

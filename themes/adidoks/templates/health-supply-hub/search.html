@@ -1,0 +1,7 @@
+{% extends "health-supply-hub/page.html" %} {% block content %}
+
+<script src="/search_index.en.js"></script>
+{{ macros_search::search_script(current_section=current_section) }} 
+{{ macros_search::search_content(current_section=current_section) }} 
+
+{% endblock content %}

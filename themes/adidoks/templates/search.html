@@ -1,0 +1,11 @@
+{% extends "base.html" %} {% block content %}
+
+<div style="padding: 2rem">
+  <h1>Search results</h1>
+  <ul id="search-results"></ul>
+</div>
+
+{% set current_section ="" %}
+<script src="/search_index.en.js"></script>
+{{ macros_search::search_script(current_section=current_section) }} 
+{% endblock %}

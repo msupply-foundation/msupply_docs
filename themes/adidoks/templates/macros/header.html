@@ -4,6 +4,18 @@
 {% else %}
     {% set url_suffix = "/"~lang %}
 {% endif %}
+
+{% if current_section == "/" %}
+	{% set search_results = url_suffix ~ "/search" %}
+{% else %}
+	{% set search_results = url_suffix ~ "/" ~ current_section ~ "/search" %}
+{% endif %}
+
+<script>
+	const currentSection = `${location.origin}{{ url_suffix | safe }}/${"{{ current_section | safe }}".replace(/\/$/, '')}`;
+	const currentLanguage = "{{ lang | safe }}";
+</script>
+
 <div class="header-bar fixed-top"></div>
 <header class="navbar fixed-top navbar-expand-lg navbar-light">
 	<div class="container">
@@ -61,11 +73,16 @@
 			</ul>
 			<div class="break order-6 d-md-none"></div>
 			{% if config.build_search_index or lang == config.default_language %}
-				<div class="navbar-form flex-grow-1 order-7 order-md-3">
-					<input id="userinput" class="form-control is-search" type="search" placeholder="{{trans(key="search_placeholder", lang=lang)}}"
-						aria-label="Search docs..." autocomplete="off">
+			<form action="{{ search_results | safe }}" method="get" style="width: 100%;">
+				<div class="navbar-form flex-grow-1 order-7 order-md-3" style="display: inline-block; width: calc(100% - 6.5rem);">
+					<input  name="q" id="userinput" class="form-control is-search" type="search" placeholder="{{trans(key="search_placeholder", lang=lang)}}" aria-label="Search docs..." autocomplete="off" style="display: inline-block;"/>
 					<div id="suggestions" class="shadow bg-white rounded"></div>
 				</div>
+				<button type="submit" class="btn btn-link order-2 order-md-4" aria-label="Submit search">
+					<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+				</button>
+			</form>
+
 			{% endif %}
 		</div>
 	</div>
