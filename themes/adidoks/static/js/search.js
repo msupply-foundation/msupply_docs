@@ -143,9 +143,7 @@ Source:
       entry = document.createElement('div');
       entry.className = 'suggestion-footer';
       entry.onclick = () =>
-        (window.location.href = `${
-          currentSection ? '/' : ''
-        }${currentSection}/search?q=${encodeURIComponent(value)}`);
+        (window.location.href = `${currentSection}/search?q=${encodeURIComponent(value)}`);
 
       const text = translations[currentLanguage].showing
         .replace('{count}', Math.min(count, limit))
