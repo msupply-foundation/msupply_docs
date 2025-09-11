@@ -90,8 +90,8 @@ Source:
     suggestions.innerHTML = '';
 
     results.forEach(function (page) {
-      // this is just to filter out any results that are not in this section
-      if (!!currentSection && !searchDocuments.find((d) => d.id === page.ref)) return;
+      // this filters out any results that are not in this section
+      if (!page.ref.startsWith(currentSection)) return;
       total++;
       if (count >= limit) return;
 

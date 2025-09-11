@@ -12,8 +12,7 @@
 {% endif %}
 
 <script>
-	const searchDocuments = [];
-	const currentSection = "{{ current_section | safe }}".replace(/\/$/, '');
+	const currentSection = `${location.origin}/${"{{ current_section | safe }}".replace(/\/$/, '')}`;
 </script>
 
 <div class="header-bar fixed-top"></div>

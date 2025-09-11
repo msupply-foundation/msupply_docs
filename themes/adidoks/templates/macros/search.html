@@ -1,44 +1,3 @@
-<!-- prettier-ignore-start -->
-<!-- prettier-ignore -->
-{% macro search_documents(current_section) %}
-{%- if lang == "en" -%}
-  {%- set index_path = current_section ~ "/_index.md" | trim_start_matches(pat="/") -%}
-{%- else -%} 
-  {%- set index_path = current_section ~ "/_index." ~ lang ~ ".md" | trim_start_matches(pat="/") -%} 
-{%- endif %} 
-{%- set index = get_section(path=index_path) -%}
-<!-- prettier-ignore-end -->
-
-<script>
-  {%- if index.pages %}
-    {%- for page in index.pages  -%}
-      {%- if page.slug != "search" %}
-      searchDocuments.push({
-        id: {{ page.permalink  | json_encode | safe }},
-        title: {{ page.title | json_encode  | safe}},
-        permalink: {{ page.permalink | json_encode | safe }}
-      });
-      {%- endif -%}
-    {%- endfor %}
-  {%- endif -%}
-
-  {%- if index.subsections -%}
-  	{%- for s in index.subsections -%}
-  		{%- set subsection = get_section(path=s) -%}
-  		{%- if subsection.pages %}
-  			{%- for page in subsection.pages -%}
-      searchDocuments.push({
-        id: {{ page.permalink  | json_encode | safe }},
-        title: {{ page.title | json_encode  | safe}},
-        permalink: {{ page.permalink | json_encode | safe }}
-      });
-  			{%- endfor -%}
-  	{%- endif -%}
-  	{%- endfor %}
-  {%- endif -%}
-</script>
-{% endmacro %}
-
 <!-- prettier-ignore -->
 {% macro search_script(current_section) %}
 <script>
@@ -127,10 +86,8 @@
       // d.innerHTML = makeTeaser(page.doc.body, items);
 
       results.forEach((result) => {
-        // this is just to filter out any results that are not in this section
-        {% if current_section != ""%}
-        if (!searchDocuments.find((d) => d.id === result.ref)) return;
-        {% endif %}
+        // this filters out any results that are not in the current section
+        if (!result.ref.startsWith(currentSection)) return;
 
         const { doc } = result;
         const li = document.createElement('li');

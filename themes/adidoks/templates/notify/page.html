@@ -5,7 +5,6 @@
 {% block header %} {# This value is matched by the config.extra.menu.main~url #} 
   {% set current_section = "notify" %} 
   {{ macros_header::header(current_section=current_section) }} 
-  {{ macros_search::search_documents(current_section="notify") }} 
 {% endblock header %}
 {% block content %}
 <div class="wrap container" role="document">
