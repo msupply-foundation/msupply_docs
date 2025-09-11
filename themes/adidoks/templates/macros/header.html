@@ -12,7 +12,8 @@
 {% endif %}
 
 <script>
-	const currentSection = `${location.origin}/${"{{ current_section | safe }}".replace(/\/$/, '')}`;
+	const currentSection = `${location.origin}{{ url_suffix | safe }}/${"{{ current_section | safe }}".replace(/\/$/, '')}`;
+	const currentLanguage = "{{ lang | safe }}";
 </script>
 
 <div class="header-bar fixed-top"></div>

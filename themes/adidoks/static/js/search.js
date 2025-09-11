@@ -3,6 +3,33 @@ var userinput = document.getElementById('userinput');
 
 document.addEventListener('keydown', inputFocus);
 
+const translations = {
+  en: {
+    all: '↵ All results',
+    results: '{results} results found for "{query}"',
+    showing: 'Showing first {count} of {total} results',
+    teaser: 'Enter a search term to begin',
+  },
+  fr: {
+    all: '↵ Tous les résultats',
+    results: '{results} résultats trouvés pour "{query}"',
+    showing: 'Affichage des premiers {count} résultats sur {total}',
+    teaser: 'Entrez un terme de recherche pour commencer',
+  },
+  es: {
+    all: '↵ Todos los resultados',
+    results: '{results} resultados encontrados para "{query}"',
+    showing: 'Mostrando los primeros {count} de {total} resultados',
+    teaser: 'Introduzca un término de búsqueda para empezar',
+  },
+  pt: {
+    all: '↵ Todos os resultados',
+    results: '{results} resultados encontrados para "{query}"',
+    showing: 'Mostrando os primeiros {count} de {total} resultados',
+    teaser: 'Introduzir um termo de pesquisa para começar',
+  },
+};
+
 function inputFocus(e) {
   if (
     e.keyCode === 191 &&
@@ -120,10 +147,10 @@ Source:
           currentSection ? '/' : ''
         }${currentSection}/search?q=${encodeURIComponent(value)}`);
 
-      entry.innerHTML = `<div style="flex: 1;">Showing first ${Math.min(
-        count,
-        limit
-      )} of ${total} results</div><div>↵ All results</div>`;
+      const text = translations[currentLanguage].showing
+        .replace('{count}', Math.min(count, limit))
+        .replace('{total}', total);
+      entry.innerHTML = `<div style="flex: 1;">${text}</div><div>${translations[currentLanguage].all}</div>`;
       suggestions.appendChild(entry);
     }
 

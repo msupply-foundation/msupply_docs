@@ -63,7 +63,7 @@
     document.getElementById('userinput').value = query;
 
     const resultsContainer = document.getElementById('search-results');
-
+    resultsContainer.innerHTML = `<div>${translations[currentLanguage].teaser}</div>`;
     async function runSearch() {
       if (!query) return;
 
@@ -71,7 +71,9 @@
       const results = index.search(query);
 
       if (results.length === 0) {
-        resultsContainer.innerHTML = '<p>No results found</p>';
+        resultsContainer.innerHTML = `<p>${translations[currentLanguage].results
+          .replace('{query}', query)
+          .replace('{results}', 0)}</p>`;
         return;
       }
 
@@ -97,7 +99,7 @@
         resultsContainer.appendChild(li);
         count += 1;
       });
-      const resultText = '{{ page.extra.results }}'
+      const resultText = translations[currentLanguage].results
         .replace('{results}', '<b>' + count + '</b>')
         .replace('{query}', '<i>' + query + '</i>');
       resultCount.innerHTML = resultText;
@@ -126,9 +128,7 @@
         {% endfor %}
 
         <h1>{{ page.title }}</h1>
-        <ul id="search-results">
-          {{page.extra.teaser}}
-        </ul>
+        <ul id="search-results"></ul>
       </main>
     </div>
   </div>
