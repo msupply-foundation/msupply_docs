@@ -60,11 +60,17 @@ You can sort the list using the column headers:
 
 ![Internal Order: newly created order](images/intord_newintord.png)
 
+### Defining Reorder threshold MOS (Minimum MOS)
+
+The _Reorder threshold MOS_ (previously known as _Minimum MOS_) allows you to define a minimum threshold value for the months of stock that you would like to keep. You can then filter the list of items on this internal order by switching the _Hide stock over minumum_ toggle. This will hide items for which you have stock levels over this threshold.
+
+<div class="imagetitle">
+In the below example, we have set our Reorder threshold MOS to 1 Month.  
+</div>
+
+![MinMOS](images/intord_minmos.png)
+
 ### Defining Target MOS (Maximum MOS)
-
-Additional information and configuration for the Internal Order can be found in the detail panel, which you can access by clicking the `More` button in the top right:
-
-![MaxMOS](images/intord_moreinfo.png)
 
 Defining the Target MOS (Month of Stock) is critical to the calculation of the **Suggested Quantity**:
 
