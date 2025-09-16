@@ -4,6 +4,14 @@ $gray-700: #495057;
 $gray-800: #343a40;
 $gray-900: #212529;
 
+body {
+    line-height: 1.55;
+}
+
+p {
+  text-align: justify;
+}
+
 p {
   img,
   svg {
@@ -16,6 +24,10 @@ p {
     margin-bottom: 40px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
+}
+
+.active {
+  font-weight: bold;
 }
 
 .note,
@@ -203,23 +215,44 @@ div.imagetitle {
 }
 
 h1 {
-  color: #f2913d;
+  color: #f26633;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
 }
 
 h2 {
+  color: #c98f26;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
   margin-top: 25px;
 }
 
 h3 {
-  margin-top: 15px;
+  color: #2f3d45;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  margin-top: 0.25rem;
 }
 
 h4 {
-  margin-top: 12px;
+  color: #78909d;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  margin-top: 0.25rem;
 }
 
 h5 {
-  margin-top: 5px;
+  color: #000;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+h5 {
+  color: #000;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+  margin-top: 0.25rem;
 }
 
 code {
