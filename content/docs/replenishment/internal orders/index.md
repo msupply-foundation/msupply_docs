@@ -62,7 +62,9 @@ You can sort the list using the column headers:
 
 ### Defining Reorder threshold MOS (Minimum MOS)
 
-The _Reorder threshold MOS_ (previously known as _Minimum MOS_) allows you to define a minimum threshold value for the months of stock that you would like to keep. You can then filter the list of items on this internal order by switching the _Hide stock over minumum_ toggle. This will hide items for which you have stock levels over this threshold.
+The _Reorder threshold MOS_ (previously known as _Minimum MOS_) is used in the calculation of the **Suggested Quantity**. If the MOS for an item is greater than the _Reorder threshold MOS_ then the system will not calculate a suggested quantity value. See the <a href="#suggested-quantity">Suggested Quantity</a> section for more detail.
+
+If you have a threshold value set you can also filter the list of items on this internal order by switching the _Hide stock over minumum_ toggle. This will hide items for which you have stock levels over this threshold.
 
 <div class="imagetitle">
 In the below example, we have set our Reorder threshold MOS to 1 Month.  
@@ -196,6 +198,20 @@ When you add items (using a master list or not), the item is added to the order'
 <div class="note">If you are using population based forecasting then you will see an additional column of **Target Stock (population)** which shows the target which is calculated using the population served by this store.</div>
 
 <div class="tip">You can also use population based forecasting for vaccine items. This requires the installation of a plugin, please contact support for details.</div>
+
+#### Suggested Quantity
+
+The value for the suggested quantity will be zero if any of these conditions are true:
+
+- The AMC value is `0`
+- The _Target MOS_ value is `0`
+- The number of months of stock for the item is more than the _Reorder threshold MOS_
+
+If none of these conditions are true then the suggested quantity is given by the following formula:
+
+`(Target MOS - MOS) * AMC`
+
+and then rounded up to the nearest whole number.
 
 ### Printing an Internal Order
 
