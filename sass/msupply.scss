@@ -214,6 +214,10 @@ div.imagetitle {
   content: "CONSEJO";
 }
 
+a.docs-link.active, a.docs-link:hover {
+  color: #f26633;
+}
+
 h1 {
   color: #f26633;
   font-weight: 700;
@@ -221,7 +225,7 @@ h1 {
 }
 
 h2 {
-  color: #c98f26;
+  color: #78909d;
   font-weight: 700;
   margin-bottom: 1.25rem;
   margin-top: 25px;
@@ -235,7 +239,7 @@ h3 {
 }
 
 h4 {
-  color: #78909d;
+  color: #f2913dff;
   font-weight: 700;
   margin-bottom: 1rem;
   margin-top: 0.25rem;
