@@ -8,11 +8,8 @@ body {
     line-height: 1.55;
 }
 
-p {
+main.docs-content > p {
   text-align: justify;
-}
-
-p {
   img,
   svg {
     vertical-align: middle;
@@ -225,23 +222,30 @@ h1 {
 }
 
 h2 {
-  color: #78909d;
+  color: #2f3d45;
   font-weight: 700;
-  margin-bottom: 1.25rem;
-  margin-top: 25px;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  margin-top: 2rem;
+  border-bottom: 1px solid #e9ecef;
 }
 
 h3 {
-  color: #2f3d45;
+  color: #78909d;
   font-weight: 700;
   margin-bottom: 1rem;
-  margin-top: 0.25rem;
+  margin-top: 2rem;
+}
+
+
+main.docs-content h5:before {
+  content: "📌 ";
 }
 
 h4 {
   color: #f2913dff;
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
   margin-top: 0.25rem;
 }
 
