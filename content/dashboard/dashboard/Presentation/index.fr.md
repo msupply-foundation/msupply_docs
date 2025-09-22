@@ -41,18 +41,18 @@ To use the dashboard, an mSupply user must be configured to:
 
 1. Use the Dashboard.
 
-![Use the dashboard permission!](images/mSupply_permission_dashboard.png)
+![Use the dashboard permission!](Presentation/images/mSupply_permission_dashboard.png)
 
 2. Have Active status enabled.
 
-![User must be set to Active!](images/active_user_permission.png)
+![User must be set to Active!](Presentation/images/active_user_permission.png)
 
 3.  If your dashboard is filtering store data according to the user's permission to log in to the store (recommendethen you will need to: \* Enter an email address for the user.
-    ![User email address entered!](images/email_user_entered.png)
+    ![User email address entered!](Presentation/images/email_user_entered.png)
 
          * Configure the user to be able to log in to the stores for which you want them to have access.
 
-![Logging into stores permission!](images/permission_can_log_in.png)
+![Logging into stores permission!](Presentation/images/permission_can_log_in.png)
 
 Other than these, no other special configuration of the mSupply user account is required - including any permissions in any of the stores.
 
@@ -85,13 +85,13 @@ This Dashboard example contains six Panels:
 - Months of stock by region
 - Stock history over time by store
 
-![Top Right Controls!](images/example_dashboard.png)
+![Top Right Controls!](Presentation/images/example_dashboard.png)
 
 #### Navigation menus
 
 Let's walk through the navigation menus
 
-![Top Right Controls!](images/dashboard_top_left_controls.png)
+![Top Right Controls!](Presentation/images/dashboard_top_left_controls.png)
 
 1. Overview - This is the dashboard you are viewing. Clicking on this opens a window to view your other dashboards.
 
@@ -101,7 +101,7 @@ Let's walk through the navigation menus
 
 4. Help menu - Keyboard shortcuts, Community site, Grafana documentation
 
-![Top Right Controls!](images/dashboard_top_right_controls.png)
+![Top Right Controls!](Presentation/images/dashboard_top_right_controls.png)
 
 5. Mark as Favourite
 

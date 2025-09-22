@@ -1,27 +1,39 @@
 +++
-title = "mSupply Dashboard"
+title = "mSupply Analytics dashboards"
 description = "mSupply Dashboard user documentation."
 date = 2025-05-01T08:00:00+00:00
 updated = 2021-05-01T08:00:00+00:00
 sort_by = "weight"
 weight = 201
 template = "dashboard/page.html"
-
-[extra]
-lead = "Welcome to the mSupply Dashboard"
-toc = true
 +++
+# Presentation
 
-### Getting Started
+## What are mSupply dashboards ?
 
-#### Introduction
+The mSupply dashboard retrieves data from the software and presents it in a series of visual indicators and reports to facilitate decision-making. Any data synchronised with the central server can be  exported and either visualised directly on the dashboards or used to calculate Key Performance Indicators (KPIs) displayed on them. They are updated in real time as the central server is synchronized, ensuring users always have access to the most current data.
+## What are dashboards used for ? 
 
-Grafana
+mSupply dashboards are designed for decision-makers at all levels who need tailored reports, historical data, gaps analyses, and high level decision making tools - all without the need to install or use mSupply softwares. 
 
-Your mSupply Dashboard uses Grafana, an open source visualisation tool that is linked to your mSupply data. This User Guide contains external links to Grafana information pages to explain various concepts and how to edit your current dashboard and create new dashboards.
-Dashboards and Panels
+Here are some sample dashboards with example data. Feel free to explore them :
+### Facility level nurses
+They can use the [remote temperature monitoring:](https://vaccines.msupply.org:3000/d/zSJ53_FSz/remote-temperature-monitoring?orgId=1) dashboard to monitor temperature logs  by facility and sensors, prevent breaches and protect temperature sensitive medicine. 
 
-Each Dashboard is composed of editable Panels arranged on a grid. The panels are separated by rows and can be dragged-and-dropped to a different location on the grid. Each panel queries your mSupply data to give you information in a visual form (graph, table etc).
+![](Presentation/images/Remote%20temperature%20monitoring%20dashboard.png)
+
+### Regional warehouse managers 
+They can use the [stock availability](https://demo-board.msupply.org:3000/d/I0V-Q9S4k-2024/stock-availability?orgId=1) and the [expiring stock](https://demo-board.msupply.org:3000/d/WsTax_UJK/expiring-stock?orgId=1) dashboards to monitor critical items availability and reduce wastage, the  [list of orders placed](https://demo-board.msupply.org:3000/d/3LThcikVz/health-facility-orders?orgId=1&from=now-2y&to=now) dashboard to manage orders and shipments to lower level facilities.
+
+![](Presentation/images/Stock%20availability%20dashboard.png)
+
+### National level decision-makers 
+When there is an interest in knowing how well a vaccination campaign is going for instance, mSupply dashboards can display a map of doses administered per region with different colours according to the % of objective realised for instance. Another example of clinical data is the [prescriptions statistics](https://demo-board.msupply.org:3000/d/ZqgoeeIVz/prescription-statistics?orgId=1&from=now-1y&to=now) per facility dashboard. 
+
+**### How are dashboards set up ?
+
+mSupply dashboards are hosted on the web-based open source platform [Grafana](https://grafana.com/), which means they can be accessed from any device with a working internet connection. They are specific to a project (i.e a datafile) and can only be accessed with a registered username and password. They are highly customisable including the level of information each user has access to.**
+
 
 #### Store login permissions to determine data visibility
 
@@ -41,18 +53,18 @@ To use the dashboard, an mSupply user must be configured to:
 
 1. Use the Dashboard.
 
-![Use the dashboard permission!](images/mSupply_permission_dashboard.png)
+![Use the dashboard permission!](Presentation/images/mSupply_permission_dashboard.png)
 
 2. Have Active status enabled.
 
-![User must be set to Active!](images/active_user_permission.png)
+![User must be set to Active!](Presentation/images/active_user_permission.png)
 
 3.  If your dashboard is filtering store data according to the user's permission to log in to the store (recommendethen you will need to: \* Enter an email address for the user.
-    ![User email address entered!](images/email_user_entered.png)
+    ![User email address entered!](Presentation/images/email_user_entered.png)
 
          * Configure the user to be able to log in to the stores for which you want them to have access.
 
-![Logging into stores permission!](images/permission_can_log_in.png)
+![Logging into stores permission!](Presentation/images/permission_can_log_in.png)
 
 Other than these, no other special configuration of the mSupply user account is required - including any permissions in any of the stores.
 
@@ -85,13 +97,13 @@ This Dashboard example contains six Panels:
 - Months of stock by region
 - Stock history over time by store
 
-![Top Right Controls!](images/example_dashboard.png)
+![Top Right Controls!](Presentation/images/example_dashboard.png)
 
 #### Navigation menus
 
 Let's walk through the navigation menus
 
-![Top Right Controls!](images/dashboard_top_left_controls.png)
+![Top Right Controls!](Presentation/images/dashboard_top_left_controls.png)
 
 1. Overview - This is the dashboard you are viewing. Clicking on this opens a window to view your other dashboards.
 
@@ -101,7 +113,7 @@ Let's walk through the navigation menus
 
 4. Help menu - Keyboard shortcuts, Community site, Grafana documentation
 
-![Top Right Controls!](images/dashboard_top_right_controls.png)
+![Top Right Controls!](Presentation/images/dashboard_top_right_controls.png)
 
 5. Mark as Favourite
 
