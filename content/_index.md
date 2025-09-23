@@ -41,9 +41,8 @@ content = 'The <a href="/notify/introduction">User Guide</a> for the mSupply Not
 [[extra.list]]
 icon = "dashboard.png"
 title = "mSupply Dashboard"
-url = "/dashboard/introduction"
-content = 'The <a href="/dashboard/introduction">User Guide</a> for the mSupply Dashboard'
-
+url = "/dashboard/presentation"
+content = ''
 
 [[extra.list]]
 icon = "coldchain.png"

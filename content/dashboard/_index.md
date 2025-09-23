@@ -1,9 +1,10 @@
 +++
 title = "mSupply Dashboard"
-description = "Dashboard for mSupply desktop and cold chain data visualisation."
-sort_by = "weight"
-weight = 200
-paginate_by = 0
+description = "Dashboards allow for data visualisation of data from mSupply, Open mSupply and Cold Chain monitoring"
 template = "dashboard/section.html"
+sort_by = "weight"
+weight = 1
+draft = false
+paginate_by = 0
 insert_anchor_links = "right"
 +++
