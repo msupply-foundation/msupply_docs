@@ -44,13 +44,9 @@ A detailed list of your inventory appears:
 
 ### Looking for a specific item
 
-You can filter the list by item name or code, location or by expiry. This can be useful if you're looking for one particular item.
+There are a number of available filters, to help you find the stock you are looking for. You can also use the search box to filter by item name, code or batch.
 
 ![Stock: filter](images/stock_filter.png)
-
-Click on the `Filters` to show the available filters, select an option, for example `Code or Name`, and type as much of an item name or code in the `Code or Name` field:
-
-![Stock: search](images/stock_search.gif)
 
 ### Exporting Stock
 
