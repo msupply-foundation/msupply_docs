@@ -1,6 +1,6 @@
 +++
 title = "mSupply Dashboard"
-description = "blah"
+description = "Dashboards allow for data visualisation of data from mSupply, Open mSupply and Cold Chain monitoring"
 template = "dashboard/section.html"
 sort_by = "weight"
 weight = 1
