@@ -25,20 +25,22 @@ A detailed list of your inventory appears:
 
 ![Stock: list](images/stock_viewstock.png)
 
-The list is divided into 9 columns:
-
-| Column        | Description                                              |
-| :------------ | :------------------------------------------------------- |
-| **Code**      | Code assigned to this item in mSupply                    |
-| **Name**      | This is the name by which mSupply will refer to the item |
-| **Batch**     | Batch number of the stock line                           |
-| **Expiry**    | Expiry date of the batch                                 |
-| **Location**  | Where the item is being stored in your facility          |
-| **Unit**      | The unit of measure for the item                         |
-| **Pack Size** | The pack size of the item                                |
-| **Pack Qty**  | Number of packs available in your store                  |
-| **SOH**       | The total quantity of stock on hand, in number of packs  |
-| **Supplier**  | Shows the source of this stock item                      |
+| Column            | Description                                                                                                                                                    |
+| :---------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Code**          | Code assigned to this item in mSupply                                                                                                                          |
+| **Name**          | This is the name by which mSupply will refer to the item                                                                                                       |
+| **Batch**         | Batch number of the stock line                                                                                                                                 |
+| **Expiry**        | Expiry date of the batch                                                                                                                                       |
+| **VVM Status\***  | Indicates the vaccine's viability. <small>\*Enabled via the [Manage VVM status for stock](/docs/manage/facilities/#store-preferences) store preference</small> |
+| **Location**      | Where the item is being stored in your facility                                                                                                                |
+| **Unit**          | The unit of measure for the item                                                                                                                               |
+| **Pack Size**     | The pack size of the item                                                                                                                                      |
+| **Pack Qty**      | Total quantity of stock in your store, in packs                                                                                                                |
+| **SOH**           | Total quantity of stock in your store, in units                                                                                                                |
+| **Available SOH** | Available stock on hand (not allocated for distribution), in units                                                                                             |
+| **Pack cost**     | Cost price per pack                                                                                                                                            |
+| **Total**         | Total value of SOH (`Pack qty x Pack cost`)                                                                                                                    |
+| **Supplier**      | Shows the source of this stock item                                                                                                                            |
 
 ### Looking for a specific item
 
