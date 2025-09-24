@@ -108,6 +108,12 @@ Item variants include packaging information - if your new stock line has a match
 
 If the [Allow tracking of stock by donor](/docs/manage/global-preferences/) global preference is enabled then you can allocate a donor to this stock line.
 
+### Doses
+
+If the [Manage vaccines in doses](/docs/manage/facilities/#store-preferences) store preference is enabled, you'll see a total doses field beneath any pack quantity fields when working with Vaccine items.
+
+![New stock line: pack quantity with doses](images/pack_qty_with_doses.png)
+
 Once you are happy with the batch information, click `OK`. This will save your new stock line by creating an `Inventory Adjustment`. You will be redirected to the Stock line details page.
 
 ## Viewing stock line details
