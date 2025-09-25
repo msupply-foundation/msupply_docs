@@ -629,7 +629,7 @@ If there are available insurances policies for your patients, you can indicate t
 
 ## Shortcuts
 
-There are some useful keyboard shortcuts to speed up your prescription workflow. You can find all available shortcuts in the app at any time, by pressing `Control (Ctrl)`+`K`.
+There are some useful keyboard shortcuts to speed up your prescription workflow. You can find all available shortcuts in the app at any time, by pressing `Control (Ctrl)`+`K` (or `Command (⌘)`+`K` on Mac).
 
 From the Prescription detail page:
 
