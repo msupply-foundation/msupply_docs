@@ -2,7 +2,7 @@
 title = "Cold chain"
 description = "Cold chain features"
 sort_by = "weight"
-weight = 66
+weight = 50
 template = "docs/section.html"
 draft = false
 +++
