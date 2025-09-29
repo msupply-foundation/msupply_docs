@@ -61,13 +61,21 @@ When consulting the dashboards, make sure that the time range filter is set to a
 ## Stock value & Finance
 
 <a href="https://demo-board.msupply.org:3000/d/WsTaa_UJK/stock-value-and-finance?orgId=1" target="_blank">
+<<<<<<< Updated upstream
   <img src="images/stock_value_Finance_with_explanation.png">
+=======
+  <img src="standard dashboards/images/stock_value_Finance_with_explanation.png" alt="Dashboard" width="800">
+>>>>>>> Stashed changes
 </a>
 
 ## Warehouse orders processing
 
 <a href="https://demo-board.msupply.org:3000/d/zgyw3zz4z/warehouse-orders-processing?orgId=1" target="_blank">
+<<<<<<< Updated upstream
   <img src="images/warehouse_orders_processing_with_explanation.png">
+=======
+  <img src="standard dashboards/images/warehouse_orders_processing_with_explanation.png" alt="Dashboard" width="800">
+>>>>>>> Stashed changes
 </a>
 
 ## Warehouse orders delivery tracking
@@ -77,7 +85,11 @@ When consulting the dashboards, make sure that the time range filter is set to a
 ## Items dispensing frequency
 
 <a href="https://demo-board.msupply.org:3000/d/ZqpoeeIVz/item-dispensing-frequency?orgId=1" target="_blank">
+<<<<<<< Updated upstream
   <img src="images/item_dispensing_frequency_with_explanation.png">
+=======
+  <img src="standard dashboards/images/Item_dispensing_frequency_with_explanation.png" alt="Dashboard" width="800">
+>>>>>>> Stashed changes
 </a>
 
 ## Cold chain equipment - Real-time operational
