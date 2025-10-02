@@ -4,7 +4,7 @@ description = "Devolver inventario a tus proveedores"
 date = 2022-03-19
 updated = 2022-03-19
 draft = false
-weight = 45
+weight = 50
 sort_by = "weight"
 template = "docs/page.html"
 

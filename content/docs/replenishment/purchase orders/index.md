@@ -4,7 +4,7 @@ description = "Requesting stock from external suppliers."
 date = 2025-09-26
 updated = 2025-09-26
 draft = false
-weight = 44
+weight = 10
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -25,9 +25,9 @@ First you need to have purchase orders enabled for your store.
 2. Click on `Stores`, then select your store
 3. In the `Preferences` section, enable `Use procurement functionality`
 
-![Go to Purchase Orders](images/po_navigation.png)
-
 Now you will be able to access the **Purchase Order** menu:
+
+![Go to Purchase Orders](images/po_navigation.png)
 
 1. Go to the `Replenishment` menu in the navigation panel
 2. Click on `Purchase Orders`
@@ -303,9 +303,9 @@ In the `Add Item` window, you can look up an item by:
 
 Once your item is highlighted, tap on the name or press `Enter`.
 
-![Add Item list](/images/po_add_item_list.png)
-![Add Item by name](/images/po_add_item_name.png)
-![Add Item by code](/images/po_add_item_code.png)
+![Add Item list](images/po_add_item_list.png)
+![Add Item by name](images/po_add_item_name.png)
+![Add Item by code](images/po_add_item_code.png)
 
 ### Item Details
 
