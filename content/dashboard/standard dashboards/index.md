@@ -22,6 +22,10 @@ We have set up these dashboards with sample data for anyone to explore, you will
   <li><a href="#warehouse-orders-processing">Warehouse orders processing</a></li>
   <li><a href="#warehouse-orders-delivery-tracking">Warehouse orders delivery tracking</a></li>
   <li><a href="#dispensing-statistics">Dispensing statistics</a></li>
+  <li><a href="#cold-chain-equipment-overview">Cold chain equipment overview</a></li>
+<li><a href="#remote-temperature-monitoring">Remote temperature monitoring</a></li>
+<li><a href="#cold-chain-breach-details">Cold chain breach details</a></li>
+<li><a href="#cold-chain-unacknowledged-breach-list">Cold chain unacknowledged breach list</a></li>
 </ul>
 
 <div class="note">
@@ -92,7 +96,7 @@ When consulting the dashboards, make sure that the time range filter is set to a
 >>>>>>> Stashed changes
 </a>
 
-## Cold chain equipment - Real-time operational
+## Cold chain equipment overview
 
 <a href="https://vaccines.msupply.org:3000/d/fdpb6qo12/1-real-time-operational?orgId=1" target="_blank">
   <img src="images/CCEI_dashboard_with_explanation.png">
@@ -104,12 +108,12 @@ When consulting the dashboards, make sure that the time range filter is set to a
   <img src="images/remote_temperature_monitoring_with_explanation.png">
 </a>
 
-## Total breach details
+## Cold chain breach details
 
 <a href="https://vaccines.msupply.org:3000/d/q4Xx1jKIk/total-breach-details?orgId=1">
   <img src="images/total_breach_with_explanation.png">
 </a>
 
-## Unacknowledged breach details
+## Cold chain unacknowledged breach list
 
 This [dashboard](https://vaccines.msupply.org:3000/d/x9jTpCFIk/unacknowledged-breach-details?orgId=1) is a list of all the unacknowledged temperature breaches per facility. Once a breach has been identified, it is possible to acknowledge it so that it is removed from the list of new (or unacknowledged) breaches.
