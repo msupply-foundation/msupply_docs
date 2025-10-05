@@ -21,7 +21,7 @@ Intro
 
 First you need to have purchase orders enabled for your store.
 
-1. Go to the `Manage` menu in the navigation panel
+1. Go to the [Manage](/docs/manage/facilities/#store-preferences) menu in the navigation panel
 2. Click on `Stores`, then select your store
 3. In the `Preferences` section, enable `Use procurement functionality`
 
@@ -50,12 +50,6 @@ The Purchase Orders list is divided into the following columns:
 | **Target Months**      | Target months supply                  |
 | **Lines**              | Number of lines on the purchase order |
 | **Comment**            | Purchase order comment                |
-
-2. The list can display a fixed number of purchase orders per page. On the bottom left corner, you can see how many purchase orders are currently displayed on your screen.
-
-3. If you have more purchase orders than the current limit, you can navigate to the other pages by clicking on the page number or using the right of left arrows (bottom right corner).
-
-4. You can also select a different number of rows to show per page using the option at the bottom right of the page.
 
 ### Filter Purchase Orders
 
