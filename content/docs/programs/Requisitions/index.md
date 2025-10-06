@@ -178,7 +178,7 @@ Enabling the preference will show the extra columns on the requisition list page
 | **Days out of stock**     | (Target MOS \* AMC) - available stock                                                                        |
 | **AMC**                   | The customer's average monthly consumption for this item                                                     |
 | **MOS**                   | Months of stock for the item                                                                                 |
-| **Reason**                | A reason will be provided if their is a difference between the suggested quantity and the requested quantity |
+| **Reason**                | A reason will be provided if there is a difference between the suggested quantity and the requested quantity |
 
 The line edit page will also contain the extra columns as well.
 
