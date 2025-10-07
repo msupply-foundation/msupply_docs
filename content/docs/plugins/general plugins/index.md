@@ -61,7 +61,7 @@ These include:
 
 **Note 1**: Enabling the **Population-based forecasting for vaccines** plugin will replace the *AMC forecasting method* with the *Population-based forecasting method*. The AMC value will still be displayed to the facility user but the `Suggested quantity` will not use the AMC value to make  its calculations. 
 
-**Note 2**: The `Forecast demand` is made at the [`Vaccine course`](/docs/programs/immunisations/#vaccine-courses) level, not the [`Vaccine item`](/docs/catalogue/items/) level. This also means that the `Target stock` and `Suggested quantity` values apply to the `Vaccine course` level too, not the vaccine item level.
+**Note 2**: The `Forecast demand` is calculated for the [`Vaccine course`](/docs/programs/immunisations/#vaccine-courses), not the [`Vaccine item`](/docs/catalogue/items/). This means that the `Target stock` and `Suggested quantity` values also apply to the `Vaccine course` and not to the `Vaccine item`.
 
 This is important to note because multiple vaccines items may be associated with one vaccine course. Therefore, <i>if an order is being placed for <u>multiple vaccine items associated with the same vaccine course</u> then the system will display the same  `Target stock` and `Suggested quantity` for each vaccine item in that order.</i>
 
