@@ -54,7 +54,7 @@ In order to provide the `Forecast demand`, the `Target stock` and the `Suggested
 These include:
 
 - **Country demographics** (see [Manage > Demographics](/docs/manage/demographics))
-- **Details of the National Immunization Schedule** (see [Programs > Immunizations](/docs/programs/immunisations/))
+- Details of the **National Immunization Schedule** (see [Programs > Immunizations](/docs/programs/immunisations/))
 - **Population coverage**, **supply interval** and **buffer stock** for each facility (see  [Manage > Store properties](/docs/manage/facilities/#editing-your-store-properties))
 
 #### Notes
