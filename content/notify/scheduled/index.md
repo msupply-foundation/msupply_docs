@@ -146,4 +146,5 @@ Here are the items that are out of stock at {{ store_name }}:
 - You can use a special variable `{{__tera_context}}` to view all the data that is available in your template which can be useful for debugging.
 - If your sql queries fail to run, this can cause the whole notification to fail, check the `Notification Events` page to see if there are any errors.
 - Telegram is really picky with what kinds of data it will accept, if you're having trouble sending a telegram message, there's some more information about the format of the data [here](https://core.telegram.org/bots/api#markdownv2-style).
-- It's definitely possible to do maths in your template if desired, see the tera docs for more information [https://keats.github.io/tera/docs/#math](https://keats.github.io/tera/docs/#math)
+- It's possible to do maths in your template if desired, see the tera docs for more information [https://keats.github.io/tera/docs/#math](https://keats.github.io/tera/docs/#math)
+- If you want your notification to run conditionally, you can write a specific query that will only return rows when conditions are met, and mark this query as `required`
