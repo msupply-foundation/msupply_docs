@@ -26,7 +26,7 @@ The <b>Population-based forecasting for vaccines</b> plugin can be found in our 
 The **Population-based forecasting for vaccines** plugin does three things: 
 
 1. It calculates the `Forecast demand` for vaccines based on the population of each facility
-2. It calculates the `Target stock` that each facility should have to meet their `Forecast demand`
+2. It calculates the `Target stock` that each facility should have to service their `Forecast demand`
 3. It offers a `Suggested quantity` that should be ordered to maintain the `Target stock` levels
 
 These values are calculated based on the following formulas: 
