@@ -49,7 +49,7 @@ The `Target stock` and `Suggested quantity` are then displayed to the facility u
 
 #### Configuration
 
-In order to provide the `Forecast demand`, the `Target stock` and the `Suggested quantity` key indicators must be input by the user in the system. 
+In order to provide the `Forecast demand`, the `Target stock` and the `Suggested quantity`, key indicators must be input by the user in the system. 
 
 These include:
 
