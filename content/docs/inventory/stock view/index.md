@@ -128,6 +128,8 @@ Once you are happy with your changes, press the `Save` button in the bottom righ
 
 You'll note that you can't edit `Pack Qty` or `Pack Size` from this view. You can do this via [Repacks](#repacking-stock) and [Adjustments](#adjusting-stock-level).
 
+`Hold checkbox`: To hold a stock line, check the Hold check-box. Once an stock line is held, it cannot be issued. It will still be included when calculating available stock, but held stock lines are unavailable for issue in both outbound shipments and prescriptions.
+
 #### Updating barcode
 
 This feature is available when running either the android or desktop versions of Open mSupply.
