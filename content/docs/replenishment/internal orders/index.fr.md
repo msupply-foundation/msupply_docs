@@ -4,7 +4,7 @@ description = "Commander chez des fournisseurs utilisant mSupply."
 date = 2022-03-19
 updated = 2022-03-19
 draft = false
-weight = 2
+weight = 40
 sort_by = "weight"
 template = "docs/page.html"
 
