@@ -13,7 +13,31 @@ toc = true
 top = false
 +++
 
-Intro
+Purchase Orders can be used to order stock from external suppliers.
+
+## Preferences
+
+### Use Purchase Orders
+
+In order to use purchase orders you need to have the [Use procurement functionality](/docs/manage/facilities/#store-preferences) store preference enabled for your store.
+
+![Store preference](images/po_store_pref.png)
+
+### Authorise Purchase Orders
+
+Authorisation is required if the [Global preference](/docs/manage/global-preferences/) `Authorise Purchase Orders` is enabled.
+
+When enabled, the next purchase order status after `New` is `Ready for Approval`. Only an user with authorisation permissions can confirm proceeding to the next status, `Ready for Sending`.
+
+## Permissions
+
+### Authorise Purchase Orders
+
+Any users who should be able to authorise purchase orders should have the [user permission](https://docs.msupply.org.nz/admin:managing_users#permissions_tabs) `Authorise purchase orders` enabled.
+
+Having this permission enabled will allow the user to proceed the purchase order status from `Ready for Approval` to `Ready for Sending` if authorisation is required.
+
+It also allows the user to edit the `Adjusted packs` value after the purchase order is at `Ready for Sending` status or further. Users without permission are unable to edit this field.
 
 ## Viewing Purchase Orders
 
@@ -95,14 +119,6 @@ Tapping on a line will take you to the purchase order. Here you can view the lin
 
 ### Outstanding Purchase Order Lines Columns
 
-1. **Status**: The status of this line. Editable only when the purchase order is at `Sent` status
-2. **Line number**: The line this item is on for this purchase order.
-3. **Stock on hand**: The number of units of this item in your store.
-4. **Unit**: Type here the type of units being ordered, for example 'tablet'.
-5. **Supplier item code**: The item code used by the supplier. Leave blank is not applicable.
-6. **Manufacturer**: Select a manufacturer from the dropdown list.
-7. **Requested packs**: The number of packs you are requesting - only editable at `
-
 | Column                        | Description                                        |
 | :---------------------------- | :------------------------------------------------- |
 | **PO Number**                 | Purchase Order Number                              |
@@ -117,8 +133,6 @@ Tapping on a line will take you to the purchase order. Here you can view the lin
 | **Received units**            | Quantity of units received to this purchase order  |
 | **Outstanding units**         | Outstanding number of units in this purchase order |
 
-### Exporting Outstanding Lines
-
 ## Creating a new Purchase Order
 
 1. Go to `Replenishment`> `Purchase Orders`
@@ -128,7 +142,7 @@ Tapping on a line will take you to the purchase order. Here you can view the lin
 
 ### Select a Supplier
 
-1. In the `Suppliers` window, you will be presented with a list of suppliers. You can select your supplier from the list or you can type as much of a supplier name as you want.
+1. In the `Suppliers` window, you will be presented with a list of suppliers. You can select your supplier from the list or you can begin typing the name of a supplier to filter the list.
 
 <div class="tip">
 Purchase orders can only be created for external suppliers - this is a supplier that is _not_ a store in your mSupply system 
@@ -156,17 +170,17 @@ If you have selected the wrong supplier, you can change the supplier name in the
 
 ### Enter a Supplier Reference
 
-Once your Purchase Order has been created, you can capture a supplier reference in the `Supplier Ref` field, if they have one (eg. PO#1234567 \_)
+Once your Purchase Order has been created, you can capture a supplier reference in the `Supplier Ref` field, if they have one (eg. PO#1234567)
 
-### Enter a Requested delivery date
+### Enter a requested delivery date
 
 Enter the requested delivery date for the purchase order. If any item(s) needs a different date, this can be added when creating or editing the item.
 
-### Enter an Expected delivery date
+### Enter an expected delivery date
 
 Enter the expected delivery date for the purchase order, provided by the supplier. If any item(s) needs a different date, this can be added when creating or editing the item.
 
-### Foreign Currencies
+### Foreign currencies
 
 You can select a foreign currency for the purchase order. This will usually be in your suppliers currency. Click on the dropdown menu and select the currency that you would like to use for the purchase order.
 
@@ -195,7 +209,7 @@ In the **Pricing** section, you can see pricing information for the Purchase Ord
 This includes:
 
 - Subtotal
-- Additional fees (entered in the #XXDetails tab)
+- Additional fees (entered in the <a href="#details">Details</a> tab)
 - Supplier discount percentage
 - Supplier discount amount
 - Final cost
@@ -205,11 +219,11 @@ This includes:
 In the **Other** section, you can:
 
 - Donor name
-- Select a shipping method (if you have this configured in mSupply XX)
+- Select a shipping method (if you have this <a href="https://docs.msupply.org.nz/issuing_goods:issuing_goods_customer_invoice?s%5B%5D=shipping&s%5B%5D=method#shipping_method">configured in mSupply</a>)
 - Write or edit a comment
 
 <div class="note">
-Configuring donors is done in the mSupply central server. This [documentation page](https://docs.msupply.org.nz/receiving_goods:donors?s[]=donor#adding_or_editing_donors) will tell you how.
+Configuring donors is done in the mSupply central server. This <a href="https://docs.msupply.org.nz/receiving_goods:donors?s[]=donor#adding_or_editing_donors">documentation page</a> will tell you how.
 </div>
 
 #### Dates
@@ -229,7 +243,7 @@ Passed statuses are highlighted in blue, next statuses appear in grey.
 
 <figure> 
     <img src="images/po_statussequence1.png" alt="Purchase Order Status Sequence (Sent)" style="width:100%">
-    <figcaption align="center">Status Sequence: current status is <code>New</code>.</figcaption>
+    <figcaption align="center">Status Sequence: current status is <code>Sent</code>.</figcaption>
 </figure>
 
 There are 5 statuses for the Purchase Orders (although you might see a smaller number, if Authorisation is not required):
@@ -247,8 +261,8 @@ The Ready for Approval status only applies if the Authorise Purchase Orders glob
 You'll see that the status bar has only the status values which apply depending on Authorisation preferences.
 
 <figure align="center">
-    <img src="images/po_statussequence2.png" alt="Purchase Order Status Sequence (Ready for approval)" style="width:60%"> 
-    <figcaption align="center">Status Sequence: current status is <code>Ready for approval</code>.</figcaption>
+    <img src="images/po_statussequence2.png" alt="Purchase Order Status Sequence (Ready for sending)" style="width:60%"> 
+    <figcaption align="center">Status Sequence: current status is <code>Ready for sending</code>.</figcaption>
 </figure>
 
 If you hover over the status sequence, an order history window appears. You can see the date when a purchase order was updated from one status to another.
@@ -301,29 +315,31 @@ Once your item is highlighted, tap on the name or press `Enter`.
 ![Add Item by name](images/po_add_item_name.png)
 ![Add Item by code](images/po_add_item_code.png)
 
-### Item Details
+### Item details
 
 There are a number of fields with information about the item. You can update most fields while the purchase order is at New or Ready for Approval status. Some fields are editable at later statuses, or are only for viewing additional information.
 
-1. **Status**: The status of this line. Editable only when the purchase order is at `Sent` status
-2. **Line number**: The line this item is on for this purchase order.
-3. **Stock on hand**: The number of units of this item in your store.
-4. **Unit**: Type here the type of units being ordered, for example 'tablet'.
-5. **Supplier item code**: The item code used by the supplier. Leave blank is not applicable.
-6. **Manufacturer**: Select a manufacturer from the dropdown list.
-7. **Requested packs**: The number of packs you are requesting - only editable at `New` and `Ready for Approval` statuses
-8. **Adjusted packs**: If the purchase order is at `Ready for Sending` or `Sent` statuses, users with permission are able to edit the adjusted packs field. This will become the new number of packs ordered, but is a separate field from the requested packs. The adjusted packs amount cannot be less than the amount already received for this item on the purchase order.
-9. **Pack Size**: The number of units per pack (by default, pack size is 1).
-10. **Requested**: A read-only field with of the number of packs requested.
-11. **Adjusted packs**: A read-only field with the adjusted packs for the order.
-12. **Price per pack (before discount)**: The base price per pack in the selected currency.
-13. **Discount percentage**: The discount amount that applies to this item.
-14. **Price per pack (after discount)**: The discounted price per pack in the selected currency.
-15. **Total cost**: Read-only field with the calculated cost of all packs for this item, after any item discount is applied.
-16. **Requested delivery date**: Requested delivery date for this item. It can be different to the requested delivery date for the purchase order.
-17. **Expected delivery date**: Expected delivery date for this item.
-18. **Comment**: Free text field for a comment regarding this item.
-19. **Notes**: Free text field for including notes about this item.
+| Field                                | Description                                                                                                                                                                                                                                                                                                                                             |
+| :----------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Status**                           | The status of this line. Editable only when the purchase order is at `Sent` status                                                                                                                                                                                                                                                                      |
+| **Line number**                      | The line this item is on for this purchase order.                                                                                                                                                                                                                                                                                                       |
+| **Stock on hand**                    | The number of units of this item in your store.                                                                                                                                                                                                                                                                                                         |
+| **Unit**                             | Type here the type of units being ordered, for example 'tablet'.                                                                                                                                                                                                                                                                                        |
+| **Supplier item code**               | The item code used by the supplier. Leave blank is not applicable.                                                                                                                                                                                                                                                                                      |
+| **Manufacturer**                     | Select a manufacturer from the dropdown list.                                                                                                                                                                                                                                                                                                           |
+| **Requested packs**                  | The number of packs you are requesting - only editable at `New` and `Ready for Approval` statuses                                                                                                                                                                                                                                                       |
+| **Adjusted packs**                   | If the purchase order is at `Ready for Sending` or `Sent` statuses, users with permission are able to edit the adjusted packs field. This will become the new number of packs ordered, but is a separate field from the requested packs. The adjusted packs amount cannot be less than the amount already received for this item on the purchase order. |
+| **Pack Size**                        | The number of units per pack (by default, pack size is 1).                                                                                                                                                                                                                                                                                              |
+| **Requested**                        | A read-only field with of the number of packs requested.                                                                                                                                                                                                                                                                                                |
+| **Adjusted packs**                   | A read-only field with the adjusted packs for the order.                                                                                                                                                                                                                                                                                                |
+| **Price per pack (before discount)** | The base price per pack in the selected currency.                                                                                                                                                                                                                                                                                                       |
+| **Discount percentage**              | The discount amount that applies to this item.                                                                                                                                                                                                                                                                                                          |
+| **Price per pack (after discount)**  | The discounted price per pack in the selected currency.                                                                                                                                                                                                                                                                                                 |
+| **Total cost**                       | Read-only field with the calculated cost of all packs for this item, after any item discount is applied.                                                                                                                                                                                                                                                |
+| **Requested delivery date**          | Requested delivery date for this item. It can be different to the requested delivery date for the purchase order.                                                                                                                                                                                                                                       |
+| **Expected delivery date**           | Expected delivery date for this item.                                                                                                                                                                                                                                                                                                                   |
+| **Comment**                          | Free text field for a comment regarding this item.                                                                                                                                                                                                                                                                                                      |
+| **Notes**                            | Free text field for including notes about this item.                                                                                                                                                                                                                                                                                                    |
 
 <div class="note">
 If the purchase order is at <code>Sent</code> status and the <code>Adjusted packs</code> are edited for an item, the purchase order status will change to 
@@ -336,7 +352,6 @@ In the below example, we are ordering 50 packs of 100 for item <i>030063 - Acety
 ![Add Item quantities](images/po_additem_quantities.png)
 
 <div class="note">The 'Ordered in other purchase orders' is a count of how many units of the same item are in other purchase orders with status 'Sent'</div>
-**Additional Details**
 
 ### Confirm item and quantities
 
@@ -453,14 +468,6 @@ If you have selected some lines by checking the box on the left of the list ther
 | Closed for receipt            | This will set the `Line status` to `Closed` on all of the selected lines. This action is only available when the Purchase Order is at `Sent` status |
 | Clear selection               | Will clear the selection checkboxes                                                                                                                 |
 
-## Viewing a Purchase Order
-
-If you do not have enough room on your screen, or simply aren't interested in some of the columns shown, you have the option of hiding which columns are shown in this view.
-
-Click on the `Show / hide columns` button which is at the top right of the table. This gives a list of the columns available - you can check the columns you want to see. The options chosen are stored for the current browser, so next time you view an purchase order, you will see the selected columns only. If you have chosen which columns to show, then the button is shown in blue to remind you that there are more columns available.
-
-![Hide columns](images/po_show_hide_columns.png)
-
 ## Purchase Order Tabs
 
 ### Goods Received
@@ -505,27 +512,3 @@ The `Log` tab shows the activity log of this purchase order.
 This records all user actions which have been taken for the purchase order using the Open mSupply system.
 
 ![Log tab](images/po_log_tab.png)
-
-## Preferences
-
-### Use purchase orders
-
-In order to use purchase orders you need to have the [Use procurement functionality](/docs/manage/facilities/#store-preferences) store preference enabled for your store.
-
-![Store preference](images/po_store_pref.png)
-
-### Authorise purchase orders
-
-Authorisation is required if the [Global preference](/docs/manage/global-preferences/) `Authorise Purchase Orders` is enabled.
-
-When enabled, the next purchase order status after `New` is `Ready for Approval`. Only an user with authorisation permissions can confirm proceeding to the next status, `Ready for Sending`.
-
-## Permissions
-
-### Authorise purchase orders
-
-Any users who should be able to authorise purchase orders should have the [user permission](https://docs.msupply.org.nz/admin:managing_users#permissions_tabs) `Authorise purchase orders` enabled.
-
-Having this permission enabled will allow the user to proceed the purchase order status from `Ready for Approval` to `Ready for Sending` if authorisation is required.
-
-It also allows the user to edit the `Adjusted packs` value after the purchase order is at `Ready for Sending` status or further. Users without permission are unable to edit this field.
