@@ -43,13 +43,7 @@ It also allows the user to edit the `Adjusted packs` value after the purchase or
 
 ### Go to the Purchase Orders Menu
 
-First you need to have purchase orders enabled for your store.
-
-1. Go to the [Manage](/docs/manage/facilities/#store-preferences) menu in the navigation panel
-2. Click on `Stores`, then select your store
-3. In the `Preferences` section, enable `Use procurement functionality`
-
-Now you will be able to access the **Purchase Order** menu:
+With the `Use procurement functionality` store preference on, you will be able to access the **Purchase Order** menu:
 
 ![Go to Purchase Orders](images/po_navigation.png)
 
