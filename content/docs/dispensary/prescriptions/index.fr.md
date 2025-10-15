@@ -41,13 +41,13 @@ Depuis cet écran, vous pouvez :
 
 1. La liste des Prescriptions est divisée en 5 colonnes :
 
-| Colonne      | Description                           |
-| :----------- | :------------------------------------ |
-| **Nom**      | Nom du Patient                        |
-| **Statut**   | Statut actuel de la prescription      |
-| **Numéro**   | Numéro de référence de la prescription |
-| **Créé**     | Date de création de la prescription   |
-| **Commentaire** | Commentaire pour la prescription   |
+| Colonne         | Description                            |
+| :-------------- | :------------------------------------- |
+| **Nom**         | Nom du Patient                         |
+| **Statut**      | Statut actuel de la prescription       |
+| **Numéro**      | Numéro de référence de la prescription |
+| **Créé**        | Date de création de la prescription    |
+| **Commentaire** | Commentaire pour la prescription       |
 
 2. La liste peut afficher un nombre fixe de prescriptions par page. Dans le coin inférieur gauche, vous pouvez voir combien de prescriptions sont actuellement affichées sur votre écran.
 
@@ -241,11 +241,11 @@ Les statuts passés sont surlignés en bleu, les statuts suivants apparaissent e
 
 Il y a 3 statuts pour une Prescription :
 
-| Statut        | Description                                                                                                                                        |
-| :------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Nouveau**   | C'est le premier statut quand vous créez une prescription.                                                                                         |
-| **Collecté**  | La prescription est collectée et est maintenant prête à être donnée au patient. Les produits font toujours partie de votre stock et la prescription peut toujours être modifiée. |
-| **Vérifié**   | Le patient a reçu son médicament.                                                                                                                  |
+| Statut       | Description                                                                                                                                                                      |
+| :----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nouveau**  | C'est le premier statut quand vous créez une prescription.                                                                                                                       |
+| **Collecté** | La prescription est collectée et est maintenant prête à être donnée au patient. Les produits font toujours partie de votre stock et la prescription peut toujours être modifiée. |
+| **Vérifié**  | Le patient a reçu son médicament.                                                                                                                                                |
 
 Si vous passez la souris sur le suivi du statut, une fenêtre d'historique de prescription apparaît. Vous pouvez voir la date quand une prescription a été mise à jour d'un statut à un autre.
 
@@ -267,10 +267,10 @@ Le bouton `Confirmer` met à jour le statut de la prescription. Le statut que vo
 
 Lors de la gestion d'une Prescription, vous ne pouvez confirmer que les statuts Collecté et Vérifié. Une fois que vous avez ajouté un article à une prescription, le statut changera automatiquement à `Collecté`.
 
-| Confirmer...             | Statut Actuel | Statut Suivant |
-| :----------------------- | :------------ | :------------- |
-| **Confirmer Collecté**   | Nouveau       | Collecté       |
-| **Confirmer Vérifié**    | Collecté      | Vérifié        |
+| Confirmer...           | Statut Actuel | Statut Suivant |
+| :--------------------- | :------------ | :------------- |
+| **Confirmer Collecté** | Nouveau       | Collecté       |
+| **Confirmer Vérifié**  | Collecté      | Vérifié        |
 
 ## Ajouter des lignes à une Prescription
 
@@ -329,14 +329,14 @@ Dans ce cas, les lignes de stock sont allouées dans l'ordre numérique du nivea
 
 Ceci est une liste des numéros de lots que vous avez en dépôt pour cet article :
 
-| Colonne                    | Description                                                                                                    |
-| :------------------------- | :------------------------------------------------------------------------------------------------------------- |
-| **Péremption**             | Date de péremption du lot (format : MM/AAAA)                                                                  |
-| **Lot**                    | Numéro de lot. C'est une désignation donnée aux produits fabriqués dans la même série de fabrication.        |
-| **Taille de boîte**        | Quantité d'unités par boîte                                                                                   |
-| **En Stock (unités)**      | Nombre total d'unités dans votre dépôt                                                                        |
-| **Disponible (unités)**    | Nombre d'unités disponibles (pas déjà allouées à d'autres factures)                                          |
-| **Unités Distribuées**     | Quantité totale d'unités à distribuer                                                                         |
+| Colonne                 | Description                                                                                           |
+| :---------------------- | :---------------------------------------------------------------------------------------------------- |
+| **Péremption**          | Date de péremption du lot (format : MM/AAAA)                                                          |
+| **Lot**                 | Numéro de lot. C'est une désignation donnée aux produits fabriqués dans la même série de fabrication. |
+| **Taille de boîte**     | Quantité d'unités par boîte                                                                           |
+| **En Stock (unités)**   | Nombre total d'unités dans votre dépôt                                                                |
+| **Disponible (unités)** | Nombre d'unités disponibles (pas déjà allouées à d'autres factures)                                   |
+| **Unités Distribuées**  | Quantité totale d'unités à distribuer                                                                 |
 
 ![List of available batch numbers](images/prescription_additem_listofbatches.png)
 
@@ -377,13 +377,13 @@ Les articles vaccins peuvent être dispensés en doses plutôt qu'en unités, si
 
 Les colonnes de quantité suivantes seront affichées à la place lors de la distribution d'un article vaccin :
 
-| Colonne                    | Description                                                                                                                                                                           |
-| :------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Statut VVM**             | Si la préférence de dépôt [Gérer le statut VVM pour le stock](/docs/manage/facilities/#store-preferences) est activée, une colonne affichant le statut VVM de cette ligne de stock est montrée |
-| **Doses par [unité]**      | Le nombre de doses par unité (l'étiquette montrée pour l'unité variera, car cela provient de l'article. Un exemple est `Flacon`)                                                    |
-| **[Unité]s en stock**      | Nombre total d'unités (par ex. `Flacons`) qui sont en stock dans votre dépôt                                                                                                         |
-| **Doses Disponibles**      | Nombre total de doses disponibles dans votre dépôt                                                                                                                                   |
-| **Doses Distribuées**      | Nombre total de doses à distribuer                                                                                                                                                   |
+| Colonne               | Description                                                                                                                                                                                    |
+| :-------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Statut VVM**        | Si la préférence de dépôt [Gérer le statut VVM pour le stock](/docs/manage/facilities/#store-preferences) est activée, une colonne affichant le statut VVM de cette ligne de stock est montrée |
+| **Doses par [unité]** | Le nombre de doses par unité (l'étiquette montrée pour l'unité variera, car cela provient de l'article. Un exemple est `Flacon`)                                                               |
+| **[Unité]s en stock** | Nombre total d'unités (par ex. `Flacons`) qui sont en stock dans votre dépôt                                                                                                                   |
+| **Doses Disponibles** | Nombre total de doses disponibles dans votre dépôt                                                                                                                                             |
+| **Doses Distribuées** | Nombre total de doses à distribuer                                                                                                                                                             |
 
 ![List of available batch numbers with doses](images/prescription_additem_listofbatches_with_doses.png)
 
@@ -532,7 +532,7 @@ Pour commencer à imprimer des étiquettes, assurez-vous d'abord d'avoir configu
 
 Pour chaque article dans la prescription, vous devrez définir la posologie / conseils d'utilisation de l'article à imprimer sur les étiquettes. Ceux-ci peuvent être entrés manuellement, avec des abréviations ou la posologie par défaut des articles.
 
-Voir la section [Posologie / Conseil d'utilisation](#directions) pour plus d'informations.
+Voir la section [Posologie / Conseil d'utilisation](#posologie-conseil-d-utilisation) pour plus d'informations.
 
 ### Imprimer Tout
 
