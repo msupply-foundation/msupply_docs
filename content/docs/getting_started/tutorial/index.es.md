@@ -70,7 +70,7 @@ El fondo de la pantalla contiene información útil y se muestra en todas las pa
 
 Algunos usuarios tienen acceso a más de un almacén. Para cambiar el almacén que está actualmente seleccionado, simplemente haz clic en el nombre del almacén en el pie de página:
 
-![Store switcher](images/store_switcher.gif)
+![Store switcher](images/store_switcher.png)
 
 Verás la notificación y el nombre del almacén en el pie de página se actualizará. A partir de ahora, todas las acciones se realizarán en el almacén recién seleccionado.
 
@@ -80,8 +80,8 @@ De manera similar, puedes seleccionar otro idioma haciendo clic en el idioma act
 
 ## ¡Ayuda!
 
-Si te quedas atascado en cualquier momento al utilizar el sitio, haz clic en el elemento del menú `Docs`.
+Si en algún momento tiene dificultades para utilizar el sitio, haga clic en la opción «Ayuda» del menú.
 
-![Docs](images/docs_nav.png)
+![Docs](images/help_nav.png)
 
-Esto te llevará a la página de documentación que se relaciona con la página actual que estás viendo.
+Utilice la página [Ayuda](/docs/help/help) para acceder a la Guía del usuario de Open mSupply (¡donde se encuentra ahora mismo!). La página de Ayuda también le permite ponerse en contacto con nosotros para enviarnos sus comentarios o solicitudes de asistencia.

@@ -15,7 +15,7 @@ top = false
 +++
 
 An item in Open mSupply is usually a product that you purchase from a supplier, hold in stock and supply to a customer.
-From the **Items** menu, you can view all of the items that are currently visible in your store.
+From the **Items** menu, you can view all of the items that are currently visible in your store. The visibility of items is controlled by master lists in Open mSupply. You must have the item on a list which is visible in your store for the item to be visible.
 
 ## Viewing items list
 
@@ -62,7 +62,7 @@ There are several tabs in the bottom part of the screen:
 
 The general tab includes basic information about the item, including:
 
-#### Details
+**Details**
 
 - **Name**: This is the name by which mSupply will refer to the item
 - **Code**: This should be unique for each item and is a helpful shorthand for referring to items
@@ -73,17 +73,17 @@ The general tab includes basic information about the item, including:
 - **Doses**: For vaccines, the number of dose per vial
 - **Vaccine** (check box): If this is checked, this item is a vaccine and a number of dose can be assigned
 
-#### Categories
+**Categories**
 
 - **ATC Category**: ATC stands for Anatomical, Therapeutic, Chemical and is a method of classifying entities, and identifying them by category
 - **Universal Name**: if the item is linked to the [universal drug code database](https://codes.msupply.foundation/), this shows the universal, or generic name for the given item
 - **Universal Code**: similarly, the code allocated to the universal drug code item
 
-#### Storage
+**Storage**
 
 - **Location type**: The location type that this item is restricted to. Used for items that need to be stored in a specific type of location, such as cold storage.
 
-#### Packaging
+**Packaging**
 
 - **Default pack size**: This is the default pack size that will be assigned to incoming stock as it is received
 - **Outer pack size**: The number of units in a carton (outer pack). Not the number of preferred pack size packs in a carton (outer pack).
@@ -91,7 +91,7 @@ The general tab includes basic information about the item, including:
 - **Volume per outer pack**: The default volume of an Outer pack size pack of this item
 - **Weight**: The weight of a preferred pack size pack in kg
 
-#### Pricing
+**Pricing**
 
 - **Margin**: This is the default margin that will be applied to this item on Inbound Shipments to calculate the selling price
 
@@ -159,7 +159,7 @@ This will open a new window, where you can enter a name for the variant, and its
 
 Temperature options are configured as [Location Types](https://docs.msupply.org.nz/items:item_locations?s[]=location&s[]=type#location_types) on the mSupply Central Server. [Manufacturers](https://docs.msupply.org.nz/names:adding_and_editing?s[]=manufacturers#adding_a_customer_supplier_manufacturer_donor_or_benchmark) are also managed in mSupply.
 
-#### Packaging
+**Packaging**
 
 Different facilities work in different levels of packaging, e.g. a warehouse may work in cartons, while a clinic works in boxes or individual units. In the Packaging section, you can define the pack size (units per pack) and packaging volume for the different packaging levels of an item variant.
 
@@ -197,7 +197,7 @@ You can also add bundled items to each Item Variant. These are other items that 
 
 Bundling is done at the Item Variant level, giving you fine-grained control over which variants should be bundled together. For example, a vaccine may only be able to be bundled with a specific diluent from the same manufacturer.
 
-#### Adding bundled items
+**Adding bundled items**
 
 To bundle an item with the current variant, click the `Add bundled item` button under the `Bundled with` section.
 
@@ -214,7 +214,7 @@ This will open a new window, where you can search for the item you wish to bundl
 After selecting the item, you will be prompted to select the specific variant of that item, along with the ratio at which it should be bundled.
 
 <div class="imagetitle">
-In this example, 0.2 units of Silverfern Normal Saline should be bundled with every 1 unit of Silverfern Adsorbed (Paediatric) DPT Vaccine.
+In this example, 0.2 units of Silverfern saline 0.22% should be bundled with every 1 unit of Qdenga.
 </div>
 
 <p align="center">
@@ -225,7 +225,7 @@ Click OK to add the bundled item. It will then appear in the `Bundled with` sect
 
 ![item variant with bundled item](images-en/item_variant_with_bundled_item.png)
 
-#### Editing bundled items
+**Editing bundled items**
 
 To edit a bundled item, click the row in the `Bundled with` section. This will open the same window as when adding a new bundled item, with the existing details pre-filled. Make any changes you need, and click `OK` to update the bundle.
 
@@ -233,7 +233,7 @@ To edit a bundled item, click the row in the `Bundled with` section. This will o
     <img src="images-en/add_bundled_item_modal.png" width="700">
 </p>
 
-#### Removing bundled items
+**Removing bundled items**
 
 To remove a bundled item, click the Delete icon next to the item you wish to remove.
 
@@ -245,7 +245,7 @@ You will be asked to confirm the removal of the bundled item. Click `OK` to conf
     <img src="images-en/confirm_remove_from_bundle.png" width="450">
 </p>
 
-#### Item variants that are a part of bundles
+**Item variants that are a part of bundles**
 
 You aren't able to bundle items for an item variant that is already part of another bundle.
 

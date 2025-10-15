@@ -4,7 +4,12 @@ $gray-700: #495057;
 $gray-800: #343a40;
 $gray-900: #212529;
 
-p {
+body {
+    line-height: 1.55;
+}
+
+main.docs-content > p {
+  text-align: justify;
   img,
   svg {
     vertical-align: middle;
@@ -16,6 +21,10 @@ p {
     margin-bottom: 40px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
+}
+
+.active {
+  font-weight: bold;
 }
 
 .note,
@@ -202,24 +211,71 @@ div.imagetitle {
   content: "CONSEJO";
 }
 
+.docs-links > h3 {
+  color: #c98f26;
+}
+
+a.docs-link.active, a.docs-link:hover, h1 {
+  color: #f26633;
+}
+body.dark a.docs-link.active, body.dark a.docs-link:hover, body.dark h1 {
+  color: #8ed6fb;
+}
+
+
 h1 {
-  color: #f2913d;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
 }
 
 h2 {
-  margin-top: 25px;
+  color: #2f3d45;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  margin-top: 2rem;
+  border-bottom: 1px solid #e9ecef;
+}
+
+body.dark h2 {
+  color: #e9ecef;
 }
 
 h3 {
-  margin-top: 15px;
+  color: #78909d;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+body.dark h3 {
+  color: #c98f26; //  #dee2e6;
+}
+
+
+main.docs-content h5:before {
+  content: "📌 ";
 }
 
 h4 {
-  margin-top: 12px;
+  color: #f2913dff;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+  margin-top: 0.25rem;
 }
 
 h5 {
-  margin-top: 5px;
+  color: #000;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+h5 {
+  color: #000;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+  margin-top: 0.25rem;
 }
 
 code {
@@ -256,7 +312,7 @@ table {
   font-size: 15px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  background-image: url("/docs/icon.png");
+  background-image: url("/docs/images/icon.png");
   background-repeat: no-repeat;
   background-size: 30px;
   background-position: 1.2% 50%;
@@ -331,4 +387,27 @@ a.homepage-link {
 a.homepage-link:hover {
   color: #f2913d;
   text-decoration: underline;
+}
+
+p.search_snippet {
+  font-size: 0.9em;
+  color: #555;
+}
+
+#search-results > li {
+  
+  list-style-type: none;
+}
+
+math {
+    display: block;               
+    font-family: "Fira Code", "Courier New", monospace; /* monospace font */
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 0.5em 1em;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    overflow-x: auto;
+    text-align: center;
+    font-size: 0.95em;
 }

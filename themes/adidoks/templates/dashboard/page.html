@@ -16,10 +16,10 @@
       <main class="docs-content col-lg-11 col-xl-9">
         {% for Translation in page.translations %}
         <div class="flagster" style="float: right; padding: 5px">
-          <a href="{{Translation.permalink}}" title="Change language to {{Translation.lang}}"
-            >{{trans(key="flag", lang=Translation.lang)}}</a
-          >
-        </div>
+            <a href="{{Translation.permalink}}" title="Change language to {{Translation.lang}}"
+            ><img src="/icons/{{trans(key="flag", lang=Translation.lang)}}" width="28">
+          </a> 
+         </div>
         {% endfor %}
 
         <h1>{{ page.title }}</h1>

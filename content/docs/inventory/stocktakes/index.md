@@ -71,13 +71,20 @@ Let's start a new stocktake. To do so, tap on the `New Stocktake` button in the 
 
 A "New Stocktake" modal appears.
 
-- Selecting no options will include all stock lines with remaining stock in the system. You may filter the stock lines with remaining stock in the system by master list, location or their expiry date
-- Selecting "Create blank stocktake" will create a stocktake with no lines. You will still be able to manually add individual items in the created stocktake.
+Selecting no options will include all stock lines with remaining stock in the system. Alternatively, select the radio button for 'All items' which will include items regardless of stock being recorded in the system.
 
 ![Stocktake: New modal](images/stocktake_newmodal.png)
 
+Selecting the "Create filtered stocktake" will show the inputs allowing you to filter the stock lines by master list, location or their expiry date
+
+![Stocktake: new filtered](images/stocktake_new_filtered_stocktake.png)
+
+Selecting "Create blank stocktake" will create a stocktake with no lines. You will still be able to manually add individual items in the created stocktake.
+
+![Stocktake: new blank](images/stocktake_new_blank_stocktake.png)
+
 <div class="note">
-If the <code>Manage VVM status for stock</code> store preference is enabled, a VVM status filter will also be available.
+If the <a href="/docs/manage/facilities/#store-preferences">Manage VVM status for stock</a> store preference is enabled, a VVM status filter will also be available.
 </div>
 
 Click on OK when you have selected the filters you would like.
@@ -110,7 +117,7 @@ You can use the `Add batch (+)` button to add more batches of a particular item 
 
 ### Entering reasons
 
-If you have [inventory adjustment options](https://docs.msupply.org.nz/preferences:options?s[]=reasons) configured on your Legacy mSupply central server, then you are required to enter a reason when the `counted packs` specified does not match the snapshot packs.
+If you have [inventory adjustment options](https://docs.msupply.org.nz/preferences:options?s[]=reasons) configured on your mSupply central server, then you are required to enter a reason when the `counted packs` specified does not match the snapshot packs.
 
 For example, after entering `95` for the counted quantity for Amoxicillin 250mg tabs - batch 166893, a red \* will appear to the right of the `Reason` input, and you will need to select one of the negative inventory adjustment reasons:
 
@@ -137,7 +144,7 @@ There are several [reason types](https://docs.msupply.org.nz/preferences:options
 
 ### VVM Status
 
-You can update lots of information about the stock line as you do your stocktake, such as the batch number, expiry date, and location. If you are using the `Manage VVM status for stock` store preference, you will also be able to update the VVM status of vaccine items.
+You can update lots of information about the stock line as you do your stocktake, such as the batch number, expiry date, and location. If you are using the <a href="/docs/manage/facilities/#store-preferences">Manage VVM status for stock</a> store preference, you will also be able to update the VVM status of vaccine items.
 
 ![Stocktake VVM status](images/stocktake_change_vvm.png)
 
@@ -160,6 +167,8 @@ Once you select an item, stocktake rows will be generated for any batches of tha
 If there are no batches with stock for that item, your batch list will be blank. The `Add batch (+)` button will add a new blank row, where you can enter batch information and the counted number of packs.
 
 ![Stocktake add item no batches](images/stocktake_newitem_no_batches.png)
+
+<div class="tip">When adding a batch the <code>Pack size</code> and <code>Pack sell price</code> will default to the value specified by the <a href="https://docs.msupply.org.nz/items:item_basics:tab_storage?s%5B%5D=preferred&s%5B%5D=pack&s%5B%5D=size#preferred_pack_size">Preferred pack size</a> and <a href="https://docs.msupply.org.nz/items:item_basics:tab_general#default_sell_price_of_preferred_pack_size">Default sell price of preferred pack size</a> if they have been specified for the current item.</div>
 
 ## Printing Stocktake sheet
 

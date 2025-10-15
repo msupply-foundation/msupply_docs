@@ -51,7 +51,6 @@ La liste des livraisons comprend 7 colonnes:
 
 1. La liste peut afficher **20 livraisons par page**. Dans le coin inférieur gauche, vous pouvez voir combien de livraisons sont actuellement affichées sur votre écran.
 
-
 2. S'il y a plus de 20 livraisons, vous pouvez vous déplacer vers une autre page en cliquant sur le numéro de la page ou en utilisant les flèches droite ou gauche (coin inférieur droit).
 
 ### Recherche par nom de Fournisseur
@@ -60,6 +59,7 @@ Vous pouvez filtrer la liste des livraisons par nom de fournisseur. Cela peut ê
 
 Saisissez le nom du fournisseur dans le champ `Chercher par Nom` (à gauche, juste au-dessus des en-têtes de liste). Toutes les livraisons de ce fournisseur apparaîtront dans la liste.
 ![](images/is_filter_list.png)
+
 ### Exporter la liste des livraisons
 
 La liste des livraisons peut être exportée dans un fichier CSV. Cliquez simplement sur le bouton **Exporter** (à droite, en haut de la page) et le fichier sera téléchargé.
@@ -109,11 +109,13 @@ Si tout s'est bien passé, vous devriez voir le nom de votre fournisseur dans le
 </div>
 
 ![New manual Inbound Shipment](images/is_newinboundshipment_fr.png)
+
 ### Modifier le nom du Fournisseur
 
 Si vous n'avez pas sélectionné le bon fournisseur, vous pouvez toujours modifié le nom du fournisseur dans le champs `Nom du fournisseur` ou sélectionner un autre:
 
 ![](images/is_choose_supplier.png)
+
 ### Saisir une référence fournisseur
 
 Une fois que la livraison a été créée, vous pouvez renseigner la référence du fournisseur dans le champs `Référence` s'il en a un: (Exple. _ PO#1234567 _)
@@ -275,6 +277,7 @@ Pour ajouter une ligne, appuyez sur le bouton `Ajouter un Article` situé dans l
 Une nouvelle fenêtre `Ajouter un Article` s'ouvre.
 
 ![Inbound: add item button](images/is_additem_button.png)
+
 ### Sélectionner un Article
 
 Dans la fenêtre `Ajouter un Article`, vous pouvez rechercher un article par :
@@ -288,6 +291,7 @@ Une fois que votre article est surligné, appuyez sur le nom ou appuyez sur `Ent
 ![Add Item list](../../images/adding-an-item-all.png)
 ![Add Item by name](../../images/adding-an-item-name.png)
 ![Add Item by code](../../images/adding-an-item-code.png)
+
 ### Onglet Quantités
 
 Dans l'onglet `Quantités`, vous pouvez mettre à jour les champs suivants :
@@ -404,8 +408,8 @@ Pour modifier une ligne de Livraison Entrante, appuyez simplement dessus. Vous v
 
 1. Ouvrez la Livraison Entrante que vous voulez modifier
 2. Appuyez sur la ligne que vous voulez modifier. Une fenêtre identique à `Ajouter un Article` apparaît. À ce stade :
-    - Modifiez le champ principal `Quantité d'Émission`
-    - ou changez la valeur du nombre de paquets au niveau du numéro de lot
+   - Modifiez le champ principal `Quantité d'Émission`
+   - ou changez la valeur du nombre de paquets au niveau du numéro de lot
 
 <div class="note"> <b></b> Lors de la modification d'une ligne de livraison, vous ne pouvez pas changer l'article. Vous devriez supprimer la ligne de livraison et en créer une nouvelle. </div>
 
@@ -516,13 +520,14 @@ Si vous n'avez pas assez de place sur votre écran, ou si vous n'êtes simplemen
 Cliquez sur le bouton `Afficher / masquer les colonnes` qui se trouve en haut à droite du tableau. Cela donne une liste des colonnes disponibles - vous pouvez cocher les colonnes que vous voulez voir. Les options choisies sont stockées pour le navigateur actuel, donc la prochaine fois que vous visualiserez un envoi entrant, vous ne verrez que les colonnes sélectionnées. Si vous avez choisi quelles colonnes afficher, alors le bouton est affiché en bleu pour vous rappeler qu'il y a plus de colonnes disponibles.
 
 ![Hide columns](images/is_show_hide_columns.gif)
+
 ## Suivre le stock par donateur
 
 Vous pouvez suivre le stock par donateur à travers tout le système. Un donateur peut être lié à un envoi entrant et vous pouvez également spécifier le donateur pour chaque ligne sur l'envoi.
 
 Pour commencer, activez la [Préférence globale](/docs/manage/global-preferences/) pour `Permettre le suivi du stock par donateur`. Ensuite, configurez quelques donateurs dans le serveur central mSupply. Cette [page de documentation](https://docs.msupply.org.nz/receiving_goods:donors?s%5B%5D=donor#adding_or_editing_donors) vous dira comment faire.
 
-Une fois que vous avez activé la préférence et avez quelques donateurs configurés, ouvrez le [volet d'informations](#view-or-edit-the-inbound-shipment-information-panel) de votre envoi entrant
+Une fois que vous avez activé la préférence et avez quelques donateurs configurés, ouvrez le [volet d'informations](#afficher-ou-modifier-le-volet-d-informations-sur-les-livraisons) de votre envoi entrant
 
 Ici, vous pouvez voir le donateur actuellement alloué et ajouter ou changer un donateur. Cliquez sur l'icône crayon pour afficher la fenêtre d'édition :
 

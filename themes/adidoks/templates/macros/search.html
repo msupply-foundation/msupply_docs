@@ -1,0 +1,144 @@
+<!-- prettier-ignore -->
+{% macro search_script(current_section) %}
+<script>
+  const toSafeString = (words) => {
+    return encodeURIComponent(words.join(' ')).replace(/-/g, '%2D');
+  };
+
+  const extractTextFragment = (text, query, index) => {
+    // extract visible text i.e. between HTML tags
+    const i = text.slice(0, index).lastIndexOf('>');
+    const start = i === -1 ? 0 : i + 1;
+    const j = text.slice(index).indexOf('<');
+    const end = j === -1 ? text.length : j + query.length;
+    // extract prefix and suffix
+    const prefixText = text.slice(start, index);
+    const suffixText = text.slice(index + query.length, end);
+    // Split the text into words
+    const prefixWords = prefixText.trim().split(/\s+/);
+    const suffixWords = suffixText.trim().split(/\s+/);
+
+    // Combine prefix and suffix words
+    const prefix = toSafeString(prefixWords.slice(Math.max(0, prefixWords.length - 3)));
+    const suffix = toSafeString(suffixWords.slice(0, 3));
+
+    return `#:~:text=${prefix}-,${query},-${suffix}`;
+  };
+
+  const getSnippet = (text, query, url, length) => {
+    const index = text.toLowerCase().indexOf(query.toLowerCase());
+    if (index === -1) return '';
+
+    const start = Math.max(0, index - length / 2);
+    const end = Math.min(text.length, index + length / 2);
+
+    const href = `${url}${extractTextFragment(text, query, index)}`;
+    const link = `<a href="${href}"><mark>${query}</mark></a>`;
+    const snippet = `${text.slice(start, index)}${link}${text.slice(index + query.length, end)}`;
+
+    return `...${snippet}...`;
+  };
+
+  const getSnippets = (text, query, url, length = 100, limit = 5) => {
+    const snippets = [];
+    let remainingText = text;
+    let count = 0;
+
+    while (count < limit) {
+      const snippet = getSnippet(remainingText, query, url, length);
+      if (!snippet) break;
+
+      snippets.push(`<p class="search_snippet">${snippet}</p>`);
+      const nextIndex = remainingText.toLowerCase().indexOf(query.toLowerCase()) + query.length;
+      remainingText = remainingText.slice(nextIndex);
+      count += 1;
+    }
+
+    return snippets.join('');
+  };
+
+  window.addEventListener('DOMContentLoaded', () => {
+    const params = new URLSearchParams(window.location.search);
+    const query = params.get('q');
+    document.getElementById('userinput').value = query;
+
+    const resultsContainer = document.getElementById('search-results');
+    resultsContainer.innerHTML = `<div>${translations[currentLanguage].teaser}</div>`;
+    async function runSearch() {
+      if (!query) return;
+
+      const index = elasticlunr.Index.load(window.searchIndex);
+      const results = index.search(query);
+
+      if (results.length === 0) {
+        resultsContainer.innerHTML = `<p>${translations[currentLanguage].results
+          .replace('{query}', query)
+          .replace('{results}', 0)}</p>`;
+        return;
+      }
+
+      resultsContainer.innerHTML = '';
+      const resultCount = document.createElement('p');
+      let count = 0;
+      resultsContainer.appendChild(resultCount);
+
+      // original teaser
+      // var items = value.split(/\s+/);
+      // then for a result:
+      // d.innerHTML = makeTeaser(page.doc.body, items);
+
+      results.forEach((result) => {
+        // this filters out any results that are not in the current section
+        if (!result.ref.startsWith(currentSection)) return;
+
+        const { doc } = result;
+        const li = document.createElement('li');
+        const snippets = getSnippets(doc.body, query, result.ref);
+
+        li.innerHTML = `<a href="${result.ref}">${doc.title}</a><p>${snippets}</p>`;
+        resultsContainer.appendChild(li);
+        count += 1;
+      });
+      const resultText = translations[currentLanguage].results
+        .replace('{results}', '<b>' + count + '</b>')
+        .replace('{query}', '<i>' + query + '</i>');
+      resultCount.innerHTML = resultText;
+    }
+
+    runSearch();
+  });
+</script>
+{% endmacro %} {% macro search_content(current_section) %}
+
+<div class="wrap container" role="document">
+  <div class="content">
+    <div class="row flex-xl-nowrap">
+      {{ macros_sidebar::docs_sidebar(current_section=current_section) }} {{
+      macros_toc::docs_toc(page=page) }}
+      <main class="docs-content col-lg-11 col-xl-9">
+        {% for Translation in page.translations %}
+        <div class="flagster" style="float: right; padding: 5px">
+          <a
+            href="{{Translation.permalink}}"
+            title="Change language to {{Translation.lang}}"
+            id="lang-{{Translation.lang}}"
+            ><img src="/icons/{{trans(key="flag", lang=Translation.lang)}}" width="28">
+          </a>
+        </div>
+        {% endfor %}
+
+        <h1>{{ page.title }}</h1>
+        <ul id="search-results"></ul>
+      </main>
+    </div>
+  </div>
+</div>
+
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const searchQuery = params.get("q");
+  {% for Translation in page.translations %}
+    document.getElementById("lang-{{Translation.lang}}").href = "{{Translation.permalink | safe}}?q=" + encodeURIComponent(searchQuery);
+  {% endfor %}
+</script>
+{% endmacro %}
