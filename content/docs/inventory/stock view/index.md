@@ -1,6 +1,6 @@
 +++
 title = "Stock"
-description = "View Stock"
+description = "Stock"
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
 draft = false
@@ -116,7 +116,7 @@ Once you are happy with the batch information, click `OK`. This will save your n
 
 ## Viewing stock line details
 
-To view the details on a specific batch, click that line from the `View Stock` list view. You will be redirected to the Stock details page.
+To view the details on a specific batch, click that line from the `Stock` list view. You will be redirected to the Stock details page.
 
 ### Details tab
 

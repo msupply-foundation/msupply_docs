@@ -344,7 +344,7 @@ The additional column available with the `Manage Vvm Status For Stock` preferenc
 VVM Statuses must also be configured in mSupply by adding a status to the <a href="https://docs.msupply.org.nz/cold_chain_equipment:configure">Vaccine vial monitor list</a>. 
 </div>
 
-Selecting a VVM Status in an inbound shipment will generate a VVM Status log. One log will be recorded per batch for the inbound shipment (at shipment status Delivered). Logs can be viewed and edited by selecting the item in `View Stock` and selecting the `Status History` tab.
+Selecting a VVM Status in an inbound shipment will generate a VVM Status log. One log will be recorded per batch for the inbound shipment (at shipment status Delivered). Logs can be viewed and edited by selecting the item in `Stock` and selecting the `Status History` tab.
 
 #### Adding Batches
 
