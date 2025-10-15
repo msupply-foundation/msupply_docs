@@ -61,9 +61,13 @@ The records will then be pushed to _either_ the Open mSupply central server (V6)
 
 So in the above example, 4 sync records are being sent in total, not 8.
 
-If any errors are encountered during the sync progress you will see these on this screen too. Hover over the `i` icon to see additional details.
+If any errors are encountered during the sync progress you will see these on this screen too.
 
 ![sync: error](images/sync_error.png)
+
+To view additional details, click the `More information` link:
+
+![sync: error detail](images/sync_error_detail.png)
 
 ## Server details
 
