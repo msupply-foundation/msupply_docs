@@ -536,7 +536,7 @@ See the [Directions](#directions) section for more information.
 
 ### Printing All
 
-When viewing the overall prescription, you'll see that lines that have directions will have a comment bubble icon. Once all the directions are entered on all the lines, this is a good time to print all your labels! Press the `Print Labels` button at the top of the page.
+When viewing the overall prescription, you'll see that lines that have directions will have a comment bubble icon. Once all the directions are entered on all the lines, this is a good time to print all your labels! Press the `Print Labels` button at the top of the page, or use the keyboard shortcut `Alt` + `L`.
 
 ![Prescription label print all](images/prescription_page.png)
 
@@ -626,3 +626,23 @@ If there are available insurances policies for your patients, you can indicate t
    ![Insurance Covered](images/insurance_covered.png)
 
 4. Click the `Save` button once everything is done.
+
+## Shortcuts
+
+There are some useful keyboard shortcuts to speed up your prescription workflow. You can find all available shortcuts in the app at any time, by pressing `Control (Ctrl)`+`K` (or `Command (⌘)`+`K` on Mac).
+
+From the Prescription detail page:
+
+| Action                                                                                     | Shortcut    |
+| :----------------------------------------------------------------------------------------- | :---------- |
+| Add item                                                                                   | `Alt` + `N` |
+| Print labels                                                                               | `Alt` + `S` |
+| Update Status (e.g. Confirm Verified - based on selected status next status in the footer) | `Alt` + `V` |
+
+From the Prescription line edit page:
+
+| Action                 | Shortcut    |
+| :--------------------- | :---------- |
+| Add item               | `Alt` + `N` |
+| Save Prescription Line | `Alt` + `S` |
+| Close Window           | `Esc`       |

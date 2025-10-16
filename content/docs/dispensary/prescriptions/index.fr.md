@@ -107,14 +107,14 @@ Vous ne pouvez supprimer que les prescriptions avec un statut <code>NOUVEAU</cod
 
 3. Une nouvelle fenêtre s'ouvre, dans laquelle vous pouvez sélectionner un patient et d'autres détails pour la prescription
 
-![Fenêtre Nouvelle Prescription](images/prescriptions_new_prescription_name.png)
+![Fenêtre Nouvelle Prescription](images/prescription_new_prescription_name.png)
 
 #### Sélectionner un Patient
 
 Dans la fenêtre `Nouvelle Prescription`, un formulaire vous sera présenté pour rechercher les patients disponibles. La liste des patients s'affichera lorsque vous commencerez à taper. Une fois que le patient souhaité apparaîtra à l'écran, vous pourrez le sélectionner (il n'est pas nécessaire de saisir le nom complet ou son code en entier).
 
 Si aucune correspondance n'est trouvée, un bouton `Créer un nouveau patient` apparaîtra. Cliquer dessus ouvrira une nouvelle fenêtre pour créer un nouveau patient, avant de vous ramener à la fenêtre Prescription.
-![Pop-up créer un nouveau patient](images/prescriptions_new_prescription_no_match.png)
+![Pop-up créer un nouveau patient](images/prescription_new_prescription_no_match.png)
 
 <div class="note">
 Si vous avez trouvé un patient correspondant au nom entré mais que ce n'est pas celui que vous recherchez, vous pouvez simplement appuyer plusieurs fois sur la barre d'espace pour faire apparaître le bouton Nouveau Patient.
@@ -493,7 +493,7 @@ Pour commencer à imprimer des étiquettes, assurez-vous d'abord d'avoir configu
 
 Pour chaque article dans la prescription, vous devrez définir les directions d'article à imprimer sur les étiquettes. Celles-ci peuvent être saisies manuellement, avec des abréviations ou des posologies / conseils d'utilisation par défaut d'article.
 
-Voir la section [Directions](#directions) pour plus d'informations.
+Voir la section [Posologie / Conseils d'Utilisation](#posologie-conseils-d-utilisation) pour plus d'informations.
 
 ### Impression de Toute la Prescription
 

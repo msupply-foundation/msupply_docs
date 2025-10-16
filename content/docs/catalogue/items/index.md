@@ -15,7 +15,7 @@ top = false
 +++
 
 An item in Open mSupply is usually a product that you purchase from a supplier, hold in stock and supply to a customer.
-From the **Items** menu, you can view all of the items that are currently visible in your store.
+From the **Items** menu, you can view all of the items that are currently visible in your store. The visibility of items is controlled by master lists in Open mSupply. You must have the item on a list which is visible in your store for the item to be visible.
 
 ## Viewing items list
 

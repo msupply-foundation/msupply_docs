@@ -473,6 +473,18 @@ If you have selected some lines by checking the box on the left of the list ther
 | Return selected lines      | Opens a window which lets you return some or all of the selected lines. This is only possible if the status of the shipment is `Received` or later |
 | Clear selection            | Will clear the selection checkboxes                                                                                                                |
 
+## Upload Documents
+
+You may have related documents you wish to upload and store with an Inbound Shipment. These could be delivery notes, transport documents, temperature records etc.
+
+The Inbound Shipment view includes a `Documents` tab. From here, select `Upload Document` at the top of the screen and select a file to upload:
+
+![Upload Document tab and button](images/is_upload_document.png)
+
+You can download or delete previously uploaded documents, by selecting the document in the list and then choosing the appropriate action at the bottom of the screen:
+
+![Download or Delete Document](images/is_download_delete_document.png)
+
 ## Receiving stock with an Inbound Shipment
 
 ### Confirm the delivery of the shipment

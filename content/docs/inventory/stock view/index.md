@@ -25,30 +25,28 @@ A detailed list of your inventory appears:
 
 ![Stock: list](images/stock_viewstock.png)
 
-The list is divided into 9 columns:
-
-| Column        | Description                                              |
-| :------------ | :------------------------------------------------------- |
-| **Code**      | Code assigned to this item in mSupply                    |
-| **Name**      | This is the name by which mSupply will refer to the item |
-| **Batch**     | Batch number of the stock line                           |
-| **Expiry**    | Expiry date of the batch                                 |
-| **Location**  | Where the item is being stored in your facility          |
-| **Unit**      | The unit of measure for the item                         |
-| **Pack Size** | The pack size of the item                                |
-| **Pack Qty**  | Number of packs available in your store                  |
-| **SOH**       | The total quantity of stock on hand, in number of packs  |
-| **Supplier**  | Shows the source of this stock item                      |
+| Column            | Description                                                                                                                                                                                    |
+| :---------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Code**          | Code assigned to this item in mSupply                                                                                                                                                          |
+| **Name**          | This is the name by which mSupply will refer to the item                                                                                                                                       |
+| **Batch**         | Batch number of the stock line                                                                                                                                                                 |
+| **Expiry**        | Expiry date of the batch                                                                                                                                                                       |
+| **VVM Status\***  | <p style="margin-bottom: 0">Indicates the vaccine's viability.</p> <small>\*Enabled via the [Manage VVM status for stock](/docs/manage/facilities/#store-preferences) store preference</small> |
+| **Location**      | Where the item is being stored in your facility                                                                                                                                                |
+| **Unit**          | The unit of measure for the item                                                                                                                                                               |
+| **Pack Size**     | The pack size of the item                                                                                                                                                                      |
+| **Pack Qty**      | Total quantity of stock in your store, in packs                                                                                                                                                |
+| **SOH**           | Total quantity of stock in your store, in units                                                                                                                                                |
+| **Available SOH** | Available stock on hand (not allocated for distribution), in units                                                                                                                             |
+| **Pack cost**     | Cost price per pack                                                                                                                                                                            |
+| **Total**         | Total value of SOH (`Pack qty x Pack cost`)                                                                                                                                                    |
+| **Supplier**      | Shows the source of this stock item                                                                                                                                                            |
 
 ### Looking for a specific item
 
-You can filter the list by item name or code, location or by expiry. This can be useful if you're looking for one particular item.
+There are a number of available filters, to help you find the stock you are looking for. You can also use the search box to filter by item name, code or batch.
 
 ![Stock: filter](images/stock_filter.png)
-
-Click on the `Filters` to show the available filters, select an option, for example `Code or Name`, and type as much of an item name or code in the `Code or Name` field:
-
-![Stock: search](images/stock_search.gif)
 
 ### Exporting Stock
 
@@ -108,6 +106,12 @@ Item variants include packaging information - if your new stock line has a match
 
 If the [Allow tracking of stock by donor](/docs/manage/global-preferences/) global preference is enabled then you can allocate a donor to this stock line.
 
+### Doses
+
+If the [Manage vaccines in doses](/docs/manage/facilities/#store-preferences) store preference is enabled, you'll see a total doses field beneath any pack quantity fields when working with Vaccine items.
+
+![New stock line: pack quantity with doses](images/pack_qty_with_doses.png)
+
 Once you are happy with the batch information, click `OK`. This will save your new stock line by creating an `Inventory Adjustment`. You will be redirected to the Stock line details page.
 
 ## Viewing stock line details
@@ -123,6 +127,8 @@ On the main `Details` tab, you can view and change the properties of this batch.
 Once you are happy with your changes, press the `Save` button in the bottom right. You can also use the `Cancel` button to reset your changes.
 
 You'll note that you can't edit `Pack Qty` or `Pack Size` from this view. You can do this via [Repacks](#repacking-stock) and [Adjustments](#adjusting-stock-level).
+
+`Hold checkbox`: To hold a stock line, check the Hold check-box. Once an stock line is held, it cannot be issued. It will still be included when calculating available stock, but held stock lines are unavailable for issue in both outbound shipments and prescriptions.
 
 #### Updating barcode
 
