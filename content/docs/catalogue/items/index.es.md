@@ -32,7 +32,7 @@ La lista de Artículos está dividida en 6 columnas:
 | **Código** | Código asignado a este artículo en mSupply                                                                                                                      |
 | **Nombre** | Este es el nombre por el cual mSupply se referirá al artículo                                                                                                   |
 | **Unidad** | La unidad de medida para el artículo                                                                                                                            |
-| **EED**    | Cuánto stock está disponible en tu tienda                                                                                                                       |
+| **EED**    | Cuánto stock está físicamente en tu tienda                                                                                                                      |
 | **CMM**    | Consumo Mensual Promedio. Esta es la cantidad de stock que tu tienda usa cada mes en promedio (basado en un número configurable de meses, por defecto 3 meses). |
 | **MDE**    | Número de meses de consumo restante con el stock actual. Esto se calcula como: `Stock en Depósito / CMM`.                                                       |
 
@@ -46,7 +46,7 @@ Para ver los detalles de un artículo, simplemente toca en uno. Se abre una nuev
 
 En la parte superior de la pantalla, puedes ver la siguiente información:
 
-- **Stock en Depósito**: Cuánto stock está actualmente disponible en tu tienda
+- **Stock en Depósito**: Cuánto stock está actualmente en tu tienda
 - **CMM**: Consumo Mensual Promedio. Esta es la cantidad de stock que tu tienda usa cada mes en promedio (basado en un número configurable de meses, por defecto 3 meses).
 - **Meses de Stock**: Número de meses de consumo restante con el stock actual. Esto se calcula como: `Stock en Depósito / CMM`.
 

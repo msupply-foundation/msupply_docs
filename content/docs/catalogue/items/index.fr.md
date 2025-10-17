@@ -32,7 +32,7 @@ La liste des articles est divisée en 6 colonnes :
 | **Code**  | Code assigné à cet article dans mSupply                                                                                                                           |
 | **Nom**   | C'est le nom par lequel mSupply fera référence à l'article                                                                                                        |
 | **Unité** | L'unité de mesure pour l'article                                                                                                                                  |
-| **SED**   | Combien de stock est disponible dans votre magasin                                                                                                                |
+| **SED**   | Combien de stock est physiquement dans votre magasin                                                                                                              |
 | **CMM**   | Consommation Mensuelle Moyenne. C'est combien de stock votre magasin utilise chaque mois en moyenne (basé sur un nombre configurable de mois, par défaut 3 mois). |
 | **MDS**   | Nombre de mois de consommation restant avec le stock actuel. Ceci est calculé comme : `Stock en Dépôt / CMM`.                                                     |
 
@@ -46,7 +46,7 @@ Pour voir les détails d'un article, appuyez simplement dessus. Une nouvelle fen
 
 En haut de l'écran, vous pouvez voir les informations suivantes :
 
-- **Stock en Dépôt** : Combien de stock est actuellement disponible dans votre magasin
+- **Stock en Dépôt** : Combien de stock est actuellement dans votre magasin
 - **CMM** : Consommation Mensuelle Moyenne. C'est combien de stock votre magasin utilise chaque mois en moyenne (basé sur un nombre configurable de mois, par défaut 3 mois).
 - **Mois de Stock** : Nombre de mois de consommation restant avec le stock actuel. Ceci est calculé comme : `Stock en Dépôt / CMM`.
 
