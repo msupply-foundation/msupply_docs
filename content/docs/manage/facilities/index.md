@@ -67,6 +67,7 @@ Toggle the preferences on or off as required, and close when you are finished.
 | **Manage VVM status for stock**                      | Enables a `VVM status` field on stock                                                                                                                                                                 |
 | **Sort available batches by VVM status then expiry** | Auto-allocation in Outbound Shipments and Prescriptions uses VVM status first, then FEFO                                                                                                              |
 | **Use simplified mobile UI**                         | On by default. Reduces number of fields and elements visible when using Open mSupply on a tablet. Requires the `Set pack to one for all visible items in this store` Legacy mSupply store preference. |
+| **Use procurement functionality**                    | Enable access to `Purchase Order` features                                                                                                                                                            |
 
 <div class='note'>
 Most store preferences are still managed through the Legacy mSupply central server (see the <a href="/docs/settings/configuration/#store-preferences">list of preferences</a>). Only new store preferences for Open mSupply are configured on Open mSupply central server for now. All store preferences will be migrated to Open mSupply in a future version.
