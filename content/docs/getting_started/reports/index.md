@@ -29,6 +29,10 @@ for more information about what these preferences are and how to set them up.
 
 You can view these preferences by clicking on the `More` button.
 
+<div class="tip">
+Some reports display the store logo in their header. See the <a href="https://docs.msupply.org.nz/other_stuff:virtual_stores#logo_tab">mSupply documentation</a> for how to add or update a store logo.
+</div>
+
 ![report preferences](images/report_preferences.gif)
 
 ## Generating reports
