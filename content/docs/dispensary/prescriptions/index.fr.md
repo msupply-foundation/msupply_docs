@@ -103,7 +103,7 @@ Vous ne pouvez supprimer que les Prescriptions avec un statut <code>NOUVEAU</cod
 
 3. Une nouvelle fenêtre s'ouvre, dans laquelle vous pouvez choisir un patient et d'autres détails pour la prescription
 
-![New Prescription Window](images/prescription_new_prescription_name.png)
+![Fenêtre Nouvelle Prescription](images/prescription_new_prescription_name.png)
 
 #### Choisir un Patient
 

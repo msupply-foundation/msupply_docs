@@ -39,6 +39,8 @@ The label printing functionality is in an experimental state currently. There is
 
 Enter the IP address and other details of the printer. To test your configuration, you can click the `Test` button. This will attempt to connect to the printer and fetch configuration details from it.
 
+<div class="note">The label width and height values are not currently used - you can ignore those fields for now.</div>
+
 If you are happy with the settings, click `Save` to save the details.
 
 ## Barcode Scanners
