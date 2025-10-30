@@ -90,10 +90,31 @@ English will be used by default in places where translations in the user's langu
 
 ## Standard Reports
 
-Version 2.3.0+ will include standard reports by default in all instances of Open mSupply:
+There are some standard reports included by default in all instances of Open mSupply, with more reports added regularly.
 
-- Invoice Landscape
-- Item Usage
-- Stock Detail
-- Stock Status
-- Expiring Items
+| Area          | Report             | Version | Details                                                                                |
+| ------------- | ------------------ | ------: | -------------------------------------------------------------------------------------- |
+| Distribution  | Outbound shipments | 2.10.1+ | Filterable by date and customer, this report lists all lines on outbound shipments     |
+| Stock & Items | Expiring Items     |  2.6.0+ | Many filter options for this one, the report lists stock which are expiring            |
+| Stock & Items | Item usage         |  2.6.3+ | Filter by item and report on detailed usage statistics                                 |
+| Stock & Items | Stock detail       |  2.6.3+ | Filter by item and view details of current stock                                       |
+| Stock & Items | Stock status       |  2.6.3+ | Filter by item and report on the status of current stock, similar to the detail report |
+| Programs      | Pending Encounters |  2.6.0+ | Report on pending encounters by program                                                |
+
+## Print templates
+
+In addition to reports, there are print templates provided for many items. These, like reports, can be customised for clients who have specific layout or data requirements in their printed pages.
+
+| Area              | Version | Details                    |
+| ----------------- | ------: | -------------------------- |
+| Inbound shipment  |    2.5+ |                            |
+| Internal order    |  2.6.3+ |                            |
+| Outbound shipment |    2.5+ | Landscape                  |
+| Outbound shipment |    2.5+ | Portrait                   |
+| Prescription      |  2.6.0+ | Prescription receipt       |
+| Repack            |  2.5.1+ |                            |
+| Requisition       |  2.5.1+ |                            |
+| Stocktake         |  2.6.3+ | Detail view                |
+| Stocktake         |  2.5.1+ | Stocktake variance         |
+| Stocktake         |  2.5.1+ | Stocktake with quantity    |
+| Stocktake         |  2.5.0+ | Stocktake without quantity |
