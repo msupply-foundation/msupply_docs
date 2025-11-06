@@ -53,19 +53,19 @@ When consulting the dashboards, make sure that the time range filter is set to a
 ## Health Facility Orders
 
 <a href="https://demo-board.msupply.org:3000/d/3LThcikVz/health-facility-orders?orgId=1" target="_blank">
-  <img src="images/Health_Facilities_orders_with_explanation.png">
+  <img src="images/health_facilities_orders_with_explanation.png">
 </a>
 
 ## Stock availability
 
 <a href="https://demo-board.msupply.org:3000/d/I0V-Q9S4k-2024/stock-availability?orgId=1" target="_blank">
-  <img src="images/Stock_availability_db_with_explanation.png">
+  <img src="images/stock_availability_db_with_explanation.png">
 </a>
 
 ## Stock value & Finance
 
 <a href="https://demo-board.msupply.org:3000/d/WsTaa_UJK/stock-value-and-finance?orgId=1" target="_blank">
-  <img src="images/stock_value_Finance_with_explanation.png">
+  <img src="images/stock_value_finance_with_explanation.png">
 </a>
 
 ## Warehouse orders processing
