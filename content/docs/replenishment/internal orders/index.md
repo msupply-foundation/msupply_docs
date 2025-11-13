@@ -4,7 +4,7 @@ description = "Requesting stock from your suppliers."
 date = 2022-03-19
 updated = 2022-03-19
 draft = false
-weight = 42
+weight = 40
 sort_by = "weight"
 template = "docs/page.html"
 
