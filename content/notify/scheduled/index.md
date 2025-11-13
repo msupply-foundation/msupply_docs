@@ -101,7 +101,7 @@ In this example, we have a query with a `reference_name` : `out_of_stock_items` 
 
 The data from each sql query is accessed using it's reference name, so in this case, we would access the data using `out_of_stock_items`.
 
-If you only want your notification to be generated if a query returns data (e.g. more than 1 row) use the `required` check box.
+If you only want your notification to be generated when a query returns data (e.g. more than 1 row) use the `required` check box.
 This allows you to create conditional reports. For example you may only want to generate an out of stock notification if you have any out of stock items.
 
 ![Out of stock items required](images/image-12.png)
