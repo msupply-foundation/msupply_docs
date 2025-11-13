@@ -101,6 +101,11 @@ In this example, we have a query with a `reference_name` : `out_of_stock_items` 
 
 The data from each sql query is accessed using it's reference name, so in this case, we would access the data using `out_of_stock_items`.
 
+If you only want your notification to be generated when a query returns data (e.g. more than 1 row) use the `required` check box.
+This allows you to create conditional reports. For example you may only want to generate an out of stock notification if you have any out of stock items.
+
+![Out of stock items required](images/image-12.png)
+
 ## Parameters
 
 If the queries you've selected have parameters, you'll need to configure them before the notification will work.
@@ -141,4 +146,5 @@ Here are the items that are out of stock at {{ store_name }}:
 - You can use a special variable `{{__tera_context}}` to view all the data that is available in your template which can be useful for debugging.
 - If your sql queries fail to run, this can cause the whole notification to fail, check the `Notification Events` page to see if there are any errors.
 - Telegram is really picky with what kinds of data it will accept, if you're having trouble sending a telegram message, there's some more information about the format of the data [here](https://core.telegram.org/bots/api#markdownv2-style).
-- It's definitely possible to do maths in your template if desired, see the tera docs for more information [https://keats.github.io/tera/docs/#math](https://keats.github.io/tera/docs/#math)
+- It's possible to do maths in your template if desired, see the tera docs for more information [https://keats.github.io/tera/docs/#math](https://keats.github.io/tera/docs/#math)
+- If you want your notification to run conditionally, you can write a specific query that will only return rows when conditions are met, and mark this query as `required`
