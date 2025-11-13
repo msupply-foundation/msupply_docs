@@ -32,7 +32,7 @@ The Items list is divided into 6 columns:
 | **Code** | Code assigned to this item in mSupply                                                                                                                       |
 | **Name** | This is the name by which mSupply will refer to the item                                                                                                    |
 | **Unit** | The unit of measure for the item                                                                                                                            |
-| **SOH**  | How much stock is available in your store                                                                                                                   |
+| **SOH**  | How much stock is physically in your store                                                                                                                  |
 | **AMC**  | Average Monthly Consumption. This is how much stock your store uses each month on average (based on a configurable number of months, defaults to 3 months). |
 | **MOS**  | Number of months of consumption left with current stock. This is calculated as: `Stock on Hand / AMC`.                                                      |
 
@@ -46,7 +46,7 @@ To view the details of an item, simply tap on one. A new window opens:
 
 On top of the screen, you can the following information:
 
-- **Stock on Hand**: How much stock is currently available in your store
+- **Stock on Hand**: How much stock is currently in your store
 - **AMC**: Average Monthly Consumption. This is how much stock your store uses each month on average (based on a configurable number of months, defaults to 3 months).
 - **Months of Stock**: Number of months of consumption left with current stock. This is calculated as: `Stock on Hand / AMC`.
 

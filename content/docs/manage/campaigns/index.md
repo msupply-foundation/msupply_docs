@@ -48,4 +48,4 @@ From this screen, click
 
 ## Assigning a campaign
 
-You can assign a campaign to a stock line in the [View stock](/docs/inventory/stock-view#creating-a-new-stock-line) page.
+You can assign a campaign to a stock line in the [Stock](/docs/inventory/stock-view#creating-a-new-stock-line) page.

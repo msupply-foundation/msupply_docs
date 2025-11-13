@@ -71,10 +71,17 @@ Let's start a new stocktake. To do so, tap on the `New Stocktake` button in the 
 
 A "New Stocktake" modal appears.
 
-- Selecting no options will include all stock lines with remaining stock in the system. You may filter the stock lines with remaining stock in the system by master list, location or their expiry date
-- Selecting "Create blank stocktake" will create a stocktake with no lines. You will still be able to manually add individual items in the created stocktake.
+Selecting no options will include all stock lines with remaining stock in the system. Alternatively, select the radio button for 'All items' which will include items regardless of stock being recorded in the system.
 
 ![Stocktake: New modal](images/stocktake_newmodal.png)
+
+Selecting the "Create filtered stocktake" will show the inputs allowing you to filter the stock lines by master list, location or their expiry date
+
+![Stocktake: new filtered](images/stocktake_new_filtered_stocktake.png)
+
+Selecting "Create blank stocktake" will create a stocktake with no lines. You will still be able to manually add individual items in the created stocktake.
+
+![Stocktake: new blank](images/stocktake_new_blank_stocktake.png)
 
 <div class="note">
 If the <a href="/docs/manage/facilities/#store-preferences">Manage VVM status for stock</a> store preference is enabled, a VVM status filter will also be available.

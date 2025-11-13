@@ -32,7 +32,7 @@ A lista de Itens é dividida em 6 colunas:
 | **Código**  | Código atribuído a este item no mSupply                                                                                                                    |
 | **Nome**    | Este é o nome pelo qual o mSupply se referirá ao item                                                                                                      |
 | **Unidade** | A unidade de medida para o item                                                                                                                            |
-| **EED**     | Quanto estoque está disponível em sua loja                                                                                                                 |
+| **EED**     | Quanto estoque está fisicamente em sua loja                                                                                                                |
 | **CMM**     | Consumo Médio Mensal. Esta é a quantidade de estoque que sua loja usa a cada mês em média (baseado em um número configurável de meses, padrão de 3 meses). |
 | **MDE**     | Número de meses de consumo restante com o estoque atual. Isto é calculado como: `Estoque em Depósito / CMM`.                                               |
 
@@ -46,7 +46,7 @@ Para ver os detalhes de um item, simplesmente toque nele. Uma nova janela se abr
 
 No topo da tela, você pode ver as seguintes informações:
 
-- **Estoque em Depósito**: Quanto estoque está atualmente disponível em sua loja
+- **Estoque em Depósito**: Quanto estoque está atualmente em sua loja
 - **CMM**: Consumo Médio Mensal. Esta é a quantidade de estoque que sua loja usa a cada mês em média (baseado em um número configurável de meses, padrão de 3 meses).
 - **Meses de Estoque**: Número de meses de consumo restante com o estoque atual. Isto é calculado como: `Estoque em Depósito / CMM`.
 

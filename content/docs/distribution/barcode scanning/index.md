@@ -28,7 +28,6 @@ On the Open mSupply app setting, ensure that Open mSupply has the permission to 
 
 ![Give openmSupply the permission for the camera](images/App_camera_Permission_controller.jpg)
 
-
 The scanners support 1D and 2D barcodes, and can parse the information from a GS1 barcode in order to read the GTIN-14 code, batch number and expiry date.
 As an example, barcodes could look like this:
 
@@ -36,19 +35,19 @@ As an example, barcodes could look like this:
 ![GS1 QR barcode](images/GS1-QR.png)
 
 ### Introducing barcode to stock
-You may find that sometimes the stock that you have lacks the barcode when a suitable GTIN-14 code already exists. If this is the case then you can view the stock and either via the android tablet (inbuilt camaera) or via the windows exe (scanner hardware), you can then assign the missing barcode. 
 
-on OpenmSupply : 
-* Navigate and expand the Inventory section
-* Click on `View Stock`
-* View a stock in detail
-* Click the `[-]` button
-* Either using the android camaera or the scanner, scan the barcode
-* See that the `Barcode` field now has the code.
+You may find that sometimes the stock that you have lacks the barcode when a suitable GTIN-14 code already exists. If this is the case then you can view the stock and either via the android tablet (inbuilt camera) or via the windows exe (scanner hardware), you can then assign the missing barcode.
 
+on OpenmSupply :
 
-![Introdicing barcode to stock](images/view_stock_adding_barcode.jpg)
+- Navigate and expand the Inventory section
+- Click on `Stock`
+- View a stock in detail
+- Click the `[-]` button
+- Either using the android camera or the scanner, scan the barcode
+- See that the `Barcode` field now has the code.
 
+![Introducing barcode to stock](images/view_stock_adding_barcode.jpg)
 
 ### Issuing stock out using the barcode
 
