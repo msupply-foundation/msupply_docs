@@ -40,11 +40,15 @@ You can see some statistics for shipments and stock:
   - Expiring Stock
     - **Expired batches**: The number of stock lines in the current store which have expired
     - **Batches expiring in a month**: The number of stock lines in the current store which will expire within the month
+    - **Batches expiring between First and Second threshold**: The number of stock lines in the current store set to expire between the First and Second threshold values. These thresholds are [**store preference**](/docs/manage/facilities/#available-preferences) and must be configured for this statistic to appear.
+    - **Batches expiring between 30 and 90 days**: The number of stock lines in the current store expiring within the next quarter (between 30 and 90 days). Requires the [**threshold preference**](/docs/manage/facilities/#available-preferences) to be set for this statistic to display on the dashboard.
   - Stock levels
     - **Total items**: A count of the number of items in this store
     - **Items with no stock**: The item is visible in this store, but have no stock recorded
     - **Items with less than 3 months of stock**: Which is based on the average monthly consumption (AMC) for this item in the current store
     - **Items with more than 6 months of stock**: As above, based on AMC for the item in the current store
+    - **Out of stock products**: Uses the [**number of months to check for consumption preference**](/docs/manage/facilities/#available-preferences) to determine if a product has been out of stock for the specified period.
+    - **Products at risk of being out of stock**: Uses the [**number of months to check consumption preference**](/docs/manage/facilities/#available-preferences) to identify products that are at risk of running out within the specified period.
 
 There are buttons towards the bottom of the page as well which allow you to create shipments and requisitions.
 
