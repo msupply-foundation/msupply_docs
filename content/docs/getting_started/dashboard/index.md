@@ -37,18 +37,31 @@ You can see some statistics for shipments and stock:
   - Requisitions
     - **New**: The number of new Requisitions
 - Inventory Management
+
   - Expiring Stock
+
     - **Expired batches**: The number of stock lines in the current store which have expired
     - **Batches expiring in a month**: The number of stock lines in the current store which will expire within the month
-    - **Batches expiring between First and Second threshold**: The number of stock lines in the current store set to expire between the First and Second threshold values. These thresholds are [**store preference**](/docs/manage/facilities/#available-preferences) and must be configured for this statistic to appear.
-    - **Batches expiring between 30 and 90 days**: The number of stock lines in the current store expiring within the next quarter (between 30 and 90 days). Requires the [**threshold preference**](/docs/manage/facilities/#available-preferences) to be set for this statistic to display on the dashboard.
+    - **Batches expiring between First and Second threshold**:
+      - Shows the number of stock lines in the current store that will expire between the First and Second threshold days from today.
+      - Thresholds are set as [store preferences](/docs/manage/facilities/#available-preferences).
+      - **Calculation:** Count Stocks where: `Expiry Date >= Today + First threshold` **and** `Expiry Date <= Today + Second threshold`
+    - **Batches expiring between 30 and 90 days**:
+      - The number of stock lines in the current store with expiry dates between 30 and 90 days from today (inclusive). Requires the [threshold preference](/docs/manage/facilities/#available-preferences) to be set for this statistic to display.
+      - **Calculation:** Count Stocks where: `Expiry Date >= Today + 30 days` **and** `Expiry Date <= Today + 90 days`
+
   - Stock levels
     - **Total items**: A count of the number of items in this store
     - **Items with no stock**: The item is visible in this store, but have no stock recorded
     - **Items with less than 3 months of stock**: Which is based on the average monthly consumption (AMC) for this item in the current store
     - **Items with more than 6 months of stock**: As above, based on AMC for the item in the current store
-    - **Out of stock products**: Uses the [**number of months to check for consumption preference**](/docs/manage/facilities/#available-preferences) to determine if a product has been out of stock for the specified period.
-    - **Products at risk of being out of stock**: Uses the [**number of months to check consumption preference**](/docs/manage/facilities/#available-preferences) to identify products that are at risk of running out within the specified period.
+    - **Out of stock products**:
+      - Uses the [**number of months to check for consumption preference**](/docs/manage/facilities/#available-preferences) to define the period for calculating item statistics.
+      - **Calculation:** Product is counted if `Stock on Hand = 0` and `Total Consumption > 0` during the selected period.
+    - **Products at risk of being out of stock**:
+      - Uses the [**number of months to check consumption preference**](/docs/manage/facilities/#available-preferences) to identify products at risk of running out within the specified period.
+      - **Calculation:** Product is counted if `(Stock on Hand / Average Monthly Consumption) < Number of months consumption preference`.
+      - **Stock on Hand** and **Average Monthly Consumption (AMC)** are taken from the product's item statistics for the selected period.
 
 There are buttons towards the bottom of the page as well which allow you to create shipments and requisitions.
 
