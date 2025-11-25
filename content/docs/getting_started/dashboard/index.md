@@ -56,10 +56,10 @@ You can see some statistics for shipments and stock:
     - **Items with less than 3 months of stock**: Which is based on the average monthly consumption (AMC) for this item in the current store
     - **Items with more than 6 months of stock**: As above, based on AMC for the item in the current store
     - **Out of stock products**:
-      - Uses the [**number of months to check for consumption preference**](/docs/manage/facilities/#available-preferences) to define the period for calculating item statistics.
+      - Uses the [number of months to check for consumption preference](/docs/manage/facilities/#available-preferences) to define the period for calculating item statistics.
       - **Calculation:** Product is counted if `Stock on Hand = 0` and `Total Consumption > 0` during the selected period.
     - **Products at risk of being out of stock**:
-      - Uses the [**number of months to check consumption preference**](/docs/manage/facilities/#available-preferences) to identify products at risk of running out within the specified period.
+      - Uses the [number of months to check consumption preference](/docs/manage/facilities/#available-preferences) to identify products at risk of running out within the specified period.
       - **Calculation:** Product is counted if `(Stock on Hand / Average Monthly Consumption) < Number of months consumption preference`.
       - **Stock on Hand** and **Average Monthly Consumption (AMC)** are taken from the product's item statistics for the selected period.
 
