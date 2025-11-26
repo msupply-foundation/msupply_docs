@@ -61,12 +61,16 @@ Toggle the preferences on or off as required, and close when you are finished.
 
 ### Available Preferences
 
-| Preference Name                                      | Description                                                                                                                                                                                           |
-| :--------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Manage vaccines in doses**                         | View stock levels and transactions for vaccine items in doses, rather than units or packs                                                                                                             |
-| **Manage VVM status for stock**                      | Enables a `VVM status` field on stock                                                                                                                                                                 |
-| **Sort available batches by VVM status then expiry** | Auto-allocation in Outbound Shipments and Prescriptions uses VVM status first, then FEFO                                                                                                              |
-| **Use simplified mobile UI**                         | On by default. Reduces number of fields and elements visible when using Open mSupply on a tablet. Requires the `Set pack to one for all visible items in this store` Legacy mSupply store preference. |
+| Preference Name                                                                       | Description                                                                                                                             |
+| :------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------- |
+| **Manage vaccines in doses**                                                          | View stock levels and transactions for vaccine items in doses, rather than units or packs                                               |
+| **Manage VVM status for stock**                                                       | Enables a `VVM status` field on stock                                                                                                   |
+| **Sort available batches by VVM status then expiry**                                  | Auto-allocation in Outbound Shipments and Prescriptions uses VVM status first, then FEFO                                                |
+| **Use simplified mobile UI**                                                          | Reduces number of fields and elements for tablets. Requires legacy store preference.                                                    |
+| **Number of months to check for consumption when calculating out of stock products**  | Number of past months to check for item usage. If no stock in this period, item is flagged as at risk or out of stock in the Dashboard. |
+| <span style="color:#e05535;font-weight:bold;">Batches expiring in between days</span> |                                                                                                                                         |
+| **First threshold for expiring items (days)**                                         | Days before expiry to start flagging as "expiring soon." Max 30 days. Used in Expiring Stock widget.                                    |
+| **Second threshold for expiring items (days)**                                        | Days before expiry to stop flagging as "expiring soon." Max 30 days. Used in Expiring Stock widget.                                     |
 
 <div class='note'>
 Most store preferences are still managed through the Legacy mSupply central server (see the <a href="/docs/settings/configuration/#store-preferences">list of preferences</a>). Only new store preferences for Open mSupply are configured on Open mSupply central server for now. All store preferences will be migrated to Open mSupply in a future version.
