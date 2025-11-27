@@ -278,6 +278,10 @@ h5 {
   margin-top: 0.25rem;
 }
 
+body.dark h5 {
+  color: #fcb67e;
+}
+
 code {
   background-color: #fafafa;
   color: #e05535;
@@ -394,6 +398,9 @@ p.search_snippet {
   color: #555;
 }
 
+body.dark p.search_snippet {
+  color: #dadada;
+}
 #search-results > li {
   
   list-style-type: none;
