@@ -43,14 +43,22 @@ The `Average Monthly Consumption` preferences allow you to customise the item co
 
 ![amc preferences](images/amc_preferences.png)
 
-The base calculation is: **Consumption / Lookback months \* Days out of stock adjustment**
+The base calculation is: **(Consumption / Lookback months) \* Lookback days / (Lookback days - Days out of stock)**
 
 You can adjust how the calculation works using the following preferences:
 
-**Adjust for number of days out of stock** Exclude days where the item was out of stock from the AMC calculation. If the item had a maximum level of 0 in stock for the full day, this is counted as one day out of stock.  
-**Days in a month** The number of days per month used in the AMC calculation. If no value is provided, the default is used (average days per month = 30.4375).
+| Preference Name                             | Description                                                                                                                                                        |
+| :------------------------------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Adjust for number of days out of stock:** | Exclude days where the item was out of stock from the AMC calculation. If the day ended with a balance of 0 for the item, this is counted as one day out of stock. |
+| **Days in a month:**                        | The number of days per month used in the AMC calculation. If no value is provided, the default is used (average days per month = 30.4375).                         |
 
-[Lookback months](https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab) are also configurable per store in mSupply with the `Monthly consumption look back period` preference. The default setting is 3 months.
+[Lookback months](https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab) are configurable per store in mSupply with the `Monthly consumption look back period` preference. The default setting is 3 months.
+
+Lookback days are calculated as `Days in a month * Lookback months`.
+
+<div class="note">
+ If you are using any plugins that exclude transfers from the AMC calculation, then your calculation will be (consumption - transfers).
+</div>
 
 ### Custom translations
 
