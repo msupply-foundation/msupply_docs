@@ -101,6 +101,8 @@ The Store tab shows any configurations for this item that are specific to your c
 
 ![Item detail store tab](images-en/item_store_properties.png)
 
+- **Default sell price**: This is the default sell price to be set on a new stock when it comes into your store. This takes priority over the `Default margin` if both are set.
+
 ### Master Lists
 
 This tab lists the Master Lists associated with this item.

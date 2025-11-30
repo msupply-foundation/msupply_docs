@@ -37,6 +37,29 @@ You will be presented with the set of currently available Global Preferences:
 | **Prevent transfers from this many months before initialisation** | When migrating older mSupply Desktop & mobile sites to Open mSupply this preference can prevent the generation of hundreds of locked inbound shipments. Open mSupply will not create `Picked` status inbound shipments corresponding to outbound shipments from supplier's stores that were picked this many months before the date the site was initialised. Similarly, it will not make customer requisitions for internal orders finalised this many months before initialisation. |
 | **Authorise goods received**                                      | Whether the goods receiving process includes an authorisation step                                                                                                                                                                                                                                                                                                                                                                                                                    |
 
+### Average Monthly Consumption (AMC)
+
+The `Average Monthly Consumption` preferences allow you to customise the item consumption calculation for your stores.
+
+![amc preferences](images/amc_preferences.png)
+
+The base calculation is: **(Consumption / Lookback months) \* Lookback days / (Lookback days - Days out of stock)**
+
+You can adjust how the calculation works using the following preferences:
+
+| Preference Name                             | Description                                                                                                                                                        |
+| :------------------------------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Adjust for number of days out of stock:** | Exclude days where the item was out of stock from the AMC calculation. If the day ended with a balance of 0 for the item, this is counted as one day out of stock. |
+| **Days in a month:**                        | The number of days per month used in the AMC calculation. If no value is provided, the default is used (average days per month = 30.4375).                         |
+
+[Lookback months](https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab) are configurable per store in mSupply with the `Monthly consumption look back period` preference. The default setting is 3 months.
+
+Lookback days are calculated as `Days in a month * Lookback months`.
+
+<div class="note">
+ If you are using any plugins that exclude transfers from the AMC calculation, then your calculation will be (consumption - transfers).
+</div>
+
 ### Custom translations
 
 The `Custom translations` preference allows you to override specific terms used in the application. This is useful for localisation (or even localization!) or to adapt terminology to your specific context.
