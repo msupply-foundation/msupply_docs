@@ -27,7 +27,9 @@ If you are on the Open mSupply Central Server, you will see this list of setting
 
 Click on the `Configuration` section to begin.
 
-## GAPS Store Properties
+## Store Configuration
+
+#### Initialise Gaps Module
 
 To operate fully, the [GAPS module](/docs/coldchain/gaps) requires a number of configuration changes and data records to be added to the system. In order to make this process easier, all of the required general configuration steps have been automated for you.
 
@@ -50,6 +52,28 @@ You will see a number of property inputs in this window. If you don't, there may
 <div class='note'>
 GAPS configuration is a one way process that cannot be undone! Please be sure you wish to use the GAPS module before initialising.
 </div>
+
+#### Supply Level Property
+
+These properties define each store’s role in the supply chain (e.g. central, regional, facility, etc...). Set during configuration, they help categorise stores for inventory and distribution.
+
+To configure supply levels, click the edit button:
+
+![Supply Level: Edit button](images/supply_level.png)
+
+This opens a window where you can manage supply levels. If a supply level is already assigned to a store, you’ll see a notice and the delete button will be disabled.
+
+![Supply Level: Modal](images/supply_level_configuration.png)
+
+To assign a supply level to a store, click the edit button in the app footer:
+
+![Store properties edit](images/store_properties_edit_footer.png)
+
+Then, select the appropriate supply level from the dropdown:
+
+![Supply Level: Store Properties](images/supply_level_store_properties.png)
+
+Click the Ok button to save your changes.
 
 ## Store preferences
 
