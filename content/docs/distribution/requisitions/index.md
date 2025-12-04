@@ -263,13 +263,13 @@ The key difference when entering a manual requisition on behalf of a customer is
 1. If your store has the [Can create Internal Order from a
    Requisition](/docs/manage/facilities/#available-preferences) preference enabled,
    you can create an Internal Order directly from a Requisition by clicking on the
-   `Create Order` button at the top right of the Requisition list view.
+   `Create Order` button at the top right of the Requisition list view
 
 ![alt text](images/create_order_button.png)
 
-2. You will be prompted to select a supplier to send the Internal Order to.
+2. You will be prompted to select a supplier to send the Internal Order to
 3. Once selected, a list of unfulfilled requisitions (i.e. where supply does not
-   equal to requested) will be displayed for you to choose from.
+   equal to requested) will be displayed for you to choose from
 
 ![Select requisition to create from](images/select-requisition-for-internal-order-gen.png)
 

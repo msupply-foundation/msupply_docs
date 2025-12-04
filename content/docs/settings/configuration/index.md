@@ -55,7 +55,8 @@ GAPS configuration is a one way process that cannot be undone! Please be sure yo
 
 #### Supply Level Property
 
-These properties define each store’s role in the supply chain (e.g. central, regional, facility, etc...). Set during configuration, they help categorise stores for inventory and distribution.
+The supply level property can be assigned to a store to identify that store's position within the supply chain hierarchy (e.g. central, regional, facility, etc...).
+On this page you are able to define the number and name of the levels which are available.
 
 To configure supply levels, click the edit button:
 
@@ -65,15 +66,19 @@ This opens a window where you can manage supply levels. If a supply level is alr
 
 ![Supply Level: Modal](images/supply_level_configuration.png)
 
-To assign a supply level to a store, click the edit button in the app footer:
+To assign a supply level to a store either:
 
-![Store properties edit](images/store_properties_edit_footer.png)
+- Navigate to <a href="/docs/manage/facilities/">Manage > Stores</a> and edit a store
+- If on the central server, click the edit button in the app footer
 
 Then, select the appropriate supply level from the dropdown:
 
 ![Supply Level: Store Properties](images/supply_level_store_properties.png)
 
 Click the Ok button to save your changes.
+If you do not have the Supply level property available, editing the properties (step 1 above) will create the required property. Remember to sync your remote site after editing!
+
+<div class="tip">If you are using the Congo plugin then the selected supply level will be synchronised with the store's category 5 property</div>
 
 ## Store preferences
 
