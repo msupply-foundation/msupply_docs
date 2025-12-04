@@ -257,3 +257,25 @@ Similar to normal requisitions from customers, you can add items to the requisit
 ![alt text](images/manual-requisition-line-edit.png)
 
 The key difference when entering a manual requisition on behalf of a customer is that you must enter the "Requested" and "Their SOH" (Stock On Hand) fields for them. Typically, users of this feature have received a paper requisition form from the customer, which includes this information, either based on the customer’s own stock records or a quick stock take they performed to provide an accurate SOH value.
+
+### Creating an Internal Order from a Requisition
+
+1. If your store has the [Can create Internal Order from a
+   Requisition](/docs/manage/facilities/#available-preferences) preference enabled,
+   you can create an Internal Order directly from a Requisition by clicking on the
+   `Create Order` button at the top right of the Requisition list view
+
+![alt text](images/create_order_button.png)
+
+2. You will be prompted to select a supplier to send the Internal Order to
+3. Once selected, a list of unfulfilled requisitions (i.e. where supply does not
+   equal to requested) will be displayed for you to choose from
+
+![Select requisition to create from](images/select-requisition-for-internal-order-gen.png)
+
+4. Once you have selected a requisition, you will be redirected to the Internal
+   Order page. The lines in the order will be pre-filled with the items from the
+   requisition, with the quantities set to the `requested - supply` amount.
+5. Here you can select the destination store for the Internal Order if your store has the
+   [Select destination store for an Internal Order](/docs/manage/facilities/#available-preferences)
+   preference enabled. This will default the customer of the supplier's Outbound Shipment to the selected destination store.

@@ -375,6 +375,18 @@ In the below example, the first line's cost price is $0.01 per unit and the sell
 
 <div class="tip">The <code>Received pack size</code> and <code>Pack sell price</code> will default to the values specified as <a href="https://docs.msupply.org.nz/items:item_basics:tab_storage?s%5B%5D=preferred&s%5B%5D=pack&s%5B%5D=size#preferred_pack_size">Preferred pack size</a> and <a href="https://docs.msupply.org.nz/items:item_basics:tab_general#default_sell_price_of_preferred_pack_size">Default sell price of preferred pack size</a> if these have been specified for the current item.</div>
 
+#### Pricing on Transferred Shipments
+
+When an Inbound shipment is transferred (as the result of an Outbound shipment from another store) the pricing for the incoming stock may already be calculated. There are several ways this pricing can be configured.
+
+The following logic is used to determine the sell price on inbound transfer invoices:
+
+- If a `default sell price per pack` is set for the item in the receiving store, this price is always used. If the pack size of the inbound invoice line differs from the pack size of the default sell price, the price is adjusted accordingly.
+- If instead the item has a `default margin` set, this margin is added to the cost price (the outbound invoice sell price)
+- If neither a default sell price nor a default margin is set, the inbound invoice line sell price is will be the same as the outbound invoice line sell price
+
+These calculated prices are editable when receiving the inbound shipment, up until it is verified.
+
 ### Other tab
 
 In the third tab, `Other`, you can select the following:
