@@ -102,6 +102,12 @@ If this is the case, the reason input will be enabled as below:
 
 Item variants include packaging information - if your new stock line has a matching pack size, the `Volume per pack` field will be automatically populated.
 
+### Volume per pack
+
+Specify the volume of a single pack in cubic metres. This is used to calculate the available storage space when stock is stored in a location. Note that you will need to also record the volume of the location in order to see the [remaining capacity](/docs/inventory/locations/#assigning-locations-to-stock) of the location.
+
+The `Total volume` field below shows you the calculated value of the volume used by this stock line, which is the volume per pack \* the number of packs (`Pack Qty`),
+
 ### Donor
 
 If the [Allow tracking of stock by donor](/docs/manage/global-preferences/) global preference is enabled then you can allocate a donor to this stock line.
