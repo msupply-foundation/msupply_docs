@@ -37,11 +37,23 @@ The label printing functionality is in an experimental state currently. There is
 
 ![Label Printing](images/devices_label_printing.png)
 
+#### Printing via Network
+
 Enter the IP address and other details of the printer. To test your configuration, you can click the `Test` button. This will attempt to connect to the printer and fetch configuration details from it.
 
 <div class="note">The label width and height values are not currently used - you can ignore those fields for now.</div>
 
 If you are happy with the settings, click `Save` to save the details.
+
+#### Printing via USB
+
+To print via USB, install Zebra Browser Print. Visit [Zebra's Browser Print page](https://www.zebra.com/us/en/support-downloads/software/printer-software/browser-print.html) and downlaod the version for your operating system (Windows or Mac). USB printing is not supported on Android.
+
+Once installed, visit [Zebra's documentation page](https://www.zebra.com/us/en/support-downloads/software/printer-software/browser-print.html) and follow the set up guide.
+
+Return to the settings page and turn on the Print via USB switch to enable USB printing.
+
+<div class="note">When enabled, USB printing will be used instead of network printing.</div>
 
 ## Barcode Scanners
 
