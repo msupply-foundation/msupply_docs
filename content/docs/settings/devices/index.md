@@ -47,7 +47,7 @@ If you are happy with the settings, click `Save` to save the details.
 
 #### Printing via USB
 
-To print via USB, install Zebra Browser Print. Visit [Zebra's Browser Print page](https://www.zebra.com/us/en/support-downloads/software/printer-software/browser-print.html) and downlaod the version for your operating system (Windows or Mac). USB printing is not supported on Android.
+To print via USB, install Zebra Browser Print. Visit [Zebra's Browser Print page](https://www.zebra.com/us/en/support-downloads/software/printer-software/browser-print.html) and download the version for your operating system (Windows or Mac). USB printing is not supported on Android.
 
 Once installed, visit [Zebra's documentation page](https://www.zebra.com/us/en/support-downloads/software/printer-software/browser-print.html) and follow the set up guide.
 
