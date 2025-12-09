@@ -48,11 +48,10 @@ The base calculation is: **(Consumption / Lookback months) \* Lookback days / (L
 
 You can adjust how the calculation works using the following preferences:
 
-| Preference Name                             | Description                                                                                                                                                                                                                                                                       |
-| :------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Adjust for number of days out of stock:** | Exclude days within the lookback period where the item was out of stock for the full day (the item had a balance of zero at the end of the day and the end of the previous day). The lookback days is adjusted to exclude the number days out for stock if this preference is on. |
-| **Days in a month:**                        | The number of days per month used in the AMC calculation. If no value is provided, the default is used (average days per month = 30.4375).                                                                                                                                        |
-|                                             |
+| Preference Name                             | Description                                                                                                                                                        |
+| :------------------------------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Adjust for number of days out of stock:** | Exclude days where the item was out of stock from the AMC calculation. If the day ended with a balance of 0 for the item, this is counted as one day out of stock. |
+| **Days in a month:**                        | The number of days per month used in the AMC calculation. If no value is provided, the default is used (average days per month = 30.4375).                         |
 
 [Lookback months](https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab) are configurable per store in mSupply with the `Monthly consumption look back period` preference. The default setting is 3 months.
 
