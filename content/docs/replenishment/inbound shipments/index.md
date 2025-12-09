@@ -377,13 +377,20 @@ In the below example, the first line's cost price is $0.01 per unit and the sell
 
 #### Pricing on Transferred Shipments
 
-When an Inbound shipment is transferred (as the result of an Outbound shipment from another store) the pricing for the incoming stock may already be calculated. There are several ways this pricing can be configured.
+When an Inbound shipment is transferred (the result of an Outbound shipment from another store) the pricing for the incoming stock may already be calculated. There are several ways this pricing can be configured.
 
 The following logic is used to determine the sell price on inbound transfer invoices:
 
-- If a `default sell price per pack` is set for the item in the receiving store, this price is always used. If the pack size of the inbound invoice line differs from the pack size of the default sell price, the price is adjusted accordingly.
-- If instead the item has a `default margin` set, this margin is added to the cost price (the outbound invoice sell price)
-- If neither a default sell price nor a default margin is set, the inbound invoice line sell price is will be the same as the outbound invoice line sell price
+1. If a `default sell price per pack` is set for the item in the receiving store, this price is always used. If the pack size of the inbound invoice line differs from the pack size of the default sell price, the price is adjusted accordingly.
+
+2. If the item has a `margin` set instead, this margin is added to the cost price (the outbound invoice sell price). This margin could be either:
+
+- A margin for the item (configured in the item settings for the receiving store in mSupply)
+- A margin for items received from the supplier (set on the supplier's store in mSupply)
+
+  Which of these margins has priority is determined by the [Global preference](/docs/manage/global-preferences/) `Item margin overrides supplier margin`. If this preference is enabled, the item margin is used, otherwise the supplier margin is used. If only one of these margins is set, it is used regardless of the global preference setting.
+
+3. If neither a default sell price nor a margin is set, the inbound invoice line sell price will be the same as the outbound invoice line sell price.
 
 These calculated prices are editable when receiving the inbound shipment, up until it is verified.
 
