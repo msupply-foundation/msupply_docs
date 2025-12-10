@@ -33,15 +33,25 @@ Click on the `Devices` section to begin.
 
 <div class="note">Label printing support is very limited at this time! Label printers are used only for printing QR codes to identify cold chain equipment and <a href="/docs/dispensary/prescriptions/#printing-labels">basic prescription labels</a>.</div>
 
-The label printing functionality is in an experimental state currently. There is limited support for label printers in that you can configure only a single, network-enabled, label printer which supports the ZPL printer language.
+The label printing functionality is in an experimental state currently. There is limited support for label printers using the ZPL printer language.
 
 ![Label Printing](images/devices_label_printing.png)
 
-Enter the IP address and other details of the printer. To test your configuration, you can click the `Test` button. This will attempt to connect to the printer and fetch configuration details from it.
+#### Printing via Network
+
+Enter the IP address and other details of the printer. Click `Save` to save the details. Once saved, you can click the `Test` button to attempt to connect to the printer and fetch its configuration.
 
 <div class="note">The label width and height values are not currently used - you can ignore those fields for now.</div>
 
-If you are happy with the settings, click `Save` to save the details.
+#### Printing via USB
+
+To print via USB, install Zebra Browser Print. Visit [Zebra's Browser Print page](https://www.zebra.com/us/en/support-downloads/software/printer-software/browser-print.html) and download the version for your operating system (Windows or Mac). USB printing is not supported on Android.
+
+Once installed, visit [Zebra's documentation page](https://www.zebra.com/us/en/support-downloads/software/printer-software/browser-print.html) and follow the set up guide.
+
+Return to the settings page and turn on the Print via USB switch to enable USB printing.
+
+<div class="note">When enabled, USB printing will be used instead of network printing.</div>
 
 ## Barcode Scanners
 
