@@ -56,6 +56,20 @@ The list of Stock can be exported to a comma separated file (csv). Simply click 
 
 The export function will download all stock lines, not just the current page, if you have more than 20 of them.
 
+### Non standard items
+
+What happens if a supplier sends you stock of an item which is not currently visible in your store?
+
+In this case the following happens:
+
+- The stock line for this item appears in your store and is visible in the Stock list
+- The item now shows in your item list
+- You are able to issue that stock in an outbound shipment or prescription
+
+Note that the item will only show while you have stock on hand for it, so if you issue all of the stock it will no longer appear in your item list.
+
+You also cannot order more of this item - it cannot be added the item to a manual inbound shipment or an internal order.
+
 ## Creating a new stock line
 
 <div class="note">
