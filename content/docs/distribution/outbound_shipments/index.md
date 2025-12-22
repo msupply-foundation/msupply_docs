@@ -53,6 +53,10 @@ From this screen you can:
 | **Comment**   | Comment for the shipment         |
 | **Total**     | Total value of the shipment      |
 
+<div class="note">
+Existing statuses will still show if you already have Outbound Shipments in your system before you configure invoice statuses for your store.
+</div>
+
 ### Search by Name or Status
 
 You can filter the list of shipments by customer name or by status. This can be useful if you're looking for one particular shipment!
@@ -230,6 +234,10 @@ There are 6 status for the Outbound Shipment, these are listed below alongside t
 | **Shipped**   | Shipment has been shipped.                                                                                      |   fn    |          |
 | **Delivered** | Your customer has received the shipment. Goods are now part of their inventory                                  |   fn    |          |
 | **Verified**  | Your customer has verified the quantity of the shipment.                                                        |   fn    |          |
+
+<div class="note">
+Statuses will default to the previously available status if you have limited the available statuses in your store preferences. 
+</div>
 
 If you hover over the status sequence, a shipment history window appears. You can see the date when a shipment was updated from one status to another.
 

@@ -75,6 +75,7 @@ Toggle the preferences on or off as required, and close when you are finished.
 | **Batches expiring in between days**                                                 |                                                                                                                                                                                          |
 | • First threshold for expiring items (days)                                          | Days before expiry to start flagging as "expiring soon." Used in the `Expiring Stock` widget. Note that the widget isn't displayed if both of these threshold settings are unconfigured. |
 | • Second threshold for expiring items (days)                                         | Days before expiry to stop flagging as "expiring soon." Used in Expiring Stock widget.                                                                                                   |
+| **Invoice status options**                                                           | Configure which invoice statuses are available for Outbound shipments / supplier returns, and inbound shipments / customer return.                                                       |
 
 <div class='note'>
 Most store preferences are still managed through the Legacy mSupply central server (see the <a href="/docs/settings/configuration/#store-preferences">list of preferences</a>). Only new store preferences for Open mSupply are configured on Open mSupply central server for now. All store preferences will be migrated to Open mSupply in a future version.
