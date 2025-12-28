@@ -44,7 +44,7 @@ If the menu is closed, simply hovering over the menu items will open it, in whic
 
 ![Main navigation](images/main_nav.png)
 
-On some screens you'll see that the header shows a heading, such as **Outbound Shipment** in the example above. Clicking on a specific shipment then changes that heading to **Outbound Shipment / #[the shipment number]**. You are able to click on the **Outbound Shipment** part to return to the list - or use the main navigation on the left.
+On some screens you'll see that the header shows a heading, such as **Internal Orders** in the example above. Clicking on a specific order then changes that heading to **Internal Orders / #[the order number]**. You are able to click on the **Internal Orders** part to return to the list - or use the main navigation on the left.
 
 ### Keyboard shortcuts
 
@@ -75,7 +75,6 @@ The bottom of the screen contains some useful information and is shown on every 
 Some users have access to more than one store. To change the store which is currently selected, simply click on the store name in the footer:
 
 ![](images/store_switcher.png)
-
 
 You will see the notification and the store name in the footer will be updated. From now, all actions will be in the newly selected store.
 
