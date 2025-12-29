@@ -30,7 +30,7 @@ A detailed list of your inventory appears:
 | **Code**          | Code assigned to this item in mSupply                                                                                                                                                          |
 | **Name**          | This is the name by which mSupply will refer to the item                                                                                                                                       |
 | **Batch**         | Batch number of the stock line                                                                                                                                                                 |
-| **Expiry**        | Expiry date of the batch                                                                                                                                                                       |
+| **Expiry**        | Expiry date of the batch. Note that the date shows in a red font if there is less than four months from now until the expiry date.                                                             |
 | **VVM Status\***  | <p style="margin-bottom: 0">Indicates the vaccine's viability.</p> <small>\*Enabled via the [Manage VVM status for stock](/docs/manage/facilities/#store-preferences) store preference</small> |
 | **Location**      | Where the item is being stored in your facility                                                                                                                                                |
 | **Unit**          | The unit of measure for the item                                                                                                                                                               |
