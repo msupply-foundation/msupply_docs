@@ -668,3 +668,45 @@ If you do not have enough room on your screen, or simply aren't interested in so
 Click on the `Show / hide columns` button which is at the top right of the table. This gives a list of the columns available - you can check the columns you want to see. The options chosen are stored for the current browser, so next time you view an Outbound Shipment, you will see the selected columns only. If you have chosen which columns to show, then the button is shown in blue to remind you that there are more columns available.
 
 ![Hide columns](images/os_show_hide_columns.gif)
+
+### View or Edit the Requisition Information Panel
+
+The information Panel allows you to see or edit information about the
+outbound shipment. It is divided into five sections:
+
+- Additional Info
+- Related documents
+- Invoice Details
+- Transport Details
+- Actions
+
+#### Additional Info
+
+In the **Additional Info** section you can:
+
+- See who created the Outbound shipment (name of the user)
+- See when the Outbound shipment was created
+- View and edit the Outbound shipment colour. To edit the colour, tap on the coloured
+  circle and select a colour from the pop-up
+- Write or edit a comment
+
+#### Related Documents
+
+In the **Related Documents** section you can see other related transactions for
+the Outbound shipment.
+
+If you the shipment was created from a Requisition you will see the Requisition number and a link to view the Requisition.
+
+#### Invoice Details
+
+This section lists the service changes, sell price, total price and foreign currency if applicable.
+
+#### Transport Details
+
+The **Transport Details** section is where you can enter the expected delivery date and a reference for the delivery.
+
+#### Actions
+
+- You can tap on the **Copy to Clipboard** button to copy
+  the Requisition details to the clipboard.
+- You can **Delete** the Outbound shipment if it is not in the `Verified` status.

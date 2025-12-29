@@ -30,7 +30,7 @@ A detailed list of your inventory appears:
 | **Code**          | Code assigned to this item in mSupply                                                                                                                                                          |
 | **Name**          | This is the name by which mSupply will refer to the item                                                                                                                                       |
 | **Batch**         | Batch number of the stock line                                                                                                                                                                 |
-| **Expiry**        | Expiry date of the batch                                                                                                                                                                       |
+| **Expiry**        | Expiry date of the batch. Note that the date shows in a red font if there is less than four months from now until the expiry date.                                                             |
 | **VVM Status\***  | <p style="margin-bottom: 0">Indicates the vaccine's viability.</p> <small>\*Enabled via the [Manage VVM status for stock](/docs/manage/facilities/#store-preferences) store preference</small> |
 | **Location**      | Where the item is being stored in your facility                                                                                                                                                |
 | **Unit**          | The unit of measure for the item                                                                                                                                                               |
@@ -55,6 +55,20 @@ The list of Stock can be exported to a comma separated file (csv). Simply click 
 ![Export button](images/export.png)
 
 The export function will download all stock lines, not just the current page, if you have more than 20 of them.
+
+### Non standard items
+
+What happens if a supplier sends you stock of an item which is not currently visible in your store?
+
+In this case the following happens:
+
+- The stock line for this item appears in your store and is visible in the Stock list
+- The item now shows in your item list
+- You are able to issue that stock in an outbound shipment or prescription
+
+Note that the item will only show while you have stock on hand for it, so if you issue all of the stock it will no longer appear in your item list.
+
+You also cannot order more of this item - it cannot be added the item to a manual inbound shipment or an internal order.
 
 ## Creating a new stock line
 
@@ -101,6 +115,12 @@ If this is the case, the reason input will be enabled as below:
 [Item Variants](/docs/catalogue/item_variants/) will be available for selection if they are configured in your system.
 
 Item variants include packaging information - if your new stock line has a matching pack size, the `Volume per pack` field will be automatically populated.
+
+### Volume per pack
+
+Specify the volume of a single pack in cubic metres. This is used to calculate the available storage space when stock is stored in a location. Note that you will need to also record the volume of the location in order to see the [remaining capacity](/docs/inventory/locations/#assigning-locations-to-stock) of the location.
+
+The `Total volume` field below shows you the calculated value of the volume used by this stock line, which is the volume per pack \* the number of packs (`Pack Qty`),
 
 ### Donor
 
