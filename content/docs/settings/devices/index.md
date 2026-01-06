@@ -39,7 +39,7 @@ The label printing functionality is in an experimental state currently. There is
 
 #### Printing via Network
 
-<div class="note">Printing via network requires your Open mSupply instance to be running in <strong>server mode</strong>. If you are running in client mode, network printing will not work.</div>
+<div class="note">Printing via network requires either that your Open mSupply instance is running in <strong>server mode</strong> or that the network printer, the Open mSupply server and client are all on a local network.</div>
 
 Enter the IP address and other details of the printer. Click `Save` to save the details. Once saved, you can click the `Test` button to attempt to connect to the printer and fetch its configuration.
 
