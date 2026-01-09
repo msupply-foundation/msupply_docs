@@ -58,6 +58,9 @@ Return to the settings page and turn on the Print via USB switch to enable USB p
 ## Barcode Scanners
 
 This section allows you to configure a USB barcode scanner for use with Open mSupply desktop.
+
+If you are using the android application you are able to scan barcodes using the device's camera and this configuration section is not relevant.
+
 We support serial-mode and keyboard-mode scanners. The preference is serial scanners which we have found to be more reliable. The Zebra DS-22 is the recommended model.
 
 On opening the barcode scanners section you may see the message `Not connected`:
