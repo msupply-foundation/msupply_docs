@@ -632,3 +632,48 @@ When editing a line on the shipment, the `Other` tab will have a `Donor` selecti
 ![Donor per line](images/edit_line_donor.png)
 
 Simply select the donor for that stock line.
+
+## Linking an internal order
+
+If the [store preference](/docs/settings/configuration/#store-preferences) `Can manually link requisition to supplier invoice` is enabled in the current store, then it is possible to link a manually created inbound shipment to an internal order.
+
+This allows you to create a link between the internal order and inbound shipment and also lets you easily add all items which are on the order to this inbound shipment.
+
+### How to link an internal order
+
+Ensure that the store preference mentioned above is enabled.
+
+Click the `New Shipment` button to create a new manual inbound shipment and select a supplier as usual. With the preference enabled you will then see a new screen showing all internal orders which this store has created for the selected supplier.
+
+<div class="note">Only orders in the <i>Sent</i> status are shown in the list</div>
+
+![Select internal order](images/linked_internal_orders.png)
+
+From this window you can
+
+- Click **Cancel** to stop creating the inbound shipment
+- Click **Next** to continue creating without linking an internal order
+- Click on one of the internal order lines in the table - this will link the order to the newly created inbound shipment
+
+### Working with a linked inbound shipment
+
+A link to the internal order is shown in the _Related documents_ section of the _More info_ panel:
+
+![Related documents link](images/linked_related_docs.png)
+
+and a corresponding link is shown on the internal order, allowing you to quickly move between the two.
+
+Once the shipment and order are linked you are able to add lines from the internal order to the shipment.
+Click the arrow beside the **Add Item** button to expand it and view the other options:
+
+![Add from internal order](images/linked_add_from_order.png)
+
+Click the option **Add from Internal Order**.
+
+A windows is shown which lists all of the item lines in the internal order. You can then click the checkboxes to select which lines to add to the shipment.
+
+<div class="tip">You can click the top checkbox to select or deselect all lines</div>
+
+![Add lines from internal order](images/linked_add_lines.png)
+
+Click the **Select** button to add the lines to the shipment.
