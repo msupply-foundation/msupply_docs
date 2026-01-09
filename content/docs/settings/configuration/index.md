@@ -43,7 +43,7 @@ Once configured, the `Initialise` button will become disabled:
 
 An `Edit` button will also appear in the footer, where you can edit the store properties for the store you are currently logged into:
 
-![Store properties edit](images/store_properties_edit_footer.png)
+![Store properties edit](/docs/manage/facilities/images/footer_store_edit.png)
 
 Clicking that `Edit` button will open a new window, where you can [view and edit your store properties](/docs/manage/facilities/#editing-your-store-properties).
 
@@ -88,7 +88,7 @@ Here's the list of preferences which are currently in use:
 
 | Preference                                                                      | Used by                                                                                                  |
 | ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| Can manually link requisition to supplier invoice                               | [Internal Orders](/docs/replenishment/internal-orders/)                                                  |
+| Can manually link requisition to supplier invoice                               | [Inbound shipments](/docs/replenishment/inbound-shipments/)                                              |
 | Edit prescribed quantity on prescription                                        | [Prescriptions](/docs/dispensary/prescriptions/)                                                         |
 | Expiring items period                                                           | Used for some [Reports](/docs/getting_started/reports/)                                                  |
 | Include requisitions from this store in suppliers' remote authorisation process | Used in [Internal Orders](/docs/replenishment/internal-orders/) if using the remote authorisation module |
