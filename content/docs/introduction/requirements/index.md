@@ -51,12 +51,12 @@ Recording stock transactions is a core Open mSupply activity. Most stock transac
 
 ### Mobile / tablet requirements
 
-You are able to use a browser on a tablet to connect to an Open mSupply server, and the only requirement here is a suitably fast tablet with a browser such as chrome or firefox.
-
-For a stand-alone, offline, solution a mobile application is also available for android devices.
+For a stand-alone, offline, solution a mobile application is also available for android devices. This is the recommended approach. While you are able to use a browser on a tablet to connect to an Open mSupply server, this is not supported. Using a browser will not allow you to make use of the server discovery feature or use the camera for barcode scanning, among other limitations.
 
 Recommended Specifications:
-In short, Open mSupply mobile runs on Android tablets (not on phones as there is too much data to use well on small phone screens).
+In short, Open mSupply mobile runs on Android tablets (not on phones for general usage as there is too much data to use well on small phone screens).
+Note that there are some specific features which can run on phones, such as the GAPS feature.
+
 The application requires at least Android 10
 
 |                 | Minimum           | Recommended       |
