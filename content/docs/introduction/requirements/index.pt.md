@@ -171,8 +171,8 @@ A tabela abaixo mostra quais as versões do mSupply e do Open mSupply Central de
 | 2.2.00+             | 7.14.04+        | 2.2.00+              |
 | 2.3.00+             | 7.17.01+        | 2.3.00+              |
 | 2.7.00+             | 8.01.03+        | 2.7.00+              |
-| 2.8.00+             | 8.02.00+        | 2.7.00+              |
-| 2.9.00+             | 8.03.04+        | 2.7.00+              |
+| 2.8.00+             | 8.02.00+        | 2.8.00+              |
+| 2.9.00+             | 8.03.04+        | 2.9.00+              |
 | 2.9.02+             | 8.03.12+        | 2.9.02+              |
 
 Caso tente se conectar com um servidor incompatível, verás uma mensagem de erro como a seguinte:
