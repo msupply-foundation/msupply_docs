@@ -49,6 +49,10 @@ Clicking that `Edit` button will open a new window, where you can [view and edit
 
 You will see a number of property inputs in this window. If you don't, there may be something wrong with the configuration - please contact support to investigate.
 
+<div class='tip'>
+To use the French translations for the GAPS properties, change the site language to French before initialising. You can also re-initialise which allows you to change the language if these properties are already configured.
+</div>
+
 <div class='note'>
 GAPS configuration is a one way process that cannot be undone! Please be sure you wish to use the GAPS module before initialising.
 </div>
