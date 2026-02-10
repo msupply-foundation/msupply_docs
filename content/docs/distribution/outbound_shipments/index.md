@@ -518,7 +518,6 @@ To edit a shipment line, tap on it. You will be presented with the `Edit Item` w
 
 1. Open the Outbound Shipment you want to edit.
 2. Tap on the line you want to edit. An identical window to `Add Item` appears. At this stage:
-
    - Edit the main `Issue` field
    - or change the number of packs value at the batch number level
 
@@ -711,7 +710,7 @@ This section lists the service changes, sell price, total price and foreign curr
 
 #### Transport Details
 
-The **Transport Details** section is where you can enter the expected delivery date and a reference for the delivery.
+The **Transport Details** section is where you can enter the [shipping method](https://docs.msupply.org.nz/issuing_goods:issuing_goods_customer_invoice?s[]=shipping&s[]=method), the expected delivery date and a reference for the delivery.
 
 #### Actions
 
