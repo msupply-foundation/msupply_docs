@@ -543,7 +543,9 @@ Once you have inspected the goods which are part of the shipment, you can confir
 Once you have done this:
 
 - Shipment status is now `RECEIVED`
-- The items on the shipment are added to your inventory
+- The items on the shipment are added to your stock on hand and are available for distribution
+
+<div class="note">If a batch has been distributed (for example is part of an outbound shipment) then you are not permitted to edit the details. It is a good idea to check incoming stock and adjust the details on the shipment as soon as you can after the shipment arrives.</div>
 
 ### Verify your Inbound Shipment
 
