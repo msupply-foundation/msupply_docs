@@ -467,7 +467,6 @@ To edit an Inbound Shipment line, simply tap on it. You will be presented with t
 
 1. Open the Inbound Shipment you want to edit
 2. Tap on the line you want to edit. An identical window to `Add Item` appears. At this stage:
-
    - Edit the main `Issue Quantity` field
    - or change the number of packs value at the batch number level
 
@@ -532,8 +531,19 @@ In case your Inbound Shipment is <b>automatic</b>, you cannot confirm its delive
 </div>
 
 <div class="note">
-Any unallocated lines with a 0 number of packs value will automatically be removed for you when you confirm.
+Any unallocated lines with a 0 number of packs value will automatically be removed for you when you confirm delivery.
 </div>
+
+### Receive goods on the Inbound Shipment
+
+Once the shipment has been marked as `DELIVERED` items on the shipment can be physically inspected to confirm the correct items and quantities have been delivered.
+
+Once you have inspected the goods which are part of the shipment, you can confirm the Shipment as `RECEIVED` by tapping on the `Confirm Received` button.
+
+Once you have done this:
+
+- Shipment status is now `RECEIVED`
+- The items on the shipment are added to your inventory
 
 ### Verify your Inbound Shipment
 
