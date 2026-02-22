@@ -39,7 +39,7 @@ Here's how the bar appears, shown at the top of the dashboard page:
 </div>
 
 
-![](images/notification_warning.png)
+![Warning notification: Unable to display cold chain notifications: Forbidden](images/notification_warning.png)
 
 This is just to let you know that this user won't be notified if a breach occurs.
 

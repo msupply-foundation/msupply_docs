@@ -30,7 +30,7 @@ You will be presented with a list of patients visible to your store.
 
 ### Patient List
 
-![](images/patient_list_view.png)
+![Patient list showing patient ID, name, gender and date of birth columns](images/patient_list_view.png)
 
 1. The list of patients is divided into 8 columns:
 

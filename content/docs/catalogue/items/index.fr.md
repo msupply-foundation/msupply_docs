@@ -102,7 +102,7 @@ Cet onglet liste les Listes Principales associées à cet article.
 
 L'onglet grand livre de l'article montre un historique des transactions dans ce magasin pour l'article.
 
-![](images-en/item_ledger.png)
+![Registre des mouvements de stock pour Ibuprofène 200mg comprimés](images-en/item_ledger.png)
 
 Le grand livre est divisé en 16 colonnes :
 

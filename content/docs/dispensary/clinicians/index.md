@@ -29,7 +29,7 @@ You will be presented with a list of clinicians visible to your store.
 
 ### Clinicians List
 
-![](/docs/dispensary/images/clinicians-list-view.png)
+![Clinicians list showing code, first name, last name, initials, mobile and gender columns](/docs/dispensary/images/clinicians-list-view.png)
 
 1. The list of clinicians is divided into 8 columns:
 
