@@ -102,7 +102,7 @@ Esta aba lista as Listas Principais associadas a este item.
 
 A aba do livro razão do item mostra um histórico de transações nesta loja para o item.
 
-![](images-en/item_ledger.png)
+![Livro-razão de movimentos de stock para Ibuprofeno 200mg comprimidos](images-en/item_ledger.png)
 
 O livro razão é dividido em 16 colunas:
 

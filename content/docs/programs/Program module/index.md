@@ -267,7 +267,7 @@ The Vaccination Card includes the following columns:
 
 To view the details of a specific vaccination, click on that row in the card. This will open a new window containing all the vaccination information.
 
-![](images/vaccination_edit.png)
+![Edit vaccination dialog for Diphtheria showing facility, clinician, date, vaccine item and batch selection](images/vaccination_edit.png)
 
 
 Note that only the rows where a vaccination has been recorded (as `Given` or `Not given`) will be clickable in this view. New vaccinations are administered from within an encounter.

@@ -30,7 +30,7 @@ Une liste de patients visibles pour votre magasin s'affichera.
 
 ### Liste des Patients
 
-![](images/patient_list_view.png)
+![Liste des patients affichant les colonnes ID patient, nom, sexe et date de naissance](images/patient_list_view.png)
 
 1. La liste des patients est divisée en 8 colonnes :
 

@@ -235,9 +235,9 @@ The status tracking is located at the bottom left corner of the Prescription scr
 
 Passed statuses are highlighted in blue, next statuses appear in grey.
 
-![](images/prescription_statussequence1.png)
+![Prescription status sequence showing New, Picked and Verified steps](images/prescription_statussequence1.png)
 
-![](images/prescription_statussequence2.png)
+![Prescription status sequence showing current step at Picked between New and Verified](images/prescription_statussequence2.png)
 
 There are 3 status for a Prescription:
 

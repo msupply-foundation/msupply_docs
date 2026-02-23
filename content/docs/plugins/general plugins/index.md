@@ -91,7 +91,7 @@ The suggested quantity to order is given in doses:
 
 The `Target stock` and `Suggested quantity` are then displayed to the facility user to assist with decision-making while making an order for new stock:
 
-![](images/io_pop_forecast.png)
+![Internal order item detail for BCG vial showing stock on hand, suggested quantity and target stock](images/io_pop_forecast.png)
 
 #### Configuration
 
@@ -135,4 +135,4 @@ In other words, the system does not take into account stock on order for _other_
 
 **Note 3**: the `Forecast demand` is not displayed explicitly to the facility user, but the values can be reviewed in the mSupply Dashboard
 
-![](images/forecast_demand_grafana.png)
+![Vaccine course forecast demand table showing doses per month by store, target demographic, coverage rate and wastage rate](images/forecast_demand_grafana.png)

@@ -86,7 +86,7 @@ Most store preferences are still managed through the Legacy mSupply central serv
 
 To edit the properties of a store in the list, click on it. This will open a new `Edit Store` window.
 
-![](images/facilities-no-properties-defined.png)
+![Facility Properties tab showing no properties defined](images/facilities-no-properties-defined.png)
 
 From this window, you can edit the store properties.
 
