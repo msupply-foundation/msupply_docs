@@ -17,6 +17,6 @@ Encounters are the visits that patients make to your dispensary, under a specifi
 
 You will only see this tab under the `Dispensary` menu if you have Patient Programs configured.
 
-![Encounter Navigation](images/dispensary_gotoencounters.png)
+![Dispensary navigation menu showing the Encounters option](images/dispensary_gotoencounters.png)
 
 Learn more about Encounters in the [Patient Programs](/docs/programs/program-module/#encounter) documentation.
