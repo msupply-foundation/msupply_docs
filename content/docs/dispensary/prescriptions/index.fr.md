@@ -235,9 +235,9 @@ Le suivi du statut est situé dans le coin inférieur gauche de l'écran Prescri
 
 Les statuts passés sont surlignés en bleu, les statuts suivants apparaissent en gris.
 
-![](images/prescription_statussequence1.png)
+![Séquence de statut d'ordonnance montrant les étapes Nouveau, Prélevé et Vérifié](images/prescription_statussequence1.png)
 
-![](images/prescription_statussequence2.png)
+![Séquence de statut d'ordonnance montrant l'étape actuelle à Prélevé entre Nouveau et Vérifié](images/prescription_statussequence2.png)
 
 Il y a 3 statuts pour une Prescription :
 

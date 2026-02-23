@@ -60,7 +60,7 @@ Puede filtrar la lista de envíos por el nombre del proveedor. ¡Esto puede ser 
 
 Escriba el nombre del proveedor en el campo `Buscar por nombre` (a la izquierda, justo encima de los encabezados de la lista). Todos los envíos para este proveedor aparecerán en la lista.
 
-![](images/is_filter_list.png)
+![Lista de envíos entrantes filtrada por nombre mostrando los resultados correspondientes](images/is_filter_list.png)
 
 ### Exportar entradas
 
@@ -102,7 +102,7 @@ Puedes saber si un proveedor también utiliza mSupply en su tienda. Si es así, 
 En el siguiente ejemplo, estamos recibiendo stock de <b>Tamaki Central Medical Store</b>. 
 </div>
 
-![](images/is_select_supplier.png)
+![Cuadro de diálogo de búsqueda de proveedor mostrando resultados de búsqueda](images/is_select_supplier.png)
 
 2. Una vez que hayas seleccionado un proveedor, se creará tu entrada
 
@@ -116,7 +116,7 @@ Si todo salió bien, deberías ver el nombre de tu proveedor en la esquina super
 
 Si ha seleccionado el proveedor equivocado, puede cambiar el nombre del proveedor en el campo `Nombre del proveedor` o seleccionar uno de la lista desplegable:
 
-![](images/is_choose_supplier.png)
+![Menú desplegable de proveedor para envío entrante mostrando la lista de proveedores disponibles](images/is_choose_supplier.png)
 
 ### Ingresar una referencia de proveedor
 
@@ -390,7 +390,7 @@ Para editar una línea de una entrada, simplemente toca en ella. Se abrirá la v
 4. Ve al menú desplegable `Acciones` (esquina superior derecha, encima de la lista)
 5. Selecciona la acción `Eliminar líneas seleccionadas`
 
-![](images/is_delete_inbound_shipment.png)
+![Cuadro de diálogo de confirmación para eliminar permanentemente las líneas de envío seleccionadas](images/is_delete_inbound_shipment.png)
 
 <div class="imagetitle">
 En el siguiente ejemplo, estamos eliminando <i>item 030453 - Amoxicillina 250mg tabs</i>

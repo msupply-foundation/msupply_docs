@@ -15,14 +15,14 @@ Les listes Maîtresse sont des listes standard, des regroupements d'articles qui
 
 Allez à `Catalogue` > `Listes Maîtresse` dans le panneau de navigation à gauche:
 
-![](images-en/cat_gotoml.png)
+![Barre de navigation montrant les Listes maîtres en surbrillance sous Catalogue](images-en/cat_gotoml.png)
 
 Vous verrez une fenêtre comme celle-ci :
 
-![](images-en/cat_mllist.png)
+![Page des Listes maîtres affichant les listes disponibles](images-en/cat_mllist.png)
 
 Pour afficher tous les éléments d'une liste, cliquez simplement sur l'une des listes qui s'affichent à l'écran.
 
 Le contenu de la liste s'affichera comme ci-après:
 
-![](images-en/cat_mldetail.png)
+![Détail d'une liste maître montrant les articles avec codes, noms et unités](images-en/cat_mldetail.png)

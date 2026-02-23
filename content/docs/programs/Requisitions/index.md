@@ -105,7 +105,7 @@ stock from customers for internal orders` enabled
 Then you will see an extra table underneath the input fields which shows the
 customer's data based on their program requisitions for that period.
 
-![](images/internal_order_item_info.png)
+![Internal order item info panel for Ibuprofen 200mg tablets showing stock levels, AMC, MOS and requested quantity](images/internal_order_item_info.png)
 
 The table has 6 columns:
 
