@@ -15,7 +15,7 @@
       {{ macros_sidebar::docs_sidebar(current_section=current_section) }} {{
       macros_toc::docs_toc(page=page) }}
       <main class="docs-content col-lg-11 col-xl-9">
-        {{ macros_language_selector::language_selector(use_flag_icon=false) }}
+        {{ macros_language_selector::language_selector() }}
 
         <h1>{{ page.title }}</h1>
         {% if page.extra.lead %}
