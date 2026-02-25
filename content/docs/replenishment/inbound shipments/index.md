@@ -523,8 +523,8 @@ To confirm that an Inbound Shipment has been delivered, click on the `Confirm De
 
 Once you have done this:
 
-- Goods are now part of your inventory
 - Shipment status is now `DELIVERED`
+- The shipment can be edited
 
 <div class="note">
 In case your Inbound Shipment is <b>automatic</b>, you cannot confirm its delivery unless the supplier has confirmed its shipment. In other words, your shipment status has to be <code>SHIPPED</code> before you can confirm that you have received the goods. 

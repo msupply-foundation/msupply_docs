@@ -179,21 +179,17 @@ Passed statuses are highlighted in blue, next statuses appear in grey.
 
 There are 5 status for the Customer Return:
 
-| Status        | Description                                                                                                           |
-| :------------ | --------------------------------------------------------------------------------------------------------------------- |
-| **New**       | This is the first status when you create a new manual Customer Return                                                 |
-| **Picked**    | Customer has confirmed that the return is picked and is ready to ship (only applies to automatically created returns) |
-| **Shipped**   | Return has been shipped and goods are now in transit (applies only to automatically created returns)                  |
-| **Delivered** | When you confirm that the return has been delivered                                                                   |
-| **Verified**  | When you have verified the Customer Return                                                                            |
+| Status       | Description                                                                                                           |
+| :----------- | --------------------------------------------------------------------------------------------------------------------- |
+| **New**      | This is the first status when you create a new manual Customer Return                                                 |
+| **Picked**   | Customer has confirmed that the return is picked and is ready to ship (only applies to automatically created returns) |
+| **Shipped**  | Return has been shipped and goods are now in transit (applies only to automatically created returns)                  |
+| **Received** | When you confirm that the return has been received                                                                    |
+| **Verified** | When you have verified the Customer Return                                                                            |
 
 You probably noticed that two of the status values only apply to automatically created returns. These are created by the system when another store in the system creates a Supplier Return to return stock to your store. If this is the case you'll see a message near the top of the page:
 
 ![Automatic IS message](images/ir_message_automatic.png)
-
-Note that this message appears differently if the status is `Delivered` or `Verified`
-
-![Automatic IS message: delivered](images/ir_message_automatic_delivered.png)
 
 If, however, you've created an Customer Return manually, then the following message shows:
 
@@ -201,16 +197,16 @@ If, however, you've created an Customer Return manually, then the following mess
 
 and you'll see that the status bar has only the status values which apply to this Customer Return.
 
-!()[images/ir_statussequence_manual.png]
+![Customer return manual status sequence](images/ir_statussequence_manual.png)
 
 If you hover over the status sequence, a return history window appears. You can see the date when a return was updated from one status to another.
 
-<div class="imagetitle">This manual return has been created on 28/03/2024</div>
+<div class="imagetitle">This manual return has been created on 09/06/2025</div>
 
 ![Inbound status: new](images/ir_status_sequence_hover_manual.png)
 
 <div class="imagetitle">
-This automatic return has been created, picked and shipped on the 26/03/24
+This automatic return has been created, picked and shipped on the 09/06/25
 </div>
 
 ![Inbound status: hover](images/ir_status_sequence_hover_auto.png)
@@ -233,14 +229,14 @@ Tap on the `Close` button to quit the Customer Return view and return to the Cus
 
 The `Confirm` button updates the status of a return. The status which you can confirm depends on the current status of the return and follows the sequence shown below.
 
-When managing a Customer Return, you can only confirm it as Delivered or Verified.
+When managing a Customer Return, you can only confirm it as Received or Verified.
 
-| Confirm...            | Current Status | Next Status |
-| :-------------------- | :------------- | :---------- |
-| **Confirm Delivered** | Shipped        | Delivered   |
-| **Confirm Verified**  | Delivered      | Verified    |
+| Confirm...           | Current Status | Next Status |
+| :------------------- | :------------- | :---------- |
+| **Confirm Received** | Shipped        | Received    |
+| **Confirm Verified** | Received       | Verified    |
 
-For manual Customer Returns, you don't have to update to the next status in the sequence. You can choose to skip `Delivered` to go directly to `Confirm Verified`.
+For manual Customer Returns, you don't have to update to the next status in the sequence. You can choose to skip `Received` to go directly to `Confirm Verified`.
 
 As demonstrated below, tap on the down arrow of the `Confirm` button and select the status you want the return to be updated to.
 
@@ -320,7 +316,6 @@ To edit a return line, tap on it. You will be presented with the `Edit Item` win
 
 1. Open the Customer Return you want to edit.
 2. Tap on the line you want to edit. An identical window to `Add Item` appears. At this stage you can:
-
    - Edit batch info
    - Edit quantity returned for each batch
    - Click `Next step` to view/adjust the reasons and comments
@@ -359,12 +354,12 @@ Whether your Customer Return is **manual** or **automatic**, the first step to r
 
 At this stage, you don't have to check if quantities or other information are correct, you just have to acknowledge that you have received the returned goods from your customer.
 
-To confirm that a Customer Return has been delivered, click on the `Confirm Delivered` button.
+To confirm that a Customer Return has been received, click on the `Confirm Received` button.
 
 Once you have done this:
 
 - Goods are now part of your inventory
-- Return status is now `DELIVERED`
+- Return status is now `RECEIVED`
 
 <div class="note">
 In case your Customer Return is <b>automatic</b>, you cannot confirm its delivery unless the customer has confirmed its shipment. In other words, your return status has to be <code>SHIPPED</code> before you can confirm that you have received the returned goods. 
