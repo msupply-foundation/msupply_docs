@@ -14,11 +14,11 @@ toc = true
 top = false
 +++
 
-mSupply will automatically keep track of your stock levels for you, as you receive and distribute it. But sometimes data gets entered incorrectly or stock goes out without anyone making an entry in the system.
+Open mSupply will automatically keep track of your stock levels for you, as you receive and distribute it. But sometimes data gets entered incorrectly or stock goes out without anyone making an entry in the system.
 
-Of course, we try not to let that happen but, if it does happen, we can make corrections. The easiest way to correct mistakes is to do a **Stocktake**.
+Of course, we try not to let that happen but, if it does happen, we can make corrections. The easiest way to maintain accurate stock records in the system is to do a regular **Stocktake**.
 
-In mSupply, you can easily do a stocktake for:
+In Open mSupply, you can easily do a stocktake for:
 
 - A full inventory
 - A limited range of items
