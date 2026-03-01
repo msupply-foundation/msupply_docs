@@ -161,3 +161,40 @@ To add a filter to the page, choose the required filter from the drop down.
 
 3. You can also select a different number of rows to show per page using the option at the bottom right of the page.
 
+### Importing Fridge-tags
+
+If you are using Berlinger Fridge-tags, you can import the data directly into Open mSupply. To do this, insert the USB of the Fridge-tag into your computer.
+Then click the `Import Fridge-tag` button:
+
+![Import fridge tag button](images/import_fridge_tag_button.png)
+
+This will open a file browsing window, allowing you to select the `.txt` file of the Fridge-tag data. Simply click on the file and wait for the import to complete.
+
+<div class="note">Currently supported devices are Fridge-tags and Q-Tags from Berlinger.</div>
+
+If the process was successful you will see a notification in the bottom left of the screen:
+
+![Import fridge tag success](images/import_fridge_tag_success.png)
+
+and if there was a new sensor added, you'll be prompted to add the sensor details:
+
+![Import fridge tag new sensor](images/import_fridge_tag_sensor_added.png)
+
+<div class="note">You may need to wait for the text file to be generated after connecting the Fridge-tag to your computer.</div>
+
+The following Berlinger devices are compatible with Open mSupply:
+
+| Device                  | Breach data displayed | Temperature graph plotted |
+| :---------------------- | :-------------------- | :------------------------ |
+| **Q-tag CLm doc**       | Yes                   | Yes                       |
+| **Q-tag CLm doc D**     | Yes                   | Yes                       |
+| **Q-tag CLm doc Ice**   | Yes                   | Yes                       |
+| **Q-tag CLm doc Ice R** | Yes                   | Yes                       |
+| **Q-tag CLm doc L**     | Yes                   | Yes                       |
+| **Q-tag CLm doc LR**    | Yes                   | Yes                       |
+| **Fridge-tag 2**        | Yes                   | No\*                      |
+| **Fridge-tag 2E**       | Yes                   | No\*                      |
+| **Fridge-tag 2L**       | Yes                   | Yes                       |
+| **Fridge-tag UL**       | Yes                   | Yes                       |
+
+\*Logger device does not capture individual temperature logs
