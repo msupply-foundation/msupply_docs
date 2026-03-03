@@ -314,7 +314,9 @@ Se definir todas as quantidades de devolução para `0` e clicar em `Próximo pa
 No exemplo abaixo, estamos a excluir duas linhas
 </div>
 
-![Apagar linhas de retorno do cliente](images/delete-customer-return-line.png)
+![Deleting customer return lines - selected lines](images/delete-customer-return-line-selected.png)
+
+![Deleting customer return lines - delete notification](images/delete-customer-return-line-deleted.png)
 
 <div class="dica">
  <b></b>Pode eliminar várias linhas de uma só vez. Certifique-se de rever o que está selecionado antes de executar a ação Apagar.

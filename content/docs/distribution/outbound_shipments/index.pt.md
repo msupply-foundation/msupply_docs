@@ -116,7 +116,7 @@ You can only delete Outbound Shipments if they have not been <code>SHIPPED</code
 In the below example, we are issuing stock to <b>Kamo Regional Warehouse</b>. 
 </div>
 
-![gif](images/os_select_customer.gif)
+![gif](images/os_select_customer.png)
 
 <div class="tip">
 You can tell if a customer is also using Open mSupply in their store if they have an icon like this <img src="images/is_msupplystoreicon.png" alt="Store" style="width:auto"> next to the customer code. 
@@ -134,7 +134,7 @@ If everything went well, you should see the name of your customer in the top lef
 
 If you have selected the wrong customer, you can change the customer name in the `Customer Name` field or select one the dropdown list:
 
-![gif](images/os_change_customer.gif)
+![change customer](images/os_change_customer.png)
 
 ### Enter a Customer Reference
 
@@ -158,8 +158,6 @@ If you are using a large screen, the information panel will be automatically ope
 To open the Information Panel, you can tap on the `More` button, located in the top right corner of the Outbound Shipment view.
 
 You can close by tapping on the `X Close` button, on the top right corner of the information panel.
-
-![Open and close the Information Panel](images/os_infopanel_openclose.gif)
 
 #### Additional Info
 
@@ -207,7 +205,11 @@ If your store is issuing in foreign currencies follow [these instructions](https
 ![Store preference](../../images/store-pref-issue-in-foreign-currencies.png)
 
 The pen icon will become active once the above instructions have been followed and only if the customer is an external customer. Click on this icon and change to a currency that you would like to issue the shipment in. The currency rate can also be edited if you and the customer have agreed on a different rate.
-![gif](images/os-change-foreign-currency.gif)
+
+![change foreign currency](images/os_change_foreign_currency.png)
+
+![change foreign currency exchange rate](images/os_change_exchange_rate.png)
+
 You can also see the foreign currency totals in the invoice line details as well.
 ![Line with Foreign Currency Pricing](images/os-line-with-foreign-currency.png)
 
@@ -287,7 +289,7 @@ You don't have to update a shipment to the next status in the sequence. You can 
 
 As demonstrated below, tap on the down arrow of the `Confirm` button and select the status you want the shipment to be updated to.
 
-![Skip Status](images/os_confirmbutton_skipstatuses.gif)
+![Skip Status](images/os_confirmbutton_skipstatuses.png)
 
 ## Adding lines to an Outbound Shipment
 
@@ -511,7 +513,6 @@ To edit a shipment line, tap on it. You will be presented with the `Edit Item` w
 
 1. Open the Outbound Shipment you want to edit.
 2. Tap on the line you want to edit. An identical window to `Add Item` appears. At this stage:
-
    - Edit the main `Issue Quantity` field
    - or change the number of packs value at the batch number level
 
@@ -529,7 +530,7 @@ To edit a shipment line, tap on it. You will be presented with the `Edit Item` w
 In the below example, we are deleting <i>three placeholder lines</i>.
 </div>
 
-![Alt Text](images/delete-outbound-shipment-line.gif)
+![Alt Text](images/delete-outbound-shipment-line.png)
 
 <div class="tip">
  <b></b> You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
@@ -561,8 +562,6 @@ Once all your shipments lines have been allocated, you can **confirm the allocat
 - Lines must be assigned with one or several batch numbers. You won't be able to confirm the allocation if your shipment contains lines without batch numbers assigned to it (placeholder lines).
 
 To confirm the allocation, press the `Confirm Allocated` button.
-
-![Alt Text](images/confirm-allocated-outbound-shipment-line.gif)
 
 Once the allocation is confirmed:
 
@@ -623,8 +622,6 @@ Sometimes, stock sent via an Outbound Shipment will need to be returned. You can
 3. Select the line(s) you want to process the return of by checking the box(es) on the right of the list
 4. Click the `Return selected lines` button which appears at the bottom of the page.
 
-![OS return lines](images/return-selected-outbound-shipment-line.gif)
-
 ### Select quantity returned
 
 A modal will open, containing each line you selected for return:
@@ -644,13 +641,13 @@ The `Quantity Returned` values will initially be `0` - you can adjust this to re
 #### Warnings
 
 If you forget to enter a `Quantity Returned` for any line and click `Next step`, you will see this warning message. You'll need to add a quantity returned from at least one line. You can click `Cancel` if you no longer want to process the return of any of this stock.
-![Alt Text](images/os_selectquantity_warning.png)
+![Select quantity warning](images/os_selectquantity_warning.png)
 
 ### Provide reasons
 
 Once you are happy with your returned quantities, you can click `Next step`. The list of lines will be filtered to only include the lines you provided a return quantity for. In this view, you can enter a reason for the return of each line, and an additional comment.
 
-![Alt Text](images/os_return_lines_modal.gif)
+![Return lines](images/os_return_lines_modal.png)
 
 ### Confirm
 
@@ -666,10 +663,10 @@ To change the view mode, click the `Group by item` switch.
 
 When grouped by item, you can expand the item to see individual batches, or use the expand in the table header to expand all grouped rows. If you click on an item you will also see all selected batches, as shown in this example:
 
-![Group by Item](images/os_group_by_item.gif)
+![Group by Item](images/os_group_by_item.png)
 
 If you do not have enough room on your screen, or simply aren't interested in some of the columns shown, you have the option of hiding which columns are shown in this view.
 
-Click on the `Show / hide columns` button which is at the top right of the table. This gives a list of the columns available - you can check the columns you want to see. The options chosen are stored for the current browser, so next time you view an Outbound Shipment, you will see the selected columns only. If you have chosen which columns to show, then the button is shown in blue to remind you that there are more columns available.
+Click on the `Show / hide columns` button which is at the top right of the table. This gives a list of the columns available - you can check the columns you want to see. The options chosen are stored for the current browser, so next time you view an Outbound Shipment, you will see the selected columns only.
 
-![Hide columns](images/os_show_hide_columns.gif)
+![Hide column button](../../images/table_filter_button.png)

@@ -199,7 +199,7 @@ If, however, you've created an Customer Return manually, then the following mess
 
 and you'll see that the status bar has only the status values which apply to this Customer Return.
 
-!()[images/ir_statussequence_manual.png]
+![Manual status sequence](images/ir_statussequence_manual.png)
 
 If you hover over the status sequence, a return history window appears. You can see the date when a return was updated from one status to another.
 
