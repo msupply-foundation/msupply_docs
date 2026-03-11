@@ -165,7 +165,7 @@ All the items of the master list are now listed in your order. If you had previo
 Tap on an order line to change the **Requested Quantity** or tap on the `Use
 Suggested Quantities` button to automatically copy the values in the **Suggested Quantity** column into the **Requested Quantity** column.
 
-![Internal Order: add from master list](images/intord_addfromml.gif)
+![Internal Order: add from master list](images/intord_addfromml.png)
 
 <div class="note"> 
 Master Lists are defined and assigned to stores at the central server level. You can only see the master lists that are visible to your store. 
