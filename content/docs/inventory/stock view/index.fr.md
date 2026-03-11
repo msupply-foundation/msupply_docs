@@ -42,4 +42,4 @@ Vous pouvez filtrer la liste par le nom ou le code du produit. Cela peut être u
 
 Tapez le nom du produit ou le code dans le champs `Entrez le code ou le nom du produit`:
 
-![Stock: search](images/stock_search.gif)
+![Stock: search](images/stock_search.png)
