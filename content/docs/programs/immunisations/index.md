@@ -97,6 +97,8 @@ Once you are happy with the Vaccine Course details, click OK to save the new Vac
 
 Click `Cancel` at any time to close the window and discard your changes.
 
+<div class="note">When adding items to the <strong>Vaccine items</strong> field - this is providing alternative items to be dispensed. It does not mean that every item selected is dispensed for a dose. e.g. if you have two different manufacturers who supply a particular vaccine - you may want to add both as vaccine items. This will not double the number of doses!</div>
+
 ### Editing a Vaccine Course
 
 To view or edit the details of a Vaccine Course, click on the row in the list. This will re-open the editing window, for you to view or change any details.
