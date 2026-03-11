@@ -91,8 +91,6 @@ Puedes eliminar una devolución desde la lista de devoluciones al proveedor.
 Solo puedes eliminar devoluciones al proveedor si no han sido marcadas como <code>ENVIADAS</code>.
 </div>
 
-![Outbound list: delete](images/or_delete.gif)
-
 ## Crear una devolución al proveedor
 
 ### Crear desde una entrada
@@ -152,8 +150,6 @@ Si estás usando una pantalla grande, el panel de información se abrirá autom�
 Puedes cerrarlo haciendo clic en el botón `Más`, ubicado en la esquina superior derecha de la vista de la devolución al proveedor.
 
 You can close by tapping on the `X Cerrar`, en la esquina superior derecha del panel de información.
-
-![Open and close the Information Panel](images/or_sidepanel.gif)
 
 #### Información adiciona
 
@@ -243,7 +239,7 @@ No es necesario actualizar una devolución al siguiente estado en la secuencia. 
 
 Como se muestra a continuación, toca la flecha hacia abajo del botón `Confirmar` y selecciona el estado al que deseas actualizar la devolución.
 
-![Skip Status](images/or_confirm_skip_status.gif)
+![Skip Status](images/or_confirm_skip_status.png)
 
 ## Agregar líneas a una devolución de proveedor
 
@@ -263,7 +259,7 @@ En la ventana de `Agregar un artículo`, puedes buscar un artículo de las sigui
 
 Una vez que el artículo esté resaltado, toca el nombre o presiona `Enter`.
 
-![Select an item](images/or_additem.gif)
+![Select an item](images/or_additem.png)
 
 #### Lista de lotes disponibles:
 
@@ -329,7 +325,6 @@ Para editar una línea de devolución, tócala. Se abrirá la ventana `Editar Ar
 
 1. Abre la devolución de proveedor que deseas editar.
 2. Toca la línea que quieres editar. Aparecerá una ventana idéntica a `Agregar Artículo`. En esta etapa, puedes:
-
    - Editar la cantidad a devolver para cada lote
    - Hacer clic en `Sgiente paso` para ver o ajustar las razones y comentarios.
 
@@ -349,14 +344,6 @@ Si configuras todas las cantidades de devolución `0`, y haces clic en `Sguiente
 2. Selecciona la(s) línea(s) que quieres eliminar marcando la(s) casilla(s) a la derecha de la lista.
 3. Ve al menú desplegable `Acciones` (esquina superior derecha, encima de la lista).
 4. Selecciona la acción `Eliminar líneas seleccionadas`
-
-![Supplier Return actions dropdown](images/or_actions_deletelines.png)
-
-<div class="imagetitle">
-En el ejemplo a continuación, estamos eliminando 2 artículos, con los códigos 030453 y 201116
-</div>
-
-![Alt Text](images/or_deleteselectedlines.gif)
 
 <div class="tip">
  <b></b> Puedes eliminar varias líneas a la vez. Asegúrate de revisar qué líneas están seleccionadas antes de proceder con la eliminación.  
@@ -378,7 +365,7 @@ Una vez que todos los artículos están recogidos y embalados, puedes confirmar 
 
 Para confirmar que una devolución ha sido alistada, pulsa el botón `Confirmar recogida`.
 
-![Alt Text](images/or_confirmpicked.gif)
+![Alt Text](images/or_confirmpicked.png)
 
 Una vez que se confirma el alistamiento:
 
@@ -414,9 +401,7 @@ Si tu proveedor también utiliza mSupply, podrás ver cuándo reciben tus devolu
 Al ver una devolución específica, puedes ver los lotes de esa devolución agrupados por artículo o con cada lote listado por separado.
 Para cambiar el modo de vista, haz clic en el switch `Agrupar por artículo`.
 
-Cuando se agrupa por artículo, puedes expandir el artículo para ver los lotes individuales o usar la opción de expansión en el encabezado de la tabla para expandir todas las filas agrupadas. Si haces clic en un artículo, también verás todos los lotes seleccionados, como se muestra en este ejemplo:
-
-![Group by Item](images/or_group_by_item.gif)
+Cuando se agrupa por artículo, puedes expandir el artículo para ver los lotes individuales o usar la opción de expansión en el encabezado de la tabla para expandir todas las filas agrupadas. Si haces clic en un artículo, también verás todos los lotes seleccionados.
 
 Si no tienes suficiente espacio en tu pantalla, o simplemente no estás interesado en algunas de las columnas mostradas, tienes la opción de ocultar las columnas que deseas no mostrar en esta vista.
 
@@ -426,4 +411,4 @@ Haz clic en el botón `Mostrar / ocultar columnas` que está en la parte superio
 En el siguiente ejemplo, estamos ocultando las columnas de precios
 </div>
 
-![Hide columns](images/or_filter_columns.gif)
+![Hide columns](images/or_filter_columns.png)
