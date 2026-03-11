@@ -45,7 +45,7 @@ Il y a quatre onglets sur la page informations du patient :
 
 La page d'information du patient sera très différente de la page d'information du patient standard. Cette vue est hautement personnalisable et peut être adaptée à des besoins spécifiques. Veuillez contacter votre administrateur si vous souhaitez personnaliser cette vue.
 
-![Patient detail](images/patient_detail_view.gif)
+![Patient detail](images/patient_detail_view.png)
 
 2. **Programmes**: Cet onglet contient les programmes auxquels le patient est inscrit.
 
@@ -120,7 +120,7 @@ Après avoir sélectionné le programme, une autre fenêtre s’affiche pour que
 Dans cet exemple, nous inscrivons le patient au programme de soins et de traitement du VIH.
 </div>
 
-![Program Enrolment](images/hiv_enrolment_form.gif)
+![Program Enrolment](images/hiv_enrolment_form.png)
 
 ### Rencontre
 
@@ -153,13 +153,13 @@ Cliquer sur une rencontre vous mènera aux détails de la rencontre.
 
 Pour ajouter une rencontre pour le patient, cliquez sur le bouton `Ajouter rencontre` dans le coin supérieur droit de l’écran. Cliquez sur la flèche vers le bas à côté du bouton et sélectionnez `Ajouter rencontre` si le bouton ne dit pas `Ajouter rencontre`.
 
-![Add Encounter](images/add_encounter_button.gif)
+![Add Encounter](images/add_encounter_button.png)
 
 Une fenêtre s’ouvrira pour que vous puissiez sélectionner la rencontre (cette sélection varie selon les programmes auxquels le patient est inscrit), la date de visite, le prescripteur et ajouter des notes pour cette rencontre.
 
 <div class="imagetitle">Dans l’exemple ci-dessous, nous créons une rencontre de soins sur le VIH</div>
 
-![Add Encounter](images/add_encounter.gif)
+![Add Encounter](images/add_encounter.png)
 
 Si la rencontre a lieu dans l’heure précédente, vous serez redirigé vers la page de rencontre ; sinon, vous serez redirigé vers l’onglet de rencontre dans la vue détaillée du patient.
 
@@ -197,7 +197,7 @@ Une fenêtre s’ouvrira, vous invitant à sélectionner le type de contact que 
 
 #### Modifier un contact
 
-![Edit Contact](images/contact_trace.gif)
+![Edit Contact](images/contact_trace.png)
 
 #### Liaison d’un contact à un patient
 
@@ -207,7 +207,7 @@ Une fois qu’un contact a été ajouté à mSupply, il peut être lié au patie
 
 Cela ouvrira une fenêtre de recherche où vous pourrez rechercher le patient souhaité par son prénom, son nom ou son ID. Une fois le patient trouvé, cliquez sur le patient pour le lier au contact.
 
-![Link to Patient](images/link_to_patient.gif)
+![Link to Patient](images/link_to_patient.png)
 
 Si le patient est déjà lié au contact, mais que vous voulez changer de patient parce que vous avez lié le mauvais patient, cliquez sur le bouton `Délier Patient` en haut à droite de l’écran.
 

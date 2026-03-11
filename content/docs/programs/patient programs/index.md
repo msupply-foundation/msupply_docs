@@ -45,7 +45,7 @@ There are five tabs on the patient detail page:
 
 The patient detail page will look very different from the standard patient detail page. This view is highly customisable and can be tailored to specific needs. Please contact your administrator if you would like to customise this view.
 
-![Patient detail](images/patient_detail_view.gif)
+![Patient detail](images/patient_detail_view.png)
 
 There is also a `History` button on the bottom left corner of the patient detail page. Clicking on this button will show you a simple history of changes made to the patient record.
 
@@ -135,7 +135,7 @@ After selecting the program, another window will appear for you to enter program
 In this example, we are enrolling the patient into the HIV Care and Treatment Program.
 </div>
 
-![Program Enrolment](images/hiv_enrolment_form.gif)
+![Program Enrolment](images/hiv_enrolment_form.png)
 
 ### Encounter
 
@@ -168,13 +168,13 @@ Clicking on an encounter will take you to the encounter details.
 
 To add an Encounter for the patient, click the `Add Encounter` button on the top right corner of the screen. Click on the down arrow next to the button and select `Add Encounter` if the button does not say `Add Encounter`.
 
-![Add Encounter](images/add_encounter_button.gif)
+![Add Encounter](images/add_encounter_button.png)
 
 A window will open for you to select the encounter (this selection will vary depending on what programs the patient is enrolled in), visit date, clinician and add notes for this encounter.
 
 <div class="imagetitle">In the below example, we are creating a HIV Care Encounter</div>
 
-![Add Encounter](images/add_encounter.gif)
+![Add Encounter](images/add_encounter.png)
 
 If the encounter is within the last hour, then you will be re-directed to the encounter page, otherwise, you will be re-directed to the encounter tab in the patient detail view.
 
@@ -218,7 +218,9 @@ A window will open, inviting you to select the type of contact you want to add. 
 
 #### Edit a Contact
 
-![Edit Contact](images/contact_trace.gif)
+From here you can edit the various sections related to a contact.
+
+![Edit Contact](images/contact_trace.png)
 
 #### Linking a Contact to a Patient
 
@@ -228,7 +230,7 @@ Once a contact has been added to mSupply, they can then be linked to patient who
 
 This will open a search window where you can search for the patient you want by their first name, last name or patient ID. Once you have found the patient, click on the patient to link them to the contact.
 
-![Link to Patient](images/link_to_patient.gif)
+![Link to Patient](images/link_to_patient.png)
 
 If the patient is already linked to the contact, but you want to change the patient because you linked the wrong patient, click the `Unlink Patient` button on the top right of the screen.
 
@@ -268,7 +270,6 @@ The Vaccination Card includes the following columns:
 To view the details of a specific vaccination, click on that row in the card. This will open a new window containing all the vaccination information.
 
 ![](images/vaccination_edit.png)
-
 
 Note that only the rows where a vaccination has been recorded (as `Given` or `Not given`) will be clickable in this view. New vaccinations are administered from within an encounter.
 

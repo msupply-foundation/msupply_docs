@@ -45,7 +45,7 @@ La página de detalles de un paciente incluye cinco pestañas:
 
 La página de detalles del paciente puede verse muy diferente a la estándar. Esta vista es altamente personalizable y puede adaptarse a necesidades específicas. Contacta a tu administrador si deseas personalizar esta vista.
 
-![Patient detail](images/patient_detail_view.gif)
+![Patient detail](images/patient_detail_view.png)
 
 También hay un botón de `Historial` en la esquina inferior izquierda de la página de detalles del paciente. Al hacer clic en este botón, se mostrará un historial simple de los cambios realizados en el registro del paciente.
 
@@ -135,7 +135,7 @@ Después de seleccionar el programa, aparecerá otra ventana para ingresar infor
 En este ejemplo, estamos inscribiendo al paciente en el Programa de Atención y Tratamiento del VIH.
 </div>
 
-![Program Enrolment](images/hiv_enrolment_form.gif)
+![Program Enrolment](images/hiv_enrolment_form.png)
 
 ### Encuentro
 
@@ -168,13 +168,13 @@ Al hacer clic en un encuentro, serás dirigido a los detalles del mismo.
 
 Para agregar un Encuentro para el paciente, haz clic en el botón `Agregar Encuentro` en la esquina superior derecha de la pantalla. Si el botón no dice `Agregar Encuentro` , haz clic en la flecha hacia abajo junto al botón y selecciona `Agregar Encuentro`.
 
-![Add Encounter](images/add_encounter_button.gif)
+![Add Encounter](images/add_encounter_button.png)
 
 Se abrirá una ventana donde podrás seleccionar el tipo de encuentro (esta selección variará según los programas en los que esté inscrito el paciente), la fecha de la visita, el médico tratante y agregar notas para este encuentro.
 
 <div class="imagetitle">En el siguiente ejemplo, estamos creando un Encuentro de Cuidado del VIH</div>
 
-![Add Encounter](images/add_encounter.gif)
+![Add Encounter](images/add_encounter.png)
 
 Si el encuentro es dentro de la última hora, serás redirigido a la página del encuentro. De lo contrario, serás redirigido a la pestaña de encuentros en la vista de detalles del paciente.
 
@@ -218,7 +218,7 @@ Se abrirá una ventana que te invitará a seleccionar el tipo de contacto que de
 
 #### Editar un Contacto
 
-![Edit Contact](images/contact_trace.gif)
+![Edit Contact](images/contact_trace.png)
 
 #### Vincular un contacto a un paciente
 
@@ -228,7 +228,7 @@ Una vez que un contacto ha sido agregado a mSupply, se puede vincular al pacient
 
 Esto abrirá una ventana de búsqueda donde podrás buscar al paciente por su nombre, apellido o ID de paciente. Una vez que encuentres al paciente, haz clic sobre él para vincularlo al contacto.
 
-![Link to Patient](images/link_to_patient.gif)
+![Link to Patient](images/link_to_patient.png)
 
 Si el paciente ya está vinculado al contacto, pero deseas cambiarlo porque vinculaste al paciente incorrecto, haz clic en el botón `Desvincular Paciente` en la esquina superior derecha de la pantalla.
 
