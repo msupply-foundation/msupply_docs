@@ -68,7 +68,7 @@ You can filter the list of shipments by supplier name, created date or status. T
 
 For example, to filter by supplier name, click on `Filters`, select `Name` and start typing some or all of a supplier name in the `Name` field. All the shipments for this supplier will appear in the list.
 
-![](images/is_filter_list.png)
+![Inbound Shipment list filtered by name showing matching results](images/is_filter_list.png)
 
 ### Exporting Inbound Shipments
 
@@ -110,7 +110,7 @@ You can tell if a supplier is also using Open mSupply in their store. If they do
 In the below example, we are receiving stock from <b>Tamaki Central Medical Store</b>. 
 </div>
 
-![](images/is_select_supplier.png)
+![Supplier search dialog showing search results](images/is_select_supplier.png)
 
 2. Once you have selected a supplier, your Inbound Shipment is created.
 
@@ -124,7 +124,7 @@ If everything went well, you should see the name of your supplier in the top lef
 
 If you have selected the wrong supplier, you can change the supplier name in the `Supplier Name` field or select one the dropdown list:
 
-![](images/is_choose_supplier.png)
+![Inbound shipment supplier dropdown showing a list of available suppliers](images/is_choose_supplier.png)
 
 ### Enter a Supplier Reference
 
@@ -190,7 +190,7 @@ If your store is issuing in foreign currencies follow [these instructions](https
 ![Store preference](../../images/store-pref-issue-in-foreign-currencies.png)
 
 The pen icon will become active once the above instructions have been followed and only if the customer is an external customer. Click on this icon and change to a currency that you would like to issue the shipment in. The currency rate can also be edited if you and the customer have agreed on a different rate.
-![](images/is_change_foreign_currency.png)
+![Foreign Currency dialog showing currency selector and exchange rate fields](images/is_change_foreign_currency.png)
 
 You can also see the foreign currency totals in the invoice line details as well.
 ![Line with Foreign Currency Pricing](images/is_line_with_foreign_currency.png)
@@ -294,7 +294,7 @@ You don't have to update a shipment to next status in the sequence. You can choo
 
 As demonstrated below, tap on the down arrow of the `Confirm` button and select the status you want the shipment to be updated to.
 
-![](images/is_skipstatus.png)
+![Status confirmation dropdown showing options to confirm shipment at different status steps](images/is_skipstatus.png)
 
 ## Adding lines to an Inbound Shipment
 
@@ -523,8 +523,8 @@ To confirm that an Inbound Shipment has been delivered, click on the `Confirm De
 
 Once you have done this:
 
-- Goods are now part of your inventory
 - Shipment status is now `DELIVERED`
+- The shipment can be edited
 
 <div class="note">
 In case your Inbound Shipment is <b>automatic</b>, you cannot confirm its delivery unless the supplier has confirmed its shipment. In other words, your shipment status has to be <code>SHIPPED</code> before you can confirm that you have received the goods. 

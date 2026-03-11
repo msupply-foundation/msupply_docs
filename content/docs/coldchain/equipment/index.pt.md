@@ -61,7 +61,7 @@ Para adicionar um filtro à página, selecioneo filtro desejado no menu colapsad
 
 Os ativos pdoem ser selecionados e excluídos ao clicar nas ações disponíveis na barra de ferramentas.
 
-![](images/delete_rows.png)
+![Lista de equipamentos mostrando o menu Ações com a opção Eliminar linhas selecionadas](images/delete_rows.png)
 
 ### Importar y exportacexportar
 
@@ -69,11 +69,11 @@ Os ativos pdoem ser selecionados e excluídos ao clicar nas ações disponíveis
 
 Os activos da cadeia de fríos posem ser importados de um ficheiro de valores separados por comas (CSV) s utilizando o botão `Importar`
 
-![](images/equipment_import_button.png)
+![Página de equipamentos mostrando o botão Importar destacado](images/equipment_import_button.png)
 
 Isto abrirá uuma janela de importação. Clique em `Fazer download de uma planilha` para exportar uma p[lanilha modelo na qual pode utilizar como base para improtar seus próprios ativos.
 
-![](images/equipment_import_modal.png)
+![Caixa de diálogo de importação de equipamentos de cadeia de frio com área de carregamento de ficheiro e ligação para descarregar modelo](images/equipment_import_modal.png)
 
 Ao importar ativos numa unidade de saúde, estás a designa1-los automaticamente à esta unidade.
 
@@ -94,13 +94,13 @@ O Open mSupply apenas aceitará ficheiros no formato CSV para carregar os dados.
 | **Número de série**              | O número de série desse ativo em particular                    | 123456789ABC            |                   |
 | **Data de instalação**           | A data em que o ativo foi instalado na unidade de saúde        | 2024-01-14              |                   |
 
-![](images/equipment_import_upload.png)
+![Caixa de diálogo de importação com o botão Procurar ficheiros destacado](images/equipment_import_upload.png)
 
 #### Exportar
 
 É possível exportar uma lista de ativos como u m ficheiro csv utilizando o botão `Exportar`.
 
-![](images/export.png)
+![Botão Exportar](images/export.png)
 
 ### Escaneio de códigos QR
 
@@ -123,7 +123,7 @@ Caso encontre encuentre uma duplicata ao escanear, serás dirigido à página de
 
 Os equipamentos de cadeia de frio podem criar-se manualmente usando o botão `Novo Ativo`.
 
-![](images/create_asset_button.png)
+![Botão Novo equipamento](images/create_asset_button.png)
 Ao clicar nesse botão, se abrirá uma janela `Criar Ativo`
 
 Nesta janela, pode-se definir:
@@ -165,7 +165,7 @@ Também é possível visualizar o estado funcional e editar notas.
 
 A aba `Detalhes` mostra as propiedades do ativo.
 
-![](images/equipment_detail.png)
+![Página de detalhe de equipamento mostrando propriedades do ativo incluindo dimensões e dispositivo de monitorização de temperatura](images/equipment_detail.png)
 
 #### Histórico de Estado
 
@@ -199,11 +199,11 @@ Aquí se registram todas as ações realizadas pelos utilizadores para esse ativ
 
 ao clicarn o botão `Atualizar estado`, spode-se criar uma nova entrada para o estado funcional.
 
-![](images/update_status_button.png)
+![Página de detalhe de equipamento mostrando o botão Atualizar estado destacado](images/update_status_button.png)
 
 Mais opções serão oferecidas:
 
-![](images/status_log_modal.png)
+![Caixa de diálogo Atualizar estado com campos de novo estado funcional, motivo e observações](images/status_log_modal.png)
 
 Aquí podes inserir:
 
@@ -213,7 +213,7 @@ Aquí podes inserir:
 
 Também é possîvel carregar documentios adicionais, incluindo fotos, manuais, etc, para esta entrada de estado funcional.
 
-![](images/status_log_document_upload.png)
+![Caixa de diálogo Atualizar estado mostrando a etapa de carregamento de documentos com área de arrastar e largar](images/status_log_document_upload.png)
 
 Estos documentos ficam disponíveis no `Histórico de estados`
 

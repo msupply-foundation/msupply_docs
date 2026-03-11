@@ -54,7 +54,7 @@ If you enter values for both the code and name, the items shown would have to ma
 
 The form also display which preferences the report is based on.
 
-![](images/report_filter.png)
+![Report Filters dialog showing Item Code, Item Name, AMC Lookback Period, Target MOS and Reorder threshold MOS fields](images/report_filter.png)
 
 Click `Ok` to generate the report. If you find that you would like to narrow
 down the report while viewing it, you can click on the `Filter` button on the

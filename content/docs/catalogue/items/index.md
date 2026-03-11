@@ -112,7 +112,7 @@ This tab lists the Master Lists associated with this item.
 
 The item ledger tab shows a history of transactions in this store for the item.
 
-![](images-en/item_ledger.png)
+![Item ledger showing transaction history for Ibuprofen 200mg tablets](images-en/item_ledger.png)
 
 The ledger is divided into 16 columns:
 

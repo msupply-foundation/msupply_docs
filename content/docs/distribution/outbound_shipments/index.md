@@ -220,9 +220,9 @@ The status sequence is located at the bottom left corner of the Outbound Shipmen
 
 Passed statuses are highlighted in blue, next statuses appear in grey.
 
-![](images/os_statussequence2.png)
+![Outbound shipment status sequence showing New, Allocated, Picked, Shipped, Delivered and Verified steps](images/os_statussequence2.png)
 
-![](images/os_statussequence3.png)
+![Outbound shipment status sequence showing current step at Picked](images/os_statussequence3.png)
 
 There are 6 status for the Outbound Shipment, these are listed below alongside the comparable status in mSupply
 
