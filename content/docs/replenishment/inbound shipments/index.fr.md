@@ -268,7 +268,7 @@ Vous n'êtes pas obligé de mettre à jour une livraison au statut suivant dans 
 
 Comme démontré ci-dessous, appuyez sur la flèche vers le bas du bouton `Confirmer` et sélectionnez le statut vers lequel vous voulez que la livraison soit mise à jour.
 
-![](app://5531c08f03d8a6aa9957a150b6f1b5fd4135/Users/marielenigol/Documents/GitHub/msupply_docs/content/docs/replenishment/inbound%20shipments/images/is_skipstatus.png?1754624968005)
+![Status confirmation dropdown showing options to confirm shipment at different status steps](images/is_skipstatus.png)
 
 ## Ajouter des lignes à une Livraison Entrante
 

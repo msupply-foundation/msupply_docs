@@ -24,7 +24,7 @@ They operate fairly independently of each other, but both use the same underlyin
 
 Allows the user to schedule reports to be sent to them at a specified time these reports can contain data using SQL queries from the configured database.
 
-![Alt text](images/sch-setup.png)
+![scheduled reports setup](images/sch-setup.png)
 
 ## Cold Chain
 
