@@ -24,7 +24,7 @@ Los reportes se generan según las preferencias configuradas en el servidor cent
 
 Puedes ver estas preferencias haciendo clic en el botón `Más`.
 
-![report preferences](images/report_preferences.gif)
+![report preferences](images/report_preferences.png)
 
 ## Generar reportes
 
@@ -49,7 +49,7 @@ El formulario también muestra las preferencias en las que se basa el reporte
 
 Haz clic en `Aceptar` para generar el reporte. Si quieres ajustar el reporte mientras lo estás viendo, puedes hacer clic en el botón `Filtrar` en la esquina superior derecha del reporte. Esto abrirá de nuevo el formulario de filtro.
 
-![report detail](images/report_detail.gif)
+![report detail](images/report_detail.png)
 
 ### Imprimir un reporte
 

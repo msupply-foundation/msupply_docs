@@ -60,7 +60,7 @@ Pode filtrar a lista de devoluções por nome ou estado do cliente. Isto pode se
 
 Por exemplo: seleccione o filtro `Nome` na lista para filtrar pelo nome do cliente. Introduza o nome de um cliente no campo `Nome`. Todas as devoluções deste cliente aparecerão na lista.
 
-![Filtro de retorno do cliente](images/ir_filter.gif)
+![Filtro de retorno do cliente](images/ir_filter.png)
 
 ### Exportar Devoluções de Clientes
 
@@ -84,7 +84,7 @@ Pode eliminar uma devolução da lista de Devoluções do Cliente.
 Só pode eliminar devoluções de clientes se estas tiverem o estado <code>NOVO</code>.
 </div>
 
-![Lista de entrada: apagar](images/delete-customer-return.gif)
+![Lista de entrada: apagar](images/delete-customer-return.png)
 
 ## Criação de uma devolução de cliente
 
@@ -112,7 +112,7 @@ Muitas vezes, processará a devolução de mercadorias enviadas através de uma 
 No exemplo abaixo, queremos receber stock devolvido da <b>Clínica Sonserina</b>.
 </div>
 
-![Criar devolução do cliente](images/ir_create.gif)
+![Criar devolução do cliente](images/ir_create.png)
 
 <div class="dica">
 Pode saber se um cliente também está a utilizar o Open mSupply na sua loja. Se o fizerem, verá um ícone como este <img src="images/is_msupplystoreicon.png" alt="Store" style="width:auto"> ao lado do código do cliente.
@@ -143,8 +143,6 @@ Se estiver a utilizar um ecrã grande, o painel de informações será aberto au
 Para abrir o Painel de Informação, pode tocar no botão "Mais", localizado no canto superior direito da vista Devolução do Cliente.
 
 Pode fechar tocando no botão `X Fechar`, no canto superior direito do painel de informação.
-
-![Abrir e fechar o Painel de Informação](images/ir_sidepanel.gif)
 
 #### Informações adicionais
 
@@ -216,7 +214,8 @@ Para devoluções manuais de clientes, não precisa de atualizar para o próximo
 
 Conforme demonstrado abaixo, toque na seta para baixo do botão `Confirmar` e selecione o estado para o qual pretende que a declaração seja atualizada.
 
-![Ignorar estado](images/ir_confirm_skip_status. gif)
+![Skip Status: click](images/ir_confirm_skip_status_1.png)
+![Skip Status: menu](images/ir_confirm_skip_status_2.png)
 
 ## Adicionar linhas a uma devolução de cliente
 
@@ -233,8 +232,6 @@ Toque no botão `Adicionar item` (canto superior direito).
 - ou digitando parte ou todo o código do artigo
 
 Quando o seu item estiver realçado, toque no nome ou prima `Enter`.
-
-![Selecione um item](images/ir_additem.gif)
 
 #### Selecione o passo de quantidades
 
@@ -317,7 +314,9 @@ Se definir todas as quantidades de devolução para `0` e clicar em `Próximo pa
 No exemplo abaixo, estamos a excluir duas linhas
 </div>
 
-![Apagar linhas de retorno do cliente](images/delete-customer-return-line.gif)
+![Deleting customer return lines - selected lines](images/delete-customer-return-line-selected.png)
+
+![Deleting customer return lines - delete notification](images/delete-customer-return-line-deleted.png)
 
 <div class="dica">
  <b></b>Pode eliminar várias linhas de uma só vez. Certifique-se de rever o que está selecionado antes de executar a ação Apagar.
@@ -342,8 +341,6 @@ Depois de fazer isto:
 Caso a sua Devolução do Cliente seja <b>automática</b>, não poderá confirmar a sua entrega a menos que o cliente tenha confirmado o seu envio. Por outras palavras, o estado da sua devolução precisa de ser <code>ENVIADO</code> antes de poder confirmar que recebeu os produtos devolvidos.
 </div>
 
-![Texto alternativo](images/ir_confirmdelivered.gif)
-
 ### Verifique a sua devolução do cliente
 
 A verificação é o último passo para receber mercadorias devolvidas no mSupply. Neste passo, pode verificar o que recebeu e certificar-se de que as informações no mSupply estão corretas.
@@ -367,16 +364,23 @@ Depois de fazer isto:
 Ao visualizar uma declaração específica, pode visualizar os lotes dessa declaração agrupados por artigo ou com cada lote listado separadamente.
 Para alterar o modo de visualização, clique no botão `Agrupar por item`.
 
+![Group by Item button](../../images/table_group_by_item_button.png)
+
 Quando agrupado por item, pode expandir o item para ver lotes individuais ou utilizar a expansão no cabeçalho da tabela para expandir todas as linhas agrupadas.
 
-![Agrupar por item](images/ir_group_by_item.gif)
+![Group by Item](images/ir_group_by_item.png)
 
+Voici à quoi ressemble la vue étendue :
+
+![Group by Item](images/ir_group_by_item_expanded.png)
 Se não tiver espaço suficiente no ecrã ou simplesmente não estiver interessado em algumas das colunas apresentadas, tem a opção de ocultar as colunas que são apresentadas nesta vista.
 
-Clique no botão `Mostrar/ocultar colunas` que se encontra no canto superior direito da tabela. Isto fornece uma lista das colunas disponíveis - pode marcar as colunas que pretende ver. As opções escolhidas são guardadas para o navegador atual, pelo que, da próxima vez que visualizar uma Devolução do Cliente, apenas verá as colunas selecionadas. Se tiver escolhido as colunas a mostrar, o botão será apresentado a azul para o lembrar de que há mais colunas disponíveis.
+Clique no botão `Mostrar/ocultar colunas` que se encontra no canto superior direito da tabela. Isto fornece uma lista das colunas disponíveis - pode marcar as colunas que pretende ver. As opções escolhidas são guardadas para o navegador atual, pelo que, da próxima vez que visualizar uma Devolução do Cliente, apenas verá as colunas selecionadas.
+
+![Hide column button](../../images/table_filter_button.png)
 
 <div class="título da imagem">
 No exemplo abaixo, ocultamos as colunas de lote, validade e quantidade unitária
 </div>
 
-![Ocultar colunas](images/ir_filter_columns.gif)
+![Ocultar colunas](images/ir_filter_columns.png)

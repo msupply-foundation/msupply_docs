@@ -48,7 +48,7 @@ Pode filtrar a lista por nome ou código do artigo, localização ou validade. I
 
 Clique em `Filtros` para mostrar os filtros disponíveis, seleccione uma opção, por exemplo `Código ou Nome`, e introduza o máximo de um nome de artigo ou código no campo `Código ou Nome`:
 
-![Stock: pesquisa](images/stock_search.gif)
+![Stock: pesquisa](images/stock_search.png)
 
 ### Exportação de stock
 

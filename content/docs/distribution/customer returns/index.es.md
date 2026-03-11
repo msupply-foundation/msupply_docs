@@ -60,7 +60,7 @@ Puedes filtrar la lista de Devoluciones de Cliente por nombre o por estado. ¡Es
 
 Por ejemplo: Selecciona el filtro de `Nombre` desde la lista para poder filtrar por el nombre del cliente. Escribe el nombre del cliente en el campo de `Nombre`. Todas las devoluciones de este cliente aparecerán en la lista.
 
-![Customer Return filter](images/ir_filter.gif)
+![Customer Return filter](images/ir_filter.png)
 
 ### Exportar Devoluciones de Cliente
 
@@ -84,7 +84,7 @@ Puedes eliminar una devolución desde la lista de Devoluciones de Cliente.
 Solo puedes eliminar Devoluciones de Cliente si tienen un estado de <code>NUEVO</code>.
 </div>
 
-![Inbound list: delete](images/ir_delete.gif)
+![Eliminar una Devolución de Cliente](images/delete-customer-return.png)
 
 ## Crear una Devolución de Cliente
 
@@ -112,7 +112,7 @@ A menudo, procesarás la devolución de producto que enviaste mediante una Salid
 En el siguiente ejemplo, queremos recibir stock devuelto de <b>Tamaki Central Medical Store</b>. 
 </div>
 
-![Create Customer Return](images/ir_create.gif)
+![Create Customer Return](images/ir_create.png)
 
 <div class="tip">
 Puedes saber si un cliente también está utilizando Open mSupply en su almacén. Si lo hacen, verás un ícono como este <img src="images/is_msupplystoreicon.png" alt="Store" style="width:auto"> junto al código del cliente. 
@@ -143,8 +143,6 @@ Si estás utilizando una pantalla grande, el panel de información se abrirá au
 Para abrir el Panel de Información, puedes presionar el botón `Más`, ubicado en la esquina superior derecha de la vista de Devolución de Cliente.
 
 Puedes cerrarlo presionando el botón `X Cerrar`, en la esquina superior derecha del panel de información.
-
-![Open and close the Information Panel](images/ir_sidepanel.gif)
 
 #### Información Adicional
 
@@ -249,7 +247,8 @@ Para las Devoluciones de Cliente manuales, no es necesario actualizar al siguien
 
 Como se muestra a continuación, toca la flecha hacia abajo del botón `Confirmar` y selecciona el estado al que deseas actualizar la devolución.
 
-![Skip Status](images/ir_confirm_skip_status.gif)
+![Skip Status: click](images/ir_confirm_skip_status_1.png)
+![Skip Status: menu](images/ir_confirm_skip_status_2.png)
 
 ## Agregar líneas a una Devolución de Cliente
 
@@ -266,8 +265,6 @@ Se abrirá una nueva ventana `Agregar Artículo`. En esta ventana puedes buscar 
 - Escribiendo parte o todo el código de un artículo
 
 Una vez que tu ítem esté resaltado, toca el nombre o presiona `Enter`.
-
-![Select an item](images/ir_additem.gif)
 
 #### Paso de Selección de Cantidades
 
@@ -325,7 +322,6 @@ Para editar una línea de devolución, tócala. Se abrirá la ventana `Editar Ar
 
 1. Abre la Devolución de Cliente que deseas editar.
 2. Toca la línea que deseas modificar. Aparecerá una ventana idéntica a la de `Agregar Artículo`. En esta etapa puedes:
-
    - Editar la información del lote
    - Editar la cantidad devuelta para cada lote
    - Hacer clic en `Siguiente Paso` para ver/ajustar los motivos y comentarios
@@ -353,7 +349,7 @@ Si estableces todas las cantidades de devolución en `0`, y haces clic en `Sigui
 En el ejemplo a continuación, estamos eliminando <i>artículo 030063 - Ácido Acetilsalicílico 100 mg tabletas</i>
 </div>
 
-![Alt Text](images/ir_deleteselectedlines.gif)
+![Inbound list: delete](images/delete-customer-return.png)
 
 <div class="tip">
  <b></b> Puedes eliminar múltiples líneas a la vez. Asegúrate de revisar lo que está seleccionado antes de realizar la acción de Eliminar. 
@@ -378,8 +374,6 @@ Una vez que hayas hecho esto:
 En caso de que tu Devolución de Cliente sea <b>automática</b>, no podrás confirmar su entrega a menos que el cliente haya confirmado su envío. En otras palabras, el estado de tu envío debe ser <code>ENVIADO</code> antes de que puedas confirmar que has recibido los bienes devueltos. 
 </div>
 
-![Alt Text](images/ir_confirmdelivered.gif)
-
 ### Verifica tu Devolución de Cliente
 
 La verificación es el último paso para recibir los bienes devueltos en mSupply. En esta etapa, puedes revisar lo que has recibido y asegurarte de que la información en mSupply sea correcta.
@@ -402,16 +396,24 @@ Una vez que hayas hecho esto:
 
 Al ver una devolución específica, puedes ver los lotes de esa devolución agrupados por artículo o con cada lote listado por separado. Para cambiar el modo de vista, haz clic en el botón `Agrupar por Artículo`.
 
-Cuando están agrupados por artículo, puedes expandir el artículo para ver los lotes individuales o utilizar la opción de expandir en el encabezado de la tabla para expandir todas las filas agrupadas.
+![Group by Item button](../../images/table_group_by_item_button.png)
 
-![Group by Item](images/ir_group_by_item.gif)
+Al agrupar por artículo, todos los lotes de un artículo se contraen bajo la fila correspondiente. Una flecha a la izquierda indica que se puede expandir el artículo para ver los lotes.
+
+![Group by Item](images/ir_group_by_item.png)
+
+Así es como se ve la vista ampliada:
+
+![Group by Item](images/ir_group_by_item_expanded.png)
 
 Si no tienes suficiente espacio en tu pantalla o simplemente no estás interesado en algunas de las columnas mostradas, tienes la opción de ocultar las columnas que se muestran en esta vista.
 
-Haz clic en el botón `Mostrar / ocultar columnas` que se encuentra en la parte superior derecha de la tabla. Esto te dará una lista de las columnas disponibles; puedes seleccionar las columnas que deseas ver. Las opciones elegidas se almacenan para el navegador actual, por lo que la próxima vez que visualices una Devolución de Cliente, verás solo las columnas seleccionadas. Si has elegido qué columnas mostrar, entonces el botón se mostrará en azul para recordarte que hay más columnas disponibles.
+Haz clic en el botón `Mostrar / ocultar columnas` que se encuentra en la parte superior derecha de la tabla. Esto te dará una lista de las columnas disponibles; puedes seleccionar las columnas que deseas ver. Las opciones elegidas se almacenan para el navegador actual, por lo que la próxima vez que visualices una Devolución de Cliente, verás solo las columnas seleccionadas.
+
+![Hide column button](../../images/table_filter_button.png)
 
 <div class="imagetitle">
 En el siguiente ejemplo, ocultamos las columnas de lote, fecha de caducidad y cantidad por unidad.
 </div>
 
-![Hide columns](images/ir_filter_columns.gif)
+![Hide columns](images/ir_filter_columns.png)

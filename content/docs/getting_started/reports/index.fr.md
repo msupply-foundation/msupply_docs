@@ -28,7 +28,7 @@ pour plus d'information sur les préférences et comment les configurer.
 
 Vous pouvez voir ces préférences en cliquant sur le bouton `Plus`.
 
-![report preferences](images/report_preferences.gif)
+![report preferences](images/report_preferences.png)
 
 ## Générer des rapports
 
@@ -51,7 +51,7 @@ Le formulaire affiche également les préférences sur lesquelles le rapport est
 ![stock status filter](images/report_filter.png)
 
 Cliquez sur `Ok` pour générer le rapport. Si vous souhaitez affiner le rapport pendant que vous le consultez, vous pouvez cliquer sur le bouton `Filtrer` dans le coin supérieur droit du rapport, ce qui ouvrira à nouveau le formulaire de filtrage.
-![report detail](images/report_detail.gif)
+![report detail](images/report_detail.png)
 
 ### Imprimer un rapport
 

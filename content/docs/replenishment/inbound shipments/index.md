@@ -481,7 +481,7 @@ To edit an Inbound Shipment line, simply tap on it. You will be presented with t
 3. Select the line(s) you want to delete by checking the box(es) on the left of the list
 4. Click the `Delete` button which appears at the bottom of the page.
 
-![Delete inbound shipment line](images/is_delete_inbound_shipment.png)
+![Delete inbound shipment line](images/is_delete_lines.png)
 
 <div class="tip">
 You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
@@ -604,7 +604,7 @@ If you forget to enter a quantity to return for any batch and click `Next step`,
 
 Once you are happy with your quantities to return, you can click `Next step`. The list of batches will be filtered to only include the batches you provided a return quantity for. In this view, you can provide a reason for returning each batch, and an additional comment.
 
-![Alt Text](images/is_return_lines.gif)
+![Alt Text](images/is_return_lines.png)
 
 #### Confirm
 
@@ -618,15 +618,13 @@ When you are happy with the quantities and reasons, you can press on:
 When viewing a specific shipment, you can view the batches on that shipment grouped by item or with each batch listed separately.
 To change the view mode, click the `Group by item` switch.
 
-When grouped by item, you can expand the item to see individual batches, or use the expand in the table header to expand all grouped rows. If you click on an item you will also see all selected batches, as shown in this example:
-
-![Group by Item](images/is_group_by_item.gif)
+When grouped by item, you can expand the item to see individual batches, or use the expand in the table header to expand all grouped rows.
 
 If you do not have enough room on your screen, or simply aren't interested in some of the columns shown, you have the option of hiding which columns are shown in this view.
 
 Click on the `Show / hide columns` button which is at the top right of the table. This gives a list of the columns available - you can check the columns you want to see. The options chosen are stored for the current browser, so next time you view an inbound shipment, you will see the selected columns only. If you have chosen which columns to show, then the button is shown in blue to remind you that there are more columns available.
 
-![Hide columns](images/is_show_hide_columns.gif)
+![Hide columns](images/is_show_hide_columns.png)
 
 ## Track stock by donor
 

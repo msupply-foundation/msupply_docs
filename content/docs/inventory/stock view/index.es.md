@@ -44,4 +44,4 @@ Puedes filtrar la lista por nombre o código del artículo. Esto puede ser útil
 
 Escribe parte del nombre o código del artículo en el campo `Ingresar código o nombre del artículo`:
 
-![Stock: search](images/stock_search.gif)
+![Stock: search](images/stock_search.png)

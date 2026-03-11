@@ -63,7 +63,7 @@ Once the scanner is started you can scan items. Each time a barcode is detected 
 
 In addition, if the scanned barcode provides batch information and a match exists in your database, then all other batch lines are disabled, and the matching line is focused.
 
-![Adding items by scanning](images/add-item-by-barcode.gif)
+![Adding items by scanning](images/add-item-by-barcode.png)
 
 After entering a quantity of the item, click `Ok` as usual.
 
