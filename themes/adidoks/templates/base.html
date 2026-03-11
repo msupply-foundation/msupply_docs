@@ -12,7 +12,7 @@
 {% import 'macros/search.html' as macros_search -%}
 {% import 'macros/language-selector.html' as macros_language_selector -%}
 <!DOCTYPE html>
-<html lang="{{ config.extra.language_code | default(value="en-US") }}">
+<html lang="{{ lang | default(value=config.extra.language_code) }}">
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-CLRMTHZS7H"></script>
   <script>
