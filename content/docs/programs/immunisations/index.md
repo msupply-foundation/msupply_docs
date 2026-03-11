@@ -23,7 +23,7 @@ For GAPS functionality, you will only need to configure a new Master List, and m
 
 For Immunization [Patient Programs](/docs/programs/program-module), contact your administrator to get set up.
 
-Once the base Immunization Program is created, it can be further configured in the [Open mSupply Central Server](docs/getting_started/central-server). See the <a href="#permissions-restrictions">Permissions & Restrictions</a> section for more details.
+Once the base Immunization Program is created, it can be further configured in the [Open mSupply Central Server](/docs/getting_started/central-server). See the <a href="#permissions-restrictions">Permissions & Restrictions</a> section for more details.
 
 ## Viewing Immunization Programs
 
@@ -96,6 +96,8 @@ The Dose Schedule table is divided into 6 columns:
 Once you are happy with the Vaccine Course details, click OK to save the new Vaccine Course.
 
 Click `Cancel` at any time to close the window and discard your changes.
+
+<div class="note">When adding items to the <strong>Vaccine items</strong> field - this is providing alternative items to be dispensed. It does not mean that every item selected is dispensed for a dose. e.g. if you have two different manufacturers who supply a particular vaccine - you may want to add both as vaccine items. This will not double the number of doses!</div>
 
 ### Editing a Vaccine Course
 

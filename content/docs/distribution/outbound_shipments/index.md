@@ -53,6 +53,10 @@ From this screen you can:
 | **Comment**   | Comment for the shipment         |
 | **Total**     | Total value of the shipment      |
 
+<div class="note">
+Existing statuses will still show if you already have Outbound Shipments in your system before you configure invoice statuses for your store.
+</div>
+
 ### Search by Name or Status
 
 You can filter the list of shipments by customer name or by status. This can be useful if you're looking for one particular shipment!
@@ -216,9 +220,9 @@ The status sequence is located at the bottom left corner of the Outbound Shipmen
 
 Passed statuses are highlighted in blue, next statuses appear in grey.
 
-![](images/os_statussequence2.png)
+![Outbound shipment status sequence showing New, Allocated, Picked, Shipped, Delivered and Verified steps](images/os_statussequence2.png)
 
-![](images/os_statussequence3.png)
+![Outbound shipment status sequence showing current step at Picked](images/os_statussequence3.png)
 
 There are 6 status for the Outbound Shipment, these are listed below alongside the comparable status in mSupply
 
@@ -230,6 +234,10 @@ There are 6 status for the Outbound Shipment, these are listed below alongside t
 | **Shipped**   | Shipment has been shipped.                                                                                      |   fn    |          |
 | **Delivered** | Your customer has received the shipment. Goods are now part of their inventory                                  |   fn    |          |
 | **Verified**  | Your customer has verified the quantity of the shipment.                                                        |   fn    |          |
+
+<div class="note">
+Statuses will default to the previously available status if you have limited the available statuses in your store preferences. 
+</div>
 
 If you hover over the status sequence, a shipment history window appears. You can see the date when a shipment was updated from one status to another.
 
@@ -668,3 +676,45 @@ If you do not have enough room on your screen, or simply aren't interested in so
 Click on the `Show / hide columns` button which is at the top right of the table. This gives a list of the columns available - you can check the columns you want to see. The options chosen are stored for the current browser, so next time you view an Outbound Shipment, you will see the selected columns only. If you have chosen which columns to show, then the button is shown in blue to remind you that there are more columns available.
 
 ![Hide columns](images/os_show_hide_columns.gif)
+
+### View or Edit the Requisition Information Panel
+
+The information Panel allows you to see or edit information about the
+outbound shipment. It is divided into five sections:
+
+- Additional Info
+- Related documents
+- Invoice Details
+- Transport Details
+- Actions
+
+#### Additional Info
+
+In the **Additional Info** section you can:
+
+- See who created the Outbound shipment (name of the user)
+- See when the Outbound shipment was created
+- View and edit the Outbound shipment colour. To edit the colour, tap on the coloured
+  circle and select a colour from the pop-up
+- Write or edit a comment
+
+#### Related Documents
+
+In the **Related Documents** section you can see other related transactions for
+the Outbound shipment.
+
+If you the shipment was created from a Requisition you will see the Requisition number and a link to view the Requisition.
+
+#### Invoice Details
+
+This section lists the service changes, sell price, total price and foreign currency if applicable.
+
+#### Transport Details
+
+The **Transport Details** section is where you can enter the expected delivery date and a reference for the delivery.
+
+#### Actions
+
+- You can tap on the **Copy to Clipboard** button to copy
+  the Requisition details to the clipboard.
+- You can **Delete** the Outbound shipment if it is not in the `Verified` status.

@@ -105,7 +105,7 @@ stock from customers for internal orders` enabled
 Then you will see an extra table underneath the input fields which shows the
 customer's data based on their program requisitions for that period.
 
-![](images/internal_order_item_info.png)
+![Internal order item info panel for Ibuprofen 200mg tablets showing stock levels, AMC, MOS and requested quantity](images/internal_order_item_info.png)
 
 The table has 6 columns:
 
@@ -178,7 +178,7 @@ Enabling the preference will show the extra columns on the requisition list page
 | **Days out of stock**     | (Target MOS \* AMC) - available stock                                                                        |
 | **AMC**                   | The customer's average monthly consumption for this item                                                     |
 | **MOS**                   | Months of stock for the item                                                                                 |
-| **Reason**                | A reason will be provided if their is a difference between the suggested quantity and the requested quantity |
+| **Reason**                | A reason will be provided if there is a difference between the suggested quantity and the requested quantity |
 
 The line edit page will also contain the extra columns as well.
 

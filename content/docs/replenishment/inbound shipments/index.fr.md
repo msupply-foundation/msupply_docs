@@ -58,7 +58,7 @@ La liste des livraisons comprend 7 colonnes:
 Vous pouvez filtrer la liste des livraisons par nom de fournisseur. Cela peut être utile si vous recherchez une livraison en particulier !
 
 Saisissez le nom du fournisseur dans le champ `Chercher par Nom` (à gauche, juste au-dessus des en-têtes de liste). Toutes les livraisons de ce fournisseur apparaîtront dans la liste.
-![](images/is_filter_list.png)
+![Liste des réceptions filtrée par nom affichant les résultats correspondants](images/is_filter_list.png)
 
 ### Exporter la liste des livraisons
 
@@ -100,7 +100,7 @@ Vous pouvez savoir si un fournisseur utilise également mSupply dans son dépôt
 Dans l'exemple ci-dessous, nous recevons du stock de <b>Tamaki Central Medical Store</b>. 
 </div>
 
-![](images/is_select_supplier.png)
+![Boîte de dialogue de recherche de fournisseur affichant les résultats de recherche](images/is_select_supplier.png)
 
 2. Une fois que vous avez sélectionné un Fournisseur, la livraison est créée.
 
@@ -114,7 +114,7 @@ Si tout s'est bien passé, vous devriez voir le nom de votre fournisseur dans le
 
 Si vous n'avez pas sélectionné le bon fournisseur, vous pouvez toujours modifié le nom du fournisseur dans le champs `Nom du fournisseur` ou sélectionner un autre:
 
-![](images/is_choose_supplier.png)
+![Menu déroulant de fournisseur pour une réception montrant la liste des fournisseurs disponibles](images/is_choose_supplier.png)
 
 ### Saisir une référence fournisseur
 
@@ -179,7 +179,7 @@ Si votre dépôt émet dans des devises étrangères, suivez [ces instructions](
 ![Store preference](../../images/store-pref-issue-in-foreign-currencies.png)
 
 L'icône crayon deviendra active une fois que les instructions ci-dessus ont été suivies et seulement si le client est un client externe. Cliquez sur cette icône et changez pour une devise dans laquelle vous souhaitez traiter la livraison. Le taux de change peut également être modifié si vous et le client avez convenu d'un taux différent.
-![](images/is_change_foreign_currency.png)
+![Boîte de dialogue Devise étrangère montrant le sélecteur de devise et les champs de taux de change](images/is_change_foreign_currency.png)
 
 Vous pouvez également voir les totaux en devise étrangère dans les détails de ligne de facture. ![Line with Foreign Currency Pricing](images/is_line_with_foreign_currency.png)
 
@@ -268,7 +268,7 @@ Vous n'êtes pas obligé de mettre à jour une livraison au statut suivant dans 
 
 Comme démontré ci-dessous, appuyez sur la flèche vers le bas du bouton `Confirmer` et sélectionnez le statut vers lequel vous voulez que la livraison soit mise à jour.
 
-![](app://5531c08f03d8a6aa9957a150b6f1b5fd4135/Users/marielenigol/Documents/GitHub/msupply_docs/content/docs/replenishment/inbound%20shipments/images/is_skipstatus.png?1754624968005)
+![Status confirmation dropdown showing options to confirm shipment at different status steps](images/is_skipstatus.png)
 
 ## Ajouter des lignes à une Livraison Entrante
 

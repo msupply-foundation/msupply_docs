@@ -61,13 +61,23 @@ Toggle the preferences on or off as required, and close when you are finished.
 
 ### Available Preferences
 
-| Preference Name                                      | Description                                                                                                                                                                                           |
-| :--------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Manage vaccines in doses**                         | View stock levels and transactions for vaccine items in doses, rather than units or packs                                                                                                             |
-| **Manage VVM status for stock**                      | Enables a `VVM status` field on stock                                                                                                                                                                 |
-| **Sort available batches by VVM status then expiry** | Auto-allocation in Outbound Shipments and Prescriptions uses VVM status first, then FEFO                                                                                                              |
-| **Use simplified mobile UI**                         | On by default. Reduces number of fields and elements visible when using Open mSupply on a tablet. Requires the `Set pack to one for all visible items in this store` Legacy mSupply store preference. |
-| **Use procurement functionality**                    | Enable access to `Purchase Order` features                                                                                                                                                            |
+| Preference Name                                                                      | Description                                                                                                                                                                              |
+| :----------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Manage vaccines in doses**                                                         | View stock levels and transactions for vaccine items in doses, rather than units or packs                                                                                                |
+| **Manage VVM status for stock**                                                      | Enables a `VVM status` field on stock                                                                                                                                                    |
+| **Order in packs**                                                                   | Defaults the Internal Order/Requisition representation to packs instead of units                                                                                                         |
+| **Use procurement functionality**                                                    | Enables procurement functionality including Purchase Orders and Goods Received                                                                                                           |
+| **Can create Internal Order from a Requisition**                                     | Allows users to create an Internal Order from a Requisition                                                                                                                              |
+| **Select destination store for an Internal Order**                                   | Allows users to select the destination store when creating an Internal Order from a Requisition to change the destination of the supplier's Outbound Shipment                            |
+| **Sort available batches by VVM status then expiry**                                 | Auto-allocation in Outbound Shipments and Prescriptions uses VVM status first, then FEFO                                                                                                 |
+| **Use simplified mobile UI**                                                         | Reduces number of fields and elements for tablets. Requires legacy store preference.                                                                                                     |
+| **Number of months to check for consumption when calculating out of stock products** | Sets how many past months are checked for item usage. If an item was used but is now out of stock, it will be flagged as out of stock on the Dashboard.                                  |
+| **Number of months threshold to show low stock alerts for products**                 | Flags products as low stock if their months of stock are below the set threshold.                                                                                                        |
+| **Batches expiring in between days**                                                 |                                                                                                                                                                                          |
+| • First threshold for expiring items (days)                                          | Days before expiry to start flagging as "expiring soon." Used in the `Expiring Stock` widget. Note that the widget isn't displayed if both of these threshold settings are unconfigured. |
+| • Second threshold for expiring items (days)                                         | Days before expiry to stop flagging as "expiring soon." Used in Expiring Stock widget.                                                                                                   |
+| **Invoice status options**                                                           | Configure which invoice statuses are available for Outbound shipments / supplier returns, and inbound shipments / customer return.                                                       |
+| **Use procurement functionality**                                                    | Enable access to `Purchase Order` features 
 
 <div class='note'>
 Most store preferences are still managed through the Legacy mSupply central server (see the <a href="/docs/settings/configuration/#store-preferences">list of preferences</a>). Only new store preferences for Open mSupply are configured on Open mSupply central server for now. All store preferences will be migrated to Open mSupply in a future version.
@@ -77,7 +87,7 @@ Most store preferences are still managed through the Legacy mSupply central serv
 
 To edit the properties of a store in the list, click on it. This will open a new `Edit Store` window.
 
-![](images/facilities-no-properties-defined.png)
+![Facility Properties tab showing no properties defined](images/facilities-no-properties-defined.png)
 
 From this window, you can edit the store properties.
 

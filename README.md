@@ -3,6 +3,8 @@
 This repo contains the public documentation for Open mSupply, hosted on [docs.msupply.foundation](https://docs.msupply.foundation/docs/introduction/).
 Documentation is stored in markdown files and built using [zola](https://www.getzola.org/documentation/getting-started/installation/)
 
+There is also a staging url, for staging for docs in 'staging' branch: https://docs-staging.msupply.foundation
+
 ## Getting Started
 
 This process has become slightly convoluted because zola to beginwith, but further because we use an outdated version of zola and installing it locally is no longer straightforward. We must use no more than version 17.2 of Zola, not 19.2 which is the latest as of writing.

@@ -42,7 +42,7 @@ Si el menú está cerrado, simplemente pasar el cursor sobre los elementos del m
 
 ![Main navigation](images/main_nav.png)
 
-En algunas pantallas verás que el encabezado muestra un título, como **Salida** in the example above. en el ejemplo anterior. Al hacer clic en un envío específico, el título cambiará a **Salida/ #[número de envío]**. Puedes hacer clic en la parte **Salida** para volver a la lista o utilizar la navegación principal a la izquierda.
+En algunas pantallas verás que el encabezado muestra un encabezado, como **Pedidos internos** en el ejemplo anterior. Al hacer clic en un pedido específico, ese encabezado cambia a **Pedidos internos / #[el número de pedido]**. Puede hacer clic en la parte **Pedidos internos** para regresar a la lista o utilizar la navegación principal a la izquierda.
 
 ### Atajos de teclado
 

@@ -79,12 +79,12 @@ Select assets to delete them:
 
 Cold chain assets can be imported from a comma-separated-value (csv) file using the `Import` button
 
-![](images/equipment_import_button.png)
+![Equipment page showing Import button highlighted](images/equipment_import_button.png)
 
 This will open an import modal. Click on `Download a template` to download a csv
 template which can be used to import assets.
 
-![](images/equipment_import_modal.png)
+![Import cold chain equipment dialog showing file upload area with Download a template link](images/equipment_import_modal.png)
 
 Assets are automatically assigned to the logged in store.
 
@@ -109,7 +109,7 @@ Information will need to be entered in the format provided by the csv template i
 
 When you are ready, drag and drop the csv file into the modal or click on the `Browse files` button to select the file from your computer.
 
-![](images/equipment_import_upload.png)
+![Import cold chain equipment dialog showing file upload with Browse files button highlighted](images/equipment_import_upload.png)
 
 #### If things go wrong
 
@@ -119,7 +119,7 @@ Sometimes errors occur when importing CCE assets. Here are some common errors yo
 
 After uploading your CSV file, your data will be validated and displayed to you to review. At this step, if the data in your uploaded file is not valid, you will see an error message and won't be able to continue to the import step.
 
-![](images/cce_import_error.png)
+![Import cold chain equipment dialog showing import errors with error messages](images/cce_import_error.png)
 
 Common mistakes here are uploading a file type other than CSV, or if you included some duplicate asset numbers in your file. You'll see these errors in the `Error message` column.
 
@@ -131,7 +131,7 @@ Once you have corrected the errors, you can go back to the `Upload` tab to uploa
 
 If certain data is missing or incorrect (such as the installation date and other date columns) you'll see a warning message rather than an error. This is because the asset can still be created without these date fields, but it's recommended to include them.
 
-![](images/cce_import_warning.png)
+![Import cold chain equipment dialog showing warnings for assets with installation date issues](images/cce_import_warning.png)
 
 There will be a `Warning` column, which will alert you to which fields are missing or incorrect. You can still proceed with the import with this missing data if you wish.
 
@@ -141,7 +141,7 @@ There will be a `Warning` column, which will alert you to which fields are missi
 
 The import step is where the new cold chain assets are actually created in the system. If there are any errors at this step, you'll see a message like this:
 
-![](images/cce_failed_to_import.png)
+![Import cold chain equipment dialog showing failed import with error messages](images/cce_failed_to_import.png)
 
 This usually happens when you have an asset in your import file which has the same asset number as an existing asset. You'll see the error message in the `Error message` column. Again, you can export a CSV file with the error messages to investigate what went wrong.
 
@@ -149,7 +149,7 @@ This usually happens when you have an asset in your import file which has the sa
 
 A list of existing assets can be exported as a csv using the `Export` button.
 
-![](images/export.png)
+![Export button](images/export.png)
 
 ### QR code scanning
 
@@ -172,7 +172,7 @@ If a match is found when you scan, you'll be taken to the detail page for that c
 
 Cold chain assets can be created manually with the `New Asset` button.
 
-![](images/create_asset_button.png)
+![New Asset button](images/create_asset_button.png)
 
 Clicking this button will open the `Create Asset` modal
 
@@ -215,7 +215,7 @@ You can also view the functional status and edit notes on the status.
 
 The `Details` tab shows the asset properties.
 
-![](images/equipment_detail.png)
+![Equipment detail page showing asset properties including dimensions and temperature monitoring device](images/equipment_detail.png)
 
 #### Status History
 
@@ -258,11 +258,11 @@ This records all user actions which have been taken for this asset using the Ope
 
 Clicking on the `Update Status` button allows the user to submit a new `functional status report` for the CCE.
 
-![](images/update_status_button.png)
+![Equipment detail page showing Update Status button highlighted](images/update_status_button.png)
 
 This will open the functional status report modal.
 
-![](images/status_log_modal.png)
+![Update Status dialog showing new functional status, reason and observations fields](images/status_log_modal.png)
 
 Here you can enter:
 
@@ -272,7 +272,7 @@ Here you can enter:
 
 Additional documents including photos can also be uploaded for this functional status report
 
-![](images/status_log_document_upload.png)
+![Update Status dialog showing document upload step with drag and drop area](images/status_log_document_upload.png)
 
 These documents can be viewed in the `Status History` tab
 

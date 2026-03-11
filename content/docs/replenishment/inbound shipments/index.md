@@ -50,6 +50,10 @@ The Inbound Shipments list is divided into 7 columns:
 | **Reference** | This will contain the supplier invoice number if it was created automatically |
 | **Total**     | Total value of the shipment                                                   |
 
+<div class="note">
+Existing statuses will still show if you already have Inbound Shipments in your system before you configure invoice statuses for your store.
+</div>
+
 2. The list can display a fixed number of shipments per page. On the bottom left corner, you can see how many shipments are currently displayed on your screen.
 
 3. If you have more shipments than the current limit, you can navigate to the other pages by clicking on the page number or using the right of left arrows (bottom right corner).
@@ -64,7 +68,7 @@ You can filter the list of shipments by supplier name, created date or status. T
 
 For example, to filter by supplier name, click on `Filters`, select `Name` and start typing some or all of a supplier name in the `Name` field. All the shipments for this supplier will appear in the list.
 
-![](images/is_filter_list.png)
+![Inbound Shipment list filtered by name showing matching results](images/is_filter_list.png)
 
 ### Exporting Inbound Shipments
 
@@ -106,7 +110,7 @@ You can tell if a supplier is also using Open mSupply in their store. If they do
 In the below example, we are receiving stock from <b>Tamaki Central Medical Store</b>. 
 </div>
 
-![](images/is_select_supplier.png)
+![Supplier search dialog showing search results](images/is_select_supplier.png)
 
 2. Once you have selected a supplier, your Inbound Shipment is created.
 
@@ -120,7 +124,7 @@ If everything went well, you should see the name of your supplier in the top lef
 
 If you have selected the wrong supplier, you can change the supplier name in the `Supplier Name` field or select one the dropdown list:
 
-![](images/is_choose_supplier.png)
+![Inbound shipment supplier dropdown showing a list of available suppliers](images/is_choose_supplier.png)
 
 ### Enter a Supplier Reference
 
@@ -186,7 +190,7 @@ If your store is issuing in foreign currencies follow [these instructions](https
 ![Store preference](../../images/store-pref-issue-in-foreign-currencies.png)
 
 The pen icon will become active once the above instructions have been followed and only if the customer is an external customer. Click on this icon and change to a currency that you would like to issue the shipment in. The currency rate can also be edited if you and the customer have agreed on a different rate.
-![](images/is_change_foreign_currency.png)
+![Foreign Currency dialog showing currency selector and exchange rate fields](images/is_change_foreign_currency.png)
 
 You can also see the foreign currency totals in the invoice line details as well.
 ![Line with Foreign Currency Pricing](images/is_line_with_foreign_currency.png)
@@ -223,6 +227,10 @@ There are 6 statuses for the Inbound Shipments (although you might see a smaller
 | **Delivered** | When you confirm that the shipment has been delivered.                                                             |   sg    |    ✓     |
 | **Received**  | When you confirm that the shipment has been validated. Goods are now part of your inventory.                       |   cn    |    ✓     |
 | **Verified**  | When you have verified the Inbound Shipment                                                                        |   fn    |          |
+
+<div class="note">
+Statuses will default to the previously available status if you have limited the available statuses in your store preferences. 
+</div>
 
 You probably noticed that two of the status values only apply to automatically created shipments. These are created by the system when another store in the system creates an Outbound Shipment to deliver stock to your store. If this is the case you'll see a message near the top of the page:
 
@@ -286,7 +294,7 @@ You don't have to update a shipment to next status in the sequence. You can choo
 
 As demonstrated below, tap on the down arrow of the `Confirm` button and select the status you want the shipment to be updated to.
 
-![](images/is_skipstatus.png)
+![Status confirmation dropdown showing options to confirm shipment at different status steps](images/is_skipstatus.png)
 
 ## Adding lines to an Inbound Shipment
 
@@ -344,7 +352,7 @@ The additional column available with the `Manage Vvm Status For Stock` preferenc
 VVM Statuses must also be configured in mSupply by adding a status to the <a href="https://docs.msupply.org.nz/cold_chain_equipment:configure">Vaccine vial monitor list</a>. 
 </div>
 
-Selecting a VVM Status in an inbound shipment will generate a VVM Status log. One log will be recorded per batch for the inbound shipment (at shipment status Delivered). Logs can be viewed and edited by selecting the item in `View Stock` and selecting the `Status History` tab.
+Selecting a VVM Status in an inbound shipment will generate a VVM Status log. One log will be recorded per batch for the inbound shipment (at shipment status Delivered). Logs can be viewed and edited by selecting the item in `Stock` and selecting the `Status History` tab.
 
 #### Adding Batches
 
@@ -374,6 +382,25 @@ In the below example, the first line's cost price is $0.01 per unit and the sell
 ![Add Item pricing](images/is_additem_pricing.png)
 
 <div class="tip">The <code>Received pack size</code> and <code>Pack sell price</code> will default to the values specified as <a href="https://docs.msupply.org.nz/items:item_basics:tab_storage?s%5B%5D=preferred&s%5B%5D=pack&s%5B%5D=size#preferred_pack_size">Preferred pack size</a> and <a href="https://docs.msupply.org.nz/items:item_basics:tab_general#default_sell_price_of_preferred_pack_size">Default sell price of preferred pack size</a> if these have been specified for the current item.</div>
+
+#### Pricing on Transferred Shipments
+
+When an Inbound shipment is transferred (the result of an Outbound shipment from another store) the pricing for the incoming stock may already be calculated. There are several ways this pricing can be configured.
+
+The following logic is used to determine the sell price on inbound transfer invoices:
+
+1. If a `default sell price per pack` is set for the item in the receiving store, this price is always used. If the pack size of the inbound invoice line differs from the pack size of the default sell price, the price is adjusted accordingly.
+
+2. If the item has a `margin` set instead, this margin is added to the cost price (the outbound invoice sell price). This margin could be either:
+
+- A margin for the item (configured in the item settings for the receiving store in mSupply)
+- A margin for items received from the supplier (set on the supplier's store in mSupply)
+
+  Which of these margins has priority is determined by the [Global preference](/docs/manage/global-preferences/) `Item margin overrides supplier margin`. If this preference is enabled, the item margin is used, otherwise the supplier margin is used. If only one of these margins is set, it is used regardless of the global preference setting.
+
+3. If neither a default sell price nor a margin is set, the inbound invoice line sell price will be the same as the outbound invoice line sell price.
+
+These calculated prices are editable when receiving the inbound shipment, up until it is verified.
 
 ### Other tab
 
@@ -440,7 +467,6 @@ To edit an Inbound Shipment line, simply tap on it. You will be presented with t
 
 1. Open the Inbound Shipment you want to edit
 2. Tap on the line you want to edit. An identical window to `Add Item` appears. At this stage:
-
    - Edit the main `Issue Quantity` field
    - or change the number of packs value at the batch number level
 
@@ -497,16 +523,29 @@ To confirm that an Inbound Shipment has been delivered, click on the `Confirm De
 
 Once you have done this:
 
-- Goods are now part of your inventory
 - Shipment status is now `DELIVERED`
+- The shipment can be edited
 
 <div class="note">
 In case your Inbound Shipment is <b>automatic</b>, you cannot confirm its delivery unless the supplier has confirmed its shipment. In other words, your shipment status has to be <code>SHIPPED</code> before you can confirm that you have received the goods. 
 </div>
 
 <div class="note">
-Any unallocated lines with a 0 number of packs value will automatically be removed for you when you confirm.
+Any unallocated lines with a 0 number of packs value will automatically be removed for you when you confirm delivery.
 </div>
+
+### Receive goods on the Inbound Shipment
+
+Once the shipment has been marked as `DELIVERED` items on the shipment can be physically inspected to confirm the correct items and quantities have been delivered.
+
+Once you have inspected the goods which are part of the shipment, you can confirm the Shipment as `RECEIVED` by tapping on the `Confirm Received` button.
+
+Once you have done this:
+
+- Shipment status is now `RECEIVED`
+- The items on the shipment are added to your stock on hand and are available for distribution
+
+<div class="note">If a batch has been distributed (for example is part of an outbound shipment) then you are not permitted to edit the details. It is a good idea to check incoming stock and adjust the details on the shipment as soon as you can after the shipment arrives.</div>
 
 ### Verify your Inbound Shipment
 
@@ -613,3 +652,48 @@ When editing a line on the shipment, the `Other` tab will have a `Donor` selecti
 ![Donor per line](images/edit_line_donor.png)
 
 Simply select the donor for that stock line.
+
+## Linking an internal order
+
+If the [store preference](/docs/settings/configuration/#store-preferences) `Can manually link requisition to supplier invoice` is enabled in the current store, then it is possible to link a manually created inbound shipment to an internal order.
+
+This allows you to create a link between the internal order and inbound shipment and also lets you easily add all items which are on the order to this inbound shipment.
+
+### How to link an internal order
+
+Ensure that the store preference mentioned above is enabled.
+
+Click the `New Shipment` button to create a new manual inbound shipment and select a supplier as usual. With the preference enabled you will then see a new screen showing all internal orders which this store has created for the selected supplier.
+
+<div class="note">Only orders in the <i>Sent</i> status are shown in the list</div>
+
+![Select internal order](images/linked_internal_orders.png)
+
+From this window you can
+
+- Click **Cancel** to stop creating the inbound shipment
+- Click **Next** to continue creating without linking an internal order
+- Click on one of the internal order lines in the table - this will link the order to the newly created inbound shipment
+
+### Working with a linked inbound shipment
+
+A link to the internal order is shown in the _Related documents_ section of the _More info_ panel:
+
+![Related documents link](images/linked_related_docs.png)
+
+and a corresponding link is shown on the internal order, allowing you to quickly move between the two.
+
+Once the shipment and order are linked you are able to add lines from the internal order to the shipment.
+Click the arrow beside the **Add Item** button to expand it and view the other options:
+
+![Add from internal order](images/linked_add_from_order.png)
+
+Click the option **Add from Internal Order**.
+
+A windows is shown which lists all of the item lines in the internal order. You can then click the checkboxes to select which lines to add to the shipment.
+
+<div class="tip">You can click the top checkbox to select or deselect all lines</div>
+
+![Add lines from internal order](images/linked_add_lines.png)
+
+Click the **Select** button to add the lines to the shipment.

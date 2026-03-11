@@ -43,7 +43,7 @@ Se o menu estiver fechado, basta passar o rato sobre os itens do menu para o abr
 
 ![Navegação principal](images/main_nav.png)
 
-Em alguns ecrãs, verá que o cabeçalho mostra um título, como **Remessa de saída** no exemplo acima. Clicar numa remessa específica altera o título para **Remessa de saída / #[número da remessa]**. Pode clicar na parte **Envio de saída** para voltar à lista ou utilizar a navegação principal à esquerda.
+Em algumas telas você verá que o cabeçalho mostra um título, como **Ordens Internas** no exemplo acima. Clicar em um pedido específico altera o título para **Pedidos internos / #[o número do pedido]**. Você pode clicar na parte **Ordens Internas** para retornar à lista - ou usar a navegação principal à esquerda.
 
 ### Atalhos de teclado
 

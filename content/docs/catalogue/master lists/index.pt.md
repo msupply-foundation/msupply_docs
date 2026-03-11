@@ -15,12 +15,12 @@ Listas mestras são listas padrão de artigos que podem apenas serem definidas a
 
 Vá até `Catálogo` > `Listas Mestras` no painel de navegação:
 
-![](images-en/cat_gotoml.png)
+![Barra de navegação mostrando Listas mestre em destaque sob Catálogo](images-en/cat_gotoml.png)
 
 Verás uma janelas como esta:
 
-![](images-en/cat_mllist.png)
+![Página de Listas mestre mostrando as listas disponíveis](images-en/cat_mllist.png)
 
 Para visualizar todos os artigos de uma lista mestra, clique em uma:
 
-![](images-en/cat_mldetail.png)
+![Detalhe de lista mestre mostrando artigos com códigos, nomes e unidades](images-en/cat_mldetail.png)

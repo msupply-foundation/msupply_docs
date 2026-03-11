@@ -88,6 +88,6 @@ The three buttons across the top allow you to easily filter by volume:
 | EMPTY     | Will only show locations which have no stock in them               |
 | AVAILABLE | Shows locations which have enough capacity to store the stock line |
 
-<div class="note">The calculation of the available space requires the correct volume of the location to be specified and that all of the stock in that location has a volume recorded</div>
+<div class="note">The calculation of the available space requires the correct volume of the location to be specified and that all of the stock in that location has a <a href="/docs/inventory/stock-view/#volume-per-pack">volume recorded</a></div>
 
 Also note that items can have a [restricted location type](https://docs.msupply.org.nz/items:item_basics:tab_storage?s[]=restricted&s[]=location&s[]=type#restricted_to) configured. When selecting a location for these items, only locations with the same type will be shown in the picker.

@@ -44,7 +44,7 @@ Si le menu est fermé, il suffit de survoler les éléments du menu pour l'ouvri
 
 ![Main navigation](images/main_nav.png)
 
-Sur certains écrans, vous verrez afficher un libellé en en-tête, tel que **Expédition** dans l'exemple ci-avant. En cliquant sur une expédition spécifique de la liste, vous changez cet en-tête en **Expédition/ #[le numéro d'expédition]**. Vous pouvez cliquer sur **Expédition** pour retourner à la liste - ou utiliser le menu de navigation à gauche.
+Sur certains écrans, vous verrez que l'en-tête affiche un titre, tel que **Commandes internes** dans l'exemple ci-dessus. Cliquer sur une commande spécifique modifie ensuite cet en-tête en **Commandes internes / #[le numéro de commande]**. Vous pouvez cliquer sur la partie **Commandes internes** pour revenir à la liste - ou utiliser la navigation principale à gauche.
 
 ### Raccourcis clavier
 

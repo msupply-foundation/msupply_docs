@@ -22,6 +22,10 @@ We have set up these dashboards with sample data for anyone to explore, you will
   <li><a href="#warehouse-orders-processing">Warehouse orders processing</a></li>
   <li><a href="#warehouse-orders-delivery-tracking">Warehouse orders delivery tracking</a></li>
   <li><a href="#dispensing-statistics">Dispensing statistics</a></li>
+  <li><a href="#cold-chain-equipment-overview">Cold chain equipment overview</a></li>
+<li><a href="#remote-temperature-monitoring">Remote temperature monitoring</a></li>
+<li><a href="#cold-chain-breach-details">Cold chain breach details</a></li>
+<li><a href="#cold-chain-unacknowledged-breach-list">Cold chain unacknowledged breach list</a></li>
 </ul>
 
 <div class="note">
@@ -49,33 +53,25 @@ When consulting the dashboards, make sure that the time range filter is set to a
 ## Health Facility Orders
 
 <a href="https://demo-board.msupply.org:3000/d/3LThcikVz/health-facility-orders?orgId=1" target="_blank">
-  <img src="images/Health_Facilities_orders_with_explanation.png">
+  <img src="images/health_facilities_orders_with_explanation.png">
 </a>
 
 ## Stock availability
 
 <a href="https://demo-board.msupply.org:3000/d/I0V-Q9S4k-2024/stock-availability?orgId=1" target="_blank">
-  <img src="images/Stock_availability_db_with_explanation.png">
+  <img src="images/stock_availability_db_with_explanation.png">
 </a>
 
 ## Stock value & Finance
 
 <a href="https://demo-board.msupply.org:3000/d/WsTaa_UJK/stock-value-and-finance?orgId=1" target="_blank">
-<<<<<<< Updated upstream
-  <img src="images/stock_value_Finance_with_explanation.png">
-=======
-  <img src="standard dashboards/images/stock_value_Finance_with_explanation.png" alt="Dashboard" width="800">
->>>>>>> Stashed changes
+  <img src="images/stock_value_finance_with_explanation.png">
 </a>
 
 ## Warehouse orders processing
 
 <a href="https://demo-board.msupply.org:3000/d/zgyw3zz4z/warehouse-orders-processing?orgId=1" target="_blank">
-<<<<<<< Updated upstream
   <img src="images/warehouse_orders_processing_with_explanation.png">
-=======
-  <img src="standard dashboards/images/warehouse_orders_processing_with_explanation.png" alt="Dashboard" width="800">
->>>>>>> Stashed changes
 </a>
 
 ## Warehouse orders delivery tracking
@@ -85,14 +81,10 @@ When consulting the dashboards, make sure that the time range filter is set to a
 ## Items dispensing frequency
 
 <a href="https://demo-board.msupply.org:3000/d/ZqpoeeIVz/item-dispensing-frequency?orgId=1" target="_blank">
-<<<<<<< Updated upstream
   <img src="images/item_dispensing_frequency_with_explanation.png">
-=======
-  <img src="standard dashboards/images/Item_dispensing_frequency_with_explanation.png" alt="Dashboard" width="800">
->>>>>>> Stashed changes
 </a>
 
-## Cold chain equipment - Real-time operational
+## Cold chain equipment overview
 
 <a href="https://vaccines.msupply.org:3000/d/fdpb6qo12/1-real-time-operational?orgId=1" target="_blank">
   <img src="images/CCEI_dashboard_with_explanation.png">
@@ -104,12 +96,12 @@ When consulting the dashboards, make sure that the time range filter is set to a
   <img src="images/remote_temperature_monitoring_with_explanation.png">
 </a>
 
-## Total breach details
+## Cold chain breach details
 
 <a href="https://vaccines.msupply.org:3000/d/q4Xx1jKIk/total-breach-details?orgId=1">
   <img src="images/total_breach_with_explanation.png">
 </a>
 
-## Unacknowledged breach details
+## Cold chain unacknowledged breach list
 
 This [dashboard](https://vaccines.msupply.org:3000/d/x9jTpCFIk/unacknowledged-breach-details?orgId=1) is a list of all the unacknowledged temperature breaches per facility. Once a breach has been identified, it is possible to acknowledge it so that it is removed from the list of new (or unacknowledged) breaches.

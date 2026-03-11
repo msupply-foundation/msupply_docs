@@ -15,7 +15,7 @@ top = false
 +++
 
 An item in Open mSupply is usually a product that you purchase from a supplier, hold in stock and supply to a customer.
-From the **Items** menu, you can view all of the items that are currently visible in your store.
+From the **Items** menu, you can view all of the items that are currently visible in your store. The visibility of items is controlled by master lists in Open mSupply. You must have the item on a list which is visible in your store for the item to be visible.
 
 ## Viewing items list
 
@@ -32,7 +32,7 @@ The Items list is divided into 6 columns:
 | **Code** | Code assigned to this item in mSupply                                                                                                                       |
 | **Name** | This is the name by which mSupply will refer to the item                                                                                                    |
 | **Unit** | The unit of measure for the item                                                                                                                            |
-| **SOH**  | How much stock is available in your store                                                                                                                   |
+| **SOH**  | How much stock is physically in your store                                                                                                                  |
 | **AMC**  | Average Monthly Consumption. This is how much stock your store uses each month on average (based on a configurable number of months, defaults to 3 months). |
 | **MOS**  | Number of months of consumption left with current stock. This is calculated as: `Stock on Hand / AMC`.                                                      |
 
@@ -46,7 +46,7 @@ To view the details of an item, simply tap on one. A new window opens:
 
 On top of the screen, you can the following information:
 
-- **Stock on Hand**: How much stock is currently available in your store
+- **Stock on Hand**: How much stock is currently in your store
 - **AMC**: Average Monthly Consumption. This is how much stock your store uses each month on average (based on a configurable number of months, defaults to 3 months).
 - **Months of Stock**: Number of months of consumption left with current stock. This is calculated as: `Stock on Hand / AMC`.
 
@@ -101,6 +101,8 @@ The Store tab shows any configurations for this item that are specific to your c
 
 ![Item detail store tab](images-en/item_store_properties.png)
 
+- **Default sell price**: This is the default sell price to be set on a new stock when it comes into your store. This takes priority over the `Default margin` if both are set.
+
 ### Master Lists
 
 This tab lists the Master Lists associated with this item.
@@ -110,7 +112,7 @@ This tab lists the Master Lists associated with this item.
 
 The item ledger tab shows a history of transactions in this store for the item.
 
-![](images-en/item_ledger.png)
+![Item ledger showing transaction history for Ibuprofen 200mg tablets](images-en/item_ledger.png)
 
 The ledger is divided into 16 columns:
 
