@@ -29,11 +29,11 @@ for more information about what these preferences are and how to set them up.
 
 You can view these preferences by clicking on the `More` button.
 
+![report preferences](images/report_preferences.png)
+
 <div class="tip">
 Some reports display the store logo in their header. See the <a href="https://docs.msupply.org.nz/other_stuff:virtual_stores#logo_tab">mSupply documentation</a> for how to add or update a store logo.
 </div>
-
-![report preferences](images/report_preferences.gif)
 
 ## Generating reports
 
@@ -60,7 +60,7 @@ Click `Ok` to generate the report. If you find that you would like to narrow
 down the report while viewing it, you can click on the `Filter` button on the
 top right corner of the report which will open up the filter form again.
 
-![report detail](images/report_detail.gif)
+![report detail](images/report_detail.png)
 
 ### Printing a report
 

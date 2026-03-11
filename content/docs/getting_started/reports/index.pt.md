@@ -29,7 +29,7 @@ para obter mais informações sobre o que são estas preferências e como config
 
 Pode visualizar estas preferências clicando no botão `Mais`.
 
-![preferências de relatório](images/report_preferences.gif)
+![preferências de relatório](images/report_preferences.png)
 
 ## Gerando relatórios
 
@@ -58,7 +58,7 @@ Clique em `Ok` para gerar o relatório. Se achar que gostaria de restringir
 para baixo no relatório enquanto o visualiza, pode clicar no botão `Filtrar` na
 canto superior direito do relatório, que abrirá novamente o formulário de filtro.
 
-![detalhe do relatório](images/report_detail.gif)
+![detalhe do relatório](images/report_detail.png)
 
 ### Imprimir um relatório
 
