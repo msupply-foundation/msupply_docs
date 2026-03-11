@@ -374,7 +374,6 @@ Para editar una línea de una entrada, simplemente toca en ella. Se abrirá la v
 
 1. Abre la entrada que deseas editar
 2. Toca en la línea que deseas editar. Aparecerá una ventana idéntica a la de `Agregar artículo`. En este momento:
-
    - Edita el campo principal de `Cantidad recibida`
    - O cambia el valor de número de paquetes a nivel de número de lote
 
@@ -390,13 +389,7 @@ Para editar una línea de una entrada, simplemente toca en ella. Se abrirá la v
 4. Ve al menú desplegable `Acciones` (esquina superior derecha, encima de la lista)
 5. Selecciona la acción `Eliminar líneas seleccionadas`
 
-![](images/is_delete_inbound_shipment.png)
-
-<div class="imagetitle">
-En el siguiente ejemplo, estamos eliminando <i>item 030453 - Amoxicillina 250mg tabs</i>
-</div>
-
-![Alt Text](images/is_deleteselectedlines.gif)
+![delete an inbound shipment line](images/is_delete_lines.png)
 
 <div class="consejo">
 Puedes eliminar varias líneas a la vez. Asegúrate de revisar lo que está seleccionado antes de realizar la acción de Eliminar. 
@@ -446,12 +439,10 @@ Una vez que hayas hecho esto:
 Cuando se visualiza un envío específico, puede ver los lotes en ese envío agrupados por artículo o con cada lote listado por separado.
 Para cambiar el modo de vista, haga clic en el botón `Agrupar por artículo`.
 
-Cuando se agrupa por artículo, puede expandir el artículo para ver los lotes individuales o utilizar la expansión en el encabezado de la tabla para expandir todas las filas agrupadas. Si hace clic en un artículo, también verá todos los lotes seleccionados, como se muestra en este ejemplo:
-
-![Group by Item](images/is_group_by_item.gif)
+Cuando se agrupa por artículo, puede expandir el artículo para ver los lotes individuales o utilizar la expansión en el encabezado de la tabla para expandir todas las filas agrupadas.
 
 Si no tiene suficiente espacio en su pantalla, o simplemente no está interesado en algunas de las columnas mostradas, tiene la opción de ocultar las columnas que se muestran en esta vista.
 
 Haga clic en el botón `Mostrar / ocultar columnas` que se encuentra en la parte superior derecha de la tabla. Esto muestra una lista de las columnas disponibles: puede marcar las columnas que desea ver. Las opciones elegidas se almacenan para el navegador actual, por lo que la próxima vez que vea una entrada, verá solo las columnas seleccionadas. Si ha elegido qué columnas mostrar, entonces el botón se muestra en azul para recordarle que hay más columnas disponibles.
 
-![Hide columns](images/is_show_hide_columns.gif)
+![Hide columns](images/is_show_hide_columns.png)
