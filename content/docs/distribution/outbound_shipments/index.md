@@ -169,7 +169,7 @@ If your Outbound Shipment was created to fulfill a **Requisition**, the referenc
 
 In the future, we would also include other documents such as temperature records, transportation documents or pick slips.
 
-#### Invoice Details
+#### Charges
 
 In this section, you will see by default the total selling price of the items listed in the Outbound Shipment.
 
@@ -192,7 +192,7 @@ To add a service charges to the Invoice Details:
 
 The tax rate (%) for service charges and the item's sell price can also be edited by clicking on the pencil icon. A pop-up window will appear for you to enter a value.
 
-###### Foreign Currencies
+##### Foreign Currencies
 
 If your store is issuing in foreign currencies follow [these instructions](https://docs.msupply.org.nz/other_stuff:currencies) in the central server documentation to set it up. You will also need to enable the store preference `Store: Able to issue in foreign currency`. This preference is compatible with Open mSupply `v1.7.0+`.
 
@@ -518,7 +518,6 @@ To edit a shipment line, tap on it. You will be presented with the `Edit Item` w
 
 1. Open the Outbound Shipment you want to edit.
 2. Tap on the line you want to edit. An identical window to `Add Item` appears. At this stage:
-
    - Edit the main `Issue` field
    - or change the number of packs value at the batch number level
 
