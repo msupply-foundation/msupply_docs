@@ -348,7 +348,7 @@ This is a list of batch numbers that you have in store for this item:
 | **Available (packs)** | Number of packs available (not already allocated to other shipments)                                                                                                                                                  |
 | **[Pack]s Issued**    | Total number of packs to be issued                                                                                                                                                                                    |
 | **[Unit]s Issued**    | Number of units to be issued                                                                                                                                                                                          |
-| **Volume per pack**   | The volume per pack for this stock line                                                                                                                                                                               |
+| **Volume (m3)**       | Total volume of the quantity to be issued. This is calculated based on the pack size and the volume per unit configured for the batch.                                                                                |
 | **On Hold**           | Indicates whether a batch is on hold or not. You cannot issue a batch that is on hold.                                                                                                                                |
 
 A sticky footer at the bottom of the line edit displays the **Total Volume** for the entire shipment, calculated from the volume per pack and quantity of each line.
@@ -715,7 +715,7 @@ This section lists the service changes, sell price, total price and foreign curr
 
 #### Transport Details
 
-The **Transport Details** section is where you can enter the expected delivery date and a reference for the delivery.
+The **Transport Details** section is where you can enter the [shipping method](https://docs.msupply.org.nz/issuing_goods:issuing_goods_customer_invoice?s[]=shipping&s[]=method), the expected delivery date and a reference for the delivery.
 
 #### Actions
 

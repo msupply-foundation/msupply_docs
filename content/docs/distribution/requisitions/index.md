@@ -209,6 +209,11 @@ This message will be displayed if your store currently doesn't have any stock av
 - The customer's stock on hand for this item
 - The customer's available storage volume and location type information. If the supply quantity would exceed the customer's available storage capacity, a warning will be displayed to help prevent over-supply.
 
+If you have the global preference [`Display population based forecasting`](/docs/manage/global-preferences/)
+enabled, you will see the population based forecasting calculation instead.
+
+![Population based forecasting](images/population_based_forecasting_display.png)
+
 #### Creating an Outbound Shipment from a Requisition
 
 Once you are happy with the supply quantities, you can create an `Outbound
