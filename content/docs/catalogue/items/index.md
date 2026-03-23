@@ -165,7 +165,9 @@ Temperature options are configured as [Location Types](https://docs.msupply.org.
 
 Different facilities work in different levels of packaging, e.g. a warehouse may work in cartons, while a clinic works in boxes or individual units. In the Packaging section, you can define the pack size (units per pack) and packaging volume for the different packaging levels of an item variant.
 
-When introducing a new stock line, users will select the relevant Item Variant (e.g. based on manufacturer). If you have configured a Packaging level for that variant, with a pack size that matches the pack size of the stock line, Open mSupply will automatically set the `Volume per pack` for the stock line, based on the `Volume per unit` defined here.
+When introducing a new stock line, users will select the relevant Item Variant (e.g. based on manufacturer) using the Item Variant selection panel. This panel displays variants as clickable cards showing the variant name, manufacturer, and VVM type (for vaccines). A `Manual input` option is also available if you need to enter details that don't match an existing variant. If you have configured a Packaging level for that variant, with a pack size that matches the pack size of the stock line, Open mSupply will automatically set the `Volume per pack` for the stock line, based on the `Volume per unit` defined here.
+
+The Item Variant selection panel is available when adding or editing lines in Inbound Shipments, when adding stock, and in Stocktake line edits.
 
 ### Editing an Item Variant
 
