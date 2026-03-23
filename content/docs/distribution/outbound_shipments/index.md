@@ -209,6 +209,8 @@ You can also see the foreign currency totals in the invoice line details as well
 
 In this section, you can see or edit a transport reference number (eg. a booking or a tracking reference number).
 
+You can also select a **Shipping Method** from a dropdown. The selected shipping method will automatically transfer to the corresponding inbound shipment when stock is sent to another store.
+
 #### Actions
 
 1. **Delete:** You can tap on the `Delete` button to delete the invoice
@@ -346,7 +348,10 @@ This is a list of batch numbers that you have in store for this item:
 | **Available (packs)** | Number of packs available (not already allocated to other shipments)                                                                                                                                                  |
 | **[Pack]s Issued**    | Total number of packs to be issued                                                                                                                                                                                    |
 | **[Unit]s Issued**    | Number of units to be issued                                                                                                                                                                                          |
+| **Volume per pack**   | The volume per pack for this stock line                                                                                                                                                                               |
 | **On Hold**           | Indicates whether a batch is on hold or not. You cannot issue a batch that is on hold.                                                                                                                                |
+
+A sticky footer at the bottom of the line edit displays the **Total Volume** for the entire shipment, calculated from the volume per pack and quantity of each line.
 
 There is also a final row in the table which is a placeholder line, if the status of the Outbound Shipment is `NEW`.
 The placeholder line is used when the quantity you are issuing is higher than your available stock.
