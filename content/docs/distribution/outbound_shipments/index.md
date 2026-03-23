@@ -209,8 +209,6 @@ You can also see the foreign currency totals in the invoice line details as well
 
 In this section, you can see or edit a transport reference number (eg. a booking or a tracking reference number).
 
-You can also select a **Shipping Method** from a dropdown. The selected shipping method will automatically transfer to the corresponding inbound shipment when stock is sent to another store.
-
 #### Actions
 
 1. **Delete:** You can tap on the `Delete` button to delete the invoice
