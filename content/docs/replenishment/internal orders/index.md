@@ -119,7 +119,14 @@ Additionally, if you have are viewing a program order, and have the store prefer
 - **Outgoing**: how much has been taken out of stock by shipments within the period of this internal order
 - **Losses**: how much has been taken out of stock by stocktakes or inventory adjustments within the period of this internal order
 - **Additions**: how much has been added to stock by stocktakes or inventory adjustments within the period of this internal order
-- **Days out of stock**: the number of days within the period in which the store had no stock of this item
+- **Days out of stock**: the number of days within the period in which the store
+  had no stock of this item
+
+If you have the global preference [`Display population based forecasting`](/docs/manage/global-preferences/)
+enabled, you will see the following additional fields:
+
+- **Target stock (population)**: this is the target stock calculated using the
+  demographics settings for this store.
 
 You can also see the following charts:
 
@@ -147,6 +154,11 @@ In the below example, the target quantity is 408 units. Since we already have 46
 - **Stock Evolution**: this chart shows you your stock level for the last 30 days and your projected inventory for the next 30 days. The projected stock will be updated based on your inputs in the `Requested quantity` field:
 
 ![Stock Evolution](images/intord_charts_stockevolution.png)
+
+If you have the global preference [`Display population based forecasting`](/docs/manage/global-preferences/)
+enabled, you will see the population based forecasting calculation instead.
+
+![Population based forecasting](images/population_based_forecasting_display.png)
 
 ### Requesting a quantity in packs
 

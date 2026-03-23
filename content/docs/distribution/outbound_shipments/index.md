@@ -346,6 +346,7 @@ This is a list of batch numbers that you have in store for this item:
 | **Available (packs)** | Number of packs available (not already allocated to other shipments)                                                                                                                                                  |
 | **[Pack]s Issued**    | Total number of packs to be issued                                                                                                                                                                                    |
 | **[Unit]s Issued**    | Number of units to be issued                                                                                                                                                                                          |
+| **Volume (m3)**       | Total volume of the quantity to be issued. This is calculated based on the pack size and the volume per unit configured for the batch.                                                                                |
 | **On Hold**           | Indicates whether a batch is on hold or not. You cannot issue a batch that is on hold.                                                                                                                                |
 
 There is also a final row in the table which is a placeholder line, if the status of the Outbound Shipment is `NEW`.
@@ -710,7 +711,7 @@ This section lists the service changes, sell price, total price and foreign curr
 
 #### Transport Details
 
-The **Transport Details** section is where you can enter the expected delivery date and a reference for the delivery.
+The **Transport Details** section is where you can enter the [shipping method](https://docs.msupply.org.nz/issuing_goods:issuing_goods_customer_invoice?s[]=shipping&s[]=method), the expected delivery date and a reference for the delivery.
 
 #### Actions
 
