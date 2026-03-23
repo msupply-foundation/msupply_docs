@@ -207,6 +207,7 @@ This message will be displayed if your store currently doesn't have any stock av
 
 - The customer's _Target Quantity_ for this item. This is calculated as: Target MOS x AMC
 - The customer's stock on hand for this item
+- The customer's available storage volume and location type information. If the supply quantity would exceed the customer's available storage capacity, a warning will be displayed to help prevent over-supply.
 
 #### Creating an Outbound Shipment from a Requisition
 
