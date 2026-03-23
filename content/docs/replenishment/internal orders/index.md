@@ -195,9 +195,7 @@ When you add items (using a master list or not), the item is added to the order'
 | **Suggested Quantity**   | How much stock mSupply suggests that your order. This is calculated as: (AMC x Target MOS) - SoH                                                                                                               |
 | **Requested**            | This is set to zero by default. This is the quantity of units you are ordering from your supplier.                                                                                                             |
 
-<div class="note">If you are using population based forecasting then you will see an additional column of **Target Stock (population)** which shows the target which is calculated using the population served by this store.</div>
-
-<div class="tip">You can also use population based forecasting for vaccine items. This requires the installation of a plugin, please contact support for details.</div>
+<div class="note">Population based forecasting for vaccine items is available as a built-in feature. To enable it, turn on the <a href="/docs/manage/facilities/#available-preferences">Use population based forecasting</a>. You can then configure population numbers, safety buffer, forecasting interval, target demographics and vaccine courses for your store through <a href="/docs/manage/facilities/#store-preferences"> store properties</a>. When enabled, you will see an additional column of **Target Stock (population)** which shows the target which is calculated using the population served by this store. Store-level wastage and coverage rates can also be configured per store on vaccine courses, allowing forecasting calculations to use store-specific wastage and coverage rates instead of global defaults.</div>
 
 #### Suggested Quantity
 
