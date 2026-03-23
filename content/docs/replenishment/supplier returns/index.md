@@ -273,9 +273,14 @@ This is a list of batch numbers that you have in store for this item:
 - **Name**: Item name
 - **Batch**: Batch number. It is a designation given to products made in the same manufacturing run.
 - **Expiry**: Expiry date of the batch (format: MM/YYYY)
+- **On Hold**: Indicates whether the stock line is on hold
 - **Pack**: Number of units per pack
 - **Quantity Available for Return**: Number of packs available (not already allocated to other shipments or returns)
 - **Quantity to Return**: Number of packs to be returned
+
+<div class="note">
+Stock lines that are <b>on hold</b> will be shown in the list but are disabled and cannot be selected for return.
+</div>
 
 ![List of available batch numbers](images/or_additem_listofbatches.png)
 
@@ -329,7 +334,6 @@ To edit a return line, tap on it. You will be presented with the `Edit Item` win
 
 1. Open the Supplier Return you want to edit.
 2. Tap on the line you want to edit. An identical window to `Add Item` appears. At this stage you can:
-
    - Edit quantity to return for each batch
    - Click `Next step` to view/adjust the reasons and comments
 
