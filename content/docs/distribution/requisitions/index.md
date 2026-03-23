@@ -48,7 +48,7 @@ The list of Requisitions is divided into 6 columns:
 
 ### Filter Requisitions
 
-You can filter the list of requisitions by name, status or whether shipments have been created. This can be useful if you're looking for one particular requisition!
+You can filter the list of requisitions by name, status, requisition number or whether shipments have been created. This can be useful if you're looking for one particular requisition!
 
 ![Requisition filter](images/req_filter.png)
 
@@ -56,6 +56,7 @@ Select the desired filter(s) from the list:
 
 - **Name**: Start typing in the field to filter by customer name
 - **Status**: Select a status from the dropdown list
+- **Requisition number**: Enter a requisition number to find an exact match
 - **Shipment created**: Toggle on to only show requisitions where shipments have been created
 
 All the requisitions which match the filters will appear in the list.

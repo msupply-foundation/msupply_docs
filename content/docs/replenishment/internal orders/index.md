@@ -35,7 +35,7 @@ You will see a list of all existing Internal Orders:
 
 ![Internal Order: list](images/intord_list.png)
 
-You can use the filters to filter the list by the name or status of the Internal Orders:
+You can use the filters to filter the list by the name, status, or requisition number of the Internal Orders:
 
 ![Internal Order: filter](images/intord_filter.png)
 

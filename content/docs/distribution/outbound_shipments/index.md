@@ -59,7 +59,7 @@ Existing statuses will still show if you already have Outbound Shipments in your
 
 ### Search by Name or Status
 
-You can filter the list of shipments by customer name or by status. This can be useful if you're looking for one particular shipment!
+You can filter the list of shipments by customer name, status, or invoice number. This can be useful if you're looking for one particular shipment!
 Select the `Name` filter from the list to filter by the customer name:
 
 ![Outbound shipment filter](images/os_filter.png)
