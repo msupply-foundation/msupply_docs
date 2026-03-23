@@ -92,14 +92,15 @@ English will be used by default in places where translations in the user's langu
 
 There are some standard reports included by default in all instances of Open mSupply, with more reports added regularly.
 
-| Area          | Report             | Version | Details                                                                                |
-| ------------- | ------------------ | ------: | -------------------------------------------------------------------------------------- |
-| Distribution  | Outbound shipments | 2.10.1+ | Filterable by date and customer, this report lists all lines on outbound shipments     |
-| Stock & Items | Expiring Items     |  2.6.0+ | Many filter options for this one, the report lists stock which are expiring            |
-| Stock & Items | Item usage         |  2.6.3+ | Filter by item and report on detailed usage statistics                                 |
-| Stock & Items | Stock detail       |  2.6.3+ | Filter by item and view details of current stock                                       |
-| Stock & Items | Stock status       |  2.6.3+ | Filter by item and report on the status of current stock, similar to the detail report |
-| Programs      | Pending Encounters |  2.6.0+ | Report on pending encounters by program                                                |
+| Area           | Report             | Version  | Details                                                                                |
+| -------------- | ------------------ | -------: | -------------------------------------------------------------------------------------- |
+| Distribution   | Outbound shipments |  2.10.1+ | Filterable by date and customer, this report lists all lines on outbound shipments     |
+| Replenishment  | Inbound shipments  |  2.17.0+ | Filterable by date and supplier, this report lists all lines on inbound shipments      |
+| Stock & Items  | Expiring Items     |   2.6.0+ | Many filter options for this one, the report lists stock which are expiring            |
+| Stock & Items  | Item usage         |   2.6.3+ | Filter by item and report on detailed usage statistics                                 |
+| Stock & Items  | Stock detail       |   2.6.3+ | Filter by item and view details of current stock                                       |
+| Stock & Items  | Stock status       |   2.6.3+ | Filter by item and report on the status of current stock, similar to the detail report |
+| Programs       | Pending Encounters |   2.6.0+ | Report on pending encounters by program                                                |
 
 ## Print templates
 
