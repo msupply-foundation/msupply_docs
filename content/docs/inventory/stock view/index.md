@@ -115,7 +115,10 @@ If this is the case, the reason input will be enabled as below:
 
 [Item Variants](/docs/catalogue/items/#item-variants) will be available for selection if they are configured in your system. When selecting a variant, a slide-out panel displays the available variants as clickable cards showing the variant name, manufacturer, and VVM type (for vaccines). You can also choose `Manual input` to enter details manually.
 
-Item variants include packaging information - if your new stock line has a matching pack size, the `Volume per pack` field will be automatically populated.
+Item variants include packaging information - if your new stock line has a
+matching pack size, the `Volume per pack` field will be automatically populated.
+
+![Item variant slide](images/item-variant-slide.png)
 
 ### Manufacturer
 

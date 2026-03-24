@@ -349,7 +349,7 @@ This is a list of batch numbers that you have in store for this item:
 | **Volume (m3)**       | Total volume of the quantity to be issued. This is calculated based on the pack size and the volume per unit configured for the batch.                                                                                |
 | **On Hold**           | Indicates whether a batch is on hold or not. You cannot issue a batch that is on hold.                                                                                                                                |
 
-A sticky footer at the bottom of the line edit displays the **Total Volume** for the entire shipment, calculated from the volume per pack and quantity of each line.
+A sticky footer at the bottom of the detail view displays the **Total Volume** for the entire shipment, calculated from the volume per pack and quantity of each line.
 
 There is also a final row in the table which is a placeholder line, if the status of the Outbound Shipment is `NEW`.
 The placeholder line is used when the quantity you are issuing is higher than your available stock.
