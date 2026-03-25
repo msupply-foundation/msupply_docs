@@ -410,6 +410,7 @@ In the third tab, `Other`, you can select the following:
 - **Comment**: This is a free text field that can be used to add a comment about the shipment line.
 - **Donor**: A donor, if configured to track donors. See [Track stock by donor](#track-stock-by-donor) for details.
 - **Campaign / Program**: If you have a campaign configured (see [Campaigns](/docs/manage/campaigns/)) or if the item is part of a program which is visible in this store then this column allows you to associate the stock line with a campaign or program.
+- **Manufacturer**: If [Item Variants](/docs/catalogue/items/#item-variants) are configured, you can view and edit the manufacturer for each line. If an item variant is selected, the manufacturer will be automatically set from the variant. Otherwise, you can manually enter a manufacturer.
 
 #### Location
 

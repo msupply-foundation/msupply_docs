@@ -40,6 +40,7 @@ A detailed list of your inventory appears:
 | **Available SOH** | Available stock on hand (not allocated for distribution), in units                                                                                                                             |
 | **Pack cost**     | Cost price per pack                                                                                                                                                                            |
 | **Total**         | Total value of SOH (`Pack qty x Pack cost`)                                                                                                                                                    |
+| **Manufacturer**  | The manufacturer of this stock item. Automatically set when an item variant is selected, or can be manually entered                                                                            |
 | **Supplier**      | Shows the source of this stock item                                                                                                                                                            |
 
 ### Looking for a specific item
@@ -112,9 +113,16 @@ If this is the case, the reason input will be enabled as below:
 
 ### Item Variant
 
-[Item Variants](/docs/catalogue/item_variants/) will be available for selection if they are configured in your system.
+[Item Variants](/docs/catalogue/items/#item-variants) will be available for selection if they are configured in your system. When selecting a variant, a slide-out panel displays the available variants as clickable cards showing the variant name, manufacturer, and VVM type (for vaccines). You can also choose `Manual input` to enter details manually.
 
-Item variants include packaging information - if your new stock line has a matching pack size, the `Volume per pack` field will be automatically populated.
+Item variants include packaging information - if your new stock line has a
+matching pack size, the `Volume per pack` field will be automatically populated.
+
+![Item variant slide](images/item-variant-slide.png)
+
+### Manufacturer
+
+You can view and edit the manufacturer for a stock line. The manufacturer is shown as a read-only column in the stock list, and can be edited from the stock line detail view. If an item variant is selected, the manufacturer will be automatically set from the variant. Otherwise, you can manually enter a manufacturer.
 
 ### Volume per pack
 

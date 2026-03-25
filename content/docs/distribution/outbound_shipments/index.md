@@ -350,6 +350,8 @@ This is a list of batch numbers that you have in store for this item:
 | **[Unit]s Issued**    | Number of units to be issued                                                                                                                                                                                          |
 | **On Hold**           | Indicates whether a batch is on hold or not. You cannot issue a batch that is on hold.                                                                                                                                |
 
+A sticky footer at the bottom of the detail view displays the **Total Volume** for the entire shipment, calculated from the volume per pack and quantity of each line.
+
 There is also a final row in the table which is a placeholder line, if the status of the Outbound Shipment is `NEW`.
 The placeholder line is used when the quantity you are issuing is higher than your available stock.
 

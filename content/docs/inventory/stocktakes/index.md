@@ -105,7 +105,9 @@ If you have the [Manage vaccines in doses](/docs/manage/facilities/#store-prefer
 
 ### Entering counted packs
 
-To start entering stocktake data for an item, click on the stocktake row you would like to edit. A window appears, where you can enter the counted number of packs. You can also update other data from this window, like the expiry date, pricing or location information for a particular batch.
+To start entering stocktake data for an item, click on the stocktake row you would like to edit. A window appears, where you can enter the counted number of packs. You can also update other data from this window, like the expiry date, pricing, location information or manufacturer for a particular batch.
+
+If [Item Variants](/docs/catalogue/items/#item-variants) are configured, you can select a variant using the Item Variant selection panel, which displays variants as clickable cards showing the variant name, manufacturer, and VVM type (for vaccines). Selecting a variant will automatically set the manufacturer. You can also choose `Manual input` to enter a manufacturer manually.
 
 ![Stocktake edit window](images/stocktake_edit.png)
 
