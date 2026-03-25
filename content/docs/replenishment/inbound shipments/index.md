@@ -62,7 +62,7 @@ Existing statuses will still show if you already have Inbound Shipments in your 
 
 ### Filter Inbound Shipments
 
-You can filter the list of shipments by supplier name, created date or status. This can be useful if you're looking for one particular shipment!
+You can filter the list of shipments by supplier name, created date, status, or invoice number. This can be useful if you're looking for one particular shipment!
 
 ![Inbound Shipments filter](images/is_filter.png)
 
