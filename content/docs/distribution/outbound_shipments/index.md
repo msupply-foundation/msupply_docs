@@ -484,7 +484,7 @@ When you look at an Outbound Shipment, you can see if a shipment line has not be
 
 When you are happy with the quantity, you can either press on:
 
-\*\*- the `OK` button. You are redirected to the Outbound Shipment view and your item has been added to the list
+- the `OK` button. You are redirected to the Outbound Shipment view and your item has been added to the list
 
 - the `OK & Next` button to add another item right away
 - the `Cancel` button if you do not want to add the item to the Outbound Shipment any more
