@@ -109,7 +109,7 @@ Once an item is selected, you should see the following information on the page.
 
 - **Suggested**: the number of units which mSupply suggests that your order to reach your stock target quantity
 - **Requested**: the number of units that you request from your supplier
-- **Packs or units**: a drop down selector which allows you to choose between a pack/unit
+- **Pack/unit/dose selector**: a drop down to choose between ordering in units, packs, or doses, depending on your store preferences. See [Requesting a quantity](#requesting-a-quantity) for details.
 - **Comment**: any comments you want to add to the order
 
 Additionally, if you have are viewing a program order, and have the store preference `Use consumption & stock from customers for internal orders` enabled in your store then you will see some additional fields:
@@ -148,9 +148,16 @@ In the below example, the target quantity is 408 units. Since we already have 46
 
 ![Stock Evolution](images/intord_charts_stockevolution.png)
 
-### Requesting a quantity in packs
+If you have the global preference [`Display population based forecasting`](/docs/manage/global-preferences/)
+enabled, you will see the population based forecasting calculation instead.
 
-If the item which you have selected has a default pack size configured (see the mSupply documentation on [editing units](https://docs.msupply.org.nz/items:adding_a_new_item#general_tab) for details on how to do this) then you will see a few additional elements on the 'Add item' window:
+![Population based forecasting](images/population_based_forecasting_display.png)
+
+### Requesting a quantity
+
+The drop down next to the **Requested** field allows you to switch between entering quantities in **units**, **packs**, or **doses**. When you change the selection, the displayed values for stock on hand, AMC and suggested quantity displayed in packs, units, or doses to match the selector.
+
+The available options depend on your store preferences. The `packs` option is available when the store preference `Order in packs` is enabled. For vaccine items, the `doses` option is available when the store preference `Manage vaccines in doses` is enabled. If both preferences are enabled, the `packs` option is selected by default.
 
 ### Adding items using a master list
 
@@ -193,7 +200,7 @@ When you add items (using a master list or not), the item is added to the order'
 | **AMC**                  | Average Monthly Consumption: how much stock your store uses each month on average (based on a configurable number of months, defaults to 3 months)                                                             |
 | **Target Stock (AMC)**   | This is the stock you are aiming for. Calculated as: AMC x Target MOS                                                                                                                                          |
 | **Suggested Quantity**   | How much stock mSupply suggests that your order. This is calculated as: (AMC x Target MOS) - SoH                                                                                                               |
-| **Requested**            | This is set to zero by default. This is the quantity of units you are ordering from your supplier.                                                                                                             |
+| **Requested**            | This is set to zero by default. This is the quantity you are ordering from your supplier, displayed in the selected units, packs, or doses.                                                                    |
 
 <div class="note">If you are using population based forecasting then you will see an additional column of **Target Stock (population)** which shows the target which is calculated using the population served by this store.</div>
 
