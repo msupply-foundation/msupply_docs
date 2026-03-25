@@ -15,12 +15,12 @@ Las listas maestras son listas estándar de elementos que solo se pueden definir
 
 Ir a `Catálogo` > `Listas Maestras` en el panel de navegación:
 
-![](images-en/cat_gotoml.png)
+![Barra de navegación mostrando Listas maestras resaltada bajo Catálogo](images-en/cat_gotoml.png)
 
 Verás una ventana como esta:
 
-![](images-en/cat_mllist.png)
+![Página de Listas maestras mostrando las listas disponibles](images-en/cat_mllist.png)
 
 Para ver todos los elementos de una lista maestra, simplemente haga clic en uno:
 
-![](images-en/cat_mldetail.png)
+![Detalle de lista maestra mostrando artículos con códigos, nombres y unidades](images-en/cat_mldetail.png)

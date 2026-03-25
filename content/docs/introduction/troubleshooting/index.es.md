@@ -55,3 +55,18 @@ Si has creado un usuario, configurado los permisos y aún sigues viendo un error
 * Si usas la versión web, intenta refrescar la página
 
 <div class="note">¡Los nombres de usuario no distinguen entre mayúsculas y minúsculas, pero las contraseñas sí!</div>
+
+## Android: Los botones de la barra inferior no responden
+
+En algunos dispositivos Android, especialmente aquellos con versiones más recientes de Android (por ejemplo, Android 16), la barra de navegación del sistema puede superponerse con la barra inferior de Open mSupply. Esto puede bloquear el acceso al botón de **Ayuda**, al **selector de almacén**, al botón de **usuario** y al **selector de idioma**.
+
+Este problema ocurre cuando la barra de navegación de Android está configurada para usar **Botones** (los tres botones en pantalla para retroceder, inicio y aplicaciones recientes) en lugar de **Gestos de deslizamiento**.
+
+Para solucionar esto, cambia la configuración de la barra de navegación en tu dispositivo Android:
+
+1. Abre los **Ajustes** de tu dispositivo
+2. Ve a **Pantalla**
+3. Toca **Barra de navegación**
+4. Selecciona **Gestos de deslizamiento** en lugar de **Botones**
+
+<div class="note">La ubicación exacta de esta configuración puede variar según el fabricante de tu dispositivo y la versión de Android. Si no la encuentras en Pantalla, intenta buscar "Barra de navegación" en la búsqueda de Ajustes.</div>

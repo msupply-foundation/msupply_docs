@@ -75,11 +75,11 @@ Los activos pueden ser seleccionados y eliminados utilizando la acción de la ba
 
 Los activos de la cadena de frío se pueden importar desde un archivo de valores separados por comas (csv) utilizando el botón `Importar`
 
-![](images/equipment_import_button.png)
+![Página de equipos mostrando el botón Importar resaltado](images/equipment_import_button.png)
 
 Esto abrirá una ventana emergente de importación. Haz clic en `Descargar una plantilla ` para descargar una plantilla csv que se puede usar para importar activos.
 
-![](images/equipment_import_modal.png)
+![Cuadro de diálogo de importación de equipos de cadena de frío con área de carga de archivos y enlace para descargar plantilla](images/equipment_import_modal.png)
 
 Al importar activos desde un almacén, se asignarán a ese almacén.
 
@@ -180,7 +180,7 @@ También puedes visualizar el estado funcional y editar las notas sobre dicho es
 
 La pestaña de `Detalles` muestra las propiedades del activo.
 
-![](images/equipment_detail.png)
+![Página de detalle de equipo mostrando propiedades del activo incluyendo dimensiones y dispositivo de monitoreo de temperatura](images/equipment_detail.png)
 
 #### Historial de Estado
 
@@ -214,11 +214,11 @@ Aquí se registran todas las acciones realizadas por los usuarios para este acti
 
 Al hacer clic en el botón `Actualizar estado`, se puede crear una nueva entrada de estado funcional.
 
-![](images/update_status_button.png)
+![Página de detalle de equipo mostrando el botón Actualizar estado resaltado](images/update_status_button.png)
 
 Esto abrirá el modal de estado funcional.
 
-![](images/status_log_modal.png)
+![Cuadro de diálogo Actualizar estado con campos de nuevo estado funcional, motivo y observaciones](images/status_log_modal.png)
 
 Aquí puedes ingresar:
 
@@ -228,7 +228,7 @@ Aquí puedes ingresar:
 
 También se pueden cargar documentos adicionales, incluidas fotos, para esta entrada de estado funcional.
 
-![](images/status_log_document_upload.png)
+![Cuadro de diálogo Actualizar estado mostrando el paso de carga de documentos con área de arrastrar y soltar](images/status_log_document_upload.png)
 
 Estos documentos se pueden visualizar en la pestaña `Historial de estados`
 

@@ -172,9 +172,9 @@ La secuencia de estados se encuentra en la esquina inferior izquierda de la pant
 
 Los estados completados se destacan en azul, mientras que los próximos estados aparecen en gris.
 
-![](images/prescription_statussequence1.png)
+![Secuencia de estado de prescripción mostrando los pasos Nuevo, Preparado y Verificado](images/prescription_statussequence1.png)
 
-![](prescription_statussequence2.png)
+![Secuencia de estado de prescripción mostrando el paso actual en Preparado entre Nuevo y Verificado](prescription_statussequence2.png)
 
 Hay 3 estados para una prescripción:
 

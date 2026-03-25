@@ -58,3 +58,18 @@ If you have created a user, configured permissions, and are still getting an err
 - Try refreshing the page if you are using the web version
 
 <div class="note">Usernames are not case-sensitive, but passwords are!</div>
+
+## Android: Bottom bar buttons not responding
+
+On some Android devices, particularly those running newer versions of Android (e.g. Android 16), the system navigation bar can overlap with Open mSupply's bottom bar. This can block access to the **Help** button, **store switcher**, **user** button, and **language selector**.
+
+This issue occurs when the Android navigation bar is set to use **Buttons** (the three on-screen buttons for back, home, and recent apps) instead of **Swipe gestures**.
+
+To fix this, change the navigation bar setting on your Android device:
+
+1. Open your device **Settings**
+2. Go to **Display**
+3. Tap **Navigation bar**
+4. Select **Swipe gestures** instead of **Buttons**
+
+<div class="note">The exact location of this setting may vary depending on your device manufacturer and Android version. If you can't find it under Display, try searching for "Navigation bar" in the Settings search.</div>

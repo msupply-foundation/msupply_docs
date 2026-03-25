@@ -208,6 +208,11 @@ This message will be displayed if your store currently doesn't have any stock av
 - The customer's _Target Quantity_ for this item. This is calculated as: Target MOS x AMC
 - The customer's stock on hand for this item
 
+If you have the global preference [`Display population based forecasting`](/docs/manage/global-preferences/)
+enabled, you will see the population based forecasting calculation instead.
+
+![Population based forecasting](images/population_based_forecasting_display.png)
+
 #### Creating an Outbound Shipment from a Requisition
 
 Once you are happy with the supply quantities, you can create an `Outbound

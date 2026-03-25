@@ -102,7 +102,7 @@ Esta pestaña lista las Listas Maestras asociadas con este artículo.
 
 La pestaña del libro mayor del artículo muestra un historial de transacciones en esta tienda para el artículo.
 
-![](images-en/item_ledger.png)
+![Libro de movimientos de stock para Ibuprofeno 200mg comprimidos](images-en/item_ledger.png)
 
 El libro mayor está dividido en 16 columnas:
 

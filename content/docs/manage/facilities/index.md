@@ -77,6 +77,7 @@ Toggle the preferences on or off as required, and close when you are finished.
 | • First threshold for expiring items (days)                                          | Days before expiry to start flagging as "expiring soon." Used in the `Expiring Stock` widget. Note that the widget isn't displayed if both of these threshold settings are unconfigured. |
 | • Second threshold for expiring items (days)                                         | Days before expiry to stop flagging as "expiring soon." Used in Expiring Stock widget.                                                                                                   |
 | **Invoice status options**                                                           | Configure which invoice statuses are available for Outbound shipments / supplier returns, and inbound shipments / customer return.                                                       |
+| **Use procurement functionality**                                                    | Enable access to `Purchase Order` features 
 
 <div class='note'>
 Most store preferences are still managed through the Legacy mSupply central server (see the <a href="/docs/settings/configuration/#store-preferences">list of preferences</a>). Only new store preferences for Open mSupply are configured on Open mSupply central server for now. All store preferences will be migrated to Open mSupply in a future version.
@@ -86,7 +87,7 @@ Most store preferences are still managed through the Legacy mSupply central serv
 
 To edit the properties of a store in the list, click on it. This will open a new `Edit Store` window.
 
-![](images/facilities-no-properties-defined.png)
+![Facility Properties tab showing no properties defined](images/facilities-no-properties-defined.png)
 
 From this window, you can edit the store properties.
 

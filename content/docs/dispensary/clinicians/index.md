@@ -23,13 +23,13 @@ To use clinicians, ensure that your store is set to `Dispensary` mode (see the [
 
 Click on `Dispensary` > `Clinicians` in the navigation panel.
 
-![dispensary menu](/docs/dispensary/images/clinicians_dispensary_menu.png)
+![Dispensary navigation menu showing Clinicians option](/docs/dispensary/images/clinicians_dispensary_menu.png)
 
 You will be presented with a list of clinicians visible to your store.
 
 ### Clinicians List
 
-![](/docs/dispensary/images/clinicians-list-view.png)
+![Clinicians list view showing columns for Code, First name, Last name, Initials, Mobile, and Gender](/docs/dispensary/images/clinicians-list-view.png)
 
 1. The list of clinicians is divided into 8 columns:
 
@@ -44,15 +44,15 @@ You will be presented with a list of clinicians visible to your store.
 
 2. The list can display a fixed number of clinicians per page. On the bottom left corner, you can see how many clinicians are currently displayed on your screen.
 
-![Page](../../images/list_showing.png)
+![Indicator showing the number of clinicians currently displayed on the page](../../images/list_showing.png)
 
 3. If you have more clinicians than the current limit, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner).
 
-![Page](../../images/list_pagenumbers.png)
+![Page navigation controls with page numbers and arrows](../../images/list_pagenumbers.png)
 
 4. You can also select a different number of rows to show per page using the option at the bottom right of the page.
 
-![Rows per page](../../images/rows-per-page-select.png)
+![Rows per page selector dropdown at the bottom right of the list](../../images/rows-per-page-select.png)
 
 ## Creating Clinicians
 

@@ -126,7 +126,7 @@ If you have more than one parameter set, the notification will run once for each
 
 Parameter sets can be entered by a parameter JSON object, this also allows you to add other parameters you might want to use in your templates.
 
-![Alt text](images/image-11.png)
+![Parameters](images/image-11.png)
 
 Parameters are accessed directly in a template, see `{{ store_name }}` in the example below:
 

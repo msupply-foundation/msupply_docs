@@ -74,7 +74,7 @@ The bottom of the screen contains some useful information and is shown on every 
 
 Some users have access to more than one store. To change the store which is currently selected, simply click on the store name in the footer:
 
-![](images/store_switcher.png)
+![Select store dialog showing a list of available stores](images/store_switcher.png)
 
 You will see the notification and the store name in the footer will be updated. From now, all actions will be in the newly selected store.
 

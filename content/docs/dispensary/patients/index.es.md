@@ -30,7 +30,7 @@ Se mostrará una lista de pacientes visibles para tu almacén.
 
 ### Lista de Pacientes
 
-![](images/patient_list_view.png)
+![Lista de pacientes mostrando columnas de ID de paciente, nombre, género y fecha de nacimiento](images/patient_list_view.png)
 
 1. La lista de pacientes está dividida en 8 columnas:
 

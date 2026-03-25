@@ -15,12 +15,12 @@ Master lists are standard lists of items that can only be defined at the central
 
 Go to `Catalogue` > `Master Lists` in the navigation panel:
 
-![](images-en/cat_gotoml.png)
+![Navigation sidebar showing Master Lists highlighted under Catalogue](images-en/cat_gotoml.png)
 
 You will see a window like this:
 
-![](images-en/cat_mllist.png)
+![Master Lists page showing available master lists](images-en/cat_mllist.png)
 
 To view all the items of a master list, simply tap on one:
 
-![](images-en/cat_mldetail.png)
+![Master list detail showing items with codes, names and units](images-en/cat_mldetail.png)

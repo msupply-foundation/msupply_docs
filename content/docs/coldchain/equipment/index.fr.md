@@ -68,15 +68,15 @@ Les actifs peuvent être sélectionnés et supprimés à l'aide de l'action de l
 
 Les actifs de la chaîne du froid peuvent être importés à partir d'un fichier de valeurs séparées par des virgules (csv) à l'aide du bouton `Importer`
 
-![](images/equipment_import_button.png)
+![Page Équipements montrant le bouton Importer mis en évidence](images/equipment_import_button.png)
 
 Cette action ouvre un modèle d'import.
 
-![](mages/equipment_import_modal.png)
+![Boîte de dialogue d'importation d'équipements de chaîne du froid avec zone de dépôt de fichier et lien Télécharger un modèle](mages/equipment_import_modal.png)
 
 Un exemple de modèle CSV est disponible en téléchargement ici :
 
-![](images/equipment_import_modal.png)
+![Boîte de dialogue d'importation d'équipements de chaîne du froid avec zone de dépôt de fichier et lien Télécharger un modèle](images/equipment_import_modal.png)
 
 Lors de l’importation d’actifs depuis un dépôt, ils seront attribués à ce dépôt.
 
@@ -99,13 +99,13 @@ Les informations devront être saisies dans le format fourni par le modèle csv 
 
 Un fichier csv peut être téléchargé une fois créé dans le format exemple.
 
-![](mages/equipment_import_upload.png)
+![Boîte de dialogue d'importation avec le bouton Parcourir les fichiers mis en évidence](mages/equipment_import_upload.png)
 
 #### Export
 
 Une liste d'actifs peut être exportée au format CSV à l'aide du bouton `Exporter`.
 
-![](images/export.png)
+![Bouton Exporter](images/export.png)
 
 ### Scanner un code QR
 
@@ -127,7 +127,7 @@ Si une correspondance est trouvée lors de la numérisation, vous serez redirig�
 ### Créer un nouvel actif
 
 Les actifs de la chaîne du froid peuvent être créés manuellement avec le bouton `Nouvel actif`.
-![](images/create_asset_button.png)
+![Bouton Nouvel équipement](images/create_asset_button.png)
 
 En cliquant, ce bouton ouvre le mode `Créer un Actif`
 
@@ -198,11 +198,11 @@ Ceci enregistre toutes les actions de l'utilisateur qui ont été entreprises po
 
 Cliquer sur le bouton `État de mise à jour` permet la création d'un nouveau journal d'activité
 
-![](images/update_status_button.png)
+![Page de détail d'un équipement montrant le bouton Mettre à jour le statut mis en évidence](images/update_status_button.png)
 
 Ceci ouvre un nouveau journal.
 
-![](images/status_log_modal.png)
+![Boîte de dialogue Mettre à jour le statut avec les champs nouveau statut fonctionnel, raison et observations](images/status_log_modal.png)
 
 Ici, vous pouvez saisir :
 
@@ -211,7 +211,7 @@ Ici, vous pouvez saisir :
 - Toutes observations ou notes
   Des documents supplémentaires, notamment des photos, peuvent également être téléchargés pour ce journal d'état.
 
-![](images/status_log_document_upload.png)
+![Boîte de dialogue Mettre à jour le statut montrant l'étape de téléversement de document avec zone de dépôt](images/status_log_document_upload.png)
 
 Ces documents peuvent etre consultés dans l'onglet `Journaux d'état`.
 

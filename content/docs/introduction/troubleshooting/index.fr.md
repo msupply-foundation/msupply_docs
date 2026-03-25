@@ -60,3 +60,18 @@ Si vous avez créé un utilisateur, configuré des autorisations et que vous rec
 - Essayez d'actualiser la page si vous utilisez la version Web
 
 <div class="note">Les noms d’utilisateur ne sont pas sensibles aux majuscules et minuscules, mais les mots de passe le sont !</div>
+
+## Android : Les boutons de la barre inférieure ne répondent pas
+
+Sur certains appareils Android, notamment ceux utilisant des versions récentes d'Android (par ex. Android 16), la barre de navigation du système peut chevaucher la barre inférieure d'Open mSupply. Cela peut bloquer l'accès au bouton **Aide**, au **sélecteur de dépôt**, au bouton **utilisateur** et au **sélecteur de langue**.
+
+Ce problème survient lorsque la barre de navigation Android est configurée pour utiliser des **Boutons** (les trois boutons à l'écran pour retour, accueil et applications récentes) au lieu des **Gestes de balayage**.
+
+Pour résoudre ce problème, modifiez le paramètre de la barre de navigation de votre appareil Android :
+
+1. Ouvrez les **Paramètres** de votre appareil
+2. Allez dans **Affichage**
+3. Appuyez sur **Barre de navigation**
+4. Sélectionnez **Gestes de balayage** au lieu de **Boutons**
+
+<div class="note">L'emplacement exact de ce paramètre peut varier selon le fabricant de votre appareil et la version d'Android. Si vous ne le trouvez pas sous Affichage, essayez de rechercher « Barre de navigation » dans la recherche des Paramètres.</div>
