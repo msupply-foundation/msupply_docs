@@ -4,7 +4,7 @@ description = "Receiving stock from suppliers."
 date = 2022-03-19
 updated = 2022-03-19
 draft = false
-weight = 30
+weight = 44
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -68,7 +68,7 @@ You can filter the list of shipments by supplier name, created date or status. T
 
 For example, to filter by supplier name, click on `Filters`, select `Name` and start typing some or all of a supplier name in the `Name` field. All the shipments for this supplier will appear in the list.
 
-![Inbound Shipment list filtered by name showing matching results](images/is_filter_list.png)
+![](images/is_filter_list.png)
 
 ### Exporting Inbound Shipments
 
@@ -110,7 +110,7 @@ You can tell if a supplier is also using Open mSupply in their store. If they do
 In the below example, we are receiving stock from <b>Tamaki Central Medical Store</b>. 
 </div>
 
-![Supplier search dialog showing search results](images/is_select_supplier.png)
+![](images/is_select_supplier.png)
 
 2. Once you have selected a supplier, your Inbound Shipment is created.
 
@@ -124,7 +124,7 @@ If everything went well, you should see the name of your supplier in the top lef
 
 If you have selected the wrong supplier, you can change the supplier name in the `Supplier Name` field or select one the dropdown list:
 
-![Inbound shipment supplier dropdown showing a list of available suppliers](images/is_choose_supplier.png)
+![](images/is_choose_supplier.png)
 
 ### Enter a Supplier Reference
 
@@ -166,7 +166,7 @@ If your Inbound Shipment was created to fulfill a **Internal Order**, the refere
 
 In the future, we would also include other documents such as temperature records, transportation documents or pickslips.
 
-#### Charges
+#### Invoice Details
 
 In this section, you will see by default the total cost price of the items listed in the Inbound Shipment.
 
@@ -183,19 +183,23 @@ You can also add a **Service charges** if you wish to add other charges such as 
 
 The tax rate (%) for service charges and the items sell price can also be edited by clicking on the pencil icon. A pop-up window will appear for you to enter a value.
 
-##### Foreign Currencies
+###### Foreign Currencies
 
 If your store is issuing in foreign currencies follow [these instructions](https://docs.msupply.org.nz/other_stuff:currencies) in the central server documentation to set it up. You will also need to enable the store preference `Store: Able to issue in foreign currency`. This preference is compatible with Open mSupply `v1.7.0+`.
 
 ![Store preference](../../images/store-pref-issue-in-foreign-currencies.png)
 
-The pen icon will become active once the above instructions have been followed and only if the supplier is an external supplier. Click on this icon and change to a currency that you would like to issue the shipment in. The currency rate can also be edited if you and the customer have agreed on a different rate.
-![Foreign Currency dialog showing currency selector and exchange rate fields](images/is_change_foreign_currency.png)
+The pen icon will become active once the above instructions have been followed and only if the customer is an external customer. Click on this icon and change to a currency that you would like to issue the shipment in. The currency rate can also be edited if you and the customer have agreed on a different rate.
+![](images/is_change_foreign_currency.png)
 
 You can also see the foreign currency totals in the invoice line details as well.
 ![Line with Foreign Currency Pricing](images/is_line_with_foreign_currency.png)
 
 <div class="tip">See the <a href="/docs/introduction/faq/#is-there-support-for-my-currency">currency support question</a> for the list of codes supported</div>
+
+#### Transport Details
+
+In this section, you can see or edit a transport reference number (eg. a booking or a tracking reference number).
 
 #### Actions
 
@@ -290,7 +294,7 @@ You don't have to update a shipment to next status in the sequence. You can choo
 
 As demonstrated below, tap on the down arrow of the `Confirm` button and select the status you want the shipment to be updated to.
 
-![Status confirmation dropdown showing options to confirm shipment at different status steps](images/is_skipstatus.png)
+![](images/is_skipstatus.png)
 
 ## Adding lines to an Inbound Shipment
 
@@ -477,7 +481,7 @@ To edit an Inbound Shipment line, simply tap on it. You will be presented with t
 3. Select the line(s) you want to delete by checking the box(es) on the left of the list
 4. Click the `Delete` button which appears at the bottom of the page.
 
-![Delete inbound shipment line](images/is_delete_inbound_shipment.png)
+![Delete inbound shipment line](images/is_delete_lines.png)
 
 <div class="tip">
 You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
@@ -519,8 +523,8 @@ To confirm that an Inbound Shipment has been delivered, click on the `Confirm De
 
 Once you have done this:
 
+- Goods are now part of your inventory
 - Shipment status is now `DELIVERED`
-- The shipment can be edited
 
 <div class="note">
 In case your Inbound Shipment is <b>automatic</b>, you cannot confirm its delivery unless the supplier has confirmed its shipment. In other words, your shipment status has to be <code>SHIPPED</code> before you can confirm that you have received the goods. 
@@ -600,7 +604,7 @@ If you forget to enter a quantity to return for any batch and click `Next step`,
 
 Once you are happy with your quantities to return, you can click `Next step`. The list of batches will be filtered to only include the batches you provided a return quantity for. In this view, you can provide a reason for returning each batch, and an additional comment.
 
-![Alt Text](images/is_return_lines.gif)
+![Alt Text](images/is_return_lines.png)
 
 #### Confirm
 
@@ -614,15 +618,13 @@ When you are happy with the quantities and reasons, you can press on:
 When viewing a specific shipment, you can view the batches on that shipment grouped by item or with each batch listed separately.
 To change the view mode, click the `Group by item` switch.
 
-When grouped by item, you can expand the item to see individual batches, or use the expand in the table header to expand all grouped rows. If you click on an item you will also see all selected batches, as shown in this example:
-
-![Group by Item](images/is_group_by_item.gif)
+When grouped by item, you can expand the item to see individual batches, or use the expand in the table header to expand all grouped rows.
 
 If you do not have enough room on your screen, or simply aren't interested in some of the columns shown, you have the option of hiding which columns are shown in this view.
 
 Click on the `Show / hide columns` button which is at the top right of the table. This gives a list of the columns available - you can check the columns you want to see. The options chosen are stored for the current browser, so next time you view an inbound shipment, you will see the selected columns only. If you have chosen which columns to show, then the button is shown in blue to remind you that there are more columns available.
 
-![Hide columns](images/is_show_hide_columns.gif)
+![Hide columns](images/is_show_hide_columns.png)
 
 ## Track stock by donor
 

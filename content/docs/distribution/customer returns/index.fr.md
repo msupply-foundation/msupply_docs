@@ -60,7 +60,7 @@ Vous pouvez filtrer la liste des retours par nom de client ou par statut. Cela p
 
 Par exemple : Sélectionnez le filtre `Nom` dans la liste pour filtrer par nom de client. Tapez le nom d’un client dans le champ `Nom`. Tous les retours pour ce client apparaîtront dans la liste.
 
-![Customer Return filter](images/ir_filter.gif)
+![Customer Return filter](images/ir_filter.png)
 
 ### Exportation des retours clients
 
@@ -84,7 +84,7 @@ Vous pouvez supprimer un retour de la liste des retours clients.
 Vous ne pouvez supprimer les retours de clients que s’ils ont un statut <code>NOUVEAU</code>.
 </div>
 
-![Inbound list: delete](images/ir_delete.gif)
+![Inbound list: delete](images/delete-customer-return.png)
 
 ## Création d’un retour client
 
@@ -112,7 +112,7 @@ Souvent, vous traiterez le retour de marchandises que vous avez envoyées par l�
 Dans l’exemple ci-dessous, nous souhaitons recevoir des articles retournés du <b>Dépot Médical Central de Tamaki</b>. 
 </div>
 
-![Create Customer Return](images/ir_create.gif)
+![Create Customer Return](images/ir_create.png)
 
 <div class="tip">
 Vous pouvez savoir si un client utilise également Open mSupply dans son dépot. Si c’est le cas, vous verrez une icône comme celle-ci <img src="images/is_msupplystoreicon.png" alt="Store" style="width:auto"> à côté du code client.
@@ -143,8 +143,6 @@ Si vous utilisez un grand écran, le panneau d’information s’ouvrira automat
 Pour ouvrir le panneau d’information, vous pouvez appuyer sur le bouton `Plus` situé dans le coin supérieur droit de la vue Retour client.
 
 Vous pouvez fermer en appuyant sur le bouton `X Fermer` dans le coin supérieur droit du panneau d’information.
-
-![Open and close the Information Panel](images/ir_sidepanel.gif)
 
 #### Informations complémentaires
 
@@ -249,7 +247,8 @@ Pour les retours clients manuels, vous n’avez pas besoin de passer au statut s
 
 Comme indiqué ci-dessous, appuyez sur la flèche vers le bas du bouton `Confirmer` et sélectionnez le statut auquel vous voulez que le retour soit mis à jour.
 
-![Skip Status](images/ir_confirm_skip_status.gif)
+![Skip Status: click](images/ir_confirm_skip_status_1.png)
+![Skip Status: menu](images/ir_confirm_skip_status_2.png)
 
 ## Ajout de lignes à un retour client
 
@@ -266,8 +265,6 @@ Une nouvelle fenêtre `Ajouter article` s’ouvre. Dans la fenêtre `Ajouter art
 - ou en tapant tout ou partie d’un code d’article
 
 Une fois que votre article est en surbrillance, appuyez sur le nom ou appuyez sur `Entrer`.
-
-![Select an item](images/ir_additem.gif)
 
 #### Étape de sélection des quantités
 
@@ -325,7 +322,6 @@ Pour modifier une ligne de retour, appuyez dessus. Vous verrez la fenêtre `Modi
 
 1. Ouvrez le retour client que vous souhaitez modifier.
 2. Appuyez sur la ligne que vous voulez modifier. Une fenêtre identique à `Ajouter Article` apparaît. À ce stade, vous pouvez :
-
    - Modifier les informations du lot
    - Modifier la quantité retournée pour chaque lot
    - Cliquez sur `Prochaine étape` pour afficher ou modifier les motifs et les commentaires.
@@ -353,7 +349,7 @@ Si vous définissez toutes les quantités de retour à `0`, et cliquez sur `Proc
 Dans l’exemple ci-dessous, nous supprimons <i>article 030063 - Acetylsalicylic Acid 100mg tabs</i>
 </div>
 
-![Alt Text](images/ir_deleteselectedlines.gif)
+![Inbound list: delete](images/delete-customer-return.png)
 
 <div class="tip">
  <b></b> Vous pouvez supprimer plusieurs lignes à la fois. N’oubliez pas de vérifier ce qui est sélectionné avant d’effectuer l’action Supprimer. 
@@ -378,8 +374,6 @@ Une fois que vous avez fait ceci :
 Si votre retour client est <b>automatique</b>, vous ne pouvez pas confirmer sa livraison à moins que le client n’ait confirmé son envoi. En d’autres termes, votre statut de livraison doit être <code>EXPÉDIÉ</code> avant que vous puissiez confirmer que vous avez reçu les articles retournées. 
 </div>
 
-![Alt Text](images/ir_confirmdelivered.gif)
-
 ### Vérifier le retour client
 
 La vérification est la dernière étape pour recevoir les articles retournées dans mSupply. À ce stade, vous pouvez vérifier ce que vous avez reçu et vous assurer que les informations dans mSupply sont correctes.
@@ -402,16 +396,24 @@ Une fois que vous avez fait ceci :
 
 Lorsque vous affichez un retour spécifique, vous pouvez afficher les lots de ce retour groupés par article ou avec chaque lot répertorié séparément. Pour changer le mode de visualisation, cliquez sur l’interrupteur `Grouper par article`.
 
-Lorsque vous regroupez par article, vous pouvez développer l’élément pour afficher les lots individuels ou utiliser le bouton développer dans l’en-tête de la table pour développer toutes les lignes groupées.
+![Group by Item button](../../images/table_group_by_item_button.png)
 
-![Group by Item](images/ir_group_by_item.gif)
+Lorsqu'ils sont regroupés par article, tous les lots d'un article sont affichés sous la ligne de cet article. Une flèche à gauche indique que vous pouvez développer cet article pour afficher les lots.
+
+![Group by Item](images/ir_group_by_item.png)
+
+Voici à quoi ressemble la vue étendue :
+
+![Group by Item](images/ir_group_by_item_expanded.png)
 
 Si vous n’avez pas assez de place sur votre écran, ou si certaines des colonnes affichées ne vous intéressent tout simplement pas, vous avez la possibilité de masquer les colonnes qui sont affichées dans cette vue.
 
-Cliquez sur le bouton `Afficher / masquer les colonnes` qui se trouve en haut à droite du tableau. Cela donne une liste des colonnes disponibles - vous pouvez vérifier les colonnes que vous voulez voir. Les options choisies sont enregistrées pour le navigateur actuel, de sorte que la prochaine fois que vous afficherez un retour client, vous ne verrez que les colonnes sélectionnées. Si vous avez choisi les colonnes à afficher, le bouton est affiché en bleu pour vous rappeler qu’il y a plus de colonnes disponibles.
+Cliquez sur le bouton `Afficher / masquer les colonnes` qui se trouve en haut à droite du tableau. Cela donne une liste des colonnes disponibles - vous pouvez vérifier les colonnes que vous voulez voir. Les options choisies sont enregistrées pour le navigateur actuel, de sorte que la prochaine fois que vous afficherez un retour client, vous ne verrez que les colonnes sélectionnées.
+
+![Hide column button](../../images/table_filter_button.png)
 
 <div class="imagetitle">
 Dans l’exemple ci-dessous, nous cachons les colonnes de lot, d’expiration et de quantité unitaire
 </div>
 
-![Hide columns](images/ir_filter_columns.gif)
+![Hide columns](images/ir_filter_columns.png)

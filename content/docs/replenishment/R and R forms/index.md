@@ -4,7 +4,7 @@ description = "Introduction to R&R Forms"
 date = 2024-08-06
 updated = 2024-08-06
 draft = false
-weight = 55
+weight = 46
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -103,7 +103,7 @@ You can make changes to the usage data for each item in the R&R form, as well as
 
 Once you are happy with the information for an item, click the `Confirmed` checkbox to save the data.
 
-![Edit line](images/rnr_edit_line.gif)
+![Edit line](images/rnr_edit_line.png)
 
 ### Print and Export
 
@@ -138,7 +138,7 @@ You can delete an R&R form while it is still in `Draft` status. This action will
 
 There's a lot of information on the R&R form, and sometimes it can be hard to see everything at once. Click the `Full Screen` button in the top right corner of the screen to expand the view.
 
-![R&R full screen](images/rnr_full_screen.gif)
+![R&R full screen](images/rnr_full_screen.png)
 
 Click the `Exit` button in the top right corner of the screen to return to the normal view, or you can use the `Escape` key if you are using a keyboard.
 

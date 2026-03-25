@@ -4,7 +4,7 @@ description = "Returning stock to your suppliers."
 date = 2022-03-19
 updated = 2022-03-19
 draft = false
-weight = 50
+weight = 45
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -91,7 +91,7 @@ You can delete a return from the Supplier Return list.
 You can only delete Supplier Returns if they have not been <code>SHIPPED</code>.
 </div>
 
-![Outbound list: delete](images/delete-supplier-return.gif)
+![Outbound list: delete](images/delete_supplier_return.png)
 
 ## Creating a Supplier Return
 
@@ -152,8 +152,6 @@ If you are using a large screen, the information panel will be automatically ope
 To open the Information Panel, you can tap on the `More` button, located in the top right corner of the Supplier Return view.
 
 You can close by tapping on the `X Close` button, on the top right corner of the information panel.
-
-![Open and close the Information Panel](images/or_sidepanel.gif)
 
 #### Additional Info
 
@@ -243,7 +241,7 @@ You don't have to update a return to the next status in the sequence. You can ch
 
 As demonstrated below, tap on the down arrow of the `Confirm` button and select the status you want the return to be updated to.
 
-![Skip Status](images/or_confirm_skip_status.gif)
+![Skip Status](images/or_confirm_skip_status.png)
 
 ## Adding lines to a Supplier Return
 
@@ -263,7 +261,7 @@ In the `Add Item` window, you can look up an item by:
 
 Once your item is highlighted, tap on the name or press `Enter`.
 
-![Select an item](images/or_additem.gif)
+![Select an item](images/or_additem.png)
 
 #### List of available batches:
 
@@ -329,7 +327,6 @@ To edit a return line, tap on it. You will be presented with the `Edit Item` win
 
 1. Open the Supplier Return you want to edit.
 2. Tap on the line you want to edit. An identical window to `Add Item` appears. At this stage you can:
-
    - Edit quantity to return for each batch
    - Click `Next step` to view/adjust the reasons and comments
 
@@ -348,12 +345,6 @@ If you set all return quantities to `0`, and click `Next step` you will see this
 1. Open the Supplier Return you want to edit.
 2. Select the line(s) you want to delete by checking the box(es) on the left of the list.
 3. Click the `Delete` button which appears at the bottom of the page.
-
-<div class="imagetitle">
-In the below example, we are deleting 2 items, with the item codes 030063 and 037020
-</div>
-
-![Deleting supplier return lines](images/delete-supplier-return-line.gif)
 
 <div class="tip">
  <b></b> You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
@@ -375,7 +366,7 @@ Once all items are picked and packed. You can then confirm the picking of the re
 
 To confirm that a return has been picked, tap on the `Confirm Picked` button.
 
-![Alt Text](images/or_confirmpicked.gif)
+![Alt Text](images/or_confirmpicked.png)
 
 Once picking is confirmed:
 
@@ -411,9 +402,7 @@ If your supplier is also using mSupply, you will be able to see when they receiv
 When viewing a specific return, you can view the batches on that return grouped by item or with each batch listed separately.
 To change the view mode, click the `Group by item` switch.
 
-When grouped by item, you can expand the item to see individual batches, or use the expand in the table header to expand all grouped rows. If you click on an item you will also see all selected batches, as shown in this example:
-
-![Group by Item](images/or_group_by_item.gif)
+When grouped by item, you can expand the item to see individual batches, or use the expand in the table header to expand all grouped rows. If you click on an item you will also see all selected batches.
 
 If you do not have enough room on your screen, or simply aren't interested in some of the columns shown, you have the option of hiding which columns are shown in this view.
 
@@ -423,4 +412,4 @@ Click on the `Show / hide columns` button which is at the top right of the table
 In the below example, we are hiding the pricing columns
 </div>
 
-![Hide columns](images/or_filter_columns.gif)
+![Hide columns](images/or_filter_columns.png)

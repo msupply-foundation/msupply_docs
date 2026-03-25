@@ -4,7 +4,7 @@ description = "Requesting stock from your suppliers."
 date = 2022-03-19
 updated = 2022-03-19
 draft = false
-weight = 40
+weight = 42
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -119,14 +119,7 @@ Additionally, if you have are viewing a program order, and have the store prefer
 - **Outgoing**: how much has been taken out of stock by shipments within the period of this internal order
 - **Losses**: how much has been taken out of stock by stocktakes or inventory adjustments within the period of this internal order
 - **Additions**: how much has been added to stock by stocktakes or inventory adjustments within the period of this internal order
-- **Days out of stock**: the number of days within the period in which the store
-  had no stock of this item
-
-If you have the global preference [`Display population based forecasting`](/docs/manage/global-preferences/)
-enabled, you will see the following additional fields:
-
-- **Target stock (population)**: this is the target stock calculated using the
-  demographics settings for this store.
+- **Days out of stock**: the number of days within the period in which the store had no stock of this item
 
 You can also see the following charts:
 
@@ -155,11 +148,6 @@ In the below example, the target quantity is 408 units. Since we already have 46
 
 ![Stock Evolution](images/intord_charts_stockevolution.png)
 
-If you have the global preference [`Display population based forecasting`](/docs/manage/global-preferences/)
-enabled, you will see the population based forecasting calculation instead.
-
-![Population based forecasting](images/population_based_forecasting_display.png)
-
 ### Requesting a quantity in packs
 
 If the item which you have selected has a default pack size configured (see the mSupply documentation on [editing units](https://docs.msupply.org.nz/items:adding_a_new_item#general_tab) for details on how to do this) then you will see a few additional elements on the 'Add item' window:
@@ -177,7 +165,7 @@ All the items of the master list are now listed in your order. If you had previo
 Tap on an order line to change the **Requested Quantity** or tap on the `Use
 Suggested Quantities` button to automatically copy the values in the **Suggested Quantity** column into the **Requested Quantity** column.
 
-![Internal Order: add from master list](images/intord_addfromml.gif)
+![Internal Order: add from master list](images/intord_addfromml.png)
 
 <div class="note"> 
 Master Lists are defined and assigned to stores at the central server level. You can only see the master lists that are visible to your store. 

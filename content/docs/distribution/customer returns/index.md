@@ -60,7 +60,7 @@ You can filter the list of returns by customer name or by status. This can be us
 
 For example: Select the `Name` filter from the list to filter by the customer name. Type the name of a customer in the `Name` field. All the returns for this customer will appear in the list.
 
-![Customer Return filter](images/ir_filter.gif)
+![Customer Return filter](images/ir_filter.png)
 
 ### Exporting Customer Returns
 
@@ -84,7 +84,7 @@ You can delete a return from the Customer Return list.
 You can only delete Customer Returns if they have a status of <code>NEW</code>.
 </div>
 
-![Inbound list: delete](images/delete-customer-return.gif)
+![Inbound list: delete](images/delete-customer-return.png)
 
 ## Creating a Customer Return
 
@@ -112,7 +112,7 @@ Often, you will be processing the return of goods that you sent via an Outbound 
 In the below example, we are wanting to receive returned stock from <b>Slytherin Clinic</b>. 
 </div>
 
-![Create Customer Return](images/ir_create.gif)
+![Create Customer Return](images/ir_create.png)
 
 <div class="tip">
 You can tell if a customer is also using Open mSupply in their store. If they do, you will see an icon like this <img src="images/is_msupplystoreicon.png" alt="Store" style="width:auto"> next to the customer code. 
@@ -143,8 +143,6 @@ If you are using a large screen, the information panel will be automatically ope
 To open the Information Panel, you can tap on the `More` button, located in the top right corner of the Customer Return view.
 
 You can close by tapping on the `X Close` button, on the top right corner of the information panel.
-
-![Open and close the Information Panel](images/ir_sidepanel.gif)
 
 #### Additional Info
 
@@ -179,17 +177,21 @@ Passed statuses are highlighted in blue, next statuses appear in grey.
 
 There are 5 status for the Customer Return:
 
-| Status       | Description                                                                                                           |
-| :----------- | --------------------------------------------------------------------------------------------------------------------- |
-| **New**      | This is the first status when you create a new manual Customer Return                                                 |
-| **Picked**   | Customer has confirmed that the return is picked and is ready to ship (only applies to automatically created returns) |
-| **Shipped**  | Return has been shipped and goods are now in transit (applies only to automatically created returns)                  |
-| **Received** | When you confirm that the return has been received                                                                    |
-| **Verified** | When you have verified the Customer Return                                                                            |
+| Status        | Description                                                                                                           |
+| :------------ | --------------------------------------------------------------------------------------------------------------------- |
+| **New**       | This is the first status when you create a new manual Customer Return                                                 |
+| **Picked**    | Customer has confirmed that the return is picked and is ready to ship (only applies to automatically created returns) |
+| **Shipped**   | Return has been shipped and goods are now in transit (applies only to automatically created returns)                  |
+| **Delivered** | When you confirm that the return has been delivered                                                                   |
+| **Verified**  | When you have verified the Customer Return                                                                            |
 
 You probably noticed that two of the status values only apply to automatically created returns. These are created by the system when another store in the system creates a Supplier Return to return stock to your store. If this is the case you'll see a message near the top of the page:
 
 ![Automatic IS message](images/ir_message_automatic.png)
+
+Note that this message appears differently if the status is `Delivered` or `Verified`
+
+![Automatic IS message: delivered](images/ir_message_automatic_delivered.png)
 
 If, however, you've created an Customer Return manually, then the following message shows:
 
@@ -197,16 +199,16 @@ If, however, you've created an Customer Return manually, then the following mess
 
 and you'll see that the status bar has only the status values which apply to this Customer Return.
 
-![Customer return manual status sequence](images/ir_statussequence_manual.png)
+![Manual status sequence](images/ir_statussequence_manual.png)
 
 If you hover over the status sequence, a return history window appears. You can see the date when a return was updated from one status to another.
 
-<div class="imagetitle">This manual return has been created on 09/06/2025</div>
+<div class="imagetitle">This manual return has been created on 28/03/2024</div>
 
 ![Inbound status: new](images/ir_status_sequence_hover_manual.png)
 
 <div class="imagetitle">
-This automatic return has been created, picked and shipped on the 09/06/25
+This automatic return has been created, picked and shipped on the 26/03/24
 </div>
 
 ![Inbound status: hover](images/ir_status_sequence_hover_auto.png)
@@ -229,18 +231,19 @@ Tap on the `Close` button to quit the Customer Return view and return to the Cus
 
 The `Confirm` button updates the status of a return. The status which you can confirm depends on the current status of the return and follows the sequence shown below.
 
-When managing a Customer Return, you can only confirm it as Received or Verified.
+When managing a Customer Return, you can only confirm it as Delivered or Verified.
 
-| Confirm...           | Current Status | Next Status |
-| :------------------- | :------------- | :---------- |
-| **Confirm Received** | Shipped        | Received    |
-| **Confirm Verified** | Received       | Verified    |
+| Confirm...            | Current Status | Next Status |
+| :-------------------- | :------------- | :---------- |
+| **Confirm Delivered** | Shipped        | Delivered   |
+| **Confirm Verified**  | Delivered      | Verified    |
 
-For manual Customer Returns, you don't have to update to the next status in the sequence. You can choose to skip `Received` to go directly to `Confirm Verified`.
+For manual Customer Returns, you don't have to update to the next status in the sequence. You can choose to skip `Delivered` to go directly to `Confirm Verified`.
 
 As demonstrated below, tap on the down arrow of the `Confirm` button and select the status you want the return to be updated to.
 
-![Skip Status](images/ir_confirm_skip_status.gif)
+![Skip Status: click](images/ir_confirm_skip_status_1.png)
+![Skip Status: menu](images/ir_confirm_skip_status_2.png)
 
 ## Adding lines to a Customer Return
 
@@ -257,8 +260,6 @@ A new `Add Item` window opens. In the `Add Item` window, you can look up an item
 - or by typing some or all of an item code
 
 Once your item is highlighted, tap on the name or press `Enter`.
-
-![Select an item](images/ir_additem.gif)
 
 #### Select quantities step
 
@@ -340,7 +341,9 @@ If you set all return quantities to `0`, and click `Next step` you will see this
 In the below example, we are deleting two lines
 </div>
 
-![Deleting customer return lines](images/delete-customer-return-line.gif)
+![Deleting customer return lines - selected lines](images/delete-customer-return-line-selected.png)
+
+![Deleting customer return lines - delete notification](images/delete-customer-return-line-deleted.png)
 
 <div class="tip">
  <b></b> You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
@@ -354,18 +357,16 @@ Whether your Customer Return is **manual** or **automatic**, the first step to r
 
 At this stage, you don't have to check if quantities or other information are correct, you just have to acknowledge that you have received the returned goods from your customer.
 
-To confirm that a Customer Return has been received, click on the `Confirm Received` button.
+To confirm that a Customer Return has been delivered, click on the `Confirm Delivered` button.
 
 Once you have done this:
 
 - Goods are now part of your inventory
-- Return status is now `RECEIVED`
+- Return status is now `DELIVERED`
 
 <div class="note">
 In case your Customer Return is <b>automatic</b>, you cannot confirm its delivery unless the customer has confirmed its shipment. In other words, your return status has to be <code>SHIPPED</code> before you can confirm that you have received the returned goods. 
 </div>
-
-![Alt Text](images/ir_confirmdelivered.gif)
 
 ### Verify your Customer Return
 
@@ -390,16 +391,24 @@ Once you have done this:
 When viewing a specific return, you can view the batches on that return grouped by item or with each batch listed separately.
 To change the view mode, click the `Group by item` switch.
 
-When grouped by item, you can expand the item to see individual batches, or use the expand in the table header to expand all grouped rows.
+![Group by Item button](../../images/table_group_by_item_button.png)
 
-![Group by Item](images/ir_group_by_item.gif)
+When grouped by item, all batches for an item are collapsed under the item row. There is an arrow on the left to show that you can expand this item to view the batches.
+
+![Group by Item](images/ir_group_by_item.png)
+
+This is how the expanded view looks:
+
+![Group by Item](images/ir_group_by_item_expanded.png)
 
 If you do not have enough room on your screen, or simply aren't interested in some of the columns shown, you have the option of hiding which columns are shown in this view.
 
-Click on the `Show / hide columns` button which is at the top right of the table. This gives a list of the columns available - you can check the columns you want to see. The options chosen are stored for the current browser, so next time you view a Customer Return, you will see the selected columns only. If you have chosen which columns to show, then the button is shown in blue to remind you that there are more columns available.
+Click on the `Show / hide columns` button which is at the top right of the table. This gives a list of the columns available - you can check the columns you want to see. The options chosen are stored for the current browser, so next time you view a Customer Return, you will see the selected columns only.
+
+![Hide column button](../../images/table_filter_button.png)
 
 <div class="imagetitle">
 In the below example, we hide the batch, expiry and unit quantity columns
 </div>
 
-![Hide columns](images/ir_filter_columns.gif)
+![Hide columns](images/ir_filter_columns.png)

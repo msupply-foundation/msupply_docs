@@ -89,8 +89,6 @@ Vous pouvez, à partir de la liste, supprimer une expédition.
 Vous ne pouvez supprimer que les expéditions avec un statut <code>NOUVEAU</code>.
 </div>
 
-![Outbound list: delete](images/os_list_deleteshipment.gif)
-
 ## Créer une expédition
 
 1. Allez à `Distribution` > `Expédition`.
@@ -109,7 +107,7 @@ Vous ne pouvez supprimer que les expéditions avec un statut <code>NOUVEAU</code
 Dans l'exemple ci-dessous, du stock sera livré au client <b>Kamo Regional Warehouse</b>. 
 </div>
 
-![gif](images/os_select_customer.gif)
+![gif](images/os_select_customer.png)
 
 <div class="conseil">
 Vous pouvez savoir si un client utilise également mSupply dans son dépôt. Si c'est le cas, vous verrez cette icône (images/is_msupplystoreicon.png" alt="Store" style="width:auto">) près du code du fournisseur. 
@@ -127,7 +125,7 @@ Si tout s'est bien passé, vous devriez voir le nom de votre client dans le coin
 
 Si vous avez sélectionné le mauvais client, vous pouvez modifier le nom du client dans le champ `Customer Name` ou le sélectionner dans la liste déroulante :
 
-![gif](images/os_change_customer.gif)
+![change customer](images/os_change_customer.png)
 
 ### Saisir une référence client
 
@@ -151,8 +149,6 @@ Si vous utilisez un grand écran, le panneau d'information sera automatiquement 
 Pour ouvrir le panneau d'information, vous pouvez cliquer sur le bouton `More`, situé dans le coin supérieur droit de la vue de l'expédition..
 
 Vous pouvez fermer la fenêtre en cliquant sur le bouton `X Close`, situé dans le coin supérieur droit de la fenêtre d'information.
-
-![Open and close the Information Panel](images/os_infopanel_openclose.gif)
 
 #### Informations complémentaires
 
@@ -256,7 +252,7 @@ Il n'est pas nécessaire de mettre à jour un transfert pour qu'il passe au stat
 
 Comme indiqué ci-dessous, appuyez sur la flèche vers le bas du bouton `Confirm` et sélectionnez le statut dans lequel vous souhaitez que le transfert soit mis à jour.
 
-![Skip Status](images/os_confirmbutton_skipstatuses.gif)
+![Skip Status](images/os_confirmbutton_skipstatuses.png)
 
 ## Ajout de lignes à une expédition
 
@@ -373,7 +369,7 @@ Ce qui change la valeur `Émettre` tout en gardant la quantité totale :
 <b></b> si vous avez déjà introduit une quantité d'unités et que vous passez à une quantité d'emballages, la quantité d'unités sera automatiquement convertie en la quantité correcte d'emballages.  
 </div>
 
-![Alt Text](images/os_issuepacks.gif)
+![Alt Text](images/os_issuepacks.png)
 
 Lorsqu'une taille d'emballage est sélectionnée, les lignes de stock qui ont une taille d'emballage différente ne sont pas disponibles pour la sélection. Ces lignes sont donc répertoriées plus bas dans le tableau et apparaissent en caractères gris, comme les autres lignes non disponibles.
 
@@ -389,8 +385,10 @@ Le champ principal `Quantité à délivrer` sera automatiquement mis à jour ave
  <b></b> Lors de l'allocation de quantités au niveau du numéro de lot, la quantité saisie est toujours une quantité d'emballages. 
 </div>
 
+![Répartition des quantités dans un envoi sortant](images/os_additem_manualallocation_1.png)
+
 <figure>
-<img src="images/os_additem_manualallocation.gif" alt="Trulli" style="width:100%">
+<img src="images/os_additem_manualallocation_2.png" style="width:100%" alt="Affectation manuelle d'un lot dans un envoi sortant">
 <figcaption align="center"><i>Allocation manuelle au niveau du numéro de lot.</i></figcaption>
 </figure>
 
@@ -430,7 +428,6 @@ To edit an shipment line, tap on it. You will be presented with the `Edit Item` 
 
 1. Open the Outbound Shipment you want to edit.
 2. Tap on the line you want to edit. An identical window to `Add Item` appears. At this stage:
-
    - Edit the main `Issue Quantity` field
    - or change the number of packs value at the batch number level
 
@@ -445,13 +442,11 @@ To edit an shipment line, tap on it. You will be presented with the `Edit Item` 
 3. Go to the `Actions` dropdown menu (top right corner, above the list)
 4. Select the action `Delete selected lines`
 
-![Alt Text](images/os_actions_deleteselectedlines.png)
-
 <div class="imagetitle">
 In the below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100mg tabs</i>
 </div>
 
-![Alt Text](images/os_deleteselectedlines.gif)
+![Alt Text](images/os_deleteselectedlines.png)
 
 <div class="conseil">
  <b></b> You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
@@ -515,7 +510,6 @@ Pour modifier une ligne d'expédition, appuyez dessus. La fenêtre `Modifier l'a
 
 1. Ouvrez l'expédition sortante que vous voulez modifier.
 2. Appuyez sur la ligne que vous voulez modifier. Une fenêtre identique à `Ajouter un article` apparaît. À cette étape :
-
    - Modifiez le champ principal `Émettre`
    - ou changez la valeur du nombre de paquets au niveau du numéro de lot
 
@@ -533,7 +527,7 @@ Pour modifier une ligne d'expédition, appuyez dessus. La fenêtre `Modifier l'a
 Dans l'exemple ci-dessous, nous supprimons <i>trois lignes d'espace réservé</i>.
 </div>
 
-![Alt Text](images/delete-outbound-shipment-line.gif)
+![Alt Text](images/delete-outbound-shipment-line.png)
 
 <div class="tip">
  <b></b> Vous pouvez supprimer plusieurs lignes à la fois. Assurez-vous de vérifier ce qui est sélectionné avant d'effectuer l'action Supprimer. 
@@ -565,8 +559,6 @@ Une fois que toutes vos lignes d'expédition ont été allouées, vous pouvez **
 - Les lignes doivent être assignées avec un ou plusieurs numéros de lot. Vous ne pourrez pas confirmer l'allocation si votre expédition contient des lignes sans numéros de lot assignés (lignes d'espace réservé).
 
 Pour confirmer l'allocation, appuyez sur le bouton `Confirmer alloué`.
-
-![Alt Text](images/confirm-allocated-outbound-shipment-line.gif)
 
 Une fois l'allocation confirmée :
 
@@ -627,8 +619,6 @@ Parfois, le stock envoyé via une expédition sortante devra être retourné. Vo
 3. Sélectionnez la/les ligne(s) pour laquelle vous voulez traiter le retour en cochant la/les case(s) à droite de la liste
 4. Cliquez sur le bouton `Retourner les lignes sélectionnées` qui apparaît en bas de la page.
 
-![Lignes de retour OS](images/return-selected-outbound-shipment-line.gif)
-
 ### Sélectionner la quantité retournée
 
 Une modale s'ouvrira, contenant chaque ligne que vous avez sélectionnée pour le retour :
@@ -648,13 +638,13 @@ Les valeurs de `Quantité retournée` seront initialement `0` - vous pouvez ajus
 #### Avertissements
 
 Si vous oubliez d'entrer une `Quantité retournée` pour une ligne et cliquez sur `Étape suivante`, vous verrez ce message d'avertissement. Vous devrez ajouter une quantité retournée d'au moins une ligne. Vous pouvez cliquer sur `Annuler` si vous ne voulez plus traiter le retour de ce stock.
-![Alt Text](images/os_selectquantity_warning.png)
+![Select quantity warning](images/os_selectquantity_warning.png)
 
 ### Fournir des raisons
 
 Une fois que vous êtes satisfait de vos quantités retournées, vous pouvez cliquer sur `Étape suivante`. La liste des lignes sera filtrée pour inclure seulement les lignes pour lesquelles vous avez fourni une quantité de retour. Dans cette vue, vous pouvez entrer une raison pour le retour de chaque ligne, et un commentaire supplémentaire.
 
-![Alt Text](images/os_return_lines_modal.gif)
+![Return lines](images/os_return_lines_modal.png)
 
 ### Confirmer
 
@@ -670,10 +660,10 @@ Pour changer le mode de vue, cliquez sur l'interrupteur `Grouper par article`.
 
 Quand groupé par article, vous pouvez développer l'article pour voir les lots individuels, ou utiliser le développement dans l'en-tête du tableau pour développer toutes les lignes groupées. Si vous cliquez sur un article vous verrez aussi tous les lots sélectionnés, comme montré dans cet exemple :
 
-![Grouper par article](images/os_group_by_item.gif)
+![Grouper par article](images/os_group_by_item.png)
 
 Si vous n'avez pas assez de place sur votre écran, ou simplement n'êtes pas intéressé par certaines des colonnes montrées, vous avez l'option de cacher quelles colonnes sont montrées dans cette vue.
 
-Cliquez sur le bouton `Montrer / cacher les colonnes` qui est en haut à droite du tableau. Cela donne une liste des colonnes disponibles - vous pouvez cocher les colonnes que vous voulez voir. Les options choisies sont stockées pour le navigateur actuel, donc la prochaine fois que vous visualisez une expédition sortante, vous verrez seulement les colonnes sélectionnées. Si vous avez choisi quelles colonnes montrer, alors le bouton est montré en bleu pour vous rappeler qu'il y a plus de colonnes disponibles.
+Cliquez sur le bouton `Montrer / cacher les colonnes` qui est en haut à droite du tableau. Cela donne une liste des colonnes disponibles - vous pouvez cocher les colonnes que vous voulez voir. Les options choisies sont stockées pour le navigateur actuel, donc la prochaine fois que vous visualisez une expédition sortante, vous verrez seulement les colonnes sélectionnées.
 
-![Cacher les colonnes](images/os_show_hide_columns.gif)
+![Hide column button](../../images/table_filter_button.png)

@@ -29,11 +29,11 @@ for more information about what these preferences are and how to set them up.
 
 You can view these preferences by clicking on the `More` button.
 
+![report preferences](images/report_preferences.png)
+
 <div class="tip">
 Some reports display the store logo in their header. See the <a href="https://docs.msupply.org.nz/other_stuff:virtual_stores#logo_tab">mSupply documentation</a> for how to add or update a store logo.
 </div>
-
-![report preferences](images/report_preferences.gif)
 
 ## Generating reports
 
@@ -54,13 +54,13 @@ If you enter values for both the code and name, the items shown would have to ma
 
 The form also display which preferences the report is based on.
 
-![Report Filters dialog showing Item Code, Item Name, AMC Lookback Period, Target MOS and Reorder threshold MOS fields](images/report_filter.png)
+![](images/report_filter.png)
 
 Click `Ok` to generate the report. If you find that you would like to narrow
 down the report while viewing it, you can click on the `Filter` button on the
 top right corner of the report which will open up the filter form again.
 
-![report detail](images/report_detail.gif)
+![report detail](images/report_detail.png)
 
 ### Printing a report
 
@@ -92,17 +92,14 @@ English will be used by default in places where translations in the user's langu
 
 There are some standard reports included by default in all instances of Open mSupply, with more reports added regularly.
 
-| Area           | Report                | Version  | Details                                                                                |
-| -------------- | --------------------- | -------: | -------------------------------------------------------------------------------------- |
-| Distribution   | Outbound shipments    |  2.10.1+ | Filterable by date and customer, this report lists all lines on outbound shipments     |
-| Replenishment  | Inbound shipments     |  2.17.0+ | Filterable by supplier and date range, lists all lines on inbound shipments            |
-| Stock & Items  | Expiring Items        |   2.6.0+ | Many filter options for this one, the report lists stock which are expiring            |
-| Stock & Items  | Inventory Adjustments |  2.14.0+ | Filter by item, date range, location, adjustment type, source and reason               |
-| Stock & Items  | Item list             |  2.17.0+ | Filter by item code, name, master list, VEN category and stock status                  |
-| Stock & Items  | Item usage            |   2.6.3+ | Filter by item and report on detailed usage statistics                                 |
-| Stock & Items  | Stock detail          |   2.6.3+ | Filter by item and view details of current stock                                       |
-| Stock & Items  | Stock status          |   2.6.3+ | Filter by item and report on the status of current stock, similar to the detail report |
-| Programs       | Pending Encounters    |   2.6.0+ | Report on pending encounters by program                                                |
+| Area          | Report             | Version | Details                                                                                |
+| ------------- | ------------------ | ------: | -------------------------------------------------------------------------------------- |
+| Distribution  | Outbound shipments | 2.10.1+ | Filterable by date and customer, this report lists all lines on outbound shipments     |
+| Stock & Items | Expiring Items     |  2.6.0+ | Many filter options for this one, the report lists stock which are expiring            |
+| Stock & Items | Item usage         |  2.6.3+ | Filter by item and report on detailed usage statistics                                 |
+| Stock & Items | Stock detail       |  2.6.3+ | Filter by item and view details of current stock                                       |
+| Stock & Items | Stock status       |  2.6.3+ | Filter by item and report on the status of current stock, similar to the detail report |
+| Programs      | Pending Encounters |  2.6.0+ | Report on pending encounters by program                                                |
 
 ## Print templates
 
@@ -114,13 +111,10 @@ In addition to reports, there are print templates provided for many items. These
 | Internal order    |  2.6.3+ |                            |
 | Outbound shipment |    2.5+ | Landscape                  |
 | Outbound shipment |    2.5+ | Portrait                   |
-| Pick list         | 2.17.0+ | Outbound shipment pick list|
 | Prescription      |  2.6.0+ | Prescription receipt       |
-| Purchase order    | 2.12.1+ |                            |
 | Repack            |  2.5.1+ |                            |
 | Requisition       |  2.5.1+ |                            |
 | Stocktake         |  2.6.3+ | Detail view                |
 | Stocktake         |  2.5.1+ | Stocktake variance         |
 | Stocktake         |  2.5.1+ | Stocktake with quantity    |
 | Stocktake         |  2.5.0+ | Stocktake without quantity |
-| Supplier return   | 2.13.0+ |                            |

@@ -46,8 +46,6 @@ La lista de Indicadores Demográficos está dividida en 4 columnas:
 
 Para cada año, puedes ingresar el porcentaje de crecimiento poblacional previsto. Este puede ser un número positivo o negativo. Al editar el porcentaje de crecimiento, notarás que las proyecciones de población se actualizan.
 
-![edit growth](images/percentage_growth.gif)
-
 - Haz clic en `Guardar` una vez que estés conforme con tus cambios
 - O: Haz clic en `Cancelar` en cualquier momento para revertir tus cambios.
 
@@ -66,7 +64,7 @@ Esto agregará una nueva fila a la tabla. Ahora puedes ingresar un nombre para e
 - Haz clic en `Guardar` una vez que estés satisfecho con los cambios
 - O: Haz clic en `Cancelar` en cualquier momento para revertir los cambios
 
-![add new indicator](images/add_indicator.gif)
+![add new indicator](images/add_indicator.png)
 
 ## Permisos y restricciones
 

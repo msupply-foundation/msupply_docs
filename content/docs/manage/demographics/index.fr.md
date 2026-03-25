@@ -46,8 +46,6 @@ The following columns are shown:
 
 For each year, you can enter the predicted population growth percentage. This can be a positive or negative number. As you edit the growth percentage, you will notice the population projections update.
 
-![edit growth](images/percentage_growth.gif)
-
 - Click `Save` once you are happy with your changes
 - OR: Click `Cancel` at any time to revert your changes
 
@@ -66,7 +64,7 @@ This will add a new row to the table. You can now enter a name for the demograph
 - Click `Save` once you are happy with your changes
 - OR: Click `Cancel` at any time to revert your changes
 
-![add new indicator](images/add_indicator.gif)
+![add new indicator](images/add_indicator.png)
 
 ## Permissions & Restrictions
 

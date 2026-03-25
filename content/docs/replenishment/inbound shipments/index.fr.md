@@ -4,7 +4,7 @@ description = "Recevoir du stock des fournisseurs."
 date = 2022-03-19
 updated = 2022-03-19
 draft = false
-weight = 30
+weight = 4
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -58,7 +58,7 @@ La liste des livraisons comprend 7 colonnes:
 Vous pouvez filtrer la liste des livraisons par nom de fournisseur. Cela peut être utile si vous recherchez une livraison en particulier !
 
 Saisissez le nom du fournisseur dans le champ `Chercher par Nom` (à gauche, juste au-dessus des en-têtes de liste). Toutes les livraisons de ce fournisseur apparaîtront dans la liste.
-![Liste des réceptions filtrée par nom affichant les résultats correspondants](images/is_filter_list.png)
+![](images/is_filter_list.png)
 
 ### Exporter la liste des livraisons
 
@@ -100,7 +100,7 @@ Vous pouvez savoir si un fournisseur utilise également mSupply dans son dépôt
 Dans l'exemple ci-dessous, nous recevons du stock de <b>Tamaki Central Medical Store</b>. 
 </div>
 
-![Boîte de dialogue de recherche de fournisseur affichant les résultats de recherche](images/is_select_supplier.png)
+![](images/is_select_supplier.png)
 
 2. Une fois que vous avez sélectionné un Fournisseur, la livraison est créée.
 
@@ -114,7 +114,7 @@ Si tout s'est bien passé, vous devriez voir le nom de votre fournisseur dans le
 
 Si vous n'avez pas sélectionné le bon fournisseur, vous pouvez toujours modifié le nom du fournisseur dans le champs `Nom du fournisseur` ou sélectionner un autre:
 
-![Menu déroulant de fournisseur pour une réception montrant la liste des fournisseurs disponibles](images/is_choose_supplier.png)
+![](images/is_choose_supplier.png)
 
 ### Saisir une référence fournisseur
 
@@ -179,7 +179,7 @@ Si votre dépôt émet dans des devises étrangères, suivez [ces instructions](
 ![Store preference](../../images/store-pref-issue-in-foreign-currencies.png)
 
 L'icône crayon deviendra active une fois que les instructions ci-dessus ont été suivies et seulement si le client est un client externe. Cliquez sur cette icône et changez pour une devise dans laquelle vous souhaitez traiter la livraison. Le taux de change peut également être modifié si vous et le client avez convenu d'un taux différent.
-![Boîte de dialogue Devise étrangère montrant le sélecteur de devise et les champs de taux de change](images/is_change_foreign_currency.png)
+![](images/is_change_foreign_currency.png)
 
 Vous pouvez également voir les totaux en devise étrangère dans les détails de ligne de facture. ![Line with Foreign Currency Pricing](images/is_line_with_foreign_currency.png)
 
@@ -268,7 +268,7 @@ Vous n'êtes pas obligé de mettre à jour une livraison au statut suivant dans 
 
 Comme démontré ci-dessous, appuyez sur la flèche vers le bas du bouton `Confirmer` et sélectionnez le statut vers lequel vous voulez que la livraison soit mise à jour.
 
-![Status confirmation dropdown showing options to confirm shipment at different status steps](images/is_skipstatus.png)
+![](app://5531c08f03d8a6aa9957a150b6f1b5fd4135/Users/marielenigol/Documents/GitHub/msupply_docs/content/docs/replenishment/inbound%20shipments/images/is_skipstatus.png?1754624968005)
 
 ## Ajouter des lignes à une Livraison Entrante
 
@@ -420,7 +420,7 @@ Pour modifier une ligne de Livraison Entrante, appuyez simplement dessus. Vous v
 3. Sélectionnez la ou les ligne(s) que vous voulez supprimer en cochant la ou les case(s) à gauche de la liste
 4. Cliquez sur le bouton `Supprimer` qui apparaît en bas de la page.
 
-![Alt Text](images/delete-inbound-shipment-line.gif)
+![Alt Text](images/is_delete_lines.png)
 
 <div class="tip"> Vous pouvez supprimer plusieurs lignes à la fois. Assurez-vous de vérifier ce qui est sélectionné avant d'effectuer l'action Supprimer. </div>
 
@@ -498,7 +498,7 @@ Si vous oubliez d'entrer une quantité à retourner pour un lot et cliquez sur `
 
 Une fois que vous êtes satisfait de vos quantités à retourner, vous pouvez cliquer sur `Étape suivante`. La liste des lots sera filtrée pour inclure seulement les lots pour lesquels vous avez fourni une quantité de retour. Dans cette vue, vous pouvez fournir un motif pour retourner chaque lot, et un commentaire supplémentaire.
 
-![Alt Text](images/is_return_lines.gif)
+![Alt Text](images/is_return_lines.png)
 
 #### Confirmer
 
@@ -511,15 +511,13 @@ Lorsque vous êtes satisfait des quantités et des raisons, vous pouvez appuyer 
 
 Lors de la visualisation d'une livraison spécifique, vous pouvez voir les lots de cette livraison groupés par article ou avec chaque lot listé séparément. Pour changer le mode d'affichage, cliquez sur le bouton `Grouper par article`.
 
-Lorsqu'ils sont groupés par article, vous pouvez déplier l'article pour voir les lots individuels, ou utiliser le développement dans l'en-tête du tableau pour voir toutes les lignes groupées. Si vous cliquez sur un article, vous verrez également tous les lots sélectionnés, comme montré dans cet exemple :
-
-![Group by Item](images/is_group_by_item.gif)
+Lorsqu'ils sont groupés par article, vous pouvez déplier l'article pour voir les lots individuels, ou utiliser le développement dans l'en-tête du tableau pour voir toutes les lignes groupées.
 
 Si vous n'avez pas assez de place sur votre écran, ou si vous n'êtes simplement pas intéressé par certaines des colonnes affichées, vous avez l'option de masquer quelles colonnes sont affichées dans cette vue.
 
 Cliquez sur le bouton `Afficher / masquer les colonnes` qui se trouve en haut à droite du tableau. Cela donne une liste des colonnes disponibles - vous pouvez cocher les colonnes que vous voulez voir. Les options choisies sont stockées pour le navigateur actuel, donc la prochaine fois que vous visualiserez un envoi entrant, vous ne verrez que les colonnes sélectionnées. Si vous avez choisi quelles colonnes afficher, alors le bouton est affiché en bleu pour vous rappeler qu'il y a plus de colonnes disponibles.
 
-![Hide columns](images/is_show_hide_columns.gif)
+![Hide columns](images/is_show_hide_columns.png)
 
 ## Suivre le stock par donateur
 
