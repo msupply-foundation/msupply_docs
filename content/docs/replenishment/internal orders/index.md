@@ -4,7 +4,7 @@ description = "Requesting stock from your suppliers."
 date = 2022-03-19
 updated = 2022-03-19
 draft = false
-weight = 40
+weight = 42
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -35,7 +35,7 @@ You will see a list of all existing Internal Orders:
 
 ![Internal Order: list](images/intord_list.png)
 
-You can use the filters to filter the list by the name or status of the Internal Orders:
+You can use the filters to filter the list by the name, status, or requisition number of the Internal Orders:
 
 ![Internal Order: filter](images/intord_filter.png)
 
@@ -109,7 +109,7 @@ Once an item is selected, you should see the following information on the page.
 
 - **Suggested**: the number of units which mSupply suggests that your order to reach your stock target quantity
 - **Requested**: the number of units that you request from your supplier
-- **Packs or units**: a drop down selector which allows you to choose between a pack/unit
+- **Pack/unit/dose selector**: a drop down to choose between ordering in units, packs, or doses, depending on your store preferences. See [Requesting a quantity](#requesting-a-quantity) for details.
 - **Comment**: any comments you want to add to the order
 
 Additionally, if you have are viewing a program order, and have the store preference `Use consumption & stock from customers for internal orders` enabled in your store then you will see some additional fields:
@@ -119,14 +119,7 @@ Additionally, if you have are viewing a program order, and have the store prefer
 - **Outgoing**: how much has been taken out of stock by shipments within the period of this internal order
 - **Losses**: how much has been taken out of stock by stocktakes or inventory adjustments within the period of this internal order
 - **Additions**: how much has been added to stock by stocktakes or inventory adjustments within the period of this internal order
-- **Days out of stock**: the number of days within the period in which the store
-  had no stock of this item
-
-If you have the global preference [`Display population based forecasting`](/docs/manage/global-preferences/)
-enabled, you will see the following additional fields:
-
-- **Target stock (population)**: this is the target stock calculated using the
-  demographics settings for this store.
+- **Days out of stock**: the number of days within the period in which the store had no stock of this item
 
 You can also see the following charts:
 
@@ -160,9 +153,11 @@ enabled, you will see the population based forecasting calculation instead.
 
 ![Population based forecasting](images/population_based_forecasting_display.png)
 
-### Requesting a quantity in packs
+### Requesting a quantity
 
-If the item which you have selected has a default pack size configured (see the mSupply documentation on [editing units](https://docs.msupply.org.nz/items:adding_a_new_item#general_tab) for details on how to do this) then you will see a few additional elements on the 'Add item' window:
+The drop down next to the **Requested** field allows you to switch between entering quantities in **units**, **packs**, or **doses**. When you change the selection, the displayed values for stock on hand, AMC and suggested quantity displayed in packs, units, or doses to match the selector.
+
+The available options depend on your store preferences. The `packs` option is available when the store preference `Order in packs` is enabled. For vaccine items, the `doses` option is available when the store preference `Manage vaccines in doses` is enabled. If both preferences are enabled, the `packs` option is selected by default.
 
 ### Adding items using a master list
 
@@ -177,7 +172,7 @@ All the items of the master list are now listed in your order. If you had previo
 Tap on an order line to change the **Requested Quantity** or tap on the `Use
 Suggested Quantities` button to automatically copy the values in the **Suggested Quantity** column into the **Requested Quantity** column.
 
-![Internal Order: add from master list](images/intord_addfromml.gif)
+![Internal Order: add from master list](images/intord_addfromml.png)
 
 <div class="note"> 
 Master Lists are defined and assigned to stores at the central server level. You can only see the master lists that are visible to your store. 

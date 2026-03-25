@@ -87,8 +87,6 @@ Puedes eliminar una salida del listado de salidas.
 Solo puedes eliminar salidas cuyo estado sea <code>NUEVO</code>.
 </div>
 
-![Outbound list: delete](images/os_list_deleteshipment.gif)
-
 ## Crear una salida
 
 1. Ir a `Distribución` > `Salida`.
@@ -107,7 +105,7 @@ Solo puedes eliminar salidas cuyo estado sea <code>NUEVO</code>.
 En el siguiente ejemplo, estamos emitiendo inventario al <b>Almacén Regional de Kamo</b>. 
 </div>
 
-![gif](images/os_select_customer.gif)
+![gif](images/os_select_customer.png)
 
 <div class="consejo">
 Puede saber si un cliente también está usando mSupply en su almacén. Si lo está haciendo, verá un ícono como este (images/is_msupplystoreicon.png" alt="Store" style="width:auto">) junto al código del proveedor. 
@@ -125,7 +123,7 @@ Si todo salió bien, debería ver el nombre de su cliente en la esquina superior
 
 Si ha seleccionado el cliente equivocado, puede cambiar el nombre del cliente en el campo `Nombre del cliente` o seleccionar uno de la lista desplegable:
 
-![gif](images/os_change_customer.gif)
+![change customer](images/os_change_customer.png)
 
 ### Ingresar una referencia de client
 
@@ -149,8 +147,6 @@ Si está utilizando una pantalla grande, el panel de información se abrirá aut
 Para abrir el Panel de información, puede tocar el botón `Más`, ubicado en la esquina superior derecha de la vista de Envío saliente.
 
 Puede cerrarlo tocando el botón `X Cerrar`, en la esquina superior derecha del panel de información.
-
-![Open and close the Information Panel](images/os_infopanel_openclose.gif)
 
 #### Información adicional
 
@@ -254,7 +250,7 @@ No es necesario actualizar un envío al siguiente estado en la secuencia. Puedes
 
 Como se muestra a continuación, toca la flecha hacia abajo del botón `Confirmar` y selecciona el estado al que deseas que se actualice el envío.
 
-![Skip Status](images/os_confirmbutton_skipstatuses.gif)
+![Skip Status](images/os_confirmbutton_skipstatuses.png)
 
 ## Agregar líneas a una salida
 
@@ -453,7 +449,6 @@ Para editar una línea de envío, selecciónela. Se abrirá la ventana`Editar Ar
 
 1. Abra la salida que desea editar.
 2. Haga clic en la línea que desea editar. Aparece una ventana idéntica a `Agregar Artículo`. En esta etapa:
-
    - Edite el campo principal de `Emitir Cantidad`
    - o cambie el valor de la cantidad de paquetes en el nivel de número de lote
 
@@ -468,13 +463,11 @@ Para editar una línea de envío, selecciónela. Se abrirá la ventana`Editar Ar
 3. Ve al menú desplegable `Acciones` (esquina superior derecha, encima de la lista).
 4. Selecciona la acción `Eliminar las líneas seleccionadas`
 
-![Alt Text](images/os_actions_deleteselectedlines.png)
-
 <div class="imagetitle">
 En el siguiente ejemplo, estamos eliminando e <i>artículo 030063 - Tabletas de ácido acetilsalicílico de 100 mg</i>
 </div>
 
-![Alt Text](images/os_deleteselectedlines.gif)
+![Alt Text](images/os_deleteselectedlines.png)
 
 <div class="consejo">
  <b></b> Puedes eliminar varias líneas a la vez. Asegúrate de revisar lo que está seleccionado antes de realizar la acción de eliminación. 
@@ -507,8 +500,6 @@ Una vez que todas las líneas de envío han sido asignadas, puedes **confirmar l
 
 Para confirmar la asignación, presiona el botón `Confirmar asignado`.
 
-![Alt Text](images/os_confirmallocated.gif)
-
 Una vez confirmada la asignación:
 
 - El estado del envío es `ASIGNADO`
@@ -529,8 +520,6 @@ Una vez que se ha asignado un envío, el siguiente paso es ir a buscar los artí
 Una vez que se han recogido y empacado todos los artículos, puede confirmar la preparación del envío para indicar que está listo para ser despachado.
 
 Para confirmar que se ha preparado un envío, haga clic en el botón `Confirmar Recogido`.
-
-![Alt Text](images/os_confirmpicked.gif)
 
 Una vez confirmado el alistamiento:
 
@@ -566,12 +555,18 @@ Si su cliente también utiliza mSupply, podrá ver cuándo recibirán sus envío
 Cuando se visualiza un envío específico, se pueden ver los lotes en ese envío agrupados por ítem o con cada lote listado por separado.
 Para cambiar el modo de vista, haz clic en el botón `Agrupar por artículo`.
 
+![Group by Item button](../../images/table_group_by_item_button.png)
+
 Cuando se agrupa por árticulo, se puede expandir el artículo para ver lotes individuales, o utilizar la expansión en el encabezado de la tabla para expandir todas las filas agrupadas. Si haces clic en un artículo, también verás todos los lotes seleccionados, como se muestra en este ejemplo:
 
-![Group by Item](images/os_group_by_item.gif)
+![Group by Item](images/os_group_by_item.png)
+
+Así es como se ve la vista ampliada:
+
+![Group by Item](images/os_group_by_item_expanded.png)
 
 Si no tienes suficiente espacio en la pantalla, o simplemente no estás interesado en algunas de las columnas mostradas, tienes la opción de ocultar qué columnas se muestran en esta vista.
 
-Haz clic en el botón `Mostrar / ocultar columnas`, que está en la parte superior derecha de la tabla. Esto da una lista de las columnas disponibles; puedes marcar las columnas que deseas ver. Las opciones elegidas se almacenan para el navegador actual, por lo que la próxima vez que veas una salida, solo verás las columnas seleccionadas. Si has elegido qué columnas mostrar, entonces el botón se muestra en azul para recordarte que hay más columnas disponibles.
+Haz clic en el botón `Mostrar / ocultar columnas`, que está en la parte superior derecha de la tabla. Esto da una lista de las columnas disponibles; puedes marcar las columnas que deseas ver. Las opciones elegidas se almacenan para el navegador actual, por lo que la próxima vez que veas una salida, solo verás las columnas seleccionadas.
 
-![Hide columns](images/os_show_hide_columns.gif)
+![Hide column button](../../images/table_filter_button.png)
