@@ -4,7 +4,7 @@ description = "Solicitando stock a tus proveedores."
 date = 2022-03-19
 updated = 2022-03-19
 draft = false
-weight = 40
+weight = 42
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -37,7 +37,7 @@ Verás una lista de todas las órdenes internas existentes:
 
 Puedes usar el campo `Buscar por comentario` para filtrar la lista por los comentarios de las órdenes internas:
 
-![Internal Order: filter by comment](images/intord_filterlistbycomment.gif)
+![Internal Order: filter by comment](images/intord_filterlistbycomment.png)
 
 Puedes ordenar la lista utilizando los encabezados de las columnas:
 
@@ -131,7 +131,7 @@ Ahora todos los artículos de la lista maestra aparecerán en tu pedido. Si hab�
 
 Para cambiar la **Cantidad del pedido** toca en la línea del pedido correspondiente o toca en el botón `Sugerido a Pedido`
 
-![Internal Order: add from master list](images/intord_addfromml.gif)
+![Internal Order: add from master list](images/intord_addfromml.png)
 
 <div class="nota"> 
 Las listas maestras se definen y asignan a los almacenes a nivel del servidor central. Solo podrás ver las listas maestras que son visibles para tu almacén. 

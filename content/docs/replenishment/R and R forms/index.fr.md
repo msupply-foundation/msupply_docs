@@ -4,7 +4,7 @@ description = "Introduction aux formulaires R&R"
 date = 2024-08-06
 updated = 2024-08-06
 draft = false
-weight = 55
+weight = 46
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -109,7 +109,7 @@ Vous pouvez modifier les données d'utilisation de chaque article dans le formul
 
 Une fois que vous êtes satisfaits des informations relatives à un article, cochez la case « Confirmé » pour enregistrer les données.
 
-![Edit line](images/rnr_edit_line.gif)
+![Edit line](images/rnr_edit_line.png)
 
 ### Imprimer et exporter
 
@@ -136,7 +136,7 @@ Vous pouvez également définir une référence, qui sera incluse dans la comman
 
 Il y a beaucoup d'informations sur les formulaires R&R, et parfois il peut être difficile de tout voir en même temps. Cliquez sur le bouton `Plein Écran` dans le coin supérieur droit de l'écran pour agrandir la fenêtre.
 
-![R&R full screen](images/rnr_full_screen.gif)
+![R&R full screen](images/rnr_full_screen.png)
 
 Cliquez sur le bouton `Quitter` dans le coin supérieur droit de l'écran pour revenir à la fenêtre normale, ou vous pouvez utiliser la touche `Échap` si vous utilisez un clavier.
 

@@ -88,22 +88,16 @@ You can filter the data displayed by:
 - Type
 - Unacknowledged
 
-By default, the `Unacknowledged` filter is shown on this page.
 To add a filter to the page, choose the required filter from the drop down. To remove any applied filters, click the `Remove all filters` option.
 
 ![Filter](images/breach_filter.png)
 
-1. The list can display a fixed number of breaches per page. On the bottom left corner, you can see how many breaches are currently displayed on your screen.
+<div class="note">By default, the `Unacknowledged` filter is shown on the breach list view page.
+</div>
 
-![Page](images/list_showing.png)
+**Berlinger Fridge-tags and breach events**
 
-2. If you have more logs than the current limit, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner).
-
-![Page](images/list_pagenumbers.png)
-
-3. You can also select a different number of rows to show per page using the option at the bottom right of the page.
-
-![Rows per page](images/rows-per-page-select.png)
+<div class="note"> Berlinger Fridge-tags record a separate breach event for each 24 hour period. If a breach event lasts longer than 24 hours these are reflected accordingly in Open mSupply as multiple, separate 24 hour breach events rather than one long breach event.  </div>
 
 #### Acknowledging breaches
 
@@ -154,15 +148,9 @@ To add a filter to the page, choose the required filter from the drop down.
 
 1. The list can display a fixed number of logs per page. On the bottom left corner, you can see how many logs are currently displayed on your screen.
 
-![Page](images/list_showing.png)
-
 2. If you have more logs than the current limit, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner).
 
-![Page](images/list_pagenumbers.png)
-
 3. You can also select a different number of rows to show per page using the option at the bottom right of the page.
-
-![Rows per page](images/rows-per-page-select.png)
 
 ### Importing Fridge-tags
 
@@ -177,7 +165,7 @@ This will open a file browsing window, allowing you to select the `.txt` file of
 
 Here's how the process looks (this is the mac desktop version):
 
-![Import fridge tag](images/import_fridge_tag.gif)
+![Import fridge tag](images/import_fridge_tag.png)
 
 <div class="note">You may need to wait for the text file to be generated after connecting the Fridge-tag to your computer.</div>
 

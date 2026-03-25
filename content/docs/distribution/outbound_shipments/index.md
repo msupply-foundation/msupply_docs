@@ -108,7 +108,7 @@ You can only delete Outbound Shipments if they have not been <code>SHIPPED</code
 In the below example, we are issuing stock to <b>Kamo Regional Warehouse</b>. 
 </div>
 
-![gif](images/os_select_customer.gif)
+![gif](images/os_select_customer.png)
 
 <div class="tip">
 You can tell if a customer is also using Open mSupply in their store if they have an icon like this <img src="images/is_msupplystoreicon.png" alt="Store" style="width:auto"> next to the customer code. 
@@ -126,7 +126,7 @@ If everything went well, you should see the name of your customer in the top lef
 
 If you have selected the wrong customer, you can change the customer name in the `Customer Name` field or select one the dropdown list:
 
-![gif](images/os_change_customer.gif)
+![change customer](images/os_change_customer.png)
 
 ### Enter a Customer Reference
 
@@ -151,8 +151,6 @@ To open the Information Panel, you can tap on the `More` button, located in the 
 
 You can close by tapping on the `X Close` button, on the top right corner of the information panel.
 
-![Open and close the Information Panel](images/os_infopanel_openclose.gif)
-
 #### Additional Info
 
 In the **Additional Info** section, you can:
@@ -169,7 +167,7 @@ If your Outbound Shipment was created to fulfill a **Requisition**, the referenc
 
 In the future, we would also include other documents such as temperature records, transportation documents or pick slips.
 
-#### Charges
+#### Invoice Details
 
 In this section, you will see by default the total selling price of the items listed in the Outbound Shipment.
 
@@ -192,14 +190,18 @@ To add a service charges to the Invoice Details:
 
 The tax rate (%) for service charges and the item's sell price can also be edited by clicking on the pencil icon. A pop-up window will appear for you to enter a value.
 
-##### Foreign Currencies
+###### Foreign Currencies
 
 If your store is issuing in foreign currencies follow [these instructions](https://docs.msupply.org.nz/other_stuff:currencies) in the central server documentation to set it up. You will also need to enable the store preference `Store: Able to issue in foreign currency`. This preference is compatible with Open mSupply `v1.7.0+`.
 
 ![Store preference](../../images/store-pref-issue-in-foreign-currencies.png)
 
 The pen icon will become active once the above instructions have been followed and only if the customer is an external customer. Click on this icon and change to a currency that you would like to issue the shipment in. The currency rate can also be edited if you and the customer have agreed on a different rate.
-![gif](images/os-change-foreign-currency.gif)
+
+![change foreign currency](images/os_change_foreign_currency.png)
+
+![change foreign currency exchange rate](images/os_change_exchange_rate.png)
+
 You can also see the foreign currency totals in the invoice line details as well.
 ![Line with Foreign Currency Pricing](images/os-line-with-foreign-currency.png)
 
@@ -220,9 +222,9 @@ The status sequence is located at the bottom left corner of the Outbound Shipmen
 
 Passed statuses are highlighted in blue, next statuses appear in grey.
 
-![Outbound shipment status sequence showing New, Allocated, Picked, Shipped, Delivered and Verified steps](images/os_statussequence2.png)
+![](images/os_statussequence2.png)
 
-![Outbound shipment status sequence showing current step at Picked](images/os_statussequence3.png)
+![](images/os_statussequence3.png)
 
 There are 6 status for the Outbound Shipment, these are listed below alongside the comparable status in mSupply
 
@@ -277,7 +279,7 @@ You don't have to update a shipment to the next status in the sequence. You can 
 
 As demonstrated below, tap on the down arrow of the `Confirm` button and select the status you want the shipment to be updated to.
 
-![Skip Status](images/os_confirmbutton_skipstatuses.gif)
+![Skip Status](images/os_confirmbutton_skipstatuses.png)
 
 ## Adding lines to an Outbound Shipment
 
@@ -346,7 +348,6 @@ This is a list of batch numbers that you have in store for this item:
 | **Available (packs)** | Number of packs available (not already allocated to other shipments)                                                                                                                                                  |
 | **[Pack]s Issued**    | Total number of packs to be issued                                                                                                                                                                                    |
 | **[Unit]s Issued**    | Number of units to be issued                                                                                                                                                                                          |
-| **Volume (m3)**       | Total volume of the quantity to be issued. This is calculated based on the pack size and the volume per unit configured for the batch.                                                                                |
 | **On Hold**           | Indicates whether a batch is on hold or not. You cannot issue a batch that is on hold.                                                                                                                                |
 
 There is also a final row in the table which is a placeholder line, if the status of the Outbound Shipment is `NEW`.
@@ -456,10 +457,10 @@ The values in the **Total quantity** row will be automatically updated with the 
  <b></b> When allocating quantities at the batch number level, the quantity you enter is always a quantity of packs. 
 </div>
 
-![Alt Text](images/os_additem_manualallocation_1.png)
+![Allocating quantities in an outbound shipment](images/os_additem_manualallocation_1.png)
 
 <figure>
-<img src="images/os_additem_manualallocation_2.png" style="width:100%">
+<img src="images/os_additem_manualallocation_2.png" style="width:100%" alt="Manually allocating a batch in an outbound shipment">
 <figcaption align="center"><i>Manually allocating 5 packs of batch B_EXP_01</i></figcaption>
 </figure>
 
@@ -484,6 +485,7 @@ When you look at an Outbound Shipment, you can see if a shipment line has not be
 When you are happy with the quantity, you can either press on:
 
 - the `OK` button. You are redirected to the Outbound Shipment view and your item has been added to the list
+
 - the `OK & Next` button to add another item right away
 - the `Cancel` button if you do not want to add the item to the Outbound Shipment any more
 
@@ -565,8 +567,6 @@ Once all your shipments lines have been allocated, you can **confirm the allocat
 
 To confirm the allocation, press the `Confirm Allocated` button.
 
-![Alt Text](images/confirm-allocated-outbound-shipment-line.gif)
-
 Once the allocation is confirmed:
 
 - Shipment status is `ALLOCATED`
@@ -626,8 +626,6 @@ Sometimes, stock sent via an Outbound Shipment will need to be returned. You can
 3. Select the line(s) you want to process the return of by checking the box(es) on the right of the list
 4. Click the `Return selected lines` button which appears at the bottom of the page.
 
-![OS return lines](images/return-selected-outbound-shipment-line.gif)
-
 ### Select quantity returned
 
 A modal will open, containing each line you selected for return:
@@ -647,13 +645,14 @@ The `Quantity Returned` values will initially be `0` - you can adjust this to re
 #### Warnings
 
 If you forget to enter a `Quantity Returned` for any line and click `Next step`, you will see this warning message. You'll need to add a quantity returned from at least one line. You can click `Cancel` if you no longer want to process the return of any of this stock.
-![Alt Text](images/os_selectquantity_warning.png)
+
+![Select quantity warning](images/os_selectquantity_warning.png)
 
 ### Provide reasons
 
 Once you are happy with your returned quantities, you can click `Next step`. The list of lines will be filtered to only include the lines you provided a return quantity for. In this view, you can enter a reason for the return of each line, and an additional comment.
 
-![Alt Text](images/os_return_lines_modal.gif)
+![Return lines](images/os_return_lines_modal.png)
 
 ### Confirm
 
@@ -667,15 +666,21 @@ When you are happy with the quantities and reasons, you can press on:
 When viewing a specific shipment, you can view the batches on that shipment grouped by item or with each batch listed separately.
 To change the view mode, click the `Group by item` switch.
 
+![Group by Item button](../../images/table_group_by_item_button.png)
+
 When grouped by item, you can expand the item to see individual batches, or use the expand in the table header to expand all grouped rows. If you click on an item you will also see all selected batches, as shown in this example:
 
-![Group by Item](images/os_group_by_item.gif)
+![Group by Item](images/os_group_by_item.png)
+
+This is how the expanded view looks:
+
+![Group by Item](images/os_group_by_item_expanded.png)
 
 If you do not have enough room on your screen, or simply aren't interested in some of the columns shown, you have the option of hiding which columns are shown in this view.
 
-Click on the `Show / hide columns` button which is at the top right of the table. This gives a list of the columns available - you can check the columns you want to see. The options chosen are stored for the current browser, so next time you view an Outbound Shipment, you will see the selected columns only. If you have chosen which columns to show, then the button is shown in blue to remind you that there are more columns available.
+Click on the `Show / hide columns` button which is at the top right of the table. This gives a list of the columns available - you can check the columns you want to see. The options chosen are stored for the current browser, so next time you view an Outbound Shipment, you will see the selected columns only.
 
-![Hide columns](images/os_show_hide_columns.gif)
+![Hide column button](../../images/table_filter_button.png)
 
 ### View or Edit the Requisition Information Panel
 
@@ -711,7 +716,7 @@ This section lists the service changes, sell price, total price and foreign curr
 
 #### Transport Details
 
-The **Transport Details** section is where you can enter the [shipping method](https://docs.msupply.org.nz/issuing_goods:issuing_goods_customer_invoice?s[]=shipping&s[]=method), the expected delivery date and a reference for the delivery.
+The **Transport Details** section is where you can enter the expected delivery date and a reference for the delivery.
 
 #### Actions
 

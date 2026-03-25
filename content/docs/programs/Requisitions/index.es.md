@@ -16,7 +16,7 @@ top = false
 
 Puedes gestionar Órdenes Internas por programa dentro de Open mSupply. Esto implica el uso de configuraciones especiales para las listas maestras. En este método, un programa es una extensión de una lista maestra. Un programa incluye una lista estándar de artículos, así como:
 
-- **Tipo de órdenes**:  categorías definidas que establecen el número máximo de órdenes y la cantidad de inventario que se puede solicitar por período
+- **Tipo de órdenes**: categorías definidas que establecen el número máximo de órdenes y la cantidad de inventario que se puede solicitar por período
 - **Horarios de períodos**: intervalos de tiempo definidos en los que se pueden realizar órdenes; los horarios y períodos deben configurarse antes de crear programas
 - **Datos de régimen**: una lista definida de información adicional que puede necesitar ser proporcionada por un cliente al realizar una requisición de programa
 
@@ -80,7 +80,7 @@ Las requisiciones de programas también se pueden crear manualmente. Esto se har
 Consulta los pasos de configuración mencionados anteriormente, así como la documentación de la [Etiquetas del Cliente](https://docs.msupply.org.nz/names:adding_and_editing#tags_tab)
 para aprender cómo configurar programas y agregar etiquetas a los clientes.
 
-En la página de Requisiciones, haz clic en el botón `Nueva Requisición`  (en la esquina superior derecha).
+En la página de Requisiciones, haz clic en el botón `Nueva Requisición` (en la esquina superior derecha).
 
 ![New Requisition](images/add_requisition_button.png)
 
@@ -106,26 +106,21 @@ En las requisiciones manuales es posible recopilar muchas columnas adicionales d
 Para referencia rápida, esta es la preferencia que requiere tu almacén conectado:
 ![Show extra fields on requisitions preference](images/show_extra_fields_on_requisitions.png)
 
-Así es como se ven las columnas adicionales dentro de una requisición:
-
-![Program Requisition Detail
-View](images/program_requisition_detail_view.gif)
-
 La página de edición de líneas también incluirá estas columnas adicionales:
 
-| Columna                      | Descripción                                                                                                  |
-| :------------------------ | :----------------------------------------------------------------------------------------------------------- |
-| **Stock inicial disponible** | Stock disponible del cliente al inicio del período del programa                                              |
-| **Entradas**                 | Stock entrante del cliente en unidades para este artículo                                                         |
-| **Salidas**                  | Stock saliente del cliente en unidades para este artículo                                                         |
-| **Pérdidas**                 | Ajuste de inventario                                                                                         |
-| **Adiciones**                | Ajuste de inventario                                                                                         |
-| **Disponible**               | Stock inicial disponible + entradas de stock +/- ajustes de inventario - salidas de stock                             |
-| **Cercano a vencer**         | Suma del stock disponible para el artículo que tiene una fecha de caducidad posterior a la fecha de fin del programa                      |
-| **Días sin stock**           | (MOS objetivo \* AMC) -  stock disponible                                                                        |
-| **AMC**                      | Consumo mensual promedio del cliente para este artículo                                                     |
-| **MOS**                      | Meses de stock para el artículo                                                                                 |
-| **Razón**                    | Se proporcionará una razón si hay una diferencia entre la cantidad sugerida y la cantidad solicitada |
+| Columna                      | Descripción                                                                                                          |
+| :--------------------------- | :------------------------------------------------------------------------------------------------------------------- |
+| **Stock inicial disponible** | Stock disponible del cliente al inicio del período del programa                                                      |
+| **Entradas**                 | Stock entrante del cliente en unidades para este artículo                                                            |
+| **Salidas**                  | Stock saliente del cliente en unidades para este artículo                                                            |
+| **Pérdidas**                 | Ajuste de inventario                                                                                                 |
+| **Adiciones**                | Ajuste de inventario                                                                                                 |
+| **Disponible**               | Stock inicial disponible + entradas de stock +/- ajustes de inventario - salidas de stock                            |
+| **Cercano a vencer**         | Suma del stock disponible para el artículo que tiene una fecha de caducidad posterior a la fecha de fin del programa |
+| **Días sin stock**           | (MOS objetivo \* AMC) - stock disponible                                                                             |
+| **AMC**                      | Consumo mensual promedio del cliente para este artículo                                                              |
+| **MOS**                      | Meses de stock para el artículo                                                                                      |
+| **Razón**                    | Se proporcionará una razón si hay una diferencia entre la cantidad sugerida y la cantidad solicitada                 |
 
 ![Program Requisition Line
 Edit](images/program_requisition_line_edit.png)

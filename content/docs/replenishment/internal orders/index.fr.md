@@ -4,7 +4,7 @@ description = "Commander chez des fournisseurs utilisant mSupply."
 date = 2022-03-19
 updated = 2022-03-19
 draft = false
-weight = 40
+weight = 2
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -36,7 +36,7 @@ Une liste de commandes internes s'affiche à l'écran:
 
 Vous pouvez utiliser le champs `Search by comment` pour filter la liste par commentaire:
 
-![Internal Order: filter by comment](images/intord_filterlistbycomment.gif)
+![Internal Order: filter by comment](images/intord_filterlistbycomment.png)
 
 Vous pouvez trier la liste à l'aide des en-têtes de colonne :
 
@@ -129,7 +129,7 @@ Tous les articles de la liste principale figurent désormais dans votre commande
 
 Tapez sur une ligne de commande pour modifier la **Quantité commandée** ou tapez sur le bouton `Demandé à Suggéré`
 
-![Internal Order: add from master list](images/intord_addfromml.gif)
+![Internal Order: add from master list](images/intord_addfromml.png)
 
 <div class="remarque"> 
 Les listes de base sont définies et attribuées aux points de vente au niveau du serveur central. Vous ne pouvez voir que les listes maîtresses visibles par votre point de vente. 

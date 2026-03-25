@@ -4,7 +4,7 @@ description = "Introducción a los Formularios R&R"
 date = 2024-08-06
 updated = 2024-08-06
 draft = false
-weight = 55
+weight = 46
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -101,7 +101,7 @@ Puedes realizar cambios en los datos de uso de cada artículo en el formulario R
 
 Una vez que estés satisfecho con la información de un artículo, marca la casilla `Confirmado` para guardar los datos.
 
-![Edit line](images/rnr_edit_line.gif)
+![Edit line](images/rnr_edit_line.png)
 
 ### Imprimir y Exportar
 
