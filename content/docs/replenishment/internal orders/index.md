@@ -39,6 +39,10 @@ You can use the filters to filter the list by the name, status, or requisition n
 
 ![Internal Order: filter](images/intord_filter.png)
 
+<div class="tip">
+If you are using program requisitions, additional filter options may be available, such as filtering by order type. This is helpful for quickly finding emergency orders. See <a href="/docs/programs/requisitions/">Program Requisitions</a> for full details on emergency orders.
+</div>
+
 You can sort the list using the column headers:
 
 1. Tap the column header of the column that you want to sort. The column is sorted in ascending order.
