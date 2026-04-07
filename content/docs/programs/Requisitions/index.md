@@ -51,6 +51,22 @@ The programs and order period you see will be affected by the store tags and pro
 
 <div class="note">The program you select will affect which suppliers, order types and periods are available for selection</div>
 
+### Emergency Orders
+
+Emergency orders are designed for urgent, unplanned stock needs — for example, when a facility unexpectedly runs out of a critical medicine and cannot wait for the next scheduled ordering period. They allow facilities to quickly request a small number of essential items outside the normal ordering cycle.
+
+When selecting an **Order Type** in the creation dialog, emergency order types are displayed with a special emergency icon next to their name, making them easy to distinguish from normal order types.
+
+Unlike normal orders, emergency orders have a **maximum item limit**. This limit is configured per program and restricts how many different items you can include in a single emergency order.
+
+<div class="warning">
+If you try to add more items than the allowed maximum for an emergency order, the system will display an error message and prevent you from adding further items. This limit ensures that emergency orders remain focused on the most critical needs. If you need to order many items, a normal program order is more appropriate.
+</div>
+
+<div class="note">
+Not all programs support emergency orders. Whether an emergency order type is available depends on how the program has been configured on the central server. See the <a href="https://docs.msupply.org.nz/items:programs#creating_a_program">program configuration documentation</a> for details on setting up order types, including emergency orders and their item limits.
+</div>
+
 ## Differences when using program requisitions
 
 ### Internal Orders
@@ -125,8 +141,10 @@ The list view has gained some additional columns, showing the program related da
 ![Requisition: list](images/requisition-list.png)
 
 - **Program**: the name of the program this Internal Order was created for
-- **Order type**: the name of the order type ( typically, a normal or emergency order )
+- **Order type**: the name of the order type (e.g., Normal or Emergency). Emergency orders are indicated with an emergency icon, making them easy to identify at a glance
 - **Period**: the name of the period selected
+
+You can filter the requisition list by order type, which is useful for warehouse staff who want to quickly find and prioritise emergency orders from customers.
 
 #### Manual Program Requisitions
 

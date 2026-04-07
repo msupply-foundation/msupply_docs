@@ -44,7 +44,7 @@ The list of Requisitions is divided into 6 columns:
 | **Shipments** | Number of shipments created from the requisition |
 | **Comment**   | Comment for the requisition                      |
 
-<div class="note">If you have program requisitions enabled, you may have additional columns in this table!</div>
+<div class="note">If you have program requisitions enabled, you may have additional columns in this table, including Program, Order Type and Period. Emergency orders are indicated with an emergency icon in the Order Type column, making it easy to identify and prioritise urgent requests from your customers.</div>
 
 ### Filter Requisitions
 
@@ -94,6 +94,10 @@ To view the detail of a particular requisition, simply click on it in the list v
 You will then see the detail view of the requisition:
 
 ![Requisition Detail](images/requisition-detail.png)
+
+<div class="tip">
+When a customer submits an emergency order, it will automatically appear in your Requisitions list flagged as an emergency. You can filter the list by order type to prioritise these urgent requests. Emergency orders typically contain a small number of critical items that need to be fulfilled promptly. See <a href="/docs/programs/requisitions/">Program Requisitions</a> for more details.
+</div>
 
 #### Enter a Customer Reference
 
