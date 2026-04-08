@@ -17,7 +17,8 @@ top = false
 
 The gap analysis planning system (GAPS) is a tool designed to help EPI teams to assess whether their CCE infrastructure is sufficient to meet the forecast demand.
 
-The GAPS module allows EPI teams to: 
+The GAPS module allows EPI teams to:
+
 - [Assess CCE capacity for the country](#assessing-cce-capacity)
 - [Forecast the demand for CCE capacity over the next 5 years](#forecasting-demand-for-cce-capacity)
 - [Compare the current CCE capacity to the forecast demand](#comparing-cce-capacity-to-forecast-demand)
@@ -26,38 +27,42 @@ The GAPS module allows EPI teams to:
 ## Assessing CCE capacity
 
 The CCE capacity for the country can be assessed by:
-1. [Registering all CCE](#1-registering-cce) for all facilities in the CCEI module. 
+
+1. [Registering all CCE](#1-registering-cce) for all facilities in the CCEI module.
 2. [Obtaining recent updates about the functional status](#2-updating-cce-functional-status) of each CCE
 3. [Reviewing the aggregated data](#3-reviewing-aggregated-cce-data)
+
 ### 1. Registering CCE
 
-CCE can be registered for every facility in the country by following the documentation for the [CCEI module](/docs/coldchain/equipment/). 
+CCE can be registered for every facility in the country by following the documentation for the [CCEI module](/docs/coldchain/equipment/).
 
-Each registered CCE provides data about its cold storage volume capacity:  
+Each registered CCE provides data about its cold storage volume capacity:
 
 ![Cold chain equipment asset detail showing storage capacity at +5°C, -20°C and -70°C in litres](images/cce_storage_capacity.png)
 
-The aggregation of these cold storage volumes from all CCE across all facilities therefore gives the `CCE installed capacity` for the country (see [Installed CCE capacity](#installed-cce-capacity)). 
+The aggregation of these cold storage volumes from all CCE across all facilities therefore gives the `CCE installed capacity` for the country (see [Installed CCE capacity](#installed-cce-capacity)).
 
 ### 2. Updating CCE functional status
 
-The `CCE functioning capacity` is the percentage of the `CCE installed capacity` that is currently working as expected. 
+The `CCE functioning capacity` is the percentage of the `CCE installed capacity` that is currently working as expected.
 
-To determine an accurate `CCE functioning capacity` it is necessary to obtain recent data about the functional status of each CCE in the country. 
+To determine an accurate `CCE functioning capacity` it is necessary to obtain recent data about the functional status of each CCE in the country.
 
 ![Equipment list with Functional Status filter showing options: Functioning, Functioning but needs attention, Not Functioning](images/cce_functional_status.png)
-This data can be obtained in two ways: 
-1. Manually - each facility user submits a [functional status report](/docs/coldchain/equipment/#update-status) for each of their CCE
-2. Automatically - each CCE directly reports its own functional status (**future feature*)
+This data can be obtained in two ways:
 
-As of version 2.7, only the manual option is available. 
+1. Manually - each facility user submits a [functional status report](/docs/coldchain/equipment/#update-status) for each of their CCE
+2. Automatically - each CCE directly reports its own functional status (\*_future feature_)
+
+As of version 2.7, only the manual option is available.
 
 Therefore, to obtain an accurate `CCE functioning capacity` it is **vitally important to implement a robust SOP** for facilities so that they regularly report the functional status of their CCE by submitting a [functional status report](/docs/coldchain/equipment/#update-status) (for example, on a weekly basis)
+
 ### 3. Reviewing aggregated CCE data
 
 #### Installed CCE capacity
 
-The `CCE installed capacity` is the aggregation of the data collected in [1. Registering CCE](#1-registering-cce) and can be viewed in the [mSupply Dashboard](/dashboard/introduction).  
+The `CCE installed capacity` is the aggregation of the data collected in [1. Registering CCE](#1-registering-cce) and can be viewed in the [mSupply Dashboard](/dashboard/introduction).
 
 The dashboard can be filtered by metrics such as supply level (Primary, Sub-National, Lowest Distribution etc) or temperature range (+ 5°C, -20 °C, -70°C)
 
@@ -70,9 +75,11 @@ The `CCE functioning capacity` is the aggregation of the data collected in [2. U
 The dashboard can be filtered by metrics such as supply level (Primary, Sub-National, Lowest Distribution etc) or temperature range (+ 5°C, -20 °C, -70°C)
 
 ![CCE capacity overview showing functioning capacity in litres and percentage by supply level and temperature range](images/cce_functioning_capacity.png)
+
 ## Forecasting demand for CCE capacity
 
 The forecast demand for CCE capacity for the country can be determined by:
+
 1. [Recording packaging volumes for each type of vaccine](#1-recording-packaging-volumes-for-vaccines)
 2. [Capturing population data for each facility](#2-capturing-population-data-for-facilities)
 3. [Specifying the national immunization program](#3-specifying-the-national-immunization-program)
@@ -80,15 +87,15 @@ The forecast demand for CCE capacity for the country can be determined by:
 
 ### 1. Recording packaging volumes for vaccines
 
-To calculate how much CCE capacity is required to store vaccines it is necessary to know how much space each dose occupies in the CCE. 
+To calculate how much CCE capacity is required to store vaccines it is necessary to know how much space each dose occupies in the CCE.
 
-The volume required to store each type of vaccine can be recorded in the [Item Catalogue](/docs/catalogue/items/#packaging-1). 
+The volume required to store each type of vaccine can be recorded in the [Item Catalogue](/docs/catalogue/items/#packaging-1).
 
 Volumes for primary, secondary and tertiary packaging can be recorded so that the appropriate packaging level for each facility is used when calculating their storage volume requirements.
 
-![Item variant detail for BCG vaccine showing packaging levels with volume per unit in litres](images/item_variant_packaging_volume.png)
+![Item variant detail for BCG vaccine showing packaging levels with volume per unit in litres](images/item_variant_volume.png)
 
-Additionally the Item Catalogue captures which diluents are bundled with vaccines and this data is also used to calculate the total storage volume requirements for vaccines. 
+Additionally the Item Catalogue captures which diluents are bundled with vaccines and this data is also used to calculate the total storage volume requirements for vaccines.
 
 ![Item variant detail for BCG vaccine showing bundle configuration with packaging levels and diluent](images/item_variant_bundled_item.png)
 
@@ -96,21 +103,21 @@ Additionally the Item Catalogue captures which diluents are bundled with vaccine
 
 ### 2. Capturing population data for facilities
 
-To calculate how many doses of vaccines will be required in a given year it is necessary to know how many people are served by each facility and what percentage of those people will require vaccines in that year. 
+To calculate how many doses of vaccines will be required in a given year it is necessary to know how many people are served by each facility and what percentage of those people will require vaccines in that year.
 
-To do this requires: 
+To do this requires:
+
 - [A snapshot of the current population](#population-snapshot)
 - [Specification of population indicators](#population-indicators)
 - [An estimation of population growth rate](#population-growth-rate)
 
 #### Population snapshot
 
-Each facility can submit a snapshot of their own `Population served` data in the [Store properties](/docs/manage/facilities/#editing-your-store-properties) section. 
+Each facility can submit a snapshot of their own `Population served` data in the [Store properties](/docs/manage/facilities/#editing-your-store-properties) section.
 
-This population data is then aggregated centrally to build a national population snapshot. 
+This population data is then aggregated centrally to build a national population snapshot.
 
 ![Store detail for Regional vaccine warehouse with Population Served field highlighted](images/store_population_served.png)
-
 
 <div class="note">For demand calculations to stay relevant it is necessary for the <span style="font-family: monospace;color: #e05434; background-color: #fafafa;">Population served</span> data to be renewed on a periodic basis, e.g. annually. 
 <br>
@@ -119,7 +126,7 @@ This requires the introduction of a robust SOP to ensure facilities maintain up-
 
 #### Population indicators
 
-`Population indicators` are used to determine what percentage of the population snapshot will require vaccinating.  For example, what percentage of the population snapshot are newborn children.
+`Population indicators` are used to determine what percentage of the population snapshot will require vaccinating. For example, what percentage of the population snapshot are newborn children.
 
 The `Population indicators` are set at the central level in the [Demographics](/docs/manage/demographics/#adding-a-new-indicator) section.
 
@@ -127,78 +134,84 @@ The `Population indicators` are set at the central level in the [Demographics](/
 
 #### Population growth rate
 
-To forecast beyond the current year it is necessary to estimate the annual population growth. 
+To forecast beyond the current year it is necessary to estimate the annual population growth.
 
 The `Population growth` may be specified for the next 5 years in the [Demographics](/docs/manage/demographics/#yearly-growth-percentage) section.
 
 ![Demographics page showing population growth with projections across five years](images/demographics_population_growth.png)
+
 ### 3. Specifying the national immunization program
 
-To accurately calculate the forecast demand it is necessary to specify the national immunization program that the population are expected to adhere to. 
+To accurately calculate the forecast demand it is necessary to specify the national immunization program that the population are expected to adhere to.
 
-To do this requires: 
+To do this requires:
+
 - [Specifying which vaccine courses form part of the national immunization program](#specifying-vaccine-courses)
 - [Specifying the details of each vaccine course](#specifying-vaccine-course-variables)
 
 #### Specifying vaccine courses
 
-The different vaccine courses that form part of the national immunization program are specified at the central level in the [Programs > Immunizations](/docs/programs/immunisations/#vaccine-courses) section. 
+The different vaccine courses that form part of the national immunization program are specified at the central level in the [Programs > Immunizations](/docs/programs/immunisations/#vaccine-courses) section.
 
 ![Immunizations program showing vaccine courses list with checkboxes for selection](images/program_vaccine_courses.png)
 
 #### Specifying vaccine course variables
 
-The variables of each vaccine course must be specified to provide an accurate demand forecast. 
+The variables of each vaccine course must be specified to provide an accurate demand forecast.
 
-The variables that must be specified include: 
+The variables that must be specified include:
+
 - The [target demographic](#population-indicators)
 - The coverage rate
 - The wastage rate
 - The number of doses required to complete the vaccine course
 
 ![Edit vaccine course details dialog showing target demographic, coverage rate, wastage rate and dose schedule](images/program_vaccine_courses_detail.png)
+
 ### 4. Reviewing the forecast demand
 
-The total `CCE forecast demand` for each supply level (e.g. Primary, Sub-National, Lowest Distribution and Service Points) is determined by calculating the forecast demand for each vaccine course and then summing the results. 
+The total `CCE forecast demand` for each supply level (e.g. Primary, Sub-National, Lowest Distribution and Service Points) is determined by calculating the forecast demand for each vaccine course and then summing the results.
 
 The forecast demand for each each vaccine course is calculated by applying an algorithm to the data points collected in the previous sections.
 
 The algorithm applied is: `Target population` x `Number of doses` x `Coverage rate` x `Loss factor`
 
-More details on how each of the components of the algorithm are derived can be viewed on our GitHub repository <a href="https://github.com/msupply-foundation/open-msupply-forecasting-plugins?tab=readme-ov-file#forecasting-calculation" target="_blank">here</a>. 
+More details on how each of the components of the algorithm are derived can be viewed on our GitHub repository <a href="https://github.com/msupply-foundation/open-msupply-forecasting-plugins?tab=readme-ov-file#forecasting-calculation" target="_blank">here</a>.
 
-The output values (in litres) can be viewed in the [mSupply Dashboard](/dashboard/introduction).  
+The output values (in litres) can be viewed in the [mSupply Dashboard](/dashboard/introduction).
 
 ![Capacity Forecasting table showing expected demand and surplus by supply level for 2024-2028](images/forecast_expected_demand_sl.png)
+
 ## Comparing CCE capacity to forecast demand
 
-The [CCE installed capacity](#installed-cce-capacity) and [CCE forecast demand](#4-reviewing-the-forecast-demand) can be reviewed in the [mSupply Dashboard](/dashboard/introduction). 
+The [CCE installed capacity](#installed-cce-capacity) and [CCE forecast demand](#4-reviewing-the-forecast-demand) can be reviewed in the [mSupply Dashboard](/dashboard/introduction).
 
-The `CCE surplus / deficit` (in litres) is displayed for each supply level for the current year. 
-Additionally a forecast is provided for the next 5 years to account for population growth. 
+The `CCE surplus / deficit` (in litres) is displayed for each supply level for the current year.
+Additionally a forecast is provided for the next 5 years to account for population growth.
 
-- Supply levels with sufficient `CCE surplus` are shown in green. 
+- Supply levels with sufficient `CCE surplus` are shown in green.
 - Supply levels with low `CCE surplus` are shown in yellow
 - Supply levels with critically low `CCE surplus` are shown in red
 
-The 5 year forecast allows for the identification of trends which help to highlight whether intervention will be required in the near future. 
+The 5 year forecast allows for the identification of trends which help to highlight whether intervention will be required in the near future.
 
 ![Capacity Forecasting table showing surplus highlighted by supply level](images/forecast_surplus_sl.png)
+
 ## Identifying facilities that need intervention
 
-In addition to the aggregated supply level comparison it is possible to do a comparison at the individual facility level. 
+In addition to the aggregated supply level comparison it is possible to do a comparison at the individual facility level.
 
-This allows for identification of individual facilities that require attention. 
+This allows for identification of individual facilities that require attention.
 
 ![Capacity Forecasting table showing demand and surplus by facility for 2024-2028](images/forecast_facilities.png)
 
-The `CCE surplus / deficit` (in litres) is displayed for each facility for the current year. 
-Additionally a forecast is provided for the next 5 years to account for population growth. 
+The `CCE surplus / deficit` (in litres) is displayed for each facility for the current year.
+Additionally a forecast is provided for the next 5 years to account for population growth.
 
-- Facilities with sufficient `CCE surplus` are shown in green. 
+- Facilities with sufficient `CCE surplus` are shown in green.
 - Facilities with low `CCE surplus` are shown in yellow
 - Facilities with critically low `CCE surplus` are shown in red
 
-The 5 year forecast allows for the identification of trends which help to highlight whether intervention will be required in the near future. 
+The 5 year forecast allows for the identification of trends which help to highlight whether intervention will be required in the near future.
 
 ![Capacity Forecasting table showing surplus highlighted by facility](images/forecast_surplus_facilities.png)
