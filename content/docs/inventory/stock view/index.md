@@ -190,6 +190,18 @@ The `Log` tab shows changes relating to the batch, such as changes in location o
 
 ![Stock line ledger](images/stock_ledger.png)
 
+### VVM History tab
+
+When viewing a stock line for a vaccine item you will see, in addition to the tabs listed above, a tab labelled `VVM History`. Here you can view the list of VVM status entries for this stock line.
+
+![VVM History tab](images/vvm_history_tab.png)
+
+To update the VVM status of this stock click on the `Add status entry` button. A window is opened which allows you to choose the status level and optionally enter a comment.
+
+![VVM History tab](images/vvm_history_add_status.png)
+
+<div class="tip">VVM statuses are configured on the mSupply central server. Refer to the <a href="https://docs.msupply.org.nz/cold_chain_equipment:configure#set_up_vaccine_vial_monitor_vvm_statuses">documentation</a> for how to do this.</div>
+
 ## Repacking stock
 
 The repack feature gives us the ability to break down stock into smaller pack sizes, consolidate it into larger pack sizes or move part or all of a stock line to a new location.
