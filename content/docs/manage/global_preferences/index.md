@@ -86,6 +86,24 @@ For translations that include number-based variables, we also support pluralisat
 
 ![custom translations pluralisation](images/custom_translation_count.png)
 
+#### Download
+
+You've made a lot of great changes to custom translations and you'd like to share them with someone? Or simply back them up?
+
+No problem - click the `Download` button to save all the custom translations in a JSON file format.
+
+#### Import
+
+If you have downloaded some translations and now wish to apply them to your server, simply click the `Import` button. You'll be shown a new window where you can choose the mode and select a JSON formatted file to upload.
+
+The mode options are:
+
+- **Add new translations only** (default) - any translations in the import file which already exist as custom translations on your server will not be imported
+- **Add new and overwrite existing** - new translations are added and any existing custom translations will be updated to the translation in your import file
+- **Delete existing and replace all** - a clean slate! all existing custom translations are removed, and all the translations in the import file are added.
+
+![custom translations import](images/custom_translation_import.png)
+
 ## Default settings for tables
 
 There is a particular type of global configuration which is accessed in a special way. This is the default settings for tables.
