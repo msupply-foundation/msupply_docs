@@ -125,6 +125,8 @@ Each table in Open mSupply has its own independent global default. Saving a defa
 4. At the bottom of the menu, click **Save table changes as global default**
 5. A success notification confirms the configuration has been saved
 
+![table administration menu](images/table_administration_menu.png)
+
 The global default is now in effect for all users who have not already made their own personal customisations to that table.
 
 <div class="note">The <b>Save table changes as global default</b> option only appears for administrators on the central server who have the Edit Central Data permission. If you do not see this option, check that you are logged in to the central server with the correct permissions.</div>
