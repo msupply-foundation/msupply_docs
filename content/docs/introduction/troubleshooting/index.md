@@ -14,6 +14,22 @@ toc = true
 top = false
 +++
 
+## Check your configuration
+
+Not sure where to start troubleshooting? A quick option is to click on the `test-connection-sqlite` or `test-connection-postgres` in the Open mSupply directory (which version you have will depend on the type of database you have installed).
+
+![Connection tester](images/connection_tester.png)
+
+This application will perform a number of basic checks:
+
+- **Config** Is the configuration file readable? does it have any errors in it?
+- **Ping** Can the server be contacted / does it respond to a web request?
+- **Database** Is it possible to log in to the database server?
+- **Login** Is the system able to login to the mSupply central server?
+- **Sync v5** Does mSupply respond to a sync request?
+- **Sync v6** Does the Open mSupply central server respond to a sync request?
+- **Mail connection** Does the mail server respond to a request?
+
 ## If you are unable to connect to the server on your machine
 
 If you have installed Open mSupply client or standalone on your machine, but are unable to connect to the server, try the following steps:
