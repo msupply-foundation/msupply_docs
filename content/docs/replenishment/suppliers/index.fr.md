@@ -1,6 +1,6 @@
 +++
 title = "Fournisseurs"
-description = "Gérer les fournisseurs"
+description = "Gérer vos fournisseurs"
 date = 2022-03-19
 updated = 2022-03-19
 draft = false
@@ -9,41 +9,41 @@ sort_by = "weight"
 template = "docs/page.html"
 
 [extra]
-lead = "Voir et gérer les fournisseurs"
+lead = "Consulter et gérer vos fournisseurs"
 toc = true
 top = false
 +++
 
 Dans mSupply, un fournisseur est une entité qui envoie du stock à votre dépôt.
 
-<div class="mise-a-jour">
-Pour le moment, vous ne pouvez que voir votre fournisseur et ses coordonnées. À l'avenir, vous pourrez créer et modifier vos fournisseurs (à condition d'en avoir l'autorisation !). 
+<div class="omsupdate">
+Pour le moment, vous pouvez uniquement consulter vos fournisseurs et leurs détails. À l'avenir, vous pourrez créer et modifier vos fournisseurs (à condition d'en avoir l'autorisation !).
 </div>
 
-## Voir les Fournisseurs
+## Consulter les fournisseurs
 
-Pour voir les Fournisseurs de votre dépôt, allez dans le menu `Approvisionnement` > `Fournisseurs`:
+Pour consulter les fournisseurs de votre dépôt, allez dans `Réapprovisionnement` > `Fournisseur` dans le panneau de navigation :
 
-![Suppliers Nav](images/sup_gotosup_fr.png)
+![Navigation fournisseurs](images/sup_gotosup.png)
 
-Une liste des fournisseurs de votre magasin apparaît :
+Une liste de vos fournisseurs apparaît :
 
-![Suppliers List](images/sup_suplist_fr.png)
+![Liste des fournisseurs](images/sup_suplist.png)
 
-## Voir détails fournisseurs
+## Consulter les détails d'un fournisseur
 
-Pour voir les détails d'un fournisseur, cliquez simplement sur son nom :
+Pour voir les détails d'un fournisseur, appuyez simplement sur son nom :
 
-![Supplier Details](images/sup_supdetails_fr.png)
+![Détails du fournisseur](images/sup_supdetails.png)
 
-- **Adresse**: Adresse du fournisseur
-- **Code**: Ceci est le code attribué à ce fournisseur dans mSupply
-- **Code de facturation**: Généralement la même valeur que le code, mais il peut être utile lorsque vous travaillez avec votre système comptable d'avoir un code différent pour ce fournisseur
-- **Pays**: Pays du fournisseur
-- **Commentaire**: Commentaire à propos du fournisseur
-- **Téléphone**: Numéro de téléphone du fournisseur
-- **Site Interet**: Site web ou adresse électronique du fournisseur
-- **Date de Création**: Date de création du fournisseur dans mSupply
-- **Fabricant**: Si la case est cochée, alors ce fournisseur est aussi fabricant
-- **Donateur**: Si la case est cochée, alors ce fournisseur est aussi Donateur
-- **En attente**: Si la case est cochée, vous ne pourrez pas créer de nouvelles transactions pour ce fournisseur
+- **Adresse** : adresse du fournisseur
+- **Code** : code assigné à ce fournisseur dans mSupply
+- **Code de facturation** : généralement la même valeur que le code, mais peut être utile lors du travail avec votre système comptable d'avoir un code différent pour ce fournisseur
+- **Pays** : pays du fournisseur
+- **Commentaire** : commentaire sur ce fournisseur
+- **Téléphone** : numéro de téléphone du fournisseur
+- **Site web** : site web ou adresse e-mail du fournisseur
+- **Date de création** : date à laquelle le fournisseur a été créé dans mSupply
+- **Fabricant** : si cette case est cochée, le fournisseur est également un fabricant
+- **Donateur** : si cette case est cochée, le fournisseur est également un donateur
+- **En attente** : si cette case est cochée, vous ne pourrez pas créer de nouvelles transactions pour ce fournisseur

@@ -1,6 +1,6 @@
 +++
-title = "Demographics"
-description = "Demographic indicators"
+title = "Démographie"
+description = "Indicateurs démographiques"
 date = 2022-05-17T16:20:00+00:00
 updated = 2022-05-17T16:20:00+00:00
 draft = false
@@ -13,65 +13,65 @@ toc = true
 top = false
 +++
 
-The Demographics section is where you can view and manage future projections for different Demographic Indicators. This population data can then be used to estimate the required cold storage capacity for upcoming immunization programs.
+La section Démographie vous permet de consulter et de gérer les projections futures pour différents indicateurs démographiques. Ces données de population peuvent ensuite être utilisées pour estimer la capacité de stockage à froid requise pour les programmes de vaccination à venir.
 
-Demographics management is only available on the [Open mSupply Central Server](/docs/getting_started/central-server).
+La gestion des données démographiques est uniquement disponible sur le [Serveur Central Open mSupply](/docs/getting_started/central-server).
 
 ## Configuration
 
-Currently, `Demographics` features are enabled as part of the `Vaccine` module.
+Actuellement, les fonctionnalités `Démographie` sont activées dans le cadre du module `Vaccin`.
 
-To begin, enable the store preference for `mobile: Uses Vaccine Module` (see the [store preferences](https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab) documentation for how to do this).
+Pour commencer, activez la préférence de dépôt `mobile : Utilise le module Vaccin` (consultez la documentation sur les [préférences de dépôt](https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab) pour savoir comment procéder).
 
-## Viewing Demographics Indicators
+## Consulter les indicateurs démographiques
 
-Choose `Manage` > `Demographics` in the navigation panel.
+Choisissez `Gérer` > `Démographie` dans le panneau de navigation.
 
-![goto: demographics](images/goto_demographics.png)
+![accéder à : démographie](images/goto_demographics.png)
 
-You will be presented with a list of Demographic Indicators:
+Une liste des indicateurs démographiques vous sera présentée :
 
-![indicators](images/indicators.png)
+![indicateurs](images/indicators.png)
 
-The following columns are shown:
+Les colonnes suivantes sont affichées :
 
-| Column              | Description                                                                    |
-| :------------------ | :----------------------------------------------------------------------------- |
-| **Name**            | The name of the demographic                                                    |
-| **Percentage**      | Percentage of the general population included in this demographic              |
-| **Population**      | The calculated population of that demographic, based on the `Percentage`       |
-| **5 Years columns** | Population projections for 5 future years, based on the `% Growth` predictions |
+| Colonne                  | Description                                                                             |
+| :----------------------- | :-------------------------------------------------------------------------------------- |
+| **Nom**                  | Le nom du indicateur démographique                                                      |
+| **Pourcentage**          | Pourcentage de la population générale inclus dans ce groupe démographique               |
+| **Population**           | La population calculée pour ce groupe, basée sur le `Pourcentage`                      |
+| **Colonnes sur 5 ans**   | Projections de population pour 5 années futures, basées sur les prévisions de `% de croissance` |
 
-## Yearly growth percentage
+## Pourcentage de croissance annuelle
 
-For each year, you can enter the predicted population growth percentage. This can be a positive or negative number. As you edit the growth percentage, you will notice the population projections update.
+Pour chaque année, vous pouvez saisir le pourcentage de croissance démographique prévu. Il peut s'agir d'un nombre positif ou négatif. Au fur et à mesure que vous modifiez le pourcentage de croissance, les projections de population se mettent à jour.
 
-- Click `Save` once you are happy with your changes
-- OR: Click `Cancel` at any time to revert your changes
+- Cliquez sur `Enregistrer` une fois satisfait de vos modifications
+- OU : Cliquez sur `Annuler` à tout moment pour annuler vos modifications
 
-## General population
+## Population générale
 
-All calculations are based on the current `General Population`. To begin, enter the current population:
+Tous les calculs sont basés sur la `Population générale` actuelle. Pour commencer, saisissez la population actuelle :
 
 ![population](images/population.png)
 
-## Adding a new indicator
+## Ajouter un nouvel indicateur
 
-To add a new demographic indicator, click the `Add New Indicator` button in the top right.
+Pour ajouter un nouvel indicateur démographique, cliquez sur le bouton `Ajouter un nouvel indicateur` en haut à droite.
 
-This will add a new row to the table. You can now enter a name for the demographic, and the percentage of the population included.
+Cela ajoutera une nouvelle ligne au tableau. Vous pouvez maintenant saisir un nom pour le groupe démographique et le pourcentage de la population inclus.
 
-- Click `Save` once you are happy with your changes
-- OR: Click `Cancel` at any time to revert your changes
+- Cliquez sur `Enregistrer` une fois satisfait de vos modifications
+- OU : Cliquez sur `Annuler` à tout moment pour annuler vos modifications
 
-![add new indicator](images/add_indicator.png)
+![ajouter un nouvel indicateur](images/add_indicator.png)
 
-## Permissions & Restrictions
+## Permissions et restrictions
 
-Demographics are only visible on the [Open mSupply Central Server](/docs/getting_started/central-server) and requires the [`mobile: Uses vaccine module`](https://docs.msupply.org.nz/cold_chain_equipment:mobile?s[]=vaccine#enable_the_vaccine_module_for_the_mobile_store) store preference.
+Les données démographiques ne sont visibles que sur le [Serveur Central Open mSupply](/docs/getting_started/central-server) et nécessitent la préférence de dépôt [`mobile : Utilise le module vaccin`](https://docs.msupply.org.nz/cold_chain_equipment:mobile?s[]=vaccine#enable_the_vaccine_module_for_the_mobile_store).
 
-![mSupply Store Preference Vaccine Module](images/vaccine_module.png)
+![Préférence de dépôt mSupply Module Vaccin](vaccine_module.png)
 
-To Create, Edit or Delete Demographics you need the `Can modify central data` permission, enabled in the [omSupply Permissions Tab](https://docs.msupply.org.nz/admin:managing_users?s[]=permission#omsupply_permissions_tab) on your Central Store.
+Pour créer, modifier ou supprimer des données démographiques, vous avez besoin de la permission `Peut modifier les données centrales`, activée dans l'[onglet Permissions omSupply](https://docs.msupply.org.nz/admin:managing_users?s[]=permission#omsupply_permissions_tab) de votre Dépôt Central.
 
-![Can Modify Central Data Permission](images/can_modify_central.png)
+![Permission Peut modifier les données centrales](images/can_modify_central.png)

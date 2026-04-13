@@ -1,10 +1,10 @@
 +++
-title = "Livraisons"
-description = "Recevoir du stock des fournisseurs."
+title = "Expéditions Entrantes"
+description = "Réception du stock des fournisseurs."
 date = 2022-03-19
 updated = 2022-03-19
 draft = false
-weight = 4
+weight = 44
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -13,533 +13,584 @@ toc = true
 top = false
 +++
 
-La fonctionnalité _Livraison_ peut être utilisée pour recevoir du stock venant d'un ou plusieurs fournisseurs.
+Les Expéditions Entrantes peuvent être utilisées pour recevoir du stock des fournisseurs.
 
-Si vous avez utilisé mSupply par le passé, vous devriez être familier avec le terme **Facture Fournisseur** au lieu de **_Livraison_**.
+Si vous avez utilisé mSupply par le passé, vous connaissez peut-être ce concept sous le nom de **Facture fournisseur**.
 
-Toutes les articles reçus doivent être enregistrés dans mSupply soit par :
+Tous les biens reçus doivent être enregistrés dans mSupply soit en :
 
-- Création manuelle d'une livraison entrante (livraison entrante manuelle)
-- Traitement d'une livraison entrante qui a été créée automatiquement dans votre dépôt suite à un envoi de stock venant d'un autre dépôt fournisseur.
+- Créant manuellement une Expédition Entrante
+- Travaillant avec une Expédition Entrante créée automatiquement suite à un transfert de stock depuis un autre dépôt de votre système mSupply
 
-## Voir les Livraisons
+## Consulter les Expéditions Entrantes
 
-### Ouvrir le Menu Livraison Entrante
+### Accéder au menu Expéditions Entrantes
 
-![Go to Inbound Shipments](images/is_gotois.png)
+![Accéder aux Expéditions Entrantes](images/is_gotois.png)
 
-Pour accéder au menu **Livraison** :
+Pour accéder au menu **Expédition Entrante** :
 
-1. Allez dans `Approvisionnement` dans le panneau de navigation à gauche
-2. Cliquez sur `Livraison entrante`
+1. Allez dans le menu `Réapprovisionnement` dans le panneau de navigation
+2. Cliquez sur `Expédition Entrante`
 
-### Liste des Livraisons entrantes
+### Liste des Expéditions Entrantes
 
-La première chose que vous voyez est une liste des Livraisons entrantes.
+La première chose que vous voyez est une liste des Expéditions Entrantes existantes.
 
-La liste des livraisons comprend 7 colonnes:
+La liste est divisée en 7 colonnes :
 
-| Colonne               | Description                                  |
-| :-------------------- | :------------------------------------------- |
-| **Nom**               | Nom du fournisseur                           |
-| **Statut**            | Statut de la livraison                       |
-| **Numéro de facture** | Numéro de référence de la livraison entrante |
-| **Créé(e) le**        | Date de création de la livraison             |
-| **Livré(e)**          | Date de confirmation de la livraison         |
-| **Référence**         | Commentaire sur la livraison                 |
-| **Total**             | Valeur totale                                |
+| Colonne         | Description                                                                         |
+| :-------------- | :---------------------------------------------------------------------------------- |
+| **Nom**         | Nom du fournisseur                                                                  |
+| **Statut**      | Statut actuel de l'expédition                                                       |
+| **Numéro**      | Numéro de référence de l'expédition                                                 |
+| **Créée**       | Date de création de l'expédition                                                    |
+| **Livrée**      | Date de livraison de l'expédition                                                   |
+| **Commentaire** | Commentaire sur l'expédition                                                        |
+| **Référence**   | Contiendra le numéro de facture fournisseur si l'expédition a été créée automatiquement |
+| **Total**       | Valeur totale de l'expédition                                                       |
 
-1. La liste peut afficher **20 livraisons par page**. Dans le coin inférieur gauche, vous pouvez voir combien de livraisons sont actuellement affichées sur votre écran.
-
-2. S'il y a plus de 20 livraisons, vous pouvez vous déplacer vers une autre page en cliquant sur le numéro de la page ou en utilisant les flèches droite ou gauche (coin inférieur droit).
-
-### Recherche par nom de Fournisseur
-
-Vous pouvez filtrer la liste des livraisons par nom de fournisseur. Cela peut être utile si vous recherchez une livraison en particulier !
-
-Saisissez le nom du fournisseur dans le champ `Chercher par Nom` (à gauche, juste au-dessus des en-têtes de liste). Toutes les livraisons de ce fournisseur apparaîtront dans la liste.
-![](images/is_filter_list.png)
-
-### Exporter la liste des livraisons
-
-La liste des livraisons peut être exportée dans un fichier CSV. Cliquez simplement sur le bouton **Exporter** (à droite, en haut de la page) et le fichier sera téléchargé.
-
-![Export button](images/export.png)
-
-La fonction d'exportation téléchargera toutes les livraisons, pas seulement la page actuelle, si vous en avez plus de 20.
-
-### Supprimer une livraison
-
-Vous pouvez supprimer une livraison de la liste.
-
-1. Sélectionnez la livraison que vous souhaitez supprimer en cochant la case à l'extrémité gauche de la liste. Vous pouvez sélectionner plus d'une livraison à supprimer. Vous pouvez même toutes les sélectionner à l'aide de la case à cocher principale dans les en-têtes de liste.
-
-2. Le pied de page `Actions` s'affichera en bas de l'écran lorsqu'un envoi est sélectionné. Il affichera le nombre d'envois sélectionnés et les actions qui peuvent être effectuées. Cliquez sur `Supprimer`.
-
-Une notification confirme le nombre de livraisons supprimées (coin inférieur gauche)
-
-<div class="remarque">
-Vous ne pouvez supprimer que les expéditions avec un statut <code>NOUVEAU</code>.
+<div class="note">
+Les statuts existants continueront à s'afficher si vous avez déjà des Expéditions Entrantes dans votre système avant de configurer les statuts de facture pour votre dépôt.
 </div>
 
-## Créer une nouvelle livraison entrante manuellement
+2. La liste peut afficher un nombre fixe d'expéditions par page. En bas à gauche, vous pouvez voir combien d'expéditions sont actuellement affichées.
 
-1. Allez dans `Approvisionnement`> `Livraison entrante`
-2. Cliquez sur le bouton `Nouvelle Livraison`, dans le coin supérieur droit
-3. Une nouvelle fenêtre `Fournisseurs` vous invitant à sélectionner un _Fournisseur_ s'affiche.
+3. Si vous avez plus d'expéditions que la limite actuelle, vous pouvez naviguer vers d'autres pages en cliquant sur le numéro de page ou en utilisant les flèches droite ou gauche (coin inférieur droit).
 
-### Sélectionner un Fournisseur
+4. Vous pouvez également sélectionner un nombre différent de lignes à afficher par page en utilisant l'option en bas à droite.
 
-1. Dans la fenêtre `Fournisseurs`, vous verrez afficher une liste de fournisseurs. Vous pouvez sélectionner directement ou saisir le nom d'un fournisseur.
+### Filtrer les Expéditions Entrantes
 
-<div class="conseil">
-Vous pouvez savoir si un fournisseur utilise également mSupply dans son dépôt. Si c'est le cas, vous verrez une icône comme celle-ci <img src="images/is_msupplystoreicon.png" alt="Store" style="width:auto"> à côté du code fournisseur. 
+Vous pouvez filtrer la liste par nom de fournisseur, date de création, statut ou numéro de facture.
+
+![Filtre des Expéditions Entrantes](images/is_filter.png)
+
+Par exemple, pour filtrer par nom de fournisseur, cliquez sur `Filtres`, sélectionnez `Nom` et commencez à saisir tout ou partie d'un nom de fournisseur. Toutes les expéditions pour ce fournisseur apparaîtront dans la liste.
+
+![](images/is_filter_list.png)
+
+### Exporter les Expéditions Entrantes
+
+La liste des Expéditions Entrantes peut être exportée en fichier CSV. Cliquez simplement sur le bouton d'export (à droite, en haut de la page).
+
+![Bouton d'export](images/export.png)
+
+La fonction d'export téléchargera toutes les Expéditions Entrantes, pas seulement la page actuelle, si vous en avez plus de 20.
+
+### Supprimer une Expédition Entrante
+
+Vous pouvez supprimer une expédition depuis la liste.
+
+1. Sélectionnez l'expédition à supprimer en cochant la case à gauche. Vous pouvez en sélectionner plusieurs, voire toutes en utilisant la case principale dans les en-têtes.
+
+2. Le pied de page `Actions` s'affichera en bas de l'écran. Cliquez sur `Supprimer`.
+
+Une notification confirme le nombre d'expéditions supprimées (coin inférieur gauche).
+
+<div class="note">
+Vous ne pouvez supprimer que les Expéditions Entrantes avec le statut <code>NOUVELLE</code>.
+</div>
+
+## Créer une nouvelle Expédition Entrante manuelle
+
+1. Allez dans `Réapprovisionnement` > `Expédition Entrante`
+2. Appuyez sur le bouton `Nouvelle Expédition`, dans le coin supérieur droit
+3. Une nouvelle fenêtre `Fournisseurs` s'ouvre, vous invitant à sélectionner un fournisseur
+
+### Sélectionner un fournisseur
+
+1. Dans la fenêtre `Fournisseurs`, une liste de fournisseurs vous est présentée. Vous pouvez sélectionner votre fournisseur dans la liste ou saisir tout ou partie de son nom.
+
+<div class="tip">
+Vous pouvez savoir si un fournisseur utilise également Open mSupply dans son dépôt. Si c'est le cas, vous verrez une icône comme celle-ci <img src="images/is_msupplystoreicon.png" alt="Dépôt" style="width:auto"> à côté du code fournisseur.
 </div>
 
 <div class="imagetitle">
-Dans l'exemple ci-dessous, nous recevons du stock de <b>Tamaki Central Medical Store</b>. 
+Dans l'exemple ci-dessous, nous recevons du stock de <b>Tamaki Central Medical Store</b>.
 </div>
 
 ![](images/is_select_supplier.png)
 
-2. Une fois que vous avez sélectionné un Fournisseur, la livraison est créée.
+2. Une fois que vous avez sélectionné un fournisseur, votre Expédition Entrante est créée.
 
 <div class="imagetitle">
-Si tout s'est bien passé, vous devriez voir le nom de votre fournisseur dans le coin supérieur gauche et le statut actuel devrait être <code>Nouveau</code>.
+Si tout s'est bien passé, vous devriez voir le nom de votre fournisseur dans le coin supérieur gauche et le statut actuel devrait être <code>Nouvelle</code>.
 </div>
 
-![New manual Inbound Shipment](images/is_newinboundshipment_fr.png)
+![Nouvelle Expédition Entrante manuelle](images/is_newinboundshipment.png)
 
-### Modifier le nom du Fournisseur
+### Modifier le nom du fournisseur
 
-Si vous n'avez pas sélectionné le bon fournisseur, vous pouvez toujours modifié le nom du fournisseur dans le champs `Nom du fournisseur` ou sélectionner un autre:
+Si vous avez sélectionné le mauvais fournisseur, vous pouvez changer le nom dans le champ `Nom du fournisseur` ou en sélectionner un dans la liste déroulante :
 
 ![](images/is_choose_supplier.png)
 
 ### Saisir une référence fournisseur
 
-Une fois que la livraison a été créée, vous pouvez renseigner la référence du fournisseur dans le champs `Référence` s'il en a un: (Exple. _ PO#1234567 _)
+Une fois votre Expédition Entrante créée, vous pouvez saisir une référence fournisseur dans le champ `Réf. fournisseur`, s'ils en ont une (ex. BC#1234567)
 
-### Afficher ou modifier le volet d'informations sur les livraisons
+### Consulter ou modifier le panneau d'informations
 
-Le panneau d'information vous permet de voir ou de modifier les informations sur la livraison. Il est divisé en plusieurs sections :
+Le panneau d'informations vous permet de voir ou de modifier des informations sur l'Expédition Entrante. Il est divisé en plusieurs sections :
 
 - Informations supplémentaires
-- Documents connexes
+- Documents liés
 - Détails de la facture
-- Détails des transports
+- Détails de transport
 
-<div class="mise-a-jour">
-Nous prévoyons d'ajouter d'autres sections à l'avenir au fur et à mesure du développement d'Open mSupply. 
-</div>
-#### Comment ouvrir et fermer le volet d'Information ?
+#### Comment ouvrir et fermer le panneau d'informations ?
 
-Pour ouvrir le volet d'Information, vous pouvez appuyer sur le bouton `Plus`, situé dans le coin supérieur droit de la vue Livraison Entrante.
+Pour ouvrir le panneau, appuyez sur le bouton `Plus` dans le coin supérieur droit. Pour le fermer, appuyez sur le bouton `X Fermer`.
 
-Vous pouvez le fermer en appuyant sur le bouton `X Fermer`, dans le coin supérieur droit du panneau d'information.
+#### Informations supplémentaires
 
-#### Informations Supplémentaires
+Dans cette section, vous pouvez : voir le nom du donateur (si le suivi des donateurs est activé), voir qui a créé l'Expédition Entrante, voir et modifier la couleur de l'expédition, et rédiger ou modifier un commentaire.
 
-Dans la section **Informations Supplémentaires**, vous pouvez :
+#### Documents liés
 
-- Nom du donateur (si vous avez [le suivi des donateurs](#suivre-le-stock-par-donateur) activé)
-- Voir qui a créé la Livraison Entrante (nom de l'utilisateur)
-- Voir et modifier la couleur de la Livraison Entrante. Pour modifier la couleur, appuyez sur le cercle coloré et sélectionnez une couleur dans la fenêtre contextuelle
-- Écrire ou modifier un commentaire
+Dans cette section, vous pouvez voir d'autres documents de transaction liés à l'Expédition Entrante. Si votre expédition a été créée pour satisfaire une **Commande Interne**, le numéro de référence de votre commande apparaîtra dans cette section.
 
-#### Documents Connexes
+#### Détails de la facture
 
-Dans la section **Documents Connexes**, vous pouvez voir d'autres documents de transaction liés à la Livraison Entrante.
+Vous verrez par défaut le coût total des articles listés dans l'Expédition Entrante.
 
-Si votre Livraison Entrante a été créée pour satisfaire une **Commande Interne**, le numéro de référence de votre commande apparaîtra dans cette section.
+Vous pouvez également ajouter des **Frais de service** (ex. `Frais de transport`). Pour ajouter des frais de service :
 
-À l'avenir, nous inclurons également d'autres documents tels que les enregistrements de température, les documents de transport ou les bordereaux de prélèvement.
+1. Appuyez sur le bouton `Modifier les frais de service`. Une nouvelle fenêtre s'ouvre.
+2. Appuyez sur `Ajouter un frais`. Une nouvelle ligne apparaît dans la liste.
+3. **Nom :** sélectionnez un frais de service dans la liste déroulante.
+4. **Commentaire :** vous pouvez ajouter un commentaire.
+5. **Montant :** saisissez le montant du frais.
+6. **Taxe :** saisissez un pourcentage de taxe.
+7. **Total :** calculé automatiquement.
+8. **Supprimer :** vous pouvez appuyer sur l'icône `Supprimer` pour effacer le frais.
 
-#### Détails de la Facture
+###### Devises étrangères
 
-Dans cette section, vous verrez par défaut le prix de revient total des articles listés dans la Livraison Entrante.
+Si votre dépôt émet en devises étrangères, suivez [ces instructions](https://docs.msupply.org.nz/other_stuff:currencies) dans la documentation du serveur central pour la configuration. Vous devrez également activer la préférence de dépôt `Dépôt : Peut émettre en devise étrangère`.
 
-Vous pouvez également ajouter des **Frais de service** si vous souhaitez ajouter d'autres charges telles que les `Frais de Transport`. Note : Les frais de service doivent être dans votre Liste Maîtresse pour que vous puissiez les utiliser. Pour ajouter des Frais de service aux Détails de la Facture :
+![Préférence du dépôt](../../images/store-pref-issue-in-foreign-currencies.png)
 
-1. Appuyez sur le bouton `Modifier les Frais de Service`. Une nouvelle fenêtre s'ouvre.
-2. Appuyez sur le bouton `Ajouter une charge` dans la nouvelle fenêtre. Une nouvelle ligne apparaît dans la liste des charges. Vous pouvez appuyer sur `Annuler` si vous ne souhaitez rien ajouter.
-3. **Nom :** sélectionnez des frais de service dans la liste déroulante. Vous pouvez personnaliser la liste des charges disponibles. Contactez votre administrateur.
-4. **Commentaire :** Vous pouvez ajouter un commentaire pour fournir plus de détails sur la nouvelle charge
-5. **Montant :** Saisissez le montant des frais
-6. **Taxe :** Saisissez un % de taxe pour les frais
-7. **Total :** Le champ total est automatiquement calculé en fonction du Montant et du pourcentage de Taxe
-8. **Supprimer :** Vous pouvez appuyer sur l'icône `Supprimer` pour supprimer les frais
-
-Le taux de taxe (%) pour les frais de service et le prix de vente des articles peut également être modifié en cliquant sur l'icône crayon. Une fenêtre contextuelle apparaîtra pour vous permettre de saisir une valeur.
-
-###### Devises Étrangères
-
-Si votre dépôt émet dans des devises étrangères, suivez [ces instructions](https://docs.msupply.org.nz/other_stuff:currencies) dans la documentation du serveur central pour le configurer. Vous devrez également activer la préférence dépôt `Dépôt : Capable d'émettre en devise étrangère`. Cette préférence est compatible avec Open mSupply `v1.7.0+`.
-
-![Store preference](../../images/store-pref-issue-in-foreign-currencies.png)
-
-L'icône crayon deviendra active une fois que les instructions ci-dessus ont été suivies et seulement si le client est un client externe. Cliquez sur cette icône et changez pour une devise dans laquelle vous souhaitez traiter la livraison. Le taux de change peut également être modifié si vous et le client avez convenu d'un taux différent.
 ![](images/is_change_foreign_currency.png)
+![Ligne avec tarification en devise étrangère](images/is_line_with_foreign_currency.png)
 
-Vous pouvez également voir les totaux en devise étrangère dans les détails de ligne de facture. ![Line with Foreign Currency Pricing](images/is_line_with_foreign_currency.png)
+<div class="tip">Voir la <a href="/docs/introduction/faq/#is-there-support-for-my-currency">question sur la prise en charge des devises</a> pour la liste des codes pris en charge</div>
 
-<div class="tip">Voir la <a href="/docs/introduction/faq/#is-there-support-for-my-currency">question sur le support des devises</a> pour la liste des codes supportés</div>
+#### Détails de transport
 
-#### Détails de Transport
-
-Dans cette section, vous pouvez voir ou modifier un numéro de référence de transport (par ex. une réservation ou un numéro de référence de suivi).
+Dans cette section, vous pouvez voir ou modifier un numéro de référence de transport (ex. un numéro de réservation ou de suivi).
 
 #### Actions
 
-1. **Supprimer :** Vous pouvez appuyer sur le bouton `Supprimer` pour supprimer la facture
-2. **Copier dans le Presse-papiers** : Vous pouvez appuyer sur le bouton `Copier dans le Presse-papiers` pour copier les détails de la facture dans le presse-papiers.
+1. **Supprimer :** appuyez sur le bouton `Supprimer` pour supprimer la facture
+2. **Copier dans le presse-papiers** : copie les détails de la facture dans le presse-papiers.
 
-### Séquence de Statut de Livraison Entrante
+### Séquence de statuts de l'Expédition Entrante
 
-La séquence de statut est située dans le coin inférieur gauche de l'écran de Livraison Entrante.
+La séquence de statuts est située dans le coin inférieur gauche de l'écran.
 
-Les statuts passés sont surlignés en bleu, les statuts suivants apparaissent en gris.
+Les statuts passés sont mis en surbrillance en bleu, les statuts suivants apparaissent en gris.
 
-<figure> <img src="images/is_statussequence1.png" alt="Inbound Shipment Status Sequence (New)" style="width:100%"> <figcaption align="center">Séquence de Statut : le statut actuel est <code>Reçu</code>.</figcaption> </figure>
+<figure>
+    <img src="images/is_statussequence1.png" alt="Séquence de statuts de l'Expédition Entrante (Reçue)" style="width:100%">
+    <figcaption align="center">Séquence de statuts : le statut actuel est <code>Réceptionnée</code>.</figcaption>
+</figure>
 
-Il y a 6 statuts pour la Livraison Entrante :
+Il y a 6 statuts pour les Expéditions Entrantes :
 
-| Statut      | Description                                                                                                                     | mSupply | Modifiable |
-| ----------- | ------------------------------------------------------------------------------------------------------------------------------- | :-----: | :--------: |
-| **Nouveau** | C'est le premier statut lorsque vous créez une nouvelle Livraison Entrante manuelle                                             |   nw    |            |
-| **Prélevé** | Le fournisseur a confirmé que la livraison est prélevée et prête à expédier (s'applique uniquement aux livraisons automatiques) |   nw    |     ✓      |
-| **Expédié** | La livraison a été expédiée et les marchandises sont maintenant en transit (s'applique uniquement aux livraisons automatiques)  |   nw    |            |
-| **Livré**   | Lorsque vous confirmez que la livraison a été livrée.                                                                           |   sg    |     ✓      |
-| **Reçu**    | Lorsque vous confirmez que la livraison a été validée. Les marchandises font maintenant partie de votre inventaire.             |   cn    |     ✓      |
-| **Vérifié** | Lorsque vous avez vérifié la Livraison Entrante                                                                                 |   fn    |            |
+| Statut           | Description                                                                                                          | mSupply | Modifiable |
+| :--------------- | -------------------------------------------------------------------------------------------------------------------- | :-----: | :--------: |
+| **Nouvelle**     | Premier statut lors de la création d'une nouvelle Expédition Entrante manuelle                                       |   nw    |            |
+| **Prélevée**     | Le fournisseur a confirmé que l'expédition est prélevée et prête à être envoyée (uniquement pour les expéditions automatiques) | nw |       |
+| **Expédiée**     | L'expédition a été envoyée et les articles sont en transit (uniquement pour les expéditions automatiques)            |   nw    |            |
+| **Livrée**       | Lorsque vous confirmez que l'expédition a été livrée.                                                                |   sg    |     ✓      |
+| **Réceptionnée** | Lorsque vous confirmez que l'expédition a été validée. Les articles font maintenant partie de votre inventaire.      |   cn    |     ✓      |
+| **Vérifiée**     | Lorsque vous avez vérifié l'Expédition Entrante                                                                      |   fn    |            |
 
-Vous avez probablement remarqué que deux des valeurs de statut ne s'appliquent qu'aux livraisons créées automatiquement. Celles-ci sont créées par le système lorsqu'un autre magasin du système crée une Livraison Sortante pour livrer du stock à votre magasin. Si c'est le cas, vous verrez un message près du haut de la page :
+Vous avez probablement remarqué que deux statuts s'appliquent uniquement aux expéditions créées automatiquement. Si c'est le cas, vous verrez un message en haut de la page :
 
-![Automatic IS message](images/is_message_automatic.png)
+![Message expédition automatique](images/is_message_automatic.png)
 
-Notez que ce message apparaît différemment si le statut est `Livré` ou `Vérifié`
+Ce message s'affiche différemment si le statut est `Livrée` ou `Vérifiée` :
 
-![Automatic IS message: delivered](images/is_message_automatic_delivered.png)
+![Message expédition automatique : livrée](images/is_message_automatic_delivered.png)
 
-Si, cependant, vous avez créé une Livraison Entrante manuellement, alors le message suivant s'affiche :
+Si vous avez créé une Expédition Entrante manuellement, le message suivant s'affiche :
 
-![Manual IS message](images/is_message_manual.png)
+![Message expédition manuelle](images/is_message_manual.png)
 
-et vous verrez que la barre de statut n'a que les valeurs de statut qui s'appliquent à ce type de livraison.
+<figure align="center">
+    <img src="images/is_statussequence2.png" alt="Séquence de statuts Expédition Entrante (Nouvelle et manuelle)" style="width:60%">
+    <figcaption align="center">Séquence de statuts : le statut actuel est <code>Nouvelle</code>.</figcaption>
+</figure>
 
-<figure align="center"> <img src="images/is_statussequence2.png" alt="Inbound Shipment Status Sequence (New & manual)" style="width:60%"> <figcaption align="center">Séquence de Statut : le statut actuel est <code>Nouveau</code>.</figcaption> </figure>
+Si vous survolez la séquence de statuts, un historique de l'expédition apparaît avec les dates de chaque changement de statut.
 
-Si vous passez la souris sur la séquence de statut, une fenêtre d'historique de livraison apparaît. Vous pouvez voir la date à laquelle une livraison a été mise à jour d'un statut à un autre.
+<div class="imagetitle">
+Cette expédition manuelle a été créée le 24/04/2025
+</div>
 
-<div class="imagetitle"> Cette livraison manuelle a été créée le 24/04/2025 </div>
+![Statut entrante : survol 1](images/is_statussequence_hover1.png)
 
-![Inbound status: hover 2](app://5531c08f03d8a6aa9957a150b6f1b5fd4135/Users/marielenigol/Documents/GitHub/msupply_docs/content/docs/replenishment/inbound%20shipments/images/is_statussequence_hover1.png?1754277034929)
+<div class="imagetitle">
+Cette expédition automatique a été créée le 10/04/2025, prélevée le 11/04/2025 et expédiée le 12/04/2025
+</div>
 
-<div class="imagetitle"> Cette livraison automatique a été créée le 10/04/2025, prélevée le 11/04/2025 et expédiée le 12/04/2025 </div>
+![Statut entrante : survol](images/is_statussequence_hover2.png)
 
-![Inbound status: hover](images/is_statussequence_hover2.png)
+### Case à cocher En attente
 
-### Case Suspendre
+Située dans le coin inférieur gauche, à gauche de la séquence de statuts.
 
-Située dans le coin inférieur gauche, à gauche de la séquence de statut.
+Cocher la case `En attente` empêche l'Expédition Entrante d'être mise à jour vers le statut suivant.
 
-Cocher la case `Suspendre` empêche la Livraison Entrante d'être mise à jour vers le statut suivant.
-
-Show Image
+![Case à cocher En attente](../../images/holdcheckbox.png)
 
 ### Boutons Fermer et Confirmer
 
 #### Bouton Fermer
 
-Cliquez sur le bouton `Fermer` pour quitter la vue Livraison Entrante et retourner à la liste des Livraisons Entrantes.
+Cliquez sur le bouton `Fermer` pour quitter la vue de l'Expédition Entrante et revenir à la liste.
 
 #### Bouton Confirmer
 
-Le bouton `Confirmer` est le bouton pour mettre à jour le statut d'une livraison. Le statut que vous pouvez confirmer dépend du statut actuel de la livraison et suit la séquence montrée ci-dessous.
+Le bouton `Confirmer` met à jour le statut de l'expédition. Lors de la gestion d'une Expédition Entrante, vous pouvez uniquement la confirmer comme Livrée ou Vérifiée.
 
-Lors de la gestion d'une Livraison Entrante, vous ne pouvez la confirmer que comme Livrée ou Vérifiée.
+| Confirmer...              | Statut actuel | Statut suivant |
+| :------------------------ | :------------ | :------------- |
+| **Confirmer Livrée**      | Expédiée      | Livrée         |
+| **Confirmer Vérifiée**    | Livrée        | Vérifiée       |
 
-| Confirmer...             | Statut Actuel | Statut Suivant |
-| ------------------------ | ------------- | -------------- |
-| **Confirmer Livré(e)**   | Expédié(e)    | Livré(e)       |
-| **Confirmer Vérifié(e)** | Livré(e)      | Vérifié(e)     |
+Vous n'avez pas à suivre la séquence dans l'ordre. Vous pouvez choisir de passer directement à `Confirmer Vérifiée` par exemple.
 
-Vous n'êtes pas obligé de mettre à jour une livraison au statut suivant dans la séquence. Vous pouvez choisir d'en ignorer certains pour aller directement à `Confirmer Vérifié(e)` par exemple.
+![](images/is_skipstatus.png)
 
-Comme démontré ci-dessous, appuyez sur la flèche vers le bas du bouton `Confirmer` et sélectionnez le statut vers lequel vous voulez que la livraison soit mise à jour.
+## Ajouter des lignes à une Expédition Entrante
 
-![](app://5531c08f03d8a6aa9957a150b6f1b5fd4135/Users/marielenigol/Documents/GitHub/msupply_docs/content/docs/replenishment/inbound%20shipments/images/is_skipstatus.png?1754624968005)
-
-## Ajouter des lignes à une Livraison Entrante
-
-Pour ajouter une ligne, appuyez sur le bouton `Ajouter un Article` situé dans le coin supérieur gauche de votre écran.
+Pour ajouter une ligne, appuyez sur le bouton `Ajouter un Article` dans le coin supérieur gauche.
 
 Une nouvelle fenêtre `Ajouter un Article` s'ouvre.
 
-![Inbound: add item button](images/is_additem_button.png)
+![Expédition entrante : bouton ajouter un article](images/is_additem_button.png)
 
-### Sélectionner un Article
+### Sélectionner un article
 
-Dans la fenêtre `Ajouter un Article`, vous pouvez rechercher un article par :
+Dans la fenêtre `Ajouter un Article`, vous pouvez rechercher un article par la liste, par nom ou par code.
 
-- Lecture de la liste des articles disponibles
-- ou en tapant une partie ou la totalité du nom d'un article
-- ou en tapant une partie ou la totalité du code d'un article
+Une fois votre article mis en surbrillance, appuyez sur son nom ou sur `Entrée`.
 
-Une fois que votre article est surligné, appuyez sur le nom ou appuyez sur `Entrée`.
-
-![Add Item list](../../images/adding-an-item-all.png)
-![Add Item by name](../../images/adding-an-item-name.png)
-![Add Item by code](../../images/adding-an-item-code.png)
+![Liste Ajouter un article](../../images/adding-an-item-all.png)
+![Ajouter un article par nom](../../images/adding-an-item-name.png)
+![Ajouter un article par code](../../images/adding-an-item-code.png)
 
 ### Onglet Quantités
 
 Dans l'onglet `Quantités`, vous pouvez mettre à jour les champs suivants :
 
-1. **Lot** : Tapez ici le numéro de lot. Laissez vide si l'article n'est pas géré avec un numéro de lot.
-2. **Péremption** : La date de péremption du numéro de lot. Laissez vide si non applicable
-3. **Taille d'emballage** : Le nombre d'unités par emballage (par défaut, la taille de l'emballage est 1)
-4. **Emballages Reçus** : Le nombre d'emballages que vous recevez. Ceci peut être saisi manuellement ou calculé basé sur Unités Reçues / Taille d'emballage
-5. **Emballages Expédiés** : Le nombre de paquets envoyés par le fournisseur.
-6. **Unités Reçues** : Le nombre d'unités que vous recevez. Ceci peut être saisi manuellement ou calculé basé sur Emballages x Taille Emballage (`[# Emballages] x [Taille d'Emballage]`)
+1. **Lot** : saisissez le numéro de lot. Laissez vide si l'article n'est pas géré par numéro de lot.
+2. **Expiration** : la date d'expiration du lot. Laissez vide si non applicable.
+3. **Taille de paquet** : le nombre d'unités par paquet (par défaut : 1)
+4. **Paquets reçus** : le nombre de paquets que vous recevez.
+5. **Paquets expédiés** : le nombre de paquets envoyés par le fournisseur.
+6. **Unités reçues** : le nombre d'unités que vous recevez.
 
-<div class="note">Le titre 'Unités' ci-dessus sera remplacé par le nom de l'unité, tel que défini pour cet article. Par exemple, si l'unité est 'Comprimé' alors le titre affichera 'Comprimés Reçus'</div>
+<div class="note">L'intitulé « Unités » sera remplacé par le nom de l'unité définie pour cet article. Par exemple, si l'unité est « Comprimé », l'intitulé affichera « Comprimés reçus ».</div>
 
-**Colonnes supplémentaires pour vaccins**
+**Colonnes vaccins supplémentaires**
 
-L'onglet Quantités aura des colonnes supplémentaires affichées lorsque certaines préférences sont activées. Ces préférences sont contrôlées dans [Gérer > Magasins](/docs/manage/facilities/#editing-store-preferences).
+L'onglet Quantités affichera des colonnes supplémentaires lorsque certaines préférences sont activées dans [Gérer > Dépôts](/docs/manage/facilities/#editing-store-preferences).
 
-Les colonnes supplémentaires disponibles avec la préférence `Afficher le vaccin en doses` activée sont :
+Avec la préférence `Afficher les vaccins en doses` :
 
-1. **Doses par unité** : Le nombre de doses par unité.
-2. **Doses Reçues** : Le nombre de doses que vous recevez. Ceci peut être saisi manuellement ou calculé basé sur Taille Emballage x Emballages x Doses
+1. **Doses par unité** : le nombre de doses par unité.
+2. **Doses reçues** : le nombre de doses reçues.
 
-![Doses columns](images/is_doses_columns.png)
+![Colonnes doses](images/is_doses_columns.png)
 
-La colonne supplémentaire disponible avec la préférence `Gérer le Statut VVM Pour le Stock` activée est :
+Avec la préférence `Gérer le statut VVM pour le stock` :
 
-8. **Statut VVM** : Le statut VVM actuel pour le lot.
+8. **Statut VVM** : le statut VVM actuel pour le lot.
 
-![VVM status column](images/is_vvm_status_column.png)
+![Colonne statut VVM](images/is_vvm_status_column.png)
 
-<div class="note"> Les Statuts VVM doivent également être configurés dans mSupply en ajoutant un statut à la <a href="https://docs.msupply.org.nz/cold_chain_equipment:configure">Liste des moniteurs de fiole de vaccin</a>. </div>
+#### Ajouter des lots
 
-Sélectionner un Statut VVM dans une livraison entrante génèrera un journal de Statut VVM. Un journal sera enregistré par lot pour la livraison entrante (au statut de livraison Livré). Les journaux peuvent être consultés et modifiés en sélectionnant l'article dans `Voir le Stock` et en sélectionnant l'onglet `Historique des Statuts`.
+Si vous recevez plusieurs numéros de lot pour le même article, appuyez sur le bouton `Ajouter un lot`.
 
-#### Ajouter des Lots
+<div class="imagetitle">
+Dans l'exemple ci-dessous, nous recevons 2 numéros de lot pour l'article <i>030063 - Acide Acétylsalicylique 100mg comprimés</i> avec des tailles de paquet différentes.
+</div>
 
-Si vous recevez plus d'un numéro de lot pour le même article, vous pouvez appuyer sur le bouton `Ajouter un Lot`
+![Quantités Ajouter un article](images/is_additem_quantities.png)
 
-<div class="imagetitle"> Dans l'exemple ci-dessous, nous recevons 2 numéros de lot pour l'article <i>030063 - Acetylsalicylic Acid 100mg tabs</i> avec une taille de paquet différente. </div>
+### Onglet Tarification
 
-![Add Item quantities](images/is_additem_quantities.png)
+Dans l'onglet `Tarification`, vous pouvez mettre à jour les champs suivants (tous optionnels) :
 
-### Onglet Prix
+- **Lot** (lecture seule) : numéro de lot
+- **Taille de paquet** (lecture seule) : quantité d'unités par paquet
+- **Qté paquets** (lecture seule) : quantité de paquets reçus
+- **Prix de coût paquet** : prix d'achat par paquet (valeur par défaut : 0)
+- **Prix de vente paquet** : prix de vente par paquet (valeur par défaut : 0)
+- **Total ligne** (lecture seule) : valeur d'achat totale pour le numéro de lot
 
-Sur le deuxième onglet, `Prix`, vous pouvez mettre à jour les champs suivants (tous sont optionnels) :
+<div class="imagetitle">
+Dans l'exemple ci-dessous, le prix de coût de la première ligne est de 0,01$ par unité et le prix de vente est de 0,10$ par unité.
+</div>
 
-- **Lot** (lecture seule) : Numéro de lot
-- **Taille Emballage** (lecture seule) : La quantité d'unités par emballage
-- **Qté Emballage** (lecture seule) : La quantité d'emballages que vous recevez
-- **Coût** : Le prix d'achat unitaire de l'article (valeur par défaut est 0)
-- **Prix Vente Emballage** : Le prix de vente unitaire de l'article (valeur par défaut est 0)
-- **Total Ligne** (lecture seule) : Valeur d'achat totale pour le numéro de lot (`[Qté Paquet] x [Coût]`)
+![Tarification Ajouter un article](images/is_additem_pricing.png)
 
-<div class="warning"> Les prix de Vente et Coût sont par unités et non par paquet. </div> <div class="imagetitle"> Dans l'exemple ci-dessous, le prix de revient de la première ligne est de 0,01$ par unité et le prix de vente de 0,10$ par unité. </div>
+#### Tarification sur les expéditions transférées
 
-![Add Item pricing](images/is_additem_pricing.png)
+Lorsqu'une Expédition Entrante est un transfert (résultat d'une Expédition Sortante depuis un autre dépôt), la tarification peut déjà être calculée. La logique suivante est utilisée pour déterminer le prix de vente :
+
+1. Si un `prix de vente par défaut par paquet` est défini pour l'article dans le dépôt récepteur, ce prix est toujours utilisé.
+2. Si l'article a une `marge` définie, cette marge est ajoutée au prix de coût. La priorité entre marge article et marge fournisseur est déterminée par la [Préférence globale](/docs/manage/global-preferences/) `La marge article prime sur la marge fournisseur`.
+3. Si ni prix de vente par défaut ni marge ne sont définis, le prix de vente de la ligne entrante sera identique à celui de la ligne sortante.
 
 ### Onglet Autre
 
-Dans le troisième onglet, `Autre`, vous pouvez sélectionner les éléments suivants :
+Dans le troisième onglet `Autre`, vous pouvez sélectionner :
 
-- **Emplacement** : Un emplacement de stockage pour assigner le numéro de lot à un emplacement dans votre installation de stockage.
-- **Commentaire** : C'est un champ de texte libre qui peut être utilisé pour ajouter un commentaire sur la ligne de livraison.
-- **Donateur** : Un donateur, si configuré pour suivre les donateurs. Voir [Suivre le stock par donateur](#suivre-le-stock-par-donateur) pour plus de détails.
-- **Campagne** : Si vous avez une campagne configurée (voir [Campagnes](/docs/manage/campaigns/)) alors cette colonne vous permet d'associer la ligne de stock avec une campagne
-
-#### Emplacement
-
-Sélectionnez simplement un emplacement de stockage dans le menu déroulant `Emplacement`.
-
-![Add Item location](images/is_additem_location.png)
-
-<div class="note"> Vous ne connaissez pas encore l'emplacement de stockage ? Vous n'êtes pas obligé de le saisir tout de suite. Vous pouvez mettre à jour l'emplacement de stockage à tout moment si vous n'avez pas encore confirmé la vérification. </div>
-
-Lors de la modification d'une ligne de la livraison, l'onglet `Autre` aura une sélection `Donateur` si vous avez la préférence activée :
+- **Emplacement** : un emplacement de stockage pour le lot.
+- **Commentaire** : champ de texte libre pour un commentaire.
+- **Donateur** : un donateur, si le suivi des donateurs est configuré.
+- **Campagne / Programme** : associez la ligne de stock à une campagne ou un programme.
+- **Fabricant** : si des [Variantes d'Articles](/docs/catalogue/items/#item-variants) sont configurées, vous pouvez voir et modifier le fabricant.
 
 ### Confirmer l'article et les quantités
 
 Lorsque vous avez terminé, vous pouvez ajouter la nouvelle ligne en appuyant sur :
 
-- `OK` si vous ne voulez pas ajouter une autre ligne à votre livraison
+- `OK` si vous ne souhaitez pas ajouter d'autre ligne
 - `OK & Suivant` si vous avez d'autres lignes à créer
 
-Sinon, vous pouvez appuyer sur `Annuler` et vos modifications ne seront pas sauvegardées.
+Sinon, appuyez sur `Annuler` pour ne pas enregistrer vos modifications.
 
-## Ajouter des lignes à une Livraison Entrante en utilisant une Liste Maître
+## Ajouter des lignes via une liste maîtresse
 
-Appuyez sur le bouton `Ajouter depuis la liste maître` (coin supérieur droit).
+Appuyez sur le bouton `Ajouter depuis une liste maîtresse` (coin supérieur droit).
 
-<div class="note"> Le bouton sera désactivé si le statut de la Livraison Entrante est autre que <code>Nouveau</code> </div>
+<div class="note">
+Le bouton sera désactivé si le statut de l'Expédition Entrante est autre que <strong>Nouvelle</strong>.
+</div>
 
-![Add Item button](images/is_add_from_master_list_button.png)
+![Bouton Ajouter un article](images/is_add_from_master_list_button.png)
 
-Une nouvelle fenêtre `Listes Maîtres` s'ouvre. Cela vous permet de sélectionner la liste maître requise. Cliquez simplement sur une des listes (si vous en avez de disponibles).
+Une nouvelle fenêtre `Listes Maîtresses` s'ouvre. Cliquez simplement sur l'une des listes disponibles.
 
-![Add Item button](../../images/add-item-master-lists.png)
+![Bouton Ajouter un article](../../images/add-item-master-lists.png)
 
-Cliquez `OK` sur l'invite de commande :
-![Add Item button](../../images/add-item-master-list-prompt.png)
+Cliquez sur `OK` sur le message de confirmation :
+![Bouton Ajouter un article](../../images/add-item-master-list-prompt.png)
 
-Vous aurez alors des lignes de substitution ajoutées à votre livraison, qui ressembleront à ceci :
+Des lignes de remplacement seront ajoutées à votre expédition avec une quantité de paquets à zéro, affichées en police bleue.
 
-![Add Item button](images/is-after-master-list.png)
+![Bouton Ajouter un article](images/is-after-master-list.png)
 
-Les lignes importées auront zéro pour la valeur du nombre d'emballages, et sont donc affichées en police bleue avec le lot, la date de péremption, l'emplacement etc non affichés. Vous pouvez suivre les étapes pour modifier ces lignes, comme détaillé ci-dessus.
+## Modifier une ligne d'Expédition Entrante
 
-## Modifier une ligne de Livraison Entrante
+Pour modifier une ligne, appuyez simplement dessus. La fenêtre `Modifier un Article` s'ouvre, identique à `Ajouter un Article`, sauf que l'article est déjà choisi et ne peut pas être modifié.
 
-Pour modifier une ligne de Livraison Entrante, appuyez simplement dessus. Vous verrez apparaître la fenêtre `Modifier l'Article`, qui est identique à la fenêtre `Ajouter un Article`, sauf que l'article est déjà choisi et ne peut pas être modifié.
+### Modifier une ligne
 
-### Modifier une Ligne de Livraison
+<div class="note">
+Vous pouvez modifier une ligne d'expédition si l'expédition a un statut inférieur à <code>Vérifiée</code>.
+</div>
 
-<div class="note"> <b></b> vous pouvez modifier une ligne de livraison si la livraison a un statut inférieur à <code>Vérifié</code>. </div>
+### Supprimer une ligne
 
-1. Ouvrez la Livraison Entrante que vous voulez modifier
-2. Appuyez sur la ligne que vous voulez modifier. Une fenêtre identique à `Ajouter un Article` apparaît. À ce stade :
-   - Modifiez le champ principal `Quantité d'Émission`
-   - ou changez la valeur du nombre de paquets au niveau du numéro de lot
+1. Ouvrez l'Expédition Entrante à modifier
+2. Assurez-vous que le statut n'est pas encore `VÉRIFIÉE`
+3. Sélectionnez la ou les lignes à supprimer en cochant les cases à gauche
+4. Cliquez sur le bouton `Supprimer` en bas de la page.
 
-<div class="note"> <b></b> Lors de la modification d'une ligne de livraison, vous ne pouvez pas changer l'article. Vous devriez supprimer la ligne de livraison et en créer une nouvelle. </div>
+![Supprimer une ligne d'expédition entrante](images/is_delete_lines.png)
 
-### Supprimer une ligne de Livraison
+### Autres actions sur les lignes
 
-1. Ouvrez la Livraison Entrante que vous souhaitez modifier
-2. Assurez-vous que le statut n'est pas encore `VÉRIFIÉ`
-3. Sélectionnez la ou les ligne(s) que vous voulez supprimer en cochant la ou les case(s) à gauche de la liste
-4. Cliquez sur le bouton `Supprimer` qui apparaît en bas de la page.
+| Action                          | Effet                                                                                                                                              |
+| ------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Supprimer                       | Supprime les lignes sélectionnées                                                                                                                  |
+| Modifier Campagne ou Programme  | Ouvre une fenêtre pour choisir un programme ou une campagne à associer à toutes les lignes sélectionnées                                           |
+| Définir les quantités à 0       | Définit la valeur `Paquets reçus` à zéro pour toutes les lignes sélectionnées                                                                      |
+| Retourner les lignes sélectionnées | Ouvre une fenêtre pour retourner tout ou partie des lignes sélectionnées. Disponible uniquement si le statut de l'expédition est `Réceptionnée` ou ultérieur |
+| Effacer la sélection            | Efface les cases de sélection                                                                                                                      |
 
-![Alt Text](images/is_delete_lines.png)
+## Télécharger des documents
 
-<div class="tip"> Vous pouvez supprimer plusieurs lignes à la fois. Assurez-vous de vérifier ce qui est sélectionné avant d'effectuer l'action Supprimer. </div>
+Vous pouvez avoir des documents liés que vous souhaitez télécharger avec une Expédition Entrante (bons de livraison, documents de transport, relevés de température, etc.).
 
-## Réception de stock avec une Livraison Entrante
+L'Expédition Entrante inclut un onglet `Documents`. Depuis cet onglet, sélectionnez `Télécharger un document` en haut de l'écran et choisissez un fichier :
 
-### Confirmer la livraison de l'envoi
+![Onglet et bouton Télécharger un document](images/is_upload_document.png)
 
-Que votre Envoi Entrant soit **manuel** ou **automatique**, la première étape pour recevoir les marchandises est de confirmer la livraison.
+Vous pouvez télécharger ou supprimer des documents précédemment chargés en les sélectionnant dans la liste et en choisissant l'action appropriée en bas de l'écran :
 
-À cette étape, vous n'avez pas à vérifier si les quantités ou autres informations sont correctes, vous devez simplement reconnaître que vous avez reçu les marchandises de votre fournisseur.
+![Télécharger ou supprimer un document](images/is_download_delete_document.png)
 
-Pour confirmer qu'un Envoi Entrant a été livré, cliquez sur le bouton `Confirmer Livré(e)`.
+## Recevoir du stock avec une Expédition Entrante
 
-Une fois que vous avez fait cela :
+### Confirmer la livraison de l'expédition
 
-- Les marchandises font maintenant partie de votre inventaire
-- Le statut de l'envoi est maintenant `LIVRÉ`
+Que votre Expédition Entrante soit **manuelle** ou **automatique**, la première étape pour recevoir les articles est de confirmer la livraison.
 
-<div class="note"> Dans le cas où votre Envoi Entrant est <b>automatique</b>, vous ne pouvez pas confirmer sa livraison à moins que le fournisseur n'ait confirmé son expédition. En d'autres termes, le statut de votre envoi doit être <code>EXPÉDIÉ</code> avant que vous puissiez confirmer que vous avez reçu les marchandises. </div> <div class="note"> Toutes les lignes non allouées avec une valeur de 0 nombre de paquets seront automatiquement supprimées pour vous lorsque vous confirmez. </div>
+À ce stade, vous n'avez pas à vérifier si les quantités ou d'autres informations sont correctes — vous reconnaissez simplement que vous avez reçu les articles de votre fournisseur.
 
-### Vérifier votre Livraison Entrante
+Pour confirmer qu'une Expédition Entrante a été livrée, cliquez sur le bouton `Confirmer Livrée`.
 
-La vérification est la dernière étape pour recevoir des marchandises dans mSupply. À cette étape, vous pouvez vérifier ce que vous avez reçu et vous assurer que les informations dans mSupply sont correctes.
+Une fois cela fait :
 
-Vous avez la possibilité de vérifier les informations suivantes :
+- Les articles font maintenant partie de votre inventaire
+- Le statut de l'expédition est maintenant `LIVRÉE`
 
-- Numéros de lot et leurs dates d'expiration
-- Quantité de paquets et taille des paquets
-- Informations de prix : prix de revient et prix de vente
+<div class="note">
+Dans le cas d'une Expédition Entrante <b>automatique</b>, vous ne pouvez pas confirmer la livraison tant que le fournisseur n'a pas confirmé l'expédition. En d'autres termes, le statut de votre expédition doit être <code>EXPÉDIÉE</code> avant que vous puissiez confirmer la réception des articles.
+</div>
 
-Vous pouvez également saisir où les marchandises reçues doivent être stockées dans l'onglet `Emplacement`.
+<div class="note">
+Les lignes non allouées avec 0 paquet seront automatiquement supprimées lors de la confirmation de livraison.
+</div>
 
-Une fois que toutes les informations ont été saisies ou vérifiées, vous pouvez confirmer l'Envoi comme `VÉRIFIÉ` en appuyant sur le bouton `Confirmer Vérifié`.
+### Réceptionner les articles
 
-Une fois que vous avez fait cela :
+Une fois l'expédition marquée comme `LIVRÉE`, les articles peuvent être inspectés physiquement pour confirmer que les bons articles et les bonnes quantités ont été livrés.
 
-- Le statut de l'envoi est maintenant `VÉRIFIÉ`
-- Vous ne pouvez plus modifier les lignes d'envoi
-- Vous ne pouvez plus supprimer l'envoi
+Une fois que vous avez inspecté les articles, confirmez l'expédition comme `RÉCEPTIONNÉE` en appuyant sur `Confirmer Réceptionnée`.
 
-## Retourner du stock d'une Livraison Entrante
+Une fois cela fait :
 
-Parfois, vous pourriez avoir besoin de retourner du stock que vous avez reçu via un Envoi Entrant. Vous pouvez le faire en créant un [Retour Fournisseur](../supplier-returns).
+- Le statut de l'expédition est maintenant `RÉCEPTIONNÉE`
+- Les articles sont ajoutés à votre stock en dépôt et sont disponibles pour la distribution
 
-1. Ouvrez l'Envoi Entrant pour lequel vous souhaitez retourner une partie ou la totalité du stock
-2. Assurez-vous que le statut est au moins `LIVRÉ`
-3. Sélectionnez la ou les ligne(s) que vous voulez retourner en cochant la ou les case(s) à gauche de la liste
-4. Cliquez sur le bouton `Retourner les lignes sélectionnées` qui apparaît en bas de la page.
+### Vérifier votre Expédition Entrante
 
-![Process return inbound shipment line](images/return-inbound-shipment-line.png)
+La vérification est la dernière étape pour recevoir des articles dans mSupply. À ce stade, vous pouvez vérifier :
+
+- Les numéros de lot et leurs dates d'expiration
+- La quantité de paquets et la taille de paquet
+- Les informations de tarification : prix de coût et de vente
+- L'emplacement de stockage des articles reçus
+
+Une fois toutes les informations capturées ou vérifiées, confirmez l'expédition comme `VÉRIFIÉE` en appuyant sur `Confirmer Vérifiée`.
+
+Une fois cela fait :
+
+- Le statut de l'expédition est maintenant `VÉRIFIÉE`
+- Vous ne pouvez plus modifier les lignes
+- Vous ne pouvez plus supprimer l'expédition
+
+## Retourner du stock depuis une Expédition Entrante
+
+Parfois, vous devrez peut-être retourner du stock reçu via une Expédition Entrante. Vous pouvez le faire en créant un [Retour fournisseur](../supplier-returns).
+
+1. Ouvrez l'Expédition Entrante pour laquelle vous souhaitez retourner du stock
+2. Assurez-vous que le statut est au moins `LIVRÉE`
+3. Sélectionnez la ou les lignes à retourner en cochant les cases à gauche
+4. Cliquez sur le bouton `Retourner les lignes sélectionnées` en bas de la page.
+
+![Traiter le retour d'une ligne d'expédition entrante](images/return-inbound-shipment-line.png)
 
 #### Sélectionner la quantité à retourner
 
-Une fenêtre modale s'ouvrira, contenant chaque ligne que vous avez sélectionnée pour retour :
+Une fenêtre modale s'ouvrira avec chaque ligne sélectionnée :
 
-| Colonne                             | Description                                                                                                                                                                                                     |
-| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Code**                            | Code de l'article                                                                                                                                                                                               |
-| **Nom**                             | Nom de l'article                                                                                                                                                                                                |
-| **Lot**                             | Numéro de lot. C'est une désignation donnée aux produits fabriqués dans la même série de production.                                                                                                            |
-| **Péremption**                      | Date de péremption du lot (format : MM/AAAA)                                                                                                                                                                    |
-| **Quantité Disponible pour Retour** | Nombre d'emballages disponibles. Cela signifie le nombre d'emballages pas encore alloués à d'autres envois ou retours, donc la quantité pourrait être moindre que la quantité reçue dans la Livraison Entrante. |
-| **Quantité à Retourner**            | Nombre d'emballages à retourner                                                                                                                                                                                 |
+|              Colonne                  | Description                                                                                                                                                                                    |
+| :-----------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|             **Code**                  | Code de l'article                                                                                                                                                                              |
+|             **Nom**                   | Nom de l'article                                                                                                                                                                               |
+|             **Lot**                   | Numéro de lot                                                                                                                                                                                  |
+|            **Expiration**             | Date d'expiration du lot (format : MM/AAAA)                                                                                                                                                    |
+| **Quantité disponible pour retour**   | Nombre de paquets disponibles — c'est-à-dire non déjà alloués à d'autres expéditions ou retours.                                                                                               |
+|      **Quantité à retourner**         | Nombre de paquets à retourner                                                                                                                                                                  |
 
-![Alt Text](images/is_return_select_quantity.png)
+![](images/is_return_select_quantity.png)
 
-Les valeurs `Quantité à Retourner` seront initialement `0` - vous pouvez ajuster cela pour retourner une partie ou la totalité du stock disponible.
+Les valeurs `Quantité à retourner` seront initialement à `0` — vous pouvez les ajuster pour retourner tout ou partie du stock disponible.
 
 #### Avertissements
 
-Si vous oubliez d'entrer une quantité à retourner pour un lot et cliquez sur `Étape suivante`, vous verrez ce message d'avertissement. Vous devrez ajouter une quantité à retourner d'au moins un lot. Vous pouvez cliquer sur `Annuler` si vous ne voulez plus retourner ce stock.
-![Alt Text](images/is_selectquantity_warning.png)
+Si vous oubliez de saisir une quantité à retourner, vous verrez ce message d'avertissement.
 
-#### Fournir des motifs
+![](images/is_selectquantity_warning.png)
 
-Une fois que vous êtes satisfait de vos quantités à retourner, vous pouvez cliquer sur `Étape suivante`. La liste des lots sera filtrée pour inclure seulement les lots pour lesquels vous avez fourni une quantité de retour. Dans cette vue, vous pouvez fournir un motif pour retourner chaque lot, et un commentaire supplémentaire.
+#### Fournir des raisons
 
-![Alt Text](images/is_return_lines.png)
+Une fois satisfait de vos quantités, cliquez sur `Étape suivante`. La liste sera filtrée pour n'inclure que les lots pour lesquels vous avez fourni une quantité de retour. Vous pouvez fournir une raison et un commentaire supplémentaire pour chaque lot.
+
+![](images/is_return_lines.png)
 
 #### Confirmer
 
 Lorsque vous êtes satisfait des quantités et des raisons, vous pouvez appuyer sur :
 
-- le bouton `OK`. Un Retour Fournisseur sera créé, et vous serez redirigé pour le voir. Les quantités de stock sélectionnées pour retour seront réservées pour le nouveau retour.
-- le bouton `Retour`, pour revenir à l'étape `Sélectionner la quantité`
+- le bouton `OK`. Un Retour fournisseur sera créé et vous serez redirigé pour le consulter.
+- le bouton `Retour`, pour revenir à l'étape `Sélectionner la quantité`.
 
-## Visualiser une Livraison Entrante
+## Consulter une Expédition Entrante
 
-Lors de la visualisation d'une livraison spécifique, vous pouvez voir les lots de cette livraison groupés par article ou avec chaque lot listé séparément. Pour changer le mode d'affichage, cliquez sur le bouton `Grouper par article`.
+Lors de la consultation d'une expédition spécifique, vous pouvez afficher les lots groupés par article ou chaque lot séparément. Pour changer le mode d'affichage, cliquez sur le bouton `Grouper par article`.
 
-Lorsqu'ils sont groupés par article, vous pouvez déplier l'article pour voir les lots individuels, ou utiliser le développement dans l'en-tête du tableau pour voir toutes les lignes groupées.
+Si vous n'avez pas assez d'espace sur votre écran, vous avez la possibilité de masquer certaines colonnes. Cliquez sur le bouton `Afficher / masquer les colonnes` en haut à droite du tableau.
 
-Si vous n'avez pas assez de place sur votre écran, ou si vous n'êtes simplement pas intéressé par certaines des colonnes affichées, vous avez l'option de masquer quelles colonnes sont affichées dans cette vue.
-
-Cliquez sur le bouton `Afficher / masquer les colonnes` qui se trouve en haut à droite du tableau. Cela donne une liste des colonnes disponibles - vous pouvez cocher les colonnes que vous voulez voir. Les options choisies sont stockées pour le navigateur actuel, donc la prochaine fois que vous visualiserez un envoi entrant, vous ne verrez que les colonnes sélectionnées. Si vous avez choisi quelles colonnes afficher, alors le bouton est affiché en bleu pour vous rappeler qu'il y a plus de colonnes disponibles.
-
-![Hide columns](images/is_show_hide_columns.png)
+![Masquer les colonnes](images/is_show_hide_columns.png)
 
 ## Suivre le stock par donateur
 
-Vous pouvez suivre le stock par donateur à travers tout le système. Un donateur peut être lié à un envoi entrant et vous pouvez également spécifier le donateur pour chaque ligne sur l'envoi.
+Vous pouvez suivre le stock par donateur dans tout le système. Un donateur peut être lié à une expédition entrante et vous pouvez également spécifier le donateur pour chaque ligne.
 
-Pour commencer, activez la [Préférence globale](/docs/manage/global-preferences/) pour `Permettre le suivi du stock par donateur`. Ensuite, configurez quelques donateurs dans le serveur central mSupply. Cette [page de documentation](https://docs.msupply.org.nz/receiving_goods:donors?s%5B%5D=donor#adding_or_editing_donors) vous dira comment faire.
+Pour commencer, activez la [Préférence globale](/docs/manage/global-preferences/) `Permettre le suivi du stock par donateur`. Puis configurez des donateurs dans le serveur central mSupply.
 
-Une fois que vous avez activé la préférence et avez quelques donateurs configurés, ouvrez le [volet d'informations](#afficher-ou-modifier-le-volet-d-informations-sur-les-livraisons) de votre envoi entrant
+Une fois la préférence activée et des donateurs configurés, ouvrez le [panneau d'informations](#consulter-ou-modifier-le-panneau-dinformations) de votre expédition entrante. Cliquez sur l'icône crayon pour modifier le donateur :
 
-Ici, vous pouvez voir le donateur actuellement alloué et ajouter ou changer un donateur. Cliquez sur l'icône crayon pour afficher la fenêtre d'édition :
+![Modifier le donateur](images/edit_donor.png)
 
-![Edit donor](images/edit_donor.png)
+Lors de la sélection d'un donateur, vous avez la possibilité de spécifier comment cela affectera les lignes de l'expédition :
 
-Lors de la sélection d'un donateur, vous avez l'option de spécifier comment cela affectera les lignes sur l'envoi :
-
-- Toutes les lignes - le donateur sélectionné est lié à chaque ligne sur l'envoi
-- Lignes avec donateur existant - le donateur sélectionné remplace le donateur existant si un est assigné à une ligne
-- Lignes sans donateur - seules les lignes sans donateur seront liées à ce donateur
+- Toutes les lignes — le donateur sélectionné est lié à chaque ligne
+- Lignes avec donateur existant — remplace le donateur existant si assigné
+- Lignes sans donateur — uniquement les lignes sans donateur seront liées
 - Aucune
 
-Lors de l'édition d'une ligne sur l'envoi, l'onglet `Autre` aura une sélection `Donateur` si vous avez la préférence activée :
+Lors de la modification d'une ligne, l'onglet `Autre` aura une sélection `Donateur` si la préférence est activée :
 
-![Donor per line](images/edit_line_donor.png)
+![Donateur par ligne](images/edit_line_donor.png)
 
-Sélectionnez simplement le donateur pour cette ligne de stock.
+## Lier une commande interne
+
+Si la [préférence du dépôt](/docs/settings/configuration/#store-preferences) `Peut lier manuellement une réquisition à une facture fournisseur` est activée, il est possible de lier une expédition entrante créée manuellement à une commande interne.
+
+### Comment lier une commande interne
+
+Cliquez sur le bouton `Nouvelle Expédition` pour créer une nouvelle expédition entrante manuelle et sélectionnez un fournisseur. Avec la préférence activée, vous verrez un nouvel écran affichant toutes les commandes internes que ce dépôt a créées pour le fournisseur sélectionné.
+
+<div class="note">Seules les commandes au statut <i>Envoyée</i> sont affichées dans la liste</div>
+
+![Sélectionner une commande interne](images/linked_internal_orders.png)
+
+Depuis cette fenêtre, vous pouvez :
+
+- Cliquer sur **Annuler** pour arrêter la création de l'expédition entrante
+- Cliquer sur **Suivant** pour continuer sans lier de commande interne
+- Cliquer sur une ligne de commande interne dans le tableau — cela liera la commande à la nouvelle expédition entrante
+
+### Travailler avec une expédition liée
+
+Un lien vers la commande interne est affiché dans la section _Documents liés_ du panneau _Plus d'infos_ :
+
+![Lien Documents liés](images/linked_related_docs.png)
+
+Une fois l'expédition et la commande liées, vous pouvez ajouter des lignes depuis la commande interne à l'expédition. Cliquez sur la flèche à côté du bouton **Ajouter un Article** :
+
+![Ajouter depuis la commande interne](images/linked_add_from_order.png)
+
+Cliquez sur l'option **Ajouter depuis la Commande Interne**.
+
+Une fenêtre affiche toutes les lignes d'articles de la commande interne. Cochez les lignes à ajouter à l'expédition.
+
+<div class="tip">Vous pouvez cliquer sur la case principale pour sélectionner ou désélectionner toutes les lignes</div>
+
+![Ajouter des lignes depuis la commande interne](images/linked_add_lines.png)
+
+Cliquez sur le bouton **Sélectionner** pour ajouter les lignes à l'expédition.
