@@ -39,16 +39,16 @@ La première chose que vous voyez est une liste des Livraisons Entrantes existan
 
 La liste est divisée en 7 colonnes :
 
-| Colonne         | Description                                                                         |
-| :-------------- | :---------------------------------------------------------------------------------- |
-| **Nom**         | Nom du fournisseur                                                                  |
-| **Statut**      | Statut actuel de l'expédition                                                       |
-| **Numéro**      | Numéro de référence de l'expédition                                                 |
-| **Créée**       | Date de création de l'expédition                                                    |
-| **Livrée**      | Date de livraison de l'expédition                                                   |
-| **Commentaire** | Commentaire sur l'expédition                                                        |
+| Colonne         | Description                                                                             |
+| :-------------- | :-------------------------------------------------------------------------------------- |
+| **Nom**         | Nom du fournisseur                                                                      |
+| **Statut**      | Statut actuel de l'expédition                                                           |
+| **Numéro**      | Numéro de référence de l'expédition                                                     |
+| **Créée**       | Date de création de l'expédition                                                        |
+| **Livrée**      | Date de livraison de l'expédition                                                       |
+| **Commentaire** | Commentaire sur l'expédition                                                            |
 | **Référence**   | Contiendra le numéro de facture fournisseur si l'expédition a été créée automatiquement |
-| **Total**       | Valeur totale de l'expédition                                                       |
+| **Total**       | Valeur totale de l'expédition                                                           |
 
 <div class="note">
 Les statuts existants continueront à s'afficher si vous avez déjà des Livraisons Entrantes dans votre système avant de configurer les statuts de facture pour votre dépôt.
@@ -257,10 +257,10 @@ Cliquez sur le bouton `Fermer` pour quitter la vue de l'Expédition Entrante et 
 
 Le bouton `Confirmer` met à jour le statut de l'expédition. Lors de la gestion d'une Expédition Entrante, vous pouvez uniquement la confirmer comme Livrée ou Vérifiée.
 
-| Confirmer...              | Statut actuel | Statut suivant |
-| :------------------------ | :------------ | :------------- |
-| **Confirmer Livrée**      | Expédiée      | Livrée         |
-| **Confirmer Vérifiée**    | Livrée        | Vérifiée       |
+| Confirmer...           | Statut actuel | Statut suivant |
+| :--------------------- | :------------ | :------------- |
+| **Confirmer Livrée**   | Expédiée      | Livrée         |
+| **Confirmer Vérifiée** | Livrée        | Vérifiée       |
 
 Vous n'avez pas à suivre la séquence dans l'ordre. Vous pouvez choisir de passer directement à `Confirmer Vérifiée` par exemple.
 
@@ -542,7 +542,7 @@ Vous pouvez suivre le stock par donateur dans tout le système. Un donateur peut
 
 Pour commencer, activez la [Préférence globale](/docs/manage/global-preferences/) `Permettre le suivi du stock par donateur`. Puis configurez des donateurs dans le serveur central mSupply.
 
-Une fois la préférence activée et des donateurs configurés, ouvrez le [panneau d'informations](#consulter-ou-modifier-le-panneau-dinformations) de votre expédition entrante. Cliquez sur l'icône crayon pour modifier le donateur :
+Une fois la préférence activée et des donateurs configurés, ouvrez le [panneau d'informations](#consulter-ou-modifier-le-panneau-d-informations) de votre expédition entrante. Cliquez sur l'icône crayon pour modifier le donateur :
 
 ![Modifier le donateur](images/edit_donor.png)
 

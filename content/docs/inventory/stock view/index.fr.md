@@ -25,23 +25,23 @@ Une liste détaillée de votre inventaire apparaît :
 
 ![Stock : liste](images/stock_viewstock.png)
 
-| Colonne                        | Description                                                                                                                                                                                        |
-| :----------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Code**                       | Code assigné à cet article dans mSupply                                                                                                                                                            |
-| **Nom**                        | C'est le nom par lequel mSupply fera référence à l'article                                                                                                                                         |
-| **Lot**                        | Numéro de lot de la ligne de stock                                                                                                                                                                 |
-| **Expiration**                 | Date d'expiration du lot. Notez que la date s'affiche en rouge s'il reste moins de quatre mois avant la date d'expiration.                                                                         |
-| **Statut VVM\***               | <p style="margin-bottom: 0">Indique la viabilité du vaccin.</p> <small>\*Activé via la préférence de dépôt [Gérer le statut VVM pour le stock](/docs/manage/facilities/#store-preferences)</small> |
-| **Emplacement**                | L'endroit où l'article est stocké dans votre dépôt                                                                                                                                                 |
-| **Unité**                      | L'unité de mesure de l'article                                                                                                                                                                     |
-| **Taille de  conditionnement** | La taille de conditionnement de l'article (=nombre d'unités par conditionnement)                                                                                                                   |
-| **Qté conditionnements**       | Quantité totale de stock dans votre dépôt, en conditionnements                                                                                                                                     |
-| **Stock total**                | Quantité totale de stock dans votre dépôt, en unités                                                                                                                                               |
-| **Stock utilisable**           | Stock en dépôt utilisable (non alloué à la distribution), en unités                                                                                                                                |
-| **Coût conditionnement**       | Coût par conditionnement                                                                                                                                                                           |
-| **Total**                      | Valeur totale du stock utilisable (`Qté conditionnements x Coût conditionnement`)                                                                                                                  |
-| **Fabricant**                  | Le fabricant de cet article en stock. Défini automatiquement lors de la sélection d'une variante d'article, ou peut être saisi manuellement                                                        |
-| **Fournisseur**                | Indique la source de cet article en stock                                                                                                                                                          |
+| Colonne                       | Description                                                                                                                                                                                        |
+| :---------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Code**                      | Code assigné à cet article dans mSupply                                                                                                                                                            |
+| **Nom**                       | C'est le nom par lequel mSupply fera référence à l'article                                                                                                                                         |
+| **Lot**                       | Numéro de lot de la ligne de stock                                                                                                                                                                 |
+| **Expiration**                | Date d'expiration du lot. Notez que la date s'affiche en rouge s'il reste moins de quatre mois avant la date d'expiration.                                                                         |
+| **Statut VVM\***              | <p style="margin-bottom: 0">Indique la viabilité du vaccin.</p> <small>\*Activé via la préférence de dépôt [Gérer le statut VVM pour le stock](/docs/manage/facilities/#store-preferences)</small> |
+| **Emplacement**               | L'endroit où l'article est stocké dans votre dépôt                                                                                                                                                 |
+| **Unité**                     | L'unité de mesure de l'article                                                                                                                                                                     |
+| **Taille de conditionnement** | La taille de conditionnement de l'article (=nombre d'unités par conditionnement)                                                                                                                   |
+| **Qté conditionnements**      | Quantité totale de stock dans votre dépôt, en conditionnements                                                                                                                                     |
+| **Stock total**               | Quantité totale de stock dans votre dépôt, en unités                                                                                                                                               |
+| **Stock utilisable**          | Stock en dépôt utilisable (non alloué à la distribution), en unités                                                                                                                                |
+| **Coût conditionnement**      | Coût par conditionnement                                                                                                                                                                           |
+| **Total**                     | Valeur totale du stock utilisable (`Qté conditionnements x Coût conditionnement`)                                                                                                                  |
+| **Fabricant**                 | Le fabricant de cet article en stock. Défini automatiquement lors de la sélection d'une variante d'article, ou peut être saisi manuellement                                                        |
+| **Fournisseur**               | Indique la source de cet article en stock                                                                                                                                                          |
 
 ### Rechercher un article spécifique
 
@@ -251,7 +251,7 @@ Si c'est le cas, le champ de raison sera activé comme ci-dessous :
 
 ![Nouvelle ligne de stock : saisir une raison](images/stock_new_reason.png)
 
-Lorsque vous êtes prêt à ajuster le niveau de stock, cliquez sur le bouton `OK`. Vous verrez alors votre quantité de conditionnements mise à jour dans l'[onglet Détails](#onglet-détails), et pourrez consulter l'ajustement dans l'[onglet Grand Livre](#onglet-grand-livre).
+Lorsque vous êtes prêt à ajuster le niveau de stock, cliquez sur le bouton `OK`. Vous verrez alors votre quantité de conditionnements mise à jour dans l'[onglet Détails](#onglet-details), et pourrez consulter l'ajustement dans l'[onglet Grand Livre](#onglet-grand-livre).
 
 Cliquez sur le bouton `Annuler` à tout moment pour fermer la fenêtre d'ajustement.
 
@@ -259,9 +259,9 @@ Cliquez sur le bouton `Annuler` à tout moment pour fermer la fenêtre d'ajustem
 
 Il existe plusieurs [types de raisons](https://docs.msupply.org.nz/preferences:options?s[]=reasons) configurables dans mSupply. Vous aurez différentes options disponibles selon le type d'ajustement que vous effectuez et le type d'article.
 
-| Ajustement                    | Article                    | Type de dépôt          | Types de raisons                               |
-| :---------------------------- | :------------------------- | :--------------------- | :--------------------------------------------- |
-| **Ajout d'inventaire**        | Vaccin ou non-vaccin       | Dépôt ou Dispensaire   | Ajustement positif d'inventaire                |
-| **Réduction d'inventaire**    | Non-vaccin                 | Dépôt ou Dispensaire   | Ajustement négatif d'inventaire                |
-|                               | Vaccin                     | Dépôt                  | Gaspillage de flacon fermé                     |
-|                               |                            | Dispensaire            | Gaspillage de flacon fermé et flacon ouvert    |
+| Ajustement                 | Article              | Type de dépôt        | Types de raisons                            |
+| :------------------------- | :------------------- | :------------------- | :------------------------------------------ |
+| **Ajout d'inventaire**     | Vaccin ou non-vaccin | Dépôt ou Dispensaire | Ajustement positif d'inventaire             |
+| **Réduction d'inventaire** | Non-vaccin           | Dépôt ou Dispensaire | Ajustement négatif d'inventaire             |
+|                            | Vaccin               | Dépôt                | Gaspillage de flacon fermé                  |
+|                            |                      | Dispensaire          | Gaspillage de flacon fermé et flacon ouvert |
