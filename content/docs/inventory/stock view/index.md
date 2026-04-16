@@ -71,13 +71,13 @@ Note that the item will only show while you have stock on hand for it, so if you
 
 You also cannot order more of this item - it cannot be added the item to a manual inbound shipment or an internal order.
 
-## Creating a new stock line
+## Creating a new stock line (positive adjustment)
 
 <div class="note">
 It's rare that you should need to create a new Stock line in this way. Your stock should be introduced by Inbound Shipments, or adjusted via a Stocktake.
 </div>
 
-To create a new stock line, click the `New Stock` button in the top right of your screen.
+To create a new stock line (i.e., positive adjustement), click the `New Stock` button in the top right of your screen.
 
 ![Stock: new](images/stock_new.png)
 

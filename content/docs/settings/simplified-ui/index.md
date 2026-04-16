@@ -30,11 +30,12 @@ The simplified UI does not remove any essential functionality. All core workflow
 
 The simplified UI is enabled as a store preference. To enable it:
 
-1. On the central server, go to the `Settings` section in the lower part of the navigation panel
+1. On the central server, go to the `Manage` section in the lower part of the navigation panel, then `Stores`
 2. Navigate to the store preferences for the store you wish to configure (see [Stores](/docs/manage/facilities/) for details)
 3. Enable the **Use simplified mobile UI** preference
+4. Alternatively, you can directly access it when modifying the preferences of the stores you are currently **logged in** in `Edit` then `Preferences`
 
-additionally:
+Additionally:
 
 4. The `pack to one` store preference needs to be enabled (see the mSupply [virtual stores configuration](https://docs.msupply.org.nz/other_stuff:virtual_stores?s%5B%5D=pack&s%5B%5D=one#preferences_tab))
 5. You will need to be using a tablet or other device with a small screen size
@@ -81,7 +82,7 @@ When creating or editing an internal order, the following columns are available:
 | **Name**               |    ✓    |   ✓    |
 | **Unit**               |    ✓    |        |
 | **Default pack size**  |    ✓    |        |
-| **Stock on hand**      |    ✓    |   ✓    |
+| **Available stock**    |    ✓    |   ✓    |
 | **AMC**                |    ✓    |   ✓    |
 | **Target stock**       |    ✓    |        |
 | **Suggested quantity** |    ✓    |   ✓    |

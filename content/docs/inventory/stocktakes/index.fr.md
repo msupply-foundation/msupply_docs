@@ -21,12 +21,12 @@ Bien sûr, nous essayons d'éviter cela, mais si cela arrive, nous pouvons effec
 Dans Open mSupply, vous pouvez facilement effectuer un inventaire pour :
 
 - Un inventaire complet
-- Une gamme limitée d'articles
+- Une liste limitée d'articles
 - Un seul article
 
 ## Consulter les inventaires
 
-Pour consulter vos inventaires, allez dans `Inventaire` puis `Inventaires` dans le panneau de navigation :
+Pour consulter vos inventaires, allez dans `Gestion des stocks` puis `Inventaires` dans le panneau de navigation :
 
 ![Inventaire : navigation](images/stocktake_gotost.png)
 
@@ -36,14 +36,14 @@ Une liste de tous vos inventaires apparaît :
 
 Pour chaque inventaire, vous pouvez voir :
 
-| Colonne          | Description                                                                                                                                             |
-| :--------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Numéro**       | Le numéro de l'inventaire                                                                                                                               |
-| **Statut**       | Le statut de l'inventaire. _Nouveau_ : un inventaire actuellement actif. _Finalisé_ : l'inventaire a déjà été effectué. Vous ne pouvez plus le modifier. |
-| **Description**  | La description de l'inventaire (ex. Inventaire de mars)                                                                                                 |
-| **Créé**         | La date de création de l'inventaire                                                                                                                     |
-| **Date**         | La date à laquelle l'inventaire a été effectué                                                                                                          |
-| **Commentaire**  | Commentaire sur l'inventaire, le cas échéant                                                                                                            |
+| Colonne         | Description                                                                                                                                              |
+| :-------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Numéro**      | Le numéro de l'inventaire                                                                                                                                |
+| **Statut**      | Le statut de l'inventaire. _Nouveau_ : un inventaire actuellement actif. _Finalisé_ : l'inventaire a déjà été effectué. Vous ne pouvez plus le modifier. |
+| **Description** | La description de l'inventaire (ex. Inventaire de mars)                                                                                                  |
+| **Créé**        | La date de création de l'inventaire                                                                                                                      |
+| **Date**        | La date à laquelle l'inventaire a été effectué                                                                                                           |
+| **Commentaire** | Commentaire sur l'inventaire, le cas échéant                                                                                                             |
 
 <div class="warning">
 Il est peu utile de conserver d'anciens inventaires avec le statut <code>NOUVEAU</code>, et cela peut même être dangereux, surtout si vous êtes sur le point de créer un nouvel inventaire contenant les mêmes articles. Si du temps s'est écoulé depuis la création de l'inventaire, les quantités instantanées et réelles sont presque certainement incorrectes. Pour des raisons de bonne gestion, il est recommandé de supprimer les anciens inventaires <code>NOUVEAU</code>.
@@ -75,11 +75,11 @@ Ne sélectionner aucune option inclura toutes les lignes de stock avec du stock 
 
 ![Inventaire : nouvelle fenêtre](images/stocktake_newmodal.png)
 
-Sélectionner « Créer un inventaire filtré » affichera les champs vous permettant de filtrer les lignes de stock par liste maîtresse, emplacement ou date d'expiration.
+Sélectionner « Créer un inventaire avec filtres » affichera les champs vous permettant de filtrer les lignes de stock par liste maîtresse, emplacement ou date d'expiration.
 
 ![Inventaire : nouveau filtré](images/stocktake_new_filtered_stocktake.png)
 
-Sélectionner « Créer un inventaire vide » créera un inventaire sans lignes. Vous pourrez toujours ajouter manuellement des articles individuels dans l'inventaire créé.
+Sélectionner « Créer un inventaire vierge » créera un inventaire sans lignes. Vous pourrez toujours ajouter manuellement des articles individuellement dans l'inventaire créé.
 
 ![Inventaire : nouveau vide](images/stocktake_new_blank_stocktake.png)
 
@@ -89,7 +89,7 @@ Si la préférence de dépôt <a href="/docs/manage/facilities/#store-preference
 
 Cliquez sur OK une fois que vous avez sélectionné les filtres souhaités.
 
-L'inventaire sera alors créé et les lignes de stock seront utilisées pour remplir les valeurs de lot, d'expiration, de taille de paquet et de nombre de paquets instantanés. Les lignes s'affichent en bleu clair et passent en noir lorsqu'une valeur est saisie pour la quantité comptée.
+L'inventaire sera alors créé et les lignes de stock seront utilisées pour remplir les valeurs de lot, d'expiration, de taille de conditionnement et de nombre de conditionnements théorique. Les lignes s'affichent en bleu clair et passent en noir lorsqu'une valeur est saisie pour la quantité comptée.
 
 ![Inventaire avec remplissages](images/stocktake-placeholders.png)
 
@@ -99,19 +99,19 @@ Ne vous inquiétez pas si un article manque dans votre inventaire nouvellement c
 
 #### Vaccins
 
-Si la préférence de dépôt [Gérer les vaccins en doses](/docs/manage/facilities/#store-preferences) est activée, vous verrez une colonne `Doses par unité`. Pour les lignes d'inventaire d'articles vaccins, le nombre de doses par unité (ex. `Flacon`) est affiché dans cette colonne. La colonne `Différence` affichera également la différence en doses ainsi qu'en paquets :
+Si la préférence de dépôt [Gérer les vaccins en doses](/docs/manage/facilities/#store-preferences) est activée, vous verrez une colonne `Doses par unité`. Pour les lignes d'inventaire d'articles vaccins, le nombre de doses par unité (ex. `Flacon`) est affiché dans cette colonne. La colonne `Différence` affichera également la différence en doses ainsi qu'en conditionnements :
 
 ![Ligne vaccin](images/stocktake-vaccine-table.png)
 
 ### Saisir les paquets comptés
 
-Pour commencer à saisir des données d'inventaire pour un article, cliquez sur la ligne d'inventaire que vous souhaitez modifier. Une fenêtre apparaît, où vous pouvez saisir le nombre de paquets comptés. Vous pouvez également mettre à jour d'autres données depuis cette fenêtre, comme la date d'expiration, la tarification, les informations d'emplacement ou le fabricant pour un lot particulier.
+Pour commencer à saisir des données d'inventaire pour un article, cliquez sur la ligne d'inventaire que vous souhaitez modifier. Une fenêtre apparaît, où vous pouvez saisir le nombre de conditionnements comptés. Vous pouvez également mettre à jour d'autres données depuis cette fenêtre, comme la date d'expiration, la tarification, les informations d'emplacement ou le fabricant pour un lot particulier.
 
 Si des [Variantes d'Articles](/docs/catalogue/items/#item-variants) sont configurées, vous pouvez sélectionner une variante via le panneau de sélection de Variante d'Article, qui affiche les variantes sous forme de cartes cliquables indiquant le nom de la variante, le fabricant et le type VVM (pour les vaccins). La sélection d'une variante définira automatiquement le fabricant. Vous pouvez également choisir `Saisie manuelle` pour saisir un fabricant manuellement.
 
 ![Fenêtre de modification de l'inventaire](images/stocktake_edit.png)
 
-Vous pouvez utiliser le bouton `Ajouter un lot (+)` pour ajouter d'autres lots d'un article particulier lors de votre inventaire. Cela ajoutera une nouvelle ligne vide, où vous pouvez saisir les informations du lot et le nombre de paquets comptés.
+Vous pouvez utiliser le bouton `Ajouter un lot (+)` pour ajouter d'autres lots d'un article particulier lors de votre inventaire. Cela ajoutera une nouvelle ligne vide, où vous pouvez saisir les informations du lot et le nombre de conditionnements comptés.
 
 ![Inventaire ajouter un lot](images/stocktake_add_batch.png)
 
@@ -119,7 +119,7 @@ Vous pouvez utiliser le bouton `Ajouter un lot (+)` pour ajouter d'autres lots d
 
 ### Saisir les raisons
 
-Si vous avez configuré des [options d'ajustement d'inventaire](https://docs.msupply.org.nz/preferences:options?s[]=reasons) sur votre serveur central mSupply, vous devez saisir une raison lorsque les `paquets comptés` spécifiés ne correspondent pas aux paquets instantanés.
+Si vous avez configuré des [options d'ajustement d'inventaire](https://docs.msupply.org.nz/preferences:options?s[]=reasons) sur votre serveur central mSupply, vous devez saisir une raison lorsque les `conditionnements comptés` spécifiés ne correspondent pas au nombre de conditionnements théorique.
 
 Par exemple, après avoir saisi `95` pour la quantité comptée d'Amoxicilline 250mg comprimés — lot 166893, un \* rouge apparaîtra à droite du champ `Raison`, et vous devrez sélectionner l'une des raisons d'ajustement négatif d'inventaire :
 
@@ -166,11 +166,11 @@ Une fois que vous sélectionnez un article, des lignes d'inventaire seront gén�
 
 ![Inventaire ajouter un article avec des lots](images/stocktake_newitem_with_batches.png)
 
-S'il n'y a pas de lots avec du stock pour cet article, votre liste de lots sera vide. Le bouton `Ajouter un lot (+)` ajoutera une nouvelle ligne vide, où vous pouvez saisir les informations du lot et le nombre de paquets comptés.
+S'il n'y a pas de lots avec du stock pour cet article, votre liste de lots sera vide. Le bouton `Ajouter un lot (+)` ajoutera une nouvelle ligne vide, où vous pouvez saisir les informations du lot et le nombre de conditionnements compté.
 
 ![Inventaire ajouter un article sans lots](images/stocktake_newitem_no_batches.png)
 
-<div class="tip">Lors de l'ajout d'un lot, la <code>Taille de paquet</code> et le <code>Prix de vente paquet</code> auront par défaut la valeur spécifiée par la <a href="https://docs.msupply.org.nz/items:item_basics:tab_storage?s%5B%5D=preferred&s%5B%5D=pack&s%5B%5D=size#preferred_pack_size">Taille de paquet préférée</a> et le <a href="https://docs.msupply.org.nz/items:item_basics:tab_general#default_sell_price_of_preferred_pack_size">Prix de vente par défaut de la taille de paquet préférée</a> si ceux-ci ont été spécifiés pour l'article actuel.</div>
+<div class="tip">Lors de l'ajout d'un lot, la <code>Taille de conditionnement</code> et le <code>Prix de vente conditionnement</code> auront par défaut la valeur spécifiée par la <a href="https://docs.msupply.org.nz/items:item_basics:tab_storage?s%5B%5D=preferred&s%5B%5D=pack&s%5B%5D=size#preferred_pack_size">Taille de conditionnement préférée</a> et le <a href="https://docs.msupply.org.nz/items:item_basics:tab_general#default_sell_price_of_preferred_pack_size">Prix de vente par défaut de la taille de conditionnement préférée</a> si ceux-ci ont été spécifiés pour l'article actuel.</div>
 
 ## Imprimer la feuille d'inventaire
 
@@ -219,7 +219,7 @@ Notez que si les articles sélectionnés ont des types d'emplacement restreints,
 
 Sélectionnez un emplacement et appuyez sur OK. Toutes les lignes de stock sélectionnées auront maintenant un emplacement mis à jour.
 
-### Réduire le nombre de paquets à 0
+### Réduire le nombre de conditionnements à 0
 
 Utilisez la colonne des cases à cocher pour sélectionner les lignes que vous souhaitez réduire à 0. Cliquez sur le bouton `Réduire à 0` qui apparaît en bas de la page.
 
@@ -233,7 +233,7 @@ Si des [raisons d'ajustement d'inventaire](https://docs.msupply.org.nz/preferenc
 
 ![Inventaire réduire à 0 sélectionner une raison](images/stocktake_reduce_0_reason.png)
 
-Sélectionnez une raison et appuyez sur OK. Toutes les lignes de stock sélectionnées auront maintenant une valeur `Paquets comptés` de 0.
+Sélectionnez une raison et appuyez sur OK. Toutes les lignes de stock sélectionnées auront maintenant une valeur `conditionnements comptés` de 0.
 
 ### Supprimer des lignes d'inventaire
 

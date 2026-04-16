@@ -19,20 +19,20 @@ Cette page explique chaque paramètre de seuil, où il est configuré et comment
 
 ## Résumé des paramètres
 
-| Paramètre                                                                             | Où configurer                                                                                                                                                                             | Utilisé pour                                                        |
-| :------------------------------------------------------------------------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------ |
-| **Seuil de sur-stock**                                                                | Serveur central mSupply hérité <a href="https://docs.msupply.org.nz/other_stuff:virtual_stores?s%5B%5D=threshold&s%5B%5D=overstock#notification_preferences">préférences du dépôt</a>    | Définit le niveau de stock maximum dans les formulaires R&R et le rapport de statut de stock |
-| **Seuil de sous-stock**                                                               | Préférences du dépôt du serveur central mSupply hérité                                                                                                                                   | Définit le niveau de stock minimum dans les formulaires R&R et le rapport de statut de stock |
-| **Tampon de sécurité du stock (mois)**                                                | <a href="/docs/manage/facilities/#store-properties">Propriétés du dépôt</a>                                                                                                               | Prévisions de vaccins basées sur la population                      |
-| **Intervalle d'approvisionnement (mois)**                                             | Propriétés du dépôt                                                                                                                                                                       | Prévisions de vaccins basées sur la population                      |
-| **Seuil en nombre de mois pour afficher les alertes de stock faible**                 | <a href="/docs/manage/facilities/#store-preferences">Préférences du dépôt</a>                                                                                                             | Widget du tableau de bord : « Produits à risque de rupture de stock » |
-| **Seuil en nombre de mois pour afficher les alertes de sur-stock**                   | Préférences du dépôt                                                                                                                                                                      | Widget du tableau de bord : « Articles avec plus de X mois de stock » |
+| Paramètre                                                             | Où configurer                                                                                                                                                                         | Utilisé pour                                                                                |
+| :-------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------ |
+| **Seuil de sur-stock**                                                | Serveur central mSupply hérité <a href="https://docs.msupply.org.nz/other_stuff:virtual_stores?s%5B%5D=threshold&s%5B%5D=overstock#notification_preferences">préférences du dépôt</a> | Définit le niveau de stock maximum dans les formulaires R&R et le rapport d'état des stocks |
+| **Seuil de sous-stock**                                               | Préférences du dépôt du serveur central mSupply hérité                                                                                                                                | Définit le niveau de stock minimum dans les formulaires R&R et le rapport d'état des stocks |
+| **Tampon de sécurité du stock (mois)**                                | <a href="/docs/manage/facilities/#store-properties">Propriétés du dépôt</a>                                                                                                           | Prévisions de vaccins basées sur la population                                              |
+| **Intervalle d'approvisionnement (mois)**                             | Propriétés du dépôt                                                                                                                                                                   | Prévisions de vaccins basées sur la population                                              |
+| **Seuil en nombre de mois pour afficher les alertes de stock faible** | <a href="/docs/manage/facilities/#store-preferences">Préférences du dépôt</a>                                                                                                         | Widget du tableau de bord : « Produits à risque de rupture de stock »                       |
+| **Seuil en nombre de mois pour afficher les alertes de sur-stock**    | Préférences du dépôt                                                                                                                                                                  | Widget du tableau de bord : « Articles avec plus de X mois de stock »                       |
 
 ## Seuils d'alerte du tableau de bord
 
 Les seuils d'alerte du tableau de bord contrôlent quand les articles apparaissent dans les widgets d'alerte de stock du [tableau de bord](/docs/getting_started/dashboard/). Les deux valeurs sont mesurées en mois de stock et sont configurées dans les préférences du dépôt Open mSupply.
 
-Pour configurer ces paramètres, accédez à `Gérer` > `Dépôts`, sélectionnez un dépôt et ajustez les préférences. Voir [Préférences du dépôt](/docs/manage/facilities/#store-preferences) pour plus de détails.
+Pour configurer ces paramètres, accédez à `Options` > `Dépôts`, sélectionnez un dépôt et ajustez les préférences. Voir [Préférences du dépôt](/docs/manage/facilities/#store-preferences) pour plus de détails.
 
 Pour ces deux paramètres, si la préférence n'est pas configurée, le widget du tableau de bord ne sera pas affiché.
 
@@ -78,7 +78,7 @@ Il existe trois emplacements de configuration pour les paramètres de seuil de s
 
 ### Préférences du dépôt Open mSupply
 
-Configurées sur le Serveur Central Open mSupply via `Gérer` > `Dépôts`. C'est ici que vous définissez :
+Configurées sur le Serveur Central Open mSupply via `Options` > `Dépôts`. C'est ici que vous définissez :
 
 - Seuil en nombre de mois pour afficher les alertes de stock faible
 - Seuil en nombre de mois pour afficher les alertes de sur-stock
@@ -87,7 +87,7 @@ Voir [Préférences du dépôt](/docs/manage/facilities/#store-preferences) pour
 
 ### Propriétés du dépôt Open mSupply
 
-Configurées sur le Serveur Central Open mSupply via `Gérer` > `Dépôts`, sous l'onglet propriétés du dépôt. C'est ici que vous définissez :
+Configurées sur le Serveur Central Open mSupply via `Options` > `Dépôts`, sous l'onglet propriétés du dépôt. C'est ici que vous définissez :
 
 - Tampon de sécurité du stock (mois)
 - Intervalle d'approvisionnement (mois)

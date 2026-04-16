@@ -75,7 +75,7 @@ If you have created a user, configured permissions, and are still getting an err
 
 <div class="note">Usernames are not case-sensitive, but passwords are!</div>
 
-## Android: Bottom bar buttons not responding
+## **Android**: Bottom bar buttons not responding
 
 On some Android devices, particularly those running newer versions of Android (e.g. Android 16), the system navigation bar can overlap with Open mSupply's bottom bar. This can block access to the **Help** button, **store switcher**, **user** button, and **language selector**.
 

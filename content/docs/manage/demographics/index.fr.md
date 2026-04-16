@@ -25,7 +25,7 @@ Pour commencer, activez la préférence de dépôt `mobile : Utilise le module V
 
 ## Consulter les indicateurs démographiques
 
-Choisissez `Gérer` > `Démographie` dans le panneau de navigation.
+Choisissez `Options` > `Données démographiques` dans le panneau de navigation.
 
 ![accéder à : démographie](images/goto_demographics.png)
 
@@ -49,9 +49,9 @@ Pour chaque année, vous pouvez saisir le pourcentage de croissance démographiq
 - Cliquez sur `Enregistrer` une fois satisfait de vos modifications
 - OU : Cliquez sur `Annuler` à tout moment pour annuler vos modifications
 
-## Population générale
+## Population actuelle
 
-Tous les calculs sont basés sur la `Population générale` actuelle. Pour commencer, saisissez la population actuelle :
+Tous les calculs sont basés sur la `Population actuelle`. Pour commencer, saisissez la population actuelle :
 
 ![population](images/population.png)
 

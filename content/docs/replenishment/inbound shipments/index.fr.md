@@ -1,5 +1,5 @@
 +++
-title = "Expéditions Entrantes"
+title = "Livraisons Entrantes"
 description = "Réception du stock des fournisseurs."
 date = 2022-03-19
 updated = 2022-03-19
@@ -13,7 +13,7 @@ toc = true
 top = false
 +++
 
-Les Expéditions Entrantes peuvent être utilisées pour recevoir du stock des fournisseurs.
+Les Livraisons Entrantes peuvent être utilisées pour recevoir du stock des fournisseurs.
 
 Si vous avez utilisé mSupply par le passé, vous connaissez peut-être ce concept sous le nom de **Facture fournisseur**.
 
@@ -22,20 +22,20 @@ Tous les biens reçus doivent être enregistrés dans mSupply soit en :
 - Créant manuellement une Expédition Entrante
 - Travaillant avec une Expédition Entrante créée automatiquement suite à un transfert de stock depuis un autre dépôt de votre système mSupply
 
-## Consulter les Expéditions Entrantes
+## Consulter les Livraisons Entrantes
 
-### Accéder au menu Expéditions Entrantes
+### Accéder au menu Livraisons Entrantes
 
-![Accéder aux Expéditions Entrantes](images/is_gotois.png)
+![Accéder aux Livraisons Entrantes](images/is_gotois.png)
 
 Pour accéder au menu **Expédition Entrante** :
 
 1. Allez dans le menu `Réapprovisionnement` dans le panneau de navigation
-2. Cliquez sur `Expédition Entrante`
+2. Cliquez sur `Livraison Entrante`
 
-### Liste des Expéditions Entrantes
+### Liste des Livraisons Entrantes
 
-La première chose que vous voyez est une liste des Expéditions Entrantes existantes.
+La première chose que vous voyez est une liste des Livraisons Entrantes existantes.
 
 La liste est divisée en 7 colonnes :
 
@@ -51,32 +51,32 @@ La liste est divisée en 7 colonnes :
 | **Total**       | Valeur totale de l'expédition                                                       |
 
 <div class="note">
-Les statuts existants continueront à s'afficher si vous avez déjà des Expéditions Entrantes dans votre système avant de configurer les statuts de facture pour votre dépôt.
+Les statuts existants continueront à s'afficher si vous avez déjà des Livraisons Entrantes dans votre système avant de configurer les statuts de facture pour votre dépôt.
 </div>
 
-2. La liste peut afficher un nombre fixe d'expéditions par page. En bas à gauche, vous pouvez voir combien d'expéditions sont actuellement affichées.
+2. La liste peut afficher un nombre fixe de livraisons par page. En bas à gauche, vous pouvez voir combien de livraisons sont actuellement affichées.
 
-3. Si vous avez plus d'expéditions que la limite actuelle, vous pouvez naviguer vers d'autres pages en cliquant sur le numéro de page ou en utilisant les flèches droite ou gauche (coin inférieur droit).
+3. Si vous avez plus de livraisons que la limite actuelle, vous pouvez naviguer vers d'autres pages en cliquant sur le numéro de page ou en utilisant les flèches droite ou gauche (coin inférieur droit).
 
 4. Vous pouvez également sélectionner un nombre différent de lignes à afficher par page en utilisant l'option en bas à droite.
 
-### Filtrer les Expéditions Entrantes
+### Filtrer les Livraisons Entrantes
 
 Vous pouvez filtrer la liste par nom de fournisseur, date de création, statut ou numéro de facture.
 
-![Filtre des Expéditions Entrantes](images/is_filter.png)
+![Filtre des Livraisons Entrantes](images/is_filter.png)
 
-Par exemple, pour filtrer par nom de fournisseur, cliquez sur `Filtres`, sélectionnez `Nom` et commencez à saisir tout ou partie d'un nom de fournisseur. Toutes les expéditions pour ce fournisseur apparaîtront dans la liste.
+Par exemple, pour filtrer par nom de fournisseur, cliquez sur `Filtres`, sélectionnez `Nom` et commencez à saisir tout ou partie d'un nom de fournisseur. Toutes les livraisons pour ce fournisseur apparaîtront dans la liste.
 
 ![](images/is_filter_list.png)
 
-### Exporter les Expéditions Entrantes
+### Exporter les Livraisons Entrantes
 
-La liste des Expéditions Entrantes peut être exportée en fichier CSV. Cliquez simplement sur le bouton d'export (à droite, en haut de la page).
+La liste des Livraisons Entrantes peut être exportée en fichier CSV. Cliquez simplement sur le bouton d'export (à droite, en haut de la page).
 
 ![Bouton d'export](images/export.png)
 
-La fonction d'export téléchargera toutes les Expéditions Entrantes, pas seulement la page actuelle, si vous en avez plus de 20.
+La fonction d'export téléchargera toutes les Livraisons Entrantes, pas seulement la page actuelle, si vous en avez plus de 20.
 
 ### Supprimer une Expédition Entrante
 
@@ -86,10 +86,10 @@ Vous pouvez supprimer une expédition depuis la liste.
 
 2. Le pied de page `Actions` s'affichera en bas de l'écran. Cliquez sur `Supprimer`.
 
-Une notification confirme le nombre d'expéditions supprimées (coin inférieur gauche).
+Une notification confirme le nombre de livraisons supprimées (coin inférieur gauche).
 
 <div class="note">
-Vous ne pouvez supprimer que les Expéditions Entrantes avec le statut <code>NOUVELLE</code>.
+Vous ne pouvez supprimer que les Livraisons Entrantes avec le statut <code>NOUVELLE</code>.
 </div>
 
 ## Créer une nouvelle Expédition Entrante manuelle
@@ -197,18 +197,18 @@ Les statuts passés sont mis en surbrillance en bleu, les statuts suivants appar
     <figcaption align="center">Séquence de statuts : le statut actuel est <code>Réceptionnée</code>.</figcaption>
 </figure>
 
-Il y a 6 statuts pour les Expéditions Entrantes :
+Il y a 6 statuts pour les Livraisons Entrantes :
 
-| Statut           | Description                                                                                                          | mSupply | Modifiable |
-| :--------------- | -------------------------------------------------------------------------------------------------------------------- | :-----: | :--------: |
-| **Nouvelle**     | Premier statut lors de la création d'une nouvelle Expédition Entrante manuelle                                       |   nw    |            |
-| **Prélevée**     | Le fournisseur a confirmé que l'expédition est prélevée et prête à être envoyée (uniquement pour les expéditions automatiques) | nw |       |
-| **Expédiée**     | L'expédition a été envoyée et les articles sont en transit (uniquement pour les expéditions automatiques)            |   nw    |            |
-| **Livrée**       | Lorsque vous confirmez que l'expédition a été livrée.                                                                |   sg    |     ✓      |
-| **Réceptionnée** | Lorsque vous confirmez que l'expédition a été validée. Les articles font maintenant partie de votre inventaire.      |   cn    |     ✓      |
-| **Vérifiée**     | Lorsque vous avez vérifié l'Expédition Entrante                                                                      |   fn    |            |
+| Statut       | Description                                                                                                                   | mSupply | Modifiable |
+| :----------- | ----------------------------------------------------------------------------------------------------------------------------- | :-----: | :--------: |
+| **Nouvelle** | Premier statut lors de la création d'une nouvelle Livraison Entrante manuelle                                                 |   nw    |            |
+| **Prélevée** | Le fournisseur a confirmé que la livraison est prélevée et prête à être envoyée (uniquement pour les livraisons automatiques) |   nw    |            |
+| **Expédiée** | La livraison a été envoyée et les articles sont en transit (uniquement pour les livraisons automatiques)                      |   nw    |            |
+| **Livrée**   | Lorsque vous confirmez que la livraison a été livrée.                                                                         |   sg    |     ✓      |
+| **Reçue**    | Lorsque vous confirmez que la livraison a été validée. Les articles font maintenant partie de votre inventaire.               |   cn    |     ✓      |
+| **Vérifiée** | Lorsque vous avez vérifié la Livraison Entrante                                                                               |   fn    |            |
 
-Vous avez probablement remarqué que deux statuts s'appliquent uniquement aux expéditions créées automatiquement. Si c'est le cas, vous verrez un message en haut de la page :
+Vous avez probablement remarqué que deux statuts s'appliquent uniquement aux livraisons créées automatiquement. Si c'est le cas, vous verrez un message en haut de la page :
 
 ![Message expédition automatique](images/is_message_automatic.png)
 
@@ -290,9 +290,9 @@ Dans l'onglet `Quantités`, vous pouvez mettre à jour les champs suivants :
 
 1. **Lot** : saisissez le numéro de lot. Laissez vide si l'article n'est pas géré par numéro de lot.
 2. **Expiration** : la date d'expiration du lot. Laissez vide si non applicable.
-3. **Taille de paquet** : le nombre d'unités par paquet (par défaut : 1)
-4. **Paquets reçus** : le nombre de paquets que vous recevez.
-5. **Paquets expédiés** : le nombre de paquets envoyés par le fournisseur.
+3. **Taille de conditionnement** : le nombre d'unités par conditionnement (par défaut : 1)
+4. **Conditionnements reçus** : le nombre de conditionnement que vous recevez.
+5. **Conditionnements expédiés** : le nombre de conditionnement envoyés par le fournisseur.
 6. **Unités reçues** : le nombre d'unités que vous recevez.
 
 <div class="note">L'intitulé « Unités » sera remplacé par le nom de l'unité définie pour cet article. Par exemple, si l'unité est « Comprimé », l'intitulé affichera « Comprimés reçus ».</div>
@@ -319,7 +319,7 @@ Avec la préférence `Gérer le statut VVM pour le stock` :
 Si vous recevez plusieurs numéros de lot pour le même article, appuyez sur le bouton `Ajouter un lot`.
 
 <div class="imagetitle">
-Dans l'exemple ci-dessous, nous recevons 2 numéros de lot pour l'article <i>030063 - Acide Acétylsalicylique 100mg comprimés</i> avec des tailles de paquet différentes.
+Dans l'exemple ci-dessous, nous recevons 2 numéros de lot pour l'article <i>030063 - Acide Acétylsalicylique 100mg comprimés</i> avec des tailles de conditionnement différentes.
 </div>
 
 ![Quantités Ajouter un article](images/is_additem_quantities.png)
@@ -329,10 +329,10 @@ Dans l'exemple ci-dessous, nous recevons 2 numéros de lot pour l'article <i>030
 Dans l'onglet `Tarification`, vous pouvez mettre à jour les champs suivants (tous optionnels) :
 
 - **Lot** (lecture seule) : numéro de lot
-- **Taille de paquet** (lecture seule) : quantité d'unités par paquet
-- **Qté paquets** (lecture seule) : quantité de paquets reçus
-- **Prix de coût paquet** : prix d'achat par paquet (valeur par défaut : 0)
-- **Prix de vente paquet** : prix de vente par paquet (valeur par défaut : 0)
+- **Taille de conditionnement** (lecture seule) : quantité d'unités par conditionnement
+- **Qté conditionnements** (lecture seule) : quantité de conditionnements reçus
+- **Coût conditionnement** : prix d'achat par conditionnement (valeur par défaut : 0)
+- **Prix de vente conditionnement** : prix de vente par conditionnement (valeur par défaut : 0)
 - **Total ligne** (lecture seule) : valeur d'achat totale pour le numéro de lot
 
 <div class="imagetitle">
@@ -341,11 +341,11 @@ Dans l'exemple ci-dessous, le prix de coût de la première ligne est de 0,01$ p
 
 ![Tarification Ajouter un article](images/is_additem_pricing.png)
 
-#### Tarification sur les expéditions transférées
+#### Tarification sur les livraisons transférées
 
-Lorsqu'une Expédition Entrante est un transfert (résultat d'une Expédition Sortante depuis un autre dépôt), la tarification peut déjà être calculée. La logique suivante est utilisée pour déterminer le prix de vente :
+Lorsqu'une Livraison Entrante est un transfert (résultat d'une Livraison Sortante depuis un autre dépôt), la tarification peut déjà être calculée. La logique suivante est utilisée pour déterminer le prix de vente :
 
-1. Si un `prix de vente par défaut par paquet` est défini pour l'article dans le dépôt récepteur, ce prix est toujours utilisé.
+1. Si un `prix de vente par défaut par conditionnement` est défini pour l'article dans le dépôt récepteur, ce prix est toujours utilisé.
 2. Si l'article a une `marge` définie, cette marge est ajoutée au prix de coût. La priorité entre marge article et marge fournisseur est déterminée par la [Préférence globale](/docs/manage/global-preferences/) `La marge article prime sur la marge fournisseur`.
 3. Si ni prix de vente par défaut ni marge ne sont définis, le prix de vente de la ligne entrante sera identique à celui de la ligne sortante.
 
@@ -385,7 +385,7 @@ Une nouvelle fenêtre `Listes Maîtresses` s'ouvre. Cliquez simplement sur l'une
 Cliquez sur `OK` sur le message de confirmation :
 ![Bouton Ajouter un article](../../images/add-item-master-list-prompt.png)
 
-Des lignes de remplacement seront ajoutées à votre expédition avec une quantité de paquets à zéro, affichées en police bleue.
+Des lignes de remplacement seront ajoutées à votre expédition avec une quantité de conditionnements à zéro, affichées en police bleue.
 
 ![Bouton Ajouter un article](images/is-after-master-list.png)
 
@@ -410,13 +410,13 @@ Vous pouvez modifier une ligne d'expédition si l'expédition a un statut infér
 
 ### Autres actions sur les lignes
 
-| Action                          | Effet                                                                                                                                              |
-| ------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Supprimer                       | Supprime les lignes sélectionnées                                                                                                                  |
-| Modifier Campagne ou Programme  | Ouvre une fenêtre pour choisir un programme ou une campagne à associer à toutes les lignes sélectionnées                                           |
-| Définir les quantités à 0       | Définit la valeur `Paquets reçus` à zéro pour toutes les lignes sélectionnées                                                                      |
-| Retourner les lignes sélectionnées | Ouvre une fenêtre pour retourner tout ou partie des lignes sélectionnées. Disponible uniquement si le statut de l'expédition est `Réceptionnée` ou ultérieur |
-| Effacer la sélection            | Efface les cases de sélection                                                                                                                      |
+| Action                             | Effet                                                                                                                                                |
+| ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Supprimer                          | Supprime les lignes sélectionnées                                                                                                                    |
+| Modifier Campagne ou Programme     | Ouvre une fenêtre pour choisir un programme ou une campagne à associer à toutes les lignes sélectionnées                                             |
+| Définir les quantités à 0          | Définit la valeur `Conditionnements reçus` à zéro pour toutes les lignes sélectionnées                                                               |
+| Retourner les lignes sélectionnées | Ouvre une fenêtre pour retourner tout ou partie des lignes sélectionnées. Disponible uniquement si le statut de la livraison est `Reçu` ou ultérieur |
+| Effacer la sélection               | Efface les cases de sélection                                                                                                                        |
 
 ## Télécharger des documents
 
@@ -450,7 +450,7 @@ Dans le cas d'une Expédition Entrante <b>automatique</b>, vous ne pouvez pas co
 </div>
 
 <div class="note">
-Les lignes non allouées avec 0 paquet seront automatiquement supprimées lors de la confirmation de livraison.
+Les lignes non allouées avec 0 conditionnement seront automatiquement supprimées lors de la confirmation de livraison.
 </div>
 
 ### Réceptionner les articles
@@ -469,7 +469,7 @@ Une fois cela fait :
 La vérification est la dernière étape pour recevoir des articles dans mSupply. À ce stade, vous pouvez vérifier :
 
 - Les numéros de lot et leurs dates d'expiration
-- La quantité de paquets et la taille de paquet
+- La quantité de conditionnements et la taille de conditionnement
 - Les informations de tarification : prix de coût et de vente
 - L'emplacement de stockage des articles reçus
 
@@ -496,14 +496,14 @@ Parfois, vous devrez peut-être retourner du stock reçu via une Expédition Ent
 
 Une fenêtre modale s'ouvrira avec chaque ligne sélectionnée :
 
-|              Colonne                  | Description                                                                                                                                                                                    |
-| :-----------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|             **Code**                  | Code de l'article                                                                                                                                                                              |
-|             **Nom**                   | Nom de l'article                                                                                                                                                                               |
-|             **Lot**                   | Numéro de lot                                                                                                                                                                                  |
-|            **Expiration**             | Date d'expiration du lot (format : MM/AAAA)                                                                                                                                                    |
-| **Quantité disponible pour retour**   | Nombre de paquets disponibles — c'est-à-dire non déjà alloués à d'autres expéditions ou retours.                                                                                               |
-|      **Quantité à retourner**         | Nombre de paquets à retourner                                                                                                                                                                  |
+|               Colonne               | Description                                                                                              |
+| :---------------------------------: | :------------------------------------------------------------------------------------------------------- |
+|              **Code**               | Code de l'article                                                                                        |
+|               **Nom**               | Nom de l'article                                                                                         |
+|               **Lot**               | Numéro de lot                                                                                            |
+|           **Expiration**            | Date d'expiration du lot (format : MM/AAAA)                                                              |
+| **Quantité disponible pour retour** | Nombre de conditionnements disponibles — c'est-à-dire non déjà alloués à d'autres livraisons ou retours. |
+|      **Quantité à retourner**       | Nombre de conditionnements à retourner                                                                   |
 
 ![](images/is_return_select_quantity.png)
 

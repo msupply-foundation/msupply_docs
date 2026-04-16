@@ -32,15 +32,15 @@ Certains rapports affichent le logo du dépôt dans leur en-tête. Consultez la 
 
 ## Générer des rapports
 
-Cliquez sur le rapport que vous souhaitez générer. Pour cet exemple, nous allons générer le rapport `Statut du stock`.
+Cliquez sur le rapport que vous souhaitez générer. Pour cet exemple, nous allons générer le rapport `États des stocks`.
 
-Cliquez sur le rapport `Statut du stock`.
+Cliquez sur le rapport `États des stocks`.
 
 ![statut du stock](images/goto_stock_status.png)
 
 Un formulaire s'affichera où vous pouvez modifier les critères de filtrage utilisés par le rapport. Laissez inchangé pour afficher tous les articles dans le rapport.
 
-Pour le rapport `Statut du stock`, vous pouvez filtrer le rapport selon les critères suivants :
+Pour le rapport `États des stocks`, vous pouvez filtrer le rapport selon les critères suivants :
 
 - `Nom de l'article`
 - `Code de l'article`
@@ -81,30 +81,30 @@ L'anglais sera utilisé par défaut là où les traductions dans la langue de l'
 
 Certains rapports standard sont inclus par défaut dans toutes les instances d'Open mSupply, avec de nouveaux rapports ajoutés régulièrement.
 
-| Domaine             | Rapport               | Version  | Détails                                                                                              |
-| ------------------- | --------------------- | -------: | ---------------------------------------------------------------------------------------------------- |
-| Distribution        | Expéditions sortantes |  2.10.1+ | Filtrable par date et client, ce rapport liste toutes les lignes des expéditions sortantes           |
-| Réapprovisionnement | Expéditions entrantes |  2.17.0+ | Filtrable par date et fournisseur, ce rapport liste toutes les lignes des expéditions entrantes      |
-| Stock & Articles    | Articles expirants    |   2.6.0+ | Nombreuses options de filtre, le rapport liste le stock expirant                                     |
-| Stock & Articles    | Utilisation articles  |   2.6.3+ | Filtrer par article et consulter des statistiques d'utilisation détaillées                           |
-| Stock & Articles    | Détail du stock       |   2.6.3+ | Filtrer par article et voir les détails du stock actuel                                              |
-| Stock & Articles    | Statut du stock       |   2.6.3+ | Filtrer par article et consulter le statut du stock actuel, similaire au rapport de détail          |
-| Programmes          | Consultations en attente |  2.6.0+ | Rapport sur les consultations en attente par programme                                            |
+| Domaine             | Rapport                     | Version | Détails                                                                                         |
+| ------------------- | --------------------------- | ------: | ----------------------------------------------------------------------------------------------- |
+| Distribution        | Livraisons sortantes        | 2.10.1+ | Filtrable par date et client, ce rapport liste toutes les lignes des expéditions sortantes      |
+| Réapprovisionnement | Livraisons entrantes        | 2.17.0+ | Filtrable par date et fournisseur, ce rapport liste toutes les lignes des expéditions entrantes |
+| Stock & Articles    | Articles en fin de validité | è2.6.0+ | Nombreuses options de filtre, le rapport donne des informations sur l'expiration des articles   |
+| Stock & Articles    | Consommation des articles   |  2.6.3+ | Filtrer par article et consulter des statistiques d'utilisation détaillées                      |
+| Stock & Articles    | Détails des stocks          |  2.6.3+ | Filtrer par article et voir les détails du stock actuel                                         |
+| Stock & Articles    | États des stocks            |  2.6.3+ | Filtrer par article et consulter l'état du stock actuel, similaire au rapport de détail         |
+| Programmes          | Visites en attente          |  2.6.0+ | Rapport sur les visites en attente par programme                                                |
 
 ## Modèles d'impression
 
 En plus des rapports, des modèles d'impression sont fournis pour de nombreux éléments. Ceux-ci, comme les rapports, peuvent être personnalisés pour les clients ayant des exigences spécifiques de mise en page ou de données dans leurs pages imprimées.
 
-| Domaine               | Version | Détails                          |
-| --------------------- | ------: | -------------------------------- |
-| Expédition entrante   |    2.5+ |                                  |
-| Commande interne      |  2.6.3+ |                                  |
-| Expédition sortante   |    2.5+ | Paysage                          |
-| Expédition sortante   |    2.5+ | Portrait                         |
-| Prescription          |  2.6.0+ | Reçu de prescription             |
-| Reconditionnement     |  2.5.1+ |                                  |
-| Réquisition           |  2.5.1+ |                                  |
-| Inventaire            |  2.6.3+ | Vue détaillée                    |
-| Inventaire            |  2.5.1+ | Variance d'inventaire            |
-| Inventaire            |  2.5.1+ | Inventaire avec quantité         |
-| Inventaire            |  2.5.0+ | Inventaire sans quantité         |
+| Domaine             | Version | Détails                  |
+| ------------------- | ------: | ------------------------ |
+| Expédition entrante |    2.5+ |                          |
+| Commande interne    |  2.6.3+ |                          |
+| Livraison sortante  |    2.5+ | Paysage                  |
+| Livraison sortante  |    2.5+ | Portrait                 |
+| Prescription        |  2.6.0+ | Reçu de prescription     |
+| Reconditionnement   |  2.5.1+ |                          |
+| Réquisition         |  2.5.1+ |                          |
+| Inventaire          |  2.6.3+ | Vue détaillée            |
+| Inventaire          |  2.5.1+ | Variance d'inventaire    |
+| Inventaire          |  2.5.1+ | Inventaire avec quantité |
+| Inventaire          |  2.5.0+ | Inventaire sans quantité |

@@ -27,14 +27,14 @@ Vous pouvez voir tous les articles qui sont disponibles pour utilisation par vot
 
 La liste des articles est divisée en 6 colonnes :
 
-| Colonne   | Description                                                                                                                                                       |
-| :-------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Code**  | Code assigné à cet article dans mSupply                                                                                                                           |
-| **Nom**   | C'est le nom par lequel mSupply fera référence à l'article                                                                                                        |
-| **Unité** | L'unité de mesure pour l'article                                                                                                                                  |
-| **SED**   | Combien de stock est physiquement dans votre dépôt                                                                                                              |
-| **CMM**   | Consommation Mensuelle Moyenne. C'est combien de stock votre dépôt utilise chaque mois en moyenne (basé sur un nombre configurable de mois, par défaut 3 mois). |
-| **MDS**   | Nombre de mois de consommation restant avec le stock actuel. Ceci est calculé comme : `Stock en Dépôt / CMM`.                                                     |
+| Colonne           | Description                                                                                                                                                     |
+| :---------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Code**          | Code assigné à cet article dans mSupply                                                                                                                         |
+| **Nom**           | C'est le nom par lequel mSupply fera référence à l'article                                                                                                      |
+| **Unité**         | L'unité de mesure pour l'article                                                                                                                                |
+| **Stock total**   | Combien de stock est physiquement dans votre dépôt                                                                                                              |
+| **CMM**           | Consommation Mensuelle Moyenne. C'est combien de stock votre dépôt utilise chaque mois en moyenne (basé sur un nombre configurable de mois, par défaut 3 mois). |
+| **Mois de stock** | Nombre de mois de consommation restant avec le stock actuel. Ceci est calculé comme : `Stock total en Dépôt / CMM`.                                             |
 
 ![Liste des articles](images-en/cat_itemslist.png)
 
@@ -46,7 +46,7 @@ Pour voir les détails d'un article, appuyez simplement dessus. Une nouvelle fen
 
 En haut de l'écran, vous pouvez voir les informations suivantes :
 
-- **Stock en Dépôt** : Combien de stock est actuellement dans votre dépôt
+- **Stock présent dans le Dépôt** : Combien de stock est actuellement dans votre dépôt
 - **CMM** : Consommation Mensuelle Moyenne. C'est combien de stock votre dépôt utilise chaque mois en moyenne (basé sur un nombre configurable de mois, par défaut 3 mois).
 - **Mois de Stock** : Nombre de mois de consommation restant avec le stock actuel. Ceci est calculé comme : `Stock en Dépôt / CMM`.
 
@@ -85,15 +85,15 @@ L'onglet général inclut les informations de base sur l'article, notamment :
 
 **Emballage**
 
-- **Taille de paquet par défaut** : C'est la taille de paquet par défaut qui sera assignée au stock entrant lors de sa réception
-- **Taille de paquet externe** : Le nombre d'unités dans un carton (paquet externe). Pas le nombre de paquets de taille préférée dans un carton (paquet externe).
-- **Volume par paquet** : Le volume par défaut par paquet de taille préférée. C'est le volume qui sera utilisé par défaut lors de la réception des marchandises. Nous recommandons de diviser le volume d'un carton par le nombre de paquets de taille préférée dans un carton pour obtenir ce chiffre. Open mSupply stocke toujours les volumes en m3 (mètres cubes), mais vous pouvez entrer un volume en millilitres (ml) ou litres (l) en entrant l'abréviation appropriée après le nombre représentant le volume. ex. entrez "0.5l" pour entrer un volume de 0,5 litres (= 0,0005m3).
-- **Volume par paquet externe** : Le volume par défaut d'un paquet de taille de paquet externe de cet article
-- **Poids** : Le poids d'un paquet de taille préférée en kg
+- **Taille de conditionnement par défaut** : C'est la taille de conditionnement par défaut qui sera assignée au stock entrant lors de sa réception
+- **Taille de conditionnement externe** : Le nombre d'unités dans un carton (conditionnement externe). Pas le nombre de conditionnements de taille préférée dans un carton.
+- **Volume par conditionnement** : Le volume par défaut par conditionnement de taille préférée. C'est le volume qui sera utilisé par défaut lors de la réception des marchandises. Nous recommandons de diviser le volume d'un carton par le nombre de conditionnements de taille préférée dans un carton pour obtenir ce chiffre. Open mSupply stocke toujours les volumes en m3 (mètres cubes), mais vous pouvez entrer un volume en millilitres (ml) ou litres (l) en entrant l'abréviation appropriée après le nombre représentant le volume. ex. entrez "0.5l" pour entrer un volume de 0,5 litres (= 0,0005m3).
+- **Volume par conditionnement externe** : Le volume par défaut d'un paquet de taille de conditionnement externe de cet article
+- **Poids** : Le poids d'un conditionnement de taille préférée en kg
 
 **Tarification**
 
-- **Marge** : C'est la marge par défaut qui sera appliquée à cet article sur les Expéditions Entrantes pour calculer le prix de vente
+- **Marge** : C'est la marge par défaut qui sera appliquée à cet article sur les Livraisons Entrantes pour calculer le prix de vente
 
 ### Dépôt
 
@@ -116,24 +116,24 @@ L'onglet grand livre de l'article montre un historique des transactions dans ce 
 
 Le grand livre est divisé en 16 colonnes :
 
-| Colonne                  | Description                                                   |
-| :----------------------- | :------------------------------------------------------------ |
-| **Type**                 | Le type de la transaction                                     |
-| **Date**                 | La date à laquelle la transaction a été confirmée             |
-| **Heure**                | L'heure à laquelle la transaction a été confirmée             |
-| **Numéro de facture**    | Le numéro de facture (expédition) de la transaction           |
-| **Nom**                  | Le nom du client ou fournisseur                               |
-| **Statut**               | Le statut de la transaction                                   |
-| **Expiration**           | La date d'expiration de la ligne de stock                     |
-| **Lot**                  | Le numéro de lot de la ligne de stock                         |
-| **Taille de paquet**     | La taille du paquet                                           |
-| **Nombre de paquets**    | Le nombre de paquets dans la transaction                      |
-| **Qté unitaire**         | La quantité qui a été assignée à la transaction en unités     |
-| **Solde**                | Le solde de la ligne de stock                                 |
-| **Prix de coût paquet**  | Le prix de coût du paquet                                     |
-| **Prix de vente paquet** | Le prix de vente du paquet                                    |
-| **Total avant taxe**     | Le coût total de la transaction avant taxe (en devise locale) |
-| **Raison**               | La raison de l'ajustement (si requis)                         |
+| Colonne                       | Description                                                   |
+| :---------------------------- | :------------------------------------------------------------ |
+| **Type**                      | Le type de la transaction                                     |
+| **Date**                      | La date à laquelle la transaction a été confirmée             |
+| **Heure**                     | L'heure à laquelle la transaction a été confirmée             |
+| **Numéro de facture**         | Le numéro de facture (expédition) de la transaction           |
+| **Nom**                       | Le nom du client ou fournisseur                               |
+| **Statut**                    | Le statut de la transaction                                   |
+| **Expiration**                | La date d'expiration de la ligne de stock                     |
+| **Lot**                       | Le numéro de lot de la ligne de stock                         |
+| **Taille de conditionnement** | La taille du conditionnement                                  |
+| **Nombre de paquets**         | Le nombre de conditionnements dans la transaction             |
+| **Qté unitaire**              | La quantité qui a été assignée à la transaction en unités     |
+| **Solde**                     | Le solde de la ligne de stock                                 |
+| **Coût paquet**               | Le coût du conditionnement                                    |
+| **Prix de vente paquet**      | Le prix de vente du conditionnement                           |
+| **Total avant taxe**          | Le coût total de la transaction avant taxe (en devise locale) |
+| **Raison**                    | La raison de l'ajustement (si requis)                         |
 
 ### Filtrer le grand livre par transactions
 
@@ -145,7 +145,7 @@ Sélectionnez un ou plusieurs filtres pour affiner les résultats. La liste se m
 
 ## Variantes d'Articles
 
-Sur le [Serveur Central Open mSupply](../../getting_started/central-server/), un onglet Variantes d'Articles est disponible. Cet onglet vous permet de configurer des variations de l'article, telles que différents fabricants ou tailles d'emballage.
+Sur le [Serveur Central Open mSupply](../../getting_started/central-server/), un onglet Variantes d'Articles est disponible. Cet onglet vous permet de configurer des variations de l'article, telles que différents fabricants ou tailles de conditionnement.
 
 ![onglet variantes](images-en/variants_tab.png)
 
@@ -161,13 +161,13 @@ Cela ouvrira une nouvelle fenêtre, où vous pouvez entrer un nom pour la varian
 
 Les options de température sont configurées comme [Types d'Emplacement](https://docs.msupply.org.nz/items:item_locations?s[]=location&s[]=type#location_types) sur le Serveur Central mSupply. Les [Fabricants](https://docs.msupply.org.nz/names:adding_and_editing?s[]=manufacturers#adding_a_customer_supplier_manufacturer_donor_or_benchmark) sont également gérés dans mSupply.
 
-**Emballage**
+**conditionnement**
 
-Différents établissements travaillent à différents niveaux d'emballage, ex. un entrepôt peut travailler en cartons, tandis qu'une clinique travaille en boîtes ou unités individuelles. Dans la section Emballage, vous pouvez définir la taille du paquet (unités par paquet) et le volume d'emballage pour les différents niveaux d'emballage d'une variante d'article.
+Différents établissements travaillent à différents niveaux de conditionnement, ex. un entrepôt peut travailler en cartons, tandis qu'une clinique travaille en boîtes ou unités individuelles. Dans la section Conditionnement, vous pouvez définir la taille du conditionnement (unités par conditionnement) et le volume du conditionnement pour les différents niveaux de conditionnement d'une variante d'article.
 
-Lors de l'introduction d'une nouvelle ligne de stock, les utilisateurs sélectionneront la Variante d'Article appropriée (ex. selon le fabricant) via le panneau de sélection de Variante d'Article. Ce panneau affiche les variantes sous forme de cartes cliquables indiquant le nom de la variante, le fabricant et le type de VVM (pour les vaccins). Une option `Saisie manuelle` est également disponible si vous devez saisir des informations ne correspondant pas à une variante existante. Si vous avez configuré un niveau d'emballage pour cette variante, avec une taille de paquet correspondant à celle de la ligne de stock, Open mSupply définira automatiquement le `Volume par paquet` de la ligne de stock, sur la base du `Volume par unité` défini ici.
+Lors de l'introduction d'une nouvelle ligne de stock, les utilisateurs sélectionneront la Variante d'Article appropriée (ex. selon le fabricant) via le panneau de sélection de Variante d'Article. Ce panneau affiche les variantes sous forme de cartes cliquables indiquant le nom de la variante, le fabricant et le type de VVM (pour les vaccins). Une option `Saisie manuelle` est également disponible si vous devez saisir des informations ne correspondant pas à une variante existante. Si vous avez configuré un niveau d'emballage pour cette variante, avec une taille de conditionnement correspondant à celle de la ligne de stock, Open mSupply définira automatiquement le `Volume par conditionnement` de la ligne de stock, sur la base du `Volume par unité` défini ici.
 
-Le panneau de sélection de Variante d'Article est disponible lors de l'ajout ou de la modification de lignes dans les Expéditions Entrantes, lors de l'ajout de stock et dans les modifications de lignes d'inventaire.
+Le panneau de sélection de Variante d'Article est disponible lors de l'ajout ou de la modification de lignes dans les Livraisons Entrantes, lors de l'ajout de stock et dans les modifications de lignes d'inventaire.
 
 ### Modifier une Variante d'Article
 
@@ -203,7 +203,7 @@ Le regroupement se fait au niveau de la Variante d'Article, vous donnant un cont
 
 **Ajouter des articles groupés**
 
-Pour regrouper un article avec la variante actuelle, cliquez sur le bouton `Ajouter un article groupé` sous la section `Regroupé avec`.
+Pour regrouper un article avec la variante actuelle, cliquez sur le bouton `Ajouter un article groupé` sous la section `Grouper avec`.
 
 <p align="center">
     <img src="images-en/add_bundled_item.png" width="300">
@@ -225,13 +225,13 @@ Dans cet exemple, 0,2 unités de Silverfern saline 0,22% devraient être regroup
     <img src="images-en/add_bundled_item_modal.png" width="700">
 </p>
 
-Cliquez sur OK pour ajouter l'article groupé. Il apparaîtra alors dans la section `Regroupé avec`.
+Cliquez sur OK pour ajouter l'article groupé. Il apparaîtra alors dans la section `Grouper avec`.
 
 ![variante d'article avec article groupé](images-en/item_variant_with_bundled_item.png)
 
 **Modifier des articles groupés**
 
-Pour modifier un article groupé, cliquez sur la ligne dans la section `Regroupé avec`. Cela ouvrira la même fenêtre que lors de l'ajout d'un nouvel article groupé, avec les détails existants pré-remplis. Faites les changements nécessaires, et cliquez sur `OK` pour mettre à jour le groupe.
+Pour modifier un article groupé, cliquez sur la ligne dans la section `Grouper avec`. Cela ouvrira la même fenêtre que lors de l'ajout d'un nouvel article groupé, avec les détails existants pré-remplis. Faites les changements nécessaires, et cliquez sur `OK` pour mettre à jour le groupe.
 
 <p align="center">
     <img src="images-en/add_bundled_item_modal.png" width="700">
@@ -253,6 +253,6 @@ Il vous sera demandé de confirmer le retrait de l'article groupé. Cliquez sur 
 
 Vous n'êtes pas en mesure de regrouper des articles pour une variante d'article qui fait déjà partie d'un autre groupe.
 
-Le bouton `Ajouter un article groupé` sera désactivé, et vous verrez à la place une liste des variantes d'articles avec lesquelles cette variante est déjà regroupée.
+Le bouton `Ajouter un article groupé` sera désactivé, et vous verrez à la place une liste des variantes d'articles avec lesquelles cette variante est déjà groupée.
 
 ![variante d'article partie d'un autre groupe](images-en/item_variant_is_bundled.png)

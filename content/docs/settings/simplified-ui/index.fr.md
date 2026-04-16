@@ -30,13 +30,14 @@ L'UI simplifiée ne supprime aucune fonctionnalité essentielle. Tous les flux d
 
 L'UI simplifiée est activée en tant que préférence de dépôt. Pour l'activer :
 
-1. Sur le serveur central, allez dans la section `Paramètres` dans la partie inférieure du panneau de navigation
+1. Sur le serveur central, allez dans la section `Options` dans la partie inférieure du panneau de navigation, puis `Dépôts`
 2. Accédez aux préférences du dépôt que vous souhaitez configurer (voir [Dépôts](/docs/manage/facilities/) pour plus de détails)
 3. Activez la préférence **Utiliser l'interface mobile simplifiée**
+4. Vous pouvez également y accéder en modifiant directement les préférences du dépôt auquel vous êtes **actuellement connecté** dans `Modifier` puis `Préférences`
 
 De plus :
 
-4. La préférence de dépôt `pack to one` doit être activée (voir la [configuration des dépôts virtuels](https://docs.msupply.org.nz/other_stuff:virtual_stores?s%5B%5D=pack&s%5B%5D=one#preferences_tab) mSupply)
+4. La préférence de dépôt `configurer l'emballage en unité` doit être activée (voir la [configuration des dépôts virtuels](https://docs.msupply.org.nz/other_stuff:virtual_stores?s%5B%5D=pack&s%5B%5D=one#preferences_tab) mSupply)
 5. Vous devez utiliser une tablette ou un autre appareil avec un petit écran
 
 Une fois activée, les utilisateurs accédant à ce dépôt verront l'interface simplifiée.
@@ -74,18 +75,18 @@ Sur tablette, le bouton **Exporter** et les **Filtres** (par nom ou statut) ne s
 
 Lors de la création ou de la modification d'une commande interne, les colonnes suivantes sont disponibles :
 
-| Colonne                    | Desktop | Tablette |
-| :------------------------- | :-----: | :------: |
-| **Sélection (case)**       |    ✓    |    ✓     |
-| **Code**                   |    ✓    |    ✓     |
-| **Nom**                    |    ✓    |    ✓     |
-| **Unité**                  |    ✓    |          |
-| **Taille de paquet par défaut** |    ✓    |     |
-| **Stock en dépôt**         |    ✓    |    ✓     |
-| **CMM**                    |    ✓    |    ✓     |
-| **Stock cible**            |    ✓    |          |
-| **Quantité suggérée**      |    ✓    |    ✓     |
-| **Demandée**               |    ✓    |    ✓     |
+| Colonne                                  | Desktop | Tablette |
+| :--------------------------------------- | :-----: | :------: |
+| **Sélection (case)**                     |    ✓    |    ✓     |
+| **Code**                                 |    ✓    |    ✓     |
+| **Nom**                                  |    ✓    |    ✓     |
+| **Unité**                                |    ✓    |          |
+| **Taille de conditionnement par défaut** |    ✓    |          |
+| **Stock utilisable**                     |    ✓    |    ✓     |
+| **CMM**                                  |    ✓    |    ✓     |
+| **Stock cible**                          |    ✓    |          |
+| **Quantité suggérée**                    |    ✓    |    ✓     |
+| **Quantité Demandée**                    |    ✓    |    ✓     |
 
 Différences de fonctionnalités clés pour la vue détaillée :
 
@@ -130,20 +131,20 @@ Sur tablette, un champ **Recherche** est disponible à la place des contrôles d
 
 #### Créer / Modifier une Livraison Entrante
 
-| Colonne                   | Desktop | Tablette |
-| :------------------------ | :-----: | :------: |
-| **Sélection (case)**      |    ✓    |    ✓     |
-| **Code**                  |    ✓    |    ✓     |
-| **Nom**                   |    ✓    |    ✓     |
-| **Lot**                   |    ✓    |    ✓     |
-| **Expiration**            |    ✓    |    ✓     |
-| **Emplacement**           |    ✓    |          |
-| **Unité**                 |    ✓    |          |
-| **Taille de paquet**      |    ✓    |          |
-| **Quantité paquets**      |    ✓    |    ✓     |
-| **Quantité unités**       |    ✓    |          |
-| **Coût par unité**        |    ✓    |          |
-| **Total**                 |    ✓    |          |
+| Colonne                        | Desktop | Tablette |
+| :----------------------------- | :-----: | :------: |
+| **Sélection (case)**           |    ✓    |    ✓     |
+| **Code**                       |    ✓    |    ✓     |
+| **Nom**                        |    ✓    |    ✓     |
+| **Lot**                        |    ✓    |    ✓     |
+| **Expiration**                 |    ✓    |    ✓     |
+| **Emplacement**                |    ✓    |          |
+| **Unité**                      |    ✓    |          |
+| **Taille de conditionnement**  |    ✓    |          |
+| **Nombre de conditionnements** |    ✓    |    ✓     |
+| **Quantité unités**            |    ✓    |          |
+| **Coût par unité**             |    ✓    |          |
+| **Total**                      |    ✓    |          |
 
 Différences de fonctionnalités clés :
 
@@ -165,19 +166,19 @@ Le **Panneau Plus d'infos** est disponible sur les deux vues et inclut : Saisi p
 
 Lors de la modification d'une ligne sur tablette, la fenêtre affiche un ensemble simplifié de colonnes :
 
-| Colonne                   | Desktop | Tablette |
-| :------------------------ | :-----: | :------: |
-| **Sélection (case)**      |    ✓    |    ✓     |
-| **Lot**                   |    ✓    |    ✓     |
-| **Expiration**            |    ✓    |    ✓     |
-| **Variante d'article**    |    ✓    |    ✓     |
-| **Quantité paquets**      |    ✓    |    ✓     |
-| **Taille de paquet**      |    ✓    |          |
-| **Quantité unités**       |    ✓    |          |
-| **Prix de coût paquet**   |    ✓    |          |
-| **Prix de vente paquet**  |    ✓    |          |
-| **Total ligne**           |    ✓    |          |
-| **Emplacement**           |    ✓    |          |
+| Colonne                           | Desktop | Tablette |
+| :-------------------------------- | :-----: | :------: |
+| **Sélection (case)**              |    ✓    |    ✓     |
+| **Lot**                           |    ✓    |    ✓     |
+| **Expiration**                    |    ✓    |    ✓     |
+| **Variante d'article**            |    ✓    |    ✓     |
+| **Nombre de conditionnements**    |    ✓    |    ✓     |
+| **Taille de conditionnement**     |    ✓    |          |
+| **Quantité unités**               |    ✓    |          |
+| **Coût par conditionnement**      |    ✓    |          |
+| **Prix de vente conditionnement** |    ✓    |          |
+| **Total ligne**                   |    ✓    |          |
+| **Emplacement**                   |    ✓    |          |
 
 ---
 
@@ -200,20 +201,20 @@ Sur tablette, des filtres sont disponibles (par nom ou statut). Le bouton **Nouv
 
 #### Créer / Modifier une Livraisons Sortante
 
-| Colonne                   | Desktop | Tablette |
-| :------------------------ | :-----: | :------: |
-| **Sélection (case)**      |    ✓    |    ✓     |
-| **Code**                  |    ✓    |    ✓     |
-| **Nom**                   |    ✓    |    ✓     |
-| **Lot**                   |    ✓    |          |
-| **Expiration**            |    ✓    |          |
-| **Emplacement**           |    ✓    |          |
-| **Unité**                 |    ✓    |          |
-| **Taille de paquet**      |    ✓    |          |
-| **Quantité paquets**      |    ✓    |    ✓     |
-| **Quantité unités**       |    ✓    |          |
-| **Prix de vente unité**   |    ✓    |          |
-| **Total**                 |    ✓    |          |
+| Colonne                        | Desktop | Tablette |
+| :----------------------------- | :-----: | :------: |
+| **Sélection (case)**           |    ✓    |    ✓     |
+| **Code**                       |    ✓    |    ✓     |
+| **Nom**                        |    ✓    |    ✓     |
+| **Lot**                        |    ✓    |          |
+| **Expiration**                 |    ✓    |          |
+| **Emplacement**                |    ✓    |          |
+| **Unité**                      |    ✓    |          |
+| **Taille de conditionnement**  |    ✓    |          |
+| **Nombre de conditionnements** |    ✓    |    ✓     |
+| **Quantité unités**            |    ✓    |          |
+| **Prix de vente unité**        |    ✓    |          |
+| **Total**                      |    ✓    |          |
 
 Différences de fonctionnalités clés :
 
@@ -237,18 +238,18 @@ Sur tablette, la fenêtre de modification de ligne est simplifiée. Elle affiche
 
 Le tableau de sélection des lots est réduit à :
 
-| Colonne                      | Desktop | Tablette |
-| :--------------------------- | :-----: | :------: |
-| **Lot**                      |    ✓    |          |
-| **Expiration**               |    ✓    |          |
-| **Emplacement**              |    ✓    |          |
-| **Prix de vente paquet**     |    ✓    |          |
-| **Taille de paquet**         |    ✓    |          |
-| **En dépôt (paquets)**       |    ✓    |          |
-| **Disponible (paquets)**     |    ✓    |    ✓     |
-| **Quantité paquets émise**   |    ✓    |    ✓     |
-| **Quantité unités émise**    |    ✓    |          |
-| **En attente**               |    ✓    |          |
+| Colonne                             | Desktop | Tablette |
+| :---------------------------------- | :-----: | :------: |
+| **Lot**                             |    ✓    |          |
+| **Expiration**                      |    ✓    |          |
+| **Emplacement**                     |    ✓    |          |
+| **Prix de vente conditionnement**   |    ✓    |          |
+| **Taille de conditionnement**       |    ✓    |          |
+| **En dépôt (conditionnements)**     |    ✓    |          |
+| **Disponible (conditionnements)**   |    ✓    |    ✓     |
+| **Nombre de conditionnements émis** |    ✓    |    ✓     |
+| **Quantité unités émise**           |    ✓    |          |
+| **En attente**                      |    ✓    |          |
 
 ---
 
@@ -269,20 +270,20 @@ Le bouton **Nouvel inventaire** est disponible sur les deux vues. Le bouton **Ex
 
 #### Modifier un Inventaire
 
-| Colonne                    | Desktop | Tablette |
-| :------------------------- | :-----: | :------: |
-| **Sélection (case)**       |    ✓    |    ✓     |
-| **Code**                   |    ✓    |    ✓     |
-| **Nom**                    |    ✓    |    ✓     |
-| **Lot**                    |    ✓    |          |
-| **Expiration**             |    ✓    |          |
-| **Emplacement**            |    ✓    |          |
-| **Unité**                  |    ✓    |          |
-| **Taille de paquet**       |    ✓    |          |
-| **Paquets instantanés**    |    ✓    |    ✓     |
-| **Paquets comptés**        |    ✓    |    ✓     |
-| **Différence**             |    ✓    |    ✓     |
-| **Raison**                 |    ✓    |    ✓     |
+| Colonne                                  | Desktop | Tablette |
+| :--------------------------------------- | :-----: | :------: |
+| **Sélection (case)**                     |    ✓    |    ✓     |
+| **Code**                                 |    ✓    |    ✓     |
+| **Nom**                                  |    ✓    |    ✓     |
+| **Lot**                                  |    ✓    |          |
+| **Expiration**                           |    ✓    |          |
+| **Emplacement**                          |    ✓    |          |
+| **Unité**                                |    ✓    |          |
+| **Taille de Conditionnement**            |    ✓    |          |
+| **Nombre de conditionnements théorique** |    ✓    |    ✓     |
+| **Nombre de conditionnements comptés**   |    ✓    |    ✓     |
+| **Différence**                           |    ✓    |    ✓     |
+| **Raison**                               |    ✓    |    ✓     |
 
 Fonctionnalités disponibles sur les deux vues : Ajouter un article, Imprimer, Bouton Plus, Description, Date d'inventaire. L'option **Filtrer les articles** est réservée au desktop.
 
@@ -292,20 +293,20 @@ Le **Panneau Plus d'infos** inclut Commentaire et Supprimer sur les deux vues.
 
 Lors de la modification d'une ligne d'inventaire, la fenêtre affiche :
 
-| Colonne                           | Desktop | Tablette |
-| :-------------------------------- | :-----: | :------: |
-| **Compter cette ligne (case)**    |    ✓    |    ✓     |
-| **Lot**                           |    ✓    |    ✓     |
-| **Variante d'article**            |    ✓    |    ✓     |
-| **Taille de paquet**              |    ✓    |          |
-| **Paquets instantanés**           |    ✓    |    ✓     |
-| **Paquets comptés**               |    ✓    |    ✓     |
-| **Expiration**                    |    ✓    |    ✓     |
-| **Raison**                        |    ✓    |    ✓     |
-| **Prix de vente**                 |    ✓    |          |
-| **Prix de coût**                  |    ✓    |          |
-| **Emplacement**                   |    ✓    |          |
-| **Commentaire**                   |    ✓    |          |
+| Colonne                                  | Desktop | Tablette |
+| :--------------------------------------- | :-----: | :------: |
+| **Compter cette ligne (case)**           |    ✓    |    ✓     |
+| **Lot**                                  |    ✓    |    ✓     |
+| **Variante d'article**                   |    ✓    |    ✓     |
+| **Taille de conditionnement**            |    ✓    |          |
+| **Nombre de conditionnements théorique** |    ✓    |    ✓     |
+| **Nombre de conditionnements comptés**   |    ✓    |    ✓     |
+| **Expiration**                           |    ✓    |    ✓     |
+| **Raison**                               |    ✓    |    ✓     |
+| **Prix de vente**                        |    ✓    |          |
+| **Coût**                                 |    ✓    |          |
+| **Emplacement**                          |    ✓    |          |
+| **Commentaire**                          |    ✓    |          |
 
 ---
 
@@ -313,20 +314,20 @@ Lors de la modification d'une ligne d'inventaire, la fenêtre affiche :
 
 #### Liste du Stock
 
-| Colonne                   | Desktop | Tablette |
-| :------------------------ | :-----: | :------: |
-| **Code**                  |    ✓    |    ✓     |
-| **Nom**                   |    ✓    |    ✓     |
-| **Lot**                   |    ✓    |          |
-| **Expiration**            |    ✓    |          |
-| **Emplacement**           |    ✓    |          |
-| **Unité**                 |    ✓    |          |
-| **Taille de paquet**      |    ✓    |          |
-| **Quantité paquets**      |    ✓    |    ✓     |
-| **Stock en dépôt**        |    ✓    |          |
-| **Prix de coût paquet**   |    ✓    |          |
-| **Total**                 |    ✓    |          |
-| **Fournisseur**           |    ✓    |          |
+| Colonne                        | Desktop | Tablette |
+| :----------------------------- | :-----: | :------: |
+| **Code**                       |    ✓    |    ✓     |
+| **Nom**                        |    ✓    |    ✓     |
+| **Lot**                        |    ✓    |          |
+| **Expiration**                 |    ✓    |          |
+| **Emplacement**                |    ✓    |          |
+| **Unité**                      |    ✓    |          |
+| **Taille de conditionnement**  |    ✓    |          |
+| **Nombre de conditionnements** |    ✓    |    ✓     |
+| **Stock en dépôt**             |    ✓    |          |
+| **Coût conditionement**        |    ✓    |          |
+| **Total**                      |    ✓    |          |
+| **Fournisseur**                |    ✓    |          |
 
 Le bouton **Nouveau stock** et les **Filtres** (par code/nom, emplacement, liste maîtresse, expiration) sont disponibles sur les deux vues. Le bouton **Exporter** est réservé au desktop.
 
@@ -334,7 +335,7 @@ Le bouton **Nouveau stock** et les **Filtres** (par code/nom, emplacement, liste
 
 Lors de la consultation d'un article de stock individuel, tous les champs de détail sont affichés sur desktop et tablette :
 
-- Quantité paquets, Prix de coût, Prix de vente, Expiration, Lot, Taille de paquet, En attente, Emplacement, Code-barres, Fournisseur
+- Quantité paquets, Coût, Prix de vente, Expiration, Lot, Taille de conditionnement, En attente, Emplacement, Code-barres, Fournisseur
 
 Les onglets **Journal** et **Grand Livre** sont réservés au desktop.
 
