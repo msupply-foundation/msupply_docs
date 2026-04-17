@@ -40,3 +40,30 @@ export const findBy = async (driver, selectors) => {
   }
   throw new Error(`None of the selectors matched: ${selectors.join(', ')}`);
 };
+
+// Runs a small script in the browser and returns an array of descriptors for
+// every input/button on the page — what they are, how they're identified, and
+// whether they're currently visible. Useful for figuring out why `findBy`
+// couldn't locate an element.
+export const describeFormElements = async (driver) => {
+  return driver.executeScript(`
+    const describe = (el) => {
+      const r = el.getBoundingClientRect();
+      const visible = r.width > 0 && r.height > 0 && el.offsetParent !== null;
+      return {
+        tag: el.tagName.toLowerCase(),
+        type: el.getAttribute('type'),
+        name: el.getAttribute('name'),
+        id: el.id || null,
+        placeholder: el.getAttribute('placeholder'),
+        ariaLabel: el.getAttribute('aria-label'),
+        className: el.className || null,
+        text: (el.innerText || '').trim().slice(0, 80) || null,
+        visible,
+      };
+    };
+    const inputs = Array.from(document.querySelectorAll('input')).map(describe);
+    const buttons = Array.from(document.querySelectorAll('button')).map(describe);
+    return { url: location.href, title: document.title, inputs, buttons };
+  `);
+};

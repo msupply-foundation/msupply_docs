@@ -1,11 +1,11 @@
 {
-  "baseUrl": "https://release-demo-open.msupply.org",
+  "baseUrl": "http://127.0.0.1:8888",
   "login": {
     "url": "/login",
     "selectors": {
-      "username": ["input[name=\"username\"]", "input[type=\"text\"]"],
-      "password": ["input[name=\"password\"]", "input[type=\"password\"]"],
-      "submit":   ["button.MuiButton-outlinedPrimary", "button[type=\"submit\"]"]
+      "username": ["input[type='text']"],
+      "password": ["input[type='password']"],
+      "submit": ["button.MuiButton-outlinedPrimary", "button[type=\"button\"]"]
     }
   },
   "languages": ["en"],

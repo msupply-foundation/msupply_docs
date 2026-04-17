@@ -42,6 +42,33 @@ yarn shoot:one distribution                                 # every subgroup und
 
 Pass an unknown id and the tool prints the full list of available ids.
 
+## Debugging login
+
+If the tool reports it can't find the username/password/submit element, the
+configured selectors don't match the demo site's DOM. Two tools to diagnose:
+
+```sh
+yarn diagnose            # visible browser, dumps every input/button on /login
+yarn diagnose --headless # same, but headless
+yarn diagnose --wait 5000 # wait 5s before dumping (slow-rendering forms)
+```
+
+`diagnose` prints the tag, `type`, `name`, `id`, `placeholder`, `aria-label`,
+and class of every `<input>` and `<button>` on the page, and saves
+`diagnose-login.png` in the screenshots folder. It also echoes back the
+selectors you have configured so you can compare them against what's actually
+there. Copy whichever attribute is unique into the relevant list in
+`config.json → login.selectors`.
+
+You can also watch the main run live:
+
+```sh
+yarn shoot:headful
+```
+
+When the main script fails at the login step it saves `login-failure.png` and
+dumps the same input/button listing to stderr before exiting.
+
 ## Configuration
 
 `config.json` controls the tool. Top-level fields:

@@ -12,6 +12,7 @@ import {
   switchLanguage,
   findBy,
   sleep,
+  describeFormElements,
 } from './helpers/index.js';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -31,6 +32,7 @@ config.login.password = requireEnv('MSUPPLY_PASSWORD');
 const args = process.argv.slice(2);
 const onlyIndex = args.indexOf('--only');
 const onlyFilter = onlyIndex !== -1 ? args[onlyIndex + 1] : null;
+const headful = args.includes('--headful');
 
 const buildUrl = (url) => `${config.baseUrl}${url}`;
 
@@ -64,33 +66,63 @@ const captureScreenshot = async (driver, screenshot) => {
   }
 };
 
+const dumpLoginFailure = async (driver, err) => {
+  console.error(`\nLogin failed: ${err.message}`);
+  try {
+    const info = await describeFormElements(driver);
+    console.error(`\nPage: ${info.title}\nURL:  ${info.url}`);
+    console.error(`\nInputs on page (${info.inputs.length}):`);
+    for (const el of info.inputs) console.error('  ' + JSON.stringify(el));
+    console.error(`\nButtons on page (${info.buttons.length}):`);
+    for (const el of info.buttons) console.error('  ' + JSON.stringify(el));
+
+    const raw = await driver.takeScreenshot();
+    const out = path.join(projectRoot, 'login-failure.png');
+    fs.writeFileSync(out, Buffer.from(raw, 'base64'));
+    console.error(`\nScreenshot: ${path.relative(projectRoot, out)}`);
+    console.error('Run `yarn diagnose` to open the login page in a visible browser.');
+  } catch (dumpErr) {
+    console.error(`Could not dump page state: ${dumpErr.message}`);
+  }
+};
+
 const login = async (driver) => {
   const loginCfg = config.login;
   const selectors = loginCfg.selectors ?? {};
   await driver.get(buildUrl(loginCfg.url));
+  await sleep(3000); // give the browser a moment to start up before resizing, to avoid a potential
   await driver.manage().setTimeouts({ implicit: 1000 });
 
-  const userInput = await findBy(
-    driver,
-    selectors.username ?? ['input[name="username"]', 'input[type="text"]']
-  );
-  await userInput.sendKeys(loginCfg.username);
+  try {
+    const userInput = await findBy(
+      driver,
+      selectors.username ?? ['input[name="username"]', 'input[type="text"]']
+    );
+    await userInput.sendKeys(loginCfg.username);
 
-  const passwordInput = await findBy(
-    driver,
-    selectors.password ?? ['input[name="password"]', 'input[type="password"]']
-  );
-  await passwordInput.sendKeys(loginCfg.password);
+    const passwordInput = await findBy(
+      driver,
+      selectors.password ?? ['input[name="password"]', 'input[type="password"]']
+    );
+    await passwordInput.sendKeys(loginCfg.password);
 
-  const loginButton = await findBy(
-    driver,
-    selectors.submit ?? ['button.MuiButton-outlinedPrimary', 'button[type="submit"]', 'form button']
-  );
-  await loginButton.click();
+    const loginButton = await findBy(
+      driver,
+      selectors.submit ?? [
+        'button.MuiButton-outlinedPrimary',
+        'button[type="submit"]',
+        'form button',
+      ]
+    );
+    await loginButton.click();
 
-  await driver.wait(until.urlMatches(/\/dashboard/), 15000);
-  await sleep(800);
-  await dismissToast(driver);
+    await driver.wait(until.urlMatches(/\/dashboard/), 15000);
+    await sleep(800);
+    await dismissToast(driver);
+  } catch (err) {
+    await dumpLoginFailure(driver, err);
+    throw err;
+  }
 };
 
 const flattenGroups = (groups) => {
@@ -123,9 +155,8 @@ const matchOnly = (entries, filter) => {
 
 const run = async () => {
   const viewport = config.viewport ?? { width: 1920, height: 1080 };
-  const options = new Options()
-    .addArguments('--headless=new')
-    .addArguments(`--window-size=${viewport.width},${viewport.height}`);
+  const options = new Options().addArguments(`--window-size=${viewport.width},${viewport.height}`);
+  if (!headful) options.addArguments('--headless=new');
 
   const driver = await new Builder().forBrowser(Browser.CHROME).setChromeOptions(options).build();
 

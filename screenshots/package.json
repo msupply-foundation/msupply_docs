@@ -6,7 +6,9 @@
   "type": "module",
   "scripts": {
     "shoot": "node src/index.js",
-    "shoot:one": "node src/index.js --only"
+    "shoot:one": "node src/index.js --only",
+    "shoot:headful": "node src/index.js --headful",
+    "diagnose": "node src/diagnose.js"
   },
   "author": "The mSupply Foundation",
   "license": "MIT",
