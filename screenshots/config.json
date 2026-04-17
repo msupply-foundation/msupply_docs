@@ -1,0 +1,50 @@
+{
+  "baseUrl": "https://release-demo-open.msupply.org",
+  "login": {
+    "url": "/login",
+    "selectors": {
+      "username": ["input[name=\"username\"]", "input[type=\"text\"]"],
+      "password": ["input[name=\"password\"]", "input[type=\"password\"]"],
+      "submit":   ["button.MuiButton-outlinedPrimary", "button[type=\"submit\"]"]
+    }
+  },
+  "languages": ["en"],
+  "viewport": { "width": 1920, "height": 1080 },
+  "outputRoot": "../content/docs",
+  "groups": {
+    "dashboard": {
+      "dashboard sections": {
+        "screenshots": [
+          {
+            "filename": "dashboard-overview",
+            "url": "/dashboard",
+            "crop": { "x": 0, "y": 0, "width": 100, "height": 100 }
+          }
+        ]
+      }
+    },
+    "distribution": {
+      "outbound-shipments": {
+        "screenshots": [
+          {
+            "filename": "export",
+            "url": "/distribution/outbound-shipment?sort=invoiceNumber&dir=desc",
+            "crop": { "x": 0, "y": 0, "width": 100, "height": 80 },
+            "spotlight": { "x": 5, "y": 10, "width": 40, "height": 25 }
+          },
+          {
+            "filename": "outbound-shipment-list-view",
+            "url": "/distribution/outbound-shipment?sort=invoiceNumber&dir=desc",
+            "crop": { "x": 90, "y": 0, "width": 100, "height": 80 },
+            "spotlight": { "x": 5, "y": 10, "width": 40, "height": 25 }
+          },
+          {
+            "filename": "outbound-shipment-detail-view",
+            "url": "/distribution/outbound-shipment/019d98af-a5ea-7fab-bd49-d8e0d822796c?sort=itemName&dir=asc",
+            "crop": { "x": 0, "y": 0, "width": 100, "height": 100 }
+          }
+        ]
+      }
+    }
+  }
+}

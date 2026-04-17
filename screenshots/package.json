@@ -1,0 +1,17 @@
+{
+  "name": "msupply-docs-screenshots",
+  "version": "1.0.0",
+  "description": "Automated screenshot tool for the Open mSupply documentation site",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "shoot": "node src/index.js",
+    "shoot:one": "node src/index.js --only"
+  },
+  "author": "The mSupply Foundation",
+  "license": "MIT",
+  "dependencies": {
+    "selenium-webdriver": "^4.20.0",
+    "sharp": "^0.33.4"
+  }
+}
