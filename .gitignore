@@ -11,3 +11,5 @@ pdf/Open_mSupply_user_guide.fr.pdf
 pdf/Open_mSupply_user_guide.pdf
 node_modules/
 .obsidian
+screenshots/login-failure.png
+screenshots/diagnose-login.png
