@@ -418,3 +418,18 @@ math {
     text-align: center;
     font-size: 0.95em;
 }
+
+table.docs > tbody > tr > td:first-child {
+  font-weight: bold;
+}
+
+td.parent, td.child {
+  background-color: #f5f5f5;
+}
+td.parent {
+  font-weight: bold;
+}
+table.docs > tbody > tr > td.child {
+  padding-left: 25px;
+  font-weight: normal;
+}

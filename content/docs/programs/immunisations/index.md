@@ -72,13 +72,25 @@ This will open a new window, where you can enter the details of the new Vaccine 
 
 ![vaccine course: create modal](images/vaccine_course_add.png)
 
+#### Per-store rates
+
+By default, coverage and wastage rates apply to a vaccine course across every store that administers it. If your stores have different rates, though, you can override the defaults on a per-store basis.
+
+To get started, click the **Configure per store** button:
+
+![vaccine course: configure per-store button](images/vaccine_course_configure_per_store_button.png)
+
+This opens a table where you can set a coverage and wastage rate for each store. Any store you leave blank will fall back to the global rate defined on the vaccine course itself.
+
+![vaccine course: per-store rates table](images/vaccine_course_configure_per_store_table.png)
+
 #### Doses
 
 To add doses to the Vaccine Course, click the `(+) Dose` button. This will add a new row to the `dose schedule` table, where the details of the dose can be entered, including when the dose can administered.
 
 ![vaccine course: dose edit table](images/vaccine_course_dose_edit.png)
 
-The Dose Schedule table is divided into 6 columns:
+The Dose Schedule table is divided into 7 columns:
 
 | Column                  | Description                                                                                                              |
 | :---------------------- | :----------------------------------------------------------------------------------------------------------------------- |
@@ -88,6 +100,7 @@ The Dose Schedule table is divided into 6 columns:
 | **To age**              | Maximum recommended age to receive the dose (in years and months)                                                        |
 | **Custom age label**    | Custom age label to be displayed in the Vaccination Card. If not defined, the default is the `From age` (e.g. `6 years`) |
 | **Min interval (days)** | Minimum number of days before the patient should receive the next dose                                                   |
+| **Delete**              | Click the trash can icon to delete this dose                                                                             |
 
 <div class="note">
   If custom age labels are used, ensure that label is the same across all doses in the Immunization Program with the same <code>From age</code>. For example, if you want to replace "0 months" with "Birth", all doses across all Vaccine Courses with a <code>From age</code> of 0 months will need the custom age label of "Birth". This ensures correct grouping of doses in the Vaccination Card.
@@ -104,6 +117,18 @@ Click `Cancel` at any time to close the window and discard your changes.
 To view or edit the details of a Vaccine Course, click on the row in the list. This will re-open the editing window, for you to view or change any details.
 
 ![vaccine course: edit modal](images/vaccine_course_detail.png)
+
+#### Skipping doses
+
+For some vaccine courses, every dose matters and the order they're given in is important.
+
+In practice, though, that isn't always possible. For example: if a patient misses their birth dose (bOPV0), they shouldn't have to catch up on it later - they can simply move on to the next dose (bOPV1) at their next visit. To allow this kind of flexibility for a vaccine course, tick the `Can skip dose` checkbox.
+
+Here's how dose skipping works:
+
+- When you administer a dose that isn't the next one in the sequence, a warning dialog will appear to confirm your choice
+- Any doses you skip over are automatically marked as **Not given**
+- As usual, only the most recently recorded dose (whether **Given** or **Not given**) can be edited
 
 ### Deleting a Vaccine Course
 

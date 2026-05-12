@@ -61,34 +61,124 @@ Toggle the preferences on or off as required, and close when you are finished.
 
 ### Available Preferences
 
-| Preference Name                                                                      | Description                                                                                                                                                                              |
-| :----------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Show indicative price on internal orders and requisitions**                        |                                                                                                                                                                                          |
-| **Order in packs**                                                                   | Defaults the Internal Order/Requisition representation to packs instead of units                                                                                                         |
-| **Use procurement functionality**                                                    | Enables procurement functionality including `Purchase Orders` and `External inbound shipments`                                                                                           |
-| **Sort available batches by VVM status then expiry**                                 | Auto-allocation in Outbound Shipments and Prescriptions uses VVM status first, then FEFO                                                                                                 |
-| **Use simplified mobile UI**                                                         | Reduces number of fields and elements for tablets - see the [simplified tablet UI](/docs/settings/simplified-ui) page for details. Requires legacy store preference.                     |
-| **Disable manual returns**                                                           |                                                                                                                                                                                          |
-| **Auto finalise fulfilled requisitions**                                             |                                                                                                                                                                                          |
-| **Automatically verify inbound shipments**                                           |                                                                                                                                                                                          |
-| **Manage VVM status for stock**                                                      | Enables a `VVM status` field on stock                                                                                                                                                    |
-| **Manage vaccines in doses**                                                         | View stock levels and transactions for vaccine items in doses, rather than units or packs                                                                                                |
-| **Can create Internal Order from a Requisition**                                     | Allows users to create an Internal Order from a Requisition                                                                                                                              |
-| **Select destination store for an Internal Order**                                   | Allows users to select the destination store when creating an Internal Order from a Requisition to change the destination of the supplier's Outbound Shipment                            |
-| **Inbound shipment (external) lines must be authorised**                             |                                                                                                                                                                                          |
-| **Number of months to check for consumption when calculating out of stock products** | Sets how many past months are checked for item usage. If an item was used but is now out of stock, it will be flagged as out of stock on the Dashboard.                                  |
-| **Number of months threshold to show low stock alerts for products**                 | Flags products as low stock if their months of stock are below the set threshold.                                                                                                        |
-| **Number of months threshold to show overstock alerts for products**                 | Flags products as overstock if their months of stock are above the set threshold.                                                                                                        |
-| **Batches expiring in between days**                                                 |                                                                                                                                                                                          |
-| • First threshold for expiring items (days)                                          | Days before expiry to start flagging as "expiring soon." Used in the `Expiring Stock` widget. Note that the widget isn't displayed if both of these threshold settings are unconfigured. |
-| • Second threshold for expiring items (days)                                         | Days before expiry to stop flagging as "expiring soon." Used in Expiring Stock widget.                                                                                                   |
-| **Custom colour of page footer**                                                     | The colour of the page footer can be changed to a store-specific value                                                                                                                   |
-| **Warn users when creating internal order if there is no recent stocktake**          |                                                                                                                                                                                          |
-| • Enable                                                                             | Enable this feature                                                                                                                                                                      |
-| • Max age                                                                            | Days since the last stocktake with the required minimum items has been taken                                                                                                             |
-| • Min items                                                                          | A minimum number of items that the stocktake must contain to be considered - you may wish to ignore stocktakes which only have one or two items in them, for example.                    |
-| **Invoice status options**                                                           | Configure which invoice statuses are available for Outbound shipments / supplier returns, and inbound shipments / customer return.                                                       |
-
+<table class="docs">
+    <thead>
+        <tr>
+            <th>Preference Name</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Show indicative price on internal orders and requisitions</td>
+            <td>When this preference is enabled, an Indicative Price column is displayed on internal orders (in the requesting store) and on the corresponding requisitions (in the supplying store).</td>
+        </tr>
+        <tr>
+            <td>Order in packs</td>
+            <td>Defaults the Internal Order/Requisition representation to packs instead of units</td>
+        </tr>
+        <tr>
+            <td>Use procurement functionality</td>
+            <td>Enables procurement functionality including <code>Purchase Orders</code> and
+                <code>External inbound shipments</code></td>
+        </tr>
+        <tr>
+            <td>Sort available batches by VVM status then expiry</td>
+            <td>Auto-allocation in Outbound Shipments and Prescriptions uses VVM status first, then FEFO</td>
+        </tr>
+        <tr>
+            <td>Use simplified mobile UI</td>
+            <td>Reduces number of fields and elements for tablets - see the <a
+                    href="/docs/settings/simplified-ui">simplified tablet UI</a> page for details. Requires legacy store
+                preference.</td>
+        </tr>
+        <tr>
+            <td>Disable manual returns</td>
+            <td>When this preference is enabled, the option to create supplier or customer returns manually is removed. Returns can only be created from an existing shipment.</td>
+        </tr>
+        <tr>
+            <td>Auto finalise fulfilled requisitions</td>
+            <td>Turn this on to have customer requisitions close automatically when all requested quantities have been
+                shipped on outbound shipments.</td>
+        </tr>
+        <tr>
+            <td>Automatically verify inbound shipments</td>
+            <td>When enabled and a supplier sends an outbound shipment to the store, the automatically created inbound
+                shipment will be in the <code>Verified</code> status and stock will be available.</td>
+        </tr>
+        <tr>
+            <td>Manage VVM status for stock</td>
+            <td>Enables a <code>VVM status</code> field on stock</td>
+        </tr>
+        <tr>
+            <td>Manage vaccines in doses</td>
+            <td>View stock levels and transactions for vaccine items in doses, rather than units or packs</td>
+        </tr>
+        <tr>
+            <td>Can create Internal Order from a Requisition</td>
+            <td>Allows users to create an Internal Order from a Requisition</td>
+        </tr>
+        <tr>
+            <td>Select destination store for an Internal Order</td>
+            <td>Allows users to select the destination store when creating an Internal Order from a Requisition to
+                change the destination of the supplier's Outbound Shipment</td>
+        </tr>
+        <tr>
+            <td>Inbound shipment (external) lines must be authorised</td>
+            <td>When this preference is enabled, lines on inbound shipments from external suppliers (i.e. suppliers who are not also Open mSupply stores) cannot be confirmed and added to your stock until they have been authorised by a user with the appropriate permission.</td>
+        </tr>
+        <tr>
+            <td>Number of months to check for consumption when calculating out of stock products</td>
+            <td>Sets how many past months are checked for item usage. If an item was used but is now out of stock, it
+                will be flagged as out of stock on the Dashboard.</td>
+        </tr>
+        <tr>
+            <td>Number of months threshold to show low stock alerts for products</td>
+            <td>Flags products as low stock if their months of stock are below the set threshold.</td>
+        </tr>
+        <tr>
+            <td>Number of months threshold to show overstock alerts for products</td>
+            <td>Flags products as overstock if their months of stock are above the set threshold.</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="parent">Batches expiring in between days</td>
+        </tr>
+        <tr>
+            <td class="child">◦ First threshold for expiring items (days)</td>
+            <td>Days before expiry to start flagging as "expiring soon." Used in the <code>Expiring Stock</code> widget.
+                Note that the widget isn't displayed if both of these threshold settings are unconfigured.</td>
+        </tr>
+        <tr>
+            <td class="child">◦ Second threshold for expiring items (days)</td>
+            <td>Days before expiry to stop flagging as "expiring soon." Used in Expiring Stock widget.</td>
+        </tr>
+        <tr>
+            <td>Custom colour of page footer</td>
+            <td>The colour of the page footer can be changed to a store-specific value</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="parent">Warn users when creating internal order if there is no recent stocktake</td>
+        </tr>
+        <tr>
+            <td class="child">Enable</td>
+            <td>Enable this feature</td>
+        </tr>
+        <tr>
+            <td class="child">Max age</td>
+            <td>Days since the last stocktake with the required minimum items has been taken</td>
+        </tr>
+        <tr>
+            <td class="child">Min items</td>
+            <td>A minimum number of items that the stocktake must contain to be considered - you may wish to ignore
+                stocktakes which only have one or two items in them, for example. </td>
+            </tr,>
+        <tr>
+            <td>Invoice status options</td>
+            <td>Configure which invoice statuses are available for Outbound shipments / supplier returns, and inbound
+                shipments / customer return.</td>
+        </tr>
+    </tbody>
+</table>
 When selecting a store custom colour, you can enter a HEX colour value directly or use the colour picker:
 
 ![Colour picker](images/store_colour_picker.png)

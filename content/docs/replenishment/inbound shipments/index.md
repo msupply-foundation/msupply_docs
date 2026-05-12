@@ -183,7 +183,7 @@ You can also add a **Service charges** if you wish to add other charges such as 
 
 The tax rate (%) for service charges and the items sell price can also be edited by clicking on the pencil icon. A pop-up window will appear for you to enter a value.
 
-###### Foreign Currencies
+##### Foreign Currencies
 
 If your store is issuing in foreign currencies follow [these instructions](https://docs.msupply.org.nz/other_stuff:currencies) in the central server documentation to set it up. You will also need to enable the store preference `Store: Able to issue in foreign currency`. This preference is compatible with Open mSupply `v1.7.0+`.
 
@@ -192,7 +192,8 @@ If your store is issuing in foreign currencies follow [these instructions](https
 The pen icon will become active once the above instructions have been followed and only if the customer is an external customer. Click on this icon and change to a currency that you would like to issue the shipment in. The currency rate can also be edited if you and the customer have agreed on a different rate.
 ![](images/is_change_foreign_currency.png)
 
-You can also see the foreign currency totals in the invoice line details as well.
+You can also see the foreign currency totals in the invoice line details as well. In this screenshot you'll see the terms `FC cost price` and `FC line total`. `FC` here refer to `Foreign Currency` and show a read-only conversion of the price in the foreign currency.
+
 ![Line with Foreign Currency Pricing](images/is_line_with_foreign_currency.png)
 
 <div class="tip">See the <a href="/docs/introduction/faq/#is-there-support-for-my-currency">currency support question</a> for the list of codes supported</div>
