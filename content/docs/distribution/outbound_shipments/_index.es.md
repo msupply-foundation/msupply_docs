@@ -1,5 +1,5 @@
 +++
-title = "Distribución"
+title = "Salidas"
 description = "Envío de productos a otros almacenes"
 template = "docs/section.es.html"
 sort_by = "weight"

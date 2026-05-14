@@ -1,5 +1,5 @@
 +++
-title = "Distribution"
+title = "Outbound shipments"
 description = "Sending Stuff to Facilities."
 template = "docs/section.html"
 sort_by = "weight"

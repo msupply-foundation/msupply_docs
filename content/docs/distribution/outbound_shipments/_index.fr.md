@@ -1,5 +1,5 @@
 +++
-title = "Distribution"
+title = "Expéditions"
 description = "Distribuer aux autres dépôts."
 template = "docs/section.fr.html"
 sort_by = "weight"

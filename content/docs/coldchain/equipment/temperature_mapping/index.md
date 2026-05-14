@@ -46,13 +46,13 @@ When a temperature mapping exercise has been completed on a cold room or freezer
 
 1. Go to `Cold chain` > `Equipment` in the navigation panel.
 2. Locate the cold room or freezer room asset and click on it to open the detail view.
-3. Click the **Record Mapping** button.
+3. Click the **Temperature mapping** button.
 
-![Equipment detail view with the Record Mapping button highlighted](images/cm_record_mapping_button.png)
+![Equipment detail view with the Temperature Mapping button highlighted](images/cm_temperature_mapping_button.png)
 
-The **Temperature Mapping** dialog will open.
+The **Temperature Mapping** dialogue will open.
 
-![Temperature Mapping dialog showing Date and Observations fields](images/cm_mapping_dialog.png)
+![Temperature Mapping dialogue showing Date and Observations fields](images/cm_mapping_dialog.png)
 
 4. In the **Date** field, enter the date on which the temperature mapping was performed.
 
@@ -74,10 +74,10 @@ After saving:
 All temperature mapping records for an asset are stored as asset log entries. To view the full history of mapping events:
 
 1. Open the cold room or freezer room asset detail view.
-2. Navigate to the **Logs** tab.
+2. Navigate to the **Status history** tab.
 3. Filter by log type **Temperature Mapping** to see only mapping records.
 
-![Asset logs tab filtered to show Temperature Mapping entries](images/cm_mapping_logs.png)
+![Status history tab filtered to show Temperature Mapping entries](images/cm_mapping_history.png)
 
 Each log entry displays:
 
@@ -89,19 +89,10 @@ Each log entry displays:
 
 ## Importing Mapping Dates
 
-If you have historical mapping records that pre-date your use of Open mSupply, you can import initial and most recent mapping dates as part of a bulk [cold chain equipment import](/docs/coldchain/equipment/#import).
+If you have historical mapping records that pre-date your use of Open mSupply, you can import initial and most recent mapping dates as part of a bulk [cold chain equipment import](/docs/coldchain/equipment/equipment/#import).
 
 When mapping dates are included in an import file, Open mSupply automatically creates corresponding mapping log entries in the background so that the dates are treated as part of the asset's mapping history. This ensures that the **Initial mapping date** and **Most recent mapping date** fields remain accurate even when data is loaded via import rather than through the **Record Mapping** button.
 
 <div class="tip">
-For guidance on the import file format and required columns, see <a href="/docs/coldchain/equipment/#import">Importing Cold Chain Equipment</a>.
+For guidance on the import file format and required columns, see <a href="/docs/coldchain/equipment/equipment/#import">Importing Cold Chain Equipment</a>.
 </div>
-
-## Why Temperature Mapping Matters
-
-Regular temperature mapping is a requirement of Good Storage Practice (GSP) guidelines for vaccine cold chain management. Key reasons to keep mapping records up to date include:
-
-- **Verifying equipment performance**: Mapping confirms that temperature is maintained uniformly throughout the storage volume, identifying any hot or cold spots.
-- **Supporting regulatory compliance**: Many national immunisation programmes require documented evidence of cold room mapping at installation and periodically thereafter.
-- **Guiding corrective action**: Observations recorded during mapping can inform maintenance decisions and equipment adjustments.
-- **Tracking mapping frequency**: The **Most recent mapping date** makes it easy to identify cold rooms that are overdue for re-mapping.

@@ -55,8 +55,6 @@ The equipment list is divided into 6 columns:
 
 The list can display a fixed number of assets per page. On the bottom left corner, you can see how many assets are currently displayed on your screen.
 
-
-
 If you have more assets than the current limit, you can navigate to the other pages by tapping on the page number or using the right of left arrows (bottom right corner).
 
 You can also select a different number of rows to show per page using the option at the bottom right of the page.
