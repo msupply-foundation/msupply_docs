@@ -25,29 +25,41 @@ A detailed list of your inventory appears:
 
 ![Stock: list](images/stock_viewstock.png)
 
-| Column            | Description                                                                                                                                                                                    |
-| :---------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Code**          | Code assigned to this item in mSupply                                                                                                                                                          |
-| **Name**          | This is the name by which mSupply will refer to the item                                                                                                                                       |
-| **Batch**         | Batch number of the stock line                                                                                                                                                                 |
-| **Expiry**        | Expiry date of the batch. Note that the date shows in a red font if there is less than four months from now until the expiry date.                                                             |
-| **VVM Status\***  | <p style="margin-bottom: 0">Indicates the vaccine's viability.</p> <small>\*Enabled via the [Manage VVM status for stock](/docs/manage/facilities/#store-preferences) store preference</small> |
-| **Location**      | Where the item is being stored in your facility                                                                                                                                                |
-| **Unit**          | The unit of measure for the item                                                                                                                                                               |
-| **Pack Size**     | The pack size of the item                                                                                                                                                                      |
-| **Pack Qty**      | Total quantity of stock in your store, in packs                                                                                                                                                |
-| **SOH**           | Total quantity of stock in your store, in units                                                                                                                                                |
-| **Available SOH** | Available stock on hand (not allocated for distribution), in units                                                                                                                             |
-| **Pack cost**     | Cost price per pack                                                                                                                                                                            |
-| **Total**         | Total value of SOH (`Pack qty x Pack cost`)                                                                                                                                                    |
-| **Manufacturer**  | The manufacturer of this stock item. Automatically set when an item variant is selected, or can be manually entered                                                                            |
-| **Supplier**      | Shows the source of this stock item                                                                                                                                                            |
+| Column               | Description                                                                                                                                                                                    |
+| :------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Code**             | Code assigned to this item in mSupply                                                                                                                                                          |
+| **Name**             | This is the name by which mSupply will refer to the item                                                                                                                                       |
+| **Master lists**     | Displays the name of all master lists which this item belongs to                                                                                                                               |
+| **Batch**            | Batch number of the stock line                                                                                                                                                                 |
+| **Expiry**           | Expiry date of the batch. Note that the date shows in a red font if there is less than four months from now until the expiry date.                                                             |
+| **Manufacture date** | The manufacture date of the batch                                                                                                                                                              |
+| **VVM Status\***     | <p style="margin-bottom: 0">Indicates the vaccine's viability.</p> <small>\*Enabled via the [Manage VVM status for stock](/docs/manage/facilities/#store-preferences) store preference</small> |
+| **Location**         | Where the item is being stored in your facility                                                                                                                                                |
+| **Unit**             | The unit of measure for the item                                                                                                                                                               |
+| **Pack Size**        | The pack size of the item                                                                                                                                                                      |
+| **Pack Qty**         | Total quantity of stock in your store, in packs                                                                                                                                                |
+| **SOH**              | Total quantity of stock in your store, in units                                                                                                                                                |
+| **Available stock**  | Available stock on hand (not allocated for distribution), in units                                                                                                                             |
+| **Pack cost price**  | Cost price per pack                                                                                                                                                                            |
+| **Total**            | Total value of SOH (`Pack qty x Pack cost`)                                                                                                                                                    |
+| **Manufacturer**     | The manufacturer of this stock item. Automatically set when an item variant is selected, or can be manually entered                                                                            |
+| **Supplier**         | Shows the source of this stock item                                                                                                                                                            |
 
 ### Looking for a specific item
 
 There are a number of available filters, to help you find the stock you are looking for. You can also use the search box to filter by item name, code or batch.
 
 ![Stock: filter](images/stock_filter.png)
+
+### Group by item
+
+To reduce the number of rows displayed in the table you can click the `Group by item button` which is located at the top right of the table:
+
+![Stock: filter](images/stock_group_by_item.png)
+
+Doing so will group stock lines by the item, such as _Artemether/Lumefantrine 20/120mg Tablet_ in this example:
+
+![Stock: filter](images/stock_grouped_by_item.png)
 
 ### Exporting Stock
 

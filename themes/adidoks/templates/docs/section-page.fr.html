@@ -1,0 +1,31 @@
+{% extends "section.html" %}
+
+{% block body %}
+  {% set page_class = "docs single" %}
+{% endblock body %}
+
+{% block header %}
+  {% set current_section = "docs" %}
+  {{ macros_header::header(current_section=current_section)}}
+{% endblock header %}
+
+{% block content %}
+<div class="wrap container" role="document">
+  <div class="content">
+    <div class="row flex-xl-nowrap">
+      {{ macros_sidebar::docs_sidebar(current_section=current_section) }}
+      <main class="docs-content col-lg-11 col-xl-9">
+        {{ macros_language_selector::language_selector() }}
+        <h1>{{ section.title }}</h1>
+        {% if section.extra.lead %}
+        <p class="lead">{{ section.extra.lead | safe }}</p>
+        {% endif %}
+        {{ section.content | safe }}
+        {% if config.extra.edit_page %}
+          {{ macros_edit_page::docs_edit_page(current_path=current_path) }}
+        {% endif %}
+      </main>
+    </div>
+  </div>
+</div>
+{% endblock content %}
