@@ -37,9 +37,30 @@
 						<div id="collapse{{ subsection.title | slugify }}" class="accordion-collapse collapse {% if subsection.permalink in current_url %} show {% endif %}" aria-labelledby="{{ subsection.title | slugify }}" {% if subsection.permalink not in current_url %} data-bs-parent="#accordionSubMenu" {% endif %}>
 						  <div class="accordion-body">
 							<ul class="list-unstyled">
-							  {% for page in subsection.pages %}                           
-								  <li><a class="docs-link{% if current_url == page.permalink %} active{% endif %}" href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
-							  {% endfor %}
+							  {% for page in subsection.pages %}
+							  {% set tidy_url = current_url | replace(from=" ", to="-") | replace(from="_", to="-") %}
+							  {% set page_url = page.permalink | replace(from=" ", to="-") | replace(from="_", to="-") %}
+							  {% set is_active = page_url in tidy_url %}
+								  <li><a class="docs-link{% if is_active %} active{% endif %}" href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+									{% if is_active %}
+										{% for sub_s in subsection.subsections %}
+											{% set candidate = get_section(path=sub_s) %}
+											{% set candidate_url = candidate.permalink | replace(from=" ", to="-") | replace(from="_", to="-") %}
+											{% if candidate_url == page.permalink %}
+												{% for sub_s in subsection.subsections %}
+													{% set sub_subsection = get_section(path=sub_s) %}
+													{% if sub_subsection.pages %}
+													<ul class="list-unstyled">
+														{% for page in sub_subsection.pages %}
+														<li><a class="docs-link docs-link-nested{% if current_url in page.permalink %} active{% endif %}" href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+														{% endfor %}
+													</ul>
+													{% endif %}
+												{% endfor %}
+											{% endif %}
+										{% endfor %}
+									{% endif %}
+								{% endfor %}
 							  </ul>
 						  </div>
 						</div>

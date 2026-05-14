@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/m2/GitHub/msupply_docs status content/docs/distribution/outbound_shipments/)",
+      "Bash(git -C /Users/m2/GitHub/msupply_docs status content/docs/coldchain/equipment/)",
+      "Bash(git -C /Users/m2/GitHub/msupply_docs log --oneline --diff-filter=A -- \"content/docs/distribution/outbound_shipments/index.md\" \"content/docs/coldchain/equipment/index.md\")",
+      "Bash(zola --version)",
+      "Bash(git -C /Users/m2/GitHub/msupply_docs log --oneline --diff-filter=A -- \"content/docs/distribution/outbound_shipments/index.md\")",
+      "Bash(git -C /Users/m2/GitHub/msupply_docs log --oneline --diff-filter=A -- \"content/docs/coldchain/equipment/index.md\")",
+      "Bash(git -C /Users/m2/GitHub/msupply_docs show --stat 0eb74a9466)",
+      "Bash(git -C /Users/m2/GitHub/msupply_docs show --stat 8531945150)",
+      "Bash(git -C /Users/m2/GitHub/msupply_docs show 8531945150 --stat)"
+    ]
+  }
+}

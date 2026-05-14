@@ -92,6 +92,20 @@ a.docs-link {
   color: $link-color;
 }
 
+.docs-link-sub-header {
+  font-size: $font-size-sm;
+  font-weight: 600;
+  color: $gray-600;
+  text-transform: uppercase;
+  margin: 0.75rem 0 0.25rem 0;
+  padding: 0;
+}
+
+a.docs-link.docs-link-nested {
+  padding-left: 0.75rem;
+  font-size: $font-size-base * 0.9375;
+}
+
 .docs-links h3.sidebar-link,
 .page-links h3.sidebar-link {
   text-transform: none;

@@ -62,6 +62,14 @@ Lookback days are calculated as `Days in a month * Lookback months`.
  If you are using any plugins that exclude transfers from the AMC calculation, then your calculation will be (consumption - transfers).
 </div>
 
+### Backdating
+
+The `Backdating` preference is where to enable and configure the backdating of shipments (inbound and outbound) and inventory adjustments.
+
+![amc preferences](images/backdating_preference.png)
+
+Shipments can be enabled separately to inventory adjustments. You can also define the maximum number of days in the past which can be selected.
+
 ### Custom translations
 
 The `Custom translations` preference allows you to override specific terms used in the application. This is useful for localisation (or even localization!) or to adapt terminology to your specific context.
