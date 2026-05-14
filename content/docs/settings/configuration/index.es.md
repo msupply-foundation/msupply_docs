@@ -13,7 +13,7 @@ toc = true
 top = false
 +++
 
-La sección de configuración permite configurar datos personalizados para el sistema. Solo está disponible en el [Servidor Central de Open mSupply](/docs/getting_started/central-server).
+La sección de configuración permite configurar datos personalizados para el sistema. Solo está disponible en el [Servidor Central de Open mSupply](/docs/getting-started/central-server).
 
 ## Ver la configuración de los ajustes
 

@@ -13,7 +13,7 @@ toc = true
 top = false
 +++
 
-Open mSupply uses several threshold settings to help you manage stock levels - knowing when you have too much or too little stock. These settings are used in different parts of the system including [R&R forms](/docs/replenishment/r-and-r-forms/), the [Dashboard](/docs/getting_started/dashboard/), reports, and population-based forecasting.
+Open mSupply uses several threshold settings to help you manage stock levels - knowing when you have too much or too little stock. These settings are used in different parts of the system including [R&R forms](/docs/replenishment/r-and-r-forms/), the [Dashboard](/docs/getting-started/dashboard/), reports, and population-based forecasting.
 
 This page explains each threshold settings, where it is configured, and how the system uses it.
 
@@ -30,7 +30,7 @@ This page explains each threshold settings, where it is configured, and how the 
 
 ## Dashboard Alert Thresholds
 
-The dashboard alert thresholds control when items appear in the stock alert widgets on the [dashboard](/docs/getting_started/dashboard/). Both values are measured in months of stock and are configured in Open mSupply store preferences.
+The dashboard alert thresholds control when items appear in the stock alert widgets on the [dashboard](/docs/getting-started/dashboard/). Both values are measured in months of stock and are configured in Open mSupply store preferences.
 
 To configure these settings, navigate to `Manage` > `Stores`, select a store, and adjust the preferences. See [Store Preferences](/docs/manage/facilities/#store-preferences) for more detail.
 

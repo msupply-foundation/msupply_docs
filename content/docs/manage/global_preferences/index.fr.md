@@ -13,7 +13,7 @@ toc = true
 top = false
 +++
 
-La liste des préférences globales est disponible uniquement sur le [Serveur Central Open mSupply](/docs/getting_started/central-server). Ce sont des préférences qui s'appliquent à tous les sites Open mSupply.
+La liste des préférences globales est disponible uniquement sur le [Serveur Central Open mSupply](/docs/getting-started/central-server). Ce sont des préférences qui s'appliquent à tous les sites Open mSupply.
 
 ## Consulter les préférences globales
 
@@ -50,10 +50,10 @@ Le calcul de base est : **(Consommation / Mois de référence) \* Jours de réf�
 
 Vous pouvez ajuster le fonctionnement du calcul à l'aide des préférences suivantes :
 
-| Nom de la préférence                               | Description                                                                                                                                                                                                                                                                                                                                                                  |
-| :------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Nom de la préférence                                      | Description                                                                                                                                                                                                                                                                                                                                                                                                              |
+| :-------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Ajuster pour le nombre de jours en rupture de stock :** | Exclure les jours de la période de référence où l'article était en rupture de stock toute la journée. Les jours de référence sont ajustés pour exclure les jours en rupture si cette préférence est activée. Remarque : les jours sont comptés en rupture de stock lorsque l'article a déjà été en stock (c'est-à-dire pas un nouvel article), et avait un solde nul à la fin de la journée et de la journée précédente. |
-| **Jours dans un mois :**                           | Le nombre de jours par mois utilisé dans le calcul de la CMM. Si aucune valeur n'est fournie, la valeur par défaut est utilisée (jours moyens par mois = 30,4375).                                                                                                                                                                                                           |
+| **Jours dans un mois :**                                  | Le nombre de jours par mois utilisé dans le calcul de la CMM. Si aucune valeur n'est fournie, la valeur par défaut est utilisée (jours moyens par mois = 30,4375).                                                                                                                                                                                                                                                       |
 
 Les [mois de référence](https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab) sont configurables par dépôt dans mSupply avec la préférence `Période de référence de la consommation mensuelle`. Le paramètre par défaut est 3 mois.
 
@@ -126,13 +126,13 @@ Si vous ne remplissez pas ces conditions, vous pouvez tout de même personnalise
 
 Lorsque vous enregistrez une valeur par défaut globale, les paramètres suivants sont capturés pour ce tableau :
 
-| Paramètre             | Description                                              |
-| --------------------- | -------------------------------------------------------- |
-| Visibilité des colonnes | Quelles colonnes sont affichées ou masquées            |
-| Ordre des colonnes    | La séquence dans laquelle les colonnes apparaissent      |
-| Taille des colonnes   | La largeur de chaque colonne                             |
-| Épinglage des colonnes| Quelles colonnes sont épinglées à gauche ou à droite     |
-| Densité des lignes    | La hauteur des lignes — compacte, confortable ou spacieuse |
+| Paramètre               | Description                                                |
+| ----------------------- | ---------------------------------------------------------- |
+| Visibilité des colonnes | Quelles colonnes sont affichées ou masquées                |
+| Ordre des colonnes      | La séquence dans laquelle les colonnes apparaissent        |
+| Taille des colonnes     | La largeur de chaque colonne                               |
+| Épinglage des colonnes  | Quelles colonnes sont épinglées à gauche ou à droite       |
+| Densité des lignes      | La hauteur des lignes — compacte, confortable ou spacieuse |
 
 Chaque tableau dans Open mSupply a sa propre valeur par défaut globale indépendante. Enregistrer une valeur par défaut sur le tableau _Articles_ n'affecte pas le tableau _Expéditions sortantes_ ni aucun autre tableau.
 

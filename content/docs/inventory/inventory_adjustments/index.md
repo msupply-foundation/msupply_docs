@@ -38,31 +38,31 @@ The dialog displays information about the selected stock item and provides field
 
 At the top of the dialog you can see:
 
-| Field | Description |
-| :--- | :--- |
+| Field         | Description                         |
+| :------------ | :---------------------------------- |
 | **Item Name** | The name of the item being adjusted |
-| **Code** | The item code |
-| **Pack Size** | The pack size for this stock line |
+| **Code**      | The item code                       |
+| **Pack Size** | The pack size for this stock line   |
 
 ### Stock statistics
 
 Two cards display the current stock levels and a preview of the adjusted values:
 
-| Card | Description |
-| :--- | :--- |
+| Card                | Description                                                                                     |
+| :------------------ | :---------------------------------------------------------------------------------------------- |
 | **Available Packs** | Shows the current available quantity and the projected quantity after the adjustment is applied |
-| **Packs on Hand** | Shows the current packs on hand and the projected quantity after adjustment |
+| **Packs on Hand**   | Shows the current packs on hand and the projected quantity after adjustment                     |
 
 When a [backdated date](#backdating-an-adjustment) is selected, these cards display the **historical** stock level at that date alongside the projected adjusted value.
 
 ### Adjustment fields
 
-| Field | Description |
-| :--- | :--- |
-| **Increase / Decrease** | Select whether this adjustment will add stock (**Increase**) or remove stock (**Decrease**) |
-| **Adjust packs** | Enter the number of packs to add or remove |
-| **Date** | *(Optional, only visible if backdating is enabled)* The date the adjustment should be recorded as. Defaults to today. See [Backdating an Adjustment](#backdating-an-adjustment). |
-| **Reason** | Select a reason for the adjustment from the list. Reasons are configured by your system administrator. |
+| Field                   | Description                                                                                                                                                                      |
+| :---------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Increase / Decrease** | Select whether this adjustment will add stock (**Increase**) or remove stock (**Decrease**)                                                                                      |
+| **Adjust packs**        | Enter the number of packs to add or remove                                                                                                                                       |
+| **Date**                | _(Optional, only visible if backdating is enabled)_ The date the adjustment should be recorded as. Defaults to today. See [Backdating an Adjustment](#backdating-an-adjustment). |
+| **Reason**              | Select a reason for the adjustment from the list. Reasons are configured by your system administrator.                                                                           |
 
 <div class="note">
 The <strong>Reason</strong> field is required and will remain disabled until you enter a quantity greater than zero.
@@ -126,11 +126,11 @@ If you select today's date in the **Date** field, the system treats this as a no
 
 ## Administrator Configuration
 
-Backdating for inventory adjustments is controlled by the **Backdating** global preference, available on the [Open mSupply Central Server](/docs/getting_started/central-server).
+Backdating for inventory adjustments is controlled by the **Backdating** global preference, available on the [Open mSupply Central Server](/docs/getting-started/central-server).
 
-| Setting | Description |
-| :--- | :--- |
-| **Inventory adjustments enabled** | Enables or disables the **Date** field in the Stock Adjustment dialog. |
-| **Max days** | The maximum number of days in the past that an adjustment can be backdated. Set to `0` for no limit. |
+| Setting                           | Description                                                                                          |
+| :-------------------------------- | :--------------------------------------------------------------------------------------------------- |
+| **Inventory adjustments enabled** | Enables or disables the **Date** field in the Stock Adjustment dialog.                               |
+| **Max days**                      | The maximum number of days in the past that an adjustment can be backdated. Set to `0` for no limit. |
 
 See [Global Preferences](/docs/manage/global-preferences/) for instructions on configuring these settings.

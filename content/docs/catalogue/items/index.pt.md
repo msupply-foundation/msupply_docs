@@ -135,7 +135,7 @@ Selecione um ou mais filtros para restringir os resultados. A lista será atuali
 
 ## Variantes de Itens
 
-No [Servidor Central Open mSupply](../../getting_started/central-server/), uma terceira aba, Variantes de Itens, está disponível. Esta aba permite que você configure variações do item, como diferentes fabricantes ou tamanhos de embalagem.
+No [Servidor Central Open mSupply](../../getting-started/central-server/), uma terceira aba, Variantes de Itens, está disponível. Esta aba permite que você configure variações do item, como diferentes fabricantes ou tamanhos de embalagem.
 
 Atualmente, as Variantes de Itens são usadas apenas para funcionalidade GAPS.
 

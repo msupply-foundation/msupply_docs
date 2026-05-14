@@ -23,7 +23,7 @@ For GAPS functionality, you will only need to configure a new Master List, and m
 
 For Immunization [Patient Programs](/docs/programs/program-module), contact your administrator to get set up.
 
-Once the base Immunization Program is created, it can be further configured in the [Open mSupply Central Server](/docs/getting_started/central-server). See the <a href="#permissions-restrictions">Permissions & Restrictions</a> section for more details.
+Once the base Immunization Program is created, it can be further configured in the [Open mSupply Central Server](/docs/getting-started/central-server). See the <a href="#permissions-restrictions">Permissions & Restrictions</a> section for more details.
 
 ## Viewing Immunization Programs
 
@@ -148,7 +148,7 @@ A notification in the bottom left corner will confirm how many courses were dele
 
 ## Permissions & Restrictions
 
-Immunization Programs can only be managed on the [Open mSupply Central Server](/docs/getting_started/central-server) and requires the [`mobile: Uses vaccine module`](https://docs.msupply.org.nz/cold_chain_equipment:mobile?s[]=vaccine#enable_the_vaccine_module_for_the_mobile_store) store preference.
+Immunization Programs can only be managed on the [Open mSupply Central Server](/docs/getting-started/central-server) and requires the [`mobile: Uses vaccine module`](https://docs.msupply.org.nz/cold_chain_equipment:mobile?s[]=vaccine#enable_the_vaccine_module_for_the_mobile_store) store preference.
 
 ![mSupply Store Preference Vaccine Module](images/vaccine_module.png)
 

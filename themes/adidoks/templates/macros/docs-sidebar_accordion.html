@@ -36,42 +36,41 @@
 						</h5>
 						<div id="collapse{{ subsection.title | slugify }}" class="accordion-collapse collapse {% if subsection.permalink in current_url %} show {% endif %}" aria-labelledby="{{ subsection.title | slugify }}" {% if subsection.permalink not in current_url %} data-bs-parent="#accordionSubMenu" {% endif %}>
 						  <div class="accordion-body">
-							<ul class="list-unstyled">
+							<ul class="list-unstyled">							
+								{% if subsection.subsections %}
+								<li><div class="accordion accordion-flush" id="accordionSubMenu{{ subsection.title | slugify }}">
+									{% for ss in subsection.subsections %}
+									{% set subsubsection = get_section(path=ss) %}
+									{% if subsubsection.pages %}
+									<div class="accordion-subitem">
+										<div id="{{ subsection.title | slugify }}-{{ subsubsection.title | slugify }}">
+											{% if subsubsection.permalink in current_url %}
+												<a class="docs-link docs-link-toggle" data-bs-toggle="collapse" data-bs-target="#collapse{{ subsection.title | slugify }}-{{ subsubsection.title | slugify }}" aria-expanded="true" aria-controls="collapse{{ subsection.title | slugify }}-{{ subsubsection.title | slugify }}">
+													{{ subsubsection.title }}
+												</a>
+											{% else %}
+												<a class="docs-link docs-link-toggle collapsed" data-bs-toggle="collapse" data-bs-target="#collapse{{ subsection.title | slugify }}-{{ subsubsection.title | slugify }}" aria-expanded="false" aria-controls="collapse{{ subsection.title | slugify }}-{{ subsubsection.title | slugify }}">
+													{{ subsubsection.title }}
+												</a>
+											{% endif %}
+										</div>
+										<div id="collapse{{ subsection.title | slugify }}-{{ subsubsection.title | slugify }}" class="accordion-collapse collapse {% if subsubsection.permalink in current_url %} show {% endif %}" aria-labelledby="{{ subsection.title | slugify }}-{{ subsubsection.title | slugify }}" {% if subsubsection.permalink not in current_url %} data-bs-parent="#accordionSubMenu{{ subsection.title | slugify }}" {% endif %}>
+										<div class="accordion-body">
+											<ul class="list-unstyled">
+											{% for page in subsubsection.pages %}
+												<li><a class="docs-link{% if current_url == page.permalink %} active{% endif %}" href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+											{% endfor %}
+											</ul>
+										</div>
+										</div>
+									</div>
+									{% endif %}
+									{% endfor %}
+								</div></li>
+								{% endif %}
 							  {% for page in subsection.pages %}
 								  <li><a class="docs-link{% if current_url == page.permalink %} active{% endif %}" href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
 							  {% endfor %}
-							
-							{% if subsection.subsections %}
-							<li><div class="accordion accordion-flush" id="accordionSubMenu{{ subsection.title | slugify }}">
-								{% for ss in subsection.subsections %}
-								{% set subsubsection = get_section(path=ss) %}
-								{% if subsubsection.pages %}
-								<div class="accordion-subitem">
-									<div id="{{ subsection.title | slugify }}-{{ subsubsection.title | slugify }}">
-										{% if subsubsection.permalink in current_url %}
-											<a class="docs-link docs-link-toggle" data-bs-toggle="collapse" data-bs-target="#collapse{{ subsection.title | slugify }}-{{ subsubsection.title | slugify }}" aria-expanded="true" aria-controls="collapse{{ subsection.title | slugify }}-{{ subsubsection.title | slugify }}">
-												{{ subsubsection.title }}
-											</a>
-										{% else %}
-											<a class="docs-link docs-link-toggle collapsed" data-bs-toggle="collapse" data-bs-target="#collapse{{ subsection.title | slugify }}-{{ subsubsection.title | slugify }}" aria-expanded="false" aria-controls="collapse{{ subsection.title | slugify }}-{{ subsubsection.title | slugify }}">
-												{{ subsubsection.title }}
-											</a>
-										{% endif %}
-									</div>
-									<div id="collapse{{ subsection.title | slugify }}-{{ subsubsection.title | slugify }}" class="accordion-collapse collapse {% if subsubsection.permalink in current_url %} show {% endif %}" aria-labelledby="{{ subsection.title | slugify }}-{{ subsubsection.title | slugify }}" {% if subsubsection.permalink not in current_url %} data-bs-parent="#accordionSubMenu{{ subsection.title | slugify }}" {% endif %}>
-									<div class="accordion-body">
-										<ul class="list-unstyled">
-										{% for page in subsubsection.pages %}
-											<li><a class="docs-link{% if current_url == page.permalink %} active{% endif %}" href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
-										{% endfor %}
-										</ul>
-									</div>
-									</div>
-								</div>
-								{% endif %}
-								{% endfor %}
-							</div></li>
-							{% endif %}
 							</ul>
 						  </div>
 						</div>

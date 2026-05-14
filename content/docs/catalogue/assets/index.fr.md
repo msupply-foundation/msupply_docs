@@ -30,15 +30,15 @@ Vous pouvez voir ici tous les équipements disponibles dans votre dépôt.
 
 La liste des équipements est divisée en 6 colonnes :
 
-| Colonne             | Description                                                                                                               |
-| :------------------ | :------------------------------------------------------------------------------------------------------------------------ |
-| **Sous-catalogue**  | Le catalogue auquel cet équipement appartient                                                                             |
-| **Code**            | Le code de l'article du catalogue auquel cet équipement appartient                                                       |
-| **Type**            | Le type d'équipement                                                                                                      |
-| **Fabricant**       | Le fabricant de votre équipement                                                                                          |
-| **Modèle**          | Le numéro de modèle de l'équipement                                                                                       |
-| **Classe**          | La classe de l'équipement. ex : `Équipement de chaîne du froid`                                                          |
-| **Catégorie**       | La sous-catégorie de l'équipement, ex. section E003 dans le catalogue PQS qui correspond aux `Réfrigérateurs et congélateurs` |
+| Colonne            | Description                                                                                                                   |
+| :----------------- | :---------------------------------------------------------------------------------------------------------------------------- |
+| **Sous-catalogue** | Le catalogue auquel cet équipement appartient                                                                                 |
+| **Code**           | Le code de l'article du catalogue auquel cet équipement appartient                                                            |
+| **Type**           | Le type d'équipement                                                                                                          |
+| **Fabricant**      | Le fabricant de votre équipement                                                                                              |
+| **Modèle**         | Le numéro de modèle de l'équipement                                                                                           |
+| **Classe**         | La classe de l'équipement. ex : `Équipement de chaîne du froid`                                                               |
+| **Catégorie**      | La sous-catégorie de l'équipement, ex. section E003 dans le catalogue PQS qui correspond aux `Réfrigérateurs et congélateurs` |
 
 ![Page équipements](images-en/assets_page.png)
 
@@ -62,7 +62,7 @@ Pour ajouter un filtre à la page, choisissez le filtre souhaité dans le menu d
 
 ### Importer et exporter
 
-L'importation et la suppression d'articles du catalogue d'équipements ne peuvent être effectuées que depuis le [Serveur Central Open mSupply](/docs/getting_started/central-server).
+L'importation et la suppression d'articles du catalogue d'équipements ne peuvent être effectuées que depuis le [Serveur Central Open mSupply](/docs/getting-started/central-server).
 
 #### Importer
 
@@ -96,7 +96,7 @@ Sur le Serveur Central Open mSupply, il est possible de sélectionner et supprim
 
 ### Gérer les raisons du journal de statut
 
-<div class="note">Les raisons du journal de statut sont gérées depuis le <a href="/docs/getting_started/central-server">serveur central Open mSupply</a>.</div>
+<div class="note">Les raisons du journal de statut sont gérées depuis le <a href="/docs/getting-started/central-server">serveur central Open mSupply</a>.</div>
 
 Lorsque les utilisateurs ajoutent un nouveau journal de statut pour un équipement particulier, des détails supplémentaires peuvent être fournis avec une raison associée au nouveau statut. Par exemple, un équipement qui a été étiqueté `NON_FONCTIONNEL` pourrait se voir attribuer la raison `alimentation électrique défectueuse`. Ces raisons sont personnalisables et associées à un statut particulier.
 

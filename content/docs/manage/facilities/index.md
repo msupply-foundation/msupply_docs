@@ -13,7 +13,7 @@ toc = true
 top = false
 +++
 
-The Stores list is available only on the [Open mSupply Central Server](/docs/getting_started/central-server). This is where you can view all stores, and manage their properties.
+The Stores list is available only on the [Open mSupply Central Server](/docs/getting-started/central-server). This is where you can view all stores, and manage their properties.
 
 ## Viewing Stores
 
@@ -221,7 +221,7 @@ Click `Cancel` at any time to revert your changes and close the window.
 
 ## Permissions & Restrictions
 
-Stores are only visible on the [Open mSupply Central Server](/docs/getting_started/central-server).
+Stores are only visible on the [Open mSupply Central Server](/docs/getting-started/central-server).
 
 To Edit stores centrally you need the `Can modify central data` permission, enabled in the [omSupply Permissions Tab](https://docs.msupply.org.nz/admin:managing_users?s[]=permission#omsupply_permissions_tab) on your Central Store.
 

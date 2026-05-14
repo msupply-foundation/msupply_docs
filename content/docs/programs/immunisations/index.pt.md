@@ -26,7 +26,7 @@ Para a funcionalidade GAPS, apenas terá de configurar uma nova Lista Mestre e m
 
 Para a imunização [Programas de doentes](/docs/programs/program-module), contacte o seu administrador para fazer a configuração.
 
-Depois de o Programa de Imunização base ser criado, pode ser ainda mais configurado no <a href='/docs/getting_started/central-server'>Open mSupply Central Server<a>. Consulte a secção <a href="#permissions-restrictions">Permissões e restrições</a> para mais detalhes.
+Depois de o Programa de Imunização base ser criado, pode ser ainda mais configurado no <a href='/docs/getting-started/central-server'>Open mSupply Central Server<a>. Consulte a secção <a href="#permissions-restrictions">Permissões e restrições</a> para mais detalhes.
 
 ## Visualização de programas de imunização
 
@@ -124,7 +124,7 @@ Uma notificação no canto inferior esquerdo confirmará quantos cursos foram el
 
 ## Permissões e Restrições
 
-Os programas de imunização só podem ser geridos no [Open mSupply Central Server](/docs/getting_started/central-server) e requerem a preferência de loja [`mobile: Usa o módulo de vacinas`](https://docs.msupply.org.nz/cold_chain_equipment:mobile?s[]=vaccine#enable_the_vaccine_module_for_the_mobile_store).
+Os programas de imunização só podem ser geridos no [Open mSupply Central Server](/docs/getting-started/central-server) e requerem a preferência de loja [`mobile: Usa o módulo de vacinas`](https://docs.msupply.org.nz/cold_chain_equipment:mobile?s[]=vaccine#enable_the_vaccine_module_for_the_mobile_store).
 
 ![Módulo de vacinas de preferência da unidade de saúde mSupply](images/vaccine_module.png)
 

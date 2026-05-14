@@ -7,11 +7,11 @@ https://docs.msupply.foundation/docs/introduction/roadmap/
 https://docs.msupply.foundation/docs/introduction/requirements/
 https://docs.msupply.foundation/docs/introduction/faq/
 https://docs.msupply.foundation/docs/introduction/troubleshooting/
-https://docs.msupply.foundation/docs/getting_started/mobile/
-https://docs.msupply.foundation/docs/getting_started/central-server/
-https://docs.msupply.foundation/docs/getting_started/dashboard/
-https://docs.msupply.foundation/docs/getting_started/reports/
-https://docs.msupply.foundation/docs/getting_started/tutorial/
+https://docs.msupply.foundation/docs/getting-started/mobile/
+https://docs.msupply.foundation/docs/getting-started/central-server/
+https://docs.msupply.foundation/docs/getting-started/dashboard/
+https://docs.msupply.foundation/docs/getting-started/reports/
+https://docs.msupply.foundation/docs/getting-started/tutorial/
 https://docs.msupply.foundation/docs/distribution/customers/
 https://docs.msupply.foundation/docs/distribution/requisitions/
 https://docs.msupply.foundation/docs/distribution/outbound-shipments/

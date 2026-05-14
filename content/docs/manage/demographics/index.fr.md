@@ -15,7 +15,7 @@ top = false
 
 La section Démographie vous permet de consulter et de gérer les projections futures pour différents indicateurs démographiques. Ces données de population peuvent ensuite être utilisées pour estimer la capacité de stockage à froid requise pour les programmes de vaccination à venir.
 
-La gestion des données démographiques est uniquement disponible sur le [Serveur Central Open mSupply](/docs/getting_started/central-server).
+La gestion des données démographiques est uniquement disponible sur le [Serveur Central Open mSupply](/docs/getting-started/central-server).
 
 ## Configuration
 
@@ -35,12 +35,12 @@ Une liste des indicateurs démographiques vous sera présentée :
 
 Les colonnes suivantes sont affichées :
 
-| Colonne                  | Description                                                                             |
-| :----------------------- | :-------------------------------------------------------------------------------------- |
-| **Nom**                  | Le nom du indicateur démographique                                                      |
-| **Pourcentage**          | Pourcentage de la population générale inclus dans ce groupe démographique               |
-| **Population**           | La population calculée pour ce groupe, basée sur le `Pourcentage`                      |
-| **Colonnes sur 5 ans**   | Projections de population pour 5 années futures, basées sur les prévisions de `% de croissance` |
+| Colonne                | Description                                                                                     |
+| :--------------------- | :---------------------------------------------------------------------------------------------- |
+| **Nom**                | Le nom du indicateur démographique                                                              |
+| **Pourcentage**        | Pourcentage de la population générale inclus dans ce groupe démographique                       |
+| **Population**         | La population calculée pour ce groupe, basée sur le `Pourcentage`                               |
+| **Colonnes sur 5 ans** | Projections de population pour 5 années futures, basées sur les prévisions de `% de croissance` |
 
 ## Pourcentage de croissance annuelle
 
@@ -68,7 +68,7 @@ Cela ajoutera une nouvelle ligne au tableau. Vous pouvez maintenant saisir un no
 
 ## Permissions et restrictions
 
-Les données démographiques ne sont visibles que sur le [Serveur Central Open mSupply](/docs/getting_started/central-server) et nécessitent la préférence de dépôt [`mobile : Utilise le module vaccin`](https://docs.msupply.org.nz/cold_chain_equipment:mobile?s[]=vaccine#enable_the_vaccine_module_for_the_mobile_store).
+Les données démographiques ne sont visibles que sur le [Serveur Central Open mSupply](/docs/getting-started/central-server) et nécessitent la préférence de dépôt [`mobile : Utilise le module vaccin`](https://docs.msupply.org.nz/cold_chain_equipment:mobile?s[]=vaccine#enable_the_vaccine_module_for_the_mobile_store).
 
 ![Préférence de dépôt mSupply Module Vaccin](vaccine_module.png)
 

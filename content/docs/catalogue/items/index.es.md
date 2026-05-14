@@ -135,7 +135,7 @@ Selecciona uno o más filtros para reducir los resultados. La lista se actualiza
 
 ## Variantes de Artículos
 
-En el [Servidor Central Open mSupply](../../getting_started/central-server/), una tercera pestaña, Variantes de Artículos, está disponible. Esta pestaña te permite configurar variaciones del artículo, como diferentes fabricantes o tamaños de empaque.
+En el [Servidor Central Open mSupply](../../getting-started/central-server/), una tercera pestaña, Variantes de Artículos, está disponible. Esta pestaña te permite configurar variaciones del artículo, como diferentes fabricantes o tamaños de empaque.
 
 Actualmente, las Variantes de Artículos solo se usan para funcionalidad GAPS.
 

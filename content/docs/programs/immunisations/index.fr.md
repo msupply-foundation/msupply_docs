@@ -13,7 +13,7 @@ toc = true
 top = false
 +++
 
-Remarque : Les programmes vaccins ne sont visibles que sur le [Serveur Central Open mSupply](/docs/getting_started/central-server).
+Remarque : Les programmes vaccins ne sont visibles que sur le [Serveur Central Open mSupply](/docs/getting-started/central-server).
 
 Choisir `Programmes` > `Vaccins` dans le panneau de navigation.
 
@@ -134,7 +134,7 @@ Once you are happy with your changes, you can use the `Save` button in the botto
 
 ## Autorisations et restrictions
 
-Les programmes de vaccination ne sont visibles que sur le [Serveur Central Open mSupply](/docs/getting_started/central-server) et nécessite la préférence du dépot [`mobile: Uses vaccine module`](https://docs.msupply.org.nz/cold_chain_equipment:mobile?s[]=vaccine#enable_the_vaccine_module_for_the_mobile_store).
+Les programmes de vaccination ne sont visibles que sur le [Serveur Central Open mSupply](/docs/getting-started/central-server) et nécessite la préférence du dépot [`mobile: Uses vaccine module`](https://docs.msupply.org.nz/cold_chain_equipment:mobile?s[]=vaccine#enable_the_vaccine_module_for_the_mobile_store).
 
 ![mSupply Store Preference Vaccine Module](images/vaccine_module.png)
 

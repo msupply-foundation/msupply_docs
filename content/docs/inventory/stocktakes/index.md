@@ -99,7 +99,7 @@ Don't worry if an item is missing from your newly created stocktake. You will ha
 
 #### Vaccines
 
-If you have the [Manage vaccines in doses](/docs/manage/facilities/#store-preferences) store preference enabled you will see a column of `Doses per unit`. For stocktake lines of vaccine items, the number of doses per unit (e.g. `Vial`) is shown in this column. The `Difference` column will also show the difference in doses as well as packs:
+If you have the [Manage vaccines in doses](/docs/manage/facilities/#store-preferences) store preference enabled you will see columns for `Doses per unit` and `Doses counted`. For stocktake lines of vaccine items, the number of doses per unit (e.g. `Vial`) is shown in this column. The `Difference` column will also show the difference in doses as well as packs:
 
 ![Vaccine line](images/stocktake-vaccine-table.png)
 

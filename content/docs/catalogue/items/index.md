@@ -145,7 +145,7 @@ Select one or more filters to narrow down the results. The list will update to s
 
 ## Item Variants
 
-On the [Open mSupply Central Server](../../getting_started/central-server/) an Item Variants tab is available. This tab allows you to configure variations of the item, such as different manufacturers or packaging sizes.
+On the [Open mSupply Central Server](../../getting-started/central-server/) an Item Variants tab is available. This tab allows you to configure variations of the item, such as different manufacturers or packaging sizes.
 
 ![variants tab](images-en/variants_tab.png)
 

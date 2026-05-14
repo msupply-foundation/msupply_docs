@@ -13,7 +13,7 @@ toc = true
 top = false
 +++
 
-La liste des dépôts est disponible uniquement sur le [Serveur Central Open mSupply](/docs/getting_started/central-server). C'est ici que vous pouvez consulter tous les dépôts et gérer leurs propriétés.
+La liste des dépôts est disponible uniquement sur le [Serveur Central Open mSupply](/docs/getting-started/central-server). C'est ici que vous pouvez consulter tous les dépôts et gérer leurs propriétés.
 
 ## Consulter les dépôts
 
@@ -25,13 +25,13 @@ Une liste des dépôts de votre système vous sera présentée.
 
 La liste des dépôts est divisée en 5 colonnes :
 
-| Colonne        | Description                              |
-| :------------- | :--------------------------------------- |
-| **Code**       | Le code du dépôt                         |
-| **Nom**        | Le nom du dépôt                          |
-| **Fournisseur**| Si ce dépôt est un fournisseur           |
-| **Client**     | Si ce dépôt est un client               |
-| **Donateur**   | Si ce dépôt est un donateur             |
+| Colonne         | Description                    |
+| :-------------- | :----------------------------- |
+| **Code**        | Le code du dépôt               |
+| **Nom**         | Le nom du dépôt                |
+| **Fournisseur** | Si ce dépôt est un fournisseur |
+| **Client**      | Si ce dépôt est un client      |
+| **Donateur**    | Si ce dépôt est un donateur    |
 
 <div class="tip">
 Vous pouvez savoir si un client utilise également Open mSupply dans son dépôt s'il dispose d'une icône comme celle-ci <img src="images/is_msupplystoreicon.png" alt="Dépôt" style="width:auto"> à côté du code.
@@ -131,7 +131,7 @@ Cliquez sur `Annuler` à tout moment pour annuler vos modifications et fermer la
 
 ## Permissions et restrictions
 
-Les dépôts ne sont visibles que sur le [Serveur Central Open mSupply](/docs/getting_started/central-server).
+Les dépôts ne sont visibles que sur le [Serveur Central Open mSupply](/docs/getting-started/central-server).
 
 Pour modifier les dépôts de façon centralisée, vous avez besoin de la permission `Peut modifier les données centrales`, activée dans l'[onglet Permissions omSupply](https://docs.msupply.org.nz/admin:managing_users?s[]=permission#omsupply_permissions_tab) de votre Dépôt Central.
 

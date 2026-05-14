@@ -13,7 +13,7 @@ toc = true
 top = false
 +++
 
-Open mSupply utilise plusieurs paramètres de seuil pour vous aider à gérer les niveaux de stock — en vous indiquant quand vous avez trop peu ou trop de stock. Ces paramètres sont utilisés dans différentes parties du système, notamment dans les [formulaires R&R](/docs/replenishment/r-and-r-forms/), le [Tableau de bord](/docs/getting_started/dashboard/), les rapports et les prévisions basées sur la population.
+Open mSupply utilise plusieurs paramètres de seuil pour vous aider à gérer les niveaux de stock — en vous indiquant quand vous avez trop peu ou trop de stock. Ces paramètres sont utilisés dans différentes parties du système, notamment dans les [formulaires R&R](/docs/replenishment/r-and-r-forms/), le [Tableau de bord](/docs/getting-started/dashboard/), les rapports et les prévisions basées sur la population.
 
 Cette page explique chaque paramètre de seuil, où il est configuré et comment le système l'utilise.
 
@@ -30,7 +30,7 @@ Cette page explique chaque paramètre de seuil, où il est configuré et comment
 
 ## Seuils d'alerte du tableau de bord
 
-Les seuils d'alerte du tableau de bord contrôlent quand les articles apparaissent dans les widgets d'alerte de stock du [tableau de bord](/docs/getting_started/dashboard/). Les deux valeurs sont mesurées en mois de stock et sont configurées dans les préférences du dépôt Open mSupply.
+Les seuils d'alerte du tableau de bord contrôlent quand les articles apparaissent dans les widgets d'alerte de stock du [tableau de bord](/docs/getting-started/dashboard/). Les deux valeurs sont mesurées en mois de stock et sont configurées dans les préférences du dépôt Open mSupply.
 
 Pour configurer ces paramètres, accédez à `Options` > `Dépôts`, sélectionnez un dépôt et ajustez les préférences. Voir [Préférences du dépôt](/docs/manage/facilities/#store-preferences) pour plus de détails.
 

@@ -152,7 +152,7 @@ Existe uma versão mínima para o PostgreSQL da versão 12.
 
 Atualmente, é necessária a instalação do mSupply ao executar o Open mSupply. Este é utilizado para gerir vários aspetos centralizados do sistema.
 
-A partir da versão 2.0.00, o servidor central Open mSupply também é necessário para uma sincronização bem-sucedida. Consulte [Open mSupply central server](/docs/getting_started/central-server/) e [Open mSupply central server site configuration in mSupply](https://docs.msupply.org.nz/synchronisation:sync_sites#open_msupply_central_server_settings) para obter mais detalhes.
+A partir da versão 2.0.00, o servidor central Open mSupply também é necessário para uma sincronização bem-sucedida. Consulte [Open mSupply central server](/docs/getting-started/central-server/) e [Open mSupply central server site configuration in mSupply](https://docs.msupply.org.nz/synchronisation:sync_sites#open_msupply_central_server_settings) para obter mais detalhes.
 
 Receberá a seguinte mensagem de erro se o servidor central do Open mSupply não estiver configurado:
 

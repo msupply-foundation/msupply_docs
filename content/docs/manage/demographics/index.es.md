@@ -15,7 +15,7 @@ top = false
 
 La sección de Demografía es donde puedes visualizar y gestionar proyecciones futuras para diferentes indicadores demográficos. Estos datos de población pueden utilizarse para estimar la capacidad de almacenamiento en frío necesaria para los próximos programas de vacunación.
 
-La gestión de demografía solo está disponible en el [Servidor Central de Open mSupply](/docs/getting_started/central-server).
+La gestión de demografía solo está disponible en el [Servidor Central de Open mSupply](/docs/getting-started/central-server).
 
 ## Configuración
 
@@ -68,7 +68,7 @@ Esto agregará una nueva fila a la tabla. Ahora puedes ingresar un nombre para e
 
 ## Permisos y restricciones
 
-Los indicadores demográficos solo son visibles en el [Servidor Central de Open mSupply](/docs/getting_started/central-server) y requieren la preferencia de almacén [`mobile: Usa módulo de vacunas`](https://docs.msupply.org.nz/cold_chain_equipment:mobile?s[]=vaccine#enable_the_vaccine_module_for_the_mobile_store).
+Los indicadores demográficos solo son visibles en el [Servidor Central de Open mSupply](/docs/getting-started/central-server) y requieren la preferencia de almacén [`mobile: Usa módulo de vacunas`](https://docs.msupply.org.nz/cold_chain_equipment:mobile?s[]=vaccine#enable_the_vaccine_module_for_the_mobile_store).
 
 ![mSupply Store Preference Vaccine Module](vaccine_module.png)
 

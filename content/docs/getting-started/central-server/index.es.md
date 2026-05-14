@@ -42,7 +42,7 @@ Algunas operaciones solo se permiten en el servidor central de Open mSupply. Si 
 
 En esta documentación, verás secciones que hablan sobre las funciones del servidor central de Open mSupply. Para señalarlo, esas secciones tendrán esta imagen:
 
-[![central server only](images/central_server.png '🔗 Available on central server only ')](/docs/getting_started/central-server/#remote-site-vs-central-server)
+[![central server only](images/central_server.png '🔗 Available on central server only ')](/docs/getting-started/central-server/#remote-site-vs-central-server)
 
 Al hacer clic en la imagen, te llevará a la página correspondiente.
 

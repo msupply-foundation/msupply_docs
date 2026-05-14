@@ -26,7 +26,7 @@ Para la funcionalidad de GAPS, solo necesitas configurar una nueva Lista Maestra
 
 Para los [Programas de Pacientes de Inmunización](/docs/programs/program-module), contacta a tu administrador para realizar la configuración.
 
-Una vez creado el Programa Básico de Inmunización, se puede configurar más detalladamente en el <a href='/docs/getting_started/central-server'>Servidor Central de Open mSupply<<a>. Consulta la sección de <a href="#permissions-restrictions">Permisos y Restricciones</a> para más detalles.
+Una vez creado el Programa Básico de Inmunización, se puede configurar más detalladamente en el <a href='/docs/getting-started/central-server'>Servidor Central de Open mSupply<<a>. Consulta la sección de <a href="#permissions-restrictions">Permisos y Restricciones</a> para más detalles.
 
 ## Ver los Programas de Inmunización
 
@@ -126,7 +126,7 @@ Una notificación en la esquina inferior izquierda confirmará cuántos programa
 
 ## Permisos y Restricciones
 
-Los Programas de Vacunación solo pueden ser gestionados en el [Servidor Central de Open mSupply](/docs/getting_started/central-server) y requieren la preferencia de almacén [`mobile: Usa el módulo de vacunas`](https://docs.msupply.org.nz/cold_chain_equipment:mobile?s[]=vaccine#enable_the_vaccine_module_for_the_mobile_store).
+Los Programas de Vacunación solo pueden ser gestionados en el [Servidor Central de Open mSupply](/docs/getting-started/central-server) y requieren la preferencia de almacén [`mobile: Usa el módulo de vacunas`](https://docs.msupply.org.nz/cold_chain_equipment:mobile?s[]=vaccine#enable_the_vaccine_module_for_the_mobile_store).
 
 ![mSupply Store Preference Vaccine Module](images/vaccine_module.png)
 

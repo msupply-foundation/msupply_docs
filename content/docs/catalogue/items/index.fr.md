@@ -145,7 +145,7 @@ Sélectionnez un ou plusieurs filtres pour affiner les résultats. La liste se m
 
 ## Variantes d'Articles
 
-Sur le [Serveur Central Open mSupply](../../getting_started/central-server/), un onglet Variantes d'Articles est disponible. Cet onglet vous permet de configurer des variations de l'article, telles que différents fabricants ou tailles de conditionnement.
+Sur le [Serveur Central Open mSupply](../../getting-started/central-server/), un onglet Variantes d'Articles est disponible. Cet onglet vous permet de configurer des variations de l'article, telles que différents fabricants ou tailles de conditionnement.
 
 ![onglet variantes](images-en/variants_tab.png)
 
