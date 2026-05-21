@@ -222,6 +222,41 @@ If none of these conditions are true then the suggested quantity is given by the
 
 and then rounded up to the nearest whole number.
 
+### Ancillary items
+
+If items in your order have ancillary supplies configured (see [Ancillary Supplies](/docs/catalogue/items/#ancillary-supplies)), a notification banner will appear at the top of the order:
+
+![Ancillary items banner](images/intord_ancillary_banner.png)
+
+This tells you that related supplies are missing from your order, or that the quantities of supplies already in your order need to be updated.
+
+There are two situations:
+
+- **Items need to be added**: one or more ancillary supply lines are missing from the order entirely.
+- **Quantities need to be updated**: ancillary supply lines are already in the order, but the quantities are out of date (for example, because you changed the requested quantity of a principal item after the ancillary items were added).
+
+**Viewing what will change**
+
+Click `Details` on the banner to see exactly which items will be added or updated and what quantities will be used.
+
+![Ancillary items details](images/intord_ancillary_details.png)
+
+**Adding missing ancillary items**
+
+Click `Add` on the banner to add all missing ancillary supply lines to the order. The system automatically calculates the required quantities based on the ratio configured for each item.
+
+After adding, if any quantities still need updating (because a the requested quantity of the principal item has since changed), the banner will reappear showing that an update is needed.
+
+**Updating ancillary item quantities**
+
+If you have already added ancillary items and then changed the requested quantity of a principal item, the banner reappears with an `Update` button. Click the button to recalculate and refresh the quantities of the ancillary lines.
+
+<div class="tip">
+Ancillary item lines in the order list will have a link icon (<img src="images/link.png" alt="link icon"/>) showing after their name. Hover over this to display which principal item caused this ancillary item to be included.
+</div>
+
+![Tooltip showing principal item](images/intord_ancillary_item_link_detail.png)
+
 ### Printing an Internal Order
 
 When viewing a specific Internal Order, simply click the `Print` button which is on the top right of the page.

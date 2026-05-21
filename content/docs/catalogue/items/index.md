@@ -143,9 +143,53 @@ You can filter the ledgers by the transaction: Type, Status or Date range. This 
 
 Select one or more filters to narrow down the results. The list will update to show all ledger transactions that match the selected criteria.
 
+## Ancillary Supplies
+
+On the [Open mSupply Central Server](../../getting-started/central-server/), an **Ancillary items** tab is available on the item detail view. This tab lets you configure which additional supplies should be automatically suggested whenever this item is included in an internal order.
+
+A common use case is vaccines: ordering a vaccine also requires syringes, safety boxes, diluent, and alcohol swabs. Once configured here, any store that adds the vaccine to an internal order will automatically be prompted to include the correct quantities of those supplies — no manual calculation needed.
+
+![Ancillary items tab](images-en/ancillary_tab.png)
+
+<div class="note">
+The Ancillary Supplies tab is only available on the <a href="../../getting-started/central-server/">Central Server</a>. Changes made here sync automatically to all stores.
+</div>
+
+### Adding an Ancillary Supply
+
+Click the `Add Ancillary Item` button in the top-right corner of the tab and a window opens:
+
+![Add Ancillary Supply modal](images-en/ancillary_add_modal.png)
+
+1. In the **Item** field, search for and select the ancillary supply you want to link to this item.
+2. Enter the **ratio** that describes how many units of the ancillary supply are required per units of this item. The ratio is expressed as `X : Y`, where `X` is the quantity of the main item and `Y` is the quantity of the ancillary supply.
+
+<div class="imagetitle">
+For example, a ratio of <code>1 : 1.1</code> means 1.1 syringes are needed per vaccine dose, which accounts for 10% wastage. A ratio of <code>100 : 1</code> means 1 safety box is needed per 100 vaccines.
+</div>
+
+3. Click `OK` to save.
+
+The ancillary supply will now appear in the table:
+
+![Ancillary Supplies list](images-en/ancillary_list.png)
+
+| Column             | Description                                                          |
+| :----------------- | :------------------------------------------------------------------- |
+| **Ancillary item** | The name of the ancillary item                                       |
+| **Code**           | The code of the ancillary item                                       |
+| **Ratio**          | The quantity relationship between this item and the ancillary supply |
+| **Delete**         | Click to remove this ancillary item                                  |
+
+<div class="tip">
+Ancillary supplies can be chained. For example, syringes can themselves have safety boxes as an ancillary supply. When a vaccine is included in an order, the system calculates the required quantities for the entire chain automatically.
+</div>
+
+---
+
 ## Item Variants
 
-On the [Open mSupply Central Server](../../getting-started/central-server/) an Item Variants tab is available. This tab allows you to configure variations of the item, such as different manufacturers or packaging sizes.
+On the [Open mSupply Central Server](../../getting-started/central-server/) a **Variants** tab is available. This tab allows you to configure variations of the item, such as different manufacturers or packaging sizes.
 
 ![variants tab](images-en/variants_tab.png)
 
