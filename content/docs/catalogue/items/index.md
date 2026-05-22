@@ -143,7 +143,7 @@ You can filter the ledgers by the transaction: Type, Status or Date range. This 
 
 Select one or more filters to narrow down the results. The list will update to show all ledger transactions that match the selected criteria.
 
-## Ancillary Supplies
+## Ancillary items
 
 On the [Open mSupply Central Server](../../getting-started/central-server/), an **Ancillary items** tab is available on the item detail view. This tab lets you configure which additional supplies should be automatically suggested whenever this item is included in an internal order.
 
