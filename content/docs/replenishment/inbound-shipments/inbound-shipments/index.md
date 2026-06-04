@@ -1,5 +1,5 @@
 +++
-title = "Inbound Shipments"
+title = "inbound shipments"
 description = "Receiving stock from suppliers."
 date = 2022-03-19
 updated = 2022-03-19
@@ -13,31 +13,31 @@ toc = true
 top = false
 +++
 
-Inbound Shipments can be used to receive stock from suppliers.
+Inbound shipments can be used to receive stock from suppliers.
 
-If you have used mSupply in the past, you may be familiar with the term **Supplier Invoice** instead of Inbound Shipment.
+If you have used mSupply in the past, you may be familiar with the term **Supplier Invoice** instead of inbound shipment.
 
 All received goods should be recorded in mSupply either by:
 
-- Manually creating an Inbound Shipment (manual Inbound Shipment)
-- Working with an Inbound Shipment that has been created automatically as a result of a stock transfer from another store in your mSupply
+- Manually creating an inbound shipment (manual inbound shipment)
+- Working with an inbound shipment that has been created automatically as a result of a stock transfer from another store in your mSupply
 
-## Viewing Inbound Shipments
+## Viewing inbound shipments
 
-### Go to the Inbound Shipments Menu
+### Go to the inbound shipments Menu
 
-![Go to Inbound Shipments](images/is_gotois.png)
+![Go to inbound shipments](images/is_gotois.png)
 
-To access the **Inbound Shipment** menu:
+To access the **inbound shipment** menu:
 
 1. Go to the `Replenishment` menu in the navigation panel
-2. Click on `Inbound Shipment`
+2. Click on `inbound shipment`
 
-### Inbound Shipments list
+### Inbound shipments list
 
-First thing you see is a list of existing Inbound Shipments.
+First thing you see is a list of existing inbound shipments.
 
-The Inbound Shipments list is divided into 7 columns:
+The inbound shipments list is divided into 7 columns:
 
 | Column        | Description                                                                   |
 | :------------ | :---------------------------------------------------------------------------- |
@@ -51,7 +51,7 @@ The Inbound Shipments list is divided into 7 columns:
 | **Total**     | Total value of the shipment                                                   |
 
 <div class="note">
-Existing statuses will still show if you already have Inbound Shipments in your system before you configure invoice statuses for your store.
+Existing statuses will still show if you already have inbound shipments in your system before you configure invoice statuses for your store.
 </div>
 
 2. The list can display a fixed number of shipments per page. On the bottom left corner, you can see how many shipments are currently displayed on your screen.
@@ -60,27 +60,27 @@ Existing statuses will still show if you already have Inbound Shipments in your 
 
 4. You can also select a different number of rows to show per page using the option at the bottom right of the page.
 
-### Filter Inbound Shipments
+### Filter inbound shipments
 
 You can filter the list of shipments by supplier name, created date, status, or invoice number. This can be useful if you're looking for one particular shipment!
 
-![Inbound Shipments filter](images/is_filter.png)
+![Inbound shipments filter](images/is_filter.png)
 
 For example, to filter by supplier name, click on `Filters`, select `Name` and start typing some or all of a supplier name in the `Name` field. All the shipments for this supplier will appear in the list.
 
 ![](images/is_filter_list.png)
 
-### Exporting Inbound Shipments
+### Exporting inbound shipments
 
-The list of Inbound Shipments can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page) and the file will be downloaded.
+The list of inbound shipments can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page) and the file will be downloaded.
 
 ![Export button](images/export.png)
 
-The export function will download all Inbound Shipments, not just the current page, if you have more than 20 of them.
+The export function will download all inbound shipments, not just the current page, if you have more than 20 of them.
 
-### Delete an Inbound Shipment
+### Delete an inbound shipment
 
-You can delete a shipment from the Inbound Shipment list.
+You can delete a shipment from the inbound shipment list.
 
 1. Select the shipment that you want to delete by checking the box on the left end of the list. You can select more than one shipments to be deleted. You can even select them all using the master checkbox in the list headers.
 
@@ -89,12 +89,12 @@ You can delete a shipment from the Inbound Shipment list.
 A notification confirms how many shipments were deleted (bottom left corner).
 
 <div class="note">
-You can only delete Inbound Shipments with a status <code>NEW</code>.
+You can only delete inbound shipments with a status <code>New</code>.
 </div>
 
-## Creating a new manual Inbound Shipment
+## Creating a new manual inbound shipment
 
-1. Go to `Replenishment`> `Inbound Shipment`
+1. Go to `Replenishment`> `Inbound shipment`
 2. Press the `New Shipment` button, in the top right corner
 3. A new window `Suppliers` opens, inviting you to select a supplier
 
@@ -112,13 +112,13 @@ In the below example, we are receiving stock from <b>Tamaki Central Medical Stor
 
 ![](images/is_select_supplier.png)
 
-2. Once you have selected a supplier, your Inbound Shipment is created.
+2. Once you have selected a supplier, your inbound shipment is created.
 
 <div class="imagetitle">
 If everything went well, you should see the name of your supplier in the top left corner and current status should be <code>New</code>.
 </div>
 
-![New manual Inbound Shipment](images/is_newinboundshipment.png)
+![New manual inbound shipment](images/is_newinboundshipment.png)
 
 ### Edit the Supplier Name
 
@@ -128,11 +128,11 @@ If you have selected the wrong supplier, you can change the supplier name in the
 
 ### Enter a Supplier Reference
 
-Once your Inbound Shipment has been created, you can capture a supplier reference in the `Supplier Ref` field, if they have one (eg. PO#1234567 \_)
+Once your inbound shipment has been created, you can capture a supplier reference in the `Supplier Ref` field, if they have one (eg. PO#1234567 \_)
 
-### View or edit the Inbound Shipment Information Panel
+### View or edit the inbound shipment Information Panel
 
-The Information Panel allows you see or to edit information about the Inbound Shipment. It is divided in multiple sections:
+The Information Panel allows you see or to edit information about the inbound shipment. It is divided in multiple sections:
 
 - Additional Info
 - Related Documents
@@ -145,7 +145,7 @@ We are planning to add more sections in the future as Open mSupply grows.
 
 #### How to open and close the Information Panel ?
 
-To open the Information Panel, you can tap on the `More` button, located in the top right corner of the Inbound Shipment view.
+To open the Information Panel, you can tap on the `More` button, located in the top right corner of the inbound shipment view.
 
 You can close by tapping on the `X Close` button, on the top right corner of the information panel.
 
@@ -154,21 +154,21 @@ You can close by tapping on the `X Close` button, on the top right corner of the
 In the **Additional Info** section, you can:
 
 - Donor name (if you have [donor tracking](#track-stock-by-donor) enabled)
-- See who created the Inbound Shipment (name of the user)
-- View and edit the Inbound Shipment color. To edit the color, tap on the colored circle and select a color from the pop-up
+- See who created the inbound shipment (name of the user)
+- View and edit the inbound shipment color. To edit the color, tap on the colored circle and select a color from the pop-up
 - Write or edit a comment
 
 #### Related Documents
 
-In the **Related Documents** section, you can see other related transaction document for the Inbound Shipment.
+In the **Related Documents** section, you can see other related transaction document for the inbound shipment.
 
-If your Inbound Shipment was created to fulfill a **Internal Order**, the reference number of your order would appear in this section.
+If your inbound shipment was created to fulfil a **Internal Order**, the reference number of your order would appear in this section.
 
 In the future, we would also include other documents such as temperature records, transportation documents or pickslips.
 
 #### Invoice Details
 
-In this section, you will see by default the total cost price of the items listed in the Inbound Shipment.
+In this section, you will see by default the total cost price of the items listed in the inbound shipment.
 
 You can also add a **Service charges** if you wish to add other charges such as `Freight Costs`. Note: Service charges must be in your Master List for you to use them. To add a Service charges to the Invoice Details:
 
@@ -207,27 +207,27 @@ In this section, you can see or edit a transport reference number (eg. a booking
 1. **Delete:** You can tap on the `Delete` button to delete the invoice
 2. **Copy to Clipboard**: You can tap on the `Copy to Clipboard` button to copy the invoice details to the clipboard.
 
-### Inbound Shipment Status Sequence
+### inbound shipment Status Sequence
 
-The status sequence is located at the bottom left corner of the Inbound Shipment screen.
+The status sequence is located at the bottom left corner of the inbound shipment screen.
 
 Passed statuses are highlighted in blue, next statuses appear in grey.
 
 <figure>
-    <img src="images/is_statussequence1.png" alt="Inbound Shipment Status Sequence (New)" style="width:100%">
+    <img src="images/is_statussequence1.png" alt="inbound shipment Status Sequence (New)" style="width:100%">
     <figcaption align="center">Status Sequence: current status is <code>Received</code>.</figcaption>
 </figure>
 
-There are 6 statuses for the Inbound Shipments (although you might see a smaller number, depending on the type of shipment ):
+There are 6 statuses for the inbound shipments (although you might see a smaller number, depending on the type of shipment ):
 
 | Status        | Description                                                                                                        | mSupply | Editable |
 | :------------ | ------------------------------------------------------------------------------------------------------------------ | :-----: | :------: |
-| **New**       | This is the first status when you create a new manual Inbound Shipment                                             |   nw    |          |
+| **New**       | This is the first status when you create a new manual inbound shipment                                             |   nw    |          |
 | **Picked**    | Supplier has confirmed that shipment is picked and ready to ship (applies only to automatically created shipments) |   nw    |          |
 | **Shipped**   | Shipment has been shipped and goods are now in transit (applies only to automatically created shipments)           |   nw    |          |
 | **Delivered** | When you confirm that the shipment has been delivered.                                                             |   sg    |    ✓     |
 | **Received**  | When you confirm that the shipment has been validated. Goods are now part of your inventory.                       |   cn    |    ✓     |
-| **Verified**  | When you have verified the Inbound Shipment                                                                        |   fn    |          |
+| **Verified**  | When you have verified the inbound shipment                                                                        |   fn    |          |
 
 <div class="note">
 Statuses will default to the previously available status if you have limited the available statuses in your store preferences. 
@@ -241,14 +241,14 @@ Note that this message appears differently if the status is `Delivered` or `Veri
 
 ![Automatic IS message: delivered](images/is_message_automatic_delivered.png)
 
-If, however, you've created an Inbound Shipment manually, then the following message shows:
+If, however, you've created an inbound shipment manually, then the following message shows:
 
 ![Manual IS message](images/is_message_manual.png)
 
 and you'll see that the status bar has only the status values which apply to this type of shipment.
 
 <figure align="center">
-    <img src="images/is_statussequence2.png" alt="Inbound Shipment Status Sequence (New & manual)" style="width:60%">
+    <img src="images/is_statussequence2.png" alt="inbound shipment Status Sequence (New & manual)" style="width:60%">
     <figcaption align="center">Status Sequence: current status is </i><code>New</code>.</figcaption>
 </figure>
 
@@ -270,7 +270,7 @@ This automatic shipment has been created on 10/04/2025, picked on 11/04/2025 and
 
 Located on the bottom left corner, on the left of the status sequence.
 
-Check the `Hold` checkbox prevents the Inbound Shipment from being updated to the next status.
+Check the `Hold` checkbox prevents the inbound shipment from being updated to the next status.
 
 ![Inbound hold checkbox](../../images/holdcheckbox.png)
 
@@ -278,13 +278,13 @@ Check the `Hold` checkbox prevents the Inbound Shipment from being updated to th
 
 #### Close Button
 
-Click on the `Close` button to quit the Inbound Shipment view and return to the Inbound Shipments list.
+Click on the `Close` button to quit the inbound shipment view and return to the inbound shipments list.
 
 #### Confirm Button
 
 The `Confirm` button is the button to update the status of a shipment. The status which you can confirm depends on the current status of the shipment and follows the sequence shown below.
 
-When managing an Inbound Shipment, you can only confirm it as Delivered or Verified.
+When managing an inbound shipment, you can only confirm it as Delivered or Verified.
 
 | Confirm...            | Current Status | Next Status |
 | :-------------------- | :------------- | :---------- |
@@ -297,7 +297,7 @@ As demonstrated below, tap on the down arrow of the `Confirm` button and select 
 
 ![](images/is_skipstatus.png)
 
-## Adding lines to an Inbound Shipment
+## Adding lines to an inbound shipment
 
 To add a line, tap on the `Add Item` button located in the top left corner of your screen.
 
@@ -434,12 +434,12 @@ When you're done, you can add the new line by tapping on:
 
 Otherwise, you can tap on `Cancel` and your changes won't be saved.
 
-## Adding lines to an Inbound Shipment using a Master List
+## Adding lines to an inbound shipment using a Master List
 
 Tap on the `Add from master list` button (top right corner).
 
 <div class="note">
-The button will be disabled if the status of the Inbound Shipment is anything other than <strong>New</strong>
+The button will be disabled if the status of the inbound shipment is anything other than <strong>New</strong>
 </div>
 
 ![Add Item button](images/is_add_from_master_list_button.png)
@@ -457,9 +457,9 @@ You will then have placeholder lines added to your shipment, which will then loo
 
 The imported rows will have zero for the number of packs value, and are therefore shown in a blue font with the batch, expiry, location etc not shown. You can follow the steps for editing these lines, as detailed above.
 
-## Editing an Inbound Shipment line
+## Editing an inbound shipment line
 
-To edit an Inbound Shipment line, simply tap on it. You will be presented with the `Edit Item` window, which is identical to the `Add Item` window, except that the item is already chosen and cannot be modified.
+To edit an inbound shipment line, simply tap on it. You will be presented with the `Edit Item` window, which is identical to the `Add Item` window, except that the item is already chosen and cannot be modified.
 
 ### Edit a Shipment Line
 
@@ -467,7 +467,7 @@ To edit an Inbound Shipment line, simply tap on it. You will be presented with t
  <b></b> you can edit a shipment line if the shipment has a status lower than <code>Verified</code>. 
 </div>
 
-1. Open the Inbound Shipment you want to edit
+1. Open the inbound shipment you want to edit
 2. Tap on the line you want to edit. An identical window to `Add Item` appears. At this stage:
    - Edit the main `Issue Quantity` field
    - or change the number of packs value at the batch number level
@@ -478,8 +478,8 @@ To edit an Inbound Shipment line, simply tap on it. You will be presented with t
 
 ### Delete a Shipment line
 
-1. Open the Inbound Shipment that you would like to edit
-2. Make sure that status is not yet `VERIFIED`
+1. Open the inbound shipment that you would like to edit
+2. Make sure that status is not yet `Verified`
 3. Select the line(s) you want to delete by checking the box(es) on the left of the list
 4. Click the `Delete` button which appears at the bottom of the page.
 
@@ -503,9 +503,9 @@ If you have selected some lines by checking the box on the left of the list ther
 
 ## Upload Documents
 
-You may have related documents you wish to upload and store with an Inbound Shipment. These could be delivery notes, transport documents, temperature records etc.
+You may have related documents you wish to upload and store with an inbound shipment. These could be delivery notes, transport documents, temperature records etc.
 
-The Inbound Shipment view includes a `Documents` tab. From here, select `Upload Document` at the top of the screen and select a file to upload:
+The inbound shipment view includes a `Documents` tab. From here, select `Upload Document` at the top of the screen and select a file to upload:
 
 ![Upload Document tab and button](images/is_upload_document.png)
 
@@ -513,43 +513,44 @@ You can download or delete previously uploaded documents, by selecting the docum
 
 ![Download or Delete Document](images/is_download_delete_document.png)
 
-## Receiving stock with an Inbound Shipment
+## Receiving stock with an inbound shipment
 
 ### Confirm the delivery of the shipment
 
-Whether your Inbound Shipment is **manual** or **automatic**, the first step to receive the goods is to confirm the delivery.
+Whether your inbound shipment is **manual** or **automatic**, the first step to receive the goods is to confirm the delivery.
 
 At this stage, you don't have to check if quantities or other information are correct, you just have to acknowledge that you have received the goods from your supplier.
 
-To confirm that an Inbound Shipment has been delivered, click on the `Confirm Delivered` button.
+To confirm that an inbound shipment has been delivered, click on the `Confirm Delivered` button.
 
 Once you have done this:
 
 - Goods are now part of your inventory
-- Shipment status is now `DELIVERED`
+- Shipment status is now `Delivered`
+- You can no longer delete the shipment
 
 <div class="note">
-In case your Inbound Shipment is <b>automatic</b>, you cannot confirm its delivery unless the supplier has confirmed its shipment. In other words, your shipment status has to be <code>SHIPPED</code> before you can confirm that you have received the goods. 
+In case your inbound shipment is <b>automatic</b>, you cannot confirm its delivery unless the supplier has confirmed its shipment. In other words, your shipment status has to be <code>SHIPPED</code> before you can confirm that you have received the goods. 
 </div>
 
 <div class="note">
 Any unallocated lines with a 0 number of packs value will automatically be removed for you when you confirm delivery.
 </div>
 
-### Receive goods on the Inbound Shipment
+### Receive goods on the inbound shipment
 
-Once the shipment has been marked as `DELIVERED` items on the shipment can be physically inspected to confirm the correct items and quantities have been delivered.
+Once the shipment has been marked as `Delivered` items on the shipment can be physically inspected to confirm the correct items and quantities have been delivered.
 
-Once you have inspected the goods which are part of the shipment, you can confirm the Shipment as `RECEIVED` by tapping on the `Confirm Received` button.
+Once you have inspected the goods which are part of the shipment, you can confirm the Shipment as `Received` by tapping on the `Confirm Received` button.
 
 Once you have done this:
 
-- Shipment status is now `RECEIVED`
+- Shipment status is now `Received`
 - The items on the shipment are added to your stock on hand and are available for distribution
 
 <div class="note">If a batch has been distributed (for example is part of an outbound shipment) then you are not permitted to edit the details. It is a good idea to check incoming stock and adjust the details on the shipment as soon as you can after the shipment arrives.</div>
 
-### Verify your Inbound Shipment
+### Verify your inbound shipment
 
 Verification is the last step to receive goods in mSupply. At this stage, you can check what you have received and make sure that that information in mSupply are correct.
 
@@ -561,20 +562,19 @@ You have the possibility to verify the following information:
 
 You can also capture where received goods are to be stored in the `Location` tab.
 
-Once all information have been captured or verified, you can confirm the Shipment as `VERIFIED` by tapping on the `Confirm Verified` button.
+Once all information have been captured or verified, you can confirm the Shipment as `Verified` by tapping on the `Confirm Verified` button.
 
 Once you have done this:
 
-- Shipment status is now `VERIFIED`
+- Shipment status is now `Verified`
 - You can no longer edit shipment lines
-- You can no longer delete the shipment
 
-## Returning stock from an Inbound Shipment
+## Returning stock from an inbound shipment
 
-Sometimes, you might need to return stock that you received via an Inbound Shipment. You can do this by creating an [Supplier Return](../supplier-returns).
+Sometimes, you might need to return stock that you received via an inbound shipment. You can do this by creating an [Supplier Return](../supplier-returns).
 
-1. Open the Inbound Shipment for which you would like to return some or all of the stock
-2. Make sure that status is at least `DELIVERED`
+1. Open the inbound shipment for which you would like to return some or all of the stock
+2. Make sure that status is at least `Delivered`
 3. Select the line(s) you want to return by checking the box(es) on the left of the list
 4. Click the `Return selected lines` button which appears at the bottom of the page.
 
@@ -590,7 +590,7 @@ A modal will open, containing each line you selected to return:
 |             **Name**              | Item name                                                                                                                                                                                        |
 |             **Batch**             | Batch number. It is a designation given to products made in the same manufacturing run.                                                                                                          |
 |            **Expiry**             | Expiry date of the batch (format: MM/YYYY)                                                                                                                                                       |
-| **Quantity Available for Return** | Number of packs available. This means the number of packs not already allocated to other shipments or returns, so the quantity could be less than the quantity received in the Inbound Shipment. |
+| **Quantity Available for Return** | Number of packs available. This means the number of packs not already allocated to other shipments or returns, so the quantity could be less than the quantity received in the inbound shipment. |
 |      **Quantity to Return**       | Number of packs to be returned                                                                                                                                                                   |
 
 ![Alt Text](images/is_return_select_quantity.png)
@@ -615,7 +615,7 @@ When you are happy with the quantities and reasons, you can press on:
 - the `OK` button. A Supplier Return will be created, and you will be redirected to view it. The quantities of stock selected to return will be reserved for the new return.
 - the `Back` button, to go back to the `Select quantity` step
 
-## Viewing an Inbound Shipment
+## Viewing an inbound shipment
 
 When viewing a specific shipment, you can view the batches on that shipment grouped by item or with each batch listed separately.
 To change the view mode, click the `Group by item` switch.
