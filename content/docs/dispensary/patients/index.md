@@ -132,36 +132,36 @@ Select any patient and click on the `Insurance` tab. Here you can see the list o
 
 1. Click the `Add Insurance` button in the top right corner.
 
-   ![Add Insurance button in the top right corner of the Insurance tab](images/insurance_add_button.png)
+![Add Insurance button in the top right corner of the Insurance tab](images/insurance_add_button.png)
 
 2. A new window will appear for you to enter the insurance details for a patient. Fill out all the fields in the form to enable the save button.
 
-   ![Empty insurance details modal with form fields to fill in](images/insurance_empty_modal.png)
+![Empty insurance details modal with form fields to fill in](images/insurance_empty_modal.png)
 
 <div class="note">Policies will be considered expired from the start of the day specified in the <b>Expiry date</b> field</div>
 
 3. After filling out the form, click the `Save` button. Your newly created insurance will show in the list, and a confirmation message will appear.
 
-   ![Success confirmation message after adding insurance policy](images/insurance_success.png)
+![Success confirmation message after adding insurance policy](images/insurance_success.png)
 
 4. If you forget to fill out a section of the form, the system will alert you and the details won't be saved.
 
-   ![Error alert shown when insurance form is submitted with missing required fields](images/insurance_failed_to_save.png)
+![Error alert shown when insurance form is submitted with missing required fields](images/insurance_failed_to_save.png)
 
 ### Editing Insurance Information
 
 1. To edit an existing insurance, ensure that you are on the insurance tab of a patient. Click on one of the available insurances.
 
-   ![Clicking an insurance row in the patient insurance list to open it for editing](images/insurance_row_select.png)
+![Clicking an insurance row in the patient insurance list to open it for editing](images/insurance_row_select.png)
 
 2. A familiar window will appear, allowing you to edit the insurance details of a patient.
 
-   ![Insurance details modal pre-filled with existing policy information](images/insurance_filled_modal.png)
+![Insurance details modal pre-filled with existing policy information](images/insurance_filled_modal.png)
 
 3. Update the insurance information as needed.
 
-   ![Insurance edit modal showing updated fields ready to be saved](images/insurance_edit_modal.png)
+![Insurance edit modal showing updated fields ready to be saved](images/insurance_edit_modal.png)
 
 4. Once done with the updates, click the `Save` button. When successful, a confirmation message will appear, and your changes will be reflected immediately.
 
-   ![Success confirmation message after saving updated insurance information](images/insurance_success.png)
+![Success confirmation message after saving updated insurance information](images/insurance_success.png)
