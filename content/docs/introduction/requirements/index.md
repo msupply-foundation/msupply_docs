@@ -19,7 +19,7 @@ Open mSupply runs on a number of platforms and for a basic installation has very
 The client can be a web browser, an android tablet or a PC running windows, linux or mac OS.
 The server requires a little more memory and processing capability, depending on the number of users.
 
-## Hardware Requirements
+## Hardware requirements
 
 ### General hardware recommendations
 
@@ -70,7 +70,7 @@ The application requires at least Android 10
 
 <div class="note">If importing Fridge-tags you will require at least Android 12</div>
 
-In order to provide support, the device must also be compatible with MDM (Mobile Device Management) software and support google services. Please contact [mSupply Foundation](https://msupply.foundation/#contact) for details.
+In order to provide support, the device must also be compatible with MDM (Mobile Device Management) software and support google services. Please contact [mSupply Foundation](https://msupply.foundation/contact) for details.
 
 Please contact us for testing and/or advice before making a large hardware purchase.
 
@@ -125,6 +125,25 @@ Firstly, this is a good time to mention our synchronisation system, which has sa
 - The initial download of Javascript code is around 1 Mb, so a 512kbps connection or faster is best (loads in 10 seconds or so)
 - You need an internet connection on to use Open mSupply in this mode.
 - high latency (e.g. a satellite or overloaded connection) will result in slower performance
+
+## Software requirements
+
+### Browser Compatibility
+
+When connecting to the web version of Open mSupply you will need a web browser. Refer to the following compatibility chart for details:
+
+| Browser          | Minimum Version | Release Date | Status        |
+| ---------------- | --------------- | ------------ | ------------- |
+| Chrome           | 90+             | Apr 2021     | Supported     |
+| Edge (Chromium)  | 91+             | May 2021     | Supported     |
+| Firefox          | 78+             | Jun 2020     | Supported     |
+| Safari           | 14+             | Sep 2020     | Supported     |
+| Opera            | 76+             | May 2021     | Supported     |
+| Safari           | iOS 14+         | Sep 2020     | Supported     |
+| Chrome Android   | 90+             | Apr 2021     | Supported     |
+| Samsung Internet | 15+             | Sep 2021     | Supported     |
+| IE 11            | —               | —            | Not supported |
+| IE < 11          | —               | —            | Not supported |
 
 ## Backup system
 

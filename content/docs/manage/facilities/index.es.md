@@ -97,6 +97,6 @@ Haz clic en `Cancelar` en cualquier momento para revertir tus cambios y cerrar l
 
 Los almacenes solo son visibles en el [Servidor Central de Open mSupply](/docs/getting-started/central-server).
 
-Para editar almacenes de forma centralizada, necesitas el permiso Puedes `modificar datos centrales` habilitado en la [Pestaña de permisos de omSupply](https://docs.msupply.org.nz/admin:managing_users?s[]=permission#omsupply_permissions_tab) en tu almacén central.
+Para editar almacenes de forma centralizada, necesitas el permiso Puedes `modificar datos centrales` habilitado en la [Pestaña de permisos de omSupply](https://docs.msupply.org.nz/admin:managing_users?s[]=permission#open_msupply_permissions_tab) en tu almacén central.
 
 ![Can Modify Central Data Permission](images/can_modify_central.png)

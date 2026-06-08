@@ -72,6 +72,6 @@ Demographics are only visible on the [Open mSupply Central Server](/docs/getting
 
 ![mSupply Store Preference Vaccine Module](vaccine_module.png)
 
-To Create, Edit or Delete Demographics you need the `Can modify central data` permission, enabled in the [omSupply Permissions Tab](https://docs.msupply.org.nz/admin:managing_users?s[]=permission#omsupply_permissions_tab) on your Central Store.
+To Create, Edit or Delete Demographics you need the `Can modify central data` permission, enabled in the [omSupply Permissions Tab](https://docs.msupply.org.nz/admin:managing_users?s[]=permission#open_msupply_permissions_tab) on your Central Store.
 
 ![Can Modify Central Data Permission](images/can_modify_central.png)

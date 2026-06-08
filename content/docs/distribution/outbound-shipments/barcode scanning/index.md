@@ -2,7 +2,7 @@
 title = "Barcode scanning"
 description = "Adding stock to an Outbound Shipment with a barcode scanner."
 date = 2023-05-03T18:20:00+00:00
-updated = 2023-05-03T18:20:00+00:00
+updated = 2026-06-08T18:20:00+00:00
 draft = false
 weight = 111
 sort_by = "weight"
@@ -15,10 +15,15 @@ top = false
 
 ## Adding items using a barcode scanner
 
-If using the desktop or android apps, you have the option of scanning items in order to add them to the Outbound Shipment.
-It is recommended to set the scanner to 'continuous scan' mode if it supports this.
+If using the desktop or Android apps, you have the option of scanning items in order to add them to the Outbound Shipment. Open mSupply supports several types of scanner:
 
-We have been using Zebra USB scanners, model DS2208. Any hand held barcode scanner should work for this, though we may need to update to support different models. If you have another model of scanner, please get in touch.
+- **USB barcode scanners** (desktop app) - both serial-mode and keyboard-mode scanners are supported. Serial scanners are preferred as we have found them to be more reliable. We have been using Zebra USB scanners (DS-22). Any hand held barcode scanner should work, though we may need to update to support different models - if you have another model, please get in touch.
+- **The Android camera** (Android tablets) - see [Using the Android camera for barcode scanning](#using-the-android-camera-for-barcode-scanning) below
+- **Integrated scanners on Honeywell Android devices** - if Open mSupply is running on a Honeywell device with a built-in scanner, it is detected automatically and used in place of the camera
+
+It is recommended to set the scanner to 'continuous scan' mode if it supports this, so you can scan several items one after another without restarting the scanner.
+
+<div class="tip">USB scanner hardware needs to be detected once before it can be used. This is done from <strong>Admin &gt; Settings &gt; Barcode Scanners</strong>. See <a href="/docs/settings/devices/#barcode-scanners">Devices settings</a> for how to detect and connect a scanner.</div>
 
 ## Using the android camera for barcode scanning
 
@@ -51,11 +56,11 @@ on OpenmSupply :
 
 ### Issuing stock out using the barcode
 
-To begin, open the Outbound Shipment. If the status is `New`, `Allocated` or `Picked` you can start and stop the scanner using the `Scan` button:
+To begin, open the Outbound Shipment. If the status is `New`, `Allocated` or `Picked` you can start the scanner using the `Scan` button:
 
 ![Scan button](images/os_scan_button.png)
 
-<div class="tip">You can also press the 'control (ctrl)' and 's' keys at the same time to start (and stop) scanning</div>
+<div class="tip">You can also press the 'control (ctrl)' and 's' keys at the same time to start scanning</div>
 
 ### Adding items
 
