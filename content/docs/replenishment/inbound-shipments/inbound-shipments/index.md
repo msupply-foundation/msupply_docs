@@ -319,6 +319,8 @@ Once your item is highlighted, tap on the name or press `Enter`.
 ![Add Item by name](../../images/adding-an-item-name.png)
 ![Add Item by code](../../images/adding-an-item-code.png)
 
+If you are using the desktop client or Android app, you can also use [barcode scanning](../barcode-scanning) to add items by scanning the product barcode.
+
 ### Quantities tab
 
 In the `Quantities` tab, you can update the following fields:
