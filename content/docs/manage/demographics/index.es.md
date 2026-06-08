@@ -72,6 +72,6 @@ Los indicadores demográficos solo son visibles en el [Servidor Central de Open 
 
 ![mSupply Store Preference Vaccine Module](vaccine_module.png)
 
-Para crear, editar o eliminar datos demográficos, necesitas el permiso `Puedes modificar datos centrales` habilitado en la [omSupply Permissions Tab](https://docs.msupply.org.nz/admin:managing_users?s[]=permission#omsupply_permissions_tab) en tu Almacén Central.
+Para crear, editar o eliminar datos demográficos, necesitas el permiso `Puedes modificar datos centrales` habilitado en la [omSupply Permissions Tab](https://docs.msupply.org.nz/admin:managing_users?s[]=permission#open_msupply_permissions_tab) en tu Almacén Central.
 
 ![Can Modify Central Data Permission](images/can_modify_central.png)

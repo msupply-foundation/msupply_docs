@@ -68,7 +68,7 @@ La aplicación requiere al menos Android 5.0 (Lollipop).
 
 <div class="note">Si importa Fridge-tags necesitará al menos Android 12</div>
 
-Para proporcionar soporte, el dispositivo también debe ser compatible con el software de gestión de dispositivos móviles (MDM) y admitir los servicios de Google. Comunícate con [mSupply Foundation](https://msupply.foundation/#contact) para obtener más detalles.
+Para proporcionar soporte, el dispositivo también debe ser compatible con el software de gestión de dispositivos móviles (MDM) y admitir los servicios de Google. Comunícate con [mSupply Foundation](https://msupply.foundation/contact) para obtener más detalles.
 
 Por favor, contáctanos para pruebas y / o consejos antes de realizar una gran compra de hardware.
 

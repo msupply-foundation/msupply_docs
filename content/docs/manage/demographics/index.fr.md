@@ -72,6 +72,6 @@ Les données démographiques ne sont visibles que sur le [Serveur Central Open m
 
 ![Préférence de dépôt mSupply Module Vaccin](vaccine_module.png)
 
-Pour créer, modifier ou supprimer des données démographiques, vous avez besoin de la permission `Peut modifier les données centrales`, activée dans l'[onglet Permissions omSupply](https://docs.msupply.org.nz/admin:managing_users?s[]=permission#omsupply_permissions_tab) de votre Dépôt Central.
+Pour créer, modifier ou supprimer des données démographiques, vous avez besoin de la permission `Peut modifier les données centrales`, activée dans l'[onglet Permissions omSupply](https://docs.msupply.org.nz/admin:managing_users?s[]=permission#open_msupply_permissions_tab) de votre Dépôt Central.
 
 ![Permission Peut modifier les données centrales](images/can_modify_central.png)

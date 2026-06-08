@@ -138,6 +138,6 @@ Les programmes de vaccination ne sont visibles que sur le [Serveur Central Open 
 
 ![mSupply Store Preference Vaccine Module](images/vaccine_module.png)
 
-Pour créer, modifier ou supprimer des programmes de vaccination ou des cours de vaccination, vous devez disposer de l’autorisation `Peut modifier les données centrale` activée dans l’onglet [Autorisations omSupply](https://docs.msupply.org.nz/admin:managing_users?s[]=permission#omsupply_permissions_tab) de votre dépot central.
+Pour créer, modifier ou supprimer des programmes de vaccination ou des cours de vaccination, vous devez disposer de l’autorisation `Peut modifier les données centrale` activée dans l’onglet [Autorisations omSupply](https://docs.msupply.org.nz/admin:managing_users?s[]=permission#open_msupply_permissions_tab) de votre dépot central.
 
 ![Can Modify Central Data Permission](images/can_modify_central.png)

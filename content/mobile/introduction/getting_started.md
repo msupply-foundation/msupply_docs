@@ -43,7 +43,7 @@ If [mSupply Vaccine](/mobile/dispensing_vaccines/vaccine/#cold-chain-for-vaccine
 - Minimum display resolution: **800 x 1280 pixels**
 - Android Version: **8.1**
 
-The device must also be compatible with MDM (Mobile Device Management) software and support google services. Please contact [Sustainable Solutions](https://sussol.net/contact) or [mSupply Foundation](https://msupply.foundation/#contact) for details.
+The device must also be compatible with MDM (Mobile Device Management) software and support google services. Please contact [Sustainable Solutions](https://sussol.net/contact) or [mSupply Foundation](https://msupply.foundation/contact) for details.
 
 ##### Processor and RAM
 
@@ -134,7 +134,7 @@ This brings us to the main screen. We will be returning to the main screen a lot
 
 #### Icon badges
 
-[Icon badges](https://www.leanplum.com/blog/what-are-app-icon-badges/) (orange circle with a number) indicate there are unfinalised transactions requiring attention. Click a badge for a description. Badges will automatically disappear when there are no unfinalised transactions remaining.
+[Icon badges](https://webengage.com/blog/what-are-app-icon-badges/) (orange circle with a number) indicate there are unfinalised transactions requiring attention. Click a badge for a description. Badges will automatically disappear when there are no unfinalised transactions remaining.
 
 ![Mobile badges](/mobile/introduction/images/mobile_badges.png)
 
