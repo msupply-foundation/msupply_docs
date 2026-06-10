@@ -22,18 +22,47 @@ This tutorial is designed to guide you through the basics of using Open mSupply.
 2. Enter the web address (URL) of your mSupply server. In our case we're using https://demo-open.msupply.org - our test web site.
 3. After pressing `enter` on your keyboard you'll be shown the login page
 
-![login!](images/log_in.png)
+![login](images/log_in.png)
 
 4. Enter your user name and password and press `enter` on your keyboard, or click the [Log in] button
 
 If everything is going well, you'll be redirected to the dashboard page.
 BUT if there was a problem, you'll see an error message, like this:
 
-![login!](images/log_in_error.png)
+![login error](images/log_in_error.png)
 
 Try re-typing the username and password (note that both are case-sensitive).
 When you log in, the default store for your user is selected as the current store. If you have access to other stores, you'll be able to change stores after logging in (see below).
 If you have logged in previously, and changed stores, then the most recent store will be selected for you when you log in.
+
+### Store selection
+
+If your user account has access to **more than one** store which is **enabled**, after successfully logging in you'll be shown the **Select a store** panel:
+
+![store selection](images/store_selection.png)
+
+Click a store to choose it, or use the up/down arrow keys and then press the **Continue** button or **Enter** key.
+
+There are two types of store which could be identified as special here:
+
+- **Default** This is the store which is designated the _Default store_ for the <a href="https://docs.msupply.org.nz/admin:managing_users?s%5B%5D=default%20store#login_rights_tab">user in mSupply</a>
+- **Last used** The store which was most recently logged into by this user
+
+#### Remember my choice
+
+This is the checkbox at the bottom of the panel:
+
+- **If you leave** `Remember my choice` **unticked**, the store selector will appear
+  again the next time you log in, letting you pick a store each time
+
+- **If you tick** `Remember my choice` before selecting a store, your preference
+  to skip the selector is saved for **your username**. The next time you log in with
+  that same username, the store selector is skipped automatically and you go straight
+  into the store chosen here.
+
+<div class="note">The preference is saved <b>per username</b>> on the device/browser you are using. If two
+people use the same computer with different usernames, each person's choice is
+remembered independently — one person ticking the box does not affect the other.</div>
 
 ## Navigating around
 
