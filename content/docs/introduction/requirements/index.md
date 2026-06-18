@@ -196,6 +196,7 @@ The table below shows which versions of mSupply and Open mSupply Central you wil
 | 2.9.02+             | 8.03.12+        | 2.9.02+              |
 | 2.10.00+            | 8.04.04+        | 2.10.00+             |
 | 2.13.00+            | 8.06.00+        | 2.13.00+             |
+| 2.20.00+            | 9.01.04+        | 2.20.00+             |
 
 If you attempt to connect to an incompatible server you'll get an error message like this:
 
