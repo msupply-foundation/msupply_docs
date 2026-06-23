@@ -179,24 +179,24 @@ You will get the following error message if the Open mSupply central server is n
 
 The versions of both central servers and your Open mSupply remote site are important, as not all versions of each are compatible with each other.
 
-The table below shows which versions of mSupply and Open mSupply Central you will require when running as an Open mSupply remote site:
+The table below shows which versions of mSupply and Open mSupply Central you will require when running as an Open mSupply remote site. It is sorted newest-first, so the latest versions are at the top:
 
 | Open mSupply Remote | mSupply Central | Open mSupply Central |
 | :------------------ | :-------------- | -------------------- |
-| 1.1.00 - 1.1.16     | 7.04.01+        | N/A                  |
-| 1.2.00+             | 7.05.05+        | N/A                  |
-| 1.4.00+             | 7.09.00+        | N/A                  |
-| 2.0.00+             | 7.14.04+        | 2.0.00+              |
-| 2.1.00+             | 7.14.04+        | 2.1.00+              |
-| 2.2.00+             | 7.14.04+        | 2.2.00+              |
-| 2.3.00+             | 7.17.01+        | 2.3.00+              |
-| 2.7.00+             | 8.01.03+        | 2.7.00+              |
-| 2.8.00+             | 8.02.00+        | 2.8.00+              |
-| 2.9.00+             | 8.03.04+        | 2.9.00+              |
-| 2.9.02+             | 8.03.12+        | 2.9.02+              |
-| 2.10.00+            | 8.04.04+        | 2.10.00+             |
-| 2.13.00+            | 8.06.00+        | 2.13.00+             |
 | 2.20.00+            | 9.01.04+        | 2.20.00+             |
+| 2.13.00+            | 8.06.00+        | 2.13.00+             |
+| 2.10.00+            | 8.04.04+        | 2.10.00+             |
+| 2.9.02+             | 8.03.12+        | 2.9.02+              |
+| 2.9.00+             | 8.03.04+        | 2.9.00+              |
+| 2.8.00+             | 8.02.00+        | 2.8.00+              |
+| 2.7.00+             | 8.01.03+        | 2.7.00+              |
+| 2.3.00+             | 7.17.01+        | 2.3.00+              |
+| 2.2.00+             | 7.14.04+        | 2.2.00+              |
+| 2.1.00+             | 7.14.04+        | 2.1.00+              |
+| 2.0.00+             | 7.14.04+        | 2.0.00+              |
+| 1.4.00+             | 7.09.00+        | N/A                  |
+| 1.2.00+             | 7.05.05+        | N/A                  |
+| 1.1.00 - 1.1.16     | 7.04.01+        | N/A                  |
 
 If you attempt to connect to an incompatible server you'll get an error message like this:
 
