@@ -19,4 +19,4 @@ You will only see this tab under the `Dispensary` menu if you have Patient Progr
 
 ![Dispensary navigation menu showing the Encounters option](images/dispensary_gotoencounters.png)
 
-Learn more about Encounters in the [Patient Programs](/docs/programs/program-module/#encounter) documentation.
+Learn more about Encounters in the [Patient Programs](/docs/programs/patient-programs/#encounter) documentation.

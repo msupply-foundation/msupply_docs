@@ -144,12 +144,12 @@ Toggle the preferences on or off as required, and close when you are finished.
             <td colspan="2" class="parent">Batches expiring in between days</td>
         </tr>
         <tr>
-            <td class="child">◦ First threshold for expiring items (days)</td>
+            <td class="child">First threshold for expiring items (days)</td>
             <td>Days before expiry to start flagging as "expiring soon." Used in the <code>Expiring Stock</code> widget.
                 Note that the widget isn't displayed if both of these threshold settings are unconfigured.</td>
         </tr>
         <tr>
-            <td class="child">◦ Second threshold for expiring items (days)</td>
+            <td class="child">Second threshold for expiring items (days)</td>
             <td>Days before expiry to stop flagging as "expiring soon." Used in Expiring Stock widget.</td>
         </tr>
         <tr>
