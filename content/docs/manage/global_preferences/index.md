@@ -78,7 +78,29 @@ The `Custom translations` preference allows you to override specific terms used 
 Use this feature carefully. It can lead to confusion if terms do not match our documentation, or if they are not consistent across the application.
 </div>
 
-You can search by any text you see within the application, or if you know the translation key, you can search by that as well:
+#### Translations are per-language
+
+From v2.20, custom translations are stored **separately for each language**. Overriding a term in one language (for example English) no longer affects the same term in any other language (such as French or Spanish), so you can tailor terminology language by language.
+
+The custom translations editor always edits **the language that is currently active in the app**. When you open the editor, a banner shows which language you are editing, for example: _"Editing custom translations for: English. Switch language using the selector at the bottom of the screen to edit another language."_
+
+To edit a different language's translations:
+
+1. Close the custom translations editor.
+2. Change the app language using the language selector at the bottom of the screen.
+3. Reopen the editor — it will now edit the newly selected language.
+
+<div class="warning">If you change the app language while the editor is still open, a warning appears and saving is disabled, so that you cannot accidentally overwrite the wrong language's translations. Close and reopen the editor to continue editing the new language.</div>
+
+#### Finding a translation
+
+Use the search box to find the translation you want to override. You can search by:
+
+- any text you see within the application (the **default** text),
+- the translation key, if you know it, or
+- the **custom** text you have already entered for an existing override.
+
+Searching by your own custom content (new in v2.20) makes it much easier to find and maintain the overrides you have already set up. The search is case-insensitive and matches any part of the text.
 
 ![custom translations search](images/custom_translation_search.png)
 

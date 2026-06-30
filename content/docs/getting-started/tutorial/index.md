@@ -60,7 +60,9 @@ This is the checkbox at the bottom of the panel:
   that same username, the store selector is skipped automatically and you go straight
   into the store chosen here.
 
-<div class="note">The preference is saved <b>per username</b>> on the device/browser you are using. If two
+To change the `Remember my choice` setting later, simply click the store selector in the <a href="#footer">footer</a>.
+
+<div class="note">The preference is saved <b>per username</b> on the device/browser you are using. If two
 people use the same computer with different usernames, each person's choice is
 remembered independently — one person ticking the box does not affect the other.</div>
 
@@ -94,6 +96,21 @@ You can then use the arrow keys on the keyboard to move up and down the list and
 There are also various places where specific keyboard shortcuts are available. An example is the tab control used in both Stocktakes and Inbound Shipments. Here you can use `control`+`1` to navigate to the first tab (Quantities) or `control`+`2` for the second tab (Pricing) etc. If you press `+` on your keyboard, you can add a new batch.
 
 ![Inbound tabs](images/is_edit_keyboard_shortcuts.png)
+
+#### Discovering shortcuts as you go
+
+You don't have to open the shortcut window to find out which shortcuts apply to the screen you are on. Press and hold the `Control (Ctrl)` or `Alt` key (`Option (⌥)` on a Mac) and a small badge appears next to every button that has a keyboard shortcut, showing the key combination that activates it — for example `Alt+N` to add a new record, `Alt+S` to save, or `Escape` to cancel.
+
+Release the key and the badges disappear. This is a quick way to learn the shortcuts for the buttons in front of you.
+
+![Keyboard shortcut indicator hint](images/shortcut-indicators.png)
+
+#### Moving around tables with the keyboard
+
+Lists and tables throughout Open mSupply can be navigated without the mouse:
+
+- Use the `↓` and `↑` arrow keys to move the highlight down and up the rows. The highlighted row is shown with a shaded background.
+- Press `Enter` to open the highlighted row — the same as clicking it.
 
 ## Footer
 

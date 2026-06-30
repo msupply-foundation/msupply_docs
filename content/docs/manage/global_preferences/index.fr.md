@@ -71,7 +71,29 @@ La préférence `Traductions personnalisées` vous permet de remplacer des terme
 Utilisez cette fonctionnalité avec précaution. Elle peut créer de la confusion si les termes ne correspondent pas à notre documentation ou s'ils ne sont pas cohérents dans l'application.
 </div>
 
-Vous pouvez rechercher par tout texte visible dans l'application, ou si vous connaissez la clé de traduction, vous pouvez également rechercher par celle-ci :
+#### Les traductions sont propres à chaque langue
+
+À partir de la v2.20, les traductions personnalisées sont enregistrées **séparément pour chaque langue**. Remplacer un terme dans une langue (par exemple l'anglais) n'affecte plus le même terme dans une autre langue (comme le français ou l'espagnol) : vous pouvez ainsi adapter la terminologie langue par langue.
+
+L'éditeur de traductions personnalisées modifie toujours **la langue actuellement active dans l'application**. À l'ouverture de l'éditeur, une bannière indique la langue que vous modifiez, par exemple : _« Editing custom translations for: English. Switch language using the selector at the bottom of the screen to edit another language. »_
+
+Pour modifier les traductions d'une autre langue :
+
+1. Fermez l'éditeur de traductions personnalisées.
+2. Changez la langue de l'application à l'aide du sélecteur de langue en bas de l'écran.
+3. Rouvrez l'éditeur — il modifiera désormais la langue nouvellement sélectionnée.
+
+<div class="warning">Si vous changez la langue de l'application alors que l'éditeur est encore ouvert, un avertissement s'affiche et l'enregistrement est désactivé, afin que vous ne puissiez pas écraser par erreur les traductions de la mauvaise langue. Fermez puis rouvrez l'éditeur pour continuer à modifier la nouvelle langue.</div>
+
+#### Trouver une traduction
+
+Utilisez le champ de recherche pour trouver la traduction à remplacer. Vous pouvez rechercher par :
+
+- tout texte visible dans l'application (le texte **par défaut**),
+- la clé de traduction, si vous la connaissez, ou
+- le texte **personnalisé** que vous avez déjà saisi pour une substitution existante.
+
+La recherche par votre propre contenu personnalisé (nouveauté de la v2.20) facilite grandement la recherche et la maintenance des substitutions que vous avez déjà configurées. La recherche est insensible à la casse et correspond à toute partie du texte.
 
 ![recherche de traductions personnalisées](images/custom_translation_search.png)
 

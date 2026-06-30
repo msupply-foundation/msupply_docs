@@ -92,6 +92,35 @@ A notification confirms how many shipments were deleted (bottom left corner).
 You can only delete inbound shipments with a status <code>New</code>.
 </div>
 
+### Copy an inbound shipment
+
+If you regularly receive similar shipments from the same supplier, you can make a copy of an existing shipment instead of building a new one from scratch.
+
+You can do this from two places:
+
+- **From the list:** select a **single** shipment by checking the box on the left, then click `Make a copy` in the `Actions` footer at the bottom of the screen.
+- **From an open shipment:** click `Make a copy` in the information panel on the right.
+
+<div class="note">You can only copy <b>one</b> shipment at a time. If you select more than one in the list, the <code>Make a copy</code> button is disabled. You also need permission to edit inbound shipments.</div>
+
+A confirmation appears — for example _"This will create a copy of Shipment #15 from Central Medical Stores."_ Click to confirm, and a new shipment is created and opened for you. A notification confirms the new shipment number, for example _"Shipment #28 created as a copy of #15."_
+
+The copy is always created as a brand new shipment with the status `New`, so you can review and change it before receiving it. The following is carried over from the original shipment:
+
+- the **supplier**, and the supplier reference
+- the **comment** (prefixed so you can see where it came from, for example _"Copied from shipment #15 (...)"_)
+- transport details, charges, tax and currency
+- the **lines** — each item, along with its batch, expiry date, pack size, quantity, prices and location
+
+The following is **not** carried over, so that the copy behaves like a fresh shipment:
+
+- the status (the copy always starts at `New`) and all of the original dates
+- the invoice number (a new one is generated)
+- the `On Hold` setting (the copy is not on hold)
+- any link to a purchase order or to the original shipment
+
+<div class="warning">If an item on the original shipment is no longer in your catalogue, it cannot be copied. The shipment is still created, and a notification tells you how many items were skipped, for example <i>"1 item was not copied because it is no longer in the catalogue."</i></div>
+
 ## Creating a new manual inbound shipment
 
 1. Go to `Replenishment`> `Inbound shipment`

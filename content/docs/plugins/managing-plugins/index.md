@@ -51,7 +51,7 @@ Plugins are distributed as a **plugin bundle**, which is a single `.json` file g
 
 1. Click the **Upload plugin** button in the top right of the screen. The _Upload plugin_ window opens.
 2. Select the plugin bundle (`.json`) file to install. You can select more than one file to install several plugins at once.
-3. Click **OK** to upload and install the selected plugin(s).
+3. Click **OK** to upload and install the selected plugin(s)
 
 <div class="tip">The upload window will only accept <code>.json</code> files. If you select a different type of file you will see the error <i>"Invalid file type. Plugin bundles must be .json files."</i> &mdash; make sure you are selecting the plugin bundle and not, for example, a zipped folder or the plugin's source code.</div>
 
@@ -63,11 +63,11 @@ When the install completes successfully you will see the message _"Plugin instal
 
 Some plugins expose their own settings, which you can edit from the management screen instead of editing files by hand.
 
-1. For a plugin that supports configuration, click the **settings** (cog) icon on its row (or click the row itself).
-2. The _Configure plugin_ window opens, showing the form provided by that plugin.
+1. For a plugin that supports configuration, click the **settings** (cog) icon on its row (or click the row itself)
+2. The _Configure plugin_ window opens, showing the form provided by that plugin
 3. Make your changes and then either:
    - click **Save** to save your changes and keep the window open for further editing, or
-   - click **OK** to save your changes and close the window.
+   - click **OK** to save your changes and close the window
 
 When the configuration is saved you will see the message _"Plugin configuration saved"_.
 
