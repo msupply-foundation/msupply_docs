@@ -177,9 +177,25 @@ You will get the following error message if the Open mSupply central server is n
 
 ![v6 not configured!](images-en/v6_not_configured.png)
 
-The versions of both central servers and your Open mSupply remote site are important, as not all versions of each are compatible with each other.
+### How the versions fit together
 
-The table below shows which versions of mSupply and Open mSupply Central you will require when running as an Open mSupply remote site. It is sorted newest-first, so the latest versions are at the top:
+An Open mSupply system is made up of three parts, and their versions must be compatible for synchronisation to work. It helps to be clear about what each one is:
+
+- **Open mSupply Remote** — the Open mSupply site you run at a facility (a "remote site" or "satellite"). This is the version you are likely to be installing or upgrading.
+- **Open mSupply Central** — the single, special Open mSupply site that all remote sites synchronise with. Required from v2.0.00 onwards. See [Open mSupply Central Server](/docs/getting-started/central-server/).
+- **mSupply Central** — the (legacy) mSupply central server that Open mSupply still relies on for some centralised data.
+
+Every remote site talks to **both** central servers, so both of them must be new enough to support the remote.
+
+<div class="note">
+<b>The rule:</b> your central servers must be the <b>same version as your remote sites, or newer</b> — never older. Because of this, when you upgrade, always upgrade your <b>Open mSupply Central</b> and <b>mSupply Central</b> servers <b>first</b>, and only then upgrade your remote sites.
+</div>
+
+This is because a remote site and the Open mSupply Central server communicate using a versioned synchronisation protocol. A remote site will only sync if the Open mSupply Central server is recent enough to understand the protocol version the remote is using. If the central server is too old, synchronisation is refused.
+
+### Version compatibility table
+
+To use the table, find the **Open mSupply Remote** version you want to run in the first column. The other two columns show the **minimum** versions of mSupply Central and Open mSupply Central that support it (the `+` means "that version or newer").
 
 | Open mSupply Remote | mSupply Central | Open mSupply Central |
 | :------------------ | :-------------- | -------------------- |
@@ -197,6 +213,18 @@ The table below shows which versions of mSupply and Open mSupply Central you wil
 | 1.4.00+             | 7.09.00+        | N/A                  |
 | 1.2.00+             | 7.05.05+        | N/A                  |
 | 1.1.00 - 1.1.16     | 7.04.01+        | N/A                  |
+
+For example, to run an **Open mSupply Remote** site on **2.20.00**, you need **mSupply Central 9.01.04 or newer** and **Open mSupply Central 2.20.00 or newer**. (Versions 1.x predate the Open mSupply Central server, so `N/A` is shown in that column for those rows.)
+
+And from the perspective of the Open mSupply central server, here is the compatibility for versions of the remote server which you will require:
+
+| Central server version | Min remote version | Max remote version |
+| :--------------------- | :----------------- | :----------------- |
+| v2.9.02+               | v2.1.00            |
+| v2.7.00+               | v2.1.00            | v2.9.01            |
+| v2.5.00+               | v2.1.00            | v2.6.05            |
+| v2.2.00+               | v2.1.00            | v2.4.03            |
+| v2.1.00                | v2.1.00            | v2.1.00            |
 
 If you attempt to connect to an incompatible server you'll get an error message like this:
 
