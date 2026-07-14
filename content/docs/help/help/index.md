@@ -35,6 +35,18 @@ This will take you to the mSupply documentation and user guides page:
 
 ![mSupply Documentation](images/msupply_documentation.png)
 
+<div class="note">
+Your organisation may also provide its own guides and manuals directly in the app. These <a href="/docs/manage/help-documents/">help documents</a> are managed centrally by your administrators and synced out to your site.
+</div>
+
+### Keyboard shortcuts
+
+A description of keyboard shortcuts available in the app.
+
+### Help documents
+
+If your administrator has uploaded any [help documents ](/docs/manage/help-documents/) then these will show as links here, and are available to view. They are synchronised to your local server, so there is no need for an internet connection once you have synchronised!
+
 ### Contact Us
 
 Let us know why you are getting in touch by clicking the dropdown:

@@ -44,12 +44,15 @@ A detailed list of your inventory appears:
 | **Total**            | Total value of SOH (`Pack qty x Pack cost`)                                                                                                                                                    |
 | **Manufacturer**     | The manufacturer of this stock item. Automatically set when an item variant is selected, or can be manually entered                                                                            |
 | **Supplier**         | Shows the source of this stock item                                                                                                                                                            |
+| **Campaign**         | The [campaign](/docs/manage/campaigns/) this stock is allocated to, if any                                                                                                                     |
 
 ### Looking for a specific item
 
 There are a number of available filters, to help you find the stock you are looking for. You can also use the search box to filter by item name, code or batch.
 
 ![Stock: filter](images/stock_filter.png)
+
+If you use [campaigns](/docs/manage/campaigns/), you can also filter the list by `Campaign` to show only the stock allocated to a particular campaign, and sort the list by campaign using the `Campaign` column header.
 
 ### Group by item
 
@@ -63,11 +66,13 @@ Doing so will group stock lines by the item, such as _Artemether/Lumefantrine 20
 
 ### Exporting Stock
 
-The list of Stock can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page) to download the file:
+The list of Stock can be exported to a comma separated file (csv) or an Excel file. Simply click the export button (on the right, at the top of the page) to download the file:
 
 ![Export button](images/export.png)
 
 The export function will download all stock lines, not just the current page, if you have more than 20 of them.
+
+The exported data includes the `Campaign` column, so you can report on stock by campaign in your spreadsheet. Exports also include the **store name and code** — in the data itself, in the download filename, and in the Excel sheet name — so it is clear which store the data came from when you are working with exports from several stores.
 
 ### Non standard items
 

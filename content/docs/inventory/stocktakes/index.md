@@ -97,6 +97,14 @@ The stocktake will then be created and stock lines will be used to populate the 
 Don't worry if an item is missing from your newly created stocktake. You will have the possibility to add more items to your stocktake afterwards. 
 </div>
 
+### Blind stocktakes
+
+By default, a stocktake shows the expected (snapshot) number of packs next to each line as you count. A **blind stocktake** hides these expected figures while counting, so staff record only what they physically count without being influenced by what the system expects. This helps reduce counting bias and gives you a more honest measure of how accurate your stock records are.
+
+When counting a blind stocktake, the snapshot and difference values are hidden. The expected quantities and the calculated difference are still recorded behind the scenes, and become visible again once the stocktake is finalised, so you can review the variance and it is still captured in the [stocktake variance report](/docs/getting-started/reports/).
+
+To enable the blind stocktake feature, enable the `Enable blind stocktake` store [preference](/docs/manage/facilities/#available-preferences).
+
 #### Vaccines
 
 If you have the [Manage vaccines in doses](/docs/manage/facilities/#store-preferences) store preference enabled you will see columns for `Doses per unit` and `Doses counted`. For stocktake lines of vaccine items, the number of doses per unit (e.g. `Vial`) is shown in this column. The `Difference` column will also show the difference in doses as well as packs:
@@ -186,6 +194,12 @@ This will either:
 
 ![Print menu](images/stocktake_print_menu.png)
 
+## Supporting documents
+
+You can attach supporting documents to a stocktake - for example a signed validation sheet, a photo of a count, or a scanned tally sheet. This keeps the evidence for a count together with the stocktake record.
+
+To add a document, use the upload option on the stocktake and select the file you want to attach. Uploaded documents are listed with their **upload date** and **file size** so you can tell them apart at a glance.
+
 ## Filtering lines
 
 The list of stocktake lines can get very long if you have a large stocktake. To make working with the stocktake easier to manage, you can filter the list by item name or code.
@@ -199,6 +213,8 @@ Or, enter some of an item's name:
 ![Filter by code](images/stocktake_filter_name.png)
 
 You can also group the lines by item by enabling the `Group by item` switch.
+
+If you use [campaigns](/docs/manage/campaigns/), a `Campaign` column and filter are available in the stocktake view so you can see and narrow down which stock belongs to which campaign.
 
 ## Bulk actions
 

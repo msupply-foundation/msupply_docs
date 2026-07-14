@@ -35,6 +35,16 @@ You can view these preferences by clicking on the `More` button.
 Some reports display the store logo in their header. See the <a href="https://docs.msupply.org.nz/other_stuff:virtual_stores#logo_tab">mSupply documentation</a> for how to add or update a store logo.
 </div>
 
+## Enabling and disabling reports
+
+Administrators can control which reports are available to users by turning them on or off from `Manage` > `Reports`.
+
+Each report has a toggle. When a report is disabled it no longer appears in the reports list and cannot be generated; enable it again at any time to make it available. This lets you tailor the list to the reports your store actually uses, without permanently removing any report.
+
+<div class="note">
+Enabling and disabling reports is an administrator task. Which users can manage reports is controlled by their <a href="/docs/settings/permissions/">permissions</a>.
+</div>
+
 ## Generating reports
 
 Click on the report you want to generate. For this example, we will generate the

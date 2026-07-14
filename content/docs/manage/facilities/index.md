@@ -74,6 +74,10 @@ Toggle the preferences on or off as required, and close when you are finished.
             <td>When this preference is enabled, an Indicative Price column is displayed on internal orders (in the requesting store) and on the corresponding requisitions (in the supplying store).</td>
         </tr>
         <tr>
+            <td>Enable blind stock take</td>
+            <td>Hides the display of the snapshot quantity in stocktakes if enabled</td>
+        </tr>
+        <tr>
             <td>Order in packs</td>
             <td>Defaults the Internal Order/Requisition representation to packs instead of units</td>
         </tr>
