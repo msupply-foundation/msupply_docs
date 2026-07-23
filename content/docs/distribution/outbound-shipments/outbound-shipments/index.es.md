@@ -226,7 +226,7 @@ Se encuentra en la esquina inferior izquierda, a la izquierda de la secuencia de
 
 Seleccionar la casilla `Retener` evita que la salida se actualice al siguiente estado.
 
-![Outbound checkbox](../../images/holdcheckbox.png)
+![Outbound checkbox](../../../images/holdcheckbox.png)
 
 ### Botones de Cancelar y Confirmar
 
@@ -270,9 +270,9 @@ En la ventana de `Agregar ítem`, puedes buscar un ítem de las siguientes maner
 
 Una vez que hayas resaltado el ítem, toca su nombre o presiona `Enter`.
 
-![Add Item list](../../images/adding-an-item-all.png)
-![Add Item by name](../../images/adding-an-item-name.png)
-![Add Item by code](../../images/adding-an-item-code.png)
+![Add Item list](../../../images/adding-an-item-all.png)
+![Add Item by name](../../../images/adding-an-item-name.png)
+![Add Item by code](../../../images/adding-an-item-code.png)
 
 Una vez que se selecciona el artículo, se pueden ver las siguientes información:
 
@@ -426,10 +426,10 @@ Haga clic en el botón `Agregar desde la lista maestra` (esquina superior derech
 Se abre una nueva ventana de `Listas Maestras`. Esto le permite seleccionar la lista maestra requerida. Simplemente haga clic en una de las listas (si tiene alguna disponible).
 Tenga en cuenta que las listas que se muestran son aquellas que son visibles para el cliente del envío.
 
-![Add Item button](../../images/add-item-master-lists.png)
+![Add Item button](../../../images/add-item-master-lists.png)
 
 Haga clic en `OK` en la ventana emergente:
-![Add Item button](../../images/add-item-master-list-prompt.png)
+![Add Item button](../../../images/add-item-master-list-prompt.png)
 
 Luego se agregarán líneas no asignadas (reserva) a su envío, que se verán así:
 
@@ -467,7 +467,7 @@ Para editar una línea de envío, selecciónela. Se abrirá la ventana`Editar Ar
 En el siguiente ejemplo, estamos eliminando e <i>artículo 030063 - Tabletas de ácido acetilsalicílico de 100 mg</i>
 </div>
 
-![Alt Text](images/os_deleteselectedlines.png)
+![Delete lines](images/delete_os_line.png)
 
 <div class="consejo">
  <b></b> Puedes eliminar varias líneas a la vez. Asegúrate de revisar lo que está seleccionado antes de realizar la acción de eliminación. 
@@ -555,7 +555,7 @@ Si su cliente también utiliza mSupply, podrá ver cuándo recibirán sus envío
 Cuando se visualiza un envío específico, se pueden ver los lotes en ese envío agrupados por ítem o con cada lote listado por separado.
 Para cambiar el modo de vista, haz clic en el botón `Agrupar por artículo`.
 
-![Group by Item button](../../images/table_group_by_item_button.png)
+![Group by Item button](../../../images/table_group_by_item_button.png)
 
 Cuando se agrupa por árticulo, se puede expandir el artículo para ver lotes individuales, o utilizar la expansión en el encabezado de la tabla para expandir todas las filas agrupadas. Si haces clic en un artículo, también verás todos los lotes seleccionados, como se muestra en este ejemplo:
 
@@ -569,4 +569,4 @@ Si no tienes suficiente espacio en la pantalla, o simplemente no estás interesa
 
 Haz clic en el botón `Mostrar / ocultar columnas`, que está en la parte superior derecha de la tabla. Esto da una lista de las columnas disponibles; puedes marcar las columnas que deseas ver. Las opciones elegidas se almacenan para el navegador actual, por lo que la próxima vez que veas una salida, solo verás las columnas seleccionadas.
 
-![Hide column button](../../images/table_filter_button.png)
+![Hide column button](../../../images/table_filter_button.png)

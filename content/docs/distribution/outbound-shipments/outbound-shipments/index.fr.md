@@ -55,11 +55,11 @@ De cet écran, vous pouvez:
 
 2. La liste peut afficher un nombre fixe d'expéditions par page. Au bas de liste, à gauche, on peut voir le nombre d'expéditons actuellement affiché à l'écran.
 
-![Page](../../images/list_showing.png)
+![Page](../../../images/list_showing.png)
 
 3. S'il y a plus de 20 expéditions, vous pouvez vous déplacer vers une autre page en cliquant sur le numéro de la page ou en utilisant les flèches droite ou gauche (coin inférieur droit).
 
-![Page](../../images/list_pagenumbers.png)
+![Page](../../../images/list_pagenumbers.png)
 
 ### Recherche par nom de client
 
@@ -228,7 +228,7 @@ Situé dans le coin inférieur gauche, à gauche du statuts de la séquence.
 
 Le fait de cocher la case `Hold` empêche la mise à jour du transfert sortant vers le statut suivant.
 
-![Outbound checkbox](../../images/holdcheckbox.png)
+![Outbound checkbox](../../../images/holdcheckbox.png)
 
 ### Bouton d'annulation et de confirmation
 
@@ -272,9 +272,9 @@ Dans la fenêtre `Add Item` vous pouvez rechercher un élément par :
 
 Une fois que votre article est mis en évidence, tapez sur le nom ou appuyez sur `Enter`.
 
-![Add Item list](../../images/adding-an-item-all.png)
-![Add Item by name](../../images/adding-an-item-name.png)
-![Add Item by code](../../images/adding-an-item-code.png)
+![Add Item list](../../../images/adding-an-item-all.png)
+![Add Item by name](../../../images/adding-an-item-name.png)
+![Add Item by code](../../../images/adding-an-item-code.png)
 
 Une fois l'élément sélectionné, les informations suivantes s'affichent :
 
@@ -408,68 +408,6 @@ Lorsque vous examinez une expédition, vous pouvez voir si une ligne d'expéditi
 
 ![Alt Text](images/os_placeholderlines.png)
 
-### Confirm Item and Quantity
-
-When you are happy with the quantity, you can either press on:
-
-- the `OK` button. You are redirected to the Outbound Shipment view and your item has been added to the list.
-- the `OK & Next` button to add another item right away
-- the `Cancel` if you do not want to add the item to the Outbound Shipment anymore
-
-## Editing an Outbound Shipment Line
-
-To edit an shipment line, tap on it. You will be presented with the `Edit Item` window, which is identical to the `Add Item` window, except that the item is already chosen.
-
-### Edit a Shipment Line
-
-<div class="remarque">
- <b></b> you can edit a shipment line if the shipment has a status lower than <code>Shipped</code>. 
-</div>
-
-1. Open the Outbound Shipment you want to edit.
-2. Tap on the line you want to edit. An identical window to `Add Item` appears. At this stage:
-   - Edit the main `Issue Quantity` field
-   - or change the number of packs value at the batch number level
-
-<div class="remarque">
- <b></b> When editing a shipment line, you cannot change the item. You would need to delete the shipment line and to create a new one. 
-</div>
-
-### Delete a Shipment line
-
-1. Open the Outbound Shipment you want to edit.
-2. Select the line(s) you want to delete by checking the box(es) on the right of the list.
-3. Go to the `Actions` dropdown menu (top right corner, above the list)
-4. Select the action `Delete selected lines`
-
-<div class="imagetitle">
-In the below example, we are deleting <i>item 030063 - Acetylsalicylic Acid 100mg tabs</i>
-</div>
-
-![Alt Text](images/os_deleteselectedlines.png)
-
-<div class="conseil">
- <b></b> You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
-</div>
-
-## Processing an Outbound Shipment
-
-### Allocating an Outbound Shipment
-
-Allocation is the process of assigning one or multiple batch numbers from the inventory to a shipment line. In other words, you are assigning stock to your shipment. Once allocated, the stock is reserved for the shipment and thus for your customer.
-
-There are 2 main ways to allocate a shipment line:
-
-1. When adding items, system is automatically assigning stock to the new shipment line when you enter a quantity. If you don't have enough stock, system will add placeholder lines (unallocated lines).
-
-2. Bulk action `Allocate placeholder lines`:
-   - Select the lines that you want to allocate by checking boxes on the right on the list
-   - In the `Actions` dropdown menu, select `Allocate placeholder lines`. System will check if there is available stock for each selected lines and allocate them using the First to Expire, First Out (FEFO) logic. A notification will let you know whether the operation is successful or not.
-
-<div class="remarque">
-You won't be able to process your Outbound Shipment if you have unallocated lines (shipment lines without batch number(s) assigned to it). You can wait for more stock to arrive or you can delete the placeholder lines. 
-</div>
-
 ### Confirmer l'article et la quantité
 
 Quand vous êtes satisfait de la quantité, vous pouvez appuyer sur :
@@ -487,10 +425,10 @@ Appuyez sur le bouton `Ajouter depuis la liste principale` (coin supérieur droi
 Une nouvelle fenêtre `Listes principales` s'ouvre. Cela vous permet de sélectionner la liste principale requise. Cliquez simplement sur une des listes (si vous en avez de disponibles).
 Notez que les listes montrées sont celles qui sont visibles pour le client de l'expédition.
 
-![Bouton Ajouter un article](../../images/add-item-master-lists.png)
+![Bouton Ajouter un article](../../../images/add-item-master-lists.png)
 
 Cliquez sur `OK` sur l'invite :
-![Bouton Ajouter un article](../../images/add-item-master-list-prompt.png)
+![Bouton Ajouter un article](../../../images/add-item-master-list-prompt.png)
 
 Vous aurez alors des lignes non allouées (espace réservé) ajoutées à votre expédition, qui ressemblera alors à ceci :
 
@@ -527,7 +465,7 @@ Pour modifier une ligne d'expédition, appuyez dessus. La fenêtre `Modifier l'a
 Dans l'exemple ci-dessous, nous supprimons <i>trois lignes d'espace réservé</i>.
 </div>
 
-![Alt Text](images/delete-outbound-shipment-line.png)
+![delete outbound shipment line](images/delete_os_line.png)
 
 <div class="tip">
  <b></b> Vous pouvez supprimer plusieurs lignes à la fois. Assurez-vous de vérifier ce qui est sélectionné avant d'effectuer l'action Supprimer. 
@@ -666,4 +604,4 @@ Si vous n'avez pas assez de place sur votre écran, ou simplement n'êtes pas in
 
 Cliquez sur le bouton `Montrer / cacher les colonnes` qui est en haut à droite du tableau. Cela donne une liste des colonnes disponibles - vous pouvez cocher les colonnes que vous voulez voir. Les options choisies sont stockées pour le navigateur actuel, donc la prochaine fois que vous visualisez une expédition sortante, vous verrez seulement les colonnes sélectionnées.
 
-![Hide column button](../../images/table_filter_button.png)
+![Hide column button](../../../images/table_filter_button.png)
