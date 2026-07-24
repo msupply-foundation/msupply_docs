@@ -199,6 +199,7 @@ To use the table, find the **Open mSupply Remote** version you want to run in th
 
 | Open mSupply Remote | mSupply Central | Open mSupply Central |
 | :------------------ | :-------------- | -------------------- |
+| 2.21.02+            | 9.02.04+        | 2.21.02+             |
 | 2.20.00+            | 9.01.04+        | 2.20.00+             |
 | 2.13.00+            | 8.06.00+        | 2.13.00+             |
 | 2.10.00+            | 8.04.04+        | 2.10.00+             |
@@ -214,7 +215,7 @@ To use the table, find the **Open mSupply Remote** version you want to run in th
 | 1.2.00+             | 7.05.05+        | N/A                  |
 | 1.1.00 - 1.1.16     | 7.04.01+        | N/A                  |
 
-For example, to run an **Open mSupply Remote** site on **2.20.00**, you need **mSupply Central 9.01.04 or newer** and **Open mSupply Central 2.20.00 or newer**. (Versions 1.x predate the Open mSupply Central server, so `N/A` is shown in that column for those rows.)
+For example, to run an **Open mSupply Remote** site on **2.21.02**, you need **mSupply Central 9.02.04 or newer** and **Open mSupply Central 2.21.02 or newer**. (Versions 1.x predate the Open mSupply Central server, so `N/A` is shown in that column for those rows.)
 
 And from the perspective of the Open mSupply central server, here is the compatibility for versions of the remote server which you will require:
 
