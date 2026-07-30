@@ -235,7 +235,7 @@ Ubicada en la esquina inferior izquierda, a la izquierda de la secuencia de esta
 
 Marcar la casilla `Retener` evita que la entrada de envío entre en el siguiente estado.
 
-![Inbound hold checkbox](../../images/holdcheckbox.png)
+![Inbound hold checkbox](../../../images/holdcheckbox.png)
 
 ### Botón de confirmar y cerrar
 
@@ -278,9 +278,9 @@ En la ventana `Agrgear Artículo`, puedes buscar un artículo de las siguientes 
 
 Una vez que el artículo esté resaltado, haz clic en el nombre o presiona `Enter`.
 
-![Add Item list](../../images/adding-an-item-all.png)
-![Add Item by name](../../images/adding-an-item-name.png)
-![Add Item by code](../../images/adding-an-item-code.png)
+![Add Item list](../../../images/adding-an-item-all.png)
+![Add Item by name](../../../images/adding-an-item-name.png)
+![Add Item by code](../../../images/adding-an-item-code.png)
 
 ### Pestaña de cantidades
 
@@ -347,18 +347,18 @@ Haz clic en el botón `Añadir desde lista maestra` (esquina superior derecha).
 El botón estará desactivado si el estado de la entrada es cualquier cosa que no sea <code>Nuevo</code>
 </div>
 
-![Add Item button](images/os-add-from-master-list-button.png)
+![Add from master list button](images/is_add_from_master_list_button.png)
 
 Se abrirá una nueva ventana de `Listas Maestras`. Esto te permite seleccionar la lista maestra requerida. Simplemente haz clic en una de las listas (si tienes alguna disponible)
 
-![Add Item button](../../images/add-item-master-lists.png)
+![Add item master lists](../../../images/add-item-master-lists.png)
 
 Haz clic en `Aceptar` en el cuadro de diálogo:
-![Add Item button](../../images/add-item-master-list-prompt.png)
+![Add item master list prompt](../../../images/add-item-master-list-prompt.png)
 
 Luego se agregarán líneas de marcador de posición a tu envío, que se verán así:
 
-![Add Item button](images/is-after-master-list.png)
+![After master list](images/is-after-master-list.png)
 
 Las filas importadas tendrán cero para el valor de número de paquetes y, por lo tanto, se mostrarán en una fuente azul sin mostrar el lote, la caducidad, la ubicación, etc. Puedes seguir los pasos para editar estas líneas, como se detalla arriba.
 

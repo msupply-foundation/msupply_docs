@@ -170,7 +170,7 @@ Vous pouvez également ajouter des **Frais de service** (ex. `Frais de transport
 
 Si votre dépôt émet en devises étrangères, suivez [ces instructions](https://docs.msupply.org.nz/other_stuff:currencies) dans la documentation du serveur central pour la configuration. Vous devrez également activer la préférence de dépôt `Dépôt : Peut émettre en devise étrangère`.
 
-![Préférence du dépôt](../../images/store-pref-issue-in-foreign-currencies.png)
+![Préférence du dépôt](../../../images/store-pref-issue-in-foreign-currencies.png)
 
 ![](images/is_change_foreign_currency.png)
 ![Ligne avec tarification en devise étrangère](images/is_line_with_foreign_currency.png)
@@ -245,7 +245,7 @@ Située dans le coin inférieur gauche, à gauche de la séquence de statuts.
 
 Cocher la case `En attente` empêche l'Expédition Entrante d'être mise à jour vers le statut suivant.
 
-![Case à cocher En attente](../../images/holdcheckbox.png)
+![Case à cocher En attente](../../../images/holdcheckbox.png)
 
 ### Boutons Fermer et Confirmer
 
@@ -280,9 +280,9 @@ Dans la fenêtre `Ajouter un Article`, vous pouvez rechercher un article par la 
 
 Une fois votre article mis en surbrillance, appuyez sur son nom ou sur `Entrée`.
 
-![Liste Ajouter un article](../../images/adding-an-item-all.png)
-![Ajouter un article par nom](../../images/adding-an-item-name.png)
-![Ajouter un article par code](../../images/adding-an-item-code.png)
+![Liste Ajouter un article](../../../images/adding-an-item-all.png)
+![Ajouter un article par nom](../../../images/adding-an-item-name.png)
+![Ajouter un article par code](../../../images/adding-an-item-code.png)
 
 ### Onglet Quantités
 
@@ -380,10 +380,10 @@ Le bouton sera désactivé si le statut de l'Expédition Entrante est autre que 
 
 Une nouvelle fenêtre `Listes Maîtresses` s'ouvre. Cliquez simplement sur l'une des listes disponibles.
 
-![Bouton Ajouter un article](../../images/add-item-master-lists.png)
+![Bouton Ajouter un article](../../../images/add-item-master-lists.png)
 
 Cliquez sur `OK` sur le message de confirmation :
-![Bouton Ajouter un article](../../images/add-item-master-list-prompt.png)
+![Bouton Ajouter un article](../../../images/add-item-master-list-prompt.png)
 
 Des lignes de remplacement seront ajoutées à votre expédition avec une quantité de conditionnements à zéro, affichées en police bleue.
 
