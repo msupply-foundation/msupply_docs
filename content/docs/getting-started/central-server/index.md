@@ -78,21 +78,42 @@ Synchronisation to Open mSupply central server is performed via the V6 API, and 
 
 - As of v2.7.0, all stores on the Open mSupply Central Server must run in dispensary mode. This ensures all record types sync correctly.
 
-## Open mSupply central server data types
+## Versions of central server
 
-<div class="note">As of <code>v2.0.00</code></div>
+### v2.x
 
-#### Data that is configured in Open mSupply central server
+Open mSupply `v2.0.00` introduced the central server. For versions 2.x of Open mSupply, remote sites synchronise to both the mSupply central server _and_ the Open mSupply central server.
+
+For reporting purposes, all sites will have standard data stored in the mSupply central server and available to be reported on. Newly introduced functionality will only be on the Open mSupply central server. The newly introduced data includes the following:
+
+**Configured in Open mSupply central server**
 
 - Item Pack Variants
 - Asset Catalogue
 - Asset Status Reasons
 - Demographics Indicators
 
-#### Data that synchronises with Open mSupply central server
+**Synchronises with Open mSupply central server**
 
 - Assets
 - Files
 - Asset Logs
 - Store Properties
 - Immunization Programs and Vaccine Courses
+
+### v3.x
+
+Open mSupply `v3.0.00` introduces a newer sync method (referred to internally as v7), in which a remote site syncs only with the Open mSupply central server. It no longer connects directly to the legacy mSupply central server at all. For reporting purposes all site data is available on the Open mSupply central server in this scenario.
+
+Before a site can move to v7, all of the store data it holds has to be moved from the mSupply central server to the Open mSupply central server. This is initiated by a setting on the mSupply central server (migrate all store data). **Contact support for assistance with this.**
+
+Checking the setting does not switch any site to sync v7 by itself. The mSupply setting moves the data, and a site changes to use sync v7 only once every store it holds has finished moving. When that is true, a remote site running v3.0+ transitions itself automatically on its next sync — there is nothing to change on the remote machine, and no setting for you to edit by hand.
+
+<div class="warning">Do not install v3 on a new remote site before its stores have been migrated</div>
+
+A remote site running `v3.0` or later asks to change to use sync v7 at the end of every sync cycle. Until its store data has finished migrating, the mSupply central server declines the request, and the site treats that as a failed sync. What you see depends on whether the site has ever synced successfully:
+
+| Situation                            | What happens                                                                                                                                                                    |
+| :----------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **An existing site upgraded to v3**  | Keeps working normally — it continues to push and pull as before. It reports a sync error on each cycle until the move to v7 goes through, which is expected and clears itself. |
+| **A brand new site installed on v3** | **Cannot finish initialising.** It will pull data but never push, and never comes into service. It stays like this until its store has been migrated.                           |
