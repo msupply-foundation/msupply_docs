@@ -4,7 +4,7 @@ description = "Campaign management"
 date = 2025-06-11T16:20:00+00:00
 updated = 2025-06-11T16:20:00+00:00
 draft = false
-weight = 5
+weight = 6
 sort_by = "weight"
 template = "docs/page.html"
 

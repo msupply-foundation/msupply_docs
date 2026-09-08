@@ -4,7 +4,7 @@ description = "Gestion des campagnes"
 date = 2025-06-11T16:20:00+00:00
 updated = 2025-06-11T16:20:00+00:00
 draft = false
-weight = 5
+weight = 6
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -25,11 +25,11 @@ Une liste des campagnes vous sera présentée :
 
 Les colonnes suivantes sont affichées :
 
-| Colonne            | Description                          |
-| :----------------- | :----------------------------------- |
-| **Nom**            | Le nom de la campagne                |
-| **Date de début**  | La date de début de la campagne      |
-| **Date de fin**    | La date à laquelle la campagne se termine |
+| Colonne           | Description                               |
+| :---------------- | :---------------------------------------- |
+| **Nom**           | Le nom de la campagne                     |
+| **Date de début** | La date de début de la campagne           |
+| **Date de fin**   | La date à laquelle la campagne se termine |
 
 <div class="note">Notez que les dates ne sont actuellement pas utilisées par le système</div>
 

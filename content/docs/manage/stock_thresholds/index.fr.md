@@ -4,7 +4,7 @@ description = "Comprendre les paramètres de seuil de stock"
 date = 2026-03-18
 updated = 2026-03-18
 draft = false
-weight = 3
+weight = 10
 sort_by = "weight"
 template = "docs/page.html"
 

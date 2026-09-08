@@ -4,7 +4,7 @@ description = "Global Preferences Configuration"
 date =  2025-05-21
 updated = 2025-05-21
 draft = false
-weight = 2
+weight = 3
 sort_by = "weight"
 template = "docs/page.html"
 
