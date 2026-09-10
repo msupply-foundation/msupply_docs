@@ -174,7 +174,7 @@ Los estados completados se destacan en azul, mientras que los próximos estados 
 
 ![Secuencia de estado de prescripción mostrando los pasos Nuevo, Preparado y Verificado](images/prescription_statussequence1.png)
 
-![Secuencia de estado de prescripción mostrando el paso actual en Preparado entre Nuevo y Verificado](prescription_statussequence2.png)
+![Secuencia de estado de prescripción mostrando el paso actual en Preparado entre Nuevo y Verificado](images/prescription_statussequence2.png)
 
 Hay 3 estados para una prescripción:
 
@@ -248,7 +248,7 @@ Después de seleccionar el artículo, podrás ver la siguiente información:
 <b>Ejemplo:</b> Para el artículo *030063 Ácido Acetilsalicílico 100mg tabletas*, hay 20,976 tabletas disponibles.
 </div>
 
-![add item headers](images/additem_headers.png)
+![add item headers](/docs/distribution/outbound-shipments/outbound-shipments/images/additem_headers.png)
 
 #### Emitir [Cantidad] de unidades en paquetes de [Tamaño del paquete]
 

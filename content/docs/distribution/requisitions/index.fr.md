@@ -45,11 +45,11 @@ Depuis cet écran, vous pouvez :
 
 2. La liste peut afficher un nombre fixe de commandes par page. Dans le coin inférieur gauche, vous pouvez voir combien de commandes sont actuellement affichées sur votre écran.
 
-![Page](images/list_showing.png)
+![Page](/docs/images/list_showing.png)
 
 3. Si vous avez plus de 20 lignes de commandes, vous pouvez naviguer vers les autres pages en appuyant sur le numéro de page ou en utilisant les flèches droite ou gauche (Le coin inférieur droit)..
 
-![Page](images/list_pagenumbers.png)
+![Page](/docs/images/list_pagenumbers.png)
 
 ### Rechercher par commentaire
 

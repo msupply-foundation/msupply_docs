@@ -178,7 +178,7 @@ Esto hará que
 - Muestre un menú de posibles informes para que seleccione antes de crear un PDF. Esto sucederá si hay más de un informe definido para el tipo de informe `Requisición`.
 - Cree un PDF de inmediato, si solo hay un informe para seleccionar.
 
-![Print menu](images/os_print_menu.png)
+![Print menu](images/intord_print_menu.png)
 
 ### Enviar una Orden Interna
 

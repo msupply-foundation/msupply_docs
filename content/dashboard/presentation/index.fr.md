@@ -81,13 +81,13 @@ This Dashboard example contains six Panels:
 - Months of stock by region
 - Stock history over time by store
 
-![Top Right Controls!](Presentation/images/example_dashboard.png)
+![Top Right Controls!](images/example_dashboard.png)
 
 #### Navigation menus
 
 Let's walk through the navigation menus
 
-![Top Right Controls!](Presentation/images/dashboard_top_left_controls.png)
+![Top Right Controls!](images/dashboard_top_left_controls.png)
 
 1. Overview - This is the dashboard you are viewing. Clicking on this opens a window to view your other dashboards.
 
@@ -97,7 +97,7 @@ Let's walk through the navigation menus
 
 4. Help menu - Keyboard shortcuts, Community site, Grafana documentation
 
-![Top Right Controls!](Presentation/images/dashboard_top_right_controls.png)
+![Top Right Controls!](images/dashboard_top_right_controls.png)
 
 5. Mark as Favourite
 

@@ -19,7 +19,7 @@ La sección de configuración permite configurar datos personalizados para el si
 
 Para ver la configuración de los ajustes, ve a `Ajustes` en la sección inferior del panel de navegación:
 
-![Settings: nav](images/admin_nav.png)
+![Settings: nav](/docs/settings/images/admin_nav.png)
 
 Si estás en el Servidor Central de Open mSupply, verás esta lista de secciones de ajustes:
 
@@ -41,7 +41,7 @@ Una vez configurado, el botón `Inicializar` se desactivará:
 
 También aparecerá un botón `Editar` en el pie de página, donde podrás editar las propiedades del almacén para el almacén en la que estés registrado:
 
-![Store properties edit](images/store_properties_edit_footer.png)
+![Store properties edit](/docs/manage/facilities/images/footer_store_edit.png)
 
 Al hacer clic en ese botón `Editar` se abrirá una nueva ventana, donde podrás [ver y editar las propiedades de tu almacén](/docs/manage/facilities/#editing-your-store-properties).
 

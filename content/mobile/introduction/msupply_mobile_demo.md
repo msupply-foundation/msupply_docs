@@ -21,7 +21,7 @@ The mSupply Mobile demo site is now hosted on: [https://demo.msupply.org](https:
 
 # Request a Demo Store
 
-![Custom invoices button on Navigator](/mobile/introduction/images/request_a_demo.png)
+![Custom invoices button on Navigator](/mobile/introduction/images/Request_a_Demo.png)
 
 After starting mSupply mobile on the Android tablet, you will see a screen like the above for the first time. Click on the "Request a Demo Store" button to request credentials for the new store.
 

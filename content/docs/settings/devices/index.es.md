@@ -19,7 +19,7 @@ La sección de configuración de dispositivos te permite configurar los disposit
 
 Para ver la configuración de dispositivos, ve a `Ajustes` en la sección inferior del panel de navegación:
 
-![Admin: nav](images/admin_nav.png)
+![Admin: nav](/docs/settings/images/admin_nav.png)
 
 Verás la lista de secciones de configuración:
 

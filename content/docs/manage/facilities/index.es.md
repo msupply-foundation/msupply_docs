@@ -19,8 +19,6 @@ La lista de instalaciones está disponible únicamente en el [Servidor Central d
 
 Selecciona `Administrar` > `Almacenes` en el panel de navegación.
 
-![goto: facilities](images/goto_facilities.png)
-
 Se te presentará una lista de los almacenes en tu sistema
 
 ![facility list](images/facilities.png)
@@ -41,15 +39,15 @@ Puedes identificar si un cliente también usa Open mSupply en su almacén si tie
 
 La lista puede mostrar un número fijo de almacenes por página. En la esquina inferior izquierda, puedes ver cuántos almacenes se están mostrando actualmente en tu pantalla.
 
-![Pagination: showing](images/list_showing.png)
+![Pagination: showing](/docs/images/list_showing.png)
 
 Si tienes más almacenes de los que el límite actual permite, puedes navegar entre páginas haciendo clic en el número de página o utilizando las flechas izquierda y derecha (esquina inferior derecha).
 
-![Pagination: navigating](images/list_pagenumbers.png)
+![Pagination: navigating](/docs/images/list_pagenumbers.png)
 
 También puedes seleccionar un número diferente de filas para mostrar por página usando la opción en la esquina inferior derecha de la página.
 
-![Rows per page](images/rows-per-page-select.png)
+![Rows per page](/docs/images/rows-per-page-select.png)
 
 ### Buscar almacenes
 

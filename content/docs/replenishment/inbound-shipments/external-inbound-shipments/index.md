@@ -49,14 +49,10 @@ A window will appear showing all Purchase Orders with a `Sent` status. The list 
 | **Ref**      | Your reference for the Purchase Order |
 | **Comment**  | Any comment on the Purchase Order     |
 
-<!-- ![Select Purchase Order](images/eis_select_po.png) -->
-
 Select a Purchase Order from the list. You will then have two options:
 
 - **Add with all lines**: Creates the External Inbound Shipment and automatically populates it with all lines from the Purchase Order. This is the recommended option in most cases.
 - **Add with no lines**: Creates an empty External Inbound Shipment linked to the Purchase Order. You can then add lines manually.
-
-<!-- ![Add lines options](images/eis_add_options.png) -->
 
 Once created, the shipment will open in the detail view with the supplier name shown in the top left corner and a status of `New`.
 
@@ -116,8 +112,6 @@ The columns include:
 | **Line Total**       | Total value for the line                                       |
 | **Adjusted Total**   | Total after adjustments                                        |
 
-<!-- ![Financial tab](images/eis_financial_tab.png) -->
-
 ### Currency Tab
 
 The Currency tab allows you to manage foreign currency settings and additional charges for the shipment.
@@ -130,8 +124,6 @@ The Currency tab allows you to manage foreign currency settings and additional c
 | **Charges (Local Currency)** | Additional charges in your local currency                        |
 
 The tab also shows a summary with total values and the cost adjustment percentage applied across lines.
-
-<!-- ![Currency tab](images/eis_currency_tab.png) -->
 
 <div class="note">
 The currency rate can be edited if the PO currency differs from your home currency.
@@ -149,8 +141,6 @@ The Delivery tab provides an overview of how much of each item on the Purchase O
 | **In Transit**          | Quantity currently in transit                |
 | **Remaining**           | Quantity still to be delivered               |
 | **PO Quantity**         | Total quantity ordered on the Purchase Order |
-
-<!-- ![Delivery tab](images/eis_delivery_tab.png) -->
 
 <div class="tip">
 The values shown in the Delivery tab change based on the shipment status. For example, once the shipment is marked as Delivered, the quantities move from "In Transit" to "This Delivery".

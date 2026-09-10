@@ -420,7 +420,7 @@ You are now offered to issue a number of packs of 100 units. Only batch number(s
 In the example below, we are issuing 5 packs of 100 units:
 </div>
 
-![additem!](images/os_additem_issuepacks.png)
+![additem!](images/os_issuepacks_3.png)
 
 <div class="note">
 If you had previously entered a quantity of units and you switch to a quantity of packs, the quantity of units will automatically be converted into the correct quantity of packs.  

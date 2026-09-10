@@ -21,7 +21,7 @@ Exploremos lo que es posible...
 
 Para ver la configuración de visualización, ve a `Admin` en la sección inferior del panel de navegación:
 
-![Location: nav](images/admin_nav.png)
+![Location: nav](/docs/settings/images/admin_nav.png)
 
 Verás la sección de configuración de visualización en la parte superior de la página:
 

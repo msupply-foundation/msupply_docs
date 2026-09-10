@@ -50,7 +50,7 @@ L'utilisateur utilisé pour l'intégration est un utilisateur standard de mSuppl
 - Le site doit faire partie du site synchronisé avec Open mSupply. Référez-vous à la section  [Administrateur](https://wiki.msupply.foundation/fr:mobile:setup:server_side:2) pour voir avec quel site omSupply se synchronise avec, ainsi que l'écran [Synchronisation](https://docs.msupply.org.nz/synchronisation:sync_sites#viewing_sync_sites) que votre site se synchronise avec le serveur correct.
 - L'utilisateur doit avoir la permission pour  `Accès à l'API de la chaîne du froid` (voir ci-dessous)
 
-![Permission API de la chaîne du froid](/docs/coldchain/images/coldchain_permission.png)
+![Permission API de la chaîne du froid](/docs/coldchain/sensors/images/coldchain_permission.png)
 
 
 
