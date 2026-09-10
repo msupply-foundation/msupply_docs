@@ -45,15 +45,15 @@ Desde esta pantalla puedes:
 
 2. La lista puede mostrar un número fijo de requisiciones por página. En la esquina inferior izquierda, puedes ver cuántas requisiciones se están mostrando actualmente en tu pantalla.
 
-![Page](images/list_showing.png)
+![Page](/docs/images/list_showing.png)
 
 3. Si tienes más requisiciones que el límite actual, puedes navegar a las otras páginas tocando el número de página o utilizando las flechas derecha o izquierda (esquina inferior derecha).
 
-![Page](images/list_pagenumbers.png)
+![Page](/docs/images/list_pagenumbers.png)
 
 4. También puedes seleccionar un número diferente de filas para mostrar por página utilizando la opción en la esquina inferior derecha de la página.
 
-![Rows per page](images/rows-per-page-select.png)
+![Rows per page](/docs/images/rows-per-page-select.png)
 
 ### Búsqueda por comentario
 

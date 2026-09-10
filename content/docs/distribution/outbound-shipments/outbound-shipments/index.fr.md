@@ -110,7 +110,7 @@ Dans l'exemple ci-dessous, du stock sera livré au client <b>Kamo Regional Wareh
 ![gif](images/os_select_customer.png)
 
 <div class="conseil">
-Vous pouvez savoir si un client utilise également mSupply dans son dépôt. Si c'est le cas, vous verrez cette icône (images/is_msupplystoreicon.png" alt="Store" style="width:auto">) près du code du fournisseur. 
+Vous pouvez savoir si un client utilise également mSupply dans son dépôt. Si c'est le cas, vous verrez cette icône <img src="images/is_msupplystoreicon.png" alt="Store" style="width:auto"> près du code du fournisseur. 
 </div>
 
 2. Une fois que vous pressez la touche `Entrer`, votre Expédition est automatiquement créée.
@@ -368,8 +368,6 @@ Ce qui change la valeur `Émettre` tout en gardant la quantité totale :
 <div class="remarque">
 <b></b> si vous avez déjà introduit une quantité d'unités et que vous passez à une quantité d'emballages, la quantité d'unités sera automatiquement convertie en la quantité correcte d'emballages.  
 </div>
-
-![Alt Text](images/os_issuepacks.png)
 
 Lorsqu'une taille d'emballage est sélectionnée, les lignes de stock qui ont une taille d'emballage différente ne sont pas disponibles pour la sélection. Ces lignes sont donc répertoriées plus bas dans le tableau et apparaissent en caractères gris, comme les autres lignes non disponibles.
 

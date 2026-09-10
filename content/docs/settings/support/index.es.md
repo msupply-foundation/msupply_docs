@@ -19,7 +19,7 @@ La sección de soporte proporciona herramientas para solucionar problemas y brin
 
 Para ver el registro del servidor, ve a `Ajustes` en la parte inferior del panel de navegación:
 
-![Admin: nav](images/admin_nav.png)
+![Admin: nav](/docs/settings/images/admin_nav.png)
 
 Verás la sección `Soporte` debajo de los ajustes de Sincronización. Haz clic en esta para ver las opciones.
 

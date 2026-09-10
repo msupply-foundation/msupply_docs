@@ -94,4 +94,4 @@ Esto mostrará
 - Un menú de posibles informes para que selecciones antes de crear un archivo PDF. Esto ocurrirá si hay más de un informe definido para el tipo de informe `Toma de inventario`
 - Creará un archivo PDF de inmediato si solo hay un informe para seleccionar
 
-![Print menu](images/os_print_menu.png)
+![Print menu](images/stocktake_print_menu.png)

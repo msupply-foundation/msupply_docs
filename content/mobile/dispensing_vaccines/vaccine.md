@@ -58,7 +58,6 @@ Approved sensors can be purchased directly from the manufacturer or reseller onl
 
 These sensors have been approved by the World Health Organisation as a temperature monitoring device suitable for use in immunization programmes.  
 
-
 ## Adding Sensors
 
 The first time you use the Vaccine module, there will be no sensors connected to your device.
@@ -153,7 +152,6 @@ We recommend that each device should be linked to a maximum of six sensors. Each
 To edit sensor details, you can tap on the ‘’cog’’ icon on the mSupply Vaccine home page (screenshot below) or on the Sensor Detail screen.
 
 ![Custom invoices button on Navigator](/mobile/introduction/images/VM_CC_add_sensors_final.png)
-
 
 All __sensor threshold__ and __sensor connection__ details are editable except for the start Logging date and time.  Simply tap on the field that you wish to end and make changes.  
 
@@ -309,8 +307,6 @@ The **Download** screen requires:
   2) Comment
 
 Tapping **Download** will open a new email in your device’s email application.  The receiver address and comment will be prepopulated, and the sensor data (in CSV format) attached, ready to send.
-
-[<img src="/_media/en:mobile:user_guide:pasted:20210316-033915.png?w=600&amp;tok=1d398c" class="mediacenter" loading="lazy" alt="" width="600" />](/_detail/en:mobile:user_guide:pasted:20210316-033915.png?id=en%3Amobile%3Auser_guide%3Avaccine)
 
 <div class="tip">
 If you change your mind about emailing the data, tap anywhere in the grayed-out area.

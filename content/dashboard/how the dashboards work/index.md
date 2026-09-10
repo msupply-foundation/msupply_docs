@@ -33,7 +33,7 @@ Analytical dashboards can be accessed in two different ways. 
 
 Please note that users can use their mSupply credentials on Grafana 
 
-- If you have mSupply credentials, click on  ![grafana oauth](images/grafana-Oauth.png)
+- If you have mSupply credentials, click on  ![grafana oauth](/dashboard/how-to-access-dashboards/images/grafana-Oauth.png)
     
 - Enter your mSupply credentials on the next page 
     

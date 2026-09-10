@@ -24,11 +24,11 @@ Inventory Adjustments can be made directly from the [Stock View](/docs/inventory
 3. Click on the item row to open the stock line detail.
 4. Click the **Adjust Stock** button.
 
-![Stock View showing the Adjust Stock button](images/ia_adjust_stock_button.png)
+![Stock View showing the Adjust Stock button](/docs/inventory/stock-view/images/stock_adjust.png)
 
 The **Stock Adjustment** dialog will open.
 
-![Stock Adjustment dialog](images/ia_adjustment_dialog.png)
+![Stock Adjustment dialog](/docs/inventory/stock-view/images/stock_adjust_form.png)
 
 ## Stock Adjustment Dialog
 
@@ -92,8 +92,6 @@ Backdating for inventory adjustments must be enabled by an administrator before 
 
 When backdating is enabled, a **Date** field appears in the Stock Adjustment dialog between the **Adjust packs** and **Reason** fields.
 
-![Stock Adjustment dialog with the Date field visible](images/ia_backdated_dialog.png)
-
 ### Selecting a backdated date
 
 1. Click the **Date** field in the Stock Adjustment dialog.
@@ -104,8 +102,6 @@ Only past dates can be selected. The date picker will not allow you to choose to
 </div>
 
 3. The stock statistics cards will update to show the **historical** stock levels as at the selected date, so you can see the impact of the adjustment on your stock at that point in time.
-
-![Stock statistics showing historical quantities at the selected backdated date](images/ia_historical_stock.png)
 
 ### Validation for reductions
 

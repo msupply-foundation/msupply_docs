@@ -17,6 +17,6 @@ Los encuentros son las visitas que los pacientes realizan a tu dispensario, bajo
 
 Solo verás esta pestaña en el menú `Dispensario` si tienes configurados Programas de Pacientes.
 
-![Encounter Navigation](/docs/programs/images/dispensary_gotoencounters.png)
+![Encounter Navigation](images/dispensary_gotoencounters.png)
 
 Obtén más información sobre los Encuentros en la documentación de [Programas de Pacientes](/docs/programs/program-module/#encounter).

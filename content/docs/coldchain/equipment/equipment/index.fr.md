@@ -72,7 +72,7 @@ Les actifs de la chaîne du froid peuvent être importés à partir d'un fichier
 
 Cette action ouvre un modèle d'import.
 
-![Boîte de dialogue d'importation d'équipements de chaîne du froid avec zone de dépôt de fichier et lien Télécharger un modèle](mages/equipment_import_modal.png)
+![Boîte de dialogue d'importation d'équipements de chaîne du froid avec zone de dépôt de fichier et lien Télécharger un modèle](images/equipment_import_modal.png)
 
 Un exemple de modèle CSV est disponible en téléchargement ici :
 
@@ -99,7 +99,7 @@ Les informations devront être saisies dans le format fourni par le modèle csv 
 
 Un fichier csv peut être téléchargé une fois créé dans le format exemple.
 
-![Boîte de dialogue d'importation avec le bouton Parcourir les fichiers mis en évidence](mages/equipment_import_upload.png)
+![Boîte de dialogue d'importation avec le bouton Parcourir les fichiers mis en évidence](images/equipment_import_upload.png)
 
 #### Export
 

@@ -18,7 +18,7 @@ top = false
 
 Para utilizar los Formularios R&R, asegúrate de habilitar la preferencia del almacén para `Open mSupply: Utiliza el módulo del programa`.
 
-![Store preference](../../programs/Program-module/images/program_pref.png)
+![Store preference](images/program_pref.png)
 
 También necesitarás un programa configurado y visible en tu tienda, y dicho programa deberá tener un calendario de períodos asociado.
 
