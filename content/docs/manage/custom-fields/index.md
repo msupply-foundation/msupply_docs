@@ -71,21 +71,22 @@ The page has one tab per record type, in this order:
 - Patients
 - Inbound shipment
 - Outbound shipment
-- Prescriptions
+- Dispensing
 - Supplier return
 - Customer return
+- Prescription requests
 
 Each tab lists every custom field configured for that record type, in the order the fields are displayed on the record.
 
 ![Custom fields - item tab](images/items-tab.png)
 The following columns are shown:
 
-| Column        | Description                                                                                                                                                                                |
-| :------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Name**      | The field's name, as set in mSupply. Read-only                                                                                                                                             |
-| **Type**      | The field's type (see [Field types](#field-types)). Read-only                                                                                                                              |
-| **Visible**   | Tick to show the field on this record type                                                                                                                                                 |
-| **Prominent** | Tick to promote the field to the top of the record, next to its other key details. Only shown on the five shipment, return and prescription tabs - see [Display options](#display-options) |
+| Column        | Description                                                                                                                                                                                                 |
+| :------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Name**      | The field's name, as set in mSupply. Read-only                                                                                                                                                              |
+| **Type**      | The field's type (see [Field types](#field-types)). Read-only                                                                                                                                               |
+| **Visible**   | Tick to show the field on this record type                                                                                                                                                                  |
+| **Prominent** | Tick to promote the field to the top of the record, next to its other key details. Only shown on the shipment, return, prescription and prescription request tabs - see [Display options](#display-options) |
 
 If a tab shows `No custom fields defined`, no custom fields have been set up in mSupply for that record type. Fields you have hidden still appear in this list, so an empty tab always means "nothing configured", rather than "everything hidden".
 
@@ -103,17 +104,18 @@ The `Visible` and `Prominent` tick boxes combine to control _if_ and _where_ a f
 
 Once a field is visible, it appears on that record type's list _and_ its detail view. Whether it can be **edited** depends on the record: items, customers and suppliers are maintained in mSupply, so their custom fields are shown but not editable in Open mSupply.
 
-| Record type                                                  | On the record                                            | Editable                                      |
-| :----------------------------------------------------------- | :------------------------------------------------------- | :-------------------------------------------- |
-| [Items](../../catalogue/items/)                              | `Custom fields` tab                                      | No - items are maintained in mSupply          |
-| [Customers](../../distribution/customers/)                   | On the customer's details                                | No                                            |
-| [Suppliers](../../replenishment/suppliers/)                  | `Custom fields` tab                                      | No                                            |
-| [Patients](../../dispensary/patients/)                       | `Custom fields` tab                                      | Yes, with the patient editing permission      |
-| [Inbound shipments](../../replenishment/inbound-shipments/)  | `Custom fields` tab, plus prominent fields in the header | Yes, while the shipment is still editable     |
-| [Outbound shipments](../../distribution/outbound-shipments/) | `Custom fields` tab, plus prominent fields in the header | Yes, while the shipment is still editable     |
-| [Prescriptions](../../dispensary/prescriptions/)             | `Custom fields` tab, plus prominent fields in the header | Yes, while the prescription is still editable |
-| [Supplier returns](../../replenishment/supplier-returns/)    | `Custom fields` tab, plus prominent fields in the header | Yes, while the return is still editable       |
-| [Customer returns](../../distribution/customer-returns/)     | `Custom fields` tab, plus prominent fields in the header | Yes, while the return is still editable       |
+| Record type                                                  | On the record                                                                                                                                                                                   | Editable                                           |
+| :----------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------- |
+| [Items](../../catalogue/items/)                              | `Custom fields` tab                                                                                                                                                                             | No - items are maintained in mSupply               |
+| [Customers](../../distribution/customers/)                   | On the customer's details                                                                                                                                                                       | No                                                 |
+| [Suppliers](../../replenishment/suppliers/)                  | `Custom fields` tab                                                                                                                                                                             | No                                                 |
+| [Patients](../../dispensary/patients/)                       | `Custom fields` tab                                                                                                                                                                             | Yes, with the patient editing permission           |
+| [Inbound shipments](../../replenishment/inbound-shipments/)  | `Custom fields` tab, plus prominent fields in the header                                                                                                                                        | Yes, while the shipment is still editable          |
+| [Outbound shipments](../../distribution/outbound-shipments/) | `Custom fields` tab, plus prominent fields in the header                                                                                                                                        | Yes, while the shipment is still editable          |
+| [Dispensing](../../dispensary/dispensing/)                   | `Custom fields` tab, plus prominent fields in the header                                                                                                                                        | Yes, while the dispensing record is still editable |
+| [Supplier returns](../../replenishment/supplier-returns/)    | `Custom fields` tab, plus prominent fields in the header                                                                                                                                        | Yes, while the return is still editable            |
+| [Customer returns](../../distribution/customer-returns/)     | `Custom fields` tab, plus prominent fields in the header                                                                                                                                        | Yes, while the return is still editable            |
+| [Prescriptions](../../dispensary/prescriptions/)             | `Custom fields` tab, plus prominent fields in the header. Four default fields (`Weight`, `Patient unit`, `Category`, `Occupation`) are always present and prominent unless you change them here | Yes, while the prescription request is `New`       |
 
 ## Good to know
 

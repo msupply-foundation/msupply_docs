@@ -134,7 +134,7 @@ Toggle the preferences on or off as required, and close when you are finished.
         <tr>
             <td>Number of months to check for consumption when calculating out of stock products</td>
             <td>Sets how many past months are checked for item usage. If an item was used but is now out of stock, it
-                will be flagged as out of stock on the Dashboard.</td>
+                will be flagged as out of stock on the homepage.</td>
         </tr>
         <tr>
             <td>Number of months threshold to show low stock alerts for products</td>

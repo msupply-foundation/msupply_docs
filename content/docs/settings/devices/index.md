@@ -31,7 +31,7 @@ Click on the `Devices` section to begin.
 
 ## Label Printing
 
-<div class="note">Label printing support is very limited at this time! Label printers are used only for printing QR codes to identify cold chain equipment and <a href="/docs/dispensary/prescriptions/#printing-labels">basic prescription labels</a>.</div>
+<div class="note">Label printing support is very limited at this time! Label printers are used only for printing QR codes to identify cold chain equipment and <a href="/docs/dispensary/dispensing/#printing-labels">basic prescription labels</a>.</div>
 
 The label printing functionality is in an experimental state currently. There is limited support for label printers using the ZPL printer language.
 

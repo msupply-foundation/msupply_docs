@@ -62,7 +62,7 @@ Therefore, to obtain an accurate `CCE functioning capacity` it is **vitally impo
 
 #### Installed CCE capacity
 
-The `CCE installed capacity` is the aggregation of the data collected in [1. Registering CCE](#1-registering-cce) and can be viewed in the [mSupply Dashboard](/dashboard/introduction).
+The `CCE installed capacity` is the aggregation of the data collected in [1. Registering CCE](#1-registering-cce) and can be viewed in the [mSupply Dashboard](/dashboard/presentation).
 
 The dashboard can be filtered by metrics such as supply level (Primary, Sub-National, Lowest Distribution etc) or temperature range (+ 5°C, -20 °C, -70°C)
 
@@ -70,7 +70,7 @@ The dashboard can be filtered by metrics such as supply level (Primary, Sub-Nati
 
 #### Functioning CCE capacity
 
-The `CCE functioning capacity` is the aggregation of the data collected in [2. Updating CCE functional status](#2-updating-cce-functional-status) and can be viewed in the [mSupply Dashboard](/dashboard/introduction).
+The `CCE functioning capacity` is the aggregation of the data collected in [2. Updating CCE functional status](#2-updating-cce-functional-status) and can be viewed in the [mSupply Dashboard](/dashboard/presentation).
 
 The dashboard can be filtered by metrics such as supply level (Primary, Sub-National, Lowest Distribution etc) or temperature range (+ 5°C, -20 °C, -70°C)
 
@@ -178,13 +178,13 @@ The algorithm applied is: `Target population` x `Number of doses` x `Coverage ra
 
 More details on how each of the components of the algorithm are derived can be viewed on our GitHub repository <a href="https://github.com/msupply-foundation/open-msupply-forecasting-plugins?tab=readme-ov-file#forecasting-calculation" target="_blank">here</a>.
 
-The output values (in litres) can be viewed in the [mSupply Dashboard](/dashboard/introduction).
+The output values (in litres) can be viewed in the [mSupply Dashboard](/dashboard/presentation).
 
 ![Capacity Forecasting table showing expected demand and surplus by supply level for 2024-2028](images/forecast_expected_demand_sl.png)
 
 ## Comparing CCE capacity to forecast demand
 
-The [CCE installed capacity](#installed-cce-capacity) and [CCE forecast demand](#4-reviewing-the-forecast-demand) can be reviewed in the [mSupply Dashboard](/dashboard/introduction).
+The [CCE installed capacity](#installed-cce-capacity) and [CCE forecast demand](#4-reviewing-the-forecast-demand) can be reviewed in the [mSupply Dashboard](/dashboard/presentation).
 
 The `CCE surplus / deficit` (in litres) is displayed for each supply level for the current year.
 Additionally a forecast is provided for the next 5 years to account for population growth.
