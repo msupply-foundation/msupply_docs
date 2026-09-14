@@ -93,7 +93,7 @@ Here's the list of preferences which are currently in use:
 | Preference                                                                      | Used by                                                                                                  |
 | ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
 | Can manually link requisition to supplier invoice                               | [Inbound shipments](/docs/replenishment/inbound-shipments/)                                              |
-| Edit prescribed quantity on prescription                                        | [Prescriptions](/docs/dispensary/prescriptions/)                                                         |
+| Edit prescribed quantity on prescription                                        | [Dispensing](/docs/dispensary/dispensing/)                                                         |
 | Expiring items period                                                           | Used for some [Reports](/docs/getting-started/reports/)                                                  |
 | Include requisitions from this store in suppliers' remote authorisation process | Used in [Internal Orders](/docs/replenishment/internal-orders/) if using the remote authorisation module |
 | Keep requisition lines with zero requested quantity on finalise                 | [Requisitions](/docs/distribution/requisitions/)                                                         |

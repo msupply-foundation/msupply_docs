@@ -63,7 +63,7 @@ Open mSupply does much more than that. Features include:
   - Quantify amounts required based on simple or complex formulas
   - Track order status as your supplying store fulfils and ships the order!
   - Receive goods into stock when the order arrives
-- Be alerted to low stock levels from the dashboard
+- Be alerted to low stock levels from the homepage
 - Perform basic dispensing
   - Manage patient records
   - Create a prescription for a patient

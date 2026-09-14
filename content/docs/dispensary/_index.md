@@ -1,6 +1,6 @@
 +++
 title = "Dispensary"
-description = "Prescriptions"
+description = "Patients, prescriptions and dispensing"
 sort_by = "weight"
 weight = 40
 template = "docs/section.html"
