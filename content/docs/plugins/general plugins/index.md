@@ -133,6 +133,6 @@ This is important to note because multiple vaccines items may be associated with
 
 In other words, the system does not take into account stock on order for _other_ vaccine items when displaying a `Suggested quantity` for a vaccine item.
 
-**Note 3**: the `Forecast demand` is not displayed explicitly to the facility user, but the values can be reviewed in the [mSupply Dashboard](/dashboard/introduction)
+**Note 3**: the `Forecast demand` is not displayed explicitly to the facility user, but the values can be reviewed in the [mSupply Dashboard](/dashboard/presentation)
 
 ![Vaccine course forecast demand table showing doses per month by store, target demographic, coverage rate and wastage rate](images/forecast_demand_grafana.png)

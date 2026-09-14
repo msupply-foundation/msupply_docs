@@ -28,8 +28,8 @@ content = 'La <a href="https://docs.msupply.org.nz/"> biblioteca de documentos d
 [[extra.list]]
 icon = "dashboard.png"
 title = "Tablero de Control mSupply"
-url = "/dashboard/introduction"
-content = 'La <a href="/dashboard/introduction">Guía de usuario</a> del tablero de control de mSupply!'
+url = "/dashboard/presentation"
+content = 'La <a href="/dashboard/presentation">Guía de usuario</a> del tablero de control de mSupply!'
 
 [[extra.list]]
 icon = "coldchain.png"
