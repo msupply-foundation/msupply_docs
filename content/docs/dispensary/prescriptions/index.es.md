@@ -1,10 +1,10 @@
 +++
-title = "Dispensación"
-description = "Dispensar medicamentos a los pacientes."
+title = "Prescripciones"
+description = "Prescribir medicamentos a los pacientes."
 date = 2022-03-19T18:20:00+00:00
 updated = 2022-03-19T18:20:00+00:00
 draft = false
-weight = 3
+weight = 2
 sort_by = "weight"
 template = "docs/page.html"
 
@@ -21,7 +21,7 @@ Una prescripción puede ser utilizada para:
 
 ## Ver Prescripciones
 
-Para usar las prescripciones, asegúrate de que tu almacén esté configurado en modo `Dispensario` (consulta la documentación sobre [almacenes virtuales](https://docs.msupply.org.nz/other_stuff:virtual_stores#store_type) para saber cómo hacerlo).
+Para usar las prescripciones, asegúrate de que tu almacén esté configurado en modo `Dispensario` (consulta la documentación sobre [almacenes virtuales](images/https://docs.msupply.org.nz/other_stuff:virtual_stores#store_type) para saber cómo hacerlo).
 
 ### Abrir el menú de prescripciones
 
@@ -370,6 +370,7 @@ Para editar una línea de prescripción, toca sobre ella. Se te presentará la v
 1. Abre la prescripción que deseas editar.
 
 2. Toca sobre la línea que deseas editar. Aparecerá una ventana idéntica a la de `Añadir Artículo`. En esta etapa:
+
    - Edita el campo principal `Emitir`
    - o cambia el valor del número de paquetes a nivel de lote
 

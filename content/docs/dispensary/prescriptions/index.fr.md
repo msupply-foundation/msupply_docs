@@ -1,10 +1,10 @@
 +++
-title = "Dispensation"
-description = "Dispenser des articles aux patients."
+title = "Prescriptions"
+description = "Prescrire des articles aux patients."
 date = 2022-03-19
 updated = 2025-08-25T17:40:00+00:00
 draft = false
-weight = 3
+weight = 2
 sort_by = "weight"
 template = "docs/page.html"
 

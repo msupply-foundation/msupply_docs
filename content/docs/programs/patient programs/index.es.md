@@ -330,7 +330,7 @@ Cuando estés satisfecho con los cambios, puedes hacer clic en el botón Aceptar
 
 ![Vaccination Modal - save](images/save_vaccination.png)
 
-Si se seleccionaron un ítem y un lote de vacuna, el sistema creará y finalizará automáticamente una [Prescripción](/docs/dispensary/dispensing). Las prescripciones se generan para cada registro de vacunación con el fin de rastrear el uso de inventario.
+Si se seleccionaron un ítem y un lote de vacuna, el sistema creará y finalizará automáticamente una [Prescripción](/docs/dispensary/prescriptions). Las prescripciones se generan para cada registro de vacunación con el fin de rastrear el uso de inventario.
 
 Ten en cuenta que la prescripción siempre se creará con la fecha de hoy, independientemente de la fecha seleccionada para la vacunación.
 
@@ -354,7 +354,7 @@ Todos los campos son editables. Algunas cosas importantes a tener en cuenta:
 
 - Si cambias el ítem o lote, y anteriormente se creó una prescripción a partir de la vacunación, tendrás la opción de ` actualizar las transacciones de stock`. Si se habilita:
   - Una [Devolución de Cliente](/docs/distribution/customer-returns) para el ítem de vacuna que fue administrado previamente
-  - Una [Prescripción](/docs/dispensary/dispensing) para el nuevo ítem/lote de vacuna
+  - Una [Prescripción](/docs/dispensary/prescriptions) para el nuevo ítem/lote de vacuna
   - Ten en cuenta que la prescripción anterior continuará existiendo, ya que las prescripciones finalizadas no pueden eliminarse
 
 ![Vaccination Modal - update transaction](images/vaccination_update_transactions.png)
