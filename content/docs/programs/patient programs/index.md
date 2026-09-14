@@ -328,7 +328,7 @@ When you are happy with your changes, you can click the OK button to save the va
 
 ![Vaccination Modal - save](images/save_vaccination.png)
 
-If a vaccine item and batch were selected, the system will automatically create and finalise a [Prescription](/docs/dispensary/prescriptions). Prescriptions are created for each vaccination record to track stock usage.
+If a vaccine item and batch were selected, the system will automatically create and finalise a [Prescription](/docs/dispensary/dispensing). Prescriptions are created for each vaccination record to track stock usage.
 
 Note that the prescription will always be created for today's date, regardless of the date you selected for the vaccination.
 
@@ -357,7 +357,7 @@ All fields are editable. Some things to note:
 
 - If you change the item or batch, and a Prescription was previously created from the vaccination, you will have the option to `update stock transactions`. If enabled:
   - A [Customer Return](/docs/distribution/customer-returns) will be created for the vaccine item that was previously administered
-  - A [Prescription](/docs/dispensary/prescriptions) will be created for the new vaccine item/batch
+  - A [Prescription](/docs/dispensary/dispensing) will be created for the new vaccine item/batch
   - Note that the previous prescription will continue to exist - finalised prescriptions cannot be deleted
 
 ![Vaccination Modal - update transaction](images/vaccination_update_transactions.png)

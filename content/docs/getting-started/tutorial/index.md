@@ -26,7 +26,7 @@ This tutorial is designed to guide you through the basics of using Open mSupply.
 
 4. Enter your user name and password and press `enter` on your keyboard, or click the [Log in] button
 
-If everything is going well, you'll be redirected to the dashboard page.
+If everything is going well, you'll be redirected to the home page.
 BUT if there was a problem, you'll see an error message, like this:
 
 ![login error](images/log_in_error.png)
@@ -85,7 +85,7 @@ This will bring up the following window, no matter which page you are on:
 
 ![CommandK](images/cmd_k.png)
 
-This shows you the list of globally available shortcuts, for example pressing `Alt+D` (or `Option+D` on a mac) on your keyboard will take you to the dashboard (unless you are entering text into an input field!).
+This shows you the list of globally available shortcuts, for example pressing `Alt+D` (or `Option+D` on a mac) on your keyboard will take you to the home page (unless you are entering text into an input field!).
 
 However, you can also click on an item in the list using your mouse, or search available commands:
 
