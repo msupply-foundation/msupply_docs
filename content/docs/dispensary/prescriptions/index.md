@@ -38,7 +38,7 @@ A prescription always belongs to the store it was written in. It is not sent to 
 
 ## Permissions
 
-<div class="note">In addition to the permission below, you should also grant the user `View patients` permission so that they can search for patients
+<div class="note">In addition to the permission below, you should also grant the user `View patients` permission so that they can search for patients and `View reports` if the user is going to print prescriptions
 </div>
 
 Prescriptions has its own permission, separate from the dispensing permissions:
