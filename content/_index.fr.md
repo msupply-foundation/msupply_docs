@@ -26,8 +26,8 @@ content = '<a href="https://docs.msupply.org.nz/">Wiki de la documentation utili
 [[extra.list]]
 icon = "dashboard.png"
 title = "Tableau de bord mSupply"
-url = "/dashboard/introduction/"
-content = '<a href="/dashboard/introduction">Wiki de la documentation utilisateur</a> pour le tableau de bord mSupply!'
+url = "/dashboard/presentation/"
+content = '<a href="/dashboard/presentation">Wiki de la documentation utilisateur</a> pour le tableau de bord mSupply!'
 
 
 [[extra.list]]

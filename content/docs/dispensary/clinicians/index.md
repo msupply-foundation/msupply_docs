@@ -58,7 +58,7 @@ You will be presented with a list of clinicians visible to your store.
 
 You will need the permission [Can Add Clinicians](/docs/settings/permissions/) to be able to add a new clinician.
 
-Currently, clinicians can only be created from a prescription - either while creating a <a href="/docs/dispensary/prescriptions/#creating-a-prescription">New Prescription</a> or editing an <a href="/docs/dispensary/prescriptions/#changing-the-clinician">existing one.</a>
+Currently, clinicians can only be created from a prescription - either while creating a <a href="/docs/dispensary/dispensing/#creating-a-dispensing-record">new dispensing record</a> or editing an <a href="/docs/dispensary/dispensing/#changing-the-clinician">existing one.</a> They can also be created from a <a href="/docs/dispensary/prescriptions/#creating-a-prescription">prescription</a>.
 
 <div class="note">
 
