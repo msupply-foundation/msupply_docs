@@ -96,11 +96,7 @@ Si vous avez suivi le processus ci-dessus, vous pouvez voir une icône différen
 
 Parfois, le dossier du patient que vous recherchez a déjà été créé sur un autre site. Cette icône de 'téléchargement' indique qu'un patient correspond à vos critères de recherche actuels, et vous pouvez télécharger toutes ses données existantes sur votre site.
 
-Pour utiliser ce dossier patient, vous devez d'abord récupérer les détails du patient. Cliquez sur la ligne du patient (qui affiche un message d'info-bulle comme ci-dessous) :
-
-![Ligne récupérer patient](images/fetch_patient_row.png)
-
-Vous serez alors invité à confirmer l'action :
+Pour utiliser ce dossier patient, vous devez d'abord récupérer les détails du patient. Cliquez sur la ligne du patient, vous serez alors invité à confirmer l'action :
 
 ![Confirmation récupération patient](images/fetch_patient_confirmation.png)
 

@@ -96,11 +96,7 @@ If you have followed the process above, you may see a different icon to the righ
 
 Sometimes the record for the patient you are searching for has already been created at another site. This 'download' icon indicates that a patient matches your current search criteria, and you can download all their existing patient data to your site.
 
-To use this patient record, you must first fetch the patient details. Click the patient row (which has a tooltip message as shown below):
-
-![Patient row with tooltip indicating click to fetch patient data from another site](images/fetch_patient_row.png)
-
-You'll then be prompted to confirm the action:
+To use this patient record, you must first fetch the patient details. Click the patient row, you'll then be prompted to confirm the action:
 
 ![Confirmation dialog asking to confirm fetching the patient record](images/fetch_patient_confirmation.png)
 

@@ -97,11 +97,7 @@ Si seguiste el proceso anterior, podrías ver un ícono diferente a la derecha d
 
 A veces, el registro del paciente que estás buscando ya ha sido creado en otro sitio. Este ícono de "descarga" indica que hay un paciente que coincide con tus criterios de búsqueda actuales, y puedes descargar todos sus datos existentes de paciente a tu sitio.
 
-Para usar este registro de paciente, primero debes obtener los detalles del paciente. Haz clic en la fila del paciente (la cual tiene un mensaje emergente como se muestra a continuación):
-
-![Fetch patient row](images/fetch_patient_row.png)
-
-Luego, se te pedirá confirmar la acción:
+Para usar este registro de paciente, primero debes obtener los detalles del paciente. Haz clic en la fila del paciente, luego, se te pedirá confirmar la acción:
 
 ![Fetch patient confirmation](images/fetch_patient_confirmation.png)
 
