@@ -8,7 +8,11 @@
 {%- if index.subsections -%}
   {% for a in ["fr","es","pt"] %}
   <h3>Pages Dates for {{a}}</h3>
+		{#- skip nested docs versions (e.g. docs/v3); they are separate copies of the docs -#}
+		{%- set version_sections = config.extra.docs_versions | default(value=[]) | map(attribute="section") -%}
 		{% for s in index.subsections -%}
+			{%- set s_dir = s | split(pat="/_index") | first -%}
+			{%- if s_dir in version_sections -%}{%- continue -%}{%- endif -%}
 			{%- set subsection = get_section(path=s) -%}
 			{%- if subsection.translations %}
 				{%- for page in subsection.pages -%}

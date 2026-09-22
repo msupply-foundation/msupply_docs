@@ -1,4 +1,7 @@
-{#- This macro outputs a list of pages in English that is used to pass into PrincePDF for PDF generation -#}
+{#- This macro outputs a list of pages in English that is used to pass into PrincePDF for PDF generation.
+    It lists only the docs version rooted at `current_section` (normally "docs", the current release):
+    nested version copies such as docs/v2 are skipped, as is the search page.
+    Pages are listed in the same order as the docs sidebar: a section's own pages first, then those of its sub-sections. -#}
 {%- macro pdf_export(current_section) -%}
 {%- if lang == "en" -%}
 	{%- set index_path = current_section ~ "/_index.md"  | trim_start_matches(pat="/") -%}
@@ -8,19 +11,29 @@
 {%- set index = get_section(path=index_path) -%}
 {%- if index.pages %}
 	{% for page in index.pages %}
+		{%- if page.slug == "search" -%}{%- continue -%}{%- endif -%}
 {{ page.permalink | safe}}
 	{% endfor %}
 {%- endif -%}
 
 {%- if index.subsections -%}
+	{#- skip nested docs versions (e.g. docs/v2); they are separate copies of the docs -#}
+	{%- set version_sections = config.extra.docs_versions | default(value=[]) | map(attribute="section") -%}
 	{%- for s in index.subsections -%}
+		{%- set s_dir = s | split(pat="/_index") | first -%}
+		{%- if s_dir in version_sections -%}{%- continue -%}{%- endif -%}
 		{%- set subsection = get_section(path=s) -%}
-		{%- if subsection.pages %}
-			{%- for page in subsection.pages -%}
+		{%- for page in subsection.pages -%}
+		{#- Leave the next line not indented the missing "-" at the end of this comment means whitespace is not being removed so we get a line break #}
+{{ page.permalink | safe}}
+		{%- endfor -%}
+		{%- for ss in subsection.subsections -%}
+			{%- set subsubsection = get_section(path=ss) -%}
+			{%- for page in subsubsection.pages -%}
 			{#- Leave the next line not indented the missing "-" at the end of this comment means whitespace is not being removed so we get a line break #}
 {{ page.permalink | safe}}
 			{%- endfor -%}
-	{%- endif -%}
+		{%- endfor -%}
 	{%- endfor %}
 {%- endif -%}
 

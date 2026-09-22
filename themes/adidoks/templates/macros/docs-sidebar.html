@@ -16,7 +16,11 @@
 					</ul>
 			{% endif %}
 			{% if index.subsections %}
+					{# Other docs versions are nested sections (e.g. docs/v3); they get their own sidebar #}
+					{% set version_sections = config.extra.docs_versions | default(value=[]) | map(attribute="section") %}
 					{% for s in index.subsections %}
+					{% set s_dir = s | split(pat="/_index") | first %}
+					{% if s_dir in version_sections %}{% continue %}{% endif %}
 					{% set subsection = get_section(path=s) %}
 					{% if subsection.pages %}
 							<h3>{{ subsection.title }}</h3>
