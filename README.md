@@ -61,6 +61,42 @@ zola --version
 3. This will typically make the docs available on `http://localhost:1111`, it'll say where exactly after you run the above command.
 4. Woo! Now if you make any updates to msupply_docs files, zola will detect the changes and refresh your browser tab for you.
 
+## Documentation versions
+
+The Open mSupply docs (`content/docs`) can be published for more than one version of Open mSupply at the same time.
+
+- The **default version** lives in `content/docs` and is served at `/docs/...`. This is what the home page links to and what existing links on the internet point at, so it should always be the current release.
+- **Other versions** live in a sub-folder of it, e.g. `content/docs/v3`, and are served at `/docs/v3/...`. Each is a complete, self-contained copy of the docs tree (pages, images, translations, `search.md`).
+- Versions are declared in `config.toml` under `[[extra.docs_versions]]` with a `label`, the content `section` path, an optional `badge` (e.g. "current", "in development") and an optional `notice` banner shown at the top of every page of that version.
+
+The templates use that list to show a version switcher at the top of the docs sidebar, keep each version's sidebar, landing page, search results and PDF page lists to itself, and list the versions on the 404 page (which is where you land if you switch version on a page that doesn't exist in the other version).
+
+### Writing docs for the next release
+
+Use `scripts/docs-version.sh` (needs `rsync` and `perl`, both present on macOS and Ubuntu):
+
+```shell
+# copy the current docs to content/docs/v3, served at /docs/v3/
+scripts/docs-version.sh snapshot v3
+```
+
+then add a `[[extra.docs_versions]]` entry for it in `config.toml` (the script prints a template). Edit the pages under `content/docs/v3` freely; the default docs keep working as before.
+
+The script rewrites absolute links such as `[link](/docs/manage/facilities/)` and `![img](/docs/settings/images/foo.png)` to `/docs/v3/...` so the copy doesn't point back at the default version. When writing new pages, prefer relative links (`../facilities/`, `images/foo.png`) — they survive being copied or promoted without any rewriting.
+
+### Releasing: making a version the default
+
+On release day, swap the folders and rewrite links in one step:
+
+```shell
+# content/docs/v3 becomes content/docs (served at /docs/), the old default moves to content/docs/v2
+scripts/docs-version.sh promote v3 v2
+```
+
+Then update the two `[[extra.docs_versions]]` entries in `config.toml` (sections, labels, badges, notice) as the script tells you, check the site with `zola serve`, and commit. Old versions can be deleted later simply by removing their folder and their config entry.
+
+Note that every version is included in the site's search index, which is downloaded by the browser on every docs page, so the index grows with each version you keep online (roughly 3 MB for one English copy of the docs).
+
 ## Contributing
 
 Update and commit directly to main until a review process is defined :wink:

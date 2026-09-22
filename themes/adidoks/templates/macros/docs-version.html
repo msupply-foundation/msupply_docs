@@ -1,0 +1,81 @@
+{#-
+  Macros for the versioned Open mSupply documentation.
+
+  Versions are declared in config.toml:
+
+    [[extra.docs_versions]]
+    label = "v2.21"          # shown in the switcher
+    section = "docs"         # content path of the version's root section
+    badge = "current"        # optional, short, shown next to the label
+    notice = "..."           # optional HTML shown above every page of this version
+
+  `current_section` is the content path of the version the current page lives
+  in, worked out by `section_of` below.
+-#}
+
+{#- Works out which docs version a page or section belongs to and outputs its
+    `section` path (e.g. "docs" or "docs/v3"), falling back to "docs".
+
+    `candidates` is a list of section paths such as page.ancestors, or
+    section.ancestors plus the section's own relative_path. The deepest one
+    that matches a configured version wins, so nested versions (docs/v3
+    inside docs) resolve correctly for every language.
+
+    Usage in a docs template:
+      {% set_global current_section = macros_version::section_of(candidates=page.ancestors) %}
+-#}
+{%- macro section_of(candidates) -%}
+{%- set version_sections = config.extra.docs_versions | default(value=[]) | map(attribute="section") -%}
+{%- set_global found = "docs" -%}
+{%- for ancestor in candidates | reverse -%}
+  {%- set ancestor_dir = ancestor | split(pat="/_index") | first -%}
+  {%- if ancestor_dir in version_sections -%}
+    {%- set_global found = ancestor_dir -%}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}
+{{- found -}}
+{%- endmacro -%}
+
+{#- The URL of the equivalent page in another version is the current path with
+    the version section swapped. The page might not exist there; the 404 page
+    lists the version roots. -#}
+
+{#- A compact <select> for the docs sidebar. Only rendered when more than one
+    version is configured. -#}
+{% macro version_switcher(current_section) %}
+{%- set versions = config.extra.docs_versions | default(value=[]) -%}
+{%- if versions | length > 1 %}
+<div class="docs-version-switcher">
+  <label for="docs-version-select" class="visually-hidden">Documentation version</label>
+  <select id="docs-version-select" class="form-select form-select-sm" aria-label="Documentation version"
+    onchange="if (this.value) { window.location.href = this.value; }">
+    {%- for v in versions %}
+    <option value="{{ current_path | replace(from="/" ~ current_section ~ "/", to="/" ~ v.section ~ "/") | safe }}"{% if v.section == current_section %} selected{% endif %}>{{ v.label }}{% if v.badge %} ({{ v.badge }}){% endif %}</option>
+    {%- endfor %}
+  </select>
+</div>
+{%- endif %}
+{% endmacro %}
+
+{#- A banner shown above the page content when the current version has a
+    `notice` configured, with links to the same page in the other versions. -#}
+{% macro version_notice(current_section) %}
+{%- set versions = config.extra.docs_versions | default(value=[]) -%}
+{%- for v in versions %}
+  {%- if v.section == current_section and v.notice %}
+<div class="alert alert-warning docs-version-notice" role="note">
+  {{ v.notice | safe }}
+  {%- set_global others = [] -%}
+  {%- for other in versions %}{% if other.section != current_section %}{% set_global others = others | concat(with=other) %}{% endif %}{% endfor -%}
+  {%- if others | length > 0 %}
+  <span class="docs-version-notice-links">
+    {%- for other in others -%}
+    <a href="{{ current_path | replace(from="/" ~ current_section ~ "/", to="/" ~ other.section ~ "/") | safe }}">{{ other.label }}{% if other.badge %} ({{ other.badge }}){% endif %}</a>{% if not loop.last %}, {% endif %}
+    {%- endfor -%}
+  </span>
+  {%- endif %}
+</div>
+  {%- endif %}
+{%- endfor %}
+{% endmacro %}

@@ -119,6 +119,8 @@ Source:
     results.forEach(function (page) {
       // this filters out any results that are not in this section
       if (!page.ref.startsWith(currentSection)) return;
+      // ...and any that belong to another docs version nested inside it (see header.html)
+      if (typeof excludedSections !== 'undefined' && excludedSections.some((s) => page.ref.startsWith(s))) return;
       total++;
       if (count >= limit) return;
 

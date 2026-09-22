@@ -7,6 +7,7 @@
 		{% set index_path = current_section ~ "/_index." ~ lang ~ ".md"  | trim_start_matches(pat="/") %}
 		{% endif %}
 		{% set index = get_section(path=index_path) %}
+		{{ macros_version::version_switcher(current_section=current_section) }}
 		<h3>{{ index.title }}</h3>
 			{% if index.pages %}
 					<ul class="list-unstyled">
@@ -18,8 +19,12 @@
 					</ul>
 			{% endif %}
 			{% if index.subsections %}
+					{# Other docs versions are nested sections (e.g. docs/v3); they get their own sidebar #}
+					{% set version_sections = config.extra.docs_versions | default(value=[]) | map(attribute="section") %}
 					<div class="accordion accordion-flush" id="accordionSubMenu">
 					{% for s in index.subsections %}
+					{% set s_dir = s | split(pat="/_index") | first %}
+					{% if s_dir in version_sections %}{% continue %}{% endif %}
 					{% set subsection = get_section(path=s) %}
 					{% if subsection.pages or subsection.subsections %}
 					<div class="accordion-item">

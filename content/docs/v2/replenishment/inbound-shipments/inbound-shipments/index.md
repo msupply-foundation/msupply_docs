@@ -1,0 +1,730 @@
++++
+title = "inbound shipments"
+description = "Receiving stock from suppliers."
+date = 2022-03-19
+updated = 2022-03-19
+draft = false
+weight = 4
+sort_by = "weight"
+template = "docs/page.html"
+
+[extra]
+toc = true
+top = false
++++
+
+Inbound shipments can be used to receive stock from suppliers.
+
+If you have used mSupply in the past, you may be familiar with the term **Supplier Invoice** instead of inbound shipment.
+
+All received goods should be recorded in mSupply either by:
+
+- Manually creating an inbound shipment (manual inbound shipment)
+- Working with an inbound shipment that has been created automatically as a result of a stock transfer from another store in your mSupply
+
+## Viewing inbound shipments
+
+### Go to the inbound shipments Menu
+
+![Go to inbound shipments](images/is_gotois.png)
+
+To access the **inbound shipment** menu:
+
+1. Go to the `Replenishment` menu in the navigation panel
+2. Click on `inbound shipment`
+
+### Inbound shipments list
+
+First thing you see is a list of existing inbound shipments.
+
+The inbound shipments list is divided into 7 columns:
+
+| Column        | Description                                                                   |
+| :------------ | :---------------------------------------------------------------------------- |
+| **Name**      | Name of the Supplier                                                          |
+| **Status**    | Current Status of the shipment                                                |
+| **Number**    | Reference Number of the shipment                                              |
+| **Created**   | Creation date of the shipment                                                 |
+| **Delivered** | Date when the shipment was delivered                                          |
+| **Comment**   | Comment for the shipment                                                      |
+| **Reference** | This will contain the supplier invoice number if it was created automatically |
+| **Total**     | Total value of the shipment                                                   |
+
+<div class="note">
+Existing statuses will still show if you already have inbound shipments in your system before you configure invoice statuses for your store.
+</div>
+
+2. The list can display a fixed number of shipments per page. On the bottom left corner, you can see how many shipments are currently displayed on your screen.
+
+3. If you have more shipments than the current limit, you can navigate to the other pages by clicking on the page number or using the right of left arrows (bottom right corner).
+
+4. You can also select a different number of rows to show per page using the option at the bottom right of the page.
+
+### Filter inbound shipments
+
+You can filter the list of shipments by supplier name, created date, status, or invoice number. This can be useful if you're looking for one particular shipment!
+
+![Inbound shipments filter](images/is_filter.png)
+
+For example, to filter by supplier name, click on `Filters`, select `Name` and start typing some or all of a supplier name in the `Name` field. All the shipments for this supplier will appear in the list.
+
+![](images/is_filter_list.png)
+
+### Exporting inbound shipments
+
+The list of inbound shipments can be exported to a comma separated file (csv). Simply click the export button (on the right, at the top of the page) and the file will be downloaded.
+
+![Export button](images/export.png)
+
+The export function will download all inbound shipments, not just the current page, if you have more than 20 of them.
+
+### Delete an inbound shipment
+
+You can delete a shipment from the inbound shipment list.
+
+1. Select the shipment that you want to delete by checking the box on the left end of the list. You can select more than one shipments to be deleted. You can even select them all using the master checkbox in the list headers.
+
+2. The `Actions` footer will display at the bottom of the screen when a shipment is selected. It will display the number of shipments selected and the actions which can be taken. Click `Delete`.
+
+A notification confirms how many shipments were deleted (bottom left corner).
+
+<div class="note">
+You can only delete inbound shipments with a status <code>New</code>.
+</div>
+
+### Copy an inbound shipment
+
+If you regularly receive similar shipments from the same supplier, you can make a copy of an existing shipment instead of building a new one from scratch.
+
+You can do this from two places:
+
+- **From the list:** select a **single** shipment by checking the box on the left, then click `Make a copy` in the `Actions` footer at the bottom of the screen.
+- **From an open shipment:** click `Make a copy` in the information panel on the right.
+
+<div class="note">You can only copy <b>one</b> shipment at a time. If you select more than one in the list, the <code>Make a copy</code> button is disabled. You also need permission to edit inbound shipments.</div>
+
+A confirmation appears — for example _"This will create a copy of Shipment #15 from Central Medical Stores."_ Click to confirm, and a new shipment is created and opened for you. A notification confirms the new shipment number, for example _"Shipment #28 created as a copy of #15."_
+
+The copy is always created as a brand new shipment with the status `New`, so you can review and change it before receiving it. The following is carried over from the original shipment:
+
+- the **supplier**, and the supplier reference
+- the **comment** (prefixed so you can see where it came from, for example _"Copied from shipment #15 (...)"_)
+- transport details, charges, tax and currency
+- the **lines** — each item, along with its batch, expiry date, pack size, quantity, prices and location
+
+The following is **not** carried over, so that the copy behaves like a fresh shipment:
+
+- the status (the copy always starts at `New`) and all of the original dates
+- the invoice number (a new one is generated)
+- the `On Hold` setting (the copy is not on hold)
+- any link to a purchase order or to the original shipment
+
+<div class="warning">If an item on the original shipment is no longer in your catalogue, it cannot be copied. The shipment is still created, and a notification tells you how many items were skipped, for example <i>"1 item was not copied because it is no longer in the catalogue."</i></div>
+
+## Creating a new manual inbound shipment
+
+1. Go to `Replenishment`> `Inbound shipment`
+2. Press the `New Shipment` button, in the top right corner
+3. A new window `Suppliers` opens, inviting you to select a supplier
+
+### Select a Supplier
+
+1. In the `Suppliers` window, you will be presented with a list of suppliers. You can select your supplier from the list or you can type as much of a supplier name as you want.
+
+<div class="tip">
+You can tell if a supplier is also using Open mSupply in their store. If they do, you will see icon like this <img src="images/is_msupplystoreicon.png" alt="Store" style="width:auto"> next to the supplier code. 
+</div>
+
+<div class="imagetitle">
+In the below example, we are receiving stock from <b>Tamaki Central Medical Store</b>. 
+</div>
+
+![](images/is_select_supplier.png)
+
+2. Once you have selected a supplier, your inbound shipment is created.
+
+<div class="imagetitle">
+If everything went well, you should see the name of your supplier in the top left corner and current status should be <code>New</code>.
+</div>
+
+![New manual inbound shipment](images/is_newinboundshipment.png)
+
+### Edit the Supplier Name
+
+If you have selected the wrong supplier, you can change the supplier name in the `Supplier Name` field or select one the dropdown list:
+
+![](images/is_choose_supplier.png)
+
+### Enter a Supplier Reference
+
+Once your inbound shipment has been created, you can capture a supplier reference in the `Supplier Ref` field, if they have one (eg. PO#1234567 \_)
+
+### View or edit the inbound shipment Information Panel
+
+The Information Panel allows you see or to edit information about the inbound shipment. It is divided in multiple sections:
+
+- Additional Info
+- Related Documents
+- Invoice Details
+- Transport Details
+
+<div class="omsupdate">
+We are planning to add more sections in the future as Open mSupply grows. 
+</div>
+
+#### How to open and close the Information Panel ?
+
+To open the Information Panel, you can tap on the `More` button, located in the top right corner of the inbound shipment view.
+
+You can close by tapping on the `X Close` button, on the top right corner of the information panel.
+
+#### Additional Info
+
+In the **Additional Info** section, you can:
+
+- Donor name (if you have [donor tracking](#track-stock-by-donor) enabled)
+- See who created the inbound shipment (name of the user)
+- View and edit the inbound shipment color. To edit the color, tap on the colored circle and select a color from the pop-up
+- Write or edit a comment
+
+#### Related Documents
+
+In the **Related Documents** section, you can see other related transaction document for the inbound shipment.
+
+If your inbound shipment was created to fulfil a **Internal Order**, the reference number of your order would appear in this section.
+
+In the future, we would also include other documents such as temperature records, transportation documents or pickslips.
+
+#### Invoice Details
+
+In this section, you will see by default the total cost price of the items listed in the inbound shipment.
+
+You can also add a **Service charges** if you wish to add other charges such as `Freight Costs`. Note: Service charges must be in your Master List for you to use them. To add a Service charges to the Invoice Details:
+
+1. Tap on the `Edit Service Charges` button. A new window opens.
+2. Tap on the `Add charge` button on the new window. A new line appears in the list of charges. You tap on `Cancel` if you do not wish to add anything.
+3. **Name:** select a service charges in the dropdown list. You can customise the list of available charges. Contact your administrator.
+4. **Comment:** You can add a comment to provide further details about the new charge
+5. **Amount:** Enter the amount of the charge
+6. **Tax:** Enter a % of tax for the charge
+7. **Total:** The total field is automatically calculated based on the Amount and the Tax percentage
+8. **Delete:** You can tap on the `Delete` icon to delete the charge
+
+The tax rate (%) for service charges and the items sell price can also be edited by clicking on the pencil icon. A pop-up window will appear for you to enter a value.
+
+##### Foreign Currencies
+
+If your store is issuing in foreign currencies follow [these instructions](https://docs.msupply.org.nz/other_stuff:currencies) in the central server documentation to set it up. You will also need to enable the store preference `Store: Able to issue in foreign currency`. This preference is compatible with Open mSupply `v1.7.0+`.
+
+![Store preference](../../../images/store-pref-issue-in-foreign-currencies.png)
+
+The pen icon will become active once the above instructions have been followed and only if the customer is an external customer. Click on this icon and change to a currency that you would like to issue the shipment in. The currency rate can also be edited if you and the customer have agreed on a different rate.
+![](images/is_change_foreign_currency.png)
+
+You can also see the foreign currency totals in the invoice line details as well. In this screenshot you'll see the terms `FC cost price` and `FC line total`. `FC` here refer to `Foreign Currency` and show a read-only conversion of the price in the foreign currency.
+
+![Line with Foreign Currency Pricing](images/is_line_with_foreign_currency.png)
+
+<div class="tip">See the <a href="/docs/v3/introduction/faq/#is-there-support-for-my-currency">currency support question</a> for the list of codes supported</div>
+
+#### Transport Details
+
+In this section, you can see or edit a transport reference number (eg. a booking or a tracking reference number).
+
+#### Actions
+
+1. **Delete:** You can tap on the `Delete` button to delete the invoice
+2. **Copy to Clipboard**: You can tap on the `Copy to Clipboard` button to copy the invoice details to the clipboard.
+
+### inbound shipment Status Sequence
+
+The status sequence is located at the bottom left corner of the inbound shipment screen.
+
+Passed statuses are highlighted in blue, next statuses appear in grey.
+
+<figure>
+    <img src="images/is_statussequence1.png" alt="inbound shipment Status Sequence (New)" style="width:100%">
+    <figcaption align="center">Status Sequence: current status is <code>Received</code>.</figcaption>
+</figure>
+
+There are 6 statuses for the inbound shipments (although you might see a smaller number, depending on the type of shipment ):
+
+| Status        | Description                                                                                                        | mSupply | Editable |
+| :------------ | ------------------------------------------------------------------------------------------------------------------ | :-----: | :------: |
+| **New**       | This is the first status when you create a new manual inbound shipment                                             |   nw    |          |
+| **Picked**    | Supplier has confirmed that shipment is picked and ready to ship (applies only to automatically created shipments) |   nw    |          |
+| **Shipped**   | Shipment has been shipped and goods are now in transit (applies only to automatically created shipments)           |   nw    |          |
+| **Delivered** | When you confirm that the shipment has been delivered.                                                             |   sg    |    ✓     |
+| **Received**  | When you confirm that the shipment has been validated. Goods are now part of your inventory.                       |   cn    |    ✓     |
+| **Verified**  | When you have verified the inbound shipment                                                                        |   fn    |          |
+
+<div class="note">
+Statuses will default to the previously available status if you have limited the available statuses in your store preferences. 
+</div>
+
+You probably noticed that two of the status values only apply to automatically created shipments. These are created by the system when another store in the system creates an Outbound Shipment to deliver stock to your store. If this is the case you'll see a message near the top of the page:
+
+![Automatic IS message](images/is_message_automatic.png)
+
+Note that this message appears differently if the status is `Delivered` or `Verified`
+
+![Automatic IS message: delivered](images/is_message_automatic_delivered.png)
+
+If, however, you've created an inbound shipment manually, then the following message shows:
+
+![Manual IS message](images/is_message_manual.png)
+
+and you'll see that the status bar has only the status values which apply to this type of shipment.
+
+<figure align="center">
+    <img src="images/is_statussequence2.png" alt="inbound shipment Status Sequence (New & manual)" style="width:60%">
+    <figcaption align="center">Status Sequence: current status is </i><code>New</code>.</figcaption>
+</figure>
+
+If you hover over the status sequence, a shipment history window appears. You can see the date when a shipment was updated from one status to another.
+
+<div class="imagetitle">
+This manual shipment has been created on 24/04/2025
+</div>
+
+![Inbound status: hover 2](images/is_statussequence_hover1.png)
+
+<div class="imagetitle">
+This automatic shipment has been created on 10/04/2025, picked on 11/04/2025 and shipped on 12/04/2025
+</div>
+
+![Inbound status: hover](images/is_statussequence_hover2.png)
+
+### Hold checkbox
+
+Located on the bottom left corner, on the left of the status sequence.
+
+Check the `Hold` checkbox prevents the inbound shipment from being updated to the next status.
+
+![Inbound hold checkbox](../../../images/holdcheckbox.png)
+
+### Close and Confirm button
+
+#### Close Button
+
+Click on the `Close` button to quit the inbound shipment view and return to the inbound shipments list.
+
+#### Confirm Button
+
+The `Confirm` button is the button to update the status of a shipment. The status which you can confirm depends on the current status of the shipment and follows the sequence shown below.
+
+When managing an inbound shipment, you can only confirm it as Delivered or Verified.
+
+| Confirm...            | Current Status | Next Status |
+| :-------------------- | :------------- | :---------- |
+| **Confirm Delivered** | Shipped        | Delivered   |
+| **Confirm Verified**  | Delivered      | Verified    |
+
+You don't have to update a shipment to next status in the sequence. You can choose to skip some of them to go directly to `Confirm Verified` for example.
+
+As demonstrated below, tap on the down arrow of the `Confirm` button and select the status you want the shipment to be updated to.
+
+![](images/is_skipstatus.png)
+
+## Adding lines to an inbound shipment
+
+To add a line, tap on the `Add Item` button located in the top left corner of your screen.
+
+A new `Add Item` window opens.
+
+![Inbound: add item button](images/is_additem_button.png)
+
+### Select an Item
+
+In the `Add Item` window, you can look up an item by:
+
+- Reading through the list of available items
+- or by typing some or all of an item name
+- or by typing some or all of an item code
+
+Once your item is highlighted, tap on the name or press `Enter`.
+
+![Add Item list](../../../images/adding-an-item-all.png)
+![Add Item by name](../../../images/adding-an-item-name.png)
+![Add Item by code](../../../images/adding-an-item-code.png)
+
+If you are using the desktop client or Android app, you can also use [barcode scanning](../barcode-scanning) to add items by scanning the product barcode.
+
+### Quantities tab
+
+In the `Quantities` tab, you can update the following fields:
+
+1. **Batch**: Type here the batch number. Leave blank if item is not managed with batch number.
+2. **Expiry**: The expiry date of the batch number. Leave blank is not applicable
+3. **Pack Size**: The number of units per pack (by default, pack size is 1)
+4. **Packs Received**: The number of packs you are receiving. This can be entered manually or calculated based on Unit Received / Pack Size
+5. **Packs Shipped** The number of packs sent by the supplier.
+6. **Units Received** The number of units you are receiving. This can be entered manually or calculated based on Packs x Pack Size (`[# Packs] x [Pack Size]`)
+
+<div class="note">The 'Units' heading above will be replaced with the name of the unit, as defined for this item. For example, if the unit is 'Tablet' then the heading will show 'Tablets Received'</div>
+
+**Additional vaccine columns**
+
+The Quantities tab will have extra columns shown when certain preferences are enabled. These preferences are controlled in [Manage > Stores](/docs/v3/manage/facilities/#editing-store-preferences).
+
+The additional columns available with the `Display vaccine in doses` preference on are:
+
+1. **Doses per unit**: The number of doses per unit.
+2. **Doses Received**: The number of doses you are receiving. This can be entered manually or calculated based on Pack Size x Packs x Doses
+
+![Doses columns](images/is_doses_columns.png)
+
+The additional column available with the `Manage Vvm Status For Stock` preference on is:
+
+8. **VVM Status**: The current VVM Status for the batch.
+
+![VVM status column](images/is_vvm_status_column.png)
+
+<div class="note">
+VVM Statuses must also be configured in mSupply by adding a status to the <a href="https://docs.msupply.org.nz/cold_chain_equipment:configure">Vaccine vial monitor list</a>. 
+</div>
+
+Selecting a VVM Status in an inbound shipment will generate a VVM Status log. One log will be recorded per batch for the inbound shipment (at shipment status Delivered). Logs can be viewed and edited by selecting the item in `Stock` and selecting the `Status History` tab.
+
+#### Adding Batches
+
+If you are receiving more than one batch number for the same item, you can tap on the `Add Batch` button
+
+<div class="imagetitle">
+In the below example, we are receiving 2 batch numbers for item <i>030063 - Acetylsalicylic Acid 100mg tabs</i> with a different pack size. 
+</div>
+
+![Add Item quantities](images/is_additem_quantities.png)
+
+### Pricing tab
+
+On the second tab, `Pricing`, you can update the following fields (all are optional):
+
+- **Batch** (read-only): Batch number
+- **Pack Size** (read-only): The quantity of units per pack
+- **Pack Qty** (read-only): The quantity of packs you are receiving
+- **Pack cost price**: The purchasing price per pack of the item (default value is 0)
+- **Pack sell price**: The selling price per pack of the item (default value is 0)
+- **Line Total** (read-only): Total purchasing value for the batch number (`[Pack Qty] x [Pack cost price]`)
+
+<div class="imagetitle">
+In the below example, the first line's cost price is $0.01 per unit and the sell price $0.10 per unit. 
+</div>
+
+![Add Item pricing](images/is_additem_pricing.png)
+
+<div class="tip">The <code>Received pack size</code> and <code>Pack sell price</code> will default to the values specified as <a href="https://docs.msupply.org.nz/items:item_basics:tab_storage?s%5B%5D=preferred&s%5B%5D=pack&s%5B%5D=size#preferred_pack_size">Preferred pack size</a> and <a href="https://docs.msupply.org.nz/items:item_basics:tab_general#default_sell_price_of_preferred_pack_size">Default sell price of preferred pack size</a> if these have been specified for the current item.</div>
+
+#### Pricing on Transferred Shipments
+
+When an Inbound shipment is transferred (the result of an Outbound shipment from another store) the pricing for the incoming stock may already be calculated. There are several ways this pricing can be configured.
+
+The following logic is used to determine the sell price on inbound transfer invoices:
+
+1. If a `default sell price per pack` is set for the item in the receiving store, this price is always used. If the pack size of the inbound invoice line differs from the pack size of the default sell price, the price is adjusted accordingly.
+
+2. If the item has a `margin` set instead, this margin is added to the cost price (the outbound invoice sell price). This margin could be either:
+
+- A margin for the item (configured in the item settings for the receiving store in mSupply)
+- A margin for items received from the supplier (set on the supplier's store in mSupply)
+
+  Which of these margins has priority is determined by the [Global preference](/docs/v3/manage/global-preferences/) `Item margin overrides supplier margin`. If this preference is enabled, the item margin is used, otherwise the supplier margin is used. If only one of these margins is set, it is used regardless of the global preference setting.
+
+3. If neither a default sell price nor a margin is set, the inbound invoice line sell price will be the same as the outbound invoice line sell price.
+
+These calculated prices are editable when receiving the inbound shipment, up until it is verified.
+
+### Other tab
+
+In the third tab, `Other`, you can select the following:
+
+- **Location**: A storage location to assign the batch number to a location in your storage facility.
+- **Comment**: This is a free text field that can be used to add a comment about the shipment line.
+- **Donor**: A donor, if configured to track donors. See [Track stock by donor](#track-stock-by-donor) for details.
+- **Campaign / Program**: If you have a campaign configured (see [Campaigns](/docs/v3/manage/campaigns/)) or if the item is part of a program which is visible in this store then this column allows you to associate the stock line with a campaign or program.
+- **Manufacturer**: If [Item Variants](/docs/v3/catalogue/items/#item-variants) are configured, you can view and edit the manufacturer for each line. If an item variant is selected, the manufacturer will be automatically set from the variant. Otherwise, you can manually enter a manufacturer.
+
+#### Location
+
+Simply select a storage location from the `Location` dropdown menu.
+
+![Add Item location](images/is_additem_location.png)
+
+<div class="note">
+Don't know the storage location yet? You don't have to capture it right away. You can update the storage location at any time if you haven't confirmed the verification yet. 
+</div>
+
+When editing a line on the shipment, the `Other` tab will have a `Donor` selection if you have the preference enabled:
+
+### Confirm item and quantities
+
+When you're done, you can add the new line by tapping on:
+
+- `OK` if you don't want to add another line to your shipment
+- `OK & Next` if you have other lines to create
+
+Otherwise, you can tap on `Cancel` and your changes won't be saved.
+
+## Adding lines to an inbound shipment using a Master List
+
+Tap on the `Add from master list` button (top right corner).
+
+<div class="note">
+The button will be disabled if the status of the inbound shipment is anything other than <strong>New</strong>
+</div>
+
+![Add Item button](images/is_add_from_master_list_button.png)
+
+A new `Master Lists` window opens. This allows you to select the required master list. Simply click on one of the lists (if you have some available).
+
+![Add Item button](../../../images/add-item-master-lists.png)
+
+Click `OK` on the prompt:
+![Add Item button](../../../images/add-item-master-list-prompt.png)
+
+You will then have placeholder lines added to your shipment, which will then look like this:
+
+![Add Item button](images/is-after-master-list.png)
+
+The imported rows will have zero for the number of packs value, and are therefore shown in a blue font with the batch, expiry, location etc not shown. You can follow the steps for editing these lines, as detailed above.
+
+## Editing an inbound shipment line
+
+To edit an inbound shipment line, simply tap on it. You will be presented with the `Edit Item` window, which is identical to the `Add Item` window, except that the item is already chosen and cannot be modified.
+
+### Edit a Shipment Line
+
+<div class="note">
+ <b></b> you can edit a shipment line if the shipment has a status lower than <code>Verified</code>. 
+</div>
+
+1. Open the inbound shipment you want to edit
+2. Tap on the line you want to edit. An identical window to `Add Item` appears. At this stage:
+   - Edit the main `Issue Quantity` field
+   - or change the number of packs value at the batch number level
+
+<div class="note">
+ <b></b> When editing a shipment line, you cannot change the item. You would need to delete the shipment line and to create a new one. 
+</div>
+
+### Delete a Shipment line
+
+1. Open the inbound shipment that you would like to edit
+2. Make sure that status is not yet `Verified`
+3. Select the line(s) you want to delete by checking the box(es) on the left of the list
+4. Click the `Delete` button which appears at the bottom of the page.
+
+![Delete inbound shipment line](images/is_delete_lines.png)
+
+<div class="tip">
+You can delete multiple lines at once. Be sure to review what is selected before performing the Delete action. 
+</div>
+
+### Other line actions
+
+If you have selected some lines by checking the box on the left of the list there are several actions which are possible. These affect the selected lines only.
+
+| Action                     | Effect                                                                                                                                             |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Delete                     | As described above, this deletes the selected line(s)                                                                                              |
+| Change Campaign or Program | Opens a window which allows you to choose a program or campaign. This will be associated with all the selected lines                               |
+| Set quantities to 0        | This will set the `Packs received` value for all the selected lines to zero                                                                        |
+| Return selected lines      | Opens a window which lets you return some or all of the selected lines. This is only possible if the status of the shipment is `Received` or later |
+| Clear selection            | Will clear the selection checkboxes                                                                                                                |
+
+## Upload Documents
+
+You may have related documents you wish to upload and store with an inbound shipment. These could be delivery notes, transport documents, temperature records etc.
+
+The inbound shipment view includes a `Documents` tab. From here, select `Upload Document` at the top of the screen and select a file to upload:
+
+![Upload Document tab and button](images/is_upload_document.png)
+
+You can download or delete previously uploaded documents, by selecting the document in the list and then choosing the appropriate action at the bottom of the screen:
+
+![Download or Delete Document](images/is_download_delete_document.png)
+
+## Receiving stock with an inbound shipment
+
+### Confirm the delivery of the shipment
+
+Whether your inbound shipment is **manual** or **automatic**, the first step to receive the goods is to confirm the delivery.
+
+At this stage, you don't have to check if quantities or other information are correct, you just have to acknowledge that you have received the goods from your supplier.
+
+To confirm that an inbound shipment has been delivered, click on the `Confirm Delivered` button.
+
+Once you have done this:
+
+- Goods are now part of your inventory
+- Shipment status is now `Delivered`
+- You can no longer delete the shipment
+
+<div class="note">
+In case your inbound shipment is <b>automatic</b>, you cannot confirm its delivery unless the supplier has confirmed its shipment. In other words, your shipment status has to be <code>SHIPPED</code> before you can confirm that you have received the goods. 
+</div>
+
+<div class="note">
+Any unallocated lines with a 0 number of packs value will automatically be removed for you when you confirm delivery.
+</div>
+
+### Receive goods on the inbound shipment
+
+Once the shipment has been marked as `Delivered` items on the shipment can be physically inspected to confirm the correct items and quantities have been delivered.
+
+Once you have inspected the goods which are part of the shipment, you can confirm the Shipment as `Received` by tapping on the `Confirm Received` button.
+
+Once you have done this:
+
+- Shipment status is now `Received`
+- The items on the shipment are added to your stock on hand and are available for distribution
+
+<div class="note">If a batch has been distributed (for example is part of an outbound shipment) then you are not permitted to edit the details. It is a good idea to check incoming stock and adjust the details on the shipment as soon as you can after the shipment arrives.</div>
+
+### Verify your inbound shipment
+
+Verification is the last step to receive goods in mSupply. At this stage, you can check what you have received and make sure that that information in mSupply are correct.
+
+You have the possibility to verify the following information:
+
+- Batch numbers and their expiry dates
+- Quantity of packs and pack size
+- Pricing information: cost and sell prices
+
+You can also capture where received goods are to be stored in the `Location` tab.
+
+Once all information have been captured or verified, you can confirm the Shipment as `Verified` by tapping on the `Confirm Verified` button.
+
+Once you have done this:
+
+- Shipment status is now `Verified`
+- You can no longer edit shipment lines
+
+## Returning stock from an inbound shipment
+
+Sometimes, you might need to return stock that you received via an inbound shipment. You can do this by creating an [Supplier Return](../supplier-returns).
+
+1. Open the inbound shipment for which you would like to return some or all of the stock
+2. Make sure that status is at least `Delivered`
+3. Select the line(s) you want to return by checking the box(es) on the left of the list
+4. Click the `Return selected lines` button which appears at the bottom of the page.
+
+![Process return inbound shipment line](images/return-inbound-shipment-line.png)
+
+#### Select quantity to return
+
+A modal will open, containing each line you selected to return:
+
+|              Column               | Description                                                                                                                                                                                      |
+| :-------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|             **Code**              | Item code                                                                                                                                                                                        |
+|             **Name**              | Item name                                                                                                                                                                                        |
+|             **Batch**             | Batch number. It is a designation given to products made in the same manufacturing run.                                                                                                          |
+|            **Expiry**             | Expiry date of the batch (format: MM/YYYY)                                                                                                                                                       |
+| **Quantity Available for Return** | Number of packs available. This means the number of packs not already allocated to other shipments or returns, so the quantity could be less than the quantity received in the inbound shipment. |
+|      **Quantity to Return**       | Number of packs to be returned                                                                                                                                                                   |
+
+![Alt Text](images/is_return_select_quantity.png)
+
+The `Quantity to Return` values will initially be `0` - you can adjust this to return some or all of the available stock.
+
+#### Warnings
+
+If you forget to enter a quantity to return for any batch and click `Next step`, you will see this warning message. You'll need to add a quantity to return from at least one batch. You can click `Cancel` if you no longer want to return any of this stock.
+![Alt Text](images/is_selectquantity_warning.png)
+
+#### Provide reasons
+
+Once you are happy with your quantities to return, you can click `Next step`. The list of batches will be filtered to only include the batches you provided a return quantity for. In this view, you can provide a reason for returning each batch, and an additional comment.
+
+![Alt Text](images/is_return_lines.png)
+
+#### Confirm
+
+When you are happy with the quantities and reasons, you can press on:
+
+- the `OK` button. A Supplier Return will be created, and you will be redirected to view it. The quantities of stock selected to return will be reserved for the new return.
+- the `Back` button, to go back to the `Select quantity` step
+
+## Viewing an inbound shipment
+
+When viewing a specific shipment, you can view the batches on that shipment grouped by item or with each batch listed separately.
+To change the view mode, click the `Group by item` switch.
+
+When grouped by item, you can expand the item to see individual batches, or use the expand in the table header to expand all grouped rows.
+
+If you do not have enough room on your screen, or simply aren't interested in some of the columns shown, you have the option of hiding which columns are shown in this view.
+
+Click on the `Show / hide columns` button which is at the top right of the table. This gives a list of the columns available - you can check the columns you want to see. The options chosen are stored for the current browser, so next time you view an inbound shipment, you will see the selected columns only. If you have chosen which columns to show, then the button is shown in blue to remind you that there are more columns available.
+
+![Hide columns](images/is_show_hide_columns.png)
+
+## Track stock by donor
+
+You can track stock by donor throughout the system. A donor can be linked to an inbound shipment and you can also specify the donor for each line on the shipment.
+
+To begin, enable the [Global preference](/docs/v3/manage/global-preferences/) for `Allow tracking of stock by donor`. Then configure some donors in the mSupply central server. This [documentation page](https://docs.msupply.org.nz/receiving_goods:donors?s[]=donor#adding_or_editing_donors) will tell you how.
+
+Once you have enabled the preference and have some donors configured, open the [information panel](#view-or-edit-the-inbound-shipment-information-panel) of your inbound shipment
+
+Here you can view the currently allocated donor and add or change a donor. Click the pencil icon to show the edit window:
+
+![Edit donor](images/edit_donor.png)
+
+When selecting a donor you have the option to specify how this will affect lines on the shipment:
+
+- All lines - the selected donor is linked to every line on the shipment
+- Lines with existing donor - the selected donor replaces the existing donor if one is assigned to a line
+- Lines without a donor - only lines with no donor will be linked to this donor
+- None
+
+When editing a line on the shipment, the `Other` tab will have a `Donor` selection if you have the preference enabled:
+
+![Donor per line](images/edit_line_donor.png)
+
+Simply select the donor for that stock line.
+
+## Linking an internal order
+
+If the [store preference](/docs/v3/settings/configuration/#store-preferences) `Can manually link requisition to supplier invoice` is enabled in the current store, then it is possible to link a manually created inbound shipment to an internal order.
+
+This allows you to create a link between the internal order and inbound shipment and also lets you easily add all items which are on the order to this inbound shipment.
+
+### How to link an internal order
+
+Ensure that the store preference mentioned above is enabled.
+
+Click the `New Shipment` button to create a new manual inbound shipment and select a supplier as usual. With the preference enabled you will then see a new screen showing all internal orders which this store has created for the selected supplier.
+
+<div class="note">Only orders in the <i>Sent</i> status are shown in the list</div>
+
+![Select internal order](images/linked_internal_orders.png)
+
+From this window you can
+
+- Click **Cancel** to stop creating the inbound shipment
+- Click **Next** to continue creating without linking an internal order
+- Click on one of the internal order lines in the table - this will link the order to the newly created inbound shipment
+
+### Working with a linked inbound shipment
+
+A link to the internal order is shown in the _Related documents_ section of the _More info_ panel:
+
+![Related documents link](images/linked_related_docs.png)
+
+and a corresponding link is shown on the internal order, allowing you to quickly move between the two.
+
+Once the shipment and order are linked you are able to add lines from the internal order to the shipment.
+Click the arrow beside the **Add Item** button to expand it and view the other options:
+
+![Add from internal order](images/linked_add_from_order.png)
+
+Click the option **Add from Internal Order**.
+
+A windows is shown which lists all of the item lines in the internal order. You can then click the checkboxes to select which lines to add to the shipment.
+
+<div class="tip">You can click the top checkbox to select or deselect all lines</div>
+
+![Add lines from internal order](images/linked_add_lines.png)
+
+Click the **Select** button to add the lines to the shipment.

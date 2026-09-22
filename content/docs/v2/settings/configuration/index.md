@@ -1,0 +1,111 @@
++++
+title = "Configuration"
+description = "Configure properties within the system"
+date = 2022-05-17
+updated = 2022-05-17
+draft = false
+weight = 1
+sort_by = "weight"
+template = "docs/page.html"
+
+[extra]
+toc = true
+top = false
++++
+
+The configuration settings section allows you to configure custom data for the system. It is only available on the [Open mSupply Central Server](/docs/v3/getting-started/central-server).
+
+## Viewing the configuration settings
+
+To view the configuration settings, go to `Settings` in the lower section of the navigation panel:
+
+![Settings: nav](../images/admin_nav.png)
+
+If you are on the Open mSupply Central Server, you will see this list of settings sections:
+
+![Settings: collapsed](images/settings_collapsed_central.png)
+
+Click on the `Configuration` section to begin.
+
+## Store Configuration
+
+#### Initialise Gaps Module
+
+To operate fully, the [GAPS module](/docs/v3/coldchain/gaps) requires a number of configuration changes and data records to be added to the system. In order to make this process easier, all of the required general configuration steps have been automated for you.
+
+In order to add the GAPS configuration changes, simply click the `Initialise` button, shown below:
+
+![GAPS: uninitialised](images/gaps_unconfigured.png)
+
+Once configured, the `Initialise` button will become disabled:
+
+![GAPS: initialised](images/gaps_configured.png)
+
+An `Edit` button will also appear in the footer, where you can edit the store properties for the store you are currently logged into:
+
+![Store properties edit](/docs/v3/manage/facilities/images/footer_store_edit.png)
+
+Clicking that `Edit` button will open a new window, where you can [view and edit your store properties](/docs/v3/manage/facilities/#editing-your-store-properties).
+
+You will see a number of property inputs in this window. If you don't, there may be something wrong with the configuration - please contact support to investigate.
+
+<div class='tip'>
+To use the French translations for the GAPS properties, change the site language to French before initialising. You can also re-initialise which allows you to change the language if these properties are already configured.
+</div>
+
+<div class='note'>
+GAPS configuration is a one way process that cannot be undone! Please be sure you wish to use the GAPS module before initialising.
+</div>
+
+#### Supply Level Property
+
+The supply level property can be assigned to a store to identify that store's position within the supply chain hierarchy (e.g. central, regional, facility, etc...).
+On this page you are able to define the number and name of the levels which are available.
+
+To configure supply levels, click the edit button:
+
+![Supply Level: Edit button](images/supply_level.png)
+
+This opens a window where you can manage supply levels. If a supply level is already assigned to a store, you’ll see a notice and the delete button will be disabled.
+
+![Supply Level: Modal](images/supply_level_configuration.png)
+
+To assign a supply level to a store either:
+
+- Navigate to <a href="/docs/v3/manage/facilities/">Manage > Stores</a> and edit a store
+- If on the central server, click the edit button in the app footer
+
+Then, select the appropriate supply level from the dropdown:
+
+![Supply Level: Store Properties](images/supply_level_store_properties.png)
+
+Click the Ok button to save your changes.
+If you do not have the Supply level property available, editing the properties (step 1 above) will create the required property. Remember to sync your remote site after editing!
+
+<div class="tip">If you are using the Congo plugin then the selected supply level will be synchronised with the store's category 5 property</div>
+
+## Store preferences
+
+Open mSupply is using some of the mSupply central server [store preferences](https://docs.msupply.org.nz/other_stuff:virtual_stores#preferences_tab).
+
+Here's the list of preferences which are currently in use:
+
+| Preference                                                                      | Used by                                                                                                  |
+| ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| Can manually link requisition to supplier invoice                               | [Inbound shipments](/docs/v3/replenishment/inbound-shipments/)                                              |
+| Edit prescribed quantity on prescription                                        | [Dispensing](/docs/v3/dispensary/dispensing/)                                                         |
+| Expiring items period                                                           | Used for some [Reports](/docs/v3/getting-started/reports/)                                                  |
+| Include requisitions from this store in suppliers' remote authorisation process | Used in [Internal Orders](/docs/v3/replenishment/internal-orders/) if using the remote authorisation module |
+| Keep requisition lines with zero requested quantity on finalise                 | [Requisitions](/docs/v3/distribution/requisitions/)                                                         |
+| Monthly consumption look back period                                            | Used for some [Reports](/docs/v3/getting-started/reports/)                                                  |
+| Months lead time                                                                | Used for some [Reports](/docs/v3/getting-started/reports/)                                                  |
+| Open mSupply: Uses program module                                               | If using [Patient Programs](/docs/v3/programs/program-module/)                                              |
+| Set pack to one for all visible items in this store                             | Will enable the 'pack to one' feature when receiving stock                                               |
+| Show extra fields in requisition                                                | Displays additional fields for internal orders and requisitions                                          |
+| Stocktake frequency                                                             | Used for some [Reports](/docs/v3/getting-started/reports/)                                                  |
+| Store: Able to issue in foreign currency                                        | If using multiple currencies, this setting is used in multiple places                                    |
+| Threshold for overstock                                                         | Used for some [Reports](/docs/v3/getting-started/reports/)                                                  |
+| Threshold for understock                                                        | Used for some [Reports](/docs/v3/getting-started/reports/)                                                  |
+| Use consumption & stock from customers for internal orders                      | [Internal Orders](/docs/v3/replenishment/internal-orders/)                                                  |
+| Use remote authorisation for response requisitions                              | If using authorisation for [Requisitions](/docs/v3/distribution/requisitions/)                              |
+| mobile: Uses Vaccine Module                                                     | [Cold chain](/docs/v3/coldchain/introduction/#getting-started)                                              |
