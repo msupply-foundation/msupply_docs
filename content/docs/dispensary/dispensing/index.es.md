@@ -93,7 +93,6 @@ Solo puedes eliminar prescripciones con el estado <code>NUEVO</code>.
 
 ![Prescription list: delete](images/prescription_delete_step_1.png)
 ![Prescription list: delete](images/prescription_delete_step_2.png)
-![Prescription list: delete](images/prescription_delete_step_3.png)
 
 ## Crear una prescripción
 

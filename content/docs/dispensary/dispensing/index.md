@@ -91,7 +91,6 @@ You can only delete Prescriptions with a status <code>NEW</code> or <code>PICKED
 
 ![Step 1: Selecting a prescription in the list by checking its checkbox](images/prescription_delete_step_1.png)
 ![Step 2: Actions footer appearing at the bottom with the Delete option highlighted](images/prescription_delete_step_2.png)
-![Step 3: Confirmation notification showing the number of prescriptions deleted](images/prescription_delete_step_3.png)
 
 ## Creating a Dispensing Record
 

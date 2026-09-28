@@ -91,7 +91,6 @@ Vous ne pouvez supprimer que les Prescriptions avec un statut <code>NOUVEAU</cod
 
 ![Prescription list: delete](images/prescription_delete_step_1.png)
 ![Prescription list: delete](images/prescription_delete_step_2.png)
-![Prescription list: delete](images/prescription_delete_step_3.png)
 
 ## Créer une Prescription
 

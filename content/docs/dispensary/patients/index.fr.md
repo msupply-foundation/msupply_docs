@@ -136,11 +136,7 @@ Sélectionnez un patient et cliquez sur l'onglet `Assurance`. Ici, vous pouvez v
 
 <div class="note">Les polices seront considérées comme expirées à partir du début du jour spécifié dans le champ <b>Date d'expiration</b></div>
 
-3. Après avoir rempli le formulaire, cliquez sur le bouton `Enregistrer`. Votre nouvelle assurance apparaîtra dans la liste, et un message de confirmation s'affichera.
-
-   ![Assurance ajoutée](images/insurance_success.png)
-
-4. Si vous oubliez de remplir une section du formulaire, le système vous alertera et les détails ne seront pas enregistrés.
+3. Si vous oubliez de remplir une section du formulaire, le système vous alertera et les détails ne seront pas enregistrés.
 
    ![Échec de l'enregistrement de l'assurance](images/insurance_failed_to_save.png)
 
@@ -155,7 +151,5 @@ Sélectionnez un patient et cliquez sur l'onglet `Assurance`. Ici, vous pouvez v
    ![Modal assurance remplie](images/insurance_filled_modal.png)
 
 3. Mettez à jour les informations d'assurance selon vos besoins.
-
-   ![Modal modification assurance](images/insurance_edit_modal.png)
 
 4. Une fois les mises à jour terminées, cliquez sur le bouton `Enregistrer`. Si la modification est réussie, un message de confirmation s'affichera et vos changements seront immédiatement pris en compte.
