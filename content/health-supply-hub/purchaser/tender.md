@@ -106,13 +106,13 @@ To view suppliers invited to your tender, select your tender, then select “Inv
 <img src="/health-supply-hub/purchaser/images/view_invited_suppliers.png" width="750"  >
 </p>
 
-Invited Suppliers statuses include:
+Suppliers statuses include:
 
 |           |                                                                                                                                             |
 | --------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
 | Invited   | Supplier has been sent an invitation to bid                                                                                                 |
-| Draft     | Supplier has submitted a draft quote - this quote may still be withdrawn or modified until the tender closes                                |
-| Confirmed | Supplier has registered (shown interest) in bidding                                                                                         |
+| Draft     | Supplier has registered interest in bidding and may have uploaded a draft quote                                                             |
+| Confirmed | Supplier has submitted their quote and is participating in the tender                                                                       |
 | Withdrawn | Supplier has withdrawn the quote. Suppliers will also need to provide a reason when withdrawing a quote. This will appear below the status. |
 
 ### Extend Closing Date of Tender
