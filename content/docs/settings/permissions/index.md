@@ -79,3 +79,57 @@ In addition to these specific permissions, you'll need to ensure that the user h
 |                      | API Access      | Cold chain API access                                | Can access the Cold Chain API                                                                                                                    |
 |                      | Admin           | Can modify central data (requires mSupply v7.15.05+) | Can modify data managed by in the Open mSupply Central Server (e.g. Demographic Indicators, Immunization Programs)                               |
 |                      |                 | View/edit prescriptions                              | Grants both the view and edit permissions for [Prescriptions](/docs/dispensary/prescriptions/#permissions), including the homepage panel         |
+
+## Menu visibility
+
+The permissions which a user has within a store determines which menu items are available. If a user does not have permission to view an area then the corresponding menu item isn't shown. This allows the menu to be kept as simple as possible for users, only showing what they require.
+
+Here is the list of menu items, and the permission or condition which is needed for it to show. Note that `None` in the permission column means that the item will show for all users.
+
+| Open mSupply menu item                   | Legacy mSupply permission required                       | Other conditions                                                     |
+| ---------------------------------------- | -------------------------------------------------------- | -------------------------------------------------------------------- |
+| Home                                     | None                                                     | —                                                                    |
+| **Replenishment** → Purchase orders      | Permissions > Ordering > View purchase orders            | Procurement enabled                                                  |
+| Replenishment → Internal orders          | Permissions (3) > Requisitions > View requisitions       | —                                                                    |
+| Replenishment → Inbound shipments        | Permissions (2) > Invoices > View supplier invoices      | —                                                                    |
+| Replenishment → Supplier returns         | Permissions (2) > Invoices > View supplier invoices      | —                                                                    |
+| Replenishment → R&R forms                | Permissions (3) > Requisitions > View requisitions       | Program module enabled                                               |
+| Replenishment → Suppliers                | None of its own                                          | At least one other Replenishment item is visible                     |
+| **Inventory** → Stock                    | Permissions > Items > View stock                         | —                                                                    |
+| Inventory → Locations                    | None of its own                                          | Stock, Stocktakes or Stock movement is visible                       |
+| Inventory → Stocktakes                   | Permissions > Items > View stock                         | —                                                                    |
+| Inventory → Stock movement               | Permissions > Items > View stock                         | —                                                                    |
+| **Distribution** → Customer requisitions | Permissions (3) > Requisitions > View requisitions       | —                                                                    |
+| Distribution → Outbound shipments        | Permissions (2) > Invoices > View customer invoices      | —                                                                    |
+| Distribution → Customer returns          | Permissions (2) > Invoices > View customer invoices      | —                                                                    |
+| Distribution → Customers                 | None of its own                                          | At least one other Distribution item is visible                      |
+| **Dispensary** → Patients                | Permissions (2) > Names > View patients                  | Dispensary store                                                     |
+| Dispensary → Prescriptions               | Open mSupply permissions > View/edit prescriptions       | Dispensary store                                                     |
+| Dispensary → Dispensing                  | Permissions (2) > Invoices > View customer invoices      | Dispensary store                                                     |
+| Dispensary → Encounters                  | None                                                     | Dispensary store; program module enabled                             |
+| Dispensary → Clinicians                  | None of its own                                          | Dispensary store; Prescriptions, Dispensing or Encounters is visible |
+| **Cold chain** → Equipment               | Permissions (3) > Assets > View assets                   | Vaccine module enabled                                               |
+| Cold chain → Monitoring                  | Permissions (3) > Vaccines > View sensor details         | Vaccine module enabled                                               |
+| Cold chain → Sensors                     | Permissions (3) > Vaccines > View sensor details         | Vaccine module enabled                                               |
+| **Programs** → Immunisations             | None                                                     | Central server; vaccine module enabled                               |
+| **Catalogue** → Assets                   | Permissions (3) > Assets > View assets                   | —                                                                    |
+| Catalogue → Items                        | None                                                     | —                                                                    |
+| Catalogue → Master lists                 | None                                                     | —                                                                    |
+| **Manage** → Stores                      | None                                                     | Central server                                                       |
+| Manage → Indicators & demographics       | None                                                     | Central server; vaccine module enabled                               |
+| Manage → Global preferences              | None                                                     | Central server                                                       |
+| Manage → Equipment                       | Permissions (3) > Assets > View assets                   | Central server; vaccine module enabled                               |
+| Manage → Campaigns                       | None                                                     | Central server                                                       |
+| Manage → Custom fields                   | Permissions > Admin > Access server administration       | Central server                                                       |
+| Manage → Sites                           | Permissions > Admin > Access server administration       | Central server                                                       |
+| Manage → Reports                         | Permissions > Admin > Access server administration       | Central server                                                       |
+| Manage → Sync message                    | Permissions > Admin > Access server administration       | Central server                                                       |
+| Manage → Plugins                         | Permissions > Admin > Access server administration       | Central server                                                       |
+| Manage → Help documents                  | Permissions > Admin > Access server administration       | Central server                                                       |
+| Reports                                  | Permissions (2) > Reports > View reports                 | —                                                                    |
+| Settings                                 | None                                                     | —                                                                    |
+| Help                                     | None                                                     | —                                                                    |
+| Plugin pages and sections                | Whatever the plugin declares; the user needs all of them | —                                                                    |
+
+<div class="note">A section heading (in bold above) disappears once all of its items are hidden.</div>
+<div class="tip">In the current version of Open mSupply a user will require <b>View reports</b> permission to print forms. Be careful when removing the permission from users.</div>
