@@ -14,7 +14,9 @@ top = false
 +++
 
 <div class="note">
-	This is the documentation for our original mSupply Mobile. For new installations, we recommend <a href="/docs/introduction/introduction"><strong>Open mSupply</strong></a>
+	This is the documentation for our original mSupply Mobile. 
+	The mSupply Foundation has dicontinued the development of `mSupply Mobile` and our existing clients 
+	are required to upgrade to <a href="/docs/introduction/introduction"><strong>Open mSupply</strong></a>.
 </div>
 
 ### Setting up mSupply Mobile on the device
