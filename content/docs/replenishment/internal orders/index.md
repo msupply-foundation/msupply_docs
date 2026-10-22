@@ -78,11 +78,31 @@ In the below example, we have set our Reorder threshold MOS to 1 Month.
 
 ### Defining Target MOS (Maximum MOS)
 
-Defining the Target MOS (Month of Stock) is critical to the calculation of the **Suggested Quantity**:
+The _Target MOS_ (Months of Stock, previously known as _Maximum MOS_) is the stock level you want to hold **after this order arrives**, expressed in months of average consumption. mSupply uses it to calculate the **Suggested Quantity** for every item on the order:
 
-- There is an industry rule of thumb that the _Target MOS_ should be set to 3 times the ordering cycle
-- The default _Target MOS_ is `3.0`, which is based on a monthly ordering cycle
-- If for example, the ordering cycle was every two months, then _Target MOS_ should be set to 3 x 2 = `6.0`
+- The **target quantity** for an item is `Target MOS x AMC`
+- The **suggested quantity** is the difference between that target and your current stock on hand (see the <a href="#suggested-quantity">Suggested Quantity</a> section for the full rules)
+
+For example, with a _Target MOS_ of `3` and an AMC of 200 units, the target quantity is 600 units. If you have 250 units in stock, mSupply suggests ordering 350 units.
+
+#### Where the default value comes from
+
+When you create a new internal order, mSupply sets the _Target MOS_ from two of your store's properties:
+
+<code>Target MOS = Supply interval + Stock safety buffer</code>
+
+- **Supply interval (months between deliveries)**: how often your store receives stock. Your stock has to last until the next delivery arrives.
+- **Stock safety buffer (months)**: extra cover for late deliveries or higher than usual demand.
+
+For example, a store that receives a delivery every 2 months and keeps a 1 month safety buffer gets a default _Target MOS_ of `3`.
+
+If no supply interval is set for your store, the default _Target MOS_ is `1` month.
+
+Both properties are set on the Open mSupply central server under `Manage` > `Stores`. See <a href="/docs/manage/facilities/#store-properties">Store Properties</a> for how to edit them, and <a href="/docs/manage/stock-thresholds/#population-forecasting-thresholds">Stock Thresholds</a> for more on what they mean.
+
+#### Changing the value on an order
+
+You can change the _Target MOS_ on an individual order, before or after adding items. Changing it recalculates the suggested quantity for every item already on the order.
 
 <div class="imagetitle">
 In the below example, we are setting our Target MOS to 3 Months.  
@@ -90,7 +110,13 @@ In the below example, we are setting our Target MOS to 3 Months.
 
 ![MaxMOS](images/intord_maxmos.png)
 
-This can be done before or after adding items to your order.
+The _Target MOS_ cannot be set lower than the _Reorder threshold MOS_. The two settings work as a pair: the threshold decides **whether** an item needs ordering, and the target decides **how much** to order.
+
+On program orders the _Target MOS_ is set by the program's order type and cannot be changed on the order.
+
+<div class="note">
+A store can lock the <em>Target MOS</em> so that every general internal order uses the value calculated from its supply interval and safety buffer. This is controlled by the store preference <code>Allow changing target months of stock on internal orders</code>, which is on unless it has been turned off. When it is off for a store that has a supply interval, the <em>Target MOS</em> on general internal orders cannot be changed. See <a href="/docs/manage/facilities/#store-preferences">Store Preferences</a>.
+</div>
 
 ### Adding a single item
 

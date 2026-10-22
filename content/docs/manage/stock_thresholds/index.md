@@ -23,8 +23,8 @@ This page explains each threshold settings, where it is configured, and how the 
 | :------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------- |
 | **Threshold for overstock**                                          | Legacy mSupply central server <a href="https://docs.msupply.org.nz/other_stuff:virtual_stores?s%5B%5D=threshold&s%5B%5D=overstock#notification_preferences">store preferences</a> | Defines max stock level in R&R forms and stock status report |
 | **Threshold for understock**                                         | Legacy mSupply central server store preferences                                                                                                                                   | Defines min stock level in R&R forms and stock status report |
-| **Stock safety buffer (months)**                                     | <a href="/docs/manage/facilities/#store-properties">Store properties</a>                                                                                                          | Population-based vaccine forecasting                         |
-| **Supply interval (months)**                                         | Store properties                                                                                                                                                                  | Population-based vaccine forecasting                         |
+| **Stock safety buffer (months)**                                     | <a href="/docs/manage/facilities/#store-properties">Store properties</a>                                                                                                          | Population-based vaccine forecasting; default Target MOS on internal orders |
+| **Supply interval (months)**                                         | Store properties                                                                                                                                                                  | Population-based vaccine forecasting; default Target MOS on internal orders |
 | **Number of months threshold to show low stock alerts for products** | <a href="/docs/manage/facilities/#store-preferences">Store preferences</a>                                                                                                        | Homepage widget: "Products at risk of being out of stock"    |
 | **Number of months threshold to show overstock alerts for products** | Store preferences                                                                                                                                                                 | Homepage widget: "Items with more than X months of stock"    |
 
@@ -54,7 +54,7 @@ For example, if this is set to **6**, any product with more than 6 months of sto
 
 ## Population Forecasting Thresholds
 
-These settings are used in population-based vaccine forecasting to calculate target stock levels. They are configured as store properties on the Open mSupply central server. See [Store Properties](/docs/manage/facilities/#store-properties) for configuration details, and [Plugins](/docs/plugins/general-plugins/) for more on population-based forecasting.
+These settings are used in population-based vaccine forecasting to calculate target stock levels, and to set the default _Target MOS_ on internal orders. They are configured as store properties on the Open mSupply central server. See [Store Properties](/docs/manage/facilities/#store-properties) for configuration details, and [Plugins](/docs/plugins/general-plugins/) for more on population-based forecasting.
 
 ### Stock safety buffer (months)
 
@@ -71,6 +71,14 @@ The safety buffer and supply interval are combined to calculate the target stock
 <code>Target stock = (Supply interval + Stock safety buffer) x Forecast demand per month</code>
 
 For example, if the supply interval is **3 months**, the safety buffer is **1 month**, and forecast demand is **200 units per month**, the target stock is **(3 + 1) x 200 = 800 units**.
+
+### Internal orders
+
+The same two settings give a new [internal order](/docs/replenishment/internal-orders/#defining-target-mos-maximum-mos) its default _Target MOS_:
+
+<code>Target MOS = Supply interval + Stock safety buffer</code>
+
+If no supply interval is set for the store, the default is 1 month. The store preference `Allow changing target months of stock on internal orders` controls whether users can change the _Target MOS_ on an individual order (see [Store Preferences](/docs/manage/facilities/#store-preferences)).
 
 ## Where to Configure
 
