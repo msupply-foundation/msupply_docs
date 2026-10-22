@@ -128,6 +128,13 @@ Toggle the preferences on or off as required, and close when you are finished.
                 change the destination of the supplier's Outbound Shipment</td>
         </tr>
         <tr>
+            <td>Allow changing target months of stock on internal orders</td>
+            <td>On unless turned off. When it is off for a store that has a <code>Supply interval</code> store property,
+                the <code>Target MOS</code> on general internal orders is fixed to the store's supply interval plus
+                stock safety buffer and cannot be changed on the order. See <a
+                    href="/docs/replenishment/internal-orders/#defining-target-mos-maximum-mos">Internal Orders</a>.</td>
+        </tr>
+        <tr>
             <td>Inbound shipment (external) lines must be authorised</td>
             <td>When this preference is enabled, lines on inbound shipments from external suppliers (i.e. suppliers who are not also Open mSupply stores) cannot be confirmed and added to your stock until they have been authorised by a user with the appropriate permission.</td>
         </tr>
