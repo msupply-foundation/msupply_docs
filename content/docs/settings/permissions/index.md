@@ -2,7 +2,7 @@
 title = "Permissions"
 description = "Configure user permissions"
 date = 2023-05-05
-updated = 2023-05-05
+updated = 2026-10-27
 draft = false
 weight = 4
 sort_by = "weight"
@@ -32,7 +32,7 @@ In addition to these specific permissions, you'll need to ensure that the user h
 |                      |                 | Edit Item names, codes and units                     | Can maintain pack variants                                                                                                                       |
 |                      |                 | View stock                                           | View stock lines                                                                                                                                 |
 |                      |                 | Edit stock                                           | Modify stock lines                                                                                                                               |
-|                      |                 | Create Repack Or Split Stock                         | Can create repack or split stock lines                                                                                                           |
+|                      |                 | Create repacks or split stock                        | Can create repack or split stock lines                                                                                                           |
 |                      |                 | Enter Inventory Adjustments                          | Can maintain inventory adjustments                                                                                                               |
 |                      | Ordering        | View purchase orders                                 | Can view [Purchase Orders](/docs/replenishment/purchase-orders/)                                                                                 |
 |                      |                 | Edit purchase orders                                 | Can create, edit and delete Purchase Orders and their lines                                                                                      |
@@ -54,10 +54,10 @@ In addition to these specific permissions, you'll need to ensure that the user h
 |                      |                 | Finalise supplier invoices                           | Can confirm Inbound Shipments as `Verified`                                                                                                      |
 |                      |                 | Return stock from customer invoices                  | Can return stock from Outbound Shipments                                                                                                         |
 |                      | Reports         | View reports                                         | Required to print pages, as this uses the reporting system                                                                                       |
-|                      | Patients        | View patients                                        | Can view Patients                                                                                                                                |
+|                      | Names           | Edit customer, supplier & manufacturer names         | Can edit customer and supplier properties                                                                                                        |
+|                      |                 | View patients                                        | Can view Patients                                                                                                                                |
 |                      |                 | Add Patients                                         | Can maintain Patients                                                                                                                            |
 |                      |                 | Edit Patient Details                                 | Can maintain Patients - if either add or edit permission is given the user can edit                                                              |
-|                      | Names           | Edit customer, supplier & manufacturer names         | Can edit customer and supplier properties                                                                                                        |
 | Permissions (3)      | Admin           | View log                                             | Able to view the logs, these show as a tab on many windows                                                                                       |
 |                      | Requisitions    | View requisitions                                    | Can view Requisitions and R&R Forms                                                                                                              |
 |                      |                 | Create and edit requisitions                         | Can maintain Requisitions and R&R Forms                                                                                                          |
@@ -71,14 +71,27 @@ In addition to these specific permissions, you'll need to ensure that the user h
 |                      |                 | Edit sensor location                                 | Can edit sensor location                                                                                                                         |
 |                      |                 | View and edit vaccine vial monitor status            | Can view and edit vaccine vial monitor status on stock lines                                                                                     |
 |                      | Assets          | View assets                                          | Can view Assets                                                                                                                                  |
-|                      |                 | Add assets visa datamatrix                           | Can add Assets via datamatrix scanning                                                                                                           |
+|                      |                 | Add assets via datamatrix                            | Can add Assets via datamatrix scanning                                                                                                           |
 |                      |                 | Add, edit assets                                     | Can maintain Assets                                                                                                                              |
 |                      |                 | Change Asset status                                  | Can change the status of Assets (e.g. Functioning, not in use)                                                                                   |
 |                      |                 | Setup Assets                                         | Can import Asset catalogue items                                                                                                                 |
-| omSupply Permissions | Internal Order  | Confirm Internal Order sent                          | Can confirm Internal Orders as sent                                                                                                              |
+| omSupply Permissions | Internal Order  | Can confirm Internal Order as Sent                   | Can confirm Internal Orders as sent                                                                                                              |
 |                      | API Access      | Cold chain API access                                | Can access the Cold Chain API                                                                                                                    |
 |                      | Admin           | Can modify central data (requires mSupply v7.15.05+) | Can modify data managed by in the Open mSupply Central Server (e.g. Demographic Indicators, Immunization Programs)                               |
 |                      |                 | View/edit prescriptions                              | Grants both the view and edit permissions for [Prescriptions](/docs/dispensary/prescriptions/#permissions), including the homepage panel         |
+
+## Program permissions
+
+Patient programs and encounters are not covered by the tick-box permissions above. They use the `Program permission` list on the `omSupply permissions` tab of the user details window, which is set per user and per store. Each program which has been configured for Open mSupply (that is, each program master list with a document registry) is listed with a `View` and an `Edit` check box. See the [Open mSupply permissions tab](https://docs.msupply.org.nz/admin:managing_users#open_msupply_permissions_tab) documentation in the central server.
+
+| Program permission | Description                                                                                                                                                                       |
+| ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| View               | Can view the program's enrolments, [encounters](/docs/dispensary/encounters/) and contact traces, and see the program's documents on the patient record                           |
+| Edit               | Can enrol patients in the program, create and edit its encounters and contact traces, and allocate program numbers. The program's `View` permission is required to see the result |
+
+The permissions are granted for a specific program; a user who has `View` for one program sees nothing of another. Patient records themselves do not need a program permission: `View patients` and `Add Patients` / `Edit Patient Details` in the table above also grant view and edit access to the patient's own documents. On the central server, `Can modify central data` allows the list of programs to be viewed without a program permission.
+
+<div class="note">The <code>Encounters</code> menu item is shown whenever the store preference <code>Open mSupply: Uses program module</code> is enabled; it is the program permissions which control what the user can see and do once there. See <a href="/docs/programs/patient-programs/">Patient Programs</a> for the store preference.</div>
 
 ## Menu visibility
 
@@ -89,7 +102,7 @@ Here is the list of menu items, and the permission or condition which is needed 
 | Open mSupply menu item                   | Legacy mSupply permission required                       | Other conditions                                                     |
 | ---------------------------------------- | -------------------------------------------------------- | -------------------------------------------------------------------- |
 | Home                                     | None                                                     | —                                                                    |
-| **Replenishment** → Purchase orders      | Permissions > Ordering > View purchase orders            | Procurement enabled                                                  |
+| **Replenishment** → Purchase orders      | Permissions > Ordering > View purchase orders            | —                                                                    |
 | Replenishment → Internal orders          | Permissions (3) > Requisitions > View requisitions       | —                                                                    |
 | Replenishment → Inbound shipments        | Permissions (2) > Invoices > View supplier invoices      | —                                                                    |
 | Replenishment → Supplier returns         | Permissions (2) > Invoices > View supplier invoices      | —                                                                    |
@@ -119,7 +132,7 @@ Here is the list of menu items, and the permission or condition which is needed 
 | Manage → Indicators & demographics       | None                                                     | Central server; vaccine module enabled                               |
 | Manage → Global preferences              | None                                                     | Central server                                                       |
 | Manage → Equipment                       | Permissions (3) > Assets > View assets                   | Central server; vaccine module enabled                               |
-| Manage → Campaigns                       | None                                                     | Central server                                                       |
+| Manage → Activities                      | None                                                     | Central server                                                       |
 | Manage → Custom fields                   | Permissions > Admin > Access server administration       | Central server                                                       |
 | Manage → Sites                           | Permissions > Admin > Access server administration       | Central server                                                       |
 | Manage → Reports                         | Permissions > Admin > Access server administration       | Central server                                                       |
