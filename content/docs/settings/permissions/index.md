@@ -84,14 +84,14 @@ In addition to these specific permissions, you'll need to ensure that the user h
 
 Patient programs and encounters are not covered by the tick-box permissions above. They use the `Program permission` list on the `omSupply permissions` tab of the user details window, which is set per user and per store. Each program which has been configured for Open mSupply (that is, each program master list with a document registry) is listed with a `View` and an `Edit` check box. See the [Open mSupply permissions tab](https://docs.msupply.org.nz/admin:managing_users#open_msupply_permissions_tab) documentation in the central server.
 
-| Program permission | Description                                                                                                                                                                     |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| View               | Can view the program's enrolments, [encounters](/docs/dispensary/encounters/) and contact traces, and see the program's documents on the patient record                        |
+| Program permission | Description                                                                                                                                                                       |
+| ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| View               | Can view the program's enrolments, [encounters](/docs/dispensary/encounters/) and contact traces, and see the program's documents on the patient record                           |
 | Edit               | Can enrol patients in the program, create and edit its encounters and contact traces, and allocate program numbers. The program's `View` permission is required to see the result |
 
 The permissions are granted for a specific program; a user who has `View` for one program sees nothing of another. Patient records themselves do not need a program permission: `View patients` and `Add Patients` / `Edit Patient Details` in the table above also grant view and edit access to the patient's own documents. On the central server, `Can modify central data` allows the list of programs to be viewed without a program permission.
 
-<div class="note">The `Encounters` menu item is shown whenever the store preference `Open mSupply: Uses program module` is enabled; it is the program permissions which control what the user can see and do once there. See <a href="/docs/programs/patient-programs/">Patient Programs</a> for the store preference.</div>
+<div class="note">The <code>Encounters</code> menu item is shown whenever the store preference <code>Open mSupply: Uses program module</code> is enabled; it is the program permissions which control what the user can see and do once there. See <a href="/docs/programs/patient-programs/">Patient Programs</a> for the store preference.</div>
 
 ## Menu visibility
 
