@@ -63,7 +63,7 @@ The application requires at least Android 10
 | :-------------- | :---------------- | :---------------- |
 | Display size    | 9.8 inches        | 10.1 inches       |
 | Resolution      | 768 x 1024 pixels | 800 x 1200 pixels |
-| Android version | 10                | 14                |
+| Android version | 9                 | 14                |
 | Processor       | 64 bit            | 64 bit            |
 | RAM             | 2 Gb              | 4 Gb              |
 | Storage         | 32 Gb             | 64 Gb             |
@@ -128,22 +128,17 @@ Firstly, this is a good time to mention our synchronisation system, which has sa
 
 ## Software requirements
 
-### Browser Compatibility
+### Browser compatibility
 
-When connecting to the web version of Open mSupply you will need a web browser. Refer to the following compatibility chart for details:
+Open mSupply is a web application, so every client machine needs a web browser. Open mSupply supports Chromium-based browsers only:
 
-| Browser          | Minimum Version | Release Date | Status        |
-| ---------------- | --------------- | ------------ | ------------- |
-| Chrome           | 90+             | Apr 2021     | Supported     |
-| Edge (Chromium)  | 91+             | May 2021     | Supported     |
-| Firefox          | 78+             | Jun 2020     | Supported     |
-| Safari           | 14+             | Sep 2020     | Supported     |
-| Opera            | 76+             | May 2021     | Supported     |
-| Safari           | iOS 14+         | Sep 2020     | Supported     |
-| Chrome Android   | 90+             | Apr 2021     | Supported     |
-| Samsung Internet | 15+             | Sep 2021     | Supported     |
-| IE 11            | —               | —            | Not supported |
-| IE < 11          | —               | —            | Not supported |
+- **Chrome, Edge, Opera, Samsung Internet** or any other Chromium-based browser, version **132 or newer** (released January 2025)
+
+If you open Open mSupply in an older Chromium browser, a warning is shown when the page loads and the application may not work correctly. Update the browser to continue.
+
+**Firefox and Safari are not officially supported.** Open mSupply is built on current web standards, so a recent version of any modern browser will most likely work, but we only test on Chromium-based browsers and can only guarantee fixes for problems that occur there. Internet Explorer is not supported. On Android, use the Open mSupply mobile app rather than a browser (see [Mobile / tablet requirements](#mobile-tablet-requirements)).
+
+<div class="note">Open mSupply versions earlier than 3.2 used the previous user interface, which could also be opened in recent versions of Firefox and Safari. Chrome or Edge is recommended for those versions too.</div>
 
 ## Backup system
 

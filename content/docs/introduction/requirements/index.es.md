@@ -50,9 +50,7 @@ La gestión de transacciones de inventario es una función fundamental en Open m
 
 ### Requisitos para tabletas / móviles
 
-Puedes usar un navegador en una tableta para conectarte a un servidor de Open mSupply, y el único requisito es una tableta lo suficientemente rápida con un navegador como Chrome o Firefox.
-
-Para una solución independiente y sin conexión, también está disponible una aplicación móvil para dispositivos Android.
+Para una solución independiente y sin conexión, está disponible una aplicación móvil para dispositivos Android. Este es el enfoque recomendado. Aunque es posible usar un navegador en una tableta para conectarse a un servidor de Open mSupply, esto no es compatible. Un navegador no permite usar la función de detección de servidores ni la cámara para escanear códigos de barras, entre otras limitaciones.
 
 Especificaciones recomendadas:
 En resumen, Open mSupply Mobile funciona en tabletas Android (no en teléfonos, ya que hay demasiados datos para usar bien en pantallas pequeñas de teléfonos).
@@ -62,9 +60,10 @@ La aplicación requiere al menos Android 5.0 (Lollipop).
 | :----------------- | :----------------- | :----------------- |
 | Tamaño de pantalla | 9.8 pulgadas       | 10.1 pulgadas      |
 | Resolución         | 768 x 1024 pixeles | 800 x 1200 pixeles |
-| Versión de Android | 5.0                | 8.1                |
-| Procesador         |                    | Quad-core 1.3GHz   |
-| Memoria            |                    | 1.5 Gb de RAM      |
+| Versión de Android | 9                  | 14                 |
+| Procesador         | 64 bit             | 64 bit             |
+| Memoria            | 2 Gb               | 4 Gb               |
+| Almacenamiento     | 32 Gb              | 64 Gb              |
 
 <div class="note">Si importa Fridge-tags necesitará al menos Android 12</div>
 
@@ -107,6 +106,20 @@ Accesorios útiles para aumentar la productividad en computadoras portátiles in
 - Ratón externo (no inalámbrico - la sustitución de baterías es costosa y problemática para el medio ambiente)
 - Teclado externo (no inalámbrico - la sustitución de baterías es costosa y problemática para el medio ambiente)
 - Pantalla externa
+
+## Requisitos de software
+
+### Compatibilidad de navegadores
+
+Open mSupply es una aplicación web, por lo que cada equipo cliente necesita un navegador web. Open mSupply solo es compatible con navegadores basados en Chromium:
+
+- **Chrome, Edge, Opera, Samsung Internet** o cualquier otro navegador basado en Chromium, versión **132 o posterior** (publicada en enero de 2025)
+
+Si abre Open mSupply en un navegador Chromium más antiguo, se muestra una advertencia al cargar la página y es posible que la aplicación no funcione correctamente. Actualice el navegador para continuar.
+
+**Firefox y Safari no son compatibles oficialmente.** Open mSupply se basa en los estándares web actuales, por lo que lo más probable es que una versión reciente de cualquier navegador moderno funcione, pero solo realizamos pruebas en navegadores basados en Chromium y solo podemos garantizar correcciones para los problemas que se produzcan en ellos. Internet Explorer no es compatible. En Android, utilice la aplicación móvil de Open mSupply en lugar de un navegador (consulte [Requisitos para tabletas / móviles](#requisitos-para-tabletas-moviles)).
+
+<div class="note">Las versiones de Open mSupply anteriores a la 3.2 utilizaban la interfaz de usuario anterior, que también podía abrirse en versiones recientes de Firefox y Safari. Para esas versiones también se recomienda Chrome o Edge.</div>
 
 ### Sistema de copia de seguridad
 

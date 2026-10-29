@@ -51,9 +51,7 @@ O registo de transações de stock é uma atividade essencial do Open mSupply. A
 
 ### Requisitos Mobile / tablet
 
-Pode utilizar um browser num tablet para se ligar a um servidor Open mSupply, e o único requisito aqui é um tablet suficientemente rápido com um browser como o Chrome ou o Firefox.
-
-Para uma solução autónoma e offline, também está disponível uma aplicação móvel para dispositivos Android.
+Para uma solução autónoma e offline, está também disponível uma aplicação móvel para dispositivos Android. Esta é a abordagem recomendada. Embora seja possível utilizar um browser num tablet para se ligar a um servidor Open mSupply, isso não é suportado. Um browser não permite utilizar a funcionalidade de descoberta do servidor nem a câmara para ler códigos de barras, entre outras limitações.
 
 Especificações recomendadas:
 Em suma, o Open mSupply mobile corre em tablets Android (não em telemóveis, pois há muitos dados para serem bem utilizados em ecrãs pequenos).
@@ -63,7 +61,7 @@ A aplicação requer pelo menos Android 10
 | :----------------- | :---------------- | :---------------- |
 | Tamanho do Display | 9.8 inches        | 10.1 inches       |
 | Resolução          | 768 x 1024 pixels | 800 x 1200 pixels |
-| Versão Android     | 10                | 14                |
+| Versão Android     | 9                 | 14                |
 | Processor          | 64 bit            | 64 bit            |
 | Memória RAM        | 2 Gb              | 4 Gb              |
 | Armazenamento      | 32 Gb             | 64 Gb             |
@@ -125,6 +123,20 @@ Em primeiro lugar, este é um bom momento para mencionar o nosso sistema de sinc
 - O download inicial do código Javascript é de cerca de 1 Mb, pelo que é melhor uma ligação de 512 kbps ou mais rápida (carrega em 10 segundos ou mais)
 - Necessita de uma ligação à Internet para utilizar o Open mSupply neste modo.
 - latência elevada (por exemplo, uma ligação por satélite ou sobrecarregada) resultará num desempenho mais lento
+
+## Requisitos de software
+
+### Compatibilidade de browsers
+
+O Open mSupply é uma aplicação web, pelo que é necessário um browser em cada máquina cliente. O Open mSupply suporta apenas browsers baseados em Chromium:
+
+- **Chrome, Edge, Opera, Samsung Internet** ou qualquer outro browser baseado em Chromium, versão **132 ou mais recente** (lançada em janeiro de 2025)
+
+Se abrir o Open mSupply num browser Chromium mais antigo, é apresentado um aviso ao carregar a página e a aplicação pode não funcionar corretamente. Atualize o browser para continuar.
+
+**O Firefox e o Safari não são oficialmente suportados.** O Open mSupply assenta nas normas web atuais, pelo que uma versão recente de qualquer browser moderno funcionará muito provavelmente, mas apenas testamos em browsers baseados em Chromium e só podemos garantir correções para problemas que ocorram nesses browsers. O Internet Explorer não é suportado. No Android, utilize a aplicação móvel Open mSupply em vez de um browser (consulte [Requisitos Mobile / tablet](#requisitos-mobile-tablet)).
+
+<div class="note">As versões do Open mSupply anteriores à 3.2 utilizavam a interface de utilizador anterior, que também podia ser aberta em versões recentes do Firefox e do Safari. O Chrome ou o Edge continuam a ser recomendados também para essas versões.</div>
 
 ## Sistema de backup
 
