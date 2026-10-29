@@ -60,9 +60,10 @@ La aplicación requiere al menos Android 5.0 (Lollipop).
 | :----------------- | :----------------- | :----------------- |
 | Tamaño de pantalla | 9.8 pulgadas       | 10.1 pulgadas      |
 | Resolución         | 768 x 1024 pixeles | 800 x 1200 pixeles |
-| Versión de Android | 5.0                | 8.1                |
-| Procesador         |                    | Quad-core 1.3GHz   |
-| Memoria            |                    | 1.5 Gb de RAM      |
+| Versión de Android | 9                  | 14                 |
+| Procesador         | 64 bit             | 64 bit             |
+| Memoria            | 2 Gb               | 4 Gb               |
+| Almacenamiento     | 32 Gb              | 64 Gb              |
 
 <div class="note">Si importa Fridge-tags necesitará al menos Android 12</div>
 

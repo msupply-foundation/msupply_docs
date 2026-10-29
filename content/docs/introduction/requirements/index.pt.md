@@ -61,7 +61,7 @@ A aplicação requer pelo menos Android 10
 | :----------------- | :---------------- | :---------------- |
 | Tamanho do Display | 9.8 inches        | 10.1 inches       |
 | Resolução          | 768 x 1024 pixels | 800 x 1200 pixels |
-| Versão Android     | 10                | 14                |
+| Versão Android     | 9                 | 14                |
 | Processor          | 64 bit            | 64 bit            |
 | Memória RAM        | 2 Gb              | 4 Gb              |
 | Armazenamento      | 32 Gb             | 64 Gb             |
