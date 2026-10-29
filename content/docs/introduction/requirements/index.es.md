@@ -116,7 +116,7 @@ Open mSupply es una aplicación web, por lo que cada equipo cliente necesita un 
 
 Si abre Open mSupply en un navegador Chromium más antiguo, se muestra una advertencia al cargar la página y es posible que la aplicación no funcione correctamente. Actualice el navegador para continuar.
 
-**Firefox, Safari e Internet Explorer no son compatibles.** Pueden funcionar parcialmente, pero Open mSupply no se prueba en ellos y los problemas no se corregirán. En Android, utilice la aplicación móvil de Open mSupply en lugar de un navegador (consulte [Requisitos para tabletas / móviles](#requisitos-para-tabletas-moviles)).
+**Firefox y Safari no son compatibles oficialmente.** Open mSupply se basa en los estándares web actuales, por lo que lo más probable es que una versión reciente de cualquier navegador moderno funcione, pero solo realizamos pruebas en navegadores basados en Chromium y solo podemos garantizar correcciones para los problemas que se produzcan en ellos. Internet Explorer no es compatible. En Android, utilice la aplicación móvil de Open mSupply en lugar de un navegador (consulte [Requisitos para tabletas / móviles](#requisitos-para-tabletas-moviles)).
 
 <div class="note">Las versiones de Open mSupply anteriores a la 3.2 utilizaban la interfaz de usuario anterior, que también podía abrirse en versiones recientes de Firefox y Safari. Para esas versiones también se recomienda Chrome o Edge.</div>
 

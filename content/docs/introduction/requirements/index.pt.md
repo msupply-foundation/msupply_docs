@@ -134,7 +134,7 @@ O Open mSupply é uma aplicação web, pelo que é necessário um browser em cad
 
 Se abrir o Open mSupply num browser Chromium mais antigo, é apresentado um aviso ao carregar a página e a aplicação pode não funcionar corretamente. Atualize o browser para continuar.
 
-**O Firefox, o Safari e o Internet Explorer não são suportados.** Podem funcionar parcialmente, mas o Open mSupply não é testado nesses browsers e os problemas não serão corrigidos. No Android, utilize a aplicação móvel Open mSupply em vez de um browser (consulte [Requisitos Mobile / tablet](#requisitos-mobile-tablet)).
+**O Firefox e o Safari não são oficialmente suportados.** O Open mSupply assenta nas normas web atuais, pelo que uma versão recente de qualquer browser moderno funcionará muito provavelmente, mas apenas testamos em browsers baseados em Chromium e só podemos garantir correções para problemas que ocorram nesses browsers. O Internet Explorer não é suportado. No Android, utilize a aplicação móvel Open mSupply em vez de um browser (consulte [Requisitos Mobile / tablet](#requisitos-mobile-tablet)).
 
 <div class="note">As versões do Open mSupply anteriores à 3.2 utilizavam a interface de utilizador anterior, que também podia ser aberta em versões recentes do Firefox e do Safari. O Chrome ou o Edge continuam a ser recomendados também para essas versões.</div>
 
