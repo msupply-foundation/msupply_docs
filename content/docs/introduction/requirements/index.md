@@ -180,13 +180,13 @@ An Open mSupply system is made up of three parts, and their versions must be com
 - **Open mSupply Central** — the single, special Open mSupply site that all remote sites synchronise with. Required from v2.0.00 onwards. See [Open mSupply Central Server](/docs/getting-started/central-server/).
 - **mSupply Central** — the (legacy) mSupply central server that Open mSupply still relies on for some centralised data.
 
-Every remote site talks to **both** central servers, so both of them must be new enough to support the remote.
+A remote site talks to **both** central servers, so both of them must be new enough to support the remote. The exception is a v3.0+ site that has moved to the newer sync method (sync v7): it talks only to Open mSupply Central, which contacts mSupply Central for it, so mSupply Central must still meet the minimum below. See [Open mSupply Central Server](/docs/getting-started/central-server/).
 
 <div class="note">
 <b>The rule:</b> your central servers must be the <b>same version as your remote sites, or newer</b> — never older. Because of this, when you upgrade, always upgrade your <b>Open mSupply Central</b> and <b>mSupply Central</b> servers <b>first</b>, and only then upgrade your remote sites.
 </div>
 
-This is because a remote site and the Open mSupply Central server communicate using a versioned synchronisation protocol. A remote site will only sync if the Open mSupply Central server is recent enough to understand the protocol version the remote is using. If the central server is too old, synchronisation is refused.
+This is because a remote site and the Open mSupply Central server communicate using a versioned synchronisation protocol. A remote site will only sync if the Open mSupply Central server is recent enough to understand the protocol version the remote is using. If the central server is too old, synchronisation is refused. A site on sync v7 is refused if it is newer than Open mSupply Central at all, even by a patch version.
 
 ### Version compatibility table
 
@@ -194,33 +194,55 @@ To use the table, find the **Open mSupply Remote** version you want to run in th
 
 | Open mSupply Remote | mSupply Central | Open mSupply Central |
 | :------------------ | :-------------- | -------------------- |
-| 2.21.02+            | 9.02.04+        | 2.21.02+             |
+| 3.0.00+ ¹           | 9.02.04+        | 3.0.00+              |
+| 2.21.01+            | 9.02.04+        | 2.21.01+             |
 | 2.20.00+            | 9.01.04+        | 2.20.00+             |
 | 2.13.00+            | 8.06.00+        | 2.13.00+             |
-| 2.10.00+            | 8.04.04+        | 2.10.00+             |
+| 2.10.01+            | 8.04.04+        | 2.10.01+             |
+| 2.10.00             | 8.03.12+        | 2.10.00+             |
 | 2.9.02+             | 8.03.12+        | 2.9.02+              |
-| 2.9.00+             | 8.03.04+        | 2.9.00+              |
+| 2.9.01              | 8.03.12+        | 2.9.01+              |
+| 2.9.00              | 8.03.04+        | 2.9.00+              |
 | 2.8.00+             | 8.02.00+        | 2.8.00+              |
+| 2.7.04+             | 8.02.00+        | 2.7.04+              |
 | 2.7.00+             | 8.01.03+        | 2.7.00+              |
+| 2.5.00+             | 7.18.08+        | 2.5.00+              |
+| 2.4.00+             | 7.18.08+        | 2.4.00+              |
 | 2.3.00+             | 7.17.01+        | 2.3.00+              |
-| 2.2.00+             | 7.14.04+        | 2.2.00+              |
-| 2.1.00+             | 7.14.04+        | 2.1.00+              |
-| 2.0.00+             | 7.14.04+        | 2.0.00+              |
+| 2.2.00+             | 7.14.02+        | 2.2.00+              |
+| 2.1.00+             | 7.14.02+        | 2.1.00+              |
+| 2.0.01+             | 7.14.02+        | 2.0.01+              |
+| 2.0.00              | 7.14.00+        | 2.0.00+              |
 | 1.4.00+             | 7.09.00+        | N/A                  |
-| 1.2.00+             | 7.05.05+        | N/A                  |
+| 1.2.00+             | 7.05.06+        | N/A                  |
 | 1.1.00 - 1.1.16     | 7.04.01+        | N/A                  |
 
-For example, to run an **Open mSupply Remote** site on **2.21.02**, you need **mSupply Central 9.02.04 or newer** and **Open mSupply Central 2.21.02 or newer**. (Versions 1.x predate the Open mSupply Central server, so `N/A` is shown in that column for those rows.)
+¹ A v3.0+ site can only move to sync v7 once all of its stores have been migrated to Open mSupply Central. See [Open mSupply Central Server](/docs/getting-started/central-server/).
 
-And from the perspective of the Open mSupply central server, here is the compatibility for versions of the remote server which you will require:
+As an example, to run an **Open mSupply Remote** site on **2.21.01**, you need **mSupply Central 9.02.04 or newer** and **Open mSupply Central 2.21.01 or newer**. (Versions 1.x predate the Open mSupply Central server, so `N/A` is shown in that column for those rows.)
+
+From the Open mSupply Central server's side, these are the remote versions it will accept. A remote newer than the maximum is refused:
 
 | Central server version | Min remote version | Max remote version |
 | :--------------------- | :----------------- | :----------------- |
-| v2.9.02+               | v2.1.00            |
-| v2.7.00+               | v2.1.00            | v2.9.01            |
-| v2.5.00+               | v2.1.00            | v2.6.05            |
-| v2.2.00+               | v2.1.00            | v2.4.03            |
-| v2.1.00                | v2.1.00            | v2.1.00            |
+| v3.0.00+               | v2.0.00            | No limit ²         |
+| v2.9.02+               | v2.0.00            | No limit           |
+| v2.7.00+               | v2.0.00            | v2.9.01            |
+| v2.5.00+               | v2.0.00            | v2.6.05            |
+| v2.2.00+               | v2.0.00            | v2.4.03            |
+| v2.1.00                | v2.0.00            | v2.1.00            |
+
+² Except sites on sync v7 (v3.0+), which must not be newer than the central.
+
+<div class="warning">
+Being accepted does not mean the combination works. Always follow the rule above. Known problems inside these ranges:
+<ul>
+<li>A 2.8.00+ remote with a 2.7.x central: demographic data fails to sync.</li>
+<li>A remote older than 2.17.00 with a 2.17.x – 2.19.x central: R&amp;R forms and vaccinations fail to sync (fixed in 2.20.00 centrals).</li>
+<li>A 2.20.00+ remote with a central older than 2.20.00: file uploads fail.</li>
+<li>Use 2.8.2 or later, not 2.8.0 or 2.8.1: stock lines fail to sync from some mSupply Central versions (2.8.0 with 8.02.07 – 8.02.10, 2.8.1 with 8.02.11 or newer).</li>
+</ul>
+</div>
 
 If you attempt to connect to an incompatible server you'll get an error message like this:
 
