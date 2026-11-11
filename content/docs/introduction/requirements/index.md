@@ -57,7 +57,7 @@ Recommended Specifications:
 In short, Open mSupply mobile runs on Android tablets (not on phones for general usage as there is too much data to use well on small phone screens).
 Note that there are some specific features which can run on phones, such as the GAPS feature.
 
-The application requires at least Android 10
+The application requires at least Android 9
 
 |                 | Minimum           | Recommended       |
 | :-------------- | :---------------- | :---------------- |

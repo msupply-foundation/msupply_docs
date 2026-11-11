@@ -54,7 +54,7 @@ Pour une solution autonome, hors ligne, une application mobile est également di
 
 Spécifications recommandées:
 En bref, Open mSupply mobile fonctionne sur tablette Android (pas sur les téléphones car les écrans de téléphone sont trop petits pour une utilisation efficace avec une grande quantité de données).
-L'application nécessite au moins Android 10.
+L'application nécessite au moins Android 9.
 
 |                 | Minimum           | Recommandé        |
 | :-------------- | :---------------- | :---------------- |
