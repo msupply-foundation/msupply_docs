@@ -224,7 +224,7 @@ To use the table, find the **Open mSupply Remote** version you want to run in th
 
 ¹ A v3.0+ site can only move to sync v7 once all of its stores have been migrated to Open mSupply Central. See [Open mSupply Central Server](/docs/getting-started/central-server/).
 
-For example, to run an **Open mSupply Remote** site on **2.21.01**, you need **mSupply Central 9.02.04 or newer** and **Open mSupply Central 2.21.01 or newer**. (Versions 1.x predate the Open mSupply Central server, so `N/A` is shown in that column for those rows.)
+As an example, to run an **Open mSupply Remote** site on **2.21.01**, you need **mSupply Central 9.02.04 or newer** and **Open mSupply Central 2.21.01 or newer**. (Versions 1.x predate the Open mSupply Central server, so `N/A` is shown in that column for those rows.)
 
 From the Open mSupply Central server's side, these are the remote versions it will accept. A remote newer than the maximum is refused:
 
