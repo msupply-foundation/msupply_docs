@@ -58,6 +58,10 @@ Putting a location on hold can be useful if:
 - The stock is a bulk quantity with the same expiry date as another stock line in another location from which you want stock issued. You can use this feature to force mSupply to always suggest issuing stock of this item from the 'issue' location rather than this 'bulk' location. When you have finished issuing stock from the 'issue' location, and you want to issue the stock that is in the 'bulk' location, you will need to either take the 'bulk' location off hold, move all stock or some of it (split) from the 'bulk' location into another location.
 </div>
 
+Click `Save` to create the location, or `Save & next` to create it and keep the window open to add another one. Either way, a `Location added` message shows at the bottom right of the locations list for about 2 seconds. If you have locations selected in the list, the message shows in the footer beside `Delete` and `Clear selection`.
+
+No message shows when you edit an existing location.
+
 ## Editing a new location
 
 To edit a location, simply tap on one in the location list.

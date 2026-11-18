@@ -157,7 +157,7 @@ If the [Manage vaccines in doses](/docs/manage/facilities/#store-preferences) st
 
 ![New stock line: pack quantity with doses](images/pack_qty_with_doses.png)
 
-Once you are happy with the batch information, click `OK`. This will save your new stock line by creating an `Inventory Adjustment`. You will be redirected to the Stock line details page.
+Once you are happy with the batch information, click `OK`. This will save your new stock line by creating an `Inventory Adjustment`. You will be redirected to the Stock line details page, where a `Stockline added` message shows at the bottom right of the screen for about 2 seconds.
 
 ## Viewing stock line details
 
