@@ -15,6 +15,10 @@ top = false
 
 The Global preferences list is available only on the [Open mSupply Central Server](/docs/getting-started/central-server). They are preferences which apply to all Open mSupply sites.
 
+<div class="note">
+To edit Global Preferences, including custom translations, your user needs the <b>Can modify central data</b> permission (see <a href="/docs/settings/permissions/">Permissions</a>) and must be logged in to the central server. Without that permission you can view the preferences but not change them.
+</div>
+
 ## Viewing Global Preferences
 
 To configure Global Preferences, go to the `Global Preferences` page under the `Manage` menu:
