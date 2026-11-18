@@ -84,7 +84,9 @@ If you have a patient or patients matching the name you have entered, you will b
 Clicking on the matching patient will re-direct you to the patient's details page.
 
 If no matching patients are found, or if you want to create a new patient using similar details to an existing one, click the `Create new patient` button to continue to the patient details page and complete the setup.
-Then, click the `Save` button at the bottom of the page to create the patient.
+Then, click the `Save` button at the bottom of the page to create the patient. A `Patient created` message shows at the bottom right of the patient's page for about 2 seconds.
+
+No message shows when you open an existing patient, or when you fetch a patient from another site (see [Lookup a Patient](#lookup-a-patient)).
 
 ![New patient creation form with fields for entering patient details](images/patient_creation_detail.png)
 
