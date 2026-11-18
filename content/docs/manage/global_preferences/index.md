@@ -140,7 +140,7 @@ There is a particular type of global configuration which is accessed in a specia
 
 Open mSupply tables are highly customisable. You can show or hide columns, reorder them, resize them, pin them, and change the row density. By default, these changes are saved only in your browser and apply only to you.
 
-Administrators on the central server can go one step further: they can save their current table configuration as a global default that applies to all users across the system. This sets a consistent baseline so that every user sees the same table layout until they choose to personalise it.
+Administrators on the central server can go one step further: they can save their current table configuration as a global default that applies to all users across the system, in the UI it was saved in. This sets a consistent baseline so that every user sees the same table layout until they choose to personalise it.
 
 ### Who can save global defaults
 
@@ -188,6 +188,12 @@ When any user opens a table, Open mSupply determines which configuration to disp
 3. **Built-in default** — If neither a personal customisation nor a global default exists, the application's built-in default is used
 
 Personal customisations always take priority. This means that users who prefer a different layout can still adjust tables to suit their own needs without being affected by the global default.
+
+### Old UI and new UI
+
+The new UI and the old UI (at `/old-ui/`) each keep their own table defaults and personal customisations. Saving a default or customising a table in one UI doesn't change the other.
+
+When a server is upgraded to version 3.4.1, the defaults saved in the old UI are copied to the new UI once. The first time each user signs in to the new UI in a browser, the customisations they made in the old UI in that browser are copied too, except for tables they've already arranged in the new UI. After that, changes made in one UI don't appear in the other.
 
 ### Resetting a table
 
