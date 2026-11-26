@@ -139,6 +139,7 @@ Here is the list of menu items, and the permission or condition which is needed 
 | Manage → Sync message                    | Permissions > Admin > Access server administration       | Central server                                                       |
 | Manage → Plugins                         | Permissions > Admin > Access server administration       | Central server                                                       |
 | Manage → Help documents                  | Permissions > Admin > Access server administration       | Central server                                                       |
+| Manage → Import and export               | Permissions > Admin > Access server administration       | Standalone central server                                            |
 | Reports                                  | Permissions (2) > Reports > View reports                 | —                                                                    |
 | Settings                                 | None                                                     | —                                                                    |
 | Help                                     | None                                                     | —                                                                    |
