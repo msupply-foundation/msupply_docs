@@ -107,7 +107,7 @@ Text columns are formatted as Text in Excel, so a code such as <code>007</code> 
 | **True or false**      | `TRUE` or `FALSE` (any letter case), or `1` or `0`                                                                                         |
 | **Whole number**       | A whole number. `3.0` is read as 3; `3.5` is an error                                                                                      |
 | **Number**             | Any number, such as `-18.5`                                                                                                                |
-| **Choice**             | One of the values listed for that column, in any letter case                                                                               |
+| **Choice**             | One of the values listed for that column, in any letter case. If a new record leaves a required choice blank, or a choice is mistyped, the problem lists the values it takes |
 | **Blank cell**         | When changing a record: keeps the current value of a required column, and clears an optional one. When adding a record: required columns can't be blank |
 
 ### How a row finds its record
@@ -172,7 +172,11 @@ The preview shows one card for each sheet in the file, with how many of its rows
 
 If there are no problems, open **Review _n_ changed rows** to see each row the import would write. For each updated row, **What changes** lists each changed column as `current → new`.
 
-Every change is applied together, or none are. Rows that wouldn't change anything aren't written, so they don't sync to remote sites. Importing a whole export again only touches the rows you edited.
+If there are no problems and something to change, the preview says **Upload successful! Click "Import" below to continue.** Under it, a note says that if there is a problem with any row, no data is imported: every change is applied together, or none are. The import checks the file again, so a row that has become a problem since the preview (because someone changed the same data, say) stops the whole import.
+
+If the file matches what's already saved, the preview says there's nothing to import, and the **Import** button stays disabled.
+
+Rows that wouldn't change anything aren't written, so they don't sync to remote sites. Importing a whole export again only touches the rows you edited.
 
 After the import, a message confirms how many records were added, updated and deleted. To import another file, click **Choose another file**.
 
