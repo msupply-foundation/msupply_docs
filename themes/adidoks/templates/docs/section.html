@@ -5,8 +5,9 @@
 {% endblock body %}
 
 {% block header %}
-  {# This value is matched by the config.extra.menu.main~section #}
-  {% set current_section = "docs" %}
+  {# Sets current_section to the docs version this section belongs to (e.g. "docs" or "docs/v3") #}
+  {% set section_candidates = section.ancestors | concat(with=section.relative_path) %}
+  {% set_global current_section = macros_version::section_of(candidates=section_candidates) %}
   {{ macros_header::header(current_section=current_section)}}
 {% endblock header %}
 
@@ -16,6 +17,7 @@
     <div class="row justify-content-center">
       <div class="col-md-12 col-lg-10 col-xxl-8">
         <article>
+          {{ macros_version::version_notice(current_section=current_section) }}
           <h1 class="text-center">{{ section.title }}</h1>
           <div class="text-center">{{ section.content | safe }}</div>
           <div class="card-list">
@@ -28,7 +30,11 @@
                 </div>
               </div>
             {% endfor %}
+            {# Other docs versions are nested sections; don't list their pages here #}
+            {% set version_sections = config.extra.docs_versions | default(value=[]) | map(attribute="section") %}
             {% for s in index.subsections %}
+              {% set s_dir = s | split(pat="/_index") | first %}
+              {% if s_dir in version_sections %}{% continue %}{% endif %}
               {% set subsection = get_section(path=s) %}
               {% if subsection.pages %}
                 {% for page in subsection.pages %}
@@ -37,7 +43,7 @@
                     <a class="stretched-link" href="{{ page.permalink }}">{{ page.title }} &rarr;</a>
                   </div>
                 </div>
-                {% endfor %}                                    
+                {% endfor %}
               {% endif %}
             {% endfor %}
           </div>

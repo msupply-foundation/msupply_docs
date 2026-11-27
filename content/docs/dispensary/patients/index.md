@@ -136,11 +136,7 @@ Select any patient and click on the `Insurance` tab. Here you can see the list o
 
 <div class="note">Policies will be considered expired from the start of the day specified in the <b>Expiry date</b> field</div>
 
-3. After filling out the form, click the `Save` button. Your newly created insurance will show in the list, and a confirmation message will appear.
-
-![Success confirmation message after adding insurance policy](images/insurance_success.png)
-
-4. If you forget to fill out a section of the form, the system will alert you and the details won't be saved.
+3. If you forget to fill out a section of the form, the system will alert you and the details won't be saved.
 
 ![Error alert shown when insurance form is submitted with missing required fields](images/insurance_failed_to_save.png)
 
@@ -156,8 +152,4 @@ Select any patient and click on the `Insurance` tab. Here you can see the list o
 
 3. Update the insurance information as needed.
 
-![Insurance edit modal showing updated fields ready to be saved](images/insurance_edit_modal.png)
-
 4. Once done with the updates, click the `Save` button. When successful, a confirmation message will appear, and your changes will be reflected immediately.
-
-![Success confirmation message after saving updated insurance information](images/insurance_success.png)

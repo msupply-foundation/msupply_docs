@@ -88,6 +88,32 @@ edit_page = false
 docs_repo = "https://github.com/openmsupply/mSupply_docs"
 repo_branch = "main"
 
+# Open mSupply documentation versions.
+#
+# Each version is a complete copy of the docs tree, rooted at the content path
+# given by `section` (no leading or trailing slash). The version rooted at plain
+# "docs" is served at /docs/ and is the one linked from the home page; other
+# versions are nested inside it (e.g. "docs/v3" is served at /docs/v3/).
+#
+#   label   shown in the version switcher in the docs sidebar
+#   section content path of the version's root section
+#   badge   optional short text shown next to the label, e.g. "current"
+#   notice  optional HTML shown in a banner at the top of every page of that version
+#
+# See README.md ("Documentation versions") and scripts/docs-version.sh for how
+# to snapshot the current docs into a new version and how to promote a version
+# to become the default.
+[[extra.docs_versions]]
+label = "v2"
+section = "docs/v2"
+badge = ""
+
+[[extra.docs_versions]]
+label = "v3.2"
+section = "docs"
+badge = "latest"
+# notice = "You are reading the documentation for Open mSupply <strong>v3.3</strong>, which is still in development and may change before release. Other versions:"
+
 # Menu items
 [[extra.menu.main]]
 name = ""

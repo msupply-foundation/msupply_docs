@@ -26,6 +26,15 @@
               <h1 class="text-center">Page not found :(</h1>
               <p class="text-center">The page you are looking for doesn't exist or has been moved.</p>
               <p class="text-center">Use the search box in the top right of the page to find the latest docs.</p>
+              {% set versions = config.extra.docs_versions | default(value=[]) %}
+              {% if versions | length > 1 %}
+              <p class="text-center">The Open mSupply documentation is available for these versions:</p>
+              <ul class="list-inline text-center">
+                {% for v in versions %}
+                <li class="list-inline-item"><a href="/{{ v.section | safe }}/">{{ v.label }}{% if v.badge %} ({{ v.badge }}){% endif %}</a></li>
+                {% endfor %}
+              </ul>
+              {% endif %}
               <p class="text-center">If you are looking for translations of our legacy documentation try one of the
                 links below</p>
 

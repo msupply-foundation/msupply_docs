@@ -89,9 +89,16 @@ Hay dos pestañas en la parte inferior de la pantalla:
 - **Volumen por paquete externo**: El volumen por defecto de un paquete de tamaño de paquete externo de este artículo
 - **Peso**: El peso de un paquete de tamaño preferido en kg
 
+### Tienda
+
+La pestaña Tienda muestra las configuraciones de este artículo que son específicas de tu tienda actual. Cada tienda puede tener valores diferentes.
+
+![Pestaña tienda detalle artículo](images-en/item_store_properties.png)
+
 #### Precios
 
-- **Margen**: Este es el margen por defecto que será aplicado a este artículo en Envíos Entrantes para calcular el precio de venta
+- **Precio de venta por defecto por paquete**: Este es el precio de venta por defecto que se asigna al stock nuevo cuando llega a tu tienda. Tiene prioridad sobre el `Margen` si ambos están definidos.
+- **Margen**: Este es el margen por defecto, en porcentaje, que será aplicado a este artículo en Envíos Entrantes para calcular el precio de venta
 
 ### Listas Maestras
 

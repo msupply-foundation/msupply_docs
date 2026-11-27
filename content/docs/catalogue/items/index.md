@@ -91,17 +91,16 @@ The general tab includes basic information about the item, including:
 - **Volume per outer pack**: The default volume of an Outer pack size pack of this item
 - **Weight**: The weight of a preferred pack size pack in kg
 
-**Pricing**
-
-- **Margin**: This is the default margin that will be applied to this item on Inbound Shipments to calculate the selling price
-
 ### Store
 
-The Store tab shows any configurations for this item that are specific to your current store.
+The Store tab shows any configurations for this item that are specific to your current store. Each store can have different values.
 
 ![Item detail store tab](images-en/item_store_properties.png)
 
-- **Default sell price**: This is the default sell price to be set on a new stock when it comes into your store. This takes priority over the `Default margin` if both are set.
+**Pricing**
+
+- **Default sell price per pack**: This is the default sell price to be set on a new stock when it comes into your store. This takes priority over the `Margin` if both are set.
+- **Margin**: This is the default margin, as a percentage, that will be applied to this item on Inbound Shipments to calculate the selling price
 
 ### Master Lists
 

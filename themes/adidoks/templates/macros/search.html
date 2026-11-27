@@ -90,6 +90,8 @@
       results.forEach((result) => {
         // this filters out any results that are not in the current section
         if (!result.ref.startsWith(currentSection)) return;
+        // ...and any that belong to another docs version nested inside it (see header.html)
+        if (typeof excludedSections !== 'undefined' && excludedSections.some((s) => result.ref.startsWith(s))) return;
 
         const { doc } = result;
         const li = document.createElement('li');

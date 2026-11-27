@@ -89,9 +89,16 @@ Há duas abas na parte inferior da tela:
 - **Volume por pacote externo**: O volume padrão de um pacote de tamanho de pacote externo deste item
 - **Peso**: O peso de um pacote de tamanho preferido em kg
 
+### Loja
+
+A aba Loja mostra as configurações deste item que são específicas da sua loja atual. Cada loja pode ter valores diferentes.
+
+![Aba loja detalhe item](images-en/item_store_properties.png)
+
 #### Preços
 
-- **Margem**: Esta é a margem padrão que será aplicada a este item em Remessas Recebidas para calcular o preço de venda
+- **Preço padrão de venda por pacote**: Este é o preço de venda padrão atribuído ao novo estoque quando ele chega à sua loja. Tem prioridade sobre a `Margem` se ambos estiverem definidos.
+- **Margem**: Esta é a margem padrão, em porcentagem, que será aplicada a este item em Remessas Recebidas para calcular o preço de venda
 
 ### Listas Principais
 

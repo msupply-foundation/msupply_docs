@@ -5,7 +5,9 @@
 {% endblock body %}
 
 {% block header %}
-  {% set current_section = "docs" %}
+  {# Sets current_section to the docs version this section belongs to #}
+  {% set section_candidates = section.ancestors | concat(with=section.relative_path) %}
+  {% set_global current_section = macros_version::section_of(candidates=section_candidates) %}
   {{ macros_header::header(current_section=current_section)}}
 {% endblock header %}
 

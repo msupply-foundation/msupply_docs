@@ -91,17 +91,16 @@ L'onglet général inclut les informations de base sur l'article, notamment :
 - **Volume par conditionnement externe** : Le volume par défaut d'un paquet de taille de conditionnement externe de cet article
 - **Poids** : Le poids d'un conditionnement de taille préférée en kg
 
-**Tarification**
-
-- **Marge** : C'est la marge par défaut qui sera appliquée à cet article sur les Livraisons Entrantes pour calculer le prix de vente
-
 ### Dépôt
 
-L'onglet Dépôt affiche les configurations spécifiques à votre dépôt actuel pour cet article.
+L'onglet Dépôt affiche les configurations spécifiques à votre dépôt actuel pour cet article. Chaque dépôt peut avoir des valeurs différentes.
 
 ![Onglet dépôt détail article](images-en/item_store_properties.png)
 
-- **Prix de vente par défaut** : C'est le prix de vente par défaut à définir sur un nouveau stock à son arrivée dans votre dépôt. Ce paramètre est prioritaire sur la `Marge par défaut` si les deux sont définis.
+**Tarification**
+
+- **Prix de vente par conditionnement** : C'est le prix de vente par défaut à définir sur un nouveau stock à son arrivée dans votre dépôt. Ce paramètre est prioritaire sur la `Marge` si les deux sont définis.
+- **Marge** : C'est la marge par défaut, en pourcentage, qui sera appliquée à cet article sur les Livraisons Entrantes pour calculer le prix de vente
 
 ### Listes Maîtresses
 

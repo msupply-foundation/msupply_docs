@@ -14,6 +14,15 @@
 <script>
 	const currentSection = `${location.origin}{{ url_suffix | safe }}/${"{{ current_section | safe }}".replace(/\/$/, '')}`;
 	const currentLanguage = "{{ lang | safe }}";
+	// Docs versions nested inside the current section (e.g. /docs/v3 inside /docs) are
+	// excluded from search results, so each version only searches itself.
+	const excludedSections = [
+		{%- for v in config.extra.docs_versions | default(value=[]) -%}
+			{%- if v.section != current_section and v.section is starting_with(current_section ~ "/") -%}
+		`${location.origin}{{ url_suffix | safe }}/{{ v.section | safe }}/`,
+			{%- endif -%}
+		{%- endfor -%}
+	];
 </script>
 
 <div class="header-bar fixed-top"></div>
@@ -52,13 +61,13 @@
 				{% set mainsec = get_section(path=rootsectionpath) %}
 				{% if mainsec.extra.menu.main %}
 					{% for val in mainsec.extra.menu.main %}
-						<li class="nav-item{% if current_section == val.section %} {{ current_section }} active{% endif %}">
+						<li class="nav-item{% if current_section == val.section or current_section is starting_with(val.section ~ "/") %} {{ val.section }} active{% endif %}">
 							<a class="nav-link" href="{{ get_url(path=val.url, trailing_slash=true) | safe }}">{{ val.name }}</a>
 						</li>
 					{% endfor %}
 				{% elif config.extra.menu.main %}
 					{% for val in config.extra.menu.main %}
-						<li class="nav-item{% if current_section == val.section %} {{ current_section }} active{% endif %}">
+						<li class="nav-item{% if current_section == val.section or current_section is starting_with(val.section ~ "/") %} {{ val.section }} active{% endif %}">
 							<a class="nav-link" href="{{ get_url(path=val.url, trailing_slash=true) | safe }}">{{ val.name }}</a>
 						</li>
 					{% endfor %}
